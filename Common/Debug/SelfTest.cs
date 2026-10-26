@@ -45,6 +45,14 @@ namespace CalamityFandom.Common.Debug
             ("item", "LoreDesertScourge", "The Desert Scourge"),
             ("item", "LoreYharon", "Jungle Dragon, Yharon"),
             ("item", "LoreRavager", "Meatmetal Sans"),
+            // Chaîne de renommages (Caustic Edge -> Tainted Blade, True Caustic Edge -> Caustic Edge), page de groupe
+            // (Draedon's Logs), nom par défaut de tModLoader en 2022 (EutrophicChair -> « Eutrophic Chair »)
+            ("item", "TrueCausticEdge", "True Caustic Edge"),
+            ("item", "TaintedBlade", "Caustic Edge"),
+            ("item", "DraedonsLogHell", "Draedon's Log - Hell"),
+            ("item", "NavystoneChair", "Eutrophic Chair"),
+            ("item", "SightseerSpitterBanner", "Big Sightseer Banner"),
+            ("npc", "CrimulanPaladin", "Crimulan Slime God"),
         };
 
         public override void PostSetupRecipes()

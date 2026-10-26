@@ -24,12 +24,17 @@ from wiki_index import CALAMITY, ROOT, calamity_display_names, norm  # noqa: E40
 CACHE = os.path.join(ROOT, "data", "calamity_renames.json")
 BASELINE = "3ec8f553ed"
 # À incrémenter quand compute() change (le cache est aussi recalculé si le dépôt de Calamity change)
-VERSION = 5
+VERSION = 8
 
 
 def git(*args):
     return subprocess.run(["git", "-C", CALAMITY, *args], capture_output=True, text=True, encoding="utf-8",
                           errors="replace", check=True).stdout
+
+
+def split_class(cls):
+    """Nom affiché par défaut de tModLoader pour une classe sans DisplayName : « EutrophicBathtub » -> « Eutrophic Bathtub »."""
+    return re.sub(r"(?<=[a-z0-9])(?=[A-Z])", " ", cls)
 
 
 def same_name(a, b):
@@ -104,8 +109,10 @@ def compute():
         kind, path = old_classes[old]
         if new_classes[new][0] != kind:
             continue
-        renames.append({"old": old, "new": new, "kind": kind, "oldName": old_names.get(path) or old,
-                        "newName": current.get(new, new), "similarity": score[old]})
+        # declared : le vieux code déclarait le nom ; sinon tModLoader affichait le nom de classe découpé
+        # (« EutrophicBathtub » -> « Eutrophic Bathtub »)
+        renames.append({"old": old, "new": new, "kind": kind, "oldName": old_names.get(path) or split_class(old),
+                        "newName": current.get(new, new), "similarity": score[old], "declared": bool(old_names.get(path))})
     for old, new, path in legacy:
         if old in final or old not in old_classes or new not in new_classes or old in new_classes:
             continue
@@ -114,7 +121,7 @@ def compute():
         before, now = old_names.get(old_path), current.get(new, new)
         if before and new_classes[new][0] == kind and (path.startswith("Items/LoreItems/") or same_name(before, now)):
             renames.append({"old": old, "new": new, "kind": kind, "oldName": before, "newName": now, "similarity": 100,
-                            "source": "LegacyName"})
+                            "source": "LegacyName", "declared": True})
     # Même classe, nom affiché changé (SilvaBasin : « Effulgent Manipulator » en 2022, « Silva Basin » aujourd'hui).
     # Seulement quand l'ancien nom est connu (DisplayName.SetDefault du vieux code).
     # Le vieux nom est lu par fichier : un fichier qui déclarait plusieurs objets (casque + plastron) ne compte pas.
@@ -127,8 +134,12 @@ def compute():
         if not before or not now or now.startswith("{$") or per_path[path] != 1:
             continue
         if norm(before) != norm(now) and new_classes[cls][0] == kind:
-            renames.append({"old": cls, "new": cls, "kind": kind, "oldName": before, "newName": now, "similarity": 100})
-    return renames
+            renames.append({"old": cls, "new": cls, "kind": kind, "oldName": before, "newName": now, "similarity": 100,
+                            "declared": True})
+    # Nom de classe repris par un autre objet (NavystoneWallSafe -> NavystoneWall, l'ancien NavystoneWall « Unsafe »
+    # ayant disparu) : ce n'est pas un changement de nom affiché de la même classe
+    reused = {r["new"] for r in renames if r["old"] != r["new"]}
+    return [r for r in renames if r["old"] != r["new"] or r["new"] not in reused]
 
 
 def load():

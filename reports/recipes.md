@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1039 objets dont les recettes ont changé : 929 recettes modifiées, 172 créées
+- 1061 objets dont les recettes ont changé : 951 recettes modifiées, 173 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 133 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 154 recettes
+- 130 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 151 recettes
 
 ## Recettes changées
 
@@ -376,8 +376,27 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Eternity | 1 Heresy, 5 Shadowspec Bar, 20 Dark Plasma, 5 Unicorn Horn @ DraedonsForge → 1 | 1 Seething Discharge, 1 Slithering Eels, 1 Biofusillade, 1 Primordial Ancient, 1 Heresy, 20 Dark Plasma, 5 Unicorn Horn, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Ethereal Subjugator | (nouvelle) | 5 Haunted Bar @ LunarCraftingStation → 1 |
 | Ethereal Talisman | 1 Sigil of Calamitas, 1 Any Mana Flower, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Sigil of Calamitas, 1 Any Mana Flower, 8 Luminite Bar, 4 Galactica Singularity, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| Eutrophic Bathtub | 14 Smooth Navystone @ Sawmill → 1 | 14 Navystone @ EutrophicShelf → 1 |
+| Eutrophic Bed | 15 Smooth Navystone, 5 Silk @ Sawmill → 1 | 15 Navystone, 5 Silk @ EutrophicShelf → 1 |
+| Eutrophic Bench | 8 Smooth Navystone @ Sawmill → 1 | 10 Navystone @ EutrophicShelf → 1 |
+| Eutrophic Bookcase | 20 Smooth Navystone, 10 Book @ Sawmill → 1 | 20 Navystone, 10 Book @ EutrophicShelf → 1 |
+| Eutrophic Candelabra | 5 Smooth Navystone, 3 Torch @ WorkBenches → 1 | 5 Navystone, 3 Sea Prism @ EutrophicShelf → 1 |
+| Eutrophic Candle | 4 Smooth Navystone, 1 Torch @ WorkBenches → 1 | 4 Navystone, 1 Sea Prism @ EutrophicShelf → 1 |
+| Eutrophic Chair | 4 Smooth Navystone @ WorkBenches → 1 | 4 Navystone @ EutrophicShelf → 1 |
+| Eutrophic Chandelier | 4 Smooth Navystone, 4 Torch, 1 Chain @ Anvils → 1 | 4 Navystone, 4 Prism Shard, 1 Sea Prism @ EutrophicShelf → 1 |
+| Eutrophic Chest | 8 Smooth Navystone, 2 Any Iron Bar @ WorkBenches → 1 | 8 Navystone, 2 Prism Shard @ EutrophicShelf → 1 |
+| Eutrophic Clock | 10 Smooth Navystone, 3 Any Iron Bar, 6 Glass @ Sawmill → 1 | 10 Navystone, 6 Sea Prism, 3 Prism Shard @ EutrophicShelf → 1 |
+| Eutrophic Door | 6 Smooth Navystone @ WorkBenches → 1 | 6 Navystone @ EutrophicShelf → 1 |
+| Eutrophic Dresser | 16 Smooth Navystone @ Sawmill → 1 | 16 Navystone @ EutrophicShelf → 1 |
+| Eutrophic Lamp | 3 Smooth Navystone, 1 Torch @ WorkBenches → 1 | 3 Navystone, 1 Sea Prism @ EutrophicShelf → 1 |
+| Eutrophic Lantern | 6 Smooth Navystone, 1 Torch @ WorkBenches → 1 | 6 Navystone, 1 Sea Prism @ EutrophicShelf → 1 |
+| Eutrophic Piano | 15 Smooth Navystone, 4 Bone, 1 Book @ Sawmill → 1 | 15 Navystone, 4 Bone, 1 Book @ EutrophicShelf → 1 |
+| Eutrophic Platform | 1 Smooth Navystone @ main → 2 | 1 Navystone @ EutrophicShelf → 2 |
 | Eutrophic Sand | (nouvelle) | 4 Unsafe Eutrophic Sand Wall @ WorkBenches → 1 |
 | Eutrophic Shelf | 10 Ancient Smooth Navystone, 5 Sea Prism, 5 Prism Shard, 3 Conquest Fragment @ Sawmill → 1 | 10 Navystone, 5 Sea Prism, 5 Prism Shard @ WorkBenches → 1 |
+| Eutrophic Sink | 6 Smooth Navystone, 1 Water Bucket @ WorkBenches → 1 | 6 Navystone, 1 Water Bucket @ EutrophicShelf → 1 |
+| Eutrophic Table | 8 Smooth Navystone @ WorkBenches → 1 | 8 Navystone @ EutrophicShelf → 1 |
+| Eutrophic Work Bench | 10 Smooth Navystone @ main → 1 | 10 Navystone @ EutrophicShelf → 1 |
 | Evasion Scarf | 1 Counter Scarf, 5 Soul of Light, 5 Soul of Night, 15 Silk @ MythrilAnvil → 1 | 1 Counter Scarf, 5 Soul of Light, 5 Soul of Night @ MythrilAnvil → 1 |
 | Event Horizon | 1 Starfall, 1 Nuclear Fury, 1 Relic of Ruin, 3 Dark Plasma @ Bookcases → 1 | 1 Starfall, 1 Nuclear Fury, 8 Cosmilite Bar, 8 Darksun Fragment @ Bookcases → 1 |
 | Everclear | (nouvelle) | 5 Margarita, 10 Blood Orb, 1 Aureus Cell @ AlchemyTable → 5 |
@@ -603,7 +622,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Nasty Cholla | 8 Cactus @ WorkBenches → 1 | 1 Acorn @ WorkBenches → 15 |
 | Navy Fishing Rod | 1 Conquest Fragment, 5 Sea Prism, 8 Navystone @ Anvils → 1 | 5 Sea Prism, 8 Navystone @ Anvils → 1 |
 | Navyplate | 25 Obsidian, 1 Sea Prism @ Hellforge → 25 | 1 Sea Prism, 3 Obsidian @ Hellforge → 3 |
-| Navystone | 2 EutrophicPlatform @ main → 1 | 4 Unsafe Navystone Wall @ WorkBenches → 1 |
+| Navystone | 2 Eutrophic Platform @ main → 1 | 2 Eutrophic Platform @ EutrophicShelf → 1 |
+| Navystone | (nouvelle) | 4 Unsafe Navystone Wall @ WorkBenches → 1 |
 | Necklace of Vexation | 1 Avenger Emblem, 10 Perennial Bar @ MythrilAnvil → 1 | 2 Perennial Bar, 30 Soul of Bright, 1 Avenger Emblem, 1 Thorn Hook @ MythrilAnvil → 1 |
 | Necroplasmic Beacon | 25 Any Wood, 50 Phantoplasm @ MythrilAnvil → 1 | 25 Acidwood, 75 Ectoplasm @ LunarCraftingStation → 1 |
 | Neptune's Bounty | 1 Abyss Blade, 6 Reaper Tooth, 5 Ruinous Soul @ MythrilAnvil → 1 | 1 Abyss Blade, 5 Ruinous Soul, 5 Phantoplasm, 15 Depth Cells, 15 Lumenyl, 5 Tenebris @ LunarCraftingStation → 1 |
@@ -980,6 +1000,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Terror Blade | (nouvelle) | 5 Haunted Bar @ LunarCraftingStation → 1 |
 | Terror Talons | 5 Chlorophyte Bar, 10 Leather @ MythrilAnvil → 1 | 1 Feral Claws, 5 Chlorophyte Bar, 10 Soul of Fright @ MythrilAnvil → 1 |
 | Tesla Cannon | 25 Mysterious Circuitry, 15 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| Thaumatic Chair | 1 Abyss Chair, 1 Acidwood Chair, 1 Ancient Chair, 1 Ashen Chair, 1 Botanic Chair, 1 Cosmilite Chair, 1 Eutrophic Chair, 1 Exo Chair, 1 Marnite Chair, 1 Monolith Chair, 1 Sacrilegious Chair, 1 Otherworldly Chair, 1 Plagued Chair, 1 Profaned Chair, 1 Silva Chair, 1 Statigel Chair, 1 Stratus Chair, 1 Void Chair, 1 Wulfrum Chair, 1 Auric Bar @ CosmicAnvil → 1 | 1 Abyss Chair, 1 Ashen Chair, 1 Botanic Chair, 1 Cosmilite Chair, 1 Eutrophic Chair, 1 Monolith Chair, 1 Otherworldly Chair, 1 Plagued Chair, 1 Profaned Chair, 1 Silva Chair, 1 Statigel Chair, 1 Stratus Chair, 1 Void Chair, 1 Auric Bar @ CosmicAnvil → 1 |
 | The Absorber | 1 Grand Gelatin, 1 Baroclaw, 1 Giant Tortoise Shell, 5 Mollusk Husk, 14 Meld Blob @ LunarCraftingStation → 1 | 1 Grand Gelatin, 1 Craw Carapace / Giant Shell, 1 Fungal Carapace, 1 Giant Tortoise Shell, 1 Regenator, 1 Rover Drive, 15 Depth Cells, 15 Lumenyl, 5 Tenebris, 5 Mollusk Husk, 10 Essential Essence Bar, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | The Anomaly's Nanogun | 20 Mysterious Circuitry, 20 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | The Ballista | 1 Marrow, 1 Forbidden Fragment, 5 Ectoplasm @ MythrilAnvil → 1 | 1 Marrow, 1 Forbidden Fragment, 10 Ectoplasm @ MythrilAnvil → 1 |
@@ -1033,6 +1054,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Triactis' True Paladinian Mage-Hammer of Might | 1 Galaxy Smasher, 5 Shadowspec Bar, 5 Life Alloy @ DraedonsForge → 1 | 1 Galaxy Smasher, 30 Soul of Might, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Triboluminescent Etomer | 8 Any Gold Bar, 5 Prism Shard, 5 Scorched Bone @ Anvils → 1 | 5 Prism Shard, 8 Any Gold Bar, 1 Demonic Bone Ash @ Anvils → 1 |
 | True Biome Blade | 1 Biome Blade, 18 Astral Bar, 6 Life Alloy, 3 Core of Calamity @ LunarCraftingStation → 1 | 1 Biome Blade, 1 Broken Hero Sword, 3 Astral Bar, 3 Life Alloy, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
+| True Caustic Edge | 1 Caustic Edge, 8 Cursed Flame or Ichor, 8 Spider Fang @ Anvils → 1 | 1 Caustic Edge, 5 Any Evil Flask, 5 Flask of Poison, 4 Deathweed @ DemonAltar → 1 |
 | True Forbidden Oathblade | 1 Forbidden Oathblade, 1 Broken Hero Sword, 8 Abyss Bar @ MythrilAnvil → 1 | 1 Forbidden Oathblade, 1 Broken Hero Sword, 3 Infected Armor Plating, 3 Ashes of Calamity @ MythrilAnvil → 1 |
 | True Tyrant's Ultisword | 1 Tyrant Yharim's Ultisword, 10 Tarragon Bar, 5 Core of Calamity @ MythrilAnvil → 1 | 1 Tyrant Yharim's Ultisword, 1 Core of Calamity, 800 Delicious Meat, 59 Alloy Bar @ DemonAltar → 1 |
 | Tundra Flame Blossoms Staff | 1 Cinder Blossom Staff, 1 Frost Blossom Staff, 5 Any Mythril Bar @ MythrilAnvil → 1 | 1 Cinder Blossom Staff, 1 Frost Blossom Staff, 5 Soul of Light @ MythrilAnvil → 1 |
@@ -1040,6 +1062,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Twisted Netherite Bar | (nouvelle) | 1 Twisting Nether, 3 Cosmilite Slag @ HeavyWorkBench → 3 |
 | Typhon's Greed | 30 Voidstone, 30 Depth Cells @ MythrilAnvil → 1 | 30 Depth Cells, 10 Lumenyl, 10 Crocodile Scale @ MythrilAnvil → 1 |
 | Tyranny's End | 1 Rubico Prime, 1 Anti-materiel Rifle, 5 Auric Bar, 3 Life Alloy @ CosmicAnvil → 1 | 1 Golden Eagle, 1 Anti-materiel Rifle, 5 Auric Bar @ CosmicAnvil → 1 |
+| Tyrant Yharim's Ultisword | 1 True Caustic Edge, 1 Broken Hero Sword, 10 Chlorophyte Bar, 10 Vial of Venom @ MythrilAnvil → 1 | 1 True Caustic Edge, 1 Broken Hero Sword, 5 Flask of Venom, 15 Chlorophyte Bar, 5 Alloy Bar @ DemonAltar → 1 |
 | Uelibloom Brick | 2 Botanic Platform @ main → 1 | 2 Botanic Platform @ BotanicPlanter → 1 |
 | Uelibloom Brick | 4 Uelibloom Brick Wall @ WorkBenches → 1 | 4 Uelibloom Brick Wall @ BotanicPlanter → 1 |
 | Uelibloom Brick | 50 Any Stone Block, 1 Tarragon Ore @ AdamantiteForge → 50 | 1 Tarragon Ore, 1 Any Stone Block @ Furnaces → 1 |
@@ -1166,8 +1189,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Elemental Bow — 1
 - objet : Elemental Claymore — 1
 - objet : Ethereal Knives — 1
-- objet : Eutrophic Chair — 1
-- objet : Eutrophic Platform — 1
 - objet : Exactory Dartshooter — 1
 - objet : Exo Gladius — 1
 - objet : Exodimus — 1
@@ -1237,7 +1258,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : The King's Gambit — 1
 - objet : The Princess — 1
 - objet : Trash of Magnus — 1
-- objet : True Caustic Edge — 1
 - objet : Twisted Netherite Scythe — 1
 - objet : Unsealed Singularity — 1
 - objet : Urchin Flail — 1

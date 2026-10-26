@@ -267,6 +267,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Ravager « Meatmetal Sans », du Moon Lord « Moon Lord » (texte de Requiem) ; Full Fandom : pas de lore de Signus,
       Storm Weaver, Queen Slime ni Empress of Light, mais celui de Cryogen et de Meatmetal Sans existent
 - [ ] Premier kill de Cryogen : lâche le lore « Cryogen » (une seule fois, pas de doublon)
+- [ ] Noms corrigés (26/10) : **Caustic Edge** (l'ancienne, pré-Hardmode) et **True Caustic Edge** sont deux objets
+      distincts ; les 5 journaux de Draedon ont chacun leur nom (« Draedon's Log - Hell »...) ; meubles **Eutrophic**
+      (Eutrophic Chair, Bathtub...) au lieu de « EutrophicChair » ; bannières Big/Small Sightseer, Flounder, Catfish...
 - [ ] Le sac d'Astral Deus et celui de Meatmetal Sans reçoivent leur contenu du wiki (page Treasure Bag) : trophée à 10 %
       dans le sac d'Astral Deus, Greater Healing Potion...
 - [ ] Portages du 26/10 (Cheat Sheet) :

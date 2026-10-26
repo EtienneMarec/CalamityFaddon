@@ -55,6 +55,13 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
   main au glossaire (le vieux code n'avait pas de nom déclaré) : débloque la station des meubles Silva (24 recettes).
   **[technique]** Le nom rendu est le titre de la page (redirections suivies : Fabsol's Vodka → Fluorescent Vodka), sauf
   redirection vers une page de groupe (Treasure Bag (Calamitas) → Treasure Bag : l'ancien nom reste).
+- **[technique 26/10]** Corrections des renommages : (1) **chaîne** Caustic Edge → Tainted Blade et True Caustic Edge →
+  Caustic Edge : la page « Caustic Edge » appartient à l'autre objet, elle ne protège pas le nouveau nom (avant, les deux
+  s'appelaient « Caustic Edge ») ; (2) plusieurs objets envoyés vers **la même page** (les 5 Draedon's Logs, Crimulan /
+  Ebonian Slime God vers The Slime God) : page de groupe, chacun garde son ancien nom (avant : tous « Draedon's Logs »,
+  « The Slime God ») ; (3) **ancien nom non déclaré** dans le vieux code : c'est le nom de classe découpé que tModLoader
+  affichait (« Eutrophic Bathtub », « Big Sightseer Banner » ; avant : « EutrophicBathtub », « Banners ») ; (4) **nom de
+  classe repris** par un autre objet (NavystoneWallSafe → NavystoneWall) : pas un changement de nom de la même classe.
 - **[choix 26/10]** Renommages aussi lus dans les attributs **`[LegacyName]`** de Calamity (la sauvegarde garde l'objet),
   que l'historique git rate quand le fichier a été réécrit. Comme c'est souvent un objet différent (Gehenna → Slagsplitter
   Pauldron, Soul Edge → Void Edge, Holy Wrath Potion → Flask of Holy Flames), seulement quand le nom affiché de 2022

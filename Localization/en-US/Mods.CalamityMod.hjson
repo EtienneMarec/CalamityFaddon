@@ -609,23 +609,23 @@
 		{
 			DraedonsLogHell:
 			{
-				DisplayName: Draedon's Logs
+				DisplayName: Draedon's Log - Hell
 			}
 			DraedonsLogJungle:
 			{
-				DisplayName: Draedon's Logs
+				DisplayName: Draedon's Log - The Jungle and Plague
 			}
 			DraedonsLogPlanetoid:
 			{
-				DisplayName: Draedon's Logs
+				DisplayName: Draedon's Log - Space
 			}
 			DraedonsLogSnowBiome:
 			{
-				DisplayName: Draedon's Logs
+				DisplayName: Draedon's Log - The Frozen Wasteland
 			}
 			DraedonsLogSunkenSea:
 			{
-				DisplayName: Draedon's Logs
+				DisplayName: Draedon's Log - Study on Sunken Aquatic Life
 			}
 			WhiteSeekingMechanism:
 			{
@@ -835,7 +835,7 @@
 			}
 			BurrowerBanner:
 			{
-				DisplayName: Banners
+				DisplayName: Armored Digger Banner
 			}
 			CalamitasCloneTrophy:
 			{
@@ -859,7 +859,7 @@
 			}
 			InfernalCongealmentBanner:
 			{
-				DisplayName: Banners
+				DisplayName: Charred Slime Banner
 			}
 			InfernalSuevite:
 			{
@@ -867,79 +867,79 @@
 			}
 			NavystoneBathtub:
 			{
-				DisplayName: EutrophicBathtub
+				DisplayName: Eutrophic Bathtub
 			}
 			NavystoneBed:
 			{
-				DisplayName: EutrophicBed
+				DisplayName: Eutrophic Bed
 			}
 			NavystoneBookcase:
 			{
-				DisplayName: EutrophicBookcase
+				DisplayName: Eutrophic Bookcase
 			}
 			NavystoneCandelabra:
 			{
-				DisplayName: EutrophicCandelabra
+				DisplayName: Eutrophic Candelabra
 			}
 			NavystoneCandle:
 			{
-				DisplayName: EutrophicCandle
+				DisplayName: Eutrophic Candle
 			}
 			NavystoneChair:
 			{
-				DisplayName: EutrophicChair
+				DisplayName: Eutrophic Chair
 			}
 			NavystoneChandelier:
 			{
-				DisplayName: EutrophicChandelier
+				DisplayName: Eutrophic Chandelier
 			}
 			NavystoneChest:
 			{
-				DisplayName: EutrophicChest
+				DisplayName: Eutrophic Chest
 			}
 			NavystoneClock:
 			{
-				DisplayName: EutrophicClock
+				DisplayName: Eutrophic Clock
 			}
 			NavystoneDoor:
 			{
-				DisplayName: EutrophicDoor
+				DisplayName: Eutrophic Door
 			}
 			NavystoneDresser:
 			{
-				DisplayName: EutrophicDresser
+				DisplayName: Eutrophic Dresser
 			}
 			NavystoneLamp:
 			{
-				DisplayName: EutrophicLamp
+				DisplayName: Eutrophic Lamp
 			}
 			NavystoneLantern:
 			{
-				DisplayName: EutrophicLantern
+				DisplayName: Eutrophic Lantern
 			}
 			NavystoneLyre:
 			{
-				DisplayName: EutrophicPiano
+				DisplayName: Eutrophic Piano
 			}
 			NavystonePlatform:
 			{
-				DisplayName: EutrophicPlatform
+				DisplayName: Eutrophic Platform
 			}
 			NavystoneSink:
 			{
-				DisplayName: EutrophicSink
+				DisplayName: Eutrophic Sink
 			}
 			NavystoneTable:
 			{
-				DisplayName: EutrophicTable
+				DisplayName: Eutrophic Table
 			}
 			NavystoneTriclinium:
 			{
-				DisplayName: EutrophicBench
+				DisplayName: Eutrophic Bench
 			}
 			NavystoneWorkBench:
 			{
-				DisplayName: EutrophicWorkBench
+				DisplayName: Eutrophic Work Bench
 			}
 			RavagerRelic:
 			{
@@ -951,7 +951,7 @@
 			}
 			RenegadeWarlockBanner:
 			{
-				DisplayName: Banners
+				DisplayName: Cultist Assassin Banner
 			}
 			ScoriaOre:
 			{
@@ -959,11 +959,11 @@
 			}
 			SightseerColliderBanner:
 			{
-				DisplayName: Banners
+				DisplayName: Small Sightseer Banner
 			}
 			SightseerSpitterBanner:
 			{
-				DisplayName: Banners
+				DisplayName: Big Sightseer Banner
 			}
 			SilvaBasin:
 			{
@@ -971,7 +971,7 @@
 			}
 			SulflounderBanner:
 			{
-				DisplayName: Banners
+				DisplayName: Flounder Banner
 			}
 			SupremeCalamitasTrophy:
 			{
@@ -979,7 +979,7 @@
 			}
 			ToxicatfishBanner:
 			{
-				DisplayName: Banners
+				DisplayName: Catfish Banner
 			}
 			UelibloomOre:
 			{
@@ -1243,6 +1243,10 @@
 				{
 					DisplayName: Caustic Edge
 				}
+				TrueCausticEdge:
+				{
+					DisplayName: True Caustic Edge
+				}
 				VanishingPoint:
 				{
 					DisplayName: Elemental Lance
@@ -1451,7 +1455,7 @@
 		}
 		CrimulanPaladin:
 		{
-			DisplayName: The Slime God
+			DisplayName: Crimulan Slime God
 		}
 		DesertNuisanceHead:
 		{
@@ -1463,7 +1467,7 @@
 		}
 		EbonianPaladin:
 		{
-			DisplayName: The Slime God
+			DisplayName: Ebonian Slime God
 		}
 		Glomerling:
 		{
@@ -1512,11 +1516,11 @@
 		}
 		SplitCrimulanPaladin:
 		{
-			DisplayName: The Slime God
+			DisplayName: Crimulan Slime God
 		}
 		SplitEbonianPaladin:
 		{
-			DisplayName: The Slime God
+			DisplayName: Ebonian Slime God
 		}
 		Sulflounder:
 		{

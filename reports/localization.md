@@ -2,7 +2,7 @@
 
 _Généré par `tools/gen_localization.py`._
 
-339 textes modifiés, dont 225 noms.
+340 textes modifiés, dont 226 noms.
 
 Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, Realm Ravager, going rogue, goes rogue, gone rogue, went rogue, go rogue.
 
@@ -47,15 +47,16 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Placeables.CataclysmTrophy.DisplayName` | Cataclysmic Construct Trophy | Cataclysm Trophy |
 | `NPCs.Catastrophe.DisplayName` | Catastrophic Construct | Catastrophe |
 | `Items.Placeables.CatastropheTrophy.DisplayName` | Catastrophic Construct Trophy | Catastrophe Trophy |
+| `Items.Weapons.Melee.TrueCausticEdge.DisplayName` | Caustic Edge | True Caustic Edge |
 | `Items.Lore.LoreCeaselessVoid.DisplayName` | Ceaseless Void | The Sentinels of the Devourer |
 | `Items.Accessories.ChaliceOfTheBloodGod.DisplayName` | Chalice of the Blood God | Core of the Blood God |
 | `Items.Weapons.Ranged.ChromaticEruption.DisplayName` | Chromatic Eruption | Elemental Eruption |
 | `Items.Ammo.CinderArrow.DisplayName` | Cinder Arrow | Napalm Arrow |
 | `Items.Accessories.CleansingJelly.DisplayName` | Cleansing Jelly | Mana Jelly |
-| `NPCs.CrimulanPaladin.DisplayName` | Crimulan Paladin | The Slime God |
-| `NPCs.SplitCrimulanPaladin.DisplayName` | Crimulan Paladin | The Slime God |
+| `NPCs.CrimulanPaladin.DisplayName` | Crimulan Paladin | Crimulan Slime God |
+| `NPCs.SplitCrimulanPaladin.DisplayName` | Crimulan Paladin | Crimulan Slime God |
 | `Items.Accessories.CrushingEgo.DisplayName` | Crushing Ego | Dimensional Soul Artifact |
-| `Items.DraedonItems.DraedonsLogSnowBiome.DisplayName` | Cryonic Material Log | Draedon's Logs |
+| `Items.DraedonItems.DraedonsLogSnowBiome.DisplayName` | Cryonic Material Log | Draedon's Log - The Frozen Wasteland |
 | `Items.Accessories.DarkMatterSheath.DisplayName` | Dark Matter Sheath | Dark God's Sheath |
 | `Items.Weapons.Magic.DarkSpark.DisplayName` | Dark Spark | Cruel Jewel |
 | `Projectiles.Magic.DarkSparkBeam.DisplayName` | Dark Spark Beam | Cruel Jewel Beam |
@@ -73,10 +74,10 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `NPCs.Bumblefuck2.DisplayName` | Draconic Swarmer | Tempest Toddler |
 | `Items.Lore.LoreDragonfolly.DisplayName` | Dragonfolly | The Dragonfolly |
 | `Items.Ammo.DryadsTear.DisplayName` | Dryad's Tear | Terra Bullet |
-| `NPCs.EbonianPaladin.DisplayName` | Ebonian Paladin | The Slime God |
-| `NPCs.SplitEbonianPaladin.DisplayName` | Ebonian Paladin | The Slime God |
+| `NPCs.EbonianPaladin.DisplayName` | Ebonian Paladin | Ebonian Slime God |
+| `NPCs.SplitEbonianPaladin.DisplayName` | Ebonian Paladin | Ebonian Slime God |
 | `Items.Weapons.Summon.EnchantedConch.DisplayName` | Enchanted Conch | Magical Conch |
-| `Items.DraedonItems.DraedonsLogHell.DisplayName` | Environmental Pollution Log | Draedon's Logs |
+| `Items.DraedonItems.DraedonsLogHell.DisplayName` | Environmental Pollution Log | Draedon's Log - Hell |
 | `Items.Materials.EssenceofHavoc.DisplayName` | Essence of Havoc | Essence of Chaos |
 | `Items.Weapons.Melee.ExaltedOathblade.DisplayName` | Exalted Oathblade | True Forbidden Oathblade |
 | `Items.Accessories.FadedIdolatry.DisplayName` | Faded Idolatry | Godly Soul Artifact |
@@ -100,37 +101,37 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Ranged.Kingsbane.DisplayName` | Kingsbane | Minigun |
 | `Items.Weapons.Summon.LegionofCelestia.DisplayName` | Legion of Celestia | Elemental Axe |
 | `Items.Weapons.Melee.Lightspeed.DisplayName` | Lightspeed | Elemental Shiv |
-| `Items.DraedonItems.DraedonsLogPlanetoid.DisplayName` | Low Orbit Study Log | Draedon's Logs |
+| `Items.DraedonItems.DraedonsLogPlanetoid.DisplayName` | Low Orbit Study Log | Draedon's Log - Space |
 | `Projectiles.Rogue.LuxorsGiftRogue.DisplayName` | Luxor's Rogue | Luxor's Spy |
 | `Items.Weapons.Rogue.Malachite.DisplayName` | Malachite | Garnet |
 | `Projectiles.Rogue.MalachiteBolt.DisplayName` | Malachite | Garnet |
 | `Projectiles.Rogue.MalachiteProj.DisplayName` | Malachite | Garnet |
 | `Projectiles.Rogue.MalachiteStealth.DisplayName` | Malachite | Garnet |
-| `Items.DraedonItems.DraedonsLogSunkenSea.DisplayName` | Marine Biology Log | Draedon's Logs |
+| `Items.DraedonItems.DraedonsLogSunkenSea.DisplayName` | Marine Biology Log | Draedon's Log - Study on Sunken Aquatic Life |
 | `Items.SummonItems.MarkofProvidence.DisplayName` | Mark of Providence | Rune of Kos |
 | `Buffs.MarkedforDeath.DisplayName` | Marked for Death | Marked |
 | `Items.SummonItems.MartianDistressRemote.DisplayName` | Martian Distress Remote | Martian Distress Beacon |
 | `Items.Weapons.Melee.MawOfInfinity.DisplayName` | Maw of Infinity | Excelsus |
 | `Items.Weapons.Melee.Murasama.DisplayName` | Murasama | Graydron |
-| `Items.Placeables.NavystoneBathtub.DisplayName` | Navystone Bathtub | EutrophicBathtub |
-| `Items.Placeables.NavystoneBed.DisplayName` | Navystone Bed | EutrophicBed |
-| `Items.Placeables.NavystoneBookcase.DisplayName` | Navystone Bookcase | EutrophicBookcase |
-| `Items.Placeables.NavystoneCandelabra.DisplayName` | Navystone Candelabra | EutrophicCandelabra |
-| `Items.Placeables.NavystoneCandle.DisplayName` | Navystone Candle | EutrophicCandle |
-| `Items.Placeables.NavystoneChair.DisplayName` | Navystone Chair | EutrophicChair |
-| `Items.Placeables.NavystoneChandelier.DisplayName` | Navystone Chandelier | EutrophicChandelier |
-| `Items.Placeables.NavystoneChest.DisplayName` | Navystone Chest | EutrophicChest |
-| `Items.Placeables.NavystoneClock.DisplayName` | Navystone Clock | EutrophicClock |
-| `Items.Placeables.NavystoneDoor.DisplayName` | Navystone Door | EutrophicDoor |
-| `Items.Placeables.NavystoneDresser.DisplayName` | Navystone Dresser | EutrophicDresser |
-| `Items.Placeables.NavystoneLamp.DisplayName` | Navystone Lamp | EutrophicLamp |
-| `Items.Placeables.NavystoneLantern.DisplayName` | Navystone Lantern | EutrophicLantern |
-| `Items.Placeables.NavystoneLyre.DisplayName` | Navystone Lyre | EutrophicPiano |
-| `Items.Placeables.NavystonePlatform.DisplayName` | Navystone Platform | EutrophicPlatform |
-| `Items.Placeables.NavystoneSink.DisplayName` | Navystone Sink | EutrophicSink |
-| `Items.Placeables.NavystoneTable.DisplayName` | Navystone Table | EutrophicTable |
-| `Items.Placeables.NavystoneTriclinium.DisplayName` | Navystone Triclinium | EutrophicBench |
-| `Items.Placeables.NavystoneWorkBench.DisplayName` | Navystone Work Bench | EutrophicWorkBench |
+| `Items.Placeables.NavystoneBathtub.DisplayName` | Navystone Bathtub | Eutrophic Bathtub |
+| `Items.Placeables.NavystoneBed.DisplayName` | Navystone Bed | Eutrophic Bed |
+| `Items.Placeables.NavystoneBookcase.DisplayName` | Navystone Bookcase | Eutrophic Bookcase |
+| `Items.Placeables.NavystoneCandelabra.DisplayName` | Navystone Candelabra | Eutrophic Candelabra |
+| `Items.Placeables.NavystoneCandle.DisplayName` | Navystone Candle | Eutrophic Candle |
+| `Items.Placeables.NavystoneChair.DisplayName` | Navystone Chair | Eutrophic Chair |
+| `Items.Placeables.NavystoneChandelier.DisplayName` | Navystone Chandelier | Eutrophic Chandelier |
+| `Items.Placeables.NavystoneChest.DisplayName` | Navystone Chest | Eutrophic Chest |
+| `Items.Placeables.NavystoneClock.DisplayName` | Navystone Clock | Eutrophic Clock |
+| `Items.Placeables.NavystoneDoor.DisplayName` | Navystone Door | Eutrophic Door |
+| `Items.Placeables.NavystoneDresser.DisplayName` | Navystone Dresser | Eutrophic Dresser |
+| `Items.Placeables.NavystoneLamp.DisplayName` | Navystone Lamp | Eutrophic Lamp |
+| `Items.Placeables.NavystoneLantern.DisplayName` | Navystone Lantern | Eutrophic Lantern |
+| `Items.Placeables.NavystoneLyre.DisplayName` | Navystone Lyre | Eutrophic Piano |
+| `Items.Placeables.NavystonePlatform.DisplayName` | Navystone Platform | Eutrophic Platform |
+| `Items.Placeables.NavystoneSink.DisplayName` | Navystone Sink | Eutrophic Sink |
+| `Items.Placeables.NavystoneTable.DisplayName` | Navystone Table | Eutrophic Table |
+| `Items.Placeables.NavystoneTriclinium.DisplayName` | Navystone Triclinium | Eutrophic Bench |
+| `Items.Placeables.NavystoneWorkBench.DisplayName` | Navystone Work Bench | Eutrophic Work Bench |
 | `Items.Materials.Necroplasm.DisplayName` | Necroplasm | Phantoplasm |
 | `Items.Dyes.NecroplasmicDye.DisplayName` | Necroplasmic Dye | Phantoplasm Dye |
 | `Buffs.Nightwither.DisplayName` | Nightwither | Moon Burnt |
@@ -146,7 +147,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.DraedonsArsenal.ShortCircuit.DisplayName` | P-TSL: Short Circuit | Taser |
 | `Items.Materials.PearlShard.DisplayName` | Pearl Shard | Conquest Fragment |
 | `Items.Weapons.Magic.Photosynthesis.DisplayName` | Photosynthesis | Terra Ray |
-| `Items.DraedonItems.DraedonsLogJungle.DisplayName` | Plague Nanomachine Log | Draedon's Logs |
+| `Items.DraedonItems.DraedonsLogJungle.DisplayName` | Plague Nanomachine Log | Draedon's Log - The Jungle and Plague |
 | `Items.Lore.LorePlaguebringerGoliath.DisplayName` | Plaguebringer Goliath | The Plaguebringer Goliath |
 | `Items.Accessories.PlanebreakersPouch.DisplayName` | Planebreaker's Pouch | Elemental Quiver |
 | `Items.Lore.LorePrelude.DisplayName` | Prelude | Lunatic Cultist |
@@ -226,10 +227,10 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `NPCs.Yharon.DisplayName` | Yharon, Dragon of Rebirth | Jungle Dragon Yharon |
 | `Items.Lore.LoreYharon.DisplayName` | Yharon, Resplendent Phoenix | Jungle Dragon, Yharon |
 | `DamageClasses.RogueDamageClass.DisplayName` | rogue damage | spy damage |
-| `Items.Placeables.BurrowerBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
-| `Items.Placeables.SightseerSpitterBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
-| `Items.Placeables.ToxicatfishBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
-| `Items.Placeables.InfernalCongealmentBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
-| `Items.Placeables.RenegadeWarlockBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
-| `Items.Placeables.SulflounderBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
-| `Items.Placeables.SightseerColliderBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
+| `Items.Placeables.BurrowerBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Armored Digger Banner |
+| `Items.Placeables.SightseerSpitterBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Big Sightseer Banner |
+| `Items.Placeables.ToxicatfishBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Catfish Banner |
+| `Items.Placeables.InfernalCongealmentBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Charred Slime Banner |
+| `Items.Placeables.RenegadeWarlockBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Cultist Assassin Banner |
+| `Items.Placeables.SulflounderBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Flounder Banner |
+| `Items.Placeables.SightseerColliderBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Small Sightseer Banner |

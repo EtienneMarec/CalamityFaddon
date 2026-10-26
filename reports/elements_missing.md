@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (481)
+## Objets (480)
 
 - A M S
 - AAMG "Disperse"
@@ -582,7 +582,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Triploon
 - True Bloody Edge
 - True Caliburn
-- True Caustic Edge
 - True Night's Stabber
 - Twentloon
 - Twenty-Twloon

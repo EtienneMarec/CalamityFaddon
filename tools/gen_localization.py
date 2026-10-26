@@ -10,6 +10,7 @@ Sortie :
 
 Usage : python tools/gen_localization.py   (nécessite data/wiki_index.json : lancer wiki_index.py avant)
 """
+import collections
 import glob
 import json
 import os
@@ -134,15 +135,23 @@ def main():
     for key in strings:
         if key.endswith(".DisplayName"):
             by_class.setdefault(key.split(".")[-2], key)
-    for r in wiki_known(load_renames(), pages):
-        own_page = pages.get(re.sub(r"[^a-z0-9]", "", r["newName"].lower()))
+    known = wiki_known(load_renames(), pages)
+    # Chaîne de renommages (Caustic Edge -> Tainted Blade, True Caustic Edge -> Caustic Edge) : la page du nouveau nom
+    # est celle d'un autre objet, elle ne protège pas ce nouveau nom
+    taken = {re.sub(r"[^a-z0-9]", "", r["oldName"].lower()) for r in known}
+    # Plusieurs objets renvoyés vers la même page (les 5 Draedon's Logs) : page de groupe, l'ancien nom reste
+    shared = collections.Counter(r["page"] for r in known)
+    for r in known:
+        simple = re.sub(r"[^a-z0-9]", "", r["newName"].lower())
+        own_page = pages.get(simple) if simple not in taken else None
         key = by_class.get(r["new"])
         if r["newName"] == r["oldName"] or not key or (own_page and own_page.get("kind") == "content"):
             continue
         # Titre de la page (redirections suivies : Fabsol's Vodka -> Fluorescent Vodka), sauf page de groupe (« Treasure
         # Bag (Calamitas) » -> « Treasure Bag ») où l'ancien nom reste ; sans parenthèse de désambiguïsation « (weapon) »
         target = pages.get(re.sub(r"[^a-z0-9]", "", r["page"].lower()), {})
-        name = r["oldName"] if target.get("status") == "group" else re.sub(r"\s*\([a-z][^)]*\)$", "", r["page"])
+        group = target.get("status") == "group" or shared[r["page"]] > 1
+        name = r["oldName"] if group else re.sub(r"\s*\([a-z][^)]*\)$", "", r["page"])
         changed[key] = (strings[key], name)
 
     # Objets de lore : nom du tableau de la page « Lore items » (tools/lore_items.py), y compris quand Calamity a
