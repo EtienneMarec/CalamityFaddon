@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (467)
+## Objets (465)
 
 - A M S
 - AAMG "Disperse"
@@ -197,7 +197,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Blazing Powder
 - Bleeding Influx
 - Blobfish Plushie
-- Blood Clot Staff
 - Blood Element
 - Bloodinator 1
 - Bloody Edge
@@ -539,7 +538,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Terra Bow
 - Terra Edge
 - Terra Shiv
-- Terra-cotta
 - Terrestrial Dart
 - Terreye Staff
 - Terriblade

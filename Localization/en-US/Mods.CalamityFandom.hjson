@@ -282,6 +282,20 @@
 			'''
 	}
 
+	Terracotta: {
+		DisplayName: Terra-cotta
+		Tooltip:
+			'''
+			Causes enemies to erupt into healing projectiles on death
+			Enemies explode on hit
+			'''
+	}
+
+	BloodClotStaff: {
+		DisplayName: Blood Clot Staff
+		Tooltip: Summons a blood clot to fight for you
+	}
+
 	PsychoticAmulet: {
 		DisplayName: Psychotic Amulet
 		Tooltip:
@@ -419,6 +433,9 @@
 
 Projectiles: {
 	StratusStar.DisplayName: Stratus Star
+	BloodClotMinion.DisplayName: Blood Clot
+	TerracottaProj.DisplayName: Terra
+	TerracottaExplosion.DisplayName: Explosion
 	MetalBallProj.DisplayName: Metal Ball
 	SewerBrewerHeld.DisplayName: Sewer Brewer
 	SewerDrillBit.DisplayName: Drill Bit
@@ -498,6 +515,11 @@ Elements: {
 }
 
 Buffs: {
+	BloodClot: {
+		DisplayName: Blood Clot
+		Description: The blood clot will protect you
+	}
+
 	GlacialState: {
 		DisplayName: Glacial State
 		Description: Cannot move and defense is shattered

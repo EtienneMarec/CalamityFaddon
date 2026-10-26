@@ -380,6 +380,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** **Metal Ball** (inventée) : boule tant que le bouton est tenu, chaîne de 160 px, pendule simple.
   **Sewer Brewer** (inventée) : charge complète en 1,5 s, foret de vitesse 8 à 20 et taille x1 à x2 ; modificateurs de
   taille interdits (Notes).
+- **[technique]** **Terra-cotta** : retirée de Calamity en juin 2022 (portée) ; l'orbe de soin est réécrite (l'outil
+  de Calamity est `internal`) : 9 PV au contact, attirée seulement avec Heartreach (Notes).
 - **[à trancher]** Plague Hive : demande Alchemical Flask, que Calamity a remplacé par l'Alchemical Decanter
   (`[LegacyName]`) ; dépend de la décision sur les remplacements `[LegacyName]` (section 2).
 

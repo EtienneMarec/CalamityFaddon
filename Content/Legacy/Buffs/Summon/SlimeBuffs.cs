@@ -1,4 +1,4 @@
-// Adapté de Calamity Mod 2.0.1.005, © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
+﻿// Adapté de Calamity Mod 2.0.1.005, © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
 using CalamityFandom.Content.Legacy.Projectiles.Summon;
 using Terraria;
 using Terraria.ModLoader;
@@ -31,6 +31,11 @@ namespace CalamityFandom.Content.Legacy.Buffs.Summon
     }
 
     public class Corroslime : SlimeBuff<CorroslimeMinion>
+    {
+    }
+
+    /// <summary>Buff du Blood Clot Staff (même mécanique que les slimes).</summary>
+    public class BloodClot : SlimeBuff<BloodClotMinion>
     {
     }
 }

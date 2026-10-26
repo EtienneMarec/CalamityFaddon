@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1069 objets dont les recettes ont changé : 959 recettes modifiées, 175 créées
+- 1070 objets dont les recettes ont changé : 959 recettes modifiées, 176 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 120 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 140 recettes
+- 119 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 139 recettes
 
 ## Recettes changées
 
@@ -159,6 +159,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Blazing Star | 1 Glaive, 5 Hellstone Bar, 10 Essence of Chaos @ MythrilAnvil → 1 | 20 Fallen Star, 3 Hellstone Bar, 4 Essence of Chaos @ Anvils → 1 |
 | Blood Bath | (nouvelle) | 8 Blood Sample, 3 Vertebra, 2 Crimtane Bar @ DemonAltar → 1 |
 | Blood Boiler | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 6 Bloodstone Bar, 5 Unholy Blood Cells @ LunarCraftingStation → 1 |
+| Blood Clot Staff | (nouvelle) | 4 Vertebra, 5 Crimtane Bar, 10 Blood Sample @ DemonAltar → 1 |
 | Bloodfire Arrow | 1 Bloodstone, 1 Blood Orb @ MythrilAnvil → 333 | 1 Bloodstone Bar, 1 Unholy Blood Cells @ LunarCraftingStation → 333 |
 | Bloodfire Bullet | 1 Bloodstone, 1 Blood Orb @ MythrilAnvil → 333 | 1 Bloodstone Bar, 1 Unholy Blood Cells @ LunarCraftingStation → 333 |
 | Bloodflare Body Armor | 50 Bloodstone, 20 Blood Orb, 4 Ruinous Soul @ MythrilAnvil → 1 | 16 Bloodstone Bar, 5 Haunted Bar @ LunarCraftingStation → 1 |
@@ -1253,7 +1254,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Star Cannon EX — 1
 - objet : Terra Edge — 1
 - objet : Terra Shiv — 1
-- objet : Terra-cotta — 1
 - objet : The Generator — 1
 - objet : The Godfather — 1
 - objet : The King's Gambit — 1

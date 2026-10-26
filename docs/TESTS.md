@@ -317,6 +317,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
   - [ ] **Metal Ball** (Plaguebringer) : bouton tenu, boule au bout d'une chaîne qui pend et suit les mouvements (courir en
         rond la fait tourner) ; **Sewer Brewer** : bouton tenu = charge (son à pleine charge), relâcher = foret plus gros
         et plus fort selon la charge, qui cherche les ennemis à pleine charge
+  - [ ] **Terra-cotta** (Dune Splicer après Plantera) : chaque coup fait une petite explosion dorée ; un ennemi tué
+        libère 3 orbes qui soignent de 9 PV quand on les touche (attirées avec Heartreach)
+  - [ ] **Blood Clot Staff** : caillot de sang qui fonce sur les ennemis ; buff « Blood Clot »
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

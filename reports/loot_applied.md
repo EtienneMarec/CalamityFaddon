@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 283 drops ajoutés sur 111 PNJ
-- 102 ajouts dans 24 sacs
+- 284 drops ajoutés sur 112 PNJ
+- 103 ajouts dans 24 sacs
 - 551 drops du wiki déjà présents dans le jeu (inchangés)
-- 115 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
+- 116 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 175 PNJ du wiki absents du jeu, 65 objets introuvables
+- 175 PNJ du wiki absents du jeu, 63 objets introuvables
 
 ## Ajouts
 
@@ -51,6 +51,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Dreadnautilus** : Grandiose Gland 5-5 à 100.0%
 - **Drippler** : Bouncing Eyeball 1-1 à 2.5%
 - **Duke Fishron** : Delicious Meat 45-92 à 50.0% (mode normal)
+- **Dune Splicer** : Terra-cotta 1-1 à 4.0% [After Plantera has been defeated]
 - **Earth Elemental** : Aftershock 1-1 à 25.0%
 - **Eater of Worlds** : Disgusting Meat 2-5 à 100.0%
 - **Eidolist** : Lunar Cultist Hood 1-1 à 10.0% ; Lunar Cultist Robe 1-1 à 10.0%
@@ -145,7 +146,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (The Dragonfolly)** : Swordsplosion 1-1 à 10.0% (page Treasure Bag)
 - **Treasure Bag (The Hive Mind)** : Rotten Matter 30-40 à 100.0% (page Treasure Bag)
 - **Treasure Bag (The Old Duke)** : Sulfuric Scale 1-1 à 10.0% ; Supreme Healing Potion 5-15 à 100.0% ; Old Duke Trophy 1-1 à 10.0%
-- **Treasure Bag (The Perforators)** : Blood Sample 30-40 à 100.0% (page Treasure Bag)
+- **Treasure Bag (The Perforators)** : Blood Clot Staff 1-1 à 33.3% (page Treasure Bag) ; Blood Sample 30-40 à 100.0% (page Treasure Bag)
 - **Treasure Bag (The Plaguebringer Goliath)** : Plague Balloon 1-1 à 10.0% (page Treasure Bag) ; Surgical Glove 1-1 à 10.0% (page Treasure Bag) ; Pestilent Defiler 1-1 à 33.3% (page Treasure Bag) ; Pandemic 1-1 à 33.3% (page Treasure Bag) ; The Hive 1-1 à 33.3% (page Treasure Bag) ; Diseased Pike 1-1 à 33.3% (page Treasure Bag) ; Disease 1-1 à 33.3% (page Treasure Bag) ; Metal Ball 1-1 à 33.3% (page Treasure Bag) ; Reemergence 1-1 à 33.3% (page Treasure Bag) ; Blight Spewer 1-1 à 33.3% (page Treasure Bag) ; Trash of Magnus 1-1 à 33.3% (page Treasure Bag) ; Decomposition 1-1 à 33.3% (page Treasure Bag) ; Toxic Wisdom 1-1 à 33.3% (page Treasure Bag) ; Phlegm 1-1 à 33.3% (page Treasure Bag) ; The Needler 1-1 à 33.3% (page Treasure Bag) ; Blow Pipe 1-1 à 33.3% (page Treasure Bag) ; Sewer Brewer 1-1 à 33.3% (page Treasure Bag) ; Poison I-Bee 1-1 à 33.3% (page Treasure Bag) ; Flask of Plague 5-15 à 10.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Jungle Key 1-1 à 100.0% ; Plaguebringer Goliath Trophy 1-1 à 10.0%
 - **Treasure Bag (The Slime God)** : Crimslime Staff 1-1 à 33.3% (page Treasure Bag) ; Slime Puppet Staff 1-1 à 33.3% (page Treasure Bag) ; Gel 180-250 à 100.0% ; Healing Potion 5-15 à 100.0% ; Slime God Trophy 1-1 à 10.0%
 - **Treasure Bag (Wall of Flesh)** : Twisted Tendril 5-8 à 100.0%
@@ -161,7 +162,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Ancient Shiv — 1
 - Ash's Cloak — 1
 - Bittercold Staff — 1
-- Blood Clot Staff — 1
 - Bloody Rupture — 1
 - Brimstone Flameblaster — 1
 - Calamity Spawner — 1
@@ -204,7 +204,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Sandstorm (weapon) — 1
 - Shadowdrop Staff — 1
 - Tapehook — 1
-- Terra-cotta — 1
 - The Food Chain — 1
 - The Inflator's Controller — 1
 - The King's Gambit — 1

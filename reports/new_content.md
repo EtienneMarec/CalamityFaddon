@@ -44,7 +44,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Blade of Enmity
 - [ ] Bleeding Influx — addon: Calamity: Community Remix
 - [ ] Blobfish Plushie — addon: Calamity: Community Remix
-- [ ] Blood Clot Staff
+- [x] Blood Clot Staff
 - [ ] Bloodinator 1 — pas de sprite
 - [ ] Bloody Edge
 - [ ] Bloody Rupture
@@ -389,7 +389,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Terra Bow
 - [ ] Terra Edge
 - [ ] Terra Shiv
-- [ ] Terra-cotta
+- [x] Terra-cotta
 - [ ] Terreye Staff — addon: Calamity: Community Remix
 - [ ] Terriblade
 - [ ] Tetrachromancy — addon: Polyphemalus
