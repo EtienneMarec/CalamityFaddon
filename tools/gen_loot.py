@@ -352,7 +352,8 @@ def main():
 
     # Noms d'objets du butin qui sont d'anciens noms (« Victory Shard » -> Pearl Shard) : redirections du wiki, puis
     # renommages du glossaire (Pearl Shard -> Conquest Fragment, le nom en jeu)
-    names = {d["item"] for v in npcs.values() for d in v["drops"]} | {d["item"] for b in bags.values() for d in b["drops"]}
+    names = ({d["item"] for v in npcs.values() for d in v["drops"]} | {d["item"] for b in bags.values() for d in b["drops"]}
+             | {b["bag"] for b in bags.values() if b.get("bag")})
     renames = json.load(open(os.path.join(ROOT, "tools", "glossary.json"), encoding="utf-8"))["renames"]
     item_aliases = {k: renames.get(v, v) for k, v in redirect_aliases(names).items()}
 

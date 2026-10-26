@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 241 drops ajoutés sur 104 PNJ
+- 257 drops ajoutés sur 104 PNJ
 - 86 ajouts dans 24 sacs
-- 530 drops du wiki déjà présents dans le jeu (inchangés)
-- 107 drops avec leur condition (boss vaincu, biome, premier kill), dont 58 qui remplacent la règle du jeu
+- 551 drops du wiki déjà présents dans le jeu (inchangés)
+- 115 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 175 PNJ du wiki absents du jeu, 99 objets introuvables
+- 175 PNJ du wiki absents du jeu, 90 objets introuvables
 
 ## Ajouts
 
@@ -30,10 +30,10 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Bobbit Worm** : Depth Cells 5-7 à 50.0% [After defeating Calamitas] ; Bobbit Hook 1-1 à 33.3% [After defeating Polterghast]
 - **Bohldohr** : Lihzahrd Brick 10-30 à 100.0%
 - **Box Jellyfish** : Abyss Shocker 1-1 à 2.0% [After defeating Skeletron]
-- **Brimstone Elemental** : Bloodstone 20-30 à 100.0% [Once Providence, the Profaned Goddess] (mode normal) ; Gehenna 1-1 à 100.0% (mode normal) ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] (mode normal) ; Abaddon 1-1 à 50.0% (mode normal) ; Flame-Licked Shell 1-1 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Brimstone Elemental 1-1 à 100.0% [Always on first kill] (mode normal) ; Brimstone Elemental 1-1 à 100.0% [Always on first kill] (Expert, direct)
+- **Brimstone Elemental** : Bloodstone 20-30 à 100.0% [Once Providence, the Profaned Goddess] (mode normal) ; Gehenna 1-1 à 100.0% (mode normal) ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] (mode normal) ; Abaddon 1-1 à 50.0% (mode normal) ; Flame-Licked Shell 1-1 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Brimstone Crag 1-1 à 100.0% [Always on first kill] (mode normal) ; Brimstone Crag 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Brimstone Elemental 1-1 à 100.0% [Always on first kill] (mode normal) ; Brimstone Elemental 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Calamitas** : Ashes of Annihilation 9-14 à 100.0% (mode normal) ; Blighted Lens 5-12 à 100.0% (mode normal) ; Broken Hero Sword 1-1 à 100.0% (mode normal) ; Bloodstone 30-40 à 100.0% [Once Providence is defeated] (mode normal) ; Void of Calamity 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Calamitas Clone 1-1 à 100.0% [Always on first kill] (mode normal) ; Calamitas Clone 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Catastrophe Clay Ore 10-26 à 100.0% (mode normal) ; Crushsaw Crasher 1-1 à 8.3% (mode normal) ; Havoc's Breath 1-1 à 8.3% (mode normal)
 - **Calamity Eye** : Blighted Lens 1-1 à 50.0% [In Hardmode] ; Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
-- **Ceaseless Void** : The Evolution 1-1 à 100.0% (mode normal) ; Tree-Crown Wings 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
+- **Ceaseless Void** : The Evolution 1-1 à 100.0% (mode normal) ; Tree-Crown Wings 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Signus are defeated] (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Signus are defeated] (Expert, direct)
 - **Chaotic Puffer** : Abyss Ore 10-26 à 100.0% [After defeating Golem]
 - **Charred Slime** : Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Clam** : Mollusk Husk 1-1 à 50.0% [Hardmode-only] ; Clam Chowder 1-1 à 10.0% [Hardmode-only]
@@ -42,10 +42,10 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Crabulon** : Glowing Mushroom 20-30 à 100.0% (mode normal) ; Mushroom Grass Seeds 3-6 à 100.0% (mode normal) ; Fungal Clump 1-1 à 100.0% (mode normal) ; Delicious Meat 4-7 à 100.0% (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Shroomerang 1-1 à 25.0% (mode normal)
 - **Cragmaw Mire** : Septic Skewer 1-1 à 25.0%
 - **Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
-- **Cryogen** : Frozen Key 1-1 à 20.0% (mode normal) ; Soul of Cryogen 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal)
+- **Cryogen** : Frozen Key 1-1 à 20.0% (mode normal) ; Soul of Cryogen 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Cultist Assassin** : Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Derpling** : Beetle Juice 1-1 à 25.0%
-- **Desert Scourge** : Sandy Angling Kit 1-1 à 100.0% (mode normal) ; Parched Scale 7-14 à 100.0% (mode normal) ; Profaned Shard 1-1 à 100.0% (mode normal) ; Abyss Bar 3-8 à 100.0% (mode normal) ; Sand Block 261-820 à 100.0% (mode normal) ; Ocean Crest 1-1 à 100.0% (mode normal) ; Delicious Meat 4-4 à 20.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (mode normal) ; Aero Stone 1-1 à 20.0% (mode normal) ; Aquatic Discharge 1-1 à 25.0% (mode normal)
+- **Desert Scourge** : Sandy Angling Kit 1-1 à 100.0% (mode normal) ; Parched Scale 7-14 à 100.0% (mode normal) ; Profaned Shard 1-1 à 100.0% (mode normal) ; Abyss Bar 3-8 à 100.0% (mode normal) ; Sand Block 261-820 à 100.0% (mode normal) ; Ocean Crest 1-1 à 100.0% (mode normal) ; Delicious Meat 4-4 à 20.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Aero Stone 1-1 à 20.0% (mode normal) ; Aquatic Discharge 1-1 à 25.0% (mode normal)
 - **Despair Stone** : Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Slagspitter Pauldron 1-1 à 5.0% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Devil Fish** : Depth Cells 1-2 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 50.0% [After defeating Calamitas] ; Abyss Ore 3-9 à 100.0% [After defeating Golem]
 - **Dreadnautilus** : Grandiose Gland 5-5 à 100.0%
@@ -70,7 +70,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Hive** : Hive Pod 1-1 à 14.3% [After Astrum Aureus has been defeated]
 - **Hive (Enemy)** : Stardust 2-3 à 100.0% ; Titan Finger 1-1 à 2.0% ; Hive Pod 1-1 à 14.3% [After defeating Astrum Aureus]
 - **Hive Cyst** : Demonite Ore 10-26 à 100.0%
-- **Jungle Dragon Yharon** : Yharim's Gift 1-1 à 100.0% (mode normal) ; Omega Healing Potion 5-15 à 100.0% (mode normal) ; Chicken Nugget 5000-5000 à 100.0% (mode normal)
+- **Jungle Dragon Yharon** : Yharim's Gift 1-1 à 100.0% (mode normal) ; Omega Healing Potion 5-15 à 100.0% (mode normal) ; Chicken Nugget 5000-5000 à 100.0% (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Laserfish** : Lumenyl 1-1 à 50.0% [After defeating Calamitas]
 - **Mantis** : Titan Finger 1-1 à 2.0% ; Astral Scythe 1-1 à 14.3% [After defeating Astrum Aureus]
 - **Mantis Shrimp** : Mantis Claws 1-1 à 20.0% [After defeating Plantera]
@@ -99,14 +99,14 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Sea Floaty** : Clam Chowder 1-1 à 2.0% [Hardmode-only]
 - **Sea Serpent** : Clam Chowder 1-1 à 5.0%
 - **Shockstorm Shuttle** : The Transformer 1-1 à 10.0% ; Martian Conduit Plating 10-29 à 100.0% [After defeating Golem] ; Shock Grenade 5-20 à 0.9% [After defeating Golem] ; Wingman 1-1 à 0.3% [After defeating Golem] ; Xenopopper 1-1 à 0.2% [After defeating Golem] ; Xeno Staff 1-1 à 0.2% [After defeating Golem] ; Laser Machinegun 1-1 à 0.2% [After defeating Golem] ; Electrosphere Launcher 1-1 à 0.2% [After defeating Golem] ; Influx Waver 1-1 à 0.2% [After defeating Golem] ; Cosmic Car Key 1-1 à 0.2% [After defeating Golem] ; Nullification Pistol 1-1 à 0.2% [After defeating Golem]
-- **Signus, Envoy of the Devourer** : Spectral Veil 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal)
+- **Signus, Envoy of the Devourer** : Spectral Veil 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Ceaseless Void are defeated] (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Ceaseless Void are defeated] (Expert, direct)
 - **Small Sightseer** : Titan Finger 1-1 à 2.0% ; Astral Pearl 1-1 à 5.0%
 - **Soul Slurper** : Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Slagspitter Pauldron 1-1 à 5.0% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Stellar Culex** : Titan Finger 1-1 à 2.0%
 - **Sunskater** : Essence of Sunlight 1-1 à 33.0% [In Hardmode]
 - **Tempest Toddler** : Desert Feather 2-4 à 100.0%
-- **The Old Duke** : Supreme Healing Potion 5-15 à 100.0% (mode normal)
-- **The Plaguebringer Goliath** : Toxic Heart 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Jungle Key 1-1 à 100.0% (mode normal) ; Diseased Pike 1-1 à 25.0% (mode normal) ; Pandemic 1-1 à 25.0% (mode normal) ; Pestilent Defiler 1-1 à 25.0% (mode normal) ; Blight Spewer 1-1 à 25.0% (mode normal) ; The Hive 1-1 à 25.0% (mode normal)
+- **The Old Duke** : Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Old Duke 1-1 à 100.0% [Always on first kill] (mode normal) ; Old Duke 1-1 à 100.0% [Always on first kill] (Expert, direct)
+- **The Plaguebringer Goliath** : Toxic Heart 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Jungle Key 1-1 à 100.0% (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Diseased Pike 1-1 à 25.0% (mode normal) ; Pandemic 1-1 à 25.0% (mode normal) ; Pestilent Defiler 1-1 à 25.0% (mode normal) ; Blight Spewer 1-1 à 25.0% (mode normal) ; The Hive 1-1 à 25.0% (mode normal)
 - **The Slime God** : Mana Polarizer 1-1 à 100.0% (mode normal) ; Healing Potion 5-15 à 100.0% (mode normal) ; The Slime God 1-1 à 100.0% [Always on first kill] (mode normal) ; The Slime God 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Crimslime Staff 1-1 à 25.0% (mode normal) ; Slime Puppet Staff 1-1 à 25.0% (mode normal)
 - **Toxic Minnow** : Depth Cells 2-3 à 50.0% [After defeating Calamitas]
 - **Trasher** : Gatligator 1-1 à 10.0% [In Hardmode]
@@ -166,7 +166,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - The Insacred Texts — 2
 - The Needler — 2
 - The Reaper — 2
-- The Sentinels of the Devourer (Lore) — 2
 - Toxic Wisdom — 2
 - Trash of Magnus — 2
 - Aftershock — 1
@@ -175,12 +174,10 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Bittercold Staff — 1
 - Blood Clot Staff — 1
 - Bloody Rupture — 1
-- Brimstone Crag (Lore) — 1
 - Brimstone Flameblaster — 1
 - Calamity Spawner — 1
 - Cirrhotipede — 1
 - Contaminated Dish — 1
-- Cryogen (Lore) — 1
 - Crystal Blade — 1
 - Cursed Spear — 1
 - Death-Needle Stinger — 1
@@ -200,7 +197,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Ichor Dagger — 1
 - Infected Dagger Misses No Skeptics — 1
 - Jellyfish Cannonball — 1
-- Jungle Dragon, Yharon (Lore) — 1
 - Kos Fragment — 1
 - Leaves of Crabulon — 1
 - Li'l Mine — 1
@@ -209,7 +205,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Mirage Jelly (item) — 1
 - Nightform — 1
 - Oil Bottle — 1
-- Old Duke (Lore) — 1
 - Plague Station — 1
 - Plaguecom Tablet — 1
 - Porpoise Pistol — 1
@@ -227,14 +222,10 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Shadowdrop Staff — 1
 - Tapehook — 1
 - Terra-cotta — 1
-- The Desert Scourge (Lore) — 1
 - The Food Chain — 1
 - The Inflator's Controller — 1
 - The King's Gambit — 1
 - The Last Lightice — 1
-- The Plaguebringer Goliath (Lore) — 1
-- Treasure Bag (Astrum Deus) — 1
-- Treasure Bag (Ravager) — 1
 - Treasure Bag (The Fabricational Quartet) — 1
 - Treasure Bag (The Inventors) — 1
 - Varroa Hack — 1

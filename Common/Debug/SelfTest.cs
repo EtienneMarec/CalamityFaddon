@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using CalamityFandom.Common.Config;
@@ -40,6 +40,11 @@ namespace CalamityFandom.Common.Debug
             ("item", "TheEtomer", "Triboluminescent Etomer"),
             ("item", "MartianDistressRemote", "Martian Distress Beacon"),
             ("item", "StarspawnHelixStaff", "Godspawn Helix Staff"),
+            // Lore : nom de la page « Lore items », y compris quand Calamity l'a réécrit sous un autre nom
+            ("item", "LoreArchmage", "Cryogen"),
+            ("item", "LoreDesertScourge", "The Desert Scourge"),
+            ("item", "LoreYharon", "Jungle Dragon, Yharon"),
+            ("item", "LoreRavager", "Meatmetal Sans"),
         };
 
         public override void PostSetupRecipes()
@@ -97,6 +102,16 @@ namespace CalamityFandom.Common.Debug
             // Contenu ancien : masqué s'il n'est cité nulle part (The Old Reaper), gardé s'il est cité en texte (Acidwood Wall)
             if (ModContent.TryFind<ModItem>("CalamityMod", "TheOldReaper", out var reaper))
                 Expect(FullFandomHiding.HiddenItems.Contains(reaper.Type) == full, "The Old Reaper masqué en Full Fandom seulement");
+            // Lore absent de la page « Lore items » : masqué en Full Fandom ; lore cité sous « X (Lore) » : résolu
+            if (ModContent.TryFind<ModItem>("CalamityMod", "LoreSignus", out var signusLore))
+                Expect(FullFandomHiding.HiddenItems.Contains(signusLore.Type) == full, "lore de Signus masqué en Full Fandom seulement");
+            if (ModContent.TryFind<ModItem>("CalamityMod", "LoreArchmage", out var cryogenLore))
+            {
+                Expect(!FullFandomHiding.HiddenItems.Contains(cryogenLore.Type), "lore de Cryogen jamais masqué");
+                Expect(WikiRecipes.ResolveItem("Cryogen (Lore)") == cryogenLore.Type, "« Cryogen (Lore) » -> LoreArchmage");
+            }
+            if (ModContent.TryFind<ModItem>("CalamityMod", "LoreOldDuke", out var dukeLore))
+                Expect(WikiRecipes.ResolveItem("Old Duke (Lore)") == dukeLore.Type, "« Old Duke (Lore) » -> LoreOldDuke");
             if (ModContent.TryFind<ModItem>("CalamityMod", "AcidwoodWallItem", out var acidWall))
                 Expect(!FullFandomHiding.HiddenItems.Contains(acidWall.Type), "Acidwood Wall jamais masqué (cité dans un changelog)");
             if (full)

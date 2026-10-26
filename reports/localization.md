@@ -2,7 +2,7 @@
 
 _Généré par `tools/gen_localization.py`._
 
-324 textes modifiés, dont 210 noms.
+339 textes modifiés, dont 225 noms.
 
 Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, Realm Ravager, going rogue, goes rogue, gone rogue, went rogue, go rogue.
 
@@ -26,10 +26,12 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Armor.Vanity.AstrumDeusMask.DisplayName` | Astrum Deus Mask | Astral Deus Mask |
 | `Items.Placeables.AstrumDeusRelic.DisplayName` | Astrum Deus Relic | Astral Deus Relic |
 | `Items.Placeables.AstrumDeusTrophy.DisplayName` | Astrum Deus Trophy | Astral Deus Trophy |
+| `Items.Lore.LoreAzafure.DisplayName` | Azafure | Brimstone Crag |
 | `Items.Weapons.DraedonsArsenal.Nidhogg.DisplayName` | B-GSS: Nidhogg | Gauss Rifle |
 | `Items.SummonItems.YharonEgg.DisplayName` | Blessed Phoenix Egg | Jungle Dragon Egg |
 | `Items.Weapons.Melee.BlightedCleaver.DisplayName` | Blighted Cleaver | Tyrant Yharim's Ultisword |
 | `Items.Weapons.Summon.BlightedSlimeStaff.DisplayName` | Blighted Slime Staff | Corroslime Staff |
+| `Items.Lore.LoreBloodMoon.DisplayName` | Blood Moon | The Red Moon |
 | `Items.Armor.PostMoonLord.BloodflareHeadRanged.DisplayName` | Bloodflare Demon Helm | Bloodflare Horned Helm |
 | `Items.Misc.BabyGhostBellItem.DisplayName` | Blue Baby Ghost Bell | Baby Ghost Bell |
 | `Items.Weapons.Melee.BotanicPiercer.DisplayName` | Botanic Piercer | Terra Lance |
@@ -45,6 +47,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Placeables.CataclysmTrophy.DisplayName` | Cataclysmic Construct Trophy | Cataclysm Trophy |
 | `NPCs.Catastrophe.DisplayName` | Catastrophic Construct | Catastrophe |
 | `Items.Placeables.CatastropheTrophy.DisplayName` | Catastrophic Construct Trophy | Catastrophe Trophy |
+| `Items.Lore.LoreCeaselessVoid.DisplayName` | Ceaseless Void | The Sentinels of the Devourer |
 | `Items.Accessories.ChaliceOfTheBloodGod.DisplayName` | Chalice of the Blood God | Core of the Blood God |
 | `Items.Weapons.Ranged.ChromaticEruption.DisplayName` | Chromatic Eruption | Elemental Eruption |
 | `Items.Ammo.CinderArrow.DisplayName` | Cinder Arrow | Napalm Arrow |
@@ -59,6 +62,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Ranged.DeadSunsWind.DisplayName` | Dead Sun's Wind | God's Bellows |
 | `Items.Weapons.Melee.DefiledGreatsword.DisplayName` | Defiled Greatsword | True Tyrant's Ultisword |
 | `NPCs.DesertNuisanceHead.DisplayName` | Desert Nuisance | Desert Scourge |
+| `Items.Lore.LoreDesertScourge.DisplayName` | Desert Scourge | The Desert Scourge |
 | `Items.Accessories.DiamondOfTheDeep.DisplayName` | Diamond of the Deep | Lumenous Amulet |
 | `Items.Weapons.Rogue.DimensionTearingDisk.DisplayName` | Dimension-Tearing Disk | Eradicator |
 | `Items.Materials.DivineGeode.DisplayName` | Divine Geode | Divine Bar |
@@ -67,6 +71,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `NPCs.DraconicSwarmer.DisplayName` | Draconic Swarmer | Tempest Toddler |
 | `NPCs.WildBumblebirb.DisplayName` | Draconic Swarmer | Tempest Toddler |
 | `NPCs.Bumblefuck2.DisplayName` | Draconic Swarmer | Tempest Toddler |
+| `Items.Lore.LoreDragonfolly.DisplayName` | Dragonfolly | The Dragonfolly |
 | `Items.Ammo.DryadsTear.DisplayName` | Dryad's Tear | Terra Bullet |
 | `NPCs.EbonianPaladin.DisplayName` | Ebonian Paladin | The Slime God |
 | `NPCs.SplitEbonianPaladin.DisplayName` | Ebonian Paladin | The Slime God |
@@ -142,7 +147,9 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Materials.PearlShard.DisplayName` | Pearl Shard | Conquest Fragment |
 | `Items.Weapons.Magic.Photosynthesis.DisplayName` | Photosynthesis | Terra Ray |
 | `Items.DraedonItems.DraedonsLogJungle.DisplayName` | Plague Nanomachine Log | Draedon's Logs |
+| `Items.Lore.LorePlaguebringerGoliath.DisplayName` | Plaguebringer Goliath | The Plaguebringer Goliath |
 | `Items.Accessories.PlanebreakersPouch.DisplayName` | Planebreaker's Pouch | Elemental Quiver |
+| `Items.Lore.LorePrelude.DisplayName` | Prelude | Lunatic Cultist |
 | `NPCs.PrimordialWyrmHead.DisplayName` | Primordial Wyrm | Adult Eidolon Wyrm |
 | `Items.Fishing.PrismCrate.DisplayName` | Prism Crate | Sunken Crate |
 | `Items.Weapons.Ranged.PristineFury.DisplayName` | Pristine Fury | Pristine Annihilation |
@@ -159,6 +166,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Rogue.ReboundingRainbow.DisplayName` | Rebounding Rainbow | Elemental Disk |
 | `Items.Accessories.Regenerator.DisplayName` | Regenerator | Regenator |
 | `NPCs.RenegadeWarlock.DisplayName` | Renegade Warlock | Cultist Assassin |
+| `Items.Lore.LoreRequiem.DisplayName` | Requiem | Moon Lord |
 | `Items.Weapons.Ranged.Riftburst.DisplayName` | Riftburst | Phangasm |
 | `Items.Accessories.RogueEmblem.DisplayName` | Rogue Emblem | Spy Emblem |
 | `Items.Misc.SacredStrawberry.DisplayName` | Sacred Strawberry | Dragonfruit |
@@ -182,8 +190,14 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Fishing.SulphurousCrate.DisplayName` | Sulphurous Crate | Abyssal Crate |
 | `NPCs.SupremeCalamitas.DisplayName` | Supreme Witch, Calamitas | Supreme Calamitas |
 | `Items.Weapons.Melee.TaintedBlade.DisplayName` | Tainted Blade | Caustic Edge |
+| `Items.Lore.LoreAbyss.DisplayName` | The Abyss | The Ocean |
+| `Items.Lore.LoreArchmage.DisplayName` | The Archmage | Cryogen |
 | `Items.Pets.TheEtomer.DisplayName` | The Etomer | Triboluminescent Etomer |
-| `Items.Lore.LoreRavager.DisplayName` | The Ravager | The Meatmetal Sans |
+| `Items.Lore.LoreExoMechs.DisplayName` | The Exo Mechanical Trio | The Exo Mechs |
+| `Items.Lore.LoreOldDuke.DisplayName` | The Old Duke | Old Duke |
+| `Items.Lore.LorePerforators.DisplayName` | The Perforators and Their Hive | The Perforators and their Hive |
+| `Items.Lore.LoreRavager.DisplayName` | The Ravager | Meatmetal Sans |
+| `Items.Lore.LoreWallofFlesh.DisplayName` | The Wall of Flesh | Wall of Flesh |
 | `Items.Weapons.Ranged.ThreadOfEradication.DisplayName` | Thread of Eradication | Deathwind |
 | `Items.TreasureBags.AstrumDeusBag.DisplayName` | Treasure Bag (Astrum Deus) | Treasure Bag (Astral Deus) |
 | `Items.TreasureBags.CalamitasCloneBag.DisplayName` | Treasure Bag (Calamitas Clone) | Treasure Bag (Calamitas) |
@@ -210,6 +224,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Accessories.Wings.WingsofRebirth.DisplayName` | Wings of Rebirth | Drew's Wings |
 | `Items.Materials.WulfrumMetalScrap.DisplayName` | Wulfrum Metal Scrap | Wulfrum Bar |
 | `NPCs.Yharon.DisplayName` | Yharon, Dragon of Rebirth | Jungle Dragon Yharon |
+| `Items.Lore.LoreYharon.DisplayName` | Yharon, Resplendent Phoenix | Jungle Dragon, Yharon |
 | `DamageClasses.RogueDamageClass.DisplayName` | rogue damage | spy damage |
 | `Items.Placeables.BurrowerBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |
 | `Items.Placeables.SightseerSpitterBanner.DisplayName` | {$Items.Placeables.FormattedBannerName} | Banners |

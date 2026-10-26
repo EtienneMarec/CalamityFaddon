@@ -233,21 +233,12 @@
    "LittleE",
    "LivingPlagueFireBlock",
    "LivingShardDye",
-   "LoreArchmage",
-   "LoreAzafure",
-   "LoreBrainofCthulhu",
+   "LoreAwakening",
    "LoreCynosure",
-   "LoreEaterofWorlds",
-   "LoreExoMechs",
-   "LoreMechs",
-   "LorePerforators",
-   "LorePrelude",
-   "LoreProfanedGuardians",
-   "LoreRavager",
-   "LoreRequiem",
-   "LoreSulphurSea",
-   "LoreWallofFlesh",
-   "LoreYharon",
+   "LoreEmpressofLight",
+   "LoreQueenSlime",
+   "LoreSignus",
+   "LoreStormWeaver",
    "Lotus",
    "LucisBoots",
    "LucisHairstyle",
@@ -1045,69 +1036,6 @@
    "kind": "ModItem",
    "name": "Holy Wrath Potion",
    "path": "Items/Potions/HolyWrathPotion.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "KnowledgeBloodMoon",
-   "kind": "ModItem",
-   "name": "The Red Moon",
-   "path": "Items/LoreItems/KnowledgeBloodMoon.cs",
-   "wikiPage": false
-  },
-  {
-   "class": "KnowledgeBrimstoneCrag",
-   "kind": "ModItem",
-   "name": "Brimstone Crag",
-   "path": "Items/LoreItems/KnowledgeBrimstoneCrag.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "KnowledgeDesertScourge",
-   "kind": "ModItem",
-   "name": "The Desert Scourge",
-   "path": "Items/LoreItems/KnowledgeDesertScourge.cs",
-   "wikiPage": false
-  },
-  {
-   "class": "KnowledgeDragonfolly",
-   "kind": "ModItem",
-   "name": "The Dragonfolly",
-   "path": "Items/LoreItems/KnowledgeDragonfolly.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "KnowledgeLunaticCultist",
-   "kind": "ModItem",
-   "name": "Lunatic Cultist",
-   "path": "Items/LoreItems/KnowledgeLunaticCultist.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "KnowledgeMoonLord",
-   "kind": "ModItem",
-   "name": "Moon Lord",
-   "path": "Items/LoreItems/KnowledgeMoonLord.cs",
-   "wikiPage": true
-  },
-  {
-   "class": "KnowledgeOcean",
-   "kind": "ModItem",
-   "name": "The Ocean",
-   "path": "Items/LoreItems/KnowledgeOcean.cs",
-   "wikiPage": false
-  },
-  {
-   "class": "KnowledgeSentinels",
-   "kind": "ModItem",
-   "name": "The Sentinels of the Devourer",
-   "path": "Items/LoreItems/KnowledgeSentinels.cs",
-   "wikiPage": false
-  },
-  {
-   "class": "KnowledgeWallofFlesh",
-   "kind": "ModItem",
-   "name": "Wall of Flesh",
-   "path": "Items/LoreItems/KnowledgeWallofFlesh.cs",
    "wikiPage": true
   },
   {

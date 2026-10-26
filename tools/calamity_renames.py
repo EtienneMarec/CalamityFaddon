@@ -23,11 +23,50 @@ from wiki_index import CALAMITY, ROOT, calamity_display_names, norm  # noqa: E40
 
 CACHE = os.path.join(ROOT, "data", "calamity_renames.json")
 BASELINE = "3ec8f553ed"
+# À incrémenter quand compute() change (le cache est aussi recalculé si le dépôt de Calamity change)
+VERSION = 5
 
 
 def git(*args):
     return subprocess.run(["git", "-C", CALAMITY, *args], capture_output=True, text=True, encoding="utf-8",
                           errors="replace", check=True).stdout
+
+
+def same_name(a, b):
+    """Même nom au « The », aux espaces et à la casse près (« ProfanedWorkbench » / « Profaned Work Bench »)."""
+    simple = lambda n: re.sub(r"[^a-z0-9]", "", re.sub(r"^the\s+", "", n.strip().lower()))
+    return simple(a) == simple(b)
+
+
+def legacy_names():
+    """[(ancienne classe, classe actuelle, chemin)] des attributs [LegacyName(...)] de Calamity."""
+    found, pending = [], None
+    # L'attribut et les lignes qui suivent (la classe est déclarée juste après), en un seul appel
+    for line in git("grep", "-n", "-A6", "-E", r"\[LegacyName\(", "HEAD", "--", "*.cs").splitlines():
+        m = re.match(r"HEAD:(.+?)[:-]\d+[:-](.*)$", line)
+        if not m:
+            continue
+        path, content = m.groups()
+        if "LegacyName(" in content:
+            names = re.findall(r'"(\w+)"', content.split("LegacyName(", 1)[1].split(")", 1)[0])
+            pending = (path, (pending[1] if pending and pending[0] == path else []) + names)
+        elif pending and pending[0] == path and (c := re.search(r"\bclass (\w+)", content)):
+            found += [(old, c.group(1), path) for old in pending[1] if old != c.group(1)]
+            pending = None
+    return found
+
+
+def legacy_candidates(renames):
+    """Remplacements [LegacyName] non retenus comme renommages (nom différent) : à trancher à la main (glossary.json)."""
+    from gen_baseline import classes_at, legacy_display_names
+    done = {r["old"] for r in renames}
+    old_classes = classes_at(BASELINE)
+    old_names = legacy_display_names(BASELINE)
+    current = {}
+    for display, _, cls in calamity_display_names():
+        current.setdefault(cls, display)
+    return [{"old": old, "new": new, "oldName": old_names.get(old_classes[old][1]) or old, "newName": current.get(new, new)}
+            for old, new, _ in legacy_names() if old in old_classes and old not in done]
 
 
 def compute():
@@ -53,6 +92,11 @@ def compute():
     current = {}
     for display, _, cls in calamity_display_names():
         current.setdefault(cls, display)
+    # Calamity déclare lui-même ses remplacements : [LegacyName("KnowledgeCryogen")] sur LoreArchmage (la sauvegarde
+    # garde l'objet), ce que la détection git rate quand le fichier a été réécrit. Mais c'est souvent un objet différent
+    # (Gehenna -> Slagsplitter Pauldron, Soul Edge -> Void Edge) : retenu seulement pour un nom affiché identique
+    # (Profaned Workbench) et pour les objets de lore (même boss, texte réécrit). Les autres : legacy_candidates().
+    legacy = legacy_names()
     renames = []
     for old, new in sorted(final.items()):
         if old not in old_classes or new not in new_classes or old in new_classes:
@@ -62,6 +106,15 @@ def compute():
             continue
         renames.append({"old": old, "new": new, "kind": kind, "oldName": old_names.get(path) or old,
                         "newName": current.get(new, new), "similarity": score[old]})
+    for old, new, path in legacy:
+        if old in final or old not in old_classes or new not in new_classes or old in new_classes:
+            continue
+        kind, old_path = old_classes[old]
+        # Ancien nom déclaré dans le vieux code seulement : le nom de classe ne dit rien (« ExoWorkbench »)
+        before, now = old_names.get(old_path), current.get(new, new)
+        if before and new_classes[new][0] == kind and (path.startswith("Items/LoreItems/") or same_name(before, now)):
+            renames.append({"old": old, "new": new, "kind": kind, "oldName": before, "newName": now, "similarity": 100,
+                            "source": "LegacyName"})
     # Même classe, nom affiché changé (SilvaBasin : « Effulgent Manipulator » en 2022, « Silva Basin » aujourd'hui).
     # Seulement quand l'ancien nom est connu (DisplayName.SetDefault du vieux code).
     # Le vieux nom est lu par fichier : un fichier qui déclarait plusieurs objets (casque + plastron) ne compte pas.
@@ -82,12 +135,12 @@ def load():
     head = git("rev-parse", "HEAD").strip()
     if os.path.exists(CACHE):
         cached = json.load(open(CACHE, encoding="utf-8"))
-        if cached.get("head") == head:
+        if cached.get("head") == head and cached.get("version") == VERSION:
             return cached["renames"]
     renames = compute()
     os.makedirs(os.path.dirname(CACHE), exist_ok=True)
     with open(CACHE, "w", encoding="utf-8") as f:
-        json.dump({"_generated_by": "tools/calamity_renames.py", "head": head, "renames": renames}, f, ensure_ascii=False, indent=1)
+        json.dump({"_generated_by": "tools/calamity_renames.py", "head": head, "version": VERSION, "renames": renames}, f, ensure_ascii=False, indent=1)
     return renames
 
 
@@ -118,6 +171,10 @@ def main():
     print(f"{len(renames)} renommages depuis 2.0.1.005, dont {len(known)} connus du wiki sous l'ancien nom")
     for r in known:
         print(f"  {r['oldName']!r:42} -> {r['newName']!r} ({r['new']}, {r['similarity']} %)")
+    print("\n[LegacyName] non retenus (objet différent ?), anciens noms qui ont une page :")
+    for r in legacy_candidates(renames):
+        if norm(r["oldName"]) in pages:
+            print(f"  {r['oldName']!r:42} -> {r['newName']!r} ({r['new']})")
 
 
 if __name__ == "__main__":

@@ -55,6 +55,24 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
   main au glossaire (le vieux code n'avait pas de nom déclaré) : débloque la station des meubles Silva (24 recettes).
   **[technique]** Le nom rendu est le titre de la page (redirections suivies : Fabsol's Vodka → Fluorescent Vodka), sauf
   redirection vers une page de groupe (Treasure Bag (Calamitas) → Treasure Bag : l'ancien nom reste).
+- **[choix 26/10]** Renommages aussi lus dans les attributs **`[LegacyName]`** de Calamity (la sauvegarde garde l'objet),
+  que l'historique git rate quand le fichier a été réécrit. Comme c'est souvent un objet différent (Gehenna → Slagsplitter
+  Pauldron, Soul Edge → Void Edge, Holy Wrath Potion → Flask of Holy Flames), seulement quand le nom affiché de 2022
+  (déclaré dans le vieux code) est le même au « The » près, et pour les **objets de lore**. Les autres sont listés par
+  `python tools/calamity_renames.py` (« non retenus ») ; parmi eux, des renommages probables à trancher : Warbanner of the
+  Sun → Warbanner of the Righteous, Urchin Flail → Urchin Mace, et des portages déjà faits dont Calamity a fait un autre
+  objet (Gehenna, Aquatic Discharge, Soul Edge, Crimslime Staff : gardés dans les deux modes).
+- **[choix 26/10]** **Objets de lore** (`tools/lore_items.py`) : le wiki les connaît par la page de groupe « Lore items »
+  (pages « X (Lore) » = redirections) et les boss les lâchent sous ce titre. Nom affiché = celui du tableau, dans les deux
+  modes, puis le glossaire (Meatmetal Sans) : The Desert Scourge, Old Duke, Jungle Dragon, Yharon... Quand Calamity a
+  réécrit le lore sous un autre nom ([LegacyName]), l'objet reprend le nom de 2022 : The Archmage → Cryogen, Requiem → Moon
+  Lord, Prelude → Lunatic Cultist, Azafure → Brimstone Crag, The Abyss → The Ocean, Blood Moon → The Red Moon, Ceaseless
+  Void → The Sentinels of the Devourer (le lore commun des trois sentinelles en 2022). Le texte reste celui de Calamity.
+  Objets de lore absents du tableau (Signus, Storm Weaver, Empress of Light, Queen Slime, Awakening, Cynosure) : masqués
+  en Full Fandom. Les lignes vandalisées « The Eater of Ireland » / « The Destroyer of Ireland » (paroles de chanson à la
+  place du texte) ne renomment rien : les redirections « The Eater of Worlds (Lore) » / « The Destroyer (Lore) » existent.
+- **[technique]** Alias de noms du butin et des recettes : le glossaire est aussi appliqué aux noms du wiki (« Treasure Bag
+  (Astrum Deus) » → Treasure Bag (Astral Deus), « Rogue Emblem » → Spy Emblem), comme aux textes du jeu.
 - **[technique]** Une page d'objet ne se relie qu'à un objet de Calamity, une page de PNJ qu'à un PNJ (Energy Orb,
   Shroomerang, Spectral Feather... étaient reliés à un projectile ou un buff homonyme ; Energy Orb est maintenant un
   matériau généré).

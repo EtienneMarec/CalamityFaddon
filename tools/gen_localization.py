@@ -145,7 +145,17 @@ def main():
         name = r["oldName"] if target.get("status") == "group" else re.sub(r"\s*\([a-z][^)]*\)$", "", r["page"])
         changed[key] = (strings[key], name)
 
-    prefix = "Mods.CalamityMod."
+    # Objets de lore : nom du tableau de la page « Lore items » (tools/lore_items.py), y compris quand Calamity a
+    # réécrit le lore sous un autre nom (LoreArchmage -> « Cryogen »). Les renommages du glossaire passent ensuite
+    # (lore du Ravager : « Meatmetal Sans », décision du 21/10)
+    from lore_items import lore_map
+    for cls, name in lore_map().items():
+        name = transform(name, rules, protected)
+        key = by_class.get(cls)
+        if key and strings[key] != name:
+            changed[key] = (strings[key], name)
+
+    prefix ="Mods.CalamityMod."
     wanted = {k[len(prefix):]: v[1] for k, v in sorted(changed.items())}
     # tModLoader reformate ce fichier à son chargement : on ne le réécrit que si le contenu change vraiment
     if os.path.exists(OUT) and flatten_file(OUT) == wanted:

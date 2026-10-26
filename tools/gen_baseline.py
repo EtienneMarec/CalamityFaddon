@@ -145,6 +145,10 @@ def main():
     wiki_renames = {r["new"]: r for r in wiki_known(all_renames, {norm(p["title"]): p for p in index.values()})}
     ported = ported_classes()
     plus_hidden = {"items": [], "npcs": []}
+    # Objets de lore : le wiki les connaît par la page « Lore items » (tools/lore_items.py), pas par leur nom, qui est
+    # souvent celui d'un boss (« Signus ») : ceux qu'elle cite sont gardés, les autres masqués
+    from lore_items import calamity_lore, lore_map
+    lore_known = set(lore_map())
 
     # Ajoutés depuis : masqués en Full Fandom sauf si le wiki les connaît
     hidden = {"items": [], "npcs": []}
@@ -157,7 +161,10 @@ def main():
             hidden[key].append(cls)
             plus_hidden[key].append(port)
             continue
-        has_page = cls in documented_classes or norm(current_names.get(cls, "")) in known or rename is not None
+        if cls in calamity_lore():
+            has_page = cls in lore_known
+        else:
+            has_page = cls in documented_classes or norm(current_names.get(cls, "")) in known or rename is not None
         if not has_page:
             hidden[key].append(cls)
 
@@ -184,6 +191,7 @@ def main():
             continue
         if not any(words(n).strip() and words(n) in corpus for n in names):
             unmentioned["items" if kind == "ModItem" else "npcs"].append(cls)
+    unmentioned["items"] += [cls for cls in sorted(set(calamity_lore()) - lore_known) if cls in old and cls in new]
     for key in hidden:
         hidden[key] = sorted(set(hidden[key]) | set(unmentioned[key]))
 

@@ -630,20 +630,20 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 ## Covering (125)
 
 - [ ] Aegis Core — addon: Calamity: Tales of the Aquatic
-- [ ] Ancient Essence of Merge — addon: Calamity: Tales of the Aquatic
+- [x] Ancient Essence of Merge — addon: Calamity: Tales of the Aquatic
 - [ ] Aquatic Shardstone — addon: Calamity: Tales of the Aquatic
 - [ ] Arcanoid Orb — addon: Calamity: Tales of the Aquatic
 - [ ] Arcanum of the Void
-- [ ] Archangel Wings
-- [ ] Armageddon Wings — addon: Deimos, the Starborn Princess
+- [x] Archangel Wings
+- [x] Armageddon Wings — addon: Deimos, the Starborn Princess
 - [ ] Assortegelatin
 - [ ] Astral Bulwark
 - [ ] BFB
 - [ ] Babil Destruction Core — addon: Calamity: Tales of the Aquatic
-- [ ] Bellwings — addon: Calamity: Community Remix
+- [x] Bellwings — addon: Calamity: Community Remix
 - [ ] Blazing Powder — addon: Calamity: Community Remix
 - [ ] Blood Element — addon: Calamity: Tales of the Aquatic
-- [ ] Bloodflare Wings
+- [x] Bloodflare Wings
 - [ ] Bloodred Alliance — addon: Calamity: Tales of the Aquatic
 - [ ] Brain of the Legendary — addon: Calamity: Tales of the Aquatic
 - [ ] Burden Breaker
@@ -659,12 +659,12 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Drained Catarachedrae — addon: Calamity: Tales of the Aquatic
 - [ ] Dread Bone — addon: Calamity: Tales of the Aquatic
 - [ ] Dreamy Belt — addon: Calamity: Community Remix
-- [ ] Drew's Fins
+- [x] Drew's Fins
 - [ ] Earth Destruction Core — addon: Calamity: Tales of the Aquatic
 - [ ] Edgeterrence — addon: Calamity: Tales of the Aquatic
 - [ ] Elementary Orbit — addon: Calamity: Tales of the Aquatic
 - [ ] Enchanted Tumor — addon: Deimos, the Starborn Princess
-- [ ] Essence of Merge — addon: Calamity: Tales of the Aquatic
+- [x] Essence of Merge — addon: Calamity: Tales of the Aquatic
 - [ ] Eternal Pillow — addon: Calamity: Community Remix
 - [ ] Exo Gel
 - [ ] Exotic Beacon
@@ -676,7 +676,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Gehenna
 - [ ] Ghast Relic — addon: Calamity: Tales of the Aquatic
 - [ ] Gift of the Red — addon: Calamity: Tales of the Aquatic
-- [ ] Holy Mantle — addon: Calamity: Community Remix
+- [x] Holy Mantle — addon: Calamity: Community Remix
 - [ ] Icicle Ring
 - [ ] Inverted Gar
 - [ ] Jewel Core — addon: Calamity: Tales of the Aquatic
@@ -711,7 +711,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Rampart of Deicide — addon: Calamity: Tales of the Aquatic
 - [ ] Ravenous Soul Artifact
 - [ ] Red Bow
-- [ ] Red Wings
+- [x] Red Wings
 - [ ] Regeterrence — addon: Calamity: Tales of the Aquatic
 - [ ] Rusty Medallion
 - [ ] Sanguined Catarachedrae — addon: Calamity: Tales of the Aquatic
@@ -734,7 +734,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Soul of Pyrogen
 - [ ] Spy Emblem
 - [ ] Spy's Lootbox — addon: Calamity: Community Remix
-- [ ] Static Wings
+- [x] Static Wings
 - [ ] Sulfuric Scale
 - [ ] Surgical Glove
 - [ ] Terraformance — addon: Calamity: Tales of the Aquatic
@@ -744,7 +744,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Verboten One — addon: Calamity: Community Remix
 - [ ] Thrower's Gauntlet — addon: Calamity: Community Remix
 - [ ] Treasured Family Pendant — addon: Calamity: Community Remix
-- [ ] Tree-Crown Wings
+- [x] Tree-Crown Wings
 - [ ] Universal Stone — addon: Calamity: Community Remix
 - [ ] Void Artifact — addon: Calamity: Tales of the Aquatic
 - [ ] Warbanner of the Sun

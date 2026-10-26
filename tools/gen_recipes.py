@@ -79,8 +79,19 @@ def redirect_aliases(names):
         target = re.sub(r"^(?:tgc|w:c:terraria):", "", target, flags=re.I)  # lien vers le wiki Terraria officiel
         if hops and norm(target) != norm(name):
             aliases[name] = target
-    manual = json.load(open(os.path.join(ROOT, "tools", "glossary.json"), encoding="utf-8")).get("aliases", {})
-    aliases.update({k: v for k, v in manual.items() if k in names and k != v})
+    glossary = json.load(open(os.path.join(ROOT, "tools", "glossary.json"), encoding="utf-8"))
+    aliases.update({k: v for k, v in glossary.get("aliases", {}).items() if k in names and k != v})
+    # Nom du wiki qui contient un nom renommé en jeu par le glossaire (« Treasure Bag (Astrum Deus) » -> Astral Deus,
+    # « Rogue Emblem » -> Spy Emblem) : les mêmes règles que gen_localization.py, appliquées au nom
+    # Passe avant une redirection vers une page de groupe (« Astrum Deus Mask » -> « Boss Masks »), qui ne nomme aucun objet
+    from gen_localization import build_rules, transform
+    rules, protected = build_rules(glossary, index)
+    groups = {norm(p["title"]) for p in index.values() if p.get("status") == "group"} | {"lore", "lore items"}
+    manual = set(glossary.get("aliases", {}))
+    for name in sorted(names - manual):
+        renamed = transform(name, rules, protected)
+        if renamed != name and (name not in aliases or norm(aliases[name]) in groups):
+            aliases[name] = renamed
     return aliases
 
 

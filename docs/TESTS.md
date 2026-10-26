@@ -262,6 +262,13 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Shortflurry du **Galileo Gladius** : des lunes apparaissent sur les ennemis touchés ; **Cosmic Shiv** : parfois un
       rayon en plus vers le curseur ; **Submarine Shocker** : petits nuages verts immobiles (Sulphuric Poisoning) ;
       **Spore Knife** : liane verte au sol sous l'ennemi (24/10)
+- [ ] **Objets de lore** (26/10, Cheat Sheet, recherche « Lore » ou par nom) : le lore de Cryogen s'appelle « Cryogen »
+      (texte de l'Archmage), celui du Desert Scourge « The Desert Scourge », de Yharon « Jungle Dragon, Yharon », du
+      Ravager « Meatmetal Sans », du Moon Lord « Moon Lord » (texte de Requiem) ; Full Fandom : pas de lore de Signus,
+      Storm Weaver, Queen Slime ni Empress of Light, mais celui de Cryogen et de Meatmetal Sans existent
+- [ ] Premier kill de Cryogen : lâche le lore « Cryogen » (une seule fois, pas de doublon)
+- [ ] Le sac d'Astral Deus et celui de Meatmetal Sans reçoivent leur contenu du wiki (page Treasure Bag) : trophée à 10 %
+      dans le sac d'Astral Deus, Greater Healing Potion...
 
 ---
 

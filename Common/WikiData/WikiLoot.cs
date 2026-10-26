@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -375,6 +375,9 @@ namespace CalamityFandom.Common.WikiData
         private static int ResolveBag(string boss, BagData bagData)
         {
             int bag = WikiRecipes.ResolveItem(bagData.Bag);
+            // « Treasure Bag (Astrum Deus) » : boss renommé par le glossaire (alias de gen_loot.py)
+            if (bag <= 0 && data.ItemAliases.TryGetValue(bagData.Bag, out string alias))
+                bag = WikiRecipes.ResolveItem(alias);
             if (bag > 0 && ItemID.Sets.BossBag[bag])
                 return bag;
             data.Aliases.TryGetValue(boss, out var aliases);
