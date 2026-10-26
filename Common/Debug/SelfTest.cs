@@ -332,12 +332,16 @@ namespace CalamityFandom.Common.Debug
             if (FandomMode.IsFull)
                 Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Seabound Staff")), "le Desert Scourge lâche le Seabound Staff (groupe partiel)");
             // Lot du 26/10 : objets qui débloquent des recettes ou du butin du wiki
-            foreach (string name in new[] { "Psychotic Amulet", "Disseminator", "Wrath of the Ancients", "Astral Bow", "Lazhar", "Carnage Ray", "Phantom Lance", "Eutrophic Scimitar", "Aftershock", "Sandslasher", "Asteroid Staff", "Lead Core", "Surgical Glove", "Sulfuric Scale", "Flask of Plague", "Plague Balloon", "Microxodonta", "Sea Shell", "Mirage Jelly (item)", "Inverted Gar", "Glacial Crusher", "Trash of Magnus", "Blow Pipe", "The Needler", "Disease", "Reemergence" })
+            foreach (string name in new[] { "Psychotic Amulet", "Disseminator", "Wrath of the Ancients", "Astral Bow", "Lazhar", "Carnage Ray", "Phantom Lance", "Eutrophic Scimitar", "Aftershock", "Sandslasher", "Asteroid Staff", "Lead Core", "Surgical Glove", "Sulfuric Scale", "Flask of Plague", "Plague Balloon", "Microxodonta", "Sea Shell", "Mirage Jelly (item)", "Inverted Gar", "Glacial Crusher", "Trash of Magnus", "Blow Pipe", "The Needler", "Disease", "Reemergence", "Phlegm", "Toxic Wisdom", "Poison I-Bee", "Decomposition" })
             {
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
                 Expect(!WikiRecipes.Missing.ContainsKey("objet : " + name) && !WikiLoot.MissingItems.ContainsKey(name), $"{name} n'est plus introuvable");
             }
+            // Chaque objet du mod a son nom dans la localisation (une classe de base de Calamity, RogueWeapon, change la
+            // catégorie : Items.Weapons.Rogue)
+            var unnamed = Mod.GetContent<ModItem>().Where(i => !Terraria.Localization.Language.Exists(i.DisplayName.Key)).Select(i => i.DisplayName.Key).ToList();
+            Expect(unnamed.Count == 0, $"objets sans nom localisé : {string.Join(", ", unnamed)}");
             int amulet = WikiRecipes.ResolveItem("Psychotic Amulet");
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.requiredItem.Any(i => i.type == amulet)
                 && Lang.GetItemNameValue(r.createItem.type).StartsWith("Auric Tesla")), "les casques Auric Tesla demandent le Psychotic Amulet");

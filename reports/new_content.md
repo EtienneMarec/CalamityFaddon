@@ -113,7 +113,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Dead Star's Laser Rifle — addon: Tranquility Mod
 - [ ] Death-Needle Stinger — addon: Calamity: Community Remix
 - [ ] Deck of Souls — pas de sprite; addon: Apotheosis and Friends
-- [ ] Decomposition
+- [x] Decomposition
 - [ ] Decreator — addon: Calamity: Tales of the Aquatic
 - [ ] Deeepscale Bomb
 - [ ] Deicide — addon: Calamity: Community Remix
@@ -289,7 +289,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Pastranion
 - [ ] Pearl Gloves
 - [x] Phantom Lance
-- [ ] Phlegm
+- [x] Phlegm
 - [ ] Phoenix Blade
 - [ ] Phototerminator
 - [ ] Pine's Penetrator — addon: Apotheosis and Friends
@@ -301,7 +301,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Planterror Staff
 - [ ] Plasmaflash Bolt — addon: Cataclysm
 - [ ] Plumage Pow
-- [ ] Poison I-Bee
+- [x] Poison I-Bee
 - [ ] Poison Pack
 - [ ] Porpoise Pistol
 - [ ] Prism Destroyer — addon: Calamity: Community Remix
@@ -415,7 +415,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Titanslayer
 - [ ] Tomatus
 - [ ] Totality Tides — addon: Calamity: Community Remix
-- [ ] Toxic Wisdom
+- [x] Toxic Wisdom
 - [x] Trash of Magnus
 - [ ] Trinity
 - [ ] Triploon

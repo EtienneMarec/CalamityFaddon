@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (473)
+## Objets (469)
 
 - A M S
 - AAMG "Disperse"
@@ -265,7 +265,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Deadflower
 - Death-Needle Stinger
 - Deck of Souls
-- Decomposition
 - Decreator
 - Deeepscale Bomb
 - Deicide
@@ -441,7 +440,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Pandora's Chest
 - Pastranion
 - Phantasmal Rune
-- Phlegm
 - Phoenix Blade
 - Phototerminator
 - Pine's Penetrator
@@ -455,7 +453,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Planterror Staff
 - Plasmaflash Bolt
 - Plumage Pow
-- Poison I-Bee
 - Poison Pack
 - Porpoise Pistol
 - Prehistoric Tablet
@@ -570,7 +567,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Thunder Bolt
 - Titan Tides
 - Totality Tides
-- Toxic Wisdom
 - Trinity
 - Triploon
 - True Bloody Edge

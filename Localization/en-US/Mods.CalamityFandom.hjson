@@ -124,17 +124,6 @@
 			'''
 	}
 
-	PhantomLance: {
-		DisplayName: Phantom Lance
-		Tooltip:
-			'''
-			Fires a spectral javelin that rapidly releases lost souls
-			Fades away and slows down over time
-			Lost souls released later deal less damage
-			Stealth strikes don't slow down and souls always deal full damage
-			'''
-	}
-
 	EutrophicScimitar: {
 		DisplayName: Eutrophic Scimitar
 		Tooltip: Fires a beam upon swing that stuns enemies
@@ -143,16 +132,6 @@
 	Aftershock: {
 		DisplayName: Aftershock
 		Tooltip: Summons boulders from the sky on enemy hits
-	}
-
-	Sandslasher: {
-		DisplayName: Sandslasher
-		Tooltip:
-			'''
-			Throws a huge shuriken made out of fused sand unaffected by gravity which slowly accelerates horizontally
-			It does more damage depending on how fast it goes horizontally and how long it has been flying for
-			Stealth strikes periodically release sand clouds
-			'''
 	}
 
 	AsteroidStaff: {
@@ -277,6 +256,16 @@
 		Tooltip: Converts wooden arrows into plague arrows that explode into bees on death
 	}
 
+	ToxicWisdom: {
+		DisplayName: Toxic Wisdom
+		Tooltip: "'What? I do not remember this being made. I do not know if it ever even had an effect, but I guess it was sprited. Do what you wish. -Draedon'"
+	}
+
+	Decomposition: {
+		DisplayName: Decomposition
+		Tooltip: Summons a diseased hive to protect you
+	}
+
 	PsychoticAmulet: {
 		DisplayName: Psychotic Amulet
 		Tooltip:
@@ -355,6 +344,41 @@
 
 	Weapons: {
 		Rogue: {
+			PhantomLance: {
+				DisplayName: Phantom Lance
+				Tooltip:
+					'''
+					Fires a spectral javelin that rapidly releases lost souls
+					Fades away and slows down over time
+					Lost souls released later deal less damage
+					Stealth strikes don't slow down and souls always deal full damage
+					'''
+			}
+
+			Sandslasher: {
+				DisplayName: Sandslasher
+				Tooltip:
+					'''
+					Throws a huge shuriken made out of fused sand unaffected by gravity which slowly accelerates horizontally
+					It does more damage depending on how fast it goes horizontally and how long it has been flying for
+					Stealth strikes periodically release sand clouds
+					'''
+			}
+
+			Phlegm: {
+				DisplayName: Phlegm
+				Tooltip: ""
+			}
+
+			PoisonIBee: {
+				DisplayName: Poison I-Bee
+				Tooltip:
+					'''
+					Throws out disks which release thorns upon hitting enemies
+					Stealth strikes cause the disk to fling out seeds in random directions
+					'''
+			}
+
 			ShockGrenade: {
 				DisplayName: Shock Grenade
 				Tooltip:
@@ -379,6 +403,13 @@
 
 Projectiles: {
 	StratusStar.DisplayName: Stratus Star
+	DecompositionHive.DisplayName: Plague Hive
+	PoisonIBeeDisk.DisplayName: Poison I-Bee Disk
+	IBeeThorn.DisplayName: I-Bee-Thorn
+	IBeeSeed.DisplayName: I-Bee-Seed
+	PhlegmProj.DisplayName: Phlegm
+	PhlegmTrail.DisplayName: Phlegm
+	ToxicWisdomBolt.DisplayName: Hieroglyph
 	TheNeedlerNeedle.DisplayName: The Needler Needle
 	TrashofMagnusBolt.DisplayName: Plague Bolt
 	BlowPipeStinger.DisplayName: Plague Stinger

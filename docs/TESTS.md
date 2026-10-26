@@ -309,6 +309,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
   - [ ] **Disease** (épée courte, Plaguebringer Goliath) : un ennemi tué libère 3 Plague Seekers ; elle a sa jauge
         Shortstrike, et sa Shortflurry lance une Plague Seeker à chaque coup
   - [ ] **Reemergence** (Plaguebringer Goliath) : avec des flèches en bois, flèches de peste qui éclatent en abeilles
+  - [ ] **Phlegm** (javelot du Plaguebringer) : tête chercheuse, traînée verte qui ralentit (Slow) et inflige la Plague ;
+        attaque furtive : éternuement (glaires projetées devant) ; **Toxic Wisdom** : tirs verts et roses alternés
+  - [ ] **Poison I-Bee** (Plaguebringer) : disque boomerang, épines au contact ; en furtif, graines en tous sens
+  - [ ] **Decomposition** (tourelle, Plaguebringer) : ruche posée au curseur, tombe au sol, lâche des abeilles de peste
+        vers les ennemis proches
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

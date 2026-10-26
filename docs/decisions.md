@@ -370,6 +370,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** **The Needler** (inventée) : code de la Needler de Calamity, Plague 1,5 s (durée du Venom de la Needler) ;
   classe ranged de l'infobox (le texte dit « magic gun »). **Disease** (inventée) : épée courte sur la base de celles
   de Calamity ; 3 Plague Seekers à 60 % des dégâts par ennemi tué (le wiki ne donne pas de nombre).
+- **[choix]** **Phlegm** (inventé) : non consommable ; flaque de glaires toutes les 6 ticks (2 s, 30 % des dégâts) ;
+  éternuement de l'attaque furtive = 6 glaires projetées. **Toxic Wisdom** (inventé) : hiéroglyphe et volute de Pigron
+  alternés, faits de poussière (le wiki n'a pas leur image). **Reemergence** : Plague Arrow de Calamity (Malevolence).
+- **[choix]** **Poison I-Bee** (inventé) : 3 épines par coup, une graine toutes les 8 ticks en furtif, vélocité 14 (absente
+  de l'infobox).
+- **[choix]** **Decomposition** (inventée) : ruche-tourelle qui tombe au sol, une abeille de la Plaguenade toutes les
+  40 ticks vers un ennemi à moins de 600 px (Plague 3 s des abeilles de Calamity ; le wiki dit 1 s).
 - **[à trancher]** Plague Hive : demande Alchemical Flask, que Calamity a remplacé par l'Alchemical Decanter
   (`[LegacyName]`) ; dépend de la décision sur les remplacements `[LegacyName]` (section 2).
 
