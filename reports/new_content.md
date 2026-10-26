@@ -48,7 +48,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Bloodinator 1 — pas de sprite
 - [ ] Bloody Edge
 - [ ] Bloody Rupture
-- [ ] Blow Pipe
+- [x] Blow Pipe
 - [ ] Bolide Launcher — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [ ] Bouncing Betty
 - [ ] Bouncy Spiky Ball
@@ -125,7 +125,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Digital Cheese Spear — addon: Calamity: Community Remix
 - [ ] Diminishing Victory
 - [ ] Dirt Clump
-- [ ] Disease
+- [x] Disease
 - [x] Diseased Pike
 - [x] Disseminator
 - [ ] Dissfusion Disk — addon: Calamity: Tales of the Aquatic
@@ -184,7 +184,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Gel Sword
 - [ ] Gel Wand
 - [ ] Ghoststreaker — addon: Calamity: Tales of the Aquatic
-- [ ] Glacial Crusher
+- [x] Glacial Crusher
 - [ ] Gloomy Trident — addon: Calamity: Community Remix
 - [ ] Gluehunter — addon: Calamity: Tales of the Aquatic
 - [ ] Gluelic Blade — addon: Calamity: Tales of the Aquatic
@@ -323,7 +323,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Red Umbrella
 - [ ] Redtide Spear
 - [ ] Redtide Sword
-- [ ] Reemergence
+- [x] Reemergence
 - [ ] Revolvin' Mc'Coy — addon: Calamity: Community Remix
 - [ ] Ribbon Flintlock Rifle Cannon
 - [ ] Rivers of Frost — addon: Calamity: Community Remix
@@ -403,7 +403,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Insacred Texts
 - [ ] The King's Gambit — addon: Calamity: Community Remix
 - [ ] The Last Lightice — addon: Calamity: Community Remix
-- [ ] The Needler
+- [x] The Needler
 - [ ] The Ones Striker — addon: Calamity: Tales of the Aquatic
 - [ ] The Otherside
 - [ ] The Princess
@@ -416,7 +416,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Tomatus
 - [ ] Totality Tides — addon: Calamity: Community Remix
 - [ ] Toxic Wisdom
-- [ ] Trash of Magnus
+- [x] Trash of Magnus
 - [ ] Trinity
 - [ ] Triploon
 - [ ] True Bloody Edge
@@ -678,7 +678,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Gift of the Red — addon: Calamity: Tales of the Aquatic
 - [x] Holy Mantle — addon: Calamity: Community Remix
 - [ ] Icicle Ring
-- [ ] Inverted Gar
+- [x] Inverted Gar
 - [ ] Jewel Core — addon: Calamity: Tales of the Aquatic
 - [ ] Landscapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
 - [x] Lead Core
@@ -688,7 +688,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Magna Core — addon: Calamity: Community Remix
 - [ ] Metamorphic Stone
 - [x] Microxodonta
-- [ ] Mirage Jelly (item)
+- [x] Mirage Jelly (item)
 - [ ] Mobilite Core — addon: Calamity: Tales of the Aquatic
 - [ ] Music Boxes — pas de sprite
 - [ ] Nameless Rat — addon: Calamity: Community Remix
@@ -715,7 +715,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Regeterrence — addon: Calamity: Tales of the Aquatic
 - [ ] Rusty Medallion
 - [ ] Sanguined Catarachedrae — addon: Calamity: Tales of the Aquatic
-- [ ] Sea Shell
+- [x] Sea Shell
 - [ ] Seascapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
 - [ ] Shadowspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [ ] Shattered Module — addon: Calamity: Tales of the Aquatic
@@ -904,7 +904,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Flight Curse — addon: Tranquility Mod
 - [ ] Freezing Weather
 - [ ] Frostburn — pas de sprite
-- [ ] Glacial State
+- [x] Glacial State
 - [ ] God Slayer Cooldown
 - [ ] Heat Exhaustion
 - [ ] Hemophilia

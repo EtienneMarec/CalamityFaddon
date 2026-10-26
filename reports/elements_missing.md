@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (479)
+## Objets (473)
 
 - A M S
 - AAMG "Disperse"
@@ -202,7 +202,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Bloodinator 1
 - Bloody Edge
 - Bloody Rupture
-- Blow Pipe
 - Bolide Launcher
 - Bouncing Betty
 - Bouncy Spiky Ball
@@ -276,7 +275,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Devastation
 - Devious Aestheticus
 - Digital Cheese Spear
-- Disease
 - Dissfusion Disk
 - Divine Hunters Staff
 - Divine Intervention
@@ -341,7 +339,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Ghast Relic
 - Ghoststreaker
 - Gift of the Red
-- Glacial Crusher
 - Gloomy Trident
 - Gluehunter
 - Gluelic Blade
@@ -485,7 +482,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Red Bow
 - Redtide Spear
 - Redtide Sword
-- Reemergence
 - Regeterrence
 - Revolvin' Mc'Coy
 - RGB Graydron
@@ -564,7 +560,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The Insacred Texts
 - The King's Gambit
 - The Last Lightice
-- The Needler
 - The Ones Striker
 - The Otherside
 - The Princess
@@ -576,7 +571,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Titan Tides
 - Totality Tides
 - Toxic Wisdom
-- Trash of Magnus
 - Trinity
 - Triploon
 - True Bloody Edge

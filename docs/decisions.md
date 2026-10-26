@@ -355,6 +355,21 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   la texture et le mouvement du PNJ de Calamity, dure 5 s, 300 dégâts fixes (ni bonus, ni critique, ni défense).
   **Plague Balloon** (inventé) : l'image portée est celle de l'objet, la nuée d'abeilles à la mort est de la poussière
   verte.
+- **[technique]** **Sea Shell** : retiré de Calamity en juin 2022 (porté) ; +15 % de vitesse (wiki, 10 % dans le vieux code),
+  bonus dans n'importe quel liquide (« submerged in liquid »).
+- **[choix]** **Mirage Jelly (item)** (inventé) : -5 % de furtivité consommée par attaque furtive (réduction de perte de
+  Calamity, qui se cumule avec la Coin of Deceit) ; le seuil de déclenchement ne change pas.
+- **[choix]** **Inverted Gar** (inventé) : pêché dans l'Abysse à 5 % (remplace la prise) ; Gar Mana Boost 1 s quand un PNJ
+  ou un projectile touche le joueur (pas les pics), mana gratuite pendant ce temps.
+- **[choix]** **Glacial Crusher** (retiré en juin 2022, porté) et son debuff **Glacial State** (retiré depuis 2.0.1.005,
+  porté) : mouvement du vieux code (x0,9 par tick), défense ignorée pendant l'effet (« defense is shattered », sans
+  chiffre), aucun effet sur les boss (règle actuelle de Calamity pour les ralentissements).
+- **[choix]** **Trash of Magnus** (inventé) : AverageDamageClass de Calamity (« scales with all your damage stats »,
+  comme l'Eye of Magnus), aucun modificateur, éclairs de peste invisibles à traînée verte. **Blow Pipe** (inventée) :
+  munition Dart (fléchettes et graines, comme le Blowgun), clic droit = dard de peste à vitesse moitié.
+- **[choix]** **The Needler** (inventée) : code de la Needler de Calamity, Plague 1,5 s (durée du Venom de la Needler) ;
+  classe ranged de l'infobox (le texte dit « magic gun »). **Disease** (inventée) : épée courte sur la base de celles
+  de Calamity ; 3 Plague Seekers à 60 % des dégâts par ennemi tué (le wiki ne donne pas de nombre).
 - **[à trancher]** Plague Hive : demande Alchemical Flask, que Calamity a remplacé par l'Alchemical Decanter
   (`[LegacyName]`) ; dépend de la décision sur les remplacements `[LegacyName]` (section 2).
 

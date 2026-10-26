@@ -298,6 +298,17 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
         mort, nuée verte
   - [ ] **Microxodonta** (Nuclear Terror) : course bien plus rapide ; en volant avec des ailes, des grappes vertes
         restent derrière et infligent 300 aux ennemis
+  - [ ] **Sea Shell** (Sea Snail) : +3 défense, dans l'eau +3 de plus et on nage librement ; **Mirage Jelly** (covering,
+        lâché par les Mirage Jelly) : une attaque furtive vide un peu moins la jauge ; **Inverted Gar** (pêche dans
+        l'Abysse) : touché par un ennemi, la magie ne coûte rien pendant 1 s (buff Gar Mana Boost)
+  - [ ] **Glacial Crusher** (Cryogen) : iceberg lent qui gèle (ennemi bleuté, presque immobile) ; un coup d'épée sur un
+        ennemi gelé fait double dégâts
+  - [ ] **Trash of Magnus** et **Blow Pipe** (Plaguebringer Goliath) : éclairs verts qui infligent la Plague, pas de
+        reforge possible ; sarbacane avec graines/fléchettes, clic droit plus lent qui inflige la Plague
+  - [ ] **The Needler** (Plaguebringer Goliath) : comme la Needler, mais les aiguilles infligent la Plague
+  - [ ] **Disease** (épée courte, Plaguebringer Goliath) : un ennemi tué libère 3 Plague Seekers ; elle a sa jauge
+        Shortstrike, et sa Shortflurry lance une Plague Seeker à chaque coup
+  - [ ] **Reemergence** (Plaguebringer Goliath) : avec des flèches en bois, flèches de peste qui éclatent en abeilles
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 
@@ -316,3 +327,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Decanter (bloque Plague Hive). Déjà portés dans les deux modes : Gehenna (→ Slagsplitter Pauldron), Aquatic
       Discharge (→ Sahara Slicers), Soul Edge (→ Void Edge), Crimslime Staff (→ Blighted Slime Staff). Fusions, à garder
       à part : Holy Wrath / Profaned Rage Potion → Flask of Holy Flames, Bloodstone Core → Bloodstone.
+- [ ] (26/10) Renommages/refontes de Calamity **antérieurs à 2.0.1.005** dont le wiki a encore la page sous l'ancien nom
+      (`[LegacyName]`) : appliquer la même règle (nom du wiki partout, refonte = portage en Full) ? Même objet renommé :
+      The Reaper = The Old Reaper (aujourd'hui masqué en Full !), Calamitas' Brew = Flask of Brimstone, Chaotic Brick
+      (Wall) = Scoria Brick (Wall), Aero Dynamite = Skynamite, Seashell Boomerang = Fishbone Boomerang, Conclave Crossfire
+      = Conference Call. Refontes : Redtide Sword → Urchin Mace, Red Bow → Ghost Bracelet, Moonlight → Bakidon, Aeries →
+      Arietes 41, Seabow → Reed Blowgun, Marnite Spear/Bayonet, Wulfrum Blade/Bow/Staff/armor → nouveaux objets Wulfrum.
+      Liste complète : `python tools/calamity_renames.py` (dernière section).

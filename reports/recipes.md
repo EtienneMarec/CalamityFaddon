@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1064 objets dont les recettes ont changé : 954 recettes modifiées, 175 créées
+- 1069 objets dont les recettes ont changé : 959 recettes modifiées, 175 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 125 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 145 recettes
+- 120 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 140 recettes
 
 ## Recettes changées
 
@@ -93,6 +93,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Arterial Assault | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 5 Bloodstone Bar, 5 Unholy Blood Cells @ LunarCraftingStation → 1 |
 | Ascendant Spirit Essence | 2 Phantoplasm, 5 Nightmare Fuel, 5 Endothermic Energy, 2 Darksun Fragment @ MythrilAnvil → 1 | 2 Phantoplasm, 5 Nightmare Fuel, 5 Endothermic Energy, 5 Darksun Fragment @ LunarCraftingStation → 1 |
 | Asgard's Valor | 1 Ornate Shield, 5 Hallowed Bar, 1 Core of Calamity @ MythrilAnvil → 1 | 1 Ankh Shield, 1 Ornate Shield, 1 Shield of the Ocean, 1 Core of Calamity, 100 Cloud, 5 Essential Essence Bar @ MythrilAnvil → 1 |
+| Asgardian Aegis | 1 Asgard's Valor, 1 Elysian Aegis, 10 Cosmilite Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Asgard's Valor, 1 Elysian Aegis, 1 Inverted Gar, 10 Cosmilite Bar, 4 Ascendant Spirit Essence, 4 Yharim Bar @ CosmicAnvil → 1 |
 | Ashen Altar | 10 Smooth Brimstone Slag, 5 Scorched Bone @ Anvils → 1 | 10 Smooth Brimstone Slag, 10 Unholy Core @ Anvils → 1 |
 | Ashen Basin | 10 Smooth Brimstone Slag, 5 Scorched Bone @ AshenAltar → 1 | 10 Smooth Brimstone Slag, 5 Unholy Core @ AshenAltar → 1 |
 | Ashen Candelabra | 5 Smooth Brimstone Slag, 3 Torch @ AshenAltar → 1 | 5 Smooth Brimstone Slag, 3 Unholy Core @ AshenAltar → 1 |
@@ -424,6 +425,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Exotic Pheromones | (nouvelle) | 15 Crimtane Bar, 10 Platinum Bar, 7 Feather @ MythrilAnvil → 1 |
 | Exotic Pheromones | (nouvelle) | 15 Demonite Bar, 10 Gold Bar, 7 Feather @ MythrilAnvil → 1 |
 | Exotic Pheromones | (nouvelle) | 15 Demonite Bar, 10 Platinum Bar, 7 Feather @ MythrilAnvil → 1 |
+| Eye of Magnus | 1 Lunic Eye, 12 Nebula Fragment @ LunarCraftingStation → 1 | 1 Lunic Eye, 1 Trash of Magnus, 10 Nebula Fragment @ LunarCraftingStation → 1 |
 | Eye of Night | 1 Vile Feeder, 1 Staff of Necrosteocytes, 1 Belladonna Spirit Staff, 1 Imp Staff, 10 Purified Gel @ DemonAltar → 1 | 1 Belladonna Spirit Staff, 1 Staff of Necrosteocytes, 1 Vile Feeder, 1 Imp Staff @ DemonAltar → 1 |
 | Face Melter | 1 The Axe, 1 Stellar Tune, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 The Axe, 1 Magical Harp, 1 Anahita's Arpeggio, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 |
 | Fallen Paladin's Hammer | 1 Paladin's Hammer, 1 Pwnagehammer, 8 Abyss Bar, 8 Ashes of Calamity @ MythrilAnvil → 1 | 1 Paladin's Hammer, 1 Pwnagehammer, 1 Baroclaw, 5 Core of Chaos, 5 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
@@ -491,6 +493,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Goldplume Spear | 10 Aerialite Bar @ Anvils → 1 | 10 Aerialite Bar, 4 Sunplate Block @ SkyMill → 1 |
 | Golem | 1 Golem Trophy @ Bookcases → 1 | 1 Golem Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Goobow | 14 Purified Gel, 14 Blighted Gel @ Solidifier → 1 | 18 Purified Gel, 30 Gel, 5 Aerialite Bar, 3 Alloy Bar @ StaticRefiner → 1 |
+| Grand Gelatin | 1 Mana Jelly, 1 Life Jelly, 1 Vital Jelly, 2 Soul of Light, 2 Soul of Night @ Anvils → 1 | 1 Mana Jelly, 1 Mirage Jelly, 1 Life Jelly, 1 Vital Jelly, 2 Soul of Light, 2 Soul of Night, 3 Alloy Bar @ Anvils → 1 |
 | Grape Beer | (nouvelle) | 5 Ale, 40 Blood Orb, 1 Unicorn Horn @ AlchemyTable → 5 |
 | Grape Beer | 10 Bottle, 1 Grapes @ Kegs → 10 | 5 Ale, 1 Grape Juice, 1 Unicorn Horn @ Kegs → 5 |
 | Gravity Normalizer Potion | 1 Bottled Water, 1 Aldebaran Alewife, 1 Aureus Cell @ AlchemyTable → 1 | 1 Bottled Water, 1 Aureus Cell, 1 Flah @ AlchemyTable → 1 |
@@ -544,6 +547,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Jungle Dragon Egg | 10 Life Alloy, 15 Effulgent Feather @ MythrilAnvil → 1 | 1 Yharim's Insignia, 15 Effulgent Feather @ LunarCraftingStation → 1 |
 | Jungle Dragon, Yharon | 1 Yharon Trophy @ Bookcases → 1 | 1 Yharon Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Karasawa | 1 Large Ruby, 15 Mysterious Circuitry, 25 Dubious Plating, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Large Ruby, 1 Reassembled Electronics, 5 Galactica Singularity, 8 Cosmilite Bar, 20 Nightmare Fuel, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
+| Kelvin Catalyst | 1 Ice Star, 1 Avalanche, 1 Effluvium Bow, 1 Icebreaker, 1 Snowstorm Staff, 10 Essence of Eleum @ Anvils → 1 | 100 Ice Star, 1 Avalanche, 1 Effluvium Bow, 1 Glacial Crusher, 1 Icebreaker, 1 Snowstorm Staff, 10 Essence of Eleum, 2 The sword is inside the core @ IceMachine → 1 |
 | King Slime | 1 King Slime Trophy @ Bookcases → 1 | 1 King Slime Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Lab Seeking Mechanism | 4 Mysterious Circuitry, 4 Dubious Plating, 10 Any Iron Bar @ Anvils → 1 | 4 Dubious Plating, 4 Mysterious Circuitry, 100 Draedon Power Cell @ Anvils → 1 |
 | Laboratory Door | 6 Laboratory Plating @ Anvils → 1 | 7 Laboratory Plating, 1 Dubious Plating @ Anvils → 1 |
@@ -893,6 +897,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Spirit Glyph | 5 Diamond, 15 Obsidian @ Anvils → 1 | 15 Any Iron Bar, 5 Essence of Law @ Anvils → 1 |
 | Spiteful Candle | (nouvelle) | 1 Peace Candle, 987 Essence of Chaos, 1098 Essence of Sunlight @ CrystalBall → 1 |
 | Spore Knife | 12 Jungle Spores, 8 Stinger @ Anvils → 1 | 10 Jungle Spores, 5 Stinger @ Anvils → 1 |
+| Spyker | 1 Needler, 1 Stynger, 10 Tarragon Bar @ MythrilAnvil → 1 | 1 Needler, 1 Stynger, 1 Blow Pipe, 5 Tarragon Bar, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Squirrel Squire Staff | 10 Any Wood, 1 Acorn @ WorkBenches → 1 | 10 Dirt Block, 1 Squirrel @ WorkBenches → 1 |
 | Staff of the Mechworm | (nouvelle) | 200 Cosmilite Bar, 5 Stardust Dragon Staff, 1 Cosmolight, 2 Gummy Worm, 1 Lime Dye @ CosmicAnvil → 1 |
 | Star Beam Rye | (nouvelle) | 5 Margarita, 10 Blood Orb, 1 Aureus Cell @ AlchemyTable → 5 |
@@ -1168,7 +1173,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Auric Sludge Remnant — 1
 - objet : Axisdriver — 1
 - objet : Blazing Powder — 1
-- objet : Blow Pipe — 1
 - objet : Braxaxe — 1
 - objet : Carapace Hammer — 1
 - objet : Catarachedrae — 1
@@ -1208,7 +1212,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Gel Helm — 1
 - objet : Gel Hood — 1
 - objet : Gel Mask — 1
-- objet : Glacial Crusher — 1
 - objet : Gravitonomy Pike — 1
 - objet : Green Demon Head — 1
 - objet : Gusthammer — 1
@@ -1217,7 +1220,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Impact Adjuster — 1
 - objet : Infernum Kris — 1
 - objet : Insect Biomass — 1
-- objet : Inverted Gar — 1
 - objet : Jet Engine — 1
 - objet : Large Father — 1
 - objet : Lightning Hawk — 1
@@ -1225,7 +1227,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Megaskeet — 1
 - objet : Minnows Prime — 1
 - objet : Miracle Smacker — 1
-- objet : Mirage Jelly (item) — 1
 - objet : Molten Piercer — 1
 - objet : Musket Undertaker — 1
 - objet : Obsidigun — 1
@@ -1257,7 +1258,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : The Godfather — 1
 - objet : The King's Gambit — 1
 - objet : The Princess — 1
-- objet : Trash of Magnus — 1
 - objet : Twisted Netherite Scythe — 1
 - objet : Unsealed Singularity — 1
 - objet : Urchin Flail — 1

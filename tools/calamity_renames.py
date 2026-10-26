@@ -174,6 +174,25 @@ def wiki_known(renames, pages):
     return known
 
 
+def pre_baseline_candidates(pages):
+    """[LegacyName] plus anciens que 2.0.1.005 dont le wiki a encore une page d'objet sous l'ancien nom (nom de classe
+    découpé, « TheReaper » -> « The Reaper ») qu'aucun objet actuel ne porte : à trancher (docs/TESTS.md, 26/10)."""
+    from gen_baseline import classes_at
+    old_classes = classes_at(BASELINE)
+    current = {}
+    for display, _, cls in calamity_display_names():
+        current.setdefault(cls, display)
+    names = {norm(v) for v in current.values()}
+    found = []
+    for old, new, _ in legacy_names():
+        page = pages.get(norm(split_class(old)))
+        if old in old_classes or norm(split_class(old)) in names or not page or page.get("kind") != "content":
+            continue
+        if (page.get("infobox") or "").startswith("item") and (old, new) not in [(f[0], f[1]) for f in found]:
+            found.append((old, new, page["title"], current.get(new)))
+    return found
+
+
 def main():
     renames = load()
     index = json.load(open(os.path.join(ROOT, "data", "wiki_index.json"), encoding="utf-8"))
@@ -186,6 +205,9 @@ def main():
     for r in legacy_candidates(renames):
         if norm(r["oldName"]) in pages:
             print(f"  {r['oldName']!r:42} -> {r['newName']!r} ({r['new']})")
+    print("\n[LegacyName] antérieurs à 2.0.1.005, page du wiki sous l'ancien nom :")
+    for old, new, title, now in pre_baseline_candidates(pages):
+        print(f"  {title!r:42} -> {now!r} ({new})")
 
 
 if __name__ == "__main__":

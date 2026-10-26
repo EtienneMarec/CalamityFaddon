@@ -206,6 +206,77 @@
 			'''
 	}
 
+	SeaShell: {
+		DisplayName: Sea Shell
+		Tooltip:
+			'''
+			Increased defense and damage reduction when submerged in liquid
+			Increased movement speed when submerged in liquid
+			'''
+	}
+
+	MirageJellyItem: {
+		DisplayName: Mirage Jelly
+		Tooltip: Lowers the cost of stealth strikes by 5%
+	}
+
+	InvertedGar: {
+		DisplayName: Inverted Gar
+		Tooltip:
+			'''
+			Taking damage will temporarily prevent mana from being consumed.
+			Thanks for nothing
+			'''
+	}
+
+	GlacialCrusher: {
+		DisplayName: Glacial Crusher
+		Tooltip:
+			'''
+			Fires slow frost projectiles that freeze enemies
+			True melee strikes cause tremendous damage to frozen enemies
+			'''
+	}
+
+	TrashofMagnus: {
+		DisplayName: Trash of Magnus
+		Tooltip:
+			'''
+			An attempt of Magnus' to expand into biological terrorism
+			Despite his efforts, it was deemed a failure and discarded
+			Fires plague bolts that inflict Plague
+			This weapon scales with all your damage stats at once
+			'''
+	}
+
+	BlowPipe: {
+		DisplayName: Blow Pipe
+		Tooltip:
+			'''
+			70% chance to not consume darts
+			Right click to a stingy stinger
+			'''
+	}
+
+	TheNeedler: {
+		DisplayName: The Needler
+		Tooltip: ""
+	}
+
+	Disease: {
+		DisplayName: Disease
+		Tooltip:
+			'''
+			Enemies release plague seekers on death
+			Shortflurry attacks summon plague seekers on each hit
+			'''
+	}
+
+	Reemergence: {
+		DisplayName: Reemergence
+		Tooltip: Converts wooden arrows into plague arrows that explode into bees on death
+	}
+
 	PsychoticAmulet: {
 		DisplayName: Psychotic Amulet
 		Tooltip:
@@ -308,6 +379,10 @@
 
 Projectiles: {
 	StratusStar.DisplayName: Stratus Star
+	TheNeedlerNeedle.DisplayName: The Needler Needle
+	TrashofMagnusBolt.DisplayName: Plague Bolt
+	BlowPipeStinger.DisplayName: Plague Stinger
+	Iceberg.DisplayName: Iceberg
 	MicroxodontaCluster.DisplayName: Microbial Cluster
 	Asteroid.DisplayName: Asteroid
 	AftershockRock.DisplayName: Rock
@@ -373,6 +448,16 @@ Elements: {
 }
 
 Buffs: {
+	GlacialState: {
+		DisplayName: Glacial State
+		Description: Cannot move and defense is shattered
+	}
+
+	GarManaBoost: {
+		DisplayName: Gar Mana Boost
+		Description: Temporary unlimited mana
+	}
+
 	WeaponImbuePlague: {
 		DisplayName: "Weapon Imbue: Plague"
 		Description: Melee, Whip, and Rogue attacks inflict Plague
