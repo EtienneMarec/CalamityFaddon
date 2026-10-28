@@ -250,6 +250,10 @@ def main():
         old_lines = [norm([line]) for line in (best_lines if best >= MATCH_OLD else fandom_tip)]
         kept = [line for line in old_lines if max((ratio(line, t) for t in today), default=0.0) >= LINE_KNOWN]
         change = round(len(kept) / len(old_lines), 2) if old_lines else None
+        # Version 2.0.1.005 (abandon du wiki) : le Fandom la décrit-il ? (refait après l'abandon -> portable depuis 2.0.1.005)
+        baseline = len(snaps) - 1
+        at_baseline = [t for i, _, t in history if i <= baseline]
+        r005 = ratio(f, norm(strip_markup(at_baseline[-1]))) if at_baseline else 0.0
         if current >= SAME and current >= best:
             verdict = "formulation"
         elif unknown or copied:
@@ -261,7 +265,7 @@ def main():
         results.append({
             "title": entry["title"], "class": cls, "category": category, "wikigg": gg_title, "verdict": verdict,
             "similarity": round(same, 2), "bestOld": round(best, 2), "bestOldDate": best_date, "current": round(current, 2),
-            "change": round(change, 2) if change is not None else None, "unknownLines": unknown,
+            "change": round(change, 2) if change is not None else None, "unknownLines": unknown, "at005": round(r005, 2),
             "elsewhere": {line: f"{date}, {path} : {phrase}" for line, (date, phrase, path) in elsewhere.items()},
             "copied": sorted(copied),
             "fandom": fandom_tip, "wikiggTooltip": gg_tip, "code": current_tip,
@@ -363,7 +367,9 @@ def write_report(results, armor):
                 f.write(f"\n### {r['title']} ({r['category'].replace('Items.', '')})\n\n")
                 if r["wikigg"] and r["wikigg"] != r["title"]:
                     f.write(f"Nom actuel : {r['wikigg']}. ")
-                f.write(f"Version du code la plus proche : {r['bestOldDate']} (ressemblance {r['bestOld']}) ; lignes encore présentes aujourd'hui : {r['change']}\n\n")
+                when = "refait après 2.0.1.005" if (r.get("at005") or 0) >= MATCH_OLD else "déjà différent en 2.0.1.005"
+                f.write(f"Version du code la plus proche : {r['bestOldDate']} (ressemblance {r['bestOld']}, {when}) ; "
+                        f"lignes encore présentes aujourd'hui : {r['change']}\n\n")
                 f.write("- Fandom : " + " / ".join(r["fandom"]) + "\n")
                 f.write("- Officiel : " + (" / ".join(r["wikiggTooltip"]) or "(pas de page)") + "\n")
                 if r["unknownLines"]:

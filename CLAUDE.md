@@ -36,6 +36,10 @@ python tools/gen_sprites.py                     # sprites du wiki -> Assets/Over
 python tools/calamity_renames.py                # objets renommés par Calamity depuis 2022 (historique git)
 python tools/apply_modes.py                     # stats « Full Fandom seulement » -> {{mode}} sur les pages (à la main)
 python tools/test_modes.py                      # tests de {{mode}} dans les générateurs (lancé par build_data.py)
+python tools/fetch_wikigg.py                    # wiki officiel (calamitymod.wiki.gg) -> wikigg_dump/ (local, réseau)
+python tools/old_tooltips.py                    # infobulles de Calamity par mois depuis 2018 -> data/old_tooltips.json
+python tools/old_strings.py                     # toutes les phrases du code par date -> data/old_strings.json
+python tools/compare_wikigg.py                  # Fandom / officiel / historique -> reports/wikigg_diff.md (revue : tools/diff_review.json, docs/DIFF_FANDOM.md)
 python tools/selftest.py                        # serveur sans interface + Common/Debug/SelfTest.cs (jeu fermé :
                                                 # sinon TML003, le .tmod n'est pas réécrit et selftest.py refuse de tourner)
 ```

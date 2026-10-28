@@ -372,6 +372,15 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 ## Décisions en attente (pas des tests)
 
+- [ ] (29/10, revue Fandom / wiki officiel, `docs/DIFF_FANDOM.md`) Starfall, Seabound Staff et Effluvium Bow ont été
+      refaits par Calamity après 2.0.1.005 : la fusion du 28/10 leur a fait perdre en Full Fandom le fonctionnement
+      décrit par le wiki. Les rétablir (portages ou ancien fonctionnement sur l'arme de Calamity, comme le Galileo) ?
+- [ ] (29/10) Disgusting Meat et Ha-pu Fruit : objets inventés par le Fandom, homonymes d'objets créés plus tard par
+      Calamity. En Full Fandom, objet du Fandom à la place de celui de Calamity ?
+- [ ] (29/10) Divine Intervention : épée inventée que l'index relie à tort au projectile HolyFlame ; à créer ?
+- [ ] (29/10) Dragonfolly renommée « The Magnificent Lightning Avian » par le Fandom : à ajouter au glossaire ?
+- [ ] (29/10) Portages en Full Fandom des objets refaits après 2.0.1.005 (470 candidats, `docs/DIFF_FANDOM.md`) :
+      lesquels, dans quel ordre ? Et les 51 objets inventés ou en partie inventés : à refaire selon leur page ?
 - [x] Écarts de stats extrêmes : tous tranchés (`tools/stats_decisions.json`)
 - [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
 - [x] Full Fandom : anciens objets dont le wiki ne parle nulle part → masqués aussi (tranché le 21/10, tests en 2.3)
