@@ -41,6 +41,7 @@ MATCH_OLD = 0.80   # au-dessus : le Fandom reprend cette version du code
 REWORK = 0.40      # en dessous : refonte
 MODIFIED = 0.85    # en dessous : modifiée ; au-dessus : reformulée seulement (ou lignes ajoutées depuis)
 LINE_KNOWN = 0.72  # une ligne du Fandom est « connue » si une ligne d'une version du code lui ressemble à ce point
+LINE_ELSEWHERE = 0.88  # même chose pour une phrase d'un autre fichier : presque identique (« Summons a X to fight for you »)
 
 # Lignes sans rapport avec le fonctionnement
 NOISE = [
@@ -125,15 +126,17 @@ class Corpus:
     def __init__(self):
         path = os.path.join(ROOT, "data", "old_strings.json")
         first = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
-        self.phrases = [(norm(strip_markup(p)), date, p) for p, date in first.items()]
+        # [date, fichier] (ancien format : date seule)
+        self.phrases = [(norm(strip_markup(p)), v[0] if isinstance(v, list) else v, p, v[1] if isinstance(v, list) else "")
+                        for p, v in first.items()]
         self.words = {}
-        for i, (text, _, _) in enumerate(self.phrases):
+        for i, (text, _, _, _) in enumerate(self.phrases):
             for w in set(text.split()):
                 if len(w) > 3:
                     self.words.setdefault(w, []).append(i)
 
     def find(self, line):
-        """(date, phrase) de la phrase du code la plus proche de la ligne, ou None."""
+        """(date, phrase, fichier) de la phrase du code la plus proche de la ligne, ou None."""
         text = norm([line])
         words = {w for w in text.split() if len(w) > 3}
         counts = {}
@@ -148,7 +151,7 @@ class Corpus:
             r = ratio(text, self.phrases[i][0])
             if r > best:
                 best, found = r, self.phrases[i]
-        return (found[1], found[2]) if found and best >= LINE_KNOWN else None
+        return (found[1], found[2], found[3]) if found and best >= LINE_ELSEWHERE else None
 
 
 def load_wikigg():
@@ -234,6 +237,11 @@ def main():
             if hit:
                 elsewhere[line] = hit
         unknown = [line for line in unknown if line not in elsewhere]
+        # Phrase prise dans le fichier d'un autre objet : recopiée sur la mauvaise page (Deadshot Brooch...)
+        own = {c_name.lower() for c_name in {cls} | by_old_name.get(norm([entry["title"]]), set())}
+        copied = {line: hit for line, hit in elsewhere.items()
+                  if hit[2].startswith("Items/") and not os.path.basename(hit[2]).startswith("CalamityGlobalItem")
+                  and os.path.splitext(os.path.basename(hit[2]))[0].lower() not in own}
         # Lignes de l'ancienne version encore présentes aujourd'hui (code actuel ou wiki officiel)
         today = [norm([line]) for line in current_tip + gg_tip]
         old_lines = [norm([line]) for line in (best_lines if best >= MATCH_OLD else fandom_tip)]
@@ -241,7 +249,7 @@ def main():
         change = round(len(kept) / len(old_lines), 2) if old_lines else None
         if current >= SAME and current >= best:
             verdict = "formulation"
-        elif unknown:
+        elif unknown or copied:
             verdict = "à vérifier"
         elif best >= MATCH_OLD:
             verdict = "refonte" if change is not None and change < REWORK else "modifiée" if change is not None and change < MODIFIED else "reformulée"
@@ -251,7 +259,8 @@ def main():
             "title": entry["title"], "class": cls, "category": category, "wikigg": gg_title, "verdict": verdict,
             "similarity": round(same, 2), "bestOld": round(best, 2), "bestOldDate": best_date, "current": round(current, 2),
             "change": round(change, 2) if change is not None else None, "unknownLines": unknown,
-            "elsewhere": {line: f"{date} : {phrase}" for line, (date, phrase) in elsewhere.items()},
+            "elsewhere": {line: f"{date}, {path} : {phrase}" for line, (date, phrase, path) in elsewhere.items()},
+            "copied": sorted(copied),
             "fandom": fandom_tip, "wikiggTooltip": gg_tip, "code": current_tip,
             "history": history_section(gg_text)[:1500],
         })
@@ -310,7 +319,8 @@ def write_report(results):
                 if r.get("note"):
                     f.write(f"- **Revue** : {r['note']}\n")
                 for line, where in r.get("elsewhere", {}).items():
-                    f.write(f"- « {line} » : ailleurs dans le code ({where})\n")
+                    copied = " — **recopiée d'un autre objet**" if line in r.get("copied", []) else ""
+                    f.write(f"- « {line} » : ailleurs dans le code ({where}){copied}\n")
         for verdict, title in VERDICTS[9:]:
             names = ", ".join(r["title"] for r in by.get(verdict, []))
             f.write(f"\n## {title}\n\n{names}\n")

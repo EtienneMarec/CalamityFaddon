@@ -263,5 +263,41 @@
   "Spore Knife": {
     "verdict": "mélange",
     "note": "Épée courte de mêlée retirée en juin 2022 (nuages de spores), portée en Full Fandom ; refaite depuis en couteau de lancer rogue. Ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike), déjà implémentée dans le mod."
+  },
+  "Eye of the Storm": {
+    "verdict": "inventée",
+    "note": "Invoque une Aether Valkyrie amie (et serait lâché par l'Aether Valkyrie, ennemi inventé) : jamais. Invoque un Cloud Elemental dans toutes les versions (arme d'invocation, puis accessoire depuis 1.1.7.701)."
+  },
+  "Ha-pu Fruit": {
+    "verdict": "homonyme",
+    "note": "Le Fandom en fait une amélioration permanente (+5 % de dégâts de la Rage) obtenue en jetant dans le Shimmer des objets inventés (Mushroom Plasma Root, Infernal Blood, Red Lightning Container). Calamity a ajouté en 2.0.3.003 un Ha-pu Fruit différent (« A fruit that calms your nerves »)."
+  },
+  "The Absorber": {
+    "verdict": "mélange",
+    "note": "Ancienne version (effets de ses composants, +20 vie et mana, régénération à l'arrêt, épines... avant la refonte de 2.0.3). Inventé : « 3 % reduced stealth costs », venu de la Mirage Jelly inventée."
+  },
+  "Awakening": {
+    "verdict": "mélange",
+    "note": "Infobulle réelle (objet de lore du Starter Bag, 2.0.2.001). Inventé par la page : un clic droit dans l'inventaire invoque « The Calamity » (boss inventé), objet non renouvelable."
+  },
+  "Momentum Capacitor": {
+    "verdict": "inventée",
+    "note": "Augmente sans cesse la vitesse des serviteurs, vendu par le Bandit : jamais. Avant 2.0.1.001, accessoire qui dépensait la furtivité pour un champ qui accélère les projectiles rogue ; depuis, il augmente la vitesse du joueur."
+  },
+  "Storm Ruler": {
+    "verdict": "ambiance",
+    "note": "Phrase d'ambiance remplacée (« Cool sword ») et page vandalisée dans la forme ; rayons et tornades : même arme."
+  },
+  "Fluorescent Vodka": {
+    "verdict": "ancienne version",
+    "note": "Effets de l'ancienne Fabsol's Vodka (+8 % de dégâts, -10 % de défense, immunité prolongée), que le Fandom a renommée Fluorescent Vodka et Calamity Purple Haze, avant sa refonte (bonus après une attaque furtive). Le renommage du glossaire (Purple Haze -> Fluorescent Vodka) est donc juste."
+  },
+  "Seafood": {
+    "verdict": "inventée",
+    "note": "Le Fandom en fait un aliment (Well Fed 15 min, ligne recopiée de la Delicious Meat de 2018). Objet d'invocation de l'Aquatic Scourge dans toutes les versions."
+  },
+  "Deadshot Brooch": {
+    "verdict": "mélange",
+    "note": "+10 % de dégâts à distance, +5 % de critique, 20 % de munitions économisées : ancienne version. La ligne « 5 increased defense, 2 increased life regen, and 15% increased pick speed » est recopiée de la Daedalus Emblem (code de 2020)."
   }
 }
