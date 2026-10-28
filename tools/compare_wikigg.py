@@ -116,6 +116,17 @@ def ratio(a, b):
     return difflib.SequenceMatcher(None, a, b).ratio()
 
 
+def words(text):
+    """Mots significatifs (plus de 3 lettres) et nombres d'un texte normalisé."""
+    return {w for w in text.split() if len(w) > 3 or re.match(r"^\d", w)}
+
+
+def coverage(a, b):
+    """Part des mots de a qu'on retrouve dans b."""
+    wa = words(a)
+    return len(wa & words(b)) / len(wa) if wa else 1.0
+
+
 def numbers(text):
     return sorted(set(re.findall(r"\d+(?:\.\d+)?%?", text)))
 
@@ -274,18 +285,29 @@ def main():
         baseline = len(snaps) - 1
         at_baseline = [t for i, _, t in history if i <= baseline]
         r005 = ratio(f, norm(strip_markup(at_baseline[-1]))) if at_baseline else 0.0
+        # Mots de l'ancienne version retrouvés aujourd'hui, et mots d'aujourd'hui déjà présents avant : une reformulation
+        # garde les deux hauts, un ajout fait baisser le second, une refonte fait chuter le premier
+        today_text = " ".join(today)
+        old_text = best_text if best >= MATCH_OLD else f
+        cov_old, cov_new = coverage(old_text, today_text), coverage(norm(current_tip or gg_tip), old_text)
         if current >= SAME and current >= best:
             verdict = "formulation"
         elif unknown or copied:
             verdict = "à vérifier"
         elif best >= MATCH_OLD:
-            verdict = "refonte" if change is not None and change < REWORK else "modifiée" if change is not None and change < MODIFIED else "reformulée"
+            if cov_old >= 0.8 and cov_new >= 0.6 or change is not None and change >= MODIFIED and cov_new >= 0.6:
+                verdict = "reformulée"
+            elif cov_old >= 0.5 or change is not None and change >= REWORK:
+                verdict = "modifiée"
+            else:
+                verdict = "refonte"
         else:
             verdict = "mélange de versions"
         results.append({
             "title": entry["title"], "class": cls, "category": category, "wikigg": gg_title, "verdict": verdict,
             "similarity": round(same, 2), "bestOld": round(best, 2), "bestOldDate": best_date, "current": round(current, 2),
             "change": round(change, 2) if change is not None else None, "unknownLines": unknown, "at005": round(r005, 2),
+            "coverage": [round(cov_old, 2), round(cov_new, 2)],
             "elsewhere": {line: f"{date}, {path} : {phrase}" for line, (date, phrase, path) in elsewhere.items()},
             "copied": sorted(copied),
             "fandom": fandom_tip, "wikiggTooltip": gg_tip, "code": current_tip,

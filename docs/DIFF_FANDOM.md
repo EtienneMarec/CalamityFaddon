@@ -31,9 +31,9 @@ Relancer : `python tools/old_tooltips.py`, `python tools/old_strings.py`, `pytho
 
 | Verdict | Objets | Sens |
 |---|---|---|
-| Refonte | 366 | le Fandom décrit une ancienne version, très différente de l'objet actuel |
-| Modifiée | 158 | ancienne version, en partie différente |
-| Reformulée / formulation | 150 | même fonctionnement, ancien texte |
+| Refonte | 268 | le Fandom décrit une ancienne version, très différente de l'objet actuel |
+| Modifiée | 280 | ancienne version, en partie différente |
+| Reformulée / formulation | 126 | même fonctionnement, ancien texte |
 | Mélange de versions | 33 | chaque ligne vient d'une version passée, sans qu'une seule les ait toutes (surtout les alcools d'avant leur refonte) |
 | Ancienne version (revue) | 13 | confirmée à la main |
 | **Inventée** | **27** | le Fandom décrit un fonctionnement qui n'a jamais existé |
@@ -44,7 +44,7 @@ Relancer : `python tools/old_tooltips.py`, `python tools/old_strings.py`, `pytho
 | Sets d'armure | 22 | 21 anciennes versions, 1 reformulation (Gem Tech, réécrit en pavé), aucune invention |
 
 **Conclusion principale** : le Fandom invente peu (51 objets sur 785 écarts). L'essentiel des écarts de fonctionnement
-(≈ 570) vient de ce que Calamity a refait ses objets, et dans 470 cas **après** 2.0.1.005 : le Fandom décrit alors exactement la version
+(≈ 594) vient de ce que Calamity a refait ses objets, et dans 483 cas **après** 2.0.1.005 : le Fandom décrit alors exactement la version
 2.0.1.005, qu'on peut porter en Full Fandom comme le Galileo Gladius et le Cosmic Shiv (`tools/legacy_extract.py`,
 `Common/Legacy/FullFandomLegacyWeapons.cs`).
 
@@ -188,69 +188,73 @@ renommés avant leur retrait, que la recherche par nom ne voit pas).
 
 ## Anciennes versions (refontes et modifications), par catégorie
 
-Candidats au portage en Full Fandom (comme le Galileo Gladius). Liste complète avec les infobulles : `reports/wikigg_diff.md`.
+Candidats au portage en Full Fandom (comme le Galileo Gladius). Liste complète avec les infobulles et les notes de version :
+`reports/wikigg_diff.md`.
 
 
-### Refontes, refaites après 2.0.1.005 (le Fandom décrit la version 2.0.1.005, portable avec legacy_extract.py) : 325
+### Refontes, refaites après 2.0.1.005 (le Fandom décrit la version 2.0.1.005, portable avec legacy_extract.py) : 235
 
-- **Accessoires** (76) : Abyssal Amulet, Abyssal Diving Suit, Abyssal Mirror, Ancient Fossil, Anechoic Plating, Angel Treads, Aquatic Heart, Archaic Powder, Asgard's Valor, Asgardian Aegis, Badge of Bravery, Blazing Core, Blood Pact, Bloodflare Core, Bloom Stone, Chaos Stone, Core of the Blood God, Corrosive Spine, Crown Jewel, Dark Sun Ring, Deep Diver, Deific Amulet, Depths Charm, Eclipse Mirror, Eldritch Soul Artifact, Elemental Gauntlet, Enchanted Pearl, Feather Crown, Flame-Licked Shell, Flesh Totem, Fungal Symbiote, Giant Shell, Giant Tortoise Shell, Gladiator's Locket, Glove of Precision, Godly Soul Artifact, Gravistar Sabaton, Hallowed Rune, Hide of Astrum Deus, Honey Dew, Iron Boots, Jelly-Charged Battery, Laudanum, Leviathan Ambergris, Life Jelly, Living Dew, Lumenous Amulet, Luxor's Gift, Mana Jelly, Mana Polarizer, Moonstone Crown, Necklace of Vexation, Ocean Crest, Ornate Shield, Radiant Ooze, Rampart of Deities, Regenator, Rotten Brain, Sigil of Calamitas, Silencing Sheath, Spirit Glyph, Statis' Blessing, Statis' Curse, Statis' Ninja Belt, Statis' Void Sash, The Community, The Evolution, The First Shadowflame, The Transformer, Toxic Heart, Trinket of Chi, Unstable Granite Core, Vampiric Talisman, Void of Calamity, Voltaic Jelly, Yharim's Insignia
-- **Mêlée** (47) : Abyss Blade, Astral Pike, Astral Scythe, Avalanche, Ball O' Fugu, Basher, Brimlance, Caustic Edge, Crescent Moon, Darklight Greatsword, Depth Crusher, Devil's Devastation, Entropic Claymore, Evil Smasher, Excelsus, Fallen Paladin's Hammer, Feralthorn Claymore, Forbidden Oathblade, Galaxia, Galaxy Smasher, Gelitic Blade, Gilded Proboscis, Grand Dad, Graydron, Greatsword of Blah, Greatsword of Judgement, Greentide, Hellkite, Holy Collider, Insidious Impaler, Lacerator, Mantis Claws, Mirror Blade, Neptune's Bounty, Oblivion, Pandemic, Pwnagehammer, Solar Flare, Stellar Contempt, The Microwave, The Mutilator, The Obliterator, Triactis' True Paladinian Mage-Hammer of Might, True Forbidden Oathblade, True Tyrant's Ultisword, Tumbleweed, Tyrant Yharim's Ultisword
-- **Distance** (45) : Animosity, Arterial Assault, Astral Blaster, Astreal Defeat, Aurora Blazer, Barinade, Bladedge Railbow, Blood Boiler, Cleansing Blaze, Crackshot Colt, Deathwind, Dragon's Breath, Elemental Eruption, Fetid Emesis, Firestorm Cannon, Flak Kraken, Flak Toxicannon, God's Bellows, Goobow, Halley's Inferno, Hellborn, Hydra, Leviatitan, Magna Cannon, Meowthrower, Midas Prime, Norfleet, Nullification Pistol, Overloaded Blaster, Pearl God, Photoviscerator, Polaris Parrotfish, Scorched Earth, Seadragon, Shadethrower, Spark Spreader, Spectralstorm Cannon, Speed Blaster, Starmada, Stellar Cannon, Sulphuric Acid Cannon, Svantechnical, Telluric Glare, Terra Flameburster, Tyranny's End
-- **Rogue (Spy)** (41) : Adamantite Throwing Axe, Blazing Star, Bloodsoaked Crasher, Brackish Flask, Burning Strife, Cinquedea, Contaminated Bile, Corpus Avertor, Cranium Smasher, Cursed Dagger, Deep Wounder, Duststorm in a Bottle, Dynamic Pursuer, Eclipse's Fall, Elephant Killer, Equanimity, Eradicator, Exorcism, Gel Dart, Glaive, Hardened Honeycomb, Ice Star, Ichor Spear, Meteor Fist, Molten Amputator, Night's Gaze, Palladium Javelin, Phantasmal Ruin, Profaned Partisan, Scourge of the Desert, Sealed Singularity, Shard of Antumbra, Shock Grenade, Slick Cane, Spear of Destiny, Spear of Paleolith, Star of Destruction, Stormfront Razor, Supernova, Toxicant Twister, Urchin Stinger
-- **Magie** (30) : Aether's Whisper, Aetherflux Cannon, Alula Australis, Anahita's Arpeggio, Apoctosis Array, Astralachnea Staff, Burning Sea, Death Valley Duster, Deathhail Staff, Downpour, Frigidflash Bolt, Frost Bolt, Genisis, Ion Blaster, Phantasmal Fury, Plasma Rifle, Primordial Ancient, Primordial Earth, Purge Guzzler, SHPC, Sanguine Flare, Seething Discharge, Shadecrystal Barrage, Shadowbolt Staff, Starfall, Storm Spray, Thunderstorm, Viscera, Vitriolic Viper, Wingman
-- **Invocation** (18) : Calamari's Lament, Dazzling Stabber Staff, Dreadmine Staff, Energy Staff, Godspawn Helix Staff, Harvest Staff, Hive Pod, Igneous Exaltation, Orthocera Shell, Plantation Staff, Saros Possession, Seabound Staff, Shellfish Staff, Sirius, Spikecrag Staff, Squirrel Squire Staff, Staff of the Mechworm, Void Concentration Staff
-- **Munitions** (13) : Acid Round, Bloodfire Arrow, Elysian Arrow, Flash Round, God Slayer Slug, Holy Fire Bullet, Hyperius Bullet, Icicle Arrow, Icy Bullet, Napalm Arrow, Terra Arrow, Terra Bullet, Vanquisher Arrow
+- **Accessoires** (57) : Abyssal Amulet, Ancient Fossil, Anechoic Plating, Aquatic Heart, Archaic Powder, Asgard's Valor, Asgardian Aegis, Blazing Core, Blood Pact, Bloodflare Core, Bloom Stone, Chaos Stone, Core of the Blood God, Corrosive Spine, Crown Jewel, Dark Sun Ring, Deep Diver, Deific Amulet, Feather Crown, Flame-Licked Shell, Flesh Totem, Fungal Symbiote, Giant Shell, Giant Tortoise Shell, Gladiator's Locket, Godly Soul Artifact, Gravistar Sabaton, Hallowed Rune, Hide of Astrum Deus, Honey Dew, Iron Boots, Laudanum, Leviathan Ambergris, Life Jelly, Living Dew, Lumenous Amulet, Luxor's Gift, Mana Jelly, Mana Polarizer, Moonstone Crown, Necklace of Vexation, Ocean Crest, Ornate Shield, Rampart of Deities, Regenator, Rotten Brain, Spirit Glyph, Statis' Ninja Belt, Statis' Void Sash, The Community, The Evolution, The First Shadowflame, The Transformer, Toxic Heart, Trinket of Chi, Unstable Granite Core, Yharim's Insignia
+- **Distance** (33) : Animosity, Astreal Defeat, Aurora Blazer, Barinade, Cleansing Blaze, Crackshot Colt, Deathwind, Dragon's Breath, Elemental Eruption, Fetid Emesis, Firestorm Cannon, Flak Kraken, Flak Toxicannon, God's Bellows, Hellborn, Hydra, Leviatitan, Magna Cannon, Meowthrower, Midas Prime, Nullification Pistol, Overloaded Blaster, Pearl God, Photoviscerator, Polaris Parrotfish, Seadragon, Shadethrower, Spark Spreader, Speed Blaster, Starmada, Sulphuric Acid Cannon, Svantechnical, Terra Flameburster
+- **Mêlée** (31) : Abyss Blade, Basher, Crescent Moon, Depth Crusher, Devil's Devastation, Evil Smasher, Excelsus, Fallen Paladin's Hammer, Feralthorn Claymore, Forbidden Oathblade, Galaxy Smasher, Gilded Proboscis, Grand Dad, Greatsword of Blah, Greatsword of Judgement, Greentide, Hellkite, Insidious Impaler, Lacerator, Mantis Claws, Mirror Blade, Neptune's Bounty, Oblivion, Pandemic, Solar Flare, The Mutilator, The Obliterator, True Forbidden Oathblade, True Tyrant's Ultisword, Tumbleweed, Tyrant Yharim's Ultisword
+- **Rogue (Spy)** (27) : Blazing Star, Brackish Flask, Cinquedea, Contaminated Bile, Cranium Smasher, Deep Wounder, Duststorm in a Bottle, Dynamic Pursuer, Eclipse's Fall, Elephant Killer, Equanimity, Exorcism, Glaive, Meteor Fist, Molten Amputator, Phantasmal Ruin, Profaned Partisan, Scourge of the Desert, Sealed Singularity, Shard of Antumbra, Shock Grenade, Slick Cane, Spear of Destiny, Star of Destruction, Stormfront Razor, Supernova, Toxicant Twister
+- **Magie** (20) : Aetherflux Cannon, Apoctosis Array, Burning Sea, Deathhail Staff, Downpour, Ion Blaster, Phantasmal Fury, Plasma Rifle, Primordial Ancient, Primordial Earth, Purge Guzzler, SHPC, Sanguine Flare, Shadecrystal Barrage, Shadowbolt Staff, Storm Spray, Thunderstorm, Viscera, Vitriolic Viper, Wingman
+- **Munitions** (11) : Acid Round, Bloodfire Arrow, Flash Round, God Slayer Slug, Holy Fire Bullet, Hyperius Bullet, Icicle Arrow, Icy Bullet, Terra Arrow, Terra Bullet, Vanquisher Arrow
 - **Objets à poser** (10) : Ancient Altar, Auric Ore, Botanic Planter, Corruption Effigy, Crimson Effigy, Effulgent Manipulator, Eutrophic Shelf, Monolith Amalgam, Rock, Static Refiner
-- **Potions** (10) : Astral Injection, Aureus Cell, Bloody Mary, Bounding Potion, Calcium Potion, Caribbean Rum, Fireball, Screwdriver, Soaring Potion, Tequila
-- **Arsenal de Draedon** (9) : Frequency Manipulator, Gauss Rifle, Heavy Laser Rifle, Matter Modulator, Plasma Caster, Pulse Pistol, Pulse Rifle, Pulse Turret Remote, Snake Eyes
-- **Pêche** (7) : Bloodfin, Chaotic Fish, Fish of Eleum, Fish of Flight, Glimmering Gemfish, Sunbeam Fish, Ursa Sergeant
-- **Outils** (5) : Broken Water Filter, Crystyl Crusher, Greatbay Pickaxe, Relic of Convergence, Relic of Resilience
-- **Ailes** (4) : Drew's Wings, Elysian Tracers, Seraph Tracers, Soul of Cryogen
-- **Sans classe** (4) : Coldheart Icicle, Eye of Magnus, Relic of Deliverance, Stratus Sphere
+- **Potions** (9) : Astral Injection, Bloody Mary, Bounding Potion, Calcium Potion, Caribbean Rum, Fireball, Screwdriver, Soaring Potion, Tequila
+- **Invocation** (9) : Energy Staff, Harvest Staff, Plantation Staff, Saros Possession, Shellfish Staff, Sirius, Spikecrag Staff, Staff of the Mechworm, Void Concentration Staff
+- **Arsenal de Draedon** (7) : Frequency Manipulator, Gauss Rifle, Matter Modulator, Plasma Caster, Pulse Rifle, Pulse Turret Remote, Snake Eyes
+- **Pêche** (5) : Bloodfin, Chaotic Fish, Fish of Eleum, Sunbeam Fish, Ursa Sergeant
+- **Ailes** (4) : Celestial Tracers, Drew's Wings, Seraph Tracers, Soul of Cryogen
 - **Invocation de boss** (3) : Eye of Desolation, Jungle Dragon Egg, SYNTAX ERROR
+- **Outils** (3) : Crystyl Crusher, Relic of Convergence, Relic of Resilience
+- **Sans classe** (3) : Coldheart Icicle, Relic of Deliverance, Stratus Sphere
 - **Buffs** (1) : Star Swallower Containment Unit
 - **Montures** (1) : Onyx Excavator Key
 - **Familiers** (1) : Thief's Dime
 
-### Refontes, déjà différentes en 2.0.1.005 (le Fandom décrit une version plus ancienne, date entre parenthèses) : 41
+### Refontes, déjà différentes en 2.0.1.005 (le Fandom décrit une version plus ancienne, date entre parenthèses) : 33
 
-- **Accessoires** (17) : Abaddon (2021-09), Alluring Bait (2019-12), Amalgamated Brain (2020-12), Ambrosial Ampoule (2021-10), Bloody Worm Tooth (2018-12), Celestial Jewel (2018-12), Corrupt Flask (2018-12), Crimson Flask (2018-12), Daawnlight Spirit Origin (2021-12), Draedon's Heart (2021-10), Elemental Quiver (2021-04), Profaned Soul Artifact (2020-04), Raider's Talisman (2019-02), Rotten Dogtooth (2021-07), Rover Drive (2022-02), Sand Cloak (2020-01), Void of Extinction (2019-04)
-- **Potions** (5) : Evergreen Gin (2022-02), Hadal Stew (2020-09), Shadow Potion (2020-06), Tequila Sunrise (2021-01), Whiskey (2021-01)
-- **Distance** (5) : Blissful Bombardier (2018-12), Opal Striker (2018-12), Scorpio (2019-08), Soma Prime (2021-03), Titanium Railgun (2019-08)
-- **Ailes** (3) : Celestial Tracers (2022-02), Hadarian Wings (2021-09), Skyline Wings (2021-09)
-- **Magie** (2) : Coral Spout (2018-12), Shaderain Staff (2018-12)
+- **Accessoires** (17) : Abaddon (2021-09), Alluring Bait (2019-12), Amalgamated Brain (2020-12), Ambrosial Ampoule (2021-10), Bloody Worm Tooth (2018-12), Celestial Jewel (2018-12), Corrupt Flask (2018-12), Crimson Flask (2018-12), Daawnlight Spirit Origin (2021-12), Draedon's Heart (2021-10), Profaned Soul Artifact (2020-04), Raider's Talisman (2019-02), Rotten Dogtooth (2021-07), Rover Drive (2022-02), Sand Cloak (2020-01), Void of Calamity (2020-12), Void of Extinction (2019-04)
+- **Potions** (4) : Evergreen Gin (2022-02), Shadow Potion (2020-06), Tequila Sunrise (2021-01), Whiskey (2021-01)
+- **Distance** (4) : Blissful Bombardier (2018-12), Opal Striker (2018-12), Scorpio (2019-08), Titanium Railgun (2019-08)
+- **Ailes** (2) : Hadarian Wings (2021-09), Skyline Wings (2021-09)
 - **Mêlée** (2) : Bladecrest Oathsword (2019-08), Old Lord Oathsword (2019-08)
-- **Invocation** (2) : Cnidarian (2020-12), Temporal Umbrella (2020-04)
-- **Montures** (1) : Tundra Leash (2019-06)
-- **Invocation de boss** (1) : Desert Medallion (2021-11)
-- **Outils** (1) : Genesis Pickaxe (2021-12)
+- **Magie** (1) : Shaderain Staff (2018-12)
 - **Rogue (Spy)** (1) : Mythril Knife (2020-06)
+- **Invocation** (1) : Cnidarian (2020-12)
 - **Sans classe** (1) : Claret Cannon (2021-03)
 
-### Modifiées en partie, refaites après 2.0.1.005 (le Fandom décrit la version 2.0.1.005, portable avec legacy_extract.py) : 145
+### Modifiées en partie, refaites après 2.0.1.005 (le Fandom décrit la version 2.0.1.005, portable avec legacy_extract.py) : 248
 
-- **Accessoires** (25) : Abyssal Diving Gear, Aero Stone, Affliction, Aquatic Emblem, Bloody Worm Scarf, Ethereal Extorter, Ethereal Talisman, Frost Barrier, Frost Flare, Giant Pearl, Glove of Recklessness, Harpy Ring, Nebulous Core, Nuclear Rod, Nucleogenesis, Permafrost's Concoction, Rare Elemental in a Bottle, Rose Stone, Shattered Community, Star-Tainted Generator, Starbuster Core, Supreme Bait Tackle Box Fishing Station, The Camper, Venerated Locket, Yharim's Gift
-- **Rogue (Spy)** (22) : Ballistic Poison Bomb, Cosmic Kunai, Defective Sphere, Fantasy Talisman, Fishbone Boomerang, Frostcrush Valari, Frosty Flare, God's Paranoia, Grave Grimreaver, Heavenfallen Stardisk, Infernal Kris, Kylie, Leviathan Teeth, Lionfish, Refraction Rotor, Regulus Riot, Scourge of the Seas, Seraphim, Shinobi Blade, Snap Clam, Throwing Brick, Utensil Poker
-- **Invocation** (19) : Ares' Exoskeleton, Borealis Bomber, Caustic Staff, Cosmic Immaterializer, Cosmilamp, Cryogenic Staff, Dragonblood Disgorger, Endogenesis, Entropy's Vigil, Ethereal Subjugator, Flowers of Mortality, Guidelight of Oblivion, Herring Staff, Metastasis, Sun God Staff, Sun Spirit Staff, Tactical Plague Engine, Wither Blossoms Staff, Yharon's Kindle Staff
-- **Mêlée** (18) : Air Spinner, Aorta, Azathoth, Dragon Rage, Earthen Pike, Fault Line, Prismatic Breaker, Rem's Revenge, Riptide, Roxcalibur, Seeking Scorcher, Shimmerspark, Sulphurous Grabber, Terratomere, The God's Gambit, The Oracle, True Caustic Edge, Yin-Yo
-- **Distance** (18) : Angelic Shotgun, Anti-materiel Rifle, Auralis, Chicken Cannon, Condemnation, Effluvium Bow, Flarewing Bow, Infinity, Magnomaly Cannon, Megalodon, Pristine Annihilation, Rubico Prime, SDFMG, Septic Skewer, Shredder, The Sevens Striker, Ultima, Universal Genesis
-- **Magie** (10) : Eidolic Wail, Mad Alchemist's Cocktail Glove, Recitation of the Beast, Tactician's Trump Card, Terra Ray, Tome of Fates, Ultra Liquidator, Vehemence, Vesuvius, Vivid Clarity
-- **Arsenal de Draedon** (8) : Galvanizing Glaive, Hydraulic Volt Crasher, Mounted Scanner, Phaseslayer, Pole Warper, Pulse Dragon, Taser, Wave Pounder
-- **Ailes** (7) : Aureate Booster, Elysian Wings, Exodus Wings, Hadal Mantle, Silva Wings, Starlight Wings, Tarragon Wings
-- **Invocation de boss** (6) : Abombination, Charred Idol, Martian Distress Beacon, Necroplasmic Beacon, Overloaded Sludge, Rune of Kos
-- **Munitions** (2) : Bloodfire Bullet, Verium Bullet
-- **Pêche** (2) : Dragoon Drizzlefish, Rift Reeler
-- **Objets à poser** (2) : Altar of the Accursed, Spiteful Candle
-- **Outils** (2) : Axe of Purity, Grax
-- **Divers** (1) : Celestial Onion
+- **Accessoires** (39) : Abyssal Diving Suit, Abyssal Mirror, Aero Stone, Affliction, Angel Treads, Badge of Bravery, Bloody Worm Scarf, Depths Charm, Eclipse Mirror, Eldritch Soul Artifact, Elemental Gauntlet, Elemental in a Bottle, Enchanted Pearl, Ethereal Extorter, Ethereal Talisman, Frost Barrier, Giant Pearl, Glove of Precision, Glove of Recklessness, Harpy Ring, Heart of the Elements, Jelly-Charged Battery, Nebulous Core, Nuclear Rod, Radiant Ooze, Rare Elemental in a Bottle, Rose Stone, Shattered Community, Sigil of Calamitas, Silencing Sheath, Starbuster Core, Statis' Blessing, Statis' Curse, Supreme Bait Tackle Box Fishing Station, The Camper, Vampiric Talisman, Venerated Locket, Voltaic Jelly, Yharim's Gift
+- **Mêlée** (38) : Air Spinner, Aorta, Astral Pike, Avalanche, Baleful Harvester, Ball O' Fugu, Brimlance, Brimstone Sword, Caustic Edge, Darklight Greatsword, Devil's Sunrise, Dragon Rage, Earthen Pike, Entropic Claymore, Fault Line, Galaxia, Gelitic Blade, Graydron, Holy Collider, Prismatic Breaker, Pwnagehammer, Rem's Revenge, Riptide, Roxcalibur, Seeking Scorcher, Shimmerspark, Stellar Contempt, Swordsplosion, Terra Lance, Terratomere, The Burning Sky, The God's Gambit, The Microwave, Triactis' True Paladinian Mage-Hammer of Might, True Caustic Edge, Typhon's Greed, Urchin Mace, Yin-Yo
+- **Rogue (Spy)** (33) : Adamantite Throwing Axe, Ballistic Poison Bomb, Bloodsoaked Crasher, Burning Strife, Corpus Avertor, Cosmic Kunai, Cursed Dagger, Eradicator, Fantasy Talisman, Frostcrush Valari, Frosty Flare, Gel Dart, God's Paranoia, Hardened Honeycomb, Heavenfallen Stardisk, Ice Star, Icebreaker, Ichor Spear, Infernal Kris, Kylie, Leviathan Teeth, Lionfish, Night's Gaze, Palladium Javelin, Refraction Rotor, Scourge of the Seas, Shinobi Blade, Snap Clam, Spear of Paleolith, Throwing Brick, Time Bolt, Urchin Stinger, Utensil Poker
+- **Distance** (30) : Angelic Shotgun, Anti-materiel Rifle, Arterial Assault, Astral Blaster, Auralis, Blood Boiler, Chicken Cannon, Condemnation, Flarewing Bow, Halley's Inferno, Infinity, Megalodon, Mineral Mortar, Minigun, Norfleet, P90, Pristine Annihilation, Rubico Prime, SDFMG, Scorched Earth, Septic Skewer, Shredder, Spectralstorm Cannon, Starfleet, Stellar Cannon, Storm Surge, Telluric Glare, The Sevens Striker, Tyranny's End, Ultima
+- **Magie** (28) : Aether's Whisper, Alula Australis, Anahita's Arpeggio, Astral Staff, Death Valley Duster, Eidolic Wail, Flare Bolt, Frigidflash Bolt, Frost Bolt, Genisis, Lashes of Chaos, Nano Purge, Phoenix Flame Barrage, Plague Staff, Recitation of the Beast, Seething Discharge, Snowstorm Staff, Starfall, Tactician's Trump Card, Terra Ray, Thorn Blossom, Tome of Fates, Ultra Liquidator, Vehemence, Venusian Trident, Vesuvius, Void Vortex, Winter's Fury
+- **Invocation** (24) : Ancient Ice Chunk, Ares' Exoskeleton, Borealis Bomber, Calamari's Lament, Caustic Staff, Cosmic Immaterializer, Cosmilamp, Dazzling Stabber Staff, Dragonblood Disgorger, Dreadmine Staff, Entropy's Vigil, Ethereal Subjugator, Flowers of Mortality, Godspawn Helix Staff, Herring Staff, Hive Pod, Igneous Exaltation, Orthocera Shell, Seabound Staff, Squirrel Squire Staff, Sun God Staff, Sun Spirit Staff, Wither Blossoms Staff, Yharon's Kindle Staff
+- **Ailes** (9) : Aureate Booster, Elysian Tracers, Elysian Wings, Exodus Wings, Hadal Mantle, MOAB, Silva Wings, Starlight Wings, Tarragon Wings
+- **Invocation de boss** (9) : Abombination, Ceremonial Urn, Charred Idol, Cryo Key, Eidolon Tablet, Martian Distress Beacon, Necroplasmic Beacon, Overloaded Sludge, Rune of Kos
+- **Arsenal de Draedon** (9) : Galvanizing Glaive, Heavy Laser Rifle, Hydraulic Volt Crasher, Mounted Scanner, Phaseslayer, Pulse Dragon, Pulse Pistol, Taser, Wave Pounder
+- **Pêche** (7) : Enchanted Starfish, Fish of Flight, Glimmering Gemfish, Rift Reeler, Spadefish, Wulfrum Fishing Pole, Xerocodile
+- **Munitions** (4) : Bloodfire Bullet, Elysian Arrow, Napalm Arrow, Verium Bullet
+- **Divers** (4) : Celestial Onion, Comet Shard, Ethereal Core, Phantom Heart
+- **Outils** (4) : Axe of Purity, Broken Water Filter, Grax, Greatbay Pickaxe
+- **Objets à poser** (3) : Altar of the Accursed, Resilient Candle, Spiteful Candle
+- **Sans classe** (3) : Aestheticus, Eye of Magnus, Lunic Eye
+- **Potions** (2) : Aureus Cell, Photosynthesis Potion
+- **Montures** (1) : Gaze of Crysthamyr
 - **Familiers** (1) : Hermit's Box of One Hundred Medicines
-- **Potions** (1) : Photosynthesis Potion
-- **Sans classe** (1) : Lunic Eye
 
-### Modifiées en partie, déjà différentes en 2.0.1.005 (le Fandom décrit une version plus ancienne, date entre parenthèses) : 13
+### Modifiées en partie, déjà différentes en 2.0.1.005 (le Fandom décrit une version plus ancienne, date entre parenthèses) : 32
 
-- **Accessoires** (9) : Counter Scarf (2021-07), Craw Carapace (2018-12), Dynamo Stem Cells (2021-01), Evasion Scarf (2021-07), Nanotech (2020-10), Occult Skull Crown (2022-02), Old Die (2020-03), Profaned Soul Crystal (2022-03), Stress Pills (2020-05)
-- **Potions** (1) : Baguette (2020-04)
-- **Invocation de boss** (1) : Profaned Shard (2022-02)
-- **Outils** (1) : Arid Artifact (2022-01)
-- **Rogue (Spy)** (1) : Deep Sea Dumbbell (2019-09)
+- **Accessoires** (11) : Counter Scarf (2021-07), Craw Carapace (2018-12), Dynamo Stem Cells (2021-01), Elemental Quiver (2021-04), Evasion Scarf (2021-07), Nanotech (2020-10), Occult Skull Crown (2022-02), Old Die (2020-03), Profaned Soul Crystal (2022-03), Stress Pills (2020-05), Wulfrum Battery (2020-02)
+- **Invocation de boss** (5) : Bloody Worm Food (2022-02), Decapodita Sprout (2022-02), Desert Medallion (2021-11), Profaned Shard (2022-02), Teratoma (2022-02)
+- **Invocation** (4) : Black Hawk Remote (2019-11), Cosmic Viper Engine (2020-04), Temporal Umbrella (2020-04), Wulfrum Controller (2020-01)
+- **Potions** (3) : Baguette (2020-04), Hadal Stew (2020-09), Odd Mushroom (2019-04)
+- **Rogue (Spy)** (3) : Deep Sea Dumbbell (2019-09), Mycoroot (2020-05), Wulfrum Knife (2020-06)
+- **Distance** (2) : Conference Call (2019-06), Soma Prime (2021-03)
+- **Matériaux** (1) : Cosmilite Bar (2018-12)
+- **Montures** (1) : Tundra Leash (2019-06)
+- **Outils** (1) : Genesis Pickaxe (2021-12)
+- **Magie** (1) : Coral Spout (2018-12)
