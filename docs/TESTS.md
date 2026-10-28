@@ -213,9 +213,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Ravager refait du wiki pour les 11 derniers ; dans les deux modes
 - [x] (28/10, 2e passe) Sans à peu près à taille humaine (un peu plus grand que le joueur), touchable seulement sur son
       sprite
-- [ ] (28/10, 3e passe) Ravager refait de la phase 2 réduit encore (x0,64 de l'image du wiki)
+- [x] (28/10, 3e passe) Ravager refait de la phase 2 réduit encore (x0,64 de l'image du wiki)
 - [x] (28/10) « MISS » entre les coups, 1 PV par coup ; attaques et piliers : 1 dégât + poison
-- [ ] (28/10) Chaque coup compté affiche « **MISS** », projette le joueur loin de Sans, puis 1,5 s pendant lesquelles les
+- [x] (28/10) Chaque coup compté affiche « **MISS** », projette le joueur loin de Sans, puis 1,5 s pendant lesquelles les
       coups passent à travers ; les debuffs (feu, poison...) ne lui retirent rien
 - [x] (28/10) Ses attaques (contact, projectiles) **et ses piliers** font exactement 1 dégât et empoisonnent (avant : 0 dégât
       à cause de la réduction de dégâts de Calamity, et 200 pour les piliers)
@@ -242,7 +242,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 - [x] **Essence of Havoc** s'appelle **Essence of Chaos** (deux modes) ; en Full Fandom elle existe toujours (recettes, butin)
 - [x] Le sac de **Calamitas** (Calamitas Clone) s'appelle « Treasure Bag (Calamitas) » et tombe en Expert en Full Fandom
-- [ ] Calamity++ : la **Vega** s'appelle **Night's Gaze** (c'est elle qui est utilisée) ; notre ancienne version n'a plus de
+- [x] Calamity++ : la **Vega** s'appelle **Night's Gaze** (c'est elle qui est utilisée) ; notre ancienne version n'a plus de
       recette ; Full Fandom : c'est notre Night's Gaze de 2022, la Vega est masquée. Idem Star Shower → Starfall, Burning
       Revelation → Solar Flare, Sandstream Scepter → Storm Spray, Doomsday Device → Shock Grenade...
 - [ ] (28/10) **Starfall**, **Seabound Staff** et **Effluvium Bow** n'existent plus qu'une fois (l'objet de Calamity sous ce
@@ -282,7 +282,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Ravager « Meatmetal Sans », du Moon Lord « Moon Lord » (texte de Requiem) ; Full Fandom : pas de lore de Signus,
       Storm Weaver, Queen Slime ni Empress of Light, mais celui de Cryogen et de Meatmetal Sans existent
 - [ ] Premier kill de Cryogen : lâche le lore « Cryogen » (une seule fois, pas de doublon)
-- [ ] Noms corrigés (26/10) : **Caustic Edge** (l'ancienne, pré-Hardmode) et **True Caustic Edge** sont deux objets
+- [x] Noms corrigés (26/10) : **Caustic Edge** (l'ancienne, pré-Hardmode) et **True Caustic Edge** sont deux objets
       distincts ; les 5 journaux de Draedon ont chacun leur nom (« Draedon's Log - Hell »...) ; meubles **Eutrophic**
       (Eutrophic Chair, Bathtub...) au lieu de « EutrophicChair » ; bannières Big/Small Sightseer, Flounder, Catfish...
 - [ ] Fruits de vie : la Sanguine Tangerine s'appelle **Hemagrape**, la Tainted Cloudberry **Sambucus Fruit** (+25 PV max
