@@ -70,6 +70,18 @@ Relancer : `python tools/old_tooltips.py`, `python tools/old_strings.py`, `pytho
 6. **Déjà faits** : Galileo Gladius, Cosmic Shiv et Spore Knife (anciennes versions en Full Fandom), Shortstrike
    (mécanique inventée, présente dans 6 infobulles).
 
+## Buffs et debuffs officiels (33 pages)
+
+Comparés à la main (champ `effects` du Fandom, `playereffects` / `enemyeffects` du wiki officiel) : 13 identiques
+(Alcohol Poisoning, Blood Frenzy, Daybroken, Eutrophication, NO U, Silva Immunity, Tarragon Cloak...) ; les autres
+diffèrent surtout par les **valeurs** (dégâts par seconde, défense, vitesse) : Calamity a rééquilibré ses debuffs après
+l'abandon du wiki (en particulier en 2.1.0). Les écarts de nature sont aussi d'anciennes versions, confirmées par les
+notes de version : Irradiated (donnait +5 % de dégâts et du recul aux serviteurs avant son rééquilibrage), Burning
+Blood (« now only deals damage to the player and no longer has any other effects »), Extreme Gravity (réduction du temps
+de vol modifiée plusieurs fois), Plague, God Slayer Inferno, Vulnerability Hex, Whispering Death, Marked (le Marked for
+Death actuel multiplie les dégâts reçus). **Aucune invention** parmi les buffs officiels. Les valeurs du Fandom
+seraient à appliquer en Full Fandom si le mod règle un jour les debuffs (aujourd'hui : seulement ceux des éléments).
+
 ## Pages « new » : anciens objets de Calamity ou inventions ?
 
 Même question pour les 1 179 pages d'objets que l'index classe « new » (absents de Calamity 2.2.2) : **212 portent le nom
