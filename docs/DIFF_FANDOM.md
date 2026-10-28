@@ -82,6 +82,10 @@ retirés que le Fandom a gardés :
   (seconde partie, avec la date de retrait) et `legacy_extract.py Classe` extrait le code de la dernière version
   mensuelle où l'objet existait.
 
+Leur infobulle a été comparée de la même façon aux versions de l'objet retiré (`reports/wikigg_diff.md`, section
+« Objets retirés de Calamity ») : 201 sur 211 décrivent fidèlement l'ancien objet ; 10 y ajoutent des lignes inventées
+(8 lignes Shortflurry, la parade de l'Exo Gladius, la « Void Barrier » de l'Arcanum of the Void).
+
 Les ≈ 970 autres pages d'objets « new » sont des inventions du Fandom (ou des objets d'addons, ou d'anciens objets
 renommés avant leur retrait, que la recherche par nom ne voit pas).
 
