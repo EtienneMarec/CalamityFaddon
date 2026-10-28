@@ -61,7 +61,8 @@ Tester les trois couches : `python tools/selftest.py --mode all`. Référence «
 
 ## Portage du contenu retiré de Calamity (depuis 2.0.1.005)
 
-1. `python tools/legacy_extract.py --list` : candidats (retirés depuis 2.0.1.005 et documentés sur le wiki). Les objets
+1. `python tools/legacy_extract.py --list` : candidats (retirés depuis 2.0.1.005 et documentés sur le wiki, puis ceux
+   retirés avant 2.0.1.005, extraits de la dernière version mensuelle où ils existaient : `tools/old_tooltips.py` d'abord). Les objets
    seulement **renommés** depuis (historique git, `python tools/calamity_renames.py`) n'y sont pas : ils existent encore
    et reprennent le nom du wiki. Ne jamais porter un objet sans vérifier qu'il n'a pas été renommé.
 2. `python tools/legacy_extract.py Classe` : code + textures de 2.0.1.005 dans `legacy_src/Classe/` (ignoré par git,

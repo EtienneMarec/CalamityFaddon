@@ -70,6 +70,21 @@ Relancer : `python tools/old_tooltips.py`, `python tools/old_strings.py`, `pytho
 6. **Déjà faits** : Galileo Gladius, Cosmic Shiv et Spore Knife (anciennes versions en Full Fandom), Shortstrike
    (mécanique inventée, présente dans 6 infobulles).
 
+## Pages « new » : anciens objets de Calamity ou inventions ?
+
+Même question pour les 1 179 pages d'objets que l'index classe « new » (absents de Calamity 2.2.2) : **212 portent le nom
+d'un ancien objet de Calamity** (historique depuis décembre 2018), ce ne sont donc pas des inventions mais des objets
+retirés que le Fandom a gardés :
+
+- 95 existaient encore en 2.0.1.005 (`python tools/legacy_extract.py --list`, première partie) ; 31 sont déjà portés ;
+- **117 avaient été retirés avant 2.0.1.005** (beaucoup pendant le passage à Terraria 1.4, en 2022) ; 22 sont déjà
+  portés (Aftershock, Terra-cotta, Spore Knife...). `legacy_extract.py` les connaît maintenant : `--list` les affiche
+  (seconde partie, avec la date de retrait) et `legacy_extract.py Classe` extrait le code de la dernière version
+  mensuelle où l'objet existait.
+
+Les ≈ 970 autres pages d'objets « new » sont des inventions du Fandom (ou des objets d'addons, ou d'anciens objets
+renommés avant leur retrait, que la recherche par nom ne voit pas).
+
 ## Limites
 
 - La comparaison passe par les infobulles et les bonus de set : un comportement inventé seulement dans le texte d'une
