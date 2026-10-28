@@ -331,8 +331,15 @@ namespace CalamityFandom.Common.Debug
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod.Name == ExpectedOwner(name), $"{name} : {ItemLoader.GetItem(type)?.FullName} ({ExpectedOwner(name)} attendu)");
             }
-            if (FandomMode.IsFull)
-                Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Seabound Staff")), "le Desert Scourge lâche le Seabound Staff (groupe partiel)");
+            // Seabound Staff = l'arme de Calamity depuis la fusion du 28/10 : déjà dans le butin du Desert Scourge, rien à ajouter
+            if (FandomMode.IsFull && ModContent.TryFind<ModNPC>("CalamityMod", "DesertScourgeHead", out var desertScourge))
+            {
+                int seabound = WikiRecipes.ResolveItem("Seabound Staff");
+                var scourgeRates = new List<DropRateInfo>();
+                foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(desertScourge.Type, false))
+                    r.ReportDroprates(scourgeRates, new DropRateInfoChainFeed(1f));
+                Expect(seabound > 0 && scourgeRates.Any(r => r.itemId == seabound), "le Desert Scourge lâche le Seabound Staff");
+            }
             // Lot du 26/10 : objets qui débloquent des recettes ou du butin du wiki
             foreach (string name in new[] { "Psychotic Amulet", "Disseminator", "Wrath of the Ancients", "Astral Bow", "Lazhar", "Carnage Ray", "Phantom Lance", "Eutrophic Scimitar", "Aftershock", "Sandslasher", "Asteroid Staff", "Lead Core", "Surgical Glove", "Sulfuric Scale", "Flask of Plague", "Plague Balloon", "Microxodonta", "Sea Shell", "Mirage Jelly (item)", "Inverted Gar", "Glacial Crusher", "Trash of Magnus", "Blow Pipe", "The Needler", "Disease", "Reemergence", "Phlegm", "Toxic Wisdom", "Poison I-Bee", "Decomposition", "Metal Ball", "Sewer Brewer", "Terra-cotta", "Blood Clot Staff" })
             {
