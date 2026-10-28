@@ -324,8 +324,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 
 ### Meatmetal Sans (page « Ravager », `Common/NPCs/MeatmetalSans.cs`)
 - **[validé 21/10]** 1 PV « à la Sans » dans tous les modes, avec sa mécanique.
-- **[choix]** Version minimale : 23 PV (= 23 coups, 12 + 10 + 1 de la page), chaque coup retire 1 PV, esquive 0,5 s
-  après chaque coup, défense 0, attaques (contact et projectiles) à 1 dégât + Poisoned 5 s. Pas encore fait : ignorer
+- **[choix]** Version minimale : 23 PV (= 23 coups, 12 + 10 + 1 de la page), chaque coup retire 1 PV, défense 0, attaques
+  (contact, projectiles, piliers) à 1 dégât exactement + Poisoned 5 s.
+- **[choix 28/10]** Après chaque coup compté : « MISS » au lieu des dégâts, le joueur est projeté loin de Sans (vitesse
+  12, le « BDSM » de la page), puis 1,5 s d'esquive (0,5 s était trop court au test). Les debuffs et les coups qui ne
+  passent pas par une attaque (dégâts directs) ne comptent pas. Tête, griffes et jambes ne sont plus créées (la barre de
+  vie de Calamity les comptait : 21 023). [technique] Le 1 dégât est fixé après la réduction de dégâts de Calamity, qui
+  le faisait tomber à 0. Pas encore fait : ignorer
   l'invincibilité du joueur, os, Gaster Blasters, écran noir, Handheld Tank (`docs/ROADMAP.md`).
 
 ### Portages du 26/10 (`Content/Legacy/`, objets qui débloquent des recettes ou du butin)

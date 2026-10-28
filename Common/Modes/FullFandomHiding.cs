@@ -101,9 +101,12 @@ namespace CalamityFandom.Common.Modes
 
         public override void ModifyActiveShop(NPC npc, string shopName, Item[] items)
         {
-            foreach (var item in items)
-                if (item != null && FullFandomHiding.HiddenItems.Contains(item.type))
-                    item.TurnToAir();
+            // Les objets masqués sont retirés et les suivants remontent (pas de case vide au milieu du magasin, test du 28/10)
+            var kept = items.Where(i => i != null && !i.IsAir && !FullFandomHiding.HiddenItems.Contains(i.type)).ToList();
+            if (kept.Count == items.Count(i => i != null && !i.IsAir))
+                return;
+            for (int slot = 0; slot < items.Length; slot++)
+                items[slot] = slot < kept.Count ? kept[slot] : null;
         }
     }
 }

@@ -167,17 +167,18 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
       option de debug « Disable Calamity++ balancing » ; changer demande un rechargement
 - [x] Monde créé en Calamity++ puis ouvert en Full Fandom : message orange à l'entrée (pas de message entre
       Calamity++ et son option de debug)
-- [ ] Full Fandom : un objet récent de Calamity n'a plus de recette. Exemple : **Acidwood Sword** (établi, Acidwood) ;
+- [x] Full Fandom : un objet récent de Calamity n'a plus de recette. Exemple : **Acidwood Sword** (établi, Acidwood) ;
       en Calamity++ elle se fabrique
 - [x] Desert Scourge : 350 000 PV du wiki (ratio x87,5) **dans tous les modes** (validé le 21/10)
 - [x] Full Fandom : Acidwood ne se fabrique plus depuis Acidwood Wall (recette absente du wiki)
-- [ ] Full Fandom : un PNJ récent masqué n'apparaît plus naturellement. Exemple : **Slab Crab** (couches de l'Abysse)
-- [ ] Full Fandom : les marchands ne vendent plus d'objet masqué. Exemple : la **Dryad** ne vend plus d'**Astral Grass
+- [x] Full Fandom : un PNJ récent masqué n'apparaît plus naturellement. Exemple : **Slab Crab** (couches de l'Abysse)
+- [x] Full Fandom : les marchands ne vendent plus d'objet masqué. Exemple : la **Dryad** ne vend plus d'**Astral Grass
       Seeds** en Hardmode (Calamity++ : oui) ; un objet masqué déjà dans l'inventaire reste utilisable
+- [ ] (28/10) Les objets masqués ne laissent plus de **case vide** au milieu du magasin : les suivants remontent
 - [x] Full Fandom : les boss récents ne s'invoquent plus — sans objet : le seul boss récent sans page est le Horrible
       Hog, qui naît d'un cochon ; les autres « nouveaux » boss sont des renommages (23/10)
 - [x] Full Fandom : Starfleet à 68 dégâts (valeur de 2022) ; en Calamity++ elle garde ses dégâts actuels
-- [ ] Retour en Calamity++ : tout revient comme avant
+- [x] Retour en Calamity++ : tout revient comme avant
 
 ### 2.1 Premier contenu porté : Night's Gaze
 
@@ -198,19 +199,23 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] Chaque Test Sword d'élément (Cold, Fire, Water, Poison, Acid, Radioactive, Electricity, Stab, Slash, Smash, Magic,
       Dark, Holy, Unholy, Machine) : particules de l'élément et teinte sur le mannequin, pas d'icône ; infobulle
       « Elements: X » ; en Full Fandom à chaque coup, en Calamity++ seulement de temps en temps
-- [ ] Test Sword: Wind repousse plus fort (sans effet sur le mannequin, qui ne recule pas : tester sur un ennemi normal)
-- [ ] Test Sword: Bomb : coups critiques plus fréquents et plus forts
+- [x] Test Sword: Wind repousse plus fort (sans effet sur le mannequin, qui ne recule pas : tester sur un ennemi normal)
+- [x] Test Sword: Bomb : coups critiques plus fréquents et plus forts
 
 - [x] **Fandom Test Vial** (Cheat Sheet) : clic droit = debuff suivant (nom affiché), clic gauche = appliqué à toi et à
       l'ennemi le plus proche (message dans le chat). Liste : Moon Burnt, Marked, puis les 15 statuts d'éléments
 - [x] Sur un boss : Moon Burnt garde son icône du wiki au-dessus de lui, mais **pas** d'icône d'élément
 
-- [ ] Ravager (Meatmetal Sans) : seul (ni tête, ni griffes, ni jambes), barre de vie à 23 ; exactement 23 coups pour le
-      tuer, chaque coup ne retire qu'1 PV (corrigé le 23/10)
-- [ ] Il « esquive » : les coups rapprochés (moins de 0,5 s) ne comptent pas
-- [ ] Ses attaques (contact et projectiles) ne font qu'1 dégât mais empoisonnent
-- [ ] Temporal Umbrella : coûte 520 mana. Pour 520 : 200 de base + capuche mage Auric Tesla (ou Silva, Tarragon, Bloodflare)
-      +100, Ethereal Talisman +60, Sigil of Calamitas +60, Moonstone Crown +40, Mana Polarizer +40, Band of Starpower +20
+- [ ] Ravager (Meatmetal Sans) : seul (ni tête, ni griffes, ni jambes), barre de vie à **23** (et non plus 21 023,
+      corrigé le 28/10) ; exactement 23 coups pour le tuer
+- [ ] (28/10) Chaque coup compté affiche « **MISS** », projette le joueur loin de Sans, puis 1,5 s pendant lesquelles les
+      coups passent à travers ; les debuffs (feu, poison...) ne lui retirent rien
+- [ ] (28/10) Ses attaques (contact, projectiles) **et ses piliers** font exactement 1 dégât et empoisonnent (avant : 0 dégât
+      à cause de la réduction de dégâts de Calamity, et 200 pour les piliers)
+- [x] Temporal Umbrella : fonctionne (test du 28/10). 520 mana + 8 emplacements de sbires (le wiki en demande 8) en même
+      temps : armure Demonshade (plastron +200 mana ; casque +2 et bonus d'ensemble +8 emplacements) + 200 des Mana
+      Crystals + Comet Shard, Ethereal Core et Phantom Heart (+60 chacun) = 580 mana et 11 emplacements, sans aucun
+      accessoire. Avec l'Ethereal Talisman (+60, -8 % de coût) il reste de la marge
 - [ ] Relic of Ruin (validée) et Stormjaw Staff gardent leurs dégâts en Calamity++ ; en Full Fandom **1** (0,1 du wiki arrondi
       à 1 le 23/10) : les étincelles du sbire font 1 dégât, l'infobulle est dans le bon ordre
 - [x] Le Ravager s'appelle **Meatmetal Sans** (boss, masque, trophée, relique, sac)
