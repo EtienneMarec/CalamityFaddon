@@ -13,3 +13,6 @@ data/
 
 # Code de Calamity extrait pour portage (tools/legacy_extract.py)
 legacy_src/
+
+# Wiki officiel (calamitymod.wiki.gg), téléchargé par tools/fetch_wikigg.py
+wikigg_dump/
