@@ -3,16 +3,16 @@
 _Généré par `tools/compare_wikigg.py` (infobulles du Fandom, du wiki officiel et des versions du code depuis 2019). Revue à la main : `docs/DIFF_FANDOM.md`._
 
 - inventée : 27
-- mélange : 23
-- ancienne version : 12
+- mélange : 24
+- ancienne version : 13
 - refonte : 366
 - modifiée : 158
-- mélange de versions : 34
+- mélange de versions : 33
 - à vérifier : 0
 - homonyme : 2
 - addon : 1
 - ambiance : 9
-- reformulation : 1
+- reformulation : 2
 - reformulée : 145
 - formulation : 5
 
@@ -304,9 +304,9 @@ Version du code la plus proche : 2021-09 (ressemblance 0.31) ; lignes encore pr�
 
 Version du code la plus proche : 2020-01 (ressemblance 0.66) ; lignes encore présentes aujourd'hui : 0.0
 
-- Fandom : Don't underestimate the power of small space swords / Shoots a homing crescent moon / Spawns planetoids on enemy hits / Shortflurry attacks spawn planetoids on projectile hits, increase melee speed by 50%, and give immunity to Moon Burnt
+- Fandom : Don't underestimate the power of small space swords / Shoots a homing crescent moon / Spawns planetoids on enemy hits / Shortflurry attacks spawn planetoids on projectile hits, increase melee speed by 50%, and give immunity to Nightwither
 - Officiel : Rapidly stabs in front of the player, generating Starbursts on hit / [open] to throw the gladius on a constellation chain, impaling foes and inflicting Voidfrost / When the blade is impaled, use [use] or [open] to free it / [use] pulls it free and deals high damage, consuming 10 Starbursts / [open] pulls yourself to the blade, allowing you to jump off the foe / Jumping off a foe consumes 20 Starbursts and provides invincibility / Figaro, magnifico
-- Lignes introuvables dans le code : Shortflurry attacks spawn planetoids on projectile hits, increase melee speed by 50%, and give immunity to Moon Burnt
+- Lignes introuvables dans le code : Shortflurry attacks spawn planetoids on projectile hits, increase melee speed by 50%, and give immunity to Nightwither
 - **Revue** : Ancienne version (croissant de lune, planètes : 2020 à 2.0.1.005, portée en Full Fandom). Ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike), déjà implémentée dans le mod.
 
 ### Lucrecia (Weapons.Melee)
@@ -338,7 +338,7 @@ Version du code la plus proche : 2021-02 (ressemblance 0.57) ; lignes encore pr�
 
 ### Terminus (SummonItems)
 
-Version du code la plus proche : 2022-07 (ressemblance 0.93) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2019-10 (ressemblance 0.93) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : A ritualistic artifact, thought to have brought upon The End many millennia ago / Sealed away in the abyss, far from those that would seek to misuse it / Activates Boss Rush Mode, using it again will deactivate Boss Rush Mode / During the Boss Rush, all wires and wired devices will be disabled / Right click to summon the forgotten massacre
 - Officiel : Hold [use] to start or end the Boss Rush
@@ -356,7 +356,7 @@ Version du code la plus proche : 2021-01 (ressemblance 0.38) ; lignes encore pr�
 
 ### The Sponge (Accessories)
 
-Version du code la plus proche : 2021-10 (ressemblance 0.78) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-05 (ressemblance 0.78) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : 15% increased damage reduction / +30 max life and mana / 5% increased movement and jump speed / Standing still boosts life and mana regen / Increased defense, movement speed and damage reduction while submerged in liquid / Enemies take damage when they hit you / You emit a cloud of mushroom spores and sparks when you are hit / 2% reduced stealth costs / 6.25% of the damage from enemy attacks is absorbed and converted into healing / Increased healing as health lowers / Dying revives you inside of an encumbering shell for 3 seconds with a 1 minute cooldown / Generates an energy shield over 1 minute that takes one hit
 - Officiel : Grants immunity to knockback / Gain a barrier with 120 health / The barrier grants 10% damage reduction while active / Halved Adrenaline loss if all damage is absorbed / The barrier will regenerate 8 seconds after being hit, taking 10 seconds to completely regenerate / Getting hit resets the timer
@@ -374,11 +374,11 @@ Version du code la plus proche : 2021-07 (ressemblance 0.69) ; lignes encore pr�
 
 ### Dark God's Sheath (Accessories)
 
-Nom actuel : Dark Matter Sheath. Version du code la plus proche : 2022-10 (ressemblance 0.35) ; lignes encore présentes aujourd'hui : 0.2
+Nom actuel : Dark Matter Sheath. Version du code la plus proche : 2022-10 (ressemblance 0.28) ; lignes encore présentes aujourd'hui : 0.2
 
-- Fandom : The Dark God’s void / +20 maximum stealth / 20% increased Spy crit chance in space / Stealth strikes launch dark meteor blasts / Spy projectile velocity is doubled
+- Fandom : The Dark God’s void / +20 maximum stealth / 20% increased rogue crit chance in space / Stealth strikes launch dark meteor blasts / rogue projectile velocity is doubled
 - Officiel : +10 maximum stealth / Stealth generation is boosted while moving if not attacking / Stealth strikes only expend 50% of your max stealth / 6% increased rogue damage and rogue crit chance
-- Lignes introuvables dans le code : The Dark God’s void / 20% increased Spy crit chance in space / Stealth strikes launch dark meteor blasts / Spy projectile velocity is doubled
+- Lignes introuvables dans le code : The Dark God’s void / 20% increased rogue crit chance in space / Stealth strikes launch dark meteor blasts / rogue projectile velocity is doubled
 - **Revue** : +20 furtivité max : ancienne version (1.4.3.002 à 2.0.1.002, 10 ensuite). Inventés : +20 % de critique spy dans l'espace, météores sombres sur les attaques furtives, vitesse des projectiles doublée. Renommé Dark Matter Sheath (2.0.3.003).
 
 ### Cosmic Shiv (Weapons.Melee)
@@ -472,6 +472,14 @@ Version du code la plus proche : 2021-12 (ressemblance 0.39) ; lignes encore pr�
 - Officiel : Lights your cursor ablaze with the Witch's flames, engulfing it in a blazing aura / Enemies touching the blaze take immense damage and are inflicted with Vulnerability Hex / Focusing an enemy for 2.5 seconds curses them, ascending Vulnerability Hex to its True form / Foes afflicted with True Vulnerability Hex take 1.15x damage from all sources / This effect is increased to 2.5x for the blazing cursor itself / Equip in a vanity slot to change the cursor without dealing damage / These changes work in conjunction with the Rainbow Cursor
 - Lignes introuvables dans le code : While equipped your FPS is reduced by 50% and makes the game run in matrix mode
 - **Revue** : « FPS réduits de 50 %, mode matrix » : blague inventée. Le reste (curseur enflammé) est l'infobulle de 2021.
+
+### Exotic Pheromones (SummonItems)
+
+Version du code la plus proche : 2022-02 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.67
+
+- Fandom : Attracts the failed draconic experiment / Summon The Dragonfolly when used in the jungle / Not consumable
+- Officiel : Summons Dragonfolly when used in the Jungle / Enrages outside the Jungle / Not consumable / Pheromones used for hunting Draconic Offshoots.
+- **Revue** : Infobulle : ancienne version réelle (invoque la Dragonfolly dans la Jungle, non consommable). Inventé par la page : c'est une fusée éclairante à tirer avec un Flare Gun dans le Désert, et le boss s'appelle « The Magnificent Lightning Avian » (renommage du Fandom absent du glossaire).
 
 ### Bouncing Eyeball (Weapons.Rogue)
 
@@ -584,6 +592,10 @@ Version du code la plus proche : 2022-11 (ressemblance 0.93) ; lignes encore pr�
 - Lignes introuvables dans le code : The cannon will fire at any potential enemies within its range, and enter overdrive mode if said enemy is close to the cannon When in overdrive mode the cannon uses three barrels that each collectively fire. The cannon also heats up the more it fires in overdrive mode / Players may right click to pick up the cannon and use it for themselves, if they are selecting an Atlas Munitions Beacon. When players fire the cannon, it automatically enters overdrive mode If the held cannon becomes hot due to overdrive mode, you are forced to drop it. Otherwise, right clicking allows you to drop it manually If the held cannon is dropped back onto the mount, it is attached again   It's surprisingly easy to pick up / Summons an Atlas Soldier to fight for you Calamity Community Remix / Takes up 3 minion slots and only one can exist
 - **Revue** : Infobulle détaillée d'origine (2.0.1.002 : caisse lâchée du ciel, canon, mode Overdrive à trois canons, surchauffe), simplifiée en 2.0.3.005 ; seuls les retours à la ligne manquent.
 
+### Blight Spewer
+
+- **Revue** : Page sans infobulle : lance-flammes classique (flammes vertes qui infligent la Plague) = ancienne version ; refait en nuages de nanomachines collantes qui traquent les ennemis.
+
 ### The Bee (Accessories)
 
 Version du code la plus proche : 2022-02 (ressemblance 0.99) ; lignes encore présentes aujourd'hui : 1.0
@@ -667,7 +679,7 @@ Version du code la plus proche : 2021-10 (ressemblance 1.0) ; lignes encore pré
 
 ### Anahita's Arpeggio (Weapons.Magic)
 
-Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Casts slow-moving treble clefs that confuse enemies
 - Officiel : Holding [use] casts up to 6 treble clefs that orbit the player / Releasing [use] causes the treble clefs to converge at the cursor / After converging, treble clefs seek your cursor
@@ -1101,7 +1113,7 @@ Version du code la plus proche : 2020-04 (ressemblance 1.0) ; lignes encore pré
 
 ### Death Valley Duster (Weapons.Magic)
 
-Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Casts a large blast of dust
 - Officiel : Casts an enchanted blast of sand that passes through enemies and tiles / Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Sand's Wind buff
@@ -1129,9 +1141,9 @@ Version du code la plus proche : 2021-01 (ressemblance 1.0) ; lignes encore pré
 
 ### Deep Wounder (Weapons.Rogue)
 
-Version du code la plus proche : 2020-01 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2020-01 (ressemblance 0.98) ; lignes encore présentes aujourd'hui : 0.0
 
-- Fandom : Throws an abyssal hatchet that inflicts Armor Crunch and Marked for Death to the enemies it hits / Stealth strikes cause the hatchet to be thrown faster and trail water, inflicting Crush Depth in addition to the other debuffs
+- Fandom : Throws an abyssal hatchet that inflicts Armor Crunch and Marked for Death for Death to the enemies it hits / Stealth strikes cause the hatchet to be thrown faster and trail water, inflicting Crush Depth in addition to the other debuffs
 - Officiel : Throws an abyssal hatchet / Stealth strikes cause the hatchet to stick to struck enemies, releasing a barrage of water projectiles / Water projectiles launch at the closest enemy after a brief delay
 
 ### Deific Amulet (Accessories)
@@ -1143,7 +1155,7 @@ Version du code la plus proche : 2022-02 (ressemblance 1.0) ; lignes encore pré
 
 ### Depth Crusher (Weapons.Melee)
 
-Version du code la plus proche : 2021-01 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Hitting enemies will inflict the crush depth debuff / The lower the enemies' defense, the more damage they take from this debuff / Right click to use without hammering down walls
 - Officiel : Tosses a heavy abyssal crusher that releases water energy upon hitting a tile / The crusher will ricochet off of tiles and enemies
@@ -1206,9 +1218,9 @@ Nom actuel : Basins. Version du code la plus proche : 2019-04 (ressemblance 1.0)
 
 ### Eldritch Soul Artifact (Accessories)
 
-Nom actuel : Fragments of Another World. Version du code la plus proche : 2020-12 (ressemblance 0.97) ; lignes encore présentes aujourd'hui : 0.0
+Nom actuel : Fragments of Another World. Version du code la plus proche : 2020-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
-- Fandom : Knowledge / Boosts melee speed by 10%, ranged velocity by 25%, Spy damage by 15%, max minions by 2, and reduces mana cost by 15%
+- Fandom : Knowledge / Boosts melee speed by 10%, ranged velocity by 25%, rogue damage by 15%, max minions by 2, and reduces mana cost by 15%
 - Officiel : Grants immunity to Whispering Death / 20% increased melee speed / 1.15x specialist ranged damage / 25% reduced mana usage / +2 maximum sentries / 10% increased rogue attack speed / Don't speak of your desires to the shadows, they listen.
 
 ### Elemental Eruption (Weapons.Ranged)
@@ -1255,7 +1267,7 @@ Nom actuel : Sanctified Spark. Version du code la plus proche : 2019-08 (ressemb
 
 ### Entropic Claymore (Weapons.Melee)
 
-Version du code la plus proche : 2019-08 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Fires a spread of homing plasma balls
 - Officiel : Fires a spread of living plasma that swims through the air / Plasma will track your cursor or enemies near it, prioritizing which is closest / The plasma pierces, but will stop tracking after hitting the first enemy
@@ -1304,16 +1316,16 @@ Version du code la plus proche : 2020-01 (ressemblance 1.0) ; lignes encore pré
 
 ### Fallen Paladin's Hammer (Weapons.Melee)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2019-08 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Explodes on enemy hits
 - Officiel : Throws a heavy, gravity-affected hammer that will explode and return to you after striking an enemy / After returning three times, a homing spectral hammer is summoned with devastating impact
 
 ### Feather Crown (Accessories)
 
-Version du code la plus proche : 2019-11 (ressemblance 0.96) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2019-11 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
-- Fandom : 15% increased Spy projectile velocity / Stealth strikes cause feathers to fall from the sky on enemy hits
+- Fandom : 15% increased rogue projectile velocity / Stealth strikes cause feathers to fall from the sky on enemy hits
 - Officiel : Summons a Skyline Feather every 2 seconds, up to a maximum of 5 / Each Skyline Feather increases magic damage by 2% and decreases mana cost by 1% / With 5 feathers, increases magic critical strike chance by 5% and all magic attacks inflict Static Discharge / Running out of mana or drinking a mana potion sheds all feathers / Upon shedding a feather, no new feathers can be gained for 5 seconds / Feathers are transparent and silent if visibility is disabled / Hold Shift for moreYoung mages would don feathers and gaze into the starlit night, as if welcoming the breath of the heavens. / To commune with mana was to commune with the world, and further, its draconic masters.
 
 ### Feralthorn Claymore (Weapons.Melee)
@@ -1374,7 +1386,7 @@ Version du code la plus proche : 2020-04 (ressemblance 1.0) ; lignes encore pré
 
 ### Flame-Licked Shell (Accessories)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-02 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : 35% decreased movement speed / Enemies take damage when they hit you / You move faster and lose 18 defense for 3 seconds if you take damage / Temporary immunity to lava
 - Officiel : Grants immunity to knockback / Pressing [Activate Accessory Parry] will activate a parry, encasing you in rocks / Being hit shortly after encasement will implode the rocks / Upon implosion, a ring of brimstone hellfire is launched outwards and you receive 90% DR for that hit / After imploding, this damage reduction effect goes on cooldown / Damage parried whilst on cooldown summons weaker brimstone flames, and will not be reduced
@@ -1507,9 +1519,9 @@ Version du code la plus proche : 2019-12 (ressemblance 1.0) ; lignes encore pré
 
 ### Glove of Precision (Accessories)
 
-Version du code la plus proche : 2019-11 (ressemblance 0.96) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2019-11 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
-- Fandom : Decreases Spy attack speed by 20% but increases damage and crit by 12% and velocity by 25%
+- Fandom : Decreases rogue attack speed by 20% but increases damage and crit by 12% and velocity by 25%
 - Officiel : Decreases rogue attack speed by 15% / Increases rogue damage and critical strike chance by 10%, and velocity by 15%
 
 ### God's Bellows (Weapons.Ranged)
@@ -1591,7 +1603,7 @@ Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore pré
 
 ### Heavy Laser Rifle (Weapons.DraedonsArsenal)
 
-Nom actuel : W-LSR: Phalanx Surge. Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Nom actuel : W-LSR: Phalanx Surge. Version du code la plus proche : 2022-04 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Laser weapon used by heavy infantry units in Yharim's army
 - Officiel : Fires a spread of lasers / Holding [open] charges the weapon, allowing it to thrust forward and imaple enemies with an energy spear / Holding [use] when firing the charge attack will launch you forward at high speeds and deal extra damage / Using the charged attack has a short cooldown / Though Godseeker Knights are often brutish, not all prefer close quarters melee combat. / As such, Yharim personally requested that I create heavy weaponry for them despite being few in number.
@@ -1780,7 +1792,7 @@ Nom actuel : Cleansing Jelly. Version du code la plus proche : 2018-12 (ressembl
 
 ### Mana Polarizer (Accessories)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2020-08 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Increases max mana by 50 and magic damage by 6% / Life regen lowered by 3 if mana is above 50% of its maximum / Grants spectre healing, the amount healed scales with your mana / The healing only works while holding a magic weapon / The more mana you have, the more you heal
 - Officiel : Increases maximum mana by 40 / Provides life regeneration and magic damage that scales based on how much mana you have / Lower mana means more life regeneration, but less magic damage / These scale from -2 to +2 HP/s, and 15% to 5% damage / The provided regeneration is halved when under Mana Sickness / Magic projectiles steal enemy life
@@ -1843,9 +1855,9 @@ Version du code la plus proche : 2022-06 (ressemblance 1.0) ; lignes encore pré
 
 ### Moonstone Crown (Accessories)
 
-Version du code la plus proche : 2019-11 (ressemblance 0.95) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2019-11 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
-- Fandom : 15% increased Spy projectile velocity / Stealth strikes summon lunar flares on enemy hits / Spy projectiles very occasionally summon moon sigils behind them
+- Fandom : 15% increased rogue projectile velocity / Stealth strikes summon lunar flares on enemy hits / rogue projectiles very occasionally summon moon sigils behind them
 - Officiel : Increases maximum mana by 40 / Summons a Lunar Sigil every 2 seconds, up to a maximum of 10 / Each Lunar Sigil increases magic damage by 2% and reduces mana cost by 1% / With 5 sigils, increases mana regeneration by +5 MP/s / With 10 sigils, increases magic critical strike chance by 10% and all magic attacks inflict Nightwither / Running out of mana or using a mana potion shatters all sigils / Upon shattering a sigil, no new sigils can appear for 5 seconds / Sigils are transparent and silent if visibility is disabled / Hold Shift for moreCountless tears were shed over Chrysadia's marring: when its eventide clouds gave way not to beloved stars, / or to dear patrons, but to a ravenous void and its unyielding dread.
 
 ### Mythril Knife (Weapons.Rogue)
@@ -1892,7 +1904,7 @@ Version du code la plus proche : 2021-04 (ressemblance 1.0) ; lignes encore pré
 
 ### Oblivion (Weapons.Melee)
 
-Version du code la plus proche : 2020-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Fires brimstone lasers when enemies are near / A very agile yoyo
 - Officiel : Reach: 32 tiles / Speed: 36 / Duration: 15 seconds / A highly unstable yoyo that slowly releases homing brimstone hellblasts / Enemy hits with the yoyo charge its power, greatly increasing the fire rate of the hellblasts / At maximum charge, the yoyo bursts into brimstone darts and resets its flight duration / Striking an enemy at maximum charge will overload the yoyo, causing it to release all stored up power and shatter / Shattering the yoyo deals immense damage but leaves it unable to be used for several seconds
@@ -1955,7 +1967,7 @@ Version du code la plus proche : 2020-06 (ressemblance 1.0) ; lignes encore pré
 
 ### Pandemic (Weapons.Melee)
 
-Version du code la plus proche : 2020-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Fires plague seekers when enemies are near / A very agile yoyo
 - Officiel : Reach: 30 tiles / Speed: 24 / Duration: 15 seconds / Each unique enemy struck that is infected with Plague increases the yoyo's size, power, and airtime / Refreshes Plague duration if a target is already infected / Counterweights inflict Plague and move twice as fast
@@ -2053,9 +2065,9 @@ Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore pré
 
 ### Raider's Talisman (Accessories)
 
-Version du code la plus proche : 2019-02 (ressemblance 0.91) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2019-02 (ressemblance 0.99) ; lignes encore présentes aujourd'hui : 0.0
 
-- Fandom : Whenever you crit an enemy with a Spy weapon your Spy damage increases / This effect can stack up to 150 times / Max Spy damage boost is 15%
+- Fandom : Whenever you crit an enemy with a rogue weapon your rogue damage increases / This effect can stack up to 150 times / Max rogue damage boost is 15%
 - Officiel : Stealth strikes grant 15% critical strike chance to non-stealth strikes for 10 seconds
 
 ### Regenator (Accessories)
@@ -2341,7 +2353,7 @@ Version du code la plus proche : 2019-08 (ressemblance 1.0) ; lignes encore pré
 
 ### Spirit Glyph (Accessories)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Whenever your minions hit an enemy you will gain a random buff / These buffs will either boost your defense, summon damage, or life regen for a while
 - Officiel : Minion attacks provide various buffs / Hold Shift for moreSpirit Power grants 10% increased summon damage / Spirit Defense grants 2 defense / Spirit Regen grants 0.5 HP/s life regeneration
@@ -2404,7 +2416,7 @@ Version du code la plus proche : 2021-11 (ressemblance 1.0) ; lignes encore pré
 
 ### Statis' Void Sash (Accessories)
 
-Version du code la plus proche : 2021-11 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : 12% increased jump speed and allows constant jumping / Grants immunity to fall damage / Can climb walls, dash and dodge attacks / The dodge has a 90 second cooldown / This cooldown is shared with all other dodges and reflects / Dashes leave homing scythes in your wake
 - Officiel : Provides a high-speed dash / 20% increased movement speed, 32% increased jump speed, and negates fall damage / Increases movement acceleration and deceleration by 1.85x / Allows the user to swim, climb walls, and auto jump / Grants or improves the ability to dodge attacks
@@ -2635,9 +2647,9 @@ Version du code la plus proche : 2022-02 (ressemblance 0.96) ; lignes encore pr�
 
 ### Vampiric Talisman (Accessories)
 
-Version du code la plus proche : 2019-12 (ressemblance 0.88) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2019-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
-- Fandom : Spy projectiles give lifesteal on crits / 12% increased Spy damage
+- Fandom : rogue projectiles give lifesteal on crits / 12% increased rogue damage
 - Officiel : Rogue critical strikes steal enemy life / Stealth strikes grant 15% critical strike chance and increased lifesteal to non-stealth strikes for 10 seconds / Stealth strikes inflict Heavy Bleeding and Armor Crunch, and deal 8% more damage / Possessing the talisman makes you yearn for blood
 
 ### Vanquisher Arrow (Ammo)
@@ -2740,7 +2752,7 @@ Version du code la plus proche : 2021-01 (ressemblance 1.0) ; lignes encore pré
 
 ### Seraph Tracers (Accessories.Wings)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.17
+Version du code la plus proche : 2022-02 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.17
 
 - Fandom : Ludicrous speed! / 24% increased running acceleration / Greater mobility on ice / Water and lava walking / Immunity to the On Fire! debuff / Temporary immunity to lava
 - Officiel : Allows flight and slow fall / Max horizontal speed: Excellent / Max vertical speed: Excellent / Horizontal acceleration: Excellent / Vertical acceleration: Great / 50% increased running acceleration / Provides the effects of Angel Treads / Provides immunity to lava and damaging tiles, including Auric Ore / Taking speed EVEN FURTHER BEYOND!
@@ -2775,9 +2787,9 @@ Nom actuel : Orderbringer. Version du code la plus proche : 2020-03 (ressemblanc
 
 ### Profaned Soul Artifact (Accessories)
 
-Version du code la plus proche : 2020-04 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.2
+Version du code la plus proche : 2020-04 (ressemblance 0.96) ; lignes encore présentes aujourd'hui : 0.2
 
-- Fandom : Purity / Summons a healer guardian which heals for a certain amount of health every few seconds / Summons a defensive guardian if you have at least 10 minion slots, which boosts your movement speed and your damage resistance / Summons an offensive guardian if you are wearing the tarragon summoner set (or stronger), which boosts your summon damage and your minion slots / If you get hit, most of their effects will disappear for 5 seconds
+- Fandom : Purity / Summons a healer guardian which heals for a certain amount of health every few seconds / Summons a defensive guardian if you have at least 10 minion slots, which boosts your movement speed and your damage resistance / Summons an offensive guardian if you are wearing the Uelibloom summoner set (or stronger), which boosts your summon damage and your minion slots / If you get hit, most of their effects will disappear for 5 seconds
 - Officiel : Summons your own personal Guardians to fight alongside you / The offensive guardian grants an additional minion slot and fires a ring of spears while attacking / The defensive guardian creates a weak barrier of profaned rock / Halved Adrenaline loss if all damage is absorbed / Once depleted, the rocks are flung outward and will regenerate 5 seconds after being hit / Taking damage resets the timer / The healer guardian restores 10 health every few seconds / Purity
 
 ### Temporal Umbrella (Weapons.Summon)
@@ -2810,9 +2822,9 @@ Version du code la plus proche : 2021-04 (ressemblance 1.0) ; lignes encore pré
 
 ### Daawnlight Spirit Origin (Accessories)
 
-Version du code la plus proche : 2021-12 (ressemblance 0.88) ; lignes encore présentes aujourd'hui : 0.25
+Version du code la plus proche : 2021-12 (ressemblance 0.93) ; lignes encore présentes aujourd'hui : 0.25
 
-- Fandom : All nearby enemies and bosses are marked with bullseyes / Ranged attacks that strike a bullseye always critically strike and deal massive damage / When a bullseye is struck, it vanishes and a new one appears elswhere / Explosions or large projectiles cannot strike bullseyes / Converts all ranged critical strike chance boosts into extra critical strike damage / All ranged weapons will deal even more critical strike damage the slower they are / Summons a heroic spirit from another world if covering visibility is enabled / The heroic spirit is also summoned when this covering is placed in vanity slots / A strand of a lost cosmos remains, waiting for its master
+- Fandom : All nearby enemies and bosses are Marked for Death with bullseyes / Ranged attacks that strike a bullseye always critically strike and deal massive damage / When a bullseye is struck, it vanishes and a new one appears elswhere / Explosions or large projectiles cannot strike bullseyes / Converts all ranged critical strike chance boosts into extra critical strike damage / All ranged weapons will deal even more critical strike damage the slower they are / Summons a heroic spirit from another world if accessory visibility is enabled / The heroic spirit is also summoned when this accessory is placed in vanity slots / A strand of a lost cosmos remains, waiting for its master
 - Officiel : All ranged weapons can supercrit when critical strike chance is over 100% / Marks enemies and bosses with bullseyes which boost critical strike chance when hit / Extra critical strike chance quickly fades over time / Summons a heroic spirit from another world if visibility is on or in vanity slots / A strand of a lost cosmos remains, waiting for its master
 
 ### Halley's Inferno (Weapons.Ranged)
@@ -2922,9 +2934,9 @@ Version du code la plus proche : 2020-01 (ressemblance 1.0) ; lignes encore pré
 
 ### Corrosive Spine (Accessories)
 
-Version du code la plus proche : 2020-05 (ressemblance 0.97) ; lignes encore présentes aujourd'hui : 0.33
+Version du code la plus proche : 2020-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.33
 
-- Fandom : 10% increased movement speed / All Spy weapons inflict venom and spawn clouds on enemy hits / You release a ton of clouds everywhere on hit
+- Fandom : 10% increased movement speed / All rogue weapons inflict venom and spawn clouds on enemy hits / You release a ton of clouds everywhere on hit
 - Officiel : 5% increased movement speed / 50% increased Sickness and Water debuff damage / All attacks inflict Irradiated and reduces the severity of the sulphuric waters / You burst into radioactive clouds when struck
 
 ### Desert Medallion (SummonItems)
@@ -3139,16 +3151,16 @@ Nom actuel : Blighted Cleaver. Version du code la plus proche : 2019-08 (ressemb
 
 ### Void of Calamity (Accessories)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.33
+Version du code la plus proche : 2020-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.33
 
 - Fandom : Cursed? Reduces damage reduction by 10% / 15% increase to all damage / Brimstone fire rains down while invincibility is active
 - Officiel : 12% increased damage / Calamitous flames rain down while invincible
 
 ### Eclipse Mirror (Accessories)
 
-Version du code la plus proche : 2021-11 (ressemblance 0.99) ; lignes encore présentes aujourd'hui : 0.36
+Version du code la plus proche : 2021-11 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.36
 
-- Fandom : Its reflection shows naught but darkness / +20 maximum stealth / 6% increased Spy damage, and 6% increased Spy crit chance / Vastly reduces enemy aggression, even in the abyss / Stealth generates 20% faster when standing still / Mobile stealth generation exponentially accelerates while not attacking / Stealth strikes have a 100% critical hit chance / Stealth strikes only expend 50% of your max stealth / Grants the ability to evade attacks in a blast of darksun light, which inflicts extreme damage in a wide area / Evading an attack grants full stealth but has a 90 second cooldown / This cooldown is shared with all other dodges and reflects
+- Fandom : Its reflection shows naught but darkness / +20 maximum stealth / 6% increased rogue damage, and 6% increased rogue crit chance / Vastly reduces enemy aggression, even in the abyss / Stealth generates 20% faster when standing still / Mobile stealth generation exponentially accelerates while not attacking / Stealth strikes have a 100% critical hit chance / Stealth strikes only expend 50% of your max stealth / Grants the ability to evade attacks in a blast of darksun light, which inflicts extreme damage in a wide area / Evading an attack grants full stealth but has a 90 second cooldown / This cooldown is shared with all other dodges and reflects
 - Officiel : +10 maximum stealth / 6% increased rogue damage and rogue crit chance / Enemies are less likely to target you, even in the abyss / Stealth generates 25% faster when standing still and is boosted while moving if not attacking / Stealth strikes only expend 50% of your max stealth / Grants or improves the ability to dodge attacks / Dodging an attack restores stealth and releases a burst of highly damaging darksun light / Its reflection shows naught but darkness
 
 ### Aquatic Heart (Accessories)
@@ -3183,9 +3195,9 @@ Version du code la plus proche : 2021-01 (ressemblance 0.99) ; lignes encore pr�
 
 ### Supreme Bait Tackle Box Fishing Station (Accessories)
 
-Version du code la plus proche : 2019-12 (ressemblance 0.97) ; lignes encore présentes aujourd'hui : 0.4
+Version du code la plus proche : 2019-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.4
 
-- Fandom : The ultimate fishing covering / Increases fishing skill by 80 / Fishing line will never break and decreases chances of bait consumption / Increases chance to catch crates / Sonar potion effect
+- Fandom : The ultimate fishing accessory / Increases fishing skill by 80 / Fishing line will never break and decreases chances of bait consumption / Increases chance to catch crates / Sonar potion effect
 - Officiel : Increases fishing power by 50 / Fishing line will never break and decreases chance of bait consumption / Allows fishing in lava
 
 ### Vivid Clarity (Weapons.Magic)
@@ -3246,7 +3258,7 @@ Version du code la plus proche : 2021-02 (ressemblance 1.0) ; lignes encore pré
 
 ### Axe of Purity (Tools)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2019-08 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Left click to use as a tool / Right click to cleanse evil
 - Officiel : [use] to use as a tool / [open] to cleanse evil
@@ -3380,16 +3392,16 @@ Version du code la plus proche : 2021-01 (ressemblance 1.0) ; lignes encore pré
 
 ### Entropy's Vigil (Weapons.Summon)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2020-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Summons Calamitas and her brothers to protect you / One minion trio takes two minion slots
 - Officiel : Summons a mini Calamitas Clone and her brothers to protect you
 
 ### Ethereal Extorter (Accessories)
 
-Version du code la plus proche : 2021-02 (ressemblance 0.94) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2021-02 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
-- Fandom : Spy projectiles explode into homing souls on death / 10% increased Spy damage and +10 maximum stealth, however, life regen is reduced by 1
+- Fandom : rogue projectiles explode into homing souls on death / 10% increased rogue damage and +10 maximum stealth, however, life regen is reduced by 1
 - Officiel : Rogue projectiles explode into homing souls on hit / 8% increased rogue damage and +5 maximum stealth
 
 ### Ethereal Subjugator (Weapons.Summon)
@@ -3401,9 +3413,9 @@ Version du code la plus proche : 2020-05 (ressemblance 1.0) ; lignes encore pré
 
 ### Exodus Wings (Accessories.Wings)
 
-Version du code la plus proche : 2022-05 (ressemblance 0.97) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2020-09 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
-- Fandom : Pulsing with an alien heartbeat / 5% increased Spy damage and critical strike chance while wearing the Empyrean Armor
+- Fandom : Pulsing with an alien heartbeat / 5% increased rogue damage and critical strike chance while wearing the Empyrean Armor
 - Officiel : Allows flight and slow fall / Max horizontal speed: Great / Max vertical speed: Excellent / Horizontal acceleration: Great / Vertical acceleration: Great / Grants permanent Empyrean Wrath while wearing the Empyrean armor / Pulsing with an alien heartbeat
 
 ### Fault Line (Weapons.Melee)
@@ -3464,9 +3476,9 @@ Version du code la plus proche : 2020-02 (ressemblance 1.0) ; lignes encore pré
 
 ### Glove of Recklessness (Accessories)
 
-Version du code la plus proche : 2021-02 (ressemblance 0.91) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2021-02 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
-- Fandom : Increases Spy attack speed by 12% but decreases damage by 10% / Adds inaccuracy to Spy weapons
+- Fandom : Increases rogue attack speed by 12% but decreases damage by 10% / Adds inaccuracy to rogue weapons
 - Officiel : Increases rogue attack speed by 15%, but decreases damage by 10% and crit by 5% / 15% increased stealth regeneration / Makes rogue weapons slightly inaccurate
 
 ### God's Paranoia (Weapons.Rogue)
@@ -3485,14 +3497,14 @@ Version du code la plus proche : 2021-08 (ressemblance 1.0) ; lignes encore pré
 
 ### Guidelight of Oblivion (Weapons.Summon)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2020-02 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Shadows dream of endless fire, flames devour and embers swoop / Summons a lantern turret to fight for you
 - Officiel : Summons a sentry / Summons a lantern that swarms your enemies with flames / Shadows dream of endless fire, flames devour and embers swoop
 
 ### Hadal Mantle (Accessories.Wings)
 
-Version du code la plus proche : 2020-08 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Fueled by the fury of the depths / 5% increased damage while wearing the Hydrothermic Armor
 - Officiel : Allows flight and slow fall / Max horizontal speed: Great / Max vertical speed: Good / Horizontal acceleration: Great / Vertical acceleration: Good / Fueled by the fury of the depths
@@ -3562,7 +3574,7 @@ Version du code la plus proche : 2021-03 (ressemblance 1.0) ; lignes encore pré
 
 ### Martian Distress Beacon (SummonItems)
 
-Nom actuel : Martian Distress Remote. Version du code la plus proche : 2022-01 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Nom actuel : Martian Distress Remote. Version du code la plus proche : 2022-11 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Summons the Martian Madness / Not consumable
 - Officiel : Summons the Martian Madness
@@ -3583,9 +3595,9 @@ Version du code la plus proche : 2022-04 (ressemblance 1.0) ; lignes encore pré
 
 ### Nanotech (Accessories)
 
-Version du code la plus proche : 2020-10 (ressemblance 0.9) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2020-10 (ressemblance 0.96) ; lignes encore présentes aujourd'hui : 0.5
 
-- Fandom : Spy projectiles create nanoblades as they travel / Stealth strikes summon nanobeams and sparks on enemy hits / Stealth strikes have +20 armor penetration, deal 5% more damage, and heal for 1 HP / 12% increased Spy damage and 15% increased Spy velocity / Whenever you crit an enemy with a Spy weapon your Spy damage increases / This effect can stack up to 150 times / Max Spy damage boost is 15%
+- Fandom : rogue projectiles create nanoblades as they travel / Stealth strikes summon nanobeams and sparks on enemy hits / Stealth strikes have +20 armor penetration, deal 5% more damage, and heal for 1 HP / 12% increased rogue damage and 15% increased rogue velocity / Whenever you crit an enemy with a rogue weapon your rogue damage increases / This effect can stack up to 150 times / Max rogue damage boost is 15%
 - Officiel : Rogue projectiles create nanoblades as they travel / Stealth strikes summon nanobeams and sparks on enemy hits / Stealth strikes have lifesteal, +15 armor penetration, deal 5% more damage / 15% increased rogue damage and 15% increased rogue velocity / Stealth strikes grant lifesteal and 10% critical strike chance to non-stealth strikes for 10 seconds
 
 ### Nuclear Rod (Accessories)
@@ -3681,7 +3693,7 @@ Version du code la plus proche : 2022-02 (ressemblance 1.0) ; lignes encore pré
 
 ### Rune of Kos (SummonItems)
 
-Nom actuel : Mark of Providence. Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Nom actuel : Mark of Providence. Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : A relic of the profaned flame / Contains the power hunted relentlessly by the sentinels of the cosmic devourer / When used in certain areas of the world, it will unleash them / Not consumable
 - Officiel : An ornate sigil of the Profaned Flame / Hatred yet burns upon its brow / Such power attracts otherworldly beings / Not consumable
@@ -3779,9 +3791,9 @@ Version du code la plus proche : 2022-01 (ressemblance 1.0) ; lignes encore pré
 
 ### Tarragon Wings (Accessories.Wings)
 
-Version du code la plus proche : 2019-11 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2019-11 (ressemblance 0.91) ; lignes encore présentes aujourd'hui : 0.5
 
-- Fandom : Born of the jungle / +15 defense and +2 life regen while wearing the Tarragon Armor
+- Fandom : Born of the jungle / +15 defense and +2 life regen while wearing the Uelibloom Armor
 - Officiel : Allows flight and slow fall / Max horizontal speed: Excellent / Max vertical speed: Excellent / Horizontal acceleration: Great / Vertical acceleration: Great / Born of the jungle
 
 ### Taser (Weapons.DraedonsArsenal)
@@ -3849,7 +3861,7 @@ Version du code la plus proche : 2022-01 (ressemblance 1.0) ; lignes encore pré
 
 ### Vehemence (Weapons.Magic)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2021-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Casts intense bolts of hellish power that explode into skulls / Direct hits inflict Demon Flames for an extended period of time
 - Officiel : Casts intense bolts of hellish power that explode into skulls
@@ -3884,9 +3896,9 @@ Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore pré
 
 ### Profaned Soul Crystal (Accessories)
 
-Version du code la plus proche : 2022-03 (ressemblance 0.99) ; lignes encore présentes aujourd'hui : 0.54
+Version du code la plus proche : 2022-03 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.54
 
-- Fandom : Transforms you into an emissary of the profaned goddess / Requires 10 minion slots to use in order to grant the following effects / All non-summon weapons are converted into powerful summon variations / Falling below 50% life will empower these attacks / Transforms Melee attacks into a barrage of spears / Transforms Magic attacks into a powerful splitting fireball / Transforms Ranged attacks into a flurry of fireballs and meteors / Transforms Spy attacks into a deadly crystalline spiral / Summons and empowers the profaned babs to fight alongside you / You are no longer affected by burn out when hit / Provides buffs depending on the time of day / Thinking back, it was a boring life / And so we burn it all in the name of purity
+- Fandom : Transforms you into an emissary of the profaned goddess / Requires 10 minion slots to use in order to grant the following effects / All non-summon weapons are converted into powerful summon variations / Falling below 50% life will empower these attacks / Transforms Melee attacks into a barrage of spears / Transforms Magic attacks into a powerful splitting fireball / Transforms Ranged attacks into a flurry of fireballs and meteors / Transforms rogue attacks into a deadly crystalline spiral / Summons and empowers the profaned babs to fight alongside you / You are no longer affected by burn out when hit / Provides buffs depending on the time of day / Thinking back, it was a boring life / And so we burn it all in the name of purity
 - Officiel : Transforms you into an emissary of the profaned goddess / Provides passive buffs depending on the time of day / Greatly boosts the power of the Guardian's relics / Grants additional effects if you have 10 unused minion slots / Summons your own personal Guardians to fight alongside you / All non-summon attacks are transformed, and are empowered if no minions are active / Melee attacks become a barrage of spears / Ranged attacks become a flurry of fireballs and meteors / Magic attacks become a giant splitting fireball, costing 100 mana / Whips become overtaken by profaned crystal / Rogue attacks become a deadly crystalline spiral / Thinking back, it was a boring life / And so we burn it all in the name of purity
 
 ### Occult Skull Crown (Accessories)
@@ -4008,13 +4020,6 @@ Version du code la plus proche : 2019-12 (ressemblance 1.0) ; lignes encore pré
 - Fandom : Fires an inaccurate spread of fireballs / The brimstone sac appears to contain fuel / Revenge is a dish best served flaming hot
 - Officiel : Fires an assortment of hellfire and brimstone fireballs / Sometimes fires a larger splitting fireball / The brimstone sac appears to contain fuel / Revenge is a dish best served flaming hot
 
-### Exotic Pheromones (SummonItems)
-
-Version du code la plus proche : 2022-02 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.67
-
-- Fandom : Attracts the failed draconic experiment / Summon The Dragonfolly when used in the jungle / Not consumable
-- Officiel : Summons Dragonfolly when used in the Jungle / Enrages outside the Jungle / Not consumable / Pheromones used for hunting Draconic Offshoots.
-
 ### Fantasy Talisman (Weapons.Rogue)
 
 Version du code la plus proche : 2019-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.67
@@ -4115,7 +4120,7 @@ Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore pré
 
 ### Spiteful Candle (Placeables)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.67
+Version du code la plus proche : 2020-09 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.67
 
 - Fandom : When placed, nearby enemies take 5% more damage. / This extra damage bypasses enemy damage reduction and defense / Its hateful glow flickers with ire
 - Officiel : [open] when placed to deal 1.07x damage to all enemies / The extra 0.07x damage bypasses enemy defense and damage reduction / This cannot be stacked with other candle buffs / Its hateful glow flickers with ire
@@ -4238,6 +4243,13 @@ Version du code la plus proche : 2021-07 (ressemblance 1.0) ; lignes encore pré
 
 - Fandom : Space chickens, that is all. / Fires random utensils in bursts of three / Grants Well Fed on enemy hits / Stealth strikes replace any utensil with a powerful butcher knife
 - Officiel : Fires utensils in bursts of three / Stealth strikes replace any utensil with a powerful butcher knife / Space chickens, that is all
+
+### Venerated Locket (Accessories)
+
+Version du code la plus proche : 2020-01 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.75
+
+- Fandom : 10% increased rogue damage / Using a rogue weapon summons a copy of the projectile that falls from the sky / Stealth strikes cause a circular fan of seeking cosmilite knives to be thrown / You'll never be alone, no matter where you go
+- Officiel : 10% increased rogue damage / Rogue projectiles summon a clone from above the cursor / Stealth strikes unleash a ring of seeking cosmilite knives / You'll never be alone, no matter where you go
 
 ### Endogenesis (Weapons.Summon)
 
@@ -4434,17 +4446,10 @@ Version du code la plus proche : 2021-12 (ressemblance 0.67) ; lignes encore pr�
 
 ### Fractured Ark (Weapons.Melee)
 
-Version du code la plus proche : 2022-07 (ressemblance 0.42) ; lignes encore présentes aujourd'hui : 0.75
+Version du code la plus proche : 2022-03 (ressemblance 0.42) ; lignes encore présentes aujourd'hui : 0.75
 
 - Fandom : Using RMB will extend the Ark out in front of you. Hitting an enemy with it will parry them, granting you a small window of invulnerability / You can also parry projectiles and temporarily make them deal 100 less damage / Parrying will empower the next 10 swings of the sword, boosting their damage and letting them throw projectiles out / A worn down and rusty blade once wielded against the evil of this world, ready to be of use once more
 - Officiel : [open] to extend the Ark out in front of you / Hitting an enemy with it will parry them, granting you a small window of invulnerability / Parrying empowers the next 10 swings of the sword, boosting damage and letting them throw projectiles / A worn down and rusty blade once wielded against the evil of this world, ready to be of use once more
-
-### Venerated Locket (Accessories)
-
-Version du code la plus proche : 2020-01 (ressemblance 0.12) ; lignes encore présentes aujourd'hui : 0.75
-
-- Fandom : 10% increased Spy damage / Using a Spy weapon summons a copy of the projectile that falls from the sky / Stealth strikes cause a circular fan of seeking cosmilite knives to be thrown / You'll never be alone, no matter where you go
-- Officiel : 10% increased rogue damage / Rogue projectiles summon a clone from above the cursor / Stealth strikes unleash a ring of seeking cosmilite knives / You'll never be alone, no matter where you go
 
 ### Abyss Torch (Placeables)
 
@@ -4462,9 +4467,9 @@ Version du code la plus proche : 2022-02 (ressemblance 0.59) ; lignes encore pr�
 
 ### Blunder Booster (Accessories)
 
-Version du code la plus proche : 2021-01 (ressemblance 0.61) ; lignes encore présentes aujourd'hui : 1.0
+Version du code la plus proche : 2021-01 (ressemblance 0.64) ; lignes encore présentes aujourd'hui : 1.0
 
-- Fandom : 12% increased Spy damage and 15% increased Spy projectile velocity / Stealth generates 10% faster / Summons a red lightning aura to surround the player and electrify nearby enemies / Press [Booster Dash] to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of lightning bolts
+- Fandom : 12% increased rogue damage and 15% increased rogue projectile velocity / Stealth generates 10% faster / Summons a red lightning aura to surround the player and electrify nearby enemies / Press [Booster Dash] to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of lightning bolts
 - Officiel : 12% increased rogue damage and 15% increased rogue projectile velocity / Stealth generates 10% faster / Summons a red lightning aura around the player that electrifies nearby enemies with Vermillion Flux / The aura has reduced opacity if visibility is disabled / Press [Booster Dash] to consume 25% of your maximum stealth to perform a swift upwards diagonal dash / This dash leaves a trail of red lightning bolts / This effect has a 1 second cooldown before it can be used again
 
 ### Broken Biome Blade (Weapons.Melee)
@@ -4490,9 +4495,9 @@ Version du code la plus proche : 2021-05 (ressemblance 0.79) ; lignes encore pr�
 
 ### Plagued Fuel Pack (Accessories)
 
-Version du code la plus proche : 2020-04 (ressemblance 0.62) ; lignes encore présentes aujourd'hui : 1.0
+Version du code la plus proche : 2020-04 (ressemblance 0.75) ; lignes encore présentes aujourd'hui : 1.0
 
-- Fandom : 5% increased Spy damage and 15% increased Spy projectile velocity / Stealth generates 10% faster / Press [Booster Dash] to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of plagued clouds
+- Fandom : 5% increased rogue damage and 15% increased rogue projectile velocity / Stealth generates 10% faster / Press [Booster Dash] to consume 25% of your maximum stealth to perform a swift upwards/diagonal dash which leaves a trail of plagued clouds
 - Officiel : 8% increased rogue damage and 15% increased rogue projectile velocity / Stealth generates 10% faster / Press [Booster Dash] to consume 25% of your maximum stealth to perform a swift upwards diagonal dash / The dash leaves a lingering trail of Plague clouds / This effect has a 1 second cooldown before it can be used again
 
 ### Sambucus Fruit (Misc)
@@ -4536,7 +4541,7 @@ Version du code la plus proche : None (ressemblance 0.0) ; lignes encore présen
 
 ### Eidolon Staff (Weapons.Magic)
 
-Version du code la plus proche : 2019-08 (ressemblance 0.52) ; lignes encore présentes aujourd'hui : 0.17
+Version du code la plus proche : 2022-07 (ressemblance 0.52) ; lignes encore présentes aujourd'hui : 0.17
 
 - Fandom : The power of an ancient cultist resonates within this staff / Fires a spread of ancient light and has a chance to fire a spinning ice cluster / Summons a Juvenile Eidolon Wyrm to fight for you which takes up 4 minion slots / Right click to fire out Ice Clusters / When an Ice Cluster intersects with the Wyrm, it explodes into homing icicles / Only one wyrm can exist at a time Calamity: Community Remix
 - Officiel : Fires a spread of ancient light and a spinning ice cluster
@@ -4549,7 +4554,7 @@ Yharon Soul Fragment, Blood Bath, The Dance of Light, Yharim's Crystal, Ark of t
 
 ## Reformulation (revue à la main) : même fonctionnement
 
-Angelic Alliance
+Havoc's Breath, Angelic Alliance
 
 ## Reformulées seulement (même fonctionnement, ancien texte)
 

@@ -76,7 +76,7 @@ def unvandalize(raw, glossary):
     ces renommages, déjà connus, ne passent pas pour des changements de fonctionnement."""
     s = raw or ""
     for official, fandom in list(glossary.get("terms", {}).items()) + list(glossary.get("renames", {}).items()):
-        s = re.sub(r"" + re.escape(fandom) + r"", official, s, flags=re.I)
+        s = re.sub(r"\b" + re.escape(fandom) + r"\b", official, s, flags=re.I)
     return s
 
 
@@ -272,6 +272,15 @@ def main():
             r["auto"] = r["verdict"]
             r["verdict"] = review[r["title"]]["verdict"]
             r["note"] = review[r["title"]].get("note", "")
+    # Pages revues à la main sans écart d'infobulle détecté (pas d'infobulle sur le Fandom, page qui invente ailleurs)
+    compared = {r["title"] for r in results}
+    for title, item in review.items():
+        if title.startswith("_") or title in compared:
+            continue
+        results.append({"title": title, "class": "", "category": "", "wikigg": None, "verdict": item["verdict"],
+                        "similarity": None, "bestOld": None, "bestOldDate": None, "current": None, "change": None,
+                        "unknownLines": [], "elsewhere": {}, "copied": [], "fandom": [], "wikiggTooltip": [], "code": [],
+                        "history": "", "note": item.get("note", ""), "auto": "page"})
     results.sort(key=lambda r: (r["verdict"], r["category"], r["title"]))
     os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
     json.dump(results, open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -308,6 +317,9 @@ def write_report(results):
         for verdict, title in VERDICTS[:9]:
             f.write(f"\n## {title}\n")
             for r in sorted(by.get(verdict, []), key=lambda r: (r["change"] if r["change"] is not None else 1, r["title"])):
+                if r.get("auto") == "page":
+                    f.write(f"\n### {r['title']}\n\n- **Revue** : {r['note']}\n")
+                    continue
                 f.write(f"\n### {r['title']} ({r['category'].replace('Items.', '')})\n\n")
                 if r["wikigg"] and r["wikigg"] != r["title"]:
                     f.write(f"Nom actuel : {r['wikigg']}. ")
