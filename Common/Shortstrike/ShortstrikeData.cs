@@ -34,9 +34,18 @@ namespace CalamityFandom.Common.Shortstrike
             public string Name { get; set; }
             public float? Seconds { get; set; }
             public string Projectile { get; set; }
+            /// <summary>Modes où l'effet s'applique (« fandom », « plus ») ; vide = les deux.</summary>
+            public List<string> Modes { get; set; }
+            /// <summary>Projectiles tirés : nombre, dégâts (part des dégâts du coup), vitesse, ai[0] ; Rain = projectile qui
+            /// tombe du ciel quand ils touchent (Galileo Gladius en Full Fandom).</summary>
+            public int Count { get; set; } = 1;
+            public float DamageMult { get; set; } = 1f;
+            public float Speed { get; set; } = 8f;
+            public float Ai0 { get; set; }
+            public string Rain { get; set; }
 
-            /// <summary>Buff ou debuff résolu (Name), projectile résolu (Projectile) ; -1 si introuvable.</summary>
-            public int BuffType = -1, ProjectileType = -1;
+            /// <summary>Buff ou debuff résolu (Name), projectiles résolus (Projectile, Rain) ; -1 si introuvable.</summary>
+            public int BuffType = -1, ProjectileType = -1, RainType = -1;
         }
 
         public class Attack
@@ -112,8 +121,12 @@ namespace CalamityFandom.Common.Shortstrike
                     MissingWeapons.Add(attack.Weapon);
                     continue;
                 }
+                // Effets d'un seul mode (Galileo Gladius, Cosmic Shiv : version 2.0.1.005 en Full Fandom)
+                attack.Effects = attack.Effects.Where(e => FandomMode.Applies(e.Modes)).ToList();
                 foreach (var effect in attack.Effects)
                 {
+                    if (effect.Rain != null && (effect.RainType = ResolveProjectile(effect.Rain)) < 0)
+                        MissingNames.Add($"{attack.Weapon} : projectile {effect.Rain}");
                     if (effect.Name != null && (effect.BuffType = ResolveBuff(effect.Name)) < 0)
                         MissingNames.Add($"{attack.Weapon} : buff {effect.Name}");
                     if (effect.Projectile != null && (effect.ProjectileType = ResolveProjectile(effect.Projectile)) < 0)
@@ -136,8 +149,13 @@ namespace CalamityFandom.Common.Shortstrike
             return -1;
         }
 
-        private static int ResolveProjectile(string name) =>
-            ModContent.TryFind<ModProjectile>("CalamityMod", name, out var proj) ? proj.Type : -1;
+        /// <summary>Projectile de Calamity par nom de classe ; « CalamityFandom/Nom » pour un des nôtres (portages homonymes).</summary>
+        private static int ResolveProjectile(string name)
+        {
+            if (name.Contains('/'))
+                return ModContent.TryFind<ModProjectile>(name, out var own) ? own.Type : -1;
+            return ModContent.TryFind<ModProjectile>("CalamityMod", name, out var proj) ? proj.Type : -1;
+        }
 
         /// <summary>L'objet se manie-t-il comme une épée courte ?</summary>
         public static bool IsShortsword(Item item)

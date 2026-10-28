@@ -3,6 +3,7 @@ using CalamityFandom.Common.Shortstrike;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
+using Terraria.Audio;
 using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -59,8 +60,8 @@ namespace CalamityFandom.Content.Shortstrike
         }
 
         /// <summary>
-        /// Projectiles tirés à chaque estoc du clone, dans sa direction (Cosmic Shiv : son rayon, comme l'arme, et « 20% chance
-        /// to shoot a second beam » ; Value = chance).
+        /// Projectiles tirés à chaque estoc du clone, dans sa direction, comme l'arme le ferait (Value = chance) : rayon du
+        /// Cosmic Shiv et son « second beam » à 20 %, croissant du Galileo Gladius, éclat des Sahara Slicers...
         /// </summary>
         private void FireOnStab(Player owner)
         {
@@ -71,11 +72,16 @@ namespace CalamityFandom.Content.Shortstrike
             {
                 if (effect.Type != "spawnOnStab" || effect.ProjectileType <= 0 || Main.rand.NextFloat() >= effect.Value)
                     continue;
-                // Second rayon légèrement décalé pour qu'on le distingue du premier
-                Vector2 velocity = direction.RotatedByRandom(0.15f) * 7f;
-                var shot = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), owner.MountedCenter + direction * 24f, velocity,
-                    effect.ProjectileType, Projectile.damage, Projectile.knockBack, Projectile.owner);
-                shot.DamageType = Projectile.DamageType;
+                for (int i = 0; i < effect.Count; i++)
+                {
+                    // Légèrement dispersés pour qu'on distingue un second tir du premier
+                    Vector2 velocity = direction.RotatedByRandom(0.15f) * effect.Speed;
+                    var shot = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), owner.MountedCenter + direction * 24f, velocity,
+                        effect.ProjectileType, (int)(Projectile.damage * effect.DamageMult), Projectile.knockBack, Projectile.owner, effect.Ai0);
+                    shot.DamageType = Projectile.DamageType;
+                    if (effect.RainType > 0)
+                        shot.GetGlobalProjectile<ShortstrikeProjectile>().RainType = effect.RainType;
+                }
             }
         }
 
@@ -133,6 +139,76 @@ namespace CalamityFandom.Content.Shortstrike
             float fade = (float)Math.Sin((1f - Projectile.timeLeft / (float)Lifetime) * MathHelper.Pi);
             // Clone magique : teinte orange translucide, comme l'aura de la jauge pleine
             Color color = Color.Lerp(Color.White, new Color(255, 160, 60), 0.5f) * (0.75f * fade + 0.25f);
+            color.A = 120;
+            Main.EntitySpriteDraw(texture, Projectile.Center - Main.screenPosition, frame, color, Projectile.rotation,
+                frame.Size() / 2f, Projectile.scale, SpriteEffects.None, 0);
+            return false;
+        }
+    }
+
+    /// <summary>
+    /// Clone lancé au début d'un Shortflurry (Calamity++, Galileo Gladius : version renforcée de son lancer, décision du
+    /// 28/10) : l'arme (ai[0] = son type) file vers le curseur, traverse 3 ennemis et, à chaque coup, éclate en étoiles
+    /// comme le lancer de Calamity (ai[1] = type d'étoile, ai[2] = nombre).
+    /// </summary>
+    public class ShortflurryThrown : ModProjectile
+    {
+        private const int Lifetime = 50;
+
+        public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
+
+        private Item Weapon => ContentSamples.ItemsByType.TryGetValue((int)Projectile.ai[0], out var item) ? item : null;
+
+        public override void SetDefaults()
+        {
+            Projectile.width = Projectile.height = 36;
+            Projectile.friendly = true;
+            Projectile.penetrate = 3;
+            Projectile.tileCollide = false;
+            Projectile.ignoreWater = true;
+            Projectile.extraUpdates = 1;
+            Projectile.timeLeft = Lifetime * 2;
+            Projectile.usesLocalNPCImmunity = true;
+            Projectile.localNPCHitCooldown = -1;
+            Projectile.DamageType = DamageClass.Melee;
+        }
+
+        public override void AI()
+        {
+            Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver4;
+            if (Main.rand.NextBool(2))
+                Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.OrangeTorch, 0f, 0f, 120, default, 1.1f).noGravity = true;
+        }
+
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            int starType = (int)Projectile.ai[1];
+            if (Projectile.owner != Main.myPlayer || starType <= 0)
+                return;
+            SoundEngine.PlaySound(SoundID.DD2_MonkStaffGroundImpact, Projectile.Center);
+            for (int i = 0; i < (int)Projectile.ai[2]; i++)
+            {
+                // Comme l'éclat d'étoiles du lancer de Calamity : vers l'arrière, dispersées, puis à tête chercheuse
+                Vector2 velocity = -Projectile.velocity.SafeNormalize(Vector2.UnitX).RotatedByRandom(0.4f) * Main.rand.NextFloat(0.75f, 1.25f);
+                var star = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), Projectile.Center, velocity, starType,
+                    Projectile.damage / 2, Projectile.knockBack, Projectile.owner, 0f, Main.rand.Next(5, 15));
+                star.DamageType = Projectile.DamageType;
+                star.usesIDStaticNPCImmunity = false;
+                star.usesLocalNPCImmunity = true;
+                star.localNPCHitCooldown = 20;
+                star.timeLeft = star.MaxUpdates * 600;
+            }
+        }
+
+        public override bool PreDraw(ref Color lightColor)
+        {
+            if (Weapon == null)
+                return false;
+            Main.instance.LoadItem(Weapon.type);
+            Texture2D texture = TextureAssets.Item[Weapon.type].Value;
+            Rectangle frame = Main.itemAnimations[Weapon.type]?.GetFrame(texture) ?? texture.Frame();
+            float fade = MathHelper.Clamp(Projectile.timeLeft / 20f, 0f, 1f);
+            Color color = Color.Lerp(Color.White, new Color(255, 160, 60), 0.5f) * (0.85f * fade);
             color.A = 120;
             Main.EntitySpriteDraw(texture, Projectile.Center - Main.screenPosition, frame, color, Projectile.rotation,
                 frame.Size() / 2f, Projectile.scale, SpriteEffects.None, 0);

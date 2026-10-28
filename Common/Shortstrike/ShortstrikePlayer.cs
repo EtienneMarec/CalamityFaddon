@@ -181,6 +181,15 @@ namespace CalamityFandom.Common.Shortstrike
                         regenTimer = ticks;
                         regenValue = (int)effect.Value;
                         break;
+                    case "throwClone" when Player.whoAmI == Main.myPlayer:
+                        // Clone lancé vers le curseur, qui éclate en étoiles (Projectile) à chaque ennemi traversé
+                        Vector2 aim = (Main.MouseWorld - Player.Center).SafeNormalize(Vector2.UnitX * Player.direction) * effect.Speed;
+                        int damage = (int)(Player.GetWeaponDamage(item) * (1f + Flurry.DamageBoost));
+                        var thrown = Projectile.NewProjectileDirect(Player.GetSource_ItemUse(item), Player.Center, aim,
+                            ModContent.ProjectileType<ShortflurryThrown>(), damage, Player.GetWeaponKnockback(item), Player.whoAmI,
+                            item.type, effect.ProjectileType, effect.Count);
+                        thrown.DamageType = item.DamageType;
+                        break;
                 }
             }
         }
@@ -252,12 +261,14 @@ namespace CalamityFandom.Common.Shortstrike
     public class ShortstrikeProjectile : GlobalProjectile
     {
         public bool FromShortsword;
+        /// <summary>Projectile qui tombe du ciel sur l'ennemi touché (croissants du Shortflurry du Galileo Gladius, Full Fandom).</summary>
+        public int RainType = -1;
 
         public override bool InstancePerEntity => true;
 
         public override void OnSpawn(Projectile projectile, IEntitySource source)
         {
-            if (projectile.ModProjectile is ShortflurryClone)
+            if (projectile.ModProjectile is ShortflurryClone or ShortflurryThrown)
                 return;
             FromShortsword = source switch
             {
@@ -265,6 +276,29 @@ namespace CalamityFandom.Common.Shortstrike
                 EntitySource_Parent { Entity: Projectile parent } => parent.GetGlobalProjectile<ShortstrikeProjectile>().FromShortsword,
                 _ => false,
             };
+        }
+
+        public override void OnHitNPC(Projectile projectile, NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            // « crescent moons will drop down planetoids on enemy hits » : même délai que les planètes de l'arme
+            if (RainType > 0)
+                Content.Legacy.Projectiles.Melee.GalileoPlanetPlayer.TryRain(Main.player[projectile.owner], projectile.GetSource_FromThis(),
+                    target.Center, projectile.damage * 2, RainType);
+        }
+    }
+
+    /// <summary>
+    /// Jauge pleine ou Shortflurry en cours : le clic droit appartient au Shortflurry, pas à l'attaque secondaire de l'arme
+    /// (lancer du Galileo Gladius, éclats des Sahara Slicers ; décision du 28/10).
+    /// </summary>
+    public class ShortstrikeAltBlock : GlobalItem
+    {
+        public override bool CanUseItem(Item item, Player player)
+        {
+            if (player.altFunctionUse != 2 || !ShortstrikeData.IsShortsword(item))
+                return true;
+            var modPlayer = player.GetModPlayer<ShortstrikePlayer>();
+            return !modPlayer.Full && !modPlayer.FlurryActive;
         }
     }
 }

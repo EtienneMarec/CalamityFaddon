@@ -1,5 +1,5 @@
 {
-  "_doc": "Shortflurry hors wiki (décision du 22/10, docs/decisions.md, [choix] à valider) : la page Shortstrike ne liste que ses armes. 'generic' : épées courtes des autres mods. 'attacks' : épées courtes de Calamity absentes de la page (modes : 'plus' = Calamity++ seulement). 'text' suit la syntaxe des effets de la page ; 'effects' ajoute des effets en données directement. 'overrides' : effets écrits à la main pour des phrases de la page que le générateur ne sait pas traduire ('todo' = texte exact de la page qu'ils remplacent).",
+  "_doc": "Shortflurry hors wiki (décision du 22/10, docs/decisions.md, [choix] à valider) : la page Shortstrike ne liste que ses armes. 'generic' : épées courtes des autres mods. 'attacks' : épées courtes de Calamity absentes de la page (modes : 'plus' = Calamity++ seulement). 'text' suit la syntaxe des effets de la page ; 'effects' ajoute des effets en données directement. 'overrides' : effets écrits à la main pour des phrases de la page que le générateur ne sait pas traduire ('todo' = texte exact de la page qu'ils remplacent). Un effet peut porter 'modes' (['fandom'] ou ['plus']) : il ne vaut alors que dans ce mode. 'spawnOnStab' : projectile tiré à chaque estoc d'un clone (value = chance ; count, damageMult, speed, ai0 ; rain = projectile qui pleut quand il touche). 'throwClone' : clone lancé au début, qui éclate en 'count' projectiles à chaque ennemi traversé. Nom 'CalamityFandom/X' = projectile porté de ce mod.",
   "generic": {
     "damageBoost": 0.1,
     "hits": 3,
@@ -14,11 +14,14 @@
       "modes": [
         "plus"
       ],
-      "text": "Hits spawn sand slicers",
+      "text": "Each stab fires a sand slicer",
       "effects": [
         {
-          "type": "spawnOnHit",
-          "projectile": "SaharaSlicersBolt"
+          "type": "spawnOnStab",
+          "projectile": "SaharaSlicersBolt",
+          "value": 1.0,
+          "ai0": 1,
+          "speed": 6.6
         }
       ]
     }
@@ -30,8 +33,31 @@
       ],
       "effects": [
         {
+          "type": "spawnOnStab",
+          "projectile": "CalamityFandom/GalileosMoon",
+          "value": 1.0,
+          "damageMult": 0.3333,
+          "speed": 9,
+          "rain": "CalamityFandom/GalileosPlanet",
+          "modes": [
+            "fandom"
+          ]
+        },
+        {
           "type": "spawnOnHit",
-          "projectile": "GalileosMoon"
+          "projectile": "GalileosMoon",
+          "modes": [
+            "plus"
+          ]
+        },
+        {
+          "type": "throwClone",
+          "projectile": "VegaStar",
+          "count": 3,
+          "speed": 16,
+          "modes": [
+            "plus"
+          ]
         }
       ]
     },
@@ -42,13 +68,41 @@
       "effects": [
         {
           "type": "spawnOnStab",
-          "projectile": "CosmicShivTrail",
-          "value": 1.0
+          "projectile": "CalamityFandom/CosmicShivBall",
+          "value": 1.0,
+          "damageMult": 0.5,
+          "speed": 33.6,
+          "modes": [
+            "fandom"
+          ]
+        },
+        {
+          "type": "spawnOnStab",
+          "projectile": "CalamityFandom/CosmicShivBall",
+          "value": 0.2,
+          "damageMult": 0.5,
+          "speed": 33.6,
+          "modes": [
+            "fandom"
+          ]
         },
         {
           "type": "spawnOnStab",
           "projectile": "CosmicShivTrail",
-          "value": 0.2
+          "value": 1.0,
+          "speed": 7,
+          "modes": [
+            "plus"
+          ]
+        },
+        {
+          "type": "spawnOnStab",
+          "projectile": "CosmicShivTrail",
+          "value": 0.2,
+          "speed": 7,
+          "modes": [
+            "plus"
+          ]
         }
       ]
     },

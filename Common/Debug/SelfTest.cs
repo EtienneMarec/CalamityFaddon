@@ -388,12 +388,26 @@ namespace CalamityFandom.Common.Debug
                 "Shortflurry du Galileo Gladius : immunité à Nightwither (Moon Burnt) résolue");
             Expect(Common.Shortstrike.ShortstrikeData.IsShortsword(ContentSamples.ItemsByType[ItemID.CopperShortsword]), "la Copper Shortsword est une épée courte");
             // Effets écrits à la main (tools/shortstrike_extra.json → overrides) : projectiles et debuffs résolus
-            foreach (var (weapon, type) in new[] { ("Galileo Gladius", "spawnOnHit"), ("Cosmic Shiv", "spawnOnStab"), ("Submarine Shocker", "cloud"), ("Spore Knife", "vine") })
+            // Galileo Gladius et Cosmic Shiv : effets propres à chaque mode (2.0.1.005 en Full Fandom, armes de Calamity sinon)
+            foreach (var (weapon, type) in new[] { ("Galileo Gladius", FandomMode.IsFull ? "spawnOnStab" : "throwClone"), ("Cosmic Shiv", "spawnOnStab"),
+                ("Submarine Shocker", "cloud"), ("Spore Knife", "vine"), ("Sahara Slicers", FandomMode.IsFull ? null : "spawnOnStab") })
             {
+                if (type == null)
+                    continue;
                 int item = WikiRecipes.ResolveItem(weapon);
                 var effect = byItem.TryGetValue(item, out var attack) ? attack.Effects.FirstOrDefault(e => e.Type == type) : null;
-                Expect(effect != null && (effect.Projectile == null || effect.ProjectileType > 0) && (effect.Name == null || effect.BuffType > 0),
-                    $"Shortflurry de {weapon} : effet {type} résolu");
+                Expect(effect != null && (effect.Projectile == null || effect.ProjectileType > 0) && (effect.Name == null || effect.BuffType > 0)
+                    && (effect.Rain == null || effect.RainType > 0), $"Shortflurry de {weapon} : effet {type} résolu");
+                if (effect?.Projectile != null)
+                    Expect(effect.Projectile.StartsWith("CalamityFandom/") == FandomMode.IsFull || weapon is "Submarine Shocker" or "Spore Knife" or "Sahara Slicers"
+                        || type == "throwClone", $"Shortflurry de {weapon} : projectile du bon mode ({effect.Projectile})");
+            }
+            // Full Fandom : Galileo Gladius et Cosmic Shiv tirent les projectiles portés de 2.0.1.005
+            foreach (var (weapon, legacy) in new[] { ("Galileo Gladius", ModContent.ProjectileType<Content.Legacy.Projectiles.Melee.GalileoGladiusProj>()),
+                ("Cosmic Shiv", ModContent.ProjectileType<Content.Legacy.Projectiles.Melee.CosmicShivProj>()) })
+            {
+                var sample = ContentSamples.ItemsByType[WikiRecipes.ResolveItem(weapon)];
+                Expect((sample.shoot == legacy) == FandomMode.IsFull, $"{weapon} : estoc de 2.0.1.005 en Full Fandom seulement (shoot {sample.shoot})");
             }
             Expect(!Common.Shortstrike.ShortstrikeData.IsShortsword(ContentSamples.ItemsByType[ItemID.CopperBroadsword]), "la Copper Broadsword n'en est pas une");
             int sahara = WikiRecipes.ResolveItem("Sahara Slicers");

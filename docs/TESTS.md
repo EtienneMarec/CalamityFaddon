@@ -279,6 +279,16 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] (28/10) Shortflurry du **Cosmic Shiv** : chaque clone tire le rayon violet de l'arme, parfois un second ;
       **Submarine Shocker** : vrais nuages verts (ceux de la Toxic Flask) qui restent sur place et infligent Sulphuric
       Poisoning ; **Spore Knife** : une épine verte de 4 blocs sort du sol sous l'ennemi touché (Poisoned)
+- [ ] (28/10) Full Fandom, **Galileo Gladius** : estoc (plus d'épée tenue), chaque coup tire un croissant de lune qui
+      cherche les ennemis (Moon Burnt) ; un coup direct fait tomber une planète bleue qui explose ; rien au clic droit sauf
+      le Shortflurry. Shortflurry : chaque clone tire un croissant, et les croissants font tomber des planètes
+- [ ] (28/10) Full Fandom, **Cosmic Shiv** : chaque estoc tire un orbe violet qui ondule puis fonce sur un ennemi ; au
+      contact, 3 lames arrivent des côtés et des étoiles tombent, puis petite explosion. Shortflurry : un orbe par clone,
+      parfois deux
+- [ ] (28/10) Calamity++ : Galileo Gladius et Cosmic Shiv sont ceux de Calamity (épée tenue + lancer ; rayon violet).
+      Shortflurry du **Galileo** : un clone orange est lancé vers le curseur, traverse 3 ennemis et lâche 3 étoiles sur
+      chacun, puis les 7 coups ; **Sahara Slicers** : chaque clone tire un éclat de sable (plus d'éclats qui restent
+      collés dans le dos) ; jauge pleine, le clic droit lance le Shortflurry et pas l'attaque secondaire de l'arme
 - [ ] (28/10) La jauge pleine ne clignote plus (seule l'aura pulse) ; le début du Shortflurry joue un son plus long :
       à choisir dans la config client du mod (« Shortflurry Sound » : Brimflame par défaut, Omega Blue, Plague Reaper,
       Silva, Sonic Boom, ou le coup d'épée d'avant)
