@@ -29,7 +29,8 @@ namespace CalamityFandom.Content.Legacy.Projectiles.Melee
         private const float CollisionLength = 84f;
         private const float GlowLength = 0.65f;
 
-        public override Item BaseItem => ContentSamples.ItemsByType[ModContent.ItemType<GalileoGladius>()];
+        // Objet modèle du ModItem, comme Calamity : ContentSamples n'est pas encore rempli quand les projectiles sont préparés
+        public override Item BaseItem => ModContent.GetModItem(ModContent.ItemType<GalileoGladius>()).Item;
         public override string Texture => "CalamityMod/Items/Weapons/Melee/GalileoGladius";
         public override int swingWidth => 200;
         public override int AfterImageLength => 0;
