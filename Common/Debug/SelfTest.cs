@@ -305,9 +305,11 @@ namespace CalamityFandom.Common.Debug
             // Contenu porté depuis Calamity 2.0.1.005 : trouvable par son nom du wiki, intégré aux recettes du wiki.
             // Portages d'objets que Calamity a seulement renommés ou refaits (décision du 23/10) : notre version en Full
             // Fandom, l'objet actuel de Calamity (sous le nom du wiki) dans les autres modes
-            var replacedByCalamity = new HashSet<string> { "Night's Gaze", "Seabound Staff", "Effluvium Bow", "Regenator", "Storm Spray",
-                "Solar Flare", "Corroslime Staff", "Shock Grenade", "Mana Jelly", "Amidias' Spark", "Energy Staff", "Starfall" };
-            string ExpectedOwner(string name) => replacedByCalamity.Contains(name) && !FandomMode.IsFull ? "CalamityMod" : Mod.Name;
+            var replacedByCalamity = new HashSet<string> { "Night's Gaze", "Regenator", "Storm Spray",
+                "Solar Flare", "Corroslime Staff", "Shock Grenade", "Mana Jelly", "Amidias' Spark", "Energy Staff" };
+            // Portages identiques à l'objet actuel, fusionnés le 28/10 : l'objet de Calamity dans les deux modes
+            var mergedIntoCalamity = new HashSet<string> { "Seabound Staff", "Effluvium Bow", "Starfall" };
+            string ExpectedOwner(string name) => mergedIntoCalamity.Contains(name) || replacedByCalamity.Contains(name) && !FandomMode.IsFull ? "CalamityMod" : Mod.Name;
             int gaze = WikiRecipes.ResolveItem("Night's Gaze");
             Expect(gaze > 0 && ItemLoader.GetItem(gaze)?.Mod.Name == ExpectedOwner("Night's Gaze"),
                 $"Night's Gaze : {ItemLoader.GetItem(gaze)?.FullName} ({ExpectedOwner("Night's Gaze")} attendu)");

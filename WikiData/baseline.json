@@ -113,7 +113,6 @@
    "BrimstoneLavaFountainItem",
    "BrimstoneSlab",
    "BrimstoneSlabWall",
-   "BrittleStarStaff",
    "BurningRevelation",
    "BurrowerController",
    "Buzzkill",
@@ -203,7 +202,6 @@
    "GreedPot",
    "HallowPointRound",
    "HardenedEutrophicSand",
-   "HoarfrostBow",
    "HorribleHogBanner",
    "HostileFireTurret",
    "HostileIceTurret",
@@ -380,7 +378,6 @@
    "SpineSapling",
    "SpringStool",
    "Squidoom",
-   "StarShower",
    "StarSwallowerUnit",
    "Starmageddon",
    "StellarTorusStaff",
@@ -510,16 +507,13 @@
  "plusHidden": {
   "items": [
    "CorroslimeStaff",
-   "SeaboundStaff",
    "SolarFlare",
    "ManaJelly",
    "ShockGrenade",
-   "EffluviumBow",
    "AmidiasSpark",
    "Regenator",
    "EnergyStaff",
    "StormSpray",
-   "Starfall",
    "NightsGaze"
   ],
   "npcs": []

@@ -244,6 +244,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Calamity++ : la **Vega** s'appelle **Night's Gaze** (c'est elle qui est utilisée) ; notre ancienne version n'a plus de
       recette ; Full Fandom : c'est notre Night's Gaze de 2022, la Vega est masquée. Idem Star Shower → Starfall, Burning
       Revelation → Solar Flare, Sandstream Scepter → Storm Spray, Doomsday Device → Shock Grenade...
+- [ ] (28/10) **Starfall**, **Seabound Staff** et **Effluvium Bow** n'existent plus qu'une fois (l'objet de Calamity sous ce
+      nom, dans les deux modes) ; en Full Fandom ils ont les stats du wiki ; le Desert Scourge lâche toujours le Seabound
+      Staff. (Une ancienne version déjà dans l'inventaire devient un objet déchargé.)
 - [x] Crimulan Paladin / Ebonian Paladin s'appellent Crimulan / Ebonian Slime God
 - [x] Calamitas Clone s'appelle **Calamitas**, Cataclysmic Construct **Cataclysm**, Signus **Signus, Envoy of the Devourer**
 - [x] La Silva Basin s'appelle **Effulgent Manipulator** et fabrique les meubles Silva

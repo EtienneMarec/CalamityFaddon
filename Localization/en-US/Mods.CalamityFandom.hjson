@@ -1,4 +1,4 @@
-Items: {
+﻿Items: {
 	Zweihandromeda: {
 		DisplayName: Zweihandromeda
 		Tooltip: ""
@@ -50,20 +50,6 @@ Items: {
 			'''
 			Has a chance to contain various fishing gear
 			{$CommonItemTooltip.RightClickToOpen}
-			'''
-	}
-
-	SeaboundStaff: {
-		DisplayName: Seabound Staff
-		Tooltip: Summons a brittle star to fight for you
-	}
-
-	EffluviumBow: {
-		DisplayName: Effluvium Bow
-		Tooltip:
-			'''
-			Fires two arrows at once
-			Converts wooden arrows into mist arrows
 			'''
 	}
 
@@ -327,11 +313,6 @@ Items: {
 	EnergyStaff: {
 		DisplayName: Energy Staff
 		Tooltip: Summons a profaned energy turret to fight for you
-	}
-
-	Starfall: {
-		DisplayName: Starfall
-		Tooltip: Casts a spread of astral blight stars at the mouse cursor
 	}
 
 	StormDragoon: {
