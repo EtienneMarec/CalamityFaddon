@@ -379,7 +379,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Calamity. En Full Fandom, objet du Fandom à la place de celui de Calamity ?
 - [ ] (29/10) Divine Intervention : épée inventée que l'index relie à tort au projectile HolyFlame ; à créer ?
 - [ ] (29/10) Dragonfolly renommée « The Magnificent Lightning Avian » par le Fandom : à ajouter au glossaire ?
-- [ ] (29/10) Portages en Full Fandom des objets refaits après 2.0.1.005 (483 candidats, `docs/DIFF_FANDOM.md`) :
+- [ ] (29/10) Portages en Full Fandom des objets refaits après 2.0.1.005 (470 candidats, `docs/DIFF_FANDOM.md`) :
       lesquels, dans quel ordre ? Et les 51 objets inventés ou en partie inventés : à refaire selon leur page ?
 - [x] Écarts de stats extrêmes : tous tranchés (`tools/stats_decisions.json`)
 - [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
