@@ -275,22 +275,25 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       pas de battement), sans double du personnage, accrochées au dos
 - [ ] Shortflurry du **Galileo Gladius** : des lunes apparaissent sur les ennemis touchés (24/10)
 - [x] (28/10) Submarine Shocker : nuages de la Toxic Flask ; Spore Knife : épine verte qui sort du sol
-- [ ] (28/10, 2e retour) **Submarine Shocker** : nuages plus transparents ; **Cosmic Shiv** : le second rayon part avec un
+- [x] (28/10, 2e retour) **Submarine Shocker** : nuages plus transparents ; **Cosmic Shiv** : le second rayon part avec un
       angle visible (pas superposé au premier)
-- [ ] (28/10) Full Fandom, **Galileo Gladius** : animation de Calamity (épée tenue, lame lumineuse) mais bien plus courte,
+- [x] (28/10) Full Fandom, **Galileo Gladius** : animation de Calamity (épée tenue, lame lumineuse) mais bien plus courte,
       arme plus avancée dans la main ; un coup direct fait tomber une planète bleue qui explose (Moon Burnt), sans
       croissant ; un estoc dans le vide tire un croissant de lune qui cherche les ennemis ; rien au clic droit sauf le
       Shortflurry (chaque clone tire un croissant, et les croissants font tomber des planètes). Dégâts : ceux du wiki (110)
 - [x] (28/10) Full Fandom, **Cosmic Shiv** : orbe violet, lames et étoiles
-- [ ] (28/10) Full Fandom, **Spore Knife** : épée courte de mêlée (estoc, plus de lancer), nuage de spores sur l'ennemi
+- [x] (28/10) Full Fandom, **Spore Knife** : épée courte de mêlée (estoc, plus de lancer), nuage de spores sur l'ennemi
       touché, jauge Shortstrike ; Calamity++ : couteau de lancer de Calamity, qui a quand même la jauge et le Shortflurry
-- [ ] (28/10) Calamity++, Shortflurry du **Galileo** : un clone orange file vers le curseur et se plante dans le premier
+- [x] (28/10) Calamity++, Shortflurry du **Galileo** : un clone orange file vers le curseur et se plante dans le premier
       ennemi (3 étoiles), un fil le relie au joueur qui est tiré jusqu'à lui (invulnérable), coup final x5 avec 3 étoiles
       et rebond en arrière ; sans ennemi, le clone revient ; les 7 coups habituels en même temps ; ne coûte pas de
       Stardust (Stratus)
-- [ ] (28/10) Calamity++, Shortflurry des **Sahara Slicers** : les clones ont l'image de l'attaque (pas l'icône) ; tous
-      les éclats dans le dos partent vers le curseur pendant la durée, plus un éclat par estoc ; jauge pleine, le clic
-      droit lance le Shortflurry et pas l'attaque secondaire
+- [x] (28/10) Calamity++, Shortflurry des **Sahara Slicers** : image de l'attaque, carquois vidé pendant la durée
+- [ ] (28/10, 3e retour) **Sahara Slicers** : plus d'éclat à chaque estoc des clones, seulement le carquois
+- [ ] (28/10, 3e retour) Les clones du Shortflurry sont opaques (orange, sans fondu), le grappin du Galileo aussi ;
+      Calamity++ : les clones du Galileo ont la lame lumineuse bleue qui s'allonge avec l'estoc
+- [ ] (28/10, 3e retour) **Spore Knife** : 1 à 3 épines par coup, qui partent de l'ennemi dans des directions au hasard
+      (4 blocs) et touchent sur toute leur longueur
 - [x] (28/10) La jauge pleine ne clignote plus ; son du Shortflurry au choix (Silva retenu, désormais par défaut)
 - [x] (28/10) Les projectiles tirés par une épée courte remplissent la jauge ; ceux des clones, non
 - [x] (28/10) **Aquatic Discharge** : un seul coup par estoc, aussi sur le Fandom Test Dummy

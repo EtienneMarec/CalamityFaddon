@@ -491,8 +491,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** (nuit du 24/10) Effets des phrases non traduites, pour les armes qui existent (`tools/shortstrike_extra.json` →
   `overrides`) : Galileo Gladius « Crescent hits spawn moons » = `GalileosMoon` de Calamity à chaque coup ; Cosmic Shiv « 20%
   chance to shoot a second beam » = son rayon `CosmicShivTrail`, tiré vers le curseur ; Submarine Shocker « stationary clouds »
-  = nuage immobile de 4 blocs, 3 s, Sulphuric Poisoning, quart des dégâts ; Spore Knife « 4 tile long vines » = liane de 4
-  blocs sous l'ennemi, 2 s, Poisoned, quart des dégâts. Reste Lucrecia (portée de son ADN) et les armes absentes.
+  = nuage immobile de 4 blocs, 3 s, Sulphuric Poisoning, quart des dégâts ; Spore Knife « 4 tile long vines » = épines de 4
+  blocs (voir plus bas). Reste Lucrecia (portée de son ADN) et les armes absentes.
 - **[choix]** (28/10, retour de test) Les projectiles tirés par une épée courte, et leurs enfants, remplissent la jauge
   (« damage dealt using a shortsword ») : rayons du Cosmic Shiv, éclats des Sahara Slicers... Pas ceux des clones.
 - **[choix]** (28/10) Cosmic Shiv : « a second identical beam » suppose un premier rayon ; chaque clone tire donc le rayon
@@ -509,13 +509,18 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (sans Stratus Starburst) en plus des 7 coups : un clone file vers le curseur, se plante dans le premier ennemi (3 étoiles
   Vega), tire le joueur jusqu'à lui, frappe une dernière fois et le joueur rebondit en arrière. **[choix]** Coup final x5,
   second éclat de 3 étoiles, traction 40 frames au plus, retour seul sans ennemi à 700 px. Sahara (**[validé]**) : tout le
-  carquois (éclats dans le dos) part vers le curseur pendant la durée, en plus d'un éclat par estoc ; les clones ont
+  carquois (éclats dans le dos) part vers le curseur pendant la durée (l'éclat par estoc en plus : trop, retiré) ; les clones ont
   l'image de l'attaque (`SaharaSlicersBlade`/`Alt`) au lieu de l'icône. L'ancien « éclat au coup » laissait des éclats
   collés au dos du joueur (mode carquois) : retiré.
 - **[choix]** (28/10) Full Fandom, effets des pages Galileo Gladius et Cosmic Shiv sur leur arme de 2.0.1.005 : chaque clone
   tire le projectile de l'arme (croissant de lune, un tiers des dégâts ; orbe cosmique, moitié des dégâts) ; les croissants
   des clones font pleuvoir des planètes (« crescent moons will drop down planetoids on enemy hits », même délai de 15
   frames) ; le Cosmic Shiv tire un second orbe à 20 %. Calamity++ : rayon `CosmicShivTrail`, et lunes au coup (tableau).
+- **[validé 28/10]** Clones du Shortflurry opaques (teinte orange gardée, plus de transparence ni de fondu) ; clones du
+  Galileo Gladius en Calamity++ avec la lame lumineuse de son estoc (effet `cloneGlow`).
+- **[validé 28/10]** Spore Knife : comme dit la page, les épines partent de l'ennemi touché dans une direction au hasard
+  (4 blocs, touchent sur toute leur longueur). **[choix]** 1 à 3 par coup (nombre demandé par l'utilisateur), quart des
+  dégâts du coup, Poisoned 2 s.
 - **[technique]** Les points ne sont pas synchronisés en multijoueur : les autres joueurs ne voient pas l'aura (les clones,
   eux, sont synchronisés).
 

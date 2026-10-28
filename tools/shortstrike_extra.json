@@ -14,15 +14,8 @@
       "modes": [
         "plus"
       ],
-      "text": "Each stab fires a sand slicer; the slicers stored on the back are all fired during the Shortflurry",
+      "text": "The slicers stored on the back are all fired during the Shortflurry",
       "effects": [
-        {
-          "type": "spawnOnStab",
-          "projectile": "SaharaSlicersBolt",
-          "value": 1.0,
-          "ai0": 1,
-          "speed": 6.6
-        },
         {
           "type": "saharaQuiver",
           "projectile": "SaharaSlicersBolt",
@@ -69,6 +62,12 @@
           "projectile": "VegaStar",
           "count": 3,
           "speed": 16,
+          "modes": [
+            "plus"
+          ]
+        },
+        {
+          "type": "cloneGlow",
           "modes": [
             "plus"
           ]

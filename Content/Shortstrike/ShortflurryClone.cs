@@ -123,8 +123,10 @@ namespace CalamityFandom.Content.Shortstrike
                             Projectile.damage / 4, 0f, Projectile.owner, effect.BuffType, (effect.Seconds ?? 3f) * 60);
                         break;
                     case "vine" when Projectile.owner == Main.myPlayer:
-                        Projectile.NewProjectile(Projectile.GetSource_FromThis(), target.Bottom, Vector2.Zero, ModContent.ProjectileType<ShortflurryVine>(),
-                            Projectile.damage / 4, 0f, Projectile.owner, effect.Value);
+                        // 1 à 3 épines par coup, chacune dans une direction au hasard ([choix] du 28/10)
+                        for (int i = Main.rand.Next(1, 4); i > 0; i--)
+                            Projectile.NewProjectile(Projectile.GetSource_FromThis(), target.Center, Vector2.Zero, ModContent.ProjectileType<ShortflurryVine>(),
+                                Projectile.damage / 4, 0f, Projectile.owner, effect.Value, Main.rand.NextFloat(MathHelper.TwoPi));
                         break;
                 }
             }
@@ -149,13 +151,30 @@ namespace CalamityFandom.Content.Shortstrike
                 texture = TextureAssets.Item[Weapon.type].Value;
                 frame = Main.itemAnimations[Weapon.type]?.GetFrame(texture) ?? texture.Frame();
             }
-            float fade = (float)Math.Sin((1f - Projectile.timeLeft / (float)Lifetime) * MathHelper.Pi);
-            // Clone magique : teinte orange translucide, comme l'aura de la jauge pleine
-            Color color = Color.Lerp(Color.White, new Color(255, 160, 60), 0.5f) * (0.75f * fade + 0.25f);
-            color.A = 120;
+            if (Attack.Effects.Any(e => e.Type == "cloneGlow"))
+                DrawGlowBlade();
+            // Clone magique : teinte orange, opaque (retour de test du 28/10 : la transparence faisait bizarre)
+            Color color = Color.Lerp(Color.White, new Color(255, 160, 60), 0.5f);
             Main.EntitySpriteDraw(texture, Projectile.Center - Main.screenPosition, frame, color, Projectile.rotation,
                 frame.Size() / 2f, Projectile.scale, SpriteEffects.None, 0);
             return false;
+        }
+
+        /// <summary>
+        /// Lame lumineuse de l'arme (« cloneGlow » : Galileo Gladius en Calamity++, comme son estoc chez Calamity), qui
+        /// s'allonge avec l'estoc du clone.
+        /// </summary>
+        private void DrawGlowBlade()
+        {
+            Texture2D glow = ModContent.Request<Texture2D>("CalamityMod/Particles/GlowBlade").Value;
+            Vector2 forward = Projectile.localAI[1].ToRotationVector2();
+            float stab = (float)Math.Sin((1f - Projectile.timeLeft / (float)Lifetime) * MathHelper.Pi);
+            Main.spriteBatch.End();
+            Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.Additive, SamplerState.PointClamp, DepthStencilState.None, Main.Rasterizer, null, Main.GameViewMatrix.TransformationMatrix);
+            Main.spriteBatch.Draw(glow, Projectile.Center - forward * 10f - Main.screenPosition, null, Color.SkyBlue * 0.75f, forward.ToRotation() + MathHelper.PiOver2,
+                new Vector2(glow.Width * 0.5f, glow.Height), new Vector2(0.85f, MathHelper.Lerp(0.1f, 1.2f, stab)) * Projectile.scale * 0.04f, SpriteEffects.None, 0f);
+            Main.spriteBatch.End();
+            Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, Main.DefaultSamplerState, DepthStencilState.None, Main.Rasterizer, null, Main.GameViewMatrix.TransformationMatrix);
         }
     }
 
@@ -320,8 +339,7 @@ namespace CalamityFandom.Content.Shortstrike
                     Main.EntitySpriteDraw(TextureAssets.MagicPixel.Value, Vector2.Lerp(start, end, t) - Main.screenPosition, new Rectangle(0, 0, 1, 1),
                         new Color(255, 170, 80, 0) * 0.8f, 0f, new Vector2(0.5f), 3f, SpriteEffects.None, 0);
             }
-            Color color = Color.Lerp(Color.White, new Color(255, 160, 60), 0.5f) * 0.85f;
-            color.A = 120;
+            Color color = Color.Lerp(Color.White, new Color(255, 160, 60), 0.5f);
             Main.EntitySpriteDraw(texture, Projectile.Center - Main.screenPosition, frame, color, Projectile.rotation,
                 frame.Size() / 2f, Projectile.scale, SpriteEffects.None, 0);
             return false;
@@ -399,22 +417,26 @@ namespace CalamityFandom.Content.Shortstrike
     }
 
     /// <summary>
-    /// Liane d'un Shortflurry (Spore Knife : « 4 tile long vines ») : épine de jungle de ai[0] blocs qui sort du sol sous
-    /// l'ennemi (images ThornBase/ThornTip de Calamity), 2 s, Poisoned. Verticale ([choix] du 28/10 : posée à plat sous
-    /// l'ennemi, elle ne se voyait pas).
+    /// Épine d'un Shortflurry (Spore Knife : « Vilethorn-like thorns sprout out in random directions from hit enemies,
+    /// spanning 4 tiles each ») : part du centre de l'ennemi dans la direction ai[1] et pousse sur ai[0] blocs (images
+    /// ThornBase/ThornTip de Calamity), 2 s, Poisoned ; 1 à 3 par coup (retour de test du 28/10).
     /// </summary>
     public class ShortflurryVine : ModProjectile
     {
         private const int GrowTicks = 8;
         private const int FadeTicks = 15;
-        private const int SegmentHeight = 32;
+        private const int SegmentLength = 32;
+        private const float Width = 16f;
 
         public override string Texture => "CalamityMod/Projectiles/Melee/ThornBase";
 
+        private float Length => 16f * Math.Max(1f, Projectile.ai[0]);
+        private Vector2 Direction => Projectile.ai[1].ToRotationVector2();
+        private float Grown => MathHelper.Clamp(Projectile.localAI[0] / GrowTicks, 0f, 1f);
+
         public override void SetDefaults()
         {
-            Projectile.width = 20;
-            Projectile.height = 64;
+            Projectile.width = Projectile.height = 16;
             Projectile.friendly = true;
             Projectile.penetrate = -1;
             Projectile.tileCollide = false;
@@ -429,42 +451,45 @@ namespace CalamityFandom.Content.Shortstrike
         {
             if (Projectile.localAI[0] == 0f)
             {
-                // Position de départ = pied de l'ennemi : la liane monte de là
-                Vector2 bottom = Projectile.Center;
-                Projectile.height = (int)(16 * System.Math.Max(1f, Projectile.ai[0]));
-                Projectile.Bottom = bottom;
-                for (int i = 0; i < 10; i++)
-                    Dust.NewDustDirect(Projectile.BottomLeft - new Vector2(0f, 8f), Projectile.width, 8, DustID.JunglePlants, 0f, -2f).noGravity = true;
+                for (int i = 0; i < 6; i++)
+                    Dust.NewDustPerfect(Projectile.Center, DustID.JunglePlants, Direction.RotatedByRandom(0.5f) * Main.rand.NextFloat(1f, 3f)).noGravity = true;
             }
             Projectile.localAI[0]++;
+        }
+
+        // L'épine touche sur toute sa longueur déjà sortie
+        public override bool? Colliding(Rectangle projHitbox, Rectangle targetHitbox)
+        {
+            float collisionPoint = 0f;
+            return Collision.CheckAABBvLineCollision(targetHitbox.TopLeft(), targetHitbox.Size(), Projectile.Center,
+                Projectile.Center + Direction * Length * Grown, Width, ref collisionPoint);
         }
 
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) => target.AddBuff(BuffID.Poisoned, 120);
 
         public override bool PreDraw(ref Color lightColor)
         {
-            float grown = MathHelper.Clamp(Projectile.localAI[0] / GrowTicks, 0f, 1f);
             float opacity = MathHelper.Clamp(Projectile.timeLeft / (float)FadeTicks, 0f, 1f);
-            int visible = (int)(Projectile.height * grown);
-            if (visible <= 0)
+            float visible = Length * Grown;
+            if (visible <= 0f)
                 return false;
             Texture2D stem = TextureAssets.Projectile[Type].Value;
             Texture2D tip = ModContent.Request<Texture2D>("CalamityMod/Projectiles/Melee/ThornTip").Value;
-            // Segments empilés depuis le sol, la pointe en haut
-            float y = Projectile.Bottom.Y;
-            float top = Projectile.Bottom.Y - visible;
-            bool first = true;
-            while (y > top)
+            // Segments posés bout à bout depuis l'ennemi, la pointe au bout ; l'image monte (-Y) : rotation = direction + 90°
+            float rotation = Projectile.ai[1] + MathHelper.PiOver2;
+            float done = 0f;
+            bool flip = false;
+            while (done < visible)
             {
-                float segment = System.Math.Min(SegmentHeight, y - top);
-                Texture2D texture = y - segment <= top ? tip : stem;
+                float segment = Math.Min(SegmentLength, visible - done);
+                Texture2D texture = done + segment >= visible ? tip : stem;
                 var source = new Rectangle(0, 0, texture.Width, (int)segment);
-                Vector2 position = new Vector2(Projectile.Center.X, y) - Main.screenPosition;
-                Color color = Lighting.GetColor(new Vector2(Projectile.Center.X, y - segment / 2f).ToTileCoordinates()) * opacity;
-                Main.EntitySpriteDraw(texture, position, source, color, 0f, new Vector2(texture.Width / 2f, segment), 1f,
-                    first ? SpriteEffects.None : SpriteEffects.FlipHorizontally, 0);
-                y -= segment;
-                first = !first;
+                Vector2 start = Projectile.Center + Direction * done;
+                Color color = Lighting.GetColor((start + Direction * segment / 2f).ToTileCoordinates()) * opacity;
+                Main.EntitySpriteDraw(texture, start - Main.screenPosition, source, color, rotation, new Vector2(texture.Width / 2f, segment), 1f,
+                    flip ? SpriteEffects.FlipHorizontally : SpriteEffects.None, 0);
+                done += segment;
+                flip = !flip;
             }
             return false;
         }

@@ -397,7 +397,7 @@ namespace CalamityFandom.Common.Debug
             // Effets écrits à la main (tools/shortstrike_extra.json → overrides) : projectiles et debuffs résolus
             // Galileo Gladius et Cosmic Shiv : effets propres à chaque mode (2.0.1.005 en Full Fandom, armes de Calamity sinon)
             foreach (var (weapon, type) in new[] { ("Galileo Gladius", FandomMode.IsFull ? "spawnOnStab" : "throwClone"), ("Cosmic Shiv", "spawnOnStab"),
-                ("Submarine Shocker", "cloud"), ("Spore Knife", "vine"), ("Sahara Slicers", FandomMode.IsFull ? null : "spawnOnStab") })
+                ("Submarine Shocker", "cloud"), ("Spore Knife", "vine"), ("Sahara Slicers", FandomMode.IsFull ? null : "saharaQuiver") })
             {
                 if (type == null)
                     continue;
