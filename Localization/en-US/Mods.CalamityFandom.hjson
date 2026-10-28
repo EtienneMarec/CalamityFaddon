@@ -1,4 +1,4 @@
-﻿Items: {
+Items: {
 	Zweihandromeda: {
 		DisplayName: Zweihandromeda
 		Tooltip: ""
@@ -465,7 +465,18 @@ Projectiles: {
 	Melee: {
 		AquaticDischargeProj.DisplayName: Aquatic Discharge Proj
 		DiseasedPikeSpear.DisplayName: Diseased Pike Spear
+		CosmicShivProj.DisplayName: Cosmic Shiv
+		GalileoGladiusProj.DisplayName: Galileo Gladius
+		SporeKnifeShortsword.DisplayName: Spore Knife
 	}
+
+	GalaxyStar.DisplayName: Galaxian Star
+	CosmicShivBlade.DisplayName: Cosmic Shiv Blade
+	CosmicShivBall.DisplayName: Cosmic Energy
+	GalileosMoon.DisplayName: Crescent
+	GalileosPlanet.DisplayName: Galileo Planet
+	ShortflurryThrown.DisplayName: Shortflurry
+	GalileoGladiusHeldProj.DisplayName: Galileo Gladius
 }
 
 Shortstrike.Gauge:
@@ -670,6 +681,40 @@ Configs: {
 		ShortflurrySound: {
 			Label: Shortflurry Sound
 			Tooltip: Sound played when a Shortflurry starts
+		}
+	}
+
+	FlurrySound: {
+		Tooltip: ""
+
+		ShortswordStab: {
+			Label: Shortsword Stab
+			Tooltip: ""
+		}
+
+		BrimflameAbility: {
+			Label: Brimflame Ability
+			Tooltip: ""
+		}
+
+		OmegaBlueAbility: {
+			Label: Omega Blue Ability
+			Tooltip: ""
+		}
+
+		PlagueReaperAbility: {
+			Label: Plague Reaper Ability
+			Tooltip: ""
+		}
+
+		SilvaActivation: {
+			Label: Silva Activation
+			Tooltip: ""
+		}
+
+		SonicBoomBlade: {
+			Label: Sonic Boom Blade
+			Tooltip: ""
 		}
 	}
 }

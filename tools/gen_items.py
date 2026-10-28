@@ -167,6 +167,9 @@ def main():
                 items[-1]["worldTexture"] = True
         entry = {"DisplayName": title}
         tooltip = clean_text(f.get("tooltip"))
+        if food and tooltip:
+            # Terraria ajoute lui-même cette ligne aux aliments en Expert (le wiki l'a recopiée d'une capture Expert)
+            tooltip = "\n".join(l for l in tooltip.split("\n") if l.strip().lower() != "increases life regeneration")
         entry["Tooltip"] = tooltip if tooltip else ""
         loc[name] = entry
 
