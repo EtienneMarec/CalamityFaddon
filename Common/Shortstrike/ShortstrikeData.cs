@@ -41,6 +41,7 @@ namespace CalamityFandom.Common.Shortstrike
             public int Count { get; set; } = 1;
             public float DamageMult { get; set; } = 1f;
             public float Speed { get; set; } = 8f;
+            public float Spread { get; set; } = 0.15f;
             public float Ai0 { get; set; }
             public string Rain { get; set; }
 

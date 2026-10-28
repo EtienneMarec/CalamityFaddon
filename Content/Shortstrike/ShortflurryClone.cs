@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using CalamityFandom.Common.Shortstrike;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -74,8 +75,8 @@ namespace CalamityFandom.Content.Shortstrike
                     continue;
                 for (int i = 0; i < effect.Count; i++)
                 {
-                    // Légèrement dispersés pour qu'on distingue un second tir du premier
-                    Vector2 velocity = direction.RotatedByRandom(0.15f) * effect.Speed;
+                    // Dispersion (Spread, en radians de part et d'autre) : un second tir ne se superpose pas au premier
+                    Vector2 velocity = direction.RotatedByRandom(effect.Spread) * effect.Speed;
                     var shot = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), owner.MountedCenter + direction * 24f, velocity,
                         effect.ProjectileType, (int)(Projectile.damage * effect.DamageMult), Projectile.knockBack, Projectile.owner, effect.Ai0);
                     shot.DamageType = Projectile.DamageType;
@@ -133,9 +134,21 @@ namespace CalamityFandom.Content.Shortstrike
         {
             if (Weapon == null)
                 return false;
-            Main.instance.LoadItem(Weapon.type);
-            Texture2D texture = TextureAssets.Item[Weapon.type].Value;
-            Rectangle frame = Main.itemAnimations[Weapon.type]?.GetFrame(texture) ?? texture.Frame();
+            // Image : celle de l'attaque si l'arme en a une autre que son icône (« cloneTexture » : Sahara Slicers), sinon l'objet
+            Texture2D texture;
+            Rectangle frame;
+            var attackTextures = Attack.Effects.Where(e => e.Type == "cloneTexture" && e.ProjectileType > 0).ToList();
+            if (attackTextures.Count > 0)
+            {
+                texture = TextureAssets.Projectile[attackTextures[Projectile.identity % attackTextures.Count].ProjectileType].Value;
+                frame = texture.Frame();
+            }
+            else
+            {
+                Main.instance.LoadItem(Weapon.type);
+                texture = TextureAssets.Item[Weapon.type].Value;
+                frame = Main.itemAnimations[Weapon.type]?.GetFrame(texture) ?? texture.Frame();
+            }
             float fade = (float)Math.Sin((1f - Projectile.timeLeft / (float)Lifetime) * MathHelper.Pi);
             // Clone magique : teinte orange translucide, comme l'aura de la jauge pleine
             Color color = Color.Lerp(Color.White, new Color(255, 160, 60), 0.5f) * (0.75f * fade + 0.25f);
@@ -147,57 +160,149 @@ namespace CalamityFandom.Content.Shortstrike
     }
 
     /// <summary>
-    /// Clone lancé au début d'un Shortflurry (Calamity++, Galileo Gladius : version renforcée de son lancer, décision du
-    /// 28/10) : l'arme (ai[0] = son type) file vers le curseur, traverse 3 ennemis et, à chaque coup, éclate en étoiles
-    /// comme le lancer de Calamity (ai[1] = type d'étoile, ai[2] = nombre).
+    /// Grappin d'un Shortflurry (Calamity++, Galileo Gladius : son lancer et sa traction, gratuits, sans Stratus Starburst ;
+    /// retours de test du 28/10). Un clone de l'arme (ai[0] = son type) file vers le curseur et se plante dans le premier
+    /// ennemi touché (éclat d'étoiles, ai[1] = type, ai[2] = nombre) ; il tire alors le joueur jusqu'à lui, frappe une
+    /// dernière fois à dégâts x5 avec un second éclat, et le joueur rebondit en arrière. Sans ennemi, il revient seul.
     /// </summary>
     public class ShortflurryThrown : ModProjectile
     {
-        private const int Lifetime = 50;
+        private const float MaxDistance = 700f;
+        private const int MaxPullTicks = 40;
+        private const float PullSpeed = 18f;
+        private const int FinalDamageMultiplier = 5;
+
+        private enum Phase { Flying, Pulling, Returning }
+
+        private Phase phase = Phase.Flying;
+        private int stuckNPC = -1;
+        private Vector2 stuckOffset;
+        private int pullTicks;
 
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
 
         private Item Weapon => ContentSamples.ItemsByType.TryGetValue((int)Projectile.ai[0], out var item) ? item : null;
+        private Player Owner => Main.player[Projectile.owner];
 
         public override void SetDefaults()
         {
             Projectile.width = Projectile.height = 36;
             Projectile.friendly = true;
-            Projectile.penetrate = 3;
+            Projectile.penetrate = -1;
             Projectile.tileCollide = false;
             Projectile.ignoreWater = true;
             Projectile.extraUpdates = 1;
-            Projectile.timeLeft = Lifetime * 2;
+            Projectile.timeLeft = 600;
             Projectile.usesLocalNPCImmunity = true;
             Projectile.localNPCHitCooldown = -1;
             Projectile.DamageType = DamageClass.Melee;
         }
 
+        // Une fois planté, il ne frappe plus qu'au coup final
+        public override bool? CanDamage() => phase == Phase.Flying ? null : false;
+
         public override void AI()
         {
-            Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver4;
             if (Main.rand.NextBool(2))
                 Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.OrangeTorch, 0f, 0f, 120, default, 1.1f).noGravity = true;
+            switch (phase)
+            {
+                case Phase.Flying:
+                    Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver4;
+                    if (Projectile.Distance(Owner.Center) > MaxDistance)
+                        phase = Phase.Returning;
+                    break;
+                case Phase.Pulling:
+                    Pull();
+                    break;
+                case Phase.Returning:
+                    Projectile.velocity = Vector2.Lerp(Projectile.velocity, Projectile.DirectionTo(Owner.Center) * 16f, 0.1f);
+                    Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver4 + MathHelper.Pi;
+                    if (Projectile.Distance(Owner.Center) < 24f)
+                        Projectile.Kill();
+                    break;
+            }
         }
 
-        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        private void Pull()
+        {
+            NPC target = stuckNPC >= 0 ? Main.npc[stuckNPC] : null;
+            if (target == null || !target.active || Owner.dead)
+            {
+                phase = Phase.Returning;
+                return;
+            }
+            Projectile.Center = target.Center + stuckOffset;
+            Projectile.velocity = Vector2.Zero;
+            if (Projectile.owner != Main.myPlayer)
+                return;
+            // Le joueur est tiré vers l'arme plantée, invulnérable le temps du trajet
+            Owner.mount.Dismount(Owner);
+            Owner.RemoveAllGrapplingHooks();
+            Owner.SetImmuneTimeForAllTypes(6);
+            Owner.velocity = Owner.DirectionTo(Projectile.Center) * PullSpeed;
+            Owner.fallStart = (int)(Owner.position.Y / 16f);
+            bool blocked = Collision.SolidCollision(Owner.position + Owner.velocity, Owner.width, Owner.height);
+            if (Projectile.Distance(Owner.Center) < 56f || ++pullTicks >= MaxPullTicks || blocked)
+                FinalStrike(target);
+        }
+
+        private void FinalStrike(NPC target)
+        {
+            // Coup final : dégâts x5 sur l'ennemi planté, éclat d'étoiles, rebond du joueur en arrière
+            SoundEngine.PlaySound(SoundID.DD2_MonkStaffGroundImpact, Owner.Center);
+            SoundEngine.PlaySound(SoundID.DD2_SonicBoomBladeSlash, Owner.Center);
+            Burst();
+            Owner.ApplyDamageToNPC(target, Projectile.damage * FinalDamageMultiplier, Projectile.knockBack, Owner.direction, false, Projectile.DamageType);
+            Owner.velocity = target.DirectionTo(Owner.Center).SafeNormalize(-Vector2.UnitX * Owner.direction) * 10f;
+            Owner.SetImmuneTimeForAllTypes(Owner.longInvince ? 40 : 20);
+            Projectile.Kill();
+        }
+
+        /// <summary>Éclat d'étoiles comme celui du lancer de Calamity : vers l'arrière, dispersées, puis à tête chercheuse.</summary>
+        private void Burst()
         {
             int starType = (int)Projectile.ai[1];
             if (Projectile.owner != Main.myPlayer || starType <= 0)
                 return;
-            SoundEngine.PlaySound(SoundID.DD2_MonkStaffGroundImpact, Projectile.Center);
+            Vector2 back = -(Projectile.rotation - MathHelper.PiOver4).ToRotationVector2();
             for (int i = 0; i < (int)Projectile.ai[2]; i++)
             {
-                // Comme l'éclat d'étoiles du lancer de Calamity : vers l'arrière, dispersées, puis à tête chercheuse
-                Vector2 velocity = -Projectile.velocity.SafeNormalize(Vector2.UnitX).RotatedByRandom(0.4f) * Main.rand.NextFloat(0.75f, 1.25f);
-                var star = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), Projectile.Center, velocity, starType,
-                    Projectile.damage / 2, Projectile.knockBack, Projectile.owner, 0f, Main.rand.Next(5, 15));
+                var star = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), Projectile.Center, back.RotatedByRandom(0.4f) * Main.rand.NextFloat(0.75f, 1.25f),
+                    starType, Projectile.damage / 2, Projectile.knockBack, Projectile.owner, 0f, Main.rand.Next(5, 15));
                 star.DamageType = Projectile.DamageType;
                 star.usesIDStaticNPCImmunity = false;
                 star.usesLocalNPCImmunity = true;
                 star.localNPCHitCooldown = 20;
                 star.timeLeft = star.MaxUpdates * 600;
             }
+        }
+
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            if (phase != Phase.Flying)
+                return;
+            // Planté dans l'ennemi : premier éclat, puis la traction
+            SoundEngine.PlaySound(SoundID.DD2_MonkStaffGroundImpact, Projectile.Center);
+            Burst();
+            phase = Phase.Pulling;
+            stuckNPC = target.whoAmI;
+            stuckOffset = Projectile.Center - target.Center;
+            Projectile.netUpdate = true;
+        }
+
+        public override void SendExtraAI(System.IO.BinaryWriter writer)
+        {
+            writer.Write((byte)phase);
+            writer.Write((short)stuckNPC);
+            writer.WriteVector2(stuckOffset);
+        }
+
+        public override void ReceiveExtraAI(System.IO.BinaryReader reader)
+        {
+            phase = (Phase)reader.ReadByte();
+            stuckNPC = reader.ReadInt16();
+            stuckOffset = reader.ReadVector2();
         }
 
         public override bool PreDraw(ref Color lightColor)
@@ -207,8 +312,15 @@ namespace CalamityFandom.Content.Shortstrike
             Main.instance.LoadItem(Weapon.type);
             Texture2D texture = TextureAssets.Item[Weapon.type].Value;
             Rectangle frame = Main.itemAnimations[Weapon.type]?.GetFrame(texture) ?? texture.Frame();
-            float fade = MathHelper.Clamp(Projectile.timeLeft / 20f, 0f, 1f);
-            Color color = Color.Lerp(Color.White, new Color(255, 160, 60), 0.5f) * (0.85f * fade);
+            // Fil lumineux entre le joueur et l'arme plantée pendant la traction
+            if (phase == Phase.Pulling)
+            {
+                Vector2 start = Owner.MountedCenter, end = Projectile.Center;
+                for (float t = 0f; t < 1f; t += 12f / Math.Max(12f, Vector2.Distance(start, end)))
+                    Main.EntitySpriteDraw(TextureAssets.MagicPixel.Value, Vector2.Lerp(start, end, t) - Main.screenPosition, new Rectangle(0, 0, 1, 1),
+                        new Color(255, 170, 80, 0) * 0.8f, 0f, new Vector2(0.5f), 3f, SpriteEffects.None, 0);
+            }
+            Color color = Color.Lerp(Color.White, new Color(255, 160, 60), 0.5f) * 0.85f;
             color.A = 120;
             Main.EntitySpriteDraw(texture, Projectile.Center - Main.screenPosition, frame, color, Projectile.rotation,
                 frame.Size() / 2f, Projectile.scale, SpriteEffects.None, 0);
@@ -278,7 +390,7 @@ namespace CalamityFandom.Content.Shortstrike
                 float angle = MathHelper.TwoPi * i / Puffs + Projectile.rotation * (i % 2 == 0 ? 1f : -1f);
                 Vector2 offset = angle.ToRotationVector2() * random.NextFloat(6f, 16f);
                 float scale = Projectile.width / (float)frame.Width * random.NextFloat(0.8f, 1.1f);
-                Color color = Lighting.GetColor((Projectile.Center + offset).ToTileCoordinates(), new Color(150, 255, 120)) * (0.6f * opacity);
+                Color color = Lighting.GetColor((Projectile.Center + offset).ToTileCoordinates(), new Color(150, 255, 120)) * (0.3f * opacity);
                 Main.EntitySpriteDraw(texture, Projectile.Center + offset - Main.screenPosition, frame, color, Projectile.rotation + angle,
                     frame.Size() / 2f, scale, SpriteEffects.None, 0);
             }

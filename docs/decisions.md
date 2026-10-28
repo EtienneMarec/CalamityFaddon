@@ -447,11 +447,18 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 
 - **[validé 28/10]** **Galileo Gladius** et **Cosmic Shiv** refaits par Calamity après 2.0.1.005 : en Full Fandom, ils
   retrouvent leur fonctionnement de 2.0.1.005, que décrit leur page (`Common/Legacy/FullFandomLegacyWeapons.cs`,
-  projectiles portés dans `Content/Legacy/Projectiles/Melee/`) ; Calamity++ garde les armes actuelles. Galileo : estoc qui
-  tire un croissant de lune à tête chercheuse (un tiers des dégâts), planètes sur un coup direct (15 frames entre deux),
-  pas de lancer au clic droit. Cosmic Shiv : orbe cosmique ondulant puis à tête chercheuse, qui appelle 3 lames et 6 à 10
-  étoiles. **[choix]** Durées de debuff de la page (planètes : Moon Burnt 5 s au lieu de 4) ; un coup par estoc (le vieux
-  code touchait à l'aller et au retour) ; l'explosion de l'orbe agrandit sa hitbox au lieu de frapper à la main.
+  projectiles portés dans `Content/Legacy/Projectiles/Melee/`) ; Calamity++ garde les armes actuelles. Cosmic Shiv : orbe
+  cosmique ondulant puis à tête chercheuse, qui appelle 3 lames et 6 à 10 étoiles. **[choix]** Durées de debuff de la page
+  (planètes : Moon Burnt 5 s au lieu de 4) ; un coup par estoc (le vieux code touchait à l'aller et au retour) ;
+  l'explosion de l'orbe agrandit sa hitbox au lieu de frapper à la main.
+- **[validé 28/10]** Galileo Gladius en Full Fandom : l'animation de l'arme actuelle de Calamity (épée tenue, lame
+  lumineuse), réduite (portée 84 px au lieu de 192, lame lumineuse 0,65 au lieu de 1,55, arme plus avancée dans la main),
+  avec les dégâts de 2.0.1.005 ; un coup direct fait tomber une planète (15 frames entre deux) sans croissant, un estoc
+  dans le vide tire le croissant de lune (un tiers des dégâts) ; pas de lancer ni de Stratus Starburst. **[choix]** Les
+  chiffres de la réduction, à ajuster en jeu.
+- **[validé 28/10]** **Spore Knife** : la page décrit l'épée courte de mêlée que Calamity a retirée en juin 2022 (avant
+  2.0.1.005) puis refaite en couteau de lancer rogue. Full Fandom : épée courte (estoc, true melee, nuage de spores vanilla
+  au coup, moitié des dégâts de base) ; Calamity++ : l'arme rogue de Calamity, qui garde le Shortstrike (clin d'œil).
 
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
@@ -492,14 +499,19 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   de l'arme (`CosmicShivTrail`) à chaque estoc, plus un second à 20 % (effet `spawnOnStab`, remplace le rayon « au coup »).
 - **[choix]** (28/10) Nuages du Submarine Shocker dessinés avec ceux de la Toxic Flask vanilla ; liane de la Spore Knife
   = épine de jungle verticale qui sort du sol (images `ThornBase`/`ThornTip` de Calamity), à plat elle ne se voyait pas.
-- **[choix]** (28/10) La jauge pleine ne clignote plus (demande de l'utilisateur) ; son de départ du Shortflurry au choix
-  dans la config client (sons de capacités d'armure de Calamity, 1 à 2,5 s ; Brimflame par défaut), à fixer après essai.
+- **[validé 28/10]** La jauge pleine ne clignote plus ; son de départ du Shortflurry : Silva Activation (2,4 s) par défaut,
+  les autres restent au choix dans la config client. Nuages du Submarine Shocker à 30 % d'opacité. Second rayon du Cosmic
+  Shiv dévié de ±0,6 rad (il se superposait au premier). **[validé]** Effets du tableau plutôt que ceux des pages d'armes
+  quand ils diffèrent (Galileo : +30 % de critique, pas +50 % de vitesse).
 - **[validé 28/10]** Calamity++ : les épées courtes qui ont déjà une attaque au clic droit (Galileo Gladius, Sahara Slicers)
   ont un Shortflurry sur mesure, version renforcée de cette attaque ; jauge pleine ou Shortflurry en cours, le clic droit
-  appartient au Shortflurry (`ShortstrikeAltBlock`). **[choix]** Galileo : un clone lancé vers le curseur traverse 3 ennemis
-  et éclate à chaque coup en 3 étoiles Vega (comme l'éclat du lancer de Calamity), puis les 7 coups habituels ; Sahara :
-  chaque estoc des 5 clones tire un éclat de sable (`SaharaSlicersBolt` en mode tir, sans vider le carquois). L'ancien effet
-  « éclat au coup » laissait des éclats collés au dos du joueur (mode carquois) : retiré.
+  appartient au Shortflurry (`ShortstrikeAltBlock`). Galileo (**[validé]** au 2e retour) : grappin + traction gratuits
+  (sans Stratus Starburst) en plus des 7 coups : un clone file vers le curseur, se plante dans le premier ennemi (3 étoiles
+  Vega), tire le joueur jusqu'à lui, frappe une dernière fois et le joueur rebondit en arrière. **[choix]** Coup final x5,
+  second éclat de 3 étoiles, traction 40 frames au plus, retour seul sans ennemi à 700 px. Sahara (**[validé]**) : tout le
+  carquois (éclats dans le dos) part vers le curseur pendant la durée, en plus d'un éclat par estoc ; les clones ont
+  l'image de l'attaque (`SaharaSlicersBlade`/`Alt`) au lieu de l'icône. L'ancien « éclat au coup » laissait des éclats
+  collés au dos du joueur (mode carquois) : retiré.
 - **[choix]** (28/10) Full Fandom, effets des pages Galileo Gladius et Cosmic Shiv sur leur arme de 2.0.1.005 : chaque clone
   tire le projectile de l'arme (croissant de lune, un tiers des dégâts ; orbe cosmique, moitié des dégâts) ; les croissants
   des clones font pleuvoir des planètes (« crescent moons will drop down planetoids on enemy hits », même délai de 15

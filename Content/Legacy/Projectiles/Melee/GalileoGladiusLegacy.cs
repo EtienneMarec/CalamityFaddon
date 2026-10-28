@@ -1,11 +1,15 @@
-// Adapté de Calamity Mod 2.0.1.005, © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
+// Adapté de Calamity Mod 2.0.1.005 et 2.2.2 (GalileoGladiusProj), © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
 using System;
 using CalamityMod;
 using CalamityMod.Buffs.DamageOverTime;
+using CalamityMod.Items.Weapons.Melee;
+using CalamityMod.Particles;
 using CalamityMod.Projectiles.BaseProjectiles;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Terraria;
 using Terraria.Audio;
+using Terraria.GameContent;
 using Terraria.Graphics.Shaders;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -13,53 +17,84 @@ using Terraria.ModLoader;
 namespace CalamityFandom.Content.Legacy.Projectiles.Melee
 {
     /// <summary>
-    /// Wiki : Galileo Gladius.txt — estoc du Galileo Gladius de 2.0.1.005 (Full Fandom, Common/Legacy/FullFandomLegacyWeapons) :
-    /// tire un croissant de lune à tête chercheuse (un tiers des dégâts) ; un coup direct fait pleuvoir des planètes
-    /// (toutes les 15 frames au plus) et inflige Moon Burnt 5 s.
+    /// Wiki : Galileo Gladius.txt — estoc du Galileo Gladius en Full Fandom (Common/Legacy/FullFandomLegacyWeapons) : animation
+    /// de l'arme actuelle de Calamity (épée tenue, GalileoGladiusProj de 2.2.2), lame lumineuse et portée réduites de plus de
+    /// moitié (retour de test du 28/10), avec le fonctionnement de 2.0.1.005 : un estoc qui touche fait pleuvoir une planète
+    /// et inflige Moon Burnt 5 s ; un estoc dans le vide tire un croissant de lune à tête chercheuse (un tiers des dégâts).
+    /// Pas de Stratus Starburst.
     /// </summary>
-    public class GalileoGladiusProj : BaseShortswordProjectile
+    public class GalileoGladiusHeldProj : BaseSwordHoldoutProjectile
     {
+        /// <summary>Longueur de la ligne qui touche (192 chez Calamity) et de la lame lumineuse (1,55 chez Calamity).</summary>
+        private const float CollisionLength = 84f;
+        private const float GlowLength = 0.65f;
+
+        public override Item BaseItem => ContentSamples.ItemsByType[ModContent.ItemType<GalileoGladius>()];
         public override string Texture => "CalamityMod/Items/Weapons/Melee/GalileoGladius";
+        public override int swingWidth => 200;
+        public override int AfterImageLength => 0;
+        // Arme plus avancée dans la main que chez Calamity (15 → 45) : la garde restait loin du bras
+        public override int OffsetDistance { get; set; } = 22;
+        public override bool drawSwordTrail => false;
+        public override bool AlternateSwings => false;
+        public override bool useAttackSpeed => true;
+        public override int swingTime { get; set; } = 8;
+        public override SoundStyle? UseSound => SoundID.Item71 with { Volume = 0.5f };
 
-        public override void SetDefaults()
-        {
-            Projectile.Size = new Vector2(24);
-            Projectile.friendly = true;
-            Projectile.penetrate = -1;
-            Projectile.tileCollide = false;
-            Projectile.DamageType = ModContent.GetInstance<TrueMeleeDamageClass>();
-            Projectile.ownerHitCheck = true;
-            Projectile.timeLeft = 360;
-            Projectile.extraUpdates = 1;
-            Projectile.hide = true;
-            Projectile.usesLocalNPCImmunity = true;
-            Projectile.localNPCHitCooldown = -1;
-        }
+        public override void Defaults() => Projectile.extraUpdates = 3;
 
-        public override Action<Projectile> EffectBeforePullback => proj =>
-        {
-            int moonDamage = (int)(Projectile.damage * 0.3333f);
-            Projectile.NewProjectile(Projectile.GetSource_FromThis(), Projectile.Center, Projectile.velocity * 10f,
-                ModContent.ProjectileType<GalileosMoon>(), moonDamage, Projectile.knockBack, Projectile.owner);
-        };
+        public override void Spawn() => angle = angle.RotatedByRandom(0.25f);
 
-        public override void SetVisualOffsets()
-        {
-            const int HalfSpriteWidth = 42 / 2;
-            const int HalfSpriteHeight = 46 / 2;
-            DrawOriginOffsetX = 0;
-            DrawOffsetX = -(HalfSpriteWidth - Projectile.width / 2);
-            DrawOriginOffsetY = -(HalfSpriteHeight - Projectile.height / 2);
-        }
+        public override float SwingFunction() => 0f; // estoc, pas de balayage
 
-        public override void ExtraBehavior()
+        public override void AdditionalAI()
         {
-            if (Main.rand.NextBool(5))
+            OffsetDistance = (int)MathHelper.Lerp(22, 38, SwingCompletion);
+            Vector2 forward = angle.RotatedBy(MathHelper.Pi);
+            if (Projectile.FinalExtraUpdate())
             {
-                var dust = Dust.NewDustDirect(Projectile.position + Projectile.velocity, Projectile.width, Projectile.height, Main.rand.NextBool() ? 20 : 176,
-                    Main.player[Projectile.owner].direction * 2f, 0f, 150, default, 1.3f);
-                dust.velocity *= 0.2f;
-                dust.noGravity = true;
+                for (float i = -1; i <= 1; i += 2f)
+                {
+                    Vector2 velocity = -forward.RotatedBy(i * -0.3f) * 6f;
+                    Vector2 position = Projectile.Center + new Vector2(MathHelper.Lerp(20, 45 * Projectile.scale, SwingCompletion), i * 10).RotatedBy(forward.ToRotation());
+                    GeneralParticleHandler.SpawnParticle(new CustomSpark(position, velocity, "CalamityMod/Particles/BloomCircle", false, 3, 0.25f,
+                        Color.LightSkyBlue, new Vector2(0.3f, 2f), noShrink: true));
+                }
+            }
+            Lighting.AddLight(Main.player[Projectile.owner].Center, 0.96f, 0.91f, 1f);
+            Main.player[Projectile.owner].heldProj = Projectile.whoAmI;
+        }
+
+        public override bool PreDraw(ref Color lightColor)
+        {
+            Texture2D glow = ModContent.Request<Texture2D>("CalamityMod/Particles/GlowBlade").Value;
+            Vector2 forward = angle.RotatedBy(MathHelper.Pi);
+            {
+                // Lot additif le temps d'un dessin (SpriteBatchScope de Calamity est interne)
+                Main.spriteBatch.End();
+                Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.Additive, SamplerState.PointClamp, DepthStencilState.None, Main.Rasterizer, null, Main.GameViewMatrix.TransformationMatrix);
+                Main.spriteBatch.Draw(glow, Projectile.Center + forward * -10 - Main.screenPosition, null, Color.SkyBlue * 0.75f, forward.ToRotation() + MathHelper.PiOver2,
+                    new Vector2(glow.Width * 0.5f, glow.Height), new Vector2(0.6f, MathHelper.Lerp(0.1f, GlowLength, SwingCompletion)) * Projectile.scale * 0.04f, SpriteEffects.None, 1);
+                Main.spriteBatch.End();
+                Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, Main.DefaultSamplerState, DepthStencilState.None, Main.Rasterizer, null, Main.GameViewMatrix.TransformationMatrix);
+            }
+            Texture2D sword = TextureAssets.Projectile[Type].Value;
+            Main.spriteBatch.Draw(sword, Projectile.Center + new Vector2(0, Projectile.gfxOffY) - Main.screenPosition, null, Color.SkyBlue, Projectile.rotation,
+                sword.Size() * 0.5f, Projectile.scale, Projectile.spriteDirection == 1 ? SpriteEffects.None : SpriteEffects.FlipHorizontally, 1);
+            return false;
+        }
+
+        public override void PostDraw(Color lightColor)
+        {
+            Texture2D glow = ModContent.Request<Texture2D>("CalamityMod/Projectiles/Melee/GalileoGladiusGlow").Value;
+            {
+                // Lot additif le temps d'un dessin (SpriteBatchScope de Calamity est interne)
+                Main.spriteBatch.End();
+                Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.Additive, SamplerState.PointClamp, DepthStencilState.None, Main.Rasterizer, null, Main.GameViewMatrix.TransformationMatrix);
+                Main.spriteBatch.Draw(glow, Projectile.Center + new Vector2(0, Projectile.gfxOffY) - Main.screenPosition, null, Color.SkyBlue * 0.75f, Projectile.rotation,
+                    glow.Size() * 0.5f, Projectile.scale, Projectile.spriteDirection == 1 ? SpriteEffects.None : SpriteEffects.FlipHorizontally, 1);
+                Main.spriteBatch.End();
+                Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, Main.DefaultSamplerState, DepthStencilState.None, Main.Rasterizer, null, Main.GameViewMatrix.TransformationMatrix);
             }
         }
 
@@ -67,6 +102,27 @@ namespace CalamityFandom.Content.Legacy.Projectiles.Melee
         {
             target.AddBuff(ModContent.BuffType<Nightwither>(), 300);
             GalileoPlanetPlayer.TryRain(Main.player[Projectile.owner], Projectile.GetSource_FromThis(), target.Center, Projectile.damage * 2);
+        }
+
+        public override void OnKill(int timeLeft)
+        {
+            // Coup direct : la planète seule (retour de test du 28/10) ; estoc dans le vide : le croissant
+            if (Projectile.numHits > 0 || Projectile.owner != Main.myPlayer)
+                return;
+            Vector2 forward = angle.RotatedBy(MathHelper.Pi);
+            Projectile.NewProjectile(Projectile.GetSource_FromThis(), Main.player[Projectile.owner].MountedCenter + forward * 30f, forward * 9f,
+                ModContent.ProjectileType<GalileosMoon>(), (int)(Projectile.damage * 0.3333f), Projectile.knockBack, Projectile.owner);
+        }
+
+        public override bool? Colliding(Rectangle projHitbox, Rectangle targetHitbox)
+        {
+            Player player = Main.player[Projectile.owner];
+            Vector2 armCenter = player.Center - new Vector2(5 * player.direction, 2);
+            Vector2 line = new Vector2(CollisionLength / 2f, 0f).RotatedBy(armCenter.DirectionTo(Projectile.Center).ToRotation()) * Projectile.scale;
+            if (!float.IsNaN(line.X) && !float.IsNaN(line.Y)
+                && Collision.CheckAABBvLineCollision(targetHitbox.Location.ToVector2(), targetHitbox.Size(), Projectile.Center, Projectile.Center + line))
+                return true;
+            return base.Colliding(projHitbox, targetHitbox);
         }
     }
 

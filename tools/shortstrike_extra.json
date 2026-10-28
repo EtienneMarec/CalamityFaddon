@@ -14,7 +14,7 @@
       "modes": [
         "plus"
       ],
-      "text": "Each stab fires a sand slicer",
+      "text": "Each stab fires a sand slicer; the slicers stored on the back are all fired during the Shortflurry",
       "effects": [
         {
           "type": "spawnOnStab",
@@ -22,6 +22,20 @@
           "value": 1.0,
           "ai0": 1,
           "speed": 6.6
+        },
+        {
+          "type": "saharaQuiver",
+          "projectile": "SaharaSlicersBolt",
+          "speed": 6.6,
+          "spread": 0.1
+        },
+        {
+          "type": "cloneTexture",
+          "projectile": "SaharaSlicersBlade"
+        },
+        {
+          "type": "cloneTexture",
+          "projectile": "SaharaSlicersBladeAlt"
         }
       ]
     }
@@ -84,7 +98,8 @@
           "speed": 33.6,
           "modes": [
             "fandom"
-          ]
+          ],
+          "spread": 0.6
         },
         {
           "type": "spawnOnStab",
@@ -102,7 +117,8 @@
           "speed": 7,
           "modes": [
             "plus"
-          ]
+          ],
+          "spread": 0.6
         }
       ]
     },

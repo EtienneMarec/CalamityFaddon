@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using CalamityFandom.Common.Config;
+using CalamityMod;
 using CalamityFandom.Content.Shortstrike;
 using Microsoft.Xna.Framework;
 using Terraria;
@@ -31,6 +32,9 @@ namespace CalamityFandom.Common.Shortstrike
         private Item flurryItem;
         private int flurryTimer, flurryDuration, flurryHitsLeft, flurryNextHit;
         private int regenTimer, regenValue, immuneAllTimer;
+        // Sahara Slicers (Calamity++) : éclats du carquois tirés un par un pendant le Shortflurry
+        private ShortstrikeData.Effect quiverEffect;
+        private int quiverInterval, quiverTimer;
         private readonly System.Collections.Generic.Dictionary<int, int> immuneTimers = new();
 
         public bool Full => Points >= ShortstrikeData.Current.MaxPoints;
@@ -181,6 +185,12 @@ namespace CalamityFandom.Common.Shortstrike
                         regenTimer = ticks;
                         regenValue = (int)effect.Value;
                         break;
+                    case "saharaQuiver" when effect.ProjectileType > 0:
+                        // Tout le carquois (éclats dans le dos) part pendant la durée, régulièrement
+                        quiverEffect = effect;
+                        quiverInterval = Math.Max(1, flurryDuration / Math.Max(1, Player.Calamity().saharaSlicersBolts));
+                        quiverTimer = 0;
+                        break;
                     case "throwClone" when Player.whoAmI == Main.myPlayer:
                         // Clone lancé vers le curseur, qui éclate en étoiles (Projectile) à chaque ennemi traversé
                         Vector2 aim = (Main.MouseWorld - Player.Center).SafeNormalize(Vector2.UnitX * Player.direction) * effect.Speed;
@@ -195,14 +205,14 @@ namespace CalamityFandom.Common.Shortstrike
         }
 
         /// <summary>Son de départ choisi dans la config client (Calamity : sons de ses capacités d'armure).</summary>
-        private static SoundStyle FlurryStartSound => (FandomClientConfig.Instance?.ShortflurrySound ?? FandomClientConfig.FlurrySound.BrimflameAbility) switch
+        private static SoundStyle FlurryStartSound => (FandomClientConfig.Instance?.ShortflurrySound ?? FandomClientConfig.FlurrySound.SilvaActivation) switch
         {
             FandomClientConfig.FlurrySound.ShortswordStab => SoundID.Item71,
             FandomClientConfig.FlurrySound.OmegaBlueAbility => new SoundStyle("CalamityMod/Sounds/Custom/AbilitySounds/OmegaBlueAbility"),
             FandomClientConfig.FlurrySound.PlagueReaperAbility => new SoundStyle("CalamityMod/Sounds/Custom/AbilitySounds/PlagueReaperAbility"),
-            FandomClientConfig.FlurrySound.SilvaActivation => new SoundStyle("CalamityMod/Sounds/Custom/AbilitySounds/SilvaActivation"),
+            FandomClientConfig.FlurrySound.BrimflameAbility => new SoundStyle("CalamityMod/Sounds/Custom/AbilitySounds/BrimflameAbility"),
             FandomClientConfig.FlurrySound.SonicBoomBlade => SoundID.DD2_SonicBoomBladeSlash,
-            _ => new SoundStyle("CalamityMod/Sounds/Custom/AbilitySounds/BrimflameAbility"),
+            _ => new SoundStyle("CalamityMod/Sounds/Custom/AbilitySounds/SilvaActivation"),
         };
 
         public override void PostUpdate()
@@ -216,8 +226,30 @@ namespace CalamityFandom.Common.Shortstrike
                 flurryHitsLeft--;
                 flurryNextHit = (Flurry.Hits - flurryHitsLeft) * flurryDuration / Math.Max(1, Flurry.Hits);
             }
+            if (quiverEffect != null && Player.whoAmI == Main.myPlayer && ++quiverTimer >= quiverInterval)
+            {
+                quiverTimer = 0;
+                FireQuiverBolt();
+            }
             if (--flurryTimer <= 0)
+            {
                 Flurry = null;
+                quiverEffect = null;
+            }
+        }
+
+        /// <summary>Tire un éclat du carquois des Sahara Slicers vers le curseur, comme leur clic droit (sans le consommer en plus).</summary>
+        private void FireQuiverBolt()
+        {
+            ref int bolts = ref Player.Calamity().saharaSlicersBolts;
+            if (bolts <= 0 || flurryItem == null || flurryItem.IsAir)
+                return;
+            bolts--; // l'éclat du dos disparaît de lui-même
+            Vector2 aim = (Main.MouseWorld - Player.Center).SafeNormalize(Vector2.UnitX * Player.direction).RotatedByRandom(quiverEffect.Spread) * quiverEffect.Speed;
+            int damage = (int)(Player.GetWeaponDamage(flurryItem) * (1f + Flurry.DamageBoost));
+            SoundEngine.PlaySound(SoundID.DD2_GhastlyGlaivePierce with { Pitch = 1.5f }, Player.Center);
+            Projectile.NewProjectile(Player.GetSource_ItemUse(flurryItem), Player.Center, aim, quiverEffect.ProjectileType, damage,
+                Player.GetWeaponKnockback(flurryItem), Player.whoAmI, 1f);
         }
 
         private void SpawnClone()

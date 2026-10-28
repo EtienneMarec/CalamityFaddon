@@ -271,31 +271,30 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] Une Copper Broadsword n'affiche pas la barre et ne déclenche rien au clic droit
 - [x] Aliments du wiki (Cheat Sheet) : **Titan Finger** se mange, donne Plenty Satisfied 4 minutes
 - [ ] Autres aliments : Cheese, Clam Chowder, Crimtato... ; les ennemis astraux lâchent parfois des Titan Fingers (24/10)
-- [ ] **Ailes du wiki** (Cheat Sheet : Red Wings, Archangel Wings, Holy Mantle...) : s'équipent, se voient (une seule pose,
-      pas de battement), Red Wings rapides (vitesse 15) et +20 % de déplacement ; Holy Mantle vole sans fin ; Bellwings
-      invisibles une fois portées (pas d'image). **(28/10)** Plus de double du personnage : il est effacé des images du
-      wiki et les ailes sont accrochées au dos (vérifier tourné à gauche et à droite)
+- [x] **Ailes du wiki** (Cheat Sheet : Red Wings, Archangel Wings, Holy Mantle...) : s'équipent, se voient (une seule pose,
+      pas de battement), sans double du personnage, accrochées au dos
 - [ ] Shortflurry du **Galileo Gladius** : des lunes apparaissent sur les ennemis touchés (24/10)
-- [ ] (28/10) Shortflurry du **Cosmic Shiv** : chaque clone tire le rayon violet de l'arme, parfois un second ;
-      **Submarine Shocker** : vrais nuages verts (ceux de la Toxic Flask) qui restent sur place et infligent Sulphuric
-      Poisoning ; **Spore Knife** : une épine verte de 4 blocs sort du sol sous l'ennemi touché (Poisoned)
-- [ ] (28/10) Full Fandom, **Galileo Gladius** : estoc (plus d'épée tenue), chaque coup tire un croissant de lune qui
-      cherche les ennemis (Moon Burnt) ; un coup direct fait tomber une planète bleue qui explose ; rien au clic droit sauf
-      le Shortflurry. Shortflurry : chaque clone tire un croissant, et les croissants font tomber des planètes
-- [ ] (28/10) Full Fandom, **Cosmic Shiv** : chaque estoc tire un orbe violet qui ondule puis fonce sur un ennemi ; au
-      contact, 3 lames arrivent des côtés et des étoiles tombent, puis petite explosion. Shortflurry : un orbe par clone,
-      parfois deux
-- [ ] (28/10) Calamity++ : Galileo Gladius et Cosmic Shiv sont ceux de Calamity (épée tenue + lancer ; rayon violet).
-      Shortflurry du **Galileo** : un clone orange est lancé vers le curseur, traverse 3 ennemis et lâche 3 étoiles sur
-      chacun, puis les 7 coups ; **Sahara Slicers** : chaque clone tire un éclat de sable (plus d'éclats qui restent
-      collés dans le dos) ; jauge pleine, le clic droit lance le Shortflurry et pas l'attaque secondaire de l'arme
-- [ ] (28/10) La jauge pleine ne clignote plus (seule l'aura pulse) ; le début du Shortflurry joue un son plus long :
-      à choisir dans la config client du mod (« Shortflurry Sound » : Brimflame par défaut, Omega Blue, Plague Reaper,
-      Silva, Sonic Boom, ou le coup d'épée d'avant)
-- [ ] (28/10) Les projectiles tirés par une épée courte remplissent la jauge (rayons du Cosmic Shiv, éclats des Sahara
-      Slicers, balles du Galileo) ; ceux des clones du Shortflurry, non
-- [ ] (28/10) **Aquatic Discharge** : un seul coup par estoc (plus d'aller-retour), aussi sur le Fandom Test Dummy
-- [ ] (28/10) **Fandom Test Dummy** : l'image couvre toute la hitbox (plus de moitié vide au-dessus)
+- [x] (28/10) Submarine Shocker : nuages de la Toxic Flask ; Spore Knife : épine verte qui sort du sol
+- [ ] (28/10, 2e retour) **Submarine Shocker** : nuages plus transparents ; **Cosmic Shiv** : le second rayon part avec un
+      angle visible (pas superposé au premier)
+- [ ] (28/10) Full Fandom, **Galileo Gladius** : animation de Calamity (épée tenue, lame lumineuse) mais bien plus courte,
+      arme plus avancée dans la main ; un coup direct fait tomber une planète bleue qui explose (Moon Burnt), sans
+      croissant ; un estoc dans le vide tire un croissant de lune qui cherche les ennemis ; rien au clic droit sauf le
+      Shortflurry (chaque clone tire un croissant, et les croissants font tomber des planètes). Dégâts : ceux du wiki (110)
+- [x] (28/10) Full Fandom, **Cosmic Shiv** : orbe violet, lames et étoiles
+- [ ] (28/10) Full Fandom, **Spore Knife** : épée courte de mêlée (estoc, plus de lancer), nuage de spores sur l'ennemi
+      touché, jauge Shortstrike ; Calamity++ : couteau de lancer de Calamity, qui a quand même la jauge et le Shortflurry
+- [ ] (28/10) Calamity++, Shortflurry du **Galileo** : un clone orange file vers le curseur et se plante dans le premier
+      ennemi (3 étoiles), un fil le relie au joueur qui est tiré jusqu'à lui (invulnérable), coup final x5 avec 3 étoiles
+      et rebond en arrière ; sans ennemi, le clone revient ; les 7 coups habituels en même temps ; ne coûte pas de
+      Stardust (Stratus)
+- [ ] (28/10) Calamity++, Shortflurry des **Sahara Slicers** : les clones ont l'image de l'attaque (pas l'icône) ; tous
+      les éclats dans le dos partent vers le curseur pendant la durée, plus un éclat par estoc ; jauge pleine, le clic
+      droit lance le Shortflurry et pas l'attaque secondaire
+- [x] (28/10) La jauge pleine ne clignote plus ; son du Shortflurry au choix (Silva retenu, désormais par défaut)
+- [x] (28/10) Les projectiles tirés par une épée courte remplissent la jauge ; ceux des clones, non
+- [x] (28/10) **Aquatic Discharge** : un seul coup par estoc, aussi sur le Fandom Test Dummy
+- [x] (28/10) **Fandom Test Dummy** : l'image couvre toute la hitbox
 - [ ] **Objets de lore** (26/10, Cheat Sheet, recherche « Lore » ou par nom) : le lore de Cryogen s'appelle « Cryogen »
       (texte de l'Archmage), celui du Desert Scourge « The Desert Scourge », de Yharon « Jungle Dragon, Yharon », du
       Ravager « Meatmetal Sans », du Moon Lord « Moon Lord » (texte de Requiem) ; Full Fandom : pas de lore de Signus,

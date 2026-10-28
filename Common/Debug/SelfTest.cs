@@ -402,9 +402,10 @@ namespace CalamityFandom.Common.Debug
                     Expect(effect.Projectile.StartsWith("CalamityFandom/") == FandomMode.IsFull || weapon is "Submarine Shocker" or "Spore Knife" or "Sahara Slicers"
                         || type == "throwClone", $"Shortflurry de {weapon} : projectile du bon mode ({effect.Projectile})");
             }
-            // Full Fandom : Galileo Gladius et Cosmic Shiv tirent les projectiles portés de 2.0.1.005
-            foreach (var (weapon, legacy) in new[] { ("Galileo Gladius", ModContent.ProjectileType<Content.Legacy.Projectiles.Melee.GalileoGladiusProj>()),
-                ("Cosmic Shiv", ModContent.ProjectileType<Content.Legacy.Projectiles.Melee.CosmicShivProj>()) })
+            // Full Fandom : Galileo Gladius et Cosmic Shiv tirent les projectiles portés de 2.0.1.005, la Spore Knife redevient une épée courte
+            foreach (var (weapon, legacy) in new[] { ("Galileo Gladius", ModContent.ProjectileType<Content.Legacy.Projectiles.Melee.GalileoGladiusHeldProj>()),
+                ("Cosmic Shiv", ModContent.ProjectileType<Content.Legacy.Projectiles.Melee.CosmicShivProj>()),
+                ("Spore Knife", ModContent.ProjectileType<Content.Legacy.Projectiles.Melee.SporeKnifeShortsword>()) })
             {
                 var sample = ContentSamples.ItemsByType[WikiRecipes.ResolveItem(weapon)];
                 Expect((sample.shoot == legacy) == FandomMode.IsFull, $"{weapon} : estoc de 2.0.1.005 en Full Fandom seulement (shoot {sample.shoot})");
