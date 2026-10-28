@@ -56,8 +56,6 @@ namespace CalamityFandom.Content.Shortstrike
             Vector2 direction = Projectile.localAI[1].ToRotationVector2();
             Projectile.Center = owner.MountedCenter + direction * (16f + distance);
             Projectile.rotation = Projectile.localAI[1] + MathHelper.PiOver4;
-            if (Main.rand.NextBool(3))
-                Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.OrangeTorch, 0f, 0f, 120, default, 0.9f).noGravity = true;
         }
 
         /// <summary>
@@ -151,20 +149,20 @@ namespace CalamityFandom.Content.Shortstrike
                 texture = TextureAssets.Item[Weapon.type].Value;
                 frame = Main.itemAnimations[Weapon.type]?.GetFrame(texture) ?? texture.Frame();
             }
-            if (Attack.Effects.Any(e => e.Type == "cloneGlow"))
-                DrawGlowBlade();
-            // Clone magique : teinte orange, opaque (retour de test du 28/10 : la transparence faisait bizarre)
-            Color color = Color.Lerp(Color.White, new Color(255, 160, 60), 0.5f);
-            Main.EntitySpriteDraw(texture, Projectile.Center - Main.screenPosition, frame, color, Projectile.rotation,
+            var glowEffect = Attack.Effects.FirstOrDefault(e => e.Type == "cloneGlow");
+            if (glowEffect != null)
+                DrawGlowBlade(glowEffect.Value);
+            // Clone dessiné comme l'attaque normale : opaque, sans teinte, éclairé par le décor (retours de test du 28/10)
+            Main.EntitySpriteDraw(texture, Projectile.Center - Main.screenPosition, frame, lightColor, Projectile.rotation,
                 frame.Size() / 2f, Projectile.scale, SpriteEffects.None, 0);
             return false;
         }
 
         /// <summary>
-        /// Lame lumineuse de l'arme (« cloneGlow » : Galileo Gladius en Calamity++, comme son estoc chez Calamity), qui
-        /// s'allonge avec l'estoc du clone.
+        /// Lame lumineuse de l'arme (« cloneGlow » : Galileo Gladius, comme son estoc), qui s'allonge avec l'estoc du clone
+        /// jusqu'à <paramref name="length"/> (1,2 en Calamity++ ; 0,65 en Full Fandom, comme l'estoc réduit de l'arme).
         /// </summary>
-        private void DrawGlowBlade()
+        private void DrawGlowBlade(float length)
         {
             Texture2D glow = ModContent.Request<Texture2D>("CalamityMod/Particles/GlowBlade").Value;
             Vector2 forward = Projectile.localAI[1].ToRotationVector2();
@@ -172,7 +170,7 @@ namespace CalamityFandom.Content.Shortstrike
             Main.spriteBatch.End();
             Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.Additive, SamplerState.PointClamp, DepthStencilState.None, Main.Rasterizer, null, Main.GameViewMatrix.TransformationMatrix);
             Main.spriteBatch.Draw(glow, Projectile.Center - forward * 10f - Main.screenPosition, null, Color.SkyBlue * 0.75f, forward.ToRotation() + MathHelper.PiOver2,
-                new Vector2(glow.Width * 0.5f, glow.Height), new Vector2(0.85f, MathHelper.Lerp(0.1f, 1.2f, stab)) * Projectile.scale * 0.04f, SpriteEffects.None, 0f);
+                new Vector2(glow.Width * 0.5f, glow.Height), new Vector2(length < 1f ? 0.6f : 0.85f, MathHelper.Lerp(0.1f, length, stab)) * Projectile.scale * 0.04f, SpriteEffects.None, 0f);
             Main.spriteBatch.End();
             Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, Main.DefaultSamplerState, DepthStencilState.None, Main.Rasterizer, null, Main.GameViewMatrix.TransformationMatrix);
         }
@@ -222,8 +220,6 @@ namespace CalamityFandom.Content.Shortstrike
 
         public override void AI()
         {
-            if (Main.rand.NextBool(2))
-                Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.OrangeTorch, 0f, 0f, 120, default, 1.1f).noGravity = true;
             switch (phase)
             {
                 case Phase.Flying:
@@ -337,10 +333,9 @@ namespace CalamityFandom.Content.Shortstrike
                 Vector2 start = Owner.MountedCenter, end = Projectile.Center;
                 for (float t = 0f; t < 1f; t += 12f / Math.Max(12f, Vector2.Distance(start, end)))
                     Main.EntitySpriteDraw(TextureAssets.MagicPixel.Value, Vector2.Lerp(start, end, t) - Main.screenPosition, new Rectangle(0, 0, 1, 1),
-                        new Color(255, 170, 80, 0) * 0.8f, 0f, new Vector2(0.5f), 3f, SpriteEffects.None, 0);
+                        new Color(135, 206, 250, 0) * 0.8f, 0f, new Vector2(0.5f), 3f, SpriteEffects.None, 0);
             }
-            Color color = Color.Lerp(Color.White, new Color(255, 160, 60), 0.5f);
-            Main.EntitySpriteDraw(texture, Projectile.Center - Main.screenPosition, frame, color, Projectile.rotation,
+            Main.EntitySpriteDraw(texture, Projectile.Center - Main.screenPosition, frame, lightColor, Projectile.rotation,
                 frame.Size() / 2f, Projectile.scale, SpriteEffects.None, 0);
             return false;
         }

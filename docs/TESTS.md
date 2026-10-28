@@ -289,10 +289,12 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       et rebond en arrière ; sans ennemi, le clone revient ; les 7 coups habituels en même temps ; ne coûte pas de
       Stardust (Stratus)
 - [x] (28/10) Calamity++, Shortflurry des **Sahara Slicers** : image de l'attaque, carquois vidé pendant la durée
-- [ ] (28/10, 3e retour) **Sahara Slicers** : plus d'éclat à chaque estoc des clones, seulement le carquois
-- [ ] (28/10, 3e retour) Les clones du Shortflurry sont opaques (orange, sans fondu), le grappin du Galileo aussi ;
-      Calamity++ : les clones du Galileo ont la lame lumineuse bleue qui s'allonge avec l'estoc
-- [ ] (28/10, 3e retour) **Spore Knife** : 1 à 3 épines par coup, qui partent de l'ennemi dans des directions au hasard
+- [x] (28/10, 3e retour) **Sahara Slicers** : plus d'éclat à chaque estoc des clones, seulement le carquois
+- [x] (28/10, 3e retour) Calamity++ : les clones du Galileo ont la lame lumineuse
+- [ ] (28/10, 4e retour) Les clones du Shortflurry ressemblent à l'attaque normale : ni teinte ni poussière orange, éclairés
+      comme le décor (grappin du Galileo aussi, fil bleu ciel) ; Full Fandom : les clones du Galileo ont la lame lumineuse
+      courte de son estoc
+- [x] (28/10, 3e retour) **Spore Knife** : 1 à 3 épines par coup, qui partent de l'ennemi dans des directions au hasard
       (4 blocs) et touchent sur toute leur longueur
 - [x] (28/10) La jauge pleine ne clignote plus ; son du Shortflurry au choix (Silva retenu, désormais par défaut)
 - [x] (28/10) Les projectiles tirés par une épée courte remplissent la jauge ; ceux des clones, non

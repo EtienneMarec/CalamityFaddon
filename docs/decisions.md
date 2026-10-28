@@ -456,6 +456,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   avec les dégâts de 2.0.1.005 ; un coup direct fait tomber une planète (15 frames entre deux) sans croissant, un estoc
   dans le vide tire le croissant de lune (un tiers des dégâts) ; pas de lancer ni de Stratus Starburst. **[choix]** Les
   chiffres de la réduction, à ajuster en jeu.
+  Notre page Galileo Gladius décrit ce comportement sans `{{mode}}` : c'est le Full Fandom voulu, le texte du Fandom
+  (croissant à chaque coup, pluie de planètes) reste dans `fandom_dump_txt/`.
 - **[validé 28/10]** **Spore Knife** : la page décrit l'épée courte de mêlée que Calamity a retirée en juin 2022 (avant
   2.0.1.005) puis refaite en couteau de lancer rogue. Full Fandom : épée courte (estoc, true melee, nuage de spores vanilla
   au coup, moitié des dégâts de base) ; Calamity++ : l'arme rogue de Calamity, qui garde le Shortstrike (clin d'œil).
@@ -477,8 +479,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   tableau, la liste n'a donc pas de doublon.
 - **[choix]** « Épée courte » = arme du tableau, ou arme maniée en estoc (useStyle Rapier) ou qui tire un projectile
   d'épée courte de Calamity.
-- **[choix]** Clones magiques : l'épée part du joueur vers le curseur (écart aléatoire de ±20°) et revient, teinte orange
-  translucide ; les coups sont répartis sur la durée ; un coup par clone et par ennemi. Les clones ne remplissent pas la
+- **[choix]** Clones magiques : l'épée part du joueur vers le curseur (écart aléatoire de ±20°) et revient (sans teinte
+  depuis le 28/10, voir plus bas) ; les coups sont répartis sur la durée ; un coup par clone et par ennemi. Les clones ne remplissent pas la
   jauge. Effets de stats actifs pendant la durée du Shortflurry ; buffs et immunités « for N seconds » à leur propre durée.
 - **[choix]** « Attacks inflict X » sans durée : 5 s. « Hits drain 3% health » : 3 % de la vie restante de l'ennemi, au plus
   5 fois les dégâts du coup. Projectile « au coup » : moitié des dégâts du coup.
@@ -516,8 +518,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   tire le projectile de l'arme (croissant de lune, un tiers des dégâts ; orbe cosmique, moitié des dégâts) ; les croissants
   des clones font pleuvoir des planètes (« crescent moons will drop down planetoids on enemy hits », même délai de 15
   frames) ; le Cosmic Shiv tire un second orbe à 20 %. Calamity++ : rayon `CosmicShivTrail`, et lunes au coup (tableau).
-- **[validé 28/10]** Clones du Shortflurry opaques (teinte orange gardée, plus de transparence ni de fondu) ; clones du
-  Galileo Gladius en Calamity++ avec la lame lumineuse de son estoc (effet `cloneGlow`).
+- **[validé 28/10]** Clones du Shortflurry dessinés comme l'attaque normale : opaques, sans teinte ni poussière orange,
+  éclairés par le décor (l'aura orange reste réservée à la jauge pleine). Clones du Galileo Gladius avec la lame lumineuse
+  de son estoc (effet `cloneGlow`) : longueur 1,2 en Calamity++, 0,65 en Full Fandom (comme l'estoc réduit). **[choix]**
+  Fil du grappin du Galileo en bleu ciel (couleur de l'arme).
 - **[validé 28/10]** Spore Knife : comme dit la page, les épines partent de l'ennemi touché dans une direction au hasard
   (4 blocs, touchent sur toute leur longueur). **[choix]** 1 à 3 par coup (nombre demandé par l'utilisateur), quart des
   dégâts du coup, Poisoned 2 s.

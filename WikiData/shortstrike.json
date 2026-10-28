@@ -521,6 +521,14 @@
     },
     {
      "type": "cloneGlow",
+     "value": 0.65,
+     "modes": [
+      "fandom"
+     ]
+    },
+    {
+     "type": "cloneGlow",
+     "value": 1.2,
      "modes": [
       "plus"
      ]
