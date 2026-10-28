@@ -100,6 +100,11 @@ namespace CalamityFandom.Content.Shortstrike
         /// <summary>Type de l'arme du Shortflurry ; 0 = pas un clone.</summary>
         public int WeaponType;
         private Vector2 direction;
+        /// <summary>
+        /// Écart entre le joueur et le clone, dans sa direction : la portée de l'attaque normale le laissait collé au joueur
+        /// (retour de test du 28/10) ; le clone dessiné allait de 16 à 72 px.
+        /// </summary>
+        private const float CloneDistance = 40f;
         private int timer, previousHeldProj = -1;
 
         public override bool InstancePerEntity => true;
@@ -158,7 +163,7 @@ namespace CalamityFandom.Content.Shortstrike
         }
 
         /// <summary>Estoc (BaseShortswordProjectile.Behavior sans ce qui touche au joueur) : aller-retour, fondu, particules.</summary>
-        private static void AnimateStab(Projectile projectile, BaseShortswordProjectile stab)
+        private void AnimateStab(Projectile projectile, BaseShortswordProjectile stab)
         {
             Player owner = Main.player[projectile.owner];
             stab.Timer++;
@@ -168,12 +173,13 @@ namespace CalamityFandom.Content.Shortstrike
                 return;
             }
             projectile.Opacity = Utils.GetLerpValue(0f, stab.FadeInDuration, stab.Timer, true) * Utils.GetLerpValue(stab.TotalDuration, stab.TotalDuration - stab.FadeOutDuration, stab.Timer, true);
+            projectile.Center = owner.MountedCenter + direction * CloneDistance + stab.OffsetFromPlayer;
+            // Effet « à l'estoc » de l'arme (rayon du Cosmic Shiv...), tiré depuis le clone déjà placé
             if (projectile.localAI[0] == 0f && stab.EffectBeforePullback != null && Main.myPlayer == projectile.owner)
             {
                 projectile.localAI[0] = 1f;
                 stab.EffectBeforePullback.Invoke(projectile);
             }
-            projectile.Center = owner.MountedCenter + stab.OffsetFromPlayer;
             projectile.scale = 1f + (float)Math.Sin(stab.FullUse * MathHelper.Pi) * 0.2f;
             projectile.spriteDirection = (Vector2.Dot(projectile.velocity, Vector2.UnitX) >= 0f).ToDirectionInt();
             projectile.rotation = projectile.velocity.ToRotation() + MathHelper.PiOver2 - MathHelper.PiOver4 * projectile.spriteDirection;
@@ -190,7 +196,8 @@ namespace CalamityFandom.Content.Shortstrike
             int side = direction.X >= 0f ? 1 : -1;
             Vector2 armCenter = owner.MountedCenter - new Vector2(5 * side, 2);
             float swing = holdout.SwingFunction();
-            projectile.Center = armCenter - (holdout.angle * holdout.OffsetDistance * (1 + (projectile.scale - 1) * 0.75f)).RotatedBy(projectile.spriteDirection * swing);
+            projectile.Center = armCenter + direction * CloneDistance
+                - (holdout.angle * holdout.OffsetDistance * (1 + (projectile.scale - 1) * 0.75f)).RotatedBy(projectile.spriteDirection * swing);
             projectile.rotation = holdout.angle.RotatedBy(projectile.spriteDirection * swing).ToRotation() + adjust;
             // Ses effets visuels (lame lumineuse, étincelles) ; il se déclare arme tenue du joueur : on rend la main à l'attaque normale
             previousHeldProj = owner.heldProj;
@@ -206,6 +213,19 @@ namespace CalamityFandom.Content.Shortstrike
             holdout.timer++;
             if (holdout.swingTimer < holdout.swingTime)
                 holdout.swingTimer++;
+        }
+
+        /// <summary>
+        /// Zone de coup d'un estoc décalé : celle de BaseShortswordProjectile part du joueur, on la déplace avec le clone (une
+        /// épée tenue mesure la sienne depuis son centre : rien à faire).
+        /// </summary>
+        public override bool? Colliding(Projectile projectile, Rectangle projHitbox, Rectangle targetHitbox)
+        {
+            if (!IsClone || projectile.ModProjectile is not BaseShortswordProjectile stab)
+                return null;
+            float collisionPoint = 0f;
+            Vector2 start = Main.player[projectile.owner].MountedCenter + direction * CloneDistance + stab.OffsetFromPlayer;
+            return Collision.CheckAABBvLineCollision(targetHitbox.TopLeft(), targetHitbox.Size(), start, start + projectile.velocity * 12f * projectile.scale, 24, ref collisionPoint);
         }
 
         public override void ModifyHitNPC(Projectile projectile, NPC target, ref NPC.HitModifiers modifiers)

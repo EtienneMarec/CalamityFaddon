@@ -292,8 +292,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] (28/10, 3e retour) **Sahara Slicers** : plus d'éclat à chaque estoc des clones, seulement le carquois
 - [x] (28/10, 3e retour) Calamity++ : les clones du Galileo ont la lame lumineuse
 - [x] (28/10, 4e retour) Clones sans teinte orange
-- [ ] (28/10, 5e retour) Clam Chowder et Crimtato : « Increases life regeneration » une seule fois (en Expert)
-- [ ] (28/10, 5e retour) Les clones sont l'attaque elle-même : Submarine Shocker (étincelles), Cosmic Shiv (rayon violet de
+- [x] (28/10, 5e retour) Clam Chowder et Crimtato : « Increases life regeneration » une seule fois (en Expert)
+- [ ] (28/10, 6e retour) Clones réels écartés du joueur (comme les anciens), et ils touchent bien là où on les voit
+- [x] (28/10, 5e retour) Les clones sont l'attaque elle-même : Submarine Shocker (étincelles), Cosmic Shiv (rayon violet de
       l'arme + parfois un second), Aquatic Discharge, Disease, Spore Knife Full Fandom (spores), Sahara Slicers (images
       d'attaque), Galileo dans les deux modes (épée tenue avec sa vraie lame lumineuse : courte en Full Fandom, longue en
       Calamity++) ; l'attaque normale du joueur n'est pas perturbée pendant le Shortflurry (arme visible, direction) ;

@@ -525,7 +525,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   tenue (BaseSwordHoldoutProjectile) de Calamity ou de ce mod, le clone est ce projectile, avec ses images, particules,
   lame lumineuse et effets au coup (étincelles du Submarine Shocker, rayon du Cosmic Shiv, spores de la Spore Knife...).
   **[technique]** Son AI est remplacé par une copie sans ce qui touche au joueur (arme tenue, direction, temps
-  d'utilisation) ; dessiné comme un projectile normal ; un coup par ennemi ; dégâts figés à ceux du Shortflurry. Les
+  d'utilisation) ; dessiné comme un projectile normal ; un coup par ennemi ; dégâts figés à ceux du Shortflurry ;
+  **[choix]** décalé de 40 px vers l'extérieur avec sa zone de coup (à la portée de l'arme, il restait collé au joueur). Les
   autres armes (épées courtes vanilla, Umbrella, Spore Knife rogue...) gardent le clone dessiné : l'objet, opaque, sans
   teinte, éclairé par le décor (l'attaque vanilla n'a pas de particules). Sahara Slicers : un de ses deux projectiles
   d'estoc au hasard (`cloneProjectile`). Cosmic Shiv : le premier rayon vient du clone réel, le second (20 %) reste un
