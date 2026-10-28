@@ -51,6 +51,16 @@ namespace CalamityFandom.Common.Legacy
             item.autoReuse = true;
         }
 
+        /// <summary>
+        /// Calamity relance le minuteur de Stratus Starburst tant qu'on tient le Galileo Gladius, ce qui affiche le compteur
+        /// en haut à gauche ; le Starburst n'existe pas sur le wiki : on remet la valeur d'avant (retour de test du 28/10).
+        /// </summary>
+        public override void HoldItem(Item item, Player player)
+        {
+            if (item.type == ModContent.ItemType<GalileoGladius>())
+                player.Calamity().StratusStarburstResetTimer = player.GetModPlayer<StarburstTimerPlayer>().TimerBeforeItemCheck;
+        }
+
         // Le lancer du Galileo Gladius (clic droit, Stratus) n'existe pas sur le wiki
         public override bool CanUseItem(Item item, Player player)
         {
@@ -58,6 +68,18 @@ namespace CalamityFandom.Common.Legacy
                 return false;
             // Un estoc à la fois (Calamity le vérifie pour son propre projectile seulement)
             return item.type != ModContent.ItemType<GalileoGladius>() || player.ownedProjectileCounts[ModContent.ProjectileType<GalileoGladiusHeldProj>()] == 0;
+        }
+    }
+
+    /// <summary>Minuteur de Stratus Starburst avant l'utilisation des objets (voir FullFandomLegacyWeapons.HoldItem).</summary>
+    public class StarburstTimerPlayer : ModPlayer
+    {
+        public int TimerBeforeItemCheck;
+
+        public override bool PreItemCheck()
+        {
+            TimerBeforeItemCheck = Player.Calamity().StratusStarburstResetTimer;
+            return true;
         }
     }
 }

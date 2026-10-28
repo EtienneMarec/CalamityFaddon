@@ -456,7 +456,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 28/10]** Galileo Gladius en Full Fandom : l'animation de l'arme actuelle de Calamity (épée tenue, lame
   lumineuse), réduite (portée 84 px au lieu de 192, lame lumineuse 0,65 au lieu de 1,55, arme plus avancée dans la main),
   avec les dégâts de 2.0.1.005 ; un coup direct fait tomber une planète (15 frames entre deux) sans croissant, un estoc
-  dans le vide tire le croissant de lune (un tiers des dégâts) ; pas de lancer ni de Stratus Starburst. **[choix]** Les
+  dans le vide tire le croissant de lune (un tiers des dégâts) ; pas de lancer ni de Stratus Starburst (le compteur
+  « Starburst » en haut à gauche n'apparaît plus en le tenant). **[choix]** Les
   chiffres de la réduction, à ajuster en jeu.
   Notre page Galileo Gladius décrit ce comportement sans `{{mode}}` : c'est le Full Fandom voulu, le texte du Fandom
   (croissant à chaque coup, pluie de planètes) reste dans `fandom_dump_txt/`.
