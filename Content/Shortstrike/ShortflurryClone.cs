@@ -12,8 +12,9 @@ using Terraria.ModLoader;
 namespace CalamityFandom.Content.Shortstrike
 {
     /// <summary>
-    /// Wiki : Shortstrike.txt — « clone magique » d'un Shortflurry : l'épée courte (ai[0] = son type) part du joueur vers
-    /// le curseur et revient, avec les dégâts boostés et les effets « au coup » de son Shortflurry.
+    /// Wiki : Shortstrike.txt — « clone magique » d'un Shortflurry, pour les armes sans projectile d'attaque réutilisable
+    /// (épées courtes vanilla, Umbrella...) : l'objet (ai[0] = son type) part du joueur vers le curseur et revient, avec
+    /// les dégâts boostés et les effets de son Shortflurry. Les autres ont un clone réel (ShortflurryRealClone).
     /// </summary>
     public class ShortflurryClone : ModProjectile
     {
@@ -48,7 +49,7 @@ namespace CalamityFandom.Content.Shortstrike
                 if (Weapon != null)
                     Projectile.DamageType = Weapon.DamageType;
                 Projectile.velocity = Vector2.Zero;
-                FireOnStab(owner);
+                ShortflurryEffects.FireOnStab(Projectile, Attack, Projectile.localAI[1].ToRotationVector2());
             }
             // Aller-retour de l'estoc
             float progress = 1f - Projectile.timeLeft / (float)Lifetime;
@@ -58,121 +59,23 @@ namespace CalamityFandom.Content.Shortstrike
             Projectile.rotation = Projectile.localAI[1] + MathHelper.PiOver4;
         }
 
-        /// <summary>
-        /// Projectiles tirés à chaque estoc du clone, dans sa direction, comme l'arme le ferait (Value = chance) : rayon du
-        /// Cosmic Shiv et son « second beam » à 20 %, croissant du Galileo Gladius, éclat des Sahara Slicers...
-        /// </summary>
-        private void FireOnStab(Player owner)
-        {
-            if (Projectile.owner != Main.myPlayer)
-                return;
-            Vector2 direction = Projectile.localAI[1].ToRotationVector2();
-            foreach (var effect in Attack.Effects)
-            {
-                if (effect.Type != "spawnOnStab" || effect.ProjectileType <= 0 || Main.rand.NextFloat() >= effect.Value)
-                    continue;
-                for (int i = 0; i < effect.Count; i++)
-                {
-                    // Dispersion (Spread, en radians de part et d'autre) : un second tir ne se superpose pas au premier
-                    Vector2 velocity = direction.RotatedByRandom(effect.Spread) * effect.Speed;
-                    var shot = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), owner.MountedCenter + direction * 24f, velocity,
-                        effect.ProjectileType, (int)(Projectile.damage * effect.DamageMult), Projectile.knockBack, Projectile.owner, effect.Ai0);
-                    shot.DamageType = Projectile.DamageType;
-                    if (effect.RainType > 0)
-                        shot.GetGlobalProjectile<ShortstrikeProjectile>().RainType = effect.RainType;
-                }
-            }
-        }
-
         private ShortstrikeData.Attack Attack => Weapon != null ? ShortstrikeData.For(Weapon) : ShortstrikeData.Generic;
 
-        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
-        {
-            foreach (var effect in Attack.Effects)
-            {
-                // « Hits drain 3% health » : 3 % de la vie restante, au plus 5 fois les dégâts du coup ([choix])
-                if (effect.Type == "drainPercent")
-                    modifiers.FlatBonusDamage += Math.Min(target.life * effect.Value, Projectile.damage * 5f);
-            }
-        }
+        public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers) => ShortflurryEffects.ModifyHit(Projectile, Attack, target, ref modifiers);
 
-        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
-        {
-            Player owner = Main.player[Projectile.owner];
-            foreach (var effect in Attack.Effects)
-            {
-                switch (effect.Type)
-                {
-                    case "inflict" when effect.BuffType > 0:
-                        // Sans durée écrite (« Attacks inflict Hellfire ») : 5 secondes ([choix])
-                        target.AddBuff(effect.BuffType, (int)((effect.Seconds ?? 5f) * 60));
-                        break;
-                    case "healPerHit" when Projectile.owner == Main.myPlayer:
-                        owner.Heal((int)effect.Value);
-                        break;
-                    case "spawnOnHit" when effect.ProjectileType > 0 && Projectile.owner == Main.myPlayer:
-                        // Projectile de soutien : la moitié des dégâts du coup ([choix])
-                        var spawned = Projectile.NewProjectileDirect(Projectile.GetSource_FromThis(), target.Center,
-                            Main.rand.NextVector2CircularEdge(8f, 8f), effect.ProjectileType, Projectile.damage / 2, 2f, Projectile.owner);
-                        spawned.DamageType = Projectile.DamageType;
-                        break;
-                    case "cloud" when Projectile.owner == Main.myPlayer:
-                        Projectile.NewProjectile(Projectile.GetSource_FromThis(), target.Center, Vector2.Zero, ModContent.ProjectileType<ShortflurryCloud>(),
-                            Projectile.damage / 4, 0f, Projectile.owner, effect.BuffType, (effect.Seconds ?? 3f) * 60);
-                        break;
-                    case "vine" when Projectile.owner == Main.myPlayer:
-                        // 1 à 3 épines par coup, chacune dans une direction au hasard ([choix] du 28/10)
-                        for (int i = Main.rand.Next(1, 4); i > 0; i--)
-                            Projectile.NewProjectile(Projectile.GetSource_FromThis(), target.Center, Vector2.Zero, ModContent.ProjectileType<ShortflurryVine>(),
-                                Projectile.damage / 4, 0f, Projectile.owner, effect.Value, Main.rand.NextFloat(MathHelper.TwoPi));
-                        break;
-                }
-            }
-        }
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) => ShortflurryEffects.OnHit(Projectile, Attack, target);
 
         public override bool PreDraw(ref Color lightColor)
         {
             if (Weapon == null)
                 return false;
-            // Image : celle de l'attaque si l'arme en a une autre que son icône (« cloneTexture » : Sahara Slicers), sinon l'objet
-            Texture2D texture;
-            Rectangle frame;
-            var attackTextures = Attack.Effects.Where(e => e.Type == "cloneTexture" && e.ProjectileType > 0).ToList();
-            if (attackTextures.Count > 0)
-            {
-                texture = TextureAssets.Projectile[attackTextures[Projectile.identity % attackTextures.Count].ProjectileType].Value;
-                frame = texture.Frame();
-            }
-            else
-            {
-                Main.instance.LoadItem(Weapon.type);
-                texture = TextureAssets.Item[Weapon.type].Value;
-                frame = Main.itemAnimations[Weapon.type]?.GetFrame(texture) ?? texture.Frame();
-            }
-            var glowEffect = Attack.Effects.FirstOrDefault(e => e.Type == "cloneGlow");
-            if (glowEffect != null)
-                DrawGlowBlade(glowEffect.Value);
-            // Clone dessiné comme l'attaque normale : opaque, sans teinte, éclairé par le décor (retours de test du 28/10)
+            // Comme l'attaque normale d'une épée courte vanilla : l'objet lui-même, éclairé par le décor
+            Main.instance.LoadItem(Weapon.type);
+            Texture2D texture = TextureAssets.Item[Weapon.type].Value;
+            Rectangle frame = Main.itemAnimations[Weapon.type]?.GetFrame(texture) ?? texture.Frame();
             Main.EntitySpriteDraw(texture, Projectile.Center - Main.screenPosition, frame, lightColor, Projectile.rotation,
                 frame.Size() / 2f, Projectile.scale, SpriteEffects.None, 0);
             return false;
-        }
-
-        /// <summary>
-        /// Lame lumineuse de l'arme (« cloneGlow » : Galileo Gladius, comme son estoc), qui s'allonge avec l'estoc du clone
-        /// jusqu'à <paramref name="length"/> (1,2 en Calamity++ ; 0,65 en Full Fandom, comme l'estoc réduit de l'arme).
-        /// </summary>
-        private void DrawGlowBlade(float length)
-        {
-            Texture2D glow = ModContent.Request<Texture2D>("CalamityMod/Particles/GlowBlade").Value;
-            Vector2 forward = Projectile.localAI[1].ToRotationVector2();
-            float stab = (float)Math.Sin((1f - Projectile.timeLeft / (float)Lifetime) * MathHelper.Pi);
-            Main.spriteBatch.End();
-            Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.Additive, SamplerState.PointClamp, DepthStencilState.None, Main.Rasterizer, null, Main.GameViewMatrix.TransformationMatrix);
-            Main.spriteBatch.Draw(glow, Projectile.Center - forward * 10f - Main.screenPosition, null, Color.SkyBlue * 0.75f, forward.ToRotation() + MathHelper.PiOver2,
-                new Vector2(glow.Width * 0.5f, glow.Height), new Vector2(length < 1f ? 0.6f : 0.85f, MathHelper.Lerp(0.1f, length, stab)) * Projectile.scale * 0.04f, SpriteEffects.None, 0f);
-            Main.spriteBatch.End();
-            Main.spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, Main.DefaultSamplerState, DepthStencilState.None, Main.Rasterizer, null, Main.GameViewMatrix.TransformationMatrix);
         }
     }
 

@@ -252,6 +252,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** (24/10) **Aliments** générés comme les matériaux : potion du wiki dont le buff est Well Fed / Plenty Satisfied /
   Exquisitely Stuffed, avec la durée de l'infobox (11 : Titan Finger, Clam Chowder, Cheese, Crimtato, Yharic Delight...).
   Leurs effets en plus écrits en prose (Yharic Delight « Instantly heals the user to full health ») ne sont pas encore faits.
+- **[technique]** (28/10) Aliments : la ligne « Increases life regeneration » des infobulles du wiki est retirée, Terraria
+  l'ajoute lui-même aux aliments en Expert (doublon vu en jeu sur Clam Chowder et Crimtato).
 - **[validé 22/10]** **Yharim Bar géant au sol** (x16, d'après l'image « The item in-game » de sa page : ~480 px de large
   pour un sprite de 30), **dans les deux modes**, zone de ramassage comprise (hitbox x16). Taille normale dans
   l'inventaire. Données : `WORLD_SCALE` dans `tools/gen_items.py` → `worldScale` de `WikiData/items.json`.
@@ -518,10 +520,18 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   tire le projectile de l'arme (croissant de lune, un tiers des dégâts ; orbe cosmique, moitié des dégâts) ; les croissants
   des clones font pleuvoir des planètes (« crescent moons will drop down planetoids on enemy hits », même délai de 15
   frames) ; le Cosmic Shiv tire un second orbe à 20 %. Calamity++ : rayon `CosmicShivTrail`, et lunes au coup (tableau).
-- **[validé 28/10]** Clones du Shortflurry dessinés comme l'attaque normale : opaques, sans teinte ni poussière orange,
-  éclairés par le décor (l'aura orange reste réservée à la jauge pleine). Clones du Galileo Gladius avec la lame lumineuse
-  de son estoc (effet `cloneGlow`) : longueur 1,2 en Calamity++, 0,65 en Full Fandom (comme l'estoc réduit). **[choix]**
-  Fil du grappin du Galileo en bleu ciel (couleur de l'arme).
+- **[validé 28/10]** Clones du Shortflurry = l'attaque elle-même (`Content/Shortstrike/ShortflurryEffects.cs`,
+  `ShortflurryRealClone`) : pour une arme dont l'attaque est un projectile d'estoc (BaseShortswordProjectile) ou une épée
+  tenue (BaseSwordHoldoutProjectile) de Calamity ou de ce mod, le clone est ce projectile, avec ses images, particules,
+  lame lumineuse et effets au coup (étincelles du Submarine Shocker, rayon du Cosmic Shiv, spores de la Spore Knife...).
+  **[technique]** Son AI est remplacé par une copie sans ce qui touche au joueur (arme tenue, direction, temps
+  d'utilisation) ; dessiné comme un projectile normal ; un coup par ennemi ; dégâts figés à ceux du Shortflurry. Les
+  autres armes (épées courtes vanilla, Umbrella, Spore Knife rogue...) gardent le clone dessiné : l'objet, opaque, sans
+  teinte, éclairé par le décor (l'attaque vanilla n'a pas de particules). Sahara Slicers : un de ses deux projectiles
+  d'estoc au hasard (`cloneProjectile`). Cosmic Shiv : le premier rayon vient du clone réel, le second (20 %) reste un
+  effet du Shortflurry ; Galileo (Full Fandom) : le croissant à chaque estoc reste un effet du Shortflurry (avec ses
+  planètes), le croissant « estoc dans le vide » de l'arme est coupé pour les clones. **[choix]** Fil du grappin du
+  Galileo en bleu ciel.
 - **[validé 28/10]** Spore Knife : comme dit la page, les épines partent de l'ennemi touché dans une direction au hasard
   (4 blocs, touchent sur toute leur longueur). **[choix]** 1 à 3 par coup (nombre demandé par l'utilisateur), quart des
   dégâts du coup, Poisoned 2 s.

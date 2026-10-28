@@ -108,7 +108,8 @@ namespace CalamityFandom.Content.Legacy.Projectiles.Melee
         public override void OnKill(int timeLeft)
         {
             // Coup direct : la planète seule (retour de test du 28/10) ; estoc dans le vide : le croissant
-            if (Projectile.numHits > 0 || Projectile.owner != Main.myPlayer)
+            // (clones du Shortflurry : leur croissant vient de l'effet du Shortflurry, avec ses planètes)
+            if (Projectile.numHits > 0 || Projectile.owner != Main.myPlayer || Projectile.GetGlobalProjectile<Content.Shortstrike.ShortflurryRealClone>().IsClone)
                 return;
             Vector2 forward = angle.RotatedBy(MathHelper.Pi);
             Projectile.NewProjectile(Projectile.GetSource_FromThis(), Main.player[Projectile.owner].MountedCenter + forward * 30f, forward * 9f,

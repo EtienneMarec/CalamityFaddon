@@ -518,20 +518,6 @@
      "modes": [
       "plus"
      ]
-    },
-    {
-     "type": "cloneGlow",
-     "value": 0.65,
-     "modes": [
-      "fandom"
-     ]
-    },
-    {
-     "type": "cloneGlow",
-     "value": 1.2,
-     "modes": [
-      "plus"
-     ]
     }
    ],
    "todo": [],
@@ -563,16 +549,6 @@
     {
      "type": "spawnOnStab",
      "projectile": "CalamityFandom/CosmicShivBall",
-     "value": 1.0,
-     "damageMult": 0.5,
-     "speed": 33.6,
-     "modes": [
-      "fandom"
-     ]
-    },
-    {
-     "type": "spawnOnStab",
-     "projectile": "CalamityFandom/CosmicShivBall",
      "value": 0.2,
      "damageMult": 0.5,
      "speed": 33.6,
@@ -580,15 +556,6 @@
       "fandom"
      ],
      "spread": 0.6
-    },
-    {
-     "type": "spawnOnStab",
-     "projectile": "CosmicShivTrail",
-     "value": 1.0,
-     "speed": 7,
-     "modes": [
-      "plus"
-     ]
     },
     {
      "type": "spawnOnStab",
@@ -663,11 +630,11 @@
      "spread": 0.1
     },
     {
-     "type": "cloneTexture",
+     "type": "cloneProjectile",
      "projectile": "SaharaSlicersBlade"
     },
     {
-     "type": "cloneTexture",
+     "type": "cloneProjectile",
      "projectile": "SaharaSlicersBladeAlt"
     }
    ],

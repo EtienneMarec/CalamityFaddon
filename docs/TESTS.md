@@ -270,10 +270,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] Calamity++ : **Sahara Slicers** ont leur Shortflurry (éclats de sable) ; Full Fandom : l'arme est masquée
 - [x] Une Copper Broadsword n'affiche pas la barre et ne déclenche rien au clic droit
 - [x] Aliments du wiki (Cheat Sheet) : **Titan Finger** se mange, donne Plenty Satisfied 4 minutes
-- [ ] Autres aliments : Cheese, Clam Chowder, Crimtato... ; les ennemis astraux lâchent parfois des Titan Fingers (24/10)
+- [x] Autres aliments : Cheese, Clam Chowder, Crimtato... ; les ennemis astraux lâchent parfois des Titan Fingers (24/10)
 - [x] **Ailes du wiki** (Cheat Sheet : Red Wings, Archangel Wings, Holy Mantle...) : s'équipent, se voient (une seule pose,
       pas de battement), sans double du personnage, accrochées au dos
-- [ ] Shortflurry du **Galileo Gladius** : des lunes apparaissent sur les ennemis touchés (24/10)
+- [x] Shortflurry du **Galileo Gladius** : des lunes apparaissent sur les ennemis touchés (24/10)
 - [x] (28/10) Submarine Shocker : nuages de la Toxic Flask ; Spore Knife : épine verte qui sort du sol
 - [x] (28/10, 2e retour) **Submarine Shocker** : nuages plus transparents ; **Cosmic Shiv** : le second rayon part avec un
       angle visible (pas superposé au premier)
@@ -291,24 +291,28 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] (28/10) Calamity++, Shortflurry des **Sahara Slicers** : image de l'attaque, carquois vidé pendant la durée
 - [x] (28/10, 3e retour) **Sahara Slicers** : plus d'éclat à chaque estoc des clones, seulement le carquois
 - [x] (28/10, 3e retour) Calamity++ : les clones du Galileo ont la lame lumineuse
-- [ ] (28/10, 4e retour) Les clones du Shortflurry ressemblent à l'attaque normale : ni teinte ni poussière orange, éclairés
-      comme le décor (grappin du Galileo aussi, fil bleu ciel) ; Full Fandom : les clones du Galileo ont la lame lumineuse
-      courte de son estoc
+- [x] (28/10, 4e retour) Clones sans teinte orange
+- [ ] (28/10, 5e retour) Clam Chowder et Crimtato : « Increases life regeneration » une seule fois (en Expert)
+- [ ] (28/10, 5e retour) Les clones sont l'attaque elle-même : Submarine Shocker (étincelles), Cosmic Shiv (rayon violet de
+      l'arme + parfois un second), Aquatic Discharge, Disease, Spore Knife Full Fandom (spores), Sahara Slicers (images
+      d'attaque), Galileo dans les deux modes (épée tenue avec sa vraie lame lumineuse : courte en Full Fandom, longue en
+      Calamity++) ; l'attaque normale du joueur n'est pas perturbée pendant le Shortflurry (arme visible, direction) ;
+      épées vanilla : clone dessiné comme avant
 - [x] (28/10, 3e retour) **Spore Knife** : 1 à 3 épines par coup, qui partent de l'ennemi dans des directions au hasard
       (4 blocs) et touchent sur toute leur longueur
 - [x] (28/10) La jauge pleine ne clignote plus ; son du Shortflurry au choix (Silva retenu, désormais par défaut)
 - [x] (28/10) Les projectiles tirés par une épée courte remplissent la jauge ; ceux des clones, non
 - [x] (28/10) **Aquatic Discharge** : un seul coup par estoc, aussi sur le Fandom Test Dummy
 - [x] (28/10) **Fandom Test Dummy** : l'image couvre toute la hitbox
-- [ ] **Objets de lore** (26/10, Cheat Sheet, recherche « Lore » ou par nom) : le lore de Cryogen s'appelle « Cryogen »
+- [x] **Objets de lore** (26/10, Cheat Sheet, recherche « Lore » ou par nom) : le lore de Cryogen s'appelle « Cryogen »
       (texte de l'Archmage), celui du Desert Scourge « The Desert Scourge », de Yharon « Jungle Dragon, Yharon », du
       Ravager « Meatmetal Sans », du Moon Lord « Moon Lord » (texte de Requiem) ; Full Fandom : pas de lore de Signus,
       Storm Weaver, Queen Slime ni Empress of Light, mais celui de Cryogen et de Meatmetal Sans existent
-- [ ] Premier kill de Cryogen : lâche le lore « Cryogen » (une seule fois, pas de doublon)
+- [x] Premier kill de Cryogen : lâche le lore « Cryogen » (une seule fois, pas de doublon)
 - [x] Noms corrigés (26/10) : **Caustic Edge** (l'ancienne, pré-Hardmode) et **True Caustic Edge** sont deux objets
       distincts ; les 5 journaux de Draedon ont chacun leur nom (« Draedon's Log - Hell »...) ; meubles **Eutrophic**
       (Eutrophic Chair, Bathtub...) au lieu de « EutrophicChair » ; bannières Big/Small Sightseer, Flounder, Catfish...
-- [ ] Fruits de vie : la Sanguine Tangerine s'appelle **Hemagrape**, la Tainted Cloudberry **Sambucus Fruit** (+25 PV max
+- [x] Fruits de vie : la Sanguine Tangerine s'appelle **Hemagrape**, la Tainted Cloudberry **Sambucus Fruit** (+25 PV max
       chacune, message en cas de deuxième usage avec le nouveau nom) ; la recette de Keg Fireball / Screwdriver demande la
       Hemagrape
 - [ ] Le sac d'Astral Deus et celui de Meatmetal Sans reçoivent leur contenu du wiki (page Treasure Bag) : trophée à 10 %

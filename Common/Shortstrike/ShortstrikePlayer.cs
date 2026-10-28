@@ -259,6 +259,14 @@ namespace CalamityFandom.Common.Shortstrike
                 return;
             Vector2 direction = (Main.MouseWorld - Player.Center).SafeNormalize(Vector2.UnitX * Player.direction).RotatedByRandom(0.35f);
             int damage = (int)(Player.GetWeaponDamage(item) * (1f + Flurry.DamageBoost));
+            // Clone réel : le projectile d'attaque de l'arme (« cloneProjectile » si elle en a plusieurs : Sahara Slicers)
+            var choices = Flurry.Effects.Where(e => e.Type == "cloneProjectile" && e.ProjectileType > 0).ToList();
+            int attackType = choices.Count > 0 ? choices[Main.rand.Next(choices.Count)].ProjectileType : item.shoot;
+            if (ShortflurryRealClone.CanClone(attackType))
+            {
+                ShortflurryRealClone.Spawn(Player, item, attackType, direction, damage);
+                return;
+            }
             Projectile.NewProjectile(Player.GetSource_ItemUse(item), Player.Center, direction, ModContent.ProjectileType<ShortflurryClone>(),
                 damage, Player.GetWeaponKnockback(item), Player.whoAmI, item.type);
         }
