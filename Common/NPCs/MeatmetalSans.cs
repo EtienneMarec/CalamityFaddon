@@ -39,8 +39,11 @@ namespace CalamityFandom.Common.NPCs
 
         /// <summary>Phase 1 tant que moins de 12 coups ont été comptés (page du wiki).</summary>
         public const int PhaseOneHits = 12;
-        /// <summary>[choix] Hitbox de la phase 1 : le sprite de Sans (120 x 180).</summary>
-        private static readonly Point PhaseOneSize = new(100, 170);
+        /// <summary>Échelle des sprites (test du 28/10) : Sans presque à taille humaine (180 px de haut -> 63, le joueur en fait
+        /// 42), le Ravager refait un peu plus petit que l'image du wiki (668 px de large -> 534, la taille du Ravager de base).</summary>
+        public const float PhaseOneScale = 0.35f, PhaseTwoScale = 0.8f;
+        /// <summary>Hitbox de la phase 1 : le sprite de Sans réduit (120 x 180 x 0,35).</summary>
+        private static readonly Point PhaseOneSize = new(40, 60);
 
         private Point phaseTwoSize;
         private bool swappedTextures;
@@ -104,9 +107,10 @@ namespace CalamityFandom.Common.NPCs
             RavagerBody.GlowTexture = empty;
             swappedTextures = true;
 
-            Texture2D texture = PhaseTexture(InPhaseOne(npc)).Value;
+            bool phaseOne = InPhaseOne(npc);
+            Texture2D texture = PhaseTexture(phaseOne).Value;
             spriteBatch.Draw(texture, npc.Bottom - screenPos + new Vector2(0f, npc.gfxOffY), null, npc.GetAlpha(drawColor), 0f,
-                new Vector2(texture.Width / 2f, texture.Height), 1f, SpriteEffects.None, 0f);
+                new Vector2(texture.Width / 2f, texture.Height), phaseOne ? PhaseOneScale : PhaseTwoScale, SpriteEffects.None, 0f);
             return false;
         }
 

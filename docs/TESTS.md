@@ -152,7 +152,7 @@ Données et immunités vérifiées par l'auto-test ; en jeu :
 - [x] Diseased Pike : la lance pointe dans la bonne direction (corrigé le 22/10)
 - [x] Energy Staff : la tourelle reste là où on la pose (corrigé le 22/10 : ancienne tourelle immobile)
 - [x] Desert Scourge (mode normal) : peut aussi lâcher Seabound Staff, Storm Spray ou Aquatic Discharge (25 % chacun)
-- [ ] Conquest Fragment (Pearl Shard) : sprite du wiki (éclat bleu et doré) dans l'inventaire et au sol, **dans les
+- [x] Conquest Fragment (Pearl Shard) : sprite du wiki (éclat bleu et doré) dans l'inventaire et au sol, **dans les
       deux modes** ; idem Victide Bar, Divine Bar, Parched Scale (liste : `reports/sprites.md`)
 - [x] **Full Fandom** : des objets au sprite refait depuis 2022 reprennent celui du wiki (ex.
       The Ballista, Purified Gel, Exoblade, Radiant Star) ; **Calamity++** : sprites actuels
@@ -174,7 +174,7 @@ Contrôlé par `python tools/selftest.py --mode all`. En jeu :
 - [x] Full Fandom : un PNJ récent masqué n'apparaît plus naturellement. Exemple : **Slab Crab** (couches de l'Abysse)
 - [x] Full Fandom : les marchands ne vendent plus d'objet masqué. Exemple : la **Dryad** ne vend plus d'**Astral Grass
       Seeds** en Hardmode (Calamity++ : oui) ; un objet masqué déjà dans l'inventaire reste utilisable
-- [ ] (28/10) Les objets masqués ne laissent plus de **case vide** au milieu du magasin : les suivants remontent
+- [x] (28/10) Les objets masqués ne laissent plus de **case vide** au milieu du magasin : les suivants remontent
 - [x] Full Fandom : les boss récents ne s'invoquent plus — sans objet : le seul boss récent sans page est le Horrible
       Hog, qui naît d'un cochon ; les autres « nouveaux » boss sont des renommages (23/10)
 - [x] Full Fandom : Starfleet à 68 dégâts (valeur de 2022) ; en Calamity++ elle garde ses dégâts actuels
@@ -206,11 +206,13 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       l'ennemi le plus proche (message dans le chat). Liste : Moon Burnt, Marked, puis les 15 statuts d'éléments
 - [x] Sur un boss : Moon Burnt garde son icône du wiki au-dessus de lui, mais **pas** d'icône d'élément
 
-- [ ] Ravager (Meatmetal Sans) : barre de vie à **23** (deuxième correction du 28/10 : c'était la barre propre au Ravager
+- [x] Ravager (Meatmetal Sans) : barre de vie à **23** (deuxième correction du 28/10 : c'était la barre propre au Ravager
       de Calamity) ; exactement 23 coups pour le tuer
-- [ ] (28/10) Sprite de **Sans** (squelette en sweat bleu) pendant les 12 premiers coups, sans jambes ni tête du Ravager
+- [x] (28/10) Sprite de **Sans** (squelette en sweat bleu) pendant les 12 premiers coups, sans jambes ni tête du Ravager
       autour, et les coups ne touchent que lui ; au 12e coup il se téléporte (poussière bleue) et prend le sprite du
       Ravager refait du wiki pour les 11 derniers ; dans les deux modes
+- [ ] (28/10, 2e passe) Sans à peu près à taille humaine (un peu plus grand que le joueur), touchable seulement sur son
+      sprite ; le Ravager refait de la phase 2 à la taille du Ravager de base
 - [x] (28/10) « MISS » entre les coups, 1 PV par coup ; attaques et piliers : 1 dégât + poison
 - [ ] (28/10) Chaque coup compté affiche « **MISS** », projette le joueur loin de Sans, puis 1,5 s pendant lesquelles les
       coups passent à travers ; les debuffs (feu, poison...) ne lui retirent rien
@@ -220,7 +222,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       temps : armure Demonshade (plastron +200 mana ; casque +2 et bonus d'ensemble +8 emplacements) + 200 des Mana
       Crystals + Comet Shard, Ethereal Core et Phantom Heart (+60 chacun) = 580 mana et 11 emplacements, sans aucun
       accessoire. Avec l'Ethereal Talisman (+60, -8 % de coût) il reste de la marge
-- [ ] Relic of Ruin (validée) et Stormjaw Staff gardent leurs dégâts en Calamity++ ; en Full Fandom **1** (0,1 du wiki arrondi
+- [x] Relic of Ruin (validée) et Stormjaw Staff gardent leurs dégâts en Calamity++ ; en Full Fandom **1** (0,1 du wiki arrondi
       à 1 le 23/10) : les étincelles du sbire font 1 dégât, l'infobulle est dans le bon ordre
 - [x] Le Ravager s'appelle **Meatmetal Sans** (boss, masque, trophée, relique, sac)
 - [x] Ceaseless Void : 0 de défense (plus les 50 % de réduction de dégâts de Calamity, cohérents
@@ -228,24 +230,24 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 ### 2.3 Décision du 21/10 : contenu ancien cité nulle part
 
-- [ ] Full Fandom : **The Old Reaper** (ancienne arme de spy, citée nulle part sur le wiki) n'a plus de recette ni de
+- [x] Full Fandom : **The Old Reaper** (ancienne arme de spy, citée nulle part sur le wiki) n'a plus de recette ni de
       drop ; les **Astral / Sulphurous / Sunken Pylon** ne sont plus vendus (liste complète : `reports/baseline.md`,
       section « Antérieurs, cités nulle part »)
-- [ ] Full Fandom : Acidwood Wall existe toujours (cité dans un changelog du wiki)
-- [ ] Renommages trouvés au passage : The Etomer → **Triboluminescent Etomer**, Martian Distress Remote → **Martian
+- [x] Full Fandom : Acidwood Wall existe toujours (cité dans un changelog du wiki)
+- [x] Renommages trouvés au passage : The Etomer → **Triboluminescent Etomer**, Martian Distress Remote → **Martian
       Distress Beacon** (dans tous les modes)
 
 ### 2.5 Renommages de Calamity (23/10)
 
-- [ ] **Essence of Havoc** s'appelle **Essence of Chaos** (deux modes) ; en Full Fandom elle existe toujours (recettes, butin)
-- [ ] Le sac de **Calamitas** (Calamitas Clone) s'appelle « Treasure Bag (Calamitas) » et tombe en Expert en Full Fandom
+- [x] **Essence of Havoc** s'appelle **Essence of Chaos** (deux modes) ; en Full Fandom elle existe toujours (recettes, butin)
+- [x] Le sac de **Calamitas** (Calamitas Clone) s'appelle « Treasure Bag (Calamitas) » et tombe en Expert en Full Fandom
 - [ ] Calamity++ : la **Vega** s'appelle **Night's Gaze** (c'est elle qui est utilisée) ; notre ancienne version n'a plus de
       recette ; Full Fandom : c'est notre Night's Gaze de 2022, la Vega est masquée. Idem Star Shower → Starfall, Burning
       Revelation → Solar Flare, Sandstream Scepter → Storm Spray, Doomsday Device → Shock Grenade...
-- [ ] Crimulan Paladin / Ebonian Paladin s'appellent Crimulan / Ebonian Slime God
-- [ ] Calamitas Clone s'appelle **Calamitas**, Cataclysmic Construct **Cataclysm**, Signus **Signus, Envoy of the Devourer**
-- [ ] La Silva Basin s'appelle **Effulgent Manipulator** et fabrique les meubles Silva
-- [ ] La Purple Haze s'appelle **Fluorescent Vodka** ; **Energy Orb** existe (matériau, Cheat Sheet)
+- [x] Crimulan Paladin / Ebonian Paladin s'appellent Crimulan / Ebonian Slime God
+- [x] Calamitas Clone s'appelle **Calamitas**, Cataclysmic Construct **Cataclysm**, Signus **Signus, Envoy of the Devourer**
+- [x] La Silva Basin s'appelle **Effulgent Manipulator** et fabrique les meubles Silva
+- [x] La Purple Haze s'appelle **Fluorescent Vodka** ; **Energy Orb** existe (matériau, Cheat Sheet)
 
 ### 2.4 Shortstrike (page Shortstrike, 22/10)
 

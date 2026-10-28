@@ -332,7 +332,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   vie de Calamity les comptait : 21 023). La barre « vanilla » propre au Ravager (qui ajoute toujours la vie des 5
   parties) est remplacée par la barre standard du jeu.
 - **[validé 28/10]** Sprites du wiki dans **les deux modes** : Sans (`MeatmetalPhase1.png`) pour les 12 premiers coups,
-  puis le Ravager refait (`Ravaj-removebg-preview.png`) pour les suivants (`Assets/Bosses/`). [choix] Hitbox de 100 x 170
+  puis le Ravager refait (`Ravaj-removebg-preview.png`) pour les suivants (`Assets/Bosses/`). Taille (28/10) : Sans
+  réduit à x0,35 (presque taille humaine, demandé), le Ravager refait à x0,8 (taille du Ravager de base). Hitbox de 40 x 60
   en phase 1 (celle du Ravager en phase 2) ; au 12e coup, Sans se téléporte 600 px à l'opposé du joueur (la page dit
   qu'il se téléporte pour s'éloigner, sans distance). [technique] Jambes, tête et lueur que le corps de Calamity dessine
   lui-même sont remplacées par une texture vide pendant son dessin. [technique] Le 1 dégât est fixé après la réduction de dégâts de Calamity, qui
