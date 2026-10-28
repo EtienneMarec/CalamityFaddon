@@ -121,10 +121,12 @@ def words(text):
     return {w for w in text.split() if len(w) > 3 or re.match(r"^\d", w)}
 
 
-def coverage(a, b):
-    """Part des mots de a qu'on retrouve dans b."""
-    wa = words(a)
-    return len(wa & words(b)) / len(wa) if wa else 1.0
+def coverage(a, b, with_numbers=True):
+    """Part des mots de a qu'on retrouve dans b (avec ou sans les nombres)."""
+    wa, wb = words(a), words(b)
+    if not with_numbers:
+        wa = {w for w in wa if not re.match(r"^\d", w)}
+    return len(wa & wb) / len(wa) if wa else 1.0
 
 
 def numbers(text):
@@ -289,13 +291,17 @@ def main():
         # garde les deux hauts, un ajout fait baisser le second, une refonte fait chuter le premier
         today_text = " ".join(today)
         old_text = best_text if best >= MATCH_OLD else f
-        cov_old, cov_new = coverage(old_text, today_text), coverage(norm(current_tip or gg_tip), old_text)
+        cov_old, cov_new = coverage(old_text, today_text), coverage(norm(gg_tip or current_tip), old_text)
         if current >= SAME and current >= best:
             verdict = "formulation"
         elif unknown or copied:
             verdict = "à vérifier"
         elif best >= MATCH_OLD:
-            if cov_old >= 0.8 and cov_new >= 0.6 or change is not None and change >= MODIFIED and cov_new >= 0.6:
+            new_text = norm(gg_tip or current_tip)
+            same_words = coverage(old_text, today_text, False) >= 0.8 and coverage(new_text, old_text, False) >= 0.6
+            if same_words and numbers(old_text) != numbers(new_text) and words(old_text) & {w for w in words(new_text) if not w[0].isdigit()}:
+                verdict = "valeurs"
+            elif cov_old >= 0.8 and cov_new >= 0.6 or change is not None and change >= MODIFIED and cov_new >= 0.6:
                 verdict = "reformulée"
             elif cov_old >= 0.5 or change is not None and change >= REWORK:
                 verdict = "modifiée"
@@ -415,6 +421,7 @@ VERDICTS = [
     ("ancienne version", "Anciennes versions confirmées à la main (notes de version du wiki officiel)"),
     ("refonte", "Refontes : le Fandom décrit une ancienne version, très différente de l'objet actuel"),
     ("modifiée", "Modifiées : le Fandom décrit une ancienne version, en partie différente"),
+    ("valeurs", "Valeurs seulement : même fonctionnement, anciens chiffres (pourcentages, bonus, durées)"),
     ("mélange de versions", "Mélange : chaque ligne du Fandom vient d'une version du code, sans qu'une version les ait toutes"),
     ("à vérifier", "À vérifier : lignes du Fandom absentes de toutes les versions du code (inventées, ou ajoutées par les rédacteurs)"),
     ("homonyme", "Homonymes (revue à la main) : objet inventé par le Fandom ; Calamity a créé plus tard un objet différent du même nom"),
@@ -436,7 +443,7 @@ def write_report(results, armor, removed):
                 "2019). Revue à la main : `docs/DIFF_FANDOM.md`._\n\n")
         for verdict, title in VERDICTS:
             f.write(f"- {verdict} : {len(by.get(verdict, []))}\n")
-        for verdict, title in VERDICTS[:9]:
+        for verdict, title in VERDICTS[:10]:
             f.write(f"\n## {title}\n")
             for r in sorted(by.get(verdict, []), key=lambda r: (r["change"] if r["change"] is not None else 1, r["title"])):
                 if r.get("auto") == "page":
@@ -459,7 +466,7 @@ def write_report(results, armor, removed):
                 for line, where in r.get("elsewhere", {}).items():
                     copied = " — **recopiée d'un autre objet**" if line in r.get("copied", []) else ""
                     f.write(f"- « {line} » : ailleurs dans le code ({where}){copied}\n")
-        for verdict, title in VERDICTS[9:]:
+        for verdict, title in VERDICTS[10:]:
             names = ", ".join(r["title"] for r in by.get(verdict, []))
             f.write(f"\n## {title}\n\n{names}\n")
         f.write("\n## Bonus de set d'armure (lignes du Fandom qui ne sont plus vraies)\n")
