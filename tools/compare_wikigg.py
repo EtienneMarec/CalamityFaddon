@@ -10,7 +10,8 @@ Les objets officiels et renommés de data/wiki_index.json sont comparés ; la pa
 actuel de l'objet dans Calamity (localisation), puis par le titre du Fandom.
 Résultats : reports/wikigg_diff.md (rapport) et data/wikigg_diff.json (pour la revue à la main, docs/DIFF_FANDOM.md).
 
-Usage : python tools/old_tooltips.py ; python tools/fetch_wikigg.py ; python tools/compare_wikigg.py
+Usage : python tools/old_tooltips.py ; python tools/old_strings.py ; python tools/fetch_wikigg.py ;
+        python tools/compare_wikigg.py
 """
 import difflib
 import json
@@ -21,6 +22,8 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wiki_index import ROOT, FANDOM, extract_template, split_params, INFOBOX_RE  # noqa: E402
 from gen_localization import load_calamity_strings  # noqa: E402
+
+# tools/old_strings.py : corpus de toutes les phrases du code (facultatif, pour les lignes introuvables)
 
 WIKIGG = os.path.join(ROOT, "wikigg_dump")
 EXTRA = os.path.join(ROOT, "fandom_dump_extra", "Main")
@@ -45,6 +48,8 @@ NOISE = [
     r"receives \d+% benefit from melee speed",
     r"^\[?c/[0-9a-f]{6}:",            # couleurs de texte
     r"^this is a (?:donor|dedicated)",
+    r"^current charge",                # ligne de charge ajoutée par le code (Draedon's Arsenal)
+    r"crit level",                     # niveau de critique des objets de Nanotech, ajouté par le code
     r"^(?:dedicated|donated) (?:to|by)",
 ]
 
@@ -63,6 +68,15 @@ def infobox(text):
     if not m:
         return None
     return split_params(extract_template(text, m.start()))[1]
+
+
+def unvandalize(raw, glossary):
+    """Vocabulaire renommé par le Fandom (glossaire : Spy, Moon Burnt, Godseeker Mode...) -> termes de Calamity, pour que
+    ces renommages, déjà connus, ne passent pas pour des changements de fonctionnement."""
+    s = raw or ""
+    for official, fandom in list(glossary.get("terms", {}).items()) + list(glossary.get("renames", {}).items()):
+        s = re.sub(r"" + re.escape(fandom) + r"", official, s, flags=re.I)
+    return s
 
 
 def strip_markup(raw):
@@ -105,6 +119,38 @@ def numbers(text):
     return sorted(set(re.findall(r"\d+(?:\.\d+)?%?", text)))
 
 
+class Corpus:
+    """Toutes les phrases écrites dans le code de Calamity (data/old_strings.json), avec recherche approximative."""
+
+    def __init__(self):
+        path = os.path.join(ROOT, "data", "old_strings.json")
+        first = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+        self.phrases = [(norm(strip_markup(p)), date, p) for p, date in first.items()]
+        self.words = {}
+        for i, (text, _, _) in enumerate(self.phrases):
+            for w in set(text.split()):
+                if len(w) > 3:
+                    self.words.setdefault(w, []).append(i)
+
+    def find(self, line):
+        """(date, phrase) de la phrase du code la plus proche de la ligne, ou None."""
+        text = norm([line])
+        words = {w for w in text.split() if len(w) > 3}
+        counts = {}
+        for w in words:
+            ids = self.words.get(w, [])
+            if len(ids) > 2000:
+                continue
+            for i in ids:
+                counts[i] = counts.get(i, 0) + 1
+        best, found = 0.0, None
+        for i, _ in sorted(counts.items(), key=lambda kv: -kv[1])[:300]:
+            r = ratio(text, self.phrases[i][0])
+            if r > best:
+                best, found = r, self.phrases[i]
+        return (found[1], found[2]) if found and best >= LINE_KNOWN else None
+
+
 def load_wikigg():
     index = json.load(open(os.path.join(WIKIGG, "index.json"), encoding="utf-8"))
     redirects = json.load(open(os.path.join(WIKIGG, "redirects.json"), encoding="utf-8"))
@@ -134,7 +180,14 @@ def main():
     old = json.load(open(OLD, encoding="utf-8"))
     snaps = old["snapshots"]
     strings = load_calamity_strings()
+    glossary = json.load(open(os.path.join(ROOT, "tools", "glossary.json"), encoding="utf-8"))
+    corpus = Corpus()
     gg_index, gg_find = load_wikigg()
+    # Nom affiché passé -> classes qui l'ont porté (objets dont la classe a changé depuis : Astral Arcanum -> Radiance)
+    by_old_name = {}
+    for cls_name, history in old["items"].items():
+        for _, name, _ in history:
+            by_old_name.setdefault(norm([name]), set()).add(cls_name)
 
     results = []
     for entry in index.values():
@@ -144,7 +197,7 @@ def main():
             continue
         fandom_text = page_text(os.path.join(FANDOM, entry["file"])) or page_text(os.path.join(EXTRA, entry["file"]))
         fandom_box = infobox(fandom_text) or {}
-        fandom_tip = strip_markup(fandom_box.get("tooltip"))
+        fandom_tip = strip_markup(unvandalize(fandom_box.get("tooltip"), glossary))
         cal = entry["calamity"][0]
         cls, category = cal["class"], cal.get("category", "")
         key = f"Mods.CalamityMod.{category}.{cls}"
@@ -162,16 +215,25 @@ def main():
             continue
         # Versions passées du code
         best, best_date, best_text, best_lines = 0.0, None, "", []
-        versions = [strip_markup(t) for _, _, t in old["items"].get(cls, [])] + [current_tip]
-        for snap_index, _, tooltip in old["items"].get(cls, []):
+        history = [h for c_name in {cls} | by_old_name.get(norm([entry["title"]]), set()) for h in old["items"].get(c_name, [])]
+        versions = [strip_markup(t) for _, _, t in history] + [current_tip]
+        for snap_index, _, tooltip in history:
             r = ratio(f, norm(strip_markup(tooltip)))
             if r > best:
                 best, best_date, best_text, best_lines = r, snaps[snap_index]["date"], norm(strip_markup(tooltip)), strip_markup(tooltip)
         current = ratio(f, c)
         # Lignes du Fandom qu'aucune version du code ne contient (ni le wiki officiel)
-        known = [norm([line]) for version in versions + [gg_tip] for line in version]
+        literals = [lit for c_name in {cls} | by_old_name.get(norm([entry["title"]]), set()) for lit in old.get("strings", {}).get(c_name, [])]
+        known = [norm([line]) for version in versions + [gg_tip] + [strip_markup(lit) for lit in literals] for line in version]
         unknown = [line for line in fandom_tip
                    if max((ratio(norm([line]), k) for k in known), default=0.0) < LINE_KNOWN]
+        # Ailleurs dans le code (autre objet, projectile, joueur...) à une date donnée ?
+        elsewhere = {}
+        for line in unknown:
+            hit = corpus.find(line)
+            if hit:
+                elsewhere[line] = hit
+        unknown = [line for line in unknown if line not in elsewhere]
         # Lignes de l'ancienne version encore présentes aujourd'hui (code actuel ou wiki officiel)
         today = [norm([line]) for line in current_tip + gg_tip]
         old_lines = [norm([line]) for line in (best_lines if best >= MATCH_OLD else fandom_tip)]
@@ -189,10 +251,18 @@ def main():
             "title": entry["title"], "class": cls, "category": category, "wikigg": gg_title, "verdict": verdict,
             "similarity": round(same, 2), "bestOld": round(best, 2), "bestOldDate": best_date, "current": round(current, 2),
             "change": round(change, 2) if change is not None else None, "unknownLines": unknown,
+            "elsewhere": {line: f"{date} : {phrase}" for line, (date, phrase) in elsewhere.items()},
             "fandom": fandom_tip, "wikiggTooltip": gg_tip, "code": current_tip,
             "history": history_section(gg_text)[:1500],
         })
 
+    # Revue à la main (tools/diff_review.json) : verdict tranché et preuves
+    review = json.load(open(os.path.join(ROOT, "tools", "diff_review.json"), encoding="utf-8"))
+    for r in results:
+        if r["title"] in review:
+            r["auto"] = r["verdict"]
+            r["verdict"] = review[r["title"]]["verdict"]
+            r["note"] = review[r["title"]].get("note", "")
     results.sort(key=lambda r: (r["verdict"], r["category"], r["title"]))
     os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
     json.dump(results, open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -200,10 +270,17 @@ def main():
 
 
 VERDICTS = [
+    ("inventée", "Inventées (revue à la main) : le Fandom décrit un fonctionnement qui n'a jamais existé dans Calamity"),
+    ("mélange", "Mélange (revue à la main) : en partie une ancienne version, en partie inventé"),
+    ("ancienne version", "Anciennes versions confirmées à la main (notes de version du wiki officiel)"),
     ("refonte", "Refontes : le Fandom décrit une ancienne version, très différente de l'objet actuel"),
     ("modifiée", "Modifiées : le Fandom décrit une ancienne version, en partie différente"),
     ("mélange de versions", "Mélange : chaque ligne du Fandom vient d'une version du code, sans qu'une version les ait toutes"),
     ("à vérifier", "À vérifier : lignes du Fandom absentes de toutes les versions du code (inventées, ou ajoutées par les rédacteurs)"),
+    ("homonyme", "Homonymes (revue à la main) : objet inventé par le Fandom ; Calamity a créé plus tard un objet différent du même nom"),
+    ("addon", "Addons (revue à la main) : le Fandom décrit l'effet d'un autre mod"),
+    ("ambiance", "Ambiance (revue à la main) : seule une phrase d'ambiance diffère, même fonctionnement"),
+    ("reformulation", "Reformulation (revue à la main) : même fonctionnement"),
     ("reformulée", "Reformulées seulement (même fonctionnement, ancien texte)"),
     ("formulation", "Formulation seulement (le Fandom suit le code actuel)"),
 ]
@@ -219,7 +296,7 @@ def write_report(results):
                 "2019). Revue à la main : `docs/DIFF_FANDOM.md`._\n\n")
         for verdict, title in VERDICTS:
             f.write(f"- {verdict} : {len(by.get(verdict, []))}\n")
-        for verdict, title in VERDICTS[:4]:
+        for verdict, title in VERDICTS[:9]:
             f.write(f"\n## {title}\n")
             for r in sorted(by.get(verdict, []), key=lambda r: (r["change"] if r["change"] is not None else 1, r["title"])):
                 f.write(f"\n### {r['title']} ({r['category'].replace('Items.', '')})\n\n")
@@ -230,7 +307,11 @@ def write_report(results):
                 f.write("- Officiel : " + (" / ".join(r["wikiggTooltip"]) or "(pas de page)") + "\n")
                 if r["unknownLines"]:
                     f.write("- Lignes introuvables dans le code : " + " / ".join(r["unknownLines"]) + "\n")
-        for verdict, title in VERDICTS[4:]:
+                if r.get("note"):
+                    f.write(f"- **Revue** : {r['note']}\n")
+                for line, where in r.get("elsewhere", {}).items():
+                    f.write(f"- « {line} » : ailleurs dans le code ({where})\n")
+        for verdict, title in VERDICTS[9:]:
             names = ", ".join(r["title"] for r in by.get(verdict, []))
             f.write(f"\n## {title}\n\n{names}\n")
     print(f"{len(results)} écarts : " + ", ".join(f"{k} {len(v)}" for k, v in by.items()))

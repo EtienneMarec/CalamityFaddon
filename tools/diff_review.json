@@ -1,0 +1,267 @@
+{
+  "_doc": "Revue à la main des écarts de tools/compare_wikigg.py (cas « à vérifier » et « mélange de versions », et corrections). verdict : « inventée » (ce que dit le Fandom n'a jamais existé dans Calamity), « ancienne version » (description d'une version passée, d'après les notes de version du wiki officiel ou le code), « mélange » (une partie ancienne, une partie inventée), « reformulation » (même fonctionnement), « ambiance » (seule une phrase d'ambiance diffère ou est inventée), « addon » (le Fandom décrit l'effet d'un autre mod), « homonyme » (objet inventé par le Fandom, Calamity a créé plus tard un objet différent du même nom). note : preuves (versions des notes de version du wiki officiel, wikigg_dump/<version>.txt). Repris dans reports/wikigg_diff.md.",
+  "Alchemical Flask": {
+    "verdict": "inventée",
+    "note": "« Inflige la Plague au joueur, +2 % de dégâts » : aucune version. Depuis son ajout (1.1.6.15), les attaques infligent la Plague aux ennemis (seekers, immunité ou réduction de la Plague selon les versions) ; renommée Alchemical Decanter en 2.1.0."
+  },
+  "Angelic Alliance": {
+    "verdict": "reformulation",
+    "note": "La « holy construct of the One Order » par serviteur = les archanges (un par serviteur depuis l'ajout en 1.5.0.001) ; le reste est l'infobulle de 2021."
+  },
+  "Baroclaw": {
+    "verdict": "inventée",
+    "note": "Pinces invoquées par une touche qui attrapent un ennemi 5 s : jamais. Ajouté en 2.0.3.002 avec des dégâts renvoyés (thorns), Armor Crunch puis Crush Depth (2.0.3.003). « 10 defense » : jamais non plus (dégâts et réduction de dégâts)."
+  },
+  "Calamity": {
+    "verdict": "mélange",
+    "note": "« FPS réduits de 50 %, mode matrix » : blague inventée. Le reste (curseur enflammé) est l'infobulle de 2021."
+  },
+  "Dark God's Sheath": {
+    "verdict": "mélange",
+    "note": "+20 furtivité max : ancienne version (1.4.3.002 à 2.0.1.002, 10 ensuite). Inventés : +20 % de critique spy dans l'espace, météores sombres sur les attaques furtives, vitesse des projectiles doublée. Renommé Dark Matter Sheath (2.0.3.003)."
+  },
+  "Dimensional Soul Artifact": {
+    "verdict": "inventée",
+    "note": "« Crée un orbital de Cosmilite » (purement visuel) : jamais. L'objet a toujours augmenté les dégâts en contrepartie des dégâts subis (1.3.4.103, 1.4.1.001...) ; renommé Crushing Ego en 2.2.0."
+  },
+  "Grand Gelatin": {
+    "verdict": "mélange",
+    "note": "Ancienne version (avant la refonte 2.0.3.002 : +20 vie et mana, régénération à l'arrêt). « 5 % reduced stealth cost » inventé : vient de la Mirage Jelly, ingrédient inventé par le Fandom."
+  },
+  "Quiver of Nihility": {
+    "verdict": "inventée",
+    "note": "Ajouté en 2.0.1.001 avec ses quatre champs de vide (code de 2022-08) ; flèches d'ombre à tête chercheuse, particules de vide et +30 % de dégâts des flèches : jamais. Phrase d'ambiance réécrite (« Show me the night sky »)."
+  },
+  "Reaper Tooth Necklace": {
+    "verdict": "mélange",
+    "note": "+15 % de dégâts et +15 de pénétration d'armure : ancienne version (1.5.1.001 à 2.1.0 ; 20 % et 30 aujourd'hui). Inventés : le requin Reaper invoqué, dirigeable au curseur, et « toutes les stats +15 % » de la page."
+  },
+  "Sand Shark Tooth Necklace": {
+    "verdict": "mélange",
+    "note": "+10 de pénétration d'armure : réel (toutes versions). Inventés : le requin des sables invoqué, « Increases all stats by 10% » (6 % de dégâts jusqu'à 2.1.0, 10 % ensuite), la phrase « You're the alpha now »."
+  },
+  "Spectral Veil": {
+    "verdict": "mélange",
+    "note": "+10 % de vitesse et furtivité +20 % en mouvement : ancienne version (1.5.0.001, vitesse retirée en 1.5.1.003). Inventée : l'esquive passive avec 70 s de recharge partagée ; l'objet a toujours été une téléportation sur touche qui rend invulnérable (1.4.2.109)."
+  },
+  "The Amalgam": {
+    "verdict": "mélange",
+    "note": "Surtout l'ancienne version (avant 1.5.0.001 : effets hérités du Fungal Clump, de la Leviathan Ambergris et du Void of Extinction ; aura, durées de buffs). Introuvables dans toute version : « la vie draine contre un gros bonus de dégâts », la traînée de spores/nuages/abeilles/saumure, « 50 % des stats aux équipiers » (la page dit 7,5 % de dégâts à l'équipe)."
+  },
+  "The Bee": {
+    "verdict": "ancienne version",
+    "note": "Infobulle de 2022 (recharge de 10 s, ramenée à 6 en 2.1.0) ; seuls les retours à la ligne manquent sur le Fandom."
+  },
+  "The Sponge": {
+    "verdict": "mélange",
+    "note": "Ancienne version (stats de 1.5.0.001 : 20 défense, +30 vie et mana, 6,25 % de soin...). Inventés : la résurrection dans une coquille 3 s (1 min de recharge) et le bouclier d'énergie qui encaisse un coup (la barrière de 120 PV n'arrive qu'avec la refonte 2.0.3)."
+  },
+  "Wulfrum Acrobatics Pack": {
+    "verdict": "inventée",
+    "note": "Saut infini alimenté par des Energy Orbs (objet inventé) avec une fenêtre de plus en plus étroite : jamais. Ajouté en 2.0.1.001 comme grappin-fronde, qu'il est toujours."
+  },
+  "Yharon Soul Fragment": {
+    "verdict": "ambiance",
+    "note": "Phrase d'ambiance réécrite (« soul of a godlike phoenix » au lieu de « shard of a draconic Auric Soul ») ; matériau identique."
+  },
+  "Abyss Shell Fossil": {
+    "verdict": "inventée",
+    "note": "Familier escargot (réel, ajouté en 2.0.2.001) ; inventé : dans l'Abysse, il attire un Adult Eidolon Wyrm qui le dévore puis attaque le joueur. Le vrai réduit au contraire la détection par les créatures de l'Abysse."
+  },
+  "Forgotten Dragon Egg": {
+    "verdict": "inventée",
+    "note": "Aliment qui donne Exquisitely Stuffed jusqu'à la mort : jamais ; c'est l'objet du familier Akato depuis son ajout (1.4.2.101)."
+  },
+  "Geyser Shell": {
+    "verdict": "inventée",
+    "note": "Munition (balles) qui libère des bébés Flak Crab : jamais ; ajouté en 1.4.4.001 comme objet de familier (un petit flak hermit)."
+  },
+  "Wulfrum Lure": {
+    "verdict": "inventée",
+    "note": "Page vandalisée : « Wolf Ram Fishing Pole », canne à pêche rechargée par un « Blood orb ». Le vrai (2.0.1.001) consomme une batterie / Energy Core pour attirer les automates Wulfrum."
+  },
+  "Death Whistle": {
+    "verdict": "inventée",
+    "note": "Arme qui tire des notes de musique (Temporal Sadness, Confused) : jamais. Objet d'invocation du Ravager depuis toujours (ancien Ancient Medallion, renommé en 1.4.5.001)."
+  },
+  "Profaned Core": {
+    "verdict": "inventée",
+    "note": "Condition inventée : un Core dans 40 cases différentes de l'inventaire pour invoquer Providence. Le vrai s'utilise dans le Hallow ou l'Underworld (consommable puis non consommable dès 1.2.3.001)."
+  },
+  "Terminus": {
+    "verdict": "mélange",
+    "note": "Lancement du Boss Rush : infobulle de 2022. Inventés : le menu à deux choix, le clic droit qui invoque « Vision of the Tyrant » (boss inventé), l'obtention en battant La Ruga (boss inventé)."
+  },
+  "Cosmolight": {
+    "verdict": "ancienne version",
+    "note": "Avance immédiatement à l'aube, midi, crépuscule ou minuit (midi et minuit depuis 2.0.2.002), pas pendant un boss : fonctionnement d'avant la refonte 2.1.0 (accélération du temps tenue, gel du temps)."
+  },
+  "Disgusting Meat": {
+    "verdict": "homonyme",
+    "note": "Le Fandom décrit un matériau inventé (lâché par les zombies, l'Eater of Worlds, la Dragonfolly...) qui sert aux « Tainted Potions » inventées. Calamity a ajouté en 2.1.0 un objet du même nom qui retire les améliorations du joueur : en Full Fandom, ce devrait être le matériau du wiki, pas l'objet de Calamity."
+  },
+  "Wulfrum Digging Turtle": {
+    "verdict": "inventée",
+    "note": "Arme qui lance une tortue explosive contre les ennemis (clic droit : leurre au sol, 4 au plus) : jamais. Outil qui creuse un tunnel depuis son ajout (2.0.1.001)."
+  },
+  "Wulfrum Scaffold Kit": {
+    "verdict": "inventée",
+    "note": "Propulse le joueur vers le haut en posant 40 blocs sous lui : jamais. Pose des échafaudages temporaires depuis son ajout (2.0.1.001), 40 blocs par ferraille."
+  },
+  "Wulfrum Treasure Pinger": {
+    "verdict": "inventée",
+    "note": "Meuble qui consomme des Energy Orbs (objet inventé) pour marquer les coffres : jamais. Détecteur de minerais qui finit par casser depuis son ajout (2.0.1.001)."
+  },
+  "Tracking Disk": {
+    "verdict": "inventée",
+    "note": "Disque qui tourne autour d'un ennemi et se casse au bout de 4 coups : jamais. Disque qui tire des lasers depuis son ajout (1.4.5.001), renommé P-LSR: Aerial Tracker en 2.1.0."
+  },
+  "Blood Bath": {
+    "verdict": "ambiance",
+    "note": "Phrase ajoutée (« Whose blood will be spilt in the Bloodbath?... ») ; même arme."
+  },
+  "Eidolon Staff": {
+    "verdict": "addon",
+    "note": "Tir de lumière ancienne et d'amas de glace : ancienne version (2019). Le Juvenile Eidolon Wyrm invoqué (4 emplacements, amas de glace au clic droit) vient de Calamity: Community Remix, cité dans l'infobulle."
+  },
+  "Genesis": {
+    "verdict": "inventée",
+    "note": "Le Fandom en fait un objet d'invocation non consommable de « Purgatory Arbiter, Umbrus » (boss inventé), lâché par « Vision of the Tyrant » (inventé). Dans Calamity, Genesis est une arme à lasers (ancienne « Genisis », 2019 : rayon en Y et lasers)."
+  },
+  "Relic of Ruin": {
+    "verdict": "inventée",
+    "note": "Flèches profanées qui réduisent la défense : jamais. Éventail de lames de sable dans toutes les versions (16 puis 12 projectiles, tête chercheuse depuis 1.4.2.105)."
+  },
+  "Subsuming Vortex": {
+    "verdict": "ancienne version",
+    "note": "Version de 2020 (vortex géant et lent, tentacules exo qui frappent les ennemis proches) racontée autrement ; « autour du joueur tant qu'on le tient » et l'aspiration des ennemis sont des ajouts de rédaction. Refait en 2022-09 puis 2022-11 (clic gauche / clic droit)."
+  },
+  "The Dance of Light": {
+    "verdict": "ambiance",
+    "note": "Phrase d'ambiance remplacée par une parole de chanson (« I said ooh, I'm blinded by the lights ») ; arme identique (version de la refonte 1.4.4.002)."
+  },
+  "Yharim's Crystal": {
+    "verdict": "ambiance",
+    "note": "Phrase d'ambiance remplacée (« If you're seeing this, you lost the game ») ; même arme."
+  },
+  "Ark of the Cosmos": {
+    "verdict": "ambiance",
+    "note": "Infobulle de la refonte de 2022 (combo de 5 coups, ciseaux) ; seule la phrase « Don't run with it or bad things will happen » est ajoutée."
+  },
+  "Death's Ascension": {
+    "verdict": "ancienne version",
+    "note": "Version d'origine (2.0.1.001 à 2.0.1.005 : estoc qui arrache des âmes, clic droit = 5 projectiles en éventail, vérifié dans le code de 2.0.1.005). Refaite ensuite (faille entourée de faux)."
+  },
+  "Exoblade": {
+    "verdict": "mélange",
+    "note": "Explosion glacée quand un ennemi presque mort est touché : ancienne version (DraedonsExoblade, 2018 à 2022-07). Inventé : « une gerbe de rayons exo aux effets différents selon leur couleur » (rayons des composants, Terratome...) ; l'ancienne arme tirait un rayon exo et des comètes. Refaite en 2022-08 (rayons à tête chercheuse, ruée)."
+  },
+  "Phosphorescent Gauntlet": {
+    "verdict": "ambiance",
+    "note": "Phrase ajoutée (« Mythical tool of the forsaken fishron used to vaporize half of the universe's creators ») ; même arme."
+  },
+  "Stream Gouge": {
+    "verdict": "ancienne version",
+    "note": "Même mécanisme raconté autrement (clone de la lance qui devient un portail d'où sortent d'autres clones, tooltip de 1.4.3.001) ; « ignore les immunités » : réel à l'époque (1 frame d'immunité locale jusqu'à 1.5.0.001)."
+  },
+  "Violence": {
+    "verdict": "mélange",
+    "note": "Fourche qui reste près du curseur et déchiquette : ancienne version (1.5.0.001 à 2.1.0, avant le lancer au clic droit). Inventés : les « Violence Points » à dépenser en attaques puissantes."
+  },
+  "Wulfrum Screwdriver": {
+    "verdict": "inventée",
+    "note": "Le Fandom en fait une potion (debuff : -5 régénération, +1 perforation à tous les projectiles). Dans Calamity, c'est une épée courte (l'ancienne Wulfrum Blade, renommée et refaite en 2.0.1.001), qui lance des vis."
+  },
+  "Yateveo Bloom": {
+    "verdict": "inventée",
+    "note": "Lance qui frappe le sol et fait pousser des roses qui explosent en pétales (Poisoned, Venom) : jamais. Fléau de roses et estoc de lance fleurie depuis son ajout (1.4.2.104)."
+  },
+  "Clockwork Bow": {
+    "verdict": "inventée",
+    "note": "Tire des rouages, cumule les dégâts et lance un « Precision Blast » après 50 coups : jamais. Avant 1.5.1.001 : 10 à 18 flèches tombées du ciel ; depuis : arc qui charge jusqu'à six carreaux."
+  },
+  "Halibut Cannon": {
+    "verdict": "ambiance",
+    "note": "Phrase d'ambiance réécrite (« Yes, Im still overpowered, do you think im any less than that you fool? ») ; même arme."
+  },
+  "Heavenly Gale": {
+    "verdict": "ancienne version",
+    "note": "Version d'avant la refonte (flèches exo qui tombent au-dessus du curseur, tornades vertes à l'impact, 1.2.3.007 à 1.5.x), racontée autrement. Introuvable : « une grande entaille suivie d'éclairs célestes »."
+  },
+  "Marksman Bow": {
+    "verdict": "mélange",
+    "note": "Trois flèches à la fois : réel. Inventé : flèches en bois changées en « Marksman Arrows » qui ricochent sur des pièces ; elles deviennent des Jester's Arrows dans toutes les versions (ajout en 1.4.5.001)."
+  },
+  "The Hive": {
+    "verdict": "ancienne version",
+    "note": "Lance plusieurs sortes de roquettes au hasard : ancienne version (même chance pour chaque projectile depuis 1.1.7). Les « 51 types de roquettes » de la page sont invérifiables (probablement exagérés). Refait depuis (salve de 4 missiles, charge, nuke)."
+  },
+  "Bouncing Eyeball": {
+    "verdict": "mélange",
+    "note": "Œil qui rebondit, attaques furtives : réel. Inventé : « critique doublé pendant une Blood Moon » ; c'est le recul qui augmente."
+  },
+  "Metal Monstrosity": {
+    "verdict": "ambiance",
+    "note": "Phrase ajoutée (« Just looking at it makes you feel ill... ») ; arme de l'époque (avant le rééquilibrage 2.1.0)."
+  },
+  "Nanoblack Reaper": {
+    "verdict": "inventée",
+    "note": "Charge de 10 s qui lâche 75 lames par seconde, soin rapide quand elle n'est pas chargée, 575 lames en furtif : jamais. Avant 2.1.2, elle lançait des faux à tête chercheuse qui créaient des nanolames (clones en furtif depuis 1.5.1.001)."
+  },
+  "The Syringe": {
+    "verdict": "inventée",
+    "note": "Le Fandom en fait une potion (buff « Plagued Wrath » : dégâts, critique, vitesse, contreparties). Arme spy (seringue qui éclate en verre et cendres) depuis son ajout (1.4.2.106)."
+  },
+  "Atlas Munitions Beacon": {
+    "verdict": "ancienne version",
+    "note": "Infobulle détaillée d'origine (2.0.1.002 : caisse lâchée du ciel, canon, mode Overdrive à trois canons, surchauffe), simplifiée en 2.0.3.005 ; seuls les retours à la ligne manquent."
+  },
+  "Infected Remote": {
+    "verdict": "ancienne version",
+    "note": "Infobulle de 2020 (consomme toutes les places de serviteur, s'utilise depuis la barre rapide) ; Virili y est appelée « Plague Elemental ». Refaite en 2.0.1.002 (3 places)."
+  },
+  "Mutated Truffle": {
+    "verdict": "ancienne version",
+    "note": "Accessoire qui invoque un jeune Old Duke : ancienne version (refait en arme d'invocation en 2.0.3.005). « Sous 50 % de vie, plus rapide et nuages de gaz au coup » : introuvable dans le code ni dans les notes de version, invérifiable."
+  },
+  "Rusty Beacon Prototype": {
+    "verdict": "ancienne version",
+    "note": "Drone qui inflige Irradiated : version 2.0.1.003 (Irradiated au lieu de Sulphuric Poisoning) ; « suit lentement le curseur » : invérifiable (avant 2.0.1.002 il planait au-dessus des ennemis puis éclatait en éclats ; depuis, tourelle à impulsions)."
+  },
+  "Slime Puppet Staff": {
+    "verdict": "mélange",
+    "note": "Boules de slime qui suivent le curseur sans prendre de place : ancienne version. Inventé : « les boules se relient entre elles quand elles sont proches »."
+  },
+  "Warloks' Moon Fist": {
+    "verdict": "inventée",
+    "note": "Le Fandom en fait un accessoire de mêlée (Nightwither, 10 % de mort instantanée, +60 % de dégâts true melee...), assemblé à partir de lignes d'autres accessoires. Arme d'invocation (poing céleste) depuis son ajout (2.0.1.002)."
+  },
+  "Divine Intervention": {
+    "verdict": "inventée",
+    "note": "Épée pré-Hardmode lâchée par les Meteor Heads (étincelles, têtes de météore, buff de flamme sacrée, lancer en furtif) : n'a jamais existé dans Calamity. L'index la relie à tort au projectile HolyFlame (statut « renamed ») : c'est un objet entièrement nouveau à créer."
+  },
+  "Cosmic Shiv": {
+    "verdict": "mélange",
+    "note": "Ancienne version (rayon cosmique, barrage et pluie d'étoiles : 2020 à 2.0.1.005, portée en Full Fandom). Ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike), déjà implémentée dans le mod."
+  },
+  "Elemental Shiv": {
+    "verdict": "mélange",
+    "note": "Ancienne version de l'arme. Ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike), déjà implémentée dans le mod."
+  },
+  "Galileo Gladius": {
+    "verdict": "mélange",
+    "note": "Ancienne version (croissant de lune, planètes : 2020 à 2.0.1.005, portée en Full Fandom). Ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike), déjà implémentée dans le mod."
+  },
+  "Lucrecia": {
+    "verdict": "mélange",
+    "note": "Ancienne version (chaîne d'ADN, immunité en frappant : avant 2.0.4.001 ; aujourd'hui éclat de lumière noire et énergie). Ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike), déjà implémentée dans le mod."
+  },
+  "Submarine Shocker": {
+    "verdict": "mélange",
+    "note": "Ancienne version de l'arme. Ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike), déjà implémentée dans le mod."
+  },
+  "Spore Knife": {
+    "verdict": "mélange",
+    "note": "Épée courte de mêlée retirée en juin 2022 (nuages de spores), portée en Full Fandom ; refaite depuis en couteau de lancer rogue. Ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike), déjà implémentée dans le mod."
+  }
+}

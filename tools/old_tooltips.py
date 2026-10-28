@@ -4,8 +4,10 @@ page du Fandom décrit une ancienne version d'un objet ou invente.
 Instantanés : un commit par mois de décembre 2018 (début du dépôt) à fin 2022, plus 2.0.1.005 (3ec8f553ed, référence « abandon du
 wiki »). Pour chacun, chaque classe d'objet (Items/**.cs) -> nom affiché et infobulle (DisplayName/Tooltip.SetDefault,
 chaînes concaténées). Résultat : data/old_tooltips.json
-  {"snapshots": [{"commit", "date"}...], "items": {Classe: [[index d'instantané, nom, infobulle], ...]}}
-(une entrée seulement quand le texte change d'un instantané à l'autre).
+  {"snapshots": [{"commit", "date"}...], "items": {Classe: [[index d'instantané, nom, infobulle], ...]},
+   "strings": {Classe: [phrases du fichier, toutes versions]}}
+(une entrée seulement quand le texte change d'un instantané à l'autre ; « strings » rattrape les lignes ajoutées par
+ModifyTooltips).
 
 Usage : python tools/old_tooltips.py
 """
@@ -86,22 +88,26 @@ def tooltips_at(commit):
             name = call_strings(text, "DisplayName")
             if tooltip is None and name is None:
                 continue
-            found[m.group(1)] = (name or "", tooltip or "")
+            # Toutes les phrases du fichier : lignes ajoutées par ModifyTooltips (touches, charge, bonus d'armure...)
+            literals = {a or b for a, b in STRING_RE.findall(text) if " " in (a or b) and len(a or b) > 8}
+            found[m.group(1)] = (name or "", tooltip or "", literals)
     return found
 
 
 def main():
     snaps = snapshots()
-    items = {}
+    items, strings = {}, {}
     for index, snap in enumerate(snaps):
         found = tooltips_at(snap["commit"])
         print(f"{snap['date']} {snap['commit'][:10]} : {len(found)} objets", flush=True)
-        for cls, (name, tooltip) in found.items():
+        for cls, (name, tooltip, literals) in found.items():
             history = items.setdefault(cls, [])
             if not history or history[-1][1:] != [name, tooltip]:
                 history.append([index, name, tooltip])
+            strings.setdefault(cls, set()).update(literals)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    json.dump({"snapshots": snaps, "items": items}, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+    json.dump({"snapshots": snaps, "items": items, "strings": {k: sorted(v) for k, v in strings.items()}},
+              open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     print(f"{len(items)} classes -> {OUT}")
 
 
