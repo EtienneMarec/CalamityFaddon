@@ -157,6 +157,25 @@ class Corpus:
         return (found[1], found[2], found[3]) if found and best >= threshold else None
 
 
+def version_key(title):
+    return tuple(int(n) for n in re.findall(r"\d+", title.split(" ")[0])[:4])
+
+
+def load_patch_notes(gg_index):
+    """Lignes « Reworked » / « Renamed » des notes de version du wiki officiel, par objet cité : {nom en minuscules:
+    [(version, ligne)]}, dans l'ordre des versions."""
+    notes = {}
+    for title, name in sorted(((t, f) for t, f in gg_index.items() if re.match(r"^\d", t) and "VCMM" not in t
+                               and "music" not in t.lower()), key=lambda tf: version_key(tf[0])):
+        for line in open(os.path.join(WIKIGG, name), encoding="utf-8", errors="replace"):
+            if not re.search(r"\b(Reworked|Renamed)\b", line):
+                continue
+            clean = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", line.strip().lstrip("*")).strip()
+            for item in re.findall(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", line) or re.findall(r"(?:Reworked|Renamed) ([A-Z][\w' -]+?)(?: to |[,.])", line):
+                notes.setdefault(item.lower(), []).append((title, clean[:260]))
+    return notes
+
+
 def load_wikigg():
     index = json.load(open(os.path.join(WIKIGG, "index.json"), encoding="utf-8"))
     redirects = json.load(open(os.path.join(WIKIGG, "redirects.json"), encoding="utf-8"))
@@ -188,6 +207,7 @@ def main():
     strings = load_calamity_strings()
     glossary = json.load(open(os.path.join(ROOT, "tools", "glossary.json"), encoding="utf-8"))
     corpus = Corpus()
+    patch_notes = load_patch_notes(json.load(open(os.path.join(WIKIGG, "index.json"), encoding="utf-8")))
     gg_index, gg_find = load_wikigg()
     # Nom affiché passé -> classes qui l'ont porté (objets dont la classe a changé depuis : Astral Arcanum -> Radiance)
     by_old_name = {}
@@ -270,6 +290,9 @@ def main():
             "copied": sorted(copied),
             "fandom": fandom_tip, "wikiggTooltip": gg_tip, "code": current_tip,
             "history": history_section(gg_text)[:1500],
+            "patchNotes": [f"[{v}] {line}" for v, line in
+                           (patch_notes.get(entry["title"].lower(), []) + patch_notes.get((current_name or "").lower(), []))
+                           if version_key(v) > (2, 0, 1, 5) or r005 < MATCH_OLD][:4],
         })
 
     # Revue à la main (tools/diff_review.json) : verdict tranché et preuves
@@ -409,6 +432,8 @@ def write_report(results, armor, removed):
                     f.write("- Lignes introuvables dans le code : " + " / ".join(r["unknownLines"]) + "\n")
                 if r.get("note"):
                     f.write(f"- **Revue** : {r['note']}\n")
+                for note in dict.fromkeys(r.get("patchNotes", [])):
+                    f.write(f"- Note de version : {note}\n")
                 for line, where in r.get("elsewhere", {}).items():
                     copied = " — **recopiée d'un autre objet**" if line in r.get("copied", []) else ""
                     f.write(f"- « {line} » : ailleurs dans le code ({where}){copied}\n")
