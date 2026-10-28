@@ -338,7 +338,7 @@ Version du code la plus proche : 2021-02 (ressemblance 0.57) ; lignes encore pr�
 
 ### Terminus (SummonItems)
 
-Version du code la plus proche : 2019-10 (ressemblance 0.93) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 0.93) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : A ritualistic artifact, thought to have brought upon The End many millennia ago / Sealed away in the abyss, far from those that would seek to misuse it / Activates Boss Rush Mode, using it again will deactivate Boss Rush Mode / During the Boss Rush, all wires and wired devices will be disabled / Right click to summon the forgotten massacre
 - Officiel : Hold [use] to start or end the Boss Rush
@@ -630,7 +630,7 @@ Nom actuel : Sea Spirit Amulet. Version du code la plus proche : 2021-09 (ressem
 
 ### Acid Round (Ammo)
 
-Nom actuel : Bubonic Round. Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Nom actuel : Bubonic Round. Version du code la plus proche : 2019-02 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Explodes into acid that inflicts the plague / Does more damage the higher the target's defense
 - Officiel : Spreads the Plague on hit and ignores 10% of enemy defense
@@ -679,7 +679,7 @@ Version du code la plus proche : 2021-10 (ressemblance 1.0) ; lignes encore pré
 
 ### Anahita's Arpeggio (Weapons.Magic)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Casts slow-moving treble clefs that confuse enemies
 - Officiel : Holding [use] casts up to 6 treble clefs that orbit the player / Releasing [use] causes the treble clefs to converge at the cursor / After converging, treble clefs seek your cursor
@@ -1155,7 +1155,7 @@ Version du code la plus proche : 2022-02 (ressemblance 1.0) ; lignes encore pré
 
 ### Depth Crusher (Weapons.Melee)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2021-01 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Hitting enemies will inflict the crush depth debuff / The lower the enemies' defense, the more damage they take from this debuff / Right click to use without hammering down walls
 - Officiel : Tosses a heavy abyssal crusher that releases water energy upon hitting a tile / The crusher will ricochet off of tiles and enemies
@@ -1267,7 +1267,7 @@ Nom actuel : Sanctified Spark. Version du code la plus proche : 2019-08 (ressemb
 
 ### Entropic Claymore (Weapons.Melee)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2019-08 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Fires a spread of homing plasma balls
 - Officiel : Fires a spread of living plasma that swims through the air / Plasma will track your cursor or enemies near it, prioritizing which is closest / The plasma pierces, but will stop tracking after hitting the first enemy
@@ -1393,7 +1393,7 @@ Version du code la plus proche : 2022-02 (ressemblance 1.0) ; lignes encore pré
 
 ### Flash Round (Ammo)
 
-Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Gives off a concussive blast that confuses enemies in a large area for a short time
 - Officiel : A ricocheting bullet that deals more damage with each bounce / The damage bonus is 1.13x or +2 flat damage per bounce, depending on which is stronger
@@ -1526,7 +1526,7 @@ Version du code la plus proche : 2019-11 (ressemblance 1.0) ; lignes encore pré
 
 ### God's Bellows (Weapons.Ranged)
 
-Nom actuel : Dead Sun's Wind. Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Nom actuel : Dead Sun's Wind. Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : 70% chance to not consume gel
 - Officiel : Fires a concentrated blast of superheated cosmic plasma that explodes and can ricochet off blocks / Shots aggressively home in on enemies after being ricocheted / Consecutive hits cause larger explosions / Uses gel for ammo
@@ -1792,7 +1792,7 @@ Nom actuel : Cleansing Jelly. Version du code la plus proche : 2018-12 (ressembl
 
 ### Mana Polarizer (Accessories)
 
-Version du code la plus proche : 2020-08 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Increases max mana by 50 and magic damage by 6% / Life regen lowered by 3 if mana is above 50% of its maximum / Grants spectre healing, the amount healed scales with your mana / The healing only works while holding a magic weapon / The more mana you have, the more you heal
 - Officiel : Increases maximum mana by 40 / Provides life regeneration and magic damage that scales based on how much mana you have / Lower mana means more life regeneration, but less magic damage / These scale from -2 to +2 HP/s, and 15% to 5% damage / The provided regeneration is halved when under Mana Sickness / Magic projectiles steal enemy life
@@ -1904,7 +1904,7 @@ Version du code la plus proche : 2021-04 (ressemblance 1.0) ; lignes encore pré
 
 ### Oblivion (Weapons.Melee)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2020-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Fires brimstone lasers when enemies are near / A very agile yoyo
 - Officiel : Reach: 32 tiles / Speed: 36 / Duration: 15 seconds / A highly unstable yoyo that slowly releases homing brimstone hellblasts / Enemy hits with the yoyo charge its power, greatly increasing the fire rate of the hellblasts / At maximum charge, the yoyo bursts into brimstone darts and resets its flight duration / Striking an enemy at maximum charge will overload the yoyo, causing it to release all stored up power and shatter / Shattering the yoyo deals immense damage but leaves it unable to be used for several seconds
@@ -1967,7 +1967,7 @@ Version du code la plus proche : 2020-06 (ressemblance 1.0) ; lignes encore pré
 
 ### Pandemic (Weapons.Melee)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2020-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Fires plague seekers when enemies are near / A very agile yoyo
 - Officiel : Reach: 30 tiles / Speed: 24 / Duration: 15 seconds / Each unique enemy struck that is infected with Plague increases the yoyo's size, power, and airtime / Refreshes Plague duration if a target is already infected / Counterweights inflict Plague and move twice as fast
@@ -2339,7 +2339,7 @@ Version du code la plus proche : 2020-09 (ressemblance 1.0) ; lignes encore pré
 
 ### Speed Blaster (Weapons.Ranged)
 
-Version du code la plus proche : 2019-08 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Shoots a string of paint blasts
 - Officiel : Rapidly fires phosphorescent paintball shots / Press [open] to eject a powerful paint stream of a different color / Using this ability rapidly propels you in the direction you are moving / This ability has a 5 second cooldown / During this cooldown, you fire more rapidly with greater accuracy
@@ -2353,7 +2353,7 @@ Version du code la plus proche : 2019-08 (ressemblance 1.0) ; lignes encore pré
 
 ### Spirit Glyph (Accessories)
 
-Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Whenever your minions hit an enemy you will gain a random buff / These buffs will either boost your defense, summon damage, or life regen for a while
 - Officiel : Minion attacks provide various buffs / Hold Shift for moreSpirit Power grants 10% increased summon damage / Spirit Defense grants 2 defense / Spirit Regen grants 0.5 HP/s life regeneration
@@ -2430,7 +2430,7 @@ Version du code la plus proche : 2019-02 (ressemblance 1.0) ; lignes encore pré
 
 ### Stellar Contempt (Weapons.Melee)
 
-Version du code la plus proche : 2019-08 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Lunar flares rain down on enemy hits
 - Officiel : Throws a heavy, gravity-affected hammer that will return to you after striking an enemy / Consecutive hits call down more and more lunar flares from the sky / After hitting five times, the hammer supercharges with lunar energy to pulverize your target
@@ -2626,7 +2626,7 @@ Version du code la plus proche : 2019-06 (ressemblance 1.0) ; lignes encore pré
 
 ### Unstable Granite Core (Accessories)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2019-06 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Three sparks are released on critical hits
 - Officiel : Gain an energy field that periodically zaps enemies with arcing energy / The arcing energy ignores a substantial amount of enemy defense
@@ -3151,7 +3151,7 @@ Nom actuel : Blighted Cleaver. Version du code la plus proche : 2019-08 (ressemb
 
 ### Void of Calamity (Accessories)
 
-Version du code la plus proche : 2020-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.33
+Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.33
 
 - Fandom : Cursed? Reduces damage reduction by 10% / 15% increase to all damage / Brimstone fire rains down while invincibility is active
 - Officiel : 12% increased damage / Calamitous flames rain down while invincible
@@ -3504,7 +3504,7 @@ Version du code la plus proche : 2020-02 (ressemblance 1.0) ; lignes encore pré
 
 ### Hadal Mantle (Accessories.Wings)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2020-08 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Fueled by the fury of the depths / 5% increased damage while wearing the Hydrothermic Armor
 - Officiel : Allows flight and slow fall / Max horizontal speed: Great / Max vertical speed: Good / Horizontal acceleration: Great / Vertical acceleration: Good / Fueled by the fury of the depths
@@ -3574,7 +3574,7 @@ Version du code la plus proche : 2021-03 (ressemblance 1.0) ; lignes encore pré
 
 ### Martian Distress Beacon (SummonItems)
 
-Nom actuel : Martian Distress Remote. Version du code la plus proche : 2022-11 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Nom actuel : Martian Distress Remote. Version du code la plus proche : 2022-01 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Summons the Martian Madness / Not consumable
 - Officiel : Summons the Martian Madness
@@ -3861,7 +3861,7 @@ Version du code la plus proche : 2022-01 (ressemblance 1.0) ; lignes encore pré
 
 ### Vehemence (Weapons.Magic)
 
-Version du code la plus proche : 2021-12 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Casts intense bolts of hellish power that explode into skulls / Direct hits inflict Demon Flames for an extended period of time
 - Officiel : Casts intense bolts of hellish power that explode into skulls
@@ -3889,7 +3889,7 @@ Version du code la plus proche : 2022-02 (ressemblance 1.0) ; lignes encore pré
 
 ### Yharon's Kindle Staff (Weapons.Summon)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2022-01 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Summons a fiery draconid to fight for you / Requires 5 minion slots to use
 - Officiel : Summons a fiery draconid to fight for you
@@ -4120,7 +4120,7 @@ Version du code la plus proche : 2018-12 (ressemblance 1.0) ; lignes encore pré
 
 ### Spiteful Candle (Placeables)
 
-Version du code la plus proche : 2020-09 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.67
+Version du code la plus proche : 2022-07 (ressemblance 1.0) ; lignes encore présentes aujourd'hui : 0.67
 
 - Fandom : When placed, nearby enemies take 5% more damage. / This extra damage bypasses enemy damage reduction and defense / Its hateful glow flickers with ire
 - Officiel : [open] when placed to deal 1.07x damage to all enemies / The extra 0.07x damage bypasses enemy defense and damage reduction / This cannot be stacked with other candle buffs / Its hateful glow flickers with ire
@@ -4353,7 +4353,7 @@ Version du code la plus proche : 2021-01 (ressemblance 0.77) ; lignes encore pr�
 
 ### Voidragon (Weapons.Ranged)
 
-Version du code la plus proche : 2022-07 (ressemblance 0.76) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-03 (ressemblance 0.76) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : 75% chance to not consume ammo / Fires void blasts that explode every other shot
 - Officiel : Loads a 50 round magazine of alternating bullets and concentrated void blasts / When all bullets are fired, the gun unleashes an enormous jet of abyssal fire / The power of the abyssal fire scales with the amount of shots hit / 66% chance to save ammo / Fade to black
@@ -4541,7 +4541,7 @@ Version du code la plus proche : None (ressemblance 0.0) ; lignes encore présen
 
 ### Eidolon Staff (Weapons.Magic)
 
-Version du code la plus proche : 2022-07 (ressemblance 0.52) ; lignes encore présentes aujourd'hui : 0.17
+Version du code la plus proche : 2019-08 (ressemblance 0.52) ; lignes encore présentes aujourd'hui : 0.17
 
 - Fandom : The power of an ancient cultist resonates within this staff / Fires a spread of ancient light and has a chance to fire a spinning ice cluster / Summons a Juvenile Eidolon Wyrm to fight for you which takes up 4 minion slots / Right click to fire out Ice Clusters / When an Ice Cluster intersects with the Wyrm, it explodes into homing icicles / Only one wyrm can exist at a time Calamity: Community Remix
 - Officiel : Fires a spread of ancient light and a spinning ice cluster
@@ -4563,3 +4563,144 @@ Bloodstained Glove, Coin of Deceit, Cryo Stone, Dragon Scales, Electrician's Glo
 ## Formulation seulement (le Fandom suit le code actuel)
 
 Serpentine, Quagmire, Archerfish, Daemon's Flame, Phangasm
+
+## Bonus de set d'armure (lignes du Fandom qui ne sont plus vraies)
+
+### Aerospec armor (ancienne version)
+
+- ancienne version (2021-12) : Helmet:' 11% increased minion damage and +1 max minion
+
+### Auric Tesla armor (ancienne version)
+
+- introuvable dans le code : Uelibloom, Bloodflare, God Slayer, and Silva armor effects
+- introuvable dans le code : Space Helmet': +6 max minions and 75% increased minion damage
+- **Revue** : Bonus de set d'avant la refonte (effets des sets Tarragon, Bloodflare, God Slayer et Silva réunis), avec les noms Tarragon/Uelibloom échangés par le Fandom ; valeurs du casque d'invocateur de l'époque.
+
+### Bloodflare armor (ancienne version)
+
+- ancienne version (2018-12) : Enemies killed during a Blood Moon have a much higher chance to drop Blood Orbs
+- ancienne version (2018-12) : True melee strikes will heal you
+- ancienne version (2021-07) : Wyvern Helm': 50% increased minion damage and +3 max minions
+- ancienne version (2019-02) : At 90% life and above you gain 10% increased minion damage
+- ancienne version (2019-02) : At 50% life and below you gain 20 defense and 2 life regen
+- ancienne version (2019-02) : Imp Mask': Being over 80% life boosts your defense by 30 and rogue crit by 5%
+- ancienne version (2019-02) : Being below 80% life boosts your rogue damage by 10%
+- ancienne version (2019-02) : rogue critical strikes have a 50% chance to heal you
+
+### Brimflame armor (ancienne version)
+
+- ancienne version (2020-05) : Grants an additional 15% increased damage and magic crit
+- ancienne version (2020-04) : While under this effect, your damage is significantly boosted
+- ancienne version (2020-04) : However, this comes at the cost of rapid life loss and no mana regeneration
+- ancienne version (2020-04) : This can be toggled off, however, a brimstone frenzy has a 30 second cooldown
+- introuvable dans le code : Press [Armor Set Bonus] to trigger a brimflame frenzy effect
+- **Revue** : Frénésie de Brimflame sur touche (2020) : ancienne version ; la ligne « Press [Armor Set Bonus]... » est le raccourci ajouté par le code.
+
+### Daedalus armor (ancienne version)
+
+- ancienne version (2021-04) : Reflected projectiles deal 50% less damage to you
+- ancienne version (2018-12) : You have a 10% chance absorb physical attacks and projectiles when hit
+- ancienne version (2018-12) : If you absorb an attack you are healed for 1/2 of that attack's damage
+- ancienne version (2021-01) : Mask': +20% increased minion damage and +2 max minions
+- introuvable dans le code : Headgear': +5% ranged damage
+- **Revue** : Absorption des attaques, réflexion, bonus par casque : ancienne version (2018-2021). « Headgear: +5% ranged damage » : invérifiable (valeur du casque de l'époque).
+
+### Demonshade armor (ancienne version)
+
+- ancienne version (2021-01) : 100% increased minion damage and +10 max minions
+- ancienne version (2018-12) : All attacks inflict the demon flame debuff
+- ancienne version (2018-12) : A friendly red devil follows you around
+- ancienne version (2019-04) : This makes them do 25% more damage but they also take 125% more damage
+
+### Desert Prowler armor (ancienne version)
+
+- introuvable dans le code : Ranged attacks deal an additional 1 flat damage
+- introuvable dans le code : Double tap down to activate Sandsmoke Bomb.
+- **Revue** : Ancien bonus (dégâts fixes en plus pour les attaques à distance, bombe de fumée). Formulations invérifiables : « +1 flat damage », « Double tap down to activate Sandsmoke Bomb » (la bombe se déclenche aujourd'hui par une touche).
+
+### Empyrean armor (ancienne version)
+
+- ancienne version (2018-12) : Imbued with cosmic wrath and rage when you are damaged
+
+### Fathom Swarmer armor (ancienne version)
+
+- ancienne version (2018-12) : 10% increased minion damage and +2 max minions
+
+### Fearmonger armor (ancienne version)
+
+- ancienne version (2020-06) : 20% increased minion damage and +1 max minions
+- ancienne version (2020-08) : The minion damage nerf while wielding weaponry is reduced
+- introuvable dans le code : All minion attacks grant regeneration
+- **Revue** : +20 % dégâts des serviteurs et +1 serviteur, pénalité réduite avec une arme (2020) : ancienne version. « All minion attacks grant regeneration » : invérifiable.
+
+### Forbidden Circlet (ancienne version)
+
+- ancienne version (2020-05) : rogue and summon attacks will scale off of the stat with a higher boost
+
+### God Slayer armor (ancienne version)
+
+- ancienne version (2021-07) : Allows you to dash for an immense distance in 8 directions
+- ancienne version (2018-12) : Taking over 80 damage in one hit will cause you to release a swarm of high-damage god killer darts
+- ancienne version (2018-12) : Enemies take a lot of damage when they hit you
+- ancienne version (2018-12) : An attack that would deal 80 damage or less will have its damage reduced to 1
+- ancienne version (2021-04) : Helmet': You fire a god killer shrapnel round while firing ranged weapons every 2.5 seconds
+- ancienne version (2019-02) : Mask': While at full HP all of your rogue stats are boosted by 10%
+- ancienne version (2018-12) : If you take over 80 damage in one hit you will be given extra immunity frames
+- introuvable dans le code : Press [God Slayer Dash] while holding down the movement keys in the direction you want to dash
+- **Revue** : Ruée en 8 directions, fléchettes, dégâts réduits à 1 sous 80, bonus par casque : ancienne version (2018-2021) ; « Press [God Slayer Dash]... » est le raccourci ajouté par le code.
+
+### Hydrothermic Armor (ancienne version)
+
+- ancienne version (2021-01) : Mask': 5% increased magic damage and 15% reduced mana usage
+- ancienne version (2021-01) : Helmet': 40% increased minion damage and +2 max minions
+
+### Mollusk armor (ancienne version)
+
+- ancienne version (2019-04) : Two shellfishes aid you in combat
+
+### Omega Blue armor (ancienne version)
+
+- introuvable dans le code : Press [Armor Set Bonus] to activate abyssal madness for 5 seconds
+- **Revue** : « Press [Armor Set Bonus] to activate abyssal madness for 5 seconds » : raccourci du code, ancienne version du bonus.
+
+### Plague Reaper armor (ancienne version)
+
+- ancienne version (2020-01) : Enemies receive 10% more damage from ranged projectiles when afflicted by the Plague
+- ancienne version (2020-01) : Getting hit causes the plague cinders to rain from above
+- ancienne version (2020-01) : Press the [Armor Set Bonus] key to blind yourself for 5 seconds but massively boost your ranged damage
+
+### Plaguebringer armor (ancienne version)
+
+- ancienne version (2020-06) : Grants a plague dash to ram enemies and afflict them with the plague
+- ancienne version (2020-06) : Summons a lil’ plaguebringer to protect you and empower nearby minions
+- ancienne version (2019-02) : +3 max minions
+
+### Prismatic armor (ancienne version)
+
+- ancienne version (2020-06) : +40 max mana and 15% reduced mana cost
+
+### Reaver armor (ancienne version)
+
+- ancienne version (2021-01) : Helm': +10 defense and +3 life regen
+- ancienne version (2021-01) : All attacks have a small chance to steal life and speed up the rate of life regen
+- ancienne version (2021-01) : Enemy damage is reflected and summons a thorn spike
+- ancienne version (2021-01) : Reaver Rage has a 25% chance to activate when you are damaged
+- ancienne version (2021-01) : Headgear': Causes nearby treasure to sparkle
+- ancienne version (2021-01) : Increased item grab range and block placement range
+- ancienne version (2021-01) : Mining tiles restores breath while underwater
+- ancienne version (2021-01) : Summons a reaver orb to light up the area around you
+
+### Tarragon armor (ancienne version)
+
+- ancienne version (2018-12) : Amount healed is based on projectile damage
+- ancienne version (2021-07) : Horned Helm': 50% increased minion damage and +3 max minions
+- ancienne version (2019-02) : While under effects of a debuff you gain 10% increased rogue damage
+
+### Umbraphile armor (ancienne version)
+
+- ancienne version (2019-12) : Penumbra potions always build stealth at max effectiveness
+
+### Gem Tech armor (reformulation)
+
+- introuvable dans le code : A grand total of six exquisitely crafted gem fragments, each one an embodiment of one of the many diverse and distinct classes within the realm of magical and combative arts, along with a singularly unique and multifaceted base gem, gracefully and effortlessly orbit around you in an entrancing and mesmerizing display of arcane prowess and mysticism. These gems are far from being mere ornamental decorations; they are imbued with potent and formidable abilities and powers, each specific to their respective classes. However, be forewarned, for there exists a perilous risk associated with these precious gems. Should you, in the heat of battle, sustain a significant and grievous amount of damage—specifically, more than 100 damage from a single, devastating hit—you will face the unfortunate consequence of losing one of these invaluable gems. The particular gem that will be lost corresponds directly and unequivocally to the class of the most recent ability, skill, or weapon that you had employed prior to the impact. In the event that the specific class gem that ought to be lost has already been forfeited in a previous encounter or mishap, the highly valuable and versatile base gem will be sacrificed in its stead. Upon the unfortunate loss of a gem, it does not simply vanish into the ether, dissipating into nothingness, but rather dramatically and forcefully breaks off from its orbit around you, and with a relentless and aggressive determination, homes in on the nearest enemy or fearsome boss, provided one is within the vicinity. This homing mechanism ensures that the gem seeks out and targets the closest threat with unerring accuracy. When this gem strikes its designated target, it delivers a catastrophic and devastating blow, inflicting a base damage of a staggering and formidable 40,000, leaving a lasting impact on the foe. Once a gem is lost, it is not gone forever into the void but instead enters a temporary state of dormancy, a period of absence, reappearing and rejoining the orbit around you after a precisely measured and calculated duration of 30 seconds. Each gem carries its own unique set of enhancements and abilities, tailored to augment and bolster the capabilities of its respective class. For instance, the vibrant and fiery red gem bestows an additional 130 maximum stealth, significantly bolsters rogue-related statistics and attributes, and ensures that stealth is only expended through the use of rogue-specific weapons, thereby enhancing the efficacy and potency of rogue actions. The radiant and luminous yellow gem, on the other hand, serves to enhance melee capabilities, providing increased melee statistics and causing melee attacks to release harmful and damaging shards upon hitting their targets. This effect comes with a cooldown period, a brief interval before it can be activated again. Notably, this cooldown is significantly shorter for pure melee attacks, thus favoring direct and unadulterated melee combat. The verdant and vibrant green gem is designed to augment ranged combat capabilities. It provides increased ranged statistics and triggers swift-flying flechettes that hone in on and damage enemies when they are struck by ranged projectiles. This effect ensures that enemies are continually harassed and damaged by additional projectiles, enhancing the overall effectiveness of ranged attacks. The serene and tranquil blue gem is a boon for summoners, granting an additional four maximum minions, thereby expanding the summoner's arsenal, increasing minion damage, and mitigating the penalty typically associated with summoner items when wielding a non-summoner weapon. This gem thus enhances the versatility and adaptability of summoners in combat. The mystical and enigmatic violet gem is tailored to enhance magical prowess. It provides an extra 100 maximum mana, boosting magic-related statistics and attributes, and enables rapid mana regeneration when holding a non-magical weapon. This effect ensures that mages can quickly replenish their mana reserves, maintaining their ability to cast powerful spells. Lastly, the delicate and multifaceted pink base gem offers a comprehensive suite of benefits, including an additional 75 defense, enhanced damage reduction, increased movement speed, improved jump speed, and a bonus of 2 life regeneration. This gem serves as a foundation, providing overall enhancements that benefit the wielder in various aspects of combat and survival. In the extraordinary and rare event that all six gems are present, active, and orbiting around you simultaneously, a special and potent effect is triggered. Striking a target with any weapon will grant you an additional 2 life regeneration for a duration of 8 seconds. This beneficial effect is further amplified to 3 life regeneration if, during this 8-second window, you utilize a weapon from a different class, for a period of 2.5 seconds. This synergistic effect encourages versatility and adaptability in combat, rewarding those who skillfully switch between different weapon classes.
+- **Revue** : Le setbonus est réécrit en un long pavé grandiloquent (vandalisme de forme), mais décrit le vrai bonus : six gemmes de classe et une gemme de base, perte d'une gemme au-delà de 100 dégâts d'un coup, gemme qui frappe pour 40 000, retour après 30 s, bonus par gemme.

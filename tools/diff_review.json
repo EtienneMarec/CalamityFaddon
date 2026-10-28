@@ -311,5 +311,37 @@
   "Havoc's Breath": {
     "verdict": "reformulation",
     "note": "Page sans infobulle : lance-flammes de Brimstone Flames, même principe aujourd'hui (rééquilibré : 2 puis 4 flammes par tir, cône)."
+  },
+  "Auric Tesla armor": {
+    "verdict": "ancienne version",
+    "note": "Bonus de set d'avant la refonte (effets des sets Tarragon, Bloodflare, God Slayer et Silva réunis), avec les noms Tarragon/Uelibloom échangés par le Fandom ; valeurs du casque d'invocateur de l'époque."
+  },
+  "Brimflame armor": {
+    "verdict": "ancienne version",
+    "note": "Frénésie de Brimflame sur touche (2020) : ancienne version ; la ligne « Press [Armor Set Bonus]... » est le raccourci ajouté par le code."
+  },
+  "Daedalus armor": {
+    "verdict": "ancienne version",
+    "note": "Absorption des attaques, réflexion, bonus par casque : ancienne version (2018-2021). « Headgear: +5% ranged damage » : invérifiable (valeur du casque de l'époque)."
+  },
+  "Desert Prowler armor": {
+    "verdict": "ancienne version",
+    "note": "Ancien bonus (dégâts fixes en plus pour les attaques à distance, bombe de fumée). Formulations invérifiables : « +1 flat damage », « Double tap down to activate Sandsmoke Bomb » (la bombe se déclenche aujourd'hui par une touche)."
+  },
+  "Fearmonger armor": {
+    "verdict": "ancienne version",
+    "note": "+20 % dégâts des serviteurs et +1 serviteur, pénalité réduite avec une arme (2020) : ancienne version. « All minion attacks grant regeneration » : invérifiable."
+  },
+  "Gem Tech armor": {
+    "verdict": "reformulation",
+    "note": "Le setbonus est réécrit en un long pavé grandiloquent (vandalisme de forme), mais décrit le vrai bonus : six gemmes de classe et une gemme de base, perte d'une gemme au-delà de 100 dégâts d'un coup, gemme qui frappe pour 40 000, retour après 30 s, bonus par gemme."
+  },
+  "God Slayer armor": {
+    "verdict": "ancienne version",
+    "note": "Ruée en 8 directions, fléchettes, dégâts réduits à 1 sous 80, bonus par casque : ancienne version (2018-2021) ; « Press [God Slayer Dash]... » est le raccourci ajouté par le code."
+  },
+  "Omega Blue armor": {
+    "verdict": "ancienne version",
+    "note": "« Press [Armor Set Bonus] to activate abyssal madness for 5 seconds » : raccourci du code, ancienne version du bonus."
   }
 }

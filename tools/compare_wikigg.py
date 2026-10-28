@@ -123,9 +123,11 @@ def numbers(text):
 class Corpus:
     """Toutes les phrases écrites dans le code de Calamity (data/old_strings.json), avec recherche approximative."""
 
-    def __init__(self):
-        path = os.path.join(ROOT, "data", "old_strings.json")
-        first = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    def __init__(self, first=None):
+        """first : {phrase: [date, fichier]} ; par défaut data/old_strings.json."""
+        if first is None:
+            path = os.path.join(ROOT, "data", "old_strings.json")
+            first = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
         # [date, fichier] (ancien format : date seule)
         self.phrases = [(norm(strip_markup(p)), v[0] if isinstance(v, list) else v, p, v[1] if isinstance(v, list) else "")
                         for p, v in first.items()]
@@ -135,8 +137,9 @@ class Corpus:
                 if len(w) > 3:
                     self.words.setdefault(w, []).append(i)
 
-    def find(self, line):
+    def find(self, line, threshold=None):
         """(date, phrase, fichier) de la phrase du code la plus proche de la ligne, ou None."""
+        threshold = LINE_ELSEWHERE if threshold is None else threshold
         text = norm([line])
         words = {w for w in text.split() if len(w) > 3}
         counts = {}
@@ -151,7 +154,7 @@ class Corpus:
             r = ratio(text, self.phrases[i][0])
             if r > best:
                 best, found = r, self.phrases[i]
-        return (found[1], found[2], found[3]) if found and best >= LINE_ELSEWHERE else None
+        return (found[1], found[2], found[3]) if found and best >= threshold else None
 
 
 def load_wikigg():
@@ -267,6 +270,7 @@ def main():
 
     # Revue à la main (tools/diff_review.json) : verdict tranché et preuves
     review = json.load(open(os.path.join(ROOT, "tools", "diff_review.json"), encoding="utf-8"))
+    armor = compare_set_bonuses(index, glossary, corpus, strings, gg_index, gg_find, review)
     for r in results:
         if r["title"] in review:
             r["auto"] = r["verdict"]
@@ -275,7 +279,7 @@ def main():
     # Pages revues à la main sans écart d'infobulle détecté (pas d'infobulle sur le Fandom, page qui invente ailleurs)
     compared = {r["title"] for r in results}
     for title, item in review.items():
-        if title.startswith("_") or title in compared:
+        if title.startswith("_") or title in compared or any(a["title"] == title for a in armor):
             continue
         results.append({"title": title, "class": "", "category": "", "wikigg": None, "verdict": item["verdict"],
                         "similarity": None, "bestOld": None, "bestOldDate": None, "current": None, "change": None,
@@ -284,7 +288,43 @@ def main():
     results.sort(key=lambda r: (r["verdict"], r["category"], r["title"]))
     os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
     json.dump(results, open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    write_report(results)
+    write_report(results, armor)
+
+
+def compare_set_bonuses(index, glossary, corpus, strings, gg_index, gg_find, review):
+    """Bonus de set des pages d'armure (champ setbonus) : chaque ligne du Fandom est-elle encore vraie (wiki officiel,
+    localisation actuelle), d'une version passée (corpus du code) ou introuvable ?"""
+    # Textes actuels de Calamity (localisation 2.2.2), cherchés comme le corpus
+    today_corpus = Corpus({line: ["2.2.2", key] for key, value in strings.items() if isinstance(value, str)
+                           for line in value.split("\n") if line.strip()})
+    sets = []
+    for entry in index.values():
+        if entry.get("kind") != "content" or entry.get("status") not in ("official", "renamed", "group"):
+            continue
+        text = page_text(os.path.join(FANDOM, entry["file"])) or page_text(os.path.join(EXTRA, entry["file"]))
+        bonus = (infobox(text) or {}).get("setbonus")
+        if not bonus:
+            continue
+        gg_title = gg_find(entry["title"])
+        gg_bonus = (infobox(page_text(os.path.join(WIKIGG, gg_index[gg_title]))) or {}).get("setbonus") if gg_title else None
+        today = [norm([line]) for line in strip_markup(gg_bonus)]
+        lines = [line for line in strip_markup(unvandalize(bonus, glossary)) if not re.match(r"^[\w' ]+:$", line)]
+        old_lines, unknown = [], []
+        for line in lines:
+            n = norm([line])
+            if max((ratio(n, t) for t in today), default=0.0) >= LINE_KNOWN or today_corpus.find(line, LINE_KNOWN):
+                continue
+            hit = corpus.find(line)
+            if hit:
+                old_lines.append((line, hit[0]))
+            else:
+                unknown.append(line)
+        if not old_lines and not unknown:
+            continue
+        verdict = review.get(entry["title"], {}).get("verdict") or ("à vérifier" if unknown else "ancienne version")
+        sets.append({"title": entry["title"], "wikigg": gg_title, "verdict": verdict, "old": old_lines, "unknown": unknown,
+                     "note": review.get(entry["title"], {}).get("note", "")})
+    return sorted(sets, key=lambda r: (r["verdict"], r["title"]))
 
 
 VERDICTS = [
@@ -304,7 +344,7 @@ VERDICTS = [
 ]
 
 
-def write_report(results):
+def write_report(results, armor):
     by = {}
     for r in results:
         by.setdefault(r["verdict"], []).append(r)
@@ -336,7 +376,17 @@ def write_report(results):
         for verdict, title in VERDICTS[9:]:
             names = ", ".join(r["title"] for r in by.get(verdict, []))
             f.write(f"\n## {title}\n\n{names}\n")
+        f.write("\n## Bonus de set d'armure (lignes du Fandom qui ne sont plus vraies)\n")
+        for r in armor:
+            f.write(f"\n### {r['title']} ({r['verdict']})\n\n")
+            for line, date in r["old"]:
+                f.write(f"- ancienne version ({date}) : {line}\n")
+            for line in r["unknown"]:
+                f.write(f"- introuvable dans le code : {line}\n")
+            if r["note"]:
+                f.write(f"- **Revue** : {r['note']}\n")
     print(f"{len(results)} écarts : " + ", ".join(f"{k} {len(v)}" for k, v in by.items()))
+    print(f"{len(armor)} sets d'armure : " + ", ".join(f"{v} {sum(1 for r in armor if r['verdict'] == v)}" for v in sorted({r['verdict'] for r in armor})))
 
 
 if __name__ == "__main__":
