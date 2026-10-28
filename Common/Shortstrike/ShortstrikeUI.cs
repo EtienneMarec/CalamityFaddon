@@ -91,9 +91,8 @@ namespace CalamityFandom.Common.Shortstrike
                 ratio.Y = FandomClientConfig.DefaultShortstrikePosY;
             Vector2 screenPos = new((int)(ratio.X * 0.01f * Main.screenWidth), (int)(ratio.Y * 0.01f * Main.screenHeight));
 
-            float pulse = modPlayer.Full && frame == Frames - 1 ? 0.85f + 0.15f * (float)Math.Sin(Main.GlobalTimeWrappedHourly * 6f) : 1f;
             var source = new Rectangle(0, frame * frameHeight, texture.Width, frameHeight);
-            Main.spriteBatch.Draw(texture, screenPos + shake, source, Color.White * pulse, 0f, source.Size() / 2f, Scale, SpriteEffects.None, 0f);
+            Main.spriteBatch.Draw(texture, screenPos + shake, source, Color.White, 0f, source.Size() / 2f, Scale, SpriteEffects.None, 0f);
 
             // Survol : texte ; glisser pour déplacer (comme les jauges de Calamity)
             Rectangle area = Utils.CenteredRectangle(screenPos, new Vector2(texture.Width, frameHeight) * Scale);

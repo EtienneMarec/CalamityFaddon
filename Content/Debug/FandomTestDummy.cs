@@ -1,6 +1,8 @@
 using CalamityMod.Systems.Collections;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Terraria;
+using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -27,7 +29,6 @@ namespace CalamityFandom.Content.Debug
         {
             NPC.width = 36;
             NPC.height = 96;
-            NPC.scale = 2f;
             NPC.lifeMax = Life;
             NPC.damage = 0;
             NPC.defense = 0;
@@ -60,9 +61,20 @@ namespace CalamityFandom.Content.Debug
 
         public override bool CanHitPlayer(Player target, ref int cooldownSlot) => false;
 
-        public override bool? CanBeHitByItem(Player player, Item item) => true;
+        // Pas de « true » forcé ici : il passerait outre l'immunité après un coup (un estoc touchait 4 fois par passage)
 
-        public override bool? CanBeHitByProjectile(Projectile projectile) => projectile.friendly ? true : null;
+        public override bool PreDraw(SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
+        {
+            // Image vanilla étirée sur la hitbox, posée au sol : l'agrandissement par NPC.scale la laissait deux fois
+            // plus petite que la hitbox
+            Texture2D texture = TextureAssets.Npc[Type].Value;
+            Rectangle frame = NPC.frame.Height > 0 ? NPC.frame : texture.Frame(1, Main.npcFrameCount[Type]);
+            float scale = NPC.height / (float)frame.Height;
+            Vector2 origin = new(frame.Width / 2f, frame.Height);
+            spriteBatch.Draw(texture, NPC.Bottom - screenPos + new Vector2(0f, NPC.gfxOffY), frame, NPC.GetAlpha(drawColor), 0f, origin,
+                scale, NPC.spriteDirection == 1 ? SpriteEffects.FlipHorizontally : SpriteEffects.None, 0f);
+            return false;
+        }
     }
 
     /// <summary>Objet de debug : clic gauche = pose un mannequin au curseur, clic droit = retire tous les mannequins.</summary>

@@ -24,6 +24,9 @@ namespace CalamityFandom.Content.Legacy.Projectiles.Melee
             Projectile.ownerHitCheck = true;
             Projectile.timeLeft = 360;
             Projectile.hide = true;
+            // Un coup par estoc et par ennemi, comme les épées courtes de Calamity (sans ça : aller et retour)
+            Projectile.usesLocalNPCImmunity = true;
+            Projectile.localNPCHitCooldown = -1;
         }
 
         public override void SetVisualOffsets()

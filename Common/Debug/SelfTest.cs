@@ -388,7 +388,7 @@ namespace CalamityFandom.Common.Debug
                 "Shortflurry du Galileo Gladius : immunité à Nightwither (Moon Burnt) résolue");
             Expect(Common.Shortstrike.ShortstrikeData.IsShortsword(ContentSamples.ItemsByType[ItemID.CopperShortsword]), "la Copper Shortsword est une épée courte");
             // Effets écrits à la main (tools/shortstrike_extra.json → overrides) : projectiles et debuffs résolus
-            foreach (var (weapon, type) in new[] { ("Galileo Gladius", "spawnOnHit"), ("Cosmic Shiv", "spawnForward"), ("Submarine Shocker", "cloud"), ("Spore Knife", "vine") })
+            foreach (var (weapon, type) in new[] { ("Galileo Gladius", "spawnOnHit"), ("Cosmic Shiv", "spawnOnStab"), ("Submarine Shocker", "cloud"), ("Spore Knife", "vine") })
             {
                 int item = WikiRecipes.ResolveItem(weapon);
                 var effect = byItem.TryGetValue(item, out var attack) ? attack.Effects.FirstOrDefault(e => e.Type == type) : null;

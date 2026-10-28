@@ -246,6 +246,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** (24/10) **Ailes** du wiki générées (11, `WikiWings`) : stats de l'infobulle ; vitesse verticale Average/Good/
   Great/Excellent = réglages choisis ; image portée = la pose unique du wiki répétée (pas de battement) ; Bellwings sans image
   portée (invisible). Bonus d'armure de set et phrases d'ambiance non traduits.
+- **[technique]** (28/10) Les images « (equipped) » du wiki montrent le personnage avec ses ailes : `gen_items.py` l'efface
+  (palette d'un personnage de référence, moyenne des images du wiki, autour de sa position retrouvée) et recentre l'image
+  sur le point d'accroche des ailes de Terraria (9 px derrière le centre du joueur, 19 px au-dessus du sol).
 - **[choix]** (24/10) **Aliments** générés comme les matériaux : potion du wiki dont le buff est Well Fed / Plenty Satisfied /
   Exquisitely Stuffed, avec la durée de l'infobox (11 : Titan Finger, Clam Chowder, Cheese, Crimtato, Yharic Delight...).
   Leurs effets en plus écrits en prose (Yharic Delight « Instantly heals the user to full health ») ne sont pas encore faits.
@@ -475,6 +478,14 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   chance to shoot a second beam » = son rayon `CosmicShivTrail`, tiré vers le curseur ; Submarine Shocker « stationary clouds »
   = nuage immobile de 4 blocs, 3 s, Sulphuric Poisoning, quart des dégâts ; Spore Knife « 4 tile long vines » = liane de 4
   blocs sous l'ennemi, 2 s, Poisoned, quart des dégâts. Reste Lucrecia (portée de son ADN) et les armes absentes.
+- **[choix]** (28/10, retour de test) Les projectiles tirés par une épée courte, et leurs enfants, remplissent la jauge
+  (« damage dealt using a shortsword ») : rayons du Cosmic Shiv, éclats des Sahara Slicers... Pas ceux des clones.
+- **[choix]** (28/10) Cosmic Shiv : « a second identical beam » suppose un premier rayon ; chaque clone tire donc le rayon
+  de l'arme (`CosmicShivTrail`) à chaque estoc, plus un second à 20 % (effet `spawnOnStab`, remplace le rayon « au coup »).
+- **[choix]** (28/10) Nuages du Submarine Shocker dessinés avec ceux de la Toxic Flask vanilla ; liane de la Spore Knife
+  = épine de jungle verticale qui sort du sol (images `ThornBase`/`ThornTip` de Calamity), à plat elle ne se voyait pas.
+- **[choix]** (28/10) La jauge pleine ne clignote plus (demande de l'utilisateur) ; son de départ du Shortflurry au choix
+  dans la config client (sons de capacités d'armure de Calamity, 1 à 2,5 s ; Brimflame par défaut), à fixer après essai.
 - **[technique]** Les points ne sont pas synchronisés en multijoueur : les autres joueurs ne voient pas l'aura (les clones,
   eux, sont synchronisés).
 
@@ -484,6 +495,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Marked, 15 statuts d'éléments).
 - **[choix]** Fandom Test Dummy : 1 000 000 PV (sans mise à l'échelle de difficulté), immobile, taille x2, aucun dégât,
   neutre aux éléments, revient à fond sous 10 % de ses PV, affiche les debuffs de Calamity.
+- **[technique]** (28/10) Fandom Test Dummy : image dessinée à la taille de la hitbox (36×96) ; il ne force plus les coups
+  (`CanBeHitBy...` à `true` passait outre l'immunité : un estoc touchait 4 fois par passage).
 - **[choix]** Test Swords : 18 (une par élément + Moon Burnt), 10 dégâts, `use` 15, autoswing, couleur de l'élément ;
   suivent les règles du mode (chances en Calamity++).
 - **[technique]** Sprites vanilla réutilisés (bouteille d'eau, mannequin, épée de cuivre) : pas de sprite à faire.

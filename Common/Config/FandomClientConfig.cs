@@ -29,6 +29,21 @@ namespace CalamityFandom.Common.Config
         [DefaultValue(DefaultShortstrikePosY)]
         public float ShortstrikeMeterPosY { get; set; } = DefaultShortstrikePosY;
 
+        /// <summary>Son joué au début d'un Shortflurry : choix à l'essai en jeu (retour de test du 28/10, [choix]).</summary>
+        public enum FlurrySound
+        {
+            ShortswordStab,
+            BrimflameAbility,
+            OmegaBlueAbility,
+            PlagueReaperAbility,
+            SilvaActivation,
+            SonicBoomBlade,
+        }
+
+        [DefaultValue(FlurrySound.BrimflameAbility)]
+        [DrawTicks]
+        public FlurrySound ShortflurrySound { get; set; } = FlurrySound.BrimflameAbility;
+
         public override void OnLoaded()
         {
             Instance = this;

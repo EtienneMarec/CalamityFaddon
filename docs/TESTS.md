@@ -260,23 +260,32 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       (survol : « Shortstrike: N/100 »), les épées sortent quand elle est pleine ; on peut la déplacer si les jauges de
       Calamity ne sont pas verrouillées ; taille comparable aux jauges de Calamity (2×) ; pendant le Shortflurry, elle se
       vide en tremblant ; changer d'arme la garde ; elle reste après avoir quitté et relancé le personnage
-- [ ] En tenant une épée courte : dégâts et défense augmentent avec la jauge (Full Fandom : +20 % / +33 à 100 points ;
+- [x] En tenant une épée courte : dégâts et défense augmentent avec la jauge (Full Fandom : +20 % / +33 à 100 points ;
       Calamity++ : +10 % / +16) ; avec une autre arme, plus de bonus
-- [ ] Jauge pleine : son, aura orange pulsante ; **clic droit** = Shortflurry : 3 clones orange frappent en 1 s, la
+- [x] Jauge pleine : son, aura orange pulsante ; **clic droit** = Shortflurry : 3 clones orange frappent en 1 s, la
       jauge retombe à 0, buff « Shortflurry », +5 défense pendant la durée (Copper)
-- [ ] **Aquatic Discharge** : Shortflurry de 5 coups, les ennemis touchés sont Electrified
-- [ ] **Galileo Gladius** : 7 coups, immunité à Moon Burnt 20 s, +30 % de critique au corps à corps pendant 3 s
-- [ ] **Cosmic Shiv** : 20 coups en 6 s, buff Cosmic Freeze 20 s
-- [ ] Calamity++ : **Sahara Slicers** ont leur Shortflurry (éclats de sable) ; Full Fandom : l'arme est masquée
-- [ ] Une Copper Broadsword n'affiche pas la barre et ne déclenche rien au clic droit
-- [ ] Aliments du wiki (Cheat Sheet) : **Titan Finger** se mange, donne Plenty Satisfied 4 minutes ; Cheese, Clam Chowder,
-      Crimtato... ; les ennemis astraux lâchent parfois des Titan Fingers (24/10)
+- [x] **Aquatic Discharge** : Shortflurry de 5 coups, les ennemis touchés sont Electrified
+- [x] **Galileo Gladius** : 7 coups, immunité à Moon Burnt 20 s, +30 % de critique au corps à corps pendant 3 s
+- [x] **Cosmic Shiv** : 20 coups en 6 s, buff Cosmic Freeze 20 s
+- [x] Calamity++ : **Sahara Slicers** ont leur Shortflurry (éclats de sable) ; Full Fandom : l'arme est masquée
+- [x] Une Copper Broadsword n'affiche pas la barre et ne déclenche rien au clic droit
+- [x] Aliments du wiki (Cheat Sheet) : **Titan Finger** se mange, donne Plenty Satisfied 4 minutes
+- [ ] Autres aliments : Cheese, Clam Chowder, Crimtato... ; les ennemis astraux lâchent parfois des Titan Fingers (24/10)
 - [ ] **Ailes du wiki** (Cheat Sheet : Red Wings, Archangel Wings, Holy Mantle...) : s'équipent, se voient (une seule pose,
       pas de battement), Red Wings rapides (vitesse 15) et +20 % de déplacement ; Holy Mantle vole sans fin ; Bellwings
-      invisibles une fois portées (pas d'image)
-- [ ] Shortflurry du **Galileo Gladius** : des lunes apparaissent sur les ennemis touchés ; **Cosmic Shiv** : parfois un
-      rayon en plus vers le curseur ; **Submarine Shocker** : petits nuages verts immobiles (Sulphuric Poisoning) ;
-      **Spore Knife** : liane verte au sol sous l'ennemi (24/10)
+      invisibles une fois portées (pas d'image). **(28/10)** Plus de double du personnage : il est effacé des images du
+      wiki et les ailes sont accrochées au dos (vérifier tourné à gauche et à droite)
+- [ ] Shortflurry du **Galileo Gladius** : des lunes apparaissent sur les ennemis touchés (24/10)
+- [ ] (28/10) Shortflurry du **Cosmic Shiv** : chaque clone tire le rayon violet de l'arme, parfois un second ;
+      **Submarine Shocker** : vrais nuages verts (ceux de la Toxic Flask) qui restent sur place et infligent Sulphuric
+      Poisoning ; **Spore Knife** : une épine verte de 4 blocs sort du sol sous l'ennemi touché (Poisoned)
+- [ ] (28/10) La jauge pleine ne clignote plus (seule l'aura pulse) ; le début du Shortflurry joue un son plus long :
+      à choisir dans la config client du mod (« Shortflurry Sound » : Brimflame par défaut, Omega Blue, Plague Reaper,
+      Silva, Sonic Boom, ou le coup d'épée d'avant)
+- [ ] (28/10) Les projectiles tirés par une épée courte remplissent la jauge (rayons du Cosmic Shiv, éclats des Sahara
+      Slicers, balles du Galileo) ; ceux des clones du Shortflurry, non
+- [ ] (28/10) **Aquatic Discharge** : un seul coup par estoc (plus d'aller-retour), aussi sur le Fandom Test Dummy
+- [ ] (28/10) **Fandom Test Dummy** : l'image couvre toute la hitbox (plus de moitié vide au-dessus)
 - [ ] **Objets de lore** (26/10, Cheat Sheet, recherche « Lore » ou par nom) : le lore de Cryogen s'appelle « Cryogen »
       (texte de l'Archmage), celui du Desert Scourge « The Desert Scourge », de Yharon « Jungle Dragon, Yharon », du
       Ravager « Meatmetal Sans », du Moon Lord « Moon Lord » (texte de Requiem) ; Full Fandom : pas de lore de Signus,

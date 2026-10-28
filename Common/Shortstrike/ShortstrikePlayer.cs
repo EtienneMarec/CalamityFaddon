@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using CalamityFandom.Common.Config;
 using CalamityFandom.Content.Shortstrike;
 using Microsoft.Xna.Framework;
 using Terraria;
@@ -75,11 +76,8 @@ namespace CalamityFandom.Common.Shortstrike
 
         public override void OnHitNPCWithProj(Projectile proj, NPC target, NPC.HitInfo hit, int damageDone)
         {
-            Item held = Player.HeldItem;
-            if (proj.ModProjectile is ShortflurryClone || !ShortstrikeData.IsShortsword(held))
-                return;
-            // Estoc d'une épée courte de Calamity (projectile de l'arme tenue)
-            if (proj.type == held.shoot)
+            // Estoc d'une épée courte de Calamity et tout ce qu'il tire (rayons, éclats...) : « damage dealt using a shortsword »
+            if (proj.GetGlobalProjectile<ShortstrikeProjectile>().FromShortsword)
                 AddHit(damageDone);
         }
 
@@ -162,7 +160,7 @@ namespace CalamityFandom.Common.Shortstrike
             flurryDuration = flurryTimer = Math.Max(1, (int)(Flurry.Seconds * 60));
             flurryHitsLeft = Flurry.Hits;
             flurryNextHit = 0;
-            SoundEngine.PlaySound(SoundID.Item71, Player.Center);
+            SoundEngine.PlaySound(FlurryStartSound, Player.Center);
             Player.AddBuff(ModContent.BuffType<ShortflurryBuff>(), flurryDuration);
             foreach (var effect in Flurry.Effects)
             {
@@ -186,6 +184,17 @@ namespace CalamityFandom.Common.Shortstrike
                 }
             }
         }
+
+        /// <summary>Son de départ choisi dans la config client (Calamity : sons de ses capacités d'armure).</summary>
+        private static SoundStyle FlurryStartSound => (FandomClientConfig.Instance?.ShortflurrySound ?? FandomClientConfig.FlurrySound.BrimflameAbility) switch
+        {
+            FandomClientConfig.FlurrySound.ShortswordStab => SoundID.Item71,
+            FandomClientConfig.FlurrySound.OmegaBlueAbility => new SoundStyle("CalamityMod/Sounds/Custom/AbilitySounds/OmegaBlueAbility"),
+            FandomClientConfig.FlurrySound.PlagueReaperAbility => new SoundStyle("CalamityMod/Sounds/Custom/AbilitySounds/PlagueReaperAbility"),
+            FandomClientConfig.FlurrySound.SilvaActivation => new SoundStyle("CalamityMod/Sounds/Custom/AbilitySounds/SilvaActivation"),
+            FandomClientConfig.FlurrySound.SonicBoomBlade => SoundID.DD2_SonicBoomBladeSlash,
+            _ => new SoundStyle("CalamityMod/Sounds/Custom/AbilitySounds/BrimflameAbility"),
+        };
 
         public override void PostUpdate()
         {
@@ -233,5 +242,29 @@ namespace CalamityFandom.Common.Shortstrike
         public override void SaveData(TagCompound tag) => tag["shortstrike"] = Points;
 
         public override void LoadData(TagCompound tag) => Points = tag.GetInt("shortstrike");
+    }
+
+    /// <summary>
+    /// Marque les projectiles tirés par une épée courte (et leurs enfants) : ils remplissent la jauge ([choix] du 28/10 :
+    /// les rayons du Cosmic Shiv et les éclats des Sahara Slicers ne comptaient pas). Les clones du Shortflurry et ce
+    /// qu'ils créent restent exclus.
+    /// </summary>
+    public class ShortstrikeProjectile : GlobalProjectile
+    {
+        public bool FromShortsword;
+
+        public override bool InstancePerEntity => true;
+
+        public override void OnSpawn(Projectile projectile, IEntitySource source)
+        {
+            if (projectile.ModProjectile is ShortflurryClone)
+                return;
+            FromShortsword = source switch
+            {
+                EntitySource_ItemUse use => ShortstrikeData.IsShortsword(use.Item),
+                EntitySource_Parent { Entity: Projectile parent } => parent.GetGlobalProjectile<ShortstrikeProjectile>().FromShortsword,
+                _ => false,
+            };
+        }
     }
 }

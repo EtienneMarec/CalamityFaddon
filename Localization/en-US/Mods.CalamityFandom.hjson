@@ -666,6 +666,11 @@ Configs: {
 			Label: Shortstrike Meter Pos Y
 			Tooltip: ""
 		}
+
+		ShortflurrySound: {
+			Label: Shortflurry Sound
+			Tooltip: Sound played when a Shortflurry starts
+		}
 	}
 }
 

@@ -524,7 +524,12 @@
      "value": 0.2
     },
     {
-     "type": "spawnForward",
+     "type": "spawnOnStab",
+     "projectile": "CosmicShivTrail",
+     "value": 1.0
+    },
+    {
+     "type": "spawnOnStab",
      "projectile": "CosmicShivTrail",
      "value": 0.2
     }

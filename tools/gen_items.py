@@ -204,6 +204,70 @@ WING_EXTRAS = [
 ]
 
 
+# Ailes portées : les images « (equipped) » du wiki montrent le personnage avec ses ailes. On l'efface (sa palette, autour
+# de sa position trouvée par comparaison avec un personnage de référence) et on recentre l'image sur le point où Terraria
+# accroche les ailes : 9 px derrière le centre du joueur, 19 px au-dessus du sol (PlayerDrawLayers.DrawPlayer_09_Wings).
+_player_ref = None
+
+
+def player_reference():
+    """Personnage seul (30×48) : pixel le plus fréquent des images « (equipped) » de cette taille, et sa palette."""
+    global _player_ref
+    if _player_ref is None:
+        import collections
+        import glob
+        images = []
+        for path in glob.glob(os.path.join(SPRITES, "*_(equipped).png")):
+            try:
+                images.append(Image.open(path).convert("RGBA"))
+            except OSError:
+                continue
+        same = [im for im in images if im.size == (30, 48)]
+        ref = Image.new("RGBA", (30, 48), (0, 0, 0, 0))
+        for y in range(48):
+            for x in range(30):
+                color, count = collections.Counter(im.getpixel((x, y)) for im in same).most_common(1)[0]
+                if count >= len(same) // 2:
+                    ref.putpixel((x, y), color)
+        palette = {c for c in ref.getdata() if c[3]}
+        seen = collections.Counter()
+        for im in images:
+            seen.update({c for c in im.getdata() if c[3]})
+        palette |= {c for c, k in seen.items() if k >= 15}
+        _player_ref = (ref, palette)
+    return _player_ref
+
+
+# Point d'accroche des ailes dans l'image de référence : centre du joueur x = 16, pieds sur la ligne 47
+WING_ANCHOR = (16 - 9, 48 - 19)
+
+
+def strip_player(frame):
+    """Efface le personnage d'une image d'ailes portées et la recentre sur le point d'accroche des ailes."""
+    ref, palette = player_reference()
+    R, P = ref.load(), frame.load()
+    W, H = frame.size
+    best = (-1, 0, 0)
+    for dy in range(-10, H - 38):
+        for dx in range(-10, W - 20):
+            match = sum(1 for y in range(0, 48, 2) for x in range(0, 30, 2)
+                        if R[x, y][3] and 0 <= x + dx < W and 0 <= y + dy < H and P[x + dx, y + dy] == R[x, y])
+            if match > best[0]:
+                best = (match, dx, dy)
+    _, dx, dy = best
+    out = frame.copy()
+    O = out.load()
+    for y in range(max(0, dy - 4), min(H, dy + 52)):
+        for x in range(max(0, dx - 4), min(W, dx + 34)):
+            if P[x, y][3] and P[x, y] in palette:
+                O[x, y] = (0, 0, 0, 0)
+    cx, cy = dx + WING_ANCHOR[0], dy + WING_ANCHOR[1]
+    half_w, half_h = max(cx, W - cx), max(cy, H - cy)
+    centered = Image.new("RGBA", (2 * half_w, 2 * half_h), (0, 0, 0, 0))
+    centered.paste(out, (half_w - cx, half_h - cy))
+    return centered
+
+
 def build_wings(index, used, loc):
     wings = []
     for page in sorted(index.values(), key=lambda p: p["title"]):
@@ -220,11 +284,11 @@ def build_wings(index, used, loc):
         title = page["title"]
         name = internal_name(title, used)
         w, h, _, _ = convert(sprite, os.path.join(ASSETS, name + ".png"))
-        # Image portée (une seule pose sur le wiki) : planche de 4 images identiques, comme les ailes de Terraria
+        # Image portée (une seule pose sur le wiki, personnage effacé) : planche de 4 images identiques, comme les ailes de Terraria
         base = os.path.splitext(os.path.basename(sprite))[0]
         equipped = os.path.join(SPRITES, base + "_(equipped).png")
         equip_sprite = os.path.exists(equipped)
-        frame = Image.open(equipped).convert("RGBA") if equip_sprite else Image.new("RGBA", (2, 2), (0, 0, 0, 0))
+        frame = strip_player(Image.open(equipped).convert("RGBA")) if equip_sprite else Image.new("RGBA", (2, 2), (0, 0, 0, 0))
         sheet = Image.new("RGBA", (frame.width, frame.height * 4), (0, 0, 0, 0))
         for i in range(4):
             sheet.paste(frame, (0, i * frame.height))
