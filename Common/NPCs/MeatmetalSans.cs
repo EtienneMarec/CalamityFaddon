@@ -1,6 +1,10 @@
 using System;
+using CalamityMod.NPCs.Ravager;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using ReLogic.Content;
 using Terraria;
+using Terraria.GameContent;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -33,10 +37,24 @@ namespace CalamityFandom.Common.NPCs
 
         public override bool AppliesToEntity(NPC entity, bool lateInstantiation) => lateInstantiation && IsSans(entity);
 
+        /// <summary>Phase 1 tant que moins de 12 coups ont été comptés (page du wiki).</summary>
+        public const int PhaseOneHits = 12;
+        /// <summary>[choix] Hitbox de la phase 1 : le sprite de Sans (120 x 180).</summary>
+        private static readonly Point PhaseOneSize = new(100, 170);
+
+        private Point phaseTwoSize;
+        private bool swappedTextures;
+        private Asset<Texture2D> savedLegLeft, savedLegRight, savedHead, savedGlow;
+
+        public static bool InPhaseOne(NPC npc) => HitsToKill - npc.life < PhaseOneHits;
+
         public override void SetDefaults(NPC npc)
         {
             npc.lifeMax = HitsToKill;
             npc.defense = 0;
+            // La barre « vanilla » de Calamity ajoute toujours la vie des 5 parties du Ravager (21 023 au test du 28/10) :
+            // barre standard du jeu, qui ne compte que Sans
+            npc.BossBar = null;
         }
 
         // Le jeu adapte la vie au mode et au nombre de joueurs : on garde exactement 23 coups
@@ -56,6 +74,51 @@ namespace CalamityFandom.Common.NPCs
         {
             if (npc.life < allowedLife && npc.life > 0)
                 npc.life = allowedLife;
+
+            // Hitbox du sprite de la phase en cours, posée au même endroit au sol
+            if (phaseTwoSize == Point.Zero)
+                phaseTwoSize = new Point(npc.width, npc.height);
+            Point size = InPhaseOne(npc) ? PhaseOneSize : phaseTwoSize;
+            if (npc.width != size.X || npc.height != size.Y)
+            {
+                Vector2 bottom = npc.Bottom;
+                npc.width = size.X;
+                npc.height = size.Y;
+                npc.Bottom = bottom;
+            }
+        }
+
+        // Sprites du wiki (tous les modes, décision du 28/10) : Sans en phase 1, Ravager refait en phase 2. Le corps de
+        // Calamity dessine aussi jambes, tête et lueur dans son PostDraw : leurs textures sont vidées le temps du dessin
+        private static Asset<Texture2D> PhaseTexture(bool phaseOne) =>
+            ModContent.Request<Texture2D>($"CalamityFandom/Assets/Bosses/MeatmetalSans_Phase{(phaseOne ? 1 : 2)}");
+
+        public override bool PreDraw(NPC npc, SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
+        {
+            if (npc.IsABestiaryIconDummy)
+                return true;
+            var empty = ModContent.Request<Texture2D>("CalamityMod/Projectiles/InvisibleProj");
+            int legLeft = ModContent.NPCType<RavagerLegLeft>(), legRight = ModContent.NPCType<RavagerLegRight>(), head = ModContent.NPCType<RavagerHead>();
+            (savedLegLeft, savedLegRight, savedHead, savedGlow) = (TextureAssets.Npc[legLeft], TextureAssets.Npc[legRight], TextureAssets.Npc[head], RavagerBody.GlowTexture);
+            TextureAssets.Npc[legLeft] = TextureAssets.Npc[legRight] = TextureAssets.Npc[head] = empty;
+            RavagerBody.GlowTexture = empty;
+            swappedTextures = true;
+
+            Texture2D texture = PhaseTexture(InPhaseOne(npc)).Value;
+            spriteBatch.Draw(texture, npc.Bottom - screenPos + new Vector2(0f, npc.gfxOffY), null, npc.GetAlpha(drawColor), 0f,
+                new Vector2(texture.Width / 2f, texture.Height), 1f, SpriteEffects.None, 0f);
+            return false;
+        }
+
+        public override void PostDraw(NPC npc, SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
+        {
+            if (!swappedTextures)
+                return;
+            TextureAssets.Npc[ModContent.NPCType<RavagerLegLeft>()] = savedLegLeft;
+            TextureAssets.Npc[ModContent.NPCType<RavagerLegRight>()] = savedLegRight;
+            TextureAssets.Npc[ModContent.NPCType<RavagerHead>()] = savedHead;
+            RavagerBody.GlowTexture = savedGlow;
+            swappedTextures = false;
         }
 
         public override void UpdateLifeRegen(NPC npc, ref int damage)
@@ -89,6 +152,15 @@ namespace CalamityFandom.Common.NPCs
             lastHit = Main.GameUpdateCount;
             allowedLife = npc.life;
             CombatText.NewText(npc.Hitbox, Color.LightGray, "MISS", true);
+            // Fin de la phase 1 : Sans se téléporte plus loin du joueur (page du wiki) ; [choix] 600 px à l'opposé
+            if (HitsToKill - npc.life == PhaseOneHits && Main.netMode != NetmodeID.MultiplayerClient)
+            {
+                float side = attacker != null && attacker.Center.X > npc.Center.X ? -1f : 1f;
+                for (int i = 0; i < 30; i++)
+                    Dust.NewDust(npc.position, npc.width, npc.height, DustID.BlueTorch, 0f, 0f, 100, default, 2f);
+                npc.position.X += side * 600f;
+                npc.netUpdate = true;
+            }
             if (attacker is { active: true } && attacker.whoAmI == Main.myPlayer)
             {
                 Vector2 away = (attacker.Center - npc.Center).SafeNormalize(Vector2.UnitX * attacker.direction);

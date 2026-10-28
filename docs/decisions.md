@@ -329,7 +329,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix 28/10]** Après chaque coup compté : « MISS » au lieu des dégâts, le joueur est projeté loin de Sans (vitesse
   12, le « BDSM » de la page), puis 1,5 s d'esquive (0,5 s était trop court au test). Les debuffs et les coups qui ne
   passent pas par une attaque (dégâts directs) ne comptent pas. Tête, griffes et jambes ne sont plus créées (la barre de
-  vie de Calamity les comptait : 21 023). [technique] Le 1 dégât est fixé après la réduction de dégâts de Calamity, qui
+  vie de Calamity les comptait : 21 023). La barre « vanilla » propre au Ravager (qui ajoute toujours la vie des 5
+  parties) est remplacée par la barre standard du jeu.
+- **[validé 28/10]** Sprites du wiki dans **les deux modes** : Sans (`MeatmetalPhase1.png`) pour les 12 premiers coups,
+  puis le Ravager refait (`Ravaj-removebg-preview.png`) pour les suivants (`Assets/Bosses/`). [choix] Hitbox de 100 x 170
+  en phase 1 (celle du Ravager en phase 2) ; au 12e coup, Sans se téléporte 600 px à l'opposé du joueur (la page dit
+  qu'il se téléporte pour s'éloigner, sans distance). [technique] Jambes, tête et lueur que le corps de Calamity dessine
+  lui-même sont remplacées par une texture vide pendant son dessin. [technique] Le 1 dégât est fixé après la réduction de dégâts de Calamity, qui
   le faisait tomber à 0. Pas encore fait : ignorer
   l'invincibilité du joueur, os, Gaster Blasters, écran noir, Handheld Tank (`docs/ROADMAP.md`).
 

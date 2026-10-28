@@ -206,11 +206,15 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       l'ennemi le plus proche (message dans le chat). Liste : Moon Burnt, Marked, puis les 15 statuts d'éléments
 - [x] Sur un boss : Moon Burnt garde son icône du wiki au-dessus de lui, mais **pas** d'icône d'élément
 
-- [ ] Ravager (Meatmetal Sans) : seul (ni tête, ni griffes, ni jambes), barre de vie à **23** (et non plus 21 023,
-      corrigé le 28/10) ; exactement 23 coups pour le tuer
+- [ ] Ravager (Meatmetal Sans) : barre de vie à **23** (deuxième correction du 28/10 : c'était la barre propre au Ravager
+      de Calamity) ; exactement 23 coups pour le tuer
+- [ ] (28/10) Sprite de **Sans** (squelette en sweat bleu) pendant les 12 premiers coups, sans jambes ni tête du Ravager
+      autour, et les coups ne touchent que lui ; au 12e coup il se téléporte (poussière bleue) et prend le sprite du
+      Ravager refait du wiki pour les 11 derniers ; dans les deux modes
+- [x] (28/10) « MISS » entre les coups, 1 PV par coup ; attaques et piliers : 1 dégât + poison
 - [ ] (28/10) Chaque coup compté affiche « **MISS** », projette le joueur loin de Sans, puis 1,5 s pendant lesquelles les
       coups passent à travers ; les debuffs (feu, poison...) ne lui retirent rien
-- [ ] (28/10) Ses attaques (contact, projectiles) **et ses piliers** font exactement 1 dégât et empoisonnent (avant : 0 dégât
+- [x] (28/10) Ses attaques (contact, projectiles) **et ses piliers** font exactement 1 dégât et empoisonnent (avant : 0 dégât
       à cause de la réduction de dégâts de Calamity, et 200 pour les piliers)
 - [x] Temporal Umbrella : fonctionne (test du 28/10). 520 mana + 8 emplacements de sbires (le wiki en demande 8) en même
       temps : armure Demonshade (plastron +200 mana ; casque +2 et bonus d'ensemble +8 emplacements) + 200 des Mana
