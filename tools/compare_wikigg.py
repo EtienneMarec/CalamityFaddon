@@ -284,7 +284,7 @@ def main():
     # Pages revues à la main sans écart d'infobulle détecté (pas d'infobulle sur le Fandom, page qui invente ailleurs)
     compared = {r["title"] for r in results}
     for title, item in review.items():
-        if title.startswith("_") or title in compared or any(a["title"] == title for a in armor):
+        if title.startswith("_") or title in compared or any(a["title"] == title for a in armor + removed):
             continue
         results.append({"title": title, "class": "", "category": "", "wikigg": None, "verdict": item["verdict"],
                         "similarity": None, "bestOld": None, "bestOldDate": None, "current": None, "change": None,
