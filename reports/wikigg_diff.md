@@ -3,7 +3,7 @@
 _Généré par `tools/compare_wikigg.py` (infobulles du Fandom, du wiki officiel et des versions du code depuis 2019). Revue à la main : `docs/DIFF_FANDOM.md`._
 
 - inventée : 27
-- mélange : 24
+- mélange : 34
 - ancienne version : 13
 - refonte : 366
 - modifiée : 158
@@ -284,7 +284,7 @@ Version du code la plus proche : None (ressemblance 0.0, déjà différent en 2.
 
 ### Elemental Shiv (Weapons.Melee)
 
-Nom actuel : Lightspeed. Version du code la plus proche : 2020-08 (ressemblance 0.68, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Nom actuel : Lightspeed. Version du code la plus proche : 2022-07 (ressemblance 0.68, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Don't underestimate the power of shivs / Shoots a rainbow shiv that spawns additional shivs on hit / Shortflurry attacks split into more beams and increase melee speed, DR, and defense by 15%
 - Officiel : Unleash a flurry of stabs which build Elemental Mastery on hit / Elemental Mastery is lost over time if it has not been gained for a few seconds / Press [open] with maximum Elemental Mastery to dash toward your cursor / Hitting an enemy during the dash refunds some Elemental Mastery
@@ -338,7 +338,7 @@ Version du code la plus proche : 2021-02 (ressemblance 0.57, déjà différent e
 
 ### Terminus (SummonItems)
 
-Version du code la plus proche : 2022-07 (ressemblance 0.93, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2019-10 (ressemblance 0.93, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : A ritualistic artifact, thought to have brought upon The End many millennia ago / Sealed away in the abyss, far from those that would seek to misuse it / Activates Boss Rush Mode, using it again will deactivate Boss Rush Mode / During the Boss Rush, all wires and wired devices will be disabled / Right click to summon the forgotten massacre
 - Officiel : Hold [use] to start or end the Boss Rush
@@ -356,7 +356,7 @@ Version du code la plus proche : 2021-01 (ressemblance 0.38, déjà différent e
 
 ### The Sponge (Accessories)
 
-Version du code la plus proche : 2021-10 (ressemblance 0.78, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-05 (ressemblance 0.78, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : 15% increased damage reduction / +30 max life and mana / 5% increased movement and jump speed / Standing still boosts life and mana regen / Increased defense, movement speed and damage reduction while submerged in liquid / Enemies take damage when they hit you / You emit a cloud of mushroom spores and sparks when you are hit / 2% reduced stealth costs / 6.25% of the damage from enemy attacks is absorbed and converted into healing / Increased healing as health lowers / Dying revives you inside of an encumbering shell for 3 seconds with a 1 minute cooldown / Generates an energy shield over 1 minute that takes one hit
 - Officiel : Grants immunity to knockback / Gain a barrier with 120 health / The barrier grants 10% damage reduction while active / Halved Adrenaline loss if all damage is absorbed / The barrier will regenerate 8 seconds after being hit, taking 10 seconds to completely regenerate / Getting hit resets the timer
@@ -481,6 +481,22 @@ Version du code la plus proche : 2022-02 (ressemblance 1.0, refait après 2.0.1.
 - Officiel : Summons Dragonfolly when used in the Jungle / Enrages outside the Jungle / Not consumable / Pheromones used for hunting Draconic Offshoots.
 - **Revue** : Infobulle : ancienne version réelle (invoque la Dragonfolly dans la Jungle, non consommable). Inventé par la page : c'est une fusée éclairante à tirer avec un Flare Gun dans le Désert, et le boss s'appelle « The Magnificent Lightning Avian » (renommage du Fandom absent du glossaire).
 
+### Ancient Shiv
+
+- **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+
+### Aquatic Discharge
+
+- **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+
+### Arcanum of the Void
+
+- **Revue** : Ancien objet (retiré en 2022) : recharge de 90 s partagée avec les esquives, réelle (2021). Inventés : la « Void Barrier » qui encaisse un coup et l'énergie sombre libérée ; l'objet renvoyait les projectiles (5 à 10 % de chance en 2018-2019, puis à coup sûr avec recharge).
+
+### Bloody Rupture
+
+- **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+
 ### Bouncing Eyeball (Weapons.Rogue)
 
 Version du code la plus proche : 2020-06 (ressemblance 0.9, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 1.0
@@ -489,6 +505,30 @@ Version du code la plus proche : 2020-06 (ressemblance 0.9, refait après 2.0.1.
 - Officiel : Throws an eyeball that bounces off of surfaces / Stealth strikes cause the eyeballs to move much faster and bounce more energetically / Knockback is much stronger during a blood moon
 - Lignes introuvables dans le code : Critical chance is doubled during a blood moon
 - **Revue** : Œil qui rebondit, attaques furtives : réel. Inventé : « critique doublé pendant une Blood Moon » ; c'est le recul qui augmente.
+
+### Eutrophic Shank
+
+- **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+
+### Exo Gladius
+
+- **Revue** : Ancien objet (retiré en 2022) : immunité brève en frappant, réelle (2020). Inventés : l'explosion au coup et la parade au clic droit qui renvoie les projectiles ; l'arme tirait un orbe arc-en-ciel qui appelait des rayons et des comètes.
+
+### Leeching Dagger
+
+- **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+
+### Night's Stabber
+
+- **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+
+### Terra Shiv
+
+- **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+
+### True Night's Stabber
+
+- **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
 
 ## Anciennes versions confirmées à la main (notes de version du wiki officiel)
 
@@ -679,7 +719,7 @@ Version du code la plus proche : 2021-10 (ressemblance 1.0, déjà différent en
 
 ### Anahita's Arpeggio (Weapons.Magic)
 
-Version du code la plus proche : 2018-12 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Casts slow-moving treble clefs that confuse enemies
 - Officiel : Holding [use] casts up to 6 treble clefs that orbit the player / Releasing [use] causes the treble clefs to converge at the cursor / After converging, treble clefs seek your cursor
@@ -770,7 +810,7 @@ Version du code la plus proche : 2019-02 (ressemblance 1.0, refait après 2.0.1.
 
 ### Aureus Cell (Potions)
 
-Version du code la plus proche : 2020-09 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Grants increased mana regeneration and magic power
 - Officiel : Grants the Magic Power and Mana Regeneration buffs
@@ -1113,7 +1153,7 @@ Version du code la plus proche : 2020-04 (ressemblance 1.0, refait après 2.0.1.
 
 ### Death Valley Duster (Weapons.Magic)
 
-Version du code la plus proche : 2018-12 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Casts a large blast of dust
 - Officiel : Casts an enchanted blast of sand that passes through enemies and tiles / Casting this spell at max mana while without mana sickness will cause it to give you and any player it hits the Sand's Wind buff
@@ -1155,7 +1195,7 @@ Version du code la plus proche : 2022-02 (ressemblance 1.0, refait après 2.0.1.
 
 ### Depth Crusher (Weapons.Melee)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2021-01 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Hitting enemies will inflict the crush depth debuff / The lower the enemies' defense, the more damage they take from this debuff / Right click to use without hammering down walls
 - Officiel : Tosses a heavy abyssal crusher that releases water energy upon hitting a tile / The crusher will ricochet off of tiles and enemies
@@ -1267,7 +1307,7 @@ Nom actuel : Sanctified Spark. Version du code la plus proche : 2019-08 (ressemb
 
 ### Entropic Claymore (Weapons.Melee)
 
-Version du code la plus proche : 2019-08 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Fires a spread of homing plasma balls
 - Officiel : Fires a spread of living plasma that swims through the air / Plasma will track your cursor or enemies near it, prioritizing which is closest / The plasma pierces, but will stop tracking after hitting the first enemy
@@ -1316,7 +1356,7 @@ Version du code la plus proche : 2020-01 (ressemblance 1.0, refait après 2.0.1.
 
 ### Fallen Paladin's Hammer (Weapons.Melee)
 
-Version du code la plus proche : 2019-08 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Explodes on enemy hits
 - Officiel : Throws a heavy, gravity-affected hammer that will explode and return to you after striking an enemy / After returning three times, a homing spectral hammer is summoned with devastating impact
@@ -1386,14 +1426,14 @@ Version du code la plus proche : 2020-04 (ressemblance 1.0, refait après 2.0.1.
 
 ### Flame-Licked Shell (Accessories)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-02 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : 35% decreased movement speed / Enemies take damage when they hit you / You move faster and lose 18 defense for 3 seconds if you take damage / Temporary immunity to lava
 - Officiel : Grants immunity to knockback / Pressing [Activate Accessory Parry] will activate a parry, encasing you in rocks / Being hit shortly after encasement will implode the rocks / Upon implosion, a ring of brimstone hellfire is launched outwards and you receive 90% DR for that hit / After imploding, this damage reduction effect goes on cooldown / Damage parried whilst on cooldown summons weaker brimstone flames, and will not be reduced
 
 ### Flash Round (Ammo)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2018-12 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Gives off a concussive blast that confuses enemies in a large area for a short time
 - Officiel : A ricocheting bullet that deals more damage with each bounce / The damage bonus is 1.13x or +2 flat damage per bounce, depending on which is stronger
@@ -1442,7 +1482,7 @@ Version du code la plus proche : 2020-07 (ressemblance 1.0, refait après 2.0.1.
 
 ### Galaxy Smasher (Weapons.Melee)
 
-Version du code la plus proche : 2019-08 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Explodes and summons death lasers on enemy hits
 - Officiel : Throws a heavy, gravity-affected hammer that will return to you after striking an enemy / Consecutive hits summon more and more cosmic shards / After hitting eight times, the hammer supercharges itself with galactic energies, / delivering an apocalyptic strike that reverberates through space and time
@@ -1967,7 +2007,7 @@ Version du code la plus proche : 2020-06 (ressemblance 1.0, refait après 2.0.1.
 
 ### Pandemic (Weapons.Melee)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2020-12 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Fires plague seekers when enemies are near / A very agile yoyo
 - Officiel : Reach: 30 tiles / Speed: 24 / Duration: 15 seconds / Each unique enemy struck that is infected with Plague increases the yoyo's size, power, and airtime / Refreshes Plague duration if a target is already infected / Counterweights inflict Plague and move twice as fast
@@ -2395,7 +2435,7 @@ Nom actuel : Star Shower. Version du code la plus proche : 2019-08 (ressemblance
 
 ### Starmada (Weapons.Ranged)
 
-Version du code la plus proche : 2019-08 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Fires a barrage of stars and plasma blasts
 - Officiel : [use] fires a spread of starshots / [open] fires a concussive short range starburst / Starshots can be accelerated by firing when the starburst goes off / Perfect timing reduces spread, increases damage, and adds a stacking weapon power buff / Imperfect timing still increases damage, but heavily increases spread and reduces weapon power / The weapon power buff strengthens both starshots and the concussive starburst / Uses fallen stars, 50% chance to save ammo / Et toi, et moi
@@ -2626,7 +2666,7 @@ Version du code la plus proche : 2019-06 (ressemblance 1.0, déjà différent en
 
 ### Unstable Granite Core (Accessories)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
+Version du code la plus proche : 2019-06 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.0
 
 - Fandom : Three sparks are released on critical hits
 - Officiel : Gain an energy field that periodically zaps enemies with arcing energy / The arcing energy ignores a substantial amount of enemy defense
@@ -2745,7 +2785,7 @@ Nom actuel : Divine Providence. Version du code la plus proche : 2020-08 (ressem
 
 ### Corpus Avertor (Weapons.Rogue)
 
-Version du code la plus proche : 2021-01 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.17
+Version du code la plus proche : 2021-01 (ressemblance 1.0, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.17
 
 - Fandom : Seems like it has worn down over time / Attacks grant lifesteal based on damage dealt / The lower your HP the more damage this weapon does and heals the player on enemy hits / Stealth strikes throw a single rainbow outlined dagger / On enemy hits, this dagger boosts the damage and life regen of all members of your team / However, there is a small chance it will cut your health in half instead
 - Officiel : Throws a spinning dagger that spawns a rebounding clone / Deals more damage the lower your health, and grants lifesteal / Stealth strikes throw a piercing rainbow dagger which spawns an extra slash in its wake, at a blood cost / This dagger grants players on your team 10% damage and +2 HP/s life regen on hit, and heals them for a portion of damage dealt / Seems like it has worn down over time
@@ -2864,7 +2904,7 @@ Version du code la plus proche : 2021-07 (ressemblance 0.99, refait après 2.0.1
 
 ### Celestial Tracers (Accessories.Wings)
 
-Nom actuel : Seraph Tracers. Version du code la plus proche : 2022-02 (ressemblance 1.0, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.29
+Nom actuel : Seraph Tracers. Version du code la plus proche : 2022-02 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.29
 
 - Fandom : Talking speed EVEN FURTHER BEYOND! / 50% increased running acceleration / Greater mobility on ice / Water and lava walking / Immunity to the On Fire! debuff / Temporary immunity to lava / Being hit for over 200 damage will make you immune for an extended period of time
 - Officiel : Allows flight and slow fall / Max horizontal speed: Excellent / Max vertical speed: Excellent / Horizontal acceleration: Excellent / Vertical acceleration: Great / 50% increased running acceleration / Provides the effects of Angel Treads / Provides immunity to lava and damaging tiles, including Auric Ore / Taking speed EVEN FURTHER BEYOND!
@@ -3151,7 +3191,7 @@ Nom actuel : Blighted Cleaver. Version du code la plus proche : 2019-08 (ressemb
 
 ### Void of Calamity (Accessories)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.33
+Version du code la plus proche : 2020-12 (ressemblance 1.0, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.33
 
 - Fandom : Cursed? Reduces damage reduction by 10% / 15% increase to all damage / Brimstone fire rains down while invincibility is active
 - Officiel : 12% increased damage / Calamitous flames rain down while invincible
@@ -3165,7 +3205,7 @@ Version du code la plus proche : 2021-11 (ressemblance 1.0, refait après 2.0.1.
 
 ### Aquatic Heart (Accessories)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.38
+Version du code la plus proche : 2021-09 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.38
 
 - Fandom : Transforms the holder into a water elemental / Going underwater gives you a buff / Greatly reduces breath loss and provides a small amount of light in the abyss / Enemies become frozen when they touch you / You have a layer of ice around you that absorbs 20% damage but breaks after one hit / After 30 seconds the ice shield will regenerate / Wow, you can swim now! / Most of these effects are only active after Skeletron has been defeated
 - Officiel : Transforms the holder into a light-emitting water elemental / Wow, you can swim now! / Being underwater increases max speed and acceleration by 15% / Greatly reduces breath loss and reduces the darkness intensity in the abyss / Attackers are inflicted with Frozen / Gain a fragile ice barrier that grants 20% damage reduction for one hit / The ice shield regenerates after 30 seconds
@@ -3251,14 +3291,14 @@ Version du code la plus proche : 2021-01 (ressemblance 1.0, refait après 2.0.1.
 
 ### Aureate Booster (Accessories.Wings)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2021-02 (ressemblance 1.0, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Mach speed with style! / 10% increased movement speed while wearing the Reaver Armor
 - Officiel : Allows flight and slow fall / Max horizontal speed: Great / Max vertical speed: Great / Horizontal acceleration: Good / Vertical acceleration: Good / Hold [up] to boost faster! / Mach speed with style!
 
 ### Axe of Purity (Tools)
 
-Version du code la plus proche : 2019-08 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Left click to use as a tool / Right click to cleanse evil
 - Officiel : [use] to use as a tool / [open] to cleanse evil
@@ -3392,7 +3432,7 @@ Version du code la plus proche : 2021-01 (ressemblance 1.0, refait après 2.0.1.
 
 ### Entropy's Vigil (Weapons.Summon)
 
-Version du code la plus proche : 2020-05 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Summons Calamitas and her brothers to protect you / One minion trio takes two minion slots
 - Officiel : Summons a mini Calamitas Clone and her brothers to protect you
@@ -3413,7 +3453,7 @@ Version du code la plus proche : 2020-05 (ressemblance 1.0, refait après 2.0.1.
 
 ### Exodus Wings (Accessories.Wings)
 
-Version du code la plus proche : 2022-05 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2020-09 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Pulsing with an alien heartbeat / 5% increased rogue damage and critical strike chance while wearing the Empyrean Armor
 - Officiel : Allows flight and slow fall / Max horizontal speed: Great / Max vertical speed: Excellent / Horizontal acceleration: Great / Vertical acceleration: Great / Grants permanent Empyrean Wrath while wearing the Empyrean armor / Pulsing with an alien heartbeat
@@ -3574,7 +3614,7 @@ Version du code la plus proche : 2021-03 (ressemblance 1.0, refait après 2.0.1.
 
 ### Martian Distress Beacon (SummonItems)
 
-Nom actuel : Martian Distress Remote. Version du code la plus proche : 2022-01 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
+Nom actuel : Martian Distress Remote. Version du code la plus proche : 2022-11 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Summons the Martian Madness / Not consumable
 - Officiel : Summons the Martian Madness
@@ -3693,7 +3733,7 @@ Version du code la plus proche : 2022-02 (ressemblance 1.0, refait après 2.0.1.
 
 ### Rune of Kos (SummonItems)
 
-Nom actuel : Mark of Providence. Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
+Nom actuel : Mark of Providence. Version du code la plus proche : 2018-12 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : A relic of the profaned flame / Contains the power hunted relentlessly by the sentinels of the cosmic devourer / When used in certain areas of the world, it will unleash them / Not consumable
 - Officiel : An ornate sigil of the Profaned Flame / Hatred yet burns upon its brow / Such power attracts otherworldly beings / Not consumable
@@ -3861,7 +3901,7 @@ Version du code la plus proche : 2022-01 (ressemblance 1.0, refait après 2.0.1.
 
 ### Vehemence (Weapons.Magic)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
+Version du code la plus proche : 2021-12 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.5
 
 - Fandom : Casts intense bolts of hellish power that explode into skulls / Direct hits inflict Demon Flames for an extended period of time
 - Officiel : Casts intense bolts of hellish power that explode into skulls
@@ -4106,7 +4146,7 @@ Version du code la plus proche : 2021-08 (ressemblance 1.0, refait après 2.0.1.
 
 ### Rift Reeler (Fishing)
 
-Version du code la plus proche : 2022-07 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.67
+Version du code la plus proche : 2019-12 (ressemblance 1.0, refait après 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.67
 
 - Fandom : Fires three to five lines at once. Can fish in lava. / The battlefield is a scene of constant chaos. / The winner will be the one who controls that chaos, both the pole and the fish.
 - Officiel : Fires four lines at once. Bobbers deal damage upon contact with enemies / Allows fishing in lava / The battlefield is a scene of constant chaos. / The winner will be the one who controls that chaos, both the pole and the fish.
@@ -4446,7 +4486,7 @@ Version du code la plus proche : 2021-12 (ressemblance 0.67, déjà différent e
 
 ### Fractured Ark (Weapons.Melee)
 
-Version du code la plus proche : 2022-03 (ressemblance 0.42, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.75
+Version du code la plus proche : 2022-07 (ressemblance 0.42, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.75
 
 - Fandom : Using RMB will extend the Ark out in front of you. Hitting an enemy with it will parry them, granting you a small window of invulnerability / You can also parry projectiles and temporarily make them deal 100 less damage / Parrying will empower the next 10 swings of the sword, boosting their damage and letting them throw projectiles out / A worn down and rusty blade once wielded against the evil of this world, ready to be of use once more
 - Officiel : [open] to extend the Ark out in front of you / Hitting an enemy with it will parry them, granting you a small window of invulnerability / Parrying empowers the next 10 swings of the sword, boosting damage and letting them throw projectiles / A worn down and rusty blade once wielded against the evil of this world, ready to be of use once more
@@ -4541,7 +4581,7 @@ Version du code la plus proche : None (ressemblance 0.0, déjà différent en 2.
 
 ### Eidolon Staff (Weapons.Magic)
 
-Version du code la plus proche : 2022-07 (ressemblance 0.52, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.17
+Version du code la plus proche : 2019-08 (ressemblance 0.52, déjà différent en 2.0.1.005) ; lignes encore présentes aujourd'hui : 0.17
 
 - Fandom : The power of an ancient cultist resonates within this staff / Fires a spread of ancient light and has a chance to fire a spinning ice cluster / Summons a Juvenile Eidolon Wyrm to fight for you which takes up 4 minion slots / Right click to fire out Ice Clusters / When an Ice Cluster intersects with the Wyrm, it explodes into homing icicles / Only one wyrm can exist at a time Calamity: Community Remix
 - Officiel : Fires a spread of ancient light and a spinning ice cluster
@@ -4704,3 +4744,224 @@ Serpentine, Quagmire, Archerfish, Daemon's Flame, Phangasm
 
 - introuvable dans le code : A grand total of six exquisitely crafted gem fragments, each one an embodiment of one of the many diverse and distinct classes within the realm of magical and combative arts, along with a singularly unique and multifaceted base gem, gracefully and effortlessly orbit around you in an entrancing and mesmerizing display of arcane prowess and mysticism. These gems are far from being mere ornamental decorations; they are imbued with potent and formidable abilities and powers, each specific to their respective classes. However, be forewarned, for there exists a perilous risk associated with these precious gems. Should you, in the heat of battle, sustain a significant and grievous amount of damage—specifically, more than 100 damage from a single, devastating hit—you will face the unfortunate consequence of losing one of these invaluable gems. The particular gem that will be lost corresponds directly and unequivocally to the class of the most recent ability, skill, or weapon that you had employed prior to the impact. In the event that the specific class gem that ought to be lost has already been forfeited in a previous encounter or mishap, the highly valuable and versatile base gem will be sacrificed in its stead. Upon the unfortunate loss of a gem, it does not simply vanish into the ether, dissipating into nothingness, but rather dramatically and forcefully breaks off from its orbit around you, and with a relentless and aggressive determination, homes in on the nearest enemy or fearsome boss, provided one is within the vicinity. This homing mechanism ensures that the gem seeks out and targets the closest threat with unerring accuracy. When this gem strikes its designated target, it delivers a catastrophic and devastating blow, inflicting a base damage of a staggering and formidable 40,000, leaving a lasting impact on the foe. Once a gem is lost, it is not gone forever into the void but instead enters a temporary state of dormancy, a period of absence, reappearing and rejoining the orbit around you after a precisely measured and calculated duration of 30 seconds. Each gem carries its own unique set of enhancements and abilities, tailored to augment and bolster the capabilities of its respective class. For instance, the vibrant and fiery red gem bestows an additional 130 maximum stealth, significantly bolsters rogue-related statistics and attributes, and ensures that stealth is only expended through the use of rogue-specific weapons, thereby enhancing the efficacy and potency of rogue actions. The radiant and luminous yellow gem, on the other hand, serves to enhance melee capabilities, providing increased melee statistics and causing melee attacks to release harmful and damaging shards upon hitting their targets. This effect comes with a cooldown period, a brief interval before it can be activated again. Notably, this cooldown is significantly shorter for pure melee attacks, thus favoring direct and unadulterated melee combat. The verdant and vibrant green gem is designed to augment ranged combat capabilities. It provides increased ranged statistics and triggers swift-flying flechettes that hone in on and damage enemies when they are struck by ranged projectiles. This effect ensures that enemies are continually harassed and damaged by additional projectiles, enhancing the overall effectiveness of ranged attacks. The serene and tranquil blue gem is a boon for summoners, granting an additional four maximum minions, thereby expanding the summoner's arsenal, increasing minion damage, and mitigating the penalty typically associated with summoner items when wielding a non-summoner weapon. This gem thus enhances the versatility and adaptability of summoners in combat. The mystical and enigmatic violet gem is tailored to enhance magical prowess. It provides an extra 100 maximum mana, boosting magic-related statistics and attributes, and enables rapid mana regeneration when holding a non-magical weapon. This effect ensures that mages can quickly replenish their mana reserves, maintaining their ability to cast powerful spells. Lastly, the delicate and multifaceted pink base gem offers a comprehensive suite of benefits, including an additional 75 defense, enhanced damage reduction, increased movement speed, improved jump speed, and a bonus of 2 life regeneration. This gem serves as a foundation, providing overall enhancements that benefit the wielder in various aspects of combat and survival. In the extraordinary and rare event that all six gems are present, active, and orbiting around you simultaneously, a special and potent effect is triggered. Striking a target with any weapon will grant you an additional 2 life regeneration for a duration of 8 seconds. This beneficial effect is further amplified to 3 life regeneration if, during this 8-second window, you utilize a weapon from a different class, for a period of 2.5 seconds. This synergistic effect encourages versatility and adaptability in combat, rewarding those who skillfully switch between different weapon classes.
 - **Revue** : Le setbonus est réécrit en un long pavé grandiloquent (vandalisme de forme), mais décrit le vrai bonus : six gemmes de classe et une gemme de base, perte d'une gemme au-delà de 100 dégâts d'un coup, gemme qui frappe pour 40 000, retour après 30 s, bonus par gemme.
+
+## Objets retirés de Calamity (pages « new » qui portent le nom d'un ancien objet)
+
+Infobulle du Fandom comparée aux versions de l'objet retiré (date de retrait = dernière version mensuelle où il existait ; 2.0.1.005 = encore présent à l'abandon du wiki).
+
+### mélange (10)
+
+- **Ancient Shiv** (AncientShiv, retiré après 2022-06) : version la plus proche 2018-12 (0.64) ; introuvable : Shortflurry attacks increase melee speed by 5% ; **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+- **Aquatic Discharge** [fait] (AquaticDischarge, retiré après 2.0.1.005) : version la plus proche 2018-12 (0.68) ; introuvable : Shortflurry attacks paralyze enemies ; **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+- **Arcanum of the Void** (ArcanumoftheVoid, retiré après 2022-01) : version la plus proche 2021-11 (0.6) ; introuvable : Spawns A Void Barrier around you that shields you from A hit / You release Dark Energy when you get hit and the barrier breaks ; **Revue** : Ancien objet (retiré en 2022) : recharge de 90 s partagée avec les esquives, réelle (2021). Inventés : la « Void Barrier » qui encaisse un coup et l'énergie sombre libérée ; l'objet renvoyait les projectiles (5 à 10 % de chance en 2018-2019, puis à coup sûr avec recharge).
+- **Bloody Rupture** (BloodyRupture, retiré après 2022-06) : version la plus proche 2018-12 (0.6) ; introuvable : Shortflurry attacks create bloodsplosions on enemy hits ; **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+- **Eutrophic Shank** (EutrophicShank, retiré après 2022-06) : version la plus proche 2019-04 (0.51) ; introuvable : Shortflurry attacks inflict Eutrophication ; **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+- **Exo Gladius** (ExoGladius, retiré après 2022-06) : version la plus proche 2020-02 (0.38) ; introuvable : Striking an enemy with the blade causes an explosion / Right-clicking with it activates a parry that can be used to deflect projectiles / The player becomes temporarily immune when using the parry / The parry is stronger, but has a longer cooldown ; **Revue** : Ancien objet (retiré en 2022) : immunité brève en frappant, réelle (2020). Inventés : l'explosion au coup et la parade au clic droit qui renvoie les projectiles ; l'arme tirait un orbe arc-en-ciel qui appelait des rayons et des comètes.
+- **Leeching Dagger** (LeechingDagger, retiré après 2022-06) : version la plus proche 2018-12 (0.59) ; introuvable : Shortflurry strikes heal the player for 5 health per hit ; **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+- **Night's Stabber** (NightsStabber, retiré après 2022-06) : version la plus proche 2021-02 (0.63) ; introuvable : Shortflurry attacks heal the player, spawn night vines, / Inflict Cursed Inferno, and increase melee speed ; **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+- **Terra Shiv** (TerraShiv, retiré après 2022-06) : version la plus proche 2018-12 (0.39) ; introuvable : Shortflurry attacks shoot out splitting beams that heal and inflict ichor / Melee speed and DR are also boosted by 15% ; **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+- **True Night's Stabber** (TrueNightsStabber, retiré après 2022-06) : version la plus proche 2018-12 (0.48) ; introuvable : Shortflurry attacks spawn healing beams that shoot cursed fireballs, and increases melee speed by 10% ; **Revue** : Ancien objet de Calamity décrit fidèlement (épée courte retirée), sauf la ligne Shortflurry : mécanique inventée par le Fandom (page Shortstrike, déjà implémentée).
+
+### ancien objet (201)
+
+- **Acceleration Round** (AccelerationBullet, AccelerationRound, retiré après 2.0.1.005) : version la plus proche 2022-05 (1.0)
+- **Acidic Rain Barrel** (AcidicRainBarrel, retiré après 2.0.1.005) : version la plus proche 2020-04 (1.0)
+- **Aeries** (Aeries, retiré après 2022-01) : version la plus proche 2021-03 (1.0)
+- **Aero Dynamite** (AeroDynamite, retiré après 2022-06) : version la plus proche 2020-09 (1.0)
+- **Aftershock** [fait] (Aftershock, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Alpha Ray** (AlphaRay, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Alpha Virus** (AlphaVirus, retiré après 2.0.1.005) : version la plus proche 2022-02 (1.0)
+- **Ancient Crusher** (AncientCrusher, retiré après 2022-01) : version la plus proche 2018-12 (1.0)
+- **Animus** (Animus, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Aquatic Dissolution** (AquaticDissolution, retiré après 2022-06) : version la plus proche 2019-12 (1.0)
+- **Arctic Arrow** (ArcticArrow, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Armageddon** (Armageddon, retiré après 2022-01) : version la plus proche 2021-12 (1.0)
+- **Asteroid Staff** [fait] (AsteroidStaff, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Astral Blade** (AstralBlade, retiré après 2.0.1.005) : version la plus proche 2020-07 (1.0)
+- **Astral Bow** [fait] (AstralRepeater, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Astral Bulwark** (AstralBulwark, retiré après 2022-01) : version la plus proche 2019-09 (1.0)
+- **Baby Flak Crab** [fait] (BabyFlakCrabItem, BabyFlakHermit, retiré après 2.0.1.005) : version la plus proche 2022-05 (1.0)
+- **Bazooka** (Bazooka, retiré après 2.0.1.005) : version la plus proche 2022-02 (1.0)
+- **Beetle Juice** [fait] (BeetleJuice, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Bittercold Staff** (BittercoldStaff, retiré après 2022-02) : version la plus proche 2018-12 (1.0)
+- **Blade of Enmity** (BladeofEnmity, retiré après 2022-06) : version la plus proche 2018-12 (1.0)
+- **Bleached Angling Kit** [fait] (BleachedAnglingKit, retiré après 2.0.1.005) : version la plus proche 2021-12 (1.0)
+- **Blighted Lens** [fait] (BlightedLens, retiré après 2022-04) : version la plus proche 2018-12 (1.0)
+- **Blood Clot Staff** [fait] (BloodClotStaff, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Blood Relic** (BloodIdol, retiré après 2022-04) : version la plus proche 2022-01 (1.0)
+- **Blood Sample** [fait] (BloodSample, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Bloodletting Essence** [fait] (BloodlettingEssence, retiré après 2020-11) : version la plus proche 2018-12 (1.0)
+- **Bloodworm** (BloodwormItem, retiré après 2.0.1.005) : version la plus proche 2020-04 (1.0)
+- **Bloody Edge** (BloodyEdge, retiré après 2.0.1.005) : version la plus proche 2021-02 (1.0)
+- **Bouncing Betty** (BouncingBetty, retiré après 2022-06) : version la plus proche 2019-12 (1.0)
+- **Bouncy Spiky Ball** (BouncySpikyBall, retiré après 2.0.1.005) : version la plus proche 2020-01 (1.0)
+- **Brimlash Buster** (BrimlashBuster, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Brimstone Fish** [fait] (BrimstoneFish, retiré après 2.0.1.005) : version la plus proche 2019-12 (1.0)
+- **Brimstone Flameblaster** (BrimstoneFlameblaster, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Burden Breaker** (GoldBurdenBreaker, retiré après 2022-01) : version la plus proche 2021-05 (1.0)
+- **Cadance Potion** (CadancePotion, CadencePotion, retiré après 2.0.1.005) : version la plus proche 2020-08 (0.95)
+- **Calamitas' Brew** (CalamitasBrew, retiré après 2022-10) : version la plus proche 2022-04 (1.0)
+- **Carnage Ray** [fait] (CarnageRay, retiré après 2.0.1.005) : version la plus proche 2021-07 (1.0)
+- **Catastrophe Claymore** (CatastropheClaymore, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Chaotic Brick Wall** (ChaoticBrickWall, retiré après 2022-09) : version la plus proche 2022-07 (1.0)
+- **Charged Dart Blaster** (ChargedDartRifle, retiré après 2022-06) : version la plus proche 2020-04 (1.0)
+- **Charger Test Item** (ChargerTestItem, retiré après 2020-10) : version la plus proche 2020-09 (0.99)
+- **Clamor Noctus** (ClamorNoctus, retiré après 2.0.1.005) : version la plus proche 2020-01 (1.0)
+- **Cloaking Gland** [fait] (CloakingGland, retiré après 2020-11) : version la plus proche 2018-12 (1.0)
+- **Conclave Crossfire** (ConferenceCall, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Coral Cannon** (CoralCannon, retiré après 2.0.1.005) : version la plus proche 2019-04 (1.0)
+- **Core of Chaos** [fait] (CoreofChaos, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Core of Eleum** [fait] (CoreofEleum, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Core of Sunlight** [fait] (CoreofCinder, CoreofSunlight, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Corrupted Crusher Blade** (CorruptedCrusherBlade, retiré après 2022-06) : version la plus proche 2021-08 (1.0)
+- **Crimsaber** (Crimsaber, retiré après 2019-04) : version la plus proche 2018-12 (1.0)
+- **Crimslime Staff** [fait] (CrimslimeStaff, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Crimson Crusher Blade** (CrimsonCrusherBlade, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Crumbling Potion** (CrumblingPotion, retiré après 2.0.1.005) : version la plus proche 2019-06 (1.0)
+- **Crystal Blade** (CrystalBlade, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Crystal Flare Staff** (CrystalFlareStaff, retiré après 2022-06) : version la plus proche 2018-12 (1.0)
+- **Cursed Capper** (CursedCapper, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Daylight** (Daylight, retiré après 2021-03) : version la plus proche 2018-12 (1.0)
+- **Death** (Death, retiré après 2022-06) : version la plus proche 2021-11 (0.94)
+- **Defiled Feather** (DefiledRune, retiré après 2022-01) : version la plus proche 2021-03 (1.0)
+- **Demon Trophy** (MLGRune, retiré après 2022-01) : version la plus proche None (0.0)
+- **Demonic Bone Ash** [fait] (DemonicBoneAsh, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Demonic Pitchfork** (DemonicPitchfork, retiré après 2022-01) : version la plus proche 2018-12 (1.0)
+- **Desert Feather** [fait] (DesertFeather, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Determination Breaker** (BurdenBreaker, retiré après 2021-11) : version la plus proche 2018-12 (1.0)
+- **Devastation** (Devastation, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Diseased Pike** [fait] (DiseasedPike, retiré après 2.0.1.005) : version la plus proche 2019-10 (1.0)
+- **Disseminator** [fait] (Disseminator, Interfacer, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Divine Retribution** (DivineRetribution, retiré après 2.0.1.005) : version la plus proche 2019-02 (1.0)
+- **Dodu's Handcannon** (DodusHandcannon, retiré après 2.0.1.005) : version la plus proche 2021-03 (1.0)
+- **Draconic Elixir** (DraconicElixir, retiré après 2.0.1.005) : version la plus proche 2021-07 (1.0)
+- **Draedon's Remote** (DraedonsRemote, retiré après 2022-04) : version la plus proche 2021-11 (1.0)
+- **Dualpoon** (Dualpoon, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Ectoblood** [fait] (Ectoblood, retiré après 2021-12) : version la plus proche 2018-12 (1.0)
+- **Elemental Excalibur** (ElementalExcalibur, retiré après 2.0.1.005) : version la plus proche 2019-11 (1.0)
+- **Enchanted Metal** [fait] (EnchantedMetal, retiré après 2021-07) : version la plus proche 2018-12 (1.0)
+- **Enhanced Nano Round** (EnhancedNanoRound, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Eutrophic Scimitar** [fait] (EutrophicScimitar, retiré après 2.0.1.005) : version la plus proche 2019-04 (1.0)
+- **Explosive Shotgun Shell** (ExplosiveShells, retiré après 2.0.1.005) : version la plus proche 2019-04 (1.0)
+- **Fetid Essence** [fait] (FetidEssence, retiré après 2020-11) : version la plus proche 2018-12 (1.0)
+- **Fish of Light** (FishofLight, retiré après 2.0.1.005) : version la plus proche 2019-12 (1.0)
+- **Fish of Night** (FishofNight, retiré après 2.0.1.005) : version la plus proche 2019-12 (1.0)
+- **Frigid Bar** (CryoBar, retiré après 2021-03) : version la plus proche 2018-12 (1.0)
+- **Frigid Bulwark** (FrigidBulwark, retiré après 2022-04) : version la plus proche 2018-12 (1.0)
+- **Frostspark Bullet** (FrostsparkBullet, retiré après 2021-12) : version la plus proche 2018-12 (1.0)
+- **Fulguration Halberd** (FulgurationHalberd, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Fungal Carapace** [fait] (FungalCarapace, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Galactica Singularity** [fait] (GalacticaSingularity, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Gatling Laser** (GatlingLaser, retiré après 2.0.1.005) : version la plus proche 2022-04 (1.0)
+- **Gauss Dagger** (GaussDagger, retiré après 2.0.1.005) : version la plus proche 2020-08 (1.0)
+- **Gauss Pistol** (GaussPistol, retiré après 2.0.1.005) : version la plus proche 2020-08 (1.0)
+- **Gehenna** [fait] (Gehenna, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Glacial Crusher** [fait] (GlacialCrusher, retiré après 2022-06) : version la plus proche 2022-01 (1.0)
+- **Golden Gun** (GoldenGun, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Grenade Shells** (GrenadeRounds, retiré après 2.0.1.005) : version la plus proche 2019-02 (1.0)
+- **Gypsy Powder** [fait] (GypsyPowder, retiré après 2020-11) : version la plus proche 2018-12 (1.0)
+- **Hadarian Membrane** [fait] (HadarianMembrane, retiré après 2022-06) : version la plus proche 2019-04 (1.0)
+- **Hadopelagic Echo** (HadopelagicEcho, retiré après 2022-06) : version la plus proche 2022-02 (1.0)
+- **Heart Rapier** (HeartRapier, retiré après 2020-05) : version la plus proche 2019-08 (1.0)
+- **Hell Burst** (HellBurst, retiré après 2022-06) : version la plus proche 2018-12 (1.0)
+- **Hell's Sun** (HellsSun, retiré après 2.0.1.005) : version la plus proche 2019-12 (1.0)
+- **Holiday Halberd** (HolidayHalberd, retiré après 2021-08) : version la plus proche 2019-12 (1.0)
+- **Holy Wrath Potion** (HolyWrathPotion, retiré après 2.0.1.005) : version la plus proche 2022-02 (1.0)
+- **IOU an item** [fait] (IOU, retiré après 2019-11) : version la plus proche 2018-12 (1.0)
+- **Impaler** (Impaler, retiré après 2022-06) : version la plus proche 2019-10 (1.0)
+- **Iron Heart** (IronHeart, retiré après 2022-01) : version la plus proche 2020-12 (1.0)
+- **Latcher Mine** (LatcherMine, retiré après 2022-06) : version la plus proche 2020-01 (1.0)
+- **Lazhar** [fait] (Lazhar, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Lazinator** (Zapper, retiré après 2022-06) : version la plus proche 2018-12 (1.0)
+- **Lead Core** [fait] (LeadCore, retiré après 2022-04) : version la plus proche 2018-12 (1.0)
+- **Lead Wizard** (LeadWizard, retiré après 2022-01) : version la plus proche 2019-06 (1.0)
+- **Lightning Hawk** (LightningHawk, retiré après 2.0.1.005) : version la plus proche 2022-02 (1.0)
+- **Lul** (CheatTestThing, retiré après 2022-06) : version la plus proche 2022-02 (0.91) ; introuvable : Equipable ; **Revue** : Objet de test de Calamity (CheatTestThing) ; « Equipable » est une étiquette du wiki.
+- **Luminous Striker** (LuminousStriker, retiré après 2.0.1.005) : version la plus proche 2020-04 (1.0)
+- **Magna Striker** (MagnaStriker, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Magnum** (Magnum, retiré après 2.0.1.005) : version la plus proche 2022-02 (1.0)
+- **Magnum Rounds** (MagnumRounds, retiré après 2.0.1.005) : version la plus proche 2019-02 (1.0)
+- **Mandible Bow** (MandibleBow, retiré après 2022-06) : version la plus proche 2018-12 (1.0)
+- **Mandible Claws** (MandibleClaws, retiré après 2022-06) : version la plus proche 2018-12 (1.0)
+- **Maneater Bulb** [fait] (ManeaterBulb, retiré après 2020-11) : version la plus proche 2018-12 (1.0)
+- **Mariana** (Mariana, retiré après 2022-06) : version la plus proche 2020-12 (1.0)
+- **Marked Magnum** (MarkedMagnum, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Marnite Bayonet** (MarniteBayonet, MarniteRifleSpear, retiré après 2022-07) : version la plus proche 2019-08 (1.0)
+- **Marnite Spear** (MarniteSpear, retiré après 2022-07) : version la plus proche 2018-12 (1.0)
+- **Meld Bar** [fait] (MeldiateBar, retiré après 2022-06) : version la plus proche 2018-12 (1.0)
+- **Molecular Manipulator** (MolecularManipulator, retiré après 2.0.1.005) : version la plus proche 2021-04 (1.0)
+- **Monkey Darts** (MonkeyDarts, retiré après 2.0.1.005) : version la plus proche 2020-10 (1.0)
+- **Moonlight** (Moonlight, retiré après 2021-03) : version la plus proche 2018-12 (1.0)
+- **Murky Paste** [fait] (MurkyPaste, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Murky Sludge** [fait] (MurkySludge, retiré après 2022-02) : version la plus proche 2018-12 (1.0)
+- **Nychthemeron** (Nychthemeron, retiré après 2.0.1.005) : version la plus proche 2020-01 (0.95)
+- **Old Power Cell** (OldPowerCell, retiré après 2.0.1.005) : version la plus proche 2021-11 (1.0)
+- **Penumbra Potion** (PenumbraPotion, retiré après 2.0.1.005) : version la plus proche 2020-03 (0.99) ; introuvable : rogue stealth generates 15% faster while movingAt night, stealth also generates 15% faster while standing stillDuring an eclipse both boosts increase to 20% ; **Revue** : Infobulle de 2020 dont les retours à la ligne manquent sur le Fandom.
+- **Phantom Lance** [fait] (PhantomLance, retiré après 2.0.1.005) : version la plus proche 2020-01 (1.0)
+- **Phoenix Blade** (PhoenixBlade, retiré après 2022-06) : version la plus proche 2019-04 (1.0)
+- **Piggy** [fait] (PiggyItem, retiré après 2.0.1.005) : version la plus proche 2020-02 (1.0)
+- **Plague Hive** (PlagueHive, retiré après 2.0.1.005) : version la plus proche 2022-02 (1.0)
+- **Plague Keeper** (PlagueKeeper, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Poison Pack** (PoisonPack, retiré après 2.0.1.005) : version la plus proche 2020-01 (1.0)
+- **Profaned Rage Potion** (ProfanedRagePotion, retiré après 2.0.1.005) : version la plus proche 2022-02 (1.0)
+- **Psychotic Amulet** [fait] (PsychoticAmulet, retiré après 2022-06) : version la plus proche 2019-06 (1.0)
+- **Purified Jam** (PurifiedJam, retiré après 2022-06) : version la plus proche 2021-09 (1.0)
+- **Quasar** (Quasar, retiré après 2022-01) : version la plus proche 2020-06 (1.0)
+- **Raider's Glory** (RaidersGlory, retiré après 2022-06) : version la plus proche 2020-04 (1.0)
+- **Reaver Helmet** (ReaverHelmet, retiré après 2020-12) : version la plus proche 2019-02 (1.0)
+- **Reaver Mask** (ReaverMask, retiré après 2020-12) : version la plus proche 2019-08 (0.99)
+- **Redtide Spear** (RedtideSpear, retiré après 2.0.1.005) : version la plus proche 2022-07 (1.0)
+- **Redtide Sword** (RedtideSword, retiré après 2022-06) : version la plus proche 2019-06 (1.0)
+- **Revengeance** (Revenge, retiré après 2022-06) : version la plus proche 2022-03 (0.76)
+- **Revivify Potion** (RevivifyPotion, retiré après 2022-06) : version la plus proche 2019-11 (1.0)
+- **Rotten Matter** [fait] (RottenMatter, TrueShadowScale, retiré après 2.0.1.005) : version la plus proche 2022-07 (1.0)
+- **Rusty Medallion** (RustyMedallion, retiré après 2.0.1.005) : version la plus proche 2020-05 (1.0)
+- **Sandslasher** [fait] (Sandslasher, retiré après 2.0.1.005) : version la plus proche 2020-06 (1.0)
+- **Sandy Angling Kit** [fait] (SandyAnglingKit, retiré après 2.0.1.005) : version la plus proche 2021-12 (1.0)
+- **Scarred Angelfish** [fait] (ScarredAngelfish, retiré après 2022-07) : version la plus proche 2019-12 (1.0)
+- **Sea Minnow** (SeaMinnowItem, retiré après 2.0.1.005) : version la plus proche 2020-02 (1.0)
+- **Sea Shell** [fait] (SeaShell, retiré après 2022-06) : version la plus proche 2018-12 (1.0)
+- **Seabow** (Seabow, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Seashell Boomerang** (SeashellBoomerang, SeashellBoomerangMelee, retiré après 2022-06) : version la plus proche 2021-01 (1.0)
+- **Shadowdrop Staff** (ShadowdropStaff, retiré après 2022-06) : version la plus proche 2018-12 (1.0)
+- **Shattering Potion** (ShatteringPotion, retiré après 2022-10) : version la plus proche 2019-08 (1.0)
+- **Shroomerang** (Shroomerang, retiré après 2022-06) : version la plus proche 2019-12 (1.0)
+- **Shroomite Visage** (ShroomiteVisage, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Skullmasher** (Skullmasher, retiré après 2022-01) : version la plus proche 2021-05 (1.0)
+- **Sky Stabber** (SkyStabber, retiré après 2.0.1.005) : version la plus proche 2020-06 (1.0)
+- **Soul Edge** [fait] (SoulEdge, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Spectre Rifle** (SpectreRifle, retiré après 2022-10) : version la plus proche 2021-03 (1.0)
+- **Star Cannon EX** (StarCannonEX, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Sticky Spiky Ball** (StickySpikyBall, retiré après 2.0.1.005) : version la plus proche 2019-12 (1.0)
+- **Storm Dragoon** [fait] (StormDragoon, retiré après 2.0.1.005) : version la plus proche 2020-05 (1.0)
+- **Superball Bullet** (SuperballBullet, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Sylvan Slasher** (SylvanSlasher, retiré après 2022-06) : version la plus proche 2020-01 (1.0)
+- **Temporal Floe Sword** (TemporalFloeSword, retiré après 2022-06) : version la plus proche 2020-05 (1.0)
+- **Tenebris** [fait] (Tenebris, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Terra Edge** (TerraEdge, retiré après 2.0.1.005) : version la plus proche 2019-08 (1.0)
+- **Terra-cotta** [fait] (Terracotta, retiré après 2022-06) : version la plus proche 2019-06 (1.0)
+- **The Enforcer** (TheEnforcer, retiré après 2.0.1.005) : version la plus proche 2021-03 (1.0)
+- **The Reaper** (TheReaper, retiré après 2022-10) : version la plus proche 2020-02 (1.0)
+- **Titan Scale Potion** (TitanScalePotion, retiré après 2.0.1.005) : version la plus proche 2020-05 (1.0)
+- **Tormented Mind of Malice** (MaliceModeItem, retiré après 2022-07) : version la plus proche 2022-07 (0.99) ; introuvable : Expert ; **Revue** : Objet du mode Malice (MaliceModeItem, retiré en 2022) ; « Expert » est une étiquette du wiki.
+- **Trapper Bulb** [fait] (TrapperBulb, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)
+- **Trinity** (Trinity, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Triploon** (Triploon, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Triumph Potion** (TriumphPotion, retiré après 2.0.1.005) : version la plus proche 2019-06 (1.0)
+- **True Bloody Edge** (TrueBloodyEdge, retiré après 2.0.1.005) : version la plus proche 2021-02 (1.0)
+- **Twinkler** (TwinklerItem, retiré après 2.0.1.005) : version la plus proche 2019-11 (1.0)
+- **Urchin Flail** (UrchinFlail, retiré après 2.0.1.005) : version la plus proche 2019-04 (1.0)
+- **Urchin Spear** (UrchinSpear, retiré après 2022-06) : version la plus proche 2019-08 (1.0)
+- **Verdant** (Verdant, retiré après 2.0.1.005) : version la plus proche 2020-03 (1.0)
+- **Waraxe** (Waraxe, retiré après 2022-06) : version la plus proche 2019-06 (1.0)
+- **Warbanner of the Sun** (SamuraiBadge, WarbanneroftheSun, retiré après 2.0.1.005) : version la plus proche 2022-05 (1.0)
+- **Warblade** (Warblade, retiré après 2022-06) : version la plus proche 2019-06 (1.0)
+- **Wrath of the Ancients** [fait] (WrathoftheAncients, retiré après 2.0.1.005) : version la plus proche 2020-10 (1.0)
+- **Wulfrum Axe** (WulfrumAxe, retiré après 2022-07) : version la plus proche 2018-12 (1.0)
+- **Wulfrum Blade** (WulfrumBlade, retiré après 2022-07) : version la plus proche 2018-12 (1.0)
+- **Wulfrum Bow** (WulfrumBow, retiré après 2022-07) : version la plus proche 2018-12 (1.0)
+- **Wulfrum Hammer** (WulfrumHammer, retiré après 2022-07) : version la plus proche 2018-12 (1.0)
+- **Wulfrum Staff** (WulfrumStaff, retiré après 2022-07) : version la plus proche 2019-08 (1.0)
+- **Wulfrum armor** (WulfrumArmor, retiré après 2022-07) : version la plus proche None (0.0)
+- **Yanmei's Knife** (YanmeisKnife, retiré après 2.0.1.005) : version la plus proche 2020-09 (1.0)
+- **Yharim's Stimulants** (YharimsStimulants, retiré après 2.0.1.005) : version la plus proche 2018-12 (1.0)

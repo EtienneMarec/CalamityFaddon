@@ -275,6 +275,7 @@ def main():
     # Revue à la main (tools/diff_review.json) : verdict tranché et preuves
     review = json.load(open(os.path.join(ROOT, "tools", "diff_review.json"), encoding="utf-8"))
     armor = compare_set_bonuses(index, glossary, corpus, strings, gg_index, gg_find, review)
+    removed = compare_removed(index, old, glossary, corpus, by_old_name, review)
     for r in results:
         if r["title"] in review:
             r["auto"] = r["verdict"]
@@ -292,7 +293,39 @@ def main():
     results.sort(key=lambda r: (r["verdict"], r["category"], r["title"]))
     os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
     json.dump(results, open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    write_report(results, armor)
+    write_report(results, armor, removed)
+
+
+def compare_removed(index, old, glossary, corpus, by_old_name, review):
+    """Pages « new » qui portent le nom d'un objet retiré de Calamity : l'infobulle du Fandom est-elle celle d'une version
+    de cet objet (ancien objet décrit fidèlement) ou contient-elle des lignes introuvables (inventées) ?"""
+    snaps = old["snapshots"]
+    found = []
+    for entry in index.values():
+        if entry.get("kind") != "content" or entry.get("status") != "new":
+            continue
+        classes = by_old_name.get(norm([entry["title"]]), set())
+        if not classes:
+            continue
+        text = page_text(os.path.join(FANDOM, entry["file"])) or page_text(os.path.join(EXTRA, entry["file"]))
+        fandom_tip = strip_markup(unvandalize((infobox(text) or {}).get("tooltip"), glossary))
+        history = [h for c_name in classes for h in old["items"].get(c_name, [])]
+        last = max(old["seen"][c_name][1] for c_name in classes if c_name in old.get("seen", {}))
+        best, best_date = 0.0, None
+        for snap_index, _, tooltip in history:
+            r = ratio(norm(fandom_tip), norm(strip_markup(tooltip)))
+            if r > best:
+                best, best_date = r, snaps[snap_index]["date"]
+        literals = [lit for c_name in classes for lit in old.get("strings", {}).get(c_name, [])]
+        known = [norm([line]) for _, _, t in history for line in strip_markup(t)] + [norm([line]) for lit in literals for line in strip_markup(lit)]
+        unknown = [line for line in fandom_tip
+                   if max((ratio(norm([line]), k) for k in known), default=0.0) < LINE_KNOWN and not corpus.find(line)]
+        verdict = review.get(entry["title"], {}).get("verdict") or ("à vérifier" if unknown else "ancien objet")
+        found.append({"title": entry["title"], "classes": sorted(classes), "removed": snaps[last]["date"],
+                      "bestOld": round(best, 2), "bestOldDate": best_date, "fandom": fandom_tip, "unknown": unknown,
+                      "verdict": verdict, "implemented": bool(entry.get("implemented")),
+                      "note": review.get(entry["title"], {}).get("note", "")})
+    return sorted(found, key=lambda r: (r["verdict"], r["title"]))
 
 
 def compare_set_bonuses(index, glossary, corpus, strings, gg_index, gg_find, review):
@@ -348,7 +381,7 @@ VERDICTS = [
 ]
 
 
-def write_report(results, armor):
+def write_report(results, armor, removed):
     by = {}
     for r in results:
         by.setdefault(r["verdict"], []).append(r)
@@ -391,7 +424,25 @@ def write_report(results, armor):
                 f.write(f"- introuvable dans le code : {line}\n")
             if r["note"]:
                 f.write(f"- **Revue** : {r['note']}\n")
+        f.write("\n## Objets retirés de Calamity (pages « new » qui portent le nom d'un ancien objet)\n\n")
+        f.write("Infobulle du Fandom comparée aux versions de l'objet retiré (date de retrait = dernière version mensuelle où "
+                "il existait ; 2.0.1.005 = encore présent à l'abandon du wiki).\n")
+        for verdict in ("à vérifier", "inventée", "mélange", "ancien objet"):
+            group = [r for r in removed if r["verdict"] == verdict]
+            if not group:
+                continue
+            f.write(f"\n### {verdict} ({len(group)})\n\n")
+            for r in group:
+                done = " [fait]" if r["implemented"] else ""
+                f.write(f"- **{r['title']}**{done} ({', '.join(r['classes'])}, retiré après {r['removed']}) : "
+                        f"version la plus proche {r['bestOldDate']} ({r['bestOld']})")
+                if r["unknown"]:
+                    f.write(" ; introuvable : " + " / ".join(r["unknown"]))
+                if r["note"]:
+                    f.write(f" ; **Revue** : {r['note']}")
+                f.write("\n")
     print(f"{len(results)} écarts : " + ", ".join(f"{k} {len(v)}" for k, v in by.items()))
+    print(f"{len(removed)} objets retirés : " + ", ".join(f"{v} {sum(1 for r in removed if r['verdict'] == v)}" for v in sorted({r['verdict'] for r in removed})))
     print(f"{len(armor)} sets d'armure : " + ", ".join(f"{v} {sum(1 for r in armor if r['verdict'] == v)}" for v in sorted({r['verdict'] for r in armor})))
 
 
