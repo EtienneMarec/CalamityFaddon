@@ -40,8 +40,8 @@ namespace CalamityFandom.Common.NPCs
         /// <summary>Phase 1 tant que moins de 12 coups ont été comptés (page du wiki).</summary>
         public const int PhaseOneHits = 12;
         /// <summary>Échelle des sprites (test du 28/10) : Sans presque à taille humaine (180 px de haut -> 63, le joueur en fait
-        /// 42), le Ravager refait un peu plus petit que l'image du wiki (668 px de large -> 534, la taille du Ravager de base).</summary>
-        public const float PhaseOneScale = 0.35f, PhaseTwoScale = 0.8f;
+        /// 42), le Ravager refait à x0,64 de l'image du wiki (668 px de large -> 428, deuxième réduction du 28/10).</summary>
+        public const float PhaseOneScale = 0.35f, PhaseTwoScale = 0.64f;
         /// <summary>Hitbox de la phase 1 : le sprite de Sans réduit (120 x 180 x 0,35).</summary>
         private static readonly Point PhaseOneSize = new(40, 60);
 

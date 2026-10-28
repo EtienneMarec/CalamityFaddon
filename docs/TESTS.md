@@ -211,8 +211,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] (28/10) Sprite de **Sans** (squelette en sweat bleu) pendant les 12 premiers coups, sans jambes ni tête du Ravager
       autour, et les coups ne touchent que lui ; au 12e coup il se téléporte (poussière bleue) et prend le sprite du
       Ravager refait du wiki pour les 11 derniers ; dans les deux modes
-- [ ] (28/10, 2e passe) Sans à peu près à taille humaine (un peu plus grand que le joueur), touchable seulement sur son
-      sprite ; le Ravager refait de la phase 2 à la taille du Ravager de base
+- [x] (28/10, 2e passe) Sans à peu près à taille humaine (un peu plus grand que le joueur), touchable seulement sur son
+      sprite
+- [ ] (28/10, 3e passe) Ravager refait de la phase 2 réduit encore (x0,64 de l'image du wiki)
 - [x] (28/10) « MISS » entre les coups, 1 PV par coup ; attaques et piliers : 1 dégât + poison
 - [ ] (28/10) Chaque coup compté affiche « **MISS** », projette le joueur loin de Sans, puis 1,5 s pendant lesquelles les
       coups passent à travers ; les debuffs (feu, poison...) ne lui retirent rien
