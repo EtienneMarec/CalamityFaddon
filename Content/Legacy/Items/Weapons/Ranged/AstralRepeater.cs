@@ -23,6 +23,7 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Ranged
             Item.DamageType = DamageClass.Ranged;
             Item.width = 38;
             Item.height = 78;
+            Item.scale = 0.8f; // retour du 30/10 : sprite trop grand en main
             Item.useTime = 5;
             Item.reuseDelay = 15;
             Item.useAnimation = 15;

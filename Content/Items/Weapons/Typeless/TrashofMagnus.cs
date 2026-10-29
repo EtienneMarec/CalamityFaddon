@@ -16,7 +16,12 @@ namespace CalamityFandom.Content.Items.Weapons.Typeless
     /// </summary>
     public class TrashofMagnus : ModItem
     {
-        public override void SetStaticDefaults() => Item.ResearchUnlockCount = 1;
+        public override void SetStaticDefaults()
+        {
+            Item.ResearchUnlockCount = 1;
+            // Sprite dessiné en diagonale : tenu comme un bâton, pointé vers la cible (retour du 30/10)
+            Item.staff[Type] = true;
+        }
 
         public override void SetDefaults()
         {

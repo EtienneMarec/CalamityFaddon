@@ -39,6 +39,9 @@ namespace CalamityFandom.Content.Items.Weapons.Rogue
             Item.DamageType = ModContent.GetInstance<RogueDamageClass>();
         }
 
+        // [choix] « rapidly throws disks » : plusieurs disques à la fois, mais 3 au plus (sans limite, ils s'empilaient à l'infini)
+        public override bool CanUseItem(Player player) => player.ownedProjectileCounts[Item.shoot] < 3;
+
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
             int p = Projectile.NewProjectile(source, position, velocity, type, damage, knockback, player.whoAmI);

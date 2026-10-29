@@ -504,6 +504,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   note + nom du personnage, enregistrée avec le monde (`WikiLootOnceSystem`), pour que le serveur la vérifie.
   **Revivify Potion** : soin de 1/15 des dégâts après le coup (`OnHurt`), donc rien sur un coup mortel (Notes).
   **Marked Magnum** : `AverageDamageClass` de Calamity (« scales with all your damage stats »), critique forcé à 0.
+- **[choix]** (30/10, retours de test) **Aftershock** : le rocher tombe vers l'ennemi touché (le code de 2022 visait le
+  curseur ; la page dit seulement qu'il tombe du ciel). **Astral Bow** : taille 0,8 en main. **Trash of Magnus** : tenu
+  comme un bâton (`Item.staff`), son sprite étant dessiné en diagonale. **Poison I-Bee** : 3 disques en vol au plus
+  (« rapidly throws disks » ; sans limite, ils s'empilaient à l'infini). **Decomposition** : la ruche se pose sur les
+  plateformes. **Plague Balloon** : la mort lâche une nuée d'abeilles vanilla teintées de vert, sans dégâts
+  (`PlagueBalloonBee`), en plus de la poussière.
 - **[technique]** (29/10, lot 9) **Arcanum of the Void** mis de côté : la page décrit une barrière du vide qui explose
   en énergie sombre à tête chercheuse ; le code de 2022 renvoyait les projectiles. Effet inventé ou refait, à trancher.
 - **[choix]** (29/10, lot 10) **Dualpoon**, **Triploon** : code de 2022 en une base commune (`MultiHarpoon`) ; recettes
@@ -527,6 +533,14 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   `reports/sprites.md`) : objets **renommés** (Conquest Fragment, Divine Bar, Victide Bar...) → sprite du wiki dans
   **tous les modes**, comme leur nom ; objets **officiels** au sprite refait par Calamity depuis 2022 → sprite du wiki en
   **Full Fandom** seulement (Calamity++ garde le sprite actuel).
+- **[choix]** (30/10) Nos propres objets (portages, créations) dont le wiki montre un autre sprite reçoivent le sprite
+  du wiki en **Full Fandom seulement**, comme les objets officiels (Calamity++ garde celui de 2022) :
+  `gen_sprites.py` → `Generated/Full/Items/`, `TextureOverrides` cherche la classe dans Calamity puis dans ce mod
+  (une classe de Calamity du même nom est ignorée). 17 objets au 30/10, dont le Blood Clot Staff (retour de test).
+  **[technique]** Correction de la comparaison des images : `getbbox()` d'une image RGBA ne regarde que la transparence,
+  et l'écart moyen incluait le fond transparent, si bien que des recolorations entières passaient pour « identiques ».
+  Nouvelle règle : même image si même forme (≤ 2 % de pixels dont la transparence change) et ≤ 3 % des pixels visibles
+  nettement différents (un canal à plus de 48). Résultat : ~120 objets de Calamity en plus reçoivent leur sprite du wiki.
   **[technique]** Icône seulement (la hitbox garde sa taille). Images « presque identiques » (compression WebP, x2)
   comptées comme identiques. Ignorés : objets animés de Calamity (76, dont Abyss Bar, Cruel Jewel, Graydron : le wiki
   n'a qu'une image fixe, et Graydron dessine ses propres textures), murs (le wiki montre le mur posé), illustrations

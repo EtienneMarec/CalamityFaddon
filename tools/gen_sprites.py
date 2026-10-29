@@ -4,6 +4,8 @@
   -> Assets/Overrides/Generated/Items/<Classe>.png
 - Objet officiel dont Calamity a refait le sprite depuis 2022 : sprite du wiki en Full Fandom seulement
   -> Assets/Overrides/Generated/Full/Items/<Classe>.png
+- Objet porté ou créé par ce mod (page « new » implémentée dans Content/) dont le wiki montre un autre sprite (resprite
+  du Fandom) : sprite du wiki en Full Fandom seulement, même dossier (décision du 30/10)
 Appliqués par Common/WikiData/TextureOverrides.cs (icône seulement). Ignorés : objets animés de Calamity (planche
 d'images), murs (le wiki montre le mur posé), illustrations de plus de 96 px.
 Une image faite à la main dans Assets/Overrides/Items/ passe avant.
@@ -15,6 +17,7 @@ Usage : python tools/gen_sprites.py   (après wiki_index.py)
 """
 import json
 import os
+import re
 import shutil
 import sys
 
@@ -27,7 +30,13 @@ OUT_ALL = os.path.join(ROOT, "Assets", "Overrides", "Generated", "Items")
 OUT_FULL = os.path.join(ROOT, "Assets", "Overrides", "Generated", "Full", "Items")
 REPORT = os.path.join(ROOT, "reports", "sprites.md")
 MAX_SPRITE = 96  # au-delà, c'est une illustration du wiki, pas une icône d'objet
-TOLERANCE = 10   # écart moyen par canal (0-255) en dessous duquel deux images sont « la même » (compression WebP)
+BIG_DIFF = 48    # écart d'un canal (0-255) au-delà duquel un pixel est « nettement différent » (la compression WebP reste en dessous)
+
+
+def ModClassClash(cls):
+    """Une classe de Calamity du même nom recevrait l'image à notre place (TextureOverrides cherche d'abord Calamity)."""
+    return os.path.exists(os.path.join(ROOT, "OtherMods", "CalamityModPublic", "Items")) and any(
+        f == cls + ".cs" for _, _, files in os.walk(os.path.join(ROOT, "OtherMods", "CalamityModPublic", "Items")) for f in files)
 
 
 def first_frame(path):
@@ -36,11 +45,18 @@ def first_frame(path):
 
 
 def close(a, b):
+    """Même image au bruit de compression près : même forme, et moins de 3 % des pixels visibles nettement différents.
+    (Corrigé le 30/10 : getbbox() d'une image RGBA ne regarde que la transparence, et l'écart moyen sur toute l'image,
+    fond transparent compris, laissait passer des recolorations entières comme celle du Blood Clot Staff.)"""
     if a.size != b.size:
         return False
-    if ImageChops.difference(a, b).getbbox() is None:
-        return True
-    return max(ImageStat.Stat(ImageChops.difference(a, b)).mean) < TOLERANCE
+    pa, pb = a.getdata(), b.getdata()
+    shape = sum(1 for p, q in zip(pa, pb) if (p[3] > 128) != (q[3] > 128))
+    both = [(p, q) for p, q in zip(pa, pb) if p[3] > 128 and q[3] > 128]
+    if shape > 0.02 * a.width * a.height:
+        return False
+    big = sum(1 for p, q in both if max(abs(p[0] - q[0]), abs(p[1] - q[1]), abs(p[2] - q[2])) > BIG_DIFF)
+    return big <= 0.03 * max(1, len(both))
 
 
 def same_sprite(wiki, code):
@@ -122,13 +138,53 @@ def main():
             icon.save(os.path.join(folder, cls + ".png"), "PNG")
             written[status].append((page["title"], cls))
 
+    # Objets de ce mod : classe portant « /// Wiki : <page> », image à côté de son fichier
+    written["ours"] = []
+    for page in sorted(index.values(), key=lambda p: p["title"]):
+        impl = page.get("implemented") or ""
+        # Pages « new », et pages renommées dont notre portage est la version Full Fandom (Starfall, Seabound Staff...)
+        if page.get("kind") != "content" or not page.get("sprite"):
+            continue
+        if not impl.startswith("Content/") or not impl.endswith(".cs") or not page.get("infobox", "").startswith("item"):
+            continue
+        source = open(os.path.join(ROOT, impl), encoding="utf-8-sig", errors="replace").read()
+        m = re.search(r"Wiki : " + re.escape(page["file"]) + r".*?\bclass (\w+)", source, re.S)
+        if not m:
+            continue
+        cls = m.group(1)
+        if cls in done or ModClassClash(cls):
+            continue
+        png = os.path.join(ROOT, os.path.dirname(impl), cls + ".png")
+        if not os.path.exists(png):
+            continue
+        done.add(cls)
+        try:
+            wiki = first_frame(os.path.join(SPRITES, page["sprite"]))
+            code = Image.open(png).convert("RGBA")
+        except OSError:
+            skipped.append((page["title"], "image illisible"))
+            continue
+        if same_sprite(wiki, code):
+            same += 1
+            continue
+        if "RegisterItemAnimation" in source or "AnimatesAsSoul" in source:
+            skipped.append((page["title"], "objet animé"))
+            continue
+        icon = usable(wiki)
+        if icon is None:
+            skipped.append((page["title"], f"illustration {wiki.width}x{wiki.height}"))
+            continue
+        icon.save(os.path.join(OUT_FULL, cls + ".png"), "PNG")
+        written["ours"].append((page["title"], cls))
+
     with open(REPORT, "w", encoding="utf-8") as f:
         f.write("# Sprites du wiki appliqués aux objets de Calamity\n\n_Généré par `tools/gen_sprites.py`._\n\n")
         f.write(f"- {same} objets ont déjà le sprite du wiki\n")
         f.write(f"- {len(written['renamed'])} objets renommés : sprite du wiki dans tous les modes\n")
         f.write(f"- {len(written['official'])} objets officiels : sprite du wiki en Full Fandom seulement\n")
         f.write(f"- {len(skipped)} ignorés (image du wiki inutilisable)\n\n")
-        for status, title in (("renamed", "Renommés (tous les modes)"), ("official", "Officiels (Full Fandom)")):
+        for status, title in (("renamed", "Renommés (tous les modes)"), ("official", "Officiels (Full Fandom)"),
+                              ("ours", "Objets de ce mod (Full Fandom)")):
             f.write(f"## {title}\n\n" + ", ".join(f"{t} (`{c}`)" for t, c in written[status]) + "\n\n")
         f.write("## Ignorés\n\n" + "\n".join(f"- {t} : {why}" for t, why in skipped) + "\n")
     print(f"déjà identiques : {same} ; renommés : {len(written['renamed'])} ; officiels (Full) : {len(written['official'])} ; "

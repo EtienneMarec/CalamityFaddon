@@ -41,24 +41,27 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Melee
         public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
         {
             target.AddBuff(ModContent.BuffType<ArmorCrunch>(), 300);
-            SpawnRock(player, hit.Knockback);
+            SpawnRock(player, target.Center, hit.Knockback);
         }
 
         public override void OnHitPvp(Player player, Player target, Player.HurtInfo hurtInfo)
         {
             target.AddBuff(ModContent.BuffType<ArmorCrunch>(), 300);
-            SpawnRock(player, Item.knockBack);
+            SpawnRock(player, target.Center, Item.knockBack);
         }
 
-        /// <summary>Rocher lancé de 700 px au-dessus du joueur, vers le curseur (toujours vers le bas).</summary>
-        private void SpawnRock(Player player, float knockback)
+        /// <summary>
+        /// Rocher lancé de 700 px au-dessus du joueur, vers l'ennemi touché (toujours vers le bas). [choix] Retour du 30/10 :
+        /// l'ancien code visait le curseur, ce qui ne correspondait pas à l'ennemi frappé ; la page dit seulement « falls from
+        /// the sky ».
+        /// </summary>
+        private void SpawnRock(Player player, Vector2 target, float knockback)
         {
             if (player.whoAmI != Main.myPlayer)
                 return;
-            Vector2 cursor = Main.MouseWorld;
-            Vector2 origin = new Vector2((player.Center.X + Main.rand.Next(201) * -player.direction + cursor.X) / 2f + Main.rand.Next(-200, 201),
+            Vector2 origin = new Vector2((player.Center.X + Main.rand.Next(201) * -player.direction + target.X) / 2f + Main.rand.Next(-200, 201),
                 player.MountedCenter.Y - 700f);
-            Vector2 aim = cursor - origin;
+            Vector2 aim = target - origin;
             aim.Y = System.Math.Max(System.Math.Abs(aim.Y), 20f);
             aim = Vector2.Normalize(aim) * Item.shootSpeed + new Vector2(0f, Main.rand.Next(-10, 11) * 0.02f);
             int damage = (int)player.GetTotalDamage(DamageClass.Melee).ApplyTo(Item.damage);

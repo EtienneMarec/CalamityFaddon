@@ -73,6 +73,13 @@ namespace CalamityFandom.Content.Items.Weapons.Summon
 
         public override bool OnTileCollide(Vector2 oldVelocity) => false;
 
+        // Se pose aussi sur les plateformes (retour du 30/10)
+        public override bool TileCollideStyle(ref int width, ref int height, ref bool fallThrough, ref Vector2 hitboxCenterFrac)
+        {
+            fallThrough = false;
+            return true;
+        }
+
         public override void AI()
         {
             Projectile.velocity.X = 0f;
