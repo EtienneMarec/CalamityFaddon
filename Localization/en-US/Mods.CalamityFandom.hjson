@@ -518,6 +518,30 @@ Items: {
 		Tooltip: Fires whaling spears from the sky that bounce off tiles
 	}
 
+	Impaler: {
+		DisplayName: Impaler
+		Tooltip:
+			'''
+			Fires explosive and flaming stakes
+			Instantly kills vampires and vampire bats
+			'''
+	}
+
+	SpectreRifle: {
+		DisplayName: Spectre Rifle
+		Tooltip: Converts musket balls into powerful homing souls
+	}
+
+	StarCannonEX: {
+		DisplayName: Star Cannon EX
+		Tooltip: Fires a mix of normal, starfury, and astral stars
+	}
+
+	BrimstoneFlameblaster: {
+		DisplayName: Brimstone Flameblaster
+		Tooltip: Fires bouncing brimstone fireballs
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -743,6 +767,10 @@ Projectiles: {
 	PhoenixHeal.DisplayName: Healing Flame
 	MarianaProjectile.DisplayName: Oceanic Bubble
 	OceanBeam.DisplayName: Aquatic Spear
+	FlamingStake.DisplayName: Flaming Stake
+	ExplodingStake.DisplayName: Exploding Stake
+	FallenStarProj.DisplayName: Fallen Star
+	BrimstoneBallFriendly.DisplayName: Brimstone Fireball
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash

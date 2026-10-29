@@ -212,7 +212,7 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Melee
             var source = player.GetSource_ItemUse(Item);
             var boom = Projectile.NewProjectileDirect(source, at, Vector2.Zero, ModContent.ProjectileType<FuckYou>(), damage, knockback, player.whoAmI, 0f, 0.85f + Main.rand.NextFloat() * 1.15f);
             boom.DamageType = DamageClass.Melee;
-            boom.GetGlobalProjectile<PhoenixExplosion>().Ignite = true;
+            LegacyHitDebuff.Give(boom, BuffID.OnFire, 180);
             float speedX = Main.rand.Next(5);
             float speedY = Main.rand.Next(3, 7);
             int heal = ModContent.ProjectileType<PhoenixHeal>();
@@ -224,20 +224,6 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Melee
         {
             if (Main.rand.NextBool(4))
                 Dust.NewDust(hitbox.TopLeft(), hitbox.Width, hitbox.Height, 244);
-        }
-    }
-
-    /// <summary>Explosion de la Phoenix Blade (celle de Calamity) : On Fire! 3 s aux ennemis touchés (infobox).</summary>
-    public class PhoenixExplosion : GlobalProjectile
-    {
-        public bool Ignite;
-
-        public override bool InstancePerEntity => true;
-
-        public override void OnHitNPC(Projectile projectile, NPC target, NPC.HitInfo hit, int damageDone)
-        {
-            if (Ignite)
-                target.AddBuff(BuffID.OnFire, 180);
         }
     }
 }

@@ -54,7 +54,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Bouncy Spiky Ball
 - [ ] Breakthrough
 - [x] Brimlash Buster
-- [ ] Brimstone Flameblaster
+- [x] Brimstone Flameblaster
 - [ ] Bucket of Coal — addon: Calamity: Community Remix
 - [ ] Bundle o' Bones — addon: Calamity: Community Remix
 - [ ] Butcher (weapon)
@@ -221,7 +221,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Hyperhavoc — addon: Calamity: Tales of the Aquatic
 - [ ] Ichor Dagger — addon: Calamity: Community Remix
 - [ ] Ifflamator — addon: Calamity: Tales of the Aquatic
-- [ ] Impaler
+- [x] Impaler
 - [ ] Incandescent Nox — addon: Deimos, the Starborn Princess
 - [ ] Infected Dagger Misses No Skeptics — addon: Calamity: Community Remix
 - [ ] Infernum Kris — addon: Calamity: Community Remix
@@ -359,7 +359,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Snowgrave — addon: Apotheosis and Friends
 - [x] Soul Edge
 - [ ] Spear of Liberty — addon: Calamity: Community Remix, Calamity: Community Remix
-- [ ] Spectre Rifle
+- [x] Spectre Rifle
 - [ ] Squirrel Baron Staff
 - [ ] Squirrel Count Staff
 - [ ] Squirrel Duke Staff
@@ -367,7 +367,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Squirrel Knight Staff
 - [ ] Squirrel Prince Staff
 - [ ] Squirrel Viscount Staff
-- [ ] Star Cannon EX
+- [x] Star Cannon EX
 - [ ] Star Flare — addon: Deimos, the Starborn Princess, Sloome
 - [ ] Steel Blade
 - [ ] Steel Kunai

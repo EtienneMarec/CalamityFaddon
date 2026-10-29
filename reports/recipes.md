@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1096 objets dont les recettes ont changé : 960 recettes modifiées, 201 créées
+- 1100 objets dont les recettes ont changé : 961 recettes modifiées, 204 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 116 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 136 recettes
+- 114 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 134 recettes
 
 ## Recettes changées
 
@@ -550,6 +550,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Ice Barrage | 1 Blizzard Staff, 1 Ice Rod, 1 Icicle Staff, 8 Cosmilite Bar, 40 Endothermic Energy @ CosmicAnvil → 1 | 1 Blizzard Staff, 1 Ice Rod, 1 Icicle Staff, 8 Cosmilite Bar, 40 Endothermic Energy, 18 Cryonic Bar, 2 The sword is inside the core @ IceMachine → 1 |
 | Ichorplate | (nouvelle) | 1 Ichor, 3 Obsidian @ Hellforge → 3 |
 | Igneous Exaltation | 8 Unholy Core, 8 Essence of Chaos @ MythrilAnvil → 1 | 10 Mollusk Husk, 10 Unholy Core, 5 Essence of Chaos @ MythrilAnvil → 1 |
+| Impaler | (nouvelle) | 1 Stake Launcher, 100 Explosive Powder, 5 Abyss Bar, 75 Living Fire Block @ MythrilAnvil → 1 |
 | Infernal Kris | 10 Hellstone Bar, 10 Ash Wood @ Anvils → 1 | 1 Hellstone Bar, 2 Obsidian @ Anvils → 100 |
 | Infernal Rift | 1 Sky Fracture, 10 Abyss Bar @ MythrilAnvil → 1 | 1 Sky Fracture, 3 Essence of Chaos, 10 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Infinity | 1 Shredder, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Shredder, 10 Cosmilite Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
@@ -910,6 +911,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Spark Spreader | 10 Any Gold Bar, 1 Ruby, 12 Gel @ Anvils → 1 | 1 Char Matter, 1 Flare Gun, 1 Ruby, 12 Gel @ Anvils → 1 |
 | Spear of Destiny | 1 Cursed Dagger, 7 Hallowed Bar, 5 Soul of Fright, 5 Soul of Might, 5 Soul of Sight @ MythrilAnvil → 1 | 7 Hallowed Bar, 5 Soul of Light, 5 Soul of Fright @ MythrilAnvil → 1 |
 | Spectralstorm Cannon | 1 Firestorm Cannon, 6 Solar Fragment, 10 Ectoplasm @ LunarCraftingStation → 1 | 1 Firestorm Cannon, 20 Vortex Fragment, 10 Ectoplasm @ LunarCraftingStation → 1 |
+| Spectre Rifle | (nouvelle) | 7 Spectre Bar, 3 Core of Eleum @ MythrilAnvil → 1 |
 | Speed Blaster | 1 Paintball Gun, 1 Illegal Gun Parts, 5 Any Mythril Bar @ MythrilAnvil → 1 | 1 Paintball Gun, 5 Soul of Sight @ MythrilAnvil → 1 |
 | Spelunker's Amulet | 7 Gold Dust, 7 Spelunker Potion @ Anvils → 1 | 10 Gold Bar, 1 Spelunker Potion @ Anvils → 1 |
 | Spirit Glyph | 5 Diamond, 15 Obsidian @ Anvils → 1 | 15 Any Iron Bar, 5 Essence of Law @ Anvils → 1 |
@@ -920,10 +922,12 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Staff of the Mechworm | (nouvelle) | 200 Cosmilite Bar, 5 Stardust Dragon Staff, 1 Cosmolight, 2 Gummy Worm, 1 Lime Dye @ CosmicAnvil → 1 |
 | Star Beam Rye | (nouvelle) | 5 Margarita, 10 Blood Orb, 1 Aureus Cell @ AlchemyTable → 5 |
 | Star Beam Rye | 10 Bottle, 1 Star Fruit @ Kegs → 10 | 5 Margarita, 20 Hay, 2 Aureus Cell @ Kegs → 5 |
+| Star Cannon EX | (nouvelle) | 1 Super Star Shooter, 20 Fallen Star, 5 Aureus Cell @ MythrilAnvil → 1 |
 | Star Struck Water | 10 Bottled Water, 2 Stardust, 1 Astral Grass Seeds @ main → 10 | 10 Bottled Honey, 1 Astral Sand, 1 Astral Monolith @ main → 10 |
 | Star Swallower Containment Unit | 8 Mysterious Circuitry, 4 Dubious Plating, 4 Aerialite Bar, 7 Sea Prism @ Anvils → 1 | 4 Dubious Plating @ Anvils → 1 |
 | Starcore | 8 Astral Bar, 8 Aureus Cell, 25 Stardust @ LunarCraftingStation → 1 | 50 Stardust, 12 Aureus Cell, 10 Solar Fragment, 10 Vortex Fragment, 10 Nebula Fragment, 10 Stardust Fragment @ LunarCraftingStation → 1 |
 | Stardust | (nouvelle) | 1 Compressed Mana @ MythrilAnvil → 5 |
+| Starfleet | 1 Super Star Shooter, 4 Ruinous Soul, 15 Fallen Star, 5 Stardust Fragment @ LunarCraftingStation → 1 | 1 Star Cannon EX, 1 Electrosphere Launcher, 5 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Starlight Wings | 20 Soul of Flight, 10 Cryonic Bar @ MythrilAnvil → 1 | 5 Cryonic Bar, 1 Coyote Venom, 20 Soul of Flight @ MythrilAnvil → 1 |
 | Starmada | 1 Starfleet, 5 Auric Bar, 25 Exodium Cluster @ CosmicAnvil → 1 | 1 Aquashard Shotgun, 1 Starfleet, 1 Star Sputter, 15 Exodium Cluster, 8 Cosmilite Bar, 8 Darksun Fragment, 5 Crystal of the Wicked, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Static Refiner | 10 Statigel Block @ Solidifier → 1 | 100 Gel, 5 Dynamite @ Anvils → 1 |
@@ -1275,8 +1279,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Salt Water Bolt — 1
 - objet : Sanctified Spark — 1
 - objet : Skyalcon Spallation — 1
-- objet : Spectre Rifle — 1
-- objet : Star Cannon EX — 1
 - objet : Terra Edge — 1
 - objet : The Generator — 1
 - objet : The Godfather — 1

@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (433)
+## Objets (429)
 
 - A M S
 - AAMG "Disperse"
@@ -201,7 +201,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Bouncy Spiky Ball
 - Braxaxe
 - Breakthrough
-- Brimstone Flameblaster
 - Bucket of Coal
 - Bundle o' Bones
 - Butcher (weapon)
@@ -360,7 +359,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Ichor Dagger
 - Ifflamator
 - Impact Adjuster
-- Impaler
 - Incandescent Nox
 - Infected Dagger Misses No Skeptics
 - Infernum Kris
@@ -488,7 +486,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Smoldering Seahorses
 - Snowgrave
 - Spear of Liberty
-- Spectre Rifle
 - Squirrel Baron Staff
 - Squirrel Count Staff
 - Squirrel Duke Staff
@@ -496,7 +493,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Squirrel Knight Staff
 - Squirrel Prince Staff
 - Squirrel Viscount Staff
-- Star Cannon EX
 - Star Flare
 - Steel Blade
 - Steel Kunai

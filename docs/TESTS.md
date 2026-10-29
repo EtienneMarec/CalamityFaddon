@@ -417,6 +417,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       **Fulguration Halberd** : épée au clic gauche, lance au clic droit, Burning Blood
 - [ ] **Mariana** : chaque coup fait éclater 4 ou 5 bulles qui rebondissent partout, touchent 3 ennemis, vivent ~2 s ;
       **Aquatic Dissolution** : 3 lances tombent au-dessus du curseur, traversent le sol 1 s puis rebondissent deux fois
+- [ ] **Impaler** (pieux enflammés, un sur trois explose ; un Vampire meurt en un coup) ; **Spectre Rifle** (balles de
+      mousquet → âmes à tête chercheuse, clic droit maintenu = zoom)
+- [ ] **Star Cannon EX** (étoiles astrales roses avec Astral Infection, étoiles de Starfury, étoiles tombées) ;
+      **Brimstone Flameblaster** (lâché par Cataclysm, consomme du gel, boules qui rebondissent 5 fois)
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

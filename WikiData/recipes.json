@@ -52191,6 +52191,40 @@
    "page": "Recipes_Hardmode Anvil_register.txt"
   },
   {
+   "result": "Impaler",
+   "amount": 1,
+   "stations": [
+    "Mythril Anvil"
+   ],
+   "ingredients": [
+    {
+     "items": [
+      "Stake Launcher"
+     ],
+     "stack": 1
+    },
+    {
+     "items": [
+      "Explosive Powder"
+     ],
+     "stack": 100
+    },
+    {
+     "items": [
+      "Abyss Bar"
+     ],
+     "stack": 5
+    },
+    {
+     "items": [
+      "Living Fire Block"
+     ],
+     "stack": 75
+    }
+   ],
+   "page": "Recipes_Hardmode Anvil_register.txt"
+  },
+  {
    "result": "Apocalyptic Bar",
    "amount": 1,
    "stations": [

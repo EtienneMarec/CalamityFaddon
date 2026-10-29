@@ -464,7 +464,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   sur le coup suivant) ; le second tir du texte (« four brimstone bolts to the left, right, and diagonals ») n'a jamais
   existé dans le code de Calamity : ajouté tel quel (traits `Brimlash2` à gauche, à droite et en diagonale vers le haut).
   **Phoenix Blade** : flammes de soin de 3 s (page ; 1,75 s dans le code), explosion `FuckYou` de Calamity avec On Fire!
-  3 s (`PhoenixExplosion`, l'explosion de Calamity n'en inflige pas).
+  3 s (`LegacyHitDebuff`, l'explosion de Calamity n'en inflige pas).
 - **[choix]** (29/10, lot 4) Recettes ajoutées à **notre wiki** : la page de l'arme affiche une recette, mais aucun
   registre ne la contient (Brimlash Buster, Phoenix Blade), ou seul `Recipes_Historical_register` l'a, avec la station
   disparue Particle Accelerator (Blade of Enmity). On reprend la recette du code de 2022 (ingrédients et station), inscrite
@@ -476,6 +476,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   distance »). **Aquatic Dissolution** : traverse les blocs pendant 1 s comme le dit la page (l'ancien code : 20 frames).
   **Trinity** : les 4 traits ont la même couleur, tirée au hasard (ancien code), en dégâts de mêlée. **Fulguration
   Halberd** : vrai corps à corps (`TrueMeleeDamageClass`) pour l'épée et la lance, immunité locale de 8 frames pour la lance.
+- **[choix]** (29/10, lot 6) **Impaler** : « instantly kills vampires » = mort immédiate (`SetInstantKill`) ; explosion
+  `FuckYou` avec On Fire! 3 s. **Spectre Rifle** : le zoom au clic droit est celui de la lunette de visée (`player.scope`).
+  **Star Cannon EX** : l'étoile astrale de Calamity n'inflige pas Astral Infection quand elle fait des dégâts à distance ;
+  on l'ajoute (2 s, infobox). Les tirs à bout portant de Calamity 2022 (`canFirePointBlankShots`) ne sont pas repris,
+  la page n'en parle pas. Recette de l'Impaler ajoutée à notre wiki (code de 2022 ; Cruptix Bar = Scoria Bar, appelée
+  Abyss Bar par le wiki). [technique] `LegacyHitDebuff` : debuff ajouté par le wiki à un projectile réutilisé qui n'en
+  inflige pas (explosions, étoiles).
 - **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
   1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
   comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet
