@@ -1,6 +1,6 @@
 # Licences par fichier (spécification REUSE : https://reuse.software). Textes des licences : LICENSES/.
 # Un en-tête SPDX dans un fichier passe avant ce tableau ; quand plusieurs annotations couvrent un fichier, la dernière
-# l'emporte. Vérification : `reuse lint` (outil à installer à part, `pipx install reuse`).
+# l'emporte. Vérification : `python -m reuse lint` (`python -m pip install --user reuse`).
 version = 1
 
 # Par défaut : notre code et nos fichiers
