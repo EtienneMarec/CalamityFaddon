@@ -26,7 +26,9 @@ WIKI = FANDOM  # ancien nom, gardé pour init_wiki.py
 OUR_WIKI = os.path.join(ROOT, "wiki")
 OUR_MAIN = os.path.join(OUR_WIKI, "Main")
 SPRITES = os.path.join(ROOT, "fandom_sprites")
-CALAMITY = os.path.join(ROOT, "CalamityModPublic")
+# OtherMods/ : sources d'autres mods utiles au développement (ignoré par git, jamais compilé ni empaqueté)
+OTHER_MODS = os.path.join(ROOT, "OtherMods")
+CALAMITY = os.path.join(OTHER_MODS, "CalamityModPublic")
 LOCALIZATION = os.path.join(CALAMITY, "Localization", "en-US")
 
 INFOBOX_RE = re.compile(r"\{\{\s*(item|npc|enemy|boss|buff|tile|armor) infobox", re.I)

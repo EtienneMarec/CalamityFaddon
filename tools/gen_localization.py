@@ -19,7 +19,7 @@ import re
 import hjson
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CAL_LOC = os.path.join(ROOT, "CalamityModPublic", "Localization", "en-US")
+CAL_LOC = os.path.join(ROOT, "OtherMods", "CalamityModPublic", "Localization", "en-US")
 OUT = os.path.join(ROOT, "Localization", "en-US", "Mods.CalamityMod.hjson")
 REPORT = os.path.join(ROOT, "reports", "localization.md")
 

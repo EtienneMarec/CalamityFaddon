@@ -12,7 +12,8 @@ spécification ; le code de Calamity est le point de départ.
 | `fandom_dump_txt/` | Le wiki Fandom d'origine, référence du mode Full Fandom : 8643 pages en wikitexte. Nom de fichier = titre avec `'` → `_s`, `(x)` → `_x_`, `:` → `_`, `/` → `_` |
 | `fandom_dump_extra/` | Complément téléchargé par `tools/fetch_missing_pages.py` : `Main/` = 18 pages que Windows avait écrasées dans le dump (titres identiques à la casse près, ex. *Death Mode*, *Statigel armor*) ; `Template/`, `Guide/` (dont **Mod progression** et des stratégies de boss inventés), `Category/`, `User/`, `Talk/`, `Module/`... ; `index.json` = titre → fichier |
 | `fandom_sprites/` | ~8500 médias. **Les `.png`/`.gif` sont en réalité du WebP** : passer par `tools/import_sprite.py` |
-| `CalamityModPublic/` | Source de Calamity, même version que la DLL de `lib/` |
+| `OtherMods/` | Sources d'autres mods utiles au développement (ignoré par git, jamais compilé ni empaqueté) |
+| `OtherMods/CalamityModPublic/` | Source de Calamity, même version que la DLL de `lib/` (chemin : `CALAMITY` de `tools/wiki_index.py`) |
 | `lib/CalamityMod.dll` | Extraite du `.tmod` du Workshop (`tools/extract_calamity_dll.py`), référencée par le `.csproj` |
 
 Couverture vérifiée le 2026-10-20 avec l'API du wiki (19 082 pages) : tout est présent sauf les 3 images au nom

@@ -29,7 +29,8 @@ reports/                       état des lieux généré : à faire, écarts, re
 data/wiki_index.json           index complet du wiki (généré)
 wiki_edits/                    pages du wiki corrigées ou créées par nous
 docs/                          feuille de route et décisions
-fandom_dump_txt/, fandom_dump_extra/, fandom_sprites/, CalamityModPublic/   matériel de référence, jamais empaqueté
+fandom_dump_txt/, fandom_dump_extra/, fandom_sprites/, OtherMods/   matériel de référence, jamais empaqueté
+                                                                     (OtherMods/ : sources d'autres mods, dont CalamityModPublic/)
 ```
 
 Voir [`reports/README.md`](reports/README.md) pour l'avancement et [`docs/ROADMAP.md`](docs/ROADMAP.md) pour le plan.

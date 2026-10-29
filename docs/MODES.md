@@ -51,7 +51,7 @@ Les PNJ créés en combat ne sont jamais supprimés (un boss retravaillé peut d
 
 ## Portage du vieux code de Calamity
 
-Licence de Calamity (`CalamityModPublic/LICENSE.md`) : reprendre du **code** est permis à condition de créditer
+Licence de Calamity (`OtherMods/CalamityModPublic/LICENSE.md`) : reprendre du **code** est permis à condition de créditer
 « Azafure, LLC » avec un lien vers le dépôt. Les **assets** (sprites, sons) restent la propriété d'Azafure et Calamity
 ne peut pas être redistribué : pour une publication, il faudra soit l'accord d'Azafure, soit des sprites refaits.
 En local, aucun problème.

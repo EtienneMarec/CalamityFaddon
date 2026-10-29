@@ -4,7 +4,8 @@ obj/
 *.user
 
 # Matériel de référence volumineux (gardé en local)
-CalamityModPublic/
+# Sources d'autres mods utiles au développement (dont OtherMods/CalamityModPublic/)
+OtherMods/
 fandom_sprites/
 lib/
 

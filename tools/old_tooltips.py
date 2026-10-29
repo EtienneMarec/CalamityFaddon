@@ -1,4 +1,4 @@
-"""Infobulles des objets de Calamity à travers ses versions (historique git de CalamityModPublic/), pour savoir si une
+"""Infobulles des objets de Calamity à travers ses versions (historique git de OtherMods/CalamityModPublic/), pour savoir si une
 page du Fandom décrit une ancienne version d'un objet ou invente.
 
 Instantanés : un commit par mois de décembre 2018 (début du dépôt) à fin 2022, plus 2.0.1.005 (3ec8f553ed, référence « abandon du
@@ -19,7 +19,7 @@ import subprocess
 import tarfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REPO = os.path.join(ROOT, "CalamityModPublic")
+REPO = os.path.join(ROOT, "OtherMods", "CalamityModPublic")
 OUT = os.path.join(ROOT, "data", "old_tooltips.json")
 BASELINE = "3ec8f553ed"
 
