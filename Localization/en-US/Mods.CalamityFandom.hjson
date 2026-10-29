@@ -344,6 +344,62 @@ Items: {
 		Tooltip: Summons a corro slime to fight for you
 	}
 
+	Tomatus: {
+		DisplayName: Tomatus
+		Tooltip:
+			'''
+			Enemies explode on hit
+			Shortflurry attacks inflict Hellfire
+			'''
+	}
+
+	NightsStabber: {
+		DisplayName: Night's Stabber
+		Tooltip:
+			'''
+			Don't underestimate the power of stabby knives
+			Enemies release homing dark energy on hit
+			Shortflurry attacks heal the player, spawn night vines,
+			Inflict Cursed Inferno, and increase melee speed
+			'''
+	}
+
+	LeechingDagger: {
+		DisplayName: Leeching Dagger
+		Tooltip:
+			'''
+			Enemies release homing leech orbs on hit
+			Shortflurry strikes heal the player for 5 health per hit
+			'''
+	}
+
+	BloodyRupture: {
+		DisplayName: Bloody Rupture
+		Tooltip:
+			'''
+			Enemies release homing blood orbs on death
+			Shortflurry attacks create bloodsplosions on enemy hits
+			'''
+	}
+
+	AncientShiv: {
+		DisplayName: Ancient Shiv
+		Tooltip:
+			'''
+			Enemies release a blue aura cloud on death
+			Shortflurry attacks increase melee speed by 5%
+			'''
+	}
+
+	EutrophicShank: {
+		DisplayName: Eutrophic Shank
+		Tooltip:
+			'''
+			Shoots electric sparks
+			Shortflurry attacks inflict Eutrophication
+			'''
+	}
+
 	AquaticDischarge: {
 		DisplayName: Aquatic Discharge
 		Tooltip:
@@ -448,6 +504,8 @@ Projectiles: {
 	WaterStreamDrip.DisplayName: Stream
 	AquaticDischargeProj.DisplayName: Aquatic Discharge
 	AquaticDischargeSpark.DisplayName: Spark
+	LegacyHealingOrb.DisplayName: Orb
+	BlueAura.DisplayName: Blue Aura
 	SolarFlareYoyo.DisplayName: Solar Flare
 	DiseasedPikeSpear.DisplayName: Pike
 	CrimslimeMinion.DisplayName: Crimslime
@@ -464,6 +522,12 @@ Projectiles: {
 
 	Melee: {
 		AquaticDischargeProj.DisplayName: Aquatic Discharge Proj
+		LeechingDaggerProj.DisplayName: Leeching Dagger
+		TomatusProj.DisplayName: Tomatus
+		NightsStabberProj.DisplayName: Night's Stabber
+		BloodyRuptureProj.DisplayName: Bloody Rupture
+		AncientShivProj.DisplayName: Ancient Shiv
+		EutrophicShankProj.DisplayName: Eutrophic Shank
 		DiseasedPikeSpear.DisplayName: Diseased Pike Spear
 		CosmicShivProj.DisplayName: Cosmic Shiv
 		GalileoGladiusProj.DisplayName: Galileo Gladius

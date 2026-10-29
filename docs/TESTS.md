@@ -365,6 +365,21 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
   - [ ] **Terra-cotta** (Dune Splicer après Plantera) : chaque coup fait une petite explosion dorée ; un ennemi tué
         libère 3 orbes qui soignent de 9 PV quand on les touche (attirées avec Heartreach)
   - [ ] **Blood Clot Staff** : caillot de sang qui fonce sur les ennemis ; buff « Blood Clot »
+- [ ] Portages du 29/10 (nuit, Cheat Sheet) : épées courtes retirées avant 2.0.1.005, en estoc, avec jauge Shortstrike et
+      Shortflurry du tableau (clones = l'estoc lui-même) :
+  - [ ] **Leeching Dagger** (Hive Mind) : un ennemi touché lâche une sangsue violette qui cherche un ennemi et soigne de
+        2 PV ; Shortflurry : +5 PV par coup
+  - [ ] **Bloody Rupture** (Perforators) : un ennemi **tué** lâche un orbe de sang qui soigne de 2 PV ; Shortflurry :
+        explosions de sang
+  - [ ] **Ancient Shiv** (Dark Caster) : un ennemi **tué** laisse un nuage bleu 5 s qui blesse ; Shortflurry : +5 %
+        vitesse de mêlée
+  - [ ] **Eutrophic Shank** (Eutrophic Ray, après Desert Scourge) : chaque estoc projette une étincelle qui reste au sol ;
+        Shortflurry : Eutrophication
+  - [ ] **Tomatus** (l'ancienne Flameburst Shortsword, recette du wiki) : un ennemi touché explose (On Fire! 3 s) ;
+        Shortflurry : Hellfire
+  - [ ] **Night's Stabber** (recette : Leeching Dagger ou Bloody Rupture, Ancient Shiv, Spore Knife, Tomatus) : un ennemi
+        touché libère une énergie sombre qui cherche un autre ennemi ; Shortflurry : +3 PV par coup, épines de 5 blocs,
+        Cursed Inferno, +5 % vitesse de mêlée
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

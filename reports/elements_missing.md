@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (465)
+## Objets (460)
 
 - A M S
 - AAMG "Disperse"
@@ -172,7 +172,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aflaming Crystalliser
 - Alpha Ray
 - Alpha Virus
-- Ancient Shiv
 - Angel's Thesis
 - Animus
 - Aquarel Pistol
@@ -200,7 +199,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Blood Element
 - Bloodinator 1
 - Bloody Edge
-- Bloody Rupture
 - Bolide Launcher
 - Bouncing Betty
 - Bouncy Spiky Ball
@@ -297,7 +295,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Elusive Feather
 - Endentant Bow
 - Ethereal Knives
-- Eutrophic Shank
 - Evercoldance
 - Exactory Dartshooter
 - Exif Fist
@@ -385,7 +382,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Large Father
 - Latcher Mine
 - Lazinator
-- Leeching Dagger
 - Li'l Mine
 - Lightning Hawk
 - Lithos Pickaxe
@@ -415,7 +411,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Neural Whipper-Snapper
 - Neuraze
 - Neutron Star
-- Night's Stabber
 - Nighterrial Dart
 - Nightic Blaster
 - Noctic Weaver

@@ -3,12 +3,11 @@
 _Généré par `tools/gen_shortstrike.py` depuis la page Shortstrike._
 
 - 35 Shortflurry (1 hors wiki)
-- 13 effets pas encore traduits en données (à faire à la main dans le C#)
+- 12 effets pas encore traduits en données (à faire à la main dans le C#)
 
 ## Effets à faire
 
 - **Wulfrum Leech Dagger** : Wulfrum Leech Daggers become unconsumable for 3 seconds
-- **Night's Stabber** : Attacks spawn 5 tile long nightshade vines and inflict [[Cursed Inferno]]
 - **Caliburn** : Hits spawn vertical beams of holy light
 - **True Caliburn** : Hits spawn a beam that creates vertical light beams as it travels
 - **True Caliburn** : The beam lasts for 20 tiles

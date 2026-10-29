@@ -347,6 +347,14 @@ namespace CalamityFandom.Common.Debug
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
                 Expect(!WikiRecipes.Missing.ContainsKey("objet : " + name) && !WikiLoot.MissingItems.ContainsKey(name), $"{name} n'est plus introuvable");
             }
+            // Lot du 29/10 : épées courtes retirées avant 2.0.1.005 (tableau Shortstrike), portées en estoc avec leur Shortflurry
+            foreach (string name in new[] { "Leeching Dagger", "Bloody Rupture", "Ancient Shiv", "Eutrophic Shank", "Tomatus", "Night's Stabber" })
+            {
+                int type = WikiRecipes.ResolveItem(name);
+                Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
+                Expect(type > 0 && Common.Shortstrike.ShortstrikeData.ByItem.ContainsKey(type), $"{name} a son Shortflurry du tableau");
+                Expect(type > 0 && Content.Shortstrike.ShortflurryRealClone.CanClone(ContentSamples.ItemsByType[type].shoot), $"{name} : clone de Shortflurry réel (estoc)");
+            }
             // Chaque objet du mod a son nom dans la localisation (une classe de base de Calamity, RogueWeapon, change la
             // catégorie : Items.Weapons.Rogue)
             var unnamed = Mod.GetContent<ModItem>().Where(i => !Terraria.Localization.Language.Exists(i.DisplayName.Key)).Select(i => i.DisplayName.Key).ToList();

@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1070 objets dont les recettes ont changé : 959 recettes modifiées, 176 créées
+- 1074 objets dont les recettes ont changé : 959 recettes modifiées, 180 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -178,6 +178,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Bloodstained Glove | (nouvelle) | 5 Blood Sample, 4 Vertebra, 4 Crimtane Bar @ DemonAltar → 1 |
 | Bloodstone Bar | (nouvelle) | 5 Bloodstone, 1 Blood Orb, 1 Phantoplasm @ AdamantiteForge → 2 |
 | Bloody Mary | 10 Bottle, 1 Bloody Tear @ Kegs → 10 | 5 Margarita, 30 Blood Orb, 1 Aureus Cell @ AlchemyTable → 5 |
+| Bloody Rupture | (nouvelle) | 3 Vertebra, 4 Crimtane Bar, 8 Blood Sample @ DemonAltar → 1 |
 | Bloody Worm Food | 3 Crimtane Bar, 7 Aerialite Bar, 13 Vertebra @ DemonAltar → 1 | 13 Vertebra, 7 Blood Sample, 3 Crimtane Bar @ DemonAltar → 1 |
 | Bloody Worm Scarf | 1 Bloody Worm Tooth, 1 Worm Scarf, 3 Soul of Night @ Anvils → 1 | 1 Bloody Worm Tooth, 1 Worm Scarf @ Anvils → 1 |
 | Blooming Bulb | (nouvelle) | 20 Sunflower, 20 Yellow Marigold, 20 Sky Blue Flower, 20 Trapper Bulb, 20 Lime Kelp @ BotanicPlanter → 1 |
@@ -557,6 +558,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Lacerator | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 4 Bloodstone Bar, 5 Unholy Blood Cells @ LunarCraftingStation → 1 |
 | Lawplate | (nouvelle) | 1 Essence of Law, 3 Obsidian @ Hellforge → 3 |
 | Lead Tomahawk | 7 Lead Bar @ Anvils → 1 | 1 Any Wood, 1 Lead Bar @ Anvils → 100 |
+| Leeching Dagger | (nouvelle) | 3 Rotten Chunk, 4 Demonite Bar, 8 Rotten Matter @ DemonAltar → 1 |
 | Leviathan and Anahita | 1 Leviathan Trophy @ Bookcases → 1 | 1 Leviathan Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Life Alloy | 1 Cryonic Bar, 1 Perennial Bar, 1 Abyss Bar @ MythrilAnvil → 1 | 1 Cryonic Bar, 3 Living Shard, 1 Abyss Bar, 1 Perennial Bar, 1 Refined Ferozium, 1 Refined Aegisalt, 1 Refined Violium @ MythrilAnvil → 1 |
 | Life Alloy | (nouvelle) | 5 Life Ore, 2 Ferozium Ore, 2 Aegisalt Ore, 2 Violium Ore @ AdamantiteForge → 1 |
@@ -637,6 +639,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Nettlevine Greatbow | 12 Tarragon Bar @ MythrilAnvil → 1 | 12 Tarragon Bar @ LunarCraftingStation → 1 |
 | Night's Gaze | 1 Profaned Partisan, 8 Lumenyl, 4 Ruinous Soul, 20 Exodium Cluster @ MythrilAnvil → 1 | 7 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster, 1 Daybreak @ LunarCraftingStation → 1 |
 | Night's Ray | 1 Vilethorn, 1 Magic Missile, 1 Wand of Frosting, 1 Amber Staff, 10 Purified Gel @ DemonAltar → 1 | 1 Wand of Sparking, 1 Vilethorn, 1 Amber Staff, 1 Magic Missile, 15 Rotten Matter, 10 Purified Gel @ DemonAltar → 1 |
+| Night's Stabber | (nouvelle) | 1 Tomatus, 1 Leeching Dagger / Bloody Rupture, 1 Ancient Shiv, 1 Spore Knife, 15 Rotten Matter, 10 Purified Gel @ DemonAltar → 1 |
 | Nightmare Dye | 3 Bottled Water, 5 Nightmare Fuel @ DyeVat → 3 | 2 Bottled Water, 5 Nightmare Fuel @ DyeVat → 2 |
 | Nucleogenesis | 1 Star-Tainted Generator, 1 Statis' Curse, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Star-Tainted Generator, 1 Statis' Curse, 8 Luminite Bar, 4 Galactica Singularity, 4 Ascendant Spirit Essence, 4 Yharim Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Occult Skull Crown | 1 Heart of Darkness, 1 Laudanum, 1 Stress Pills, 3 Twisting Nether @ MythrilAnvil → 1 | 1 Heart of Darkness, 1 Laudanum, 1 Stress Pills, 20 Nightmare Fuel, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
@@ -1054,6 +1057,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Throwing Brick | 1 Red Brick @ WorkBenches → 10 | 5 Red Brick @ Anvils → 20 |
 | Time Bolt | 1 Lunar Kunai, 1 Stellar Knife, 1 Gold Watch, 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 | 1 Cosmic Kunai, 1 Fast Clock, 5 Ruinous Soul, 20 Phantoplasm @ LunarCraftingStation → 1 |
 | Titanium Shuriken | 10 Titanium Bar @ MythrilAnvil → 1 | 1 Titanium Bar @ MythrilAnvil → 100 |
+| Tomatus | (nouvelle) | 7 Char Matter, 7 Hellstone Bar @ Anvils → 1 |
 | Tome of Fates | 1 Spell Tome, 18 Meld Blob @ Bookcases → 1 | 9 Meld Bar, 1 Spell Tome @ Bookcases → 1 |
 | Tooth Ball | (nouvelle) | 1 Blood Sample, 1 Vertebra, 1 Crimtane Bar @ DemonAltar → 100 |
 | Totality Breakers | 50 Molotov Cocktail, 10 Solar Veil @ MythrilAnvil → 1 | 50 Molotov Cocktail, 10 Solar Veil, 1 Consecrated Water, 1 Desecrated Water, 1 Spent Fuel Container @ MythrilAnvil → 1 |

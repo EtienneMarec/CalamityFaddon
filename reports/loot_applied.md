@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 284 drops ajoutés sur 112 PNJ
-- 103 ajouts dans 24 sacs
+- 286 drops ajoutés sur 113 PNJ
+- 104 ajouts dans 24 sacs
 - 551 drops du wiki déjà présents dans le jeu (inchangés)
-- 116 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
+- 117 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 175 PNJ du wiki absents du jeu, 63 objets introuvables
+- 175 PNJ du wiki absents du jeu, 60 objets introuvables
 
 ## Ajouts
 
@@ -44,6 +44,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
 - **Cryogen** : Frozen Key 1-1 à 20.0% (mode normal) ; Soul of Cryogen 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Glacial Crusher 1-1 à 25.0% (mode normal)
 - **Cultist Assassin** : Bloodstone 1-1 à 50.0% [After defeating Providence]
+- **Dark Caster** : Ancient Shiv 1-1 à 4.0%
 - **Derpling** : Beetle Juice 1-1 à 25.0%
 - **Desert Scourge** : Sandy Angling Kit 1-1 à 100.0% (mode normal) ; Parched Scale 7-14 à 100.0% (mode normal) ; Profaned Shard 1-1 à 100.0% (mode normal) ; Abyss Bar 3-8 à 100.0% (mode normal) ; Sand Block 261-820 à 100.0% (mode normal) ; Ocean Crest 1-1 à 100.0% (mode normal) ; Delicious Meat 4-4 à 20.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Aero Stone 1-1 à 20.0% (mode normal) ; Aquatic Discharge 1-1 à 25.0% (mode normal)
 - **Despair Stone** : Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Slagspitter Pauldron 1-1 à 5.0% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
@@ -56,7 +57,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Eater of Worlds** : Disgusting Meat 2-5 à 100.0%
 - **Eidolist** : Lunar Cultist Hood 1-1 à 10.0% ; Lunar Cultist Robe 1-1 à 10.0%
 - **Eidolon Wyrm** : Soul Edge 1-1 à 33.3% [After defeating Polterghast]
-- **Eutrophic Ray** : Clam Chowder 1-1 à 2.0% [Hardmode-only]
+- **Eutrophic Ray** : Eutrophic Shank 1-1 à 33.3% [After defeating Desert Scourge] ; Clam Chowder 1-1 à 2.0% [Hardmode-only]
 - **Flak Crab** : Cadaverous Carrion 1-1 à 5.0%
 - **Fusion Feeder** : Titan Finger 1-1 à 2.0%
 - **Gamma Slime** : Lead Core 1-1 à 3.3%
@@ -146,7 +147,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (The Dragonfolly)** : Swordsplosion 1-1 à 10.0% (page Treasure Bag)
 - **Treasure Bag (The Hive Mind)** : Rotten Matter 30-40 à 100.0% (page Treasure Bag)
 - **Treasure Bag (The Old Duke)** : Sulfuric Scale 1-1 à 10.0% ; Supreme Healing Potion 5-15 à 100.0% ; Old Duke Trophy 1-1 à 10.0%
-- **Treasure Bag (The Perforators)** : Blood Clot Staff 1-1 à 33.3% (page Treasure Bag) ; Blood Sample 30-40 à 100.0% (page Treasure Bag)
+- **Treasure Bag (The Perforators)** : Bloody Rupture 1-1 à 33.3% (page Treasure Bag) ; Blood Clot Staff 1-1 à 33.3% (page Treasure Bag) ; Blood Sample 30-40 à 100.0% (page Treasure Bag)
 - **Treasure Bag (The Plaguebringer Goliath)** : Plague Balloon 1-1 à 10.0% (page Treasure Bag) ; Surgical Glove 1-1 à 10.0% (page Treasure Bag) ; Pestilent Defiler 1-1 à 33.3% (page Treasure Bag) ; Pandemic 1-1 à 33.3% (page Treasure Bag) ; The Hive 1-1 à 33.3% (page Treasure Bag) ; Diseased Pike 1-1 à 33.3% (page Treasure Bag) ; Disease 1-1 à 33.3% (page Treasure Bag) ; Metal Ball 1-1 à 33.3% (page Treasure Bag) ; Reemergence 1-1 à 33.3% (page Treasure Bag) ; Blight Spewer 1-1 à 33.3% (page Treasure Bag) ; Trash of Magnus 1-1 à 33.3% (page Treasure Bag) ; Decomposition 1-1 à 33.3% (page Treasure Bag) ; Toxic Wisdom 1-1 à 33.3% (page Treasure Bag) ; Phlegm 1-1 à 33.3% (page Treasure Bag) ; The Needler 1-1 à 33.3% (page Treasure Bag) ; Blow Pipe 1-1 à 33.3% (page Treasure Bag) ; Sewer Brewer 1-1 à 33.3% (page Treasure Bag) ; Poison I-Bee 1-1 à 33.3% (page Treasure Bag) ; Flask of Plague 5-15 à 10.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Jungle Key 1-1 à 100.0% ; Plaguebringer Goliath Trophy 1-1 à 10.0%
 - **Treasure Bag (The Slime God)** : Crimslime Staff 1-1 à 33.3% (page Treasure Bag) ; Slime Puppet Staff 1-1 à 33.3% (page Treasure Bag) ; Gel 180-250 à 100.0% ; Healing Potion 5-15 à 100.0% ; Slime God Trophy 1-1 à 10.0%
 - **Treasure Bag (Wall of Flesh)** : Twisted Tendril 5-8 à 100.0%
@@ -159,10 +160,8 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Romulus — 2
 - The Insacred Texts — 2
 - The Reaper — 2
-- Ancient Shiv — 1
 - Ash's Cloak — 1
 - Bittercold Staff — 1
-- Bloody Rupture — 1
 - Brimstone Flameblaster — 1
 - Calamity Spawner — 1
 - Cirrhotipede — 1
@@ -175,7 +174,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Dragon Flame Barrage — 1
 - Earthen Clicker — 1
 - Empress Flah — 1
-- Eutrophic Shank — 1
 - Flounder Mortar — 1
 - Frigid Bar — 1
 - Ghast Relic — 1

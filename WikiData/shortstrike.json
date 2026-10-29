@@ -314,11 +314,17 @@
     {
      "type": "meleeSpeed",
      "value": 0.05
+    },
+    {
+     "type": "vine",
+     "value": 5
+    },
+    {
+     "type": "inflict",
+     "name": "Cursed Inferno"
     }
    ],
-   "todo": [
-    "Attacks spawn 5 tile long nightshade vines and inflict [[Cursed Inferno]]"
-   ],
+   "todo": [],
    "text": "Heals the player for 3 health per hit<br/>Attacks spawn 5 tile long nightshade vines and inflict [[Cursed Inferno]]<br/>Increases player melee speed by 5%"
   },
   {

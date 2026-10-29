@@ -404,6 +404,18 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   taille interdits (Notes).
 - **[technique]** **Terra-cotta** : retirée de Calamity en juin 2022 (portée) ; l'orbe de soin est réécrite (l'outil
   de Calamity est `internal`) : 9 PV au contact, attirée seulement avec Heartreach (Notes).
+- **[choix]** (nuit du 29/10) **Leeching Dagger**, **Bloody Rupture**, **Ancient Shiv**, **Eutrophic Shank** : épées courtes
+  retirées avant 2.0.1.005 (code de 2022-06, `legacy_extract.py` sur la dernière version mensuelle), portées en estoc
+  (Rapier + projectile, base commune `LegacyShortswordProj`) au lieu de la hitbox d'objet (Thrust) d'origine : jauge
+  Shortstrike et vrais clones de Shortflurry. Wiki plutôt que vieux code : orbes de la Bloody Rupture et nuage de
+  l'Ancient Shiv à la **mort** de l'ennemi (le code le faisait à chaque coup) ; orbes qui soignent de 2 PV (le Blood
+  actuel de Calamity vole 7,5 % des dégâts : orbe porté, `LegacyHealingOrb`). Étincelle de l'Eutrophic Shank = celle de
+  l'Aquatic Discharge (même code). Projectiles de soutien : moitié des dégâts de l'estoc.
+- **[choix]** (nuit du 29/10) **Tomatus** = l'ancienne Flameburst Shortsword de Calamity : le Fandom l'a renommée Tomutus
+  puis Tomatus (redirections ; le tableau Shortstrike dit « Tomutus »), nom affiché = titre de la page. Explosion = celle
+  de Calamity (`FuckYou`), 75 % des dégâts. **Night's Stabber** : énergie sombre = l'orbe commun sans soin, pleins dégâts
+  (vieux code) ; Shortflurry : « 5 tile long nightshade vines » = épines de 5 blocs (effet `vine`, mêmes images vertes que
+  la Spore Knife) et Cursed Inferno 5 s (`tools/shortstrike_extra.json`).
 - **[à trancher]** Plague Hive : demande Alchemical Flask, que Calamity a remplacé par l'Alchemical Decanter
   (`[LegacyName]`) ; dépend de la décision sur les remplacements `[LegacyName]` (section 2).
 

@@ -118,6 +118,21 @@
           "value": 4
         }
       ]
+    },
+    "Night's Stabber": {
+      "todo": [
+        "Attacks spawn 5 tile long nightshade vines and inflict [[Cursed Inferno]]"
+      ],
+      "effects": [
+        {
+          "type": "vine",
+          "value": 5
+        },
+        {
+          "type": "inflict",
+          "name": "Cursed Inferno"
+        }
+      ]
     }
   }
 }

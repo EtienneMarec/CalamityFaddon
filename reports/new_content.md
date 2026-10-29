@@ -20,7 +20,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Alpha Ray
 - [ ] Alpha Virus
 - [ ] Ancient Crusher
-- [ ] Ancient Shiv
+- [x] Ancient Shiv
 - [ ] Angel's Thesis — addon: Calamity: Community Remix
 - [ ] Animus
 - [ ] Aquarel Pistol — addon: Calamity: Tales of the Aquatic
@@ -47,7 +47,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Blood Clot Staff
 - [ ] Bloodinator 1 — pas de sprite
 - [ ] Bloody Edge
-- [ ] Bloody Rupture
+- [x] Bloody Rupture
 - [x] Blow Pipe
 - [ ] Bolide Launcher — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [ ] Bouncing Betty
@@ -151,7 +151,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Endentant Bow — addon: Calamity: Tales of the Aquatic
 - [ ] Ethereal Knives
 - [x] Eutrophic Scimitar
-- [ ] Eutrophic Shank
+- [x] Eutrophic Shank
 - [ ] Evercoldance — addon: Calamity: Tales of the Aquatic
 - [ ] Exactory Dartshooter — addon: Calamity: Tales of the Aquatic
 - [ ] Exif Fist
@@ -235,7 +235,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Lazhar
 - [ ] Lazinator
 - [ ] Lead Wizard
-- [ ] Leeching Dagger
+- [x] Leeching Dagger
 - [ ] Li'l Mine — addon: Calamity: Community Remix
 - [ ] Lightning Hawk
 - [ ] Luminous Striker
@@ -266,7 +266,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Neural Whipper-Snapper — addon: Calamity: Community Remix
 - [ ] Neuraze — addon: Hypnos in Calamity
 - [ ] Neutron Star
-- [ ] Night's Stabber
+- [x] Night's Stabber
 - [ ] Nightic Blaster — addon: Calamity: Tales of the Aquatic
 - [ ] Noctic Weaver — addon: Calamity: Tales of the Aquatic
 - [ ] Nocturnal Odyssey — addon: Calamity: Tales of the Aquatic
@@ -413,7 +413,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Tiny Planet
 - [ ] Titan Tides — addon: Catalyst
 - [ ] Titanslayer
-- [ ] Tomatus
+- [x] Tomatus
 - [ ] Totality Tides — addon: Calamity: Community Remix
 - [x] Toxic Wisdom
 - [x] Trash of Magnus
