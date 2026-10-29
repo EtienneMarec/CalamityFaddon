@@ -636,19 +636,30 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   | Calamity's Plantation | **inventé** (pas de page, seulement évoqué) | — |
   | Legendaries+ | **inventé** | — |
   | Emphatic Untamed Calamity | **inventé** | — |
+  | Fargo's Souls DLC (Fargo Souls Mod x Calamity) | le DLC n'a pas de dépôt (simples liens avec d'autres mods) ; Fargo's Souls existe, idées reprises du Fandom inconnues | `FargosSoulsMod/` |
+  | Wrath of the Gods | existe (Avatar of Emptiness, Nameless Deity) | `WrathOfTheGodsPublic/` |
+  | Calamity Loot Swap | existe, mais ne fait qu'échanger du butin : n'ajoute rien | — |
+  | Hypnos in Calamity, Polyphemalus, Calamity's Vanities | existent ; Hypnos et Polyphemalus ont une version dans CalRemix (dépôts d'origine disponibles chez l'utilisateur si besoin) | — |
+  | Wakasagihime | selon le Fandom, mod séparé d'Artienia ; l'utilisateur pense qu'elle est dans CalRemix (introuvable dans `CalRemix/` le 29/10) | — |
+  | Tranquility / Caeles Mod, Distorted Memories, Voidmaster's Threnody, Profaned Birb, Yharim Worm, Calamitous Absolution, Bloop's Items, Calamitous Journeys, Buh Deez, Add-on content, « terraria fan ideas wiki (not) », Wrath of the Mammoth | **inventés** | — |
 
-  Pas encore classés : Tranquility, Fargo's Souls DLC, Calamity Loot Swap, Distorted Memories et les addons à une ou
-  deux pages de `reports/addons.md`.
+  Variantes d'écriture de `reports/addons.md` ramenées au même addon : Sloome (« Sloome addon », « Calamity: Sloome
+  Mod », « Sloome Mod »), Community Remix (« Calamity Community Remix », « Communiy Remix », « Community Content
+  Remix »), Tales of the Aquatic, Catalyst, Infernum, Wrath of the Gods (« Wrath Of The God's »...), Fargo's (« Fargo's
+  Soul Mod »). La page *Community Modifications* cite aussi Bad Apple (Goozma Boss), Unofficial Calamity Mod Music,
+  Bags, Calamity Texture Pack et des traductions : ils ne sont rattachés à aucune page de contenu.
 - **[choix]** Licences des sources de `OtherMods/` (lues le 29/10). Ce n'est pas un avis juridique :
   - **CalamityModPublic** : propriétaire (Azafure). La reprise de code est permise avec le crédit habituel ; elle
     n'autorise ni les sprites ni la redistribution.
-  - **CataclysmMod** (MIT, © 2020 Stevie) et **InfernumMode** (MIT, © 2025 Javyz) : code réutilisable en gardant la
+  - **CataclysmMod** (MIT, © 2020 Stevie), **InfernumMode** (MIT, © 2025 Javyz) et **FargosSoulsMod** (MIT, © 2024
+    Fargo Team) : code réutilisable en gardant la
     mention de copyright et la licence MIT dans le fichier repris. Vérifier les sprites un par un : les artistes ne
     sont pas forcément couverts.
   - **CalamityHunt** et **EverquartzAdventure** (GPL v3) : copier leur code obligerait à distribuer notre mod sous
     GPL v3, ce qui semble incompatible avec le code repris de Calamity (propriétaire). En attendant de trancher :
     **inspiration seulement**, réécriture sans copie.
-  - **CalRemix** : aucune licence dans le dépôt, donc tous droits réservés par défaut : **inspiration seulement**.
+  - **CalRemix** et **WrathOfTheGodsPublic** : aucune licence dans le dépôt, donc tous droits réservés par défaut :
+    **inspiration seulement**.
 - **[validé 29/10]** Contenu sans page ou à page vide (objet seulement cité, page sans contenu) : en Full Fandom,
   probablement absent, ou un objet sans effet. En **Calamity++**, on crée du vrai contenu (« plus de contenu = plus
   cool »). C'est à décider au cas par cas avec l'utilisateur, selon `docs/MODES.md`.

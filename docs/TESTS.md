@@ -421,8 +421,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] Écarts de stats extrêmes : tous tranchés (`tools/stats_decisions.json`)
 - [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
 - [x] Full Fandom : anciens objets dont le wiki ne parle nulle part → masqués aussi (tranché le 21/10, tests en 2.3)
-- [ ] Les addons : état de chacun connu (29/10, `docs/decisions.md` section 11) ; reste leur intégration et les addons
-      pas encore classés (Tranquility, Fargo's Souls DLC, Calamity Loot Swap, Distorted Memories...).
+- [ ] Les addons : tous classés (29/10, `docs/decisions.md` section 11) ; reste à décider comment intégrer leurs pages.
 - [ ] (26/10) Objets que Calamity a **remplacés** par un autre (`[LegacyName]`, `python tools/calamity_renames.py`) :
       les traiter comme les refontes du 23/10 (portage en Full Fandom, objet actuel sous le nom du wiki en Calamity++) ?
       Probables : Warbanner of the Sun → Warbanner of the Righteous, Urchin Flail → Urchin Mace, Rusty Medallion → Scions
