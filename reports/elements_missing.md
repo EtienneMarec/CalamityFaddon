@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (455)
+## Objets (448)
 
 - A M S
 - AAMG "Disperse"
@@ -244,9 +244,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Coral Cannon
 - Cored Line
 - Corrupt Hypno Flute
-- Corrupted Crusher Blade
 - Creature Capsule
-- Crimson Crusher Blade
 - Crius Prime
 - Crustalline
 - Crystal Blade
@@ -391,8 +389,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Magnum
 - Majestic Gar
 - Mambel-Jambo
-- Mandible Bow
-- Mandible Claws
 - Mariana
 - Marked Magnum
 - Marnite Bayonet
@@ -585,9 +581,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Vortex Dart
 - Wakasagihime
 - War Staff
-- Waraxe
 - Warbell
-- Warblade
 - Warbow
 - Warglaive
 - Waterfrosia
@@ -606,7 +600,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Wulfrum Blade
 - Wulfrum Bow
 - Wulfrum Fusion Array
-- Wulfrum Hammer
 - Wulfrum Shock Cutter
 - Wulfrum Staff
 - XB-∞ Hekate

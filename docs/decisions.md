@@ -434,6 +434,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   5 blocs (True Night's Stabber) ; « heals nearby players » = soigne le joueur qui l'a lancé ; Terra Shiv : 3 rayons à
   ±25° au bout, moitié de la longueur, 20 % des dégâts, Ichor 20 s (durée de la page), +5 PV par coup. Projectiles
   lâchés : moitié des dégâts du rayon.
+- **[choix]** (nuit du 29/10) Objets simples retirés avant 2.0.1.005, portés tels quels avec les valeurs du wiki : Blood
+  Relic (non consommable comme le dit son infobulle, bien que l'infobox dise « consumable = yes »), Wulfrum Axe, Wulfrum
+  Hammer, Waraxe, Warblade, Corrupted Crusher Blade, Crimson Crusher Blade, Mandible Claws, Mandible Bow (sans le tir à
+  bout portant, mécanique retirée de Calamity et absente de la page). Debuff **War Cleave** porté : -15 défense, réduction
+  de dégâts de Calamity x0,75 (compensée sur les dégâts finaux, `WarCleaveNPC`). `use` du wiki = useAnimation, useTime
+  de l'ancien code pour les outils.
 - **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
   1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
   comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet

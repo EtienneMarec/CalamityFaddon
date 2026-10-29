@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1081 objets dont les recettes ont changé : 960 recettes modifiées, 186 créées
+- 1085 objets dont les recettes ont changé : 960 recettes modifiées, 190 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -269,6 +269,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Core of Rend | (nouvelle) | 1 Essence of Rend, 1 Hallowed Bar @ MythrilAnvil → 3 |
 | Core of Sunlight | (nouvelle) | 1 Essence of Sunlight, 1 Hallowed Bar @ MythrilAnvil → 3 |
 | Core of the Blood God | 1 Blood Pact, 1 Charm of Myths, 12 Bloodstone, 5 Blood Orb, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Bloody Worm Scarf, 1 Bloodflare Core, 1 Flesh Totem, 1 Blood Pact, 5 Bloodstone Bar, 5 Cosmilite Bar, 4 Yharim Bar, 10 Soul of Plight, 5 Phantoplasm, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
+| Corrupted Crusher Blade | (nouvelle) | 6 Demonite Bar, 6 Soul of Night, 6 Cursed Flame @ MythrilAnvil → 1 |
 | Corvid Harbinger Staff | 1 Raven Staff, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Raven Staff, 8 Twisted Netherite Bar, 20 Endothermic Energy, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
 | Cosmic Anvil | 1 Any Hardmode Anvil, 10 Cosmilite Bar, 10 Luminite Bar, 20 Exodium Cluster @ LunarCraftingStation → 1 | 1 Any Hardmode Anvil, 10 Cosmilite Bar, 10 Essence of Zot, 12 Galactica Singularity, 20 Exodium Cluster, 20 Essential Essence Bar @ LunarCraftingStation → 1 |
 | Cosmic Flah | (nouvelle) | 1 Blessed Flah, 1 Elemental Bar, 1 Haunted Bar, 1 Armored Shell, 1 Dark Plasma, 1 Twisting Nether @ LunarCraftingStation → 2 |
@@ -285,6 +286,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Cosmolight | (nouvelle) | 10 Pixie Dust, 7 Soul of Light, 7 Soul of Night, 5 Glass @ Anvils → 1 |
 | Crabulon | 1 Crabulon Trophy @ Bookcases → 1 | 1 Crabulon Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Crescent Moon | 1 Blue Moon, 8 Lumenyl, 4 Ruinous Soul, 20 Exodium Cluster @ MythrilAnvil → 1 | 8 Lumenyl, 3 Ruinous Soul, 16 Exodium Cluster @ LunarCraftingStation → 1 |
+| Crimson Crusher Blade | (nouvelle) | 6 Crimtane Bar, 6 Soul of Night, 6 Ichor @ MythrilAnvil → 1 |
 | Cruel Jewel | 1 Last Prism, 10 Dark Plasma, 20 Ruinous Soul, 30 Divine Bar @ MythrilAnvil → 1 | 1 Last Prism, 10 Dark Plasma, 20 Ruinous Soul, 30 Divine Bar, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Cryo Key | 50 Any Ice Block, 5 Soul of Light, 5 Soul of Night, 8 Essence of Eleum @ Anvils → 1 | 50 Snow Block, 5 Soul of Night, 5 Soul of Light, 1 Golden Key @ Anvils → 1 |
 | Cryogen | 1 Cryogen Trophy @ Bookcases → 1 | 1 Cryogen Trophy, 10 Conquest Fragment @ Bookcases → 1 |
@@ -1136,10 +1138,12 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wind Blade | 10 Aerialite Bar @ Anvils → 1 | 9 Aerialite Bar, 3 Sunplate Block @ SkyMill → 1 |
 | Wither Blossoms Staff | 1 Tundra Flame Blossoms Staff, 15 Plague Cell Canister @ MythrilAnvil → 1 | 1 Tundra Flame Blossoms Staff, 15 Plague Cell Canister, 5 Core of Calamity, 5 Life Alloy @ MythrilAnvil → 1 |
 | Wulfrum Acrobatics Pack | 10 Wulfrum Bar, 1 Energy Core, 3 Chain @ Anvils → 1 | 30 Wulfrum Bar, 6 Feather, 1 Energy Orb @ Anvils → 1 |
+| Wulfrum Axe | (nouvelle) | 14 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Controller | 10 Wulfrum Bar @ Anvils → 1 | 9 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Digging Turtle | 10 Wulfrum Bar, 1 Energy Core @ main → 15 | 20 Wulfrum Bar, 8 Jungle Spores, 1 Energy Orb @ Anvils → 4 |
 | Wulfrum Drill | 15 Wulfrum Bar @ Anvils → 1 | 12 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Fishing Pole | 8 Wulfrum Bar @ Anvils → 1 | 9 Wulfrum Bar @ Anvils → 1 |
+| Wulfrum Hammer | (nouvelle) | 16 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Knife | 10 Wulfrum Bar @ Anvils → 1 | 1 Wulfrum Bar @ Anvils → 100 |
 | Wulfrum Leech Dagger | (nouvelle) | 4 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Lure | 5 Wulfrum Bar, 1 Energy Core @ Anvils → 1 | 1 Navy Fishing Rod, 1 Wulfrum Fishing Pole, 20 Bone, 1 Energy Core @ Anvils → 1 |

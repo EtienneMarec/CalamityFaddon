@@ -94,11 +94,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Cored Line — addon: Calamity: Tales of the Aquatic
 - [ ] Corrosive Eye Staff
 - [ ] Corrupt Hypno Flute — addon: Calamity: Community Remix
-- [ ] Corrupted Crusher Blade
+- [x] Corrupted Crusher Blade
 - [ ] Creature Capsule
 - [ ] Crimsaber
 - [x] Crimslime Staff
-- [ ] Crimson Crusher Blade
+- [x] Crimson Crusher Blade
 - [ ] Crius Prime — addon: Deimos, the Starborn Princess
 - [ ] Crustalline
 - [ ] Crystal Blade
@@ -245,8 +245,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Magnum
 - [ ] Majestic Gar
 - [ ] Mambel-Jambo
-- [ ] Mandible Bow
-- [ ] Mandible Claws
+- [x] Mandible Bow
+- [x] Mandible Claws
 - [ ] Mariana
 - [ ] Marked Magnum
 - [ ] Marnite Bayonet
@@ -445,7 +445,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Wakasagihime — addon: Wakasagihime
 - [ ] War Staff
 - [ ] Warbell
-- [ ] Warblade
+- [x] Warblade
 - [ ] Warbow
 - [ ] Warglaive
 - [ ] Waterfrosia — addon: Calamity: Tales of the Aquatic
@@ -935,7 +935,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Tarragon Immunity Cooldown
 - [ ] Umbric Fumes — addon: Apotheosis and Friends
 - [ ] Venom — pas de sprite
-- [ ] War Cleave
+- [x] War Cleave
 - [x] Waterlogged — pas de sprite
 - [ ] Webbed — pas de sprite
 
@@ -1180,11 +1180,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Twisted Netherite Pickaxe — addon: Calamity: Community Remix
 - [ ] Twisted Netherite Shovel — addon: Calamity: Community Remix
 - [ ] Umbren Sprayer — addon: Catalyst
-- [ ] Waraxe
+- [x] Waraxe
 - [ ] Windslasher
 - [ ] World Breaker — addon: Deimos, the Starborn Princess
-- [ ] Wulfrum Axe
-- [ ] Wulfrum Hammer
+- [x] Wulfrum Axe
+- [x] Wulfrum Hammer
 - [ ] XO-Tell — addon: Calamity: Distorted Memories
 
 ## Flying Enemy (33)
@@ -1364,7 +1364,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Artificial Reactive Matter — addon: Calamity: Tales of the Aquatic
 - [ ] Astral Communicator — addon: Deimos, the Starborn Princess
 - [ ] Astralination — addon: Deimos, the Starborn Princess
-- [ ] Blood Relic
+- [x] Blood Relic
 - [ ] Calamitous Certificate EX — addon: Calamity: Community Remix
 - [ ] Celestial Geode — addon: Deimos, the Starborn Princess
 - [ ] Disassembly Signal — addon: Sloome

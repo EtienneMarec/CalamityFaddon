@@ -355,6 +355,12 @@ namespace CalamityFandom.Common.Debug
                 Expect(type > 0 && Common.Shortstrike.ShortstrikeData.ByItem.ContainsKey(type), $"{name} a son Shortflurry du tableau");
                 Expect(type > 0 && Content.Shortstrike.ShortflurryRealClone.CanClone(ContentSamples.ItemsByType[type].shoot), $"{name} : clone de Shortflurry réel (estoc)");
             }
+            // Lot du 29/10 (2) : objets simples retirés avant 2.0.1.005
+            foreach (string name in new[] { "Blood Relic", "Wulfrum Axe", "Wulfrum Hammer", "Waraxe", "Warblade", "Corrupted Crusher Blade", "Crimson Crusher Blade", "Mandible Claws", "Mandible Bow" })
+            {
+                int type = WikiRecipes.ResolveItem(name);
+                Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
+            }
             // Chaque objet du mod a son nom dans la localisation (une classe de base de Calamity, RogueWeapon, change la
             // catégorie : Items.Weapons.Rogue)
             var unnamed = Mod.GetContent<ModItem>().Where(i => !Terraria.Localization.Language.Exists(i.DisplayName.Key)).Select(i => i.DisplayName.Key).ToList();

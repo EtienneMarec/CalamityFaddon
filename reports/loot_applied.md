@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 286 drops ajoutés sur 113 PNJ
+- 287 drops ajoutés sur 114 PNJ
 - 104 ajouts dans 24 sacs
 - 551 drops du wiki déjà présents dans le jeu (inchangés)
 - 117 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 175 PNJ du wiki absents du jeu, 60 objets introuvables
+- 175 PNJ du wiki absents du jeu, 59 objets introuvables
 
 ## Ajouts
 
@@ -66,6 +66,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Giant Squid** : Depth Cells 2-4 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 50.0% [After defeating Calamitas]
 - **Giant Tortoise** : Giant Tortoise Shell 1-1 à 15.0%
 - **Gnasher** : Turtle Shell 1-1 à 10.0% [In Hardmode]
+- **Goblin Warrior** : Warblade 1-1 à 4.0%
 - **Great Sand Shark** : Sand Shark Tooth Necklace 1-1 à 25.0% (mode normal) ; Sand Shark Tooth Necklace 1-1 à 33.3% (Expert, direct) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Shifting Sands, Tumbleweed (mode normal) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Shifting Sands, Tumbleweed (Expert, direct)
 - **Gulper Eel** : Depth Cells 6-8 à 50.0% [After defeating Calamitas] ; Lumenyl 2-3 à 50.0% [After defeating Calamitas]
 - **Hadarian** : Titan Finger 1-1 à 2.0% ; Hadarian Membrane 2-3 à 50.0% [After defeating Astrum Aureus]
@@ -212,5 +213,4 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Wakasagihime — 1
 - War Staff — 1
 - Warbell — 1
-- Warblade — 1
 - Warbow — 1

@@ -373,6 +373,55 @@ Items: {
 			'''
 	}
 
+	BloodRelic: {
+		DisplayName: Blood Relic
+		Tooltip:
+			'''
+			Summons a blood moon
+			Not consumable
+			'''
+	}
+
+	WulfrumAxe: {
+		DisplayName: Wulfrum Axe
+		Tooltip: ""
+	}
+
+	WulfrumHammer: {
+		DisplayName: Wulfrum Hammer
+		Tooltip: ""
+	}
+
+	Waraxe: {
+		DisplayName: Waraxe
+		Tooltip: Critical hits cleave enemy armor, reducing their defense by 15 and protection by 25%
+	}
+
+	Warblade: {
+		DisplayName: Warblade
+		Tooltip: Critical hits cleave enemy armor, reducing their defense by 15 and protection by 25%
+	}
+
+	CorruptedCrusherBlade: {
+		DisplayName: Corrupted Crusher Blade
+		Tooltip: Inflicts cursed inferno and critical hits reduce enemy defense by 10
+	}
+
+	CrimsonCrusherBlade: {
+		DisplayName: Crimson Crusher Blade
+		Tooltip: Inflicts ichor and critical hits lower enemy contact damage
+	}
+
+	MandibleClaws: {
+		DisplayName: Mandible Claws
+		Tooltip: ""
+	}
+
+	MandibleBow: {
+		DisplayName: Mandible Bow
+		Tooltip: ""
+	}
+
 	WulfrumLeechDagger: {
 		DisplayName: Wulfrum Leech Dagger
 		Tooltip:
@@ -621,6 +670,11 @@ Buffs: {
 	BloodClot: {
 		DisplayName: Blood Clot
 		Description: The blood clot will protect you
+	}
+
+	WarCleave: {
+		DisplayName: War Cleave
+		Description: Defense and protection reduced
 	}
 
 	GlacialState: {

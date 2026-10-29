@@ -391,6 +391,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
   - [ ] **Wulfrum Leech Dagger** (inventée, recette à l'enclume en fer) : se consomme à chaque coup (pile de 999),
         toujours 1 dégât sans critique, plus 0,5 % de la vie max de l'ennemi (tête des vers seulement) ; Shortflurry : plus
         consommée pendant 3 s
+- [ ] Portages du 29/10 (2) (Cheat Sheet) : **Blood Relic** (la nuit, Blood Moon immédiate ; reste dans l'inventaire) ;
+      **Wulfrum Axe** / **Wulfrum Hammer** (outils) ; **Waraxe** (hache) et **Warblade** : un coup critique inflige War
+      Cleave (icône du debuff, l'ennemi prend nettement plus de dégâts) ; **Corrupted Crusher Blade** (Cursed Inferno,
+      critique : -10 défense) ; **Crimson Crusher Blade** (Ichor, critique : contact de l'ennemi -5) ; **Mandible Claws**
+      (très rapides) ; **Mandible Bow** (arc)
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 
