@@ -398,6 +398,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 ## Décisions en attente (pas des tests)
 
+- [ ] (29/10) Shortstrike, dernières armes du tableau : **Exo Gladius** (ancien objet retiré en 2022 ; sa page invente
+      une explosion et une **parade au clic droit**, en conflit avec le Shortflurry comme le lancer du Galileo),
+      **Microcell Cut** (addon Calamity: Tales of the Aquatic), **Elemental Shiv** et **Lucrecia** (armes refaites ou
+      remplacées par Calamity : Lightspeed). À porter, et comment ?
 - [ ] (29/10, revue Fandom / wiki officiel, `docs/DIFF_FANDOM.md`) Starfall, Seabound Staff et Effluvium Bow ont été
       refaits par Calamity après 2.0.1.005 : la fusion du 28/10 leur a fait perdre en Full Fandom le fonctionnement
       décrit par le wiki. Les rétablir (portages ou ancien fonctionnement sur l'arme de Calamity, comme le Galileo) ?
