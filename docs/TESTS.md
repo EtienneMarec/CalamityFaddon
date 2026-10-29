@@ -447,7 +447,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       à part : Holy Wrath / Profaned Rage Potion → Flask of Holy Flames, Bloodstone Core → Bloodstone. Trouvés le 29/10
       (renommage git du fichier) : Seabow → Reed Blowgun, Redtide Sword → Urchin Mace, Seashell Boomerang → Fishbone
       Boomerang, Urchin Spear → Redtide Spear (retiré depuis : rien ne le remplace aujourd'hui), Shroomerang → Infested
-      Clawmerang (simple renommage ?).
+      Clawmerang (simple renommage ?). Aussi renommés ou remplacés dans Calamity, d'après le commit qui a retiré leur
+      fichier : Acceleration Round, Cadance Potion, Charged Dart Blaster, Lazinator, Marnite Bayonet, Frigid Bulwark
+      (→ Frozen Shield), Shattering Potion (fusion des flasques), Aero Dynamite, The Reaper (→ The Old Reaper).
 - [ ] (26/10) Renommages/refontes de Calamity **antérieurs à 2.0.1.005** dont le wiki a encore la page sous l'ancien nom
       (`[LegacyName]`) : appliquer la même règle (nom du wiki partout, refonte = portage en Full) ? Même objet renommé :
       The Reaper = The Old Reaper (aujourd'hui masqué en Full !), Calamitas' Brew = Flask of Brimstone, Chaotic Brick
