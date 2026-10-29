@@ -860,6 +860,7 @@ Projectiles: {
 	MarkRound.DisplayName: Mark Round
 	DualpoonProj.DisplayName: Dualpoon
 	TriploonProj.DisplayName: Triploon
+	LegacyMistArrow.DisplayName: Mist Arrow
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash
@@ -893,6 +894,7 @@ Projectiles: {
 	GalileosPlanet.DisplayName: Galileo Planet
 	ShortflurryThrown.DisplayName: Shortflurry
 	GalileoGladiusHeldProj.DisplayName: Galileo Gladius
+	ShortflurryBeam.DisplayName: Shortflurry Beam
 }
 
 Shortstrike.Gauge:

@@ -245,10 +245,14 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] Calamity++ : la **Vega** s'appelle **Night's Gaze** (c'est elle qui est utilisée) ; notre ancienne version n'a plus de
       recette ; Full Fandom : c'est notre Night's Gaze de 2022, la Vega est masquée. Idem Star Shower → Starfall, Burning
       Revelation → Solar Flare, Sandstream Scepter → Storm Spray, Doomsday Device → Shock Grenade...
-- [ ] (29/10, fusion du 28/10 annulée) **Starfall**, **Seabound Staff** et **Effluvium Bow** en Full Fandom : nos portages
+- [x] (29/10, fusion du 28/10 annulée) **Starfall**, **Seabound Staff** et **Effluvium Bow** en Full Fandom : nos portages
       (Starfall : 5 étoiles tombent sur le curseur ; Seabound Staff : une étoile de mer sbire ; Effluvium Bow : 2 flèches,
       flèches en bois → Mist Arrow), Star Shower / Brittle Star Staff / Hoarfrost Bow introuvables ; le Desert Scourge lâche
       notre Seabound Staff. En Calamity++ : les armes actuelles de Calamity sous ces noms, nos portages introuvables.
+      (Retour du 30/10 : Starfall et Seabound Staff bons ; aucune différence visible pour l'Effluvium Bow → corrigé, voir
+      la ligne suivante.)
+- [ ] (30/10) **Effluvium Bow** en Full Fandom : ses Mist Arrows sont celles de 2.0.1.005, qui **ne se divisent plus**
+      en brumes (Frostburn et Glacial State au contact) ; en Calamity++ (Hoarfrost Bow), elles se divisent toujours
 - [x] Crimulan Paladin / Ebonian Paladin s'appellent Crimulan / Ebonian Slime God
 - [x] Calamitas Clone s'appelle **Calamitas**, Cataclysmic Construct **Cataclysm**, Signus **Signus, Envoy of the Devourer**
 - [x] La Silva Basin s'appelle **Effulgent Manipulator** et fabrique les meubles Silva
@@ -295,7 +299,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] (28/10, 4e retour) Clones sans teinte orange
 - [x] (28/10, 5e retour) Clam Chowder et Crimtato : « Increases life regeneration » une seule fois (en Expert)
 - [x] (28/10, 6e retour) Clones réels écartés du joueur (comme les anciens), et ils touchent bien là où on les voit
-- [ ] (28/10) Full Fandom : tenir le Galileo Gladius n'affiche plus le compteur Starburst en haut à gauche (Calamity++ :
+- [x] (28/10) Full Fandom : tenir le Galileo Gladius n'affiche plus le compteur Starburst en haut à gauche (Calamity++ :
       toujours là)
 - [x] (28/10, 5e retour) Les clones sont l'attaque elle-même : Submarine Shocker (étincelles), Cosmic Shiv (rayon violet de
       l'arme + parfois un second), Aquatic Discharge, Disease, Spore Knife Full Fandom (spores), Sahara Slicers (images
@@ -319,7 +323,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] Fruits de vie : la Sanguine Tangerine s'appelle **Hemagrape**, la Tainted Cloudberry **Sambucus Fruit** (+25 PV max
       chacune, message en cas de deuxième usage avec le nouveau nom) ; la recette de Keg Fireball / Screwdriver demande la
       Hemagrape
-- [ ] Le sac d'Astral Deus et celui de Meatmetal Sans reçoivent leur contenu du wiki (page Treasure Bag) : trophée à 10 %
+- [x] Le sac d'Astral Deus et celui de Meatmetal Sans reçoivent leur contenu du wiki (page Treasure Bag) : trophée à 10 %
       dans le sac d'Astral Deus, Greater Healing Potion...
 - [ ] Portages du 26/10 (Cheat Sheet) :
   - [ ] **Psychotic Amulet** : +5 % dégâts/critique spy et ranged ; immobile, on devient invisible (comme la Shroomite) et
