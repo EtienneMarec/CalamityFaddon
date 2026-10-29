@@ -19,7 +19,7 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Melee
     /// de l'estoc, use 40 au lieu de 8 ; elle renvoie les projectiles ennemis vers le curseur et rend le joueur
     /// invulnérable pendant l'estoc. Jauge Shortstrike pleine : le clic droit lance le Shortflurry (règle commune), la
     /// parade n'est donc possible que jauge non pleine. Valeurs du wiki : 690 dégâts, recul 9,9, rareté 15, vente 30 or.
-    /// [choix] Explosion : dégâts de l'estoc, 96 px. Invulnérabilité de la parade : 30 frames.
+    /// [choix] Explosion : dégâts de l'estoc, 96 px. Invulnérabilité de la parade : 30 frames. Sprite du wiki.
     /// TODO : en multijoueur, les projectiles ennemis (gérés par le serveur) ne sont pas encore renvoyés.
     /// </summary>
     public class ExoGladius : ModItem
@@ -31,7 +31,8 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Melee
             Item.useStyle = ItemUseStyleID.Rapier;
             Item.DamageType = ModContent.GetInstance<TrueMeleeDamageClass>();
             Item.useAnimation = Item.useTime = 8;
-            Item.width = Item.height = 56;
+            Item.width = 32;
+            Item.height = 34;
             Item.damage = 690;
             Item.knockBack = 9.9f;
             Item.UseSound = SoundID.Item1;
@@ -56,7 +57,8 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Melee
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
             bool parry = player.altFunctionUse == 2;
-            var stab = Projectile.NewProjectileDirect(source, position, velocity, type, parry ? damage * 4 : damage, parry ? knockback * 4f : knockback, player.whoAmI, parry ? 1f : 0f);
+            // ai[0] est le minuteur de l'estoc (BaseShortswordProjectile) : la parade est notée dans ai[2]
+            var stab = Projectile.NewProjectileDirect(source, position, velocity, type, parry ? damage * 4 : damage, parry ? knockback * 4f : knockback, player.whoAmI, 0f, 0f, parry ? 1f : 0f);
             if (parry)
             {
                 stab.CritChance *= 4;
@@ -70,13 +72,13 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Melee
 
 namespace CalamityFandom.Content.Legacy.Projectiles.Melee
 {
-    /// <summary>Estoc de l'Exo Gladius ; ai[0] = 1 pour la parade (renvoie les projectiles ennemis proches).</summary>
+    /// <summary>Estoc de l'Exo Gladius ; ai[2] = 1 pour la parade (renvoie les projectiles ennemis proches).</summary>
     public class ExoGladiusProj : LegacyShortswordProj
     {
         protected override int ItemType => ModContent.ItemType<Items.Weapons.Melee.ExoGladius>();
         protected override int DustType => 107;
 
-        private bool Parry => Projectile.ai[0] == 1f;
+        private bool Parry => Projectile.ai[2] == 1f;
 
         public override void ExtraBehavior()
         {

@@ -457,10 +457,14 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       90 s affichée comme l'esquive de Calamity (partagée avec les autres esquives)
 - [ ] (30/10) **Exo Gladius** (Draedon's Forge) : estoc rapide qui fait exploser l'ennemi (image du wiki) ; clic droit
       (jauge Shortstrike pas pleine) = parade lente, 4× dégâts, invulnérable un instant, renvoie les projectiles ennemis
-      vers le curseur (solo seulement pour l'instant)
+      vers le curseur (solo seulement pour l'instant). Retour du 30/10 : l'attaque normale parait aussi (bug corrigé :
+      seul le clic droit pare) et le sprite était celui de 2022 (remplacé par celui du wiki)
 - [ ] (30/10) **Microcell Cut** (créée, sans recette : station Aquatic Hypercomputer pas encore faite) : un ennemi tué
       libère 3 étoiles à tête chercheuse (Ancient Astral Blight : particules jaunes et violettes, -52 PV/s) ; rareté C4
-      violette ; Shortflurry : une étoile astrale par coup
+      violette ; Shortflurry : une étoile astrale par coup. Retour du 30/10 : sprite trop petit → image du wiki à sa
+      taille d'origine (30×40, comme la Disease)
+- [ ] (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
+      Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

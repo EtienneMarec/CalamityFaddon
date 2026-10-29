@@ -27,7 +27,16 @@ namespace CalamityFandom.Content.Legacy.Projectiles.Melee
         protected virtual int DustType => -1;
         protected virtual int DustChance => 5;
 
-        public override string Texture => ModContent.GetModItem(ItemType).Texture;
+        // Image de l'objet ; son resprite du wiki s'il en a un (tools/gen_sprites.py), pour que l'estoc ressemble à l'icône
+        public override string Texture
+        {
+            get
+            {
+                ModItem item = ModContent.GetModItem(ItemType);
+                string generated = $"Assets/Overrides/Generated/Items/{item.Name}";
+                return Mod.FileExists(generated + ".rawimg") || Mod.FileExists(generated + ".png") ? $"{Mod.Name}/{generated}" : item.Texture;
+            }
+        }
 
         public override void SetDefaults()
         {

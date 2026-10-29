@@ -524,9 +524,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **Exo Gladius** (effet de la page) : parade au clic droit seulement jauge Shortstrike non pleine (sinon Shortflurry,
   règle commune : pas de conflit) ; parade = 4× dégâts / recul / critique, use 40, 30 frames d'invulnérabilité,
   projectiles ennemis à moins de 64 px renvoyés vers le curseur (solo seulement : TODO multijoueur) ; explosion = dégâts
-  de l'estoc, 96 px, image du wiki ; Miracle Blight 0,5 s. Sprite de 2022 (le wiki n'en a pas d'autre). L'effet du
+  de l'estoc, 96 px, image du wiki ; Miracle Blight 0,5 s. Sprite du wiki (réduit de moitié : agrandi x2 sur le wiki). L'effet du
   Shortflurry « every 5th strike... exo comets » reste à faire. **Microcell Cut** : créée d'après la Disease (estoc,
-  3 étoiles à 75 % par ennemi tué) ; rareté « C4 » du wiki créée (`RarityC4`, violet de son image) ; debuff **Ancient
+  3 étoiles à 75 % par ennemi tué) ; sprite du wiki à sa taille d'origine, recadré (30×40, taille de la Disease :
+  réduit de moitié, il était trop petit) ; rareté « C4 » du wiki créée (`RarityC4`, violet de son image) ; debuff **Ancient
   Astral Blight** créé d'après sa page (Astrum Deus et ses armes ne l'infligent pas encore).
 - **[technique]** (29/10, lot 9) **Arcanum of the Void** mis de côté : la page décrit une barrière du vide qui explose
   en énergie sombre à tête chercheuse ; le code de 2022 renvoyait les projectiles. Effet inventé ou refait, à trancher.

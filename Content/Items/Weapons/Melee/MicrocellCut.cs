@@ -22,7 +22,8 @@ namespace CalamityFandom.Content.Items.Weapons.Melee
 
         public override void SetDefaults()
         {
-            Item.width = Item.height = 36;
+            Item.width = 30;
+            Item.height = 40;
             Item.noMelee = true;
             Item.noUseGraphic = true;
             Item.autoReuse = true;
@@ -64,8 +65,8 @@ namespace CalamityFandom.Content.Items.Weapons.Melee
         {
             int halfProjWidth = Projectile.width / 2, halfProjHeight = Projectile.height / 2;
             DrawOriginOffsetX = 0;
-            DrawOffsetX = -(36 / 2 - halfProjWidth);
-            DrawOriginOffsetY = -(36 / 2 - halfProjHeight);
+            DrawOffsetX = -(30 / 2 - halfProjWidth);
+            DrawOriginOffsetY = -(40 / 2 - halfProjHeight);
         }
 
         public override void ExtraBehavior()
