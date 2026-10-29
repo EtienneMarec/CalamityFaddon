@@ -307,7 +307,9 @@ namespace CalamityFandom.Common.Debug
             // Fandom, l'objet actuel de Calamity (sous le nom du wiki) dans les autres modes
             // (Starfall, Seabound Staff, Effluvium Bow : fusionnés le 28/10 par erreur, rétablis le 29/10)
             var replacedByCalamity = new HashSet<string> { "Night's Gaze", "Seabound Staff", "Effluvium Bow", "Regenator", "Storm Spray",
-                "Solar Flare", "Corroslime Staff", "Shock Grenade", "Mana Jelly", "Amidias' Spark", "Energy Staff", "Starfall" };
+                "Solar Flare", "Corroslime Staff", "Shock Grenade", "Mana Jelly", "Amidias' Spark", "Energy Staff", "Starfall",
+                "Marnite Spear", "Cursed Capper", "Luminous Striker", "The Reaper", "Warbanner of the Sun", "Rusty Medallion",
+                "Alchemical Flask", "Red Bow" };
             string ExpectedOwner(string name) => replacedByCalamity.Contains(name) && !FandomMode.IsFull ? "CalamityMod" : Mod.Name;
             int gaze = WikiRecipes.ResolveItem("Night's Gaze");
             Expect(gaze > 0 && ItemLoader.GetItem(gaze)?.Mod.Name == ExpectedOwner("Night's Gaze"),
@@ -361,11 +363,11 @@ namespace CalamityFandom.Common.Debug
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
             }
             // Lot du 29/10 (3) : armes retirées en juin-juillet 2022, recettes du wiki ; Sylvan Slasher chez le Bandit
-            foreach (string name in new[] { "Crystal Blade", "Temporal Floe Sword", "Marnite Spear", "Sylvan Slasher", "Animus", "Blade of Enmity", "Brimlash Buster", "Phoenix Blade", "Trinity", "Fulguration Halberd", "Mariana", "Aquatic Dissolution", "Impaler", "Spectre Rifle", "Star Cannon EX", "Hadopelagic Echo", "Crystal Flare Staff", "Marked Magnum", "Revivify Potion", "Dualpoon", "Triploon", "Exo Gladius" })
+            foreach (string name in new[] { "Crystal Blade", "Temporal Floe Sword", "Marnite Spear", "Sylvan Slasher", "Animus", "Blade of Enmity", "Brimlash Buster", "Phoenix Blade", "Trinity", "Fulguration Halberd", "Mariana", "Aquatic Dissolution", "Impaler", "Spectre Rifle", "Star Cannon EX", "Hadopelagic Echo", "Crystal Flare Staff", "Marked Magnum", "Revivify Potion", "Dualpoon", "Triploon", "Exo Gladius", "Cursed Capper", "Luminous Striker", "The Reaper", "Warbanner of the Sun", "Rusty Medallion", "Alchemical Flask", "Red Bow", "Seabow", "Redtide Sword", "Seashell Boomerang", "Urchin Spear", "Urchin Flail" })
             {
                 int type = WikiRecipes.ResolveItem(name);
-                Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
-                if (name != "Sylvan Slasher")
+                Expect(type > 0 && ItemLoader.GetItem(type)?.Mod.Name == ExpectedOwner(name), $"{name} : {ItemLoader.GetItem(type)?.FullName} ({ExpectedOwner(name)} attendu)");
+                if (!new[] { "Sylvan Slasher", "The Reaper", "Warbanner of the Sun", "Red Bow", "Urchin Flail" }.Contains(name))
                     Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == type), $"{name} a une recette");
             }
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Crystal Blade")), "le Crystal Crawler lâche la Crystal Blade");

@@ -104,7 +104,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Crystal Blade
 - [x] Crystal Flare Staff
 - [ ] Crystallic Coin Gun — addon: Calamity: Tales of the Aquatic
-- [ ] Cursed Capper
+- [x] Cursed Capper
 - [ ] Cursed Spear — addon: Calamity: Community Remix
 - [ ] Cyberlight Striker — addon: Calamity: Tales of the Aquatic
 - [ ] Dark Energy Staff — addon: Calamity: Community Remix
@@ -238,7 +238,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Leeching Dagger
 - [ ] Li'l Mine — addon: Calamity: Community Remix
 - [ ] Lightning Hawk
-- [ ] Luminous Striker
+- [x] Luminous Striker
 - [ ] Lunatic Beats — addon: Calamity: Community Remix
 - [ ] Magna Striker
 - [ ] Magnic Circularity — addon: Calamity: Tales of the Aquatic
@@ -407,7 +407,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Ones Striker — addon: Calamity: Tales of the Aquatic
 - [ ] The Otherside
 - [ ] The Princess
-- [ ] The Reaper
+- [x] The Reaper
 - [ ] The Watered Pew Pew — addon: Calamity: Tales of the Aquatic
 - [ ] Thunder Bolt — addon: Cataclysm
 - [ ] Tiny Planet
@@ -710,10 +710,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Quiver of Madness — addon: Calamity: Community Remix
 - [ ] Rampart of Deicide — addon: Calamity: Tales of the Aquatic
 - [ ] Ravenous Soul Artifact
-- [ ] Red Bow
+- [x] Red Bow
 - [x] Red Wings
 - [ ] Regeterrence — addon: Calamity: Tales of the Aquatic
-- [ ] Rusty Medallion
+- [x] Rusty Medallion
 - [ ] Sanguined Catarachedrae — addon: Calamity: Tales of the Aquatic
 - [x] Sea Shell
 - [ ] Seascapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
@@ -747,7 +747,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Tree-Crown Wings
 - [ ] Universal Stone — addon: Calamity: Community Remix
 - [ ] Void Artifact — addon: Calamity: Tales of the Aquatic
-- [ ] Warbanner of the Sun
+- [x] Warbanner of the Sun
 - [ ] Wings — pas de sprite
 - [ ] Worm Meal
 - [ ] Wrath of the Machines

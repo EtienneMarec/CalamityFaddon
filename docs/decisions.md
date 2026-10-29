@@ -542,6 +542,18 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   plus proche en furtif ; la fonction d'origine est interne), **Urchin Spear** (Poisoned 10 s de l'infobox, le dard de
   Calamity reçoit Venom 3 s), **Urchin Flail** (Sea King, 2 or ; l'épine ne colle plus aux ennemis : fonction interne).
   Shroomerang = Infested Clawmerang et Aero Dynamite = Skynamite : même infobulle, simples renommages, rien à porter.
+- **[technique]** (31/10) Remplacements que le wiki ne connaît pas : liste explicite `replacements` de
+  `tools/glossary.json` (page du wiki → classe actuelle de Calamity). `gen_baseline.py` masque l'objet actuel en Full
+  Fandom et notre portage en Calamity++ ; `gen_localization.py` donne le nom du wiki à l'objet actuel. La Marnite Spear,
+  remplacée par le Marnite Deconstructor (sans page), y entre : elle suit désormais cette règle.
+- **[choix]** (31/10) Portages de cette liste, page avant code : **Cursed Capper** 35 dégâts ; **Luminous Striker** ne
+  traverse pas (« doesn't pierce » ; 4 ennemis dans le code), 149 dégâts ; **The Reaper** : faux de 2.0.1.005
+  (`LegacyReaperProjectile`, celle de Calamity a été refaite), 12 coups puis disparaît, Crush Depth 10 s ;
+  **Warbanner of the Sun** : code de 2022 (480 px) ; **Rusty Medallion** : 20 % de chances par tir de 3 gouttes à 30 %
+  des dégâts de base, adoucies au-delà de 30, recharge de 25 frames du code, gouttes du Flak Toxicannon de 2022
+  (`ToxicannonDrop`) ; TODO coffres rouillés ; **Alchemical Flask** : effet de la page (Plague sur le porteur, +2 %
+  de dégâts), pas celui de 2022 ; **Red Bow** : absent du code de 2.0.1.005 (déjà le Ghost Bracelet), recréé d'après
+  la page (+10 discrétion max, +3 défense, aggro -200, pêche dans le Dungeon avant Skeletron, 1 chance sur 20).
 - **[technique]** (29/10, lot 9) **Arcanum of the Void** mis de côté : la page décrit une barrière du vide qui explose
   en énergie sombre à tête chercheuse ; le code de 2022 renvoyait les projectiles. Effet inventé ou refait, à trancher.
 - **[choix]** (29/10, lot 10) **Dualpoon**, **Triploon** : code de 2022 en une base commune (`MultiHarpoon`) ; recettes

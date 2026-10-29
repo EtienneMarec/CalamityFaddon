@@ -669,6 +669,64 @@ Items: {
 		Tooltip: Stealth strikes fire seashells at nearby enemies
 	}
 
+	CursedCapper: {
+		DisplayName: Cursed Capper
+		Tooltip: Fires cursed bullets
+	}
+
+	LuminousStriker: {
+		DisplayName: Luminous Striker
+		Tooltip:
+			'''
+			Send the stars back to where they belong
+			Throws a stardust javelin trailed by rising stardust shards
+			Explodes into additional stardust shards upon hitting enemies
+			Stealth strikes cause the stardust shards to fly alongside the javelin instead of rising
+			'''
+	}
+
+	TheReaper: {
+		DisplayName: The Reaper
+		Tooltip:
+			'''
+			Slice ‘n dice
+			Stealth strikes throw four at once
+			'''
+	}
+
+	WarbanneroftheSun: {
+		DisplayName: Warbanner of the Sun
+		Tooltip:
+			'''
+			Increases melee damage, true melee damage and melee speed the closer you are to enemies
+			Max boost is 20% increased melee damage, true melee damage and melee speed
+			'''
+	}
+
+	RustyMedallion: {
+		DisplayName: Rusty Medallion
+		Tooltip: Causes most ranged weapons to sometimes release acid droplets from the sky
+	}
+
+	AlchemicalFlask: {
+		DisplayName: Alchemical Flask
+		Tooltip:
+			'''
+			Inflicts the player with the Plague debuff
+			2% increased damage
+			'''
+	}
+
+	RedBow: {
+		DisplayName: Red Bow
+		Tooltip:
+			'''
+			+10 maximum stealth
+			Enemies are less likely to target you
+			'If you're cuter, monsters won't hit you as hard.'
+			'''
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -922,6 +980,10 @@ Projectiles: {
 	UrchinBall.DisplayName: Urchin Ball
 	UrchinBallSpike.DisplayName: Urchin Spike
 	SeashellBoomerangProjectile.DisplayName: Seashell Boomerang
+	ToxicannonDrop.DisplayName: Acid Droplet
+	LuminousStrikerProj.DisplayName: Luminous Striker
+	LuminousShard.DisplayName: Stardust Shard
+	LegacyReaperProjectile.DisplayName: The Reaper
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash

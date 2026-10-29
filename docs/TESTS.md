@@ -468,6 +468,15 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       (tourbillon qui grossit puis éclate), **Seashell Boomerang** (boomerangs sans limite ; furtif : coquillages),
       **Urchin Spear** (lance + dard, Poisoned 10 s), **Urchin Flail**
       (vendu 2 or par le Sea King, boule qui revient et lance une épine)
+- [ ] (31/10) Objets remplacés par Calamity que le wiki ne connaît pas — **Full Fandom** : nos portages ; **Calamity++** :
+      l'objet actuel sous le nom du wiki (Thermocline Blaster s'appelle « Cursed Capper », Reality Rupture « Luminous
+      Striker », The Old Reaper « The Reaper », Warbanner of the Righteous « Warbanner of the Sun », Scion's Curio « Rusty
+      Medallion », Alchemical Decanter « Alchemical Flask », Ghost Bracelet « Red Bow », Marnite Deconstructor « Marnite
+      Spear »). Portages : **Cursed Capper** (balles maudites), **Luminous Striker** (javelot qui ne traverse pas, éclats
+      qui montent), **The Reaper** (Reaper Shark 10 % ; faux qui frappe 12 fois, Crush Depth ; furtif : 4 faux),
+      **Warbanner of the Sun** (Profaned Guardians ; +20 % mêlée au contact des ennemis, animé, ballon porté), **Rusty
+      Medallion** (tirs à distance : parfois 3 gouttes d'acide du ciel), **Alchemical Flask** (Plague sur soi, +2 % de
+      dégâts), **Red Bow** (pêché dans le Dungeon avant Skeletron : +10 discrétion, +3 défense, moins d'aggro)
 - [ ] (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
       Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle

@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (415)
+## Objets (410)
 
 - A M S
 - AAMG "Disperse"
@@ -242,7 +242,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Crius Prime
 - Crustalline
 - Crystallic Coin Gun
-- Cursed Capper
 - Cursed Spear
 - Cyberlight Striker
 - Dark Energy Staff
@@ -367,7 +366,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Li'l Mine
 - Lightning Hawk
 - Lithos Pickaxe
-- Luminous Striker
 - Lunatic Beats
 - Magna Striker
 - Magnic Circularity
@@ -443,7 +441,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Razor Teeth
 - Reactive Pickaxe
 - Reactor Accelerator
-- Red Bow
 - Redtide Spear
 - Regeterrence
 - Revolvin' Mc'Coy
@@ -454,7 +451,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Rose Bow
 - Rox
 - Rusty Flamethrower
-- Rusty Medallion
 - Salt Booklet
 - Salt Water Bolt
 - Sandstorm (weapon)
@@ -516,7 +512,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The Ones Striker
 - The Otherside
 - The Princess
-- The Reaper
 - The Verboten One
 - The Watered Pew Pew
 - The WOBbler

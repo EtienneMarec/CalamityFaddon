@@ -2,7 +2,7 @@
 
 _Généré par `tools/gen_localization.py`._
 
-344 textes modifiés, dont 228 noms.
+351 textes modifiés, dont 235 noms.
 
 Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, Realm Ravager, going rogue, goes rogue, gone rogue, went rogue, go rogue.
 
@@ -82,6 +82,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Melee.ExaltedOathblade.DisplayName` | Exalted Oathblade | True Forbidden Oathblade |
 | `Items.Accessories.FadedIdolatry.DisplayName` | Faded Idolatry | Godly Soul Artifact |
 | `Items.Accessories.FragmentsOfAnotherWorld.DisplayName` | Fragments of Another World | Eldritch Soul Artifact |
+| `Items.Accessories.GhostBracelet.DisplayName` | Ghost Bracelet | Red Bow |
 | `Items.Weapons.Summon.GlacialEmbrace.DisplayName` | Glacial Embrace | Cold Divinity |
 | `NPCs.Glomerling.DisplayName` | Glomerling | Hive (Enemy) |
 | `Items.Fishing.Gorecodile.DisplayName` | Gorecodile | Xerocodile |
@@ -110,6 +111,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.DraedonItems.DraedonsLogSunkenSea.DisplayName` | Marine Biology Log | Draedon's Log - Study on Sunken Aquatic Life |
 | `Items.SummonItems.MarkofProvidence.DisplayName` | Mark of Providence | Rune of Kos |
 | `Buffs.MarkedforDeath.DisplayName` | Marked for Death | Marked |
+| `Items.Tools.MarniteDeconstructor.DisplayName` | Marnite Deconstructor | Marnite Spear |
 | `Items.SummonItems.MartianDistressRemote.DisplayName` | Martian Distress Remote | Martian Distress Beacon |
 | `Items.Weapons.Melee.MawOfInfinity.DisplayName` | Maw of Infinity | Excelsus |
 | `Items.Weapons.Melee.Murasama.DisplayName` | Murasama | Graydron |
@@ -164,6 +166,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Armor.Vanity.RavagerMask.DisplayName` | Ravager Mask | Meatmetal Sans Mask |
 | `Items.Placeables.RavagerRelic.DisplayName` | Ravager Relic | Meatmetal Sans Relic |
 | `Items.Placeables.RavagerTrophy.DisplayName` | Ravager Trophy | Meatmetal Sans Trophy |
+| `Items.Weapons.Rogue.RealityRupture.DisplayName` | Reality Rupture | Luminous Striker |
 | `Items.Weapons.Rogue.ReboundingRainbow.DisplayName` | Rebounding Rainbow | Elemental Disk |
 | `Items.Accessories.Regenerator.DisplayName` | Regenerator | Regenator |
 | `NPCs.RenegadeWarlock.DisplayName` | Renegade Warlock | Cultist Assassin |
@@ -175,6 +178,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Summon.SanctifiedSpark.DisplayName` | Sanctified Spark | Energy Staff |
 | `Items.Weapons.Magic.SandstreamScepter.DisplayName` | Sandstream Scepter | Storm Spray |
 | `Items.Misc.SanguineTangerine.DisplayName` | Sanguine Tangerine | Hemagrape |
+| `Items.Accessories.ScionsCurio.DisplayName` | Scions Curio | Rusty Medallion |
 | `Items.Materials.ScoriaBar.DisplayName` | Scoria Bar | Abyss Bar |
 | `Items.Placeables.ScoriaOre.DisplayName` | Scoria Ore | Abyss Ore |
 | `Items.Materials.SeaRemains.DisplayName` | Sea Remains | Victide Bar |
@@ -198,9 +202,11 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Pets.TheEtomer.DisplayName` | The Etomer | Triboluminescent Etomer |
 | `Items.Lore.LoreExoMechs.DisplayName` | The Exo Mechanical Trio | The Exo Mechs |
 | `Items.Lore.LoreOldDuke.DisplayName` | The Old Duke | Old Duke |
+| `Items.Weapons.Rogue.TheOldReaper.DisplayName` | The Old Reaper | The Reaper |
 | `Items.Lore.LorePerforators.DisplayName` | The Perforators and Their Hive | The Perforators and their Hive |
 | `Items.Lore.LoreRavager.DisplayName` | The Ravager | Meatmetal Sans |
 | `Items.Lore.LoreWallofFlesh.DisplayName` | The Wall of Flesh | Wall of Flesh |
+| `Items.Weapons.Ranged.ThermoclineBlaster.DisplayName` | Thermocline Blaster | Cursed Capper |
 | `Items.Weapons.Ranged.ThreadOfEradication.DisplayName` | Thread of Eradication | Deathwind |
 | `Items.TreasureBags.AstrumDeusBag.DisplayName` | Treasure Bag (Astrum Deus) | Treasure Bag (Astral Deus) |
 | `Items.TreasureBags.CalamitasCloneBag.DisplayName` | Treasure Bag (Calamitas Clone) | Treasure Bag (Calamitas) |
@@ -221,6 +227,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Weapons.Magic.Volterion.DisplayName` | Volterion | Thunderstorm |
 | `Items.Weapons.DraedonsArsenal.PhalanxSurge.DisplayName` | W-LSR: Phalanx Surge | Heavy Laser Rifle |
 | `Items.Weapons.Rogue.WalkingCane.DisplayName` | Walking Cane | Slick Cane |
+| `Items.Accessories.WarbanneroftheRighteous.DisplayName` | Warbanner of the Righteous | Warbanner of the Sun |
 | `Items.DraedonItems.WhiteSeekingMechanism.DisplayName` | White Seeking Mechanism | Purple Seeking Mechanism |
 | `Items.Weapons.Rogue.Whitewater.DisplayName` | Whitewater | Brackish Flask |
 | `Items.Weapons.Ranged.WildfireBloom.DisplayName` | Wildfire Bloom | Terra Flameburster |

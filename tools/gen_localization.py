@@ -154,6 +154,13 @@ def main():
         name = r["oldName"] if group else re.sub(r"\s*\([a-z][^)]*\)$", "", r["page"])
         changed[key] = (strings[key], name)
 
+    # Remplacements que le wiki ne connaît pas (glossary.json -> replacements, décision du 30/10) : l'objet actuel prend
+    # le nom de la page (il n'est visible qu'en Calamity++, notre portage le remplace en Full Fandom)
+    for title, cls in glossary.get("replacements", {}).items():
+        key = by_class.get(cls)
+        if not title.startswith("_") and key:
+            changed[key] = (strings[key], title)
+
     # Objets de lore : nom du tableau de la page « Lore items » (tools/lore_items.py), y compris quand Calamity a
     # réécrit le lore sous un autre nom (LoreArchmage -> « Cryogen »). Les renommages du glossaire passent ensuite
     # (lore du Ravager : « Meatmetal Sans », décision du 21/10)

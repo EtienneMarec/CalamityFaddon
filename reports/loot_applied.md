@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 293 drops ajoutés sur 116 PNJ
+- 294 drops ajoutés sur 116 PNJ
 - 110 ajouts dans 24 sacs
-- 551 drops du wiki déjà présents dans le jeu (inchangés)
-- 118 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
+- 552 drops du wiki déjà présents dans le jeu (inchangés)
+- 119 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 25 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 175 PNJ du wiki absents du jeu, 53 objets introuvables
+- 175 PNJ du wiki absents du jeu, 52 objets introuvables
 
 ## Ajouts
 
@@ -105,7 +105,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Prism-Back** : Prism Shard 1-3 à 100.0% [After defeating Desert Scourge] ; Clam Chowder 1-1 à 2.0%
 - **Providence, the Profaned Goddess** : Rune of Kos 1-1 à 100.0% [Always on first kill] (mode normal) ; Rune of Kos 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Blazing Core 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Providence, the Profaned Goddess 1-1 à 100.0% [Always on first kill] (mode normal) ; Providence, the Profaned Goddess 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Rat** : Cheese 1-2 à 0.1% [in Godseeker Mode]
-- **Reaper Shark** : Depth Cells 10-17 à 50.0% [After defeating Calamitas] ; Cloaking Gland 2-3 à 100.0%
+- **Reaper Shark** : Depth Cells 10-17 à 50.0% [After defeating Calamitas] ; The Reaper 1-1 à 10.0% [After defeating Polterghast] ; Cloaking Gland 2-3 à 100.0%
 - **Scryllar** : Essence of Chaos 1-1 à 33.3% [In Hardmode]
 - **Sea Floaty** : Clam Chowder 1-1 à 2.0% [Hardmode-only]
 - **Sea Serpent** : Clam Chowder 1-1 à 5.0%
@@ -162,7 +162,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Honey Cooling Cell — 2
 - Romulus — 2
 - The Insacred Texts — 2
-- The Reaper — 2
 - Ash's Cloak — 1
 - Calamity Spawner — 1
 - Cirrhotipede — 1

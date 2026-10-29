@@ -152,14 +152,27 @@ def main():
 
     # Ajoutés depuis : masqués en Full Fandom sauf si le wiki les connaît
     hidden = {"items": [], "npcs": []}
+    # Remplacements que le wiki ne connaît pas (tools/glossary.json -> replacements, décision du 30/10) : le portage au
+    # nom de la page remplace l'objet actuel en Full Fandom, l'objet actuel (renommé) remplace le portage en Calamity++
+    glossary = json.load(open(os.path.join(ROOT, "tools", "glossary.json"), encoding="utf-8"))
+    for title, cls in glossary.get("replacements", {}).items():
+        port = re.sub(r"[^A-Za-z0-9]", "", title)
+        if title.startswith("_") or cls not in new or port not in ported:
+            continue
+        key = "items" if new[cls][0] == "ModItem" else "npcs"
+        hidden[key].append(cls)
+        plus_hidden[key].append(port)
+        wiki_renames.setdefault(cls, {"old": port, "new": cls, "oldName": title})
     for cls in sorted(set(new) - set(old)):
         kind, _ = new[cls]
         key = "items" if kind == "ModItem" else "npcs"
         rename = wiki_renames.get(cls)
         port = re.sub(r"[^A-Za-z0-9]", "", rename["oldName"]) if rename else None
         if port in ported:
-            hidden[key].append(cls)
-            plus_hidden[key].append(port)
+            if cls not in hidden[key]:
+                hidden[key].append(cls)
+            if port not in plus_hidden[key]:
+                plus_hidden[key].append(port)
             continue
         if cls in calamity_lore():
             has_page = cls in lore_known
