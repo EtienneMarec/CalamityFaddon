@@ -410,8 +410,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 - [ ] (29/10) Shortstrike, dernières armes du tableau : **Exo Gladius** (ancien objet retiré en 2022 ; sa page invente
       une explosion et une **parade au clic droit**, en conflit avec le Shortflurry comme le lancer du Galileo),
-      **Microcell Cut** (addon Calamity: Tales of the Aquatic), **Elemental Shiv** et **Lucrecia** (armes refaites ou
-      remplacées par Calamity : Lightspeed). À porter, et comment ?
+      **Microcell Cut** (attribuée à Tales of the Aquatic, addon inventé : arme inventée, à créer), **Elemental Shiv**
+      et **Lucrecia** (armes refaites ou remplacées par Calamity : Lightspeed). À porter, et comment ?
 - [ ] (29/10) Disgusting Meat et Ha-pu Fruit : objets inventés par le Fandom, homonymes d'objets créés plus tard par
       Calamity. En Full Fandom, objet du Fandom à la place de celui de Calamity ?
 - [ ] (29/10) Divine Intervention : épée inventée que l'index relie à tort au projectile HolyFlame ; à créer ?
@@ -421,7 +421,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] Écarts de stats extrêmes : tous tranchés (`tools/stats_decisions.json`)
 - [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
 - [x] Full Fandom : anciens objets dont le wiki ne parle nulle part → masqués aussi (tranché le 21/10, tests en 2.3)
-- [ ] Les addons (Tranquility, Community Remix...) : voir `docs/ROADMAP.md`, phase 5.
+- [ ] Les addons : état de chacun connu (29/10, `docs/decisions.md` section 11) ; reste leur intégration et les addons
+      pas encore classés (Tranquility, Fargo's Souls DLC, Calamity Loot Swap, Distorted Memories...).
 - [ ] (26/10) Objets que Calamity a **remplacés** par un autre (`[LegacyName]`, `python tools/calamity_renames.py`) :
       les traiter comme les refontes du 23/10 (portage en Full Fandom, objet actuel sous le nom du wiki en Calamity++) ?
       Probables : Warbanner of the Sun → Warbanner of the Righteous, Urchin Flail → Urchin Mace, Rusty Medallion → Scions

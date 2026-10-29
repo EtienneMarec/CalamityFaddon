@@ -613,3 +613,45 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   pour toutes ces classes (sinon la règle continue de s'appliquer, cas de Polterghast).
 - **[choix]** Dans `{{mode}}`, une valeur vide veut dire « absent dans ce mode » (ingrédient, recette entière, drop,
   élément). Une page dont les deux vues sont identiques produit une seule entrée de données, valable dans les deux modes.
+
+## 11. Addons (« community modifications », `reports/addons.md`) et sources de `OtherMods/`
+
+- **[validé 29/10]** Règle générale : ce que le Fandom attribue à un addon est **faux ou erroné**. Soit c'est inventé de
+  toutes pièces, soit c'est du contenu qui n'appartient pas à l'addon nommé. Une page « addon » se traite donc comme les
+  autres pages du Fandom. Elle ne vaut pas description d'un mod réel.
+- **[validé 29/10]** État de chaque addon (selon l'utilisateur) :
+
+  | Addon | Réalité | Source dans `OtherMods/` |
+  |---|---|---|
+  | Calamity: Community Remix | existe ; une partie du contenu du Fandom y a été ajoutée, modifiée pour être jouable ; beaucoup de pages décrivent du contenu qui n'y est pas. Contient aussi Hypnos et Polyphemalus | `CalRemix/` |
+  | Calamity Hunt | existe : ajoute Goozma, en **une** version ; le Fandom en décrit plusieurs, nous en ferons **3** | `CalamityHunt/` |
+  | Deimos, the Starborn Princess | = **Everquartz' Adventure** ; beaucoup de contenu du Fandom n'y est pas | `EverquartzAdventure/` |
+  | Cataclysm | existe, ajoute une partie du contenu du Fandom ; beaucoup de contenu du Fandom n'y est pas | `CataclysmMod/` |
+  | Infernum | existe ; l'essentiel de son contenu n'est pas sur le Fandom (référence au cas où) | `InfernumMode/` |
+  | Catalyst | existe, sans dépôt public : version très modifiée d'Astrageldon, éloignée de ce que nous ferons (pour le boss du moins) | — |
+  | Sloome | existe, sans dépôt public | — |
+  | Apotheosis & Friends | existe, sans dépôt public | — |
+  | Calamity: Tales of the Aquatic | **inventé** en totalité | — |
+  | Calamity's Souls | **inventé** | — |
+  | Calamity's Plantation | **inventé** (pas de page, seulement évoqué) | — |
+  | Legendaries+ | **inventé** | — |
+  | Emphatic Untamed Calamity | **inventé** | — |
+
+  Pas encore classés : Tranquility, Fargo's Souls DLC, Calamity Loot Swap, Distorted Memories et les addons à une ou
+  deux pages de `reports/addons.md`.
+- **[choix]** Licences des sources de `OtherMods/` (lues le 29/10). Ce n'est pas un avis juridique :
+  - **CalamityModPublic** : propriétaire (Azafure). La reprise de code est permise avec le crédit habituel ; elle
+    n'autorise ni les sprites ni la redistribution.
+  - **CataclysmMod** (MIT, © 2020 Stevie) et **InfernumMode** (MIT, © 2025 Javyz) : code réutilisable en gardant la
+    mention de copyright et la licence MIT dans le fichier repris. Vérifier les sprites un par un : les artistes ne
+    sont pas forcément couverts.
+  - **CalamityHunt** et **EverquartzAdventure** (GPL v3) : copier leur code obligerait à distribuer notre mod sous
+    GPL v3, ce qui semble incompatible avec le code repris de Calamity (propriétaire). En attendant de trancher :
+    **inspiration seulement**, réécriture sans copie.
+  - **CalRemix** : aucune licence dans le dépôt, donc tous droits réservés par défaut : **inspiration seulement**.
+- **[validé 29/10]** Contenu sans page ou à page vide (objet seulement cité, page sans contenu) : en Full Fandom,
+  probablement absent, ou un objet sans effet. En **Calamity++**, on crée du vrai contenu (« plus de contenu = plus
+  cool »). C'est à décider au cas par cas avec l'utilisateur, selon `docs/MODES.md`.
+- **[validé 29/10]** Des pages du wiki n'apparaissent dans aucune liste de la page principale (exemple : le biome
+  **Aether**). Pour savoir ce que le wiki contient, ne jamais s'en tenir aux navbox ni aux listes de la page d'accueil :
+  partir de l'index de toutes les pages (`data/wiki_index.json`).

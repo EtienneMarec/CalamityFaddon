@@ -61,8 +61,9 @@ coûteux (génération de monde).
 ## Phase 5 — Les cas « addon »
 
 778 pages attribuent leur contenu à des addons (`reports/addons.md`) : Tranquility, Community Remix, Tales of the
-Aquatic, Fargo's DLC... dont certains existent vraiment. À trancher : tout intégrer ici, découper en sous-mods, ou
-laisser de côté ceux qui existent réellement sur le Workshop.
+Aquatic, Fargo's DLC... dont certains existent vraiment. État de chaque addon, licences des sources de `OtherMods/`
+et règle générale (le Fandom se trompe sur les addons) : `docs/decisions.md`, section 11. Reste à trancher : comment
+intégrer leurs pages (ici, ou en sous-mods), et les addons pas encore classés.
 
 ## Décisions en attente (pour l'utilisateur)
 
