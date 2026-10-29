@@ -22,7 +22,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Ancient Crusher
 - [x] Ancient Shiv
 - [ ] Angel's Thesis — addon: Calamity: Community Remix
-- [ ] Animus
+- [x] Animus
 - [ ] Aquarel Pistol — addon: Calamity: Tales of the Aquatic
 - [x] Aquatic Discharge
 - [ ] Aquatic Dissolution
@@ -41,7 +41,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Baow — addon: Calamity: Community Remix
 - [ ] Bazooka
 - [x] Bittercold Staff
-- [ ] Blade of Enmity
+- [x] Blade of Enmity
 - [ ] Bleeding Influx — addon: Calamity: Community Remix
 - [ ] Blobfish Plushie — addon: Calamity: Community Remix
 - [x] Blood Clot Staff
@@ -53,7 +53,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Bouncing Betty
 - [ ] Bouncy Spiky Ball
 - [ ] Breakthrough
-- [ ] Brimlash Buster
+- [x] Brimlash Buster
 - [ ] Brimstone Flameblaster
 - [ ] Bucket of Coal — addon: Calamity: Community Remix
 - [ ] Bundle o' Bones — addon: Calamity: Community Remix
@@ -290,7 +290,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Pearl Gloves
 - [x] Phantom Lance
 - [x] Phlegm
-- [ ] Phoenix Blade
+- [x] Phoenix Blade
 - [ ] Phototerminator
 - [ ] Pine's Penetrator — addon: Apotheosis and Friends
 - [ ] Pizza Wheel

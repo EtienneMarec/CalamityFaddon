@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (441)
+## Objets (437)
 
 - A M S
 - AAMG "Disperse"
@@ -173,7 +173,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Alpha Ray
 - Alpha Virus
 - Angel's Thesis
-- Animus
 - Aquarel Pistol
 - Aquatic Dissolution
 - Aquatic Shardstone
@@ -192,7 +191,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Bad Apple
 - Baow
 - Bazooka
-- Blade of Enmity
 - Blazing Powder
 - Bleeding Influx
 - Blobfish Plushie
@@ -204,7 +202,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Bouncy Spiky Ball
 - Braxaxe
 - Breakthrough
-- Brimlash Buster
 - Brimstone Flameblaster
 - Bucket of Coal
 - Bundle o' Bones
@@ -425,7 +422,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Pandora's Chest
 - Pastranion
 - Phantasmal Rune
-- Phoenix Blade
 - Phototerminator
 - Pine's Penetrator
 - Pizza Wheel

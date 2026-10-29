@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1088 objets dont les recettes ont changé : 960 recettes modifiées, 193 créées
+- 1092 objets dont les recettes ont changé : 960 recettes modifiées, 197 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 117 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 137 recettes
+- 116 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 136 recettes
 
 ## Recettes changées
 
@@ -76,6 +76,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Angel Treads | 1 Terraspark Boots, 1 Harpy Ring, 5 Essence of Sunlight, 1 Soul of Fright, 1 Soul of Might, 1 Soul of Sight @ MythrilAnvil → 1 | 1 Terraspark Boots, 1 Cloud in a Bottle, 5 Essence of Sunlight, 1 Soul of Might, 1 Soul of Sight, 1 Soul of Fright @ MythrilAnvil → 1 |
 | Angelic Alliance | 1 Any Hallowed Helmet, 1 Any Hallowed Plate Mail, 1 Any Hallowed Greaves, 1 Paladin's Shield, 1 True Excalibur, 1 Cross Necklace, 5 Shadowspec Bar @ DraedonsForge → 1 | 1 Any Hallowed Helmet, 1 Hallowed Plate Mail, 1 Hallowed Greaves, 1 Paladin's Shield, 1 True Excalibur, 15 Soul of Plight, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Angelic Shotgun | 75 Sunplate Block, 15 Divine Bar, 7 Essence of Sunlight @ MythrilAnvil → 1 | 75 Sunplate Block, 10 Tarragon Bar, 15 Divine Bar, 7 Core of Babil @ LunarCraftingStation → 1 |
+| Animus | (nouvelle) | 1 Blade of Enmity, 15 Soul of Plight, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Anti-materiel Rifle | 1 Shroomer, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Shroomer, 10 Cosmilite Bar @ CosmicAnvil → 1 |
 | Aorta | (nouvelle) | 6 Blood Sample, 3 Vertebra, 3 Crimtane Bar @ DemonAltar → 1 |
 | Apocalyptic Bar | (nouvelle) | 3 Apocalyptic Ore, 1 Beetle Husk @ AdamantiteForge → 1 |
@@ -154,6 +155,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Berserker Waraxe | 10 Perennial Bar @ MythrilAnvil → 1 | 9 Perennial Bar, 1 Chlorophyte Greataxe @ MythrilAnvil → 1 |
 | Biofusillade | 1 Spell Tome, 12 Tarragon Bar @ Bookcases → 1 | 8 Tarragon Bar, 1 Spell Tome @ Bookcases → 1 |
 | Biome Blade | 1 Broken Biome Blade, 1 Soul of Fright, 1 Soul of Might, 1 Soul of Sight, 2 Pixie Dust, 10 Stardust @ MythrilAnvil → 1 | 1 Broken Biome Blade, 1 Soul of Fright, 1 Soul of Might, 1 Soul of Sight, 2 Fallen Star, 10 Stardust, 5 Essential Essence Bar @ MythrilAnvil → 1 |
+| Blade of Enmity | (nouvelle) | 5 Life Alloy, 3 Core of Calamity @ MythrilAnvil → 1 |
 | Bladedge Railbow | 10 Perennial Bar @ MythrilAnvil → 1 | 12 Perennial Bar, 3 Essential Essence Bar, 1 Chlorophyte Shotbow @ MythrilAnvil → 1 |
 | Blank Scroll | (nouvelle) | 45 Bamboo, 5 Fallen Star, 3 Demonic Bone Ash, 3 Blighted Gel @ Loom → 1 |
 | Blazing Star | 1 Glaive, 5 Hellstone Bar, 10 Essence of Chaos @ MythrilAnvil → 1 | 20 Fallen Star, 3 Hellstone Bar, 4 Essence of Chaos @ Anvils → 1 |
@@ -213,6 +215,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Brimflame Dye | 2 Bottled Water, 3 Brimstone Slag @ DyeVat → 2 | 1 Bottled Water, 3 Brimstone Slag @ DyeVat → 1 |
 | Brimflame Robes | 12 Unholy Core, 8 Ashes of Calamity @ MythrilAnvil → 1 | 10 Mollusk Husk, 8 Ashes of Calamity, 4 Unholy Core, 1 Obsidian Rose @ MythrilAnvil → 1 |
 | Brimlash | 8 Unholy Core, 8 Ashes of Calamity @ MythrilAnvil → 1 | 10 Mollusk Husk, 4 Unholy Core, 3 Essence of Chaos, 5 Ashes of Calamity @ MythrilAnvil → 1 |
+| Brimlash Buster | (nouvelle) | 1 Brimlash, 3 Core of Chaos, 10 Solar Fragment @ LunarCraftingStation → 1 |
 | Brimrose Staff | 8 Unholy Core @ MythrilAnvil → 1 | 10 Mollusk Husk, 6 Unholy Core @ MythrilAnvil → 1 |
 | Brimstone Crag | 1 Brimstone Elemental Trophy @ Bookcases → 1 | 1 Brimstone Elemental Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Brimstone Elemental | 1 Brimstone Elemental Trophy @ Bookcases → 1 | 1 Brimstone Elemental Trophy, 10 Conquest Fragment @ Bookcases → 1 |
@@ -700,6 +703,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Phantasmal Fury | 1 Spectre Staff, 2 Ruinous Soul, 1 Dark Plasma @ MythrilAnvil → 1 | 1 Spectre Staff, 2 Haunted Bar, 1 Dark Plasma @ LunarCraftingStation → 1 |
 | Phantom Lance | (nouvelle) | 2 Spectre Bar, 1 Abyss Bar, 2 Ashes of Calamity @ MythrilAnvil → 100 |
 | Phaseslayer | 15 Mysterious Circuitry, 25 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
+| Phoenix Blade | (nouvelle) | 1 Breaker Blade, 10 Hellstone Bar, 1 Essence of Sunlight, 3 Soul of Might, 3 Soul of Sight, 3 Soul of Fright @ MythrilAnvil → 1 |
 | Photosynthesis Potion | 1 Bottled Water, 3 Daybloom, 1 Essence of Sunlight @ AlchemyTable → 1 | 1 Bottled Water, 1 Beetle Juice, 1 Vine, 1 Essence of Sunlight @ AlchemyTable → 1 |
 | Photosynthesis Potion | 1 Bottled Water, 5 Blood Orb, 1 Essence of Sunlight @ AlchemyTable → 1 | 1 Bottled Water, 4 Unholy Core, 1 Essence of Sunlight @ AlchemyTable → 1 |
 | Photoviscerator | 1 Elemental Eruption, 1 Halley's Inferno, 1 God's Bellows, 1 Miracle Matter @ DraedonsForge → 1 | 1 Elemental Eruption, 1 Cleansing Blaze, 1 Halley's Inferno, 1 God's Bellows, 1 Miracle Matter @ DraedonsForge → 1 |
@@ -1253,7 +1257,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Onyx Purge — 1
 - objet : Onyx Staff — 1
 - objet : Particle Accelerator — 1
-- objet : Phoenix Blade — 1
 - objet : Plague Hive — 1
 - objet : Plague Station — 1
 - objet : Planetarium — 1

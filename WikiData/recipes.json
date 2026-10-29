@@ -14118,6 +14118,34 @@
    "page": "Recipes_Ancient Manipulator_register.txt"
   },
   {
+   "result": "Brimlash Buster",
+   "amount": 1,
+   "stations": [
+    "Ancient Manipulator"
+   ],
+   "ingredients": [
+    {
+     "items": [
+      "Brimlash"
+     ],
+     "stack": 1
+    },
+    {
+     "items": [
+      "Core of Chaos"
+     ],
+     "stack": 3
+    },
+    {
+     "items": [
+      "Solar Fragment"
+     ],
+     "stack": 10
+    }
+   ],
+   "page": "Recipes_Ancient Manipulator_register.txt"
+  },
+  {
    "result": "Bloodstone Bar",
    "amount": 1,
    "stations": [
@@ -52016,6 +52044,74 @@
       "Reaver Cuisses"
      ],
      "stack": 1
+    }
+   ],
+   "page": "Recipes_Hardmode Anvil_register.txt"
+  },
+  {
+   "result": "Blade of Enmity",
+   "amount": 1,
+   "stations": [
+    "Mythril Anvil"
+   ],
+   "ingredients": [
+    {
+     "items": [
+      "Life Alloy"
+     ],
+     "stack": 5
+    },
+    {
+     "items": [
+      "Core of Calamity"
+     ],
+     "stack": 3
+    }
+   ],
+   "page": "Recipes_Hardmode Anvil_register.txt"
+  },
+  {
+   "result": "Phoenix Blade",
+   "amount": 1,
+   "stations": [
+    "Mythril Anvil"
+   ],
+   "ingredients": [
+    {
+     "items": [
+      "Breaker Blade"
+     ],
+     "stack": 1
+    },
+    {
+     "items": [
+      "Hellstone Bar"
+     ],
+     "stack": 10
+    },
+    {
+     "items": [
+      "Essence of Sunlight"
+     ],
+     "stack": 1
+    },
+    {
+     "items": [
+      "Soul of Might"
+     ],
+     "stack": 3
+    },
+    {
+     "items": [
+      "Soul of Sight"
+     ],
+     "stack": 3
+    },
+    {
+     "items": [
+      "Soul of Fright"
+     ],
+     "stack": 3
     }
    ],
    "page": "Recipes_Hardmode Anvil_register.txt"

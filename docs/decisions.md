@@ -457,6 +457,19 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   fichier, objet refait) : Seabow → Reed Blowgun, Redtide Sword → Urchin Mace, Seashell Boomerang → Fishbone Boomerang,
   Urchin Spear → Redtide Spear (lui-même retiré depuis), et Shroomerang **renommé** Infested Clawmerang. À traiter avec
   les remplacements `LegacyName` (décision en attente dans `docs/TESTS.md`).
+- **[choix]** (29/10, lot 4) **Animus** : probabilités exactes de la page (l'ancien code tirait sur 195 valeurs, à peu
+  près les mêmes) ; Brimstone Flames 5 s de l'infobox (le texte dit 100 s). Multiplicateur dans `AnimusPlayer` (le champ de
+  CalamityPlayer n'existe plus). **Blade of Enmity** : « 25 % des bonus de vitesse de mêlée » par `UseSpeedMultiplier`.
+  **Brimlash Buster** : l'infobulle (« 50% chance to do triple damage ») passe avant l'ancien code (x2 une fois sur 3,
+  sur le coup suivant) ; le second tir du texte (« four brimstone bolts to the left, right, and diagonals ») n'a jamais
+  existé dans le code de Calamity : ajouté tel quel (traits `Brimlash2` à gauche, à droite et en diagonale vers le haut).
+  **Phoenix Blade** : flammes de soin de 3 s (page ; 1,75 s dans le code), explosion `FuckYou` de Calamity avec On Fire!
+  3 s (`PhoenixExplosion`, l'explosion de Calamity n'en inflige pas).
+- **[choix]** (29/10, lot 4) Recettes ajoutées à **notre wiki** : la page de l'arme affiche une recette, mais aucun
+  registre ne la contient (Brimlash Buster, Phoenix Blade), ou seul `Recipes_Historical_register` l'a, avec la station
+  disparue Particle Accelerator (Blade of Enmity). On reprend la recette du code de 2022 (ingrédients et station), inscrite
+  dans `Recipes_Hardmode Anvil_register` (Blade of Enmity, Phoenix Blade) et `Recipes_Ancient Manipulator_register`
+  (Brimlash Buster). Le registre historique reste ignoré par `gen_recipes.py`.
 - **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
   1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
   comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet

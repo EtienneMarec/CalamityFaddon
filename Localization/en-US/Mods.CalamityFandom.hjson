@@ -466,6 +466,30 @@ Items: {
 			'''
 	}
 
+	Animus: {
+		DisplayName: Animus
+		Tooltip: Randomizes its damage on enemy hits
+	}
+
+	BladeofEnmity: {
+		DisplayName: Blade of Enmity
+		Tooltip: ""
+	}
+
+	BrimlashBuster: {
+		DisplayName: Brimlash Buster
+		Tooltip:
+			'''
+			50% chance to do triple damage on enemy hits
+			Fires a brimstone bolt that explodes into more bolts on death
+			'''
+	}
+
+	PhoenixBlade: {
+		DisplayName: Phoenix Blade
+		Tooltip: Enemies explode and emit healing flames on death
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -688,6 +712,7 @@ Projectiles: {
 	ShortflurryVine.DisplayName: Spore Vine
 	ProfanedEnergyTurret.DisplayName: Profaned Energy
 	CrystalDust.DisplayName: Crystal Dust
+	PhoenixHeal.DisplayName: Healing Flame
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash

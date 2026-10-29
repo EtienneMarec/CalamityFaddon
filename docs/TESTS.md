@@ -407,6 +407,12 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       partent vers le haut, à 12 h 30 l'un vers le bas, à 18 h 00 l'autre vers la droite ; Glacial State et Frostburn
 - [ ] **Sylvan Slasher** : vendue 5 platine par le Bandit après Providence ; entailles au curseur tant qu'on maintient
       le clic, la discrétion monte (armure rogue), des vagues partent parfois du joueur à l'opposé du curseur
+- [ ] **Animus** : les dégâts affichés changent après chaque coup (800 à 10 000) ; Brimstone Flames. **Blade of Enmity** :
+      très rapide, Brimstone Flames, un bonus de vitesse de mêlée ne compte qu'au quart
+- [ ] **Brimlash Buster** : un coup sur deux environ fait le triple de dégâts ; à chaque coup, soit le grand trait vers le
+      curseur (il se divise), soit quatre traits autour du joueur (gauche, droite, diagonales hautes)
+- [ ] **Phoenix Blade** : tuer un ennemi le fait exploser (On Fire! autour) et laisse deux flammes qui rendent 10 PV au
+      contact et disparaissent après ~3 s ou sur un bloc
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 
