@@ -15,8 +15,8 @@ namespace CalamityFandom.Common.WikiData
     /// Assets/Overrides/{Buffs|Items|NPCs|Projectiles}/&lt;ClasseCalamity&gt;.png est appliquée au chargement (client seulement)
     /// et l'originale est restaurée au déchargement. Ajouter une image suffit, sans code.
     /// Images générées par tools/gen_sprites.py : Generated/Items/ (objets renommés, tous les modes) et
-    /// Generated/Full/Items/ (sprites refaits par Calamity depuis 2022, et resprites du wiki pour nos propres objets : Full
-    /// Fandom seulement). Une image faite à la main passe avant une image générée.
+    /// Generated/Full/Items/ (sprites refaits par Calamity depuis 2022, Full Fandom seulement) ; nos propres objets reçoivent leur
+    /// resprite du wiki dans Generated/Items/ (tous les modes). Une image faite à la main passe avant une image générée.
     /// </summary>
     public class TextureOverrides : ModSystem
     {
@@ -59,7 +59,7 @@ namespace CalamityFandom.Common.WikiData
                     "Items" when ModContent.TryFind<ModItem>("CalamityMod", cls, out var i) => (TextureAssets.Item, i.Type),
                     "NPCs" when ModContent.TryFind<ModNPC>("CalamityMod", cls, out var n) => (TextureAssets.Npc, n.Type),
                     "Projectiles" when ModContent.TryFind<ModProjectile>("CalamityMod", cls, out var p) => (TextureAssets.Projectile, p.Type),
-                    // Objets de ce mod (portages, créations) : resprites du wiki, Full Fandom seulement (décision du 30/10)
+                    // Objets de ce mod (portages, créations) : resprites du wiki, tous les modes (décision du 30/10)
                     "Items" when Mod.TryFind<ModItem>(cls, out var own) => (TextureAssets.Item, own.Type),
                     _ => (null, -1),
                 };

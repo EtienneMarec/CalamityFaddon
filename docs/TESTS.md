@@ -325,30 +325,30 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Hemagrape
 - [x] Le sac d'Astral Deus et celui de Meatmetal Sans reçoivent leur contenu du wiki (page Treasure Bag) : trophée à 10 %
       dans le sac d'Astral Deus, Greater Healing Potion...
-- [ ] Portages du 26/10 (Cheat Sheet) :
+- [x] Portages du 26/10 (Cheat Sheet) :
   - [x] **Psychotic Amulet** : +5 % dégâts/critique spy et ranged ; immobile, on devient invisible (comme la Shroomite) et
         les bonus montent ; se fabrique dans les casques Auric Tesla ; lâché par la Possessed Armor
   - [x] **Disseminator** : salve de l'arme + une salve tombée d'au-dessus et une montée d'en dessous vers le curseur, qui
         traversent les blocs ; une munition sur deux n'est pas consommée
   - [x] **Wrath of the Ancients** : pose une pulsation au curseur qui libère des esprits à tête chercheuse ; une seule à la
         fois ; lâché par les Necromancer
-  - [ ] **Astral Bow** (rafale de 3 flèches), **Lazhar** (rayons qui rebondissent et explosent, On Fire!), **Carnage Ray**
+  - [x] **Astral Bow** (rafale de 3 flèches), **Lazhar** (rayons qui rebondissent et explosent, On Fire!), **Carnage Ray**
         (rayon de sang), **Phantom Lance** (javelots qui sèment des âmes, se fabriquent par 100), **Eutrophic Scimitar**
         (deux décharges qui étourdissent, lâché par le Blinded Angler)
-        (30/10 : bons sauf Lazhar, pas testé ; Astral Bow réduit à 0,8 → à revoir)
-  - [ ] **Aftershock** (un rocher tombe du ciel à chaque coup, Armor Crunch ; lâché par les Earth Elemental),
+        (30/10 : tous bons ; Astral Bow réduit à 0,8, validé)
+  - [x] **Aftershock** (un rocher tombe du ciel à chaque coup, Armor Crunch ; lâché par les Earth Elemental),
         **Sandslasher** (shuriken qui accélère à l'horizontale ; furtif : nuages de sable), **Asteroid Staff** (3 astéroïdes
         verts vers le curseur, qui explosent)
-        (30/10 : Sandslasher et Asteroid Staff bons ; le rocher de l'Aftershock vise maintenant l'ennemi touché, plus le curseur → à revoir)
+        (30/10 : Sandslasher et Asteroid Staff bons ; le rocher de l'Aftershock vise maintenant l'ennemi touché, validé)
   - [x] **Lead Core** (immunité Irradiated, Irradiated/Gamma Slime), **Surgical Glove** (+12 % vitesse et dégâts de
         mêlée, ennemis touchés en mêlée : Plague ; lâché par le Plaguebringer Goliath), **Sulfuric Scale** (immunité
         Poisoned/Venom/Sulphuric Poisoning ; dégâts en hausse quand on perd de la vie ou sous 75/50/25 % de vie ; Nuclear
         Terror)
   - [x] **Flask of Plague** (lâchée par le Plaguebringer Goliath) : buff « Weapon Imbue: Plague » 20 min, remplace les
         autres flasks ; un coup d'épée, de fouet ou d'arme spy inflige la Plague
-  - [ ] **Plague Balloon** (vanité, Plaguebringer Goliath) : le ballon se voit sur le joueur (vérifier sa position) ; à la
+  - [x] **Plague Balloon** (vanité, Plaguebringer Goliath) : le ballon se voit sur le joueur (vérifier sa position) ; à la
         mort, nuée verte
-        (30/10 : la mort lâche maintenant une nuée d'abeilles vertes purement visuelles, en plus de la poussière → à revoir)
+        (30/10 : la mort lâche maintenant une nuée d'abeilles vertes purement visuelles, en plus de la poussière, validé)
   - [x] **Microxodonta** (Nuclear Terror) : course bien plus rapide ; en volant avec des ailes, des grappes vertes
         restent derrière et infligent 300 aux ennemis
   - [x] **Sea Shell** (Sea Snail) : +3 défense, dans l'eau +3 de plus et on nage librement ; **Mirage Jelly** (covering,
@@ -356,21 +356,21 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
         l'Abysse) : touché par un ennemi, la magie ne coûte rien pendant 1 s (buff Gar Mana Boost)
   - [x] **Glacial Crusher** (Cryogen) : iceberg lent qui gèle (ennemi bleuté, presque immobile) ; un coup d'épée sur un
         ennemi gelé fait double dégâts
-  - [ ] **Trash of Magnus** et **Blow Pipe** (Plaguebringer Goliath) : éclairs verts qui infligent la Plague, pas de
+  - [x] **Trash of Magnus** et **Blow Pipe** (Plaguebringer Goliath) : éclairs verts qui infligent la Plague, pas de
         reforge possible ; sarbacane avec graines/fléchettes, clic droit plus lent qui inflige la Plague
-        (30/10 : Blow Pipe bon ; le Trash of Magnus est tenu comme un bâton, pointé vers la cible → à revoir)
-  - [ ] **The Needler** (Plaguebringer Goliath) : comme la Needler, mais les aiguilles infligent la Plague
+        (30/10 : Blow Pipe bon ; le Trash of Magnus est tenu comme un bâton, pointé vers la cible, validé)
+  - [x] **The Needler** (Plaguebringer Goliath) : comme la Needler, mais les aiguilles infligent la Plague
   - [x] **Disease** (épée courte, Plaguebringer Goliath) : un ennemi tué libère 3 Plague Seekers ; elle a sa jauge
         Shortstrike, et sa Shortflurry lance une Plague Seeker à chaque coup
   - [x] **Reemergence** (Plaguebringer Goliath) : avec des flèches en bois, flèches de peste qui éclatent en abeilles
-  - [ ] **Phlegm** (javelot du Plaguebringer) : tête chercheuse, traînée verte qui ralentit (Slow) et inflige la Plague ;
+  - [x] **Phlegm** (javelot du Plaguebringer) : tête chercheuse, traînée verte qui ralentit (Slow) et inflige la Plague ;
         attaque furtive : éternuement (glaires projetées devant) ; **Toxic Wisdom** : tirs verts et roses alternés
-        (30/10 : Phlegm bon ; Toxic Wisdom pas testé)
-  - [ ] **Poison I-Bee** (Plaguebringer) : disque boomerang, épines au contact ; en furtif, graines en tous sens
-        (30/10 : bon ; on ne peut plus avoir que 3 disques en vol à la fois, avant ils s'empilaient sans fin → à revoir)
-  - [ ] **Decomposition** (tourelle, Plaguebringer) : ruche posée au curseur, tombe au sol, lâche des abeilles de peste
+        (30/10 : Phlegm et Toxic Wisdom bons)
+  - [x] **Poison I-Bee** (Plaguebringer) : disque boomerang, épines au contact ; en furtif, graines en tous sens
+        (30/10 : bon ; on ne peut plus avoir que 3 disques en vol à la fois, avant ils s'empilaient sans fin, validé)
+  - [x] **Decomposition** (tourelle, Plaguebringer) : ruche posée au curseur, tombe au sol, lâche des abeilles de peste
         vers les ennemis proches
-        (30/10 : la ruche se pose maintenant aussi sur les plateformes → à revoir)
+        (30/10 : la ruche se pose maintenant aussi sur les plateformes, validé)
   - [x] **Metal Ball** (Plaguebringer) : bouton tenu, boule au bout d'une chaîne qui pend et suit les mouvements (courir en
         rond la fait tourner) ; **Sewer Brewer** : bouton tenu = charge (son à pleine charge), relâcher = foret plus gros
         et plus fort selon la charge, qui cherche les ennemis à pleine charge
@@ -378,11 +378,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
         libère 3 orbes qui soignent de 9 PV quand on les touche (attirées avec Heartreach)
   - [x] **Blood Clot Staff** : caillot de sang qui fonce sur les ennemis ; buff « Blood Clot »
         (30/10 : bon ; en Full Fandom il a maintenant le sprite du wiki, violet, comme 17 autres portages → voir la ligne des sprites)
-- [ ] (30/10) **Sprites du wiki**, Full Fandom seulement : nos portages ont le sprite du wiki quand il diffère de celui de
+- [ ] (30/10) **Sprites du wiki** : nos portages ont le sprite du wiki **dans les deux modes** quand il diffère de celui de
       2022 (Blood Clot Staff violet, Seabound Staff, Starfall, Carnage Ray, Storm Spray, Storm Dragoon, Effluvium Bow,
       Gehenna, Glacial Crusher, Caliburn, Crimslime / Corroslime Staff... : liste dans `reports/sprites.md`) ; environ
-      120 objets de Calamity en plus reçoivent aussi leur sprite du wiki (recolorations que l'outil ratait). Calamity++ :
-      sprites de 2022 / de Calamity.
+      120 objets de Calamity en plus reçoivent aussi leur sprite du wiki en Full Fandom (recolorations que l'outil
+      ratait) ; en Calamity++ ces objets de Calamity gardent leur sprite.
 - [ ] Portages du 29/10 (nuit, Cheat Sheet) : épées courtes retirées avant 2.0.1.005, en estoc, avec jauge Shortstrike et
       Shortflurry du tableau (clones = l'estoc lui-même) :
   - [ ] **Leeching Dagger** (Hive Mind) : un ennemi touché lâche une sangsue violette qui cherche un ennemi et soigne de

@@ -4,8 +4,8 @@
   -> Assets/Overrides/Generated/Items/<Classe>.png
 - Objet officiel dont Calamity a refait le sprite depuis 2022 : sprite du wiki en Full Fandom seulement
   -> Assets/Overrides/Generated/Full/Items/<Classe>.png
-- Objet porté ou créé par ce mod (page « new » implémentée dans Content/) dont le wiki montre un autre sprite (resprite
-  du Fandom) : sprite du wiki en Full Fandom seulement, même dossier (décision du 30/10)
+- Objet porté ou créé par ce mod (page implémentée dans Content/) dont le wiki montre un autre sprite (resprite du
+  Fandom) : sprite du wiki dans tous les modes -> Assets/Overrides/Generated/Items/ (décision du 30/10)
 Appliqués par Common/WikiData/TextureOverrides.cs (icône seulement). Ignorés : objets animés de Calamity (planche
 d'images), murs (le wiki montre le mur posé), illustrations de plus de 96 px.
 Une image faite à la main dans Assets/Overrides/Items/ passe avant.
@@ -174,7 +174,7 @@ def main():
         if icon is None:
             skipped.append((page["title"], f"illustration {wiki.width}x{wiki.height}"))
             continue
-        icon.save(os.path.join(OUT_FULL, cls + ".png"), "PNG")
+        icon.save(os.path.join(OUT_ALL, cls + ".png"), "PNG")
         written["ours"].append((page["title"], cls))
 
     with open(REPORT, "w", encoding="utf-8") as f:
@@ -182,9 +182,10 @@ def main():
         f.write(f"- {same} objets ont déjà le sprite du wiki\n")
         f.write(f"- {len(written['renamed'])} objets renommés : sprite du wiki dans tous les modes\n")
         f.write(f"- {len(written['official'])} objets officiels : sprite du wiki en Full Fandom seulement\n")
+        f.write(f"- {len(written['ours'])} objets de ce mod (portages, créations) : sprite du wiki dans tous les modes\n")
         f.write(f"- {len(skipped)} ignorés (image du wiki inutilisable)\n\n")
         for status, title in (("renamed", "Renommés (tous les modes)"), ("official", "Officiels (Full Fandom)"),
-                              ("ours", "Objets de ce mod (Full Fandom)")):
+                              ("ours", "Objets de ce mod (tous les modes)")):
             f.write(f"## {title}\n\n" + ", ".join(f"{t} (`{c}`)" for t, c in written[status]) + "\n\n")
         f.write("## Ignorés\n\n" + "\n".join(f"- {t} : {why}" for t, why in skipped) + "\n")
     print(f"déjà identiques : {same} ; renommés : {len(written['renamed'])} ; officiels (Full) : {len(written['official'])} ; "

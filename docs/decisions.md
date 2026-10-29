@@ -533,9 +533,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   `reports/sprites.md`) : objets **renommés** (Conquest Fragment, Divine Bar, Victide Bar...) → sprite du wiki dans
   **tous les modes**, comme leur nom ; objets **officiels** au sprite refait par Calamity depuis 2022 → sprite du wiki en
   **Full Fandom** seulement (Calamity++ garde le sprite actuel).
-- **[choix]** (30/10) Nos propres objets (portages, créations) dont le wiki montre un autre sprite reçoivent le sprite
-  du wiki en **Full Fandom seulement**, comme les objets officiels (Calamity++ garde celui de 2022) :
-  `gen_sprites.py` → `Generated/Full/Items/`, `TextureOverrides` cherche la classe dans Calamity puis dans ce mod
+- **[validé 30/10]** Nos propres objets (portages, créations) dont le wiki montre un autre sprite reçoivent le sprite
+  du wiki **dans tous les modes** (« plus logique » : ces objets n'existent que par le wiki) :
+  `gen_sprites.py` → `Generated/Items/`, `TextureOverrides` cherche la classe dans Calamity puis dans ce mod
   (une classe de Calamity du même nom est ignorée). 17 objets au 30/10, dont le Blood Clot Staff (retour de test).
   **[technique]** Correction de la comparaison des images : `getbbox()` d'une image RGBA ne regarde que la transparence,
   et l'écart moyen incluait le fond transparent, si bien que des recolorations entières passaient pour « identiques ».
