@@ -436,6 +436,36 @@ Items: {
 		Tooltip: ""
 	}
 
+	CrystalBlade: {
+		DisplayName: Crystal Blade
+		Tooltip: Fires slow-moving clouds of crystal dust
+	}
+
+	TemporalFloeSword: {
+		DisplayName: Temporal Floe Sword
+		Tooltip:
+			'''
+			The iceman cometh...
+			Fires a frozen sword beam that splits into two more beams
+			The direction of the beams depends on in game time
+			'''
+	}
+
+	MarniteSpear: {
+		DisplayName: Marnite Spear
+		Tooltip: ""
+	}
+
+	SylvanSlasher: {
+		DisplayName: Sylvan Slasher
+		Tooltip:
+			'''
+			Summons a slash attack at the cursor's position
+			Enemy hits build stealth and cause sword waves to fire from the player in the opposite direction
+			Does not consume stealth and cannot stealth strike
+			'''
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -657,12 +687,18 @@ Projectiles: {
 	ShortflurryCloud.DisplayName: Toxic Cloud
 	ShortflurryVine.DisplayName: Spore Vine
 	ProfanedEnergyTurret.DisplayName: Profaned Energy
+	CrystalDust.DisplayName: Crystal Dust
+	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
+	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
+	SylvanSlashAttack.DisplayName: Sylvan Slash
+	SylvanSlash.DisplayName: Sylvan Backslash
 
 	Melee: {
 		AquaticDischargeProj.DisplayName: Aquatic Discharge Proj
 		LeechingDaggerProj.DisplayName: Leeching Dagger
 		TomatusProj.DisplayName: Tomatus
 		WulfrumLeechDaggerProj.DisplayName: Wulfrum Leech Dagger
+		MarniteSpearProjectile.DisplayName: Marnite Spear
 		CaliburnProj.DisplayName: Caliburn
 		TrueCaliburnProj.DisplayName: True Caliburn
 		TrueNightsStabberProj.DisplayName: True Night's Stabber

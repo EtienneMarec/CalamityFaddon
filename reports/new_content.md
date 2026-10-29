@@ -101,7 +101,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Crimson Crusher Blade
 - [ ] Crius Prime — addon: Deimos, the Starborn Princess
 - [ ] Crustalline
-- [ ] Crystal Blade
+- [x] Crystal Blade
 - [ ] Crystal Flare Staff
 - [ ] Crystallic Coin Gun — addon: Calamity: Tales of the Aquatic
 - [ ] Cursed Capper
@@ -250,7 +250,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Mariana
 - [ ] Marked Magnum
 - [ ] Marnite Bayonet
-- [ ] Marnite Spear
+- [x] Marnite Spear
 - [ ] Megaskeet — addon: Apotheosis and Friends
 - [ ] Meridian — addon: Calamity: Community Remix
 - [x] Metal Ball
@@ -379,11 +379,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Summit Breaker
 - [ ] Supercharged Dart Blaster
 - [ ] Swift Sword
-- [ ] Sylvan Slasher
+- [x] Sylvan Slasher
 - [ ] Talon Burst
 - [ ] Technicate — addon: Calamity: Tales of the Aquatic
 - [ ] Technomagica — addon: Calamity: Tales of the Aquatic
-- [ ] Temporal Floe Sword
+- [x] Temporal Floe Sword
 - [ ] Tendon Tides — addon: Catalyst
 - [ ] Tenebris Tides — addon: Catalyst
 - [ ] Terra Bow

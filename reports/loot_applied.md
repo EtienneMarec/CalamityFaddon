@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 289 drops ajoutés sur 115 PNJ
+- 290 drops ajoutés sur 116 PNJ
 - 106 ajouts dans 24 sacs
 - 551 drops du wiki déjà présents dans le jeu (inchangés)
 - 117 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 175 PNJ du wiki absents du jeu, 56 objets introuvables
+- 175 PNJ du wiki absents du jeu, 55 objets introuvables
 
 ## Ajouts
 
@@ -43,6 +43,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Cragmaw Mire** : Septic Skewer 1-1 à 25.0%
 - **Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
 - **Cryogen** : Frozen Key 1-1 à 20.0% (mode normal) ; Soul of Cryogen 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Bittercold Staff 1-1 à 25.0% (mode normal) ; Glacial Crusher 1-1 à 25.0% (mode normal)
+- **Crystal Crawler** : Crystal Blade 1-1 à 20.0%
 - **Cultist Assassin** : Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Dark Caster** : Ancient Shiv 1-1 à 4.0%
 - **Derpling** : Beetle Juice 1-1 à 25.0%
@@ -167,7 +168,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Calamity Spawner — 1
 - Cirrhotipede — 1
 - Contaminated Dish — 1
-- Crystal Blade — 1
 - Cursed Spear — 1
 - Death-Needle Stinger — 1
 - Devious Aestheticus — 1

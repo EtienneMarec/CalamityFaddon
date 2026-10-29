@@ -360,6 +360,22 @@ namespace CalamityFandom.Common.Debug
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
             }
+            // Lot du 29/10 (3) : armes retirées en juin-juillet 2022, recettes du wiki ; Sylvan Slasher chez le Bandit
+            foreach (string name in new[] { "Crystal Blade", "Temporal Floe Sword", "Marnite Spear", "Sylvan Slasher" })
+            {
+                int type = WikiRecipes.ResolveItem(name);
+                Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
+                if (name != "Sylvan Slasher")
+                    Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == type), $"{name} a une recette");
+            }
+            Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Crystal Blade")), "le Crystal Crawler lâche la Crystal Blade");
+            if (ModContent.TryFind<ModNPC>("CalamityMod", "Bandit", out var bandit) && NPCShopDatabase.TryGetNPCShop(NPCShopDatabase.GetShopName(bandit.Type), out var banditShop))
+            {
+                int sylvan = ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.SylvanSlasher>();
+                Expect(banditShop.ActiveEntries.Any(e => e.Item.type == sylvan && e.Item.shopCustomPrice == Item.buyPrice(platinum: 5)), "le Bandit vend la Sylvan Slasher (5 platine)");
+            }
+            else
+                Expect(false, "boutique du Bandit introuvable");
             // Chaque objet du mod a son nom dans la localisation (une classe de base de Calamity, RogueWeapon, change la
             // catégorie : Items.Weapons.Rogue)
             var unnamed = Mod.GetContent<ModItem>().Where(i => !Terraria.Localization.Language.Exists(i.DisplayName.Key)).Select(i => i.DisplayName.Key).ToList();

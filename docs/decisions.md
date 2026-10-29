@@ -447,6 +447,16 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **Shadowdrop Staff** : gouttes qui ne percent pas (« cannot pierce enemies », la page ; le code les faisait percer),
   tir réécrit plus simplement (3 gouttes au-dessus de l'écran, entre le joueur et le curseur). **Hell Burst** : pointes en
   chaîne (IA Vilethorn), immunité par type (8 frames) au lieu de l'ancien `immune = 8`.
+- **[choix]** (29/10, lot 3) **Crystal Blade** : `use` 24 du wiki (25 dans le code). **Temporal Floe Sword** : la page
+  décrit une horloge où l'aiguille des heures tourne de 15° par heure (cadran de 24 h, midi en haut) et celle des minutes
+  de 6° par minute ; le code de 2022 utilisait un cadran de 12 h. Le wiki fait foi. Glacial State et Frostburn aux durées
+  de l'infobox. **Sylvan Slasher** : boutique du Bandit de Calamity (`SylvanSlasherShop`), 5 platine après Providence ;
+  `CanUseItem` empêche deux entailles à la fois (arme canalisée) ; poussières et tir du code de 2022. **Marnite Spear** :
+  lance de Calamity (`BaseSpearProjectile`) en `TrueMeleeDamageClass`.
+- **[technique]** (29/10, lot 3) Mis de côté parce que **remplacés** dans le même commit de Calamity (renommage git du
+  fichier, objet refait) : Seabow → Reed Blowgun, Redtide Sword → Urchin Mace, Seashell Boomerang → Fishbone Boomerang,
+  Urchin Spear → Redtide Spear (lui-même retiré depuis), et Shroomerang **renommé** Infested Clawmerang. À traiter avec
+  les remplacements `LegacyName` (décision en attente dans `docs/TESTS.md`).
 - **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
   1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
   comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet

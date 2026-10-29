@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1085 objets dont les recettes ont changé : 960 recettes modifiées, 190 créées
+- 1088 objets dont les recettes ont changé : 960 recettes modifiées, 193 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -292,6 +292,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Cryogen | 1 Cryogen Trophy @ Bookcases → 1 | 1 Cryogen Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Cryonic Bar | 4 Cryonic Ore @ AdamantiteForge → 1 | 1 Crystal Shard, 2 Stardust, 3 Cryonic Ore, 1 Essence of Eleum @ AdamantiteForge → 1 |
 | Cryonic Brick | 50 Any Stone Block, 1 Cryonic Ore @ Furnaces → 50 | 1 Cryonic Ore, 1 Any Stone Block @ Furnaces → 10 |
+| Crystal Blade | (nouvelle) | 10 Crystal Shard, 15 Essence of Crystal, 8 Any Cobalt Bar, 10 Pixie Dust @ Anvils → 1 |
 | Crystal of the Cyborg | (nouvelle) | 1 Energy Orb, 1 Minecart Upgrade Kit, 10 Aureus Cell, 15 Infected Armor Plating, 59 Astral Bar, 1 Eye of the Golem, 7 Essence of Zot @ LunarCraftingStation → 1 |
 | Crystal of the Dryad | (nouvelle) | 10 Parched Scale, 15 Bee Wax, 5 Delicious Meat, 20 Crocodile Scale, 59 Astral Bar, 1 Bloom Stone, 7 Essence of Babil @ LunarCraftingStation → 1 |
 | Crystal of the Wicked | (nouvelle) | 50 Shadow Scale or Tissue Sample, 25 Rotten Matter / Blood Sample, 50 Sparkle Slime Balloon, 255 Ashes of Calamity, 59 Astral Bar, 1 Terraprisma, 7 Essence of Rend @ LunarCraftingStation → 1 |
@@ -587,6 +588,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Margarita | 10 Bottle, 1 Dark Shard, 10 Stardust @ Kegs → 10 | 5 Vodka, 1 Star Fruit, 1 Living Shard @ Kegs → 5 |
 | Marksman Bow | 13 Ectoplasm @ MythrilAnvil → 1 | 31 Ectoplasm @ MythrilAnvil → 1 |
 | Marnite Obliterator | 1 Diamond, 3 Any Gold Bar, 5 Granite Block, 5 Marble Block @ Anvils → 1 | 5 Marble Block, 5 Granite Block, 3 Any Gold Bar @ Anvils → 1 |
+| Marnite Spear | (nouvelle) | 5 Any Gold Bar, 9 Granite Block, 9 Marble Block @ Anvils → 1 |
 | Meatmetal Sans | 1 Meatmetal Sans Trophy @ Bookcases → 1 | 1 Meatmetal Sans Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Mediocre Matter | (nouvelle) | 1 Essence of Babil, 1 Essence of Sunlight, 1 Essence of Chaos, 1 Essence of Eleum, 1 Sea Prism, 1 Plague Cell Canister, 1 Blood Orb, 24 Obsidian @ Hellforge → 1 |
 | Mediocre Matter | (nouvelle) | 10 Aeroplate, 10 Cinderplate, 10 Chaosplate, 10 Elumplate, 10 Navyplate, 10 Plagueplate, 10 Bloodplate @ Hellforge → 1 |
@@ -1005,6 +1007,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Tarragon Wings | 20 Soul of Flight, 10 Tarragon Bar @ MythrilAnvil → 1 | 5 Tarragon Bar, 30 Soul of Flight @ LunarCraftingStation → 1 |
 | Taser | 7 Mysterious Circuitry, 5 Dubious Plating, 4 Aerialite Bar, 7 Sea Prism @ Anvils → 1 | 5 Dubious Plating @ Anvils → 1 |
 | Tectonic Truncator | 10 Abyss Bar @ MythrilAnvil → 1 | 9 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
+| Temporal Floe Sword | (nouvelle) | 15 Cryonic Bar, 15 Sea Prism, 10 Ectoplasm, 5 Spectre Bar, 2 The sword is inside the core @ IceMachine → 1 |
 | Temporal Umbrella | 1 Virid Vanguard, 1 Saros Possession, 1 Umbrella, 1 Top Hat, 5 Shadowspec Bar @ DraedonsForge → 1 | 1 Saros Possession, 15 Soul of Plight, 1 Umbrella, 1 Top Hat, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Tenebreus Tides | 1 Amidias' Trident, 1 Atlantis, 1 Influx Waver, 50 Lumenyl @ LunarCraftingStation → 1 | 1 Amidias' Trident, 1 Atlantis, 1 Influx Waver, 20 Sea Prism, 25 Tenebris, 50 Lumenyl @ LunarCraftingStation → 1 |
 | Tequila | (nouvelle) | 5 Ale, 40 Blood Orb, 1 Unicorn Horn @ AlchemyTable → 5 |

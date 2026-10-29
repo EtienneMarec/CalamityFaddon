@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (445)
+## Objets (441)
 
 - A M S
 - AAMG "Disperse"
@@ -247,7 +247,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Creature Capsule
 - Crius Prime
 - Crustalline
-- Crystal Blade
 - Crystal Flare Staff
 - Crystallic Coin Gun
 - Cursed Capper
@@ -391,7 +390,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Mariana
 - Marked Magnum
 - Marnite Bayonet
-- Marnite Spear
 - Megaskeet
 - Meridian
 - Microcell Cut
@@ -516,10 +514,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Summit Breaker
 - Supercharged Dart Blaster
 - Swift Sword
-- Sylvan Slasher
 - Technicate
 - Technomagica
-- Temporal Floe Sword
 - Tendon Tides
 - Tenebris Tides
 - Terra Bow

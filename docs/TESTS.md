@@ -401,6 +401,12 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       **Bittercold Staff** (bâton : 2 à 5 pics de glace à tête chercheuse, Frostburn)
 - [ ] **Shadowdrop Staff** (Hive Mind : pluie de gouttes sombres vers le curseur, un ennemi par goutte) ; **Hell Burst**
       (chaîne de pointes de feu comme la Crystal Vile Shard, On Fire!, la dernière plus grosse)
+- [ ] **Crystal Blade** (épée : lent nuage de poussière de cristal qui traverse 3 ennemis ; lâchée par le Crystal
+      Crawler) ; **Marnite Spear** (lance de vrai corps à corps, pré-Hardmode)
+- [ ] **Temporal Floe Sword** : rayon de glace qui se divise en deux sur un ennemi ou un bloc ; à midi les deux rayons
+      partent vers le haut, à 12 h 30 l'un vers le bas, à 18 h 00 l'autre vers la droite ; Glacial State et Frostburn
+- [ ] **Sylvan Slasher** : vendue 5 platine par le Bandit après Providence ; entailles au curseur tant qu'on maintient
+      le clic, la discrétion monte (armure rogue), des vagues partent parfois du joueur à l'opposé du curseur
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 
@@ -428,7 +434,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Curio, Luminous Striker → Reality Rupture, Cursed Capper → Thermocline Blaster, Alchemical Flask → Alchemical
       Decanter (bloque Plague Hive). Déjà portés dans les deux modes : Gehenna (→ Slagsplitter Pauldron), Aquatic
       Discharge (→ Sahara Slicers), Soul Edge (→ Void Edge), Crimslime Staff (→ Blighted Slime Staff). Fusions, à garder
-      à part : Holy Wrath / Profaned Rage Potion → Flask of Holy Flames, Bloodstone Core → Bloodstone.
+      à part : Holy Wrath / Profaned Rage Potion → Flask of Holy Flames, Bloodstone Core → Bloodstone. Trouvés le 29/10
+      (renommage git du fichier) : Seabow → Reed Blowgun, Redtide Sword → Urchin Mace, Seashell Boomerang → Fishbone
+      Boomerang, Urchin Spear → Redtide Spear (retiré depuis : rien ne le remplace aujourd'hui), Shroomerang → Infested
+      Clawmerang (simple renommage ?).
 - [ ] (26/10) Renommages/refontes de Calamity **antérieurs à 2.0.1.005** dont le wiki a encore la page sous l'ancien nom
       (`[LegacyName]`) : appliquer la même règle (nom du wiki partout, refonte = portage en Full) ? Même objet renommé :
       The Reaper = The Old Reaper (aujourd'hui masqué en Full !), Calamitas' Brew = Flask of Brimstone, Chaotic Brick
