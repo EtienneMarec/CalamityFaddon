@@ -422,6 +422,20 @@ Items: {
 		Tooltip: ""
 	}
 
+	RaidersGlory: {
+		DisplayName: Raider's Glory
+		Tooltip:
+			'''
+			Fires ichor arrows with increased velocity
+			These arrows also cause enemies to drop more money
+			'''
+	}
+
+	BittercoldStaff: {
+		DisplayName: Bittercold Staff
+		Tooltip: Fires a spread of homing ice spikes
+	}
+
 	WulfrumLeechDagger: {
 		DisplayName: Wulfrum Leech Dagger
 		Tooltip:
@@ -593,6 +607,7 @@ Projectiles: {
 	AquaticDischargeProj.DisplayName: Aquatic Discharge
 	AquaticDischargeSpark.DisplayName: Spark
 	LegacyHealingOrb.DisplayName: Orb
+	IceSpike.DisplayName: Ice Spike
 	ShortBeam.DisplayName: Beam
 	ShortNightBeam.DisplayName: Beam
 	ShortTerraBeam.DisplayName: Beam

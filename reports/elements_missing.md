@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (448)
+## Objets (447)
 
 - A M S
 - AAMG "Disperse"
@@ -457,7 +457,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Quantum Flahium Militia Device
 - Quantum Flahium Shock Device
 - Quintessence Cannon
-- Raider's Glory
 - Raito
 - Ram's Revenge
 - Rampart of Deicide

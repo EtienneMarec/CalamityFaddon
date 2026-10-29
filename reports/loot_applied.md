@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 287 drops ajoutés sur 114 PNJ
-- 104 ajouts dans 24 sacs
+- 289 drops ajoutés sur 115 PNJ
+- 105 ajouts dans 24 sacs
 - 551 drops du wiki déjà présents dans le jeu (inchangés)
 - 117 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 26 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 175 PNJ du wiki absents du jeu, 59 objets introuvables
+- 175 PNJ du wiki absents du jeu, 57 objets introuvables
 
 ## Ajouts
 
@@ -42,7 +42,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Crabulon** : Glowing Mushroom 20-30 à 100.0% (mode normal) ; Mushroom Grass Seeds 3-6 à 100.0% (mode normal) ; Fungal Clump 1-1 à 100.0% (mode normal) ; Delicious Meat 4-7 à 100.0% (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Shroomerang 1-1 à 25.0% (mode normal)
 - **Cragmaw Mire** : Septic Skewer 1-1 à 25.0%
 - **Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
-- **Cryogen** : Frozen Key 1-1 à 20.0% (mode normal) ; Soul of Cryogen 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Glacial Crusher 1-1 à 25.0% (mode normal)
+- **Cryogen** : Frozen Key 1-1 à 20.0% (mode normal) ; Soul of Cryogen 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Bittercold Staff 1-1 à 25.0% (mode normal) ; Glacial Crusher 1-1 à 25.0% (mode normal)
 - **Cultist Assassin** : Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Dark Caster** : Ancient Shiv 1-1 à 4.0%
 - **Derpling** : Beetle Juice 1-1 à 25.0%
@@ -97,6 +97,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Party Girl** : Disgusting Meat 30-30 à 100.0%
 - **Perforator Cyst** : Crimtane Ore 10-26 à 100.0%
 - **Pestilent Slime** : Apocalyptic Ore 10-26 à 100.0%
+- **Pirate Crossbower** : Raider's Glory 1-1 à 4.0%
 - **Plagueshell** : Apocalyptic Ore 11-13 à 33.0%
 - **Plantera** : Essence of Babil 4-8 à 100.0% (mode normal)
 - **Possessed Armor** : Psychotic Amulet 1-1 à 2.5%
@@ -135,7 +136,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (Calamitas)** : Blighted Lens 1-3 à 100.0% (page Treasure Bag) ; Ashes of Annihilation 14-18 à 100.0% ; Broken Hero Sword 1-1 à 100.0% ; Bloodstone 35-45 à 100.0% [Once Providence is defeated] ; Greater Healing Potion 5-15 à 100.0% ; Calamitas Trophy 1-1 à 10.0% ; Catastrophe Clay Ore 10-26 à 100.0% ; Crushsaw Crasher 1-1 à 10.0% ; Havoc's Breath 1-1 à 10.0%
 - **Treasure Bag (Ceaseless Void)** : Tree-Crown Wings 1-1 à 100.0% ; Supreme Healing Potion 5-15 à 100.0% ; Ceaseless Void Trophy 1-1 à 10.0%
 - **Treasure Bag (Crabulon)** : Shroomerang 1-1 à 33.3% (page Treasure Bag) ; Delicious Meat 4-7 à 100.0% ; Crabulon Trophy 1-1 à 10.0%
-- **Treasure Bag (Cryogen)** : Glacial Crusher 1-1 à 33.3% (page Treasure Bag) ; Frozen Key 1-1 à 20.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Cryogen Trophy 1-1 à 10.0%
+- **Treasure Bag (Cryogen)** : Glacial Crusher 1-1 à 33.3% (page Treasure Bag) ; Frozen Key 1-1 à 20.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Cryogen Trophy 1-1 à 10.0% ; Bittercold Staff 1-1 à 33.3%
 - **Treasure Bag (Desert Scourge)** : Aquatic Discharge 1-1 à 33.3% (page Treasure Bag) ; Aero Stone 1-1 à 20.0% (page Treasure Bag) ; Sandy Angling Kit 1-1 à 100.0% (page Treasure Bag) ; Parched Scale 10-16 à 100.0% ; Profaned Shard 1-1 à 100.0% ; Abyss Bar 10-17 à 100.0% ; Sand Block 261-820 à 100.0% ; Delicious Meat 4-4 à 20.0% ; Lesser Healing Potion 8-14 à 100.0% ; Desert Scourge Trophy 1-1 à 10.0%
 - **Treasure Bag (Duke Fishron)** : Delicious Meat 45-92 à 50.0%
 - **Treasure Bag (Jungle Dragon, Yharon)** : Omega Healing Potion 5-15 à 100.0% ; Yharon Trophy 1-1 à 10.0% ; Chicken Nugget 5000-5000 à 100.0%
@@ -162,7 +163,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - The Insacred Texts — 2
 - The Reaper — 2
 - Ash's Cloak — 1
-- Bittercold Staff — 1
 - Brimstone Flameblaster — 1
 - Calamity Spawner — 1
 - Cirrhotipede — 1
@@ -199,7 +199,6 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Profaned Whiplash — 1
 - Purgatory Blaster — 1
 - Quasar — 1
-- Raider's Glory — 1
 - Sandstorm (weapon) — 1
 - Shadowdrop Staff — 1
 - Tapehook — 1

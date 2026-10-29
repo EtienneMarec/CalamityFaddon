@@ -396,6 +396,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Cleave (icône du debuff, l'ennemi prend nettement plus de dégâts) ; **Corrupted Crusher Blade** (Cursed Inferno,
       critique : -10 défense) ; **Crimson Crusher Blade** (Ichor, critique : contact de l'ennemi -5) ; **Mandible Claws**
       (très rapides) ; **Mandible Bow** (arc)
+- [ ] **Raider's Glory** (arc : flèches d'Ichor plus rapides, les ennemis touchés ont Midas et lâchent plus d'argent) ;
+      **Bittercold Staff** (bâton : 2 à 5 pics de glace à tête chercheuse, Frostburn)
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

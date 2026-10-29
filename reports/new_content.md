@@ -40,7 +40,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Bad Apple
 - [ ] Baow — addon: Calamity: Community Remix
 - [ ] Bazooka
-- [ ] Bittercold Staff
+- [x] Bittercold Staff
 - [ ] Blade of Enmity
 - [ ] Bleeding Influx — addon: Calamity: Community Remix
 - [ ] Blobfish Plushie — addon: Calamity: Community Remix
@@ -315,7 +315,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Quasar
 - [ ] Quintessence Cannon — addon: Deimos, the Starborn Princess, Catalyst
 - [ ] RGB Graydron
-- [ ] Raider's Glory
+- [x] Raider's Glory
 - [ ] Raito
 - [ ] Ram's Revenge — addon: Calamity: Community Remix
 - [ ] Razor Teeth

@@ -440,6 +440,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   bout portant, mécanique retirée de Calamity et absente de la page). Debuff **War Cleave** porté : -15 défense, réduction
   de dégâts de Calamity x0,75 (compensée sur les dégâts finaux, `WarCleaveNPC`). `use` du wiki = useAnimation, useTime
   de l'ancien code pour les outils.
+  **Raider's Glory** : « These arrows also cause enemies to drop more money » = Midas 10 s sur les flèches (l'ancien code
+  ne tirait que des flèches d'Ichor accélérées ; le wiki fait foi). **Bittercold Staff** porté du code 1.3 (2022-02).
 - **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
   1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
   comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet
