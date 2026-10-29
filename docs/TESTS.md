@@ -388,6 +388,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
         blocs ; True Night's Stabber, un rayon de 15 blocs qui perce tout, soigne de 5 PV par coup et lance des boules de
         feu maudites tous les 5 blocs ; Terra Shiv, un rayon de 30 blocs qui se divise en 3 (20 % des dégâts), Ichor 20 s
         et +5 PV par coup
+  - [ ] **Wulfrum Leech Dagger** (inventée, recette à l'enclume en fer) : se consomme à chaque coup (pile de 999),
+        toujours 1 dégât sans critique, plus 0,5 % de la vie max de l'ennemi (tête des vers seulement) ; Shortflurry : plus
+        consommée pendant 3 s
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

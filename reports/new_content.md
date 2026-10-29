@@ -466,7 +466,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Wulfrum Blade
 - [ ] Wulfrum Bow — addon: Calamity: Community Remix
 - [ ] Wulfrum Fusion Array — addon: Calamity: Community Remix
-- [ ] Wulfrum Leech Dagger
+- [x] Wulfrum Leech Dagger
 - [ ] Wulfrum Shock Cutter — addon: Calamity: Community Remix
 - [ ] Wulfrum Staff — addon: Calamity: Community Remix
 - [ ] XB-∞ Hekate — addon: Calamity: Community Remix

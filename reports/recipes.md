@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1079 objets dont les recettes ont changé : 960 recettes modifiées, 184 créées
+- 1081 objets dont les recettes ont changé : 960 recettes modifiées, 186 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 118 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 138 recettes
+- 117 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 137 recettes
 
 ## Recettes changées
 
@@ -256,6 +256,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Cobalt Kunai | 10 Cobalt Bar @ Anvils → 1 | 1 Cobalt Bar @ Anvils → 100 |
 | Codebreaker Base | 1 Charging Station, 20 Mysterious Circuitry, 35 Dubious Plating @ Anvils → 1 | 15 Any Iron Bar, 5 Dubious Plating @ Anvils → 1 |
 | Coin of Deceit | 12 Any Copper Bar, 8 Any Evil Bar @ Anvils → 1 | 10 Gold Coin, 5 Silver Bar, 5 Acidwood @ Anvils → 1 |
+| Coldheart Icicle | (nouvelle) | 12 Wulfrum Leech Dagger, 20 Cryonic Bar @ MythrilAnvil → 1 |
 | Comet Quasher | 20 Meteorite Bar, 4 Essence of Sunlight, 5 Fallen Star, 12 Stardust @ Anvils → 1 | 25 Meteorite Bar, 5 Ectoplasm @ MythrilAnvil → 1 |
 | Condensed Energy | (nouvelle) | 20 Dark Plasma, 20 Primordial Light Shard, 20 Ruinous Soul, 20 Twisting Nether @ SilvaBasin → 1 |
 | Conference Call | 1 Tactical Shotgun, 12 Vortex Fragment @ LunarCraftingStation → 1 | 1 Handgun, 7 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
@@ -1140,6 +1141,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wulfrum Drill | 15 Wulfrum Bar @ Anvils → 1 | 12 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Fishing Pole | 8 Wulfrum Bar @ Anvils → 1 | 9 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Knife | 10 Wulfrum Bar @ Anvils → 1 | 1 Wulfrum Bar @ Anvils → 100 |
+| Wulfrum Leech Dagger | (nouvelle) | 4 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Lure | 5 Wulfrum Bar, 1 Energy Core @ Anvils → 1 | 1 Navy Fishing Rod, 1 Wulfrum Fishing Pole, 20 Bone, 1 Energy Core @ Anvils → 1 |
 | Wulfrum Scaffold Kit | 10 Wulfrum Bar, 1 Energy Core @ Anvils → 1 | 40 Wulfrum Bar, 10 Desert Feather, 1 Energy Orb @ Anvils → 1 |
 | Wulfrum Scaffold Kit | (nouvelle) | 40 Wulfrum Bar, 1 Graydron, 1 Energy Orb @ Anvils → 99 |
@@ -1274,6 +1276,5 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Windslasher — 1
 - objet : Wrath of the Cosmos — 1
 - objet : Wulfrum Bow — 1
-- objet : Wulfrum Leech Dagger — 1
 - station : Aquatic Hypercomputer — 1
 - station : Aquatic Hypercomputer Static — 1

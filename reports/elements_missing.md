@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (456)
+## Objets (455)
 
 - A M S
 - AAMG "Disperse"
@@ -607,7 +607,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Wulfrum Bow
 - Wulfrum Fusion Array
 - Wulfrum Hammer
-- Wulfrum Leech Dagger
 - Wulfrum Shock Cutter
 - Wulfrum Staff
 - XB-∞ Hekate

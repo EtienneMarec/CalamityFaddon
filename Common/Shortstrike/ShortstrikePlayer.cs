@@ -32,6 +32,10 @@ namespace CalamityFandom.Common.Shortstrike
         private Item flurryItem;
         private int flurryTimer, flurryDuration, flurryHitsLeft, flurryNextHit;
         private int regenTimer, regenValue, immuneAllTimer;
+        private int unconsumableTimer;
+
+        /// <summary>Effet « unconsumable » en cours (Wulfrum Leech Dagger) : l'arme n'est pas consommée.</summary>
+        public bool Unconsumable => unconsumableTimer > 0;
         // Sahara Slicers (Calamity++) : éclats du carquois tirés un par un pendant le Shortflurry
         private ShortstrikeData.Effect quiverEffect;
         private int quiverInterval, quiverTimer;
@@ -96,6 +100,8 @@ namespace CalamityFandom.Common.Shortstrike
             }
             if (FlurryActive)
                 ApplyFlurryStats();
+            if (unconsumableTimer > 0)
+                unconsumableTimer--;
             if (regenTimer > 0)
             {
                 regenTimer--;
@@ -180,6 +186,9 @@ namespace CalamityFandom.Common.Shortstrike
                         break;
                     case "immuneAll":
                         immuneAllTimer = ticks;
+                        break;
+                    case "unconsumable":
+                        unconsumableTimer = ticks;
                         break;
                     case "lifeRegen":
                         regenTimer = ticks;

@@ -160,10 +160,13 @@
    "damageBoost": 0.0,
    "hits": 2,
    "seconds": 0.5,
-   "effects": [],
-   "todo": [
-    "Wulfrum Leech Daggers become unconsumable for 3 seconds"
+   "effects": [
+    {
+     "type": "unconsumable",
+     "seconds": 3
+    }
    ],
+   "todo": [],
    "text": "Wulfrum Leech Daggers become unconsumable for 3 seconds"
   },
   {

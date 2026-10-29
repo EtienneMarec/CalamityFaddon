@@ -373,6 +373,16 @@ Items: {
 			'''
 	}
 
+	WulfrumLeechDagger: {
+		DisplayName: Wulfrum Leech Dagger
+		Tooltip:
+			'''
+			Drains a percentage of enemy health on hit
+			Cannot inflict critical hits
+			Shortflurry attacks make the weapon unconsumable for 3 seconds
+			'''
+	}
+
 	Tomatus: {
 		DisplayName: Tomatus
 		Tooltip:
@@ -556,6 +566,7 @@ Projectiles: {
 		AquaticDischargeProj.DisplayName: Aquatic Discharge Proj
 		LeechingDaggerProj.DisplayName: Leeching Dagger
 		TomatusProj.DisplayName: Tomatus
+		WulfrumLeechDaggerProj.DisplayName: Wulfrum Leech Dagger
 		CaliburnProj.DisplayName: Caliburn
 		TrueCaliburnProj.DisplayName: True Caliburn
 		TrueNightsStabberProj.DisplayName: True Night's Stabber

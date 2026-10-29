@@ -430,6 +430,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   5 blocs (True Night's Stabber) ; « heals nearby players » = soigne le joueur qui l'a lancé ; Terra Shiv : 3 rayons à
   ±25° au bout, moitié de la longueur, 20 % des dégâts, Ichor 20 s (durée de la page), +5 PV par coup. Projectiles
   lâchés : moitié des dégâts du rayon.
+- **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
+  1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
+  comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet
+  `unconsumable` 3 s. Sprite du wiki.
 - **[à trancher]** Plague Hive : demande Alchemical Flask, que Calamity a remplacé par l'Alchemical Decanter
   (`[LegacyName]`) ; dépend de la décision sur les remplacements `[LegacyName]` (section 2).
 

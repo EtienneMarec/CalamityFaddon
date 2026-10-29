@@ -198,6 +198,17 @@
           "seconds": 20
         }
       ]
+    },
+    "Wulfrum Leech Dagger": {
+      "todo": [
+        "Wulfrum Leech Daggers become unconsumable for 3 seconds"
+      ],
+      "effects": [
+        {
+          "type": "unconsumable",
+          "seconds": 3
+        }
+      ]
     }
   }
 }
