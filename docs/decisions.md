@@ -510,6 +510,24 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (« rapidly throws disks » ; sans limite, ils s'empilaient à l'infini). **Decomposition** : la ruche se pose sur les
   plateformes. **Plague Balloon** : la mort lâche une nuée d'abeilles vanilla teintées de vert, sans dégâts
   (`PlagueBalloonBee`), en plus de la poussière.
+- **[validé 30/10]** Objets que Calamity a **remplacés ou renommés en les refaisant** (`LegacyName`, renommage git du
+  fichier, avant comme après 2.0.1.005 : Seabow → Reed Blowgun, Lazinator, Frigid Bulwark → Frozen Shield, Warbanner of
+  the Sun...) : **notre portage en Full Fandom, l'objet actuel de Calamity sous le nom du wiki en Calamity++** (règle des
+  refontes du 23/10). Un simple renommage sans refonte reste l'objet de Calamity sous le nom du wiki, dans les deux modes.
+- **[validé 30/10]** **Arcanum of the Void** : effet décrit par la page (barrière du vide, énergie sombre), pas celui de
+  2022. **Exo Gladius** : porté avec sa page (suite à voir avec l'utilisateur). **Microcell Cut** : créée, d'après la
+  Disease dont elle s'inspire.
+- **[choix]** (30/10) **Arcanum of the Void** (effet de la page) : barrière = poussière violette autour du joueur
+  quand elle est prête ; coup annulé (`FreeDodge`), explosion de 200 dégâts (160 px) et 4 énergies sombres de 25 dégâts
+  qui touchent toutes les 0,5 s (4 × 50 = « ~200 DPS ») et cherchent les ennemis 4 s ; dégâts génériques ; recharge
+  `GlobalDodge` de Calamity (90 s, partagée avec les esquives) ; ajouté au sac du Ceaseless Void (`ArcanumBagLoot`).
+  **Exo Gladius** (effet de la page) : parade au clic droit seulement jauge Shortstrike non pleine (sinon Shortflurry,
+  règle commune : pas de conflit) ; parade = 4× dégâts / recul / critique, use 40, 30 frames d'invulnérabilité,
+  projectiles ennemis à moins de 64 px renvoyés vers le curseur (solo seulement : TODO multijoueur) ; explosion = dégâts
+  de l'estoc, 96 px, image du wiki ; Miracle Blight 0,5 s. Sprite de 2022 (le wiki n'en a pas d'autre). L'effet du
+  Shortflurry « every 5th strike... exo comets » reste à faire. **Microcell Cut** : créée d'après la Disease (estoc,
+  3 étoiles à 75 % par ennemi tué) ; rareté « C4 » du wiki créée (`RarityC4`, violet de son image) ; debuff **Ancient
+  Astral Blight** créé d'après sa page (Astrum Deus et ses armes ne l'infligent pas encore).
 - **[technique]** (29/10, lot 9) **Arcanum of the Void** mis de côté : la page décrit une barrière du vide qui explose
   en énergie sombre à tête chercheuse ; le code de 2022 renvoyait les projectiles. Effet inventé ou refait, à trancher.
 - **[choix]** (29/10, lot 10) **Dualpoon**, **Triploon** : code de 2022 en une base commune (`MultiHarpoon`) ; recettes

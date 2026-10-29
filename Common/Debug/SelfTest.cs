@@ -361,7 +361,7 @@ namespace CalamityFandom.Common.Debug
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
             }
             // Lot du 29/10 (3) : armes retirées en juin-juillet 2022, recettes du wiki ; Sylvan Slasher chez le Bandit
-            foreach (string name in new[] { "Crystal Blade", "Temporal Floe Sword", "Marnite Spear", "Sylvan Slasher", "Animus", "Blade of Enmity", "Brimlash Buster", "Phoenix Blade", "Trinity", "Fulguration Halberd", "Mariana", "Aquatic Dissolution", "Impaler", "Spectre Rifle", "Star Cannon EX", "Hadopelagic Echo", "Crystal Flare Staff", "Marked Magnum", "Revivify Potion", "Dualpoon", "Triploon" })
+            foreach (string name in new[] { "Crystal Blade", "Temporal Floe Sword", "Marnite Spear", "Sylvan Slasher", "Animus", "Blade of Enmity", "Brimlash Buster", "Phoenix Blade", "Trinity", "Fulguration Halberd", "Mariana", "Aquatic Dissolution", "Impaler", "Spectre Rifle", "Star Cannon EX", "Hadopelagic Echo", "Crystal Flare Staff", "Marked Magnum", "Revivify Potion", "Dualpoon", "Triploon", "Exo Gladius" })
             {
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
@@ -370,6 +370,16 @@ namespace CalamityFandom.Common.Debug
             }
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Crystal Blade")), "le Crystal Crawler lâche la Crystal Blade");
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Quasar")), "Astrum Deus lâche la Quasar");
+            // 30/10 : Arcanum of the Void (sac du Ceaseless Void), Microcell Cut (créée), Exo Gladius (recette du wiki)
+            if (ModContent.TryFind<ModItem>("CalamityMod", "CeaselessVoidBag", out var voidBag))
+            {
+                var bagRates = new List<DropRateInfo>();
+                foreach (var r in Main.ItemDropsDB.GetRulesForItemID(voidBag.Type))
+                    r.ReportDroprates(bagRates, new DropRateInfoChainFeed(1f));
+                Expect(bagRates.Any(r => r.itemId == ModContent.ItemType<Content.Legacy.Items.Accessories.ArcanumoftheVoid>()), "le sac du Ceaseless Void contient l'Arcanum of the Void");
+            }
+            int microcell = WikiRecipes.ResolveItem("Microcell Cut");
+            Expect(microcell > 0 && ItemLoader.GetItem(microcell)?.Mod == Mod, "Microcell Cut trouvable par son nom");
             int jam = WikiRecipes.ResolveItem("Purified Jam");
             Expect(jam > 0 && ItemLoader.GetItem(jam)?.Mod == Mod, "Purified Jam porté");
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Purified Jam")), "The Slime God lâche la Purified Jam");

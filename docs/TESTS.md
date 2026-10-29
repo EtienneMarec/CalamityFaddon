@@ -452,6 +452,15 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       avec le même personnage n'en donne plus ; un autre personnage en reçoit) ; 10 s sans dégâts ni la plupart des
       debuffs (5 s en Death Mode), Potion Sickness 30 s
 - [ ] **Dualpoon** / **Triploon** : 2 ou 3 harpons en éventail, sans chaîne, qui reviennent au joueur après ~350 px
+- [ ] (30/10) **Arcanum of the Void** (sac du Ceaseless Void, Expert) : poussière violette autour du joueur quand la
+      barrière est prête ; un coup est annulé, explosion et 4 énergies sombres qui cherchent les ennemis 4 s ; recharge
+      90 s affichée comme l'esquive de Calamity (partagée avec les autres esquives)
+- [ ] (30/10) **Exo Gladius** (Draedon's Forge) : estoc rapide qui fait exploser l'ennemi (image du wiki) ; clic droit
+      (jauge Shortstrike pas pleine) = parade lente, 4× dégâts, invulnérable un instant, renvoie les projectiles ennemis
+      vers le curseur (solo seulement pour l'instant)
+- [ ] (30/10) **Microcell Cut** (créée, sans recette : station Aquatic Hypercomputer pas encore faite) : un ennemi tué
+      libère 3 étoiles à tête chercheuse (Ancient Astral Blight : particules jaunes et violettes, -52 PV/s) ; rareté C4
+      violette ; Shortflurry : une étoile astrale par coup
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 
@@ -459,7 +468,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 ## Décisions en attente (pas des tests)
 
-- [ ] (29/10) Shortstrike, dernières armes du tableau : **Exo Gladius** (ancien objet retiré en 2022 ; sa page invente
+- [ ] (29/10, en partie tranché le 30/10 : Exo Gladius porté avec sa page, Microcell Cut créée d'après la Disease ;
+      restent Elemental Shiv et Lucrecia) Shortstrike, dernières armes du tableau : **Exo Gladius** (ancien objet retiré en 2022 ; sa page invente
       une explosion et une **parade au clic droit**, en conflit avec le Shortflurry comme le lancer du Galileo),
       **Microcell Cut** (attribuée à Tales of the Aquatic, addon inventé : arme inventée, à créer), **Elemental Shiv**
       et **Lucrecia** (armes refaites ou remplacées par Calamity : Lightspeed). À porter, et comment ?
@@ -473,7 +483,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Les chiffres du système d'éléments (`docs/decisions.md`) : à juger en jouant.
 - [x] Full Fandom : anciens objets dont le wiki ne parle nulle part → masqués aussi (tranché le 21/10, tests en 2.3)
 - [ ] Les addons : tous classés (29/10, `docs/decisions.md` section 11) ; reste à décider comment intégrer leurs pages.
-- [ ] (26/10) Objets que Calamity a **remplacés** par un autre (`[LegacyName]`, `python tools/calamity_renames.py`) :
+- [x] (26/10, tranché le 30/10 : oui) Objets que Calamity a **remplacés** par un autre (`[LegacyName]`, `python tools/calamity_renames.py`) :
       les traiter comme les refontes du 23/10 (portage en Full Fandom, objet actuel sous le nom du wiki en Calamity++) ?
       Probables : Warbanner of the Sun → Warbanner of the Righteous, Urchin Flail → Urchin Mace, Rusty Medallion → Scions
       Curio, Luminous Striker → Reality Rupture, Cursed Capper → Thermocline Blaster, Alchemical Flask → Alchemical
@@ -485,7 +495,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Clawmerang (simple renommage ?). Aussi renommés ou remplacés dans Calamity, d'après le commit qui a retiré leur
       fichier : Acceleration Round, Cadance Potion, Charged Dart Blaster, Lazinator, Marnite Bayonet, Frigid Bulwark
       (→ Frozen Shield), Shattering Potion (fusion des flasques), Aero Dynamite, The Reaper (→ The Old Reaper).
-- [ ] (26/10) Renommages/refontes de Calamity **antérieurs à 2.0.1.005** dont le wiki a encore la page sous l'ancien nom
+- [x] (26/10, tranché le 30/10 : oui, refonte = portage en Full Fandom) Renommages/refontes de Calamity **antérieurs à 2.0.1.005** dont le wiki a encore la page sous l'ancien nom
       (`[LegacyName]`) : appliquer la même règle (nom du wiki partout, refonte = portage en Full) ? Même objet renommé :
       The Reaper = The Old Reaper (aujourd'hui masqué en Full !), Calamitas' Brew = Flask of Brimstone, Chaotic Brick
       (Wall) = Scoria Brick (Wall), Aero Dynamite = Skynamite, Seashell Boomerang = Fishbone Boomerang, Conclave Crossfire

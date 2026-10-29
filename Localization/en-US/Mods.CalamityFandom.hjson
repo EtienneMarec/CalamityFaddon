@@ -619,6 +619,33 @@ Items: {
 		Tooltip: Launches three harpoons
 	}
 
+	ArcanumoftheVoid: {
+		DisplayName: Arcanum of the Void
+		Tooltip:
+			'''
+			Spawns A Void Barrier around you that shields you from A hit
+			You release Dark Energy when you get hit and the barrier breaks
+			This effect has a 90 second cooldown which is shared with all other dodges and effects
+			'''
+	}
+
+	ExoGladius: {
+		DisplayName: Exo Gladius
+		Tooltip:
+			'''
+			Do not underestimate the power of Exoblade`s younger brother
+			Striking an enemy with the blade causes an explosion
+			Right-clicking with it activates a parry that can be used to deflect projectiles
+			The player becomes temporarily immune when using the parry
+			The parry is stronger, but has a longer cooldown
+			'''
+	}
+
+	MicrocellCut: {
+		DisplayName: Microcell Cut
+		Tooltip: fires homing astral stars everytime you kill an enemy
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -862,6 +889,10 @@ Projectiles: {
 	TriploonProj.DisplayName: Triploon
 	LegacyMistArrow.DisplayName: Mist Arrow
 	PlagueBalloonBee.DisplayName: Plague Bee
+	VoidBarrierBurst.DisplayName: Void Barrier
+	VoidDarkEnergy.DisplayName: Dark Energy
+	ExoGladiusExplosion.DisplayName: Exo Gladius Explosion
+	MicrocellStar.DisplayName: Star
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash
@@ -874,6 +905,7 @@ Projectiles: {
 		WulfrumLeechDaggerProj.DisplayName: Wulfrum Leech Dagger
 		MarniteSpearProjectile.DisplayName: Marnite Spear
 		FulgurationHalberdProj.DisplayName: Fulguration Halberd
+		ExoGladiusProj.DisplayName: Exo Gladius
 		CaliburnProj.DisplayName: Caliburn
 		TrueCaliburnProj.DisplayName: True Caliburn
 		TrueNightsStabberProj.DisplayName: True Night's Stabber
@@ -926,6 +958,11 @@ Elements: {
 }
 
 Buffs: {
+	AncientAstralBlight: {
+		DisplayName: Ancient Astral Blight
+		Description: An ancient cosmic affliction spreads through you
+	}
+
 	Invincible: {
 		DisplayName: Invincible
 		Description: Immune to damage and most debuffs

@@ -156,7 +156,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Exactory Dartshooter — addon: Calamity: Tales of the Aquatic
 - [ ] Exif Fist
 - [ ] Exo Dragonblade
-- [ ] Exo Gladius
+- [x] Exo Gladius
 - [ ] Exodimus — addon: Calamity: Community Remix
 - [ ] Exterminator — addon: Calamity: Tales of the Aquatic
 - [ ] Eye of Light
@@ -254,7 +254,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Megaskeet — addon: Apotheosis and Friends
 - [ ] Meridian — addon: Calamity: Community Remix
 - [x] Metal Ball
-- [ ] Microcell Cut — addon: Calamity: Tales of the Aquatic
+- [x] Microcell Cut — addon: Calamity: Tales of the Aquatic
 - [ ] Microhavoc — addon: Calamity: Tales of the Aquatic
 - [ ] Midas' Handshake
 - [ ] Miracle Smacker — addon: Calamitous Journeys
@@ -633,7 +633,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Ancient Essence of Merge — addon: Calamity: Tales of the Aquatic
 - [ ] Aquatic Shardstone — addon: Calamity: Tales of the Aquatic
 - [ ] Arcanoid Orb — addon: Calamity: Tales of the Aquatic
-- [ ] Arcanum of the Void
+- [x] Arcanum of the Void
 - [x] Archangel Wings
 - [x] Armageddon Wings — addon: Deimos, the Starborn Princess
 - [ ] Assortegelatin
@@ -876,7 +876,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Ablaze — pas de sprite
 - [ ] Abyssal Flames
 - [ ] Accelerated Photosynthesis
-- [ ] Ancient Astral Blight
+- [x] Ancient Astral Blight
 - [ ] Astral Infection (debuff)
 - [ ] Bleeding — pas de sprite
 - [ ] Blood Frenzy Cooldown
