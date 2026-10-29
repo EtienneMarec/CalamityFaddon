@@ -6,7 +6,6 @@ using CalamityMod.Cooldowns;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Audio;
-using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -15,7 +14,7 @@ namespace CalamityFandom.Content.Legacy.Items.Accessories
     /// <summary>
     /// Wiki : Arcanum of the Void.txt — covering Expert du sac du Ceaseless Void : une barrière du vide entoure le joueur
     /// et bloque un coup ; elle se brise alors en une explosion et libère des énergies sombres à tête chercheuse (4 s,
-    /// ~200 DPS au total). 90 s de recharge partagée avec les autres esquives (recharge GlobalDodge de Calamity).
+    /// ~200 DPS au total). 90 s de recharge partagée avec les autres esquives (recharge GlobalDodge de Calamity). Sac du Ceaseless Void : ajouté à la page Treasure Bag de notre wiki.
     /// [choix] Chiffres : explosion 200 dégâts sur 160 px ; 4 énergies de 25 dégâts qui touchent toutes les 0,5 s
     /// (4 × 50 = 200 DPS) ; dégâts génériques (bonus de toutes les classes).
     /// </summary>
@@ -80,15 +79,6 @@ namespace CalamityFandom.Content.Legacy.Items.Accessories
             }
             return true;
         }
-    }
-
-    /// <summary>Le sac du Ceaseless Void contient l'Arcanum of the Void (page de l'objet : Expert, 100 %).</summary>
-    public class ArcanumBagLoot : GlobalItem
-    {
-        public override bool AppliesToEntity(Item entity, bool lateInstantiation)
-            => ModContent.TryFind<ModItem>("CalamityMod", "CeaselessVoidBag", out var bag) && entity.type == bag.Type;
-
-        public override void ModifyItemLoot(Item item, ItemLoot itemLoot) => itemLoot.Add(ItemDropRule.Common(ModContent.ItemType<ArcanumoftheVoid>()));
     }
 
     /// <summary>Explosion de la barrière (160 px, invisible, un coup par ennemi).</summary>

@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1106 objets dont les recettes ont changé : 961 recettes modifiées, 211 créées
+- 1112 objets dont les recettes ont changé : 962 recettes modifiées, 216 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 114 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 134 recettes
+- 112 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 133 recettes
 
 ## Recettes changées
 
@@ -337,6 +337,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Disgusting Meat | (nouvelle) | 1 Bloody Vein, 5000 Delicious Meat @ Bottles → 5000 |
 | Disseminator | (nouvelle) | 1 Conference Call, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Draconic Destruction | 5 Shadowspec Bar, 10 Solar Fragment, 3 Essence of Sunlight, 3 Essence of Eleum @ DraedonsForge → 1 | 5 Shadowspec Bar, 3 Core of Sunlight, 3 Core of Eleum, 10 Solar Fragment @ DraedonsForge → 1 |
+| Dragon Pow | 1 Mourningstar, 1 Dao of Pow, 1 Flower Pow, 1 Flairon, 1 Ball O' Fugu, 1 Tumbleweed, 5 Auric Bar, 4 Yharon Soul Fragment @ CosmicAnvil → 1 | 1 Mourningstar, 1 Dao of Pow, 1 Flower Pow, 1 Flairon, 1 Ball O' Fugu, 1 Tumbleweed, 1 Urchin Flail, 5 Auric Bar, 4 Yharon Soul Fragment @ CosmicAnvil → 1 |
 | Dragon Soul Dye | 3 Bottled Water, 1 Yharon Soul Fragment @ DyeVat → 3 | 2 Bottled Water, 1 Yharon Soul Fragment @ DyeVat → 2 |
 | Dragonblood Disgorger | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 12 Bloodstone Bar, 5 Unholy Blood Cells @ LunarCraftingStation → 1 |
 | Drataliornus | (nouvelle) | 1 Blossom Flux, 12 Effulgent Feather, 4 Quark-Gluon Sludge, 5 Auric Bar @ CosmicAnvil → 1 |
@@ -427,6 +428,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Exo Chandelier | 4 Exo Plating, 4 Torch, 1 Chain @ DraedonsForge → 1 | 4 Exo Plating, 4 Draedon Power Cell, 1 Chain @ DraedonsForge → 1 |
 | Exo Door | 6 Exo Plating @ DraedonsForge → 1 | 8 Exo Plating @ DraedonsForge → 1 |
 | Exo Dye | 3 Bottled Water, 1 Exo Prism @ DyeVat → 3 | 3 Bottled Water, 1 Miracle Matter @ DyeVat → 3 |
+| Exo Gladius | (nouvelle) | 1 Galileo Gladius, 1 Cosmic Shiv, 1 Lucrecia, 1 Miracle Matter @ DraedonsForge → 1 |
 | Exo Lamp | 3 Exo Plating, 1 Torch @ DraedonsForge → 1 | 3 Exo Plating, 1 Draedon Power Cell @ DraedonsForge → 1 |
 | Exo Lantern | 6 Exo Plating, 1 Torch @ DraedonsForge → 1 | 6 Exo Plating, 1 Draedon Power Cell @ DraedonsForge → 1 |
 | Exo Plating | 400 Any Stone Block, 1 Exo Prism @ DraedonsForge → 400 | 200 Any Stone Block, 1 Exo Prism @ DraedonsForge → 200 |
@@ -803,6 +805,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Red Sun | 1 Mandible Blade, 1 Forsaken Saber, 5 Shadowspec Bar, 5 Essence of Sunlight @ DraedonsForge → 1 | 1 Mandible Blade, 1 Forsaken Saber, 5 Core of Sunlight, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Red Wine | (nouvelle) | 5 Ale, 40 Blood Orb, 1 Unicorn Horn @ AlchemyTable → 5 |
 | Red Wine | 20 Bottle, 1 Fire Feather @ Kegs → 20 | 5 Ale, 1 Grapes, 1 Unicorn Horn @ Kegs → 5 |
+| Redtide Sword | (nouvelle) | 3 Victide Bar @ Anvils → 1 |
 | Refined Aegisalt | (nouvelle) | 2 Aegisalt Ore @ AdamantiteForge → 1 |
 | Refined Ferozium | (nouvelle) | 2 Ferozium Ore @ AdamantiteForge → 1 |
 | Refined Violium | (nouvelle) | 2 Violium Ore @ AdamantiteForge → 1 |
@@ -835,9 +838,11 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Screwdriver | 10 Bottle, 1 Diamond @ Kegs → 10 | 5 Fluorescent Vodka, 1 Hemagrape, 5 Hallowed Ore @ Kegs → 5 |
 | SDFMG | 1 S.D.M.G., 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 | 1 S.D.M.G., 1 Fetid Emesis, 10 Sea Prism, 10 Depth Cells, 10 Lumenyl, 5 Tenebris, 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 |
 | Sea Minnow Jar | 1 Sea Minnow, 1 Bottled Water @ main → 1 | 1 Bottle, 1 Sea Minnow @ main → 1 |
+| Seabow | (nouvelle) | 2 Victide Bar @ Anvils → 1 |
 | Seafoam Bomb | 25 Bomb, 10 Sea Prism, 1 Conquest Fragment @ Anvils → 1 | 25 Bomb, 10 Sea Prism @ Anvils → 1 |
 | Seafood | 20 Sulphurous Sand, 10 Starfish, 5 Shark Fin @ Anvils → 1 | 20 Sand Block, 10 Starfish, 5 Water Bucket @ Anvils → 1 |
 | Sealed Singularity | 1 Duststorm in a Bottle, 3 Dark Plasma @ MythrilAnvil → 1 | 1 Duststorm in a Bottle, 3 Dark Plasma @ LunarCraftingStation → 1 |
+| Seashell Boomerang | (nouvelle) | 2 Victide Bar @ Anvils → 1 |
 | Seashine Sword | 3 Conquest Fragment, 7 Sea Prism, 10 Navystone @ Anvils → 1 | 7 Sea Prism, 10 Navystone @ Anvils → 1 |
 | Security Chest | 8 Laboratory Plating, 2 Any Iron Bar @ Anvils → 1 | 4 Mysterious Circuitry, 4 Dubious Plating, 10 Laboratory Plating, 2 Any Iron Bar @ Anvils → 1 |
 | Seeking Scorcher | 1 Possessed Hatchet, 5 Divine Bar, 8 Unholy Essence @ MythrilAnvil → 1 | 1 Possessed Hatchet, 5 Divine Bar, 3 Profaned Core, 9 Tarragon Bar, 8 Unholy Essence @ LunarCraftingStation → 1 |
@@ -1123,6 +1128,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Universal Genesis | (nouvelle) | 1 Disseminator, 3 Star Cloak, 2 Armored Shell, 1 Nebulous Core, 5 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Unsafe Eutrophic Sand Wall | (nouvelle) | 1 Eutrophic Sand @ WorkBenches → 4 |
 | Unsafe Navystone Wall | (nouvelle) | 1 Navystone @ WorkBenches → 4 |
+| Urchin Spear | (nouvelle) | 4 Victide Bar @ Anvils → 1 |
 | Vampiric Talisman | 1 Raider's Talisman, 1 Rotten Dogtooth, 10 Solar Veil, 1 Broken Bat Wing @ MythrilAnvil → 1 | 10 Solar Veil, 1 Spy Emblem @ MythrilAnvil → 1 |
 | Veering Wind | 30 Any Ice Block, 3 Feather, 5 Fallen Star, 10 Cloud @ Bookcases → 1 | 1 Frost Bolt, 3 Feather, 5 Fallen Star, 20 Cloud @ Bookcases → 1 |
 | Vein Burster | (nouvelle) | 5 Vertebra, 5 Crimtane Bar, 15 Blood Sample @ DemonAltar → 1 |
@@ -1188,7 +1194,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 ## Noms introuvables (par nombre de recettes bloquées)
 
 - station : Aquatic Hypercomputer Capsules — 9
-- station : Aquatic Hypercomputer Finished — 5
+- station : Aquatic Hypercomputer Finished — 6
 - station : Aquatic Hypercomputer ERM — 4
 - objet : Crab — 2
 - objet : Luminous Striker — 2
@@ -1236,7 +1242,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Elemental Claymore — 1
 - objet : Ethereal Knives — 1
 - objet : Exactory Dartshooter — 1
-- objet : Exo Gladius — 1
 - objet : Exodimus — 1
 - objet : Fiery Greatsword — 1
 - objet : Flah Seeds — 1
@@ -1293,7 +1298,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : The Princess — 1
 - objet : Twisted Netherite Scythe — 1
 - objet : Unsealed Singularity — 1
-- objet : Urchin Flail — 1
 - objet : Violet Heart of Calamity — 1
 - objet : Visceral Biomass — 1
 - objet : Windslasher — 1

@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (422)
+## Objets (415)
 
 - A M S
 - AAMG "Disperse"
@@ -287,7 +287,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Exactory Dartshooter
 - Exif Fist
 - Exo Dragonblade
-- Exo Gladius
 - EXO-LOTL Staff
 - Exodimus
 - Exotic Beacon
@@ -378,7 +377,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Marnite Bayonet
 - Megaskeet
 - Meridian
-- Microcell Cut
 - Midas' Handshake
 - Miracle Smacker
 - Molecular Manipulator
@@ -447,7 +445,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Reactor Accelerator
 - Red Bow
 - Redtide Spear
-- Redtide Sword
 - Regeterrence
 - Revolvin' Mc'Coy
 - RGB Graydron
@@ -463,9 +460,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Sandstorm (weapon)
 - Sanguined Catarachedrae
 - SDOMG
-- Seabow
 - Seared Shredder
-- Seashell Boomerang
 - Severed Eye.exe
 - Shading Manual
 - Shadow's Descent
@@ -541,8 +536,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Unending Void
 - Unloxcalibur
 - Unsealed Singularity
-- Urchin Flail
-- Urchin Spear
 - UserGrahkon/Sandbox
 - Varroa Hack
 - Vehement Gemstone

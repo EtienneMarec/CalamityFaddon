@@ -520,7 +520,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** (30/10) **Arcanum of the Void** (effet de la page) : barrière = poussière violette autour du joueur
   quand elle est prête ; coup annulé (`FreeDodge`), explosion de 200 dégâts (160 px) et 4 énergies sombres de 25 dégâts
   qui touchent toutes les 0,5 s (4 × 50 = « ~200 DPS ») et cherchent les ennemis 4 s ; dégâts génériques ; recharge
-  `GlobalDodge` de Calamity (90 s, partagée avec les esquives) ; ajouté au sac du Ceaseless Void (`ArcanumBagLoot`).
+  `GlobalDodge` de Calamity (90 s, partagée avec les esquives) ; ajouté au sac du Ceaseless Void sur la page Treasure Bag
+  de notre wiki (sa page dit qu'il s'y trouve ; en Full Fandom, le contenu des sacs vient de cette page).
   **Exo Gladius** : **[validé 30/10]** pas d'attaque au clic droit (la parade de la page est retirée) ; le renvoi des
   projectiles ennemis à moins de 64 px vers le curseur se fait seulement pendant le Shortflurry (solo seulement : TODO
   multijoueur) ; les lignes de parade de l'infobulle sont remplacées par « Shortflurry attacks deflect projectiles ».
