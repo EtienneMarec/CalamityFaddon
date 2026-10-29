@@ -94,6 +94,8 @@ retirés que le Fandom a gardés :
   portés (Aftershock, Terra-cotta, Spore Knife...). `legacy_extract.py` les connaît maintenant : `--list` les affiche
   (seconde partie, avec la date de retrait) et `legacy_extract.py Classe` extrait le code de la dernière version
   mensuelle où l'objet existait.
+  30 de ces pages sont marquées `{{historical content}}` : le wiki lui-même les décrit comme retirées ; `--list` les
+  signale (« historique ») et elles ne sont pas à recréer en Full Fandom.
 
 Leur infobulle a été comparée de la même façon aux versions de l'objet retiré (`reports/wikigg_diff.md`, section
 « Objets retirés de Calamity ») : 201 sur 211 décrivent fidèlement l'ancien objet ; 10 y ajoutent des lignes inventées

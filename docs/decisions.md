@@ -404,6 +404,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   taille interdits (Notes).
 - **[technique]** **Terra-cotta** : retirée de Calamity en juin 2022 (portée) ; l'orbe de soin est réécrite (l'outil
   de Calamity est `internal`) : 9 PV au contact, attirée seulement avec Heartreach (Notes).
+- **[choix]** (nuit du 29/10) Objets retirés de Calamity avant 2.0.1.005 : portés seulement si leur page les décrit comme
+  présents ; une page `{{historical content}}` (30, dont Daylight, Crimsaber, Heart Rapier...) décrit un objet retiré,
+  qui ne l'est pas (`legacy_extract.py --list` les signale). Les 9 matériaux historiques déjà générés (Ectoblood,
+  Cloaking Gland...) restent : ils servent aux recettes du wiki.
 - **[choix]** (nuit du 29/10) **Leeching Dagger**, **Bloody Rupture**, **Ancient Shiv**, **Eutrophic Shank** : épées courtes
   retirées avant 2.0.1.005 (code de 2022-06, `legacy_extract.py` sur la dernière version mensuelle), portées en estoc
   (Rapier + projectile, base commune `LegacyShortswordProj`) au lieu de la hitbox d'objet (Thrust) d'origine : jauge

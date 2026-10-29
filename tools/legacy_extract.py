@@ -76,8 +76,15 @@ def pre_baseline_candidates():
         if entry.get("kind") == "content" and entry.get("status") == "new":
             cls = by_name.get(re.sub(r"[^a-z0-9]", "", entry["title"].lower()))
             if cls:
-                found.append((cls, entry["title"], old["snapshots"][old["seen"][cls][1]]["date"], bool(entry.get("implemented"))))
+                found.append((cls, entry["title"], old["snapshots"][old["seen"][cls][1]]["date"], bool(entry.get("implemented")),
+                              historical(entry["file"])))
     return sorted(found, key=lambda f: f[1])
+
+
+def historical(page_file):
+    """La page est-elle marquée {{historical content}} ? Le wiki décrit alors un objet retiré : pas à recréer en Full Fandom."""
+    path = os.path.join(ROOT, "wiki", "Main", page_file)
+    return os.path.exists(path) and re.search(r"\{\{\s*historical", open(path, encoding="utf-8", errors="replace").read(), re.I) is not None
 
 
 def extract(root_cls, old_decl, current, commit=BASELINE):
@@ -120,8 +127,8 @@ def main():
             if r["wikiPage"]:
                 print(f"{r['class']:40} {r['name']}")
         print("\nRetirés avant 2.0.1.005 (dernière version mensuelle où ils existaient) :")
-        for cls, name, date, done in pre_baseline_candidates():
-            print(f"{cls:40} {name} ({date}){' [fait]' if done else ''}")
+        for cls, name, date, done, hist in pre_baseline_candidates():
+            print(f"{cls:40} {name} ({date}){' [fait]' if done else ''}{' [historique : retiré selon le wiki]' if hist else ''}")
         return
     old_decl = all_declarations(BASELINE)
     current = set(load_calamity_classes())
