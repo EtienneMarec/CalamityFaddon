@@ -429,6 +429,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       plus tard (6 flammes) ; en attaque furtive, elle reste au sol 14 s et lâche aussi des éclats
 - [ ] **Quasar** (Astrum Deus, 10 %) : le couteau attire les ennemis (pas pendant un boss), éclate en 3 couteaux et une
       explosion astrale avec pluie d'étoiles ; en attaque furtive, chaque couteau éclaté explose aussi
+- [ ] **Marked Magnum** (pré-Hardmode, sans munitions, jamais de critique, Marked 8 s) ; **Revivify Potion** (3 min :
+      chaque coup reçu rend 1/15 des dégâts)
+- [ ] **Purified Jam** : The Slime God en lâche 6 à 8 **une seule fois** par personnage et par monde (un second kill
+      avec le même personnage n'en donne plus ; un autre personnage en reçoit) ; 10 s sans dégâts ni la plupart des
+      debuffs (5 s en Death Mode), Potion Sickness 30 s
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

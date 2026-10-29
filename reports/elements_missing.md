@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (425)
+## Objets (424)
 
 - A M S
 - AAMG "Disperse"
@@ -376,7 +376,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Magnum
 - Majestic Gar
 - Mambel-Jambo
-- Marked Magnum
 - Marnite Bayonet
 - Megaskeet
 - Meridian

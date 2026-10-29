@@ -248,7 +248,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Mandible Bow
 - [x] Mandible Claws
 - [x] Mariana
-- [ ] Marked Magnum
+- [x] Marked Magnum
 - [ ] Marnite Bayonet
 - [x] Marnite Spear
 - [ ] Megaskeet — addon: Apotheosis and Friends
@@ -1047,9 +1047,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Potato Cat — addon: Calamity: Community Remix
 - [ ] Potion of Triboluminescence
 - [ ] Profaned Rage Potion
-- [ ] Purified Jam
+- [x] Purified Jam
 - [ ] Rage of the Cosmos — addon: Catalyst
-- [ ] Revivify Potion
+- [x] Revivify Potion
 - [ ] SAUS — addon: Calamity: Community Remix
 - [ ] Sacred Meat — pas de sprite
 - [ ] Shattering Potion

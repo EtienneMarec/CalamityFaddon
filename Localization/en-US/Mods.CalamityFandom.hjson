@@ -585,6 +585,30 @@ Items: {
 			'''
 	}
 
+	MarkedMagnum: {
+		DisplayName: Marked Magnum
+		Tooltip:
+			'''
+			Shots reduce enemy protection
+			This weapon scales with all your damage stats at once
+			'''
+	}
+
+	PurifiedJam: {
+		DisplayName: Purified Jam
+		Tooltip:
+			'''
+			Makes you immune to all damage and most debuffs for 10 seconds
+			Causes potion sickness when consumed
+			Cannot be consumed while potion sickness is active
+			'''
+	}
+
+	RevivifyPotion: {
+		DisplayName: Revivify Potion
+		Tooltip: Causes enemy attacks to heal you for a fraction of their damage
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -823,6 +847,7 @@ Projectiles: {
 	LatcherMineProjectile.DisplayName: Latcher Mine
 	QuasarKnife.DisplayName: Quasar
 	Quasar2.DisplayName: Quasar
+	MarkRound.DisplayName: Mark Round
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash
@@ -886,6 +911,16 @@ Elements: {
 }
 
 Buffs: {
+	Invincible: {
+		DisplayName: Invincible
+		Description: Immune to damage and most debuffs
+	}
+
+	Revivify: {
+		DisplayName: Revivify
+		Description: You are healed by a fraction of the damage you take
+	}
+
 	BloodClot: {
 		DisplayName: Blood Clot
 		Description: The blood clot will protect you

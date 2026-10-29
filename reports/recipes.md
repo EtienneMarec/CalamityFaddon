@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1102 objets dont les recettes ont changé : 961 recettes modifiées, 206 créées
+- 1104 objets dont les recettes ont changé : 961 recettes modifiées, 209 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -595,6 +595,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Margarita | (nouvelle) | 5 Vodka, 20 Blood Orb, 1 Living Shard @ AlchemyTable → 5 |
 | Margarita | 10 Bottle, 1 Dark Shard, 10 Stardust @ Kegs → 10 | 5 Vodka, 1 Star Fruit, 1 Living Shard @ Kegs → 5 |
 | Mariana | (nouvelle) | 1 Chlorophyte Claymore, 3 Coral, 3 Starfish, 3 Seashell, 10 Depth Cells, 10 Lumenyl, 5 Tenebris @ MythrilAnvil → 1 |
+| Marked Magnum | (nouvelle) | 7 Hellstone Bar, 15 Obsidian, 15 Glowing Mushroom, 2 Alloy Bar @ Anvils → 1 |
 | Marksman Bow | 13 Ectoplasm @ MythrilAnvil → 1 | 31 Ectoplasm @ MythrilAnvil → 1 |
 | Marnite Obliterator | 1 Diamond, 3 Any Gold Bar, 5 Granite Block, 5 Marble Block @ Anvils → 1 | 5 Marble Block, 5 Granite Block, 3 Any Gold Bar @ Anvils → 1 |
 | Marnite Spear | (nouvelle) | 5 Any Gold Bar, 9 Granite Block, 9 Marble Block @ Anvils → 1 |
@@ -807,6 +808,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Rem's Revenge | 1 Blue Moon, 5 Luminite Bar, 10 Lumenyl @ MythrilAnvil → 1 | 1 Blue Moon, 5 Luminite Bar, 10 Lumenyl @ LunarCraftingStation → 1 |
 | Resilient Candle | (nouvelle) | 1 Peace Candle, 444 Essence of Babil, 445 Soul of Night @ CrystalBall → 1 |
 | Resurrection Butterfly | 5 Life Alloy, 2 Butterfly Dust, 40 Silk, 5 Ectoplasm @ Loom → 1 | 40 Silk, 20 Ectoplasm, 5 Life Alloy, 2 Butterfly Dust, 2003 Gold Butterfly @ Loom → 1 |
+| Revivify Potion | (nouvelle) | 5 Holy Water, 20 Stardust, 5 Sea Prism, 3 Fallen Star, 1 Scarred Angelfish @ AlchemyTable → 5 |
+| Revivify Potion | (nouvelle) | 5 Holy Water, 10 Unholy Core @ AlchemyTable → 5 |
 | Rift Reeler | 1 Hotline Fishing Hook, 8 Abyss Bar @ MythrilAnvil → 1 | 1 Hotline Fishing Hook, 1 Chum Caster, 8 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Riptide | 3 Conquest Fragment, 7 Sea Prism, 10 Navystone @ Anvils → 1 | 7 Sea Prism, 10 Navystone @ Anvils → 1 |
 | Rot Ball | (nouvelle) | 1 Rotten Matter, 1 Rotten Chunk, 1 Demonite Bar @ DemonAltar → 100 |

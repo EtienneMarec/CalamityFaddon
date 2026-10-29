@@ -162,6 +162,9 @@ def parse_condition(note):
     if "first kill" in rest:
         cond["firstKill"] = True
         rest = rest.replace("always on first kill", "")
+    if "once per player and world" in rest:
+        cond["oncePerPlayerWorld"] = True
+        rest = rest.replace("once per player and world", "")
     if "hardmode" in rest:
         cond.setdefault("downed", []).append("wall of flesh")
         rest = re.sub(r"hardmode(?:[- ]only)?", "", rest)

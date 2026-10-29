@@ -20,6 +20,8 @@ namespace CalamityFandom.Common.WikiData
             /// <summary>Boss à avoir vaincus, noms du wiki en minuscules (« wall of flesh » = Hardmode).</summary>
             public List<string> Downed { get; set; } = new();
             public bool FirstKill { get; set; }
+            /// <summary>« Once per player and world » (Purified Jam) : une fois par personnage et par monde.</summary>
+            public bool OncePerPlayerWorld { get; set; }
             public string Biome { get; set; }
         }
 
@@ -56,13 +58,15 @@ namespace CalamityFandom.Common.WikiData
 
         private readonly Func<bool>[] downed;
         private readonly bool firstKill;
+        private readonly bool oncePerPlayerWorld;
         private readonly Func<Player, bool> biome;
         private readonly string description;
 
-        private WikiLootCondition(Func<bool>[] downed, bool firstKill, Func<Player, bool> biome, string description)
+        private WikiLootCondition(Func<bool>[] downed, bool firstKill, bool oncePerPlayerWorld, Func<Player, bool> biome, string description)
         {
             this.downed = downed;
             this.firstKill = firstKill;
+            this.oncePerPlayerWorld = oncePerPlayerWorld;
             this.biome = biome;
             this.description = description;
         }
@@ -85,7 +89,7 @@ namespace CalamityFandom.Common.WikiData
             Func<Player, bool> biome = null;
             if (data.Biome != null && !Biomes.TryGetValue(data.Biome, out biome))
                 return null;
-            return new WikiLootCondition(checks.ToArray(), data.FirstKill, biome, text);
+            return new WikiLootCondition(checks.ToArray(), data.FirstKill, data.OncePerPlayerWorld, biome, text);
         }
 
         public bool CanDrop(DropAttemptInfo info)
@@ -95,11 +99,35 @@ namespace CalamityFandom.Common.WikiData
             // Le kill est compté dans le bestiaire avant le butin (NPC.NPCLoot) : premier kill = 1
             if (firstKill && (info.npc == null || Main.BestiaryTracker.Kills.GetKillCount(info.npc) > 1))
                 return false;
-            return biome == null || info.player != null && biome(info.player);
+            if (biome != null && (info.player == null || !biome(info.player)))
+                return false;
+            // Une seule fois par personnage dans ce monde : noté dans le monde au moment où le drop a lieu
+            if (oncePerPlayerWorld)
+                return info.player != null && WikiLootOnceSystem.TryTake($"{info.npc?.type ?? -1}|{description}|{info.player.name}");
+            return true;
         }
 
         public bool CanShowItemDropInUI() => true;
 
         public string GetConditionDescription() => description;
+    }
+
+    /// <summary>Drops « une fois par personnage et par monde » déjà donnés (sauvegardés avec le monde).</summary>
+    public class WikiLootOnceSystem : Terraria.ModLoader.ModSystem
+    {
+        private static readonly HashSet<string> Taken = new();
+
+        public static bool TryTake(string key) => Taken.Add(key);
+
+        public override void ClearWorld() => Taken.Clear();
+
+        public override void SaveWorldData(Terraria.ModLoader.IO.TagCompound tag) => tag["wikiLootOnce"] = Taken.ToList();
+
+        public override void LoadWorldData(Terraria.ModLoader.IO.TagCompound tag)
+        {
+            Taken.Clear();
+            foreach (string key in tag.GetList<string>("wikiLootOnce"))
+                Taken.Add(key);
+        }
     }
 }

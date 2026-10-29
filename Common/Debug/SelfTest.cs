@@ -361,7 +361,7 @@ namespace CalamityFandom.Common.Debug
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
             }
             // Lot du 29/10 (3) : armes retirées en juin-juillet 2022, recettes du wiki ; Sylvan Slasher chez le Bandit
-            foreach (string name in new[] { "Crystal Blade", "Temporal Floe Sword", "Marnite Spear", "Sylvan Slasher", "Animus", "Blade of Enmity", "Brimlash Buster", "Phoenix Blade", "Trinity", "Fulguration Halberd", "Mariana", "Aquatic Dissolution", "Impaler", "Spectre Rifle", "Star Cannon EX", "Hadopelagic Echo", "Crystal Flare Staff" })
+            foreach (string name in new[] { "Crystal Blade", "Temporal Floe Sword", "Marnite Spear", "Sylvan Slasher", "Animus", "Blade of Enmity", "Brimlash Buster", "Phoenix Blade", "Trinity", "Fulguration Halberd", "Mariana", "Aquatic Dissolution", "Impaler", "Spectre Rifle", "Star Cannon EX", "Hadopelagic Echo", "Crystal Flare Staff", "Marked Magnum", "Revivify Potion" })
             {
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
@@ -370,6 +370,10 @@ namespace CalamityFandom.Common.Debug
             }
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Crystal Blade")), "le Crystal Crawler lâche la Crystal Blade");
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Quasar")), "Astrum Deus lâche la Quasar");
+            int jam = WikiRecipes.ResolveItem("Purified Jam");
+            Expect(jam > 0 && ItemLoader.GetItem(jam)?.Mod == Mod, "Purified Jam porté");
+            Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Purified Jam")), "The Slime God lâche la Purified Jam");
+            Expect(Content.Legacy.Buffs.Potions.Invincible.Immunities.Length >= 37, $"Invincible : {Content.Legacy.Buffs.Potions.Invincible.Immunities.Length} immunités (38 attendues)");
             int flameblaster = WikiRecipes.ResolveItem("Brimstone Flameblaster");
             Expect(flameblaster > 0 && ItemLoader.GetItem(flameblaster)?.Mod == Mod, "Brimstone Flameblaster porté");
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Brimstone Flameblaster")), "Cataclysm lâche le Brimstone Flameblaster");

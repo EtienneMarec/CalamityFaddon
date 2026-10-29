@@ -11491,7 +11491,11 @@
      "min": 6,
      "max": 8,
      "chance": 1.0,
-     "note": "(Once per player and world)"
+     "note": "(Once per player and world)",
+     "condition": {
+      "oncePerPlayerWorld": true
+     },
+     "conditionText": "Once per player and world"
     },
     {
      "item": "Healing Potion",

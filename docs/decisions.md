@@ -494,6 +494,14 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   interne). Vendue par le Bandit (`LegacyBanditShop`). **Quasar** : l'attraction vient des couteaux, comme dans le code
   (la page l'attribue à l'explosion) ; explosion `RadiantExplosion` de la Radiant Star actuelle, qui fait déjà pleuvoir
   les étoiles ; couteaux éclatés sans tête chercheuse (page).
+- **[choix]** (29/10, lot 9) **Purified Jam** : Invincible = esquive de tous les coups (`FreeDodge`) et immunité aux
+  debuffs du modèle « Immunity item debuffs » du wiki (« Distorted » n'existe plus ; « Oozed » = Ogre Spit).
+  [technique] Nouvelle condition de butin « Once per player and world » (`gen_loot.py`, `WikiLootCondition`) : clé PNJ +
+  note + nom du personnage, enregistrée avec le monde (`WikiLootOnceSystem`), pour que le serveur la vérifie.
+  **Revivify Potion** : soin de 1/15 des dégâts après le coup (`OnHurt`), donc rien sur un coup mortel (Notes).
+  **Marked Magnum** : `AverageDamageClass` de Calamity (« scales with all your damage stats »), critique forcé à 0.
+- **[technique]** (29/10, lot 9) **Arcanum of the Void** mis de côté : la page décrit une barrière du vide qui explose
+  en énergie sombre à tête chercheuse ; le code de 2022 renvoyait les projectiles. Effet inventé ou refait, à trancher.
 - **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
   1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
   comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet
