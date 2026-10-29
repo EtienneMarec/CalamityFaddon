@@ -231,7 +231,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Justice and Splendor
 - [ ] Lacelinous Nocturne — addon: Calamity: Tales of the Aquatic
 - [ ] Lacescent Pistol — addon: Calamity: Tales of the Aquatic
-- [ ] Latcher Mine
+- [x] Latcher Mine
 - [x] Lazhar
 - [ ] Lazinator
 - [ ] Lead Wizard
@@ -312,7 +312,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Pungent Bomber
 - [ ] Purgatory Blaster — addon: Calamity: Tales of the Aquatic
 - [ ] Quadlens Staff — addon: Calamity: Community Remix
-- [ ] Quasar
+- [x] Quasar
 - [ ] Quintessence Cannon — addon: Deimos, the Starborn Princess, Catalyst
 - [ ] RGB Graydron
 - [x] Raider's Glory

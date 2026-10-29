@@ -565,6 +565,26 @@ Items: {
 			'''
 	}
 
+	LatcherMine: {
+		DisplayName: Latcher Mine
+		Tooltip:
+			'''
+			Sticks to enemies on hit and detonates after 3 seconds
+			Breaks upon hitting blocks
+			Stealth Strike Effect: On explosion, fire and shrapnel are released
+			Stealth strike mines can stick to the ground and last much longer when doing so
+			'''
+	}
+
+	Quasar: {
+		DisplayName: Quasar
+		Tooltip:
+			'''
+			Succ
+			Stealth strikes spawn more explosions
+			'''
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -800,6 +820,9 @@ Projectiles: {
 	BouncingBettyProjectile.DisplayName: Bouncing Betty
 	BettyExplosion.DisplayName: Explosion
 	BouncingBettyShrapnel.DisplayName: Betty Shrapnel
+	LatcherMineProjectile.DisplayName: Latcher Mine
+	QuasarKnife.DisplayName: Quasar
+	Quasar2.DisplayName: Quasar
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash

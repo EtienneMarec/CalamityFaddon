@@ -369,6 +369,7 @@ namespace CalamityFandom.Common.Debug
                     Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == type), $"{name} a une recette");
             }
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Crystal Blade")), "le Crystal Crawler lâche la Crystal Blade");
+            Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Quasar")), "Astrum Deus lâche la Quasar");
             int flameblaster = WikiRecipes.ResolveItem("Brimstone Flameblaster");
             Expect(flameblaster > 0 && ItemLoader.GetItem(flameblaster)?.Mod == Mod, "Brimstone Flameblaster porté");
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Brimstone Flameblaster")), "Cataclysm lâche le Brimstone Flameblaster");
@@ -377,6 +378,7 @@ namespace CalamityFandom.Common.Debug
                 int sylvan = ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.SylvanSlasher>();
                 Expect(banditShop.ActiveEntries.Any(e => e.Item.type == sylvan && e.Item.shopCustomPrice == Item.buyPrice(platinum: 5)), "le Bandit vend la Sylvan Slasher (5 platine)");
                 Expect(banditShop.ActiveEntries.Any(e => e.Item.type == ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.BouncingBetty>()), "le Bandit vend la Bouncing Betty");
+                Expect(banditShop.ActiveEntries.Any(e => e.Item.type == ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.LatcherMine>()), "le Bandit vend la Latcher Mine");
             }
             else
                 Expect(false, "boutique du Bandit introuvable");

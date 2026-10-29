@@ -157,7 +157,7 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Rogue
 
     /// <summary>
     /// Objets portés vendus par le Bandit (pages des objets) : Sylvan Slasher après Providence (5 platine), Bouncing Betty
-    /// après un boss mécanique (4 argent, son prix).
+    /// et Latcher Mine après un boss mécanique (4 et 3 argent, leur prix).
     /// </summary>
     public class LegacyBanditShop : GlobalNPC
     {
@@ -168,6 +168,7 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Rogue
             shop.Add(new Item(ModContent.ItemType<SylvanSlasher>()) { shopCustomPrice = Item.buyPrice(platinum: 5) },
                 CalamityMod.CalamityConditions.DownedProvidence);
             shop.Add(ModContent.ItemType<BouncingBetty>(), Condition.DownedMechBossAny);
+            shop.Add(ModContent.ItemType<LatcherMine>(), Condition.DownedMechBossAny);
         }
     }
 }

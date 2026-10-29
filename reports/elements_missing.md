@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (426)
+## Objets (425)
 
 - A M S
 - AAMG "Disperse"
@@ -365,7 +365,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Lacelinous Nocturne
 - Lacescent Pistol
 - Large Father
-- Latcher Mine
 - Lazinator
 - Li'l Mine
 - Lightning Hawk

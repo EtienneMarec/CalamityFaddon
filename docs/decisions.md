@@ -488,6 +488,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   mises à jour doubles). Rareté 16 (Hot Pink) de l'infobox. **Bouncing Betty** : boutique du Bandit après un boss
   mécanique (`LegacyBanditShop`, prix de l'objet) ; les étincelles (`TotalityFire` de Calamity) gardent leur Hellfire et
   reçoivent On Fire! 3 à 6 s (infobox).
+- **[choix]** (29/10, lot 8) **Latcher Mine** : explosion 3 s après s'être collée (page et infobulle ; le code : 2 s) ;
+  6 flammes projetées comme le dit la page (le code : 4, ou 7 en attaque furtive), dont la moitié environ deviennent des
+  éclats en attaque furtive ; On Fire! 10 s sur les flammes (infobox). Collage réécrit (la fonction de Calamity est
+  interne). Vendue par le Bandit (`LegacyBanditShop`). **Quasar** : l'attraction vient des couteaux, comme dans le code
+  (la page l'attribue à l'explosion) ; explosion `RadiantExplosion` de la Radiant Star actuelle, qui fait déjà pleuvoir
+  les étoiles ; couteaux éclatés sans tête chercheuse (page).
 - **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
   1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
   comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet
