@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1074 objets dont les recettes ont changé : 959 recettes modifiées, 180 créées
+- 1079 objets dont les recettes ont changé : 960 recettes modifiées, 184 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 119 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 139 recettes
+- 118 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 138 recettes
 
 ## Recettes changées
 
@@ -228,6 +228,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Calamitas Clone | 1 Calamitas Trophy @ Bookcases → 1 | 1 Calamitas Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Calcium Potion | 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Calcium Potion | 1 Bottled Water, 1 Ancient Bone Dust @ Bottles → 1 | 1 Bottled Water, 1 Bone @ Bottles → 1 |
+| Caliburn | (nouvelle) | 8 Hallowed Bar @ MythrilAnvil → 1 |
 | Caribbean Rum | (nouvelle) | 5 Vodka, 20 Blood Orb, 1 Living Shard @ AlchemyTable → 5 |
 | Caribbean Rum | 20 Bottle, 1 Ice Feather @ Kegs → 20 | 5 Vodka, 20 Bamboo, 1 Living Shard @ Kegs → 5 |
 | Carnage Ray | (nouvelle) | 1 Crimson Rod, 1 Wand of Sparking, 1 Amber Staff, 1 Magic Missile, 15 Blood Sample, 10 Purified Gel @ DemonAltar → 1 |
@@ -352,6 +353,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Elemental Gauntlet | 1 Fire Gauntlet, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Warloks' Moon Fist, 1 Yharim's Insignia, 1 Necklace of Vexation, 8 Luminite Bar, 4 Galactica Singularity, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Elemental Lance | 1 Terra Lance, 5 Luminite Bar, 5 Life Alloy, 5 Solar Fragment @ MythrilAnvil → 1 | 9 Elemental Bar, 1 Terra Lance, 1 North Pole, 5 Galactica Singularity, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Elemental Quiver | 1 Any Quiver, 1 Deadshot Brooch, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Any Quiver, 1 Deadshot Brooch, 8 Luminite Bar, 4 Galactica Singularity, 4 Ascendant Spirit Essence, 4 Yharim Bar @ CosmicAnvil → 1 |
+| Elemental Shiv | 1 Starlight, 1 Lucrecia, 5 Luminite Bar, 5 Life Alloy, 5 Solar Fragment @ MythrilAnvil → 1 | 11 Elemental Bar, 1 Terra Shiv, 5 Galactica Singularity, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Elumplate | 25 Obsidian, 1 Essence of Eleum @ Hellforge → 25 | 1 Essence of Eleum, 3 Obsidian @ Hellforge → 3 |
 | Elysian Arrow | 150 Holy Arrow, 1 Unholy Essence @ MythrilAnvil → 150 | 1 Unholy Essence, 150 Holy Arrow @ LunarCraftingStation → 150 |
 | Elysian Tracers | 1 Moon Walkers, 3 Armored Shell, 3 Twisting Nether, 3 Dark Plasma @ LunarCraftingStation → 1 | 1 Seraph Tracers, 1 Elysian Wings, 1 Gravistar Sabaton, 1 Microxodonta, 5 Cosmilite Bar, 4 Ascendant Spirit Essence, 4 Yharim Bar @ CosmicAnvil → 1 |
@@ -1010,6 +1012,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Terra Flameburster | 1 Flamethrower, 1 Meowthrower, 12 Living Shard @ MythrilAnvil → 1 | 1 Flamethrower, 7 Living Shard, 5 Essence of Sunlight @ MythrilAnvil → 1 |
 | Terra Lance | 1 Chlorophyte Partisan, 1 Dark Lance, 1 Gungnir, 12 Living Shard @ MythrilAnvil → 1 | 1 Chlorophyte Partisan, 1 Dark Lance, 1 Gungnir, 7 Living Shard @ MythrilAnvil → 1 |
 | Terra Ray | 1 Night's Ray, 1 Valkyrie Ray, 12 Living Shard @ MythrilAnvil → 1 | 7 Living Shard, 1 Night's Ray / Carnage Ray, 1 Valkyrie Ray @ MythrilAnvil → 1 |
+| Terra Shiv | (nouvelle) | 1 True Night's Stabber, 1 True Caliburn, 6 Living Shard @ MythrilAnvil → 1 |
 | Terror Blade | (nouvelle) | 5 Haunted Bar @ LunarCraftingStation → 1 |
 | Terror Talons | 5 Chlorophyte Bar, 10 Leather @ MythrilAnvil → 1 | 1 Feral Claws, 5 Chlorophyte Bar, 10 Soul of Fright @ MythrilAnvil → 1 |
 | Tesla Cannon | 25 Mysterious Circuitry, 15 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
@@ -1068,8 +1071,10 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Triactis' True Paladinian Mage-Hammer of Might | 1 Galaxy Smasher, 5 Shadowspec Bar, 5 Life Alloy @ DraedonsForge → 1 | 1 Galaxy Smasher, 30 Soul of Might, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Triboluminescent Etomer | 8 Any Gold Bar, 5 Prism Shard, 5 Scorched Bone @ Anvils → 1 | 5 Prism Shard, 8 Any Gold Bar, 1 Demonic Bone Ash @ Anvils → 1 |
 | True Biome Blade | 1 Biome Blade, 18 Astral Bar, 6 Life Alloy, 3 Core of Calamity @ LunarCraftingStation → 1 | 1 Biome Blade, 1 Broken Hero Sword, 3 Astral Bar, 3 Life Alloy, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
+| True Caliburn | (nouvelle) | 1 Caliburn, 1 Broken Hero Sword @ MythrilAnvil → 1 |
 | True Caustic Edge | 1 Caustic Edge, 8 Cursed Flame or Ichor, 8 Spider Fang @ Anvils → 1 | 1 Caustic Edge, 5 Any Evil Flask, 5 Flask of Poison, 4 Deathweed @ DemonAltar → 1 |
 | True Forbidden Oathblade | 1 Forbidden Oathblade, 1 Broken Hero Sword, 8 Abyss Bar @ MythrilAnvil → 1 | 1 Forbidden Oathblade, 1 Broken Hero Sword, 3 Infected Armor Plating, 3 Ashes of Calamity @ MythrilAnvil → 1 |
+| True Night's Stabber | (nouvelle) | 1 Night's Stabber, 1 Broken Hero Sword @ MythrilAnvil → 1 |
 | True Tyrant's Ultisword | 1 Tyrant Yharim's Ultisword, 10 Tarragon Bar, 5 Core of Calamity @ MythrilAnvil → 1 | 1 Tyrant Yharim's Ultisword, 1 Core of Calamity, 800 Delicious Meat, 59 Alloy Bar @ DemonAltar → 1 |
 | Tundra Flame Blossoms Staff | 1 Cinder Blossom Staff, 1 Frost Blossom Staff, 5 Any Mythril Bar @ MythrilAnvil → 1 | 1 Cinder Blossom Staff, 1 Frost Blossom Staff, 5 Soul of Light @ MythrilAnvil → 1 |
 | Turbulance | 10 Aerialite Bar @ Anvils → 1 | 5 Aerialite Bar, 3 Sunplate Block, 4 Cloud @ SkyMill → 1 |
@@ -1257,7 +1262,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Spectre Rifle — 1
 - objet : Star Cannon EX — 1
 - objet : Terra Edge — 1
-- objet : Terra Shiv — 1
 - objet : The Generator — 1
 - objet : The Godfather — 1
 - objet : The King's Gambit — 1

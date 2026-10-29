@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (460)
+## Objets (456)
 
 - A M S
 - AAMG "Disperse"
@@ -212,7 +212,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Butcher's Glove
 - Calamitous Vortex
 - Calamity Sword
-- Caliburn
 - Carapace Hammer
 - Catarachedrae
 - Catastrophe Claybore
@@ -532,7 +531,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Tenebris Tides
 - Terra Bow
 - Terra Edge
-- Terra Shiv
 - Terrestrial Dart
 - Terreye Staff
 - Terriblade
@@ -561,8 +559,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Trinity
 - Triploon
 - True Bloody Edge
-- True Caliburn
-- True Night's Stabber
 - Twentloon
 - Twenty-Twloon
 - Twin Cranes

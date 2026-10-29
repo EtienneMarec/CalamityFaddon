@@ -348,7 +348,7 @@ namespace CalamityFandom.Common.Debug
                 Expect(!WikiRecipes.Missing.ContainsKey("objet : " + name) && !WikiLoot.MissingItems.ContainsKey(name), $"{name} n'est plus introuvable");
             }
             // Lot du 29/10 : épées courtes retirées avant 2.0.1.005 (tableau Shortstrike), portées en estoc avec leur Shortflurry
-            foreach (string name in new[] { "Leeching Dagger", "Bloody Rupture", "Ancient Shiv", "Eutrophic Shank", "Tomatus", "Night's Stabber" })
+            foreach (string name in new[] { "Leeching Dagger", "Bloody Rupture", "Ancient Shiv", "Eutrophic Shank", "Tomatus", "Night's Stabber", "Caliburn", "True Caliburn", "True Night's Stabber", "Terra Shiv" })
             {
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");

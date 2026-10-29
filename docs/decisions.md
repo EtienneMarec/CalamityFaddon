@@ -416,6 +416,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   de Calamity (`FuckYou`), 75 % des dégâts. **Night's Stabber** : énergie sombre = l'orbe commun sans soin, pleins dégâts
   (vieux code) ; Shortflurry : « 5 tile long nightshade vines » = épines de 5 blocs (effet `vine`, mêmes images vertes que
   la Spore Knife) et Cursed Inferno 5 s (`tools/shortstrike_extra.json`).
+- **[choix]** (nuit du 29/10) **Caliburn** et **True Caliburn** = les anciennes Excalibur Shortsword et True Excalibur
+  Shortsword de Calamity (infobulle identique ; la page True Caliburn dit encore « True Excalibur Shortsword »), portées
+  avec **True Night's Stabber** et **Terra Shiv** : rayons horizontaux tirés à chaque estoc (ancien `Shoot` : vitesse de
+  l'objet dans la direction du joueur), rayons de lame vanilla (Light Beam, Terra Beam), 7 frames entre deux coups sur un
+  même ennemi. **À faire** : effets de Shortflurry de ces armes (rayons qui soignent, tirent des boules maudites, se
+  divisent et infligent Ichor : lignes non traduites de la page Shortstrike, `reports/shortstrike.md`).
 - **[à trancher]** Plague Hive : demande Alchemical Flask, que Calamity a remplacé par l'Alchemical Decanter
   (`[LegacyName]`) ; dépend de la décision sur les remplacements `[LegacyName]` (section 2).
 

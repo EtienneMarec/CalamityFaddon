@@ -344,6 +344,35 @@ Items: {
 		Tooltip: Summons a corro slime to fight for you
 	}
 
+	Caliburn: {
+		DisplayName: Caliburn
+		Tooltip: Don't underestimate the power of shortswords
+	}
+
+	TrueCaliburn: {
+		DisplayName: True Caliburn
+		Tooltip: Don't underestimate the power of shortswords
+	}
+
+	TrueNightsStabber: {
+		DisplayName: True Night's Stabber
+		Tooltip:
+			'''
+			Don't underestimate the power of stabby knives
+			Shortflurry attacks spawn healing beams that shoot cursed fireballs, and increases melee speed by 10%
+			'''
+	}
+
+	TerraShiv: {
+		DisplayName: Terra Shiv
+		Tooltip:
+			'''
+			Don't underestimate the power of shivs
+			Shortflurry attacks shoot out splitting beams that heal and inflict ichor
+			Melee speed and DR are also boosted by 15%
+			'''
+	}
+
 	Tomatus: {
 		DisplayName: Tomatus
 		Tooltip:
@@ -505,6 +534,9 @@ Projectiles: {
 	AquaticDischargeProj.DisplayName: Aquatic Discharge
 	AquaticDischargeSpark.DisplayName: Spark
 	LegacyHealingOrb.DisplayName: Orb
+	ShortBeam.DisplayName: Beam
+	ShortNightBeam.DisplayName: Beam
+	ShortTerraBeam.DisplayName: Beam
 	BlueAura.DisplayName: Blue Aura
 	SolarFlareYoyo.DisplayName: Solar Flare
 	DiseasedPikeSpear.DisplayName: Pike
@@ -524,6 +556,10 @@ Projectiles: {
 		AquaticDischargeProj.DisplayName: Aquatic Discharge Proj
 		LeechingDaggerProj.DisplayName: Leeching Dagger
 		TomatusProj.DisplayName: Tomatus
+		CaliburnProj.DisplayName: Caliburn
+		TrueCaliburnProj.DisplayName: True Caliburn
+		TrueNightsStabberProj.DisplayName: True Night's Stabber
+		TerraShivProj.DisplayName: Terra Shiv
 		NightsStabberProj.DisplayName: Night's Stabber
 		BloodyRuptureProj.DisplayName: Bloody Rupture
 		AncientShivProj.DisplayName: Ancient Shiv

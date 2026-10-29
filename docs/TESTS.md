@@ -380,6 +380,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
   - [ ] **Night's Stabber** (recette : Leeching Dagger ou Bloody Rupture, Ancient Shiv, Spore Knife, Tomatus) : un ennemi
         touché libère une énergie sombre qui cherche un autre ennemi ; Shortflurry : +3 PV par coup, épines de 5 blocs,
         Cursed Inferno, +5 % vitesse de mêlée
+  - [ ] **Caliburn** (ancienne Excalibur Shortsword) : estoc qui scintille ; **True Caliburn** (Caliburn + Broken Hero
+        Sword) : chaque estoc tire un rayon violet à l'horizontale ; **True Night's Stabber** (Night's Stabber + Broken
+        Hero Sword) : rayon vert ; **Terra Shiv** (les deux « True » + Living Shards) : lame verte qui perce trois fois.
+        Les rayons partent aussi des clones du Shortflurry ; leurs effets de Shortflurry propres (rayons qui soignent, se
+        divisent...) ne sont pas encore faits
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

@@ -60,7 +60,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Butcher (weapon)
 - [ ] Calamitous Vortex — addon: Calamity: Tales of the Aquatic
 - [ ] Calamity Sword
-- [ ] Caliburn
+- [x] Caliburn
 - [x] Carnage Ray
 - [ ] Catastrophe Claycore
 - [ ] Catastrophe Claymore
@@ -388,7 +388,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Tenebris Tides — addon: Catalyst
 - [ ] Terra Bow
 - [ ] Terra Edge
-- [ ] Terra Shiv
+- [x] Terra Shiv
 - [x] Terra-cotta
 - [ ] Terreye Staff — addon: Calamity: Community Remix
 - [ ] Terriblade
@@ -420,8 +420,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Trinity
 - [ ] Triploon
 - [ ] True Bloody Edge
-- [ ] True Caliburn
-- [ ] True Night's Stabber
+- [x] True Caliburn
+- [x] True Night's Stabber
 - [ ] Twentloon
 - [ ] Twenty-Twloon
 - [ ] Twin Cranes — addon: Calamity: Community Remix
