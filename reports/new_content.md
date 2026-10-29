@@ -322,7 +322,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Reactor Accelerator — addon: Calamity: Tales of the Aquatic
 - [ ] Red Umbrella
 - [ ] Redtide Spear
-- [ ] Redtide Sword
+- [x] Redtide Sword
 - [x] Reemergence
 - [ ] Revolvin' Mc'Coy — addon: Calamity: Community Remix
 - [ ] Ribbon Flintlock Rifle Cannon
@@ -337,9 +337,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Sandstorm (weapon)
 - [ ] Sea Stone Shuriken
 - [ ] Sea Stone Sickle
-- [ ] Seabow
+- [x] Seabow
 - [ ] Seared Shredder
-- [ ] Seashell Boomerang
+- [x] Seashell Boomerang
 - [ ] Severed Eye.exe — addon: Calamity: Community Remix
 - [x] Sewer Brewer
 - [ ] Shading Manual — addon: Calamity: Tales of the Aquatic
@@ -431,8 +431,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Unending Void
 - [ ] Unloxcalibur — addon: Calamity: Community Remix
 - [ ] Unsealed Singularity — addon: Calamity: Community Remix
-- [ ] Urchin Flail
-- [ ] Urchin Spear
+- [x] Urchin Flail
+- [x] Urchin Spear
 - [ ] UserGrahkon/Sandbox — pas de sprite
 - [ ] Varroa Hack
 - [ ] Vehement Gemstone

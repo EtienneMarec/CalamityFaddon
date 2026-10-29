@@ -635,15 +635,38 @@ Items: {
 			'''
 			Do not underestimate the power of Exoblade`s younger brother
 			Striking an enemy with the blade causes an explosion
-			Right-clicking with it activates a parry that can be used to deflect projectiles
-			The player becomes temporarily immune when using the parry
-			The parry is stronger, but has a longer cooldown
+			Shortflurry attacks deflect projectiles
 			'''
 	}
 
 	MicrocellCut: {
 		DisplayName: Microcell Cut
 		Tooltip: fires homing astral stars everytime you kill an enemy
+	}
+
+	Seabow: {
+		DisplayName: Seabow
+		Tooltip: Fires slow-moving water blasts
+	}
+
+	RedtideSword: {
+		DisplayName: Redtide Sword
+		Tooltip: Throws short-range whirlpools
+	}
+
+	UrchinSpear: {
+		DisplayName: Urchin Spear
+		Tooltip: Poisons enemies and fires short-range stingers
+	}
+
+	UrchinFlail: {
+		DisplayName: Urchin Flail
+		Tooltip: Launch an urchin ball, which shoots a spike on contact with an enemy
+	}
+
+	SeashellBoomerang: {
+		DisplayName: Seashell Boomerang
+		Tooltip: Stealth strikes fire seashells at nearby enemies
 	}
 
 	MandibleBow: {
@@ -892,7 +915,13 @@ Projectiles: {
 	VoidBarrierBurst.DisplayName: Void Barrier
 	VoidDarkEnergy.DisplayName: Dark Energy
 	ExoGladiusExplosion.DisplayName: Exo Gladius Explosion
+	ExoGladComet.DisplayName: Exo Comet
 	MicrocellStar.DisplayName: Star
+	SandWater.DisplayName: Water Blast
+	LegacyRedtideWhirlpool.DisplayName: Whirlpool
+	UrchinBall.DisplayName: Urchin Ball
+	UrchinBallSpike.DisplayName: Urchin Spike
+	SeashellBoomerangProjectile.DisplayName: Seashell Boomerang
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash
@@ -906,6 +935,7 @@ Projectiles: {
 		MarniteSpearProjectile.DisplayName: Marnite Spear
 		FulgurationHalberdProj.DisplayName: Fulguration Halberd
 		ExoGladiusProj.DisplayName: Exo Gladius
+		UrchinSpearProjectile.DisplayName: Urchin Spear
 		CaliburnProj.DisplayName: Caliburn
 		TrueCaliburnProj.DisplayName: True Caliburn
 		TrueNightsStabberProj.DisplayName: True Night's Stabber

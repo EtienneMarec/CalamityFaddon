@@ -622,11 +622,20 @@
     {
      "type": "damageReduction",
      "value": 0.3
+    },
+    {
+     "type": "spawnOnStab",
+     "projectile": "CalamityFandom/ExoGladComet",
+     "value": 1.0,
+     "every": 5,
+     "count": 8,
+     "spread": 0.35,
+     "speed": 14,
+     "damageMult": 0.5,
+     "ai0": 2
     }
    ],
-   "todo": [
-    "Every 5th strike sends out a shotgun blast of 8 healing exo comets"
-   ],
+   "todo": [],
    "text": "Every 5th strike sends out a shotgun blast of 8 healing exo comets<br/>Player gains immunity to most debuffs for 20 seconds<br/>Increases player melee speed, defense, and damage reduction by 30%"
   },
   {

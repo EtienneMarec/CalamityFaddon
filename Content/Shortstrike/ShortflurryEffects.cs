@@ -26,9 +26,12 @@ namespace CalamityFandom.Content.Shortstrike
             if (clone.owner != Main.myPlayer)
                 return;
             Player owner = Main.player[clone.owner];
+            int stab = ++owner.GetModPlayer<ShortstrikePlayer>().FlurryStabs;
             foreach (var effect in attack.Effects)
             {
                 if (effect.Type != "spawnOnStab" || effect.ProjectileType <= 0 || Main.rand.NextFloat() >= effect.Value)
+                    continue;
+                if (effect.Every > 1 && stab % effect.Every != 0)
                     continue;
                 for (int i = 0; i < effect.Count; i++)
                 {

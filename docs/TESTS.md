@@ -455,14 +455,18 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] (30/10) **Arcanum of the Void** (sac du Ceaseless Void, Expert) : poussière violette autour du joueur quand la
       barrière est prête ; un coup est annulé, explosion et 4 énergies sombres qui cherchent les ennemis 4 s ; recharge
       90 s affichée comme l'esquive de Calamity (partagée avec les autres esquives)
-- [ ] (30/10) **Exo Gladius** (Draedon's Forge) : estoc rapide qui fait exploser l'ennemi (image du wiki) ; clic droit
-      (jauge Shortstrike pas pleine) = parade lente, 4× dégâts, invulnérable un instant, renvoie les projectiles ennemis
-      vers le curseur (solo seulement pour l'instant). Retour du 30/10 : l'attaque normale parait aussi (bug corrigé :
-      seul le clic droit pare) et le sprite était celui de 2022 (remplacé par celui du wiki)
+- [ ] (30/10) **Exo Gladius** (Draedon's Forge) : estoc rapide qui fait exploser l'ennemi (image du wiki), sprite du wiki ;
+      plus de clic droit ; pendant le Shortflurry, les projectiles ennemis proches sont renvoyés vers le curseur (solo),
+      et tous les 5 estocs une salve de 8 comètes exo qui soignent de 2 PV chacune
 - [ ] (30/10) **Microcell Cut** (créée, sans recette : station Aquatic Hypercomputer pas encore faite) : un ennemi tué
       libère 3 étoiles à tête chercheuse (Ancient Astral Blight : particules jaunes et violettes, -52 PV/s) ; rareté C4
       violette ; Shortflurry : une étoile astrale par coup. Retour du 30/10 : sprite trop petit → image du wiki à sa
       taille d'origine (30×40, comme la Disease)
+- [ ] (30/10) Armes de l'océan d'avant la refonte de mai 2022, **dans les deux modes**, à côté de Reed Blowgun, Urchin
+      Mace et Fishbone Boomerang (le wiki a une page pour chacun) : **Seabow** (flèche + gerbe d'eau lente), **Redtide Sword**
+      (tourbillon qui grossit puis éclate), **Seashell Boomerang** (boomerangs sans limite ; furtif : coquillages),
+      **Urchin Spear** (lance + dard, Poisoned 10 s), **Urchin Flail**
+      (vendu 2 or par le Sea King, boule qui revient et lance une épine)
 - [ ] (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
       Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle

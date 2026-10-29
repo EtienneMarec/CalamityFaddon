@@ -1,5 +1,5 @@
 {
-  "_doc": "Shortflurry hors wiki (décision du 22/10, docs/decisions.md, [choix] à valider) : la page Shortstrike ne liste que ses armes. 'generic' : épées courtes des autres mods. 'attacks' : épées courtes de Calamity absentes de la page (modes : 'plus' = Calamity++ seulement). 'text' suit la syntaxe des effets de la page ; 'effects' ajoute des effets en données directement. 'overrides' : effets écrits à la main pour des phrases de la page que le générateur ne sait pas traduire ('todo' = texte exact de la page qu'ils remplacent). Un effet peut porter 'modes' (['fandom'] ou ['plus']) : il ne vaut alors que dans ce mode. 'cloneProjectile' : projectile d'attaque à utiliser comme clone réel (au hasard s'il y en a plusieurs). 'spawnOnStab' : projectile tiré à chaque estoc d'un clone, en plus de ce que tire le clone réel (value = chance ; count, damageMult, speed, ai0 ; rain = projectile qui pleut quand il touche). 'throwClone' : clone lancé au début, qui éclate en 'count' projectiles à chaque ennemi traversé. Nom 'CalamityFandom/X' = projectile porté de ce mod. 'flurryBeam' : rayon qui part de l'ennemi touché (value = blocs, speed, ai0 = soin par coup, name/seconds = debuff, count/damageMult = division au bout, rain/spread = projectile lâché tous les N blocs). 'verticalBeams' : un rayon vers le haut et un vers le bas depuis l'ennemi touché. Projectile vanilla : 'Terraria/Nom'.",
+  "_doc": "Shortflurry hors wiki (décision du 22/10, docs/decisions.md, [choix] à valider) : la page Shortstrike ne liste que ses armes. 'generic' : épées courtes des autres mods. 'attacks' : épées courtes de Calamity absentes de la page (modes : 'plus' = Calamity++ seulement). 'text' suit la syntaxe des effets de la page ; 'effects' ajoute des effets en données directement. 'overrides' : effets écrits à la main pour des phrases de la page que le générateur ne sait pas traduire ('todo' = texte exact de la page qu'ils remplacent). Un effet peut porter 'modes' (['fandom'] ou ['plus']) : il ne vaut alors que dans ce mode. 'cloneProjectile' : projectile d'attaque à utiliser comme clone réel (au hasard s'il y en a plusieurs). 'spawnOnStab' : projectile tiré à chaque estoc d'un clone, en plus de ce que tire le clone réel (value = chance ; every = un estoc sur N ; count, damageMult, speed, ai0 ; rain = projectile qui pleut quand il touche). 'throwClone' : clone lancé au début, qui éclate en 'count' projectiles à chaque ennemi traversé. Nom 'CalamityFandom/X' = projectile porté de ce mod. 'flurryBeam' : rayon qui part de l'ennemi touché (value = blocs, speed, ai0 = soin par coup, name/seconds = debuff, count/damageMult = division au bout, rain/spread = projectile lâché tous les N blocs). 'verticalBeams' : un rayon vers le haut et un vers le bas depuis l'ennemi touché. Projectile vanilla : 'Terraria/Nom'.",
   "generic": {
     "damageBoost": 0.1,
     "hits": 3,
@@ -207,6 +207,24 @@
         {
           "type": "unconsumable",
           "seconds": 3
+        }
+      ]
+    },
+    "Exo Gladius": {
+      "todo": [
+        "Every 5th strike sends out a shotgun blast of 8 healing exo comets"
+      ],
+      "effects": [
+        {
+          "type": "spawnOnStab",
+          "projectile": "CalamityFandom/ExoGladComet",
+          "value": 1.0,
+          "every": 5,
+          "count": 8,
+          "spread": 0.35,
+          "speed": 14,
+          "damageMult": 0.5,
+          "ai0": 2
         }
       ]
     }

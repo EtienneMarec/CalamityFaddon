@@ -168,6 +168,23 @@ def main():
         if not has_page:
             hidden[key].append(cls)
 
+    # Remplacements plus anciens que 2.0.1.005 (décision du 30/10) : l'objet porté sous son ancien nom remplace en Full
+    # Fandom l'objet actuel, sauf si le wiki a aussi une page pour celui-ci (il connaît alors les deux, qui restent) ;
+    # en Calamity++, c'est le portage qui est masqué.
+    for cls, rename in sorted(wiki_renames.items()):
+        if cls not in new or cls in set(new) - set(old):
+            continue
+        port = re.sub(r"[^A-Za-z0-9]", "", rename["oldName"]) if rename.get("oldName") else None
+        if port not in ported or port == cls:
+            continue
+        if norm(current_names.get(cls, "")) in titles:
+            continue
+        key = "items" if new[cls][0] == "ModItem" else "npcs"
+        if cls not in hidden[key]:
+            hidden[key].append(cls)
+        if port not in plus_hidden[key]:
+            plus_hidden[key].append(port)
+
     # Plus anciens (déjà là à l'abandon du wiki), sans page et cités nulle part : masqués aussi (décision du 21/10).
     # Cités en texte seulement (changelog, liste...) : gardés, le wiki les connaît.
     corpus = wiki_corpus()

@@ -23,6 +23,9 @@ namespace CalamityFandom.Common.Shortstrike
     /// </summary>
     public class ShortstrikePlayer : ModPlayer
     {
+        /// <summary>Estocs de clones depuis le début du Shortflurry (effets « tous les N estocs »).</summary>
+        public int FlurryStabs;
+
         public int Points;
         private int damageCarry;
         private bool swingHit;
@@ -168,6 +171,7 @@ namespace CalamityFandom.Common.Shortstrike
             Points = 0;
             damageCarry = 0;
             flurryDuration = flurryTimer = Math.Max(1, (int)(Flurry.Seconds * 60));
+            FlurryStabs = 0;
             flurryHitsLeft = Flurry.Hits;
             flurryNextHit = 0;
             SoundEngine.PlaySound(FlurryStartSound, Player.Center);

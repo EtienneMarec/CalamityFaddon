@@ -44,6 +44,8 @@ namespace CalamityFandom.Common.Shortstrike
             public float Spread { get; set; } = 0.15f;
             public float Ai0 { get; set; }
             public string Rain { get; set; }
+            /// <summary>spawnOnStab : seulement un estoc sur N (« Every 5th strike », Exo Gladius) ; 1 = chaque estoc.</summary>
+            public int Every { get; set; } = 1;
 
             /// <summary>Buff ou debuff résolu (Name), projectiles résolus (Projectile, Rain) ; -1 si introuvable.</summary>
             public int BuffType = -1, ProjectileType = -1, RainType = -1;
