@@ -490,6 +490,34 @@ Items: {
 		Tooltip: Enemies explode and emit healing flames on death
 	}
 
+	Trinity: {
+		DisplayName: Trinity
+		Tooltip: Fires a spread of energy bolts
+	}
+
+	FulgurationHalberd: {
+		DisplayName: Fulguration Halberd
+		Tooltip:
+			'''
+			Inflicts burning blood on enemy hits
+			Right click to use as a spear
+			'''
+	}
+
+	Mariana: {
+		DisplayName: Mariana
+		Tooltip:
+			'''
+			Tropical and deadly
+			Enemies explode into water orbs on hit
+			'''
+	}
+
+	AquaticDissolution: {
+		DisplayName: Aquatic Dissolution
+		Tooltip: Fires whaling spears from the sky that bounce off tiles
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -713,6 +741,8 @@ Projectiles: {
 	ProfanedEnergyTurret.DisplayName: Profaned Energy
 	CrystalDust.DisplayName: Crystal Dust
 	PhoenixHeal.DisplayName: Healing Flame
+	MarianaProjectile.DisplayName: Oceanic Bubble
+	OceanBeam.DisplayName: Aquatic Spear
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash
@@ -724,6 +754,7 @@ Projectiles: {
 		TomatusProj.DisplayName: Tomatus
 		WulfrumLeechDaggerProj.DisplayName: Wulfrum Leech Dagger
 		MarniteSpearProjectile.DisplayName: Marnite Spear
+		FulgurationHalberdProj.DisplayName: Fulguration Halberd
 		CaliburnProj.DisplayName: Caliburn
 		TrueCaliburnProj.DisplayName: True Caliburn
 		TrueNightsStabberProj.DisplayName: True Night's Stabber

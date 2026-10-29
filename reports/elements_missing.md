@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (437)
+## Objets (433)
 
 - A M S
 - AAMG "Disperse"
@@ -174,7 +174,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Alpha Virus
 - Angel's Thesis
 - Aquarel Pistol
-- Aquatic Dissolution
 - Aquatic Shardstone
 - Arcanoid Orb
 - Arkflammator
@@ -314,7 +313,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Frightshooter
 - Frost Blade
 - Frostflow Edge
-- Fulguration Halberd
 - Gamma Ray Burst
 - Garth
 - Gatling Laser
@@ -384,7 +382,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Magnum
 - Majestic Gar
 - Mambel-Jambo
-- Mariana
 - Marked Magnum
 - Marnite Bayonet
 - Megaskeet
@@ -541,7 +538,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Thunder Bolt
 - Titan Tides
 - Totality Tides
-- Trinity
 - Triploon
 - True Bloody Edge
 - Twentloon

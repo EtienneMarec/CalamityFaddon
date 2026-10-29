@@ -361,7 +361,7 @@ namespace CalamityFandom.Common.Debug
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
             }
             // Lot du 29/10 (3) : armes retirées en juin-juillet 2022, recettes du wiki ; Sylvan Slasher chez le Bandit
-            foreach (string name in new[] { "Crystal Blade", "Temporal Floe Sword", "Marnite Spear", "Sylvan Slasher", "Animus", "Blade of Enmity", "Brimlash Buster", "Phoenix Blade" })
+            foreach (string name in new[] { "Crystal Blade", "Temporal Floe Sword", "Marnite Spear", "Sylvan Slasher", "Animus", "Blade of Enmity", "Brimlash Buster", "Phoenix Blade", "Trinity", "Fulguration Halberd", "Mariana", "Aquatic Dissolution" })
             {
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");

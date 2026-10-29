@@ -413,6 +413,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       curseur (il se divise), soit quatre traits autour du joueur (gauche, droite, diagonales hautes)
 - [ ] **Phoenix Blade** : tuer un ennemi le fait exploser (On Fire! autour) et laisse deux flammes qui rendent 10 PV au
       contact et disparaissent après ~3 s ou sur un bloc
+- [ ] **Trinity** : 4 traits de gemme de la même couleur (rouge, bleu ou violet) qui s'arrêtent au premier ennemi ou bloc ;
+      **Fulguration Halberd** : épée au clic gauche, lance au clic droit, Burning Blood
+- [ ] **Mariana** : chaque coup fait éclater 4 ou 5 bulles qui rebondissent partout, touchent 3 ennemis, vivent ~2 s ;
+      **Aquatic Dissolution** : 3 lances tombent au-dessus du curseur, traversent le sol 1 s puis rebondissent deux fois
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

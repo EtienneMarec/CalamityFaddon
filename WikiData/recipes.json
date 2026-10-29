@@ -52117,6 +52117,80 @@
    "page": "Recipes_Hardmode Anvil_register.txt"
   },
   {
+   "result": "Fulguration Halberd",
+   "amount": 1,
+   "stations": [
+    "Mythril Anvil"
+   ],
+   "ingredients": [
+    {
+     "items": [
+      "Any Adamantite Bar"
+     ],
+     "stack": 10
+    },
+    {
+     "items": [
+      "Crystal Shard"
+     ],
+     "stack": 10
+    }
+   ],
+   "page": "Recipes_Hardmode Anvil_register.txt"
+  },
+  {
+   "result": "Mariana",
+   "amount": 1,
+   "stations": [
+    "Mythril Anvil"
+   ],
+   "ingredients": [
+    {
+     "items": [
+      "Chlorophyte Claymore"
+     ],
+     "stack": 1
+    },
+    {
+     "items": [
+      "Coral"
+     ],
+     "stack": 3
+    },
+    {
+     "items": [
+      "Starfish"
+     ],
+     "stack": 3
+    },
+    {
+     "items": [
+      "Seashell"
+     ],
+     "stack": 3
+    },
+    {
+     "items": [
+      "Depth Cells"
+     ],
+     "stack": 10
+    },
+    {
+     "items": [
+      "Lumenyl"
+     ],
+     "stack": 10
+    },
+    {
+     "items": [
+      "Tenebris"
+     ],
+     "stack": 5
+    }
+   ],
+   "page": "Recipes_Hardmode Anvil_register.txt"
+  },
+  {
    "result": "Apocalyptic Bar",
    "amount": 1,
    "stations": [

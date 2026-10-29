@@ -25,7 +25,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Animus
 - [ ] Aquarel Pistol — addon: Calamity: Tales of the Aquatic
 - [x] Aquatic Discharge
-- [ ] Aquatic Dissolution
+- [x] Aquatic Dissolution
 - [ ] Arkflammator — addon: Calamity: Tales of the Aquatic
 - [ ] Arngren — addon: Calamity: Community Remix
 - [ ] Aspect of the End — addon: Calamity: Community Remix
@@ -174,7 +174,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Frightshooter — addon: Calamity: Tales of the Aquatic
 - [ ] Frost Blade
 - [ ] Frostflow Edge — addon: Calamity: Tales of the Aquatic
-- [ ] Fulguration Halberd
+- [x] Fulguration Halberd
 - [ ] Gamma Ray Burst — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [ ] Garth
 - [ ] Gatling Laser
@@ -247,7 +247,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Mambel-Jambo
 - [x] Mandible Bow
 - [x] Mandible Claws
-- [ ] Mariana
+- [x] Mariana
 - [ ] Marked Magnum
 - [ ] Marnite Bayonet
 - [x] Marnite Spear
@@ -417,7 +417,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Totality Tides — addon: Calamity: Community Remix
 - [x] Toxic Wisdom
 - [x] Trash of Magnus
-- [ ] Trinity
+- [x] Trinity
 - [ ] Triploon
 - [ ] True Bloody Edge
 - [x] True Caliburn

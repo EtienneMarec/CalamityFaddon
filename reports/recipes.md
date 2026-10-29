@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1092 objets dont les recettes ont changé : 960 recettes modifiées, 197 créées
+- 1096 objets dont les recettes ont changé : 960 recettes modifiées, 201 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -84,6 +84,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Apoctosis Array | 1 Ion Blaster, 12 Solar Fragment @ LunarCraftingStation → 1 | 1 Ion Blaster, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Aquamarine Staff | 1 Amethyst Staff, 3 Conquest Fragment, 5 Sea Prism, 25 Navystone @ Anvils → 1 | 1 Amber Staff, 5 Sea Prism, 25 Sand Block @ Anvils → 1 |
 | Aquashard Shotgun | 1 Boomstick, 2 Aerialite Bar, 10 Sea Prism @ Anvils → 1 | 1 Boomstick, 10 Sea Prism, 15 Prism Shard, 2 Aerialite Bar, 5 Victide Bar @ Anvils → 1 |
+| Aquatic Dissolution | (nouvelle) | 1 Mariana, 1 Greentide, 1 Tarragon Bar, 5 Life Alloy, 5 Tenebris, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Aquatic Scourge | 1 Aquatic Scourge Trophy @ Bookcases → 1 | 1 Aquatic Scourge Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Arch Amaryllis | 1 Gleaming Magnolia, 12 Nebula Fragment @ LunarCraftingStation → 1 | 1 Gleaming Magnolia, 10 Nebula Fragment, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Archaic Powder | 1 Ancient Fossil, 1 Ancient Chisel, 3 Ancient Bone Dust, 10 Scorched Bone, 15 Bone @ Anvils → 1 | 1 Ancient Fossil, 1 Demonic Bone Ash, 3 Ancient Bone Dust, 15 Bone @ Anvils → 1 |
@@ -474,6 +475,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Frost Bolt | 20 Any Ice Block, 10 Any Snow Block, 2 Shiverthorn, 1 Sapphire @ Bookcases → 1 | 20 Any Ice Block, 2 Shiverthorn, 10 Any Snow Block, 1 Water Bucket @ Bookcases → 1 |
 | Frostcrush Valari | 1 Kylie, 6 Cryonic Bar, 5 Ectoplasm @ MythrilAnvil → 1 | 1 Kylie, 6 Cryonic Bar, 40 Voidstone, 5 Core of Eleum, 2 The sword is inside the core @ IceMachine → 1 |
 | Fuelplate | (nouvelle) | 1 Nightmare Fuel, 25 Obsidian @ CosmicAnvil → 50 |
+| Fulguration Halberd | (nouvelle) | 10 Any Adamantite Bar, 10 Crystal Shard @ MythrilAnvil → 1 |
 | Fungal Chunk | (nouvelle) | 20 Mushroom, 20 Glowing Mushroom, 20 Vicious Mushroom, 20 Vile Mushroom, 20 Teal Mushroom, 20 Green Mushroom @ BotanicPlanter → 1 |
 | Galactus Blade | 1 Star Wrath, 5 Life Alloy, 10 Divine Bar @ MythrilAnvil → 1 | 5 Galactica Singularity, 1 Star Wrath, 10 Divine Bar, 20 Soul of Might, 5 Luminite Bar, 1 Dark Shard, 1 Light Shard @ LunarCraftingStation → 1 |
 | Galaxia | 1 True Biome Blade, 1 Armored Shell, 1 Twisting Nether, 1 Dark Plasma @ MythrilAnvil → 1 | 1 True Biome Blade, 8 Cosmilite Bar, 8 Darksun Fragment, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
@@ -589,6 +591,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Mangrove Chakram | 10 Perennial Bar @ MythrilAnvil → 1 | 7 Perennial Bar, 12 Chlorophyte Bar, 1 Flower Pow @ MythrilAnvil → 1 |
 | Margarita | (nouvelle) | 5 Vodka, 20 Blood Orb, 1 Living Shard @ AlchemyTable → 5 |
 | Margarita | 10 Bottle, 1 Dark Shard, 10 Stardust @ Kegs → 10 | 5 Vodka, 1 Star Fruit, 1 Living Shard @ Kegs → 5 |
+| Mariana | (nouvelle) | 1 Chlorophyte Claymore, 3 Coral, 3 Starfish, 3 Seashell, 10 Depth Cells, 10 Lumenyl, 5 Tenebris @ MythrilAnvil → 1 |
 | Marksman Bow | 13 Ectoplasm @ MythrilAnvil → 1 | 31 Ectoplasm @ MythrilAnvil → 1 |
 | Marnite Obliterator | 1 Diamond, 3 Any Gold Bar, 5 Granite Block, 5 Marble Block @ Anvils → 1 | 5 Marble Block, 5 Granite Block, 3 Any Gold Bar @ Anvils → 1 |
 | Marnite Spear | (nouvelle) | 5 Any Gold Bar, 9 Granite Block, 9 Marble Block @ Anvils → 1 |
@@ -1080,6 +1083,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Tranquility Candle | 1 Peace Candle, 1 Zen Potion, 2 Essence of Eleum @ WorkBenches → 1 | 3 Torch, 3 Living Fire Block, 2 Copper Coin, 1 Water Candle @ WorkBenches → 1 |
 | Triactis' True Paladinian Mage-Hammer of Might | 1 Galaxy Smasher, 5 Shadowspec Bar, 5 Life Alloy @ DraedonsForge → 1 | 1 Galaxy Smasher, 30 Soul of Might, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Triboluminescent Etomer | 8 Any Gold Bar, 5 Prism Shard, 5 Scorched Bone @ Anvils → 1 | 5 Prism Shard, 8 Any Gold Bar, 1 Demonic Bone Ash @ Anvils → 1 |
+| Trinity | (nouvelle) | 1 Ice Blade, 8 Cryonic Bar, 4 Coyote Venom @ MythrilAnvil → 1 |
 | True Biome Blade | 1 Biome Blade, 18 Astral Bar, 6 Life Alloy, 3 Core of Calamity @ LunarCraftingStation → 1 | 1 Biome Blade, 1 Broken Hero Sword, 3 Astral Bar, 3 Life Alloy, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | True Caliburn | (nouvelle) | 1 Caliburn, 1 Broken Hero Sword @ MythrilAnvil → 1 |
 | True Caustic Edge | 1 Caustic Edge, 8 Cursed Flame or Ichor, 8 Spider Fang @ Anvils → 1 | 1 Caustic Edge, 5 Any Evil Flask, 5 Flask of Poison, 4 Deathweed @ DemonAltar → 1 |

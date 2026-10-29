@@ -469,7 +469,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   registre ne la contient (Brimlash Buster, Phoenix Blade), ou seul `Recipes_Historical_register` l'a, avec la station
   disparue Particle Accelerator (Blade of Enmity). On reprend la recette du code de 2022 (ingrédients et station), inscrite
   dans `Recipes_Hardmode Anvil_register` (Blade of Enmity, Phoenix Blade) et `Recipes_Ancient Manipulator_register`
-  (Brimlash Buster). Le registre historique reste ignoré par `gen_recipes.py`.
+  (Brimlash Buster). Le registre historique reste ignoré par `gen_recipes.py`. Même chose pour la **Fulguration Halberd**
+  et la **Mariana** (lot 5, `Recipes_Hardmode Anvil_register` ; Lumenite = Lumenyl, son nom affiché en 2022).
+- **[choix]** (29/10, lot 5) **Mariana** : la page passe avant le code (4 ou 5 bulles au lieu de 2 ou 3, 3 ennemis au lieu
+  d'un, ~2 s au lieu de 3) ; la tête chercheuse de l'ancien code est retirée, la page n'en parle pas (« travel for a long
+  distance »). **Aquatic Dissolution** : traverse les blocs pendant 1 s comme le dit la page (l'ancien code : 20 frames).
+  **Trinity** : les 4 traits ont la même couleur, tirée au hasard (ancien code), en dégâts de mêlée. **Fulguration
+  Halberd** : vrai corps à corps (`TrueMeleeDamageClass`) pour l'épée et la lance, immunité locale de 8 frames pour la lance.
 - **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
   1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
   comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet
