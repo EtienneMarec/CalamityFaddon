@@ -153,6 +153,9 @@ namespace CalamityFandom.Common.Shortstrike
         /// <summary>Projectile de Calamity par nom de classe ; « CalamityFandom/Nom » pour un des nôtres (portages homonymes).</summary>
         private static int ResolveProjectile(string name)
         {
+            // « Terraria/CursedFlameFriendly » : projectile vanilla
+            if (name.StartsWith("Terraria/"))
+                return ProjectileID.Search.TryGetId(name["Terraria/".Length..], out int vanilla) ? vanilla : -1;
             if (name.Contains('/'))
                 return ModContent.TryFind<ModProjectile>(name, out var own) ? own.Type : -1;
             return ModContent.TryFind<ModProjectile>("CalamityMod", name, out var proj) ? proj.Type : -1;

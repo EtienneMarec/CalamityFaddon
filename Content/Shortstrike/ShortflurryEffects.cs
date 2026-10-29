@@ -43,6 +43,10 @@ namespace CalamityFandom.Content.Shortstrike
             }
         }
 
+        /// <summary>Type de l'arme d'un clone (clone dessiné : ai[0] ; clone réel : ShortflurryRealClone).</summary>
+        private static int WeaponOf(Projectile clone) =>
+            clone.ModProjectile is ShortflurryClone ? (int)clone.ai[0] : clone.GetGlobalProjectile<ShortflurryRealClone>().WeaponType;
+
         public static void ModifyHit(Projectile clone, ShortstrikeData.Attack attack, NPC target, ref NPC.HitModifiers modifiers)
         {
             foreach (var effect in attack.Effects)
@@ -77,6 +81,21 @@ namespace CalamityFandom.Content.Shortstrike
                     case "cloud" when local:
                         Projectile.NewProjectile(clone.GetSource_FromThis(), target.Center, Vector2.Zero, ModContent.ProjectileType<ShortflurryCloud>(),
                             clone.damage / 4, 0f, clone.owner, effect.BuffType, (effect.Seconds ?? 3f) * 60);
+                        break;
+                    case "flurryBeam" when local:
+                        // Rayon qui part de l'ennemi touché, dans le prolongement du coup (ShortflurryBeam)
+                        Vector2 forward = (target.Center - owner.Center).SafeNormalize(Vector2.UnitX * owner.direction) * effect.Speed;
+                        Projectile.NewProjectile(clone.GetSource_FromThis(), target.Center, forward, ModContent.ProjectileType<ShortflurryBeam>(),
+                            clone.damage, clone.knockBack, clone.owner, WeaponOf(clone));
+                        break;
+                    case "verticalBeams" when effect.ProjectileType > 0 && local:
+                        // « vertical beams of holy light » : un rayon vers le haut et un vers le bas, depuis l'ennemi
+                        foreach (float sign in new[] { -1f, 1f })
+                        {
+                            var pillar = Projectile.NewProjectileDirect(clone.GetSource_FromThis(), target.Center, new Vector2(0f, 12f * sign),
+                                effect.ProjectileType, (int)(clone.damage * effect.DamageMult), 2f, clone.owner);
+                            pillar.DamageType = clone.DamageType;
+                        }
                         break;
                     case "vine" when local:
                         // 1 à 3 épines par coup, chacune dans une direction au hasard ([choix] du 28/10)

@@ -420,8 +420,16 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Shortsword de Calamity (infobulle identique ; la page True Caliburn dit encore « True Excalibur Shortsword »), portées
   avec **True Night's Stabber** et **Terra Shiv** : rayons horizontaux tirés à chaque estoc (ancien `Shoot` : vitesse de
   l'objet dans la direction du joueur), rayons de lame vanilla (Light Beam, Terra Beam), 7 frames entre deux coups sur un
-  même ennemi. **À faire** : effets de Shortflurry de ces armes (rayons qui soignent, tirent des boules maudites, se
-  divisent et infligent Ichor : lignes non traduites de la page Shortstrike, `reports/shortstrike.md`).
+  même ennemi.
+- **[choix]** (nuit du 29/10) Effets de Shortflurry de ces armes (phrases de la page Shortstrike, en données dans
+  `tools/shortstrike_extra.json`) : « vertical beams of holy light » (Caliburn) = un rayon de la True Caliburn vers le
+  haut et un vers le bas depuis l'ennemi touché, moitié des dégâts ; « Hits spawn a beam » (True Caliburn, True Night's
+  Stabber, Terra Shiv) = rayon `ShortflurryBeam` qui part de l'ennemi touché dans le prolongement du coup, perce sans
+  fin, à la longueur de la page (20, 15, 30 blocs), avec l'image du rayon de l'arme ; en route : colonnes de lumière
+  tous les 4 blocs (True Caliburn, « as it travels » sans distance : [choix]), boules de feu maudites vanilla tous les
+  5 blocs (True Night's Stabber) ; « heals nearby players » = soigne le joueur qui l'a lancé ; Terra Shiv : 3 rayons à
+  ±25° au bout, moitié de la longueur, 20 % des dégâts, Ichor 20 s (durée de la page), +5 PV par coup. Projectiles
+  lâchés : moitié des dégâts du rayon.
 - **[à trancher]** Plague Hive : demande Alchemical Flask, que Calamity a remplacé par l'Alchemical Decanter
   (`[LegacyName]`) ; dépend de la décision sur les remplacements `[LegacyName]` (section 2).
 

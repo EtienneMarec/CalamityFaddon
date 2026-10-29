@@ -405,7 +405,8 @@ namespace CalamityFandom.Common.Debug
             // Effets écrits à la main (tools/shortstrike_extra.json → overrides) : projectiles et debuffs résolus
             // Galileo Gladius et Cosmic Shiv : effets propres à chaque mode (2.0.1.005 en Full Fandom, armes de Calamity sinon)
             foreach (var (weapon, type) in new[] { ("Galileo Gladius", FandomMode.IsFull ? "spawnOnStab" : "throwClone"), ("Cosmic Shiv", "spawnOnStab"),
-                ("Submarine Shocker", "cloud"), ("Spore Knife", "vine"), ("Sahara Slicers", FandomMode.IsFull ? null : "saharaQuiver") })
+                ("Submarine Shocker", "cloud"), ("Spore Knife", "vine"), ("Sahara Slicers", FandomMode.IsFull ? null : "saharaQuiver"),
+                ("Caliburn", "verticalBeams"), ("True Caliburn", "flurryBeam"), ("True Night's Stabber", "flurryBeam"), ("Terra Shiv", "flurryBeam") })
             {
                 if (type == null)
                     continue;
@@ -414,7 +415,7 @@ namespace CalamityFandom.Common.Debug
                 Expect(effect != null && (effect.Projectile == null || effect.ProjectileType > 0) && (effect.Name == null || effect.BuffType > 0)
                     && (effect.Rain == null || effect.RainType > 0), $"Shortflurry de {weapon} : effet {type} résolu");
                 if (effect?.Projectile != null)
-                    Expect(effect.Projectile.StartsWith("CalamityFandom/") == FandomMode.IsFull || weapon is "Submarine Shocker" or "Spore Knife" or "Sahara Slicers"
+                    Expect(effect.Projectile.StartsWith("CalamityFandom/") == FandomMode.IsFull || weapon is "Submarine Shocker" or "Spore Knife" or "Sahara Slicers" or "Caliburn" or "True Caliburn" or "True Night's Stabber" or "Terra Shiv"
                         || type == "throwClone", $"Shortflurry de {weapon} : projectile du bon mode ({effect.Projectile})");
             }
             // Full Fandom : Galileo Gladius et Cosmic Shiv tirent les projectiles portés de 2.0.1.005, la Spore Knife redevient une épée courte

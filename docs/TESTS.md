@@ -383,8 +383,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
   - [ ] **Caliburn** (ancienne Excalibur Shortsword) : estoc qui scintille ; **True Caliburn** (Caliburn + Broken Hero
         Sword) : chaque estoc tire un rayon violet à l'horizontale ; **True Night's Stabber** (Night's Stabber + Broken
         Hero Sword) : rayon vert ; **Terra Shiv** (les deux « True » + Living Shards) : lame verte qui perce trois fois.
-        Les rayons partent aussi des clones du Shortflurry ; leurs effets de Shortflurry propres (rayons qui soignent, se
-        divisent...) ne sont pas encore faits
+        Les rayons partent aussi des clones du Shortflurry. Shortflurry (29/10) : Caliburn, un coup fait jaillir un rayon
+        vers le haut et un vers le bas ; True Caliburn, un rayon de 20 blocs qui lâche des colonnes de lumière tous les 4
+        blocs ; True Night's Stabber, un rayon de 15 blocs qui perce tout, soigne de 5 PV par coup et lance des boules de
+        feu maudites tous les 5 blocs ; Terra Shiv, un rayon de 30 blocs qui se divise en 3 (20 % des dégâts), Ichor 20 s
+        et +5 PV par coup
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

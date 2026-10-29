@@ -365,11 +365,14 @@
     {
      "type": "damageReduction",
      "value": 0.05
+    },
+    {
+     "type": "verticalBeams",
+     "projectile": "CalamityFandom/ShortBeam",
+     "damageMult": 0.5
     }
    ],
-   "todo": [
-    "Hits spawn vertical beams of holy light"
-   ],
+   "todo": [],
    "text": "Hits spawn vertical beams of holy light<br/>Increases player damage reduction by 5%"
   },
   {
@@ -381,12 +384,17 @@
     {
      "type": "damageReduction",
      "value": 0.1
+    },
+    {
+     "type": "flurryBeam",
+     "projectile": "CalamityFandom/ShortBeam",
+     "value": 20,
+     "speed": 16,
+     "rain": "CalamityFandom/ShortBeam",
+     "spread": 4
     }
    ],
-   "todo": [
-    "Hits spawn a beam that creates vertical light beams as it travels",
-    "The beam lasts for 20 tiles"
-   ],
+   "todo": [],
    "text": "Hits spawn a beam that creates vertical light beams as it travels<br/>The beam lasts for 20 tiles<br/>Increases player damage reduction by 10%"
   },
   {
@@ -398,13 +406,18 @@
     {
      "type": "meleeSpeed",
      "value": 0.1
+    },
+    {
+     "type": "flurryBeam",
+     "projectile": "CalamityFandom/ShortNightBeam",
+     "value": 15,
+     "speed": 16,
+     "ai0": 5,
+     "rain": "Terraria/CursedFlameFriendly",
+     "spread": 5
     }
    ],
-   "todo": [
-    "Hits spawn an infinitely piercing beam that heals nearby players 5 health per hit",
-    "The beam also passively shoots cursed fireballs for every 5 tiles",
-    "The beam lasts for 15 tiles"
-   ],
+   "todo": [],
    "text": "Hits spawn an infinitely piercing beam that heals nearby players 5 health per hit<br/>The beam also passively shoots cursed fireballs for every 5 tiles<br/>The beam lasts for 15 tiles<br/>Increases player melee speed by 10%"
   },
   {
@@ -420,12 +433,20 @@
     {
      "type": "damageReduction",
      "value": 0.15
+    },
+    {
+     "type": "flurryBeam",
+     "projectile": "CalamityFandom/ShortTerraBeam",
+     "value": 30,
+     "speed": 16,
+     "count": 3,
+     "damageMult": 0.2,
+     "ai0": 5,
+     "name": "Ichor",
+     "seconds": 20
     }
    ],
-   "todo": [
-    "Hits spawn a 30 tile beam that splits into 3 more beams that deal 20% damage.",
-    "These beams inflict [[Ichor (debuff)|Ichor]] and healing 5 life per hit"
-   ],
+   "todo": [],
    "text": "Hits spawn a 30 tile beam that splits into 3 more beams that deal 20% damage.<br/>These beams inflict [[Ichor (debuff)|Ichor]] and healing 5 life per hit<br/>Increases player melee speed and damage reduction by 15%"
   },
   {
