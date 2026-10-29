@@ -727,6 +727,87 @@ Items: {
 			'''
 	}
 
+	WulfrumBlade: {
+		DisplayName: Wulfrum Blade
+		Tooltip: ""
+	}
+
+	WulfrumBow: {
+		DisplayName: Wulfrum Bow
+		Tooltip: ""
+	}
+
+	WulfrumStaff: {
+		DisplayName: Wulfrum Staff
+		Tooltip: Casts a wulfrum bolt
+	}
+
+	MarniteBayonet: {
+		DisplayName: Marnite Bayonet
+		Tooltip: The gun damages enemies that touch it
+	}
+
+	ChargedDartBlaster: {
+		DisplayName: Charged Dart Blaster
+		Tooltip:
+			'''
+			Fires a shotgun spread of darts and a splitting energy blast
+			Right click to fire a more powerful exploding energy blast that bounces
+			'''
+	}
+
+	Lazinator: {
+		DisplayName: Lazinator
+		Tooltip: Zap
+	}
+
+	AccelerationRound: {
+		DisplayName: Acceleration Round
+		Tooltip: Gains speed over time
+	}
+
+	CadancePotion: {
+		DisplayName: Cadance Potion
+		Tooltip:
+			'''
+			Gives the cadance buff which reduces spawn rates
+			Increases life regen and increases max life by 25%
+			Increases heart pickup range
+			While this potion's buff is active, Regeneration Potion and Lifeforce Potion buffs are disabled
+			'''
+	}
+
+	CrumblingPotion: {
+		DisplayName: Crumbling Potion
+		Tooltip:
+			'''
+			Increases melee and Spy critical strike chance by 5%
+			Melee and Spy attacks break enemy armor
+			'''
+	}
+
+	ShatteringPotion: {
+		DisplayName: Shattering Potion
+		Tooltip:
+			'''
+			Increases melee and Spy damage and critical strike chance by 8%
+			Melee and Spy attacks break enemy armor
+			While this potion's buff is active the Crumbling Potion's buff is disabled
+			'''
+	}
+
+	FrigidBulwark: {
+		DisplayName: Frigid Bulwark
+		Tooltip:
+			'''
+			Absorbs 25% of damage done to players on your team
+			Only active above 25% life
+			Grants immunity to knockback
+			Puts a shell around the owner when below 50% life that reduces damage
+			The shell becomes more powerful when below 15% life and reduces damage even further
+			'''
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -984,6 +1065,9 @@ Projectiles: {
 	LuminousStrikerProj.DisplayName: Luminous Striker
 	LuminousShard.DisplayName: Stardust Shard
 	LegacyReaperProjectile.DisplayName: The Reaper
+	AccelerationRoundProj.DisplayName: Acceleration Round
+	ChargedBlast3.DisplayName: Charged Blast
+	ChargedDartExplosion.DisplayName: Explosion
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash
@@ -1050,6 +1134,21 @@ Elements: {
 }
 
 Buffs: {
+	Cadance: {
+		DisplayName: Cadance
+		Description: Your heart is pure
+	}
+
+	ArmorCrumbling: {
+		DisplayName: Armor Crumbling
+		Description: Melee and Spy attacks break enemy armor
+	}
+
+	ArmorShattering: {
+		DisplayName: Armor Shattering
+		Description: Melee and Spy attacks break enemy armor
+	}
+
 	AncientAstralBlight: {
 		DisplayName: Ancient Astral Blight
 		Description: An ancient cosmic affliction spreads through you

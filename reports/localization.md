@@ -2,7 +2,7 @@
 
 _Généré par `tools/gen_localization.py`._
 
-351 textes modifiés, dont 235 noms.
+352 textes modifiés, dont 236 noms.
 
 Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, Realm Ravager, going rogue, goes rogue, gone rogue, went rogue, go rogue.
 
@@ -112,6 +112,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.SummonItems.MarkofProvidence.DisplayName` | Mark of Providence | Rune of Kos |
 | `Buffs.MarkedforDeath.DisplayName` | Marked for Death | Marked |
 | `Items.Tools.MarniteDeconstructor.DisplayName` | Marnite Deconstructor | Marnite Spear |
+| `Items.Accessories.MarniteRepulsionShield.DisplayName` | Marnite Repulsion Shield | Marnite Bayonet |
 | `Items.SummonItems.MartianDistressRemote.DisplayName` | Martian Distress Remote | Martian Distress Beacon |
 | `Items.Weapons.Melee.MawOfInfinity.DisplayName` | Maw of Infinity | Excelsus |
 | `Items.Weapons.Melee.Murasama.DisplayName` | Murasama | Graydron |

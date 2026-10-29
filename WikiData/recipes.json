@@ -52293,6 +52293,40 @@
    "page": "Recipes_Hardmode Anvil_register.txt"
   },
   {
+   "result": "Frigid Bulwark",
+   "amount": 1,
+   "stations": [
+    "Mythril Anvil"
+   ],
+   "ingredients": [
+    {
+     "items": [
+      "Paladin's Shield"
+     ],
+     "stack": 1
+    },
+    {
+     "items": [
+      "Frozen Turtle Shell"
+     ],
+     "stack": 1
+    },
+    {
+     "items": [
+      "Mollusk Husk"
+     ],
+     "stack": 5
+    },
+    {
+     "items": [
+      "Core of Eleum"
+     ],
+     "stack": 5
+    }
+   ],
+   "page": "Recipes_Hardmode Anvil_register.txt"
+  },
+  {
    "result": "Apocalyptic Bar",
    "amount": 1,
    "stations": [

@@ -73,7 +73,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Cent Striker — addon: Calamity: Tales of the Aquatic
 - [ ] Chain Spear — addon: Calamity: Community Remix
 - [ ] Chain-Saw — addon: Polyphemalus
-- [ ] Charged Dart Blaster
+- [x] Charged Dart Blaster
 - [ ] Charity — addon: Calamity: Tales of the Aquatic
 - [ ] Chemicircle — addon: Calamity: Tales of the Aquatic
 - [ ] Chilled Soda Blade — addon: Calamity: Community Remix
@@ -233,7 +233,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Lacescent Pistol — addon: Calamity: Tales of the Aquatic
 - [x] Latcher Mine
 - [x] Lazhar
-- [ ] Lazinator
+- [x] Lazinator
 - [ ] Lead Wizard
 - [x] Leeching Dagger
 - [ ] Li'l Mine — addon: Calamity: Community Remix
@@ -249,7 +249,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Mandible Claws
 - [x] Mariana
 - [x] Marked Magnum
-- [ ] Marnite Bayonet
+- [x] Marnite Bayonet
 - [x] Marnite Spear
 - [ ] Megaskeet — addon: Apotheosis and Friends
 - [ ] Meridian — addon: Calamity: Community Remix
@@ -463,12 +463,12 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Wreath of Belial — addon: Calamity: Community Remix
 - [ ] Wrecking Ball
 - [ ] Wrenching whip
-- [ ] Wulfrum Blade
-- [ ] Wulfrum Bow — addon: Calamity: Community Remix
+- [x] Wulfrum Blade
+- [x] Wulfrum Bow — addon: Calamity: Community Remix
 - [ ] Wulfrum Fusion Array — addon: Calamity: Community Remix
 - [x] Wulfrum Leech Dagger
 - [ ] Wulfrum Shock Cutter — addon: Calamity: Community Remix
-- [ ] Wulfrum Staff — addon: Calamity: Community Remix
+- [x] Wulfrum Staff — addon: Calamity: Community Remix
 - [ ] XB-∞ Hekate — addon: Calamity: Community Remix
 - [ ] Xemilumeniscent Staff — addon: Tranquility Mod
 - [ ] Xenon Cutlass — addon: Calamity: Community Remix
@@ -671,7 +671,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Fancy Flesh Skull — addon: Calamity: Tales of the Aquatic
 - [ ] Fathomless Soul Artifact
 - [ ] Ferro Claws
-- [ ] Frigid Bulwark
+- [x] Frigid Bulwark
 - [x] Fungal Carapace
 - [x] Gehenna
 - [ ] Ghast Relic — addon: Calamity: Tales of the Aquatic
@@ -1011,7 +1011,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Ashes of the Sunken Sea — addon: Calamity: Community Remix
 - [ ] Bagel Nuts
 - [x] Barolegs
-- [ ] Cadance Potion
+- [x] Cadance Potion
 - [ ] Calamitas' Brew
 - [x] Calamitea
 - [x] Carnal Corn
@@ -1023,7 +1023,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Coco's Feather — addon: Deimos, the Starborn Princess
 - [ ] Cookie Bunny — addon: Calamity: Community Remix
 - [x] Crimtato — addon: Calamity: Community Remix
-- [ ] Crumbling Potion
+- [x] Crumbling Potion
 - [ ] Demon Potion
 - [ ] Demon Trophy — addon: Calamity: Community Remix
 - [ ] Draconic Elixir
@@ -1052,7 +1052,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Revivify Potion
 - [ ] SAUS — addon: Calamity: Community Remix
 - [ ] Sacred Meat — pas de sprite
-- [ ] Shattering Potion
+- [x] Shattering Potion
 - [x] Slagspitter Pauldron — addon: Deimos, the Starborn Princess, Calamity: Community Remix
 - [ ] Stamina of the Vengeful — addon: Catalyst
 - [ ] Stratus Beverage
@@ -1311,7 +1311,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 ## Ammunition (23)
 
 - [ ] 22 Hornet Round — addon: Calamity: Community Remix, Polyphemalus
-- [ ] Acceleration Round
+- [x] Acceleration Round
 - [ ] Arctic Arrow
 - [ ] Cosmilite Coin — addon: Calamity: Community Remix
 - [ ] Enhanced Nano Round

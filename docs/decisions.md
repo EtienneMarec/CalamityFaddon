@@ -554,6 +554,14 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (`ToxicannonDrop`) ; TODO coffres rouillés ; **Alchemical Flask** : effet de la page (Plague sur le porteur, +2 %
   de dégâts), pas celui de 2022 ; **Red Bow** : absent du code de 2.0.1.005 (déjà le Ghost Bracelet), recréé d'après
   la page (+10 discrétion max, +3 défense, aggro -200, pêche dans le Dungeon avant Skeletron, 1 chance sur 20).
+- **[choix]** (31/10) Objets retirés ou remplacés par un objet que le wiki connaît aussi, dans les deux modes :
+  **Wulfrum Blade / Bow / Staff** (Bow 11 dégâts de la page), **Lazinator** (lasers vanilla, 3 contacts, le vert à
+  95 % de vitesse), **Charged Dart Blaster** (trait de Calamity `ChargedBlast` ; clic droit porté, `ChargedBlast3`),
+  **Acceleration Round** (accélération plafonnée à 20 mises à jour), **Cadance Potion** (spawn -56 % = intervalle
+  ÷ 0,44, max ×0,56 ; Heartreach = portée des cœurs), **Crumbling Potion** (page existante, ingrédient de la Shattering)
+  et **Shattering Potion** (Armor Crunch 2, 4 ou 6 s au hasard ; « Spy » = rogue), **Frigid Bulwark** (Paladin's Shield
+  et Ice Barrier vanilla ; -5 % de plus sous 15 % de vie ; recette de 2022 ajoutée à notre wiki). **Marnite Bayonet** :
+  dans `replacements` (le Marnite Repulsion Shield n'a pas de page).
 - **[technique]** (29/10, lot 9) **Arcanum of the Void** mis de côté : la page décrit une barrière du vide qui explose
   en énergie sombre à tête chercheuse ; le code de 2022 renvoyait les projectiles. Effet inventé ou refait, à trancher.
 - **[choix]** (29/10, lot 10) **Dualpoon**, **Triploon** : code de 2022 en une base commune (`MultiHarpoon`) ; recettes

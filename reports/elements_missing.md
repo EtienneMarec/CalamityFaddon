@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (410)
+## Objets (404)
 
 - A M S
 - AAMG "Disperse"
@@ -219,7 +219,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Cent Striker
 - Chain Spear
 - Chain-Saw
-- Charged Dart Blaster
 - Charity
 - Chemicircle
 - Chilled Soda Blade
@@ -362,7 +361,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Lacelinous Nocturne
 - Lacescent Pistol
 - Large Father
-- Lazinator
 - Li'l Mine
 - Lightning Hawk
 - Lithos Pickaxe
@@ -372,7 +370,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Magnum
 - Majestic Gar
 - Mambel-Jambo
-- Marnite Bayonet
 - Megaskeet
 - Meridian
 - Midas' Handshake
@@ -559,11 +556,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Wrath of the Gods
 - Wreath of Belial
 - Wrecking Ball
-- Wulfrum Blade
-- Wulfrum Bow
 - Wulfrum Fusion Array
 - Wulfrum Shock Cutter
-- Wulfrum Staff
 - XB-∞ Hekate
 - Xenon Cutlass
 - Yanmei's Knife

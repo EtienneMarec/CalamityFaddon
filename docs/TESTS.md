@@ -477,6 +477,13 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       **Warbanner of the Sun** (Profaned Guardians ; +20 % mêlée au contact des ennemis, animé, ballon porté), **Rusty
       Medallion** (tirs à distance : parfois 3 gouttes d'acide du ciel), **Alchemical Flask** (Plague sur soi, +2 % de
       dégâts), **Red Bow** (pêché dans le Dungeon avant Skeletron : +10 discrétion, +3 défense, moins d'aggro)
+- [ ] (31/10) Dans les deux modes : **Wulfrum Blade / Bow / Staff** (à côté du Wulfrum Screwdriver, Blunderbuss,
+      Prosthesis), **Lazinator** (lasers violets ou verts qui traversent 2 ennemis), **Charged Dart Blaster** (gerbe de
+      fléchettes + trait qui se divise ; clic droit : trait rebondissant qui explose, Plague), **Acceleration Round**
+      (balle qui accélère), **Cadance Potion** (+25 % vie max, +5 régénération, moins d'ennemis, Regeneration et Lifeforce
+      bloqués), **Crumbling / Shattering Potion** (Armor Crunch en mêlée et spy, +5 / +8 %), **Frigid Bulwark** (+13
+      défense, pas de recul, protège l'équipe au-dessus de 25 % de vie, Ice Barrier sous 50 %). **Marnite Bayonet** :
+      Full Fandom (le canon blesse au contact) ; Calamity++ : le Marnite Repulsion Shield s'appelle « Marnite Bayonet »
 - [ ] (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
       Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
