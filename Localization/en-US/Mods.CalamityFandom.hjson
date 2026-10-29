@@ -53,6 +53,20 @@ Items: {
 			'''
 	}
 
+	SeaboundStaff: {
+		DisplayName: Seabound Staff
+		Tooltip: Summons a brittle star to fight for you
+	}
+
+	EffluviumBow: {
+		DisplayName: Effluvium Bow
+		Tooltip:
+			'''
+			Fires two arrows at once
+			Converts wooden arrows into mist arrows
+			'''
+	}
+
 	Regenator: {
 		DisplayName: Regenator
 		Tooltip: Reduces max HP by 50% but greatly improves life regeneration
@@ -313,6 +327,11 @@ Items: {
 	EnergyStaff: {
 		DisplayName: Energy Staff
 		Tooltip: Summons a profaned energy turret to fight for you
+	}
+
+	Starfall: {
+		DisplayName: Starfall
+		Tooltip: Casts a spread of astral blight stars at the mouse cursor
 	}
 
 	StormDragoon: {

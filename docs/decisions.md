@@ -97,11 +97,13 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
   Cleansing Jelly) : **Full Fandom** = notre portage (2022, ce que décrit le wiki), l'objet actuel masqué ;
   **Calamity++** = l'objet actuel sous le nom du wiki, notre portage masqué (`plusHidden` de `WikiData/baseline.json`).
   **[technique]** La recherche par nom (recettes, butin...) passe l'objet masqué dans le mode en cours après son homonyme.
-- **[validé 28/10]** Portages **fusionnés** avec l'objet actuel parce qu'ils sont identiques (même projectile ou sbire,
-  stats proches) : Starfall = Star Shower, Seabound Staff = Brittle Star Staff, Effluvium Bow = Hoarfrost Bow. Plus de
-  portage : l'objet de Calamity sous le nom du wiki dans les deux modes, avec les stats de l'infobox en Full Fandom.
-  Gardés en double (vraies refontes, ou Night's Gaze et son Moon Burnt) : Night's Gaze, Solar Flare, Storm Spray, Shock
-  Grenade, Energy Staff, Regenator, Mana Jelly, Amidias' Spark, Corroslime Staff.
+- **[validé 29/10, annule la fusion du 28/10]** Starfall, Seabound Staff et Effluvium Bow avaient été fusionnés le
+  28/10 avec Star Shower, Brittle Star Staff et Hoarfrost Bow, présentés à tort comme identiques : Calamity les a refaits
+  après 2.0.1.005 (`docs/DIFF_FANDOM.md`). Les portages sont rétablis et suivent la règle commune : **Full Fandom** = notre
+  portage (version 2.0.1.005 décrite par le wiki), l'arme actuelle masquée ; **Calamity++** = l'arme actuelle sous le nom
+  du wiki, le portage masqué. Tous les portages d'objets renommés sont donc en double : Night's Gaze, Starfall, Seabound
+  Staff, Effluvium Bow, Solar Flare, Storm Spray, Shock Grenade, Energy Staff, Regenator, Mana Jelly, Amidias' Spark,
+  Corroslime Staff.
 - **[technique]** Les stats d'une page renommée s'appliquent à l'objet actuel ; 9 écarts extrêmes viennent d'objets
   refaits (Taser 998 dégâts au wiki contre 11, Deathhail Staff 328 contre 4100...) : Full Fandom seulement en attendant
   (`reports/stats.md`, à trancher).

@@ -51,7 +51,7 @@ Relancer : `python tools/old_tooltips.py`, `python tools/old_strings.py`, `pytho
 
 ## À traiter (découvertes de la revue)
 
-1. **Fusion du 28/10 à revoir** : Starfall, Seabound Staff et Effluvium Bow n'étaient pas identiques aux armes
+1. **Fusion du 28/10 annulée le 29/10** (portages rétablis en Full Fandom) : Starfall, Seabound Staff et Effluvium Bow n'étaient pas identiques aux armes
    actuelles. Calamity les a renommées (Star Shower, Brittle Star Staff, Hoarfrost Bow) **puis refaites** après
    2.0.1.005 (Brittle Star Staff : étoiles qui se brisent, orbite qui donne de la défense ; Star Shower : étoiles
    tombées du ciel ; Hoarfrost Bow : brumes qui se divisent). Le Fandom décrit les versions 2.0.1.005, que nos portages

@@ -245,9 +245,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] Calamity++ : la **Vega** s'appelle **Night's Gaze** (c'est elle qui est utilisée) ; notre ancienne version n'a plus de
       recette ; Full Fandom : c'est notre Night's Gaze de 2022, la Vega est masquée. Idem Star Shower → Starfall, Burning
       Revelation → Solar Flare, Sandstream Scepter → Storm Spray, Doomsday Device → Shock Grenade...
-- [x] (28/10) **Starfall**, **Seabound Staff** et **Effluvium Bow** n'existent plus qu'une fois (l'objet de Calamity sous ce
-      nom, dans les deux modes) ; en Full Fandom ils ont les stats du wiki ; le Desert Scourge lâche toujours le Seabound
-      Staff. (Une ancienne version déjà dans l'inventaire devient un objet déchargé.)
+- [ ] (29/10, fusion du 28/10 annulée) **Starfall**, **Seabound Staff** et **Effluvium Bow** en Full Fandom : nos portages
+      (Starfall : 5 étoiles tombent sur le curseur ; Seabound Staff : une étoile de mer sbire ; Effluvium Bow : 2 flèches,
+      flèches en bois → Mist Arrow), Star Shower / Brittle Star Staff / Hoarfrost Bow introuvables ; le Desert Scourge lâche
+      notre Seabound Staff. En Calamity++ : les armes actuelles de Calamity sous ces noms, nos portages introuvables.
 - [x] Crimulan Paladin / Ebonian Paladin s'appellent Crimulan / Ebonian Slime God
 - [x] Calamitas Clone s'appelle **Calamitas**, Cataclysmic Construct **Cataclysm**, Signus **Signus, Envoy of the Devourer**
 - [x] La Silva Basin s'appelle **Effulgent Manipulator** et fabrique les meubles Silva
@@ -411,9 +412,6 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       une explosion et une **parade au clic droit**, en conflit avec le Shortflurry comme le lancer du Galileo),
       **Microcell Cut** (addon Calamity: Tales of the Aquatic), **Elemental Shiv** et **Lucrecia** (armes refaites ou
       remplacées par Calamity : Lightspeed). À porter, et comment ?
-- [ ] (29/10, revue Fandom / wiki officiel, `docs/DIFF_FANDOM.md`) Starfall, Seabound Staff et Effluvium Bow ont été
-      refaits par Calamity après 2.0.1.005 : la fusion du 28/10 leur a fait perdre en Full Fandom le fonctionnement
-      décrit par le wiki. Les rétablir (portages ou ancien fonctionnement sur l'arme de Calamity, comme le Galileo) ?
 - [ ] (29/10) Disgusting Meat et Ha-pu Fruit : objets inventés par le Fandom, homonymes d'objets créés plus tard par
       Calamity. En Full Fandom, objet du Fandom à la place de celui de Calamity ?
 - [ ] (29/10) Divine Intervention : épée inventée que l'index relie à tort au projectile HolyFlame ; à créer ?

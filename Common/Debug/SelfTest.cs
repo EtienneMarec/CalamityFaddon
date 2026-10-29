@@ -305,11 +305,10 @@ namespace CalamityFandom.Common.Debug
             // Contenu porté depuis Calamity 2.0.1.005 : trouvable par son nom du wiki, intégré aux recettes du wiki.
             // Portages d'objets que Calamity a seulement renommés ou refaits (décision du 23/10) : notre version en Full
             // Fandom, l'objet actuel de Calamity (sous le nom du wiki) dans les autres modes
-            var replacedByCalamity = new HashSet<string> { "Night's Gaze", "Regenator", "Storm Spray",
-                "Solar Flare", "Corroslime Staff", "Shock Grenade", "Mana Jelly", "Amidias' Spark", "Energy Staff" };
-            // Portages identiques à l'objet actuel, fusionnés le 28/10 : l'objet de Calamity dans les deux modes
-            var mergedIntoCalamity = new HashSet<string> { "Seabound Staff", "Effluvium Bow", "Starfall" };
-            string ExpectedOwner(string name) => mergedIntoCalamity.Contains(name) || replacedByCalamity.Contains(name) && !FandomMode.IsFull ? "CalamityMod" : Mod.Name;
+            // (Starfall, Seabound Staff, Effluvium Bow : fusionnés le 28/10 par erreur, rétablis le 29/10)
+            var replacedByCalamity = new HashSet<string> { "Night's Gaze", "Seabound Staff", "Effluvium Bow", "Regenator", "Storm Spray",
+                "Solar Flare", "Corroslime Staff", "Shock Grenade", "Mana Jelly", "Amidias' Spark", "Energy Staff", "Starfall" };
+            string ExpectedOwner(string name) => replacedByCalamity.Contains(name) && !FandomMode.IsFull ? "CalamityMod" : Mod.Name;
             int gaze = WikiRecipes.ResolveItem("Night's Gaze");
             Expect(gaze > 0 && ItemLoader.GetItem(gaze)?.Mod.Name == ExpectedOwner("Night's Gaze"),
                 $"Night's Gaze : {ItemLoader.GetItem(gaze)?.FullName} ({ExpectedOwner("Night's Gaze")} attendu)");
@@ -331,7 +330,7 @@ namespace CalamityFandom.Common.Debug
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod.Name == ExpectedOwner(name), $"{name} : {ItemLoader.GetItem(type)?.FullName} ({ExpectedOwner(name)} attendu)");
             }
-            // Seabound Staff = l'arme de Calamity depuis la fusion du 28/10 : déjà dans le butin du Desert Scourge, rien à ajouter
+            // Full Fandom : notre Seabound Staff (butin du wiki) dans la table du Desert Scourge
             if (FandomMode.IsFull && ModContent.TryFind<ModNPC>("CalamityMod", "DesertScourgeHead", out var desertScourge))
             {
                 int seabound = WikiRecipes.ResolveItem("Seabound Staff");
