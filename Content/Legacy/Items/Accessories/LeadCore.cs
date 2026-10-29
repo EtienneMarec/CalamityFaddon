@@ -1,4 +1,7 @@
 // Adapté de Calamity Mod (retiré le 09/04/2022, commit b3837f516b), © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
+// SPDX-FileCopyrightText: Azafure, LLC
+// SPDX-FileCopyrightText: 2026 Etienne Marec (adaptation)
+// SPDX-License-Identifier: LicenseRef-Calamity
 using CalamityMod.Buffs.StatDebuffs;
 using Terraria;
 using Terraria.ID;

@@ -1,4 +1,7 @@
 // Adapté de Calamity Mod (retiré le 11/06/2022, commit b8296cc94a), © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
+// SPDX-FileCopyrightText: Azafure, LLC
+// SPDX-FileCopyrightText: 2026 Etienne Marec (adaptation)
+// SPDX-License-Identifier: LicenseRef-Calamity
 using CalamityFandom.Content.Legacy.Buffs.StatDebuffs;
 using CalamityMod;
 using Microsoft.Xna.Framework;

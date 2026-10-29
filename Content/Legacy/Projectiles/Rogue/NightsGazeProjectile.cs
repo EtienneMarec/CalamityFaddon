@@ -1,4 +1,7 @@
 // Adapté de Calamity Mod 2.0.1.005, © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
+// SPDX-FileCopyrightText: Azafure, LLC
+// SPDX-FileCopyrightText: 2026 Etienne Marec (adaptation)
+// SPDX-License-Identifier: LicenseRef-Calamity
 using System;
 using CalamityMod;
 using CalamityMod.Buffs.DamageOverTime;

@@ -1,4 +1,7 @@
 // Adapté de Calamity Mod (retiré le 11/06/2022, commit 186ddd241f), © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
+// SPDX-FileCopyrightText: Azafure, LLC
+// SPDX-FileCopyrightText: 2026 Etienne Marec (adaptation)
+// SPDX-License-Identifier: LicenseRef-Calamity
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;

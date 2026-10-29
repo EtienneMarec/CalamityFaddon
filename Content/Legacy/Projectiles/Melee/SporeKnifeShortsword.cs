@@ -1,4 +1,7 @@
 // Adapté de Calamity Mod (Spore Knife de mêlée, retirée en juin 2022 puis refaite en arme rogue), © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
+// SPDX-FileCopyrightText: Azafure, LLC
+// SPDX-FileCopyrightText: 2026 Etienne Marec (adaptation)
+// SPDX-License-Identifier: LicenseRef-Calamity
 using CalamityMod;
 using CalamityMod.Projectiles.BaseProjectiles;
 using Microsoft.Xna.Framework;

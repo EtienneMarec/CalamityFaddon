@@ -1,4 +1,7 @@
 // Adapté de Calamity Mod (objets retirés en 2022), © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
+// SPDX-FileCopyrightText: Azafure, LLC
+// SPDX-FileCopyrightText: 2026 Etienne Marec (adaptation)
+// SPDX-License-Identifier: LicenseRef-Calamity
 using CalamityFandom.Content.Legacy.Buffs.StatDebuffs;
 using CalamityMod;
 using CalamityMod.CalPlayer;

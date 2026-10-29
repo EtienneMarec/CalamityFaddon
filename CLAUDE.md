@@ -70,7 +70,9 @@ Tester les trois couches : `python tools/selftest.py --mode all`. Référence «
    jamais compilé) et `PORTAGE.md` (classes référencées : encore dans Calamity → réutiliser, retirées → porter aussi).
 3. Porter dans `Content/Legacy/` (même arborescence que Calamity) ; en tête de chaque fichier :
    `// Adapté de Calamity Mod 2.0.1.005, © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic`
-   (exigé par la licence ; les sprites restent propriété d'Azafure, voir `docs/MODES.md`).
+   puis `// SPDX-FileCopyrightText: Azafure, LLC`, `// SPDX-FileCopyrightText: 2026 Etienne Marec (adaptation)`,
+   `// SPDX-License-Identifier: LicenseRef-Calamity` (exigé par la licence ; les sprites restent propriété d'Azafure,
+   voir `LICENSE.md`).
 4. API à moderniser : `DisplayName/Tooltip.SetDefault` → hjson (le nom anglais exact du wiki, indispensable pour la
    résolution par nom) ; `SacrificeTotal` → `Item.ResearchUnlockCount` ; `OnHitNPC(NPC, NPC.HitInfo, int)` ;
    `OnHitPvp` → `OnHitPlayer(Player, Player.HurtInfo)` ; `Kill` → `OnKill` ; membres `internal` de Calamity
@@ -156,6 +158,11 @@ Calamity++ diffèrent : `{{mode|valeur Full Fandom|valeur Calamity++}}` (`docs/W
 
 ## Conventions
 
+- **Licences** (`LICENSE.md`, `REUSE.toml`, `LICENSES/`) : notre code est en GPL v3 ou ultérieure par défaut, sans
+  en-tête. Tout code repris d'un autre projet garde sa licence et son copyright dans un en-tête SPDX. Exemples :
+  `SPDX-License-Identifier: GPL-3.0-or-later` (Calamity Hunt, Everquartz' Adventure), `MIT` (Cataclysm, Infernum,
+  Fargo's Souls), `LicenseRef-Calamity` (Calamity). Jamais de code de CalRemix ni de Wrath of the Gods (sans licence) :
+  inspiration seulement. Nouveau dossier de contenu tiers : l'ajouter à `REUSE.toml`.
 - Namespace racine `CalamityFandom`, sous-dossiers `Content/` (nouveau contenu) et `Common/` (systèmes, Global*,
   modifications de Calamity). Commentaires en français, identifiants en anglais (nom de la page sans espaces).
 - Localisation dans `Localization/en-US/` ; le nom affiché = titre exact de la page du wiki.

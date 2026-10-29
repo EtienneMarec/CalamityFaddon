@@ -655,11 +655,20 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
     Fargo Team) : code réutilisable en gardant la
     mention de copyright et la licence MIT dans le fichier repris. Vérifier les sprites un par un : les artistes ne
     sont pas forcément couverts.
-  - **CalamityHunt** et **EverquartzAdventure** (GPL v3) : copier leur code obligerait à distribuer notre mod sous
-    GPL v3, ce qui semble incompatible avec le code repris de Calamity (propriétaire). En attendant de trancher :
-    **inspiration seulement**, réécriture sans copie.
+  - **CalamityHunt** et **EverquartzAdventure** (GPL v3) : code réutilisable (décision ci-dessous).
   - **CalRemix** et **WrathOfTheGodsPublic** : aucune licence dans le dépôt, donc tous droits réservés par défaut :
     **inspiration seulement**.
+- **[validé 29/10]** Licences du dépôt séparées fichier par fichier (`LICENSE.md`, `REUSE.toml`, `LICENSES/`) :
+  - notre code : **GPL v3 ou ultérieure** ;
+  - code repris : sa licence d'origine (GPL v3 pour Calamity Hunt et Everquartz' Adventure, MIT, ou
+    `LicenseRef-Calamity` pour le code d'Azafure dans `Content/Legacy/`, avec en-têtes SPDX) ;
+  - wiki : **CC BY-NC-SA 3.0**, d'après la page « Calamity Mod Wiki:Copyrights » du Fandom. Elle interdit l'usage
+    commercial, ce qui ne pose pas de problème pour un mod gratuit.
+
+  **À revoir plus tard** (reporté par l'utilisateur) :
+  - le mod compilé réunit dans une seule DLL du code GPL et du code adapté de Calamity, que la GPL ne permet pas de
+    combiner tel quel ;
+  - les sprites de Calamity et du wiki, qu'aucune licence ne permet de redistribuer.
 - **[validé 29/10]** Contenu sans page ou à page vide (objet seulement cité, page sans contenu) : en Full Fandom,
   probablement absent, ou un objet sans effet. En **Calamity++**, on crée du vrai contenu (« plus de contenu = plus
   cool »). C'est à décider au cas par cas avec l'utilisateur, selon `docs/MODES.md`.

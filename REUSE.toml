@@ -1,0 +1,54 @@
+# Licences par fichier (spécification REUSE : https://reuse.software). Textes des licences : LICENSES/.
+# Un en-tête SPDX dans un fichier passe avant ce tableau ; quand plusieurs annotations couvrent un fichier, la dernière
+# l'emporte. Vérification : `reuse lint` (outil à installer à part, `pipx install reuse`).
+version = 1
+
+# Par défaut : notre code et nos fichiers
+[[annotations]]
+path = "**"
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Etienne Marec"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+# Wiki Calamity Mod sur Fandom (CC BY-NC-SA 3.0, page « Calamity Mod Wiki:Copyrights ») ; notre wiki en est une
+# version modifiée, donc sous la même licence (ShareAlike)
+[[annotations]]
+path = ["fandom_dump_txt/**", "fandom_dump_extra/**", "wiki/**"]
+precedence = "closest"
+SPDX-FileCopyrightText = "Contributeurs du wiki Calamity Mod (calamitymod.fandom.com)"
+SPDX-License-Identifier = "CC-BY-NC-SA-3.0"
+
+# Textes et données tirés du wiki (noms, infobulles, stats, recettes, butin) mêlés à notre travail
+[[annotations]]
+path = ["Localization/**", "WikiData/**", "reports/**"]
+precedence = "closest"
+SPDX-FileCopyrightText = ["2026 Etienne Marec", "Contributeurs du wiki Calamity Mod (calamitymod.fandom.com)"]
+SPDX-License-Identifier = "GPL-3.0-or-later AND CC-BY-NC-SA-3.0"
+
+# Textes de Calamity réécrits avec le vocabulaire du wiki
+[[annotations]]
+path = "Localization/en-US/Mods.CalamityMod.hjson"
+precedence = "closest"
+SPDX-FileCopyrightText = ["Azafure, LLC", "Contributeurs du wiki Calamity Mod (calamitymod.fandom.com)"]
+SPDX-License-Identifier = "LicenseRef-Calamity AND CC-BY-NC-SA-3.0"
+
+# Images : tirées du wiki (sprites de Calamity d'Azafure, ou images de contributeurs du wiki)
+[[annotations]]
+path = ["**/*.png", "**/*.gif", "**/*.rawimg"]
+precedence = "closest"
+SPDX-FileCopyrightText = ["Azafure, LLC (sprites de Calamity)", "Contributeurs du wiki Calamity Mod (calamitymod.fandom.com)"]
+SPDX-License-Identifier = "LicenseRef-Calamity AND CC-BY-NC-SA-3.0"
+
+# Sprites des anciennes versions de Calamity (portages de Content/Legacy/, tirés du dépôt de Calamity)
+[[annotations]]
+path = "Content/Legacy/**/*.png"
+precedence = "closest"
+SPDX-FileCopyrightText = "Azafure, LLC"
+SPDX-License-Identifier = "LicenseRef-Calamity"
+
+# Sprites dessinés par nous
+[[annotations]]
+path = ["Assets/UI/ShortstrikeMeter.png", "wiki_sprites_custom/Shortstrike Meter (x6).png"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Etienne Marec"
+SPDX-License-Identifier = "GPL-3.0-or-later"

@@ -1,4 +1,7 @@
 // Adapté de Calamity Mod (épées courtes retirées en 2022), © Azafure, LLC — https://github.com/CalamityTeam/CalamityModPublic
+// SPDX-FileCopyrightText: Azafure, LLC
+// SPDX-FileCopyrightText: 2026 Etienne Marec (adaptation)
+// SPDX-License-Identifier: LicenseRef-Calamity
 using CalamityFandom.Content.Legacy.Projectiles.Melee;
 using CalamityMod;
 using Microsoft.Xna.Framework;
