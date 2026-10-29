@@ -208,7 +208,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Heart Rapier
 - [ ] Heavenwing Staff
 - [ ] Helios Partisan — addon: Calamity: Tales of the Aquatic
-- [ ] Hell Burst
+- [x] Hell Burst
 - [ ] Hell's Bells
 - [ ] Hell's Sun
 - [ ] Hemorr-Rang — addon: Calamity: Community Remix
@@ -344,7 +344,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Sewer Brewer
 - [ ] Shading Manual — addon: Calamity: Tales of the Aquatic
 - [ ] Shadow's Descent
-- [ ] Shadowdrop Staff
+- [x] Shadowdrop Staff
 - [ ] Shattered Pistol — addon: Calamity: Tales of the Aquatic
 - [ ] Shroomerang — pas de sprite
 - [ ] Sign of the Operator

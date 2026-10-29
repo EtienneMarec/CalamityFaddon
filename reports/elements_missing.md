@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (447)
+## Objets (445)
 
 - A M S
 - AAMG "Disperse"
@@ -354,7 +354,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Hand of God
 - Heavenwing Staff
 - Helios Partisan
-- Hell Burst
 - Hell's Bells
 - Hell's Sun
 - Hemorr-Rang
@@ -487,7 +486,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Severed Eye.exe
 - Shading Manual
 - Shadow's Descent
-- Shadowdrop Staff
 - Shattered Module
 - Shattered Pistol
 - Sign of the Operator

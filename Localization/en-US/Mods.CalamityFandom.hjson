@@ -436,6 +436,16 @@ Items: {
 		Tooltip: Fires a spread of homing ice spikes
 	}
 
+	ShadowdropStaff: {
+		DisplayName: Shadowdrop Staff
+		Tooltip: Summons dark aura rain from the sky
+	}
+
+	HellBurst: {
+		DisplayName: Hell Burst
+		Tooltip: Casts a beam of flame
+	}
+
 	WulfrumLeechDagger: {
 		DisplayName: Wulfrum Leech Dagger
 		Tooltip:
@@ -608,6 +618,9 @@ Projectiles: {
 	AquaticDischargeSpark.DisplayName: Spark
 	LegacyHealingOrb.DisplayName: Orb
 	IceSpike.DisplayName: Ice Spike
+	AuraRain.DisplayName: Aura Rain
+	FlameBeamTip.DisplayName: Flame Beam
+	FlameBeamTip2.DisplayName: Flame Beam
 	ShortBeam.DisplayName: Beam
 	ShortNightBeam.DisplayName: Beam
 	ShortTerraBeam.DisplayName: Beam

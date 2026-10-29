@@ -442,6 +442,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   de l'ancien code pour les outils.
   **Raider's Glory** : « These arrows also cause enemies to drop more money » = Midas 10 s sur les flèches (l'ancien code
   ne tirait que des flèches d'Ichor accélérées ; le wiki fait foi). **Bittercold Staff** porté du code 1.3 (2022-02).
+  **Shadowdrop Staff** : gouttes qui ne percent pas (« cannot pierce enemies », la page ; le code les faisait percer),
+  tir réécrit plus simplement (3 gouttes au-dessus de l'écran, entre le joueur et le curseur). **Hell Burst** : pointes en
+  chaîne (IA Vilethorn), immunité par type (8 frames) au lieu de l'ancien `immune = 8`.
 - **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
   1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
   comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet

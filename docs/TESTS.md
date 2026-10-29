@@ -398,6 +398,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       (très rapides) ; **Mandible Bow** (arc)
 - [ ] **Raider's Glory** (arc : flèches d'Ichor plus rapides, les ennemis touchés ont Midas et lâchent plus d'argent) ;
       **Bittercold Staff** (bâton : 2 à 5 pics de glace à tête chercheuse, Frostburn)
+- [ ] **Shadowdrop Staff** (Hive Mind : pluie de gouttes sombres vers le curseur, un ennemi par goutte) ; **Hell Burst**
+      (chaîne de pointes de feu comme la Crystal Vile Shard, On Fire!, la dernière plus grosse)
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 
