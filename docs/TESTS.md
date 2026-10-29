@@ -455,7 +455,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] (30/10) **Arcanum of the Void** (sac du Ceaseless Void, Expert) : poussière violette autour du joueur quand la
       barrière est prête ; un coup est annulé, explosion et 4 énergies sombres qui cherchent les ennemis 4 s ; recharge
       90 s affichée comme l'esquive de Calamity (partagée avec les autres esquives)
-- [ ] (30/10) **Exo Gladius** (Draedon's Forge) : estoc rapide qui fait exploser l'ennemi (image du wiki), sprite du wiki ;
+- [ ] (30/10) **Exo Gladius** (Draedon's Forge) : estoc rapide qui fait exploser l'ennemi (image du wiki), sprite du wiki à sa
+      taille (64×68, plus de sprite rapetissé) ;
       plus de clic droit ; pendant le Shortflurry, les projectiles ennemis proches sont renvoyés vers le curseur (solo),
       et tous les 5 estocs une salve de 8 comètes exo qui soignent de 2 PV chacune
 - [ ] (30/10) **Microcell Cut** (créée, sans recette : station Aquatic Hypercomputer pas encore faite) : un ennemi tué

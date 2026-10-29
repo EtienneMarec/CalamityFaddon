@@ -527,7 +527,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Shortflurry : « every 5th strike... 8 healing exo comets » = nouveau paramètre `every` des effets `spawnOnStab`
   (compteur d'estocs remis à zéro à chaque Shortflurry) ; **[choix]** 8 comètes (`ExoGladComet` de 2022) à 50 % des
   dégâts, dispersion 0,35 rad, 2 PV rendus par comète qui touche. Explosion = dégâts de l'estoc, 96 px, image du wiki ;
-  Miracle Blight 0,5 s. Sprite du wiki (réduit de moitié : agrandi x2 sur le wiki). **Microcell Cut** : créée d'après la Disease (estoc,
+  Miracle Blight 0,5 s. Sprite du wiki à sa taille (64×68 ; réduit de moitié par erreur le 30/10, il paraissait plus petit). **Microcell Cut** : créée d'après la Disease (estoc,
   3 étoiles à 75 % par ennemi tué) ; sprite du wiki à sa taille d'origine, recadré (30×40, taille de la Disease :
   réduit de moitié, il était trop petit) ; rareté « C4 » du wiki créée (`RarityC4`, violet de son image) ; debuff **Ancient
   Astral Blight** créé d'après sa page (Astrum Deus et ses armes ne l'infligent pas encore).
@@ -568,6 +568,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   du wiki **dans tous les modes** (« plus logique » : ces objets n'existent que par le wiki) :
   `gen_sprites.py` → `Generated/Items/`, `TextureOverrides` cherche la classe dans Calamity puis dans ce mod
   (une classe de Calamity du même nom est ignorée). 17 objets au 30/10, dont le Blood Clot Staff (retour de test).
+  **[technique]** Les sprites de Terraria et de Calamity sont dessinés en blocs de 2×2 pixels : une image du wiki qui
+  semble « agrandie x2 exactement » est en général à sa vraie taille ; ne la réduire que si elle dépasse 96 px (règle de
+  `gen_sprites.py` et `gen_items.py`), jamais à la main avec `--scale 2` sans comparer à l'ancien sprite (erreur du 30/10 sur
+  l'Exo Gladius et la Microcell Cut).
   **[technique]** Correction de la comparaison des images : `getbbox()` d'une image RGBA ne regarde que la transparence,
   et l'écart moyen incluait le fond transparent, si bien que des recolorations entières passaient pour « identiques ».
   Nouvelle règle : même image si même forme (≤ 2 % de pixels dont la transparence change) et ≤ 3 % des pixels visibles

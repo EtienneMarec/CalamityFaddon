@@ -16,7 +16,7 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Melee
     /// <summary>
     /// Wiki : Exo Gladius.txt — épée courte finale (Draedon's Forge, recette du wiki) : estoc omnidirectionnel qui fait
     /// exploser l'ennemi touché (Miracle Blight 0,5 s). Valeurs du wiki : 690 dégâts, use 8, recul 9,9, rareté 15, vente
-    /// 30 or. Sprite du wiki.
+    /// 30 or. Sprite du wiki, à sa taille (64×68).
     /// [validé 30/10] Pas d'attaque au clic droit (la parade de la page) : le renvoi des projectiles ennemis vers le
     /// curseur n'a lieu que pendant le Shortflurry. Shortflurry : « Every 5th strike sends out a shotgun blast of 8
     /// healing exo comets » (données : spawnOnStab, every = 5, tools/shortstrike_extra.json).
@@ -32,8 +32,8 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Melee
             Item.useStyle = ItemUseStyleID.Rapier;
             Item.DamageType = ModContent.GetInstance<TrueMeleeDamageClass>();
             Item.useAnimation = Item.useTime = 8;
-            Item.width = 32;
-            Item.height = 34;
+            Item.width = 64;
+            Item.height = 68;
             Item.damage = 690;
             Item.knockBack = 9.9f;
             Item.UseSound = SoundID.Item1;
