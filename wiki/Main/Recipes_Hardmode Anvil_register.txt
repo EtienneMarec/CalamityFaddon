@@ -2261,3 +2261,19 @@
 | Abyss Bar | 5
 | Living Fire Block | 75
 }}<!--
+-->{{recipes/register
+| station = Mythril Anvil
+| result = Dualpoon | amount = 1
+| Harpoon | 2
+| Sea Prism | 15
+| Soul of Might | 10
+}}<!--
+-->{{recipes/register
+| station = Mythril Anvil
+| result = Triploon | amount = 1
+| Dualpoon | 1
+| Harpoon | 1
+| Depth Cells | 15
+| Lumenyl | 5
+| Tenebris | 5
+}}<!--

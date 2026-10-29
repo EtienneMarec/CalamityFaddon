@@ -52225,6 +52225,74 @@
    "page": "Recipes_Hardmode Anvil_register.txt"
   },
   {
+   "result": "Dualpoon",
+   "amount": 1,
+   "stations": [
+    "Mythril Anvil"
+   ],
+   "ingredients": [
+    {
+     "items": [
+      "Harpoon"
+     ],
+     "stack": 2
+    },
+    {
+     "items": [
+      "Sea Prism"
+     ],
+     "stack": 15
+    },
+    {
+     "items": [
+      "Soul of Might"
+     ],
+     "stack": 10
+    }
+   ],
+   "page": "Recipes_Hardmode Anvil_register.txt"
+  },
+  {
+   "result": "Triploon",
+   "amount": 1,
+   "stations": [
+    "Mythril Anvil"
+   ],
+   "ingredients": [
+    {
+     "items": [
+      "Dualpoon"
+     ],
+     "stack": 1
+    },
+    {
+     "items": [
+      "Harpoon"
+     ],
+     "stack": 1
+    },
+    {
+     "items": [
+      "Depth Cells"
+     ],
+     "stack": 15
+    },
+    {
+     "items": [
+      "Lumenyl"
+     ],
+     "stack": 5
+    },
+    {
+     "items": [
+      "Tenebris"
+     ],
+     "stack": 5
+    }
+   ],
+   "page": "Recipes_Hardmode Anvil_register.txt"
+  },
+  {
    "result": "Apocalyptic Bar",
    "amount": 1,
    "stations": [

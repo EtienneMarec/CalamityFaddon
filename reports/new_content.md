@@ -136,7 +136,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Dragon Flame Barrage — addon: Calamity: Community Remix
 - [ ] Driftorcher — addon: Calamity: Community Remix
 - [ ] Dual Cane — addon: Calamity: Community Remix
-- [ ] Dualpoon
+- [x] Dualpoon
 - [ ] Duet Hit — addon: Calamity: Tales of the Aquatic
 - [ ] EXO-LOTL Staff — addon: Calamity: Community Remix
 - [ ] Earthen Clicker
@@ -418,7 +418,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Toxic Wisdom
 - [x] Trash of Magnus
 - [x] Trinity
-- [ ] Triploon
+- [x] Triploon
 - [ ] True Bloody Edge
 - [x] True Caliburn
 - [x] True Night's Stabber

@@ -434,6 +434,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] **Purified Jam** : The Slime God en lâche 6 à 8 **une seule fois** par personnage et par monde (un second kill
       avec le même personnage n'en donne plus ; un autre personnage en reçoit) ; 10 s sans dégâts ni la plupart des
       debuffs (5 s en Death Mode), Potion Sickness 30 s
+- [ ] **Dualpoon** / **Triploon** : 2 ou 3 harpons en éventail, sans chaîne, qui reviennent au joueur après ~350 px
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

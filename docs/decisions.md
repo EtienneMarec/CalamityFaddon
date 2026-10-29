@@ -502,6 +502,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **Marked Magnum** : `AverageDamageClass` de Calamity (« scales with all your damage stats »), critique forcé à 0.
 - **[technique]** (29/10, lot 9) **Arcanum of the Void** mis de côté : la page décrit une barrière du vide qui explose
   en énergie sombre à tête chercheuse ; le code de 2022 renvoyait les projectiles. Effet inventé ou refait, à trancher.
+- **[choix]** (29/10, lot 10) **Dualpoon**, **Triploon** : code de 2022 en une base commune (`MultiHarpoon`) ; recettes
+  de 2022 ajoutées à notre wiki (`Recipes_Hardmode Anvil_register`). TODO : l'**Agent**, PNJ inventé par le wiki, les
+  donne aussi (pas encore créé).
 - **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
   1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
   comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet

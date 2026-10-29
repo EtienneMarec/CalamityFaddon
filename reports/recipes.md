@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1104 objets dont les recettes ont changé : 961 recettes modifiées, 209 créées
+- 1106 objets dont les recettes ont changé : 961 recettes modifiées, 211 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -341,6 +341,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Dragonblood Disgorger | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 12 Bloodstone Bar, 5 Unholy Blood Cells @ LunarCraftingStation → 1 |
 | Drataliornus | (nouvelle) | 1 Blossom Flux, 12 Effulgent Feather, 4 Quark-Gluon Sludge, 5 Auric Bar @ CosmicAnvil → 1 |
 | Dreadmine Staff | 30 Voidstone, 30 Depth Cells @ MythrilAnvil → 1 | 10 Depth Cells, 30 Lumenyl, 10 Crocodile Scale @ MythrilAnvil → 1 |
+| Dualpoon | (nouvelle) | 2 Harpoon, 15 Sea Prism, 10 Soul of Might @ MythrilAnvil → 1 |
 | Dubious Plating | (nouvelle) | 8 Arsenic Ore, 1 Bone, 1 Any Gold Bar @ Furnaces → 4 |
 | Duke Fishron | 1 Duke Fishron Trophy @ Bookcases → 1 | 1 Duke Fishron Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Dustplate | (nouvelle) | 1 Stardust, 3 Obsidian @ Hellforge → 3 |
@@ -1093,6 +1094,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Triactis' True Paladinian Mage-Hammer of Might | 1 Galaxy Smasher, 5 Shadowspec Bar, 5 Life Alloy @ DraedonsForge → 1 | 1 Galaxy Smasher, 30 Soul of Might, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Triboluminescent Etomer | 8 Any Gold Bar, 5 Prism Shard, 5 Scorched Bone @ Anvils → 1 | 5 Prism Shard, 8 Any Gold Bar, 1 Demonic Bone Ash @ Anvils → 1 |
 | Trinity | (nouvelle) | 1 Ice Blade, 8 Cryonic Bar, 4 Coyote Venom @ MythrilAnvil → 1 |
+| Triploon | (nouvelle) | 1 Dualpoon, 1 Harpoon, 15 Depth Cells, 5 Lumenyl, 5 Tenebris @ MythrilAnvil → 1 |
 | True Biome Blade | 1 Biome Blade, 18 Astral Bar, 6 Life Alloy, 3 Core of Calamity @ LunarCraftingStation → 1 | 1 Biome Blade, 1 Broken Hero Sword, 3 Astral Bar, 3 Life Alloy, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | True Caliburn | (nouvelle) | 1 Caliburn, 1 Broken Hero Sword @ MythrilAnvil → 1 |
 | True Caustic Edge | 1 Caustic Edge, 8 Cursed Flame or Ichor, 8 Spider Fang @ Anvils → 1 | 1 Caustic Edge, 5 Any Evil Flask, 5 Flask of Poison, 4 Deathweed @ DemonAltar → 1 |

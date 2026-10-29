@@ -609,6 +609,16 @@ Items: {
 		Tooltip: Causes enemy attacks to heal you for a fraction of their damage
 	}
 
+	Dualpoon: {
+		DisplayName: Dualpoon
+		Tooltip: Launches two harpoons
+	}
+
+	Triploon: {
+		DisplayName: Triploon
+		Tooltip: Launches three harpoons
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -848,6 +858,8 @@ Projectiles: {
 	QuasarKnife.DisplayName: Quasar
 	Quasar2.DisplayName: Quasar
 	MarkRound.DisplayName: Mark Round
+	DualpoonProj.DisplayName: Dualpoon
+	TriploonProj.DisplayName: Triploon
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash

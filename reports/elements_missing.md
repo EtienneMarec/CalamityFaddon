@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (424)
+## Objets (422)
 
 - A M S
 - AAMG "Disperse"
@@ -271,7 +271,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Drained Catarachedrae
 - Driftorcher
 - Dual Cane
-- Dualpoon
 - Earthen Clicker
 - Earthshooter
 - Ecological Collapse
@@ -529,7 +528,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Thunder Bolt
 - Titan Tides
 - Totality Tides
-- Triploon
 - True Bloody Edge
 - Twentloon
 - Twenty-Twloon
