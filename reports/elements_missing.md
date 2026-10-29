@@ -156,7 +156,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (429)
+## Objets (426)
 
 - A M S
 - AAMG "Disperse"
@@ -197,7 +197,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Bloodinator 1
 - Bloody Edge
 - Bolide Launcher
-- Bouncing Betty
 - Bouncy Spiky Ball
 - Braxaxe
 - Breakthrough
@@ -242,7 +241,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Creature Capsule
 - Crius Prime
 - Crustalline
-- Crystal Flare Staff
 - Crystallic Coin Gun
 - Cursed Capper
 - Cursed Spear
@@ -339,7 +337,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Guardians Wrath
 - Gusthammer
 - H.S Trident
-- Hadopelagic Echo
 - Hailberd
 - Hailstorm
 - Halberd of the Holidays

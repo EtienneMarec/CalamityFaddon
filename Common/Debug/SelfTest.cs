@@ -361,7 +361,7 @@ namespace CalamityFandom.Common.Debug
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
             }
             // Lot du 29/10 (3) : armes retirées en juin-juillet 2022, recettes du wiki ; Sylvan Slasher chez le Bandit
-            foreach (string name in new[] { "Crystal Blade", "Temporal Floe Sword", "Marnite Spear", "Sylvan Slasher", "Animus", "Blade of Enmity", "Brimlash Buster", "Phoenix Blade", "Trinity", "Fulguration Halberd", "Mariana", "Aquatic Dissolution", "Impaler", "Spectre Rifle", "Star Cannon EX" })
+            foreach (string name in new[] { "Crystal Blade", "Temporal Floe Sword", "Marnite Spear", "Sylvan Slasher", "Animus", "Blade of Enmity", "Brimlash Buster", "Phoenix Blade", "Trinity", "Fulguration Halberd", "Mariana", "Aquatic Dissolution", "Impaler", "Spectre Rifle", "Star Cannon EX", "Hadopelagic Echo", "Crystal Flare Staff" })
             {
                 int type = WikiRecipes.ResolveItem(name);
                 Expect(type > 0 && ItemLoader.GetItem(type)?.Mod == Mod, $"{name} porté : {ItemLoader.GetItem(type)?.FullName}");
@@ -376,6 +376,7 @@ namespace CalamityFandom.Common.Debug
             {
                 int sylvan = ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.SylvanSlasher>();
                 Expect(banditShop.ActiveEntries.Any(e => e.Item.type == sylvan && e.Item.shopCustomPrice == Item.buyPrice(platinum: 5)), "le Bandit vend la Sylvan Slasher (5 platine)");
+                Expect(banditShop.ActiveEntries.Any(e => e.Item.type == ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.BouncingBetty>()), "le Bandit vend la Bouncing Betty");
             }
             else
                 Expect(false, "boutique du Bandit introuvable");

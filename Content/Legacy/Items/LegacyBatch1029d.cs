@@ -155,8 +155,11 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Rogue
         public override bool CanUseItem(Player player) => player.ownedProjectileCounts[Item.shoot] <= 0;
     }
 
-    /// <summary>Le Bandit vend la Sylvan Slasher après Providence, 5 platine (page de l'arme).</summary>
-    public class SylvanSlasherShop : GlobalNPC
+    /// <summary>
+    /// Objets portés vendus par le Bandit (pages des objets) : Sylvan Slasher après Providence (5 platine), Bouncing Betty
+    /// après un boss mécanique (4 argent, son prix).
+    /// </summary>
+    public class LegacyBanditShop : GlobalNPC
     {
         public override void ModifyShop(NPCShop shop)
         {
@@ -164,6 +167,7 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Rogue
                 return;
             shop.Add(new Item(ModContent.ItemType<SylvanSlasher>()) { shopCustomPrice = Item.buyPrice(platinum: 5) },
                 CalamityMod.CalamityConditions.DownedProvidence);
+            shop.Add(ModContent.ItemType<BouncingBetty>(), Condition.DownedMechBossAny);
         }
     }
 }

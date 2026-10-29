@@ -421,6 +421,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       mousquet → âmes à tête chercheuse, clic droit maintenu = zoom)
 - [ ] **Star Cannon EX** (étoiles astrales roses avec Astral Infection, étoiles de Starfury, étoiles tombées) ;
       **Brimstone Flameblaster** (lâché par Cataclysm, consomme du gel, boules qui rebondissent 5 fois)
+- [ ] **Hadopelagic Echo** : rafale de 4 ondes qui grossissent pendant 1 s (dégâts aussi), rebondissent ; deux échos
+      arrivent de côté au plus toutes les 2 s ; Crush Depth. **Crystal Flare Staff** : flammes de givre qui explosent
+- [ ] **Bouncing Betty** : vendue 4 argent par le Bandit après un boss mécanique ; la grenade rebondit sur les ennemis en
+      explosant et explose au sol ; en attaque furtive, éclats et étincelles (On Fire!)
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 

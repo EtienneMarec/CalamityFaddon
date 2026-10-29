@@ -542,6 +542,29 @@ Items: {
 		Tooltip: Fires bouncing brimstone fireballs
 	}
 
+	HadopelagicEcho: {
+		DisplayName: Hadopelagic Echo
+		Tooltip:
+			'''
+			Fires a string of bouncing sound waves that become stronger as they travel
+			Sound waves echo additional sound waves on enemy hits
+			'''
+	}
+
+	CrystalFlareStaff: {
+		DisplayName: Crystal Flare Staff
+		Tooltip: Fires blue frost flames that explode
+	}
+
+	BouncingBetty: {
+		DisplayName: Bouncing Betty
+		Tooltip:
+			'''
+			Throws a grenade which bounces after exploding
+			Stealth strikes explode into a violent blast of fire and shrapnel when it bounces
+			'''
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -771,6 +794,12 @@ Projectiles: {
 	ExplodingStake.DisplayName: Exploding Stake
 	FallenStarProj.DisplayName: Fallen Star
 	BrimstoneBallFriendly.DisplayName: Brimstone Fireball
+	HadopelagicEchoSoundwave.DisplayName: Hadopelagic Sound Wave
+	HadopelagicEcho2.DisplayName: Echo
+	SpiritFlameCurse.DisplayName: Frost Flame
+	BouncingBettyProjectile.DisplayName: Bouncing Betty
+	BettyExplosion.DisplayName: Explosion
+	BouncingBettyShrapnel.DisplayName: Betty Shrapnel
 	TemporalFloeSwordProjectile.DisplayName: Temporal Floe Beam
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash

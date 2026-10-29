@@ -450,7 +450,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** (29/10, lot 3) **Crystal Blade** : `use` 24 du wiki (25 dans le code). **Temporal Floe Sword** : la page
   décrit une horloge où l'aiguille des heures tourne de 15° par heure (cadran de 24 h, midi en haut) et celle des minutes
   de 6° par minute ; le code de 2022 utilisait un cadran de 12 h. Le wiki fait foi. Glacial State et Frostburn aux durées
-  de l'infobox. **Sylvan Slasher** : boutique du Bandit de Calamity (`SylvanSlasherShop`), 5 platine après Providence ;
+  de l'infobox. **Sylvan Slasher** : boutique du Bandit de Calamity (`LegacyBanditShop`), 5 platine après Providence ;
   `CanUseItem` empêche deux entailles à la fois (arme canalisée) ; poussières et tir du code de 2022. **Marnite Spear** :
   lance de Calamity (`BaseSpearProjectile`) en `TrueMeleeDamageClass`.
 - **[technique]** (29/10, lot 3) Mis de côté parce que **remplacés** dans le même commit de Calamity (renommage git du
@@ -483,6 +483,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   la page n'en parle pas. Recette de l'Impaler ajoutée à notre wiki (code de 2022 ; Cruptix Bar = Scoria Bar, appelée
   Abyss Bar par le wiki). [technique] `LegacyHitDebuff` : debuff ajouté par le wiki à un projectile réutilisé qui n'en
   inflige pas (explosions, étoiles).
+- **[choix]** (29/10, lot 7) **Hadopelagic Echo** : la page passe avant le code. L'onde va de 5 % à 100 % des dégâts et
+  de la taille en 1 s (le code : de 0 à 100 % en 1/6 s) ; la recharge des échos est de 2 s (le code : 1 s, à cause des
+  mises à jour doubles). Rareté 16 (Hot Pink) de l'infobox. **Bouncing Betty** : boutique du Bandit après un boss
+  mécanique (`LegacyBanditShop`, prix de l'objet) ; les étincelles (`TotalityFire` de Calamity) gardent leur Hellfire et
+  reçoivent On Fire! 3 à 6 s (infobox).
 - **[choix]** (nuit du 29/10) **Wulfrum Leech Dagger** (objet inventé par le Fandom) : épée courte consommable en estoc,
   1 dégât (plafond), pas de critique, retrait de 0,5 % de la vie max par un second coup sans défense (`SimpleStrikeNPC`,
   comme la Coldheart Icicle de Calamity) ; pas sur les segments de ver ni les mannequins (page) ; Shortflurry : effet

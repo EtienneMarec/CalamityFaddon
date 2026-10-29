@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1100 objets dont les recettes ont changé : 961 recettes modifiées, 204 créées
+- 1102 objets dont les recettes ont changé : 961 recettes modifiées, 206 créées
 - 28 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -297,6 +297,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Cryonic Bar | 4 Cryonic Ore @ AdamantiteForge → 1 | 1 Crystal Shard, 2 Stardust, 3 Cryonic Ore, 1 Essence of Eleum @ AdamantiteForge → 1 |
 | Cryonic Brick | 50 Any Stone Block, 1 Cryonic Ore @ Furnaces → 50 | 1 Cryonic Ore, 1 Any Stone Block @ Furnaces → 10 |
 | Crystal Blade | (nouvelle) | 10 Crystal Shard, 15 Essence of Crystal, 8 Any Cobalt Bar, 10 Pixie Dust @ Anvils → 1 |
+| Crystal Flare Staff | (nouvelle) | 1 Frost Staff, 1 Frost Core, 3 Core of Eleum, 8 Cryonic Bar, 10 Sea Prism, 12 Spectre Bar, 2 The sword is inside the core @ IceMachine → 1 |
 | Crystal of the Cyborg | (nouvelle) | 1 Energy Orb, 1 Minecart Upgrade Kit, 10 Aureus Cell, 15 Infected Armor Plating, 59 Astral Bar, 1 Eye of the Golem, 7 Essence of Zot @ LunarCraftingStation → 1 |
 | Crystal of the Dryad | (nouvelle) | 10 Parched Scale, 15 Bee Wax, 5 Delicious Meat, 20 Crocodile Scale, 59 Astral Bar, 1 Bloom Stone, 7 Essence of Babil @ LunarCraftingStation → 1 |
 | Crystal of the Wicked | (nouvelle) | 50 Shadow Scale or Tissue Sample, 25 Rotten Matter / Blood Sample, 50 Sparkle Slime Balloon, 255 Ashes of Calamity, 59 Astral Bar, 1 Terraprisma, 7 Essence of Rend @ LunarCraftingStation → 1 |
@@ -518,6 +519,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Hadal Mantle | 20 Soul of Flight, 10 Abyss Bar @ MythrilAnvil → 1 | 5 Abyss Bar, 1 Unholy Core, 5 Grandiose Gland, 20 Soul of Flight @ MythrilAnvil → 1 |
 | Hadal Stew | 3 Abyss Gravel, 2 Coastal Demonfish, 1 Bowl @ CookingPots → 1 | 2 Bowl, 1 Honeyfin, 10 Abyss Gravel / Voidstone, 1 Coastal Demonfish @ CookingPots → 2 |
 | Hadarian Wings | (nouvelle) | 4 Hadarian Membrane, 20 Soul of Flight @ MythrilAnvil → 1 |
+| Hadopelagic Echo | (nouvelle) | 1 Eidolic Wail, 20 Reaper Tooth, 20 Lumenyl, 20 Tenebris, 5 Subnautical Plate, 2 Yharim Bar @ CosmicAnvil → 1 |
 | Halley's Inferno | 1 Elf Melter, 8 Lumenyl, 4 Ruinous Soul, 20 Exodium Cluster @ MythrilAnvil → 1 | 6 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster, 1 Sniper Scope @ LunarCraftingStation → 1 |
 | Handheld Tank | 1 Rocket Launcher, 50 Any Iron Bar, 5 Divine Bar @ MythrilAnvil → 1 | 1 Shroomer, 50 Any Iron Bar, 5 Divine Bar, 1 Tiger Skin, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Hardened Chitin | (nouvelle) | 20 Parched Scale, 20 Stormlion Mandible, 20 Sulphuric Scale, 20 Mollusk Husk, 20 Armored Shell, 20 Subnautical Plate, 20 Reaper Tooth @ Autohammer → 1 |

@@ -50,7 +50,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Bloody Rupture
 - [x] Blow Pipe
 - [ ] Bolide Launcher — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
-- [ ] Bouncing Betty
+- [x] Bouncing Betty
 - [ ] Bouncy Spiky Ball
 - [ ] Breakthrough
 - [x] Brimlash Buster
@@ -102,7 +102,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Crius Prime — addon: Deimos, the Starborn Princess
 - [ ] Crustalline
 - [x] Crystal Blade
-- [ ] Crystal Flare Staff
+- [x] Crystal Flare Staff
 - [ ] Crystallic Coin Gun — addon: Calamity: Tales of the Aquatic
 - [ ] Cursed Capper
 - [ ] Cursed Spear — addon: Calamity: Community Remix
@@ -199,7 +199,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Guardians Wrath
 - [ ] H.S Trident
 - [ ] HPST "Malign" — pas de sprite; addon: Calamity: Tales of the Aquatic
-- [ ] Hadopelagic Echo
+- [x] Hadopelagic Echo
 - [ ] Hailberd
 - [ ] Hailstorm
 - [ ] Halberd of the Holidays — addon: Apotheosis and Friends
