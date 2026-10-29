@@ -48,8 +48,12 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 
 ## Portage du contenu retiré de Calamity (en cours)
 
-23 objets portés (liste : `docs/MODES.md`) ; ~240 restent. Base commune quand plusieurs objets se ressemblent (kits de
-pêche, bâtons à slimes). Effets disparus du code actuel : repris du vieux CalamityPlayer dans un ModPlayer.
+91 objets portés au 30/10 (`Content/Legacy/`, choix dans `docs/decisions.md`). Les retraits « nets » (fichier supprimé
+sans remplaçant) sont épuisés. Restent : les objets que Calamity a **remplacés ou renommés** (`LegacyName`, renommages
+git : Seabow → Reed Blowgun, Lazinator, Frigid Bulwark...), en attente de décision (`docs/TESTS.md`), Arcanum of the
+Void (effet de la page inventé ?), Exo Gladius, Microcell Cut, et l'Agent (PNJ inventé qui donne Dualpoon/Triploon).
+Base commune quand plusieurs objets se ressemblent (kits de pêche, épées courtes, harpons). Effets disparus du code
+actuel : repris du vieux CalamityPlayer dans un ModPlayer.
 
 ## Phase 4 — Nouveau contenu (`reports/new_content.md`)
 
