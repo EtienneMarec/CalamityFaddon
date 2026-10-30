@@ -24,6 +24,13 @@ namespace CalamityFandom.Common.Elements
             /// <summary>Pages dont les éléments diffèrent en Full Fandom ({{mode}} sur la page) : remplacent Items / Npcs.</summary>
             public Dictionary<string, List<string>> FullItems { get; set; } = new();
             public Dictionary<string, AffinityData> FullNpcs { get; set; } = new();
+            /// <summary>Ensembles d'armure : préfixe du nom de classe des pièces et affinités du joueur qui les porte.</summary>
+            public Dictionary<string, ArmorData> Armors { get; set; } = new();
+        }
+
+        private class ArmorData : AffinityData
+        {
+            public string Prefix { get; set; }
         }
 
         private class AffinityData
@@ -43,6 +50,8 @@ namespace CalamityFandom.Common.Elements
         public static Dictionary<int, Element[]> ItemElements { get; } = new();
         /// <summary>Affinité par type de PNJ : -1 résistant, +1 vulnérable, 0 neutre, pour chaque élément.</summary>
         public static Dictionary<int, sbyte[]> NPCAffinity { get; } = new();
+        /// <summary>Ensembles d'armure (préfixe de classe, affinité du porteur), même codage que NPCAffinity.</summary>
+        public static List<(string prefix, sbyte[] row)> ArmorAffinity { get; } = new();
 
         private static ElementsFile data;
         /// <summary>Titres du wiki sans correspondance en jeu (contenu pas encore créé), pour l'auto-test.</summary>
@@ -79,6 +88,7 @@ namespace CalamityFandom.Common.Elements
             data = null;
             ItemElements.Clear();
             NPCAffinity.Clear();
+            ArmorAffinity.Clear();
             UnresolvedItems.Clear();
             UnresolvedNPCs.Clear();
             Array.Fill(StatusBuffs, -1);
@@ -109,6 +119,10 @@ namespace CalamityFandom.Common.Elements
                     ItemElements[type] = elements;
             }
 
+            foreach (var armor in data.Armors.Values)
+                if (!string.IsNullOrEmpty(armor.Prefix))
+                    ArmorAffinity.Add((armor.Prefix, Row(armor)));
+
             foreach (var (title, affinity) in data.Npcs)
             {
                 var row = new sbyte[ElementInfo.Count];
@@ -129,6 +143,39 @@ namespace CalamityFandom.Common.Elements
                             NPCID.Sets.SpecificDebuffImmunity[type][StatusBuffs[e]] = true;
                 }
             }
+        }
+
+        private static sbyte[] Row(AffinityData affinity)
+        {
+            var row = new sbyte[ElementInfo.Count];
+            foreach (var e in Parse(affinity.Resistant))
+                row[(int)e] = -1;
+            foreach (var e in Parse(affinity.Vulnerable))
+                row[(int)e] = 1;
+            return row;
+        }
+
+        /// <summary>Éléments des attaques d'un PNJ : [choix] ceux auxquels il résiste (« a fire-based enemy ... resistant to fire »).</summary>
+        public static Element[] AttackElements(int npcType)
+        {
+            if (!NPCAffinity.TryGetValue(npcType, out var row))
+                return Array.Empty<Element>();
+            var list = new List<Element>();
+            for (int e = 0; e < row.Length; e++)
+                if (row[e] < 0)
+                    list.Add((Element)e);
+            return list.ToArray();
+        }
+
+        /// <summary>Multiplicateur d'une attaque élémentaire contre une affinité (produit par élément, borné).</summary>
+        public static float Multiplier(IReadOnlyList<Element> elements, sbyte[] row)
+        {
+            if (elements.Count == 0 || row == null)
+                return 1f;
+            float mult = 1f;
+            foreach (var e in elements)
+                mult *= row[(int)e] switch { < 0 => ResistMultiplier, > 0 => VulnerableMultiplier, _ => 1f };
+            return Math.Clamp(mult, MinMultiplier, MaxMultiplier);
         }
 
         private static void AddName(Dictionary<string, List<int>> map, string name, int type)

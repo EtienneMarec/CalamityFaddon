@@ -2,6 +2,7 @@
 
 - Armes : champs element1..n des infobox d'objets.
 - PNJ : champs resistant1..n / vulnerable1..n des infobox de PNJ.
+- Armures : champs resistance1..n / vulnerable1..n des pages d'ensembles (joueur qui porte l'ensemble complet).
 Les données sont indexées par titre de page ; le jeu les résout par nom anglais (comme les recettes), ce qui couvre
 Calamity, vanilla et nos propres objets. Les valeurs hors des 17 éléments (« My Heart is Cold »...) sont ignorées.
 
@@ -41,7 +42,7 @@ def values(fields, prefix):
 
 def main():
     index = json.load(open(os.path.join(ROOT, "data", "wiki_index.json"), encoding="utf-8"))
-    items, npcs, full_items, full_npcs = {}, {}, {}, {}
+    items, npcs, full_items, full_npcs, armors = {}, {}, {}, {}, {}
     infobox_names = []  # (nom de l'infobox, titre) : alias quand le titre diffère
     rejected = collections.Counter()
     for page in index.values():
@@ -54,6 +55,17 @@ def main():
         # fullItems/fullNpcs quand elle diffère
         views = {mode: {k: pick_mode(v, mode) for k, v in page["fields"].items()} for mode in ("plus", "fandom")}
         moded = any(has_mode(v) for v in page["fields"].values())
+        if box.startswith("item") and any(re.fullmatch(r"resistance\d*", k) for k in page["fields"]):
+            # Armure (page d'ensemble) : résistances / vulnérabilités du joueur qui porte l'ensemble complet ; pièces
+            # reconnues au préfixe de leur nom de classe (« Aerospec armor » -> AerospecHelm, AerospecBreastplate...)
+            fields = views["plus"]
+            resist, bad1 = values(fields, "resistance")
+            vuln, bad2 = values(fields, "vulnerable")
+            rejected.update(bad1 + bad2)
+            both = set(resist) & set(vuln)
+            prefix = re.sub(r"[^A-Za-z0-9]", "", re.sub(r"\s+(armou?r|coverings?)$", "", page["title"], flags=re.I))
+            armors[page["title"]] = {"prefix": prefix, "resistant": [e for e in resist if e not in both],
+                                     "vulnerable": [e for e in vuln if e not in both]}
         if box.startswith("item"):
             per_mode = {}
             for mode, fields in views.items():
@@ -97,7 +109,7 @@ def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         out = {"_generated_by": "tools/gen_elements.py", "elements": ELEMENTS, "items": items, "npcs": npcs,
-               "aliases": alias_map}
+               "armors": armors, "aliases": alias_map}
         # Sections Full Fandom seulement si une page en a besoin (fichier inchangé sinon)
         if full_items:
             out["fullItems"] = full_items
@@ -115,7 +127,7 @@ def main():
             r = sum(e in v["resistant"] for v in npcs.values())
             v_ = sum(e in v["vulnerable"] for v in npcs.values())
             f.write(f"| {e} | {usage[e]} | {r} | {v_} |\n")
-    print(f"{len(items)} objets, {len(npcs)} PNJ ; ignorés : {dict(rejected)}")
+    print(f"{len(items)} objets, {len(npcs)} PNJ, {len(armors)} armures ; ignorés : {dict(rejected)}")
 
 
 if __name__ == "__main__":

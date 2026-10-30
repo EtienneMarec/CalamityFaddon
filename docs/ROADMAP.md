@@ -23,7 +23,7 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 ## Phase 2 — Systèmes inventés par le wiki
 
 - [x] Elemental System (17 éléments, statuts, résistances/vulnérabilités de 127 PNJ, 688 armes)
-- [ ] Éléments des armures (« Elements » des Coverings) → résistances du joueur
+- [x] Éléments des armures → résistances du joueur (31/10 ; ensemble complet, élément d'un ennemi = ses résistances, à valider)
 - [ ] Classe Spy : proficiency, Level Meters, stealth tel que décrit (pages `Spy.txt`, `Level Meters`)
 - [ ] Wind : dégâts à l'atterrissage
 - [x] **Shortstrike / Shortflurry** (22/10) — reste : 17 effets spéciaux (`reports/shortstrike.md`) et les armes manquantes

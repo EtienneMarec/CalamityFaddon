@@ -484,6 +484,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       bloqués), **Crumbling / Shattering Potion** (Armor Crunch en mêlée et spy, +5 / +8 %), **Frigid Bulwark** (+13
       défense, pas de recul, protège l'équipe au-dessus de 25 % de vie, Ice Barrier sous 50 %). **Marnite Bayonet** :
       Full Fandom (le canon blesse au contact) ; Calamity++ : le Marnite Repulsion Shield s'appelle « Marnite Bayonet »
+- [ ] (31/10, phase 2) **Éléments des armures** : avec l'ensemble Victide complet (résiste à Water, Fire, Slash ;
+      vulnérable à Unholy, Cold, Poison), un ennemi qui résiste au feu (Impious Immolator...) fait moitié moins de dégâts,
+      un ennemi de glace le double ; une pièce seule ne change rien. Idem Aerospec, Desert Prowler, Statigel, Wulfrum...
 - [ ] (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
       Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle

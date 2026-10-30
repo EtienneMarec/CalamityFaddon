@@ -8152,6 +8152,158 @@
    ]
   }
  },
+ "armors": {
+  "Aerospec armor": {
+   "prefix": "Aerospec",
+   "resistant": [
+    "Unholy",
+    "Magic"
+   ],
+   "vulnerable": [
+    "Water",
+    "Dark"
+   ]
+  },
+  "Banana Clown armor": {
+   "prefix": "BananaClown",
+   "resistant": [
+    "Unholy",
+    "Water"
+   ],
+   "vulnerable": [
+    "Holy",
+    "Fire",
+    "Poison"
+   ]
+  },
+  "Corpulent coverings": {
+   "prefix": "Corpulent",
+   "resistant": [
+    "Unholy",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Slash",
+    "Holy"
+   ]
+  },
+  "Desert Prowler armor": {
+   "prefix": "DesertProwler",
+   "resistant": [
+    "Fire",
+    "Holy",
+    "Poison"
+   ],
+   "vulnerable": [
+    "Water",
+    "Cold",
+    "Stab"
+   ]
+  },
+  "Fearmonger armor": {
+   "prefix": "Fearmonger",
+   "resistant": [
+    "Unholy",
+    "Poison",
+    "Dark"
+   ],
+   "vulnerable": []
+  },
+  "Gel Armor": {
+   "prefix": "Gel",
+   "resistant": [
+    "Water",
+    "Poison",
+    "Stab",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Unholy"
+   ]
+  },
+  "Grarble coverings": {
+   "prefix": "Grarble",
+   "resistant": [
+    "Slash",
+    "Fire"
+   ],
+   "vulnerable": [
+    "Magic"
+   ]
+  },
+  "Horseslime armor": {
+   "prefix": "Horseslime",
+   "resistant": [
+    "Poison",
+    "Dark",
+    "Holy"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Magic",
+    "Unholy"
+   ]
+  },
+  "Snow Ruffian armor": {
+   "prefix": "SnowRuffian",
+   "resistant": [
+    "Cold",
+    "Water"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Stab"
+   ]
+  },
+  "Statigel armor": {
+   "prefix": "Statigel",
+   "resistant": [
+    "Dark",
+    "Water",
+    "Poison",
+    "Stab",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Unholy"
+   ]
+  },
+  "Sulphurous armor": {
+   "prefix": "Sulphurous",
+   "resistant": [
+    "Poison",
+    "Dark",
+    "Water"
+   ],
+   "vulnerable": []
+  },
+  "Victide armor": {
+   "prefix": "Victide",
+   "resistant": [
+    "Water",
+    "Fire",
+    "Slash"
+   ],
+   "vulnerable": [
+    "Unholy",
+    "Cold",
+    "Poison"
+   ]
+  },
+  "Wulfrum armor": {
+   "prefix": "Wulfrum",
+   "resistant": [
+    "Cold",
+    "Dark"
+   ],
+   "vulnerable": [
+    "Fire",
+    "Magic"
+   ]
+  }
+ },
  "aliases": {
   "Providence, the Profaned Goddess": [
    "A Profaned Guardian",

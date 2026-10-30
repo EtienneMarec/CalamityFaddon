@@ -239,6 +239,16 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (« My Heart is Cold », « Better Magic », « Colder ») ignorées.
 - **[choix]** Les éléments des armures (« Elements » des Coverings) ne sont pas encore gérés.
 
+- **[choix]** (31/10, phase 2) **Éléments des armures** : les pages d'ensembles (« Aerospec armor »...) ont des champs
+  `resistance1..n` / `vulnerable1..n` ; `gen_elements.py` les écrit dans `armors` (WikiData/elements.json) avec le
+  préfixe de classe des pièces (« Aerospec », « DesertProwler »...). Le joueur qui porte l'**ensemble complet** (casque,
+  plastron et jambières au préfixe de l'ensemble) prend 50 % des dégâts des attaques d'un élément résisté et 200 % d'un
+  élément vulnérable (produit borné à 25 %-400 %, comme pour les PNJ). **Élément d'une attaque ennemie** : le wiki n'en
+  donne pas ; on prend les éléments auxquels le PNJ résiste (la page « Elemental System » : un ennemi de feu résiste au
+  feu), pour son contact et ses projectiles. Mêmes règles dans les deux modes, à valider. 8 ensembles en jeu (Aerospec,
+  Desert Prowler, Fearmonger, Snow Ruffian, Statigel, Sulphurous, Victide, Wulfrum) ; 5 sont des armures inventées pas
+  encore créées (Banana Clown, Corpulent, Gel, Grarble, Horseslime). Les debuffs élémentaires du joueur ne changent pas.
+
 ## 6. Matériaux générés (`tools/gen_items.py`)
 
 - **[choix]** Portée : pages absentes de Calamity de type Crafting material / Bar / Soul, plus les « Block » qui servent

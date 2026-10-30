@@ -22,6 +22,12 @@ namespace CalamityFandom.Common.Elements
 
         public override void OnSpawn(Projectile projectile, IEntitySource source)
         {
+            // Projectile ennemi : éléments des attaques du PNJ qui le tire (ElementData.AttackElements)
+            if (projectile.hostile && source is EntitySource_Parent { Entity: NPC shooter })
+            {
+                Elements = ElementData.AttackElements(shooter.type);
+                return;
+            }
             if (!projectile.friendly || projectile.hostile)
                 return;
             Elements = source switch

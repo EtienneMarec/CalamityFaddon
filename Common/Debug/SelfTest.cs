@@ -240,6 +240,12 @@ namespace CalamityFandom.Common.Debug
                 Expect(false, "Aero Slime introuvable");
 
             Expect(ElementData.ItemElements.Count > 600, $"objets avec éléments : {ElementData.ItemElements.Count}");
+            // Ensembles d'armure élémentaires (31/10) : préfixe de classe qui désigne de vraies pièces (casque, plastron, jambières)
+            var armorSets = ElementData.ArmorAffinity.Where(a => ItemLoader.ItemCount > 0 && Enumerable.Range(ItemID.Count, ItemLoader.ItemCount - ItemID.Count)
+                .Select(ItemLoader.GetItem).Where(m => m != null && m.Name.StartsWith(a.prefix, StringComparison.Ordinal))
+                .Select(m => m.Item).Count(i => i.headSlot > 0 || i.bodySlot > 0 || i.legSlot > 0) >= 3).Select(a => a.prefix).ToList();
+            Expect(armorSets.Count >= 7, $"ensembles d'armure élémentaires trouvés en jeu : {string.Join(", ", armorSets)}");
+            Report($"armures élémentaires : {armorSets.Count} ensembles en jeu sur {ElementData.ArmorAffinity.Count} ({string.Join(", ", armorSets)})");
             Report($"éléments : {ElementData.ItemElements.Count} objets et {ElementData.NPCAffinity.Count} PNJ en jeu ; "
                 + $"{ElementData.UnresolvedItems.Count} objets et {ElementData.UnresolvedNPCs.Count} PNJ du wiki pas encore dans le jeu");
             string reports = ReportsFolder;
