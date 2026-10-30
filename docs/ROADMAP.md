@@ -25,7 +25,7 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 - [x] Elemental System (17 éléments, statuts, résistances/vulnérabilités de 127 PNJ, 688 armes)
 - [x] Éléments des armures → résistances du joueur (31/10 ; ensemble complet, élément d'un ennemi = ses résistances, à valider)
 - [ ] Classe Spy : proficiency, Level Meters, stealth tel que décrit (pages `Spy.txt`, `Level Meters`)
-- [ ] Wind : dégâts à l'atterrissage
+- [x] Wind : dégâts à l'atterrissage (31/10)
 - [x] **Shortstrike / Shortflurry** (22/10) — reste : 17 effets spéciaux (`reports/shortstrike.md`) et les armes manquantes
 - [ ] Autres pages « Game mechanics » (catégorie dans l'index)
 

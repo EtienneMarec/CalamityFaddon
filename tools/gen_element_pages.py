@@ -89,7 +89,7 @@ def main():
         status = statuses.get(element)
         chance = f"{{{{mode|100%|{pct(chances.get(element, 1))}}}}}"
         if not effect or not status:
-            special = {"Wind": "No lasting effect: hits push enemies away 50% harder.",
+            special = {"Wind": "No lasting effect: hits push enemies away 50% harder; a launched enemy takes 25% of the hit when it lands (up to 50% after a long fall). Bosses are not affected.",
                        "Bomb": "No lasting effect: critical hits deal twice the usual bonus and are 50% more likely; "
                                "each enemy already hit by the same explosion that tick adds 10% damage (up to 2x)."}[element]
             rows.append(f"|-{NL}| [[File:{element} (element).png|link={element} (element)]] [[{element} (element)|{element}]] || — || {special} || —")

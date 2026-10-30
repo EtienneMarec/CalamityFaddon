@@ -487,6 +487,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] (31/10, phase 2) **Éléments des armures** : avec l'ensemble Victide complet (résiste à Water, Fire, Slash ;
       vulnérable à Unholy, Cold, Poison), un ennemi qui résiste au feu (Impious Immolator...) fait moitié moins de dégâts,
       un ennemi de glace le double ; une pièce seule ne change rien. Idem Aerospec, Desert Prowler, Statigel, Wulfrum...
+- [ ] (31/10, phase 2) **Wind** : un ennemi projeté par une arme de vent prend un second chiffre de dégâts en retombant au
+      sol (petit nuage), plus gros après une longue chute ; rien sur les boss ni les ennemis volants
 - [ ] (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
       Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle

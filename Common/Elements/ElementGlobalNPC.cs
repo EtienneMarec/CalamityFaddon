@@ -18,6 +18,12 @@ namespace CalamityFandom.Common.Elements
         // Effets cumulés des statuts actifs, recalculés à chaque tick
         private float slow, damageDown, defenseDown, missChance;
 
+        // Wind : « hurting them when they land » — projeté en l'air par un coup de vent, l'ennemi prend des dégâts à
+        // l'atterrissage (WindLandingShare des dégâts du coup, x1 à x2 selon la vitesse de chute)
+        public const float WindLandingShare = 0.25f;
+        private int windDamage, windAirTime;
+        private float windFallSpeed;
+
         public override void ResetEffects(NPC npc)
         {
             slow = damageDown = defenseDown = missChance = 0f;
@@ -60,6 +66,8 @@ namespace CalamityFandom.Common.Elements
 
         public override void PostAI(NPC npc)
         {
+            if (windDamage > 0)
+                WindLanding(npc);
             // Ralentissement : on annule une partie du déplacement du tick (ne se cumule pas d'un tick à l'autre)
             if (slow > 0f && !npc.townNPC)
                 npc.position -= npc.velocity * slow;
@@ -147,10 +155,38 @@ namespace CalamityFandom.Common.Elements
         public override void OnHitByProjectile(NPC npc, Projectile projectile, NPC.HitInfo hit, int damageDone) =>
             OnElementalHit(npc, ElementGlobalProjectile.Of(projectile), hit);
 
+        private void WindLanding(NPC npc)
+        {
+            windAirTime++;
+            windFallSpeed = Math.Max(windFallSpeed, npc.velocity.Y);
+            bool grounded = npc.collideY || npc.velocity.Y == 0f && npc.oldVelocity.Y > 0f;
+            if (windAirTime > 300 || !npc.active)
+            {
+                windDamage = 0;
+                return;
+            }
+            if (windAirTime < 10 || !grounded)
+                return;
+            int damage = (int)(windDamage * MathHelper.Clamp(windFallSpeed / 8f, 1f, 2f));
+            windDamage = 0;
+            if (Main.netMode != NetmodeID.MultiplayerClient && damage > 0)
+                npc.SimpleStrikeNPC(damage, 0, noPlayerInteraction: false);
+            for (int i = 0; i < 12; i++)
+                Dust.NewDust(npc.BottomLeft - new Vector2(0f, 8f), npc.width, 8, DustID.Cloud, Main.rand.NextFloat(-2f, 2f), -1f);
+        }
+
         private static void OnElementalHit(NPC npc, IReadOnlyList<Element> elements, NPC.HitInfo hit)
         {
             if (elements.Count == 0)
                 return;
+            // Wind : seulement les ennemis que le coup fait vraiment voler (soumis au recul et à la gravité, pas les boss)
+            if (System.Linq.Enumerable.Contains(elements, Element.Wind) && !npc.boss && !npc.noGravity && npc.knockBackResist > 0f && hit.Knockback > 0f
+                && npc.TryGetGlobalNPC<ElementGlobalNPC>(out var self))
+            {
+                self.windDamage = Math.Max(self.windDamage, (int)(hit.Damage * WindLandingShare));
+                self.windAirTime = 0;
+                self.windFallSpeed = 0f;
+            }
             foreach (var e in elements)
             {
                 int buff = ElementData.StatusBuffs[(int)e];

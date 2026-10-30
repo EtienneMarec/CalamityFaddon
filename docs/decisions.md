@@ -198,7 +198,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   |---|---|---|
   | Cold | Numbed | ralenti 20 %, dégâts de contact -10 % |
   | Fire | Ablaze | 6 / 20 / 60 par s, défense -10 % |
-  | Wind | — | recul x1,5 au coup (« hurting them when they land » pas encore fait) |
+  | Wind | — | recul x1,5 au coup ; à l'atterrissage (31/10), 25 % des dégâts du coup, jusqu'à 50 % selon la vitesse de chute (pas les boss, ni les ennemis sans gravité ou sans recul ; dégâts appliqués par le serveur : en multijoueur, TODO le coup est vu par le client qui frappe) |
   | Water | Waterlogged | 3 / 10 / 30 par s, ralenti 10 % |
   | Poison | Envenomed | 5 / 15 / 45 par s, dégâts de contact -10 % |
   | Acid | Corroded | 3 / 10 / 30 par s, ralenti 10 %, dégâts -10 %, défense -10 % |
