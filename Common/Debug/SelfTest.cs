@@ -240,6 +240,16 @@ namespace CalamityFandom.Common.Debug
                 Expect(false, "Aero Slime introuvable");
 
             Expect(ElementData.ItemElements.Count > 600, $"objets avec éléments : {ElementData.ItemElements.Count}");
+            // Metabolic Converter (31/10) : trouvable, dans le sac de Crabulon (page Treasure Bag) en Full Fandom
+            int converter = WikiRecipes.ResolveItem("Metabolic Converter");
+            Expect(converter > 0 && ItemLoader.GetItem(converter)?.Mod == Mod, "Metabolic Converter créé");
+            if (FandomMode.IsFull && ModContent.TryFind<ModItem>("CalamityMod", "CrabulonBag", out var crabBag))
+            {
+                var crabRates = new List<DropRateInfo>();
+                foreach (var r in Main.ItemDropsDB.GetRulesForItemID(crabBag.Type))
+                    r.ReportDroprates(crabRates, new DropRateInfoChainFeed(1f));
+                Expect(crabRates.Any(r => r.itemId == converter), "le sac de Crabulon contient le Metabolic Converter");
+            }
             // Proficiency (31/10) : tableau de la page chargé, Level Meters vendues par le Goblin Tinkerer
             var levels = Common.Proficiency.ProficiencyData.Levels;
             Expect(levels.Length == 30 && levels[^1].Required == 50000 && Common.Proficiency.ProficiencyData.LevelOf(99) == 0

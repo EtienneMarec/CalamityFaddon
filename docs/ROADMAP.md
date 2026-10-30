@@ -25,7 +25,7 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 - [x] Elemental System (17 éléments, statuts, résistances/vulnérabilités de 127 PNJ, 688 armes)
 - [x] Éléments des armures → résistances du joueur (31/10 ; ensemble complet, élément d'un ennemi = ses résistances, à valider)
 - [x] Proficiency et Level Meters (31/10, toutes les classes, page Proficiency)
-- [ ] Classe Spy : discrétion telle que décrite (pages `Spy.txt`, `Spy stealth.txt`)
+- [x] Classe Spy : discrétion de la page (31/10, Full Fandom) ; Rage/Adrenaline débloquées par le Metabolic Converter (Full Fandom)
 - [x] Wind : dégâts à l'atterrissage (31/10)
 - [x] **Shortstrike / Shortflurry** (22/10) — reste : 17 effets spéciaux (`reports/shortstrike.md`) et les armes manquantes
 - [ ] Autres pages « Game mechanics » (catégorie dans l'index)

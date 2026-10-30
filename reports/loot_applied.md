@@ -3,7 +3,7 @@
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
 - 294 drops ajoutés sur 116 PNJ
-- 110 ajouts dans 24 sacs
+- 111 ajouts dans 24 sacs
 - 552 drops du wiki déjà présents dans le jeu (inchangés)
 - 119 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 25 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
@@ -136,7 +136,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (Brimstone Elemental)** : Gehenna 1-1 à 100.0% (page Treasure Bag) ; Abaddon 1-1 à 100.0% (page Treasure Bag) ; Bloodstone 25-35 à 100.0% [Once Providence, the Profaned Goddess] ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] ; Greater Healing Potion 5-15 à 100.0% ; Brimstone Elemental Trophy 1-1 à 10.0%
 - **Treasure Bag (Calamitas)** : Blighted Lens 1-3 à 100.0% (page Treasure Bag) ; Ashes of Annihilation 14-18 à 100.0% ; Broken Hero Sword 1-1 à 100.0% ; Bloodstone 35-45 à 100.0% [Once Providence is defeated] ; Greater Healing Potion 5-15 à 100.0% ; Calamitas Trophy 1-1 à 10.0% ; Brimstone Flameblaster 1-1 à 10.0% ; Catastrophe Clay Ore 10-26 à 100.0% ; Crushsaw Crasher 1-1 à 10.0% ; Havoc's Breath 1-1 à 10.0%
 - **Treasure Bag (Ceaseless Void)** : Arcanum of the Void 1-1 à 100.0% (page Treasure Bag) ; Tree-Crown Wings 1-1 à 100.0% ; Supreme Healing Potion 5-15 à 100.0% ; Ceaseless Void Trophy 1-1 à 10.0%
-- **Treasure Bag (Crabulon)** : Shroomerang 1-1 à 33.3% (page Treasure Bag) ; Delicious Meat 4-7 à 100.0% ; Crabulon Trophy 1-1 à 10.0%
+- **Treasure Bag (Crabulon)** : Metabolic Converter 1-1 à 100.0% (page Treasure Bag) ; Shroomerang 1-1 à 33.3% (page Treasure Bag) ; Delicious Meat 4-7 à 100.0% ; Crabulon Trophy 1-1 à 10.0%
 - **Treasure Bag (Cryogen)** : Glacial Crusher 1-1 à 33.3% (page Treasure Bag) ; Frozen Key 1-1 à 20.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Cryogen Trophy 1-1 à 10.0% ; Bittercold Staff 1-1 à 33.3%
 - **Treasure Bag (Desert Scourge)** : Aquatic Discharge 1-1 à 33.3% (page Treasure Bag) ; Aero Stone 1-1 à 20.0% (page Treasure Bag) ; Sandy Angling Kit 1-1 à 100.0% (page Treasure Bag) ; Parched Scale 10-16 à 100.0% ; Profaned Shard 1-1 à 100.0% ; Abyss Bar 10-17 à 100.0% ; Sand Block 261-820 à 100.0% ; Delicious Meat 4-4 à 20.0% ; Lesser Healing Potion 8-14 à 100.0% ; Desert Scourge Trophy 1-1 à 10.0%
 - **Treasure Bag (Duke Fishron)** : Delicious Meat 45-92 à 50.0%

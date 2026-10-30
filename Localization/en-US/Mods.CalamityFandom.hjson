@@ -853,6 +853,15 @@ Items: {
 			'''
 	}
 
+	MetabolicConverter: {
+		DisplayName: Metabolic Converter
+		Tooltip:
+			'''
+			Permanently unlocks the usage of Rage and Adrenaline
+			Revengeance drop
+			'''
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""

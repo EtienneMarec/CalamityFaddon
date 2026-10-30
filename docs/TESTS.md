@@ -493,6 +493,12 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       proficiency de la classe (une fois toutes les 2 s, plus vite avec la Level Meter) ; au niveau 1 (100 points),
       message « ... proficiency level up! » et feu d'artifice ; l'infobulle de la Level Meter montre niveau et bonus ;
       les mannequins ne comptent pas ; la proficiency reste après avoir quitté et relancé le personnage
+- [ ] (31/10, phase 2) **Spy (Full Fandom)** : avec une armure Spy, la jauge de discrétion pleine donne +67 % de dégâts
+      Spy (+25 % à moitié de jauge, 0,5 % par point) ; les ennemis ciblent moins le joueur discret.
+      En Calamity++, bonus de discrétion habituel de Calamity
+- [ ] (31/10, phase 2) **Metabolic Converter (Full Fandom, Revengeance)** : nouveau personnage sans converter → pas de
+      jauges de Rage ni d'Adrenaline ; utiliser le converter (sac de Crabulon) les débloque, définitivement pour ce
+      personnage ; en Calamity++, Rage et Adrenaline normales
 - [ ] (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
       Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle

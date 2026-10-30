@@ -1042,7 +1042,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Magma Booster — addon: Catalyst, Deimos, the Starborn Princess
 - [x] Meld Chip Ice Cream
 - [ ] Meld Skin Potion — addon: Calamity: Tales of the Aquatic
-- [ ] Metabolic Converter — addon: Catalyst
+- [x] Metabolic Converter — addon: Catalyst
 - [ ] Penumbra Potion
 - [ ] Potato Cat — addon: Calamity: Community Remix
 - [ ] Potion of Triboluminescence

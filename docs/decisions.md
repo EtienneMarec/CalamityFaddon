@@ -264,6 +264,20 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** **Level Meters** (5, sprites de 2022) : vendues 5 or par le Goblin Tinkerer (« buy »), infobulle avec le
   niveau, la valeur, le prochain seuil et les bonus.
 
+## 5 ter. Discrétion Spy et Rage/Adrenaline (`Common/Spy/`, `Content/Items/PermanentBoosters/`)
+
+- **[choix]** (31/10, phase 2) Discrétion de la page « Spy » (section Stealth) **en Full Fandom seulement** : chaque
+  point (1 % de la jauge) donne +0,5 % de dégâts Spy, +0,67 % par point jauge pleine, et -4 d'aggro par point (Calamity
+  en retire déjà 3). Remplace le bonus de Calamity 2.2.2 (fonction de la vitesse de l'arme). Calamity++ garde le système
+  actuel, mieux équilibré. Les frappes furtives, la vitesse de remplissage et l'Elephant Killer ne changent pas.
+- **[choix]** **Metabolic Converter** (objet inventé, sac de The Inventors d'après la page Treasure Bag ; la page de l'objet
+  écrit `[[Crabulon|The Inventors]]`) : ajouté aussi au sac de Crabulon dans notre page Treasure Bag tant que The Inventors
+  (boss inventé, phase 4) n'existe pas, sinon Rage et Adrenaline seraient inaccessibles en Full Fandom. Objet
+  consommable unique, gardé par personnage. En Full Fandom et en Revengeance, Rage et Adrenaline restent verrouillées
+  tant qu'il n'a pas été utilisé (les sources de Calamity qui les débloquent déjà, Shattered Community et Draedon's
+  Heart, les laissent actives). En Calamity++ il ne fait rien (Rage et Adrenaline comme dans Calamity).
+- **[choix]** Stamina : page de l'addon Catalyst, ignorée (voir section 11).
+
 ## 6. Matériaux générés (`tools/gen_items.py`)
 
 - **[choix]** Portée : pages absentes de Calamity de type Crafting material / Bar / Soul, plus les « Block » qui servent
