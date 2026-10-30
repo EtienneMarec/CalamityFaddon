@@ -240,6 +240,15 @@ namespace CalamityFandom.Common.Debug
                 Expect(false, "Aero Slime introuvable");
 
             Expect(ElementData.ItemElements.Count > 600, $"objets avec éléments : {ElementData.ItemElements.Count}");
+            // Proficiency (31/10) : tableau de la page chargé, Level Meters vendues par le Goblin Tinkerer
+            var levels = Common.Proficiency.ProficiencyData.Levels;
+            Expect(levels.Length == 30 && levels[^1].Required == 50000 && Common.Proficiency.ProficiencyData.LevelOf(99) == 0
+                && Common.Proficiency.ProficiencyData.LevelOf(100) == 1 && Common.Proficiency.ProficiencyData.LevelOf(500000) == 30,
+                $"proficiency : {levels.Length} niveaux");
+            if (NPCShopDatabase.TryGetNPCShop(NPCShopDatabase.GetShopName(NPCID.GoblinTinkerer), out var goblinShop))
+                Expect(goblinShop.ActiveEntries.Count(e => e.Item.ModItem is Content.Legacy.Items.Accessories.LevelMeter) == 5, "le Goblin Tinkerer vend les 5 Level Meters");
+            else
+                Expect(false, "boutique du Goblin Tinkerer introuvable");
             // Ensembles d'armure élémentaires (31/10) : préfixe de classe qui désigne de vraies pièces (casque, plastron, jambières)
             var armorSets = ElementData.ArmorAffinity.Where(a => ItemLoader.ItemCount > 0 && Enumerable.Range(ItemID.Count, ItemLoader.ItemCount - ItemID.Count)
                 .Select(ItemLoader.GetItem).Where(m => m != null && m.Name.StartsWith(a.prefix, StringComparison.Ordinal))

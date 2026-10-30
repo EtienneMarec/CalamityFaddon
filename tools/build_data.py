@@ -8,7 +8,7 @@ import os
 import subprocess
 import sys
 
-STEPS = ["test_modes.py", "gen_element_pages.py", "gen_shortstrike.py", "wiki_index.py", "gen_localization.py", "gen_stats.py", "gen_recipes.py", "gen_baseline.py", "gen_elements.py", "gen_items.py", "gen_loot.py", "gen_sprites.py"]
+STEPS = ["test_modes.py", "gen_element_pages.py", "gen_shortstrike.py", "wiki_index.py", "gen_localization.py", "gen_stats.py", "gen_recipes.py", "gen_baseline.py", "gen_elements.py", "gen_proficiency.py", "gen_items.py", "gen_loot.py", "gen_sprites.py"]
 
 
 def main():

@@ -682,7 +682,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Jewel Core — addon: Calamity: Tales of the Aquatic
 - [ ] Landscapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
 - [x] Lead Core
-- [ ] Level Meters — pas de sprite
+- [x] Level Meters — pas de sprite
 - [ ] Lul
 - [ ] Lunarspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [ ] Magna Core — addon: Calamity: Community Remix

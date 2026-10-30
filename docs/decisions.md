@@ -249,6 +249,21 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Desert Prowler, Fearmonger, Snow Ruffian, Statigel, Sulphurous, Victide, Wulfrum) ; 5 sont des armures inventées pas
   encore créées (Banana Clown, Corpulent, Gel, Grarble, Horseslime). Les debuffs élémentaires du joueur ne changent pas.
 
+## 5 bis. Proficiency (`tools/gen_proficiency.py`, `Common/Proficiency/`, pages Proficiency et Level Meters)
+
+- **[choix]** (31/10, phase 2) Mécanique retirée de Calamity le 18/09/2022 (avant 2.0.1.005), décrite par le wiki :
+  rétablie d'après la **page** et non l'ancien code. Tableau des 30 niveaux (seuils jusqu'à 50 000, bonus non cumulés)
+  en données (`WikiData/proficiency.json`) ; l'ancien code plafonnait à 12 500 (15 niveaux) et bridait avant le
+  Hardmode et avant le Moon Lord : la page n'en parle pas, pas de bride. Gain de 1 par coup de plus de 5 dégâts (ou sur
+  un boss), pas sur les ennemis de statue ni les mannequins ; recharge commune de 2 s, moitié avec la Level Meter de la
+  classe, qui donne aussi 10 % de chances de double gain si la valeur n'est pas un multiple de 100 ; valeur max 500 000.
+  Spy = rogue. Bonus : dégâts et critique de la classe ; mêlée : vitesse ; distance : chance de ne pas consommer la
+  munition ; magie : coût de mana réduit ; invocation : recul des sbires (+X) et emplacements (pas de critique, la page
+  ne le liste pas pour l'invocation) ; spy : vitesse des projectiles. Montée de niveau : message (textes de l'ancien
+  Calamity) et feu d'artifice. Gardée par personnage. Mêmes règles dans les deux modes, à valider.
+- **[choix]** **Level Meters** (5, sprites de 2022) : vendues 5 or par le Goblin Tinkerer (« buy »), infobulle avec le
+  niveau, la valeur, le prochain seuil et les bonus.
+
 ## 6. Matériaux générés (`tools/gen_items.py`)
 
 - **[choix]** Portée : pages absentes de Calamity de type Crafting material / Bar / Soul, plus les « Block » qui servent

@@ -808,6 +808,51 @@ Items: {
 			'''
 	}
 
+	MeleeLevelMeter: {
+		DisplayName: Melee Level Meter
+		Tooltip:
+			'''
+			Tells you how high your melee proficiency is
+			While equipped you will gain melee proficiency faster
+			'''
+	}
+
+	RangedLevelMeter: {
+		DisplayName: Ranged Level Meter
+		Tooltip:
+			'''
+			Tells you how high your ranged proficiency is
+			While equipped you will gain ranged proficiency faster
+			'''
+	}
+
+	MagicLevelMeter: {
+		DisplayName: Magic Level Meter
+		Tooltip:
+			'''
+			Tells you how high your magic proficiency is
+			While equipped you will gain magic proficiency faster
+			'''
+	}
+
+	SummonLevelMeter: {
+		DisplayName: Summon Level Meter
+		Tooltip:
+			'''
+			Tells you how high your summon proficiency is
+			While equipped you will gain summon proficiency faster
+			'''
+	}
+
+	SpyLevelMeter: {
+		DisplayName: Spy Level Meter
+		Tooltip:
+			'''
+			Tells you how high your Spy proficiency is
+			While equipped you will gain Spy proficiency faster
+			'''
+	}
+
 	MandibleBow: {
 		DisplayName: Mandible Bow
 		Tooltip: ""
@@ -1382,3 +1427,34 @@ Configs: {
 }
 
 NPCs.FandomTestDummy.DisplayName: Fandom Test Dummy
+
+Proficiency: {
+	LevelUp: {
+		melee: Melee weapon proficiency level up!
+		ranged: Ranged weapon proficiency level up!
+		magic: Magic weapon proficiency level up!
+		summon: Summoner weapon proficiency level up!
+		spy: Spy weapon proficiency level up!
+	}
+
+	Max: {
+		melee: Melee weapon proficiency maxed out!
+		ranged: Ranged weapon proficiency maxed out!
+		magic: Magic weapon proficiency maxed out!
+		summon: Summoner weapon proficiency maxed out!
+		spy: Spy weapon proficiency maxed out!
+	}
+
+	Meter: {
+		Level: "Level {0} ({1} proficiency)"
+		Next: ", next level at {0}"
+		Maxed: ", maximum level"
+		Damage: +{0}% damage
+		Crit: +{0}% critical strike chance
+		MeleeSpeed: +{0}% melee speed
+		Ammo: "{0}% chance not to consume ammo"
+		Mana: -{0}% mana cost
+		Minions: "+{0} minion knockback, +{1} minion slots"
+		Velocity: +{0}% projectile speed
+	}
+}
