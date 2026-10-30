@@ -5,6 +5,7 @@ using CalamityMod;
 using CalamityMod.NPCs.Abyss;
 using CalamityMod.NPCs.Crabulon;
 using CalamityMod.NPCs.Providence;
+using CalamityFandom.Content.NPCs.Perforators;
 using Terraria;
 using Terraria.Chat;
 using Terraria.DataStructures;
@@ -35,6 +36,9 @@ namespace CalamityFandom.Common.Taming
         // « Killing a boss will make it untamable »
         public override void OnKill(NPC npc)
         {
+            // « The Estranged Sons cannot be killed for the tame to work »
+            if (npc.type == ModContent.NPCType<EstrangedSonHead>() && TamingSystem.Fights.TryGetValue("The Perforators", out var perf))
+                perf.Harmed = true;
             if (TamingSystem.TamingNow || TamingSystem.EntryOf(npc.type) is not { } e || !TamingSystem.Untamable.Add(e.Key))
                 return;
             if (Main.netMode == NetmodeID.Server)
@@ -48,13 +52,33 @@ namespace CalamityFandom.Common.Taming
             // « Summon Providence, the Profaned Goddess while the Profaned Guardians are alive »
             if (npc.type == ModContent.NPCType<Providence>())
                 TamingSystem.AddProgress("Profaned Guardians", 1f);
+            // « Spawn 50 worms during the fight. Each worm will transform into an Estranged Son after around 5 seconds »
+            // (ver relâché, ou sorti d'une Worm Statue)
+            if (npc.type == NPCID.Worm && TamingSystem.Active("The Perforators") != null)
+                wormTransform = 5 * 60;
             // Colossal Squid apparu pendant le combat du Moon Lord
             if (npc.type == ModContent.NPCType<ColossalSquid>() && TamingSystem.Active("Moon Lord") is { } ml)
                 ml.Flag = true;
         }
 
+        private int wormTransform;
+
         public override bool PreAI(NPC npc)
         {
+            if (wormTransform > 0 && --wormTransform == 0 && Main.netMode != NetmodeID.MultiplayerClient)
+            {
+                if (TamingSystem.Active("The Perforators") != null)
+                {
+                    int son = NPC.NewNPC(npc.GetSource_FromAI(), (int)npc.Center.X, (int)npc.Center.Y, ModContent.NPCType<EstrangedSonHead>());
+                    if (Main.netMode == NetmodeID.Server)
+                        NetMessage.SendData(MessageID.SyncNPC, number: son);
+                    TamingSystem.AddProgress("The Perforators", 1f);
+                }
+                npc.active = false;
+                if (Main.netMode == NetmodeID.Server)
+                    NetMessage.SendData(MessageID.SyncNPC, number: npc.whoAmI);
+                return false;
+            }
             if (grown != 1f)
             {
                 npc.scale /= grown;

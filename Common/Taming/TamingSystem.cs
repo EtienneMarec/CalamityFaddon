@@ -13,6 +13,7 @@ using CalamityMod.NPCs.Cryogen;
 using CalamityMod.NPCs.DesertScourge;
 using CalamityMod.NPCs.DevourerofGods;
 using CalamityMod.NPCs.HiveMind;
+using CalamityMod.NPCs.Perforator;
 using CalamityMod.NPCs.PlaguebringerGoliath;
 using CalamityMod.NPCs.Polterghast;
 using CalamityMod.NPCs.ProfanedGuardians;
@@ -94,18 +95,22 @@ namespace CalamityFandom.Common.Taming
         public override void PostSetupContent()
         {
             // Pré-Hardmode. TODO : The Inventors, Wulfrum Excavator (boss inventés) ; Brain of Cthulhu (Holographic
-            // Chessboard), The Perforators (Estranged Son), Queen Bee (« 100 bees », sens flou), Skeletron (bras de fer
-            // avec l'Old Man), The Slime God (absorption des Blight Slimes) : contenu à créer
+            // Chessboard), Queen Bee (« 100 bees », sens flou), Skeletron (bras de fer avec l'Old Man), The Slime God
+            // (absorption des Blight Slimes) : contenu à créer
             Add("King Slime", 300 * 60, 0, NPCID.KingSlime);
             Add("Desert Scourge", 180, 0, ModContent.NPCType<DesertScourgeHead>(), ModContent.NPCType<DesertScourgeBody>(), ModContent.NPCType<DesertScourgeTail>());
             Add("Eye of Cthulhu", 30, 0, NPCID.EyeofCthulhu);
             Add("Crabulon", 1, 0, ModContent.NPCType<Crabulon>());
             Add("Eater of Worlds", 3, 0, NPCID.EaterofWorldsHead, NPCID.EaterofWorldsBody, NPCID.EaterofWorldsTail);
             Add("The Hive Mind", 100, 0, ModContent.NPCType<HiveMind>());
+            Add("The Perforators", 50, 0, ModContent.NPCType<PerforatorHive>(),
+                ModContent.NPCType<PerforatorHeadSmall>(), ModContent.NPCType<PerforatorBodySmall>(), ModContent.NPCType<PerforatorTailSmall>(),
+                ModContent.NPCType<PerforatorHeadMedium>(), ModContent.NPCType<PerforatorBodyMedium>(), ModContent.NPCType<PerforatorTailMedium>(),
+                ModContent.NPCType<PerforatorHeadLarge>(), ModContent.NPCType<PerforatorBodyLarge>(), ModContent.NPCType<PerforatorTailLarge>());
             Add("Wall of Flesh", 1, 0, NPCID.WallofFlesh, NPCID.WallofFleshEye);
             // Hardmode. TODO : Cumulomenace, Pyrogen, The Derellect, Polyphemalus (inventés) ; Brimstone Elemental (PNJ qui
             // emménagent), Leviathan and Anahita (poissons rouges), Astrum Aureus (Draedon's Remote absent), Golem (ballon
-            // de plage), Lunatic Cultist (Cultist set)
+            // de plage)
             Add("Queen Slime", 100, 1, NPCID.QueenSlimeBoss);
             Add("Cryogen", 180, 1, ModContent.NPCType<Cryogen>());
             Add("The Twins", 60 * 60, 1, NPCID.Retinazer, NPCID.Spazmatism);
@@ -122,6 +127,7 @@ namespace CalamityFandom.Common.Taming
                 ModContent.NPCType<RavagerLegLeft>(), ModContent.NPCType<RavagerLegRight>(), ModContent.NPCType<RavagerHead>());
             Add("Astrum Deus", 1, 1, ModContent.NPCType<AstrumDeusHead>(), ModContent.NPCType<AstrumDeusBody>(), ModContent.NPCType<AstrumDeusTail>());
             Add("The Dragonfolly", 1, 1, ModContent.NPCType<Dragonfolly>());
+            Add("Lunatic Cultist", 1, 1, NPCID.CultistBoss);
             Add("Moon Lord", 1, 1, NPCID.MoonLordCore, NPCID.MoonLordHead, NPCID.MoonLordHand);
             // Après le Moon Lord. TODO : Yharim Worm, The Wall of Bronze, The Fabricational Quartet, XP-00 Hypnos (inventés) ;
             // Supreme Calamitas (« alt-f4 »)
@@ -358,6 +364,7 @@ namespace CalamityFandom.Common.Taming
         {
             if (Terraria.Main.netMode == NetmodeID.MultiplayerClient)
                 return;
+            CultistRitual();
             foreach (var e in Entries)
             {
                 NPC npc = FindMain(e);
@@ -383,6 +390,44 @@ namespace CalamityFandom.Common.Taming
                 ShowProgress(e, f, npc);
                 if (f.Progress >= e.Goal)
                     Tame(e, npc);
+            }
+        }
+
+        /// <summary>
+        /// « Wear the Cultist set, and walk in between the two Lunatic Devotees. This will cause the Lunatic Cultist to
+        /// appear, and instantly be tamed » : Lunar Cultist Hood et Robe (armure ou apparence) et passer entre les deux
+        /// dévots du rituel, à l'entrée du donjon.
+        /// </summary>
+        private static void CultistRitual()
+        {
+            const string key = "Lunatic Cultist";
+            var e = Get(key);
+            if (e == null || Untamable.Contains(key) || InstantTame.Contains(key) || FindMain(e) != null)
+                return;
+            NPC left = null, right = null;
+            foreach (var n in Terraria.Main.ActiveNPCs)
+            {
+                if (n.type != NPCID.CultistDevote)
+                    continue;
+                if (left == null || n.Center.X < left.Center.X)
+                    left = n;
+                if (right == null || n.Center.X > right.Center.X)
+                    right = n;
+            }
+            if (left == null || left == right)
+                return;
+            foreach (var p in Terraria.Main.ActivePlayers)
+            {
+                bool hood = p.armor[0].type == ItemID.BlueLunaticHood || p.armor[10].type == ItemID.BlueLunaticHood;
+                bool robe = p.armor[1].type == ItemID.BlueLunaticRobe || p.armor[11].type == ItemID.BlueLunaticRobe;
+                if (p.dead || !hood || !robe || p.Center.X < left.Center.X || p.Center.X > right.Center.X
+                    || System.Math.Abs(p.Center.Y - left.Center.Y) > 160f)
+                    continue;
+                InstantTame.Add(key);
+                int boss = NPC.NewNPC(NPC.GetBossSpawnSource(p.whoAmI), (int)(left.Center.X + right.Center.X) / 2, (int)left.Center.Y - 120, e.Main);
+                if (Terraria.Main.netMode == NetmodeID.Server)
+                    NetMessage.SendData(MessageID.SyncNPC, number: boss);
+                return;
             }
         }
 
@@ -449,10 +494,12 @@ namespace CalamityFandom.Common.Taming
                 HappyEffects(pos);
         }
 
-        // Tout ce qui appartient au combat : types de l'entrée, segments, membres du Moon Lord
+        // Tout ce qui appartient au combat : types de l'entrée, segments, membres du Moon Lord, Estranged Sons
         private static bool Belongs(Entry e, NPC n, NPC main) =>
             e.Types.Contains(n.type) || n.realLife == main.whoAmI
-            || e.Key == "Moon Lord" && (n.type == NPCID.MoonLordFreeEye || n.type == NPCID.MoonLordLeechBlob);
+            || e.Key == "Moon Lord" && (n.type == NPCID.MoonLordFreeEye || n.type == NPCID.MoonLordLeechBlob)
+            // [choix] Les Estranged Sons repartent avec les Perforators apprivoisés
+            || e.Key == "The Perforators" && n.ModNPC is Content.NPCs.Perforators.EstrangedSonSegment;
 
         private static void Vanish(NPC n)
         {

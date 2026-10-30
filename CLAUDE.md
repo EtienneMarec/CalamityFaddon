@@ -143,6 +143,10 @@ Tester les trois couches : `python tools/selftest.py --mode all`. Référence «
 
 Une dépendance absente (ingrédient, debuff, boss qui droppe l'objet) se traite d'abord ou se note en `TODO` dans le code.
 
+**Nouveau boss** : lui ajouter sa méthode de Taming (`Common/Taming/`, page Taming ; pas les superboss), dans les deux
+modes. Le jeu doit pouvoir se finir sans tuer un seul boss : aucune méthode ne doit demander un objet qui ne tombe que d'un
+boss qu'il faut tuer avant.
+
 ## Décisions hors wiki : toujours les noter
 
 **Tout ce qui ne vient pas directement d'une page** (valeur choisie, nature d'un effet, nom inventé, comportement

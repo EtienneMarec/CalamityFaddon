@@ -496,15 +496,24 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] (31/10, phase 2) **Spy (Full Fandom)** : avec une armure Spy, la jauge de discrétion pleine donne +67 % de dégâts
       Spy (+25 % à moitié de jauge, 0,5 % par point) ; les ennemis ciblent moins le joueur discret.
       En Calamity++, bonus de discrétion habituel de Calamity
-- [ ] (31/10, phase 2) **Metabolic Converter (Full Fandom, Revengeance)** : nouveau personnage sans converter → pas de
+- [ ] (31/10, phase 2) **Metabolic Converter (Revengeance, les deux modes)** : nouveau personnage sans converter → pas de
       jauges de Rage ni d'Adrenaline ; utiliser le converter (sac de Crabulon) les débloque, définitivement pour ce
-      personnage ; en Calamity++, Rage et Adrenaline normales
+      personnage ; pareil en Calamity++ (validé 31/10)
 - [ ] (31/10, phase 2) **Taming** (nouveau monde, les deux modes) : King Slime arrosé au Slime Gun grossit, cœurs et
       « ♥ 25 % » ; sans le blesser 5 min → « King Slime has been tamed! », il disparaît et laisse son butin. Plus simples
       à tester : Desert Scourge mené à la plage, Eye of Cthulhu (30 tours), Ravager dans le Shimmer, Duke Fishron près
       d'un Truffle Worm. Blesser le boss : plus aucun progrès. Tuer un boss puis aller voir le Zoologist : « Soothe:
       <boss> » en vente (2/10/50 or), un seul par jour ; l'objet acheté disparaît et le boss redevient apprivoisable.
       Polterghast : 100 tombes posées dans le donjon le font apparaître déjà apprivoisé
+- [ ] (31/10) **Route sans tuer** : Slime Gun fabricable à l'enclume (30 Gel + 4 barres de fer/plomb) ; Wall of Flesh :
+      avec une maison libre dans l'enfer, le Guide revient en quelques secondes après l'invocation, et mener le mur à
+      moins de 50 blocs de lui l'apprivoise (le monde passe en Hardmode) ; les ennemis du Solar Pillar lâchent parfois un
+      Yharon Soul Fragment (1/20)
+- [ ] (31/10) **Lunatic Cultist** : après Golem, avec la Lunar Cultist Hood et la Lunar Cultist Robe, passer entre les deux
+      dévots à l'entrée du donjon : le Lunatic Cultist apparaît, « has been tamed! », butin et piliers lunaires
+- [ ] (31/10) **Perforators** : pendant le combat, relâcher des Worms (ou une Worm Statue) : chacun devient un Estranged
+      Son (ver violet qui creuse vers le joueur) au bout de 5 s, « ♥ 25 % » à 13 ; en tuer un fait échouer la tentative ;
+      à 50, les Perforators et les Estranged Sons disparaissent
 - [ ] (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
       Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle

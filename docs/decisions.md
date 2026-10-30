@@ -266,31 +266,32 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 
 ## 5 ter. Discrétion Spy et Rage/Adrenaline (`Common/Spy/`, `Content/Items/PermanentBoosters/`)
 
-- **[choix]** (31/10, phase 2) Discrétion de la page « Spy » (section Stealth) **en Full Fandom seulement** : chaque
+- **[validé 31/10]** Discrétion de la page « Spy » (section Stealth) **en Full Fandom seulement** : chaque
   point (1 % de la jauge) donne +0,5 % de dégâts Spy, +0,67 % par point jauge pleine, et -4 d'aggro par point (Calamity
   en retire déjà 3). Remplace le bonus de Calamity 2.2.2 (fonction de la vitesse de l'arme). Calamity++ garde le système
   actuel, mieux équilibré. Les frappes furtives, la vitesse de remplissage et l'Elephant Killer ne changent pas.
-- **[choix]** **Metabolic Converter** (objet inventé, sac de The Inventors d'après la page Treasure Bag ; la page de l'objet
+- **Metabolic Converter** (objet inventé, sac de The Inventors d'après la page Treasure Bag ; la page de l'objet
   écrit `[[Crabulon|The Inventors]]`) : ajouté aussi au sac de Crabulon dans notre page Treasure Bag tant que The Inventors
   (boss inventé, phase 4) n'existe pas, sinon Rage et Adrenaline seraient inaccessibles en Full Fandom. Objet
-  consommable unique, gardé par personnage. En Full Fandom et en Revengeance, Rage et Adrenaline restent verrouillées
-  tant qu'il n'a pas été utilisé (les sources de Calamity qui les débloquent déjà, Shattered Community et Draedon's
-  Heart, les laissent actives). En Calamity++ il ne fait rien (Rage et Adrenaline comme dans Calamity).
+  consommable unique, gardé par personnage. **[validé 31/10] Dans les deux modes**, en Revengeance, Rage et Adrenaline
+  restent verrouillées tant qu'il n'a pas été utilisé (les sources de Calamity qui les débloquent déjà, Shattered
+  Community et Draedon's Heart, les laissent actives).
 - **[choix]** Stamina : page de l'addon Catalyst, ignorée (voir section 11).
 
 ## 5 quater. Taming (`Common/Taming/`, page Taming)
 
-- **[choix]** (31/10, phase 2) Actif **dans les deux modes** (rien ne change tant qu'on n'essaie pas d'apprivoiser), à
-  valider. 30 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
+- **[validé 31/10]** Actif **dans les deux modes**. Chaque nouveau boss du mod reçoit sa méthode (pas les superboss, en
+  Full Fandom en tout cas). **Le jeu doit pouvoir se finir sans tuer un seul boss** : aucune méthode ne doit demander
+  un objet qui ne tombe que d'un boss qu'il faut tuer avant (voir « Route sans tuer » plus bas).
+- 32 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
   Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze, The Fabricational Quartet,
-  XP-00 Hypnos) ou du contenu absent (Holographic Chessboard pour le Brain of Cthulhu, Estranged Son pour les
-  Perforators, bras de fer de l'Old Man pour Skeletron, Blight Slimes absorbées par le Slime God, Draedon's Remote pour
-  Astrum Aureus, Cultist set pour le Lunatic Cultist) ou un sens plus clair (« 100 bees » de la Queen Bee, ballon de
+  XP-00 Hypnos) ou du contenu absent (Holographic Chessboard pour le Brain of Cthulhu, bras de fer de l'Old Man pour
+  Skeletron, Blight Slimes absorbées par le Slime God, Draedon's Remote pour Astrum Aureus) ou un sens plus clair (« 100 bees » de la Queen Bee, ballon de
   plage du Golem, poissons rouges de Leviathan, PNJ qui emménagent dans la Brimstone Crag) ; Supreme Calamitas
   (« alt-f4 ») non fait. Liste en TODO dans `TamingSystem.PostSetupContent`.
-- **[choix]** **Récompenses** : la page en nomme 17 (Bloated Gel, Dizzy Lens, Fate...), toutes sans page : pas d'objet
-  pour l'instant, le boss apprivoisé laisse seulement son butin (règle « objet sans page »). À trancher : objets inutiles
-  en Full Fandom, vrais objets en Calamity++ ?
+- **[validé 31/10]** **Récompenses** : la page en nomme 17 (Bloated Gel, Dizzy Lens, Fate...), toutes sans page. Même
+  objet dans les deux modes : sans effet en Full Fandom, vrai effet en Calamity++. Pas encore créées (effets à proposer,
+  sprites à demander) : le boss apprivoisé laisse pour l'instant seulement son butin.
 - **[technique]** « Cannot harm the boss » : toute perte de PV d'un PNJ du combat (coups, debuffs) fait échouer la
   tentative jusqu'à ce que le boss disparaisse. Les projectiles des méthodes (Slime Gun, Sparkle Slime Balloon, Green
   Solution, étoile filante, rochers) ne touchent pas le boss. Apprivoisé : cœurs, émoticône, message ; le boss disparaît
@@ -312,8 +313,27 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   passage forcé en phase 2 à 50 ballons. King Slime et Queen Slime grandissent jusqu'à +100 % (visuel en solo).
 - **[choix]** « Ignore boss zen » : pendant ces combats, la réduction d'apparitions de Calamity est annulée pour le
   Colossal Squid (Abyss) et pour les apparitions vanilla de l'espace (wyvernes, harpies).
-- **[choix]** **Soothing** : le Zoologist vend « Soothe: <boss> » pour chaque boss inapprivoisable, un par jour (remis à
-  l'aube) ; prix (la page n'en donne pas) : 2 or avant le Hardmode, 10 or en Hardmode, 50 or après le Moon Lord.
+- **The Perforators** : « spawn 50 worms » = Worms (critters) relâchés par le joueur ou sortis d'une Worm Statue
+  pendant la tentative ; 5 s plus tard chacun devient un **Estranged Son** (`Content/NPCs/Perforators/`, sans page) et
+  compte 1. **[validé 31/10]** Sprites : resprite du Giant Worm par l'utilisateur ; IA de ver fouisseur du Giant Worm,
+  plus vive. **[choix]** Valeurs : tête + 6 segments + queue, 60 PV partagés, dégâts 14/10/8, défense 2/4/6, vitesse 8
+  et accélération 0,1 (Giant Worm ≈ 6 et 0,07). Tuer un Estranged Son fait échouer la tentative ; ils disparaissent
+  avec les Perforators apprivoisés.
+- **Route sans tuer** (`Common/Taming/TamingProgression.cs`) : **[choix]** Slime Gun (King Slime) fabriqué à l'enclume :
+  30 Gel + 4 Iron/Lead Bar. **[technique]** Wall of Flesh : le jeu de base fait revenir les PNJ pendant les combats de
+  boss (seules les invasions et éclipses bloquent les arrivées, vérifié dans le code de tModLoader), mais au contrôle
+  suivant (jusqu'à 2 min) : pendant une tentative (Wall of Flesh, et Brimstone Elemental plus tard), contrôle toutes
+  les 5 s. Il faut une maison libre près du passage du Wall of Flesh pour que le Guide y revienne. **[choix]** The
+  Dragonfolly demande un Yharon Soul Fragment, que seul Yharon lâche (invoqué avec les plumes du Dragonfolly) : comme
+  les « Hellcaster Fragments » d'avant (Trivia de la page), les ennemis du Solar Pillar en lâchent un sur 20, dans les
+  deux modes.
+- **Lunatic Cultist** : le « Cultist set » (redirection vers le wiki de Terraria) = Lunar Cultist Hood + Lunar Cultist
+  Robe du jeu de base (aussi lâchées par les Eidolists d'après le wiki), en armure ou en apparence. **[choix]** Passer
+  entre les deux Lunatic Devotees (horizontalement, à 10 blocs de hauteur au plus) fait apparaître le Lunatic Cultist
+  au-dessus d'eux, apprivoisé aussitôt : les piliers arrivent comme après une victoire.
+- **Soothing** : le Zoologist vend « Soothe: <boss> » pour chaque boss inapprivoisable, un par jour (remis à l'aube).
+  **[validé 31/10, à revoir en test]** Prix (la page n'en donne pas) : 2 or avant le Hardmode, 10 or en Hardmode,
+  50 or après le Moon Lord.
 
 ## 6. Matériaux générés (`tools/gen_items.py`)
 

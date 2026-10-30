@@ -1441,6 +1441,9 @@ Configs: {
 }
 
 NPCs.FandomTestDummy.DisplayName: Fandom Test Dummy
+NPCs.EstrangedSonHead.DisplayName: Estranged Son
+NPCs.EstrangedSonBody.DisplayName: Estranged Son
+NPCs.EstrangedSonTail.DisplayName: Estranged Son
 
 Proficiency: {
 	LevelUp: {
@@ -1460,7 +1463,7 @@ Proficiency: {
 	}
 
 	Meter: {
-		Level: "Level {0} ({1} proficiency)"
+		Level: Level {0} ({1} proficiency)
 		Next: ", next level at {0}"
 		Maxed: ", maximum level"
 		Damage: +{0}% damage
@@ -1468,13 +1471,13 @@ Proficiency: {
 		MeleeSpeed: +{0}% melee speed
 		Ammo: "{0}% chance not to consume ammo"
 		Mana: -{0}% mana cost
-		Minions: "+{0} minion knockback, +{1} minion slots"
+		Minions: +{0} minion knockback, +{1} minion slots
 		Velocity: +{0}% projectile speed
 	}
 }
 
 Taming: {
 	Tamed: "{0} has been tamed!"
-	Soothed: "The Zoologist has soothed {0}: it can be tamed again."
-	SootheName: "Soothe: {0}"
+	Soothed: The Zoologist has soothed {0}: it can be tamed again.
+	SootheName: Soothe: {0}
 }

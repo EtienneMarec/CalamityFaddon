@@ -1,4 +1,3 @@
-using CalamityFandom.Common.Config;
 using CalamityMod;
 using CalamityMod.World;
 using Terraria;
@@ -11,9 +10,9 @@ namespace CalamityFandom.Content.Items.PermanentBoosters
 {
     /// <summary>
     /// Wiki : Metabolic Converter.txt — objet inventé par le wiki, dans le sac de The Inventors (Crabulon) en Revengeance
-    /// (page Treasure Bag) : débloque pour toujours la Rage et l'Adrenaline, une seule fois. [choix] Full Fandom : sans lui,
-    /// les deux jauges restent verrouillées en Revengeance (sauf Shattered Community / Draedon's Heart, qui les activent
-    /// déjà dans Calamity) ; Calamity++ : Rage et Adrenaline disponibles d'office, comme dans Calamity.
+    /// (page Treasure Bag) : débloque pour toujours la Rage et l'Adrenaline, une seule fois. [validé 31/10] Dans les deux
+    /// modes : sans lui, les deux jauges restent verrouillées en Revengeance (sauf Shattered Community / Draedon's Heart,
+    /// qui les activent déjà dans Calamity).
     /// </summary>
     public class MetabolicConverter : ModItem
     {
@@ -51,7 +50,7 @@ namespace CalamityFandom.Content.Items.PermanentBoosters
         // Après les accessoires (Shattered Community, Draedon's Heart) et avant la mise à jour des jauges
         public override void PostUpdateEquips()
         {
-            if (!FandomMode.IsFull || Converted || !CalamityWorld.revenge)
+            if (Converted || !CalamityWorld.revenge)
                 return;
             var cal = Player.Calamity();
             if (!cal.shatteredCommunity)

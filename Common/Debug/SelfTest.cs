@@ -240,23 +240,31 @@ namespace CalamityFandom.Common.Debug
                 Expect(false, "Aero Slime introuvable");
 
             Expect(ElementData.ItemElements.Count > 600, $"objets avec éléments : {ElementData.ItemElements.Count}");
-            // Metabolic Converter (31/10) : trouvable, dans le sac de Crabulon (page Treasure Bag) en Full Fandom
+            // Metabolic Converter (31/10) : trouvable, dans le sac de Crabulon (page Treasure Bag) dans tous les modes
             int converter = WikiRecipes.ResolveItem("Metabolic Converter");
             Expect(converter > 0 && ItemLoader.GetItem(converter)?.Mod == Mod, "Metabolic Converter créé");
-            if (FandomMode.IsFull && ModContent.TryFind<ModItem>("CalamityMod", "CrabulonBag", out var crabBag))
+            if (ModContent.TryFind<ModItem>("CalamityMod", "CrabulonBag", out var crabBag))
             {
                 var crabRates = new List<DropRateInfo>();
                 foreach (var r in Main.ItemDropsDB.GetRulesForItemID(crabBag.Type))
                     r.ReportDroprates(crabRates, new DropRateInfoChainFeed(1f));
                 Expect(crabRates.Any(r => r.itemId == converter), "le sac de Crabulon contient le Metabolic Converter");
             }
-            // Taming (31/10) : 30 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
+            // Taming (31/10) : 32 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
             var tames = Common.Taming.TamingSystem.Entries;
-            Expect(tames.Count == 30 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
+            Expect(tames.Count == 32 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
                 + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));
             Expect(Common.Taming.TamingSystem.EntryOf(NPCID.Spazmatism)?.Key == "The Twins", "Taming : Spazmatism fait partie des Twins");
+            // Route sans tuer : Slime Gun fabriqué, Yharon Soul Fragment chez les ennemis du Solar Pillar
+            Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ItemID.SlimeGun), "Taming : recette du Slime Gun");
+            var solarRates = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(NPCID.SolarSolenian, false))
+                r.ReportDroprates(solarRates, new DropRateInfoChainFeed(1f));
+            Expect(solarRates.Any(r => r.itemId == ModContent.ItemType<CalamityMod.Items.Materials.YharonSoulFragment>()),
+                "Taming : Yharon Soul Fragment lâché par les Selenians");
+            Expect(ModContent.NPCType<Content.NPCs.Perforators.EstrangedSonHead>() > 0, "Taming : Estranged Son");
             // Proficiency (31/10) : tableau de la page chargé, Level Meters vendues par le Goblin Tinkerer
             var levels = Common.Proficiency.ProficiencyData.Levels;
             Expect(levels.Length == 30 && levels[^1].Required == 50000 && Common.Proficiency.ProficiencyData.LevelOf(99) == 0
