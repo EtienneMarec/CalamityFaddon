@@ -283,8 +283,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 31/10]** Actif **dans les deux modes**. Chaque nouveau boss du mod reçoit sa méthode (pas les superboss, en
   Full Fandom en tout cas). **Le jeu doit pouvoir se finir sans tuer un seul boss** : aucune méthode ne doit demander
   un objet qui ne tombe que d'un boss qu'il faut tuer avant (voir « Route sans tuer » plus bas).
-- 35 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
-  Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze, XP-00 Hypnos) ou du contenu absent (mini-jeu de l'Old Man pour Skeletron, à définir avec l'utilisateur ; Blight Slimes absorbées par le Slime God, Draedon's Remote pour Astrum Aureus) ou un sens plus clair (« 100 bees » de la Queen Bee, ballon de
+- 36 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
+  Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze, XP-00 Hypnos) ou du contenu absent (Blight Slimes absorbées par le Slime God, Draedon's Remote pour Astrum Aureus) ou un sens plus clair (« 100 bees » de la Queen Bee, ballon de
   plage du Golem, poissons rouges de Leviathan, PNJ qui emménagent dans la Brimstone Crag). Liste en TODO dans
   `TamingSystem.PostSetupContent`.
 - **[validé 31/10]** **Récompenses** : la page en nomme 17. Les 15 sans page : même objet dans les deux modes, sans effet
@@ -361,6 +361,15 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   compter) ; promotion toujours en dame ; dans un mat en deux, l'adversaire répond au hasard. Le Brain of Cthulhu et
   ses Creepers attendent pendant la partie (ils jouent). Sans boss proche : entraînement (mats en deux après le Moon
   Lord). Fabriqué à l'établi : 10 Glass, 10 bois, 1 Fallen Star. Sprite et pièces provisoires (`docs/SPRITES.md`).
+- **Skeletron** (« Arm Wrestle the Old Man ») : **[validé 31/10]** mini-jeu de l'utilisateur : un cran fait des
+  allers-retours sur une barre ; cliquer (ou Espace) quand il est dans la zone fait avancer le bras de fer de 5, de 10
+  dans la zone ×2 (deux fois plus étroite, au milieu) ; l'Old Man tire de 1 toutes les demi-secondes. **[choix]** Gagné
+  à +50, perdu à -50 (on peut recommencer) ; 1/3 s sans recliquer après chaque clic (sinon cliquer en continu gagne à
+  coup sûr), un clic raté ne coûte rien d'autre ; après chaque coup réussi, la zone change de place et le cran accélère
+  de 5 % (jusqu'à ×2) ; zone large de 20 % de la barre, cran qui la traverse en 1 s au départ. « Going down 3 options,
+  permanently revealing it » : le bouton « Arm Wrestle » apparaît à la 3e conversation avec l'Old Man, pour toujours
+  (par personnage). Gagner fait apparaître Skeletron comme la malédiction (l'Old Man disparaît), apprivoisé aussitôt :
+  donjon ouvert, Clothier, à toute heure.
 - **The Fabricational Quartet** (Exo Mechs) : **[validé 31/10]** « File Draedons Taxes » : pendant le combat seulement,
   le Tax Collector a un second bouton « File Draedon's taxes » qui fait payer 1 platine (texte de dialogue changé
   aussi) ; **[technique]** tModLoader ne permet de changer les boutons que des PNJ du mod : détour sur
