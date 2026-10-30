@@ -28,7 +28,11 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 - [x] Classe Spy : discrétion de la page (31/10, Full Fandom) ; Rage/Adrenaline débloquées par le Metabolic Converter (Full Fandom)
 - [x] Wind : dégâts à l'atterrissage (31/10)
 - [x] **Shortstrike / Shortflurry** (22/10) — reste : 17 effets spéciaux (`reports/shortstrike.md`) et les armes manquantes
-- [ ] Autres pages « Game mechanics » (catégorie dans l'index)
+- [x] Taming (31/10) : 30 boss sur 50 (les autres attendent leur boss ou du contenu), Soothing chez le Zoologist ;
+      récompenses sans page à trancher
+- [x] Autres pages « Game mechanics » triées (31/10) : historiques (Stress, Iron Heart, Armageddon, Defiled Feather),
+      événements et boss de la phase 4 (Jelly Monsoon, Ogswarm, Umbrus Eclipse, Challenge Rushes), déjà dans Calamity
+      (Aggro, Charge, Defense damage, Death Prevention...), addons (Stamina, Nightmare Mode)
 
 ## Phase 3 — Compléter les fondations de données
 

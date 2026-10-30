@@ -278,6 +278,43 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Heart, les laissent actives). En Calamity++ il ne fait rien (Rage et Adrenaline comme dans Calamity).
 - **[choix]** Stamina : page de l'addon Catalyst, ignorée (voir section 11).
 
+## 5 quater. Taming (`Common/Taming/`, page Taming)
+
+- **[choix]** (31/10, phase 2) Actif **dans les deux modes** (rien ne change tant qu'on n'essaie pas d'apprivoiser), à
+  valider. 30 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
+  Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze, The Fabricational Quartet,
+  XP-00 Hypnos) ou du contenu absent (Holographic Chessboard pour le Brain of Cthulhu, Estranged Son pour les
+  Perforators, bras de fer de l'Old Man pour Skeletron, Blight Slimes absorbées par le Slime God, Draedon's Remote pour
+  Astrum Aureus, Cultist set pour le Lunatic Cultist) ou un sens plus clair (« 100 bees » de la Queen Bee, ballon de
+  plage du Golem, poissons rouges de Leviathan, PNJ qui emménagent dans la Brimstone Crag) ; Supreme Calamitas
+  (« alt-f4 ») non fait. Liste en TODO dans `TamingSystem.PostSetupContent`.
+- **[choix]** **Récompenses** : la page en nomme 17 (Bloated Gel, Dizzy Lens, Fate...), toutes sans page : pas d'objet
+  pour l'instant, le boss apprivoisé laisse seulement son butin (règle « objet sans page »). À trancher : objets inutiles
+  en Full Fandom, vrais objets en Calamity++ ?
+- **[technique]** « Cannot harm the boss » : toute perte de PV d'un PNJ du combat (coups, debuffs) fait échouer la
+  tentative jusqu'à ce que le boss disparaisse. Les projectiles des méthodes (Slime Gun, Sparkle Slime Balloon, Green
+  Solution, étoile filante, rochers) ne touchent pas le boss. Apprivoisé : cœurs, émoticône, message ; le boss disparaît
+  et laisse son butin, ce qui compte comme une victoire (drapeaux de progression, Hardmode après le Wall of Flesh).
+  Tué, il devient inapprivoisable (liste sauvegardée avec le monde). Progrès affiché par quart (♥ 25 %...).
+- **[choix]** Méthodes interprétées : « lead to » un biome = 3 s cumulées avec le joueur le plus proche dans le biome
+  (Desert Scourge et Aquatic Scourge : océan ; Cryogen : Brimstone Crag) ; Eye of Cthulhu : tours comptés autour de
+  l'œil, un quart de tour en arrière remet à zéro ; Twins : regarder un jumeau = être tourné vers lui avec la ligne de
+  vue ; Skeletron Prime : Skull équipé une minute d'affilée ; Plantera : 3 min d'affilée en surface ; Calamitas
+  (le clone) : « hug » = 1 s au contact ; Wall of Flesh : le Guide à 50 blocs ou moins de la bouche ou d'un œil ;
+  Duke Fishron : à 10 blocs d'un Truffle Worm non relâché par un joueur ; Empress of Light : en vie au lever du jour
+  (ou invoquée dans la première heure) et jusqu'au coucher ; Dragonfolly : le Yharon Soul Fragment lâché au sol doit
+  toucher l'oiseau ; Destroyer : une ruée (dashDelay < 0) qui touche la tête compte une fois ; Moon Lord : un Colossal
+  Squid apparu pendant le combat et un joueur dans la 4e couche de l'Abyss ; Providence : coins = 250 blocs des bords,
+  espace ou enfer ; Ceaseless Void : Boulder, Bouncy, Life Crystal, Moon et Mini Boulder ; Storm Weaver : une wyverne
+  dont la tête touche celle du Storm Weaver est « mangée » ; Signus/Yharon : dégâts reçus = compteur à zéro ;
+  Devourer of Gods : chaque message compte 1, +1 par mot de la liste, 5 s'il contient « providence » (l'enragement
+  n'est pas fait) ; Polterghast : 100 tombes posées sur des murs de donjon (compteur du monde) ; Queen Slime : pas de
+  passage forcé en phase 2 à 50 ballons. King Slime et Queen Slime grandissent jusqu'à +100 % (visuel en solo).
+- **[choix]** « Ignore boss zen » : pendant ces combats, la réduction d'apparitions de Calamity est annulée pour le
+  Colossal Squid (Abyss) et pour les apparitions vanilla de l'espace (wyvernes, harpies).
+- **[choix]** **Soothing** : le Zoologist vend « Soothe: <boss> » pour chaque boss inapprivoisable, un par jour (remis à
+  l'aube) ; prix (la page n'en donne pas) : 2 or avant le Hardmode, 10 or en Hardmode, 50 or après le Moon Lord.
+
 ## 6. Matériaux générés (`tools/gen_items.py`)
 
 - **[choix]** Portée : pages absentes de Calamity de type Crafting material / Bar / Soul, plus les « Block » qui servent

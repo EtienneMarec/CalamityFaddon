@@ -853,6 +853,11 @@ Items: {
 			'''
 	}
 
+	SoothingService: {
+		DisplayName: Soothing
+		Tooltip: The Zoologist soothes this boss so it can be tamed again
+	}
+
 	MetabolicConverter: {
 		DisplayName: Metabolic Converter
 		Tooltip:
@@ -1466,4 +1471,10 @@ Proficiency: {
 		Minions: "+{0} minion knockback, +{1} minion slots"
 		Velocity: +{0}% projectile speed
 	}
+}
+
+Taming: {
+	Tamed: "{0} has been tamed!"
+	Soothed: "The Zoologist has soothed {0}: it can be tamed again."
+	SootheName: "Soothe: {0}"
 }

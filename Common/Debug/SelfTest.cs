@@ -250,6 +250,13 @@ namespace CalamityFandom.Common.Debug
                     r.ReportDroprates(crabRates, new DropRateInfoChainFeed(1f));
                 Expect(crabRates.Any(r => r.itemId == converter), "le sac de Crabulon contient le Metabolic Converter");
             }
+            // Taming (31/10) : 30 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
+            var tames = Common.Taming.TamingSystem.Entries;
+            Expect(tames.Count == 30 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
+            Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
+                "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
+                + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));
+            Expect(Common.Taming.TamingSystem.EntryOf(NPCID.Spazmatism)?.Key == "The Twins", "Taming : Spazmatism fait partie des Twins");
             // Proficiency (31/10) : tableau de la page chargé, Level Meters vendues par le Goblin Tinkerer
             var levels = Common.Proficiency.ProficiencyData.Levels;
             Expect(levels.Length == 30 && levels[^1].Required == 50000 && Common.Proficiency.ProficiencyData.LevelOf(99) == 0

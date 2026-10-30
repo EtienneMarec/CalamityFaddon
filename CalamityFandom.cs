@@ -1,3 +1,5 @@
+using System.IO;
+using CalamityFandom.Common.Taming;
 using CalamityFandom.Content.Debug;
 using CalamityFandom.Content.Items;
 using Terraria.ModLoader;
@@ -14,5 +16,8 @@ namespace CalamityFandom
             // Objets de debug pour les tests en jeu (docs/TESTS.md)
             TestSword.LoadAll(this);
         }
+
+        // Un seul système envoie des paquets pour l'instant : le Taming
+        public override void HandlePacket(BinaryReader reader, int whoAmI) => TamingSystem.HandlePacket(reader, whoAmI);
     }
 }

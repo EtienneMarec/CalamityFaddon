@@ -499,6 +499,12 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] (31/10, phase 2) **Metabolic Converter (Full Fandom, Revengeance)** : nouveau personnage sans converter → pas de
       jauges de Rage ni d'Adrenaline ; utiliser le converter (sac de Crabulon) les débloque, définitivement pour ce
       personnage ; en Calamity++, Rage et Adrenaline normales
+- [ ] (31/10, phase 2) **Taming** (nouveau monde, les deux modes) : King Slime arrosé au Slime Gun grossit, cœurs et
+      « ♥ 25 % » ; sans le blesser 5 min → « King Slime has been tamed! », il disparaît et laisse son butin. Plus simples
+      à tester : Desert Scourge mené à la plage, Eye of Cthulhu (30 tours), Ravager dans le Shimmer, Duke Fishron près
+      d'un Truffle Worm. Blesser le boss : plus aucun progrès. Tuer un boss puis aller voir le Zoologist : « Soothe:
+      <boss> » en vente (2/10/50 or), un seul par jour ; l'objet acheté disparaît et le boss redevient apprivoisable.
+      Polterghast : 100 tombes posées dans le donjon le font apparaître déjà apprivoisé
 - [ ] (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
       Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
