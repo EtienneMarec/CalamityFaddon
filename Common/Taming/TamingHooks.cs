@@ -31,8 +31,13 @@ namespace CalamityFandom.Common.Taming
     public class TamingGlobalNPC : GlobalNPC
     {
         public override bool InstancePerEntity => true;
-        /// <summary>Agrandissement appliqué (King Slime, Queen Slime), retiré avant l'IA du tick suivant.</summary>
+        /// <summary>
+        /// Agrandissement (King Slime, Queen Slime), calculé par le serveur et envoyé aux clients. [technique] Appliqué au
+        /// dessin (PreDraw/PostDraw) et à la hitbox après l'IA, sans toucher à NPC.scale : l'IA de King Slime de Calamity
+        /// recalcule scale à chaque tick dans son PreAI, qui passe avant le nôtre.
+        /// </summary>
         private float grown = 1f;
+        private float drawnScale;
 
         // « Killing a boss will make it untamable »
         public override void OnKill(NPC npc)
@@ -96,11 +101,6 @@ namespace CalamityFandom.Common.Taming
                     NetMessage.SendData(MessageID.SyncNPC, number: npc.whoAmI);
                 return false;
             }
-            if (grown != 1f)
-            {
-                npc.scale /= grown;
-                grown = 1f;
-            }
             return true;
         }
 
@@ -110,11 +110,51 @@ namespace CalamityFandom.Common.Taming
         {
             if (npc.type != NPCID.KingSlime && npc.type != NPCID.QueenSlimeBoss)
                 return;
-            var e = TamingSystem.EntryOf(npc.type);
-            if (e == null || TamingSystem.Active(e.Key) is not { } f)
-                return;
-            grown = 1f + System.Math.Clamp(f.Progress / e.Goal, 0f, 1f);
-            npc.scale *= grown;
+            if (Main.netMode != NetmodeID.MultiplayerClient)
+            {
+                var e = TamingSystem.EntryOf(npc.type);
+                float target = e != null && TamingSystem.Active(e.Key) is { } f ? 1f + System.Math.Clamp(f.Progress / e.Goal, 0f, 1f) : 1f;
+                if (System.Math.Abs(target - grown) >= 0.01f || target == 1f && grown != 1f)
+                {
+                    grown = target;
+                    npc.netUpdate = true;
+                }
+            }
+            // Hitbox de King Slime (formule de Calamity : 98 × 92 × scale), agrandie par le bas, comme le fait son IA
+            if (npc.type == NPCID.KingSlime)
+            {
+                int width = (int)(98f * npc.scale * grown), height = (int)(92f * npc.scale * grown);
+                if (width != npc.width || height != npc.height)
+                {
+                    npc.position.X += npc.width / 2 - width / 2;
+                    npc.position.Y += npc.height - height;
+                    npc.width = width;
+                    npc.height = height;
+                }
+            }
+        }
+
+        public override bool PreDraw(NPC npc, Microsoft.Xna.Framework.Graphics.SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
+        {
+            drawnScale = npc.scale;
+            if (grown != 1f)
+                npc.scale *= grown;
+            return true;
+        }
+
+        public override void PostDraw(NPC npc, Microsoft.Xna.Framework.Graphics.SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor) =>
+            npc.scale = drawnScale;
+
+        public override void SendExtraAI(NPC npc, Terraria.ModLoader.IO.BitWriter bitWriter, System.IO.BinaryWriter binaryWriter)
+        {
+            if (npc.type == NPCID.KingSlime || npc.type == NPCID.QueenSlimeBoss)
+                binaryWriter.Write(grown);
+        }
+
+        public override void ReceiveExtraAI(NPC npc, Terraria.ModLoader.IO.BitReader bitReader, System.IO.BinaryReader binaryReader)
+        {
+            if (npc.type == NPCID.KingSlime || npc.type == NPCID.QueenSlimeBoss)
+                grown = binaryReader.ReadSingle();
         }
 
         // Colossal Squid (Moon Lord) et wyvernes (Storm Weaver) « will ignore boss zen » : on annule la réduction de Calamity

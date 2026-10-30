@@ -330,7 +330,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   dont la tête touche celle du Storm Weaver est « mangée » ; Signus/Yharon : dégâts reçus = compteur à zéro ;
   Devourer of Gods : chaque message compte 1, +1 par mot de la liste, 5 s'il contient « providence » (l'enragement
   n'est pas fait) ; Polterghast : 100 tombes posées sur des murs de donjon (compteur du monde) ; Queen Slime : pas de
-  passage forcé en phase 2 à 50 ballons. King Slime et Queen Slime grandissent jusqu'à +100 % (visuel en solo).
+  passage forcé en phase 2 à 50 ballons. King Slime et Queen Slime grandissent jusqu'à +100 % (synchronisé en
+  multijoueur ; **[technique]** agrandissement appliqué au dessin et à la hitbox de King Slime, pas à `NPC.scale`, que
+  l'IA de Calamity recalcule à chaque tick avant nos hooks ; Queen Slime : dessin seulement).
+- **King Slime** : **[validé 31/10]** les 5 minutes comptent le temps où il est Slimed, quand ce Slimed vient du Slime
+  Gun (un Slimed d'une autre source ne compte pas tant qu'aucun jet ne l'a touché). **[choix]** Chaque jet qui le touche
+  pose au moins 3 s de Slimed (le jeu garde la durée la plus longue si celle du Slime Gun l'est).
 - **[choix]** « Ignore boss zen » : pendant ces combats, la réduction d'apparitions de Calamity est annulée pour le
   Colossal Squid (Abyss) et pour les apparitions vanilla de l'espace (wyvernes, harpies).
 - **The Perforators** : « spawn 50 worms » = Worms (critters) relâchés par le joueur ou sortis d'une Worm Statue

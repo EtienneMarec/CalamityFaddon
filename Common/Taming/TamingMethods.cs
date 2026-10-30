@@ -32,6 +32,9 @@ namespace CalamityFandom.Common.Taming
             };
         }
 
+        /// <summary>[choix] Durée minimale du Slimed posé par un jet de Slime Gun sur King Slime (3 s).</summary>
+        public const int SlimedTicks = 3 * 60;
+
         public static readonly int[] Boulders =
             { ProjectileID.Boulder, ProjectileID.BouncyBoulder, ProjectileID.LifeCrystalBoulder, ProjectileID.MoonBoulder, ProjectileID.MiniBoulder };
 
@@ -55,9 +58,18 @@ namespace CalamityFandom.Common.Taming
             Player p = TamingSystem.Nearest(npc);
             switch (e.Key)
             {
-                // « Spray King Slime with the Slime Gun for a combined total of 5 minutes »
+                // « Spray King Slime with the Slime Gun for a combined total of 5 minutes » : [validé 31/10] temps passé
+                // Slimed, quand ce Slimed vient du Slime Gun (f.Flag). Chaque jet qui le touche applique au moins
+                // SlimedTicks de Slimed (le jeu garde la durée la plus longue).
                 case "King Slime":
                     if (Touching(npc, Shoot(ItemID.SlimeGun), countOnce: false, kill: false) > 0)
+                    {
+                        npc.AddBuff(BuffID.Slimed, SlimedTicks);
+                        f.Flag = true;
+                    }
+                    if (!npc.HasBuff(BuffID.Slimed))
+                        f.Flag = false;
+                    else if (f.Flag)
                         f.Progress++;
                     break;
                 // « Lead ... to the Ocean »
