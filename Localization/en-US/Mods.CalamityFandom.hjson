@@ -853,6 +853,16 @@ Items: {
 			'''
 	}
 
+	HolographicChessboard: {
+		DisplayName: Holographic Chessboard
+		Tooltip:
+			'''
+			Challenges a nearby Brain of Cthulhu to a game of chess
+			Solve 3 problems in a row without hurting it to tame it
+			With no boss around, lets you practice
+			'''
+	}
+
 	SoothingService: {
 		DisplayName: Soothing
 		Tooltip: The Zoologist soothes this boss so it can be tamed again
@@ -1478,6 +1488,28 @@ Proficiency: {
 
 Taming: {
 	Tamed: "{0} has been tamed!"
+
+	SupremeCalamitasQuit: Supreme Calamitas can't go on... Now, press Alt+F4.
+
+	Taxes: {
+		Button: File Draedon's taxes
+		Chat: "Draedon hasn't filed his taxes in centuries! Pay me 1 platinum and I'll file them for him... his machines will calm down."
+		Paid: Pleasure doing business. Draedon's paperwork is in order.
+		Poor: You can't even afford 1 platinum? Pathetic.
+	}
+
+	Chess: {
+		Title: "{0}: problem {1}/{2} solved"
+		Practice: Holographic Chessboard: practice
+		White: White
+		Black: Black
+		MateIn1: "{0} to play and mate in 1"
+		MateIn2: "{0} to play and mate in 2"
+		Failed: Wrong move! Here is another problem.
+		Solved: "Solved! ({0}/{1})"
+		Won: Checkmate! You beat it at chess.
+		Close: Click a piece, then its destination. Escape to give up.
+	}
 	Soothed: The Zoologist has soothed {0}: it can be tamed again.
 	SootheName: Soothe: {0}
 }

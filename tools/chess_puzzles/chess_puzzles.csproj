@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Génère Common/Taming/Chess/puzzles.json avec le moteur d'échecs du mod (dotnet run, depuis ce dossier) -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Common\Taming\Chess\ChessPosition.cs" Link="ChessPosition.cs" />
+  </ItemGroup>
+</Project>

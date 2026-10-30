@@ -511,6 +511,15 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Yharon Soul Fragment (1/20)
 - [ ] (31/10) **Lunatic Cultist** : après Golem, avec la Lunar Cultist Hood et la Lunar Cultist Robe, passer entre les deux
       dévots à l'entrée du donjon : le Lunatic Cultist apparaît, « has been tamed! », butin et piliers lunaires
+- [ ] (31/10) **Holographic Chessboard** : fabricable à l'établi (10 Glass, 10 bois, 1 Fallen Star) ; utilisé sans boss :
+      échiquier holographique, « practice », mat en un (en deux après le Moon Lord) ; cliquer une pièce montre ses coups ;
+      mauvais coup → « Wrong move! » et un autre problème ; Échap ferme. Contre le Brain of Cthulhu (sans le toucher) : il
+      et ses Creepers s'arrêtent pendant la partie ; 3 problèmes résolus → apprivoisé
+- [ ] (31/10) **Exo Mechs** : pendant le combat, parler au Tax Collector : texte sur les impôts de Draedon et bouton
+      « File Draedon's taxes » ; payer 1 platine les apprivoise (pas de bouton hors combat ; sans 1 platine, refus)
+- [ ] (31/10) **Supreme Calamitas** (monde où tous les autres boss apprivoisables le sont) : sa vie baisse seule si on ne
+      la touche pas ; à 5 %, message « press Alt+F4 » ; quitter le jeu puis recharger le monde : elle apparaît et est
+      apprivoisée aussitôt (butin, Brimstone Witch). La toucher avant : plus rien ne se passe au rechargement
 - [ ] (31/10) **Perforators** : pendant le combat, relâcher des Worms (ou une Worm Statue) : chacun devient un Estranged
       Son (ver violet qui creuse vers le joueur) au bout de 5 s, « ♥ 25 % » à 13 ; en tuer un fait échouer la tentative ;
       à 50, les Perforators et les Estranged Sons disparaissent

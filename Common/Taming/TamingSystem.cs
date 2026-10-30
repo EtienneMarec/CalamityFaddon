@@ -14,6 +14,11 @@ using CalamityMod.NPCs.DesertScourge;
 using CalamityMod.NPCs.DevourerofGods;
 using CalamityMod.NPCs.HiveMind;
 using CalamityMod.NPCs.Perforator;
+using CalamityMod.NPCs.ExoMechs.Apollo;
+using CalamityMod.NPCs.ExoMechs.Ares;
+using CalamityMod.NPCs.ExoMechs.Artemis;
+using CalamityMod.NPCs.ExoMechs.Thanatos;
+using CalamityMod.NPCs.SupremeCalamitas;
 using CalamityMod.NPCs.PlaguebringerGoliath;
 using CalamityMod.NPCs.Polterghast;
 using CalamityMod.NPCs.ProfanedGuardians;
@@ -51,6 +56,8 @@ namespace CalamityFandom.Common.Taming
             public float Goal;
             /// <summary>0 avant le Hardmode, 1 Hardmode, 2 après le Moon Lord (prix de l'apaisement).</summary>
             public int Tier;
+            /// <summary>PNJ qui peuvent porter le combat et le butin, par ordre de préférence (le premier type par défaut).</summary>
+            public int[] Leads;
             public int Main => Types[0];
         }
 
@@ -73,6 +80,8 @@ namespace CalamityFandom.Common.Taming
         public static readonly Dictionary<string, Fight> Fights = new();
         /// <summary>Boss tués (inapprivoisables jusqu'à l'apaisement), sauvegardés avec le monde.</summary>
         public static readonly HashSet<string> Untamable = new();
+        /// <summary>Boss déjà apprivoisés dans ce monde (Supreme Calamitas demande tous les autres).</summary>
+        public static readonly HashSet<string> Tamed = new();
         public static bool SoothedToday;
         /// <summary>Tombes posées dans le donjon (Polterghast apparaît apprivoisé à 100).</summary>
         public static int DungeonGraves;
@@ -81,6 +90,13 @@ namespace CalamityFandom.Common.Taming
         public static bool TamingNow;
 
         public const int GravesGoal = 100;
+        public const string SupremeCalamitasKey = "Supreme Calamitas";
+
+        /// <summary>Tous les boss apprivoisables sauf Supreme Calamitas sont apprivoisés dans ce monde.</summary>
+        public static bool AllOthersTamed() => Entries.All(e => e.Key == SupremeCalamitasKey || Tamed.Contains(e.Key));
+
+        /// <summary>Demande d'apprivoisement immédiat au prochain combat (Supreme Calamitas après un « alt-f4 »).</summary>
+        public static void TameOnSpawn(string key) => InstantTame.Add(key);
         private const float NearDistance = 1600f;
 
         private static void Add(string key, float goal, int tier, params int[] types)
@@ -94,13 +110,14 @@ namespace CalamityFandom.Common.Taming
 
         public override void PostSetupContent()
         {
-            // Pré-Hardmode. TODO : The Inventors, Wulfrum Excavator (boss inventés) ; Brain of Cthulhu (Holographic
-            // Chessboard), Queen Bee (« 100 bees », sens flou), Skeletron (bras de fer avec l'Old Man), The Slime God
-            // (absorption des Blight Slimes) : contenu à créer
+            // Pré-Hardmode. TODO : The Inventors, Wulfrum Excavator (boss inventés) ; Queen Bee (« 100 bees », sens flou),
+            // Skeletron (mini-jeu avec l'Old Man, à définir), The Slime God (absorption des Blight Slimes) : contenu à créer
             Add("King Slime", 300 * 60, 0, NPCID.KingSlime);
             Add("Desert Scourge", 180, 0, ModContent.NPCType<DesertScourgeHead>(), ModContent.NPCType<DesertScourgeBody>(), ModContent.NPCType<DesertScourgeTail>());
             Add("Eye of Cthulhu", 30, 0, NPCID.EyeofCthulhu);
             Add("Crabulon", 1, 0, ModContent.NPCType<Crabulon>());
+            // « Beat the Brain of Cthulhu at chess using the Holographic Chessboard » : 3 problèmes (Chess/ChessUI.cs)
+            Add("Brain of Cthulhu", Chess.ChessSession.Needed, 0, NPCID.BrainofCthulhu, NPCID.Creeper);
             Add("Eater of Worlds", 3, 0, NPCID.EaterofWorldsHead, NPCID.EaterofWorldsBody, NPCID.EaterofWorldsTail);
             Add("The Hive Mind", 100, 0, ModContent.NPCType<HiveMind>());
             Add("The Perforators", 50, 0, ModContent.NPCType<PerforatorHive>(),
@@ -129,8 +146,7 @@ namespace CalamityFandom.Common.Taming
             Add("The Dragonfolly", 1, 1, ModContent.NPCType<Dragonfolly>());
             Add("Lunatic Cultist", 1, 1, NPCID.CultistBoss);
             Add("Moon Lord", 1, 1, NPCID.MoonLordCore, NPCID.MoonLordHead, NPCID.MoonLordHand);
-            // Après le Moon Lord. TODO : Yharim Worm, The Wall of Bronze, The Fabricational Quartet, XP-00 Hypnos (inventés) ;
-            // Supreme Calamitas (« alt-f4 »)
+            // Après le Moon Lord. TODO : Yharim Worm, The Wall of Bronze, XP-00 Hypnos (inventés)
             Add("Profaned Guardians", 1, 2, ModContent.NPCType<ProfanedGuardianCommander>(), ModContent.NPCType<ProfanedGuardianDefender>(),
                 ModContent.NPCType<ProfanedGuardianHealer>());
             Add("Providence, the Profaned Goddess", 4, 2, ModContent.NPCType<Providence>());
@@ -140,6 +156,17 @@ namespace CalamityFandom.Common.Taming
             Add("Polterghast", 1, 2, ModContent.NPCType<Polterghast>());
             Add("The Devourer of Gods", 150, 2, ModContent.NPCType<DevourerofGodsHead>(), ModContent.NPCType<DevourerofGodsBody>(), ModContent.NPCType<DevourerofGodsTail>());
             Add("Jungle Dragon, Yharon", 5 * 60 * 60, 2, ModContent.NPCType<Yharon>());
+            // « File Draedons Taxes » : bouton du Tax Collector pendant le combat (TamingTaxCollector)
+            Add("The Fabricational Quartet", 1, 2, ModContent.NPCType<ThanatosHead>(), ModContent.NPCType<AresBody>(), ModContent.NPCType<Apollo>(),
+                ModContent.NPCType<Artemis>(), ModContent.NPCType<ThanatosBody1>(), ModContent.NPCType<ThanatosBody2>(), ModContent.NPCType<ThanatosTail>(),
+                ModContent.NPCType<AresLaserCannon>(), ModContent.NPCType<AresTeslaCannon>(), ModContent.NPCType<AresPlasmaFlamethrower>(),
+                ModContent.NPCType<AresGaussNuke>());
+            Get("The Fabricational Quartet").Leads = new[] { ModContent.NPCType<ThanatosHead>(), ModContent.NPCType<AresBody>(), ModContent.NPCType<Apollo>() };
+            // « Tame all previous bosses, and then press alt-f4 once Calamitas is at 5% HP » : progrès = vie perdue (en %)
+            Add(SupremeCalamitasKey, 100, 2, ModContent.NPCType<SupremeCalamitas>(), ModContent.NPCType<SupremeCataclysm>(),
+                ModContent.NPCType<SupremeCatastrophe>(), ModContent.NPCType<SepulcherHead>(), ModContent.NPCType<SepulcherBody>(),
+                ModContent.NPCType<SepulcherTail>(), ModContent.NPCType<SepulcherArm>(), ModContent.NPCType<SoulSeekerSupreme>(),
+                ModContent.NPCType<BrimstoneHeart>());
         }
 
         public override void Unload()
@@ -156,9 +183,10 @@ namespace CalamityFandom.Common.Taming
 
         public static NPC FindMain(Entry e)
         {
-            foreach (var n in Terraria.Main.ActiveNPCs)
-                if (n.type == e.Main)
-                    return n;
+            foreach (int lead in e.Leads ?? new[] { e.Main })
+                foreach (var n in Terraria.Main.ActiveNPCs)
+                    if (n.type == lead)
+                        return n;
             return null;
         }
 
@@ -170,6 +198,7 @@ namespace CalamityFandom.Common.Taming
         {
             Fights.Clear();
             Untamable.Clear();
+            Tamed.Clear();
             InstantTame.Clear();
             SoothedToday = false;
             DungeonGraves = 0;
@@ -180,6 +209,7 @@ namespace CalamityFandom.Common.Taming
             tag["tamingUntamable"] = Untamable.ToList();
             tag["tamingSoothedToday"] = SoothedToday;
             tag["tamingGraves"] = DungeonGraves;
+            tag["tamingTamed"] = Tamed.ToList();
         }
 
         public override void LoadWorldData(TagCompound tag)
@@ -189,6 +219,9 @@ namespace CalamityFandom.Common.Taming
                 Untamable.Add(key);
             SoothedToday = tag.GetBool("tamingSoothedToday");
             DungeonGraves = tag.GetInt("tamingGraves");
+            Tamed.Clear();
+            foreach (string key in tag.GetList<string>("tamingTamed"))
+                Tamed.Add(key);
         }
 
         // La liste sert à la boutique du Zoologist, côté client
@@ -230,7 +263,7 @@ namespace CalamityFandom.Common.Taming
 
         // ---------- événements ----------
 
-        private enum Packet : byte { Progress, Hurt, Soothe, Tamed, Grave }
+        private enum Packet : byte { Progress, Hurt, Soothe, Tamed, Grave, Chess }
 
         /// <summary>Progrès vu par ce client (nourriture, chat, ruée...) : appliqué ici en solo, envoyé au serveur sinon.</summary>
         public static void Report(string key, float amount)
@@ -298,6 +331,18 @@ namespace CalamityFandom.Common.Taming
             NPC.SpawnOnPlayer(player, e.Main);
         }
 
+        /// <summary>Le joueur ouvre ou ferme le Holographic Chessboard (le boss attend pendant la partie).</summary>
+        public static void ReportChess(bool open)
+        {
+            Terraria.Main.LocalPlayer.GetModPlayer<TamingPlayer>().ChessOpen = open;
+            if (Terraria.Main.netMode != NetmodeID.MultiplayerClient)
+                return;
+            var p = ModContent.GetInstance<CalamityFandom>().GetPacket();
+            p.Write((byte)Packet.Chess);
+            p.Write(open);
+            p.Send();
+        }
+
         public static void ReportSoothe(string key)
         {
             if (Terraria.Main.netMode == NetmodeID.MultiplayerClient)
@@ -344,6 +389,11 @@ namespace CalamityFandom.Common.Taming
                     if (Terraria.Main.netMode == NetmodeID.Server)
                         Grave(whoAmI);
                     break;
+                case Packet.Chess:
+                    bool open = reader.ReadBoolean();
+                    if (Terraria.Main.netMode == NetmodeID.Server)
+                        Terraria.Main.player[whoAmI].GetModPlayer<TamingPlayer>().ChessOpen = open;
+                    break;
                 case Packet.Tamed:
                     HappyEffects(reader.ReadVector2());
                     break;
@@ -370,7 +420,8 @@ namespace CalamityFandom.Common.Taming
                 NPC npc = FindMain(e);
                 if (npc == null)
                 {
-                    Fights.Remove(e.Key);
+                    if (Fights.Remove(e.Key) && e.Key == SupremeCalamitasKey)
+                        SupremeCalamitasQuit.Forget();
                     continue;
                 }
                 if (!Fights.TryGetValue(e.Key, out var f))
@@ -444,6 +495,8 @@ namespace CalamityFandom.Common.Taming
                 if (f.LastLife.TryGetValue(n.whoAmI, out int last) && n.life < last)
                 {
                     f.Harmed = true;
+                    if (e.Key == SupremeCalamitasKey)
+                        SupremeCalamitasQuit.Forget();
                     return;
                 }
                 f.LastLife[n.whoAmI] = n.life;
@@ -463,6 +516,7 @@ namespace CalamityFandom.Common.Taming
         public static void Tame(Entry e, NPC npc)
         {
             Fights.Remove(e.Key);
+            Tamed.Add(e.Key);
             Vector2 pos = npc.Center;
             foreach (var n in Terraria.Main.ActiveNPCs)
             {

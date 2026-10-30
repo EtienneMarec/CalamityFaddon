@@ -203,6 +203,9 @@ namespace CalamityFandom.Common.Taming
                         f.Progress++;
                     }
                     break;
+                case TamingSystem.SupremeCalamitasKey:
+                    SupremeCalamitasQuit.Tick(f, npc);
+                    break;
                 // « Survive for 8 (Signus) / 5 (Yharon) minutes without taking damage » : TamingSystem.ReportHurt remet à zéro
                 case "Signus, Envoy of the Devourer":
                 case "Jungle Dragon, Yharon":

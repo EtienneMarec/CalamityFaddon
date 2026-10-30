@@ -250,9 +250,9 @@ namespace CalamityFandom.Common.Debug
                     r.ReportDroprates(crabRates, new DropRateInfoChainFeed(1f));
                 Expect(crabRates.Any(r => r.itemId == converter), "le sac de Crabulon contient le Metabolic Converter");
             }
-            // Taming (31/10) : 32 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
+            // Taming (31/10) : 35 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
             var tames = Common.Taming.TamingSystem.Entries;
-            Expect(tames.Count == 32 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
+            Expect(tames.Count == 35 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
                 + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));
@@ -265,6 +265,17 @@ namespace CalamityFandom.Common.Debug
             Expect(solarRates.Any(r => r.itemId == ModContent.ItemType<CalamityMod.Items.Materials.YharonSoulFragment>()),
                 "Taming : Yharon Soul Fragment lâché par les Selenians");
             Expect(ModContent.NPCType<Content.NPCs.Perforators.EstrangedSonHead>() > 0, "Taming : Estranged Son");
+            // Échecs (Brain of Cthulhu, XP-00 Hypnos) : chaque problème a bien sa solution d'après le moteur, et une seule
+            var mate1Bad = Common.Taming.Chess.ChessPuzzles.Mate1.Count(p => Common.Taming.Chess.ChessPosition.FromFen(p.Fen).MatesInOne().Count != 1);
+            var mate2Bad = Common.Taming.Chess.ChessPuzzles.Mate2.Count(p =>
+            {
+                var pos = Common.Taming.Chess.ChessPosition.FromFen(p.Fen);
+                return pos.MatesInOne().Count > 0 || pos.MatesInTwo().Count != 1;
+            });
+            Expect(Common.Taming.Chess.ChessPuzzles.Mate1.Count >= 30 && Common.Taming.Chess.ChessPuzzles.Mate2.Count >= 30 && mate1Bad == 0 && mate2Bad == 0,
+                $"Taming : problèmes d'échecs ({Common.Taming.Chess.ChessPuzzles.Mate1.Count} mats en un, {Common.Taming.Chess.ChessPuzzles.Mate2.Count} mats en deux, {mate1Bad + mate2Bad} faux)");
+            Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ModContent.ItemType<Content.Items.Taming.HolographicChessboard>()),
+                "Taming : recette du Holographic Chessboard");
             // Proficiency (31/10) : tableau de la page chargé, Level Meters vendues par le Goblin Tinkerer
             var levels = Common.Proficiency.ProficiencyData.Levels;
             Expect(levels.Length == 30 && levels[^1].Required == 50000 && Common.Proficiency.ProficiencyData.LevelOf(99) == 0

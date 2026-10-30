@@ -10,6 +10,35 @@ Format Terraria : pixel art, fond transparent ; animation = images empilées ver
 - [ ] **Mars Bars** (matériau) — le wiki n'a qu'une photo de 360×280 ; réduite automatiquement en 90×70 en attendant.
       Attendu : sprite de matériau ~24×24 à 32×32. Fichier : `wiki_sprites_custom/Mars Bars.png`
 
+- [ ] **Holographic Chessboard** (outil du Taming du Brain of Cthulhu et de XP-00 Hypnos) — sprite provisoire 32×32 dessiné
+      par Claude (`Content/Items/Taming/HolographicChessboard.png`). Attendu : objet ~32×32, échiquier holographique.
+      Fichier : `wiki_sprites_custom/Holographic Chessboard.png`
+- [ ] **Pièces d'échecs du Holographic Chessboard** — dessinées pour l'instant comme des lettres (K Q R B N P). Attendu :
+      une planche de 6 colonnes (pion, cavalier, fou, tour, dame, roi) sur 2 lignes (blanc, noir), cases de 32×32,
+      style hologramme. Fichier : `wiki_sprites_custom/Holographic Chessboard (pieces).png` (le code est à brancher)
+
+## Récompenses du Taming (pas de page ni d'image sur le wiki)
+
+Même objet dans les deux modes (sans effet en Full Fandom). Effets proposés : `docs/decisions.md`, section Taming.
+Fichiers : `wiki_sprites_custom/<Nom>.png`.
+
+- [ ] **Bloated Gel** (King Slime, accessoire)
+- [ ] **Hydrated Pendant** (Desert Scourge, accessoire)
+- [ ] **Dizzy Lens** (Eye of Cthulhu, accessoire)
+- [ ] **Blessed Fungus** (Crabulon, accessoire)
+- [ ] **Worm Platter** (Eater of Worlds, nourriture)
+- [ ] **En Passant** (Brain of Cthulhu, accessoire)
+- [ ] **Blighted Tome** (The Hive Mind, livre de magie)
+- [ ] **Ball of Worms** (The Perforators, objet qui invoque un familier) — le familier peut reprendre l'Estranged Son
+- [ ] **Motherbrain** (Queen Bee, accessoire)
+- [ ] **Skeletron's Fist** (Skeletron, gant de mêlée)
+- [ ] **Fate** (Wall of Flesh, accessoire)
+- [ ] **Melting Ice Cube** (Cryogen, accessoire)
+- [ ] **Frozen Heater** (Pyrogen, accessoire ; boss inventé, plus tard)
+- [ ] **Shiny Lipstick** (The Destroyer, accessoire)
+- [ ] **Worship 101** (Lunatic Cultist, livre)
+- [ ] **Wulfrum Hardhat** et **Wulfrum Lenses** (casques, avec leurs boss inventés ; pas d'image sur le wiki non plus)
+
 ## Optionnel : améliorations
 
 - [x] **Yharim Bar au sol** (fait le 22/10 : détourage de l'image du wiki, réduit en 480×384 par `gen_items.py`) — dessiné aujourd'hui en agrandissant x16 le sprite de 30×24 ; l'image « The item in-game »

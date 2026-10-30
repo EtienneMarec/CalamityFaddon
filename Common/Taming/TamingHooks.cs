@@ -6,6 +6,7 @@ using CalamityMod.NPCs.Abyss;
 using CalamityMod.NPCs.Crabulon;
 using CalamityMod.NPCs.Providence;
 using CalamityFandom.Content.NPCs.Perforators;
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Chat;
 using Terraria.DataStructures;
@@ -63,8 +64,24 @@ namespace CalamityFandom.Common.Taming
 
         private int wormTransform;
 
+        // Le Brain of Cthulhu et ses Creepers attendent pendant qu'un joueur proche joue aux échecs contre lui
+        private static bool PlayingChess(NPC npc)
+        {
+            if (npc.type != NPCID.BrainofCthulhu && npc.type != NPCID.Creeper || TamingSystem.Untamable.Contains("Brain of Cthulhu"))
+                return false;
+            foreach (var p in Main.ActivePlayers)
+                if (!p.dead && p.GetModPlayer<TamingPlayer>().ChessOpen && p.Distance(npc.Center) < 3000f)
+                    return true;
+            return false;
+        }
+
         public override bool PreAI(NPC npc)
         {
+            if (PlayingChess(npc))
+            {
+                npc.velocity = Vector2.Zero;
+                return false;
+            }
             if (wormTransform > 0 && --wormTransform == 0 && Main.netMode != NetmodeID.MultiplayerClient)
             {
                 if (TamingSystem.Active("The Perforators") != null)
@@ -180,6 +197,8 @@ namespace CalamityFandom.Common.Taming
     public class TamingPlayer : ModPlayer
     {
         public bool HadWellFed;
+        /// <summary>Partie d'échecs en cours (Holographic Chessboard), connue du serveur.</summary>
+        public bool ChessOpen;
         private bool dashCounted;
 
         public override void PreUpdate() =>

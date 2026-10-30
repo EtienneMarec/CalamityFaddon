@@ -283,15 +283,35 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 31/10]** Actif **dans les deux modes**. Chaque nouveau boss du mod reçoit sa méthode (pas les superboss, en
   Full Fandom en tout cas). **Le jeu doit pouvoir se finir sans tuer un seul boss** : aucune méthode ne doit demander
   un objet qui ne tombe que d'un boss qu'il faut tuer avant (voir « Route sans tuer » plus bas).
-- 32 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
-  Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze, The Fabricational Quartet,
-  XP-00 Hypnos) ou du contenu absent (Holographic Chessboard pour le Brain of Cthulhu, bras de fer de l'Old Man pour
-  Skeletron, Blight Slimes absorbées par le Slime God, Draedon's Remote pour Astrum Aureus) ou un sens plus clair (« 100 bees » de la Queen Bee, ballon de
-  plage du Golem, poissons rouges de Leviathan, PNJ qui emménagent dans la Brimstone Crag) ; Supreme Calamitas
-  (« alt-f4 ») non fait. Liste en TODO dans `TamingSystem.PostSetupContent`.
-- **[validé 31/10]** **Récompenses** : la page en nomme 17 (Bloated Gel, Dizzy Lens, Fate...), toutes sans page. Même
-  objet dans les deux modes : sans effet en Full Fandom, vrai effet en Calamity++. Pas encore créées (effets à proposer,
-  sprites à demander) : le boss apprivoisé laisse pour l'instant seulement son butin.
+- 35 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
+  Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze, XP-00 Hypnos) ou du contenu absent (mini-jeu de l'Old Man pour Skeletron, à définir avec l'utilisateur ; Blight Slimes absorbées par le Slime God, Draedon's Remote pour Astrum Aureus) ou un sens plus clair (« 100 bees » de la Queen Bee, ballon de
+  plage du Golem, poissons rouges de Leviathan, PNJ qui emménagent dans la Brimstone Crag). Liste en TODO dans
+  `TamingSystem.PostSetupContent`.
+- **[validé 31/10]** **Récompenses** : la page en nomme 17. Les 15 sans page : même objet dans les deux modes, sans effet
+  en Full Fandom (infobulle « souvenir »), vrai effet en Calamity++. Pas encore créées : le boss apprivoisé laisse pour
+  l'instant seulement son butin. Sprites : aucun sur le wiki (liste dans `docs/SPRITES.md`). Wulfrum Hardhat et Wulfrum
+  Lenses ont une page (effets décrits, dans les deux modes) et viendront avec leurs boss (The Inventors, Wulfrum
+  Excavator). **Propositions d'effets en Calamity++ (à trancher)** :
+
+  | Récompense | Boss | Type | Effet proposé en Calamity++ |
+  |---|---|---|---|
+  | Bloated Gel | King Slime | accessoire | pas de dégâts de chute ; une chute de haut fait rebondir (comme une gelée) |
+  | Hydrated Pendant | Desert Scourge | accessoire | souffle ×2 ; immunité à On Fire! et aux tempêtes de sable ; +10 % de vitesse dans le désert |
+  | Dizzy Lens | Eye of Cthulhu | accessoire | les ennemis qui vous touchent sont Confused 3 s ; +3 % de critique |
+  | Blessed Fungus | Crabulon | accessoire | +1 PV/s (+2 dans le biome champignon) |
+  | Worm Platter | Eater of Worlds | nourriture (unique) | Exquisitely Stuffed 30 min, se garde (ne se consomme pas, recharge 30 min) |
+  | En Passant | Brain of Cthulhu | accessoire | esquive un coup toutes les 20 s, en faisant un pas de côté (clin d'œil à la prise en passant) |
+  | Blighted Tome | The Hive Mind | arme magique | lance des nuages de Shade (dégâts de zone, Brain Rot) ; ~18 dégâts |
+  | Ball of Worms | The Perforators | familier | un petit Estranged Son (sprite de l'utilisateur, réduit) suit le joueur |
+  | Motherbrain | Queen Bee | accessoire | les abeilles du joueur deviennent des Giant Bees ; +1 abeille par essaim |
+  | Skeletron's Fist | Skeletron | arme de mêlée | gant de vrai corps-à-corps : le coup lance une main osseuse qui revient |
+  | Fate | Wall of Flesh | accessoire | une fois toutes les 3 min, survit à un coup mortel avec 1 PV |
+  | Melting Ice Cube | Cryogen | accessoire | immunité à Chilled, Frozen et Frostburn ; les attaques infligent Frostburn |
+  | Frozen Heater | Pyrogen (inventé) | accessoire | immunité à On Fire!, Burning et 2 s de lave ; les attaques infligent Brimstone Flames |
+  | Shiny Lipstick | The Destroyer | accessoire | aura : les ennemis à moins de 15 blocs font 10 % de dégâts en moins (cœurs) |
+  | Worship 101 | Lunatic Cultist | accessoire | +1 sbire et +10 % de dégâts d'invocation |
+
+  Les autres boss n'ont pas de récompense sur la page (case vide) : rien de prévu, à voir.
 - **[technique]** « Cannot harm the boss » : toute perte de PV d'un PNJ du combat (coups, debuffs) fait échouer la
   tentative jusqu'à ce que le boss disparaisse. Les projectiles des méthodes (Slime Gun, Sparkle Slime Balloon, Green
   Solution, étoile filante, rochers) ne touchent pas le boss. Apprivoisé : cœurs, émoticône, message ; le boss disparaît
@@ -331,6 +351,27 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Robe du jeu de base (aussi lâchées par les Eidolists d'après le wiki), en armure ou en apparence. **[choix]** Passer
   entre les deux Lunatic Devotees (horizontalement, à 10 blocs de hauteur au plus) fait apparaître le Lunatic Cultist
   au-dessus d'eux, apprivoisé aussitôt : les piliers arrivent comme après une victoire.
+- **Échecs** (Brain of Cthulhu, XP-00 Hypnos) : **[validé 31/10]** le **Holographic Chessboard** (sans page) lance des
+  problèmes : 3 à réussir, tirés au hasard ; mats en un contre le Brain of Cthulhu, mats en deux (plus durs) contre
+  Hypnos (boss à créer). **[choix]** 45 problèmes de chaque sorte, générés par `tools/chess_puzzles` (positions tirées
+  au hasard, roi en défense abrité derrière ses pions, pas plus de pièces qu'au départ ; gardées si une seule solution ;
+  mats en deux : coup clé unique, silencieux, au moins deux réponses), la moitié avec les Noirs au trait ; moteur
+  vérifié par les comptes « perft » de référence, et l'auto-test revérifie chaque problème. Pas de problèmes repris
+  d'un site (droits) : générés par notre code. Un mauvais coup fait perdre le problème (un autre est tiré, sans
+  compter) ; promotion toujours en dame ; dans un mat en deux, l'adversaire répond au hasard. Le Brain of Cthulhu et
+  ses Creepers attendent pendant la partie (ils jouent). Sans boss proche : entraînement (mats en deux après le Moon
+  Lord). Fabriqué à l'établi : 10 Glass, 10 bois, 1 Fallen Star. Sprite et pièces provisoires (`docs/SPRITES.md`).
+- **The Fabricational Quartet** (Exo Mechs) : **[validé 31/10]** « File Draedons Taxes » : pendant le combat seulement,
+  le Tax Collector a un second bouton « File Draedon's taxes » qui fait payer 1 platine (texte de dialogue changé
+  aussi) ; **[technique]** tModLoader ne permet de changer les boutons que des PNJ du mod : détour sur
+  `NPCLoader.SetChatButtons`. Le butin tombe du mech qui se bat (Thanatos, Ares ou Apollo).
+- **Supreme Calamitas** : **[validé 31/10]** si tous les autres boss apprivoisables sont apprivoisés dans ce monde, sa
+  vie baisse d'elle-même tant qu'on ne la touche pas (**[choix]** de 100 % à 5 % en 5 min ; message « press Alt+F4 »
+  à 5 %). Quitter le jeu à ce moment (alt-f4, ou Save & Exit) l'apprivoise : au chargement suivant du monde, elle
+  apparaît et est apprivoisée aussitôt (butin, Brimstone Witch). **[technique]** Le départ est noté dans
+  `CalamityFandom_SupremeCalamitasTamed.txt` (dossier de sauvegarde de Terraria, avec l'identifiant du monde) dès les
+  5 %, effacé si le combat finit autrement (coup, mort, départ du boss). À tester : ses phases (frères, Sepulcher)
+  quand sa vie baisse sans dégâts.
 - **Soothing** : le Zoologist vend « Soothe: <boss> » pour chaque boss inapprivoisable, un par jour (remis à l'aube).
   **[validé 31/10, à revoir en test]** Prix (la page n'en donne pas) : 2 or avant le Hardmode, 10 or en Hardmode,
   50 or après le Moon Lord.
