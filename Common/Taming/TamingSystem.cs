@@ -111,7 +111,7 @@ namespace CalamityFandom.Common.Taming
         public override void PostSetupContent()
         {
             // Pré-Hardmode. TODO : The Inventors, Wulfrum Excavator (boss inventés) ; Queen Bee (« 100 bees », sens flou),
-            // Skeletron (mini-jeu avec l'Old Man, à définir), The Slime God (absorption des Blight Slimes) : contenu à créer
+            // The Slime God (absorption des Blight Slimes) : contenu à créer
             Add("King Slime", 300 * 60, 0, NPCID.KingSlime);
             Add("Desert Scourge", 180, 0, ModContent.NPCType<DesertScourgeHead>(), ModContent.NPCType<DesertScourgeBody>(), ModContent.NPCType<DesertScourgeTail>());
             Add("Eye of Cthulhu", 30, 0, NPCID.EyeofCthulhu);
@@ -124,6 +124,8 @@ namespace CalamityFandom.Common.Taming
                 ModContent.NPCType<PerforatorHeadSmall>(), ModContent.NPCType<PerforatorBodySmall>(), ModContent.NPCType<PerforatorTailSmall>(),
                 ModContent.NPCType<PerforatorHeadMedium>(), ModContent.NPCType<PerforatorBodyMedium>(), ModContent.NPCType<PerforatorTailMedium>(),
                 ModContent.NPCType<PerforatorHeadLarge>(), ModContent.NPCType<PerforatorBodyLarge>(), ModContent.NPCType<PerforatorTailLarge>());
+            // « Arm Wrestle the Old Man » : bras de fer (OldManWrestle), Skeletron apparaît apprivoisé
+            Add(OldManWrestle.Key, 1, 0, NPCID.SkeletronHead, NPCID.SkeletronHand);
             Add("Wall of Flesh", 1, 0, NPCID.WallofFlesh, NPCID.WallofFleshEye);
             // Hardmode. TODO : Cumulomenace, Pyrogen, The Derellect, Polyphemalus (inventés) ; Brimstone Elemental (PNJ qui
             // emménagent), Leviathan and Anahita (poissons rouges), Astrum Aureus (Draedon's Remote absent), Golem (ballon
@@ -263,7 +265,7 @@ namespace CalamityFandom.Common.Taming
 
         // ---------- événements ----------
 
-        private enum Packet : byte { Progress, Hurt, Soothe, Tamed, Grave, Chess }
+        private enum Packet : byte { Progress, Hurt, Soothe, Tamed, Grave, Chess, Wrestle }
 
         /// <summary>Progrès vu par ce client (nourriture, chat, ruée...) : appliqué ici en solo, envoyé au serveur sinon.</summary>
         public static void Report(string key, float amount)
@@ -331,6 +333,29 @@ namespace CalamityFandom.Common.Taming
             NPC.SpawnOnPlayer(player, e.Main);
         }
 
+        /// <summary>Bras de fer gagné contre l'Old Man : Skeletron apparaît et est apprivoisé aussitôt.</summary>
+        public static void ReportArmWrestleWon()
+        {
+            if (Terraria.Main.netMode == NetmodeID.MultiplayerClient)
+            {
+                var p = ModContent.GetInstance<CalamityFandom>().GetPacket();
+                p.Write((byte)Packet.Wrestle);
+                p.Send();
+            }
+            else
+                ArmWrestleWon(Terraria.Main.myPlayer);
+        }
+
+        private static void ArmWrestleWon(int player)
+        {
+            var e = Get(OldManWrestle.Key);
+            if (e == null || Untamable.Contains(e.Key) || FindMain(e) != null)
+                return;
+            InstantTame.Add(e.Key);
+            // Comme la malédiction de l'Old Man : il disparaît, la tête de Skeletron apparaît à sa place
+            NPC.SpawnSkeletron(player);
+        }
+
         /// <summary>Le joueur ouvre ou ferme le Holographic Chessboard (le boss attend pendant la partie).</summary>
         public static void ReportChess(bool open)
         {
@@ -388,6 +413,10 @@ namespace CalamityFandom.Common.Taming
                 case Packet.Grave:
                     if (Terraria.Main.netMode == NetmodeID.Server)
                         Grave(whoAmI);
+                    break;
+                case Packet.Wrestle:
+                    if (Terraria.Main.netMode == NetmodeID.Server)
+                        ArmWrestleWon(whoAmI);
                     break;
                 case Packet.Chess:
                     bool open = reader.ReadBoolean();

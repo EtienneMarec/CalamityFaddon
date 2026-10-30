@@ -2,7 +2,6 @@ using System;
 using System.IO;
 using CalamityMod.NPCs.SupremeCalamitas;
 using Microsoft.Xna.Framework;
-using MonoMod.RuntimeDetour;
 using Terraria;
 using Terraria.Chat;
 using Terraria.ID;
@@ -121,23 +120,7 @@ namespace CalamityFandom.Common.Taming
         public const string Key = "The Fabricational Quartet";
         public static readonly int Price = Item.buyPrice(platinum: 1);
 
-        private delegate void SetChatButtonsOrig(ref string button, ref string button2);
-        private delegate void SetChatButtonsHook(SetChatButtonsOrig orig, ref string button, ref string button2);
-        private static Hook hook;
-
         public override bool AppliesToEntity(NPC entity, bool lateInstantiation) => entity.type == NPCID.TaxCollector;
-
-        public override void Load()
-        {
-            // tModLoader ne laisse changer les boutons que des PNJ du mod (ModNPC.SetChatButtons) : détour sur l'appel commun
-            hook = new Hook(typeof(NPCLoader).GetMethod(nameof(NPCLoader.SetChatButtons)), (SetChatButtonsHook)OnSetChatButtons);
-        }
-
-        public override void Unload()
-        {
-            hook?.Dispose();
-            hook = null;
-        }
 
         /// <summary>Un Exo Mech apprivoisable se bat (vu du client : la liste des boss tués est synchronisée).</summary>
         private static bool FightOn()
@@ -146,12 +129,8 @@ namespace CalamityFandom.Common.Taming
             return e != null && !TamingSystem.Untamable.Contains(Key) && TamingSystem.FindMain(e) != null;
         }
 
-        private static void OnSetChatButtons(SetChatButtonsOrig orig, ref string button, ref string button2)
-        {
-            orig(ref button, ref button2);
-            if (Main.LocalPlayer.TalkNPC?.type == NPCID.TaxCollector && FightOn())
-                button2 = Language.GetTextValue("Mods.CalamityFandom.Taming.Taxes.Button");
-        }
+        /// <summary>Second bouton (TamingChatButtons) : seulement pendant le combat.</summary>
+        public static string SecondButton() => FightOn() ? Language.GetTextValue("Mods.CalamityFandom.Taming.Taxes.Button") : null;
 
         public override void GetChat(NPC npc, ref string chat)
         {

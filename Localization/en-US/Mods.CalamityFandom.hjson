@@ -1491,6 +1491,17 @@ Taming: {
 
 	SupremeCalamitasQuit: Supreme Calamitas can't go on... Now, press Alt+F4.
 
+	Wrestle: {
+		Button: Arm Wrestle
+		Reveal: "Hmph. You keep coming back... Fancy an arm wrestle, youngster? Beat me and maybe my curse will listen to you."
+		Title: Arm wrestling the Old Man
+		OldMan: Old Man
+		You: You
+		Help: Click (or Space) when the notch is in the zone; the middle counts double. Escape to give up.
+		Won: You win! The curse relents...
+		Lost: The Old Man wins.
+	}
+
 	Taxes: {
 		Button: File Draedon's taxes
 		Chat: "Draedon hasn't filed his taxes in centuries! Pay me 1 platinum and I'll file them for him... his machines will calm down."
