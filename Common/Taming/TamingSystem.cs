@@ -235,7 +235,7 @@ namespace CalamityFandom.Common.Taming
         {
             foreach (int lead in e.Leads ?? new[] { e.Main })
                 foreach (var n in Terraria.Main.ActiveNPCs)
-                    if (n.type == lead)
+                    if (n.type == lead && !TamingLeave.IsLeaving(n))
                         return n;
             return null;
         }
@@ -541,6 +541,8 @@ namespace CalamityFandom.Common.Taming
                     break;
                 case Packet.Tamed:
                     HappyEffects(reader.ReadVector2());
+                    for (int count = reader.ReadInt16(), i = 0; i < count; i++)
+                        TamingLeave.Receive(reader.ReadInt16(), reader.ReadInt32());
                     break;
             }
         }
@@ -667,7 +669,7 @@ namespace CalamityFandom.Common.Taming
         {
             foreach (var n in Terraria.Main.ActiveNPCs)
             {
-                if (!e.Types.Contains(n.type))
+                if (!e.Types.Contains(n.type) || TamingLeave.IsLeaving(n))
                     continue;
                 if (f.LastLife.TryGetValue(n.whoAmI, out int last) && n.life < last)
                 {
@@ -700,12 +702,12 @@ namespace CalamityFandom.Common.Taming
                 SyncWorld();
             }
             Vector2 pos = npc.Center;
+            // [validé 31/10] Le boss et ses morceaux repartent avec leur animation d'abandon (TamingLeave), sans le
+            // message « ... is no longer after you » de Boss Checklist
+            var departing = new List<NPC> { npc };
             foreach (var n in Terraria.Main.ActiveNPCs)
-            {
-                if (n.whoAmI == npc.whoAmI || !Belongs(e, n, npc))
-                    continue;
-                Vanish(n);
-            }
+                if (n.whoAmI != npc.whoAmI && Belongs(e, n, npc))
+                    departing.Add(n);
             if (e.Key == "Eater of Worlds")
                 npc.boss = true;
             TamingNow = true;
@@ -717,13 +719,20 @@ namespace CalamityFandom.Common.Taming
             {
                 TamingNow = false;
             }
-            Vanish(npc);
+            foreach (var n in departing)
+                TamingLeave.Start(n);
             Announce("Mods.CalamityFandom.Taming.Tamed", e.Key);
             if (Terraria.Main.netMode == NetmodeID.Server)
             {
                 var p = ModContent.GetInstance<CalamityFandom>().GetPacket();
                 p.Write((byte)Packet.Tamed);
                 p.WriteVector2(pos);
+                p.Write((short)departing.Count);
+                foreach (var n in departing)
+                {
+                    p.Write((short)n.whoAmI);
+                    p.Write(n.type);
+                }
                 p.Send();
             }
             else
@@ -736,14 +745,6 @@ namespace CalamityFandom.Common.Taming
             || e.Key == "Moon Lord" && (n.type == NPCID.MoonLordFreeEye || n.type == NPCID.MoonLordLeechBlob)
             // [choix] Les Estranged Sons repartent avec les Perforators apprivoisés
             || e.Key == "The Perforators" && n.ModNPC is Content.NPCs.Perforators.EstrangedSonHead;
-
-        private static void Vanish(NPC n)
-        {
-            n.life = 0;
-            n.active = false;
-            if (Terraria.Main.netMode == NetmodeID.Server)
-                NetMessage.SendData(MessageID.SyncNPC, number: n.whoAmI);
-        }
 
         private static void HappyEffects(Vector2 pos)
         {

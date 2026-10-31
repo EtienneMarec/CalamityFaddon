@@ -302,6 +302,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - 42 boss sur 50 ont leur méthode ; les 8 autres attendent leur boss, inventé par le wiki (The Inventors, Wulfrum
   Excavator, Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze ; XP-00 Hypnos a déjà
   sa méthode, les échecs, prête pour son boss). Liste en TODO dans `TamingSystem.PostSetupContent`.
+- **[validé 31/10]** **Départ du boss apprivoisé** (`Common/Taming/TamingLeave.cs`) : au lieu de disparaître d'un coup, le
+  boss et ses morceaux jouent leur animation d'abandon (celle du jeu ou de Calamity : le Eye of Cthulhu s'envole, les vers
+  s'enfouissent...) : pendant leur mise à jour, ils croient tous les joueurs morts. Ils ne blessent plus et ne prennent
+  plus de dégâts ; le butin est déjà tombé. **[choix]** Effacés en 1,5 s s'ils sont encore là au bout de 6 s.
+  **[technique]** Le message « ... is no longer after you » vient du mod **Boss Checklist** (activé chez l'utilisateur),
+  pour tout boss qui disparaît avec des PV : les PV du boss qui part sont mis à 0 au moment où il disparaît, le message
+  ne sort plus.
 - **Méthodes testées et validées en jeu par l'utilisateur** (31/10, dans l'ordre de ses tests) : King Slime, Desert
   Scourge, Eye of Cthulhu, Crabulon, Eater of Worlds, Brain of Cthulhu, The Hive Mind (« Place 100 books during the
   fight »), The Perforators, Queen Bee.
@@ -398,8 +405,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   | Supreme Calamitas | **Alt+F4 Key** (accessoire) : une fois par jour, survit à un coup mortel et revient au point d'apparition | **Brimstone Teacup** (nourriture) : 20 min, +2 PV/s et immunité à Vulnerability Hex |
 - **[technique]** « Cannot harm the boss » : toute perte de PV d'un PNJ du combat (coups, debuffs) fait échouer la
   tentative jusqu'à ce que le boss disparaisse. Les projectiles des méthodes (Slime Gun, Sparkle Slime Balloon, Green
-  Solution, étoile filante, rochers) ne touchent pas le boss. Apprivoisé : cœurs, émoticône, message ; le boss disparaît
-  et laisse son butin, ce qui compte comme une victoire (drapeaux de progression, Hardmode après le Wall of Flesh).
+  Solution, étoile filante, rochers) ne touchent pas le boss. Apprivoisé : cœurs, émoticône, message ; le boss laisse son
+  butin (**[validé 31/10]** puis repart avec sa propre animation d'abandon, voir `TamingLeave` plus bas), ce qui compte
+  comme une victoire (drapeaux de progression, Hardmode après le Wall of Flesh).
   Tué, il devient inapprivoisable (liste sauvegardée avec le monde). Progrès affiché par quart (♥ 25 %...).
 - **[choix]** Méthodes interprétées : « lead to » un biome = 3 s cumulées avec le joueur le plus proche dans le biome
   (Desert Scourge et Aquatic Scourge : océan ; Cryogen : Brimstone Crag) ; Eye of Cthulhu : tours comptés autour de

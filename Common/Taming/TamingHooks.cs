@@ -78,7 +78,7 @@ namespace CalamityFandom.Common.Taming
             // « The Estranged Sons cannot be killed for the tame to work »
             if (npc.type == ModContent.NPCType<EstrangedSonHead>() && TamingSystem.Fights.TryGetValue("The Perforators", out var perf))
                 perf.Harmed = true;
-            if (TamingSystem.TamingNow || TamingSystem.EntryOf(npc.type) is not { } e || !TamingSystem.Untamable.Add(e.Key))
+            if (TamingSystem.TamingNow || TamingLeave.IsLeaving(npc) || TamingSystem.EntryOf(npc.type) is not { } e || !TamingSystem.Untamable.Add(e.Key))
                 return;
             if (Main.netMode == NetmodeID.Server)
                 NetMessage.SendData(MessageID.WorldData);

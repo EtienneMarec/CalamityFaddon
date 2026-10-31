@@ -612,6 +612,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] (31/10 soir, validé) **Queen Bee** : dans une ruche, tirer au Bee Gun (ou Beenade, Bee's Knees) : les abeilles rebondissent
       sur les murs sans disparaître et vivent ~15 s ; compteur « x/100 bees » au-dessus du joueur ; à 100, la Queen Bee
       apparaît et est apprivoisée aussitôt. Hors ruche, les abeilles meurent comme avant (2,5 s, 3e rebond)
+- [ ] (31/10 soir) **Départ des boss apprivoisés** : après « has been tamed! », le butin tombe et le boss repart comme
+      quand il abandonne (Eye of Cthulhu vers le haut, Desert Scourge sous terre, Queen Bee...), sans blesser ni prendre de
+      dégâts, et disparaît en 6 s au plus ; pas de message « ... is no longer after you » (Boss Checklist) ; il ne
+      relance pas de nouveau combat et ne devient pas inapprivoisable
 - [x] (31/10 soir, validé) **Queen Bee (suite)** : le compte s'affiche à 5, 10, 15... abeilles ; à 100, la Queen Bee apparaît sur
       le joueur et son butin tombe là ; elle ne revient pas pendant 12 minutes (« The Queen Bee is resting (x min) »),
       même en gardant les abeilles ; après, elle peut revenir
