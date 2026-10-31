@@ -467,8 +467,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
     apparaissent une par une (bruit et poussière de bois) ; le joueur glisse jusqu'à sa chaise ; l'adversaire glisse
     jusqu'à la sienne, **reculée selon la largeur de son sprite** ; poignée de main (le Creeper le plus proche, « œil »
     du Brain of Cthulhu, vient à la main du joueur ; un autre adversaire sautille face au bras tendu) ; puis le plateau.
-    **[choix]** Durées : un meuble toutes les 0,25 s, joueur 0,67 s, adversaire 0,83 s, poignée de main 1 s (3,25 s en
-    tout). Rouvrir le plateau face au même adversaire réutilise la table sans reposer les meubles.
+    **[choix]** Durées : un meuble toutes les 0,25 s, joueur 1 s, adversaire 0,83 s, poignée de main 1 s (3,6 s en
+    tout). **[validé 31/10]** La scène se pose à **7 blocs devant le joueur** (5 à 10 demandés), sur le premier sol
+    trouvé (sinon en l'air) ; joueur et adversaire sont posés à la même hauteur, sur l'assise (12 px) ; les ennemis en
+    plusieurs morceaux (Wyvern, vers) se déplacent en entier (morceaux liés par `realLife`). Rouvrir le plateau face au même adversaire réutilise la table sans reposer les meubles.
   - **[validé 31/10]** **N'importe quel PNJ à moins de 10 blocs**, **PNJ de la ville compris**, mais **pas les boss** (sauf
     le Brain of Cthulhu et, plus tard, XP-00 Hypnos, pour leur Taming) ni les morceaux de boss du Taming : même mise en
     scène et monde figé, partie d'entraînement pour le plaisir (ne fait rien). La table disparaît à la fin de la partie

@@ -24,7 +24,11 @@ namespace CalamityFandom.Common.Taming.Chess
     public class ChessScene : ModSystem
     {
         public const int TableAt = 0, PlayerChairAt = 15, OpponentChairAt = 30;
-        public const int PlayerMoveAt = 45, OpponentMoveAt = 85, HandshakeAt = 135, IntroTicks = 195;
+        public const int PlayerMoveAt = 45, OpponentMoveAt = 105, HandshakeAt = 155, IntroTicks = 215;
+        /// <summary>[validé 31/10] La table apparaît à 7 blocs devant le joueur (5 à 10 demandés), posée sur le sol.</summary>
+        public const float TableDistance = 7 * 16f;
+        /// <summary>Hauteur de l'assise : joueur et adversaire sont posés dessus, à la même hauteur.</summary>
+        public const float SeatHeight = 12f;
         /// <summary>Distance entre le centre de la table et la chaise du joueur.</summary>
         public const float ChairOffset = 40f;
         /// <summary>Portée pour un adversaire qui n'est pas un boss : 10 blocs.</summary>
@@ -98,7 +102,7 @@ namespace CalamityFandom.Common.Taming.Chess
             Player player = Main.LocalPlayer;
             int opponentIndex = opponent?.whoAmI ?? -1;
             float reach = opponent != null ? ReachFor(opponent) : ChairOffset;
-            Vector2 table = player.Bottom;
+            Vector2 table = Ground(player.Bottom + new Vector2(player.direction * TableDistance, 0f));
             int preAge = 0;
             int tableType = ModContent.ProjectileType<ChessTable>();
             foreach (var p in Main.ActiveProjectiles)
@@ -143,9 +147,30 @@ namespace CalamityFandom.Common.Taming.Chess
 
         /// <summary>Où l'adversaire s'assoit : centré sur sa chaise, le bas de son sprite sur l'assise.</summary>
         public static Vector2 OpponentSeat(ChessPlayer chess, NPC npc) =>
-            new Vector2(chess.Table.X + chess.Reach, chess.Table.Y - 12f - npc.height / 2f);
+            new Vector2(chess.Table.X + chess.Reach, chess.Table.Y - SeatHeight - npc.height / 2f);
 
-        public static Vector2 PlayerSeat(ChessPlayer chess) => chess.Table + new Vector2(-ChairOffset, 0f);
+        public static Vector2 PlayerSeat(ChessPlayer chess) => chess.Table + new Vector2(-ChairOffset, -SeatHeight);
+
+        /// <summary>
+        /// Sol sous un point : premier bloc plein sous de l'air, cherché de 4 blocs au-dessus à 16 en dessous (sinon le
+        /// point lui-même : la table peut flotter, ce n'est pas grave).
+        /// </summary>
+        private static Vector2 Ground(Vector2 point)
+        {
+            int x = (int)(point.X / 16f);
+            bool air = false;
+            for (int y = (int)(point.Y / 16f) - 4, end = y + 20; y < end; y++)
+            {
+                if (!WorldGen.InWorld(x, y, 2))
+                    break;
+                Tile tile = Main.tile[x, y];
+                bool solid = tile.HasTile && !tile.IsActuated && (Main.tileSolid[tile.TileType] || Main.tileSolidTop[tile.TileType]);
+                if (solid && air)
+                    return new Vector2(point.X, y * 16f);
+                air = !solid;
+            }
+            return point;
+        }
 
         /// <summary>Main du joueur pendant la poignée de main (même calcul partout).</summary>
         public static Vector2 HandPosition(Player player, uint age) =>
@@ -174,14 +199,33 @@ namespace CalamityFandom.Common.Taming.Chess
                 Vector2 from = opponentFrom.TryGetValue(p.whoAmI, out var f) ? f : opponent.Center;
                 Vector2 seat = OpponentSeat(chess, opponent);
                 bool brain = opponent.type == NPCID.BrainofCthulhu;
+                Vector2 before = opponent.Center;
                 opponent.Center = Vector2.Lerp(from, seat, Smooth(age, OpponentMoveAt, HandshakeAt));
                 if (age >= HandshakeAt && !brain)
                     opponent.Center += new Vector2(0f, 4f * System.MathF.Sin(age * 0.5f));
                 opponent.velocity = Vector2.Zero;
+                MoveParts(opponent, opponent.Center - before, age);
                 if (brain && age >= HandshakeAt)
                     ShakeWithCreeper(p, age);
                 if (age % 6 == 0 || age == IntroTicks)
                     opponent.netUpdate = true;
+            }
+        }
+
+        /// <summary>
+        /// [validé 31/10] Ennemis en plusieurs morceaux (Wyvern, vers) : les morceaux (realLife = l'adversaire) suivent la
+        /// tête du même déplacement.
+        /// </summary>
+        private static void MoveParts(NPC opponent, Vector2 delta, uint age)
+        {
+            foreach (var n in Main.ActiveNPCs)
+            {
+                if (n.whoAmI == opponent.whoAmI || n.realLife != opponent.whoAmI)
+                    continue;
+                n.Center += delta;
+                n.velocity = Vector2.Zero;
+                if (age % 6 == 0 || age == IntroTicks)
+                    n.netUpdate = true;
             }
         }
 

@@ -535,7 +535,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       portée : même mise en scène, « Sit at the chessboard and play with yourself » au-dessus de la chaise vide.
       Le joueur est toujours bien assis sur sa chaise (même s'il marchait sur un terrain en pente) ; la chaise du Brain of
       Cthulhu est nettement plus loin ; la phrase « play with yourself » est dorée ; le plateau ne s'utilise pas pendant
-      les 2 s du cri d'apparition du Brain of Cthulhu
+      les 2 s du cri d'apparition du Brain of Cthulhu ; la table apparaît à 7 blocs devant le joueur, posée sur le sol ;
+      joueur et PNJ assis à la même hauteur ; une Wyvern (ou un ver) vient s'asseoir en entier
 - [ ] (31/10) **Zoologist (correctif)** : acheter un « Soothe: <boss> » fait disparaître aussitôt toutes les offres de la
       boutique ouverte ; elles reviennent à l'aube suivante
 - [x] (31/10, validé) **Eye of Cthulhu (correctif)** : tourner autour de l'œil affiche « 1/30 », « 2/30 »... ; faire un tour
