@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
-using Terraria.DataStructures;
+using Terraria.Audio;
 using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -10,26 +10,34 @@ using Terraria.ModLoader;
 namespace CalamityFandom.Common.Taming.Chess
 {
     /// <summary>
-    /// Partie d'échecs contre un boss (Holographic Chessboard) : [validé 31/10] tout s'arrête pendant la partie (joueurs,
-    /// ennemis, boss et ses attaques, projectiles), et une table et deux chaises en bois apparaissent là où se tient le
-    /// joueur (dessinées par-dessus le décor, sans être posées) ; le joueur et le boss y sont placés, puis le joueur serre
-    /// un Creeper (un « œil ») avant que le plateau s'ouvre. Table et chaises restent jusqu'à la fin du combat.
-    /// [choix] Arrêt de tout le monde, aussi en multijoueur ; poignée de main de 1 s.
+    /// Partie d'échecs face à un adversaire (Holographic Chessboard) : le Brain of Cthulhu (Taming), ou [validé 31/10]
+    /// n'importe quel autre PNJ à moins de 10 blocs, hors boss (ça ne fait rien, c'est pour le plaisir). Tout s'arrête
+    /// pendant la partie (joueurs, ennemis, boss et ses attaques, projectiles). [validé 31/10] Mise en scène, dans
+    /// l'ordre : la table, la chaise du joueur puis celle de l'adversaire apparaissent une par une (dessinées par-dessus
+    /// le décor) ; le joueur va s'asseoir ; l'adversaire va à sa chaise, reculée selon la largeur de son sprite ; ils se
+    /// serrent la main (un Creeper, « œil » du Brain of Cthulhu, vient à la main du joueur ; un autre adversaire
+    /// sautille) ; puis le plateau s'ouvre. La table reste jusqu'à la fin du combat contre un boss, et disparaît à la
+    /// fin de la partie contre un autre PNJ. [choix] Durées ci-dessous ; tout le monde est figé, aussi en multijoueur.
     /// </summary>
     public class ChessScene : ModSystem
     {
-        /// <summary>Durée de la poignée de main avant l'ouverture du plateau.</summary>
-        public const int IntroTicks = 60;
-        /// <summary>Écart entre le centre de la table et chaque chaise.</summary>
+        public const int TableAt = 0, PlayerChairAt = 15, OpponentChairAt = 30;
+        public const int PlayerMoveAt = 45, OpponentMoveAt = 85, HandshakeAt = 135, IntroTicks = 195;
+        /// <summary>Distance entre le centre de la table et la chaise du joueur.</summary>
         public const float ChairOffset = 40f;
+        /// <summary>Portée pour un adversaire qui n'est pas un boss : 10 blocs.</summary>
+        public const float MobRange = 160f;
 
-        /// <summary>Un joueur joue aux échecs contre un boss : le monde est figé.</summary>
+        /// <summary>Position de départ de chaque adversaire (par joueur), là où les PNJ sont gérés.</summary>
+        private static readonly Dictionary<int, Vector2> opponentFrom = new();
+
+        /// <summary>Un joueur joue aux échecs face à un adversaire : le monde est figé.</summary>
         public static bool Frozen
         {
             get
             {
                 foreach (var p in Main.ActivePlayers)
-                    if (!p.dead && p.GetModPlayer<TamingPlayer>().ChessOpen)
+                    if (!p.dead && p.GetModPlayer<ChessPlayer>().Open)
                         return true;
                 return false;
             }
@@ -49,61 +57,189 @@ namespace CalamityFandom.Common.Taming.Chess
             };
         }
 
-        /// <summary>Où se tient la main du joueur pendant la poignée de main (même calcul partout).</summary>
+        public override void ClearWorld() => opponentFrom.Clear();
+
+        /// <summary>Un PNJ peut jouer aux échecs pour le plaisir : ni boss (ni morceau de boss du Taming), ni PNJ de la ville.</summary>
+        public static bool CanPlay(NPC npc) =>
+            npc.active && !npc.boss && !npc.townNPC && !NPCID.Sets.ProjectileNPC[npc.type] && npc.lifeMax > 5
+            && (npc.realLife < 0 || npc.realLife == npc.whoAmI) && TamingSystem.EntryOf(npc.type) == null;
+
+        /// <summary>Recul de la chaise de l'adversaire : la moitié de la largeur de son sprite, plus la moitié de la table.</summary>
+        public static float ReachFor(NPC npc)
+        {
+            float width = npc.frame.Width > 0 ? npc.frame.Width * npc.scale : npc.width;
+            return 24f + System.MathF.Max(width, npc.width) / 2f;
+        }
+
+        /// <summary>Le joueur local commence la partie face à <paramref name="opponent"/> (appelé par le plateau).</summary>
+        public static void Begin(NPC opponent)
+        {
+            Player player = Main.LocalPlayer;
+            float reach = ReachFor(opponent);
+            Vector2 table = player.Bottom;
+            int preAge = 0;
+            int tableType = ModContent.ProjectileType<ChessTable>();
+            foreach (var p in Main.ActiveProjectiles)
+            {
+                if (p.type != tableType || p.owner != player.whoAmI)
+                    continue;
+                // Même adversaire : la table est déjà là (on saute la pose des meubles) ; sinon, on la range
+                if ((int)p.ai[1] == opponent.whoAmI)
+                {
+                    table = p.Center;
+                    reach = p.ai[0];
+                    preAge = PlayerMoveAt;
+                }
+                else
+                    p.Kill();
+            }
+            if (preAge == 0)
+                Projectile.NewProjectile(player.GetSource_Misc("ChessTable"), table, Vector2.Zero, tableType, 0, 0f, player.whoAmI, reach, opponent.whoAmI);
+            player.GetModPlayer<ChessPlayer>().From = player.Bottom;
+            TamingSystem.ReportChess(true, table, preAge, opponent.whoAmI, reach);
+        }
+
+        /// <summary>État d'un joueur (localement, ou reçu du réseau).</summary>
+        public static void Set(int who, bool open, Vector2 table, int preAge, int opponent, float reach)
+        {
+            var chess = Main.player[who].GetModPlayer<ChessPlayer>();
+            chess.Open = open;
+            chess.Table = table;
+            chess.Start = Main.GameUpdateCount - (uint)preAge;
+            chess.Opponent = opponent;
+            chess.Reach = reach;
+            if (open && opponent >= 0 && opponent < Main.maxNPCs)
+                opponentFrom[who] = Main.npc[opponent].Center;
+        }
+
+        /// <summary>Le plateau s'ouvre quand la mise en scène est finie.</summary>
+        public static bool IntroDone(Player player)
+        {
+            var chess = player.GetModPlayer<ChessPlayer>();
+            return !chess.Open || chess.Age >= IntroTicks;
+        }
+
+        /// <summary>Où l'adversaire s'assoit : centré sur sa chaise, le bas de son sprite sur l'assise.</summary>
+        public static Vector2 OpponentSeat(ChessPlayer chess, NPC npc) =>
+            new Vector2(chess.Table.X + chess.Reach, chess.Table.Y - 12f - npc.height / 2f);
+
+        public static Vector2 PlayerSeat(ChessPlayer chess) => chess.Table + new Vector2(-ChairOffset, 0f);
+
+        /// <summary>Main du joueur pendant la poignée de main (même calcul partout).</summary>
         public static Vector2 HandPosition(Player player, uint age) =>
             player.MountedCenter + new Vector2(player.direction * 24f, 4f + 5f * System.MathF.Sin(age * 0.5f));
 
-        /// <summary>
-        /// Place le boss sur sa chaise (là où les PNJ sont gérés : solo ou serveur). Le joueur se place lui-même
-        /// (<see cref="TamingPlayer"/>).
-        /// </summary>
-        public static void Arrange(Player player, Vector2 table)
+        private static float Smooth(uint age, int from, int to)
         {
-            NPC boss = BossFor(player);
-            if (boss == null)
-                return;
-            boss.Center = table + new Vector2(ChairOffset + 20f, -boss.height / 2f - 4f);
-            boss.velocity = Vector2.Zero;
-            boss.netUpdate = true;
+            float t = MathHelper.Clamp((age - (float)from) / (to - from), 0f, 1f);
+            return t * t * (3f - 2f * t);
         }
 
-        private static NPC BossFor(Player player)
-        {
-            foreach (var n in Main.ActiveNPCs)
-                if (n.type == NPCID.BrainofCthulhu && n.WithinRange(player.Center, 3000f))
-                    return n;
-            return null;
-        }
-
-        // Poignée de main : le Creeper le plus proche vient serrer la main du joueur (les PNJ sont figés, on les place)
+        // Déplacement de l'adversaire et poignée de main (les PNJ sont figés : on les place nous-mêmes)
         public override void PostUpdateNPCs()
         {
             if (Main.netMode == NetmodeID.MultiplayerClient)
                 return;
             foreach (var p in Main.ActivePlayers)
             {
-                var taming = p.GetModPlayer<TamingPlayer>();
-                uint age = Main.GameUpdateCount - taming.ChessStart;
-                if (!taming.ChessOpen || age > IntroTicks)
+                var chess = p.GetModPlayer<ChessPlayer>();
+                uint age = chess.Age;
+                if (!chess.Open || age > IntroTicks || chess.Opponent < 0 || chess.Opponent >= Main.maxNPCs)
                     continue;
-                NPC eye = null;
-                foreach (var n in Main.ActiveNPCs)
-                    if (n.type == NPCID.Creeper && (eye == null || n.DistanceSQ(p.Center) < eye.DistanceSQ(p.Center)))
-                        eye = n;
-                if (eye == null)
+                NPC opponent = Main.npc[chess.Opponent];
+                if (!opponent.active || age < OpponentMoveAt)
                     continue;
-                eye.Center = HandPosition(p, age) + new Vector2(p.direction * eye.width / 2f, 0f);
-                eye.velocity = Vector2.Zero;
+                Vector2 from = opponentFrom.TryGetValue(p.whoAmI, out var f) ? f : opponent.Center;
+                Vector2 seat = OpponentSeat(chess, opponent);
+                bool brain = opponent.type == NPCID.BrainofCthulhu;
+                opponent.Center = Vector2.Lerp(from, seat, Smooth(age, OpponentMoveAt, HandshakeAt));
+                if (age >= HandshakeAt && !brain)
+                    opponent.Center += new Vector2(0f, 4f * System.MathF.Sin(age * 0.5f));
+                opponent.velocity = Vector2.Zero;
+                if (brain && age >= HandshakeAt)
+                    ShakeWithCreeper(p, age);
                 if (age % 6 == 0 || age == IntroTicks)
-                    eye.netUpdate = true;
+                    opponent.netUpdate = true;
             }
+        }
+
+        /// <summary>Le Creeper le plus proche (un œil du Brain of Cthulhu) vient serrer la main du joueur.</summary>
+        private static void ShakeWithCreeper(Player player, uint age)
+        {
+            NPC eye = null;
+            foreach (var n in Main.ActiveNPCs)
+                if (n.type == NPCID.Creeper && (eye == null || n.DistanceSQ(player.Center) < eye.DistanceSQ(player.Center)))
+                    eye = n;
+            if (eye == null)
+                return;
+            eye.Center = HandPosition(player, age) + new Vector2(player.direction * eye.width / 2f, 0f);
+            eye.velocity = Vector2.Zero;
+            if (age % 6 == 0 || age == IntroTicks)
+                eye.netUpdate = true;
         }
     }
 
-    /// <summary>Table et chaises en bois de la partie d'échecs : dessin seulement, retirées quand le boss n'est plus là.</summary>
+    /// <summary>État de la partie d'échecs d'un joueur : contrôles coupés, trajet jusqu'à sa chaise, bras tendu.</summary>
+    public class ChessPlayer : ModPlayer
+    {
+        public bool Open;
+        /// <summary>Début de la mise en scène (Main.GameUpdateCount).</summary>
+        public uint Start;
+        /// <summary>Milieu du bas de la table.</summary>
+        public Vector2 Table;
+        public int Opponent = -1;
+        /// <summary>Distance du centre de la table à la chaise de l'adversaire.</summary>
+        public float Reach;
+        /// <summary>Où se tenait le joueur (local) avant d'aller s'asseoir.</summary>
+        public Vector2 From;
+
+        public uint Age => Main.GameUpdateCount - Start;
+
+        public override void SetControls()
+        {
+            if (!ChessScene.Frozen)
+                return;
+            Player.controlLeft = Player.controlRight = Player.controlUp = Player.controlDown = false;
+            Player.controlJump = Player.controlUseItem = Player.controlUseTile = Player.controlThrow = false;
+            Player.controlHook = Player.controlMount = Player.controlQuickHeal = Player.controlQuickMana = false;
+            Player.controlSmart = Player.controlTorch = false;
+        }
+
+        public override void PreUpdateMovement()
+        {
+            if (!ChessScene.Frozen)
+                return;
+            Player.velocity = Vector2.Zero;
+            Player.SetImmuneTimeForAllTypes(2);
+            if (!Open || Player.whoAmI != Main.myPlayer)
+                return;
+            // Le joueur va à sa chaise, tourné vers l'adversaire
+            float t = MathHelper.Clamp((Age - (float)ChessScene.PlayerMoveAt) / (ChessScene.OpponentMoveAt - ChessScene.PlayerMoveAt), 0f, 1f);
+            Player.Bottom = Vector2.Lerp(From, ChessScene.PlayerSeat(this), t * t * (3f - 2f * t));
+            Player.direction = 1;
+        }
+
+        public override void PostUpdate()
+        {
+            // Poignée de main : le bras avant se tend vers l'œil (Brain of Cthulhu) ou vers l'adversaire
+            if (!Open || Age < ChessScene.HandshakeAt || Age > ChessScene.IntroTicks)
+                return;
+            Vector2 target = ChessScene.HandPosition(Player, Age);
+            if (Opponent >= 0 && Opponent < Main.maxNPCs && Main.npc[Opponent].active && Main.npc[Opponent].type != NPCID.BrainofCthulhu)
+                target = Main.npc[Opponent].Center;
+            Player.SetCompositeArmFront(true, Player.CompositeArmStretchAmount.Full, (target - Player.MountedCenter).ToRotation() - MathHelper.PiOver2);
+        }
+    }
+
+    /// <summary>
+    /// Table et chaises en bois de la partie d'échecs (dessin seulement) : ai[0] = recul de la chaise de l'adversaire,
+    /// ai[1] = adversaire. Les meubles apparaissent un par un ; retirés à la fin du combat (boss) ou de la partie.
+    /// </summary>
     public class ChessTable : ModProjectile
     {
         public override string Texture => "Terraria/Images/Item_" + ItemID.WoodenTable;
+
+        private ref float Age => ref Projectile.localAI[0];
 
         public override void SetDefaults()
         {
@@ -120,11 +256,22 @@ namespace CalamityFandom.Common.Taming.Chess
         public override void AI()
         {
             Projectile.velocity = Vector2.Zero;
-            bool fight = false;
-            foreach (var n in Main.ActiveNPCs)
-                if (n.type == NPCID.BrainofCthulhu)
-                    fight = true;
-            if (fight)
+            Age++;
+            // Pose de chaque meuble : bruit et poussière de bois
+            float x = Age == ChessScene.TableAt + 1 ? 0f : Age == ChessScene.PlayerChairAt + 1 ? -ChessScene.ChairOffset
+                : Age == ChessScene.OpponentChairAt + 1 ? Projectile.ai[0] : float.NaN;
+            if (!float.IsNaN(x))
+            {
+                Vector2 spot = Projectile.Center + new Vector2(x, -16f);
+                SoundEngine.PlaySound(SoundID.Dig, spot);
+                for (int i = 0; i < 8; i++)
+                    Dust.NewDust(spot - new Vector2(12f), 24, 24, DustID.WoodFurniture);
+            }
+            NPC opponent = Main.npc[(int)Projectile.ai[1]];
+            Player owner = Main.player[Projectile.owner];
+            bool keep = owner.active && opponent.active
+                && (opponent.boss || owner.GetModPlayer<ChessPlayer>().Open && owner.GetModPlayer<ChessPlayer>().Opponent == opponent.whoAmI);
+            if (keep)
                 Projectile.timeLeft = 2;
         }
 
@@ -139,17 +286,20 @@ namespace CalamityFandom.Common.Taming.Chess
             Main.instance.LoadTiles(TileID.Chairs);
             Texture2D table = TextureAssets.Tile[TileID.Tables].Value;
             Texture2D chair = TextureAssets.Tile[TileID.Chairs].Value;
-            // Projectile.Center = milieu du bas de la table (le sol sous les pieds du joueur au départ)
+            // Projectile.Center = milieu du bas de la table
             Vector2 floor = Projectile.Center;
             // Table en bois : 3 × 2 cases (rangées de 16 et 18 px, cadres espacés de 18 px)
-            for (int x = 0; x < 3; x++)
-                for (int y = 0; y < 2; y++)
-                    DrawPiece(table, new Rectangle(x * 18, y * 18, 16, y == 0 ? 16 : 18), floor + new Vector2(-24 + x * 16, -32 + y * 16));
+            if (Age > ChessScene.TableAt)
+                for (int x = 0; x < 3; x++)
+                    for (int y = 0; y < 2; y++)
+                        DrawPiece(table, new Rectangle(x * 18, y * 18, 16, y == 0 ? 16 : 18), floor + new Vector2(-24 + x * 16, -32 + y * 16));
             // Chaises en bois : 1 × 2 cases (16 et 18 px) ; cadre 0 tourné vers la gauche, 18 vers la droite
             for (int y = 0; y < 2; y++)
             {
-                DrawPiece(chair, new Rectangle(18, y * 18, 16, y == 0 ? 16 : 18), floor + new Vector2(-ChessScene.ChairOffset - 8, -32 + y * 16));
-                DrawPiece(chair, new Rectangle(0, y * 18, 16, y == 0 ? 16 : 18), floor + new Vector2(ChessScene.ChairOffset - 8, -32 + y * 16));
+                if (Age > ChessScene.PlayerChairAt)
+                    DrawPiece(chair, new Rectangle(18, y * 18, 16, y == 0 ? 16 : 18), floor + new Vector2(-ChessScene.ChairOffset - 8, -32 + y * 16));
+                if (Age > ChessScene.OpponentChairAt)
+                    DrawPiece(chair, new Rectangle(0, y * 18, 16, y == 0 ? 16 : 18), floor + new Vector2(Projectile.ai[0] - 8, -32 + y * 16));
             }
             return false;
         }

@@ -271,30 +271,6 @@ namespace CalamityFandom.Common.Taming
 
     public class TamingPlayer : ModPlayer
     {
-        /// <summary>Partie d'échecs contre un boss en cours (Holographic Chessboard), connue de tous : le monde est figé.</summary>
-        public bool ChessOpen;
-        /// <summary>Début de la partie (Main.GameUpdateCount) et pied de la table (Chess/ChessScene.cs).</summary>
-        public uint ChessStart;
-        public Vector2 ChessTable;
-
-        // Partie d'échecs : plus aucun contrôle, plus de mouvement, plus de dégâts (Chess/ChessScene.cs)
-        public override void SetControls()
-        {
-            if (!Chess.ChessScene.Frozen)
-                return;
-            Player.controlLeft = Player.controlRight = Player.controlUp = Player.controlDown = false;
-            Player.controlJump = Player.controlUseItem = Player.controlUseTile = Player.controlThrow = false;
-            Player.controlHook = Player.controlMount = Player.controlQuickHeal = Player.controlQuickMana = false;
-            Player.controlSmart = Player.controlTorch = false;
-        }
-
-        public override void PreUpdateMovement()
-        {
-            if (!Chess.ChessScene.Frozen)
-                return;
-            Player.velocity = Vector2.Zero;
-            Player.SetImmuneTimeForAllTypes(2);
-        }
         private bool dashCounted;
 
         public const string EaterKey = "Eater of Worlds";
@@ -354,13 +330,6 @@ namespace CalamityFandom.Common.Taming
         // « Dash directly into the Destroyers head segment with a dash 5 times. Note that the dash must not deal damage »
         public override void PostUpdate()
         {
-            // Poignée de main avec un Creeper au début de la partie d'échecs : le bras avant se tend et monte, descend
-            uint age = Main.GameUpdateCount - ChessStart;
-            if (ChessOpen && age <= Chess.ChessScene.IntroTicks)
-            {
-                Vector2 toHand = Chess.ChessScene.HandPosition(Player, age) - Player.MountedCenter;
-                Player.SetCompositeArmFront(true, Player.CompositeArmStretchAmount.Full, toHand.ToRotation() - MathHelper.PiOver2);
-            }
             if (Player.whoAmI != Main.myPlayer)
                 return;
             if (Player.dashDelay >= 0)

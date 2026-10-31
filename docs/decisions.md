@@ -460,11 +460,17 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
     animations comprises) et des projectiles sautée, joueurs sans contrôles, immobiles et invulnérables.
     **[choix]** Tout le monde est figé, aussi en multijoueur (l'état de chaque joueur est envoyé à tous) ; rien n'est
     figé à l'entraînement (sans boss).
-  - **Table et chaises** : une table et deux chaises en bois (textures des meubles de Terraria) sont dessinées sous les
-    pieds du joueur, par-dessus le décor, et restent jusqu'à la fin du combat (projectile `ChessTable`, sans dégâts) ;
-    le joueur est placé devant la chaise de gauche, tourné vers la droite, le boss au-dessus de celle de droite ; le
-    joueur tend le bras et le Creeper le plus proche vient lui « serrer la main » pendant 1 s (bras et œil montent et
-    descendent ensemble), puis le plateau s'ouvre. Rouvrir le plateau réutilise la même table.
+  - **Table et chaises** (sens des chaises validé le 31/10) : une table et deux chaises en bois (textures des meubles de
+    Terraria) dessinées sous les pieds du joueur, par-dessus le décor (projectile `ChessTable`, sans dégâts).
+    **[validé 31/10]** Mise en scène dans l'ordre : clic ; la table, la chaise du joueur, puis celle de l'adversaire
+    apparaissent une par une (bruit et poussière de bois) ; le joueur glisse jusqu'à sa chaise ; l'adversaire glisse
+    jusqu'à la sienne, **reculée selon la largeur de son sprite** ; poignée de main (le Creeper le plus proche, « œil »
+    du Brain of Cthulhu, vient à la main du joueur ; un autre adversaire sautille face au bras tendu) ; puis le plateau.
+    **[choix]** Durées : un meuble toutes les 0,25 s, joueur 0,67 s, adversaire 0,83 s, poignée de main 1 s (3,25 s en
+    tout). Rouvrir le plateau face au même adversaire réutilise la table sans reposer les meubles.
+  - **[validé 31/10]** **N'importe quel PNJ à moins de 10 blocs** (hors boss, morceaux de boss du Taming et PNJ de la
+    ville) : même mise en scène et monde figé, partie d'entraînement pour le plaisir (ne fait rien). La table disparaît
+    à la fin de la partie (face au Brain of Cthulhu : à la fin du combat). **[choix]** Le plus proche ; bestioles comprises.
 - **The Slime God** (« Have both slime gods absorb 20 of their respective Blight Slime. Note that blight slimes will
   ignore boss zen while the Slime God is alive ») : une Ebonian Blight Slime qui touche l'Ebonian Paladin (ou une
   Crimulan contre le Crimulan Paladin) disparaît et compte pour lui ; il en faut 20 de chaque ; butin du noyau.

@@ -526,9 +526,12 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       et ses Creepers s'arrêtent pendant la partie ; 3 problèmes résolus → apprivoisé
 - [ ] (31/10 soir) **Brain of Cthulhu, échecs (suite)** : plus de position impossible (deux fous d'un camp toujours sur des
       couleurs différentes) ; pendant la partie, rien ne bouge (joueur, boss et tentacules, Creepers, autres ennemis,
-      projectiles) et le joueur ne prend pas de dégâts ; à l'ouverture : table et deux chaises en bois sous le joueur,
-      joueur à gauche, boss à droite, un Creeper vient serrer la main du joueur (1 s), puis le plateau ; la table reste
-      jusqu'à la fin du combat. Entraînement (sans boss) : rien n'est figé, pas de table
+      projectiles) et le joueur ne prend pas de dégâts ; à l'ouverture : table, chaise du joueur, chaise du boss une par
+      une, le joueur va à sa chaise, puis le boss à la sienne (assez loin pour ne pas chevaucher la table), un Creeper
+      vient serrer la main du joueur (1 s), puis le plateau ; la table reste jusqu'à la fin du combat
+- [ ] (31/10 soir) **Holographic Chessboard près d'un autre PNJ** (moins de 10 blocs : Zombie, Slime, lapin...) : même mise
+      en scène (le PNJ sautille pendant la poignée de main, chaise reculée selon sa taille), partie d'entraînement, la
+      table disparaît en fermant. Loin de tout : entraînement sans mise en scène ni monde figé
 - [ ] (31/10) **Zoologist (correctif)** : acheter un « Soothe: <boss> » fait disparaître aussitôt toutes les offres de la
       boutique ouverte ; elles reviennent à l'aube suivante
 - [x] (31/10, validé) **Eye of Cthulhu (correctif)** : tourner autour de l'œil affiche « 1/30 », « 2/30 »... ; faire un tour

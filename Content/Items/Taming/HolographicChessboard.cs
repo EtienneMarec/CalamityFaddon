@@ -11,6 +11,7 @@ namespace CalamityFandom.Content.Items.Taming
     /// Chessboard »), sans page. [validé 31/10] Lance des problèmes d'échecs : 3 mats en un tirés parmi 45 contre le Brain
     /// of Cthulhu, mats en deux contre XP-00 Hypnos (plus dur). Sans boss : entraînement. [choix] Fabriqué à l'établi
     /// (verre, bois, étoile filante) pour que la méthode soit faisable sans tuer de boss ; sprite provisoire.
+    /// [validé 31/10] Près d'un autre PNJ (10 blocs, hors boss) : même mise en scène, partie pour le plaisir.
     /// </summary>
     public class HolographicChessboard : ModItem
     {
@@ -32,15 +33,20 @@ namespace CalamityFandom.Content.Items.Taming
             if (player.whoAmI != Main.myPlayer)
                 return true;
             // TODO : XP-00 Hypnos (boss inventé, à créer) -> mats en deux
+            NPC mob = null;
             foreach (var npc in Main.ActiveNPCs)
             {
                 if (npc.type == NPCID.BrainofCthulhu && npc.Distance(player.Center) < 3000f && !TamingSystem.Untamable.Contains("Brain of Cthulhu"))
                 {
-                    ChessUISystem.Open("Brain of Cthulhu", false);
+                    ChessUISystem.Open("Brain of Cthulhu", false, npc);
                     return true;
                 }
+                // Autre PNJ à moins de 10 blocs : partie pour le plaisir (le plus proche)
+                if (ChessScene.CanPlay(npc) && npc.WithinRange(player.Center, ChessScene.MobRange)
+                    && (mob == null || npc.DistanceSQ(player.Center) < mob.DistanceSQ(player.Center)))
+                    mob = npc;
             }
-            ChessUISystem.Open(null, NPC.downedMoonlord);
+            ChessUISystem.Open(null, NPC.downedMoonlord, mob);
             return true;
         }
 
