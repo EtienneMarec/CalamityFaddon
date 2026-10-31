@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (381)
+## Objets (377)
 
 - A M S
 - AAMG "Disperse"
@@ -204,10 +204,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Calamity Sword
 - Catarachedrae
 - Catastrophe Claybore
-- Catastrophe Claycore
-- Catastrophe Clayscore
 - Catastrophe Claysiphonophore
-- Catastrophe Clayspore
 - Caustic Claw
 - Celestial Nuke
 - Cent Striker
@@ -489,7 +486,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The Last Lightice
 - The Ones Striker
 - The Otherside
-- The Princess
 - The Verboten One
 - The Watered Pew Pew
 - The WOBbler

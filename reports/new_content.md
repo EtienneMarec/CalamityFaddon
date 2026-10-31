@@ -62,11 +62,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Calamity Sword
 - [x] Caliburn
 - [x] Carnage Ray
-- [ ] Catastrophe Claycore
+- [x] Catastrophe Claycore
 - [x] Catastrophe Claymore
-- [ ] Catastrophe Clayscore
+- [x] Catastrophe Clayscore
 - [ ] Catastrophe Claysiphonophore
-- [ ] Catastrophe Clayspore
+- [x] Catastrophe Clayspore
 - [ ] Caustic Claw
 - [ ] Celestial Nuke — addon: Deimos, the Starborn Princess
 - [ ] Celesticus
@@ -406,7 +406,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] The Needler
 - [ ] The Ones Striker — addon: Calamity: Tales of the Aquatic
 - [ ] The Otherside
-- [ ] The Princess
+- [x] The Princess
 - [x] The Reaper
 - [ ] The Watered Pew Pew — addon: Calamity: Tales of the Aquatic
 - [ ] Thunder Bolt — addon: Cataclysm

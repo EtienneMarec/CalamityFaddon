@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1158 objets dont les recettes ont changé : 979 recettes modifiées, 248 créées
+- 1166 objets dont les recettes ont changé : 983 recettes modifiées, 252 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 92 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 113 recettes
+- 88 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 109 recettes
 
 ## Recettes changées
 
@@ -244,7 +244,10 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Caribbean Rum | (nouvelle) | 5 Vodka, 20 Blood Orb, 1 Living Shard @ AlchemyTable → 5 |
 | Caribbean Rum | 20 Bottle, 1 Ice Feather @ Kegs → 20 | 5 Vodka, 20 Bamboo, 1 Living Shard @ Kegs → 5 |
 | Carnage Ray | (nouvelle) | 1 Crimson Rod, 1 Wand of Sparking, 1 Amber Staff, 1 Magic Missile, 15 Blood Sample, 10 Purified Gel @ DemonAltar → 1 |
+| Catastrophe Claycore | (nouvelle) | 10 Catastrophe Clay Ore, 3 Soul Flux, 6 Essential Essence Bar @ MythrilAnvil → 1 |
 | Catastrophe Claymore | (nouvelle) | 12 Catastrophe Clay Ore, 3 Soul Flux, 6 Essential Essence Bar @ MythrilAnvil → 1 |
+| Catastrophe Clayscore | (nouvelle) | 10 Catastrophe Clay Ore, 3 Soul Flux, 6 Essential Essence Bar @ MythrilAnvil → 1 |
+| Catastrophe Clayspore | (nouvelle) | 8 Catastrophe Clay Ore, 20 Mushroom, 3 Soul Flux, 6 Essential Essence Bar @ MythrilAnvil → 1 |
 | Caustic Edge | 10 Acidwood, 8 Shadow Scale or Tissue Sample, 2 Deathweed @ Anvils → 1 | 10 Acidwood, 8 Any Evil Flesh, 2 Deathweed, 1 Lava Bucket @ DemonAltar → 1 |
 | Caustic Staff | 10 Any Evil Bar, 10 Cursed Flame or Ichor, 10 Soul of Night @ DemonAltar → 1 | 5 Any Evil Flask, 2 Deathweed, 10 Soul of Night, 10 Any Evil Bar @ DemonAltar → 1 |
 | Caustic Tear | 1 Sulphuric Scale @ main + eau → 1 | 5 Water Bucket @ main + eau → 1 |
@@ -643,6 +646,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Midnight Sun Beacon | 1 Xeno Staff, 5 Auric Bar, 15 Darksun Fragment @ CosmicAnvil → 1 | 1 Xeno Staff, 1 Lunar Portal Staff, 5 Auric Bar, 150 Arean Conduit Plating, 5 Strange Matter, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Miracle Matter | 5 Auric Bar, 5 Exo Prism, 1 Life Alloy, 1 Ascendant Spirit Essence, 3 Solar Fragment, 3 Vortex Fragment, 3 Nebula Fragment, 3 Stardust Fragment, 3 Meld Blob, 1 Core of Calamity @ DraedonsForge → 1 | 5 Exo Prism, 5 Auric Bar, 1 Life Alloy, 3 Exo Core, 1 Profaned Core, 1 Ascendant Spirit Essence, 3 Galactica Singularity @ DraedonsForge → 1 |
 | Mirage Mirror | 1 Magic Mirror, 1 Black Lens, 50 Bone @ TinkerersWorkbench → 1 | 1 Magic Mirror / Ice Mirror, 1 Black Lens, 50 Bone @ TinkerersWorkbench → 1 |
+| Mistlestorm | 1 Razorpine, 1 Leaf Blower, 10 Tarragon Bar, 3 Dark Plasma @ MythrilAnvil → 1 | 1 Razorpine, 1 Leaf Blower, 1 Catastrophe Clayspore, 7 Tarragon Bar, 1 Dark Plasma, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | MOAB | 1 Frog Leg, 1 Bundle of Horseshoe Balloons, 1 Jetpack, 1 Soul of Fright, 1 Soul of Might, 1 Soul of Sight @ MythrilAnvil → 1 | 5 Soul of Flight, 1 Bundle of Balloons, 1 Lucky Horseshoe, 1 Jetpack, 1 Soul of Sight, 1 Soul of Might, 1 Soul of Fright @ MythrilAnvil → 1 |
 | Monolith Amalgam | 20 Astral Monolith @ Sawmill → 1 | 20 Astral Monolith @ WorkBenches → 1 |
 | Monolith Bathtub | 14 Astral Monolith @ Sawmill → 1 | 14 Astral Monolith @ MonolithAmalgam → 1 |
@@ -663,6 +667,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Monolith Sink | 6 Astral Monolith, 1 Water Bucket @ WorkBenches → 1 | 6 Astral Monolith, 1 Water Bucket @ MonolithAmalgam → 1 |
 | Monolith Table | 8 Astral Monolith @ WorkBenches → 1 | 8 Astral Monolith @ MonolithAmalgam → 1 |
 | Monolith Work Bench | 10 Astral Monolith @ main → 1 | 10 Astral Monolith @ MonolithAmalgam → 1 |
+| Monsoon | 1 Tsunami, 1 Flarewing Bow, 6 Reaper Tooth, 10 Depth Cells @ MythrilAnvil → 1 | 6 Reaper Tooth, 1 Tsunami, 1 Flarewing Bow, 1 Catastrophe Clayscore, 2 Shark Fin, 10 Depth Cells, 10 Lumenyl, 5 Tenebris, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Monstrous Knives | 50 Throwing Knife, 1 Life Crystal, 5 Lesser Healing Potion @ Anvils → 1 | 200 Throwing Knife, 1 Life Crystal, 5 Lesser Healing Potion, 10 Parched Scale @ Anvils → 1 |
 | Moon Lord | 1 Moon Lord Trophy @ Bookcases → 1 | 1 Moon Lord Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Moonshine | (nouvelle) | 5 Everclear, 5 Blood Orb, 1 Beetle Husk @ AlchemyTable → 5 |
@@ -975,6 +980,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Star Beam Rye | (nouvelle) | 5 Margarita, 10 Blood Orb, 1 Aureus Cell @ AlchemyTable → 5 |
 | Star Beam Rye | 10 Bottle, 1 Star Fruit @ Kegs → 10 | 5 Margarita, 20 Hay, 2 Aureus Cell @ Kegs → 5 |
 | Star Cannon EX | (nouvelle) | 1 Super Star Shooter, 20 Fallen Star, 5 Aureus Cell @ MythrilAnvil → 1 |
+| Star of Destruction | 18 Meld Blob @ LunarCraftingStation → 1 | 1 Catastrophe Claycore, 10 Meld Bar @ LunarCraftingStation → 1 |
 | Star Struck Water | 10 Bottled Water, 2 Stardust, 1 Astral Grass Seeds @ main → 10 | 10 Bottled Honey, 1 Astral Sand, 1 Astral Monolith @ main → 10 |
 | Star Swallower Containment Unit | 8 Mysterious Circuitry, 4 Dubious Plating, 4 Aerialite Bar, 7 Sea Prism @ Anvils → 1 | 4 Dubious Plating @ Anvils → 1 |
 | Starcore | 8 Astral Bar, 8 Aureus Cell, 25 Stardust @ LunarCraftingStation → 1 | 50 Stardust, 12 Aureus Cell, 10 Solar Fragment, 10 Vortex Fragment, 10 Nebula Fragment, 10 Stardust Fragment @ LunarCraftingStation → 1 |
@@ -1115,6 +1121,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | The Perforators and their Hive | 1 Perforator Trophy @ Bookcases → 1 | 1 Perforator Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Plaguebringer Goliath | 1 Plaguebringer Goliath Trophy @ Bookcases → 1 | 1 Plaguebringer Goliath Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Prince | 1 Arch Amaryllis, 15 Divine Bar, 10 Unholy Essence @ MythrilAnvil → 1 | 1 Arch Amaryllis, 15 Divine Bar, 10 Unholy Essence, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
+| The Princess | (nouvelle) | 1 Arch Amaryllis, 15 Profaned Core, 10 Unholy Essence, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | The Profaned Guardians | 1 Profaned Guardian Trophy @ Bookcases → 1 | 1 Profaned Guardian Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Red Moon | 1 Bloody Tear, 3 Soul of Night @ Bookcases → 1 | 1 Lunatic Cultist Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Sentinels of the Devourer | 1 Ceaseless Void Trophy @ Bookcases → 1 | 1 Ceaseless Void Trophy, 10 Conquest Fragment @ Bookcases → 1 |
@@ -1184,6 +1191,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Vigorous Candle | (nouvelle) | 1 Peace Candle, 128 Essence of Sunlight, 277 Soul of Light @ CrystalBall → 1 |
 | Viral Sprout | 10 Perennial Bar @ MythrilAnvil → 1 | 12 Perennial Bar, 6 Chlorophyte Bar, 1 Pygmy Staff, 1 Venom Staff @ MythrilAnvil → 1 |
 | Viscera | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 4 Bloodstone Bar, 5 Unholy Blood Cells @ LunarCraftingStation → 1 |
+| Vivid Clarity | 1 Elemental Ray, 1 Phantasmal Fury, 1 Shadowbolt Staff, 1 Ultra Liquidator, 1 Miracle Matter @ DraedonsForge → 1 | 1 Elemental Ray, 1 Arch Amaryllis, 1 Thorn Blossom, 1 The Prince, 1 The Princess, 1 Asteroid Staff, 1 Ultra Liquidator, 1 Phantasmal Fury, 1 Shadowbolt Staff, 1 Hellwing Staff, 1 Helium Flash, 1 Venusian Trident, 20 Exoplasm, 1 Miracle Matter @ DraedonsForge → 1 |
 | Vodka | (nouvelle) | 5 Fluorescent Vodka, 30 Blood Orb, 5 Hallowed Ore @ AlchemyTable → 5 |
 | Vodka | 10 Bottle, 10 Purified Gel, 10 Stardust @ Kegs → 10 | 5 Fluorescent Vodka, 40 Hay, 5 Hallowed Ore @ Kegs → 5 |
 | Void Candelabra | 5 Smooth Voidstone, 3 Torch @ VoidCondenser → 1 | 5 Smooth Voidstone, 3 Lumenyl @ VoidCondenser → 1 |
@@ -1434,9 +1442,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Blazing Powder — 1
 - objet : Braxaxe — 1
 - objet : Catarachedrae — 1
-- objet : Catastrophe Claycore — 1
-- objet : Catastrophe Clayscore — 1
-- objet : Catastrophe Clayspore — 1
 - objet : Celestial Nuke — 1
 - objet : Chaotic Brick Wall — 1
 - objet : Cirnogenic Staff — 1
@@ -1494,7 +1499,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : The Generator — 1
 - objet : The Godfather — 1
 - objet : The King's Gambit — 1
-- objet : The Princess — 1
 - objet : Twisted Netherite Scythe — 1
 - objet : Unsealed Singularity — 1
 - objet : Violet Heart of Calamity — 1

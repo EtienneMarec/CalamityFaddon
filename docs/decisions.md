@@ -863,6 +863,20 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Blade : infobox prise). **[choix]** Orbe inspirée du projectile Flarefrost de Calamity (poussière, 3 s, tête
   chercheuse à 250 px), réduite à un élément.
 
+### The Princess (`Content/Items/Weapons/Magic/ThePrincess.cs`, 31/10)
+
+- Doublon du wiki de The Prince (arme de Calamity, page séparée) avec ses propres valeurs (166 dégâts, 12 mana, Turquoise,
+  24 or) et Moon Burnt en plus (3 s boule, 1 s flammes). **[choix]** Projectiles de The Prince réutilisés (comportement
+  identique à la page), marqués quand ils viennent de The Princess pour ajouter Moon Burnt.
+
+### Famille Catastrophe (`Content/Items/Weapons/CatastropheClayWeapons.cs`, 31/10)
+
+- **Catastrophe Clayscore** (arc), **Clayspore** (baguette), **Claycore** (bombe rogue) : tirent les éclairs d'énergie
+  de la Catastrophe Claymore portée (rouge, bleu ou jaune, mêmes debuffs), dans leur propre classe de dégâts.
+  **[choix]** Clayscore sans munition (infobox) ; Claycore non consommée (pile de 1), bombe soumise à la gravité qui
+  explose à l'impact en 3-4 éclairs (4-8 en frappe furtive) d'une même couleur, à 50 % des dégâts chacun (la page ne
+  donne pas de valeur). Claybore et Claysiphonophore (autres membres) : pas encore faits.
+
 ### Elemental Claymore (`Content/Items/Weapons/Melee/ElementalClaymore.cs`, 31/10)
 
 - Eon Beam d'une couleur au hasard (rose, vert, bleu, orange : invulnérabilité locale 6, 5, 4, 3 ticks), traverse 2

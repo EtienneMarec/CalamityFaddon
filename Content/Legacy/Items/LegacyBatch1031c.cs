@@ -171,6 +171,16 @@ namespace CalamityFandom.Content.Legacy.Projectiles.Melee
 
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) => target.AddBuff(Debuff, DebuffTicks);
 
+        // Même éclair pour toute la famille Catastrophe (Claymore, Claycore, Clayscore, Clayspore) : classe de dégâts de
+        // l'arme qui le tire, ou du projectile dont il sort (bombe de la Claycore)
+        public override void OnSpawn(IEntitySource source)
+        {
+            if (source is EntitySource_ItemUse use)
+                Projectile.DamageType = use.Item.DamageType;
+            else if (source is EntitySource_Parent { Entity: Projectile parent })
+                Projectile.DamageType = parent.DamageType;
+        }
+
         public override void OnKill(int timeLeft)
         {
             SoundEngine.PlaySound(SoundID.Item14, Projectile.position);

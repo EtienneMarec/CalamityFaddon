@@ -272,7 +272,8 @@ namespace CalamityFandom.Common.Debug
             foreach (int ported in new[] { ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.TerraEdge>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.LightningHawk>(), ModContent.ItemType<Content.Legacy.Items.Accessories.PlagueHive>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.Devastation>(), ModContent.ItemType<Content.Items.Tools.AstralHammer>(),
-                ModContent.ItemType<Content.Items.Weapons.Melee.FrostBlade>(), ModContent.ItemType<Content.Items.Weapons.Melee.ElementalClaymore>() })
+                ModContent.ItemType<Content.Items.Weapons.Melee.FrostBlade>(), ModContent.ItemType<Content.Items.Weapons.Melee.ElementalClaymore>(),
+                ModContent.ItemType<Content.Items.Weapons.Rogue.CatastropheClaycore>(), ModContent.ItemType<Content.Items.Weapons.Magic.ThePrincess>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
