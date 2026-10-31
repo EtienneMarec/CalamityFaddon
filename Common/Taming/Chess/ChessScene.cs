@@ -39,13 +39,13 @@ namespace CalamityFandom.Common.Taming.Chess
         /// <summary>Position de départ de chaque adversaire (par joueur), là où les PNJ sont gérés.</summary>
         private static readonly Dictionary<int, Vector2> opponentFrom = new();
 
-        /// <summary>Un joueur joue aux échecs face à un adversaire : le monde est figé.</summary>
+        /// <summary>Un joueur joue aux échecs face à un adversaire, ou fait le bras de fer avec l'Old Man : le monde est figé.</summary>
         public static bool Frozen
         {
             get
             {
                 foreach (var p in Main.ActivePlayers)
-                    if (!p.dead && p.GetModPlayer<ChessPlayer>().Open)
+                    if (!p.dead && (p.GetModPlayer<ChessPlayer>().Open || p.GetModPlayer<ChessPlayer>().Wrestling))
                         return true;
                 return false;
             }
@@ -282,6 +282,8 @@ namespace CalamityFandom.Common.Taming.Chess
     public class ChessPlayer : ModPlayer
     {
         public bool Open;
+        /// <summary>Bras de fer avec l'Old Man en cours (Skeletron) : le monde est figé aussi, sans mise en scène.</summary>
+        public bool Wrestling;
         /// <summary>Début de la mise en scène (Main.GameUpdateCount).</summary>
         public uint Start;
         /// <summary>Milieu du bas de la table.</summary>

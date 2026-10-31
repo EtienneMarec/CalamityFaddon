@@ -321,7 +321,7 @@ namespace CalamityFandom.Common.Taming
 
         // ---------- événements ----------
 
-        private enum Packet : byte { Progress, Hurt, Soothe, Tamed, Grave, Chess, Wrestle }
+        private enum Packet : byte { Progress, Hurt, Soothe, Tamed, Grave, Chess, Wrestle, Wrestling }
 
         /// <summary>Progrès vu par ce client (nourriture, chat, ruée...) : appliqué ici en solo, envoyé au serveur sinon.</summary>
         public static void Report(string key, float amount)
@@ -448,6 +448,18 @@ namespace CalamityFandom.Common.Taming
             NPC.SpawnSkeletron(player);
         }
 
+        /// <summary>[validé 31/10] Bras de fer en cours : le monde est figé comme pendant une partie d'échecs.</summary>
+        public static void ReportWrestling(bool on)
+        {
+            Terraria.Main.LocalPlayer.GetModPlayer<Chess.ChessPlayer>().Wrestling = on;
+            if (Terraria.Main.netMode != NetmodeID.MultiplayerClient)
+                return;
+            var p = ModContent.GetInstance<CalamityFandom>().GetPacket();
+            p.Write((byte)Packet.Wrestling);
+            p.Write(on);
+            p.Send();
+        }
+
         /// <summary>
         /// Le joueur commence ou finit une partie d'échecs face à un PNJ, à la table posée en <paramref name="table"/> :
         /// le monde est figé pendant la partie, et tous les joueurs doivent le savoir (Chess/ChessScene.cs).
@@ -521,6 +533,20 @@ namespace CalamityFandom.Common.Taming
                 case Packet.Wrestle:
                     if (Terraria.Main.netMode == NetmodeID.Server)
                         ArmWrestleWon(whoAmI);
+                    break;
+                case Packet.Wrestling:
+                    // Client -> serveur : (en cours) ; serveur -> autres clients : + joueur
+                    bool wrestling = reader.ReadBoolean();
+                    int wrestler = Terraria.Main.netMode == NetmodeID.Server ? whoAmI : reader.ReadByte();
+                    Terraria.Main.player[wrestler].GetModPlayer<Chess.ChessPlayer>().Wrestling = wrestling;
+                    if (Terraria.Main.netMode == NetmodeID.Server)
+                    {
+                        var forward = ModContent.GetInstance<CalamityFandom>().GetPacket();
+                        forward.Write((byte)Packet.Wrestling);
+                        forward.Write(wrestling);
+                        forward.Write((byte)wrestler);
+                        forward.Send(-1, wrestler);
+                    }
                     break;
                 case Packet.Chess:
                     // Client -> serveur : (ouvert, table, avance, adversaire, recul) ; serveur -> autres clients : + joueur

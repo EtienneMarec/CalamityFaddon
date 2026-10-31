@@ -463,6 +463,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Robe du jeu de base (aussi lâchées par les Eidolists d'après le wiki), en armure ou en apparence. **[choix]** Passer
   entre les deux Lunatic Devotees (horizontalement, à 10 blocs de hauteur au plus) fait apparaître le Lunatic Cultist
   au-dessus d'eux, apprivoisé aussitôt : les piliers arrivent comme après une victoire.
+- **[validé 31/10]** **Bras de fer (Skeletron)** : tout est figé pendant le bras de fer, comme aux échecs (joueurs,
+  ennemis, projectiles, apparitions) ; un coup raté fait reculer de 3 (**[choix]** 3 dans les « -3/4 » demandés). Le monde
+  repart dès le résultat (affiché encore 1,5 s).
 - **Échecs** (Brain of Cthulhu, XP-00 Hypnos) : **[validé 31/10]** le **Holographic Chessboard** (sans page) lance des
   problèmes : 3 à réussir, tirés au hasard ; mats en un contre le Brain of Cthulhu, mats en deux (plus durs) contre
   Hypnos (boss à créer). **[choix]** 45 problèmes de chaque sorte, générés par `tools/chess_puzzles` (positions tirées

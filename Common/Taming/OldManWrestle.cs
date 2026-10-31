@@ -69,12 +69,13 @@ namespace CalamityFandom.Common.Taming
     /// Bras de fer (idée de l'utilisateur, validée le 31/10) : un cran fait des allers-retours sur une barre ; cliquer (ou
     /// Espace) quand il est dans la zone fait avancer le bras de fer de 5, de 10 dans la zone ×2 (deux fois plus étroite,
     /// au milieu). L'Old Man tire de 1 toutes les demi-secondes. Gagné à +50, perdu à -50.
-    /// [choix] Après un coup, 1/3 s sans pouvoir recliquer (sinon cliquer en continu gagne à coup sûr) ; un coup raté ne
-    /// coûte rien d'autre ; après chaque coup réussi, la zone change de place et le cran accélère de 5 % (jusqu'à ×2).
+    /// [choix] Après un coup, 1/3 s sans pouvoir recliquer (sinon cliquer en continu gagne à coup sûr) ; après chaque coup
+    /// réussi, la zone change de place et le cran accélère de 5 % (jusqu'à ×2). [validé 31/10] Un coup raté fait reculer de
+    /// 3 ([choix] dans les 3-4 demandés) ; tout est figé pendant le bras de fer, comme aux échecs.
     /// </summary>
     public class WrestleSession
     {
-        public const int Goal = 50, OldManPull = 1, PullTicks = 30, Hit = 5, DoubleHit = 10, Cooldown = 20;
+        public const int Goal = 50, OldManPull = 1, PullTicks = 30, Hit = 5, DoubleHit = 10, Miss = 3, Cooldown = 20;
         public const float ZoneHalf = 0.1f, BaseSpeed = 1f / 60f;
 
         public int Meter;
@@ -113,8 +114,10 @@ namespace CalamityFandom.Common.Taming
             int gain = distance <= ZoneHalf / 2f ? DoubleHit : distance <= ZoneHalf ? Hit : 0;
             if (gain == 0)
             {
+                Meter -= Miss;
                 Flash = 15;
-                FlashColor = Color.Gray;
+                FlashColor = Color.Red;
+                SoundEngine.PlaySound(SoundID.Tink);
                 return;
             }
             Meter += gain;
@@ -129,17 +132,36 @@ namespace CalamityFandom.Common.Taming
     [Autoload(Side = ModSide.Client)]
     public class WrestleUISystem : ModSystem
     {
-        public static WrestleSession Session { get; private set; }
+        private static WrestleSession session;
+
+        /// <summary>Partie en cours ; l'ouvrir ou la fermer fige ou relance le monde (TamingSystem.ReportWrestling).</summary>
+        public static WrestleSession Session
+        {
+            get => session;
+            private set
+            {
+                if ((session == null) != (value == null))
+                    TamingSystem.ReportWrestling(value != null);
+                session = value;
+            }
+        }
         private static int endTimer;
+        private static bool mouseWasDown;
         private const int PanelWidth = 440, PanelHeight = 150;
 
         public static void Open()
         {
             Session = new WrestleSession();
             endTimer = 0;
+            // Le clic sur le bouton « Arm Wrestle » ne compte pas comme un premier coup
+            mouseWasDown = true;
         }
 
-        public override void OnWorldUnload() => Session = null;
+        public override void OnWorldUnload()
+        {
+            session = null;
+            Main.LocalPlayer.GetModPlayer<Chess.ChessPlayer>().Wrestling = false;
+        }
 
         public override void UpdateUI(GameTime gameTime)
         {
@@ -158,12 +180,18 @@ namespace CalamityFandom.Common.Taming
                     Session = null;
                 return;
             }
-            bool click = Main.mouseLeft && Main.mouseLeftRelease
+            // [validé 31/10] Clic gauche ou Espace : on repère nous-mêmes le moment où le bouton s'enfonce (mouseLeftRelease
+            // est déjà remis à faux quand l'interface se met à jour, le clic ne passait pas)
+            bool mouse = Main.mouseLeft;
+            bool click = mouse && !mouseWasDown
                 || Main.keyState.IsKeyDown(Keys.Space) && !Main.oldKeyState.IsKeyDown(Keys.Space);
+            mouseWasDown = mouse;
             s.Update(click);
             if (s.Result == 0)
                 return;
             endTimer = 90;
+            // Le résultat s'affiche encore 1,5 s, mais le monde repart tout de suite (Skeletron apparaît et repart)
+            TamingSystem.ReportWrestling(false);
             if (s.Result > 0)
             {
                 SoundEngine.PlaySound(SoundID.Item4);
