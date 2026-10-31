@@ -532,6 +532,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       fabriquent d'après le wiki ; Magnum / Lightning Hawk : avec un boss, 3 tirs puis plus rien jusqu'à sa défaite ;
       Magnum Rounds chez l'Arms Dealer avec un des pistolets ; Plague Hive : abeilles quand on est touché, ennemis
       proches infectés de Plague
+      ; Catastrophe Claymore (éclairs rouges, bleus ou jaunes qui explosent) et Devastation (décharges qui tombent du
+      ciel vers le curseur)
 - [ ] (31/10) **Porpoise Pistol** (Dolphins en Hardmode, ou Cheat Sheet) : trait bleu qui rebondit 3 fois et traverse
       2 ennemis, sans munition ; **The Food Chain** (Colossal Squid) : fouet ; chaque coup donne Well Fed 10 s
 - [ ] (31/10) **Ensemble War** (armée gobeline, ou Cheat Sheet) : Warbow (les Wooden Arrows deviennent des War Arrows,

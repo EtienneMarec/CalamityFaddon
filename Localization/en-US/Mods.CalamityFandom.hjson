@@ -74,6 +74,16 @@ Items: {
 			'''
 	}
 
+	CatastropheClaymore: {
+		DisplayName: Catastrophe Claymore
+		Tooltip: Fires explosive energy bolts
+	}
+
+	Devastation: {
+		DisplayName: Devastation
+		Tooltip: Fires galaxy blasts that explode
+	}
+
 	PorpoisePistol: {
 		DisplayName: Porpoise Pistol
 		Tooltip: Fires a blue energy blast that bounces
@@ -1163,6 +1173,12 @@ Projectiles: {
 	BloodyBlade.DisplayName: Bloody Blade
 	TerraEdgeBeam.DisplayName: Terra Edge Beam
 	MagnumRound.DisplayName: Magnum Round
+	CalamityAura.DisplayName: Energy Bolt
+	CalamityAuraType2.DisplayName: Energy Bolt
+	CalamityAuraType3.DisplayName: Energy Bolt
+	GalaxyBlast.DisplayName: Galaxy Blast
+	GalaxyBlastType2.DisplayName: Galaxy Blast
+	GalaxyBlastType3.DisplayName: Galaxy Blast
 	TheFoodChainProj.DisplayName: The Food Chain
 	WarStaffBall.DisplayName: Gray Energy
 	WarglaiveProj.DisplayName: Warglaive

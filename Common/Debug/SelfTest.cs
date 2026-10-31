@@ -270,7 +270,8 @@ namespace CalamityFandom.Common.Debug
             Expect(ModContent.NPCType<Content.NPCs.Perforators.EstrangedSonHead>() > 0, "Taming : Estranged Son");
             // Portages du 31/10 : leurs recettes du wiki s'appliquent (Terra Edge, Lightning Hawk, Plague Hive)
             foreach (int ported in new[] { ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.TerraEdge>(),
-                ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.LightningHawk>(), ModContent.ItemType<Content.Legacy.Items.Accessories.PlagueHive>() })
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.LightningHawk>(), ModContent.ItemType<Content.Legacy.Items.Accessories.PlagueHive>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.Devastation>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

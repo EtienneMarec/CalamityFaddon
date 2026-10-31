@@ -809,7 +809,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   de Calamity (celui de l'Alchemical Decanter) ; abeilles quand on est touché (Hive Pack) ; aura de 40 blocs de diamètre
   qui inflige Plague (« 20 damage per tick » lu comme les dégâts de Plague, posée toutes les demi-secondes) ; immunité
   à Plague du code de 2022 gardée.
-- Laissés de côté : Holiday Halberd (page « historique »), Devastation et Alpha Virus (portables, plus gros : à faire).
+- **[choix]** **Catastrophe Claymore → Devastation** (`LegacyBatch1031c.cs`) : éclairs d'énergie (Claymore) et décharges
+  galactiques (Devastation : une depuis la lame, 4 salves de trois depuis le ciel à moitié des dégâts), invisibles
+  (poussière), debuffs et durées des infobox ; usages 22 et 23 du wiki (23 et 24 dans le code).
+- Laissés de côté : Holiday Halberd (page « historique »), Alpha Virus (demande le Bloodstone Core, fusion de Calamity
+  laissée à part par l'utilisateur).
 
 ### Armored Digger et Draedon's Remote (`Content/Legacy/`, 31/10, pour le Taming d'Astrum Aureus)
 

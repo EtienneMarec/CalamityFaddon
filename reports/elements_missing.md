@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (392)
+## Objets (390)
 
 - A M S
 - AAMG "Disperse"
@@ -208,7 +208,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Catarachedrae
 - Catastrophe Claybore
 - Catastrophe Claycore
-- Catastrophe Claymore
 - Catastrophe Clayscore
 - Catastrophe Claysiphonophore
 - Catastrophe Clayspore
@@ -253,7 +252,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Demon Core
 - Destinary
 - Dethermination
-- Devastation
 - Devious Aestheticus
 - Digital Cheese Spear
 - Dissfusion Disk

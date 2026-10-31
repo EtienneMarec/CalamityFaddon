@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1138 objets dont les recettes ont changé : 972 recettes modifiées, 235 créées
+- 1141 objets dont les recettes ont changé : 973 recettes modifiées, 237 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 104 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 125 recettes
+- 103 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 124 recettes
 
 ## Recettes changées
 
@@ -239,6 +239,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Caribbean Rum | (nouvelle) | 5 Vodka, 20 Blood Orb, 1 Living Shard @ AlchemyTable → 5 |
 | Caribbean Rum | 20 Bottle, 1 Ice Feather @ Kegs → 20 | 5 Vodka, 20 Bamboo, 1 Living Shard @ Kegs → 5 |
 | Carnage Ray | (nouvelle) | 1 Crimson Rod, 1 Wand of Sparking, 1 Amber Staff, 1 Magic Missile, 15 Blood Sample, 10 Purified Gel @ DemonAltar → 1 |
+| Catastrophe Claymore | (nouvelle) | 12 Catastrophe Clay Ore, 3 Soul Flux, 6 Essential Essence Bar @ MythrilAnvil → 1 |
 | Caustic Edge | 10 Acidwood, 8 Shadow Scale or Tissue Sample, 2 Deathweed @ Anvils → 1 | 10 Acidwood, 8 Any Evil Flesh, 2 Deathweed, 1 Lava Bucket @ DemonAltar → 1 |
 | Caustic Staff | 10 Any Evil Bar, 10 Cursed Flame or Ichor, 10 Soul of Night @ DemonAltar → 1 | 5 Any Evil Flask, 2 Deathweed, 10 Soul of Night, 10 Any Evil Bar @ DemonAltar → 1 |
 | Caustic Tear | 1 Sulphuric Scale @ main + eau → 1 | 5 Water Bucket @ main + eau → 1 |
@@ -339,6 +340,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Desert Prowler Hat | 2 Stormlion Mandible, 8 Silk @ Loom → 1 | 2 Desert Feather, 8 Silk @ Loom → 1 |
 | Desert Prowler Pants | 1 Stormlion Mandible, 5 Silk @ Loom → 1 | 1 Desert Feather, 5 Silk @ Loom → 1 |
 | Desert Prowler Shirt | 3 Stormlion Mandible, 10 Silk @ Loom → 1 | 3 Desert Feather, 10 Silk @ Loom → 1 |
+| Devastation | (nouvelle) | 1 Catastrophe Claymore, 5 Luminite Bar, 10 Astral Bar, 10 Meteorite Bar @ LunarCraftingStation → 1 |
+| Devil's Devastation | 1 True Forbidden Oathblade, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Devastation, 1 True Forbidden Oathblade, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 |
 | Devil's Sunrise | 1 Terragrim, 50 Bloodstone, 10 Scorched Bone @ MythrilAnvil → 1 | 1 Terragrim, 10 Demonic Bone Ash, 25 Bloodstone Bar @ LunarCraftingStation → 1 |
 | Dimensional Soul Artifact | 10 Cosmilite Bar, 25 Elumplate, 25 Exodium Cluster @ CosmicAnvil → 1 | 10 Soul Flux, 25 Elumplate, 5 Cosmilite Slag, 25 Exodium Cluster @ DemonAltar → 1 |
 | Disgusting Meat | (nouvelle) | 1 Bloody Vein, 5000 Delicious Meat @ Bottles → 5000 |
@@ -1429,7 +1432,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Dark Energy Staff — 1
 - objet : Deck of Souls — 1
 - objet : Demon Core — 1
-- objet : Devastation — 1
 - objet : Divine Core — 1
 - objet : Divine Intervention — 1
 - objet : Dual Cane — 1

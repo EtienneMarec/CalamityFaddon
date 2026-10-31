@@ -63,7 +63,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Caliburn
 - [x] Carnage Ray
 - [ ] Catastrophe Claycore
-- [ ] Catastrophe Claymore
+- [x] Catastrophe Claymore
 - [ ] Catastrophe Clayscore
 - [ ] Catastrophe Claysiphonophore
 - [ ] Catastrophe Clayspore
@@ -120,7 +120,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Demon Core — addon: Calamity: Community Remix
 - [ ] Demonic Pitchfork
 - [ ] Dethermination — addon: Calamity: Tales of the Aquatic
-- [ ] Devastation
+- [x] Devastation
 - [ ] Devious Aestheticus — addon: Fargo's Soul Mod
 - [ ] Digital Cheese Spear — addon: Calamity: Community Remix
 - [ ] Diminishing Victory
