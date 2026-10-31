@@ -795,6 +795,22 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[à trancher]** Plague Hive : demande Alchemical Flask, que Calamity a remplacé par l'Alchemical Decanter
   (`[LegacyName]`) ; dépend de la décision sur les remplacements `[LegacyName]` (section 2).
 
+### Portages du 31/10 (`Content/Legacy/Items/LegacyBatch1031b.cs`) : objets qui débloquent des recettes du wiki
+
+- **[choix]** **Bloody Edge → True Bloody Edge → Terra Edge**, **Magnum → Lightning Hawk** (+ Magnum Rounds) et
+  **Plague Hive** (l'Alchemical Flask dont il dépend est porté depuis le 30/10). Pages actuelles, recettes du wiki.
+  Valeurs des pages : Bloody Edge soigne 2-3 PV à 50 % (le code : à chaque coup) ; True Bloody Edge 1-6 PV à 50 %
+  (le code : 3-5) ; Terra Edge 2-3 PV à chaque coup, rayon à 75 % ; usages 22/19/16 du wiki.
+- **[technique]** Magnum et Lightning Hawk : armes sans classe, 3 tirs par combat de boss (compteur de Calamity
+  `timesUsed` disparu : refait sur l'objet, partagé par les exemplaires du même pistolet), coups critiques fixes 46 % et
+  56 % sans bonus (page), +1,33 % des PV max de la cible par balle ; son du revolver du jeu (celui de Calamity a
+  disparu). Magnum Rounds vendues par l'Arms Dealer quand on a l'un des deux pistolets (page).
+- **[choix]** Plague Hive : effets de la page ; attaques qui infligent Plague et Plague Seekers par l'effet `alchFlask`
+  de Calamity (celui de l'Alchemical Decanter) ; abeilles quand on est touché (Hive Pack) ; aura de 40 blocs de diamètre
+  qui inflige Plague (« 20 damage per tick » lu comme les dégâts de Plague, posée toutes les demi-secondes) ; immunité
+  à Plague du code de 2022 gardée.
+- Laissés de côté : Holiday Halberd (page « historique »), Devastation et Alpha Virus (portables, plus gros : à faire).
+
 ### Armored Digger et Draedon's Remote (`Content/Legacy/`, 31/10, pour le Taming d'Astrum Aureus)
 
 - **[choix]** **Armored Digger** porté (retiré de Calamity en 2022, code de 3ec8f553ed) : ver de 30 segments, mini-boss

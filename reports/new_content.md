@@ -46,7 +46,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Blobfish Plushie — addon: Calamity: Community Remix
 - [x] Blood Clot Staff
 - [ ] Bloodinator 1 — pas de sprite
-- [ ] Bloody Edge
+- [x] Bloody Edge
 - [x] Bloody Rupture
 - [x] Blow Pipe
 - [ ] Bolide Launcher — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
@@ -237,12 +237,12 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Lead Wizard
 - [x] Leeching Dagger
 - [ ] Li'l Mine — addon: Calamity: Community Remix
-- [ ] Lightning Hawk
+- [x] Lightning Hawk
 - [x] Luminous Striker
 - [ ] Lunatic Beats — addon: Calamity: Community Remix
 - [ ] Magna Striker
 - [ ] Magnic Circularity — addon: Calamity: Tales of the Aquatic
-- [ ] Magnum
+- [x] Magnum
 - [ ] Majestic Gar
 - [ ] Mambel-Jambo
 - [x] Mandible Bow
@@ -387,7 +387,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Tendon Tides — addon: Catalyst
 - [ ] Tenebris Tides — addon: Catalyst
 - [ ] Terra Bow
-- [ ] Terra Edge
+- [x] Terra Edge
 - [x] Terra Shiv
 - [x] Terra-cotta
 - [ ] Terreye Staff — addon: Calamity: Community Remix
@@ -419,7 +419,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Trash of Magnus
 - [x] Trinity
 - [x] Triploon
-- [ ] True Bloody Edge
+- [x] True Bloody Edge
 - [x] True Caliburn
 - [x] True Night's Stabber
 - [ ] Twentloon
@@ -699,7 +699,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Palladium Light Circuit — addon: Calamity: Tales of the Aquatic
 - [ ] Phantasmal Rune — addon: Calamity: Tales of the Aquatic
 - [x] Plague Balloon
-- [ ] Plague Hive
+- [x] Plague Hive
 - [ ] Polypebral Shield
 - [ ] Prehistoric Tablet
 - [x] Psychotic Amulet
@@ -1323,7 +1323,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Grenade Shells
 - [ ] Jellyfish Cannonball
 - [ ] Klepticoin — addon: Calamity: Community Remix
-- [ ] Magnum Rounds
+- [x] Magnum Rounds
 - [ ] Miracle Coin — addon: Calamity: Tales of the Aquatic
 - [ ] Nighterrial Dart — addon: Calamity: Tales of the Aquatic
 - [ ] Profaned Crystal Dart — addon: Calamity: Tales of the Aquatic

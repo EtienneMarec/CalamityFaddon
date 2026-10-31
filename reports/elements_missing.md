@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (398)
+## Objets (392)
 
 - A M S
 - AAMG "Disperse"
@@ -194,7 +194,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Blobfish Plushie
 - Blood Element
 - Bloodinator 1
-- Bloody Edge
 - Bolide Launcher
 - Bouncy Spiky Ball
 - Braxaxe
@@ -361,12 +360,10 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Lacescent Pistol
 - Large Father
 - Li'l Mine
-- Lightning Hawk
 - Lithos Pickaxe
 - Lunatic Beats
 - Magna Striker
 - Magnic Circularity
-- Magnum
 - Majestic Gar
 - Mambel-Jambo
 - Megaskeet
@@ -407,7 +404,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Pine's Penetrator
 - Pizza Wheel
 - Plague Caller MK III
-- Plague Hive
 - Plague Keeper
 - Plaguecom Tablet
 - Plagued Minecart
@@ -488,7 +484,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Tendon Tides
 - Tenebris Tides
 - Terra Bow
-- Terra Edge
 - Terrestrial Dart
 - Terreye Staff
 - Terriblade
@@ -512,7 +507,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Thunder Bolt
 - Titan Tides
 - Totality Tides
-- True Bloody Edge
 - Twentloon
 - Twenty-Twloon
 - Twin Cranes

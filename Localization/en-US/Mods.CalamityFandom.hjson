@@ -13,6 +13,67 @@ Items: {
 			'''
 	}
 
+	BloodyEdge: {
+		DisplayName: Bloody Edge
+		Tooltip:
+			'''
+			Chance to heal the player on enemy hits
+			Inflicts Burning Blood
+			'''
+	}
+
+	TrueBloodyEdge: {
+		DisplayName: True Bloody Edge
+		Tooltip:
+			'''
+			Chance to heal the player on enemy hits
+			Inflicts Burning Blood
+			Fires a bloody blade
+			'''
+	}
+
+	TerraEdge: {
+		DisplayName: Terra Edge
+		Tooltip:
+			'''
+			Heals the player on enemy hits
+			Fires a beam that inflicts ichor for a short time
+			'''
+	}
+
+	Magnum: {
+		DisplayName: Magnum
+		Tooltip:
+			'''
+			Uses Magnum Rounds
+			Can be used thrice per boss battle
+			'''
+	}
+
+	LightningHawk: {
+		DisplayName: Lightning Hawk
+		Tooltip:
+			'''
+			Uses Magnum Rounds
+			Can be used thrice per boss battle
+			'''
+	}
+
+	MagnumRounds: {
+		DisplayName: Magnum Rounds
+		Tooltip: ""
+	}
+
+	PlagueHive: {
+		DisplayName: Plague Hive
+		Tooltip:
+			'''
+			All attacks inflict the Plague debuff
+			Releases bees when damaged that inflict the Plague
+			Projectiles spawn plague seekers on enemy hits
+			'''
+	}
+
 	PorpoisePistol: {
 		DisplayName: Porpoise Pistol
 		Tooltip: Fires a blue energy blast that bounces
@@ -1099,6 +1160,9 @@ Projectiles: {
 	SlimePuppetBall.DisplayName: Slime Ball
 	WarArrowProj.DisplayName: War Arrow
 	ProporseBolt.DisplayName: Proporse Bolt
+	BloodyBlade.DisplayName: Bloody Blade
+	TerraEdgeBeam.DisplayName: Terra Edge Beam
+	MagnumRound.DisplayName: Magnum Round
 	TheFoodChainProj.DisplayName: The Food Chain
 	WarStaffBall.DisplayName: Gray Energy
 	WarglaiveProj.DisplayName: Warglaive
@@ -1592,3 +1656,4 @@ Taming: {
 }
 
 Conditions.DraedonsRemote: Summoned with Draedon's Remote
+Conditions.HasMagnum: When you carry a Magnum or a Lightning Hawk

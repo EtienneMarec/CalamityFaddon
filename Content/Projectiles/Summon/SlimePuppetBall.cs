@@ -12,7 +12,7 @@ using Terraria.ModLoader;
 namespace CalamityFandom.Content.Projectiles.Summon
 {
     /// <summary>
-    /// Wiki : Slime Puppet Staff.txt — en Full Fandom ([choix] 31/10, Calamity++ garde l'arme de Calamity) : « Summons a
+    /// Rework de la page « Slime Puppet Staff » (objet de Calamity) en Full Fandom ([choix] 31/10, Calamity++ garde l'arme de Calamity) : « Summons a
     /// slime ball that follows your cursor. Slime balls will connect to eachother when close ». Bouton maintenu : la boule
     /// suit le curseur (comme le Magic Missile) ; relâché : elle se fige. 10 boules au plus (la plus ancienne disparaît),
     /// sans emplacement de sbire. Les boules figées à environ 2,5 blocs l'une de l'autre sont reliées ; boules et liens
