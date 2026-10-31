@@ -320,7 +320,8 @@ namespace CalamityFandom.Common.Debug
             // Difficulté du Taming (31/10) : Calamity++ plus dur, Full Fandom et Minimal comme la page
             bool plus = FandomMode.IsPlus;
             Expect(Common.Taming.TamingSystem.Get("The Destroyer").Goal == (plus ? 8 : 5) && Common.Taming.TamingSystem.Get("Skeletron").Goal == (plus ? 3 : 1)
-                && Common.Taming.TamingSystem.Get("Crabulon").Calm == (plus ? 3600 : 0) && Common.Taming.TamingSystem.TaxGap == (plus ? 60 : 0),
+                && Common.Taming.TamingSystem.Get("Crabulon").Calm == (plus ? 3600 : 0) && Common.Taming.TamingSystem.TaxGap == (plus ? 60 : 0)
+                && Common.Taming.TamingBees.Goal == (plus ? 40 : 100) && Common.Taming.TamingBees.HiveOnly == plus,
                 "Taming : difficulté de Calamity++ (Destroyer 8, Skeletron 3 mini-jeux, calme de Crabulon, taxes espacées)");
             Expect(tames.Count == 42 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),

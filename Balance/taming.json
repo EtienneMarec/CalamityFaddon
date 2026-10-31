@@ -1,5 +1,5 @@
 {
-  "_doc": "Équilibrage Calamity++ du Taming (décision du 31/10) : objectifs des méthodes, dans l'unité de chaque méthode (King Slime : ticks passés Slimed, 3 min au lieu des 5 de la page). hungaryDelight : le Traveling Merchant donne un Yharic Delight à qui lui dit exactement « Yo, I'm Hungary !! » (Taming de Crabulon plus tôt, 31/10). eaterDistinctFoods : l'Eater of Worlds demande 3 aliments différents (31/10). Difficulté (31/10) : goals (Desert Scourge 40 s et Cryogen 20 s cumulées, Skeletron Prime 2 min, Destroyer 8 ruées, Astrum Deus 3 étoiles, Brain 5 problèmes, Quartet 3 taxes) ; calm : calme final en secondes ; chessMateInTwo : derniers problèmes en mats en deux ; chessMissPenalty : problèmes perdus par mauvais coup ; taxGap : secondes entre deux taxes ; wallGuideDelay : secondes sans retour du Guide ; brimstoneTownCheck : secondes entre deux arrivées de PNJ. Skeletron : 3 mini-jeux (bras de fer, bonneteau, Simon), skeletronFightGap secondes de combat entre chacun.",
+  "_doc": "Équilibrage Calamity++ du Taming (décision du 31/10) : objectifs des méthodes, dans l'unité de chaque méthode (King Slime : ticks passés Slimed, 3 min au lieu des 5 de la page). hungaryDelight : le Traveling Merchant donne un Yharic Delight à qui lui dit exactement « Yo, I'm Hungary !! » (Taming de Crabulon plus tôt, 31/10). eaterDistinctFoods : l'Eater of Worlds demande 3 aliments différents (31/10). Difficulté (31/10) : goals (Desert Scourge 40 s et Cryogen 20 s cumulées, Skeletron Prime 2 min, Destroyer 8 ruées, Astrum Deus 3 étoiles, Brain 5 problèmes, Quartet 3 taxes) ; calm : calme final en secondes ; chessMateInTwo : derniers problèmes en mats en deux ; chessMissPenalty : problèmes perdus par mauvais coup ; taxGap : secondes entre deux taxes ; wallGuideDelay : secondes sans retour du Guide ; brimstoneTownCheck : secondes entre deux arrivées de PNJ. Skeletron : 3 mini-jeux (bras de fer, bonneteau, Simon), skeletronFightGap secondes de combat entre chacun. Queen Bee : queenBeeGoal abeilles en même temps, seulement celles des ruches (queenBeeHiveOnly), que les outils ne blessent pas.",
   "goals": {
     "King Slime": 10800,
     "Desert Scourge": 2400,
@@ -25,5 +25,7 @@
   "taxGap": 60,
   "wallGuideDelay": 180,
   "brimstoneTownCheck": 30,
-  "skeletronFightGap": 30
+  "skeletronFightGap": 30,
+  "queenBeeGoal": 40,
+  "queenBeeHiveOnly": true
 }

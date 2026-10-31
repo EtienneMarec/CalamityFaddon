@@ -388,8 +388,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
     marqués « garder ».
   - **Twins** (question de l'utilisateur) : il faut être tourné vers chaque jumeau, ligne de vue dégagée, 1 min chacun en
     même temps ; plus d'1 s hors de vue remet son compte à zéro.
-  - **Queen Bee** : seulement les petites abeilles des ruches, pas celles du joueur (Beenade, Bee Gun...) : en attente
-    (voir la question posée : hors combat, seules les ruches suspendues qu'on fait tomber en libèrent, 2 à 5 chacune).
+  - **Queen Bee** : **40** abeilles en même temps, seulement les petites abeilles des ruches : blocs de ruche cassés (le
+    jeu en libère 1 ou 2 une fois sur deux, quand le bloc ne se change pas en miel ; l'utilisateur avait raison, Claude
+    l'avait raté) et ruches suspendues qui tombent (2 à 5). Ni celles du joueur (Beenade, Bee Gun...), ni celles de la
+    Queen Bee. Les outils (pioches, haches, marteaux, foreuses) ne blessent pas ces abeilles, sinon on les tue en creusant.
 - **Méthodes testées et validées en jeu par l'utilisateur** (31/10, dans l'ordre de ses tests) : King Slime, Desert
   Scourge, Eye of Cthulhu, Crabulon, Eater of Worlds, Brain of Cthulhu, The Hive Mind (« Place 100 books during the
   fight »), The Perforators, Queen Bee.

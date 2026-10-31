@@ -1,5 +1,6 @@
 using Microsoft.Xna.Framework;
 using Terraria;
+using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -10,10 +11,16 @@ namespace CalamityFandom.Common.Taming
     /// Queen Bee : « Bring 100 bees into a hive biome. Upon doing so, Queen Bee will spawn, and will instantly be tamed ».
     /// [validé 31/10] Comptent les petites abeilles ennemies et celles du joueur (Bee Gun, Beenade, Bee's Knees, Hive
     /// Pack...). [choix] 100 abeilles en même temps à moins de 100 blocs d'un joueur qui est dans une ruche (ZoneHive).
+    /// [validé 31/10] Calamity++ (Balance/taming.json) : 40 abeilles, et seulement les petites abeilles libérées par les blocs
+    /// de ruche cassés et les ruches suspendues qui tombent (ni celles du joueur, ni celles de la Queen Bee) ; les outils
+    /// (pioches, haches, marteaux, foreuses) ne les blessent pas, sinon on les tue en creusant.
     /// </summary>
     public static class TamingBees
     {
-        public const int Goal = 100;
+        /// <summary>Abeilles à réunir : 100 d'après la page ; Calamity++ : 40.</summary>
+        public static int Goal = 100;
+        /// <summary>Calamity++ : seulement les abeilles des ruches (blocs et ruches suspendues).</summary>
+        public static bool HiveOnly;
         public const string Key = "Queen Bee";
         private const float Range = 1600f;
 
@@ -32,13 +39,45 @@ namespace CalamityFandom.Common.Taming
                 return 0;
             int count = 0;
             foreach (var n in Main.ActiveNPCs)
-                if (n.type is NPCID.Bee or NPCID.BeeSmall && n.WithinRange(player.Center, Range))
+                if (n.type is NPCID.Bee or NPCID.BeeSmall && n.WithinRange(player.Center, Range) && (!HiveOnly || n.GetGlobalNPC<HiveBee>().FromHive))
                     count++;
-            foreach (var p in Main.ActiveProjectiles)
-                if (IsBee(p) && p.WithinRange(player.Center, Range))
-                    count++;
+            if (!HiveOnly)
+                foreach (var p in Main.ActiveProjectiles)
+                    if (IsBee(p) && p.WithinRange(player.Center, Range))
+                        count++;
             return count;
         }
+    }
+
+    /// <summary>
+    /// Petite abeille ennemie sortie d'une ruche : d'un bloc de ruche cassé (le jeu en libère 1 ou 2 une fois sur deux, quand
+    /// le bloc ne se change pas en miel) ou d'une ruche suspendue qui tombe (2 à 5). Les outils ne la blessent pas.
+    /// </summary>
+    public class HiveBee : GlobalNPC
+    {
+        public bool FromHive;
+
+        public override bool InstancePerEntity => true;
+
+        public override bool AppliesToEntity(NPC entity, bool lateInstantiation) => entity.type is NPCID.Bee or NPCID.BeeSmall;
+
+        public override void OnSpawn(NPC npc, IEntitySource source) =>
+            FromHive = source is EntitySource_TileBreak || source is EntitySource_Parent { Entity: Projectile { type: ProjectileID.BeeHive } };
+
+        public override void SendExtraAI(NPC npc, Terraria.ModLoader.IO.BitWriter bitWriter, System.IO.BinaryWriter binaryWriter) =>
+            bitWriter.WriteBit(FromHive);
+
+        public override void ReceiveExtraAI(NPC npc, Terraria.ModLoader.IO.BitReader bitReader, System.IO.BinaryReader binaryReader) =>
+            FromHive = bitReader.ReadBit();
+
+        private static bool IsTool(Item item) => item.pick > 0 || item.axe > 0 || item.hammer > 0;
+
+        public override bool? CanBeHitByItem(NPC npc, Player player, Item item) =>
+            TamingBees.HiveOnly && FromHive && IsTool(item) ? false : null;
+
+        // Foreuses et tronçonneuses : projectiles tenus de l'outil
+        public override bool? CanBeHitByProjectile(NPC npc, Projectile projectile) =>
+            TamingBees.HiveOnly && FromHive && projectile.aiStyle == ProjAIStyleID.Drill ? false : null;
     }
 
     /// <summary>

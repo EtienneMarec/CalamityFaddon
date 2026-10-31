@@ -619,7 +619,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Desert Scourge 40 s à la plage, Cryogen 20 s, Prime 2 min, Destroyer 8 ruées, Astrum Deus 3 étoiles. Brain : 5
       problèmes (les 2 derniers en deux coups), une erreur en retire un. Wall of Flesh : pas de Guide pendant 3 min.
       Brimstone Elemental : un PNJ toutes les 30 s. Les deux modes : Aquatic Scourge ramené à la vraie mer (pas la
-      Sulphurous Sea), Ravager dans un bassin naturel de l'Aether seulement. Full Fandom : tout comme avant
+      Sulphurous Sea), Ravager dans un bassin naturel de l'Aether seulement. Queen Bee : casser des blocs de ruche (et
+      faire tomber des ruches suspendues) : les abeilles libérées comptent, pas celles du Bee Gun ; la pioche ne les tue
+      pas ; à 40, la Queen Bee arrive. Full Fandom : tout comme avant
 - [ ] (31/10 soir) **Bras de fer (Skeletron)** : pendant le bras de fer, rien ne bouge et aucun ennemi n'apparaît ; un coup
       raté fait reculer de 3 (barre rouge, petit son) ; le monde repart dès la victoire ou la défaite ; le clic gauche
       marche comme Espace

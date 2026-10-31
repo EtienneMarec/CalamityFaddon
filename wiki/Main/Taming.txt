@@ -22,27 +22,27 @@ Soothing is a new option presented by the Zoologist. If a boss has become untama
 |-
 | {{item|King Slime|size=100px}}||Keep King Slime [[Slimed]] with the [[Slime Gun]] for a combined total of {{mode|5|3}} minutes. He will grow larger as he is sprayed, reaching a maximum size of 50% larger then his initial state.||{{item|Bloated Gel}}
 |-
-| {{item|Desert Scourge|size=170px}}||Lead Desert Scourge to the [[Ocean]].||{{item|Hydrated Pendant}}
+| {{item|Desert Scourge|size=170px}}||Lead Desert Scourge to the [[Ocean]]{{mode||, for 40 seconds in total}}. The [[Sulphurous Sea]] does not count.||{{item|Hydrated Pendant}}
 |-
 | {{item|Eye of Cthulhu|size=70px}}||Make 30 circles around the Eye of Cthulhu. All circles must be in the same direction, as changing rotations will result in restarting the counter.||{{item|Dizzy Lens}}
 |-
-| {{item|Crabulon|size=130px}}||Consume a [[Yharic Delight]] while Crabulon is passive right after spawning (within 5 seconds).{{mode|| Saying exactly "Yo, I'm Hungary !!" in chat in front of the [[Traveling Merchant]] makes him give a Yharic Delight, once per visit.}}||{{item|Blessed Fungus}}
+| {{item|Crabulon|size=130px}}||Consume a [[Yharic Delight]] while Crabulon is passive right after spawning (within 5 seconds). {{mode||Once done, it keeps fighting for 60 seconds and must not be attacked before it is tamed.}}{{mode|| Saying exactly "Yo, I'm Hungary !!" in chat in front of the [[Traveling Merchant]] makes him give a Yharic Delight, once per visit.}}||{{item|Blessed Fungus}}
 |-
 | {{item|Eater of Worlds|size=180px}}||Consume 3 {{mode||different }}[[Food and Drink Potions|Food]] items throughout the fight. Note that the [[Well Fed]] buff must run out before another food item can be counted as eaten: a food only counts once its Well Fed buff has run out on its own (cancelling the buff does not count). ||{{item|Worm Platter}}
 |-
-| {{item|Brain of Cthulhu|size=80px}}||Beat the Brain of Cthulhu at chess using the [[Holographic Chessboard]].||{{item|En Passant}}
+| {{item|Brain of Cthulhu|size=80px}}||Beat the Brain of Cthulhu at chess using the [[Holographic Chessboard]]{{mode|| (5 problems, the last 2 being mates in two; a wrong move loses one solved problem)}}.||{{item|En Passant}}
 |-
-| {{item|The Hive Mind|size=80px}}||Place 100 books during the fight.||{{item|Blighted Tome}}
+| {{item|The Hive Mind|size=80px}}||Place 100 books during the fight. {{mode||Once done, it keeps fighting for 40 seconds and must not be attacked before it is tamed.}}||{{item|Blighted Tome}}
 |-
 | {{item|The Perforators|size=170px}}||Spawn 50 worms during the fight. Each worm will transform into an [[Estranged Son]] after around 5 seconds. The Estranged Sons cannot be killed for the tame to work.||{{item|Ball of Worms}}
 |-
-| {{item|Queen Bee|size=80px}}||Bring 100 bees into a hive biome. Upon doing so, Queen Bee will spawn, and will instantly be tamed.||{{item|Motherbrain}}
+| {{item|Queen Bee|size=80px}}||Bring {{mode|100|40}} bees into a hive biome.{{mode|| Only the small bees released by broken Hive blocks and falling Bee Hives count; tools do not hurt them.}} Upon doing so, Queen Bee will spawn, and will instantly be tamed.||{{item|Motherbrain}}
 |-
-| {{item|Skeletron|size=140px}}||Arm Wrestle the [[Old Man]]. The 'Arm Wrestle' option can be accessed by going down 3 options, permanently revealing it.||{{item|Skeletron's Fist}}
+| {{item|Skeletron|size=140px}}||Arm Wrestle the [[Old Man]]. The 'Arm Wrestle' option can be accessed by going down 3 options, permanently revealing it.{{mode|| Skeletron then appears: every 30 seconds of fight, the Old Man challenges you again, first to a shell game, then to a memory game. Win all three to tame Skeletron.}}||{{item|Skeletron's Fist}}
 |-
 | {{item|The Slime God|size=160px}}||Have both slime gods absorb 20 of their respective [[Blight Slime]]. Note that blight slimes will ignore boss zen while the Slime God is alive.||{{item|}}
 |-
-| {{item|Wall of Flesh|size=100px}}||Lead the Wall of Flesh to the [[Guide]]. They must be at most 50 blocks from each other for this to count, and it must be the eyes and/or the mouth.||{{item|Fate}}
+| {{item|Wall of Flesh|size=100px}}||Lead the Wall of Flesh to the [[Guide]]. They must be at most 50 blocks from each other for this to count, and it must be the eyes and/or the mouth.{{mode|| The Guide cannot come back during the first 3 minutes of the fight.}}||{{item|Fate}}
 |}
 {{item/options|reset}}
 
@@ -60,19 +60,19 @@ Soothing is a new option presented by the Zoologist. If a boss has become untama
 |-
 | {{item|Cumulomenace|size=120px}}||Lure Cumulomenace into a heap of cloud blocks of any type ten times when it is charging towards a player. No longer works once it enters phase 3.||{{item|}}
 |-
-| {{item|Cryogen|size=100px}}||Lead Cryogen into the [[Brimstone Crag]]s.||{{item|Melting Ice Cube}}
+| {{item|Cryogen|size=100px}}||Lead Cryogen into the [[Brimstone Crag]]s{{mode||, for 20 seconds in total}}.||{{item|Melting Ice Cube}}
 |-
 | {{item|Pyrogen|size=120px}}||Lead Pyrogen into the Surface [[Snow biome]].||{{item|Frozen Heater}}
 |-
 | {{item|The Twins|size=110px}}||Stare at each twin for at least 1 minute. You cannot break line of sight for more then 1 second, or the counter will reset.||{{item|}}
 |-
-| {{item|The Destroyer|size=190px}}||Dash directly into the Destroyers head segment with a dash 5 times. Note that the dash must not deal damage to the boss.||{{item|Shiny Lipstick}}
+| {{item|The Destroyer|size=190px}}||Dash directly into the Destroyers head segment with a dash {{mode|5|8}} times. Note that the dash must not deal damage to the boss.||{{item|Shiny Lipstick}}
 |-
-| {{item|Skeletron Prime|size=60px}}||Have the [[Skull]] equipped.||{{item|}}
+| {{item|Skeletron Prime|size=60px}}||Have the [[Skull]] equipped for {{mode|1|2}} minute{{mode||s}}.||{{item|}}
 |-
-| {{item|Aquatic Scourge|size=180px}}||Bring Aquatic Scourge into the [[Ocean]].||{{item|}}
+| {{item|Aquatic Scourge|size=180px}}||Bring Aquatic Scourge into the [[Ocean]]. The [[Sulphurous Sea]] does not count.||{{item|}}
 |-
-| {{item|Brimstone Elemental|size=60px}}||Have five new [[Town NPCs]] move into the brimstone crag while the Brimstone Elemental is alive. Note that if the player doesn't have any remaining npcs that have not moved in yet, that respawning npcs will count towards this goal as well.||{{item|}}
+| {{item|Brimstone Elemental|size=60px}}||Have five new [[Town NPCs]] move into the brimstone crag while the Brimstone Elemental is alive.{{mode|| At most one NPC can arrive every 30 seconds.}} Note that if the player doesn't have any remaining npcs that have not moved in yet, that respawning npcs will count towards this goal as well.||{{item|}}
 |-
 | {{item|Plantera|size=80px}}||Survive on the surface with Plantera for 3 minutes.||{{item|}}
 |-
@@ -94,13 +94,13 @@ Soothing is a new option presented by the Zoologist. If a boss has become untama
 |-
 | {{item|Empress of Light|size=140px}}||Survive from dawn to dusk.||{{item|}}
 |-
-| {{item|Ravager|size=140px}}||Cause Ravager to fall into a pool of Shimmer.||{{item|}}
+| {{item|Ravager|size=140px}}||Cause Ravager to fall into a natural pool of Shimmer, in the Aether.||{{item|}}
 |-
-| {{item|Lunatic Cultist|size=40px}}||Wear the [[Cultist set]], and walk in between the two [[Lunatic Devotee]]s. This will cause the Lunatic Cultist to appear, and instantly be tamed.||{{item|Worship 101}}
+| {{item|Lunatic Cultist|size=40px}}||Wear the [[Cultist set]], and walk in between the two [[Lunatic Devotee]]s. This will cause the Lunatic Cultist to appear, and instantly be tamed. {{mode||Once done, it keeps fighting for 60 seconds and must not be attacked before it is tamed.}}||{{item|Worship 101}}
 |-
-| {{item|The Dragonfolly|size=90px}}||Give the Dragonfolly a [[Yharon Soul Fragment]].||{{item|}}
+| {{item|The Dragonfolly|size=90px}}||Give the Dragonfolly a [[Yharon Soul Fragment]]. {{mode||Once done, it keeps fighting for 60 seconds and must not be attacked before it is tamed.}}||{{item|}}
 |-
-| {{item|Astrum Deus|size=180px}}||Have Astrum Deus be hit by a fallen star.||{{item|}}
+| {{item|Astrum Deus|size=180px}}||Have Astrum Deus be hit by {{mode|a fallen star|3 fallen stars}}.||{{item|}}
 |-
 | {{item|Moon Lord|size=160px}}||Bring Moon Lord to the 4th layer of the abyss, and wait for a [[Colossal Squid]] to spawn. Note that colossal squids will ignore the boss zen buff while Moon Lord is alive.||{{item|}}
 |}
@@ -126,7 +126,7 @@ Soothing is a new option presented by the Zoologist. If a boss has become untama
 |-
 | {{item|Signus, Envoy of the Devourer|size=60px}}||Survive for 8 minutes without taking damage.||{{item|}}
 |-
-| {{item|Polterghast|size=50px}}||Place 100 graves in the dungeon. After doing so, Polterghast will show up, and instantly be tamed.||{{item|}}
+| {{item|Polterghast|size=50px}}||Place 100 graves in the dungeon. After doing so, Polterghast will show up, and instantly be tamed. {{mode||Once done, it keeps fighting for 60 seconds and must not be attacked before it is tamed.}}||{{item|}}
 |-
 | {{item|The Devourer of Gods|size=150px}}||Send 150 messages in chat. Sentences mentioning the words "DoG" "sucks" "stupid" "bad boss" and "worm boss" bring the counter down by an extra point per word. The word "providence" will enrage the Devourer of Gods, but will count for 5 points.||{{item|}}
 |-
@@ -134,7 +134,7 @@ Soothing is a new option presented by the Zoologist. If a boss has become untama
 |-
 | {{item|The Wall of Bronze|size=120px}}||Lead the Wall of Bronze to the opposite side of the world.||{{item|}}
 |-
-| {{item|The Fabricational Quartet|size=200px}}||File Draedons Taxes.||{{item|}}
+| {{item|The Fabricational Quartet|size=200px}}||File Draedons Taxes{{mode|| three times, at least 60 seconds apart}}.||{{item|}}
 |-
 | {{item|XP-00 Hypnos|size=80px}}||Defeat Hypnos at chess.||{{item|}}
 |-

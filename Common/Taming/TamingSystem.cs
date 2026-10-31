@@ -216,6 +216,8 @@ namespace CalamityFandom.Common.Taming
             public int WallGuideDelay { get; set; }
             public int BrimstoneTownCheck { get; set; } = 5;
             public int SkeletronFightGap { get; set; } = 30;
+            public int QueenBeeGoal { get; set; } = 100;
+            public bool QueenBeeHiveOnly { get; set; }
         }
 
         /// <summary>Calamity++ : objectifs de Balance/taming.json (King Slime : 3 min au lieu de 5).</summary>
@@ -225,6 +227,8 @@ namespace CalamityFandom.Common.Taming
             EaterDistinctFoods = false;
             ChessMateInTwo = ChessMissPenalty = TaxGap = WallGuideDelay = 0;
             BrimstoneTownCheck = 5;
+            TamingBees.Goal = 100;
+            TamingBees.HiveOnly = false;
             if (!Config.FandomMode.IsPlus || !Mod.FileExists("Balance/taming.json"))
                 return;
             var balance = System.Text.Json.JsonSerializer.Deserialize<BalanceFile>(Mod.GetFileBytes("Balance/taming.json"),
@@ -243,6 +247,8 @@ namespace CalamityFandom.Common.Taming
             WallGuideDelay = balance.WallGuideDelay;
             BrimstoneTownCheck = balance.BrimstoneTownCheck;
             SkeletronFightGap = balance.SkeletronFightGap;
+            TamingBees.Goal = balance.QueenBeeGoal;
+            TamingBees.HiveOnly = balance.QueenBeeHiveOnly;
         }
 
         public override void Unload()
