@@ -372,6 +372,23 @@ namespace CalamityFandom.Common.Debug
             Expect(flahium > 0 && ContentSamples.ItemsByType[flahium].createTile > 0 && Main.tileFrameImportant[ContentSamples.ItemsByType[flahium].createTile],
                 "Flahium Bar se pose (barre)");
             // Sources génériques des pages d'objets (« any Jungle enemy », « Any Boss ») : règles globales (Cent Striker absent)
+            // (31/10) « Any Boss » : un Conquest Fragment par boss, pas par segment de ver (Calamity marque ses segments boss),
+            // et pas en double quand la fiche du boss le donne déjà (Desert Scourge)
+            int conquest = WikiRecipes.ResolveItem("Conquest Fragment");
+            bool GenericDrops(int type, int realLife)
+            {
+                var npc = new NPC();
+                npc.SetDefaults(type);
+                npc.whoAmI = 1;
+                npc.realLife = realLife;
+                var info = new DropAttemptInfo { npc = npc, player = Main.player[0], rng = Main.rand };
+                return Main.ItemDropsDB.GetRulesForNPCID(type, true).Except(Main.ItemDropsDB.GetRulesForNPCID(type, false))
+                    .OfType<ItemDropWithConditionRule>().Any(r => r.itemId == conquest && r.condition.CanDrop(info));
+            }
+            Expect(!GenericDrops(ModContent.NPCType<CalamityMod.NPCs.DesertScourge.DesertScourgeBody>(), 0)
+                && !GenericDrops(ModContent.NPCType<CalamityMod.NPCs.DesertScourge.DesertScourgeHead>(), -1)
+                && GenericDrops(NPCID.KingSlime, -1),
+                "« Any Boss » : pas de Conquest Fragment par segment ni en double (Desert Scourge), un pour King Slime");
             Expect(WikiLoot.GenericAdded.Count >= 14 && WikiLoot.GenericAdded.Any(g => g.Contains("Any Boss")),
                 $"butin : {WikiLoot.GenericAdded.Count} sources génériques (« Any Boss », « any Jungle enemy »...)");
             // Draedon's Remote (Astrum Aureus) : lâché par l'Armored Digger porté ; butin du mode Mayhem gardé en Full Fandom

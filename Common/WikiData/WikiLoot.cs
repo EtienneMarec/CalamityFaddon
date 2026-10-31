@@ -77,7 +77,10 @@ namespace CalamityFandom.Common.WikiData
         }
 
         /// <summary>
-        /// « Any X enemy » : PNJ hostile qui n'est ni un boss, ni un PNJ de statue, ni une bestiole ; « Any Boss » : boss.
+        /// « Any X enemy » : PNJ hostile qui n'est ni un boss, ni un morceau ou un serviteur de boss, ni un PNJ de statue,
+        /// ni une bestiole ; « Any Boss » : une fois par combat, au dernier boss qui meurt, sauf si sa fiche du wiki donne
+        /// déjà l'objet. Jamais les segments d'un ver (chacun passe par la distribution du butin à sa mort ; chez Calamity,
+        /// les segments des vers boss sont même marqués boss : un Conquest Fragment par segment, corrigé le 31/10).
         /// Puis la condition de la page (biome du joueur, boss vaincus) et le mode Revengeance.
         /// </summary>
         private class GenericCondition : IItemDropRuleCondition
@@ -85,23 +88,56 @@ namespace CalamityFandom.Common.WikiData
             private readonly bool boss, revengeance;
             private readonly WikiLootCondition inner;
             private readonly string description;
+            private readonly int item;
+            /// <summary>PNJ dont la fiche donne déjà l'objet (« Any Boss » ne le redonne pas).</summary>
+            private readonly Dictionary<int, bool> ownDrop = new();
 
-            public GenericCondition(bool boss, bool revengeance, WikiLootCondition inner, string description)
+            public GenericCondition(bool boss, bool revengeance, WikiLootCondition inner, string description, int item)
             {
                 this.boss = boss;
                 this.revengeance = revengeance;
                 this.inner = inner;
                 this.description = description;
+                this.item = item;
             }
 
             public bool CanDrop(DropAttemptInfo info)
             {
                 NPC npc = info.npc;
-                if (npc == null || revengeance && !CalamityMod.World.CalamityWorld.revenge)
+                if (npc == null || revengeance && !CalamityMod.World.CalamityWorld.revenge || IsSegment(npc))
                     return false;
-                bool target = boss ? npc.boss
-                    : !npc.boss && !npc.friendly && !npc.townNPC && npc.lifeMax > 5 && !npc.SpawnedFromStatue && !npc.CountsAsACritter;
+                bool target = boss ? npc.boss && LastBoss(npc) && !OwnDrop(npc.type)
+                    : !npc.boss && !npc.friendly && !npc.townNPC && npc.lifeMax > 5 && !npc.SpawnedFromStatue && !npc.CountsAsACritter
+                        && !BossPart(npc.type);
                 return target && (inner == null || inner.CanDrop(info));
+            }
+
+            private static bool IsSegment(NPC npc) => npc.realLife >= 0 && npc.realLife != npc.whoAmI;
+
+            /// <summary>Morceau ou serviteur d'un boss : rangé avec lui dans le bestiaire, ou partie d'un boss du Taming.</summary>
+            private static bool BossPart(int type) =>
+                NPCID.Sets.ShouldBeCountedAsBoss[type] || NPCID.Sets.BossBestiaryPriority.Contains(type)
+                || Taming.TamingSystem.EntryOf(type) != null;
+
+            /// <summary>Aucun autre boss en vie (ses propres segments mis à part) : les Twins, les Gardiens... ne comptent qu'une fois.</summary>
+            private static bool LastBoss(NPC npc)
+            {
+                foreach (var n in Main.ActiveNPCs)
+                    if (n.whoAmI != npc.whoAmI && n.boss && n.life > 0 && n.realLife != npc.whoAmI && !IsSegment(n))
+                        return false;
+                return true;
+            }
+
+            private bool OwnDrop(int type)
+            {
+                if (!ownDrop.TryGetValue(type, out bool own))
+                {
+                    var rates = new List<DropRateInfo>();
+                    foreach (var rule in Main.ItemDropsDB.GetRulesForNPCID(type, false))
+                        rule.ReportDroprates(rates, new DropRateInfoChainFeed(1f));
+                    ownDrop[type] = own = rates.Any(r => r.itemId == item);
+                }
+                return own;
             }
 
             // Pas dans le bestiaire : la règle vaut pour tous les PNJ, chaque fiche l'afficherait
@@ -138,7 +174,7 @@ namespace CalamityFandom.Common.WikiData
                 if (g.Condition != null && (inner = WikiLootCondition.TryCreate(g.Condition, g.Source)) == null)
                     continue;
                 int denominator = 10000, numerator = Math.Max(1, (int)Math.Round(g.Chance * denominator));
-                var condition = new GenericCondition(g.Target == "boss", g.Revengeance, inner, g.Source);
+                var condition = new GenericCondition(g.Target == "boss", g.Revengeance, inner, g.Source, item);
                 Main.ItemDropsDB.RegisterToGlobal(ItemDropRule.ByCondition(condition, item, g.Min, g.Max, numerator, denominator));
                 GenericAdded.Add($"{Lang.GetItemNameValue(item)} : {g.Source} ({g.Chance:P1})");
             }

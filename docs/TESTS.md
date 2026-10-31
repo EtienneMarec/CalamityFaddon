@@ -524,12 +524,12 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       échiquier holographique, « practice », mat en un (en deux après le Moon Lord) ; cliquer une pièce montre ses coups ;
       mauvais coup → « Wrong move! » et un autre problème ; Échap ferme. Contre le Brain of Cthulhu (sans le toucher) : il
       et ses Creepers s'arrêtent pendant la partie ; 3 problèmes résolus → apprivoisé
-- [ ] (31/10 soir) **Brain of Cthulhu, échecs (suite)** : plus de position impossible (deux fous d'un camp toujours sur des
+- [x] (31/10 soir, validé) **Brain of Cthulhu, échecs (suite)** : plus de position impossible (deux fous d'un camp toujours sur des
       couleurs différentes) ; pendant la partie, rien ne bouge (joueur, boss et tentacules, Creepers, autres ennemis,
       projectiles) et le joueur ne prend pas de dégâts ; à l'ouverture : table, chaise du joueur, chaise du boss une par
       une, le joueur va à sa chaise, puis le boss à la sienne (assez loin pour ne pas chevaucher la table), un Creeper
       vient serrer la main du joueur (1 s), puis le plateau ; la table reste jusqu'à la fin du combat
-- [ ] (31/10 soir) **Holographic Chessboard près d'un autre PNJ** (moins de 10 blocs : Zombie, Slime, lapin, Guide...) :
+- [x] (31/10 soir, validé) **Holographic Chessboard près d'un autre PNJ** (moins de 10 blocs : Zombie, Slime, lapin, Guide...) :
       même mise en scène (le PNJ sautille pendant la poignée de main, chaise reculée selon sa taille), partie
       d'entraînement, la table disparaît en fermant ; près d'un boss autre que le Brain : il ne joue pas. Personne à
       portée : même mise en scène, « Sit at the chessboard and play with yourself » au-dessus de la chaise vide.
@@ -537,6 +537,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Cthulhu est nettement plus loin ; la phrase « play with yourself » est dorée ; le plateau ne s'utilise pas pendant
       les 2 s du cri d'apparition du Brain of Cthulhu ; la table apparaît à 7 blocs devant le joueur, posée sur le sol ;
       joueur et PNJ assis à la même hauteur ; une Wyvern (ou un ver) vient s'asseoir en entier
+- [ ] (31/10 soir) **Butin générique** : Desert Scourge, Devourer of Gods... ne donnent qu'un Conquest Fragment par combat
+      (les Twins aussi : un pour les deux) ; les essences réactives ne tombent plus des boss, de leurs morceaux et
+      serviteurs, ni de chaque segment des vers ennemis (une chance de 10 % par ennemi)
 - [ ] (31/10) **Zoologist (correctif)** : acheter un « Soothe: <boss> » fait disparaître aussitôt toutes les offres de la
       boutique ouverte ; elles reviennent à l'aube suivante
 - [x] (31/10, validé) **Eye of Cthulhu (correctif)** : tourner autour de l'œil affiche « 1/30 », « 2/30 »... ; faire un tour

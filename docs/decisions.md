@@ -640,6 +640,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (Exosphere, Pot of Pain, Sky Abyss, vagues, Hydrabots), « Any Boss in Revengeance Mode » pour Laudanum, Stress Pills
   et Heart of Darkness (déjà dans les sacs de Calamity, comme l'explique leur page), Catarachedrae (« Hive Mind ou
   Perforators », et objet absent). **[technique]** Pas affichées dans le bestiaire (chaque fiche les listerait).
+  **[technique]** Correctif du 31/10 (quantités énormes signalées par l'utilisateur) : chaque segment d'un ver passe
+  par la distribution du butin à sa mort, et Calamity marque « boss » les segments de ses vers boss (Desert Scourge,
+  Devourer of Gods, Storm Weaver, Astrum Deus) : un Conquest Fragment par segment, et une chance d'essence réactive par
+  segment des vers ennemis. Désormais : jamais les segments (`realLife` vers un autre PNJ) ; « Any Boss » une seule
+  fois par combat, au dernier boss qui meurt (Twins, Gardiens, Exo Mechs : un seul), et pas en plus quand la fiche du
+  boss donne déjà l'objet (Desert Scourge : un seul fragment) ; « any enemy » exclut aussi les morceaux et serviteurs
+  de boss (rangés avec le boss dans le bestiaire, ou parties d'un boss du Taming : Creepers, Perforators...).
 
 - **[choix]** (31/10) **Variantes d'un même nom** (Zombie, Demon Eye...) : le butin d'une page va à toutes les variantes
   qui portent ce nom (5 pages : Zombie 14 variantes, Demon Eye 8, Plague Charger, Necromancer, Crimson Slime Spawn),
