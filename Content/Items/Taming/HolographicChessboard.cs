@@ -26,7 +26,8 @@ namespace CalamityFandom.Content.Items.Taming
             Item.value = Item.sellPrice(silver: 20);
         }
 
-        public override bool CanUseItem(Player player) => ChessUISystem.Session == null;
+        // Pas avant la fin du cri d'apparition du boss
+        public override bool CanUseItem(Player player) => ChessUISystem.Session == null && !ChessScene.BossStillRoaring(player);
 
         public override bool? UseItem(Player player)
         {

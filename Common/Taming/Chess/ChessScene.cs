@@ -63,6 +63,20 @@ namespace CalamityFandom.Common.Taming.Chess
 
         public override void ClearWorld() => opponentFrom.Clear();
 
+        /// <summary>
+        /// [validé 31/10] Pas de partie contre un boss avant la fin de son cri d'apparition : Roar_0 dure 1,98 s, d'où
+        /// 2 s comptées depuis son apparition (<see cref="ChessBossAge"/>).
+        /// </summary>
+        public const int RoarTicks = 120;
+
+        public static bool BossStillRoaring(Player player)
+        {
+            foreach (var n in Main.ActiveNPCs)
+                if (n.type == NPCID.BrainofCthulhu && n.WithinRange(player.Center, 3000f) && n.GetGlobalNPC<ChessBossAge>().Age < RoarTicks)
+                    return true;
+            return false;
+        }
+
         /// <summary>Un PNJ peut jouer aux échecs pour le plaisir (PNJ de la ville compris) : pas un boss ni un morceau de boss du Taming.</summary>
         public static bool CanPlay(NPC npc) =>
             npc.active && !npc.boss && !NPCID.Sets.ProjectileNPC[npc.type] && npc.lifeMax > 5
@@ -187,6 +201,18 @@ namespace CalamityFandom.Common.Taming.Chess
         }
     }
 
+    /// <summary>Âge des boss qui jouent aux échecs (compté partout, serveur et clients).</summary>
+    public class ChessBossAge : GlobalNPC
+    {
+        public int Age;
+
+        public override bool InstancePerEntity => true;
+
+        public override bool AppliesToEntity(NPC entity, bool lateInstantiation) => entity.type == NPCID.BrainofCthulhu;
+
+        public override void PostAI(NPC npc) => Age++;
+    }
+
     /// <summary>État de la partie d'échecs d'un joueur : contrôles coupés, trajet jusqu'à sa chaise, bras tendu.</summary>
     public class ChessPlayer : ModPlayer
     {
@@ -248,7 +274,7 @@ namespace CalamityFandom.Common.Taming.Chess
             if (Open && Opponent < 0 && Age == ChessScene.OpponentMoveAt && Player.whoAmI == Main.myPlayer)
             {
                 var chair = new Rectangle((int)(Table.X + Reach) - 40, (int)Table.Y - 80, 80, 40);
-                CombatText.NewText(chair, Color.LightSkyBlue, Terraria.Localization.Language.GetTextValue("Mods.CalamityFandom.Taming.Chess.Alone"), true);
+                CombatText.NewText(chair, Color.Gold, Terraria.Localization.Language.GetTextValue("Mods.CalamityFandom.Taming.Chess.Alone"), true);
             }
             // Poignée de main : le bras avant se tend vers l'œil (Brain of Cthulhu) ou vers l'adversaire
             if (!Open || Opponent < 0 || Age < ChessScene.HandshakeAt || Age > ChessScene.IntroTicks)

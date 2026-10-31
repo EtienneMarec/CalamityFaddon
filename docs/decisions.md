@@ -475,6 +475,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
     (face au Brain of Cthulhu : à la fin du combat). **[choix]** Le plus proche ; bestioles comprises.
   - **[validé 31/10]** **Personne à portée** : même mise en scène, mais à la place de l'adversaire, « Sit at the
     chessboard and play with yourself » s'affiche au-dessus de la chaise vide ; pas de poignée de main.
+  - **[validé 31/10]** Plateau inutilisable avant la fin du **cri d'apparition** du boss (2 s : le son Roar_0 dure
+    1,98 s) ; phrase « play with yourself » en doré (le bleu se perdait dans le ciel).
   - **[validé 31/10]** Chaise du **Brain of Cthulhu** reculée de 7,5 blocs de plus que sa largeur (son aura rouge et rose
     cachait la scène). **[choix]** 7,5 blocs, dans la fourchette de 5 à 10 demandée.
   - **[technique]** Le joueur est placé sur sa chaise avant et après le mouvement du jeu, et le décalage de marche
