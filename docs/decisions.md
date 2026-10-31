@@ -302,6 +302,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - 42 boss sur 50 ont leur méthode ; les 8 autres attendent leur boss, inventé par le wiki (The Inventors, Wulfrum
   Excavator, Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze ; XP-00 Hypnos a déjà
   sa méthode, les échecs, prête pour son boss). Liste en TODO dans `TamingSystem.PostSetupContent`.
+- **Méthodes testées et validées en jeu par l'utilisateur** (31/10, dans l'ordre de ses tests) : King Slime, Desert
+  Scourge, Eye of Cthulhu, Crabulon, Eater of Worlds, Brain of Cthulhu, The Hive Mind (« Place 100 books during the
+  fight »).
 - **[validé 31/10, testé]** **Eater of Worlds** (« Consume 3 Food items... the Well Fed buff must run out ») : un aliment
   mangé pendant le combat compte **quand son Well Fed s'achève de lui-même** (il restait 1 ou 2 ticks au tick d'avant) ;
   retiré d'un clic droit, il ne compte pas (message). **Calamity++** (`Balance/taming.json`, `eaterDistinctFoods`) :

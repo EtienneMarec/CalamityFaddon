@@ -502,7 +502,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] (31/10, validé) **King Slime (correctif)** : le sprite grossit avec la hitbox, jusqu'à ×1,5 ; le progrès avance tant qu'il
       est Slimed par le Slime Gun (debuff au-dessus de lui), même entre deux jets ; apprivoisé après 3 min Slimed en
       Calamity++, 5 min en Full Fandom
-- [ ] (31/10, phase 2) **Taming** (nouveau monde, les deux modes) : King Slime arrosé au Slime Gun grossit, cœurs et
+- [ ] (31/10, phase 2) **Taming** (en cours : validés King Slime, Desert Scourge, Eye of Cthulhu, Crabulon, Eater of Worlds,
+      Brain of Cthulhu, The Hive Mind ; liste dans `docs/decisions.md`) (nouveau monde, les deux modes) : King Slime arrosé au Slime Gun grossit, cœurs et
       « ♥ 25 % » ; sans le blesser 5 min → « King Slime has been tamed! », il disparaît et laisse son butin. Plus simples
       à tester : Desert Scourge mené à la plage, Eye of Cthulhu (30 tours), Ravager dans le Shimmer, Duke Fishron près
       d'un Truffle Worm. Blesser le boss : plus aucun progrès. Tuer un boss puis aller voir le Zoologist : « Soothe:
