@@ -6,8 +6,10 @@
   -> Assets/Overrides/Generated/Full/Items/<Classe>.png
 - Objet porté ou créé par ce mod (page implémentée dans Content/) dont le wiki montre un autre sprite (resprite du
   Fandom) : sprite du wiki dans tous les modes -> Assets/Overrides/Generated/Items/ (décision du 30/10)
-Appliqués par Common/WikiData/TextureOverrides.cs (icône seulement). Ignorés : objets animés de Calamity (planche
-d'images), murs (le wiki montre le mur posé), illustrations de plus de 96 px.
+Appliqués par Common/WikiData/TextureOverrides.cs (icône seulement). Objets animés (planche d'images) : l'image du wiki
+est comparée à chaque image de la planche ; si elle en est une, rien ne change (animation gardée) ; sinon c'est un autre
+dessin (Abyss Bar...) : l'image fixe du wiki remplace la planche et l'animation est coupée en jeu (classes listées dans
+Generated/static.json, décision du 31/10). Ignorés : murs (le wiki montre le mur posé), illustrations de plus de 96 px.
 Une image faite à la main dans Assets/Overrides/Items/ passe avant.
 
 Les images du wiki sont du WebP parfois compressé avec perte, ou agrandies x2 : une image « presque identique » ou
@@ -28,6 +30,7 @@ from wiki_index import ROOT, SPRITES  # noqa: E402
 
 OUT_ALL = os.path.join(ROOT, "Assets", "Overrides", "Generated", "Items")
 OUT_FULL = os.path.join(ROOT, "Assets", "Overrides", "Generated", "Full", "Items")
+STATIC = os.path.join(ROOT, "Assets", "Overrides", "Generated", "static.json")
 REPORT = os.path.join(ROOT, "reports", "sprites.md")
 MAX_SPRITE = 96  # au-delà, c'est une illustration du wiki, pas une icône d'objet
 BIG_DIFF = 48    # écart d'un canal (0-255) au-delà duquel un pixel est « nettement différent » (la compression WebP reste en dessous)
@@ -74,6 +77,71 @@ def same_sprite(wiki, code):
     return False
 
 
+def trim(img):
+    """Image recadrée sur ses pixels visibles."""
+    box = img.getchannel("A").getbbox()
+    return img.crop(box) if box else img
+
+
+# Vitesse en nombre ou en constante (int.MaxValue : planche fixe des aliments, 3 images)
+ANIMATION_RE = re.compile(r"DrawAnimationVertical\(\s*[\w.]+\s*,\s*(\d+)")
+
+
+def animation_frames(source):
+    """Nombre d'images de la planche (RegisterItemAnimation), None si l'objet n'est pas animé, 0 si on ne le lit pas."""
+    if "RegisterItemAnimation" not in source and "AnimatesAsSoul" not in source:
+        return None
+    m = ANIMATION_RE.search(source)
+    return int(m.group(1)) if m else 0
+
+
+def is_food(source):
+    """Aliment ou boisson : le jeu dessine leur planche de 3 images (inventaire, en main, consommation)."""
+    return "DefaultToFood" in source or "IsFood" in source
+
+
+def food_sheet(icon, frames):
+    """Planche d'aliment refaite avec l'image du wiki (la même sur chaque ligne, 2 px d'écart comme dans le jeu)."""
+    sheet = Image.new("RGBA", (icon.width, (icon.height + 2) * frames), (0, 0, 0, 0))
+    for i in range(frames):
+        sheet.paste(icon, (0, i * (icon.height + 2)))
+    return sheet
+
+
+def save_icon(icon, folder, cls, frames, source, static, food):
+    """Écrit l'image du wiki : planche refaite pour un aliment (ses 3 images gardées), image fixe sinon (animation
+    coupée en jeu si l'objet était animé : static.json)."""
+    if frames and is_food(source):
+        food_sheet(icon, frames).save(os.path.join(folder, cls + ".png"), "PNG")
+        food.append(cls)
+        return
+    icon.save(os.path.join(folder, cls + ".png"), "PNG")
+    if frames:
+        static.append(cls)
+
+
+def draws_own_frames(source):
+    """L'objet découpe lui-même sa planche (Item.GetFrame, GetCurrentFrame) ou recharge sa texture par son chemin : une
+    image fixe n'y apparaîtrait pas, ou ferait planter son dessin (Graydron, Telluric Glare, Auric Bar)."""
+    return "GetCurrentFrame" in source or "GetFrame(" in source or "Request<Texture2D>(Texture)" in source
+
+
+def same_as_a_frame(wiki, code, frames):
+    """L'image du wiki est-elle une des images de la planche (recadrées, au besoin réduite x2 / x3) ?"""
+    if frames <= 0 or code.height % frames:
+        return False
+    w = trim(wiki)
+    height = code.height // frames
+    for i in range(frames):
+        frame = trim(code.crop((0, i * height, code.width, (i + 1) * height)))
+        if close(w, frame):
+            return True
+        for k in (2, 3):
+            if w.size == (frame.width * k, frame.height * k) and close(w.resize(frame.size, Image.NEAREST), frame):
+                return True
+    return False
+
+
 def usable(wiki):
     """Ramène une image du wiki agrandie à sa taille d'icône ; None si c'est une illustration."""
     for k in (1, 2, 3, 4):
@@ -96,6 +164,7 @@ def main():
         os.makedirs(folder)
 
     written = {"renamed": [], "official": []}
+    static, food = [], []
     same, skipped = 0, []
     done = set()
     for page in sorted(index.values(), key=lambda p: p["title"]):
@@ -121,10 +190,17 @@ def main():
             if same_sprite(wiki, code):
                 same += 1
                 continue
-            # Objet animé (planche de plusieurs images) : l'image du wiki n'en montre qu'une, elle casserait l'animation
+            # Objet animé : même dessin qu'une image de la planche -> on garde l'animation ; sinon image fixe du wiki
             source = open(os.path.join(ROOT, file), encoding="utf-8-sig", errors="replace").read()
-            if "RegisterItemAnimation" in source or "AnimatesAsSoul" in source:
-                skipped.append((page["title"], "objet animé"))
+            frames = animation_frames(source)
+            if frames == 0:
+                skipped.append((page["title"], "objet animé (planche illisible)"))
+                continue
+            if frames and same_as_a_frame(wiki, code, frames):
+                same += 1
+                continue
+            if frames and draws_own_frames(source):
+                skipped.append((page["title"], "objet animé dessiné par son propre code (garde son animation)"))
                 continue
             # Murs : le wiki montre souvent le mur posé, pas l'icône de l'objet
             if "wall" in (page.get("type") or "").lower() or page["title"].lower().endswith(" wall"):
@@ -134,8 +210,7 @@ def main():
             if icon is None:
                 skipped.append((page["title"], f"illustration {wiki.width}x{wiki.height}"))
                 continue
-            folder = OUT_ALL if status == "renamed" else OUT_FULL
-            icon.save(os.path.join(folder, cls + ".png"), "PNG")
+            save_icon(icon, OUT_ALL if status == "renamed" else OUT_FULL, cls, frames, source, static, food)
             written[status].append((page["title"], cls))
 
     # Objets de ce mod : classe portant « /// Wiki : <page> », image à côté de son fichier
@@ -167,16 +242,28 @@ def main():
         if same_sprite(wiki, code):
             same += 1
             continue
-        if "RegisterItemAnimation" in source or "AnimatesAsSoul" in source:
-            skipped.append((page["title"], "objet animé"))
+        frames = animation_frames(source)
+        if frames == 0:
+            skipped.append((page["title"], "objet animé (planche illisible)"))
+            continue
+        if frames and same_as_a_frame(wiki, code, frames):
+            same += 1
+            continue
+        if frames and draws_own_frames(source):
+            skipped.append((page["title"], "objet animé dessiné par son propre code (garde son animation)"))
             continue
         icon = usable(wiki)
         if icon is None:
             skipped.append((page["title"], f"illustration {wiki.width}x{wiki.height}"))
             continue
-        icon.save(os.path.join(OUT_ALL, cls + ".png"), "PNG")
+        save_icon(icon, OUT_ALL, cls, frames, source, static, food)
         written["ours"].append((page["title"], cls))
 
+    with open(STATIC, "w", encoding="utf-8") as f:
+        json.dump({"_doc": "Objets animés dont le wiki montre un autre dessin : image fixe, animation coupée (tools/gen_sprites.py)",
+                   "static": sorted(static), "food": sorted(food)}, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    titles = {c: t for k in written for t, c in written[k]}
     with open(REPORT, "w", encoding="utf-8") as f:
         f.write("# Sprites du wiki appliqués aux objets de Calamity\n\n_Généré par `tools/gen_sprites.py`._\n\n")
         f.write(f"- {same} objets ont déjà le sprite du wiki\n")
@@ -187,9 +274,13 @@ def main():
         for status, title in (("renamed", "Renommés (tous les modes)"), ("official", "Officiels (Full Fandom)"),
                               ("ours", "Objets de ce mod (tous les modes)")):
             f.write(f"## {title}\n\n" + ", ".join(f"{t} (`{c}`)" for t, c in written[status]) + "\n\n")
+        f.write(f"## Aliments ({len(food)} : planche de 3 images refaite avec l'image du wiki)\n\n"
+                + ", ".join(f"{titles.get(c, c)} (`{c}`)" for c in sorted(food)) + "\n\n")
+        f.write(f"## Animation coupée ({len(static)} objets animés, image fixe du wiki)\n\n"
+                + ", ".join(f"{titles.get(c, c)} (`{c}`)" for c in sorted(static)) + "\n\n")
         f.write("## Ignorés\n\n" + "\n".join(f"- {t} : {why}" for t, why in skipped) + "\n")
     print(f"déjà identiques : {same} ; renommés : {len(written['renamed'])} ; officiels (Full) : {len(written['official'])} ; "
-          f"ignorés : {len(skipped)}")
+          f"animation coupée : {len(static)} ; aliments refaits : {len(food)} ; ignorés : {len(skipped)}")
 
 
 if __name__ == "__main__":

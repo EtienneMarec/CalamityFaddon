@@ -512,6 +512,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       avec une maison libre dans l'enfer, le Guide revient en quelques secondes après l'invocation, et mener le mur à
       moins de 50 blocs de lui l'apprivoise (le monde passe en Hardmode) ; les ennemis du Solar Pillar lâchent parfois un
       Yharon Soul Fragment (1/20)
+- [ ] (31/10) **Sprites animés du wiki** : Abyss Bar (rose et bleue, fixe) dans les deux modes, Phantoplasm et Astral
+      Arcanum aussi ; en Full Fandom : Astral Bar, Cosmilite Bar, Effulgent Feather... fixes, et Vodka/Baguette avec
+      l'image du wiki en inventaire, en main et en buvant/mangeant (pas coupée) ; Graydron et Auric Bar gardent leur
+      animation de Calamity ; repasser en Calamity++ (rechargement) rend les animations des objets officiels
 - [ ] (31/10) **Desert Scourge (Calamity++)** : apprivoisé ou tué avant Golem → pas de Abyss Bar (ni dans le sac) ; après
       Golem → 3-8 (Expert 10-17) ; en Full Fandom, toujours donnée
 - [ ] (31/10) **Lunatic Cultist** : après Golem, avec la Lunar Cultist Hood et la Lunar Cultist Robe, passer entre les deux

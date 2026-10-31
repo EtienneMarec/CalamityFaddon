@@ -738,6 +738,15 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
   debuffs de Calamity au-dessus des boss.
+- **[validé 31/10]** **Objets animés** (77 sautés jusqu'ici par `gen_sprites.py`) : l'image du wiki est comparée à
+  chaque image de la planche (recadrées). 25 en sont une : animation de Calamity gardée. 27 montrent un autre dessin
+  (Abyss Bar, Astral Bar, Cosmilite Bar...) : image fixe du wiki, animation coupée en jeu (`Generated/static.json`,
+  rétablie au déchargement). 22 aliments et boissons (Vodka, Baguette...) : leur planche de 3 images (inventaire, en
+  main, consommation) est refaite avec l'image du wiki, sans rien couper. **[technique]** 3 objets qui découpent
+  eux-mêmes leur planche ou rechargent leur texture par son chemin gardent leur sprite et leur animation : Graydron
+  (Murasama), Telluric Glare, Auric Bar (sinon image invisible, ou plantage du dessin de la lueur). Mêmes règles de
+  mode qu'avant : objets renommés (Abyss Bar, Phantoplasm, Astral Arcanum, Core of the Blood God) dans les deux modes,
+  officiels en Full Fandom seulement. Liste complète : `reports/sprites.md`.
 
 - **[choix]** **Sandy Angling Kit** porté depuis 2.0.1.005 (retiré de Calamity, lâché par le Desert Scourge sur le
   wiki) : chances du vieux code, identiques à la page ; pile 9999 et sans valeur (infobox).

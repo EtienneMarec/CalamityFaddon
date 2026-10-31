@@ -5,7 +5,9 @@ using CalamityMod.NPCs;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
 using Terraria;
+using Terraria.DataStructures;
 using Terraria.GameContent;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace CalamityFandom.Common.WikiData
@@ -17,11 +19,22 @@ namespace CalamityFandom.Common.WikiData
     /// Images générées par tools/gen_sprites.py : Generated/Items/ (objets renommés, tous les modes) et
     /// Generated/Full/Items/ (sprites refaits par Calamity depuis 2022, Full Fandom seulement) ; nos propres objets reçoivent leur
     /// resprite du wiki dans Generated/Items/ (tous les modes). Une image faite à la main passe avant une image générée.
+    /// Objets animés : une image générée ne remplace la planche que si l'objet est listé dans Generated/static.json (le
+    /// wiki montre un autre dessin, décision du 31/10) ; l'animation est alors coupée (rétablie au déchargement). Les
+    /// aliments (« food ») gardent leurs 3 images : leur planche générée en a déjà 3.
     /// </summary>
     public class TextureOverrides : ModSystem
     {
         private const string Root = "Assets/Overrides/";
         private readonly List<(Asset<Texture2D>[] array, int index, Asset<Texture2D> original)> replaced = new();
+        private readonly List<(int type, DrawAnimation animation, bool soul)> stopped = new();
+
+        private class StaticFile
+        {
+            public List<string> Static { get; set; } = new();
+            /// <summary>Aliments : planche de 3 images refaite avec l'image du wiki, à appliquer telle quelle.</summary>
+            public List<string> Food { get; set; } = new();
+        }
 
         public static int Applied { get; private set; }
 
@@ -30,6 +43,15 @@ namespace CalamityFandom.Common.WikiData
             Applied = 0;
             if (Main.dedServ)
                 return;
+            var staticItems = new HashSet<string>();
+            var foodSheets = new HashSet<string>();
+            if (Mod.FileExists(Root + "Generated/static.json"))
+            {
+                var data = System.Text.Json.JsonSerializer.Deserialize<StaticFile>(Mod.GetFileBytes(Root + "Generated/static.json"),
+                    new System.Text.Json.JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                staticItems.UnionWith(data.Static);
+                foodSheets.UnionWith(data.Food);
+            }
             // (type, classe) -> (dossier, priorité) : à la main 2, généré Full Fandom 1, généré 0
             var chosen = new Dictionary<(string kind, string cls), (string folder, int priority)>();
             foreach (string file in Mod.GetFileNames())
@@ -68,9 +90,16 @@ namespace CalamityFandom.Common.WikiData
                     Mod.Logger.Warn($"Texture de remplacement sans cible : {folder}/{cls}");
                     continue;
                 }
-                // Objet animé (planche d'images) : une image fixe générée casserait l'animation
-                if (priority < 2 && kind == "Items" && Main.itemAnimations[target.index] != null)
-                    continue;
+                // Objet animé (planche d'images) : une image fixe générée casserait l'animation, sauf quand le wiki montre
+                // un autre dessin (static.json) : on coupe alors l'animation
+                if (priority < 2 && kind == "Items" && Main.itemAnimations[target.index] != null && !foodSheets.Contains(cls))
+                {
+                    if (!staticItems.Contains(cls))
+                        continue;
+                    stopped.Add((target.index, Main.itemAnimations[target.index], ItemID.Sets.AnimatesAsSoul[target.index]));
+                    Main.itemAnimations[target.index] = null;
+                    ItemID.Sets.AnimatesAsSoul[target.index] = false;
+                }
                 string path = $"CalamityFandom/{Root}{folder}/{cls}";
                 replaced.Add((target.array, target.index, target.array[target.index]));
                 target.array[target.index] = ModContent.Request<Texture2D>(path);
@@ -105,6 +134,14 @@ namespace CalamityFandom.Common.WikiData
                 if (index < array.Length)
                     array[index] = original;
             replaced.Clear();
+            foreach (var (type, animation, soul) in stopped)
+            {
+                if (type < Main.itemAnimations.Length)
+                    Main.itemAnimations[type] = animation;
+                if (type < ItemID.Sets.AnimatesAsSoul.Length)
+                    ItemID.Sets.AnimatesAsSoul[type] = soul;
+            }
+            stopped.Clear();
             var list = CalamityGlobalNPC.moddedDebuffTextureList;
             foreach (var (index, original) in displayReplaced)
                 if (index < list.Count)
