@@ -311,6 +311,57 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **[technique]** Le message « ... is no longer after you » vient du mod **Boss Checklist** (activé chez l'utilisateur),
   pour tout boss qui disparaît avec des PV : les PV du boss qui part sont mis à 0 au moment où il disparaît, le message
   ne sort plus.
+- **Difficulté du Taming : propositions (31/10, à trancher)**. Remarque de l'utilisateur : apprivoiser doit rester
+  difficile (battre Skeletron avec le seul bras de fer est trop facile). **[choix]** Principe proposé : Full Fandom suit
+  la page telle qu'écrite ; Calamity++ durcit les méthodes trop faciles, par des données (`Balance/taming.json`).
+  Levier commun proposé, le **calme final** : quand la méthode est réussie, le boss n'est pas apprivoisé tout de suite,
+  il continue de se battre pendant 30 à 60 s (selon le moment du jeu) et il faut survivre sans le toucher ; les cœurs
+  montent pendant ce temps. Il vise surtout les méthodes « instantanées ».
+
+  | Boss | Méthode actuelle | Difficulté | Proposition Calamity++ |
+  |---|---|---|---|
+  | King Slime | Slimed 3 min | moyenne | garder |
+  | Desert Scourge | 3 s à la plage | trop facile | 20 s cumulées à la plage |
+  | Eye of Cthulhu | 30 tours | moyenne | garder |
+  | Crabulon | Yharic Delight dans les 5 s (Traveling Merchant) | facile | + calme final 30 s |
+  | Brain of Cthulhu | 3 mats en un, monde figé | facile si on sait jouer | 5 problèmes dont 2 mats en deux, ou une erreur relâche les Creepers 5 s |
+  | Eater of Worlds | 3 aliments différents digérés | longue (15-30 min) | garder |
+  | The Hive Mind | 100 livres posés | moyenne | garder |
+  | The Perforators | 50 vers, Estranged Sons à protéger | dure | garder |
+  | Queen Bee | 100 abeilles, apprivoisée à l'apparition | facile | elle apparaît non apprivoisée + calme final 45 s |
+  | Skeletron | bras de fer, apprivoisé à l'apparition | trop facile | 3 manches de plus en plus dures (zone plus étroite, Old Man qui tire plus fort) ; entre deux manches, Skeletron attaque 30 s sans qu'on puisse le toucher |
+  | The Slime God | 20 Blight Slimes chacun | moyenne | garder |
+  | Wall of Flesh | mener au Guide (50 blocs) | presque automatique | garder le Guide en vie à moins de 50 blocs pendant 20 s |
+  | Queen Slime | 100 ballons | moyenne | garder |
+  | Cryogen | 3 s dans la Brimstone Crag | trop facile | 20 s cumulées |
+  | Brimstone Elemental | 5 PNJ qui emménagent | dure (logistique) | garder |
+  | The Twins | 1 min de regard chacun | dure | garder |
+  | The Destroyer | 5 ruées dans la tête | moyenne | 10 ruées |
+  | Skeletron Prime | Skull porté 1 min | facile | 3 min |
+  | Aquatic Scourge | 3 s à la plage (il apparaît à côté) | trop facile | 30 s cumulées |
+  | Leviathan and Anahita | 100 poissons rouges | moyenne à dure | garder |
+  | Plantera | 3 min à la surface (enragée) | dure | garder |
+  | Golem | 50 touches du ballon | moyenne | garder |
+  | Calamitas | câlin de 1 s | facile | 5 s de contact cumulées |
+  | The Plaguebringer Goliath | 200 Green Solution | moyenne | garder |
+  | Duke Fishron | un Truffle Worm naturel | moyenne | garder |
+  | Empress of Light | de l'aube au crépuscule | très dure | garder |
+  | Ravager | chute dans le Shimmer | moyenne | garder |
+  | Astrum Aureus | Draedon's Remote (3 boss mécaniques renforcés) | dure | garder |
+  | Astrum Deus | une étoile filante | hasard | 3 étoiles |
+  | The Dragonfolly | donner un Yharon Soul Fragment | facile | + calme final 45 s |
+  | Lunatic Cultist | passer entre les dévots, apprivoisé à l'apparition | trop facile | + calme final 60 s |
+  | Moon Lord | abysse + Colossal Squid | dure | garder |
+  | Profaned Guardians | invoquer Providence pendant leur combat | dure | garder |
+  | Providence | 4 coins du monde | très dure | garder |
+  | Ceaseless Void | 50 rochers | moyenne | garder |
+  | Storm Weaver | 10 Wyverns nourries | moyenne | garder |
+  | Signus | 8 min sans dégâts | très dure | garder |
+  | Polterghast | 100 tombes, apprivoisé à l'apparition | facile | + calme final 60 s |
+  | The Devourer of Gods | 150 messages pendant le combat | dure | garder |
+  | Jungle Dragon, Yharon | 5 min sans dégâts | très dure | garder |
+  | The Fabricational Quartet | payer 1 platine au Tax Collector | trop facile | une taxe par Exo Mech (3), la suivante 60 s après la précédente |
+  | Supreme Calamitas | 5 min jusqu'à 5 % puis alt-f4 | dure | garder |
 - **Méthodes testées et validées en jeu par l'utilisateur** (31/10, dans l'ordre de ses tests) : King Slime, Desert
   Scourge, Eye of Cthulhu, Crabulon, Eater of Worlds, Brain of Cthulhu, The Hive Mind (« Place 100 books during the
   fight »), The Perforators, Queen Bee.

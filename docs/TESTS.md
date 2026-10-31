@@ -650,6 +650,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
+- **Difficulté du Taming** (31/10) : propositions boss par boss pour Calamity++ dans `docs/decisions.md` (section Taming).
 
 - [ ] (29/10, en partie tranché le 30/10 : Exo Gladius porté avec sa page, Microcell Cut créée d'après la Disease ;
       restent Elemental Shiv et Lucrecia) Shortstrike, dernières armes du tableau : **Exo Gladius** (ancien objet retiré en 2022 ; sa page invente
