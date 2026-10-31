@@ -29,6 +29,42 @@ namespace CalamityFandom.Common.WikiData
         private readonly List<(Asset<Texture2D>[] array, int index, Asset<Texture2D> original)> replaced = new();
         private readonly List<(int type, DrawAnimation animation, bool soul)> stopped = new();
 
+        // Objets de Calamity qui se dessinent eux-mêmes dans l'inventaire (décalage et échelle réglés pour leur sprite :
+        // Abyss Bar +5/-12 px...) : quand on leur a donné l'image du wiki, le jeu de base la dessine à la place, centrée
+        private delegate bool PreDrawInventoryOrig(ModItem self, SpriteBatch spriteBatch, Microsoft.Xna.Framework.Vector2 position,
+            Microsoft.Xna.Framework.Rectangle frame, Microsoft.Xna.Framework.Color drawColor, Microsoft.Xna.Framework.Color itemColor,
+            Microsoft.Xna.Framework.Vector2 origin, float scale);
+        private delegate bool PreDrawInventoryHook(PreDrawInventoryOrig orig, ModItem self, SpriteBatch spriteBatch,
+            Microsoft.Xna.Framework.Vector2 position, Microsoft.Xna.Framework.Rectangle frame, Microsoft.Xna.Framework.Color drawColor,
+            Microsoft.Xna.Framework.Color itemColor, Microsoft.Xna.Framework.Vector2 origin, float scale);
+        private static readonly HashSet<int> vanillaInventoryDraw = new();
+        private readonly List<MonoMod.RuntimeDetour.Hook> drawHooks = new();
+
+        private static bool SkipOwnInventoryDraw(PreDrawInventoryOrig orig, ModItem self, SpriteBatch spriteBatch,
+            Microsoft.Xna.Framework.Vector2 position, Microsoft.Xna.Framework.Rectangle frame, Microsoft.Xna.Framework.Color drawColor,
+            Microsoft.Xna.Framework.Color itemColor, Microsoft.Xna.Framework.Vector2 origin, float scale) =>
+            vanillaInventoryDraw.Contains(self.Type) || orig(self, spriteBatch, position, frame, drawColor, itemColor, origin, scale);
+
+        /// <summary>Le dessin d'inventaire propre à l'objet est sauté (image du wiki dessinée par le jeu, centrée).</summary>
+        private void DrawInInventoryAsVanilla(int type)
+        {
+            var modItem = ItemLoader.GetItem(type);
+            var method = modItem?.GetType().GetMethod(nameof(ModItem.PreDrawInInventory));
+            if (method == null || method.DeclaringType == typeof(ModItem) || !vanillaInventoryDraw.Add(type))
+                return;
+            if (drawHooks.Exists(h => h.Source == method))
+                return;
+            try
+            {
+                drawHooks.Add(new MonoMod.RuntimeDetour.Hook(method, (PreDrawInventoryHook)SkipOwnInventoryDraw));
+            }
+            catch (Exception e)
+            {
+                vanillaInventoryDraw.Remove(type);
+                Mod.Logger.Warn($"Dessin d'inventaire de {modItem.Name} non remplacé : {e.Message}");
+            }
+        }
+
         private class StaticFile
         {
             public List<string> Static { get; set; } = new();
@@ -97,6 +133,7 @@ namespace CalamityFandom.Common.WikiData
                     if (!staticItems.Contains(cls))
                         continue;
                     stopped.Add((target.index, Main.itemAnimations[target.index], ItemID.Sets.AnimatesAsSoul[target.index]));
+                    DrawInInventoryAsVanilla(target.index);
                     Main.itemAnimations[target.index] = null;
                     ItemID.Sets.AnimatesAsSoul[target.index] = false;
                 }
@@ -142,6 +179,10 @@ namespace CalamityFandom.Common.WikiData
                     ItemID.Sets.AnimatesAsSoul[type] = soul;
             }
             stopped.Clear();
+            foreach (var hook in drawHooks)
+                hook.Dispose();
+            drawHooks.Clear();
+            vanillaInventoryDraw.Clear();
             var list = CalamityGlobalNPC.moddedDebuffTextureList;
             foreach (var (index, original) in displayReplaced)
                 if (index < list.Count)

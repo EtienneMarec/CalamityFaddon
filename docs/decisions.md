@@ -747,6 +747,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (Murasama), Telluric Glare, Auric Bar (sinon image invisible, ou plantage du dessin de la lueur). Mêmes règles de
   mode qu'avant : objets renommés (Abyss Bar, Phantoplasm, Astral Arcanum, Core of the Blood God) dans les deux modes,
   officiels en Full Fandom seulement. Liste complète : `reports/sprites.md`.
+  **[technique]** Ceux qui se dessinent eux-mêmes dans l'inventaire avec un décalage réglé pour leur sprite (Abyss Bar
+  +5/-12 px, Dynamo Stem Cells, Soul of Cryogen, The First Shadowflame, Shattered Community) : leur dessin propre est
+  sauté quand l'image du wiki est appliquée, le jeu la dessine centrée (détour sur leur PreDrawInInventory).
 
 - **[choix]** **Sandy Angling Kit** porté depuis 2.0.1.005 (retiré de Calamity, lâché par le Desert Scourge sur le
   wiki) : chances du vieux code, identiques à la page ; pile 9999 et sans valeur (infobox).
