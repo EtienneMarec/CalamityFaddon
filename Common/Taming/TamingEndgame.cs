@@ -119,6 +119,7 @@ namespace CalamityFandom.Common.Taming
     {
         public const string Key = "The Fabricational Quartet";
         public static readonly int Price = Item.buyPrice(platinum: 1);
+        private static uint lastPaid;
 
         public override bool AppliesToEntity(NPC entity, bool lateInstantiation) => entity.type == NPCID.TaxCollector;
 
@@ -143,8 +144,16 @@ namespace CalamityFandom.Common.Taming
             if (firstButton || !FightOn())
                 return true;
             var player = Main.LocalPlayer;
+            // [validé 31/10] Calamity++ : une taxe par Exo Mech (3), la suivante au moins 60 s après
+            if (lastPaid != 0 && Main.GameUpdateCount - lastPaid < TamingSystem.TaxGap * 60)
+            {
+                Main.npcChatText = Language.GetTextValue("Mods.CalamityFandom.Taming.Taxes.Wait",
+                    (TamingSystem.TaxGap * 60 - (Main.GameUpdateCount - lastPaid) + 59) / 60);
+                return false;
+            }
             if (player.BuyItem(Price))
             {
+                lastPaid = Main.GameUpdateCount;
                 TamingSystem.Report(Key, 1f);
                 Main.npcChatText = Language.GetTextValue("Mods.CalamityFandom.Taming.Taxes.Paid");
                 Terraria.Audio.SoundEngine.PlaySound(SoundID.Coins);

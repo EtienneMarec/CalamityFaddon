@@ -75,10 +75,33 @@ namespace CalamityFandom.Common.Taming
                     else if (f.Flag)
                         f.Progress++;
                     break;
-                // « Lead ... to the Ocean »
+                // [validé 31/10] Calamity++ (objectif 3) : un mini-jeu de l'Old Man toutes les 30 s de combat, chez le joueur qui
+                // a gagné le bras de fer (sinon le plus proche) : 1 bonneteau, 2 Simon (0 bras de fer, si Skeletron est venu
+                // autrement). f.Flag : jeu ouvert ; f.A : temps de combat depuis le dernier.
+                case OldManWrestle.Key:
+                    if (e.Goal <= 1)
+                        break;
+                    if (f.Flag)
+                    {
+                        // Sécurité : réponse jamais reçue (déconnexion) au bout de 2 min
+                        if (++f.A > 120 * 60)
+                            f.Flag = false;
+                        break;
+                    }
+                    if (++f.A < TamingSystem.SkeletronFightGap * 60)
+                        break;
+                    Player gamer = f.Ints[0] >= 0 && Main.player[f.Ints[0]].active && !Main.player[f.Ints[0]].dead ? Main.player[f.Ints[0]] : p;
+                    if (gamer == null)
+                        break;
+                    f.Flag = true;
+                    f.A = 0f;
+                    TamingSystem.OpenOldManGame(gamer.whoAmI, (int)f.Progress % 3);
+                    break;
+                // « Lead ... to the Ocean » : [validé 31/10] la vraie mer, pas la Sulphurous Sea (l'Aquatic Scourge y apparaît :
+                // il faut le ramener de l'autre côté du monde)
                 case "Desert Scourge":
                 case "Aquatic Scourge":
-                    if (p != null && p.ZoneBeach)
+                    if (p != null && p.ZoneBeach && !p.Calamity().ZoneSulphur)
                         f.Progress++;
                     break;
                 case "Cryogen":
@@ -183,15 +206,18 @@ namespace CalamityFandom.Common.Taming
                     f.WasDay = Main.dayTime;
                     break;
                 // « Cause Ravager to fall into a pool of Shimmer »
+                // [validé 31/10] Un bassin naturel de l'Aether, pas un bassin fait à la main : [choix] au moins 30 blocs
+                // d'Aetherium à moins de 30 blocs du Ravager
                 case "Ravager":
-                    if (npc.shimmerWet)
+                    if (npc.shimmerWet && NaturalAether(npc.Center))
                         f.Progress = e.Goal;
                     break;
                 // « Have Astrum Deus be hit by a fallen star »
                 case "Astrum Deus":
+                    // Chaque étoile compte (une dans la page ; Calamity++ : 3)
                     foreach (var seg in Main.ActiveNPCs)
-                        if (e.Types.Contains(seg.type) && Touching(seg, ProjectileID.FallingStar, countOnce: true, kill: true) > 0)
-                            f.Progress = e.Goal;
+                        if (e.Types.Contains(seg.type))
+                            f.Progress += Touching(seg, ProjectileID.FallingStar, countOnce: true, kill: true);
                     break;
                 // « Give the Dragonfolly a Yharon Soul Fragment » : le fragment lâché au sol doit toucher l'oiseau
                 case "The Dragonfolly":
@@ -328,6 +354,17 @@ namespace CalamityFandom.Common.Taming
         /// Maison dans la Brimstone Crag : en enfer, et plus de 500 blocs de Brimstone Slag ou d'Infernal Suevite autour
         /// (la règle de Calamity pour un joueur, BrimstoneCragsBiome, appliquée à une zone de 120 × 80 blocs).
         /// </summary>
+        private static bool NaturalAether(Vector2 center)
+        {
+            Point c = center.ToTileCoordinates();
+            int count = 0;
+            for (int x = c.X - 30; x <= c.X + 30; x++)
+                for (int y = c.Y - 30; y <= c.Y + 30; y++)
+                    if (WorldGen.InWorld(x, y) && Main.tile[x, y].HasTile && Main.tile[x, y].TileType == TileID.ShimmerBlock && ++count >= 30)
+                        return true;
+            return false;
+        }
+
         public static bool InCrag(Point home)
         {
             if (home.Y < Main.maxTilesY - 200)

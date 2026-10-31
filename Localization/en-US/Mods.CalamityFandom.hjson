@@ -1755,11 +1755,25 @@ Taming: {
 		Lost: The Old Man wins.
 	}
 
+	OldManGames: {
+		ShellTitle: The Old Man's shell game
+		ShellWatch: Watch the skull hiding the key...
+		ShellChoose: Click the skull hiding the key (or press 1, 2, 3).
+		ShellWon: Found it!
+		ShellLost: Wrong skull...
+		SimonTitle: The Old Man's memory game
+		SimonWatch: Watch the order of the lights...
+		SimonRepeat: Repeat it: click the tiles (or 1-4, or arrows). {0}/{1}
+		SimonWon: Perfect memory!
+		SimonLost: Wrong tile...
+	}
+
 	Taxes: {
 		Button: File Draedon's taxes
 		Chat: Draedon hasn't filed his taxes in centuries! Pay me 1 platinum and I'll file them for him... his machines will calm down.
 		Paid: Pleasure doing business. Draedon's paperwork is in order.
 		Poor: You can't even afford 1 platinum? Pathetic.
+		Wait: "Not so fast! Draedon's next tax is due in {0} s."
 	}
 
 	Chess: {
@@ -1779,6 +1793,7 @@ Taming: {
 	Soothed: The Zoologist has soothed {0}: it can be tamed again.
 	SootheName: Soothe: {0}
 	Bees: "{0}/{1} bees"
+	Calming: Calming down... don't attack ({0} s)
 	BeesResting: The Queen Bee is resting ({0} min)
 
 	Food: {

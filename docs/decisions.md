@@ -311,7 +311,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **[technique]** Le message « ... is no longer after you » vient du mod **Boss Checklist** (activé chez l'utilisateur),
   pour tout boss qui disparaît avec des PV : les PV du boss qui part sont mis à 0 au moment où il disparaît, le message
   ne sort plus.
-- **Difficulté du Taming : propositions (31/10, à trancher)**. Remarque de l'utilisateur : apprivoiser doit rester
+- **Difficulté du Taming : propositions (31/10)**, tranchées plus bas. Remarque de l'utilisateur : apprivoiser doit rester
   difficile (battre Skeletron avec le seul bras de fer est trop facile). **[choix]** Principe proposé : Full Fandom suit
   la page telle qu'écrite ; Calamity++ durcit les méthodes trop faciles, par des données (`Balance/taming.json`).
   Levier commun proposé, le **calme final** : quand la méthode est réussie, le boss n'est pas apprivoisé tout de suite,
@@ -362,6 +362,34 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   | Jungle Dragon, Yharon | 5 min sans dégâts | très dure | garder |
   | The Fabricational Quartet | payer 1 platine au Tax Collector | trop facile | une taxe par Exo Mech (3), la suivante 60 s après la précédente |
   | Supreme Calamitas | 5 min jusqu'à 5 % puis alt-f4 | dure | garder |
+
+  **[validé 31/10] Tranché par l'utilisateur** (Calamity++, `Balance/taming.json`, sauf mention) :
+  - **Skeletron** : 3 mini-jeux différents avec 30 s de combat entre chacun : le bras de fer (avant, qui fait venir
+    Skeletron), puis un **bonneteau** (l'Old Man cache une clé sous un des 3 crânes et les mélange 10 fois, de plus en plus
+    vite ; un essai) et un **Simon** (4 dalles de couleur, une suite de 6 à refaire ; une erreur et c'est perdu). Un jeu
+    perdu revient 30 s plus tard ; le monde est figé pendant chaque jeu ; toucher Skeletron fait échouer, comme avant.
+    **[choix]** Les deux nouveaux jeux et leurs réglages (Claude) ; Échap pendant le combat = jeu perdu.
+  - **Calme final** : Crabulon 60 s, The Hive Mind 40 s (proposition de l'utilisateur), The Dragonfolly 60 s, Lunatic
+    Cultist 60 s, Polterghast 60 s ; The Inventors 60 s quand le boss existera. Message « Calming down... don't attack
+    (x s) » toutes les 5 s.
+  - **Fabricational Quartet** : 3 taxes, au moins 60 s entre deux (« Not so fast! ... » sinon, sans payer).
+  - **Desert Scourge** 40 s à la plage, **Cryogen** 20 s dans la Crag, **Skeletron Prime** 2 min, **The Destroyer** 8
+    ruées, **Astrum Deus** 3 étoiles (chaque étoile compte, dans les deux modes ; 1 en Full Fandom).
+  - **Brain of Cthulhu** : 5 problèmes, les 2 derniers en mats en deux ; un mauvais coup retire un problème résolu.
+  - **Wall of Flesh** : le Guide ne peut pas revenir pendant les 3 premières minutes (le mur avance : un peu plus d'un
+    demi petit monde à traverser) ; ensuite, contrôle toutes les 5 s comme avant.
+  - **Brimstone Elemental** (proposition de l'utilisateur) : un PNJ au plus toutes les 30 s (contrôle des arrivées toutes
+    les 30 s au lieu de 5).
+  - **Aquatic Scourge** (les deux modes, sens de la page) : la mer « classique », pas la Sulphurous Sea où il apparaît ;
+    toujours 3 s. Même règle pour le Desert Scourge.
+  - **Ravager** (les deux modes) : seulement un bassin naturel de l'Aether, pas un bassin fait à la main. **[choix]** au
+    moins 30 blocs d'Aetherium à moins de 30 blocs.
+  - **Gardés tels quels** : Calamitas (contact trop difficile à tenir vu ses déplacements), Aquatic Scourge 3 s, les autres
+    marqués « garder ».
+  - **Twins** (question de l'utilisateur) : il faut être tourné vers chaque jumeau, ligne de vue dégagée, 1 min chacun en
+    même temps ; plus d'1 s hors de vue remet son compte à zéro.
+  - **Queen Bee** : seulement les petites abeilles des ruches, pas celles du joueur (Beenade, Bee Gun...) : en attente
+    (voir la question posée : hors combat, seules les ruches suspendues qu'on fait tomber en libèrent, 2 à 5 chacune).
 - **Méthodes testées et validées en jeu par l'utilisateur** (31/10, dans l'ordre de ses tests) : King Slime, Desert
   Scourge, Eye of Cthulhu, Crabulon, Eater of Worlds, Brain of Cthulhu, The Hive Mind (« Place 100 books during the
   fight »), The Perforators, Queen Bee.

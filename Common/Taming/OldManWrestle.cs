@@ -73,7 +73,7 @@ namespace CalamityFandom.Common.Taming
     /// réussi, la zone change de place et le cran accélère de 5 % (jusqu'à ×2). [validé 31/10] Un coup raté fait reculer de
     /// 3 ([choix] dans les 3-4 demandés) ; tout est figé pendant le bras de fer, comme aux échecs.
     /// </summary>
-    public class WrestleSession
+    public class WrestleSession : OldManGame
     {
         public const int Goal = 50, OldManPull = 1, PullTicks = 30, Hit = 5, DoubleHit = 10, Miss = 3, Cooldown = 20;
         public const float ZoneHalf = 0.1f, BaseSpeed = 1f / 60f;
@@ -84,11 +84,13 @@ namespace CalamityFandom.Common.Taming
         public int Flash;
         public Color FlashColor;
 
-        /// <summary>1 gagné, -1 perdu, 0 en cours.</summary>
-        public int Result => Meter >= Goal ? 1 : Meter <= -Goal ? -1 : 0;
+        public override int Result => Meter >= Goal ? 1 : Meter <= -Goal ? -1 : 0;
+        public override string Title => Language.GetTextValue("Mods.CalamityFandom.Taming.Wrestle.Title");
+        public override string Help => Language.GetTextValue("Mods.CalamityFandom.Taming.Wrestle.Help");
 
-        public void Update(bool click)
+        public override void Update(OldManInput input)
         {
+            bool click = input.Click || input.Space;
             Cursor += Speed * direction;
             if (Cursor > 1f || Cursor < 0f)
             {
@@ -127,15 +129,44 @@ namespace CalamityFandom.Common.Taming
             Zone = Main.rand.NextFloat(ZoneHalf, 1f - ZoneHalf);
             Speed = Math.Min(Speed * 1.05f, BaseSpeed * 2f);
         }
+
+        public override void Draw(SpriteBatch sb, Rectangle panel)
+        {
+            Texture2D pixel = TextureAssets.MagicPixel.Value;
+            string key = "Mods.CalamityFandom.Taming.Wrestle.";
+            // Bras de fer : à gauche l'Old Man, à droite le joueur
+            var tug = new Rectangle(panel.X + 20, panel.Y + 40, panel.Width - 40, 18);
+            sb.Draw(pixel, tug, new Color(90, 70, 60));
+            float ratio = (Meter + Goal) / (2f * Goal);
+            sb.Draw(pixel, new Rectangle(tug.X, tug.Y, (int)(tug.Width * Math.Clamp(ratio, 0f, 1f)), tug.Height), new Color(110, 190, 90));
+            sb.Draw(pixel, new Rectangle(tug.Center.X - 1, tug.Y - 3, 2, tug.Height + 6), Color.White);
+            Utils.DrawBorderString(sb, Language.GetTextValue(key + "OldMan"), new Vector2(tug.X, tug.Bottom + 2), Color.LightGray, 0.75f);
+            string you = Language.GetTextValue(key + "You");
+            Utils.DrawBorderString(sb, you, new Vector2(tug.Right - FontAssets.MouseText.Value.MeasureString(you).X * 0.75f, tug.Bottom + 2), Color.LightGray, 0.75f);
+
+            // Barre du cran : zone (jaune), zone x2 (orange), cran (blanc)
+            var bar = new Rectangle(panel.X + 20, panel.Y + 90, panel.Width - 40, 22);
+            sb.Draw(pixel, bar, Flash > 0 ? Color.Lerp(new Color(30, 30, 30), FlashColor, Flash / 30f) : new Color(30, 30, 30));
+            int zoneX = bar.X + (int)(bar.Width * (Zone - ZoneHalf)), zoneW = (int)(bar.Width * ZoneHalf * 2f);
+            sb.Draw(pixel, new Rectangle(zoneX, bar.Y, zoneW, bar.Height), new Color(220, 200, 60));
+            sb.Draw(pixel, new Rectangle(zoneX + zoneW / 4, bar.Y, zoneW / 2, bar.Height), new Color(240, 130, 40));
+            sb.Draw(pixel, new Rectangle(bar.X + (int)(bar.Width * Cursor) - 2, bar.Y - 4, 4, bar.Height + 8), Color.White);
+        }
     }
 
+    /// <summary>
+    /// Fenêtre des mini-jeux de l'Old Man (bras de fer avant Skeletron ; en Calamity++, bonneteau puis Simon pendant le
+    /// combat). Le monde est figé tant qu'un jeu est ouvert (TamingSystem.ReportWrestling).
+    /// </summary>
     [Autoload(Side = ModSide.Client)]
     public class WrestleUISystem : ModSystem
     {
-        private static WrestleSession session;
+        private static OldManGame session;
+        /// <summary>Jeu lancé pendant le combat contre Skeletron (le résultat va au combat, pas à l'apparition du boss).</summary>
+        private static bool inFight;
 
         /// <summary>Partie en cours ; l'ouvrir ou la fermer fige ou relance le monde (TamingSystem.ReportWrestling).</summary>
-        public static WrestleSession Session
+        public static OldManGame Session
         {
             get => session;
             private set
@@ -147,14 +178,30 @@ namespace CalamityFandom.Common.Taming
         }
         private static int endTimer;
         private static bool mouseWasDown;
-        private const int PanelWidth = 440, PanelHeight = 150;
+        private const int PanelWidth = 440, PanelHeight = 170;
 
-        public static void Open()
+        /// <summary>Panneau, en coordonnées d'interface (centré malgré l'échelle de l'interface).</summary>
+        public static Rectangle Panel =>
+            new((int)(Main.screenWidth / Main.UIScale / 2f) - PanelWidth / 2, (int)(Main.screenHeight / Main.UIScale / 2f) - PanelHeight / 2, PanelWidth, PanelHeight);
+
+        /// <summary>0 : bras de fer, 1 : bonneteau, 2 : Simon ; <paramref name="duringFight"/> : pendant le combat contre Skeletron.</summary>
+        public static void Open(int kind = 0, bool duringFight = false)
         {
-            Session = new WrestleSession();
+            if (Session != null)
+                return;
+            Session = OldManGame.Create(kind);
+            inFight = duringFight;
             endTimer = 0;
-            // Le clic sur le bouton « Arm Wrestle » ne compte pas comme un premier coup
+            // Le clic qui a lancé le jeu (bouton « Arm Wrestle ») ne compte pas comme un premier coup
             mouseWasDown = true;
+        }
+
+        private static void Finish(bool won)
+        {
+            if (inFight)
+                TamingSystem.ReportOldManGame(won);
+            else if (won)
+                TamingSystem.ReportArmWrestleWon();
         }
 
         public override void OnWorldUnload()
@@ -170,6 +217,9 @@ namespace CalamityFandom.Common.Taming
                 return;
             if (Main.LocalPlayer.dead || Main.keyState.IsKeyDown(Keys.Escape))
             {
+                // Abandon pendant le combat : compte comme une défaite (le jeu reviendra 30 s plus tard)
+                if (endTimer == 0 && inFight)
+                    Finish(false);
                 Session = null;
                 return;
             }
@@ -183,64 +233,51 @@ namespace CalamityFandom.Common.Taming
             // [validé 31/10] Clic gauche ou Espace : on repère nous-mêmes le moment où le bouton s'enfonce (mouseLeftRelease
             // est déjà remis à faux quand l'interface se met à jour, le clic ne passait pas)
             bool mouse = Main.mouseLeft;
-            bool click = mouse && !mouseWasDown
-                || Main.keyState.IsKeyDown(Keys.Space) && !Main.oldKeyState.IsKeyDown(Keys.Space);
+            var input = new OldManInput
+            {
+                Click = mouse && !mouseWasDown,
+                Mouse = Main.MouseScreen,
+                Space = Pressed(Keys.Space),
+                Key = Pressed(Keys.D1) || Pressed(Keys.Left) ? 1 : Pressed(Keys.D2) || Pressed(Keys.Up) ? 2
+                    : Pressed(Keys.D3) || Pressed(Keys.Down) ? 3 : Pressed(Keys.D4) || Pressed(Keys.Right) ? 4 : 0,
+            };
             mouseWasDown = mouse;
-            s.Update(click);
+            s.Update(input);
             if (s.Result == 0)
                 return;
             endTimer = 90;
-            // Le résultat s'affiche encore 1,5 s, mais le monde repart tout de suite (Skeletron apparaît et repart)
+            // Le résultat s'affiche encore 1,5 s, mais le monde repart tout de suite
             TamingSystem.ReportWrestling(false);
-            if (s.Result > 0)
-            {
-                SoundEngine.PlaySound(SoundID.Item4);
-                TamingSystem.ReportArmWrestleWon();
-            }
-            else
-                SoundEngine.PlaySound(SoundID.NPCHit2);
+            if (s is WrestleSession)
+                SoundEngine.PlaySound(s.Result > 0 ? SoundID.Item4 : SoundID.NPCHit2);
+            Finish(s.Result > 0);
         }
+
+        private static bool Pressed(Keys key) => Main.keyState.IsKeyDown(key) && !Main.oldKeyState.IsKeyDown(key);
 
         public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
         {
             int index = layers.FindIndex(l => l.Name == "Vanilla: Mouse Text");
             if (index < 0 || Session == null)
                 return;
-            layers.Insert(index, new LegacyGameInterfaceLayer("CalamityFandom: Arm Wrestle", () =>
+            layers.Insert(index, new LegacyGameInterfaceLayer("CalamityFandom: Old Man games", () =>
             {
                 Draw(Main.spriteBatch, Session);
                 return true;
             }, InterfaceScaleType.UI));
         }
 
-        private static void Draw(SpriteBatch sb, WrestleSession s)
+        private static void Draw(SpriteBatch sb, OldManGame s)
         {
             Texture2D pixel = TextureAssets.MagicPixel.Value;
-            var panel = new Rectangle(Main.screenWidth / 2 - PanelWidth / 2, Main.screenHeight / 2 - PanelHeight / 2, PanelWidth, PanelHeight);
+            Rectangle panel = Panel;
             sb.Draw(pixel, panel, new Color(40, 25, 15, 230));
             string key = "Mods.CalamityFandom.Taming.Wrestle.";
-            string title = s.Result > 0 ? Language.GetTextValue(key + "Won") : s.Result < 0 ? Language.GetTextValue(key + "Lost")
-                : Language.GetTextValue(key + "Title");
+            string title = s is WrestleSession && s.Result > 0 ? Language.GetTextValue(key + "Won")
+                : s is WrestleSession && s.Result < 0 ? Language.GetTextValue(key + "Lost") : s.Title;
             Utils.DrawBorderString(sb, title, panel.TopLeft() + new Vector2(10, 6), s.Result < 0 ? Color.OrangeRed : Color.Wheat);
-
-            // Bras de fer : à gauche l'Old Man, à droite le joueur
-            var tug = new Rectangle(panel.X + 20, panel.Y + 40, PanelWidth - 40, 18);
-            sb.Draw(pixel, tug, new Color(90, 70, 60));
-            float ratio = (s.Meter + WrestleSession.Goal) / (2f * WrestleSession.Goal);
-            sb.Draw(pixel, new Rectangle(tug.X, tug.Y, (int)(tug.Width * Math.Clamp(ratio, 0f, 1f)), tug.Height), new Color(110, 190, 90));
-            sb.Draw(pixel, new Rectangle(tug.Center.X - 1, tug.Y - 3, 2, tug.Height + 6), Color.White);
-            Utils.DrawBorderString(sb, Language.GetTextValue(key + "OldMan"), new Vector2(tug.X, tug.Bottom + 2), Color.LightGray, 0.75f);
-            string you = Language.GetTextValue(key + "You");
-            Utils.DrawBorderString(sb, you, new Vector2(tug.Right - FontAssets.MouseText.Value.MeasureString(you).X * 0.75f, tug.Bottom + 2), Color.LightGray, 0.75f);
-
-            // Barre du cran : zone (jaune), zone x2 (orange), cran (blanc)
-            var bar = new Rectangle(panel.X + 20, panel.Y + 90, PanelWidth - 40, 22);
-            sb.Draw(pixel, bar, s.Flash > 0 ? Color.Lerp(new Color(30, 30, 30), s.FlashColor, s.Flash / 30f) : new Color(30, 30, 30));
-            int zoneX = bar.X + (int)(bar.Width * (s.Zone - WrestleSession.ZoneHalf)), zoneW = (int)(bar.Width * WrestleSession.ZoneHalf * 2f);
-            sb.Draw(pixel, new Rectangle(zoneX, bar.Y, zoneW, bar.Height), new Color(220, 200, 60));
-            sb.Draw(pixel, new Rectangle(zoneX + zoneW / 4, bar.Y, zoneW / 2, bar.Height), new Color(240, 130, 40));
-            sb.Draw(pixel, new Rectangle(bar.X + (int)(bar.Width * s.Cursor) - 2, bar.Y - 4, 4, bar.Height + 8), Color.White);
-            Utils.DrawBorderString(sb, Language.GetTextValue(key + "Help"), new Vector2(panel.X + 10, panel.Bottom - 26), Color.Gray, 0.75f);
+            s.Draw(sb, panel);
+            Utils.DrawBorderString(sb, s.Help, new Vector2(panel.X + 10, panel.Bottom - 26), Color.Gray, 0.75f);
         }
     }
 }

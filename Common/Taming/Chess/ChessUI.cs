@@ -19,11 +19,15 @@ namespace CalamityFandom.Common.Taming.Chess
     /// </summary>
     public class ChessSession
     {
-        public const int Needed = 3;
+        /// <summary>Problèmes à résoudre d'après la page (« 3 » : choix validé) ; Calamity++ : objectif du Brain (5).</summary>
+        public const int DefaultNeeded = 3;
+        public readonly int Needed;
 
         /// <summary>Boss à apprivoiser (clé de la page Taming), ou null à l'entraînement.</summary>
         public readonly string Boss;
-        public readonly bool MateInTwo;
+        private readonly bool mateInTwo;
+        /// <summary>[validé 31/10] Calamity++ : les derniers problèmes contre le boss sont des mats en deux.</summary>
+        public bool MateInTwo => mateInTwo || Boss != null && Solved >= Needed - TamingSystem.ChessMateInTwo;
         public int Solved;
         public ChessPosition Position;
         /// <summary>Camp du joueur dans le problème en cours (1 Blancs, -1 Noirs).</summary>
@@ -40,7 +44,8 @@ namespace CalamityFandom.Common.Taming.Chess
         public ChessSession(string boss, bool mateInTwo)
         {
             Boss = boss;
-            MateInTwo = mateInTwo;
+            this.mateInTwo = mateInTwo;
+            Needed = boss != null && TamingSystem.Get(boss) is { } e ? (int)e.Goal : DefaultNeeded;
             Next();
         }
 
@@ -72,6 +77,13 @@ namespace CalamityFandom.Common.Taming.Chess
             SoundEngine.PlaySound(SoundID.MenuTick);
             if (!good)
             {
+                // [validé 31/10] Calamity++ : un mauvais coup fait perdre un problème déjà résolu
+                if (Boss != null && TamingSystem.ChessMissPenalty > 0 && Solved > 0)
+                {
+                    int lost = System.Math.Min(Solved, TamingSystem.ChessMissPenalty);
+                    Solved -= lost;
+                    TamingSystem.Report(Boss, -lost);
+                }
                 Say("Failed", Color.OrangeRed);
                 nextTimer = 90;
                 return;
@@ -182,7 +194,7 @@ namespace CalamityFandom.Common.Taming.Chess
             sb.Draw(pixel, panel, new Color(10, 20, 45, 230));
 
             string title = s.Boss != null
-                ? Language.GetTextValue("Mods.CalamityFandom.Taming.Chess.Title", s.Boss, s.Solved, ChessSession.Needed)
+                ? Language.GetTextValue("Mods.CalamityFandom.Taming.Chess.Title", s.Boss, s.Solved, s.Needed)
                 : Language.GetTextValue("Mods.CalamityFandom.Taming.Chess.Practice");
             Utils.DrawBorderString(sb, title, panel.TopLeft() + new Vector2(10, 6), Color.Cyan);
             string side = Language.GetTextValue("Mods.CalamityFandom.Taming.Chess." + (s.Player > 0 ? "White" : "Black"));

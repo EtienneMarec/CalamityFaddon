@@ -58,6 +58,11 @@ namespace CalamityFandom.Common.Taming
             public int Tier;
             /// <summary>PNJ qui peuvent porter le combat et le butin, par ordre de préférence (le premier type par défaut).</summary>
             public int[] Leads;
+            /// <summary>
+            /// Calme final (ticks, Calamity++) : la méthode réussie, le boss se bat encore ce temps-là avant d'être apprivoisé ;
+            /// le toucher fait échouer, comme avant.
+            /// </summary>
+            public int Calm;
             public int Main => Types[0];
         }
 
@@ -74,6 +79,8 @@ namespace CalamityFandom.Common.Taming
             /// <summary>Dernière maison vue de chaque PNJ de ville (Brimstone Elemental).</summary>
             public readonly Dictionary<int, Point> Homes = new();
             public int ShownQuarter;
+            /// <summary>Temps passé dans le calme final.</summary>
+            public int CalmTicks;
             /// <summary>Tick de début du combat (Main.GameUpdateCount).</summary>
             public uint Started;
         }
@@ -126,7 +133,7 @@ namespace CalamityFandom.Common.Taming
             Add("Eye of Cthulhu", 30, 0, NPCID.EyeofCthulhu);
             Add("Crabulon", 1, 0, ModContent.NPCType<Crabulon>());
             // « Beat the Brain of Cthulhu at chess using the Holographic Chessboard » : 3 problèmes (Chess/ChessUI.cs)
-            Add("Brain of Cthulhu", Chess.ChessSession.Needed, 0, NPCID.BrainofCthulhu, NPCID.Creeper);
+            Add("Brain of Cthulhu", Chess.ChessSession.DefaultNeeded, 0, NPCID.BrainofCthulhu, NPCID.Creeper);
             Add("Eater of Worlds", 3, 0, NPCID.EaterofWorldsHead, NPCID.EaterofWorldsBody, NPCID.EaterofWorldsTail);
             Add("The Hive Mind", 100, 0, ModContent.NPCType<HiveMind>());
             Add("The Perforators", 50, 0, ModContent.NPCType<PerforatorHive>(),
@@ -201,6 +208,14 @@ namespace CalamityFandom.Common.Taming
             public Dictionary<string, float> Goals { get; set; } = new();
             public bool HungaryDelight { get; set; }
             public bool EaterDistinctFoods { get; set; }
+            /// <summary>Calme final en secondes, par boss.</summary>
+            public Dictionary<string, int> Calm { get; set; } = new();
+            public int ChessMateInTwo { get; set; }
+            public int ChessMissPenalty { get; set; }
+            public int TaxGap { get; set; }
+            public int WallGuideDelay { get; set; }
+            public int BrimstoneTownCheck { get; set; } = 5;
+            public int SkeletronFightGap { get; set; } = 30;
         }
 
         /// <summary>Calamity++ : objectifs de Balance/taming.json (King Slime : 3 min au lieu de 5).</summary>
@@ -208,6 +223,8 @@ namespace CalamityFandom.Common.Taming
         {
             HungaryDelight = false;
             EaterDistinctFoods = false;
+            ChessMateInTwo = ChessMissPenalty = TaxGap = WallGuideDelay = 0;
+            BrimstoneTownCheck = 5;
             if (!Config.FandomMode.IsPlus || !Mod.FileExists("Balance/taming.json"))
                 return;
             var balance = System.Text.Json.JsonSerializer.Deserialize<BalanceFile>(Mod.GetFileBytes("Balance/taming.json"),
@@ -217,6 +234,15 @@ namespace CalamityFandom.Common.Taming
                     e.Goal = goal;
             HungaryDelight = balance.HungaryDelight;
             EaterDistinctFoods = balance.EaterDistinctFoods;
+            foreach (var (key, seconds) in balance.Calm)
+                if (Get(key) is { } e)
+                    e.Calm = seconds * 60;
+            ChessMateInTwo = balance.ChessMateInTwo;
+            ChessMissPenalty = balance.ChessMissPenalty;
+            TaxGap = balance.TaxGap;
+            WallGuideDelay = balance.WallGuideDelay;
+            BrimstoneTownCheck = balance.BrimstoneTownCheck;
+            SkeletronFightGap = balance.SkeletronFightGap;
         }
 
         public override void Unload()
@@ -321,7 +347,7 @@ namespace CalamityFandom.Common.Taming
 
         // ---------- événements ----------
 
-        private enum Packet : byte { Progress, Hurt, Soothe, Tamed, Grave, Chess, Wrestle, Wrestling }
+        private enum Packet : byte { Progress, Hurt, Soothe, Tamed, Grave, Chess, Wrestle, Wrestling, OldManGame }
 
         /// <summary>Progrès vu par ce client (nourriture, chat, ruée...) : appliqué ici en solo, envoyé au serveur sinon.</summary>
         public static void Report(string key, float amount)
@@ -349,6 +375,13 @@ namespace CalamityFandom.Common.Taming
 
         /// <summary>Calamity++ (Balance/taming.json) : l'Eater of Worlds demande 3 aliments différents.</summary>
         public static bool EaterDistinctFoods;
+
+        /// <summary>
+        /// Calamity++ (Balance/taming.json, décisions du 31/10) : derniers problèmes d'échecs en mats en deux (Brain of
+        /// Cthulhu), problèmes résolus perdus par mauvais coup, secondes entre deux taxes (Fabricational Quartet), secondes
+        /// sans retour du Guide après l'invocation du Wall of Flesh, secondes entre deux arrivées de PNJ (Brimstone Elemental).
+        /// </summary>
+        public static int ChessMateInTwo, ChessMissPenalty, TaxGap, WallGuideDelay, BrimstoneTownCheck = 5;
 
         /// <param name="player">Joueur à prévenir quand le geste ne compte pas (Crabulon), -1 sinon.</param>
         public static void AddProgress(string key, float amount, int player = -1)
@@ -443,9 +476,58 @@ namespace CalamityFandom.Common.Taming
             var e = Get(OldManWrestle.Key);
             if (e == null || Untamable.Contains(e.Key) || FindMain(e) != null)
                 return;
-            InstantTame.Add(e.Key);
+            // [validé 31/10] Calamity++ : le bras de fer n'est que le premier des trois mini-jeux (Skeletron arrive, puis
+            // bonneteau et Simon, 30 s de combat entre chacun) ; sinon il est apprivoisé aussitôt, comme le dit la page
+            if (e.Goal > 1)
+                skeletronWrestler = player;
+            else
+                InstantTame.Add(e.Key);
             // Comme la malédiction de l'Old Man : il disparaît, la tête de Skeletron apparaît à sa place
             NPC.SpawnSkeletron(player);
+        }
+
+        /// <summary>Joueur qui vient de gagner le bras de fer (le combat de Skeletron qui suit commence à 1 mini-jeu sur 3).</summary>
+        private static int skeletronWrestler = -1;
+
+        /// <summary>Secondes de combat entre deux mini-jeux de l'Old Man (Calamity++).</summary>
+        public static int SkeletronFightGap = 30;
+
+        /// <summary>Le serveur (ou le solo) ouvre le mini-jeu suivant chez ce joueur, pendant le combat contre Skeletron.</summary>
+        public static void OpenOldManGame(int player, int kind)
+        {
+            if (Terraria.Main.netMode == NetmodeID.Server)
+            {
+                var p = ModContent.GetInstance<CalamityFandom>().GetPacket();
+                p.Write((byte)Packet.OldManGame);
+                p.Write((byte)kind);
+                p.Send(player);
+            }
+            else
+                WrestleUISystem.Open(kind, duringFight: true);
+        }
+
+        /// <summary>Résultat d'un mini-jeu pendant le combat (gagné : un de plus ; perdu : il reviendra 30 s plus tard).</summary>
+        public static void ReportOldManGame(bool won)
+        {
+            if (Terraria.Main.netMode == NetmodeID.MultiplayerClient)
+            {
+                var p = ModContent.GetInstance<CalamityFandom>().GetPacket();
+                p.Write((byte)Packet.OldManGame);
+                p.Write(won);
+                p.Send();
+            }
+            else
+                OldManGameResult(won);
+        }
+
+        private static void OldManGameResult(bool won)
+        {
+            if (Active(OldManWrestle.Key) is not Fight f)
+                return;
+            f.Flag = false;
+            f.A = 0f;
+            if (won)
+                f.Progress += 1f;
         }
 
         /// <summary>[validé 31/10] Bras de fer en cours : le monde est figé comme pendant une partie d'échecs.</summary>
@@ -534,6 +616,13 @@ namespace CalamityFandom.Common.Taming
                     if (Terraria.Main.netMode == NetmodeID.Server)
                         ArmWrestleWon(whoAmI);
                     break;
+                case Packet.OldManGame:
+                    // Serveur -> client : mini-jeu à ouvrir ; client -> serveur : résultat
+                    if (Terraria.Main.netMode == NetmodeID.Server)
+                        OldManGameResult(reader.ReadBoolean());
+                    else
+                        WrestleUISystem.Open(reader.ReadByte(), duringFight: true);
+                    break;
                 case Packet.Wrestling:
                     // Client -> serveur : (en cours) ; serveur -> autres clients : + joueur
                     bool wrestling = reader.ReadBoolean();
@@ -605,6 +694,13 @@ namespace CalamityFandom.Common.Taming
                     f.Flag = e.Key == "Empress of Light" && Terraria.Main.dayTime && Terraria.Main.time < 3600;
                     if (InstantTame.Remove(e.Key))
                         f.Progress = e.Goal;
+                    // Bras de fer gagné (Calamity++) : premier mini-jeu fait, 30 s de combat avant le suivant
+                    if (e.Key == OldManWrestle.Key && skeletronWrestler >= 0)
+                    {
+                        f.Progress = 1f;
+                        f.Ints[0] = skeletronWrestler;
+                        skeletronWrestler = -1;
+                    }
                 }
                 if (Untamable.Contains(e.Key))
                     continue;
@@ -613,8 +709,18 @@ namespace CalamityFandom.Common.Taming
                     continue;
                 TamingMethods.Tick(e, f, npc);
                 ShowProgress(e, f, npc);
-                if (f.Progress >= e.Goal)
-                    Tame(e, npc);
+                if (f.Progress < e.Goal)
+                    continue;
+                if (f.CalmTicks < e.Calm)
+                {
+                    // Calme final : le boss se bat encore, il ne faut toujours pas le toucher ; reste affiché toutes les 5 s
+                    if (f.CalmTicks % 300 == 0)
+                        CombatText.NewText(npc.Hitbox, Color.HotPink, Language.GetTextValue("Mods.CalamityFandom.Taming.Calming",
+                            (e.Calm - f.CalmTicks + 59) / 60), true);
+                    f.CalmTicks++;
+                    continue;
+                }
+                Tame(e, npc);
             }
         }
 

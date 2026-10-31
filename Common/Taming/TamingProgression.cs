@@ -29,11 +29,22 @@ namespace CalamityFandom.Common.Taming
         {
             if (Main.netMode == NetmodeID.MultiplayerClient)
                 return;
-            if (TamingSystem.Active("Wall of Flesh") != null || TamingSystem.Active("Brimstone Elemental") != null)
+            var wall = TamingSystem.Active("Wall of Flesh");
+            var brimstone = TamingSystem.Active("Brimstone Elemental");
+            // [validé 31/10] Calamity++ : le Guide ne revient pas pendant les 3 premières minutes du Wall of Flesh (le mur
+            // avance : on a le temps de traverser un peu plus d'un demi petit monde)
+            if (wall != null && Main.GameUpdateCount - wall.Started < TamingSystem.WallGuideDelay * 60)
             {
+                Main.checkForSpawns = 0;
+                return;
+            }
+            if (wall != null || brimstone != null)
+            {
+                // Contrôle toutes les 5 s ; [validé 31/10] Calamity++ : un PNJ toutes les 30 s pendant la Brimstone Elemental
+                int every = (wall != null ? 5 : TamingSystem.BrimstoneTownCheck) * 60;
                 double rate = WorldGen.GetWorldUpdateRate();
                 if (rate > 0)
-                    Main.checkForSpawns = System.Math.Max(Main.checkForSpawns, (int)(7200 / rate) - 300);
+                    Main.checkForSpawns = System.Math.Max(Main.checkForSpawns, (int)(7200 / rate) - every);
             }
         }
     }

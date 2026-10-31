@@ -317,6 +317,11 @@ namespace CalamityFandom.Common.Debug
             Expect(Common.Taming.TamingSystem.EaterDistinctFoods == FandomMode.IsPlus, "Taming de l'Eater of Worlds : 3 aliments différents en Calamity++ seulement");
             Expect(Common.Taming.TamingSystem.CrabulonWindow == 300 && Common.Taming.TamingSystem.HungaryDelight == FandomMode.IsPlus,
                 "Taming de Crabulon : 5 s ; Yharic Delight du Traveling Merchant en Calamity++ seulement");
+            // Difficulté du Taming (31/10) : Calamity++ plus dur, Full Fandom et Minimal comme la page
+            bool plus = FandomMode.IsPlus;
+            Expect(Common.Taming.TamingSystem.Get("The Destroyer").Goal == (plus ? 8 : 5) && Common.Taming.TamingSystem.Get("Skeletron").Goal == (plus ? 3 : 1)
+                && Common.Taming.TamingSystem.Get("Crabulon").Calm == (plus ? 3600 : 0) && Common.Taming.TamingSystem.TaxGap == (plus ? 60 : 0),
+                "Taming : difficulté de Calamity++ (Destroyer 8, Skeletron 3 mini-jeux, calme de Crabulon, taxes espacées)");
             Expect(tames.Count == 42 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
