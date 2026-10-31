@@ -306,6 +306,46 @@ namespace CalamityFandom.Common.Taming.Chess
             return legal;
         }
 
+        /// <summary>
+        /// Position qu'on peut atteindre dans une vraie partie sans promotion : un roi de chaque côté, non adjacents ; pas
+        /// plus de pièces qu'au départ (8 pions, 1 dame, 2 tours, 2 cavaliers, 2 fous, et ces deux fous sur des cases de
+        /// couleurs différentes) ; aucun pion sur la première ou la dernière rangée ; le camp qui ne joue pas n'est pas en échec.
+        /// </summary>
+        public bool IsPlausible(out string why)
+        {
+            why = null;
+            foreach (int side in new[] { 1, -1 })
+            {
+                var counts = new int[7];
+                var bishopColors = new int[2];
+                for (int sq = 0; sq < 64; sq++)
+                {
+                    int piece = Board[sq] * side;
+                    if (piece <= 0)
+                        continue;
+                    counts[piece]++;
+                    if (piece == Bishop)
+                        bishopColors[(File(sq) + Rank(sq)) & 1]++;
+                    if (piece == Pawn && (Rank(sq) == 0 || Rank(sq) == 7))
+                        why = "pion sur la première ou la dernière rangée";
+                }
+                if (counts[King] != 1)
+                    why = "rois";
+                else if (counts[Pawn] > 8 || counts[Queen] > 1 || counts[Rook] > 2 || counts[Knight] > 2 || counts[Bishop] > 2)
+                    why = "plus de pièces qu'au départ";
+                else if (bishopColors[0] > 1 || bishopColors[1] > 1)
+                    why = "deux fous de la même couleur";
+                if (why != null)
+                    return false;
+            }
+            int wk = KingSquare(1), bk = KingSquare(-1);
+            if (Math.Abs(File(wk) - File(bk)) <= 1 && Math.Abs(Rank(wk) - Rank(bk)) <= 1)
+                why = "rois côte à côte";
+            else if (InCheck(-Side))
+                why = "le camp qui ne joue pas est en échec";
+            return why == null;
+        }
+
         public bool IsCheckmate() => InCheck(Side) && LegalMoves().Count == 0;
 
         public bool IsStalemate() => !InCheck(Side) && LegalMoves().Count == 0;

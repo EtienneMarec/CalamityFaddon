@@ -10,7 +10,8 @@ using CalamityFandom.Common.Taming.Chess;
 // Positions tirées au hasard (roi en défense sur ses deux dernières rangées, pions devant lui) puis gardées si :
 //   mate1 : un seul coup mate ;
 //   mate2 : pas de mat en un, un seul coup clé, silencieux (pas un échec), au moins deux réponses possibles ;
-//   pas de sous-promotion (l'interface promeut en dame), pas plus de pièces de chaque sorte qu'au départ.
+//   pas de sous-promotion (l'interface promeut en dame), position possible sans promotion (ChessPosition.IsPlausible :
+//   pas plus de pièces qu'au départ, deux fous sur des couleurs différentes, pas de pion sur les rangées 1 et 8).
 // La moitié des problèmes est retournée pour que les Noirs jouent. Le jeu revérifie tout avec le même moteur.
 if (args.Length > 0 && args[0] == "perft")
 {
@@ -155,8 +156,8 @@ static ChessPosition Random(Random rng, bool rich)
             return null;
         board[sq] = -type;
     }
-    // Position légale : les Noirs (qui ne jouent pas) ne sont pas en échec, les Blancs ont du matériel d'attaque
-    if (p.InCheck(-1) || p.InCheck(1))
+    // Position légale : les Noirs (qui ne jouent pas) ne sont pas en échec, les Blancs non plus au départ
+    if (p.InCheck(-1) || p.InCheck(1) || !p.IsPlausible(out _))
         return null;
     return p;
 }

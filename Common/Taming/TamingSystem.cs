@@ -434,16 +434,30 @@ namespace CalamityFandom.Common.Taming
             NPC.SpawnSkeletron(player);
         }
 
-        /// <summary>Le joueur ouvre ou ferme le Holographic Chessboard (le boss attend pendant la partie).</summary>
-        public static void ReportChess(bool open)
+        /// <summary>
+        /// Le joueur commence ou finit une partie d'échecs contre un boss, assis à la table posée en <paramref name="table"/> :
+        /// le monde est figé pendant la partie, et tous les joueurs doivent le savoir (Chess/ChessScene.cs).
+        /// </summary>
+        public static void ReportChess(bool open, Vector2 table = default)
         {
-            Terraria.Main.LocalPlayer.GetModPlayer<TamingPlayer>().ChessOpen = open;
+            SetChess(Terraria.Main.myPlayer, open, table);
             if (Terraria.Main.netMode != NetmodeID.MultiplayerClient)
                 return;
             var p = ModContent.GetInstance<CalamityFandom>().GetPacket();
             p.Write((byte)Packet.Chess);
             p.Write(open);
+            p.WriteVector2(table);
             p.Send();
+        }
+
+        private static void SetChess(int who, bool open, Vector2 table)
+        {
+            var taming = Terraria.Main.player[who].GetModPlayer<TamingPlayer>();
+            taming.ChessOpen = open;
+            taming.ChessTable = table;
+            taming.ChessStart = Terraria.Main.GameUpdateCount;
+            if (open && Terraria.Main.netMode != NetmodeID.MultiplayerClient)
+                Chess.ChessScene.Arrange(Terraria.Main.player[who], table);
         }
 
         public static void ReportSoothe(string key)
@@ -497,9 +511,20 @@ namespace CalamityFandom.Common.Taming
                         ArmWrestleWon(whoAmI);
                     break;
                 case Packet.Chess:
+                    // Client -> serveur : (ouvert, table) ; serveur -> autres clients : (ouvert, table, joueur)
                     bool open = reader.ReadBoolean();
+                    Vector2 table = reader.ReadVector2();
+                    int who = Terraria.Main.netMode == NetmodeID.Server ? whoAmI : reader.ReadByte();
+                    SetChess(who, open, table);
                     if (Terraria.Main.netMode == NetmodeID.Server)
-                        Terraria.Main.player[whoAmI].GetModPlayer<TamingPlayer>().ChessOpen = open;
+                    {
+                        var forward = ModContent.GetInstance<CalamityFandom>().GetPacket();
+                        forward.Write((byte)Packet.Chess);
+                        forward.Write(open);
+                        forward.WriteVector2(table);
+                        forward.Write((byte)who);
+                        forward.Send(-1, who);
+                    }
                     break;
                 case Packet.Tamed:
                     HappyEffects(reader.ReadVector2());

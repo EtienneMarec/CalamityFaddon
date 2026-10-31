@@ -451,6 +451,20 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   compter) ; promotion toujours en dame ; dans un mat en deux, l'adversaire répond au hasard. Le Brain of Cthulhu et
   ses Creepers attendent pendant la partie (ils jouent). Sans boss proche : entraînement (mats en deux après le Moon
   Lord). Fabriqué à l'établi : 10 Glass, 10 bois, 1 Fallen Star. Sprite et pièces provisoires (`docs/SPRITES.md`).
+  **[validé 31/10, testé]** Fonctionnement de base. Puis, à la demande de l'utilisateur :
+  - **Positions possibles** dans une vraie partie sans promotion (`ChessPosition.IsPlausible`, utilisé par le générateur
+    et l'auto-test) : deux fous d'un camp sur des cases de couleurs différentes (10 des 90 anciens problèmes avaient deux
+    fous sur la même couleur), pas plus de pièces qu'au départ, pas de pion sur les rangées 1 et 8, rois non adjacents,
+    camp qui ne joue pas hors d'échec. Les 90 problèmes ont été régénérés.
+  - **Tout s'arrête** pendant une partie contre un boss : mise à jour des PNJ (boss, Creepers, autres ennemis,
+    animations comprises) et des projectiles sautée, joueurs sans contrôles, immobiles et invulnérables.
+    **[choix]** Tout le monde est figé, aussi en multijoueur (l'état de chaque joueur est envoyé à tous) ; rien n'est
+    figé à l'entraînement (sans boss).
+  - **Table et chaises** : une table et deux chaises en bois (textures des meubles de Terraria) sont dessinées sous les
+    pieds du joueur, par-dessus le décor, et restent jusqu'à la fin du combat (projectile `ChessTable`, sans dégâts) ;
+    le joueur est placé devant la chaise de gauche, tourné vers la droite, le boss au-dessus de celle de droite ; le
+    joueur tend le bras et le Creeper le plus proche vient lui « serrer la main » pendant 1 s (bras et œil montent et
+    descendent ensemble), puis le plateau s'ouvre. Rouvrir le plateau réutilise la même table.
 - **The Slime God** (« Have both slime gods absorb 20 of their respective Blight Slime. Note that blight slimes will
   ignore boss zen while the Slime God is alive ») : une Ebonian Blight Slime qui touche l'Ebonian Paladin (ou une
   Crimulan contre le Crimulan Paladin) disparaît et compte pour lui ; il en faut 20 de chaque ; butin du noyau.

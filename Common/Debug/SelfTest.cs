@@ -393,6 +393,11 @@ namespace CalamityFandom.Common.Debug
                 var pos = Common.Taming.Chess.ChessPosition.FromFen(p.Fen);
                 return pos.MatesInOne().Count > 0 || pos.MatesInTwo().Count != 1;
             });
+            // Positions possibles dans une vraie partie (31/10 : deux fous blancs sur des cases blanches avaient été vus)
+            var implausible = Common.Taming.Chess.ChessPuzzles.Mate1.Concat(Common.Taming.Chess.ChessPuzzles.Mate2)
+                .Select(p => Common.Taming.Chess.ChessPosition.FromFen(p.Fen).IsPlausible(out string why) ? null : $"{p.Fen} ({why})")
+                .Where(s => s != null).ToList();
+            Expect(implausible.Count == 0, $"Taming : positions d'échecs possibles ({string.Join(" ; ", implausible.Take(3))})");
             Expect(Common.Taming.Chess.ChessPuzzles.Mate1.Count >= 30 && Common.Taming.Chess.ChessPuzzles.Mate2.Count >= 30 && mate1Bad == 0 && mate2Bad == 0,
                 $"Taming : problèmes d'échecs ({Common.Taming.Chess.ChessPuzzles.Mate1.Count} mats en un, {Common.Taming.Chess.ChessPuzzles.Mate2.Count} mats en deux, {mate1Bad + mate2Bad} faux)");
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ModContent.ItemType<Content.Items.Taming.HolographicChessboard>()),

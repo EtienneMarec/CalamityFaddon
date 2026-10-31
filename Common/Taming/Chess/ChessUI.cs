@@ -256,25 +256,61 @@ namespace CalamityFandom.Common.Taming.Chess
             Session = null;
         }
 
+        /// <summary>Poignée de main en cours avant l'ouverture du plateau (ticks restants).</summary>
+        private static int intro;
+
         public static void Open(string boss, bool mateInTwo)
         {
             Session = new ChessSession(boss, mateInTwo);
             ui.SetState(state);
-            TamingSystem.ReportChess(true);
+            intro = 0;
+            if (boss == null)
+                return;
+            // Contre un boss : table et chaises sous les pieds du joueur, qui s'assoit à gauche, tourné vers le boss
+            Player player = Main.LocalPlayer;
+            Vector2 table = player.Bottom;
+            int tableType = ModContent.ProjectileType<ChessTable>();
+            bool exists = false;
+            foreach (var p in Main.ActiveProjectiles)
+                if (p.type == tableType && p.owner == player.whoAmI)
+                {
+                    table = p.Center;
+                    exists = true;
+                }
+            if (!exists)
+                Projectile.NewProjectile(player.GetSource_Misc("ChessTable"), table, Vector2.Zero, tableType, 0, 0f, player.whoAmI);
+            player.Bottom = table + new Vector2(-ChessScene.ChairOffset, 0f);
+            player.velocity = Vector2.Zero;
+            player.direction = 1;
+            intro = ChessScene.IntroTicks;
+            TamingSystem.ReportChess(true, table);
         }
 
         public static void Close()
         {
+            if (Session?.Boss != null)
+                TamingSystem.ReportChess(false);
             Session = null;
+            intro = 0;
             ui?.SetState(null);
-            TamingSystem.ReportChess(false);
         }
 
         public override void UpdateUI(GameTime gameTime)
         {
             if (Session == null)
                 return;
-            if (Main.LocalPlayer.dead || Main.keyState.IsKeyDown(Keys.Escape) || !Session.Update())
+            if (Main.LocalPlayer.dead || Main.keyState.IsKeyDown(Keys.Escape))
+            {
+                Close();
+                return;
+            }
+            // Le plateau s'ouvre après la poignée de main
+            if (intro > 0)
+            {
+                intro--;
+                return;
+            }
+            if (!Session.Update())
             {
                 Close();
                 return;
@@ -285,7 +321,7 @@ namespace CalamityFandom.Common.Taming.Chess
         public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
         {
             int index = layers.FindIndex(l => l.Name == "Vanilla: Mouse Text");
-            if (index < 0 || Session == null)
+            if (index < 0 || Session == null || intro > 0)
                 return;
             layers.Insert(index, new LegacyGameInterfaceLayer("CalamityFandom: Holographic Chessboard", () =>
             {
