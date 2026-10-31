@@ -62,7 +62,13 @@ namespace CalamityFandom.Common.WikiData
             public List<int> Tiles = new();
             public bool NeedsWater;
             public string Page;
+            /// <summary>Objet vanilla : recette seulement comparée (rapport), pas appliquée.</summary>
+            public bool Vanilla;
         }
+
+        /// <summary>Recettes vanilla que le wiki écrit autrement (objet, recettes du jeu, recettes du wiki), non appliquées.</summary>
+        public static List<(int result, string game, string wiki)> VanillaDiffs { get; } = new();
+        private static bool quiet;
 
         private static RecipesFile data;
         private static Dictionary<string, int> itemsByName;
@@ -157,6 +163,8 @@ namespace CalamityFandom.Common.WikiData
         public override void PostAddRecipes()
         {
             var byResult = new Dictionary<int, List<Resolved>>();
+            var vanillaByResult = new Dictionary<int, List<Resolved>>();
+            VanillaDiffs.Clear();
             foreach (var recipe in data.Recipes)
             {
                 if (!FandomMode.Applies(recipe.Modes))
@@ -164,6 +172,13 @@ namespace CalamityFandom.Common.WikiData
                 var resolved = Resolve(recipe);
                 if (resolved == null)
                     continue;
+                if (resolved.Vanilla)
+                {
+                    if (!vanillaByResult.TryGetValue(resolved.Result, out var vlist))
+                        vanillaByResult[resolved.Result] = vlist = new();
+                    vlist.Add(resolved);
+                    continue;
+                }
                 if (!byResult.TryGetValue(resolved.Result, out var list))
                     byResult[resolved.Result] = list = new();
                 list.Add(resolved);
@@ -178,6 +193,29 @@ namespace CalamityFandom.Common.WikiData
             }
 
             ApplyShimmer();
+            CompareVanilla(vanillaByResult);
+        }
+
+        /// <summary>Recettes vanilla du wiki absentes du jeu : notées pour le rapport (décision à prendre).</summary>
+        private static void CompareVanilla(Dictionary<int, List<Resolved>> vanillaByResult)
+        {
+            foreach (var (result, wanted) in vanillaByResult)
+            {
+                var existing = Main.recipe.Take(Recipe.numRecipes).Where(r => r.createItem.type == result && !r.Disabled).ToList();
+                var signatures = existing.Select(Signature).ToHashSet();
+                var differing = wanted.GroupBy(Signature).Select(g => g.First()).Where(w => !signatures.Contains(Signature(w))).ToList();
+                if (differing.Count > 0)
+                    VanillaDiffs.Add((result, string.Join(" / ", existing.Select(Describe).DefaultIfEmpty("(aucune)")),
+                        string.Join(" / ", differing.Select(Describe))));
+            }
+        }
+
+        public static string Describe(Resolved r)
+        {
+            var parts = r.Ingredients.Select(i => $"{i.stack} " + (i.groupId >= 0 ? RecipeGroup.recipeGroups[i.groupId].GetText()
+                : Lang.GetItemNameValue(i.accepted.First())));
+            var tiles = r.Tiles.Select(t => TileLoader.GetTile(t)?.Name ?? TileID.Search.GetName(t));
+            return $"{string.Join(", ", parts)} @ {string.Join(", ", tiles.DefaultIfEmpty("main"))}{(r.NeedsWater ? " + eau" : "")} → {r.Amount}";
         }
 
         private static void BuildItemNames()
@@ -226,6 +264,8 @@ namespace CalamityFandom.Common.WikiData
 
         private static void NoteMissing(string what)
         {
+            if (quiet)
+                return;
             Missing.TryGetValue(what, out int count);
             Missing[what] = count + 1;
         }
@@ -236,10 +276,14 @@ namespace CalamityFandom.Common.WikiData
             if (result <= 0)
                 return null; // contenu pas encore créé : rien à faire
             string owner = ItemLoader.GetItem(result)?.Mod.Name;
-            if (owner != "CalamityMod" && owner != "CalamityFandom")
-                return null; // recettes vanilla laissées telles quelles pour l'instant
+            // Recettes vanilla laissées telles quelles pour l'instant : seulement comparées pour le rapport (sans compter
+            // leurs noms introuvables, qui ne bloquent rien)
+            bool vanilla = owner != "CalamityMod" && owner != "CalamityFandom";
+            if (vanilla && ItemLoader.GetItem(result) != null)
+                return null; // objet d'un autre mod
+            quiet = vanilla;
 
-            var resolved = new Resolved { Result = result, Amount = Math.Max(1, recipe.Amount), Page = recipe.Page };
+            var resolved = new Resolved { Result = result, Amount = Math.Max(1, recipe.Amount), Page = recipe.Page, Vanilla = vanilla };
             bool ok = true;
             foreach (var ingredient in recipe.Ingredients)
             {
@@ -299,6 +343,7 @@ namespace CalamityFandom.Common.WikiData
                 NoteMissing("station : " + station);
                 ok = false;
             }
+            quiet = false;
             return ok ? resolved : null;
         }
 
@@ -477,6 +522,10 @@ namespace CalamityFandom.Common.WikiData
             sb.AppendLine("| Objet | Avant | Après |").AppendLine("|---|---|---|");
             foreach (var (result, before, after) in Changes.OrderBy(c => Lang.GetItemNameValue(c.result)))
                 sb.AppendLine($"| {Lang.GetItemNameValue(result)} | {before} | {after} |");
+            sb.AppendLine().AppendLine($"## Recettes vanilla que le wiki écrit autrement ({VanillaDiffs.Count}, non appliquées : à décider)").AppendLine();
+            sb.AppendLine("| Objet | Jeu | Wiki |").AppendLine("|---|---|---|");
+            foreach (var (result, game, wiki) in VanillaDiffs.OrderBy(d => Lang.GetItemNameValue(d.result)))
+                sb.AppendLine($"| {Lang.GetItemNameValue(result)} | {game} | {wiki} |");
             sb.AppendLine().AppendLine("## Noms introuvables (par nombre de recettes bloquées)").AppendLine();
             foreach (var (name, count) in Missing.OrderByDescending(kv => kv.Value).ThenBy(kv => kv.Key))
                 sb.AppendLine($"- {name} — {count}");

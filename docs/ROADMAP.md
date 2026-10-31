@@ -27,7 +27,7 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 - [x] Proficiency et Level Meters (31/10, toutes les classes, page Proficiency)
 - [x] Classe Spy : discrétion de la page (31/10, Full Fandom) ; Rage/Adrenaline débloquées par le Metabolic Converter (Full Fandom)
 - [x] Wind : dégâts à l'atterrissage (31/10)
-- [x] **Shortstrike / Shortflurry** (22/10) — reste : 17 effets spéciaux (`reports/shortstrike.md`) et les armes manquantes
+- [x] **Shortstrike / Shortflurry** (22/10) — reste : 2 effets (Lucrecia, Elemental Shiv : armes refaites par Calamity, décision en attente)
 - [x] Taming (31/10) : 41 boss sur 50 (les autres attendent leur boss ou du contenu), Soothing chez le Zoologist ;
       récompenses sans page à trancher
 - [x] Autres pages « Game mechanics » triées (31/10) : historiques (Stress, Iron Heart, Armageddon, Defiled Feather),
@@ -44,7 +44,7 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 - [ ] Variantes d'un même nom (Zombie) dans ces infobox
 - [x] **Matériaux posables** (31/10) : 47 « Block » avec image posée sur le wiki (44 blocs sans bordures, 3 barres)
 - [ ] Bordures des blocs posés ; murs et meubles du wiki
-- [ ] Recettes vanilla modifiées par le wiki (exclues pour l'instant)
+- [ ] Recettes vanilla modifiées par le wiki : 162 différences listées par l'auto-test (`reports/recipes.md`, 31/10), non appliquées — à trancher
 - [ ] Infobulles du wiki sur les objets officiels (quand le comportement correspond)
 
 ## Reworks demandés par les pages (comportement différent de Calamity)

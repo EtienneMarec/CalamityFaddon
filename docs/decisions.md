@@ -186,6 +186,11 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
 - **[choix]** Shimmer : seules les pages « Shimmer » / « Shimmer Transmutation », et seulement si l'objet de départ ou
   d'arrivée vient de Calamity ou de ce mod. « Sanguine Shimmer » est une mécanique inventée, ignorée pour l'instant.
 
+- **[technique]** (31/10) Recettes vanilla : toujours laissées telles quelles, mais l'auto-test compare celles du wiki
+  au jeu et liste les différences dans `reports/recipes.md` (« Recettes vanilla que le wiki écrit autrement ») : 162,
+  dont des recettes pour des objets normalement trouvés (teintures, Feral Claws, Bezoar...) et des potions à
+  l'Unholy Core au lieu des Blood Orbs de Calamity. À trancher par mode.
+
 ## 5. Système d'éléments (`Common/Elements/`, `Balance/elements.json`)
 
 Source : `Elemental System.txt` (17 éléments, une phrase d'effet chacun ; résistant = 50 % des dégâts et immunité à

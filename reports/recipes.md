@@ -1212,6 +1212,173 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Zotplate | (nouvelle) | 1 Essence of Zot, 3 Obsidian @ Hellforge → 3 |
 | Zweihandromeda | (nouvelle) | 1 Stratus Sphere, 1 Galileo Gladius, 1 Crescent Moon, 1 Night's Gaze, 25 Lumenyl, 37 Depth Cells, 4 Ascendant Spirit Essence, 8 Auric Bar @ CosmicAnvil → 1 |
 
+## Recettes vanilla que le wiki écrit autrement (162, non appliquées : à décider)
+
+| Objet | Jeu | Wiki |
+|---|---|---|
+| Acid Dye | (aucune) | 2 Bottled Water, 1 Murky Paste @ DyeVat → 2 |
+| Adamantite Forge | 30 Adamantite Ore, 1 Hellforge @ MythrilAnvil → 1 | 30 Adamantite Ore, 1 Hellforge, 15 Alloy Bar @ Anvils → 1 |
+| Aglet | 5 Any Copper Bar @ Anvils → 1 | 3 Swiftness Potion @ Anvils → 1 |
+| Ammo Reservation Potion | 1 Bottled Water, 1 Double Cod, 1 Moonglow @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Angel Wings | 10 Feather, 20 Soul of Flight, 15 Soul of Light @ Anvils → 1 | 10 Feather, 20 Soul of Flight, 25 Soul of Light @ Anvils → 1 |
+| Anklet of the Wind | 15 Jungle Spores, 5 Cloud, 5 Pink Gel @ Anvils → 1 | 5 Vine, 15 Cloud, 1 Ruby @ Anvils → 1 |
+| Archery Potion | 1 Bottled Water, 1 Daybloom, 1 Lens @ Bottles → 1 / 1 Bottled Water, 10 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 / 1 Bottled Water, 2 Lens, 1 Blighted Lens @ Bottles → 1 |
+| Bacon | (aucune) | 1 Piggy @ CookingPots → 1 |
+| Battle Potion | 1 Bottled Water, 1 Deathweed, 1 Rotten Chunk @ Bottles → 1 / 1 Bottled Water, 1 Deathweed, 1 Vertebra @ Bottles → 1 / 1 Bottled Water, 10 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Bezoar | (aucune) | 3 Murky Paste, 7 Stinger @ Anvils → 1 |
+| Black Lens | (aucune) | 1 Lens, 1 Black Dye @ DyeVat → 1 |
+| Blizzard in a Bottle | 1 Cloud in a Bottle, 1 Frost Core @ CrystalBall → 1 / 1 Bottle, 15 Cloud, 30 Any Snow Block, 3 Feather @ Anvils → 1 | 4 Cloud in a Bottle, 50 Ice Block @ Anvils → 1 |
+| Bloodbath Dye | (aucune) | 1 Bottled Water, 1 Blood Orb @ DyeVat → 1 / 150 Bottled Water, 1 Bloody Vein @ DyeVat → 150 |
+| Blue Acid Dye | (aucune) | 2 Bottled Water, 1 Stormlion Mandible @ DyeVat → 2 |
+| Bug Net | (aucune) | 3 Any Iron Bar, 5 Silk @ Anvils → 1 |
+| Builder Potion | 1 Bottled Water, 1 Blinkroot, 1 Shiverthorn, 1 Moonglow @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Burning Hades Dye | (aucune) | 1 Bottled Water, 2 Living Fire Block @ DyeVat → 1 |
+| Calming Potion | 1 Bottled Water, 1 Damselfish, 1 Daybloom @ Bottles → 1 / 1 Bottled Water, 10 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Celestial Magnet | (aucune) | 20 Fallen Star, 1 Lucky Horseshoe, 5 Soul of Light, 5 Soul of Night, 3 Any Cobalt Bar @ Anvils → 1 |
+| Chlorophyte Dye | (aucune) | 1 Bottled Water, 1 Chlorophyte Ore @ DyeVat → 1 |
+| Clay Pot | 5 Clay Block @ Furnaces → 1 / 5 Astral Clay @ Furnaces → 1 | 2 Astral Clay @ Furnaces → 1 |
+| Cloud in a Bottle | 1 Bottle, 30 Cloud, 2 Feather @ Anvils → 1 | 25 Feather, 12 Bottle, 50 Fallen Star @ Anvils → 1 |
+| Cobalt Shield | 5 Any Cobalt Bar @ Anvils → 1 | 10 Any Iron Bar @ Anvils → 1 |
+| Cooked Fish | 1 Bass @ CookingPots → 1 / 1 Trout @ CookingPots → 1 / 1 Atlantic Cod @ CookingPots → 1 / 1 Twinkling Pollox @ CookingPots → 1 / 1 Prismatic Guppy @ CookingPots → 1 / 1 Coralskin Foolfish @ CookingPots → 1 / 1 Gleaming Cucumber @ CookingPots → 1 / 1 Molten Fishron @ CookingPots → 1 / 1 Specular Sturgeon @ CookingPots → 1 / 1 Squidoom @ CookingPots → 1 | 1 Crag Bullhead @ CookingPots → 1 |
+| Crate Potion | 1 Bottled Water, 1 Amber, 1 Moonglow, 1 Shiverthorn, 1 Waterleaf @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Dangersense Potion | 1 Bottled Water, 1 Shiverthorn, 10 Cobweb @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Demon Wings | 10 Feather, 20 Soul of Flight, 15 Soul of Night @ Anvils → 1 | 10 Feather, 20 Soul of Flight, 25 Soul of Night @ Anvils → 1 |
+| Enchanted Sword | 10 Conquest Fragment, 12 Any Gold Bar, 1 Diamond, 1 Ruby @ Anvils → 1 | 5 Essence of Law, 12 Any Gold Bar, 1 Diamond, 1 Ruby @ Anvils → 1 |
+| Endurance Potion | 1 Bottled Water, 1 Armored Cavefish, 1 Blinkroot @ Bottles → 1 / 1 Bottled Water, 15 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 10 Unholy Core @ AlchemyTable → 1 |
+| Fairy Wings | 20 Soul of Flight, 99 Pixie Dust @ Anvils → 1 | 20 Soul of Flight, 100 Pixie Dust @ Anvils → 1 |
+| Featherfall Potion | 1 Bottled Water, 1 Daybloom, 1 Blinkroot, 1 Feather @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Feral Claws | (aucune) | 10 Silk @ Anvils → 1 |
+| Fire Gauntlet | 1 Magma Stone, 1 Mechanical Glove, 8 Abyss Bar @ TinkerersWorkbench → 1 | 1 Magma Stone, 1 Mechanical Glove, 5 Abyss Bar @ TinkerersWorkbench → 1 |
+| Fishing Potion | 1 Bottled Water, 1 Crispy Honey Block, 1 Waterleaf @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Flipper Potion | 1 Bottled Water, 1 Shiverthorn, 1 Waterleaf @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Fogbound Dye | (aucune) | 1 Bottled Water, 1 Cloud @ DyeVat → 1 |
+| Frog Leg | 6 Frog @ Anvils → 1 | 1 Sailfish Boots @ Anvils → 1 |
+| Frozen Turtle Shell | (aucune) | 3 Turtle Shell, 9 Essence of Eleum @ IceMachine → 1 |
+| Gel Dye | (aucune) | 1 Bottled Water, 1 Blighted Gel @ DyeVat → 1 |
+| Gender Change Potion | 1 Bottled Water, 1 Daybloom, 1 Moonglow, 1 Blinkroot, 1 Waterleaf, 1 Deathweed, 1 Shiverthorn, 1 Fireblossom @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Gills Potion | 1 Bottled Water, 1 Waterleaf, 1 Coral @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Glass | 2 Glass Platform @ main → 1 / 2 Any Sand Block @ Furnaces → 1 / 4 Glass Wall @ WorkBenches → 1 | 2 Astral Clay @ Furnaces → 1 |
+| Glowing Mushroom Dye | (aucune) | 2 Bottled Water, 1 Mushroom Grass Seeds @ DyeVat → 2 / 25 Bottled Water, 1 Delicious Meat @ DyeVat → 25 |
+| Gravitation Potion | 1 Bottled Water, 1 Fireblossom, 1 Deathweed, 1 Blinkroot, 1 Feather @ Bottles → 1 / 1 Bottled Water, 10 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Grim Dye | (aucune) | 1 Bottled Water, 1 Blood Sample @ DyeVat → 1 / 100 Bottled Water, 1 Bloody Vein @ DyeVat → 100 |
+| Guide Voodoo Doll | (aucune) | 2 Leather, 10 Any Evil Powder @ Hellforge → 1 |
+| Hades Dye | (aucune) | 1 Bottled Water, 2 Living Frost Fire Block @ DyeVat → 1 |
+| Hallowed Bar | 4 Hallowed Ore @ AdamantiteForge → 1 | 4 Hallowed Ore, 5 Pixie Dust @ AdamantiteForge → 1 |
+| Hand Warmer | 10 Silk @ Loom → 1 | 5 Silk, 1 Shiverthorn, 10 Any Snow Block @ Loom → 1 |
+| Heartreach Potion | 1 Bottled Water, 1 Crimson Tigerfish, 1 Daybloom @ Bottles → 1 / 1 Bottled Water, 15 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Hermes Boots | 10 Silk, 5 Swiftness Potion @ Loom → 1 | 10 Silk, 2 Swiftness Potion @ Loom → 1 |
+| Hook of Dissonance | (aucune) | 1 Diamond Hook, 10 Soul of Light, 5 Cryonic Bar, 10 Crystal Shard @ MythrilAnvil → 1 |
+| Hunter Potion | 1 Bottled Water, 1 Daybloom, 1 Blinkroot, 1 Shark Fin @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Ice Boomerang | (aucune) | 20 Any Ice Block, 10 Any Snow Block, 1 Shiverthorn @ IceMachine → 1 |
+| Ice Machine | (aucune) | 25 Any Ice Block, 15 Any Snow Block, 3 Any Iron Bar @ Anvils → 1 |
+| Ice Mirror | (aucune) | 20 Any Ice Block, 10 Glass, 10 Fallen Star, 5 Iron Bar @ Anvils → 1 |
+| Ice Skates | 3 Flinx Fur, 5 Any Iron Bar @ Loom → 1 | 20 Any Ice Block, 5 Leather, 5 Any Iron Bar @ IceMachine → 1 |
+| Infernal Wisp Dye | (aucune) | 1 Bottled Water, 1 Core of Chaos @ DyeVat → 1 |
+| Inferno Potion | 1 Bottled Water, 1 Flarefin Koi, 2 Obsidifish, 1 Fireblossom @ Bottles → 1 / 1 Bottled Water, 15 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Invisibility Potion | 1 Bottled Water, 1 Blinkroot, 1 Moonglow @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Ironskin Potion | 1 Bottled Water, 1 Daybloom, 1 Iron Ore @ Bottles → 1 / 1 Bottled Water, 1 Daybloom, 1 Lead Ore @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Lava Charm | 3 Lava Bucket, 5 Obsidian, 5 Any Gold Bar @ Anvils → 1 | 5 Char Matter, 5 Hellstone Bar, 25 Obsidian, 5 Any Iron Bar @ Anvils → 1 |
+| Leather | 2 Rotten Chunk @ WorkBenches → 1 / 2 Vertebra @ WorkBenches → 1 | 5 Celestial Onion @ WorkBenches → 1 |
+| Life Crystal | 5 Any Stone Block, 2 Ruby, 1 Healing Potion @ Anvils → 1 | 1 Diamond, 5 Lesser Healing Potion, 2 Ruby, 1 Alloy Bar @ Anvils → 1 |
+| Life Fruit | 10 Planty Mush, 1 Living Shard @ MythrilAnvil → 1 | 1 Living Shard, 1 Life Crystal @ MythrilAnvil → 1 |
+| Lifeforce Potion | 1 Bottled Water, 1 Prismite, 1 Moonglow, 1 Shiverthorn, 1 Waterleaf @ Bottles → 1 / 1 Bottled Water, 15 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Lihzahrd Power Cell | (aucune) | 15 Lihzahrd Brick, 1 Core of Sunlight @ LihzahrdFurnace → 1 |
+| Living Flame Dye | (aucune) | 15 Bottled Water, 1 Forbidden Fragment @ DyeVat → 15 |
+| Living Ocean Dye | (aucune) | 15 Bottled Water, 1 Frost Core @ DyeVat → 15 |
+| Living Rainbow Dye | (aucune) | 2 Bottled Water, 1 Rainbow Brick @ DyeVat → 2 |
+| Loki's Dye | (aucune) | 1 Bottled Water, 1 Mollusk Husk @ DyeVat → 1 |
+| Love Potion | 1 Bottled Water, 1 Princess Fish, 1 Shiverthorn @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Lucky Horseshoe | 8 Any Gold Bar @ Anvils → 1 | 10 Sunplate Block, 10 Cloud, 5 Any Gold Bar @ Anvils → 1 |
+| Magic Lantern | (aucune) | 19 Aerialite Bar, 5 Soul of Bright @ MythrilAnvil → 1 |
+| Magic Mirror | 10 Glass, 8 Gold Bar, 3 Diamond @ Furnaces → 1 / 10 Glass, 8 Platinum Bar, 3 Diamond @ Furnaces → 1 | 1 Mana Crystal, 10 Glass, 10 Fallen Star, 1 Alloy Bar @ Anvils → 1 |
+| Magic Power Potion | 1 Bottled Water, 1 Moonglow, 1 Deathweed, 1 Fallen Star @ Bottles → 1 / 1 Bottled Water, 10 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Magic Quiver | (aucune) | 1 Endless Quiver, 10 Pixie Dust, 5 Blighted Lens, 8 Soul of Light @ CrystalBall → 1 |
+| Mana Regeneration Potion | 1 Bottled Water, 1 Moonglow, 1 Daybloom, 1 Fallen Star @ Bottles → 1 / 1 Bottled Water, 10 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Martian Conduit Plating | 2 Martian Platform @ main → 1 / 4 Martian Conduit Wall @ WorkBenches → 1 | 1 Mars Bars @ WorkBenches → 100 |
+| Martian Dye | (aucune) | 1 Bottled Water, 3 Martian Conduit Plating @ DyeVat → 1 |
+| Metal Detector | (aucune) | 10 Wire, 5 Gold Dust, 5 Spelunker Glowstick, 5 Any Gold Bar @ MythrilAnvil → 1 |
+| Midnight Rainbow Dye | (aucune) | 1 Living Rainbow Dye, 3 Martian Conduit Plating @ DyeVat → 1 |
+| Mining Potion | 1 Bottled Water, 1 Antlion Mandible, 1 Blinkroot @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Mirage Dye | (aucune) | 1 Bottled Water, 1 Blighted Lens @ DyeVat → 1 |
+| Money Trough | 1 Piggy Bank, 2 Feather, 1 Blood Orb, 15 Gold Coin @ Anvils → 1 | 100 Delicious Meat, 1 Alloy Bar, 1 Pink Dye @ Anvils → 1 |
+| Muramasa | 7 Aerialite Bar, 10 Bone @ Anvils → 1 | 7 Aerialite Bar, 10 Bone, 22 Alloy Bar @ Anvils → 1 |
+| Music Box | (aucune) | 12 Brimstone Slag, 3 Essence of Chaos @ AshenAltar → 1 |
+| Naughty Present | 20 Silk, 5 Ectoplasm @ MythrilAnvil → 1 | 20 Silk, 1 Skull, 10 Any Gold Bar @ MythrilAnvil → 1 |
+| Negative Dye | (aucune) | 2 Bottled Water, 1 Purified Gel @ DyeVat → 2 |
+| Night Owl Potion | 1 Bottled Water, 1 Daybloom, 1 Blinkroot @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Obsidian Rose | 1 Jungle Rose, 5 Obsidian, 5 Hellstone @ Anvils → 1 | 20 Lava Bucket, 10 Obsidian, 10 Hellstone @ Anvils → 1 |
+| Obsidian Skin Potion | 1 Bottled Water, 1 Fireblossom, 1 Waterleaf, 1 Obsidian @ Bottles → 1 / 1 Bottled Water, 10 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Pharaoh's Mask | (aucune) | 3 Ancient Cloth, 5 Gold Bar @ Loom → 1 |
+| Pharaoh's Robe | (aucune) | 4 Ancient Cloth, 12 Gold Coin @ Loom → 1 |
+| Phase Dye | (aucune) | 2 Bottled Water, 1 Vial of Venom @ DyeVat → 2 |
+| Pink Vase | 4 Clay Block @ Furnaces → 1 / 4 Astral Clay @ Furnaces → 1 | 2 Astral Sand @ Furnaces → 1 |
+| Pixie Dye | (aucune) | 2 Bottled Water, 1 Soul of Plight @ DyeVat → 2 |
+| Pumpkin Moon Medallion | 30 Pumpkin, 5 Ectoplasm @ MythrilAnvil → 1 | 30 Pumpkin, 1 Skull, 10 Any Gold Bar @ MythrilAnvil → 1 |
+| Purple Ooze Dye | (aucune) | 1 Bottled Water, 1 Parched Scale @ DyeVat → 1 |
+| Radar | 5 Any Iron Bar @ Anvils → 1 | 5 Iron Bar @ Anvils → 1 |
+| Rage Potion | 1 Bottled Water, 1 Hemopiranha, 1 Deathweed @ Bottles → 1 / 1 Bottled Water, 15 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Recall Potion | 1 Bottled Water, 1 Specular Fish, 1 Daybloom @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Red Acid Dye | (aucune) | 2 Bottled Water, 1 Demonic Bone Ash @ DyeVat → 2 |
+| Reflective Copper Dye | (aucune) | 1 Reflective Dye, 1 Any Copper Bar @ DyeVat → 1 |
+| Reflective Dye | (aucune) | 3 Bottled Water, 1 Alloy Bar @ DyeVat → 3 |
+| Reflective Gold Dye | (aucune) | 1 Reflective Dye, 1 Any Gold Bar @ DyeVat → 1 |
+| Reflective Metal Dye | (aucune) | 1 Reflective Dye, 1 Dubious Plating @ DyeVat → 1 |
+| Reflective Obsidian Dye | (aucune) | 1 Reflective Dye, 1 Obsidian @ DyeVat → 1 |
+| Reflective Silver Dye | (aucune) | 1 Reflective Dye, 1 Silver Bar @ DyeVat → 1 / 1 Reflective Dye, 1 Tungsten Bar @ DyeVat → 1 |
+| Regeneration Potion | 1 Bottled Water, 1 Daybloom, 1 Mushroom @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Rocket I | 1 Any Iron Bar, 100 Empty Bullet, 4 Explosive Powder @ Anvils → 100 | 20 Empty Bullet, 1 Explosive Powder @ MythrilAnvil → 20 |
+| Sandstorm in a Bottle | 1 Cloud in a Bottle, 1 Forbidden Fragment @ CrystalBall → 1 / 1 Bottle, 15 Cloud, 40 Any Sand Block, 3 Feather @ Anvils → 1 | 10 Desert Feather, 50 Sandstone Block, 1 Bottle, 70 Sand Block @ Anvils → 1 |
+| Shadow Dye | (aucune) | 1 Bottled Water, 1 Black Lens @ DyeVat → 1 |
+| Shadow Key | (aucune) | 1 Golden Key, 20 Obsidian, 5 Bone, 2 Alloy Bar @ Anvils → 1 |
+| Shadowflame Hades Dye | (aucune) | 1 Bottled Water, 2 Living Demon Fire Block @ DyeVat → 1 |
+| Shifting Sands Dye | (aucune) | 1 Bottled Water, 1 Desert Feather @ DyeVat → 1 |
+| Shine Potion | 1 Bottled Water, 1 Daybloom, 1 Glowing Mushroom @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Shiny Red Balloon | 1 White String, 10 Cloud @ Solidifier → 1 | 80 Gel, 40 Cloud, 1 White String @ Solidifier → 1 |
+| Shoe Spikes | (aucune) | 5 Any Iron Bar, 10 Spike @ Anvils → 1 |
+| Shroomite Breastplate | 24 Shroomite Bar @ MythrilAnvil → 1 | 1 Chlorophyte Plate Mail, 120 Glowing Mushroom @ MythrilAnvil → 1 |
+| Shroomite Headgear | 12 Shroomite Bar @ MythrilAnvil → 1 | 1 Chlorophyte Helmet, 60 Glowing Mushroom @ MythrilAnvil → 1 |
+| Shroomite Helmet | 12 Shroomite Bar @ MythrilAnvil → 1 | 1 Chlorophyte Helmet, 60 Glowing Mushroom @ MythrilAnvil → 1 |
+| Shroomite Leggings | 18 Shroomite Bar @ MythrilAnvil → 1 | 1 Chlorophyte Greaves, 80 Glowing Mushroom @ MythrilAnvil → 1 |
+| Shroomite Mask | 12 Shroomite Bar @ MythrilAnvil → 1 | 1 Chlorophyte Helmet, 60 Glowing Mushroom @ MythrilAnvil → 1 |
+| Shuriken | (aucune) | 1 Any Iron Bar @ Anvils → 50 |
+| Skiphs' Blood | (aucune) | 1 Bottled Water, 1 Exodium Cluster @ DyeVat → 1 |
+| Sky Mill | (aucune) | 10 Sunplate Block, 5 Cloud, 3 Rain Cloud @ Anvils → 1 |
+| Slime Staff | 6 Any Wood, 40 Gel @ Anvils → 1 | 6 Any Wood, 40 Gel, 10 Pink Gel @ Anvils → 1 |
+| Snow Globe | 10 Any Snow Block, 5 Glass, 3 Soul of Light, 3 Soul of Night @ Anvils → 1 | 50 Any Snow Block, 10 Glass, 3 Soul of Light, 3 Soul of Night @ Anvils → 1 |
+| Sonar Potion | 1 Bottled Water, 1 Waterleaf, 1 Coral @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Spectre Hood | 12 Spectre Bar @ MythrilAnvil → 1 | 1 Chlorophyte Headgear, 6 Ectoplasm @ MythrilAnvil → 1 |
+| Spectre Mask | 12 Spectre Bar @ MythrilAnvil → 1 | 1 Chlorophyte Headgear, 6 Ectoplasm @ MythrilAnvil → 1 |
+| Spectre Pants | 18 Spectre Bar @ MythrilAnvil → 1 | 1 Chlorophyte Greaves, 9 Ectoplasm @ MythrilAnvil → 1 |
+| Spectre Robe | 24 Spectre Bar @ MythrilAnvil → 1 | 1 Chlorophyte Plate Mail, 12 Ectoplasm @ MythrilAnvil → 1 |
+| Spelunker Potion | 1 Bottled Water, 1 Blinkroot, 1 Moonglow, 1 Gold Ore @ Bottles → 1 / 1 Bottled Water, 1 Blinkroot, 1 Moonglow, 1 Platinum Ore @ Bottles → 1 / 1 Bottled Water, 10 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Starfury | 7 Aerialite Bar, 10 Fallen Star @ Anvils → 1 | 1 Gold Broadsword / Platinum Broadsword, 10 Fallen Star, 3 Essence of Law @ Anvils → 1 |
+| Stink Potion | 1 Bottled Water, 1 Stinkfish, 1 Deathweed @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Summoning Potion | 1 Bottled Water, 1 Variegated Lardfish, 1 Moonglow @ Bottles → 1 / 1 Bottled Water, 15 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Swiftness Potion | 1 Bottled Water, 1 Blinkroot, 1 Cactus @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Target Dummy | 20 Any Wood, 50 Hay @ Sawmill → 1 / 1 Super Dummy @ main → 1 | 1 Super Dummy @ Anvils → 1 |
+| Teleportation Potion | 5 Bottled Water, 1 Chaos Fish, 1 Fireblossom @ Bottles → 5 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Temple Key | (aucune) | 15 Jungle Spores, 15 Rich Mahogany, 15 Soul of Night, 15 Soul of Light @ MythrilAnvil → 1 |
+| Thorns Potion | 1 Bottled Water, 1 Deathweed, 1 Cactus @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Throwing Knife | (aucune) | 1 Any Iron Bar @ Anvils → 50 |
+| Titan Potion | 1 Bottled Water, 1 Bone, 1 Deathweed, 1 Shiverthorn @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Titanium Forge | 30 Titanium Ore, 1 Hellforge @ MythrilAnvil → 1 | 30 Titanium Ore, 1 Hellforge, 15 Alloy Bar @ Anvils → 1 |
+| Truffle Worm | (aucune) | 1 Worm, 15 Glowing Mushroom @ Autohammer → 1 |
+| Turtle Helmet | 12 Chlorophyte Bar, 1 Turtle Shell @ MythrilAnvil → 1 | 1 Chlorophyte Mask, 1 Turtle Shell @ MythrilAnvil → 1 |
+| Turtle Leggings | 18 Chlorophyte Bar, 1 Turtle Shell @ MythrilAnvil → 1 | 1 Chlorophyte Greaves, 1 Turtle Shell @ MythrilAnvil → 1 |
+| Turtle Scale Mail | 24 Chlorophyte Bar, 1 Turtle Shell @ MythrilAnvil → 1 | 1 Chlorophyte Plate Mail, 1 Turtle Shell @ MythrilAnvil → 1 |
+| Turtle Shell | (aucune) | 1 Frozen Turtle Shell @ main → 1 |
+| Twilight Dye | (aucune) | 1 Bottled Water, 1 Stardust @ DyeVat → 1 |
+| Ultrabright Torch | 33 Torch, 1 Sea Prism @ Anvils → 33 | 33 Torch, 1 Sea Prism, 2 Alloy Bar @ Anvils → 33 |
+| Umbrella | 5 Silk, 2 Any Copper Bar @ Loom → 1 | 2 Any Iron Bar, 5 Silk @ Loom → 1 |
+| Unicorn Wisp Dye | (aucune) | 1 Bottled Water, 1 Core of Sunlight @ DyeVat → 1 |
+| Wand of Sparking | 5 Any Wood, 3 Torch, 1 Fallen Star @ Anvils → 1 | 5 Wood, 3 Torch, 10 Gel @ Anvils → 1 |
+| Warmth Potion | 1 Bottled Water, 1 Frost Minnow, 1 Shiverthorn @ Bottles → 1 / 1 Bottled Water, 10 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Water Walking Boots | 5 Leather, 5 Water Walking Potion @ Loom → 1 | 2 Water Walking Potion, 5 Silk @ Anvils → 1 |
+| Water Walking Potion | 1 Bottled Water, 1 Waterleaf, 1 Shark Fin @ Bottles → 1 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Wisp Dye | (aucune) | 1 Bottled Water, 1 Core of Eleum @ DyeVat → 1 |
+| Wormhole Potion | 3 Bottled Water, 1 Specular Fish, 1 Blinkroot @ Bottles → 3 / 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Wrath Potion | 1 Bottled Water, 1 Ebonkoi, 1 Deathweed @ Bottles → 1 / 1 Bottled Water, 15 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+
 ## Noms introuvables (par nombre de recettes bloquées)
 
 - station : Aquatic Hypercomputer Capsules — 9
