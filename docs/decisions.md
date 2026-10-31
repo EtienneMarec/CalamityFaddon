@@ -804,6 +804,15 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   nettoyage du Full Fandom (`WikiLoot.Keep`). Rareté et usage du wiki (Orange, 45). TODO : de jour, la Mechanical
   Horde (événement inventé). Rien ne se passe si un boss mécanique est déjà là.
 
+### Slime Puppet Staff (`Content/Projectiles/Summon/SlimePuppetBall.cs`, rework de la page, 31/10)
+
+- **[choix]** **Full Fandom seulement** (Calamity++ garde les marionnettes de Calamity) : bouton maintenu, une boule de
+  slime suit le curseur (12 px/tick, comme un Magic Missile) ; relâché, elle se fige ; 10 au plus (la plus ancienne
+  disparaît), sans emplacement de sbire ; boules figées à 2,5 blocs ou moins (bord à bord) reliées par une bande de
+  slime. Boules et liens : 0 dégât ; un ennemi qui marche (soumis aux blocs, pas un boss) qui y entre est arrêté
+  (position horizontale d'avant). Elles disparaissent si le joueur meurt ou s'éloigne de plus de 190 blocs. Sprite du
+  wiki (« Slime Puppet » : boule avec yeux quand elle suit, sans une fois figée). Dégâts 0 et mana 5 : infobox.
+
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
   debuffs de Calamity au-dessus des boss.

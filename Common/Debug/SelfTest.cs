@@ -268,6 +268,10 @@ namespace CalamityFandom.Common.Debug
             Expect(solarRates.Any(r => r.itemId == ModContent.ItemType<CalamityMod.Items.Materials.YharonSoulFragment>()),
                 "Taming : Yharon Soul Fragment lâché par les Selenians");
             Expect(ModContent.NPCType<Content.NPCs.Perforators.EstrangedSonHead>() > 0, "Taming : Estranged Son");
+            // Slime Puppet Staff de la page (31/10) : en Full Fandom, il pose des boules de slime
+            int puppetStaff = ModContent.ItemType<CalamityMod.Items.Weapons.Summon.SlimePuppetStaff>();
+            Expect((ContentSamples.ItemsByType[puppetStaff].shoot == ModContent.ProjectileType<Content.Projectiles.Summon.SlimePuppetBall>()) == FandomMode.IsFull,
+                "Slime Puppet Staff : boules de slime en Full Fandom seulement");
             // Matériaux qui se posent (31/10) : bloc plein et barre 1 x 1
             int aeroplate = WikiRecipes.ResolveItem("Aeroplate"), flahium = WikiRecipes.ResolveItem("Flahium Bar");
             Expect(aeroplate > 0 && ContentSamples.ItemsByType[aeroplate].createTile > 0 && Main.tileSolid[ContentSamples.ItemsByType[aeroplate].createTile],

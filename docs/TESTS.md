@@ -528,6 +528,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       boutique ouverte ; elles reviennent à l'aube suivante
 - [x] (31/10, validé) **Eye of Cthulhu (correctif)** : tourner autour de l'œil affiche « 1/30 », « 2/30 »... ; faire un tour
       entier dans l'autre sens affiche « ↺ 0/30 » et repart de zéro ; ses charges seules ne font pas avancer
+- [ ] (31/10) **Slime Puppet Staff (Full Fandom)** : maintenir le clic : une boule de slime suit le curseur ; relâcher : elle se
+      fige ; au-delà de 10, la plus ancienne disparaît ; deux boules proches sont reliées par une bande rose ; un zombie
+      ne traverse ni les boules ni les liens ; aucune n'inflige de dégâts ; en Calamity++, l'arme de Calamity
 - [ ] (31/10) **Matériaux posables** (Cheat Sheet) : Aeroplate, Tenebris, Thorium Ore... se posent comme des blocs pleins
       (texture du wiki, sans bordures), se cassent et redonnent l'objet ; les minerais brillent au Spelunker ; Flahium
       Bar, Verdantium Bar, Omnicidal Sludge Bar se posent comme des barres de métal (empilables)

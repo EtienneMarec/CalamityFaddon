@@ -51,7 +51,7 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 
 - [ ] **Meatmetal Sans** (page Ravager) : vrai combat façon Sans (os, Gaster Blasters, écran noir, Handheld Tank),
       2 phases, apparence ; version minimale déjà en place
-- [ ] **Slime Puppet Staff** : boules de slime qui servent de barrières reliées entre elles (0 dégât, 10 max)
+- [x] **Slime Puppet Staff** (31/10, Full Fandom) : boules de slime qui servent de barrières reliées entre elles (0 dégât, 10 max)
 
 ## Portage du contenu retiré de Calamity (en cours)
 
