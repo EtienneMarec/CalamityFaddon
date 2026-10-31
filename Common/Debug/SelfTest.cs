@@ -257,6 +257,9 @@ namespace CalamityFandom.Common.Debug
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
                 + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));
             Expect(Common.Taming.TamingSystem.EntryOf(NPCID.Spazmatism)?.Key == "The Twins", "Taming : Spazmatism fait partie des Twins");
+            // King Slime : 5 min en Full Fandom (page), 3 min en Calamity++ (Balance/taming.json)
+            float slimeGoal = Common.Taming.TamingSystem.Get("King Slime").Goal;
+            Expect(slimeGoal == (FandomMode.IsPlus ? 3 : 5) * 60 * 60, $"Taming : objectif de King Slime ({slimeGoal / 3600f} min)");
             // Route sans tuer : Slime Gun fabriqué, Yharon Soul Fragment chez les ennemis du Solar Pillar
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ItemID.SlimeGun), "Taming : recette du Slime Gun");
             var solarRates = new List<DropRateInfo>();

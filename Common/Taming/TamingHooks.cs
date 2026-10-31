@@ -38,6 +38,7 @@ namespace CalamityFandom.Common.Taming
         /// </summary>
         private float grown = 1f;
         private float drawnScale;
+        public const float MaxGrowth = 0.5f;
 
         // « Killing a boss will make it untamable »
         public override void OnKill(NPC npc)
@@ -105,7 +106,8 @@ namespace CalamityFandom.Common.Taming
         }
 
         // King Slime « will grow larger as he is sprayed, reaching a maximum size of 100% larger » ; Queen Slime « will grow
-        // 1% larger with each balloon » (jusqu'à +100 %)
+        // 1% larger with each balloon ». [validé 31/10] Plafonné à ×1,5 : King Slime est déjà grand (Calamity le dessine
+        // jusqu'à ×1,5 selon sa vie), ×2 en plus était bien trop gros à l'écran.
         public override void PostAI(NPC npc)
         {
             if (npc.type != NPCID.KingSlime && npc.type != NPCID.QueenSlimeBoss)
@@ -113,7 +115,7 @@ namespace CalamityFandom.Common.Taming
             if (Main.netMode != NetmodeID.MultiplayerClient)
             {
                 var e = TamingSystem.EntryOf(npc.type);
-                float target = e != null && TamingSystem.Active(e.Key) is { } f ? 1f + System.Math.Clamp(f.Progress / e.Goal, 0f, 1f) : 1f;
+                float target = e != null && TamingSystem.Active(e.Key) is { } f ? 1f + MaxGrowth * System.Math.Clamp(f.Progress / e.Goal, 0f, 1f) : 1f;
                 if (System.Math.Abs(target - grown) >= 0.01f || target == 1f && grown != 1f)
                 {
                     grown = target;

@@ -499,8 +499,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] (31/10, phase 2) **Metabolic Converter (Revengeance, les deux modes)** : nouveau personnage sans converter → pas de
       jauges de Rage ni d'Adrenaline ; utiliser le converter (sac de Crabulon) les débloque, définitivement pour ce
       personnage ; pareil en Calamity++ (validé 31/10)
-- [ ] (31/10) **King Slime (correctif)** : le sprite grossit maintenant avec la hitbox (jusqu'à ×2) ; le progrès avance
-      tant qu'il est Slimed par le Slime Gun (debuff au-dessus de lui), même entre deux jets
+- [ ] (31/10) **King Slime (correctif)** : le sprite grossit avec la hitbox, jusqu'à ×1,5 ; le progrès avance tant qu'il
+      est Slimed par le Slime Gun (debuff au-dessus de lui), même entre deux jets ; apprivoisé après 3 min Slimed en
+      Calamity++, 5 min en Full Fandom
 - [ ] (31/10, phase 2) **Taming** (nouveau monde, les deux modes) : King Slime arrosé au Slime Gun grossit, cœurs et
       « ♥ 25 % » ; sans le blesser 5 min → « King Slime has been tamed! », il disparaît et laisse son butin. Plus simples
       à tester : Desert Scourge mené à la plage, Eye of Cthulhu (30 tours), Ravager dans le Shimmer, Duke Fishron près

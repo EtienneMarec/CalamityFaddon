@@ -169,6 +169,24 @@ namespace CalamityFandom.Common.Taming
                 ModContent.NPCType<SupremeCatastrophe>(), ModContent.NPCType<SepulcherHead>(), ModContent.NPCType<SepulcherBody>(),
                 ModContent.NPCType<SepulcherTail>(), ModContent.NPCType<SepulcherArm>(), ModContent.NPCType<SoulSeekerSupreme>(),
                 ModContent.NPCType<BrimstoneHeart>());
+            ApplyBalance();
+        }
+
+        private class BalanceFile
+        {
+            public Dictionary<string, float> Goals { get; set; } = new();
+        }
+
+        /// <summary>Calamity++ : objectifs de Balance/taming.json (King Slime : 3 min au lieu de 5).</summary>
+        private void ApplyBalance()
+        {
+            if (!Config.FandomMode.IsPlus || !Mod.FileExists("Balance/taming.json"))
+                return;
+            var balance = System.Text.Json.JsonSerializer.Deserialize<BalanceFile>(Mod.GetFileBytes("Balance/taming.json"),
+                new System.Text.Json.JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            foreach (var (key, goal) in balance.Goals)
+                if (Get(key) is { } e)
+                    e.Goal = goal;
         }
 
         public override void Unload()
