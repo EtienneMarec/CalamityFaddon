@@ -265,8 +265,10 @@ namespace CalamityFandom.Common.Debug
                     r.ReportDroprates(crabRates, new DropRateInfoChainFeed(1f));
                 Expect(crabRates.Any(r => r.itemId == converter), "le sac de Crabulon contient le Metabolic Converter");
             }
-            // Taming (31/10) : 41 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
+            // Taming (31/10) : 42 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
             var tames = Common.Taming.TamingSystem.Entries;
+            Expect(Common.Taming.TamingSystem.CrabulonWindow == 300 && Common.Taming.TamingSystem.HungaryDelight == FandomMode.IsPlus,
+                "Taming de Crabulon : 5 s ; Yharic Delight du Traveling Merchant en Calamity++ seulement");
             Expect(tames.Count == 42 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "

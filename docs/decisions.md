@@ -302,6 +302,14 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - 42 boss sur 50 ont leur méthode ; les 8 autres attendent leur boss, inventé par le wiki (The Inventors, Wulfrum
   Excavator, Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze ; XP-00 Hypnos a déjà
   sa méthode, les échecs, prête pour son boss). Liste en TODO dans `TamingSystem.PostSetupContent`.
+- **[validé 31/10]** **Crabulon** (« Consume a Yharic Delight while Crabulon is passive right after spawning ») : pendant
+  les **5 premières secondes** du combat, vérifiées là où le combat est suivi (serveur ou solo). La phase calme de
+  Calamity (`ai[0] == 0`, utilisée avant) ne dure que 2 s en normal, 1 s en Death, 15 ticks en Death collé au boss :
+  trop court, et elle revenait après chaque série de sauts. **Calamity++** (`Balance/taming.json`, `hungaryDelight`) :
+  le Yharic Delight (Yharim Bar, donc fin de jeu) s'obtient plus tôt en tapant exactement « Yo, I'm Hungary !! » dans le
+  chat à moins de 10 blocs du Traveling Merchant, qui répond « Hi Hungary, I'm the Traveling Merchant... » et en donne
+  **un seul par passage en ville** (tous joueurs confondus). **[choix]** Apostrophe typographique acceptée, espaces
+  autour ignorés, majuscules exigées ; réponse du marchand écrite par Claude.
 - **[validé 31/10]** **Queen Bee** (« Bring 100 bees into a hive biome ») : comptent les petites abeilles ennemies et
   celles du joueur (Bee Gun, Beenade, Bee's Knees, Hive Pack...). Dans une ruche (mur de ruche derrière l'abeille, ou
   joueur dans le biome), les abeilles du joueur rebondissent sur les blocs sans s'user (au lieu de mourir au 3e

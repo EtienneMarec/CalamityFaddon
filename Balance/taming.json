@@ -1,6 +1,7 @@
 {
-  "_doc": "Équilibrage Calamity++ du Taming (décision du 31/10) : objectifs des méthodes, dans l'unité de chaque méthode (King Slime : ticks passés Slimed, 3 min au lieu des 5 de la page).",
+  "_doc": "Équilibrage Calamity++ du Taming (décision du 31/10) : objectifs des méthodes, dans l'unité de chaque méthode (King Slime : ticks passés Slimed, 3 min au lieu des 5 de la page). hungaryDelight : le Traveling Merchant donne un Yharic Delight à qui lui dit exactement « Yo, I'm Hungary !! » (Taming de Crabulon plus tôt, 31/10).",
   "goals": {
     "King Slime": 10800
-  }
+  },
+  "hungaryDelight": true
 }

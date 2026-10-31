@@ -74,6 +74,8 @@ namespace CalamityFandom.Common.Taming
             /// <summary>Dernière maison vue de chaque PNJ de ville (Brimstone Elemental).</summary>
             public readonly Dictionary<int, Point> Homes = new();
             public int ShownQuarter;
+            /// <summary>Tick de début du combat (Main.GameUpdateCount).</summary>
+            public uint Started;
         }
 
         public static readonly List<Entry> Entries = new();
@@ -191,11 +193,13 @@ namespace CalamityFandom.Common.Taming
         private class BalanceFile
         {
             public Dictionary<string, float> Goals { get; set; } = new();
+            public bool HungaryDelight { get; set; }
         }
 
         /// <summary>Calamity++ : objectifs de Balance/taming.json (King Slime : 3 min au lieu de 5).</summary>
         private void ApplyBalance()
         {
+            HungaryDelight = false;
             if (!Config.FandomMode.IsPlus || !Mod.FileExists("Balance/taming.json"))
                 return;
             var balance = System.Text.Json.JsonSerializer.Deserialize<BalanceFile>(Mod.GetFileBytes("Balance/taming.json"),
@@ -203,6 +207,7 @@ namespace CalamityFandom.Common.Taming
             foreach (var (key, goal) in balance.Goals)
                 if (Get(key) is { } e)
                     e.Goal = goal;
+            HungaryDelight = balance.HungaryDelight;
         }
 
         public override void Unload()
@@ -316,10 +321,22 @@ namespace CalamityFandom.Common.Taming
                 AddProgress(key, amount);
         }
 
+        /// <summary>
+        /// Crabulon : « Consume a Yharic Delight while Crabulon is passive right after spawning ». [validé 31/10] Pendant
+        /// les 5 premières secondes du combat (sa phase calme de Calamity ne dure que 1 à 2 s, trop court).
+        /// </summary>
+        public const int CrabulonWindow = 5 * 60;
+
+        /// <summary>Calamity++ (Balance/taming.json) : le Traveling Merchant donne un Yharic Delight à « Yo, I'm Hungary !! ».</summary>
+        public static bool HungaryDelight;
+
         public static void AddProgress(string key, float amount)
         {
-            if (Active(key) is Fight f)
-                f.Progress += amount;
+            if (Active(key) is not Fight f)
+                return;
+            if (key == "Crabulon" && Terraria.Main.GameUpdateCount - f.Started > CrabulonWindow)
+                return;
+            f.Progress += amount;
         }
 
         /// <summary>Le joueur a été touché : remet à zéro les méthodes « sans prendre de dégâts » (Signus, Yharon).</summary>
@@ -490,7 +507,7 @@ namespace CalamityFandom.Common.Taming
                 }
                 if (!Fights.TryGetValue(e.Key, out var f))
                 {
-                    Fights[e.Key] = f = new Fight { WasDay = Terraria.Main.dayTime };
+                    Fights[e.Key] = f = new Fight { WasDay = Terraria.Main.dayTime, Started = Terraria.Main.GameUpdateCount };
                     // Empress of Light : invoquée à l'aube (première heure du jour)
                     f.Flag = e.Key == "Empress of Light" && Terraria.Main.dayTime && Terraria.Main.time < 3600;
                     if (InstantTame.Remove(e.Key))

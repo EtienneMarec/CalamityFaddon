@@ -274,11 +274,10 @@ namespace CalamityFandom.Common.Taming
             bool food = item.buffType == BuffID.WellFed || item.buffType == BuffID.WellFed2 || item.buffType == BuffID.WellFed3;
             if (food && !player.GetModPlayer<TamingPlayer>().HadWellFed && TamingSystem.Get("Eater of Worlds") is { } eow && TamingSystem.FindMain(eow) != null)
                 TamingSystem.Report(eow.Key, 1f);
-            // « Consume a Yharic Delight while Crabulon is passive right after spawning »
-            if (item.type == WikiData.WikiRecipes.ResolveItem("Yharic Delight"))
-                foreach (var crab in Main.ActiveNPCs)
-                    if (crab.type == ModContent.NPCType<Crabulon>() && crab.ai[0] == 0f)
-                        TamingSystem.Report("Crabulon", 1f);
+            // « Consume a Yharic Delight while Crabulon is passive right after spawning » : la fenêtre de 5 s est
+            // vérifiée là où le combat est suivi (TamingSystem.AddProgress)
+            if (item.type == WikiData.WikiRecipes.ResolveItem("Yharic Delight") && NPC.AnyNPCs(ModContent.NPCType<Crabulon>()))
+                TamingSystem.Report("Crabulon", 1f);
         }
     }
 
@@ -356,6 +355,7 @@ namespace CalamityFandom.Common.Taming
         private static void OnMessage(On_ChatCommandProcessor.orig_ProcessIncomingMessage orig, ChatCommandProcessor self, ChatMessage message, int clientId)
         {
             orig(self, message, clientId);
+            HungaryDelight(message.Text, clientId);
             const string key = "The Devourer of Gods";
             if (string.IsNullOrWhiteSpace(message.Text) || TamingSystem.Active(key) == null)
                 return;
@@ -363,6 +363,51 @@ namespace CalamityFandom.Common.Taming
             points += Insults.Matches(message.Text).Count;
             TamingSystem.AddProgress(key, points);
         }
+
+        public const string HungaryLine = "Yo, I'm Hungary !!";
+        /// <summary>Yharic Delight déjà donné pendant la visite actuelle du Traveling Merchant.</summary>
+        private static bool served;
+
+        /// <summary>
+        /// [validé 31/10] Calamity++ (Balance/taming.json) : taper exactement « Yo, I'm Hungary !! » à moins de 10 blocs du
+        /// Traveling Merchant ; il répond et donne un Yharic Delight (Taming de Crabulon avant la fin du jeu). [validé 31/10]
+        /// Un seul par passage en ville (tous joueurs confondus). [choix] Apostrophe typographique acceptée, espaces autour
+        /// ignorés, majuscules exigées.
+        /// </summary>
+        private static void HungaryDelight(string text, int clientId)
+        {
+            if (!TamingSystem.HungaryDelight || text == null || text.Replace('’', '\'').Trim() != HungaryLine)
+                return;
+            int who = Main.netMode == NetmodeID.SinglePlayer ? Main.myPlayer : clientId;
+            if (who < 0 || who >= Main.maxPlayers)
+                return;
+            Player player = Main.player[who];
+            NPC merchant = null;
+            foreach (var n in Main.ActiveNPCs)
+                if (n.type == NPCID.TravellingMerchant && n.WithinRange(player.Center, 160f))
+                    merchant = n;
+            if (merchant == null || served)
+                return;
+            int delight = WikiData.WikiRecipes.ResolveItem("Yharic Delight");
+            if (delight <= 0)
+                return;
+            served = true;
+            player.QuickSpawnItem(new EntitySource_Gift(merchant), delight);
+            var reply = NetworkText.FromKey("Mods.CalamityFandom.Taming.Hungary", player.name);
+            if (Main.netMode == NetmodeID.Server)
+                ChatHelper.BroadcastChatMessage(reply, Color.LightGreen);
+            else
+                Main.NewText(reply.ToString(), Color.LightGreen);
+        }
+
+        // Le marchand est reparti : le prochain passage redonne droit à un Yharic Delight
+        public override void PostUpdateNPCs()
+        {
+            if (served && !NPC.AnyNPCs(NPCID.TravellingMerchant))
+                served = false;
+        }
+
+        public override void ClearWorld() => served = false;
     }
 
     /// <summary>Apaisement d'un boss vendu par le Zoologist (page Taming, section Soothing) : rien ne reste dans l'inventaire.</summary>
