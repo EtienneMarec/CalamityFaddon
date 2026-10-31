@@ -182,14 +182,25 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
 - **[choix]** Stations : « Iron Anvil » = enclumes fer/plomb, « Mythril Anvil » = enclumes Hardmode, « Alchemy Table only »
   = table d'alchimie, « Placed Bottle » = bouteille posée, « By Hand » = sans station, « Water » = près de l'eau ;
   les autres par le nom de l'objet qui pose la station.
-- **[choix]** Résultats vanilla exclus pour l'instant (le wiki ne liste souvent qu'une partie de leurs recettes).
+- **[validé 31/10]** **Objets de Terraria** : les recettes du wiki s'appliquent aussi, **dans les deux modes**. Pour celles
+  qui cassent la progression ou sont trop pénibles, Calamity++ garde l'ancienne recette en plus, **au cas par cas**
+  (`Balance/recipes.json`, avec la raison de chaque objet ; Minimal suit donc le wiki).
+  **[choix]** Comment : une recette du wiki **remplace** la recette du jeu qui partage au moins un ingrédient avec elle
+  (la plus proche, station comprise : Angel Wings 15 → 25 Soul of Light, potions de l'Alchemy Table en Blood Orb →
+  Unholy Core) ; sans ingrédient commun, elle **s'ajoute** (Glass en Astral Clay à côté du Glass en sable, Feral Claws
+  en Silk). Les recettes de base de Terraria absentes du wiki ne sont **jamais retirées**, même en Full Fandom : le wiki
+  de Calamity ne liste que les recettes qu'il ajoute ou change, pas toutes celles du jeu.
+  **[choix]** Exceptions Calamity++ proposées par Claude (47) : les 42 potions dont la recette en Blood Orb (avant le
+  Hardmode) devient de l'Unholy Core (Hardmode) ; Starfury et Enchanted Sword (Essence of Law, Hardmode, pour des épées
+  d'avant le Hardmode) ; Sandstorm in a Bottle (Desert Feather, Hardmode) ; Cloud in a Bottle (25 Feather, 12 Bottle,
+  50 Fallen Star) ; Obsidian Rose (20 seaux de lave). Remplacés sans exception : ailes (25 âmes), forges (+15 Alloy
+  Bar), Hallowed Bar (+5 Pixie Dust), Life Crystal, Life Fruit, Magic Mirror, armures Turtle, Lava Charm, Muramasa
+  (+22 Alloy Bar), Terra Blade (sans Broken Hero Sword), etc. : liste complète dans `reports/recipes.md`.
 - **[choix]** Shimmer : seules les pages « Shimmer » / « Shimmer Transmutation », et seulement si l'objet de départ ou
   d'arrivée vient de Calamity ou de ce mod. « Sanguine Shimmer » est une mécanique inventée, ignorée pour l'instant.
 
-- **[technique]** (31/10) Recettes vanilla : toujours laissées telles quelles, mais l'auto-test compare celles du wiki
-  au jeu et liste les différences dans `reports/recipes.md` (« Recettes vanilla que le wiki écrit autrement ») : 162,
-  dont des recettes pour des objets normalement trouvés (teintures, Feral Claws, Bezoar...) et des potions à
-  l'Unholy Core au lieu des Blood Orbs de Calamity. À trancher par mode.
+- **[technique]** Avant le 31/10 au soir, les 163 recettes du wiki pour des objets de Terraria étaient seulement comparées
+  au jeu (63 recettes que le jeu n'a pas, 42 potions, 58 recettes changées).
 
 ## 5. Système d'éléments (`Common/Elements/`, `Balance/elements.json`)
 

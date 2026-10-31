@@ -204,6 +204,21 @@ namespace CalamityFandom.Common.Debug
                 foreach (var w in wanted)
                     Expect(actual.Contains(WikiRecipes.Signature(w)), $"recette de {Lang.GetItemNameValue(result)} absente ({w.Page})");
             }
+            // Objets de Terraria (31/10) : recettes du wiki ajoutées ou remplaçantes dans tous les modes, anciennes
+            // gardées en Calamity++ au cas par cas (Balance/recipes.json), recettes de base jamais retirées
+            var recipes = Main.recipe.Take(Recipe.numRecipes).Where(r => !r.Disabled).ToList();
+            bool Has(int result, int ingredient, int stack) =>
+                recipes.Any(r => r.createItem.type == result && r.requiredItem.Any(i => i.type == ingredient && i.stack == stack));
+            Expect(recipes.Any(r => r.createItem.type == ItemID.FeralClaws && r.requiredItem.Any(i => i.type == ItemID.Silk)),
+                "Feral Claws : recette du wiki ajoutée (10 Silk)");
+            Expect(recipes.Any(r => r.createItem.type == ItemID.Glass && r.requiredItem.Any(i => i.type == ItemID.SandBlock)),
+                "Glass : la recette en sable reste (celle du wiki en Astral Clay s'ajoute)");
+            Expect(Has(ItemID.AngelWings, ItemID.SoulofLight, 25) && !Has(ItemID.AngelWings, ItemID.SoulofLight, 15),
+                "Angel Wings : 25 Soul of Light (wiki) au lieu de 15");
+            Expect(Has(ItemID.CloudinaBottle, ItemID.Cloud, 30) == FandomMode.IsPlus && Has(ItemID.CloudinaBottle, ItemID.FallenStar, 50),
+                "Cloud in a Bottle : recette du wiki ; ancienne gardée en Calamity++ seulement");
+            Expect(WikiRecipes.VanillaApplied.Count >= 100 && (WikiRecipes.VanillaKeptOld.Count > 0) == FandomMode.IsPlus,
+                $"objets de Terraria : {WikiRecipes.VanillaApplied.Count} recettes du wiki, {WikiRecipes.VanillaKeptOld.Count} anciennes gardées");
             string reports = ReportsFolder;
             if (!string.IsNullOrEmpty(reports))
                 WikiRecipes.WriteReport(reports);

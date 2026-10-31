@@ -12,8 +12,8 @@ using Terraria.ModLoader;
 namespace CalamityFandom.Common.WikiData
 {
     /// <summary>
-    /// Recettes du wiki (WikiData/recipes.json, généré par tools/gen_recipes.py) appliquées aux objets de Calamity et
-    /// de ce mod. Les noms sont résolus par leur nom anglais en jeu (donc après nos renommages).
+    /// Recettes du wiki (WikiData/recipes.json, généré par tools/gen_recipes.py) appliquées aux objets de Calamity, de
+    /// ce mod et de Terraria. Les noms sont résolus par leur nom anglais en jeu (donc après nos renommages).
     /// Une recette existante est modifiée sur place (ses conditions et callbacks sont conservés) ; rien n'est touché si
     /// elle est déjà identique ou si un ingrédient / une station du wiki n'existe pas encore.
     /// </summary>
@@ -62,12 +62,22 @@ namespace CalamityFandom.Common.WikiData
             public List<int> Tiles = new();
             public bool NeedsWater;
             public string Page;
-            /// <summary>Objet vanilla : recette seulement comparée (rapport), pas appliquée.</summary>
+            /// <summary>Objet de Terraria : ses recettes absentes du wiki sont toujours gardées (le wiki ne les liste pas toutes).</summary>
             public bool Vanilla;
         }
 
-        /// <summary>Recettes vanilla que le wiki écrit autrement (objet, recettes du jeu, recettes du wiki), non appliquées.</summary>
-        public static List<(int result, string game, string wiki)> VanillaDiffs { get; } = new();
+        private class BalanceFile
+        {
+            /// <summary>Objets de Terraria dont Calamity++ garde l'ancienne recette, la recette du wiki venant en plus.</summary>
+            public Dictionary<string, string> KeepVanilla { get; set; } = new();
+        }
+
+        /// <summary>Calamity++ : objets dont l'ancienne recette est gardée (Balance/recipes.json).</summary>
+        private static HashSet<int> keepVanilla = new();
+        /// <summary>Objets de Terraria dont la recette du wiki a été appliquée (pour le rapport et l'auto-test).</summary>
+        public static HashSet<int> VanillaApplied { get; } = new();
+        /// <summary>Calamity++ : objets de Terraria dont l'ancienne recette a été gardée à côté de celle du wiki.</summary>
+        public static HashSet<int> VanillaKeptOld { get; } = new();
         private static bool quiet;
 
         private static RecipesFile data;
@@ -162,9 +172,10 @@ namespace CalamityFandom.Common.WikiData
 
         public override void PostAddRecipes()
         {
+            LoadBalance();
+            VanillaApplied.Clear();
+            VanillaKeptOld.Clear();
             var byResult = new Dictionary<int, List<Resolved>>();
-            var vanillaByResult = new Dictionary<int, List<Resolved>>();
-            VanillaDiffs.Clear();
             foreach (var recipe in data.Recipes)
             {
                 if (!FandomMode.Applies(recipe.Modes))
@@ -172,13 +183,6 @@ namespace CalamityFandom.Common.WikiData
                 var resolved = Resolve(recipe);
                 if (resolved == null)
                     continue;
-                if (resolved.Vanilla)
-                {
-                    if (!vanillaByResult.TryGetValue(resolved.Result, out var vlist))
-                        vanillaByResult[resolved.Result] = vlist = new();
-                    vlist.Add(resolved);
-                    continue;
-                }
                 if (!byResult.TryGetValue(resolved.Result, out var list))
                     byResult[resolved.Result] = list = new();
                 list.Add(resolved);
@@ -189,24 +193,30 @@ namespace CalamityFandom.Common.WikiData
                 // Une recette du wiki produit cet objet : le wiki le connaît, il ne doit pas être masqué en Full Fandom
                 // (cas des noms que tools/gen_baseline.py ne sait pas lire hors du jeu, ex. objets de lore)
                 Modes.FullFandomHiding.HiddenItems.Remove(result);
-                ApplyToResult(result, wanted);
+                ApplyToResult(result, wanted, wanted[0].Vanilla);
             }
 
             ApplyShimmer();
-            CompareVanilla(vanillaByResult);
         }
 
-        /// <summary>Recettes vanilla du wiki absentes du jeu : notées pour le rapport (décision à prendre).</summary>
-        private static void CompareVanilla(Dictionary<int, List<Resolved>> vanillaByResult)
+        /// <summary>
+        /// Calamity++ : Balance/recipes.json → objets de Terraria dont la recette du wiki casserait la progression ou serait
+        /// trop pénible (décision du 31/10 : au cas par cas) ; l'ancienne recette reste, celle du wiki s'y ajoute.
+        /// </summary>
+        private void LoadBalance()
         {
-            foreach (var (result, wanted) in vanillaByResult)
+            keepVanilla = new();
+            if (!FandomMode.IsPlus || !Mod.FileExists("Balance/recipes.json"))
+                return;
+            var balance = JsonSerializer.Deserialize<BalanceFile>(Mod.GetFileBytes("Balance/recipes.json"),
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            foreach (string name in balance.KeepVanilla.Keys)
             {
-                var existing = Main.recipe.Take(Recipe.numRecipes).Where(r => r.createItem.type == result && !r.Disabled).ToList();
-                var signatures = existing.Select(Signature).ToHashSet();
-                var differing = wanted.GroupBy(Signature).Select(g => g.First()).Where(w => !signatures.Contains(Signature(w))).ToList();
-                if (differing.Count > 0)
-                    VanillaDiffs.Add((result, string.Join(" / ", existing.Select(Describe).DefaultIfEmpty("(aucune)")),
-                        string.Join(" / ", differing.Select(Describe))));
+                int type = ResolveItem(name);
+                if (type > 0)
+                    keepVanilla.Add(type);
+                else
+                    Missing["Balance/recipes.json : " + name] = 1;
             }
         }
 
@@ -276,8 +286,8 @@ namespace CalamityFandom.Common.WikiData
             if (result <= 0)
                 return null; // contenu pas encore créé : rien à faire
             string owner = ItemLoader.GetItem(result)?.Mod.Name;
-            // Recettes vanilla laissées telles quelles pour l'instant : seulement comparées pour le rapport (sans compter
-            // leurs noms introuvables, qui ne bloquent rien)
+            // Objets de Terraria : appliqués aussi (décision du 31/10) ; leurs noms introuvables ne sont pas comptés dans le
+            // rapport (ils ne bloquent pas de contenu du wiki)
             bool vanilla = owner != "CalamityMod" && owner != "CalamityFandom";
             if (vanilla && ItemLoader.GetItem(result) != null)
                 return null; // objet d'un autre mod
@@ -377,8 +387,10 @@ namespace CalamityFandom.Common.WikiData
             return Signature(recipe.createItem.stack, ingredients, recipe.requiredTile, water);
         }
 
-        private static void ApplyToResult(int result, List<Resolved> wanted)
+        private static void ApplyToResult(int result, List<Resolved> wanted, bool vanilla)
         {
+            // Calamity++ : ancienne recette gardée, celle du wiki ajoutée à côté
+            bool keepOld = vanilla && keepVanilla.Contains(result);
             // Le wiki liste parfois la même recette sur deux pages
             wanted = wanted.GroupBy(Signature).Select(g => g.First()).ToList();
             var existing = Main.recipe.Take(Recipe.numRecipes).Where(r => r.createItem.type == result && !r.Disabled).ToList();
@@ -402,14 +414,24 @@ namespace CalamityFandom.Common.WikiData
                 return;
 
             Applied[result] = wanted;
+            if (vanilla && remainingWanted.Count > 0)
+            {
+                VanillaApplied.Add(result);
+                if (keepOld)
+                    VanillaKeptOld.Add(result);
+            }
             var template = existing.FirstOrDefault();
             foreach (var target in remainingWanted)
             {
                 // On réécrit la recette existante la plus proche (ingrédients ou station en commun) ; s'il n'y en a
                 // qu'une de chaque côté, c'est forcément la même recette remaniée. Sinon on en crée une nouvelle.
-                var best = unmatched.Select(r => (recipe: r, score: Similarity(r, target)))
+                // Objets de Terraria : seulement une recette qui partage un ingrédient (sinon la recette du wiki est une
+                // autre façon de le faire, ajoutée : Glass en Astral Clay ne remplace pas Glass en sable)
+                var best = unmatched.Where(r => !vanilla || SharedIngredients(r, target) > 0)
+                    .Select(r => (recipe: r, score: Similarity(r, target)))
                     .OrderByDescending(x => x.score).FirstOrDefault();
-                bool reuse = best.recipe != null && (best.score > 0 || (unmatched.Count == 1 && remainingWanted.Count == 1));
+                bool reuse = !keepOld && best.recipe != null
+                    && (best.score > 0 || (!vanilla && unmatched.Count == 1 && remainingWanted.Count == 1));
 
                 Recipe recipe;
                 string before;
@@ -431,8 +453,9 @@ namespace CalamityFandom.Common.WikiData
                 Changes.Add((result, before, Describe(recipe)));
             }
             // Recettes du jeu absentes du wiki (souvent des recettes inverses mur -> bloc) : conservées, sauf en Full
-            // Fandom où seul ce qui est écrit sur le wiki existe
-            if (FandomMode.IsFull)
+            // Fandom où seul ce qui est écrit sur le wiki existe ; toujours conservées pour les objets de Terraria, dont
+            // le wiki de Calamity ne liste pas les recettes de base
+            if (FandomMode.IsFull && !vanilla)
             {
                 foreach (var extra in unmatched)
                 {
@@ -445,13 +468,14 @@ namespace CalamityFandom.Common.WikiData
                 Kept += unmatched.Count;
         }
 
-        private static int Similarity(Recipe recipe, Resolved target)
+        private static int SharedIngredients(Recipe recipe, Resolved target)
         {
             var types = target.Ingredients.SelectMany(i => i.accepted).ToHashSet();
-            int score = recipe.requiredItem.Count(item => types.Contains(item.type));
-            score += recipe.requiredTile.Count(target.Tiles.Contains);
-            return score;
+            return recipe.requiredItem.Count(item => types.Contains(item.type));
         }
+
+        private static int Similarity(Recipe recipe, Resolved target) =>
+            SharedIngredients(recipe, target) + recipe.requiredTile.Count(target.Tiles.Contains);
 
         public static string Describe(Recipe recipe)
         {
@@ -522,10 +546,9 @@ namespace CalamityFandom.Common.WikiData
             sb.AppendLine("| Objet | Avant | Après |").AppendLine("|---|---|---|");
             foreach (var (result, before, after) in Changes.OrderBy(c => Lang.GetItemNameValue(c.result)))
                 sb.AppendLine($"| {Lang.GetItemNameValue(result)} | {before} | {after} |");
-            sb.AppendLine().AppendLine($"## Recettes vanilla que le wiki écrit autrement ({VanillaDiffs.Count}, non appliquées : à décider)").AppendLine();
-            sb.AppendLine("| Objet | Jeu | Wiki |").AppendLine("|---|---|---|");
-            foreach (var (result, game, wiki) in VanillaDiffs.OrderBy(d => Lang.GetItemNameValue(d.result)))
-                sb.AppendLine($"| {Lang.GetItemNameValue(result)} | {game} | {wiki} |");
+            sb.AppendLine().AppendLine($"## Objets de Terraria ({VanillaApplied.Count} avec une recette du wiki ; ancienne recette gardée en plus en Calamity++ : {VanillaKeptOld.Count})").AppendLine();
+            sb.AppendLine(string.Join(", ", VanillaApplied.Select(t => Lang.GetItemNameValue(t) + (VanillaKeptOld.Contains(t) ? " (ancienne gardée)" : ""))
+                .OrderBy(n => n)));
             sb.AppendLine().AppendLine("## Noms introuvables (par nombre de recettes bloquées)").AppendLine();
             foreach (var (name, count) in Missing.OrderByDescending(kv => kv.Value).ThenBy(kv => kv.Key))
                 sb.AppendLine($"- {name} — {count}");

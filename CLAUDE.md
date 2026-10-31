@@ -93,7 +93,8 @@ Tester les trois couches : `python tools/selftest.py --mode all`. Référence «
   (sinon Full seulement, « à trancher » dans `reports/stats.md`). Règles : `docs/decisions.md`, section « Stats ».
 
 - `WikiData/recipes.json` — recettes du wiki (généré par `gen_recipes.py`), appliquées par
-  `Common/WikiData/WikiRecipes.cs` aux résultats de Calamity et de ce mod (vanilla exclu pour l'instant). Noms résolus
+  `Common/WikiData/WikiRecipes.cs` aux résultats de Calamity, de ce mod et de Terraria (pour Terraria : ajout, ou remplacement si un ingrédient est commun ;
+  recettes de base jamais retirées ; Calamity++ garde l'ancienne au cas par cas, `Balance/recipes.json`). Noms résolus
   par leur nom anglais en jeu, puis via les redirections du wiki (`aliases`) et `tools/glossary.json` → `aliases`.
   Recette existante modifiée sur place (conditions conservées), jamais désactivée ; rien n'est fait si un ingrédient
   manque. `reports/recipes.md` (écrit par l'auto-test) liste les changements et les **noms introuvables** : c'est la

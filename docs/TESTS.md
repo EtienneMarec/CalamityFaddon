@@ -599,13 +599,16 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       cellule lente avec une aura verte qui touche à travers les blocs, 6 seekers à l'impact ; frappe furtive : seekers
       qui tournent autour. La recette de Celestus du wiki le demande
 - [ ] (31/10 soir) Infobulles de la Catastrophe Claycore et du Warglaive (vides avant)
+- [ ] (31/10 soir) **Recettes du wiki pour les objets de Terraria** : Feral Claws (10 Silk), Glass en Astral Clay (le sable
+      marche toujours), Angel Wings à 25 Soul of Light. Calamity++ : Cloud in a Bottle a ses deux recettes (30 Cloud, ou
+      25 Feather / 12 Bottle / 50 Fallen Star), les potions ont encore leur recette en Blood Orb à l'Alchemy Table en plus de
+      celle à l'Unholy Core ; Full Fandom : plus que les recettes du wiki pour ces objets (les recettes aux herbes restent).
+      Exceptions à revoir au cas par cas : `Balance/recipes.json`
 
 ---
 
 ## Décisions en attente (pas des tests)
 
-- **Recettes vanilla du wiki** (31/10) : 163 différences listées dans `reports/recipes.md` ; appliquer lesquelles, dans
-  quel mode ? (explications données le 31/10 au soir)
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
 
 - [ ] (29/10, en partie tranché le 30/10 : Exo Gladius porté avec sa page, Microcell Cut créée d'après la Disease ;
