@@ -11,7 +11,9 @@ namespace CalamityFandom.Common.Taming.Chess
 {
     /// <summary>
     /// Partie d'échecs face à un adversaire (Holographic Chessboard) : le Brain of Cthulhu (Taming), ou [validé 31/10]
-    /// n'importe quel autre PNJ à moins de 10 blocs, hors boss (ça ne fait rien, c'est pour le plaisir). Tout s'arrête
+    /// n'importe quel autre PNJ à moins de 10 blocs, PNJ de la ville compris, hors boss (ça ne fait rien, c'est pour le
+    /// plaisir) ; personne à portée : même mise en scène, « Sit at the chessboard and play with yourself » à la place de
+    /// l'adversaire. Tout s'arrête
     /// pendant la partie (joueurs, ennemis, boss et ses attaques, projectiles). [validé 31/10] Mise en scène, dans
     /// l'ordre : la table, la chaise du joueur puis celle de l'adversaire apparaissent une par une (dessinées par-dessus
     /// le décor) ; le joueur va s'asseoir ; l'adversaire va à sa chaise, reculée selon la largeur de son sprite ; ils se
@@ -27,6 +29,8 @@ namespace CalamityFandom.Common.Taming.Chess
         public const float ChairOffset = 40f;
         /// <summary>Portée pour un adversaire qui n'est pas un boss : 10 blocs.</summary>
         public const float MobRange = 160f;
+        /// <summary>[validé 31/10] Chaise du Brain of Cthulhu reculée de 7,5 blocs en plus : son aura cachait la scène.</summary>
+        public const float BrainExtraReach = 120f;
 
         /// <summary>Position de départ de chaque adversaire (par joueur), là où les PNJ sont gérés.</summary>
         private static readonly Dictionary<int, Vector2> opponentFrom = new();
@@ -59,23 +63,27 @@ namespace CalamityFandom.Common.Taming.Chess
 
         public override void ClearWorld() => opponentFrom.Clear();
 
-        /// <summary>Un PNJ peut jouer aux échecs pour le plaisir : ni boss (ni morceau de boss du Taming), ni PNJ de la ville.</summary>
+        /// <summary>Un PNJ peut jouer aux échecs pour le plaisir (PNJ de la ville compris) : pas un boss ni un morceau de boss du Taming.</summary>
         public static bool CanPlay(NPC npc) =>
-            npc.active && !npc.boss && !npc.townNPC && !NPCID.Sets.ProjectileNPC[npc.type] && npc.lifeMax > 5
+            npc.active && !npc.boss && !NPCID.Sets.ProjectileNPC[npc.type] && npc.lifeMax > 5
             && (npc.realLife < 0 || npc.realLife == npc.whoAmI) && TamingSystem.EntryOf(npc.type) == null;
 
         /// <summary>Recul de la chaise de l'adversaire : la moitié de la largeur de son sprite, plus la moitié de la table.</summary>
         public static float ReachFor(NPC npc)
         {
             float width = npc.frame.Width > 0 ? npc.frame.Width * npc.scale : npc.width;
-            return 24f + System.MathF.Max(width, npc.width) / 2f;
+            return 24f + System.MathF.Max(width, npc.width) / 2f + (npc.type == NPCID.BrainofCthulhu ? BrainExtraReach : 0f);
         }
 
-        /// <summary>Le joueur local commence la partie face à <paramref name="opponent"/> (appelé par le plateau).</summary>
+        /// <summary>
+        /// Le joueur local commence la partie face à <paramref name="opponent"/> (appelé par le plateau) ; null : personne,
+        /// la chaise d'en face reste vide.
+        /// </summary>
         public static void Begin(NPC opponent)
         {
             Player player = Main.LocalPlayer;
-            float reach = ReachFor(opponent);
+            int opponentIndex = opponent?.whoAmI ?? -1;
+            float reach = opponent != null ? ReachFor(opponent) : ChairOffset;
             Vector2 table = player.Bottom;
             int preAge = 0;
             int tableType = ModContent.ProjectileType<ChessTable>();
@@ -84,7 +92,7 @@ namespace CalamityFandom.Common.Taming.Chess
                 if (p.type != tableType || p.owner != player.whoAmI)
                     continue;
                 // Même adversaire : la table est déjà là (on saute la pose des meubles) ; sinon, on la range
-                if ((int)p.ai[1] == opponent.whoAmI)
+                if ((int)p.ai[1] == opponentIndex)
                 {
                     table = p.Center;
                     reach = p.ai[0];
@@ -94,9 +102,9 @@ namespace CalamityFandom.Common.Taming.Chess
                     p.Kill();
             }
             if (preAge == 0)
-                Projectile.NewProjectile(player.GetSource_Misc("ChessTable"), table, Vector2.Zero, tableType, 0, 0f, player.whoAmI, reach, opponent.whoAmI);
+                Projectile.NewProjectile(player.GetSource_Misc("ChessTable"), table, Vector2.Zero, tableType, 0, 0f, player.whoAmI, reach, opponentIndex);
             player.GetModPlayer<ChessPlayer>().From = player.Bottom;
-            TamingSystem.ReportChess(true, table, preAge, opponent.whoAmI, reach);
+            TamingSystem.ReportChess(true, table, preAge, opponentIndex, reach);
         }
 
         /// <summary>État d'un joueur (localement, ou reçu du réseau).</summary>
@@ -210,11 +218,21 @@ namespace CalamityFandom.Common.Taming.Chess
             if (!ChessScene.Frozen)
                 return;
             Player.velocity = Vector2.Zero;
+            PlaceOnSeat();
+        }
+
+        /// <summary>
+        /// Le joueur local va à sa chaise, tourné vers l'adversaire. Appelé avant et après le mouvement du jeu (les
+        /// corrections de collision passent entre les deux), sans le décalage de marche (gfxOffY) resté figé.
+        /// </summary>
+        private void PlaceOnSeat()
+        {
             if (!Open || Player.whoAmI != Main.myPlayer)
                 return;
-            // Le joueur va à sa chaise, tourné vers l'adversaire
             float t = MathHelper.Clamp((Age - (float)ChessScene.PlayerMoveAt) / (ChessScene.OpponentMoveAt - ChessScene.PlayerMoveAt), 0f, 1f);
             Player.Bottom = Vector2.Lerp(From, ChessScene.PlayerSeat(this), t * t * (3f - 2f * t));
+            Player.velocity = Vector2.Zero;
+            Player.gfxOffY = 0f;
             Player.direction = 1;
         }
 
@@ -225,8 +243,15 @@ namespace CalamityFandom.Common.Taming.Chess
 
         public override void PostUpdate()
         {
+            PlaceOnSeat();
+            // Personne en face : le message apparaît au-dessus de la chaise vide, au moment où l'adversaire viendrait
+            if (Open && Opponent < 0 && Age == ChessScene.OpponentMoveAt && Player.whoAmI == Main.myPlayer)
+            {
+                var chair = new Rectangle((int)(Table.X + Reach) - 40, (int)Table.Y - 80, 80, 40);
+                CombatText.NewText(chair, Color.LightSkyBlue, Terraria.Localization.Language.GetTextValue("Mods.CalamityFandom.Taming.Chess.Alone"), true);
+            }
             // Poignée de main : le bras avant se tend vers l'œil (Brain of Cthulhu) ou vers l'adversaire
-            if (!Open || Age < ChessScene.HandshakeAt || Age > ChessScene.IntroTicks)
+            if (!Open || Opponent < 0 || Age < ChessScene.HandshakeAt || Age > ChessScene.IntroTicks)
                 return;
             Vector2 target = ChessScene.HandPosition(Player, Age);
             if (Opponent >= 0 && Opponent < Main.maxNPCs && Main.npc[Opponent].active && Main.npc[Opponent].type != NPCID.BrainofCthulhu)
@@ -271,10 +296,13 @@ namespace CalamityFandom.Common.Taming.Chess
                 for (int i = 0; i < 8; i++)
                     Dust.NewDust(spot - new Vector2(12f), 24, 24, DustID.WoodFurniture);
             }
-            NPC opponent = Main.npc[(int)Projectile.ai[1]];
+            // Gardée tant que la partie dure ; face à un boss, jusqu'à la fin du combat
+            int index = (int)Projectile.ai[1];
             Player owner = Main.player[Projectile.owner];
-            bool keep = owner.active && opponent.active
-                && (opponent.boss || owner.GetModPlayer<ChessPlayer>().Open && owner.GetModPlayer<ChessPlayer>().Opponent == opponent.whoAmI);
+            var chess = owner.GetModPlayer<ChessPlayer>();
+            bool playing = owner.active && chess.Open && chess.Opponent == index;
+            bool keep = index < 0 ? playing
+                : Main.npc[index].active && (Main.npc[index].boss && owner.active || playing);
             if (keep)
                 Projectile.timeLeft = 2;
         }

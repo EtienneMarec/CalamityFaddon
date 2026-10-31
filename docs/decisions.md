@@ -469,9 +469,16 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
     du Brain of Cthulhu, vient à la main du joueur ; un autre adversaire sautille face au bras tendu) ; puis le plateau.
     **[choix]** Durées : un meuble toutes les 0,25 s, joueur 0,67 s, adversaire 0,83 s, poignée de main 1 s (3,25 s en
     tout). Rouvrir le plateau face au même adversaire réutilise la table sans reposer les meubles.
-  - **[validé 31/10]** **N'importe quel PNJ à moins de 10 blocs** (hors boss, morceaux de boss du Taming et PNJ de la
-    ville) : même mise en scène et monde figé, partie d'entraînement pour le plaisir (ne fait rien). La table disparaît
-    à la fin de la partie (face au Brain of Cthulhu : à la fin du combat). **[choix]** Le plus proche ; bestioles comprises.
+  - **[validé 31/10]** **N'importe quel PNJ à moins de 10 blocs**, **PNJ de la ville compris**, mais **pas les boss** (sauf
+    le Brain of Cthulhu et, plus tard, XP-00 Hypnos, pour leur Taming) ni les morceaux de boss du Taming : même mise en
+    scène et monde figé, partie d'entraînement pour le plaisir (ne fait rien). La table disparaît à la fin de la partie
+    (face au Brain of Cthulhu : à la fin du combat). **[choix]** Le plus proche ; bestioles comprises.
+  - **[validé 31/10]** **Personne à portée** : même mise en scène, mais à la place de l'adversaire, « Sit at the
+    chessboard and play with yourself » s'affiche au-dessus de la chaise vide ; pas de poignée de main.
+  - **[validé 31/10]** Chaise du **Brain of Cthulhu** reculée de 7,5 blocs de plus que sa largeur (son aura rouge et rose
+    cachait la scène). **[choix]** 7,5 blocs, dans la fourchette de 5 à 10 demandée.
+  - **[technique]** Le joueur est placé sur sa chaise avant et après le mouvement du jeu, et le décalage de marche
+    (`gfxOffY`, resté figé) est remis à zéro : il apparaissait parfois au-dessus ou en dessous de la chaise.
 - **The Slime God** (« Have both slime gods absorb 20 of their respective Blight Slime. Note that blight slimes will
   ignore boss zen while the Slime God is alive ») : une Ebonian Blight Slime qui touche l'Ebonian Paladin (ou une
   Crimulan contre le Crimulan Paladin) disparaît et compte pour lui ; il en faut 20 de chaque ; butin du noyau.

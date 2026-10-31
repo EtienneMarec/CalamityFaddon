@@ -256,27 +256,21 @@ namespace CalamityFandom.Common.Taming.Chess
             Session = null;
         }
 
-        /// <summary>Partie face à un PNJ (mise en scène et monde figé), pas un simple entraînement.</summary>
-        private static bool scene;
-
         /// <summary>
-        /// Ouvre le plateau. Face à un adversaire (<paramref name="opponent"/>), la mise en scène de ChessScene se joue
-        /// d'abord et le plateau s'ouvre après.
+        /// Ouvre le plateau : la mise en scène de ChessScene se joue d'abord (face à <paramref name="opponent"/>, ou à une
+        /// chaise vide), et le plateau s'ouvre après.
         /// </summary>
-        public static void Open(string boss, bool mateInTwo, NPC opponent = null)
+        public static void Open(string boss, bool mateInTwo, NPC opponent)
         {
             Session = new ChessSession(boss, mateInTwo);
             ui.SetState(state);
-            scene = opponent != null;
-            if (scene)
-                ChessScene.Begin(opponent);
+            ChessScene.Begin(opponent);
         }
 
         public static void Close()
         {
-            if (scene)
+            if (Session != null)
                 TamingSystem.ReportChess(false);
-            scene = false;
             Session = null;
             ui?.SetState(null);
         }
@@ -313,10 +307,6 @@ namespace CalamityFandom.Common.Taming.Chess
             }, InterfaceScaleType.UI));
         }
 
-        public override void OnWorldUnload()
-        {
-            Session = null;
-            scene = false;
-        }
+        public override void OnWorldUnload() => Session = null;
     }
 }
