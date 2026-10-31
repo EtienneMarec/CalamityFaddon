@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (384)
+## Objets (382)
 
 - A M S
 - AAMG "Disperse"
@@ -289,7 +289,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Flah Round
 - Flame Boy Popsicle
 - Flaming Ice Bow
-- Flare Blade
 - Flarrow
 - Fleshly Megaphone
 - Flint
@@ -297,7 +296,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Fracture Staff
 - Fracturing Fist
 - Frightshooter
-- Frost Blade
 - Frostflow Edge
 - Gamma Ray Burst
 - Garth

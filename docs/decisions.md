@@ -856,6 +856,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   de tModLoader (18 segments, portée x1,1, dégâts -20 % par ennemi traversé).
 - **[technique]** `gen_loot.py` lit les quantités « 25-68/{{expert|37-120}} » (War Arrow, Warglaive et 6 autres).
 
+### Frost Blade et Flare Blade (`Content/Items/Weapons/Melee/ElementBlades.cs`, 31/10)
+
+- Épées du wiki qui servent à fabriquer la Flarefrost Blade : orbe à tête chercheuse (Frostburn ou On Fire! 2 s), la
+  lame inflige le même debuff 3 s ; stats des infobox (la page de la Flare Blade recopie le texte de la Flarefrost
+  Blade : infobox prise). **[choix]** Orbe inspirée du projectile Flarefrost de Calamity (poussière, 3 s, tête
+  chercheuse à 250 px), réduite à un élément.
+
 ### Outils du wiki (`Content/Items/Tools/WikiTools.cs`, 31/10)
 
 - Créés d'après leurs infobox parce qu'ils débloquent une recette du wiki : Windslasher, Gusthammer, Lithos Pickaxe,

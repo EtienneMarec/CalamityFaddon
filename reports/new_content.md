@@ -165,14 +165,14 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] First Crescent — addon: Calamity: Tales of the Aquatic
 - [ ] Flame Boy Popsicle — addon: Calamity: Community Remix
 - [ ] Flaming Ice Bow — addon: Calamity: Community Remix
-- [ ] Flare Blade
+- [x] Flare Blade
 - [ ] Fleshly Megaphone — addon: Calamity: Community Remix
 - [ ] Flint
 - [ ] Flounder Mortar — addon: Calamity: Community Remix
 - [ ] Fracture Staff — addon: Calamity: Community Remix
 - [ ] Fracturing Fist — addon: Calamity: Community Remix
 - [ ] Frightshooter — addon: Calamity: Tales of the Aquatic
-- [ ] Frost Blade
+- [x] Frost Blade
 - [ ] Frostflow Edge — addon: Calamity: Tales of the Aquatic
 - [x] Fulguration Halberd
 - [ ] Gamma Ray Burst — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess

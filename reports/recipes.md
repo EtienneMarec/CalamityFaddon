@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1153 objets dont les recettes ont changé : 977 recettes modifiées, 245 créées
+- 1156 objets dont les recettes ont changé : 978 recettes modifiées, 247 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 95 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 116 recettes
+- 93 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 114 recettes
 
 ## Recettes changées
 
@@ -479,7 +479,9 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Flahium Component | (nouvelle) | 3 Alloy Bar, 16 Aerialite Ore, 16 Arsenic Ore, 16 Charred Ore, 16 Cryonic Ore, 16 Perennial Ore, 16 Apocalyptic Ore, 16 Abyss Ore, 16 Life Ore, 16 Astral Ore, 15 Meld Blob, 100 Stardust, 75 Blood Orb, 15 Parched Scale, 15 Rotten Matter, 15 Blood Sample, 15 Purified Gel, 15 Ashes of Calamity, 15 Living Shard, 15 Plague Cell Canister, 10 Core of Calamity, 10 Orb of Boon, 15 Life Alloy, 22 Delicious Meat, 22 Disgusting Meat, 8 Soul of Plight, 8 Soul of Bright, 8 Soul of Night, 8 Soul of Light, 8 Soul of Flight, 8 Soul of Sight, 8 Soul of Might, 8 Soul of Fright, 5 Herb Bag, 1 Bloody Vein @ Autohammer → 2 |
 | Flahium Slag | (nouvelle) | 1 Reclaimed Flah, 2 Exo Prism, 1 Miracle Matter, 2 Ashes of Annihilation, 120 Any Silt Block, 1 Flahium Component @ DraedonsForge → 12 |
 | Flak Kraken | 1 Flak Toxicannon, 20 Voidstone, 20 Depth Cells @ MythrilAnvil → 1 | 1 Flak Toxicannon, 20 Depth Cells, 10 Lumenyl, 10 Crocodile Scale @ MythrilAnvil → 1 |
+| Flare Blade | (nouvelle) | 8 Hellstone Bar @ Hellforge → 1 |
 | Flare Bolt | 10 Hellstone Bar, 5 Fireblossom, 1 Ruby @ Bookcases → 1 | 6 Hellstone Bar, 9 Obsidian, 2 Fireblossom, 1 Lava Bucket @ Bookcases → 1 |
+| Flarefrost Blade | 10 Cryonic Bar, 10 Hellstone Bar, 10 Soul of Light @ MythrilAnvil → 1 | 1 Frost Blade, 1 Flare Blade, 3 Soul of Light, 5 Essential Essence Bar @ MythrilAnvil → 1 |
 | Flarewing Bow | 1 Hellwing Bow, 5 Essence of Sunlight, 50 Living Fire Block, 10 Obsidian @ Anvils → 1 | 1 Hellwing Bow, 5 Essence of Sunlight, 50 Living Fire Block, 10 Obsidian @ MythrilAnvil → 1 |
 | Flesh of Infidelity | (nouvelle) | 1 Belladonna Spirit Staff, 1 Staff of Necrosteocytes, 1 Scab Ripper, 1 Imp Staff @ DemonAltar → 1 |
 | Floodtide | 12 Victide Bar, 10 Depth Cells, 2 Shark Fin @ MythrilAnvil → 1 | 5 Victide Bar, 2 Shark Fin, 5 Any Adamantite Bar, 10 Depth Cells, 10 Lumenyl, 5 Crocodile Scale @ MythrilAnvil → 1 |
@@ -493,6 +495,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Fractured Ark | 1 Enchanted Sword, 10 Purified Gel, 10 Any Copper Bar @ Anvils → 1 | 10 Char Matter, 1 Starfury, 1 Enchanted Sword / Arkhalis, 5 Gel, 10 Diamond, 12 Alloy Bar @ Anvils → 1 |
 | Frigid Bulwark | (nouvelle) | 1 Paladin's Shield, 1 Frozen Turtle Shell, 5 Mollusk Husk, 5 Core of Eleum @ MythrilAnvil → 1 |
 | Frigidflash Bolt | 1 Frost Bolt, 1 Flare Bolt, 5 Essence of Chaos, 5 Essence of Eleum @ Bookcases → 1 | 1 Frost Bolt, 1 Flare Bolt, 2 Essence of Eleum, 2 Essence of Chaos @ Bookcases → 1 |
+| Frost Blade | (nouvelle) | 8 Cryonic Bar @ MythrilAnvil → 1 |
 | Frost Blossom Staff | 50 Any Ice Block, 10 Boreal Wood, 5 Shiverthorn @ Anvils → 1 | 5 Shiverthorn, 5 Any Snow Block, 5 Any Ice Block @ Anvils → 1 |
 | Frost Bolt | 20 Any Ice Block, 10 Any Snow Block, 2 Shiverthorn, 1 Sapphire @ Bookcases → 1 | 20 Any Ice Block, 2 Shiverthorn, 10 Any Snow Block, 1 Water Bucket @ Bookcases → 1 |
 | Frostcrush Valari | 1 Kylie, 6 Cryonic Bar, 5 Ectoplasm @ MythrilAnvil → 1 | 1 Kylie, 6 Cryonic Bar, 40 Voidstone, 5 Core of Eleum, 2 The sword is inside the core @ IceMachine → 1 |
@@ -1449,9 +1452,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Exactory Dartshooter — 1
 - objet : Exodimus — 1
 - objet : Flah Seeds — 1
-- objet : Flare Blade — 1
 - objet : Flounder Mortar — 1
-- objet : Frost Blade — 1
 - objet : Gel Armor — 1
 - objet : Gel Cap — 1
 - objet : Gel Greaves — 1

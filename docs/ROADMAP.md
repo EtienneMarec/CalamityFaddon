@@ -64,6 +64,11 @@ actuel : repris du vieux CalamityPlayer dans un ModPlayer.
 
 ## Phase 4 — Nouveau contenu (`reports/new_content.md`)
 
+Fait le 31/10 (objets qui débloquent une recette ou un drop du wiki) : ensemble War (Warbow, War Staff, Warbell,
+Warglaive, War Arrow), Porpoise Pistol, The Food Chain, 8 outils (Windslasher, Astral Hammer...), Frost Blade et Flare
+Blade ; portages Bloody Edge → True Bloody Edge → Terra Edge, Magnum → Lightning Hawk, Plague Hive, Catastrophe
+Claymore → Devastation, Armored Digger, Draedon's Remote ; matériaux posables (47) et Block du butin (Antlion Ore...).
+
 Prioriser avec `reports/recipes.md` → « Noms introuvables » et `reports/loot_applied.md` → « Objets introuvables » :
 ce qui débloque le plus de recettes et de drops d'abord. Ensuite : debuffs → ennemis → armes/coverings → boss → biomes.
 Chaque boss du wiki entraîne butin, sac, musique, invocation. Les biomes (Exosphere, Abyssphere...) sont les plus
