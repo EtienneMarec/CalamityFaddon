@@ -74,6 +74,46 @@ Items: {
 			'''
 	}
 
+	Windslasher: {
+		DisplayName: Windslasher
+		Tooltip: ""
+	}
+
+	Gusthammer: {
+		DisplayName: Gusthammer
+		Tooltip: ""
+	}
+
+	LithosPickaxe: {
+		DisplayName: Lithos Pickaxe
+		Tooltip: Capable of mining Lihzahrd Bricks
+	}
+
+	ImpactAdjuster: {
+		DisplayName: Impact Adjuster
+		Tooltip: ""
+	}
+
+	CrayfishPickaxe: {
+		DisplayName: Crayfish Pickaxe
+		Tooltip: ""
+	}
+
+	CarapaceHammer: {
+		DisplayName: Carapace Hammer
+		Tooltip: ""
+	}
+
+	AstralHammer: {
+		DisplayName: Astral Hammer
+		Tooltip: ""
+	}
+
+	AstralAxe: {
+		DisplayName: Astral Axe
+		Tooltip: ""
+	}
+
 	CatastropheClaymore: {
 		DisplayName: Catastrophe Claymore
 		Tooltip: Fires explosive energy bolts

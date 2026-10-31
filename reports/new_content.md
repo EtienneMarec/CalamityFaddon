@@ -1134,14 +1134,14 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Anti-Moth Ointment
 - [ ] Anti-Starspawn Ointment
 - [ ] Armageddon
-- [ ] Astral Axe
-- [ ] Astral Hammer
+- [x] Astral Axe
+- [x] Astral Hammer
 - [ ] Aurikia-5220 — addon: Calamity: Community Remix
 - [ ] Braxaxe — addon: Deimos, the Starborn Princess
-- [ ] Carapace Hammer
+- [x] Carapace Hammer
 - [ ] Catastrophe Claybore
 - [ ] Charger Test Item
-- [ ] Crayfish Pickaxe
+- [x] Crayfish Pickaxe
 - [ ] Daylight
 - [ ] Death
 - [ ] Deathwish — addon: Tranquility Mod
@@ -1151,13 +1151,13 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Fishing Poles — pas de sprite
 - [ ] Gem of Exodygen — addon: Sloome
 - [ ] Grarble Obliterator — addon: Calamity: Community Remix
-- [ ] Gusthammer
+- [x] Gusthammer
 - [ ] Heaven Piercer — addon: Calamity: Community Remix
 - [ ] Honey Cooling Cell
-- [ ] Impact Adjuster
+- [x] Impact Adjuster
 - [ ] Iron Heart
 - [ ] Large Father
-- [ ] Lithos Pickaxe
+- [x] Lithos Pickaxe
 - [ ] Moonlight
 - [ ] Onyx Overlord's Gunsaw — addon: Calamity: Community Remix
 - [ ] Protective Shield — pas de sprite; addon: Tranquility Mod
@@ -1181,7 +1181,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Twisted Netherite Shovel — addon: Calamity: Community Remix
 - [ ] Umbren Sprayer — addon: Catalyst
 - [x] Waraxe
-- [ ] Windslasher
+- [x] Windslasher
 - [ ] World Breaker — addon: Deimos, the Starborn Princess
 - [x] Wulfrum Axe
 - [x] Wulfrum Hammer

@@ -534,6 +534,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       proches infectés de Plague
       ; Catastrophe Claymore (éclairs rouges, bleus ou jaunes qui explosent) et Devastation (décharges qui tombent du
       ciel vers le curseur)
+- [ ] (31/10) **Outils du wiki** (Cheat Sheet) : Windslasher, Gusthammer, Lithos Pickaxe (mine les Lihzahrd Bricks, feu),
+      Impact Adjuster, Crayfish Pickaxe (hache + marteau), Carapace Hammer, Astral Hammer (portée +3), Astral Axe
 - [ ] (31/10) **Porpoise Pistol** (Dolphins en Hardmode, ou Cheat Sheet) : trait bleu qui rebondit 3 fois et traverse
       2 ennemis, sans munition ; **The Food Chain** (Colossal Squid) : fouet ; chaque coup donne Well Fed 10 s
 - [ ] (31/10) **Ensemble War** (armée gobeline, ou Cheat Sheet) : Warbow (les Wooden Arrows deviennent des War Arrows,

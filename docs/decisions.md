@@ -856,6 +856,15 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   de tModLoader (18 segments, portée x1,1, dégâts -20 % par ennemi traversé).
 - **[technique]** `gen_loot.py` lit les quantités « 25-68/{{expert|37-120}} » (War Arrow, Warglaive et 6 autres).
 
+### Outils du wiki (`Content/Items/Tools/WikiTools.cs`, 31/10)
+
+- Créés d'après leurs infobox parce qu'ils débloquent une recette du wiki : Windslasher, Gusthammer, Lithos Pickaxe,
+  Impact Adjuster, Crayfish Pickaxe (hache et marteau malgré son nom), Carapace Hammer, Astral Hammer, Astral Axe.
+  « toolspeed » = vitesse d'utilisation (useTime), « use » = animation ; puissance de hache du wiki / 5 dans le jeu.
+  **[choix]** Astral Hammer : portée +3 (« un bloc de moins que les Lunar Hamaxes », +4) ; Lithos Pickaxe et Impact
+  Adjuster : On Fire! 3 s au contact (la page ne donne pas de durée). Large Father laissé de côté (lâché par The Wall
+  of Bronze, boss inventé, et attaque spéciale à faire).
+
 ### Slime Puppet Staff (`Content/Projectiles/Summon/SlimePuppetBall.cs`, rework de la page, 31/10)
 
 - **[choix]** **Full Fandom seulement** (Calamity++ garde les marionnettes de Calamity) : bouton maintenu, une boule de

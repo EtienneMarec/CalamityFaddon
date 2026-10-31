@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (390)
+## Objets (384)
 
 - A M S
 - AAMG "Disperse"
@@ -179,9 +179,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Arngren
 - Aspect of the End
 - Aspid Blaster
-- Astral Axe
 - Astral Blade
-- Astral Hammer
 - Astralence
 - Augar of the Elements
 - Auric Sword
@@ -204,7 +202,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Butcher's Glove
 - Calamitous Vortex
 - Calamity Sword
-- Carapace Hammer
 - Catarachedrae
 - Catastrophe Claybore
 - Catastrophe Claycore
@@ -327,7 +324,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Grarble Spear
 - Gravitonomy Pike
 - Guardians Wrath
-- Gusthammer
 - H.S Trident
 - Hailberd
 - Hailstorm
@@ -347,7 +343,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Hyperhavoc
 - Ichor Dagger
 - Ifflamator
-- Impact Adjuster
 - Incandescent Nox
 - Infected Dagger Misses No Skeptics
 - Infernum Kris
@@ -358,7 +353,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Lacescent Pistol
 - Large Father
 - Li'l Mine
-- Lithos Pickaxe
 - Lunatic Beats
 - Magna Striker
 - Magnic Circularity
