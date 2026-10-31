@@ -271,7 +271,13 @@ namespace CalamityFandom.Common.Taming
                 return;
             // « Consume 3 Food items throughout the fight » : l'aliment compte quand son Well Fed s'achève (TamingPlayer)
             if (TamingPlayer.IsWellFed(item.buffType) && TamingSystem.Get(TamingPlayer.EaterKey) is { } eow && TamingSystem.FindMain(eow) != null)
-                player.GetModPlayer<TamingPlayer>().PendingFood = item.type;
+            {
+                var taming = player.GetModPlayer<TamingPlayer>();
+                taming.PendingFood = item.type;
+                // [validé 31/10] Calamity++ : prévenu dès qu'on le mange (et encore à la fin du Well Fed)
+                if (TamingSystem.EaterDistinctFoods && taming.AlreadyEaten(item.type))
+                    TamingPlayer.TellSameFood(item.type);
+            }
             // « Consume a Yharic Delight while Crabulon is passive right after spawning » : la fenêtre de 5 s est
             // vérifiée là où le combat est suivi (TamingSystem.AddProgress)
             if (item.type == WikiData.WikiRecipes.ResolveItem("Yharic Delight") && NPC.AnyNPCs(ModContent.NPCType<Crabulon>()))
@@ -294,6 +300,11 @@ namespace CalamityFandom.Common.Taming
         private readonly HashSet<int> eatenFoods = new();
 
         public static bool IsWellFed(int buff) => buff is BuffID.WellFed or BuffID.WellFed2 or BuffID.WellFed3;
+
+        public bool AlreadyEaten(int food) => eatenFoods.Contains(food);
+
+        public static void TellSameFood(int food) =>
+            Main.NewText(Language.GetTextValue("Mods.CalamityFandom.Taming.Food.Same", Lang.GetItemNameValue(food)), Color.LightPink);
 
         /// <summary>
         /// Eater of Worlds : « Consume 3 Food items throughout the fight. Note that the Well Fed buff must run out before
@@ -321,7 +332,7 @@ namespace CalamityFandom.Common.Taming
                 if (lastWellFedTime > 2)
                     Main.NewText(Language.GetTextValue("Mods.CalamityFandom.Taming.Food.Cancelled"), Color.LightPink);
                 else if (TamingSystem.EaterDistinctFoods && !eatenFoods.Add(PendingFood))
-                    Main.NewText(Language.GetTextValue("Mods.CalamityFandom.Taming.Food.Same", Lang.GetItemNameValue(PendingFood)), Color.LightPink);
+                    TellSameFood(PendingFood);
                 else
                 {
                     eatenFoods.Add(PendingFood);

@@ -305,7 +305,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 31/10, testé]** **Eater of Worlds** (« Consume 3 Food items... the Well Fed buff must run out ») : un aliment
   mangé pendant le combat compte **quand son Well Fed s'achève de lui-même** (il restait 1 ou 2 ticks au tick d'avant) ;
   retiré d'un clic droit, il ne compte pas (message). **Calamity++** (`Balance/taming.json`, `eaterDistinctFoods`) :
-  3 aliments **différents** (un aliment déjà compté le dit). **[choix]** Remanger pendant un Well Fed : c'est le dernier
+  3 aliments **différents** : un aliment déjà compté le dit dès qu'on le mange et à la fin de son Well Fed (validé 31/10). **[choix]** Remanger pendant un Well Fed : c'est le dernier
   aliment qui compte ; un aliment mangé avant le combat ne compte pas ; « X digested! » au-dessus du joueur.
 - **[validé 31/10, testé]** **Crabulon** (« Consume a Yharic Delight while Crabulon is passive right after spawning ») : pendant
   les **5 premières secondes** du combat, vérifiées là où le combat est suivi (serveur ou solo). La phase calme de

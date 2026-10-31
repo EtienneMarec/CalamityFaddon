@@ -601,7 +601,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] (31/10 soir) Infobulles de la Catastrophe Claycore et du Warglaive (vides avant)
 - [ ] (31/10 soir) **Eater of Worlds** : manger un aliment pendant le combat : rien tout de suite, « X digested! » à la
       fin de son Well Fed ; retirer le Well Fed d'un clic droit : message, ne compte pas. Calamity++ : le même aliment
-      deux fois ne compte qu'une fois (message) ; Full Fandom : il compte
+      deux fois ne compte qu'une fois (message en le mangeant et à la fin du Well Fed) ; Full Fandom : il compte
 - [ ] (31/10 soir) **Crabulon** : manger un Yharic Delight dans les 5 s après son apparition l'apprivoise ; après 5 s, rien
 - [ ] (31/10 soir) **Calamity++** : taper « Yo, I'm Hungary !! » à côté du Traveling Merchant : réponse en vert et un Yharic
       Delight ; une 2e fois pendant la même visite : rien ; à sa visite suivante : de nouveau un. En Full Fandom : rien
