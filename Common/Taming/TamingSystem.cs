@@ -712,7 +712,7 @@ namespace CalamityFandom.Common.Taming
             e.Types.Contains(n.type) || n.realLife == main.whoAmI
             || e.Key == "Moon Lord" && (n.type == NPCID.MoonLordFreeEye || n.type == NPCID.MoonLordLeechBlob)
             // [choix] Les Estranged Sons repartent avec les Perforators apprivoisés
-            || e.Key == "The Perforators" && n.ModNPC is Content.NPCs.Perforators.EstrangedSonSegment;
+            || e.Key == "The Perforators" && n.ModNPC is Content.NPCs.Perforators.EstrangedSonHead;
 
         private static void Vanish(NPC n)
         {

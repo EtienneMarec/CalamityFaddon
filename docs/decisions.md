@@ -430,7 +430,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   pendant la tentative ; 5 s plus tard chacun devient un **Estranged Son** (`Content/NPCs/Perforators/`, sans page) et
   compte 1. **[validé 31/10]** Les vers sont invincibles tant que les Perforators sont là (leurs attaques les tuaient
   avant la transformation). **[validé 31/10]** Sprites : resprite du Giant Worm par l'utilisateur, réduit de moitié (il
-  paraissait deux fois trop gros ; hitbox 16, segments espacés de 20 px) ; IA de ver fouisseur du Giant Worm,
+  paraissait deux fois trop gros ; hitbox 16, segments espacés de 20 px) ; **[technique]** un seul PNJ qui dessine ses
+  segments (un PNJ par segment : 50 Estranged Sons = 400 PNJ, le jeu en accepte 200, les vers suivants n'apparaissaient
+  plus) ; les segments blessent quand même au contact. Taille : le Giant Worm de Terraria fait 18×30 par segment, les
+  sprites de l'utilisateur 54×72 (tête), 42×54 (corps), 42×66 (queue) en blocs de 2 : à moitié, encore ~1,5× plus
+  larges (à trancher) ; IA de ver fouisseur du Giant Worm,
   plus vive. **[choix]** Valeurs : tête + 6 segments + queue, 60 PV partagés, dégâts 14/10/8, défense 2/4/6, vitesse 8
   et accélération 0,1 (Giant Worm ≈ 6 et 0,07). Tuer un Estranged Son fait échouer la tentative ; ils disparaissent
   avec les Perforators apprivoisés.

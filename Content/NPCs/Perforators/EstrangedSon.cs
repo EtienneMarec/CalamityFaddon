@@ -11,17 +11,23 @@ namespace CalamityFandom.Content.NPCs.Perforators
     /// <summary>
     /// Estranged Son (page Taming, méthode des Perforators : « Each worm will transform into an Estranged Son after around 5
     /// seconds ») : pas de page. [validé 31/10] Resprite du Giant Worm par l'utilisateur ; IA de ver fouisseur du Giant
-    /// Worm, plus rapide et qui frappe plus fort. Tête + 6 segments + queue, vie partagée. [validé 31/10] Sprites réduits
-    /// de moitié (ils paraissaient deux fois trop gros) : pixels de 1 au lieu des blocs de 2 habituels.
+    /// Worm, plus rapide et qui frappe plus fort. Tête + 6 segments + queue. [validé 31/10] Sprites réduits de moitié
+    /// (ils paraissaient deux fois trop gros) : pixels de 1 au lieu des blocs de 2 habituels.
+    /// [technique] Un seul PNJ qui dessine lui-même ses segments (positions gardées en mémoire) : avec un PNJ par segment,
+    /// 50 Estranged Sons en auraient demandé 400 (le jeu en accepte 200), et les vers suivants n'apparaissaient plus. Les
+    /// segments blessent au contact comme la tête (ModifyCollisionData).
     /// </summary>
-    public abstract class EstrangedSonSegment : ModNPC
+    public class EstrangedSonHead : ModNPC
     {
         public const int BodyCount = 6;
         /// <summary>Distance entre deux segments (sprites de 27 px de haut, qui se chevauchent).</summary>
         public const float Spacing = 20f;
+        // Giant Worm : vitesse 6, accélération 0,07 environ ; [choix] Estranged Son un peu plus vif
+        private const float MaxSpeed = 8f, Acceleration = 0.1f;
 
-        public override void SetStaticDefaults() =>
-            NPCID.Sets.NPCBestiaryDrawOffset[Type] = new NPCID.Sets.NPCBestiaryDrawModifiers { Hide = this is not EstrangedSonHead };
+        /// <summary>Centres des segments, du premier corps à la queue (calculés partout à partir de la tête).</summary>
+        private readonly Vector2[] segments = new Vector2[BodyCount + 1];
+        private bool placed;
 
         public override void SetDefaults()
         {
@@ -34,26 +40,6 @@ namespace CalamityFandom.Content.NPCs.Perforators
             NPC.HitSound = SoundID.NPCHit1;
             NPC.DeathSound = SoundID.NPCDeath1;
             NPC.netAlways = true;
-        }
-
-        public override bool PreDraw(SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
-        {
-            Texture2D tex = TextureAssets.Npc[Type].Value;
-            spriteBatch.Draw(tex, NPC.Center - screenPos, null, NPC.GetAlpha(drawColor), NPC.rotation, tex.Size() / 2f, NPC.scale,
-                NPC.spriteDirection < 0 ? SpriteEffects.FlipHorizontally : SpriteEffects.None, 0f);
-            return false;
-        }
-    }
-
-    /// <summary>Tête : creuse vers le joueur dans les blocs, retombe hors des blocs (comme le Giant Worm).</summary>
-    public class EstrangedSonHead : EstrangedSonSegment
-    {
-        // Giant Worm : vitesse 6, accélération 0,07 environ ; [choix] Estranged Son un peu plus vif
-        private const float MaxSpeed = 8f, Acceleration = 0.1f;
-
-        public override void SetDefaults()
-        {
-            base.SetDefaults();
             NPC.lifeMax = 60;
             NPC.damage = 14;
             NPC.defense = 2;
@@ -62,21 +48,6 @@ namespace CalamityFandom.Content.NPCs.Perforators
 
         public override void AI()
         {
-            if (Main.netMode != NetmodeID.MultiplayerClient && NPC.localAI[0] == 0f)
-            {
-                NPC.localAI[0] = 1f;
-                int previous = NPC.whoAmI;
-                for (int i = 0; i <= BodyCount; i++)
-                {
-                    int type = i < BodyCount ? ModContent.NPCType<EstrangedSonBody>() : ModContent.NPCType<EstrangedSonTail>();
-                    int seg = NPC.NewNPC(NPC.GetSource_FromAI(), (int)NPC.Center.X, (int)NPC.Center.Y, type, NPC.whoAmI, ai1: previous);
-                    Main.npc[seg].realLife = NPC.whoAmI;
-                    if (Main.netMode == NetmodeID.Server)
-                        NetMessage.SendData(MessageID.SyncNPC, number: seg);
-                    previous = seg;
-                }
-            }
-
             if (NPC.target < 0 || NPC.target == 255 || Main.player[NPC.target].dead || !Main.player[NPC.target].active)
                 NPC.TargetClosest();
             Player target = Main.player[NPC.target];
@@ -106,6 +77,24 @@ namespace CalamityFandom.Content.NPCs.Perforators
             if (NPC.velocity.Length() > MaxSpeed * 1.5f)
                 NPC.velocity = Vector2.Normalize(NPC.velocity) * MaxSpeed * 1.5f;
             NPC.rotation = NPC.velocity.ToRotation() + MathHelper.PiOver2;
+            FollowHead();
+        }
+
+        /// <summary>Chaque segment suit celui qui le précède, à distance fixe (comme les segments d'un ver).</summary>
+        private void FollowHead()
+        {
+            Vector2 ahead = NPC.Center;
+            for (int i = 0; i < segments.Length; i++)
+            {
+                if (!placed)
+                    segments[i] = NPC.Center;
+                Vector2 toAhead = ahead - segments[i];
+                float dist = toAhead.Length();
+                if (dist > Spacing)
+                    segments[i] += toAhead * ((dist - Spacing) / dist);
+                ahead = segments[i];
+            }
+            placed = true;
         }
 
         private static float Approach(float value, float goal, float step) =>
@@ -129,59 +118,45 @@ namespace CalamityFandom.Content.NPCs.Perforators
             }
             return false;
         }
-    }
 
-    /// <summary>Segment qui suit celui qui le précède (ai[1]).</summary>
-    public abstract class EstrangedSonFollower : EstrangedSonSegment
-    {
-        public override void SetDefaults()
+        // Les segments touchent aussi : la zone de contact devient celle du segment qui touche la cible
+        public override bool ModifyCollisionData(Rectangle victimHitbox, ref int immunityCooldownSlot, ref MultipliableFloat damageMultiplier, ref Rectangle npcHitbox)
         {
-            base.SetDefaults();
-            NPC.lifeMax = 60;
-            NPC.dontCountMe = true;
-        }
-
-        public override void AI()
-        {
-            NPC ahead = Main.npc[(int)NPC.ai[1]];
-            NPC head = NPC.realLife >= 0 ? Main.npc[NPC.realLife] : null;
-            if (!ahead.active || head == null || !head.active || head.type != ModContent.NPCType<EstrangedSonHead>())
+            if (npcHitbox.Intersects(victimHitbox) || !placed)
+                return true;
+            for (int i = 0; i < segments.Length; i++)
             {
-                NPC.life = 0;
-                NPC.active = false;
-                if (Main.netMode == NetmodeID.Server)
-                    NetMessage.SendData(MessageID.SyncNPC, number: NPC.whoAmI);
-                return;
+                var box = new Rectangle((int)segments[i].X - NPC.width / 2, (int)segments[i].Y - NPC.height / 2, NPC.width, NPC.height);
+                if (box.Intersects(victimHitbox))
+                {
+                    npcHitbox = box;
+                    damageMultiplier *= i < BodyCount ? 10f / 14f : 8f / 14f; // dégâts des anciens segments : corps 10, queue 8
+                    break;
+                }
             }
-            NPC.target = head.target;
-            Vector2 toAhead = ahead.Center - NPC.Center;
-            float dist = toAhead.Length();
-            NPC.rotation = toAhead.ToRotation() + MathHelper.PiOver2;
-            if (dist > 0f)
-                NPC.Center += toAhead * ((dist - Spacing) / dist);
-            NPC.velocity = Vector2.Zero;
+            return true;
         }
 
-        public override bool CheckActive() => false;
-    }
-
-    public class EstrangedSonBody : EstrangedSonFollower
-    {
-        public override void SetDefaults()
+        public override bool PreDraw(SpriteBatch spriteBatch, Vector2 screenPos, Color drawColor)
         {
-            base.SetDefaults();
-            NPC.damage = 10;
-            NPC.defense = 4;
-        }
-    }
-
-    public class EstrangedSonTail : EstrangedSonFollower
-    {
-        public override void SetDefaults()
-        {
-            base.SetDefaults();
-            NPC.damage = 8;
-            NPC.defense = 6;
+            SpriteEffects flip = NPC.spriteDirection < 0 ? SpriteEffects.FlipHorizontally : SpriteEffects.None;
+            if (placed)
+            {
+                Texture2D body = ModContent.Request<Texture2D>("CalamityFandom/Content/NPCs/Perforators/EstrangedSonBody").Value;
+                Texture2D tail = ModContent.Request<Texture2D>("CalamityFandom/Content/NPCs/Perforators/EstrangedSonTail").Value;
+                // De la queue vers la tête, pour que chaque segment passe sous celui qui le précède
+                for (int i = segments.Length - 1; i >= 0; i--)
+                {
+                    Vector2 ahead = i == 0 ? NPC.Center : segments[i - 1];
+                    float rotation = (ahead - segments[i]).ToRotation() + MathHelper.PiOver2;
+                    Texture2D tex = i == segments.Length - 1 ? tail : body;
+                    Color light = NPC.GetAlpha(Lighting.GetColor(segments[i].ToTileCoordinates()));
+                    spriteBatch.Draw(tex, segments[i] - screenPos, null, light, rotation, tex.Size() / 2f, NPC.scale, flip, 0f);
+                }
+            }
+            Texture2D head = TextureAssets.Npc[Type].Value;
+            spriteBatch.Draw(head, NPC.Center - screenPos, null, NPC.GetAlpha(drawColor), NPC.rotation, head.Size() / 2f, NPC.scale, flip, 0f);
+            return false;
         }
     }
 }
