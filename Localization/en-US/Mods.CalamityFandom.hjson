@@ -4,6 +4,15 @@ Items: {
 		Tooltip: ""
 	}
 
+	DraedonsRemote: {
+		DisplayName: Draedon's Remote
+		Tooltip:
+			'''
+			Mayhem...
+			Not consumable
+			'''
+	}
+
 	FandomTestVial: {
 		DisplayName: Fandom Test Vial
 		Tooltip:
@@ -1463,6 +1472,9 @@ Configs: {
 
 NPCs: {
 	FandomTestDummy.DisplayName: Fandom Test Dummy
+	ArmoredDiggerHead.DisplayName: Armored Digger
+	ArmoredDiggerBody.DisplayName: Armored Digger
+	ArmoredDiggerTail.DisplayName: Armored Digger
 	EstrangedSonHead.DisplayName: Estranged Son
 	EstrangedSonBody.DisplayName: Estranged Son
 	EstrangedSonTail.DisplayName: Estranged Son
@@ -1537,3 +1549,5 @@ Taming: {
 	Soothed: The Zoologist has soothed {0}: it can be tamed again.
 	SootheName: Soothe: {0}
 }
+
+Conditions.DraedonsRemote: Summoned with Draedon's Remote

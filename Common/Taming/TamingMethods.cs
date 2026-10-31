@@ -214,6 +214,51 @@ namespace CalamityFandom.Common.Taming
                 // « Hit a beach ball 50 times while Golem is alive. Beachball hits by Golem will count towards this
                 // total » : [validé 31/10] un coup = le ballon entre en contact avec un joueur ou avec Golem (tête,
                 // poings, corps) ; au plus un coup par ballon toutes les demi-secondes. Le ballon ne blesse pas Golem.
+                // « Have both slime gods absorb 20 of their respective Blight Slime » : une Blight Slime qui touche le
+                // Paladin de sa couleur disparaît et compte pour lui (Ints[0] ébène, Ints[1] crimulan) ; le progrès est le
+                // plus petit des deux
+                case TamingGlobalNPC.SlimeGodKey:
+                    Absorb(ModContent.NPCType<CalamityMod.NPCs.SlimeGod.EbonianPaladin>(), ModContent.NPCType<CalamityMod.NPCs.NormalNPCs.EbonianBlightSlime>(), ref f.Ints[0]);
+                    Absorb(ModContent.NPCType<CalamityMod.NPCs.SlimeGod.CrimulanPaladin>(), ModContent.NPCType<CalamityMod.NPCs.NormalNPCs.CrimulanBlightSlime>(), ref f.Ints[1]);
+                    f.Progress = Math.Min(f.Ints[0], f.Ints[1]);
+                    break;
+                // « Have five new Town NPCs move into the brimstone crag while the Brimstone Elemental is alive. Note that if
+                // the player doesn't have any remaining npcs that have not moved in yet, that respawning npcs will count » :
+                // un PNJ de ville qui prend une maison dans la Brimstone Crag pendant la tentative compte (une fois par PNJ ;
+                // un PNJ mort qui revient est un nouveau PNJ). Ceux qui y vivaient déjà au début ne comptent pas (f.Flag).
+                // Les arrivées sont accélérées pendant la tentative (TamingProgression).
+                case "Brimstone Elemental":
+                    foreach (var town in Main.ActiveNPCs)
+                    {
+                        if (!town.townNPC || town.homeless)
+                            continue;
+                        var home = new Point(town.homeTileX, town.homeTileY);
+                        if (f.Homes.TryGetValue(town.whoAmI, out var known) && known == home)
+                            continue;
+                        f.Homes[town.whoAmI] = home;
+                        if (!InCrag(home) || !f.Seen.Add(town.whoAmI))
+                            continue;
+                        if (f.Flag)
+                            f.Progress++;
+                    }
+                    // Premier passage : on vient de noter ceux qui vivaient déjà dans la Crag
+                    f.Flag = true;
+                    break;
+                // « Spawn 100 goldfish and allow Leviathan to kill them » : un Goldfish touché par Leviathan meurt et compte
+                case TamingGlobalNPC.LeviathanKey:
+                    foreach (var levi in Main.ActiveNPCs)
+                    {
+                        if (levi.type != ModContent.NPCType<CalamityMod.NPCs.Leviathan.Leviathan>())
+                            continue;
+                        foreach (var fish in Main.ActiveNPCs)
+                        {
+                            if (fish.type != NPCID.Goldfish && fish.type != NPCID.GoldfishWalker || !fish.Hitbox.Intersects(levi.Hitbox))
+                                continue;
+                            fish.StrikeInstantKill();
+                            f.Progress++;
+                        }
+                    }
+                    break;
                 case "Golem":
                     foreach (var ball in Main.ActiveProjectiles)
                     {
@@ -261,6 +306,44 @@ namespace CalamityFandom.Common.Taming
                         f.Progress++;
                     break;
             }
+        }
+
+        private static void Absorb(int paladinType, int slimeType, ref int count)
+        {
+            foreach (var paladin in Main.ActiveNPCs)
+            {
+                if (paladin.type != paladinType)
+                    continue;
+                foreach (var slime in Main.ActiveNPCs)
+                {
+                    if (slime.type != slimeType || !slime.Hitbox.Intersects(paladin.Hitbox))
+                        continue;
+                    Despawn(slime);
+                    count++;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Maison dans la Brimstone Crag : en enfer, et plus de 500 blocs de Brimstone Slag ou d'Infernal Suevite autour
+        /// (la règle de Calamity pour un joueur, BrimstoneCragsBiome, appliquée à une zone de 120 × 80 blocs).
+        /// </summary>
+        public static bool InCrag(Point home)
+        {
+            if (home.Y < Main.maxTilesY - 200)
+                return false;
+            int slag = ModContent.TileType<CalamityMod.Tiles.Crags.BrimstoneSlag>(), suevite = ModContent.TileType<CalamityMod.Tiles.Ores.InfernalSuevite>();
+            int count = 0;
+            for (int x = Math.Max(0, home.X - 60); x < Math.Min(Main.maxTilesX, home.X + 60); x++)
+            {
+                for (int y = Math.Max(0, home.Y - 40); y < Math.Min(Main.maxTilesY, home.Y + 40); y++)
+                {
+                    Tile tile = Main.tile[x, y];
+                    if (tile.HasTile && (tile.TileType == slag || tile.TileType == suevite) && ++count > 500)
+                        return true;
+                }
+            }
+            return false;
         }
 
         private static bool HasSkull(Player p)

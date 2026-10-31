@@ -4,6 +4,7 @@ using System.Text.RegularExpressions;
 using CalamityMod;
 using CalamityMod.NPCs.Abyss;
 using CalamityMod.NPCs.Crabulon;
+using CalamityMod.NPCs.Leviathan;
 using CalamityMod.NPCs.Providence;
 using CalamityFandom.Content.NPCs.Perforators;
 using Microsoft.Xna.Framework;
@@ -60,6 +61,8 @@ namespace CalamityFandom.Common.Taming
     public class TamingGlobalNPC : GlobalNPC
     {
         public override bool InstancePerEntity => true;
+        public const string LeviathanKey = "Leviathan and Anahita";
+        public const string SlimeGodKey = "The Slime God";
         /// <summary>
         /// Agrandissement (King Slime, Queen Slime), calculé par le serveur et envoyé aux clients. [technique] Appliqué au
         /// dessin (PreDraw/PostDraw) et à la hitbox après l'IA, sans toucher à NPC.scale : l'IA de King Slime de Calamity
@@ -92,6 +95,16 @@ namespace CalamityFandom.Common.Taming
             // (ver relâché, ou sorti d'une Worm Statue)
             if (npc.type == NPCID.Worm && TamingSystem.Active("The Perforators") != null)
                 wormTransform = 5 * 60;
+            // « Spawning a goldfish during the fight will cause Leviathan to awaken early » : Anahita appelle Leviathan
+            // comme à 40 % de vie (projectile LeviathanSpawner de Calamity)
+            if ((npc.type == NPCID.Goldfish || npc.type == NPCID.GoldfishWalker) && TamingSystem.Active(LeviathanKey) != null)
+                foreach (var ana in Main.ActiveNPCs)
+                    if (ana.ModNPC is Anahita anahita && !anahita.HasBegunSummoningLeviathan && !NPC.AnyNPCs(ModContent.NPCType<CalamityMod.NPCs.Leviathan.Leviathan>()))
+                    {
+                        Projectile.NewProjectile(ana.GetSource_FromAI(), ana.Center, Vector2.Zero, ModContent.ProjectileType<CalamityMod.Projectiles.Boss.LeviathanSpawner>(), 0, 0f);
+                        anahita.HasBegunSummoningLeviathan = true;
+                        ana.netUpdate = true;
+                    }
             // Colossal Squid apparu pendant le combat du Moon Lord
             if (npc.type == ModContent.NPCType<ColossalSquid>() && TamingSystem.Active("Moon Lord") is { } ml)
                 ml.Flag = true;
@@ -195,6 +208,10 @@ namespace CalamityFandom.Common.Taming
                 return ModContent.NPCType<ColossalSquid>();
             if (TamingSystem.Active("Storm Weaver") != null && player.ZoneSkyHeight)
                 return 0;
+            // « Blight slimes will ignore boss zen while the Slime God is alive »
+            if (TamingSystem.Active(SlimeGodKey) != null && (player.ZoneCorrupt || player.ZoneCrimson))
+                return player.ZoneCorrupt ? ModContent.NPCType<CalamityMod.NPCs.NormalNPCs.EbonianBlightSlime>()
+                    : ModContent.NPCType<CalamityMod.NPCs.NormalNPCs.CrimulanBlightSlime>();
             return -1;
         }
 

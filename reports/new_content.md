@@ -1369,7 +1369,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Celestial Geode — addon: Deimos, the Starborn Princess
 - [ ] Disassembly Signal — addon: Sloome
 - [ ] Draedon Power Pie
-- [ ] Draedon's Remote — addon: Calamity: Community Remix
+- [x] Draedon's Remote — addon: Calamity: Community Remix
 - [ ] Eschaton — addon: Sloome
 - [ ] Fleshly Horn — addon: Calamity: Community Remix
 - [ ] Fused Eye — addon: Polyphemalus
@@ -1490,7 +1490,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Burrowing Enemy (10)
 
-- [ ] Armored Digger
+- [x] Armored Digger
 - [ ] Bronze Serpent
 - [ ] Cosmic Guardian — addon: Deimos, the Starborn Princess
 - [ ] Devourer Spawn

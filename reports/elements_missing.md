@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 
-## PNJ (151)
+## PNJ (150)
 
 - Acidsighter
 - Aether Valkyrie
@@ -12,7 +12,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aquatic Parasite
 - Aquatic Seeker
 - Arc
-- Armored Digger
 - Arsenous Slime
 - Artificial Sentience System, AX-P03
 - Asura

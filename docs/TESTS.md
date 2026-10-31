@@ -528,6 +528,17 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       boutique ouverte ; elles reviennent à l'aube suivante
 - [x] (31/10, validé) **Eye of Cthulhu (correctif)** : tourner autour de l'œil affiche « 1/30 », « 2/30 »... ; faire un tour
       entier dans l'autre sens affiche « ↺ 0/30 » et repart de zéro ; ses charges seules ne font pas avancer
+- [ ] (31/10) **The Slime God** : pendant le combat, des Blight Slimes apparaissent malgré le boss (Corruption/Crimson) ;
+      une Blight Slime qui touche le Paladin de sa couleur disparaît ; 20 de chaque couleur → apprivoisé (butin du noyau)
+- [ ] (31/10) **Brimstone Elemental** : préparer des maisons libres dans la Brimstone Crag ; pendant le combat, chaque PNJ qui
+      y emménage (ou y revient après sa mort) fait avancer ; 5 → apprivoisé
+- [ ] (31/10) **Armored Digger** (après Plantera, cavernes ; Cheat Sheet pour le faire venir) : grand ver mécanique, lance
+      des débris ; butin : Demonic Bone Ash, Mysterious Circuitry, Dubious Plating, parfois le Draedon's Remote
+- [ ] (31/10) **Draedon's Remote** : la nuit avant Plantera, appelle les trois boss mécaniques ensemble, plus résistants
+      (Destroyer plus gros), dégâts subis +20 % ; chacun lâche des Mysterious Circuitry et Dubious Plating (en Full
+      Fandom aussi) ; utilisé pendant Astrum Aureus (sans l'avoir touché) : Astrum Aureus est apprivoisé
+- [ ] (31/10) **Leviathan and Anahita** : relâcher un Goldfish pendant le combat fait venir Leviathan tout de suite ; chaque
+      Goldfish qu'il touche meurt et compte ; à 100, le duo est apprivoisé
 - [ ] (31/10) **Golem (ballon de plage)** : pendant le combat, lancer un Beach Ball : chaque contact du ballon avec un
       joueur ou avec Golem fait avancer (« ♥ 25 % » vers 13) ; posé immobile 3 s, il saute en l'air ; il ne disparaît
       pas ; à 50, Golem est apprivoisé (temple ouvert pour la suite : le Lunatic Cultist peut apparaître)

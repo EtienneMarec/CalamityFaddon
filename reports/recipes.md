@@ -6,7 +6,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 108 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 128 recettes
+- 107 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 127 recettes
 
 ## Recettes changées
 
@@ -1255,7 +1255,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Devastation — 1
 - objet : Divine Core — 1
 - objet : Divine Intervention — 1
-- objet : Draedon's Remote — 1
 - objet : Dual Cane — 1
 - objet : Elemental Bow — 1
 - objet : Elemental Claymore — 1

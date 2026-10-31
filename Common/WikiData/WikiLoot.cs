@@ -93,6 +93,7 @@ namespace CalamityFandom.Common.WikiData
         public override void Unload()
         {
             data = null;
+            Keep.Clear();
             Added.Clear();
             AddedToBags.Clear();
             BestiaryLines.Clear();
@@ -117,8 +118,11 @@ namespace CalamityFandom.Common.WikiData
                     continue;
                 }
                 // Un seul PNJ par page : segments de ver et alias partagent un nom, le butin ne doit pas se multiplier.
-                // On prend celui qui a déjà le plus de butin (la tête d'un ver, le vrai boss d'une page).
-                int target = types.OrderByDescending(t => Main.ItemDropsDB.GetRulesForNPCID(t, false).Count).ThenBy(t => t).First();
+                // On prend celui qui a déjà le plus de butin (la tête d'un ver, le vrai boss d'une page) ; à égalité, pas un
+                // segment (dontCountMe : corps et queue d'un ver porté sans butin, comme l'Armored Digger)
+                int target = types.OrderByDescending(t => Main.ItemDropsDB.GetRulesForNPCID(t, false).Count)
+                    .ThenBy(t => ContentSamples.NpcsByNetId.TryGetValue(t, out var n) && n.dontCountMe)
+                    .ThenBy(t => t).First();
                 ApplyToNPC(target, npcData);
             }
             RefreshBestiary();
@@ -352,6 +356,12 @@ namespace CalamityFandom.Common.WikiData
         /// Les sacs au trésor restent : la page « Treasure Bag » du wiki documente celui de chaque boss (les sacs des
         /// boss récents sont masqués par FullFandomHiding).
         /// </summary>
+        /// <summary>
+        /// Règles ajoutées par ce mod d'après une autre page que celle du PNJ (butin des boss mécaniques du Draedon's
+        /// Remote...) : jamais retirées en Full Fandom.
+        /// </summary>
+        public static readonly HashSet<IItemDropRule> Keep = new();
+
         private static void RemoveNotOnWiki(int npc, NPCData npcData)
         {
             var onWiki = npcData.Drops.Select(d => WikiRecipes.ResolveItem(data.ItemAliases.GetValueOrDefault(d.Item, d.Item)))
@@ -361,7 +371,7 @@ namespace CalamityFandom.Common.WikiData
             foreach (var rule in Main.ItemDropsDB.GetRulesForNPCID(npc, false).ToList())
             {
                 var rates = Rates(new[] { rule });
-                if (rates.Count > 0 && !rates.Any(r => onWiki.Contains(r.itemId) || ItemID.Sets.BossBag[r.itemId]))
+                if (rates.Count > 0 && !Keep.Contains(rule) && !rates.Any(r => onWiki.Contains(r.itemId) || ItemID.Sets.BossBag[r.itemId]))
                 {
                     Main.ItemDropsDB.RemoveFromNPC(npc, rule);
                     RemovedNotOnWiki++;

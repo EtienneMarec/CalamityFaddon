@@ -283,7 +283,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 31/10]** Actif **dans les deux modes**. Chaque nouveau boss du mod reçoit sa méthode (pas les superboss, en
   Full Fandom en tout cas). **Le jeu doit pouvoir se finir sans tuer un seul boss** : aucune méthode ne doit demander
   un objet qui ne tombe que d'un boss qu'il faut tuer avant (voir « Route sans tuer » plus bas).
-- 37 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
+- 41 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
   Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze, XP-00 Hypnos) ou du contenu absent (Blight Slimes absorbées par le Slime God, Draedon's Remote pour Astrum Aureus) ou un sens plus clair (« 100 bees » de la Queen Bee, poissons rouges de
   Leviathan, PNJ qui emménagent dans la Brimstone Crag). Liste en TODO dans
   `TamingSystem.PostSetupContent`.
@@ -373,6 +373,24 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   compter) ; promotion toujours en dame ; dans un mat en deux, l'adversaire répond au hasard. Le Brain of Cthulhu et
   ses Creepers attendent pendant la partie (ils jouent). Sans boss proche : entraînement (mats en deux après le Moon
   Lord). Fabriqué à l'établi : 10 Glass, 10 bois, 1 Fallen Star. Sprite et pièces provisoires (`docs/SPRITES.md`).
+- **The Slime God** (« Have both slime gods absorb 20 of their respective Blight Slime. Note that blight slimes will
+  ignore boss zen while the Slime God is alive ») : une Ebonian Blight Slime qui touche l'Ebonian Paladin (ou une
+  Crimulan contre le Crimulan Paladin) disparaît et compte pour lui ; il en faut 20 de chaque ; butin du noyau.
+  Pendant la tentative, la réduction d'apparitions de Calamity est annulée pour les Blight Slimes (Corruption ou
+  Crimson). À vérifier en jeu : un monde n'a qu'une corruption, il faut créer un coin de l'autre (graines ou poudres
+  de l'autre corruption) pour trouver l'autre Blight Slime.
+- **Brimstone Elemental** (« Have five new Town NPCs move into the brimstone crag ») : un PNJ de ville qui prend une
+  maison dans la Brimstone Crag pendant la tentative compte (une fois par PNJ, un PNJ mort qui revient compte de
+  nouveau ; ceux qui y vivaient au début ne comptent pas) ; il en faut 5. **[technique]** « Dans la Crag » : maison
+  en enfer avec plus de 500 blocs de Brimstone Slag ou d'Infernal Suevite dans 120 × 80 blocs autour (règle de
+  Calamity pour le joueur). Arrivées de PNJ contrôlées toutes les 5 s pendant la tentative (comme pour le Wall of
+  Flesh).
+- **Astrum Aureus** (« Use Draedon's Remote while Astrum Aureus is alive ») : utiliser le Draedon's Remote (porté, voir
+  section 8) pendant qu'il est en vie l'apprivoise ; **[choix]** le remote n'appelle alors pas les boss mécaniques.
+- **Leviathan and Anahita** (« Spawn 100 goldfish and allow Leviathan to kill them. Spawning a goldfish during the fight
+  will cause Leviathan to awaken early ») : un Goldfish (relâché, sorti d'une statue, ou qui marche sous la pluie) qui
+  apparaît pendant la tentative fait appeler Leviathan par Anahita (projectile LeviathanSpawner de Calamity, comme à
+  40 % de vie) ; **[choix]** un Goldfish touché par Leviathan meurt et compte ; à 100, le duo est apprivoisé.
 - **Golem** (« Hit a beach ball 50 times while Golem is alive. Beachball hits by Golem will count ») : **[validé 31/10]**
   un coup = un Beach Ball qui entre en contact avec un joueur ou avec Golem (corps, tête, poings ; le ballon ignore
   les ennemis dans le jeu de base, le contact est donc détecté par notre code) ; pas de rebond ajouté. **[choix]** Au
@@ -743,6 +761,25 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   `unconsumable` 3 s. Sprite du wiki.
 - **[à trancher]** Plague Hive : demande Alchemical Flask, que Calamity a remplacé par l'Alchemical Decanter
   (`[LegacyName]`) ; dépend de la décision sur les remplacements `[LegacyName]` (section 2).
+
+### Armored Digger et Draedon's Remote (`Content/Legacy/`, 31/10, pour le Taming d'Astrum Aureus)
+
+- **[choix]** **Armored Digger** porté (retiré de Calamity en 2022, code de 3ec8f553ed) : ver de 30 segments, mini-boss
+  des cavernes après Plantera, IA de 2022. Stats des infobox du wiki (tête 90 dégâts / défense 15 / 15 % de réduction,
+  corps 70 / 40 / 25 %, queue 55 / 55 / réduction de 2022 30 %, absente de l'infobox ; 20 000 PV partagés) ; débris
+  (Saucer Scrap) du corps. Apparition de la page (« Notes ») : 1 sur 100 000 par tick et par joueur, multiplicateurs
+  de la page (dont Death x1,33, absent du code) ; **60 s** de délai (page) au lieu des 10 min du code ; zones exclues du
+  code (jungle, Sunken Sea, Abyss, enfer, donjon) plus le temple de la page. Butin de l'infobox (Draedon's Remote 1/3,
+  Demonic Bone Ash, Mysterious Circuitry, Dubious Plating) ; les 3 armes du groupe n'ont pas de page : pas portées.
+  Pas de bannière (celle de 2022 dépend de la table des bannières de Calamity). **[technique]** `WikiLoot` choisit,
+  entre PNJ du même nom sans butin, celui qui n'est pas un segment (sinon le butin allait sur le corps).
+- **[choix]** **Draedon's Remote** porté (avril 2022) : non consommé ; la nuit avant Plantera, appelle les trois boss
+  mécaniques à la fois, renforcés d'après la page (Twins et Destroyer x1,8 PV, Destroyer x1,5 en taille, Probes x1,6
+  PV et x1,2, tête de Prime x1,45, bras x0,8 ; +20 % de dégâts subis tant qu'un d'eux vit ; 8-16 Mysterious Circuitry
+  et Dubious Plating chacun, le dernier des Twins seulement). **[technique]** Le « mode Mayhem » de Calamity n'existe
+  plus : refait (`DraedonMayhem`) ; ce butin, donné par la page du remote et pas par celles des boss, est protégé du
+  nettoyage du Full Fandom (`WikiLoot.Keep`). Rareté et usage du wiki (Orange, 45). TODO : de jour, la Mechanical
+  Horde (événement inventé). Rien ne se passe si un boss mécanique est déjà là.
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

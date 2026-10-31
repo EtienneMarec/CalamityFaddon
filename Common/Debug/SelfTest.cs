@@ -250,9 +250,9 @@ namespace CalamityFandom.Common.Debug
                     r.ReportDroprates(crabRates, new DropRateInfoChainFeed(1f));
                 Expect(crabRates.Any(r => r.itemId == converter), "le sac de Crabulon contient le Metabolic Converter");
             }
-            // Taming (31/10) : 37 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
+            // Taming (31/10) : 41 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
             var tames = Common.Taming.TamingSystem.Entries;
-            Expect(tames.Count == 37 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
+            Expect(tames.Count == 41 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
                 + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));
@@ -268,6 +268,18 @@ namespace CalamityFandom.Common.Debug
             Expect(solarRates.Any(r => r.itemId == ModContent.ItemType<CalamityMod.Items.Materials.YharonSoulFragment>()),
                 "Taming : Yharon Soul Fragment lâché par les Selenians");
             Expect(ModContent.NPCType<Content.NPCs.Perforators.EstrangedSonHead>() > 0, "Taming : Estranged Son");
+            // Draedon's Remote (Astrum Aureus) : lâché par l'Armored Digger porté ; butin du mode Mayhem gardé en Full Fandom
+            int remote = WikiRecipes.ResolveItem("Draedon's Remote");
+            Expect(remote == ModContent.ItemType<Content.Legacy.Items.SummonItems.DraedonsRemote>(), "Draedon's Remote porté");
+            var diggerRates = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<Content.Legacy.NPCs.NormalNPCs.ArmoredDiggerHead>(), false))
+                r.ReportDroprates(diggerRates, new DropRateInfoChainFeed(1f));
+            Expect(diggerRates.Any(r => r.itemId == remote), "l'Armored Digger lâche le Draedon's Remote");
+            var primeRates = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(NPCID.SkeletronPrime, false))
+                r.ReportDroprates(primeRates, new DropRateInfoChainFeed(1f));
+            Expect(primeRates.Any(r => r.itemId == ModContent.ItemType<CalamityMod.Items.Materials.DubiousPlating>()),
+                "Skeletron Prime du Draedon's Remote lâche des Dubious Plating");
             // Échecs (Brain of Cthulhu, XP-00 Hypnos) : chaque problème a bien sa solution d'après le moteur, et une seule
             var mate1Bad = Common.Taming.Chess.ChessPuzzles.Mate1.Count(p => Common.Taming.Chess.ChessPosition.FromFen(p.Fen).MatesInOne().Count != 1);
             var mate2Bad = Common.Taming.Chess.ChessPuzzles.Mate2.Count(p =>

@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 294 drops ajoutés sur 116 PNJ
+- 298 drops ajoutés sur 117 PNJ
 - 111 ajouts dans 24 sacs
 - 552 drops du wiki déjà présents dans le jeu (inchangés)
-- 119 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
+- 120 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 25 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 175 PNJ du wiki absents du jeu, 52 objets introuvables
+- 174 PNJ du wiki absents du jeu, 55 objets introuvables
 
 ## Ajouts
 
@@ -17,6 +17,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Anomura Fungus** : Fungal Carapace 1-1 à 15.0%
 - **Aquatic Scourge** : Bleached Angling Kit 1-1 à 100.0% (mode normal) ; Sulphurous Sand 5-15 à 100.0% (mode normal) ; Aquatic Emblem 1-1 à 100.0% (mode normal) ; Deep Diver 1-1 à 10.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal) ; Aquatic Scourge 1-1 à 100.0% [Always on first kill] (mode normal) ; Aquatic Scourge 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Sulphur Sea 1-1 à 100.0% [Always on first kill] (mode normal) ; Sulphur Sea 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Aries** : Titan Finger 1-1 à 2.0% ; Stellar Knife 1-1 à 14.3% [After defeating Astrum Aureus]
+- **Armored Digger** : Draedon's Remote 1-1 à 33.3% ; Demonic Bone Ash 2-4 à 100.0% ; Mysterious Circuitry 4-8 à 100.0% ; Dubious Plating 4-8 à 100.0%
 - **Astral Deus** : Quasar 1-1 à 10.0% (mode normal) ; Hide of Astrum Deus 1-1 à 100.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal) ; Astral Infection 1-1 à 100.0% [Always on first kill] (mode normal) ; Astral Infection 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Astral Deus 1-1 à 100.0% [Always on first kill] (mode normal) ; Astral Deus 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Astral Probe** : Titan Finger 1-1 à 2.0%
 - **Astral Slime** : Astral Ore 8-12 à 100.0% [After defeating Astrum Deus] ; Titan Finger 1-1 à 2.0% ; Abandoned Slime Staff 1-1 à 5.0% [After defeating Astrum Aureus]
@@ -47,7 +48,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Cultist Assassin** : Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Dark Caster** : Ancient Shiv 1-1 à 4.0%
 - **Derpling** : Beetle Juice 1-1 à 25.0%
-- **Desert Scourge** : Sandy Angling Kit 1-1 à 100.0% (mode normal) ; Parched Scale 7-14 à 100.0% (mode normal) ; Profaned Shard 1-1 à 100.0% (mode normal) ; Abyss Bar 3-8 à 100.0% (mode normal) ; Sand Block 261-820 à 100.0% (mode normal) ; Ocean Crest 1-1 à 100.0% (mode normal) ; Delicious Meat 4-4 à 20.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Aero Stone 1-1 à 20.0% (mode normal) ; Aquatic Discharge 1-1 à 25.0% (mode normal)
+- **Desert Scourge** : Sandy Angling Kit 1-1 à 100.0% (mode normal) ; Parched Scale 7-14 à 100.0% (mode normal) ; Profaned Shard 1-1 à 100.0% (mode normal) ; Abyss Bar 3-8 à 100.0% [After defeating Golem] (mode normal) ; Sand Block 261-820 à 100.0% (mode normal) ; Ocean Crest 1-1 à 100.0% (mode normal) ; Delicious Meat 4-4 à 20.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Aero Stone 1-1 à 20.0% (mode normal) ; Aquatic Discharge 1-1 à 25.0% (mode normal)
 - **Despair Stone** : Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Slagspitter Pauldron 1-1 à 5.0% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Devil Fish** : Depth Cells 1-2 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 50.0% [After defeating Calamitas] ; Abyss Ore 3-9 à 100.0% [After defeating Golem]
 - **Dreadnautilus** : Grandiose Gland 5-5 à 100.0%
@@ -138,7 +139,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (Ceaseless Void)** : Arcanum of the Void 1-1 à 100.0% (page Treasure Bag) ; Tree-Crown Wings 1-1 à 100.0% ; Supreme Healing Potion 5-15 à 100.0% ; Ceaseless Void Trophy 1-1 à 10.0%
 - **Treasure Bag (Crabulon)** : Metabolic Converter 1-1 à 100.0% (page Treasure Bag) ; Shroomerang 1-1 à 33.3% (page Treasure Bag) ; Delicious Meat 4-7 à 100.0% ; Crabulon Trophy 1-1 à 10.0%
 - **Treasure Bag (Cryogen)** : Glacial Crusher 1-1 à 33.3% (page Treasure Bag) ; Frozen Key 1-1 à 20.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Cryogen Trophy 1-1 à 10.0% ; Bittercold Staff 1-1 à 33.3%
-- **Treasure Bag (Desert Scourge)** : Aquatic Discharge 1-1 à 33.3% (page Treasure Bag) ; Aero Stone 1-1 à 20.0% (page Treasure Bag) ; Sandy Angling Kit 1-1 à 100.0% (page Treasure Bag) ; Parched Scale 10-16 à 100.0% ; Profaned Shard 1-1 à 100.0% ; Abyss Bar 10-17 à 100.0% ; Sand Block 261-820 à 100.0% ; Delicious Meat 4-4 à 20.0% ; Lesser Healing Potion 8-14 à 100.0% ; Desert Scourge Trophy 1-1 à 10.0%
+- **Treasure Bag (Desert Scourge)** : Aquatic Discharge 1-1 à 33.3% (page Treasure Bag) ; Aero Stone 1-1 à 20.0% (page Treasure Bag) ; Sandy Angling Kit 1-1 à 100.0% (page Treasure Bag) ; Parched Scale 10-16 à 100.0% ; Profaned Shard 1-1 à 100.0% ; Abyss Bar 10-17 à 100.0% [After defeating Golem] ; Sand Block 261-820 à 100.0% ; Delicious Meat 4-4 à 20.0% ; Lesser Healing Potion 8-14 à 100.0% ; Desert Scourge Trophy 1-1 à 10.0%
 - **Treasure Bag (Duke Fishron)** : Delicious Meat 45-92 à 50.0%
 - **Treasure Bag (Jungle Dragon, Yharon)** : Omega Healing Potion 5-15 à 100.0% ; Yharon Trophy 1-1 à 10.0% ; Chicken Nugget 5000-5000 à 100.0%
 - **Treasure Bag (Leviathan and Anahita)** : Hotline Fishing Hook 1-1 à 10.0% (page Treasure Bag) ; Super Absorbant Sponge 1-1 à 10.0% (page Treasure Bag) ; Bottomless Water Bucket 1-1 à 10.0% (page Treasure Bag) ; Crate Potion 5-8 à 20.0% (page Treasure Bag) ; Fishing Potion 5-8 à 20.0% (page Treasure Bag) ; Sonar Potion 5-8 à 20.0% (page Treasure Bag)
@@ -173,6 +174,8 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Dragon Flame Barrage — 1
 - Earthen Clicker — 1
 - Empress Flah — 1
+- Energized Scrap Spikes — 1
+- Eye of Excavator — 1
 - Flounder Mortar — 1
 - Frigid Bar — 1
 - Ghast Relic — 1
@@ -196,6 +199,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Profaned Nucleus — 1
 - Profaned Whiplash — 1
 - Purgatory Blaster — 1
+- Reloadable Rapid-Fire Shooter — 1
 - Sandstorm (weapon) — 1
 - Tapehook — 1
 - The Food Chain — 1

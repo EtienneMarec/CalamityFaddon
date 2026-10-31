@@ -71,6 +71,8 @@ namespace CalamityFandom.Common.Taming
             public readonly int[] Ints = new int[4];
             public readonly Dictionary<int, int> LastLife = new();
             public readonly HashSet<int> Seen = new();
+            /// <summary>Dernière maison vue de chaque PNJ de ville (Brimstone Elemental).</summary>
+            public readonly Dictionary<int, Point> Homes = new();
             public int ShownQuarter;
         }
 
@@ -110,8 +112,7 @@ namespace CalamityFandom.Common.Taming
 
         public override void PostSetupContent()
         {
-            // Pré-Hardmode. TODO : The Inventors, Wulfrum Excavator (boss inventés) ; Queen Bee (« 100 bees », sens flou),
-            // The Slime God (absorption des Blight Slimes) : contenu à créer
+            // Pré-Hardmode. TODO : The Inventors, Wulfrum Excavator (boss inventés) ; Queen Bee (« 100 bees », sens flou)
             Add("King Slime", 300 * 60, 0, NPCID.KingSlime);
             Add("Desert Scourge", 180, 0, ModContent.NPCType<DesertScourgeHead>(), ModContent.NPCType<DesertScourgeBody>(), ModContent.NPCType<DesertScourgeTail>());
             Add("Eye of Cthulhu", 30, 0, NPCID.EyeofCthulhu);
@@ -126,14 +127,24 @@ namespace CalamityFandom.Common.Taming
                 ModContent.NPCType<PerforatorHeadLarge>(), ModContent.NPCType<PerforatorBodyLarge>(), ModContent.NPCType<PerforatorTailLarge>());
             // « Arm Wrestle the Old Man » : bras de fer (OldManWrestle), Skeletron apparaît apprivoisé
             Add(OldManWrestle.Key, 1, 0, NPCID.SkeletronHead, NPCID.SkeletronHand);
+            // « Have both slime gods absorb 20 of their respective Blight Slime » ; le butin est sur le noyau
+            Add(TamingGlobalNPC.SlimeGodKey, 20, 0, ModContent.NPCType<CalamityMod.NPCs.SlimeGod.SlimeGodCore>(),
+                ModContent.NPCType<CalamityMod.NPCs.SlimeGod.EbonianPaladin>(), ModContent.NPCType<CalamityMod.NPCs.SlimeGod.CrimulanPaladin>(),
+                ModContent.NPCType<CalamityMod.NPCs.SlimeGod.SplitEbonianPaladin>(), ModContent.NPCType<CalamityMod.NPCs.SlimeGod.SplitCrimulanPaladin>());
             Add("Wall of Flesh", 1, 0, NPCID.WallofFlesh, NPCID.WallofFleshEye);
-            // Hardmode. TODO : Cumulomenace, Pyrogen, The Derellect, Polyphemalus (inventés) ; Brimstone Elemental (PNJ qui
-            // emménagent), Leviathan and Anahita (poissons rouges), Astrum Aureus (Draedon's Remote absent)
+            // Hardmode. TODO : Cumulomenace, Pyrogen, The Derellect, Polyphemalus (inventés)
             Add("Queen Slime", 100, 1, NPCID.QueenSlimeBoss);
             Add("Cryogen", 180, 1, ModContent.NPCType<Cryogen>());
+            // « Have five new Town NPCs move into the brimstone crag while the Brimstone Elemental is alive »
+            Add("Brimstone Elemental", 5, 1, ModContent.NPCType<CalamityMod.NPCs.BrimstoneElemental.BrimstoneElemental>());
             Add("The Twins", 60 * 60, 1, NPCID.Retinazer, NPCID.Spazmatism);
             Add("The Destroyer", 5, 1, NPCID.TheDestroyer, NPCID.TheDestroyerBody, NPCID.TheDestroyerTail);
             Add("Skeletron Prime", 60 * 60, 1, NPCID.SkeletronPrime, NPCID.PrimeCannon, NPCID.PrimeSaw, NPCID.PrimeVice, NPCID.PrimeLaser);
+            // « Spawn 100 goldfish and allow Leviathan to kill them » (Goldfish appelant Leviathan : TamingGlobalNPC.OnSpawn)
+            Add(TamingGlobalNPC.LeviathanKey, 100, 1, ModContent.NPCType<CalamityMod.NPCs.Leviathan.Leviathan>(),
+                ModContent.NPCType<CalamityMod.NPCs.Leviathan.Anahita>());
+            Get(TamingGlobalNPC.LeviathanKey).Leads = new[] { ModContent.NPCType<CalamityMod.NPCs.Leviathan.Leviathan>(),
+                ModContent.NPCType<CalamityMod.NPCs.Leviathan.Anahita>() };
             Add("Aquatic Scourge", 180, 1, ModContent.NPCType<AquaticScourgeHead>(), ModContent.NPCType<AquaticScourgeBody>(),
                 ModContent.NPCType<AquaticScourgeBodyAlt>(), ModContent.NPCType<AquaticScourgeTail>());
             Add("Plantera", 180 * 60, 1, NPCID.Plantera);
@@ -145,6 +156,8 @@ namespace CalamityFandom.Common.Taming
             Add("Empress of Light", 1, 1, NPCID.HallowBoss);
             Add("Ravager", 1, 1, ModContent.NPCType<RavagerBody>(), ModContent.NPCType<RavagerClawLeft>(), ModContent.NPCType<RavagerClawRight>(),
                 ModContent.NPCType<RavagerLegLeft>(), ModContent.NPCType<RavagerLegRight>(), ModContent.NPCType<RavagerHead>());
+            // « Use Draedon's Remote while Astrum Aureus is alive » (Content/Legacy/Items/SummonItems/DraedonsRemote.cs)
+            Add("Astrum Aureus", 1, 1, ModContent.NPCType<CalamityMod.NPCs.AstrumAureus.AstrumAureus>());
             Add("Astrum Deus", 1, 1, ModContent.NPCType<AstrumDeusHead>(), ModContent.NPCType<AstrumDeusBody>(), ModContent.NPCType<AstrumDeusTail>());
             Add("The Dragonfolly", 1, 1, ModContent.NPCType<Dragonfolly>());
             Add("Lunatic Cultist", 1, 1, NPCID.CultistBoss);
