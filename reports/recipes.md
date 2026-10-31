@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1156 objets dont les recettes ont changé : 978 recettes modifiées, 247 créées
+- 1158 objets dont les recettes ont changé : 979 recettes modifiées, 248 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 344 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 93 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 114 recettes
+- 92 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 113 recettes
 
 ## Recettes changées
 
@@ -374,6 +374,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Electrician's Glove | 1 Filthy Glove, 100 Wire, 5 Any Mythril Bar @ MythrilAnvil → 1 | 1 Bloodstained Glove / Filthy Glove, 100 Wire, 5 Any Mythril Bar @ MythrilAnvil → 1 |
 | Elemental Axe | 1 Plantation Staff, 1 Blade Staff, 5 Luminite Bar, 5 Life Alloy, 5 Stardust Fragment @ MythrilAnvil → 1 | 1 Blade Staff, 1 Plantation Staff, 1 Haunted Scroll, 5 Galactica Singularity, 8 Elemental Bar, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Elemental Bar | (nouvelle) | 5 Galactica Singularity @ LunarCraftingStation → 1 |
+| Elemental Claymore | (nouvelle) | 34 Catastrophe Clay Ore, 4 Galactica Singularity, 8 Elemental Bar, 4 Core of Calamity, 4 Life Alloy, 4 Luminite Bar @ LunarCraftingStation → 1 |
 | Elemental Disk | 1 Terra Disk, 5 Luminite Bar, 5 Life Alloy, 5 Meld Blob @ MythrilAnvil → 1 | 1 Mangrove Chakram, 1 Subduction Slicer, 1 Terra Disk, 8 Elemental Bar, 5 Galactica Singularity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Elemental Dye | 1 Solar Dye, 1 Vortex Dye, 1 Nebula Dye, 1 Stardust Dye, 1 Meld Dye @ DyeVat → 5 | 1 Solar Dye, 1 Vortex Dye, 1 Nebula Dye, 1 Stardust Dye, 1 Galactica Singularity @ DyeVat → 5 |
 | Elemental Eruption | 1 Terra Flameburster, 5 Luminite Bar, 5 Life Alloy, 5 Vortex Fragment @ MythrilAnvil → 1 | 10 Elemental Bar, 5 Galactica Singularity, 1 Terra Flameburster, 1 Meowthrower, 1 Blight Spewer, 1 Havoc's Breath, 5 Luminite Bar @ LunarCraftingStation → 1 |
@@ -451,6 +452,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Exo Plating | 400 Any Stone Block, 1 Exo Prism @ DraedonsForge → 400 | 200 Any Stone Block, 1 Exo Prism @ DraedonsForge → 200 |
 | Exo Prism Panel | 400 Glass, 1 Exo Prism @ DraedonsForge → 400 | 200 Glass, 1 Exo Prism @ DraedonsForge → 200 |
 | Exo Work Bench | 10 Exo Plating @ DraedonsForge → 1 | 10 Exo Plating @ main → 1 |
+| Exoblade | 1 Terratomere, 1 Elemental Shiv, 1 Entropic Claymore, 1 Flarefrost Blade, 1 Miracle Matter @ DraedonsForge → 1 | 1 Terratomere, 1 Terra-cotta, 1 Elemental Claymore, 1 Anarchy Blade, 1 Baleful Harvester, 1 Flarefrost Blade, 1 Phoenix Blade, 1 Entropic Claymore, 1 Stellar Striker, 20 Exoplasm, 1 Miracle Matter, 4 Auric Bar @ DraedonsForge → 1 |
 | Exodium Cluster | (nouvelle) | 1 Solar Fragment, 1 Vortex Fragment, 1 Stardust Fragment, 1 Nebula Fragment, 3 Luminite @ LunarCraftingStation → 1 |
 | Exodus Wings | 20 Soul of Flight, 14 Meld Blob, 10 Luminite Bar @ LunarCraftingStation → 1 | 5 Meld Bar, 10 Luminite Bar @ LunarCraftingStation → 1 |
 | Exorcism | 20 Hallowed Bar, 3 Soul of Fright, 3 Soul of Might, 3 Soul of Sight @ MythrilAnvil → 1 | 12 Hallowed Bar, 6 Soul of Might, 6 Soul of Sight, 6 Soul of Fright, 10 Holy Water @ MythrilAnvil → 1 |
@@ -1447,7 +1449,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - objet : Divine Intervention — 1
 - objet : Dual Cane — 1
 - objet : Elemental Bow — 1
-- objet : Elemental Claymore — 1
 - objet : Ethereal Knives — 1
 - objet : Exactory Dartshooter — 1
 - objet : Exodimus — 1

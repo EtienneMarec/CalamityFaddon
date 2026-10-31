@@ -534,6 +534,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       proches infectés de Plague
       ; Catastrophe Claymore (éclairs rouges, bleus ou jaunes qui explosent) et Devastation (décharges qui tombent du
       ciel vers le curseur)
+- [ ] (31/10) **Elemental Claymore** : rayon coloré (rose, vert, bleu ou orange) qui traverse les blocs + 4 orbes
+      arc-en-ciel à tête chercheuse ; Elemental Mix
 - [ ] (31/10) **Frost Blade / Flare Blade** : orbes bleues ou orange à tête chercheuse (Frostburn / On Fire!) ; elles
       se combinent en Flarefrost Blade (recette du wiki)
 - [ ] (31/10) **Outils du wiki** (Cheat Sheet) : Windslasher, Gusthammer, Lithos Pickaxe (mine les Lihzahrd Bricks, feu),

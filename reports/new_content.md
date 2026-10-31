@@ -144,7 +144,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Ecological Collapse
 - [ ] Electrical Discharge
 - [ ] Elemental Bow
-- [ ] Elemental Claymore
+- [x] Elemental Claymore
 - [ ] Elemental Excalibur
 - [ ] Elemental Saw Launcher
 - [ ] Elusive Feather

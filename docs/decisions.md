@@ -863,6 +863,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Blade : infobox prise). **[choix]** Orbe inspirée du projectile Flarefrost de Calamity (poussière, 3 s, tête
   chercheuse à 250 px), réduite à un élément.
 
+### Elemental Claymore (`Content/Items/Weapons/Melee/ElementalClaymore.cs`, 31/10)
+
+- Eon Beam d'une couleur au hasard (rose, vert, bleu, orange : invulnérabilité locale 6, 5, 4, 3 ticks), traverse 2
+  ennemis et les blocs ; 4 orbes élémentaires peu précises vers le curseur (50 % des dégâts, tête chercheuse,
+  traversent les blocs) ; Elemental Mix 2 s partout. **[choix]** Les orbes sont les Eon Bolts de Calamity (même
+  comportement) ; le rayon reprend la forme du rayon de la Terra Blade, teinté de sa couleur.
+
 ### Outils du wiki (`Content/Items/Tools/WikiTools.cs`, 31/10)
 
 - Créés d'après leurs infobox parce qu'ils débloquent une recette du wiki : Windslasher, Gusthammer, Lithos Pickaxe,

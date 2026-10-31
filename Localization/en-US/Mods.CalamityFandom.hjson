@@ -74,6 +74,11 @@ Items: {
 			'''
 	}
 
+	ElementalClaymore: {
+		DisplayName: Elemental Claymore
+		Tooltip: A heavenly blade infused with the essence of Terraria
+	}
+
 	FrostBlade: {
 		DisplayName: Frost Blade
 		Tooltip: Fires a homing frost orb
@@ -1230,6 +1235,7 @@ Projectiles: {
 	GalaxyBlastType2.DisplayName: Galaxy Blast
 	GalaxyBlastType3.DisplayName: Galaxy Blast
 	FrostOrb.DisplayName: Frost Orb
+	EonBeam.DisplayName: Eon Beam
 	FlareOrb.DisplayName: Flare Orb
 	TheFoodChainProj.DisplayName: The Food Chain
 	WarStaffBall.DisplayName: Gray Energy
