@@ -640,7 +640,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (Exosphere, Pot of Pain, Sky Abyss, vagues, Hydrabots), « Any Boss in Revengeance Mode » pour Laudanum, Stress Pills
   et Heart of Darkness (déjà dans les sacs de Calamity, comme l'explique leur page), Catarachedrae (« Hive Mind ou
   Perforators », et objet absent). **[technique]** Pas affichées dans le bestiaire (chaque fiche les listerait).
-  **[technique]** Correctif du 31/10 (quantités énormes signalées par l'utilisateur) : chaque segment d'un ver passe
+  **[technique]** Correctif du 31/10 (4000 Noctic Reactive Essences et 1100 Conquest Fragments signalés) : les
+  arguments de `ItemDropRule.ByCondition` étaient dans le mauvais ordre (le dénominateur vient avant les quantités) :
+  chaque règle générique tombait à 100 %, en 1 à 1000 exemplaires (1 à 10 000 pour le Conquest Fragment). Arguments
+  nommés désormais, et l'auto-test vérifie quantités et chances. Autre correctif du même jour : chaque segment d'un ver passe
   par la distribution du butin à sa mort, et Calamity marque « boss » les segments de ses vers boss (Desert Scourge,
   Devourer of Gods, Storm Weaver, Astrum Deus) : un Conquest Fragment par segment, et une chance d'essence réactive par
   segment des vers ennemis. Désormais : jamais les segments (`realLife` vers un autre PNJ) ; « Any Boss » une seule

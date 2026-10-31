@@ -175,7 +175,10 @@ namespace CalamityFandom.Common.WikiData
                     continue;
                 int denominator = 10000, numerator = Math.Max(1, (int)Math.Round(g.Chance * denominator));
                 var condition = new GenericCondition(g.Target == "boss", g.Revengeance, inner, g.Source, item);
-                Main.ItemDropsDB.RegisterToGlobal(ItemDropRule.ByCondition(condition, item, g.Min, g.Max, numerator, denominator));
+                // Arguments nommés : ByCondition prend le dénominateur avant les quantités (corrigé le 31/10 : 1 à 1000 objets à
+                // chaque kill)
+                Main.ItemDropsDB.RegisterToGlobal(ItemDropRule.ByCondition(condition, item, chanceDenominator: denominator,
+                    minimumDropped: g.Min, maximumDropped: g.Max, chanceNumerator: numerator));
                 GenericAdded.Add($"{Lang.GetItemNameValue(item)} : {g.Source} ({g.Chance:P1})");
             }
         }

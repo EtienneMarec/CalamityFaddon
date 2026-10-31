@@ -385,6 +385,13 @@ namespace CalamityFandom.Common.Debug
                 return Main.ItemDropsDB.GetRulesForNPCID(type, true).Except(Main.ItemDropsDB.GetRulesForNPCID(type, false))
                     .OfType<ItemDropWithConditionRule>().Any(r => r.itemId == conquest && r.condition.CanDrop(info));
             }
+            // Quantités et chances des règles génériques telles que la page les donne (1 objet ; 100 % ou 10 %)
+            var genericRules = Main.ItemDropsDB.GetRulesForNPCID(NPCID.KingSlime, true).Except(Main.ItemDropsDB.GetRulesForNPCID(NPCID.KingSlime, false))
+                .OfType<ItemDropWithConditionRule>().ToList();
+            int noctic = WikiRecipes.ResolveItem("Noctic Reactive Essence");
+            Expect(genericRules.Any(r => r.itemId == conquest && r.amountDroppedMinimum == 1 && r.amountDroppedMaximum == 1 && r.chanceNumerator == r.chanceDenominator)
+                && genericRules.Where(r => r.itemId == noctic).All(r => r.amountDroppedMaximum == 1 && r.chanceNumerator * 10 == r.chanceDenominator),
+                "butin générique : 1 Conquest Fragment à 100 %, 1 Noctic Reactive Essence à 10 %");
             Expect(!GenericDrops(ModContent.NPCType<CalamityMod.NPCs.DesertScourge.DesertScourgeBody>(), 0)
                 && !GenericDrops(ModContent.NPCType<CalamityMod.NPCs.DesertScourge.DesertScourgeHead>(), -1)
                 && GenericDrops(NPCID.KingSlime, -1),
