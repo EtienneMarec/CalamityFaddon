@@ -302,14 +302,15 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - 42 boss sur 50 ont leur méthode ; les 8 autres attendent leur boss, inventé par le wiki (The Inventors, Wulfrum
   Excavator, Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze ; XP-00 Hypnos a déjà
   sa méthode, les échecs, prête pour son boss). Liste en TODO dans `TamingSystem.PostSetupContent`.
-- **[validé 31/10]** **Crabulon** (« Consume a Yharic Delight while Crabulon is passive right after spawning ») : pendant
+- **[validé 31/10, testé]** **Crabulon** (« Consume a Yharic Delight while Crabulon is passive right after spawning ») : pendant
   les **5 premières secondes** du combat, vérifiées là où le combat est suivi (serveur ou solo). La phase calme de
   Calamity (`ai[0] == 0`, utilisée avant) ne dure que 2 s en normal, 1 s en Death, 15 ticks en Death collé au boss :
   trop court, et elle revenait après chaque série de sauts. **Calamity++** (`Balance/taming.json`, `hungaryDelight`) :
   le Yharic Delight (Yharim Bar, donc fin de jeu) s'obtient plus tôt en tapant exactement « Yo, I'm Hungary !! » dans le
   chat à moins de 10 blocs du Traveling Merchant, qui répond « Hi Hungary, I'm the Traveling Merchant... » et en donne
   **un seul par passage en ville** (tous joueurs confondus). **[choix]** Apostrophe typographique acceptée, espaces
-  autour ignorés, majuscules exigées ; réponse du marchand écrite par Claude.
+  autour ignorés, majuscules exigées ; réponse du marchand écrite par Claude. À revoir avec le rework de Crabulon
+  (`docs/ROADMAP.md` : sa page invente une phase passive au début du combat, qui remplacera les 5 s).
   **[choix]** Un Yharic Delight qui ne compte pas l'explique au joueur, en rose dans le chat : boss tué dans ce monde
   (« The Zoologist can soothe it »), blessé pendant ce combat, absent, ou trop tard (secondes écoulées). L'auto-test
   joue la scène (joueur factice, Crabulon, Yharic Delight mangé par le chemin du jeu, dans les 5 s puis après).

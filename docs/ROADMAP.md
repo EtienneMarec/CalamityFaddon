@@ -51,6 +51,12 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 
 - [ ] **Meatmetal Sans** (page Ravager) : vrai combat façon Sans (os, Gaster Blasters, écran noir, Handheld Tank),
       2 phases, apparence ; version minimale déjà en place
+- [ ] **Crabulon** (page Crabulon, sections Spawn et Behavior ; noté le 31/10 à la demande de l'utilisateur) : apparition
+      inventée (un Mushroom Elemental amené près d'un Barocrab entre dans le crabe : petite animation) ; autre apparition
+      avec 2 147 483 647 Delicious Meat près d'un Barocrab, seulement s'il a déjà été apprivoisé (Crabulon « intoxiqué »
+      qui saute la phase passive, change de teinte) ; **phase passive** au début (immobile, sans dégâts, buff Mushy :
+      +5 défense, +1 régénération), hostile si on l'attaque, sinon lâche 4-7 Delicious Meat et s'enfouit (une seule
+      fois, sans victoire). À ce moment, revoir le Taming (« passive right after spawning » = cette phase, au lieu des 5 s)
 - [x] **Slime Puppet Staff** (31/10, Full Fandom) : boules de slime qui servent de barrières reliées entre elles (0 dégât, 10 max)
 
 ## Portage du contenu retiré de Calamity (en cours)
