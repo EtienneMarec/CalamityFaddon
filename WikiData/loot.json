@@ -3485,7 +3485,16 @@
      "chance": 1.0,
      "minExpert": 10,
      "maxExpert": 17,
-     "hiddenNote": "(Post-Golem)"
+     "note": "(After defeating Golem)",
+     "condition": {
+      "downed": [
+       "golem"
+      ]
+     },
+     "conditionText": "After defeating Golem",
+     "modes": [
+      "plus"
+     ]
     },
     {
      "item": "Sand Block",
@@ -3591,6 +3600,18 @@
       "firstKill": true
      },
      "conditionText": "Always on first kill"
+    },
+    {
+     "item": "Abyss Bar",
+     "min": 3,
+     "max": 8,
+     "chance": 1.0,
+     "minExpert": 10,
+     "maxExpert": 17,
+     "hiddenNote": "(Post-Golem)",
+     "modes": [
+      "fandom"
+     ]
     },
     {
      "item": "Aero Stone",

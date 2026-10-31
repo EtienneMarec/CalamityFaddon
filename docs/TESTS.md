@@ -512,6 +512,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       avec une maison libre dans l'enfer, le Guide revient en quelques secondes après l'invocation, et mener le mur à
       moins de 50 blocs de lui l'apprivoise (le monde passe en Hardmode) ; les ennemis du Solar Pillar lâchent parfois un
       Yharon Soul Fragment (1/20)
+- [ ] (31/10) **Desert Scourge (Calamity++)** : apprivoisé ou tué avant Golem → pas de Abyss Bar (ni dans le sac) ; après
+      Golem → 3-8 (Expert 10-17) ; en Full Fandom, toujours donnée
 - [ ] (31/10) **Lunatic Cultist** : après Golem, avec la Lunar Cultist Hood et la Lunar Cultist Robe, passer entre les deux
       dévots à l'entrée du donjon : le Lunatic Cultist apparaît, « has been tamed! », butin et piliers lunaires
 - [ ] (31/10) **Holographic Chessboard** : fabricable à l'établi (10 Glass, 10 bois, 1 Fallen Star) ; utilisé sans boss :

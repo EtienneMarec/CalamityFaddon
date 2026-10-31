@@ -479,6 +479,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[technique]** Le bestiaire est recopié depuis la base de butin après nos changements (tModLoader le remplit avant
   les recettes, donc avant nos ajouts et retraits).
 
+- **[validé 31/10]** **Abyss Bar du Desert Scourge** : la page écrit `note=(Post-Golem)`, paramètre que l'infobox
+  n'affiche pas (donc pas de condition sur le wiki affiché, décision du 22/10). En Calamity++, la condition s'applique
+  (« After defeating Golem ») : sinon le Taming (mener le Desert Scourge à l'océan, malgré sa vie immense) donnait des
+  Abyss Bars (Scoria Bars, post-Golem) dès le début. Full Fandom inchangé. Écrit avec `{{mode}}` sur notre page.
+
 ## 8. Contenu créé ou porté
 
 ### Zweihandromeda (`Content/Items/Weapons/Melee/`)
