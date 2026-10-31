@@ -11,20 +11,21 @@ namespace CalamityFandom.Content.NPCs.Perforators
     /// <summary>
     /// Estranged Son (page Taming, méthode des Perforators : « Each worm will transform into an Estranged Son after around 5
     /// seconds ») : pas de page. [validé 31/10] Resprite du Giant Worm par l'utilisateur ; IA de ver fouisseur du Giant
-    /// Worm, plus rapide et qui frappe plus fort. Tête + 6 segments + queue, vie partagée.
+    /// Worm, plus rapide et qui frappe plus fort. Tête + 6 segments + queue, vie partagée. [validé 31/10] Sprites réduits
+    /// de moitié (ils paraissaient deux fois trop gros) : pixels de 1 au lieu des blocs de 2 habituels.
     /// </summary>
     public abstract class EstrangedSonSegment : ModNPC
     {
         public const int BodyCount = 6;
-        /// <summary>Distance entre deux segments (sprites de 54 px de haut, qui se chevauchent).</summary>
-        public const float Spacing = 40f;
+        /// <summary>Distance entre deux segments (sprites de 27 px de haut, qui se chevauchent).</summary>
+        public const float Spacing = 20f;
 
         public override void SetStaticDefaults() =>
             NPCID.Sets.NPCBestiaryDrawOffset[Type] = new NPCID.Sets.NPCBestiaryDrawModifiers { Hide = this is not EstrangedSonHead };
 
         public override void SetDefaults()
         {
-            NPC.width = NPC.height = 30;
+            NPC.width = NPC.height = 16;
             NPC.aiStyle = -1;
             NPC.noGravity = true;
             NPC.noTileCollide = true;

@@ -114,6 +114,10 @@ namespace CalamityFandom.Common.Taming
 
         public override bool PreAI(NPC npc)
         {
+            // [validé 31/10] Les vers ne meurent pas pendant le combat des Perforators (leurs attaques les tuaient avant qu'ils
+            // deviennent des Estranged Sons) ; vérifié partout, les clients aussi frappent les PNJ
+            if (npc.type == NPCID.Worm && NPC.AnyNPCs(ModContent.NPCType<CalamityMod.NPCs.Perforator.PerforatorHive>()))
+                npc.dontTakeDamage = true;
             if (wormTransform > 0 && --wormTransform == 0 && Main.netMode != NetmodeID.MultiplayerClient)
             {
                 if (TamingSystem.Active("The Perforators") != null)
