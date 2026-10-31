@@ -146,6 +146,36 @@
    "value": 115000
   },
   {
+   "name": "AngeliniteOre",
+   "displayName": "Angelinite Ore",
+   "page": "Angelinite Ore.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 12,
+   "maxStack": 9999,
+   "value": 100000,
+   "tile": "block",
+   "mapColor": [
+    168,
+    143,
+    135
+   ]
+  },
+  {
+   "name": "AntlionOre",
+   "displayName": "Antlion Ore",
+   "page": "Antlion Ore.txt",
+   "width": 20,
+   "height": 20,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 1,
+   "maxStack": 9999,
+   "value": 1000
+  },
+  {
    "name": "ApocalypticBar",
    "displayName": "Apocalyptic Bar",
    "page": "Apocalyptic Bar.txt",
@@ -1802,6 +1832,18 @@
    ]
   },
   {
+   "name": "LightlyWeatheredWaxedCopperBrick",
+   "displayName": "Lightly Weathered Waxed Copper Brick",
+   "page": "Lightly Weathered Waxed Copper Brick.txt",
+   "width": 32,
+   "height": 32,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0
+  },
+  {
    "name": "LivingDewDroplet",
    "displayName": "Living Dew Droplet",
    "page": "Living Dew Droplet.txt",
@@ -2361,6 +2403,24 @@
    "rare": 2,
    "maxStack": 9999,
    "value": 5000
+  },
+  {
+   "name": "Sallowrack",
+   "displayName": "Sallowrack",
+   "page": "Sallowrack.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    131,
+    124,
+    120
+   ]
   },
   {
    "name": "SandElementalsSoul",

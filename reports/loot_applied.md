@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 298 drops ajoutés sur 117 PNJ
+- 316 drops ajoutés sur 135 PNJ
 - 111 ajouts dans 24 sacs
-- 552 drops du wiki déjà présents dans le jeu (inchangés)
+- 554 drops du wiki déjà présents dans le jeu (inchangés)
 - 120 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 25 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 174 PNJ du wiki absents du jeu, 56 objets introuvables
+- 174 PNJ du wiki absents du jeu, 55 objets introuvables
 
 ## Ajouts
 
@@ -15,6 +15,9 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Aero Slime** : Skyline Wings 1-1 à 3.0%
 - **Angry Trapper** : Trapper Bulb 1-1 à 33.0%
 - **Anomura Fungus** : Fungal Carapace 1-1 à 15.0%
+- **Antlion** : Antlion Ore 1-2 à 100.0%
+- **Antlion Charger** : Antlion Ore 2-3 à 100.0%
+- **Antlion Swarmer** : Antlion Ore 2-3 à 100.0%
 - **Aquatic Scourge** : Bleached Angling Kit 1-1 à 100.0% (mode normal) ; Sulphurous Sand 5-15 à 100.0% (mode normal) ; Aquatic Emblem 1-1 à 100.0% (mode normal) ; Deep Diver 1-1 à 10.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal) ; Aquatic Scourge 1-1 à 100.0% [Always on first kill] (mode normal) ; Aquatic Scourge 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Sulphur Sea 1-1 à 100.0% [Always on first kill] (mode normal) ; Sulphur Sea 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Aries** : Titan Finger 1-1 à 2.0% ; Stellar Knife 1-1 à 14.3% [After defeating Astrum Aureus]
 - **Armored Digger** : Draedon's Remote 1-1 à 33.3% ; Demonic Bone Ash 2-4 à 100.0% ; Mysterious Circuitry 4-8 à 100.0% ; Dubious Plating 4-8 à 100.0%
@@ -42,6 +45,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Colossal Squid** : Depth Cells 26-38 à 50.0% [After defeating Calamitas] ; Calamari's Lament 1-1 à 33.3% [After defeating Polterghast]
 - **Crabulon** : Glowing Mushroom 20-30 à 100.0% (mode normal) ; Mushroom Grass Seeds 3-6 à 100.0% (mode normal) ; Fungal Clump 1-1 à 100.0% (mode normal) ; Delicious Meat 4-7 à 100.0% (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Shroomerang 1-1 à 25.0% (mode normal)
 - **Cragmaw Mire** : Septic Skewer 1-1 à 25.0%
+- **Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
 - **Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
 - **Cryogen** : Frozen Key 1-1 à 20.0% (mode normal) ; Soul of Cryogen 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (mode normal) ; Cryogen 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Bittercold Staff 1-1 à 25.0% (mode normal) ; Glacial Crusher 1-1 à 25.0% (mode normal)
 - **Crystal Crawler** : Crystal Blade 1-1 à 20.0%
@@ -90,6 +94,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Moray Eel** : Depth Crusher 1-1 à 6.7%
 - **Mouse** : Cheese 1-2 à 0.0% [in Godseeker Mode]
 - **Necromancer** : Wrath of the Ancients 1-1 à 4.0%
+- **Necromancer** : Wrath of the Ancients 1-1 à 4.0%
 - **Nova** : Titan Finger 1-1 à 2.0%
 - **Nuclear Terror** : Microxodonta 1-1 à 33.3% ; Sulfuric Scale 1-1 à 10.0%
 - **Oarfish** : Depth Cells 3-5 à 50.0% [After defeating Calamitas]
@@ -127,6 +132,19 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Viperfish** : Depth Cells 1-2 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 25.0% [After defeating Calamitas]
 - **Wall of Flesh** : Twisted Tendril 3-5 à 100.0% (mode normal)
 - **Wolf** : Coyote Venom 1-1 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0%
 - **Zombie** : Disgusting Meat 1-2 à 25.0%
 
 ## Ajouts dans les sacs
@@ -173,13 +191,16 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - Waterfreeze Reactive Essence : Any Space enemy (10.0%)
 - Waterfreeze Reactive Essence : Any Abyss enemy (10.0%)
 
+## Butin donné à toutes les variantes du même nom (5 pages)
+
+Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necromancer (2)
+
 ## Objets introuvables (contenu à créer)
 
-- Antlion Ore — 3
+- The Insacred Texts — 22
 - Bad Apple — 2
 - Honey Cooling Cell — 2
 - Romulus — 2
-- The Insacred Texts — 2
 - Ash's Cloak — 1
 - Calamity Spawner — 1
 - Cent Striker — 1

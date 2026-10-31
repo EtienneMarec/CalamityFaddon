@@ -157,6 +157,13 @@ def main():
     # Les barres sont des « Block » sur le wiki (elles se posent) : prises comme matériaux si une recette les utilise
     recipes = json.load(open(os.path.join(ROOT, "WikiData", "recipes.json"), encoding="utf-8"))["recipes"]
     ingredients = {n.lower() for r in recipes for i in r["ingredients"] for n in i["items"]}
+    # ... ou si le butin du wiki les donne (Antlion Ore, lâché par les Antlions), sauf contenu historique
+    loot_path = os.path.join(ROOT, "WikiData", "loot.json")
+    dropped = set()
+    if os.path.exists(loot_path):
+        loot = json.load(open(loot_path, encoding="utf-8"))
+        dropped = {d["item"].lower() for v in loot["npcs"].values() for d in v["drops"]}
+        dropped |= {d["item"].lower() for d in loot.get("generic", [])}
     items, loc = [], {}
     for page in sorted(index.values(), key=lambda p: p["title"]):
         if page.get("status") != "new" or page.get("kind") != "content" or not page.get("infobox", "").startswith("item"):
@@ -166,8 +173,13 @@ def main():
         seconds = duration_seconds(page["fields"].get("duration")) if food else None
         if food and not seconds:
             food = None
-        if kind not in MATERIAL_TYPES and not food and not (kind == "block" and page["title"].lower() in ingredients):
+        title_lower = page["title"].lower()
+        from_loot = kind == "block" and title_lower not in ingredients and title_lower in dropped
+        if kind not in MATERIAL_TYPES and not food and not (kind == "block" and title_lower in ingredients) and not from_loot:
             continue
+        if from_loot and "{{historical" in open(os.path.join(ROOT, "wiki", "Main", page["file"]), encoding="utf-8",
+                                                errors="replace").read().lower():
+            continue  # bloc d'une ancienne version (Frigid Bar), seulement cité par le butin : pas recréé
         sprite = sprite_file(page)
         if not sprite:
             continue

@@ -111,6 +111,16 @@ namespace CalamityFandom.Common.WikiData
         }
 
         public static List<string> GenericAdded { get; } = new();
+        /// <summary>Pages dont le butin va à toutes les variantes du même nom (« Zombie (12) »).</summary>
+        public static List<string> Variants { get; } = new();
+
+        /// <summary>
+        /// Plusieurs PNJ du même nom qui sont des variantes et pas les parties d'un même PNJ : ni boss, ni segments
+        /// (dontCountMe), ni vers du jeu (IA de ver : tête, corps et queue portent le même nom).
+        /// </summary>
+        private static bool IsVariantFamily(List<int> types) =>
+            types.Count > 1 && types.All(t => ContentSamples.NpcsByNetId.TryGetValue(t, out var n) && !n.boss && !n.dontCountMe
+                && n.aiStyle != NPCAIStyleID.Worm && !NPCID.Sets.ShouldBeCountedAsBoss[t]);
 
         private static void ApplyGeneric()
         {
@@ -174,6 +184,7 @@ namespace CalamityFandom.Common.WikiData
             MissingItems.Clear();
             MissingNPCs.Clear();
             GenericAdded.Clear();
+            Variants.Clear();
             AlreadyDropped = Conditional = Conditioned = RemovedNotOnWiki = RemovedFromBags = ReplacedByCondition = 0;
         }
 
@@ -195,6 +206,18 @@ namespace CalamityFandom.Common.WikiData
                 // Un seul PNJ par page : segments de ver et alias partagent un nom, le butin ne doit pas se multiplier.
                 // On prend celui qui a déjà le plus de butin (la tête d'un ver, le vrai boss d'une page) ; à égalité, pas un
                 // segment (dontCountMe : corps et queue d'un ver porté sans butin, comme l'Armored Digger)
+                // Variantes d'un même ennemi (Zombie, Demon Eye : même nom, PNJ indépendants, ni boss ni segments) : toutes.
+                // Les parties cachées du bestiaire (segment du Bobbit Worm, lanterne du Profaned Energy) n'en sont pas.
+                var visible = types.Where(t => !(NPCID.Sets.NPCBestiaryDrawOffset.TryGetValue(t, out var draw) && draw.Hide)).ToList();
+                if (visible.Count > 0)
+                    types = visible;
+                if (IsVariantFamily(types))
+                {
+                    foreach (int variant in types)
+                        ApplyToNPC(variant, npcData);
+                    Variants.Add($"{title} ({types.Count})");
+                    continue;
+                }
                 int target = types.OrderByDescending(t => Main.ItemDropsDB.GetRulesForNPCID(t, false).Count)
                     .ThenBy(t => ContentSamples.NpcsByNetId.TryGetValue(t, out var n) && n.dontCountMe)
                     .ThenBy(t => t).First();
@@ -559,6 +582,8 @@ namespace CalamityFandom.Common.WikiData
             sb.AppendLine().AppendLine($"## Sources génériques ({GenericAdded.Count} règles globales, pages d'objets)").AppendLine();
             foreach (string line in GenericAdded)
                 sb.AppendLine($"- {line}");
+            sb.AppendLine().AppendLine($"## Butin donné à toutes les variantes du même nom ({Variants.Count} pages)").AppendLine();
+            sb.AppendLine(string.Join(", ", Variants));
             sb.AppendLine().AppendLine("## Objets introuvables (contenu à créer)").AppendLine();
             foreach (var (item, count) in MissingItems.OrderByDescending(kv => kv.Value))
                 sb.AppendLine($"- {item} — {count}");

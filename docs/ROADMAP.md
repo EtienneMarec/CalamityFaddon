@@ -41,7 +41,7 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
 - [x] **Sacs de trésor** (Expert) : page « Treasure Bag » + drops des boss selon le mode (22/10)
 - [x] Infobox « item drops » des pages d'objets : 322 drops ajoutés (nuit du 22/10)
 - [x] Sources génériques de ces infobox (31/10 : 15 sur 27, les autres citent des lieux ou événements inventés)
-- [ ] Variantes d'un même nom (Zombie) dans ces infobox
+- [x] Variantes d'un même nom (31/10 : Zombie, Demon Eye... 5 pages)
 - [x] **Matériaux posables** (31/10) : 47 « Block » avec image posée sur le wiki (44 blocs sans bordures, 3 barres)
 - [ ] Bordures des blocs posés ; murs et meubles du wiki
 - [ ] Recettes vanilla modifiées par le wiki : 162 différences listées par l'auto-test (`reports/recipes.md`, 31/10), non appliquées — à trancher

@@ -457,6 +457,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 21/10]** Sprite absent ou inutilisable → demandé à l'utilisateur (`docs/SPRITES.md`). Provisoire en attendant :
   « Mars Bars » (photo réduite à 90×70).
 
+- **[choix]** (31/10) Un « Block » du wiki est aussi généré comme matériau s'il est dans le butin du wiki (Antlion Ore,
+  Angelinite Ore, Sallowrack...), sauf s'il est seulement historique (Frigid Bar, « Historical content »).
 - **[choix]** (31/10) **Matériaux qui se posent** (`Content/Tiles/WikiTile.cs`, `Assets/WikiTiles/`) : les matériaux
   « Block » dont le wiki montre le bloc posé (image « (placed) », 3 × 3 blocs) se posent : 47 (44 blocs, 3 barres :
   Flahium, Omnicidal Sludge, Verdantium). Texture = bloc du milieu de cette image ; les blocs sont pleins et
@@ -533,6 +535,14 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (Exosphere, Pot of Pain, Sky Abyss, vagues, Hydrabots), « Any Boss in Revengeance Mode » pour Laudanum, Stress Pills
   et Heart of Darkness (déjà dans les sacs de Calamity, comme l'explique leur page), Catarachedrae (« Hive Mind ou
   Perforators », et objet absent). **[technique]** Pas affichées dans le bestiaire (chaque fiche les listerait).
+
+- **[choix]** (31/10) **Variantes d'un même nom** (Zombie, Demon Eye...) : le butin d'une page va à toutes les variantes
+  qui portent ce nom (5 pages : Zombie 14 variantes, Demon Eye 8, Plague Charger, Necromancer, Crimson Slime Spawn),
+  quand ce sont des PNJ
+  indépendants : ni boss, ni segments (dontCountMe, IA de ver), et sans compter les parties cachées du bestiaire
+  (segment du Bobbit Worm, lanterne du Profaned Energy, et par prudence les variantes cachées comme le Goldfish qui
+  marche), qui feraient tomber le butin deux fois. Sinon, un seul PNJ
+  (celui qui a déjà le plus de butin, puis pas un segment). Liste : `reports/loot_applied.md`.
 
 ## 8. Contenu créé ou porté
 

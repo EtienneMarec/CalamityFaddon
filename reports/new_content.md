@@ -762,9 +762,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Aeroplate — addon: Calamity: Community Remix
 - [ ] Aether Dirt
 - [x] Alloy Bar
-- [ ] Angelinite Ore
+- [x] Angelinite Ore
 - [ ] Antlion Bar
-- [ ] Antlion Ore
+- [x] Antlion Ore
 - [x] Apocalyptic Bar
 - [x] Apocalyptic Ore
 - [x] Arean Conduit Plating
@@ -817,7 +817,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Invincible Titanic Snow — pas de sprite
 - [x] Lawplate
 - [x] Life Ore — addon: Calamity: Community Remix
-- [ ] Lightly Weathered Waxed Copper Brick
+- [x] Lightly Weathered Waxed Copper Brick
 - [ ] Meld Brick
 - [ ] Meld Gunk
 - [x] Meld Ore — addon: Calamity: Tales of the Aquatic
@@ -841,7 +841,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Refined Violium
 - [ ] Reinforced Acidplate — addon: Calamity: Tales of the Aquatic
 - [ ] Reinforced Noctiplate — addon: Calamity: Tales of the Aquatic
-- [ ] Sallowrack
+- [x] Sallowrack
 - [ ] Scalar Esseric Brick — addon: Calamity: Tales of the Aquatic
 - [ ] Scorching Mindustrial Plating — addon: Calamity: Tales of the Aquatic
 - [x] Shadowspec Ore — addon: Calamity Loot Swap, Catalyst
