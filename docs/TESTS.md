@@ -503,7 +503,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       est Slimed par le Slime Gun (debuff au-dessus de lui), même entre deux jets ; apprivoisé après 3 min Slimed en
       Calamity++, 5 min en Full Fandom
 - [ ] (31/10, phase 2) **Taming** (en cours : validés King Slime, Desert Scourge, Eye of Cthulhu, Crabulon, Eater of Worlds,
-      Brain of Cthulhu, The Hive Mind, The Perforators ; liste dans `docs/decisions.md`) (nouveau monde, les deux modes) : King Slime arrosé au Slime Gun grossit, cœurs et
+      Brain of Cthulhu, The Hive Mind, The Perforators, Queen Bee ; liste dans `docs/decisions.md`) (nouveau monde, les deux modes) : King Slime arrosé au Slime Gun grossit, cœurs et
       « ♥ 25 % » ; sans le blesser 5 min → « King Slime has been tamed! », il disparaît et laisse son butin. Plus simples
       à tester : Desert Scourge mené à la plage, Eye of Cthulhu (30 tours), Ravager dans le Shimmer, Duke Fishron près
       d'un Truffle Worm. Blesser le boss : plus aucun progrès. Tuer un boss puis aller voir le Zoologist : « Soothe:
@@ -609,13 +609,13 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
-- [ ] (31/10 soir) **Queen Bee** : dans une ruche, tirer au Bee Gun (ou Beenade, Bee's Knees) : les abeilles rebondissent
+- [x] (31/10 soir, validé) **Queen Bee** : dans une ruche, tirer au Bee Gun (ou Beenade, Bee's Knees) : les abeilles rebondissent
       sur les murs sans disparaître et vivent ~15 s ; compteur « x/100 bees » au-dessus du joueur ; à 100, la Queen Bee
       apparaît et est apprivoisée aussitôt. Hors ruche, les abeilles meurent comme avant (2,5 s, 3e rebond)
-- [ ] (31/10 soir) **Queen Bee (suite)** : le compte s'affiche à 5, 10, 15... abeilles ; à 100, la Queen Bee apparaît sur
+- [x] (31/10 soir, validé) **Queen Bee (suite)** : le compte s'affiche à 5, 10, 15... abeilles ; à 100, la Queen Bee apparaît sur
       le joueur et son butin tombe là ; elle ne revient pas pendant 12 minutes (« The Queen Bee is resting (x min) »),
       même en gardant les abeilles ; après, elle peut revenir
-- [ ] (31/10 soir) **Queen Bee** en combat (sans la toucher) : ses petites abeilles comptent ; à 100 autour du joueur, apprivoisée
+- [x] (31/10 soir, validé) **Queen Bee** en combat (sans la toucher) : ses petites abeilles comptent ; à 100 autour du joueur, apprivoisée
 - [ ] (31/10 soir) **The Insacred Texts** (Zombie / Demon Eye, 5 %) : clic gauche sur un groupe : portails rouges sous 3
       ennemis, bras qui monte et les tire vers le bas (450 dégâts) ; 25 s de recharge (affichée dans l'infobulle) ;
       clic droit : une phrase rose au hasard dans le chat (« ...then they kissed »), sans mana
