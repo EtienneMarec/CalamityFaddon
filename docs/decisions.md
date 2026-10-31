@@ -910,7 +910,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (`CanBeHitBy...` à `true` passait outre l'immunité : un estoc touchait 4 fois par passage).
 - **[choix]** Test Swords : 18 (une par élément + Moon Burnt), 10 dégâts, `use` 15, autoswing, couleur de l'élément ;
   suivent les règles du mode (chances en Calamity++).
-- **[technique]** Sprites vanilla réutilisés (bouteille d'eau, mannequin, épée de cuivre) : pas de sprite à faire.
+- **[choix]** (31/10) Fandom Time Dial : clic gauche, lever du jour (4 h 30) ou tombée de la nuit (19 h 30) ; clic droit,
+  une heure plus tard. Réglé en solo ou par le serveur (pas depuis un client).
+- **[technique]** Sprites vanilla réutilisés (bouteille d'eau, mannequin, épée de cuivre, cadran solaire) : pas de
+  sprite à faire.
 
 ## 10. Notre wiki (`wiki/`, `docs/WIKI.md`)
 
