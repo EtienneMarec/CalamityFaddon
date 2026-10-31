@@ -68,16 +68,24 @@ namespace CalamityFandom.Common.Taming.Chess
         public override void ClearWorld() => opponentFrom.Clear();
 
         /// <summary>
-        /// [validé 31/10] Pas de partie contre un boss avant la fin de son cri d'apparition : Roar_0 dure 1,98 s, d'où
-        /// 2 s comptées depuis son apparition (<see cref="ChessBossAge"/>).
+        /// [validé 31/10] Pas de partie contre un boss avant la fin de son apparition. Calamity donne au Brain of Cthulhu une
+        /// animation d'apparition (tremblement, sortie du sol ou du ciel, cri au bout de 4 s, fin vers 7 s ; 2 s de moins
+        /// invoqué par objet), dans l'état 0 ou 1 de son IA (ai[0]) : le plateau attend qu'elle soit finie. Sans cette IA :
+        /// 2 s depuis son apparition (le cri Roar_0 dure 1,98 s, <see cref="ChessBossAge"/>).
         /// </summary>
         public const int RoarTicks = 120;
 
         public static bool BossStillRoaring(Player player)
         {
             foreach (var n in Main.ActiveNPCs)
-                if (n.type == NPCID.BrainofCthulhu && n.WithinRange(player.Center, 3000f) && n.GetGlobalNPC<ChessBossAge>().Age < RoarTicks)
+            {
+                if (n.type != NPCID.BrainofCthulhu || !n.WithinRange(player.Center, 3000f))
+                    continue;
+                bool calamityAI = n.TryGetGlobalNPC<CalamityMod.NPCs.CalamityVanillaAIOverrideNPC>(out var ai)
+                    && ai.AIOverride is CalamityMod.NPCs.VanillaNPCAIOverrides.Bosses.BrainOfCthulhu.BrainOfCthulhuAI;
+                if (calamityAI ? n.ai[0] <= 1f : n.GetGlobalNPC<ChessBossAge>().Age < RoarTicks)
                     return true;
+            }
             return false;
         }
 
@@ -242,6 +250,19 @@ namespace CalamityFandom.Common.Taming.Chess
             eye.velocity = Vector2.Zero;
             if (age % 6 == 0 || age == IntroTicks)
                 eye.netUpdate = true;
+        }
+    }
+
+    /// <summary>
+    /// [validé 31/10] Pas d'apparition d'ennemis pendant une partie : le monde est figé, mais le jeu continuait à en faire
+    /// apparaître, et ils arrivaient tous d'un coup à la fin.
+    /// </summary>
+    public class ChessNoSpawns : GlobalNPC
+    {
+        public override void EditSpawnRate(Player player, ref int spawnRate, ref int maxSpawns)
+        {
+            if (ChessScene.Frozen)
+                maxSpawns = 0;
         }
     }
 

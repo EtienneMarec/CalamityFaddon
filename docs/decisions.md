@@ -497,8 +497,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
     (face au Brain of Cthulhu : à la fin du combat). **[choix]** Le plus proche ; bestioles comprises.
   - **[validé 31/10]** **Personne à portée** : même mise en scène, mais à la place de l'adversaire, « Sit at the
     chessboard and play with yourself » s'affiche au-dessus de la chaise vide ; pas de poignée de main.
-  - **[validé 31/10]** Plateau inutilisable avant la fin du **cri d'apparition** du boss (2 s : le son Roar_0 dure
-    1,98 s) ; phrase « play with yourself » en doré (le bleu se perdait dans le ciel).
+  - **[validé 31/10]** Plateau inutilisable avant la fin de l'**apparition** du boss : Calamity joue une animation
+    d'apparition (état 0 ou 1 de son IA, cri au bout de 4 s, fin vers 7 s) ; les 2 s d'abord choisies (son Roar_0 de
+    1,98 s) ne suffisaient pas, elles restent seulement si l'IA de Calamity n'est pas active. **[validé 31/10]** Plus
+    d'apparition d'ennemis pendant une partie (sinon une vague arrivait à la fin) ; phrase « play with yourself » en doré (le bleu se perdait dans le ciel).
   - **[validé 31/10]** Chaise du **Brain of Cthulhu** reculée de 7,5 blocs de plus que sa largeur (son aura rouge et rose
     cachait la scène). **[choix]** 7,5 blocs, dans la fourchette de 5 à 10 demandée.
   - **[technique]** Le joueur est placé sur sa chaise avant et après le mouvement du jeu, et le décalage de marche
