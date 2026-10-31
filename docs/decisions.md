@@ -434,7 +434,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   segments (un PNJ par segment : 50 Estranged Sons = 400 PNJ, le jeu en accepte 200, les vers suivants n'apparaissaient
   plus) ; les segments blessent quand même au contact. Taille : le Giant Worm de Terraria fait 18×30 par segment, les
   sprites de l'utilisateur 54×72 (tête), 42×54 (corps), 42×66 (queue) en blocs de 2 : à moitié, encore ~1,5× plus
-  larges (à trancher) ; IA de ver fouisseur du Giant Worm,
+  larges ; **[validé 31/10]** on garde la moitié ; IA de ver fouisseur du Giant Worm,
   plus vive. **[choix]** Valeurs : tête + 6 segments + queue, 60 PV partagés, dégâts 14/10/8, défense 2/4/6, vitesse 8
   et accélération 0,1 (Giant Worm ≈ 6 et 0,07). Tuer un Estranged Son fait échouer la tentative ; ils disparaissent
   avec les Perforators apprivoisés.
