@@ -96,8 +96,9 @@ namespace CalamityFandom.Common.Taming
                     float turned = MathHelper.WrapAngle((p.Center - npc.Center).ToRotation() - (oldCenter - npc.Center).ToRotation());
                     f.B += turned;
                     f.C = Math.Max(f.C, Math.Abs(f.B));
-                    // Changement de sens : dès qu'on revient d'un quart de tour en arrière, le compteur repart de zéro
-                    if (Math.Abs(f.B) < f.C - MathHelper.PiOver2)
+                    // [validé 31/10] Changement de sens : un tour entier en arrière remet le compteur à zéro (un quart de tour
+                    // laissait les esquives des charges de l'œil effacer les tours)
+                    if (Math.Abs(f.B) < f.C - MathHelper.TwoPi)
                     {
                         bool hadProgress = f.Progress > 0f || f.C > MathHelper.Pi;
                         f.B = f.C = 0f;
