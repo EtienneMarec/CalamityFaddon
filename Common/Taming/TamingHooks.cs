@@ -269,11 +269,9 @@ namespace CalamityFandom.Common.Taming
         {
             if (player.whoAmI != Main.myPlayer)
                 return;
-            // « Consume 3 Food items throughout the fight. Note that the Well Fed buff must run out before another food item
-            // can be counted as eaten »
-            bool food = item.buffType == BuffID.WellFed || item.buffType == BuffID.WellFed2 || item.buffType == BuffID.WellFed3;
-            if (food && !player.GetModPlayer<TamingPlayer>().HadWellFed && TamingSystem.Get("Eater of Worlds") is { } eow && TamingSystem.FindMain(eow) != null)
-                TamingSystem.Report(eow.Key, 1f);
+            // « Consume 3 Food items throughout the fight » : l'aliment compte quand son Well Fed s'achève (TamingPlayer)
+            if (TamingPlayer.IsWellFed(item.buffType) && TamingSystem.Get(TamingPlayer.EaterKey) is { } eow && TamingSystem.FindMain(eow) != null)
+                player.GetModPlayer<TamingPlayer>().PendingFood = item.type;
             // « Consume a Yharic Delight while Crabulon is passive right after spawning » : la fenêtre de 5 s est
             // vérifiée là où le combat est suivi (TamingSystem.AddProgress)
             if (item.type == WikiData.WikiRecipes.ResolveItem("Yharic Delight") && NPC.AnyNPCs(ModContent.NPCType<Crabulon>()))
@@ -283,13 +281,58 @@ namespace CalamityFandom.Common.Taming
 
     public class TamingPlayer : ModPlayer
     {
-        public bool HadWellFed;
         /// <summary>Partie d'échecs en cours (Holographic Chessboard), connue du serveur.</summary>
         public bool ChessOpen;
         private bool dashCounted;
 
-        public override void PreUpdate() =>
-            HadWellFed = Player.HasBuff(BuffID.WellFed) || Player.HasBuff(BuffID.WellFed2) || Player.HasBuff(BuffID.WellFed3);
+        public const string EaterKey = "Eater of Worlds";
+        /// <summary>Dernier aliment mangé pendant le combat contre l'Eater of Worlds, en attente de la fin de son Well Fed.</summary>
+        public int PendingFood;
+        /// <summary>Durée restante du Well Fed au tick précédent (-1 : pas de Well Fed).</summary>
+        private int lastWellFedTime = -1;
+        /// <summary>Aliments déjà comptés pendant ce combat (Calamity++ : 3 différents).</summary>
+        private readonly HashSet<int> eatenFoods = new();
+
+        public static bool IsWellFed(int buff) => buff is BuffID.WellFed or BuffID.WellFed2 or BuffID.WellFed3;
+
+        /// <summary>
+        /// Eater of Worlds : « Consume 3 Food items throughout the fight. Note that the Well Fed buff must run out before
+        /// another food item can be counted as eaten ». [validé 31/10] Un aliment mangé pendant le combat compte quand son
+        /// Well Fed s'achève de lui-même : le retirer d'un clic droit l'annule. Calamity++ (Balance/taming.json) : 3
+        /// aliments différents. [choix] Si on remange pendant un Well Fed, c'est le dernier aliment qui compte.
+        /// </summary>
+        public override void PostUpdateBuffs()
+        {
+            if (Player.whoAmI != Main.myPlayer)
+                return;
+            var eow = TamingSystem.Get(EaterKey);
+            if (eow == null || TamingSystem.FindMain(eow) == null)
+            {
+                PendingFood = 0;
+                eatenFoods.Clear();
+            }
+            int time = -1;
+            for (int i = 0; i < Player.MaxBuffs; i++)
+                if (IsWellFed(Player.buffType[i]) && Player.buffTime[i] > 0)
+                    time = Player.buffTime[i];
+            if (time < 0 && lastWellFedTime >= 0 && PendingFood > 0)
+            {
+                // Le buff a disparu : fin normale (il restait 1 ou 2 ticks), ou retiré d'un clic droit
+                if (lastWellFedTime > 2)
+                    Main.NewText(Language.GetTextValue("Mods.CalamityFandom.Taming.Food.Cancelled"), Color.LightPink);
+                else if (TamingSystem.EaterDistinctFoods && !eatenFoods.Add(PendingFood))
+                    Main.NewText(Language.GetTextValue("Mods.CalamityFandom.Taming.Food.Same", Lang.GetItemNameValue(PendingFood)), Color.LightPink);
+                else
+                {
+                    eatenFoods.Add(PendingFood);
+                    CombatText.NewText(Player.Hitbox, Color.HotPink, Language.GetTextValue("Mods.CalamityFandom.Taming.Food.Digested",
+                        Lang.GetItemNameValue(PendingFood)));
+                    TamingSystem.Report(EaterKey, 1f);
+                }
+                PendingFood = 0;
+            }
+            lastWellFedTime = time;
+        }
 
         // « Dash directly into the Destroyers head segment with a dash 5 times. Note that the dash must not deal damage »
         public override void PostUpdate()

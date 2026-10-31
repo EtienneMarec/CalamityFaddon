@@ -194,12 +194,14 @@ namespace CalamityFandom.Common.Taming
         {
             public Dictionary<string, float> Goals { get; set; } = new();
             public bool HungaryDelight { get; set; }
+            public bool EaterDistinctFoods { get; set; }
         }
 
         /// <summary>Calamity++ : objectifs de Balance/taming.json (King Slime : 3 min au lieu de 5).</summary>
         private void ApplyBalance()
         {
             HungaryDelight = false;
+            EaterDistinctFoods = false;
             if (!Config.FandomMode.IsPlus || !Mod.FileExists("Balance/taming.json"))
                 return;
             var balance = System.Text.Json.JsonSerializer.Deserialize<BalanceFile>(Mod.GetFileBytes("Balance/taming.json"),
@@ -208,6 +210,7 @@ namespace CalamityFandom.Common.Taming
                 if (Get(key) is { } e)
                     e.Goal = goal;
             HungaryDelight = balance.HungaryDelight;
+            EaterDistinctFoods = balance.EaterDistinctFoods;
         }
 
         public override void Unload()
@@ -329,6 +332,9 @@ namespace CalamityFandom.Common.Taming
 
         /// <summary>Calamity++ (Balance/taming.json) : le Traveling Merchant donne un Yharic Delight à « Yo, I'm Hungary !! ».</summary>
         public static bool HungaryDelight;
+
+        /// <summary>Calamity++ (Balance/taming.json) : l'Eater of Worlds demande 3 aliments différents.</summary>
+        public static bool EaterDistinctFoods;
 
         /// <param name="player">Joueur à prévenir quand le geste ne compte pas (Crabulon), -1 sinon.</param>
         public static void AddProgress(string key, float amount, int player = -1)

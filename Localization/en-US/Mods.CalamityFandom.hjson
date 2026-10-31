@@ -1780,12 +1780,19 @@ Taming: {
 	SootheName: Soothe: {0}
 	Bees: "{0}/{1} bees"
 
+	Food: {
+		Digested: "{0} digested!"
+		Cancelled: "The Eater of Worlds wanted you to finish digesting that food."
+		Same: "The Eater of Worlds already saw you eat {0}: try another food."
+	}
+
 	Why: {
 		Untamable: "{0} cannot be tamed: it was killed in this world. The Zoologist can soothe it."
 		Harmed: "{0} was hurt during this fight: let it leave, then try again."
 		NoFight: "{0} is not here."
-		TooLate: "Too late: {0} spawned {1:0.0} s ago ({2} s at most)."
+		TooLate: Too late: {0} spawned {1:0.0} s ago ({2} s at most).
 	}
+
 	Hungary: Traveling Merchant: Hi Hungary, I'm the Traveling Merchant. Here, {0}, eat something.
 }
 

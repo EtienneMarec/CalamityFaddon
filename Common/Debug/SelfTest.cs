@@ -314,6 +314,7 @@ namespace CalamityFandom.Common.Debug
             }
             // Taming (31/10) : 42 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
             var tames = Common.Taming.TamingSystem.Entries;
+            Expect(Common.Taming.TamingSystem.EaterDistinctFoods == FandomMode.IsPlus, "Taming de l'Eater of Worlds : 3 aliments différents en Calamity++ seulement");
             Expect(Common.Taming.TamingSystem.CrabulonWindow == 300 && Common.Taming.TamingSystem.HungaryDelight == FandomMode.IsPlus,
                 "Taming de Crabulon : 5 s ; Yharic Delight du Traveling Merchant en Calamity++ seulement");
             Expect(tames.Count == 42 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
