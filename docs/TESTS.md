@@ -537,7 +537,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Cthulhu est nettement plus loin ; la phrase « play with yourself » est dorée ; le plateau ne s'utilise pas pendant
       les 2 s du cri d'apparition du Brain of Cthulhu ; la table apparaît à 7 blocs devant le joueur, posée sur le sol ;
       joueur et PNJ assis à la même hauteur ; une Wyvern (ou un ver) vient s'asseoir en entier
-- [ ] (31/10 soir) **Butin générique** : un ennemi de la corruption donne parfois (10 %) une seule Noctic Reactive Essence,
+- [x] (31/10 soir, validé) **Butin générique** : un ennemi de la corruption donne parfois (10 %) une seule Noctic Reactive Essence,
       King Slime un seul Conquest Fragment (avant : des centaines ou des milliers) ; Desert Scourge, Devourer of Gods... ne donnent qu'un Conquest Fragment par combat
       (les Twins aussi : un pour les deux) ; les essences réactives ne tombent plus des boss, de leurs morceaux et
       serviteurs, ni de chaque segment des vers ennemis (une chance de 10 % par ennemi)
