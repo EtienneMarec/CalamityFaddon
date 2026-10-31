@@ -94,6 +94,12 @@ namespace CalamityFandom.Common.Taming
         public static bool TamingNow;
 
         public const int GravesGoal = 100;
+        /// <summary>
+        /// [validé 31/10] Après l'avoir apprivoisée, la Queen Bee ne revient pas avant une demi-journée (43 200 ticks,
+        /// 12 minutes) : les abeilles encore là la refaisaient apparaître en boucle. Sauvegardé avec le monde.
+        /// </summary>
+        public const int QueenBeeRestTicks = 43200;
+        public static int QueenBeeRest;
         public const string SupremeCalamitasKey = "Supreme Calamitas";
 
         /// <summary>Tous les boss apprivoisables sauf Supreme Calamitas sont apprivoisés dans ce monde.</summary>
@@ -246,10 +252,12 @@ namespace CalamityFandom.Common.Taming
             InstantTame.Clear();
             SoothedToday = false;
             DungeonGraves = 0;
+            QueenBeeRest = 0;
         }
 
         public override void SaveWorldData(TagCompound tag)
         {
+            tag["tamingQueenBeeRest"] = QueenBeeRest;
             tag["tamingUntamable"] = Untamable.ToList();
             tag["tamingSoothedToday"] = SoothedToday;
             tag["tamingGraves"] = DungeonGraves;
@@ -263,6 +271,7 @@ namespace CalamityFandom.Common.Taming
                 Untamable.Add(key);
             SoothedToday = tag.GetBool("tamingSoothedToday");
             DungeonGraves = tag.GetInt("tamingGraves");
+            QueenBeeRest = tag.GetInt("tamingQueenBeeRest");
             Tamed.Clear();
             foreach (string key in tag.GetList<string>("tamingTamed"))
                 Tamed.Add(key);
@@ -272,6 +281,7 @@ namespace CalamityFandom.Common.Taming
         public override void NetSend(BinaryWriter writer)
         {
             writer.Write(SoothedToday);
+            writer.Write(QueenBeeRest);
             writer.Write(Untamable.Count);
             foreach (string key in Untamable)
                 writer.Write(key);
@@ -280,6 +290,7 @@ namespace CalamityFandom.Common.Taming
         public override void NetReceive(BinaryReader reader)
         {
             SoothedToday = reader.ReadBoolean();
+            QueenBeeRest = reader.ReadInt32();
             Untamable.Clear();
             int count = reader.ReadInt32();
             for (int i = 0; i < count; i++)
@@ -290,6 +301,9 @@ namespace CalamityFandom.Common.Taming
 
         public override void PostUpdateWorld()
         {
+            // Repos de la Queen Bee (serveur ou solo ; les clients reçoivent la valeur avec les données du monde)
+            if (QueenBeeRest > 0)
+                QueenBeeRest--;
             // « Only one boss can be soothed per day » : remis à zéro à l'aube
             if (Terraria.Main.dayTime && !wasDay && SoothedToday)
             {
@@ -583,7 +597,8 @@ namespace CalamityFandom.Common.Taming
         private static void HiveBees()
         {
             var e = Get(TamingBees.Key);
-            if (e == null || Terraria.Main.GameUpdateCount % 30 != 0 || Untamable.Contains(e.Key) || InstantTame.Contains(e.Key))
+            if (e == null || Terraria.Main.GameUpdateCount % 30 != 0 || Untamable.Contains(e.Key) || InstantTame.Contains(e.Key)
+                || QueenBeeRest > 0)
                 return;
             NPC queen = FindMain(e);
             if (queen != null && Active(e.Key) == null)
@@ -596,8 +611,11 @@ namespace CalamityFandom.Common.Taming
                     Fights[e.Key].Progress = e.Goal;
                 else
                 {
+                    // [validé 31/10] Elle apparaît sur le joueur, au milieu de la ruche et de ses abeilles : son butin y tombe
                     InstantTame.Add(e.Key);
-                    NPC.SpawnOnPlayer(p.whoAmI, e.Main);
+                    int queenIndex = NPC.NewNPC(NPC.GetBossSpawnSource(p.whoAmI), (int)p.Center.X, (int)p.Center.Y, e.Main);
+                    if (Terraria.Main.netMode == NetmodeID.Server)
+                        NetMessage.SendData(MessageID.SyncNPC, number: queenIndex);
                 }
                 return;
             }
@@ -676,6 +694,11 @@ namespace CalamityFandom.Common.Taming
         {
             Fights.Remove(e.Key);
             Tamed.Add(e.Key);
+            if (e.Key == TamingBees.Key)
+            {
+                QueenBeeRest = QueenBeeRestTicks;
+                SyncWorld();
+            }
             Vector2 pos = npc.Center;
             foreach (var n in Terraria.Main.ActiveNPCs)
             {

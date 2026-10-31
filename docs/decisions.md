@@ -327,7 +327,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   joueur dans le biome), les abeilles du joueur rebondissent sur les blocs sans s'user (au lieu de mourir au 3e
   rebond). **[choix]** 100 abeilles **en même temps** à moins de 100 blocs d'un joueur dans une ruche (vérifié toutes
   les 30 ticks) ; elles vivent 15 s au lieu de 2,5 s dans une ruche, sinon 100 est hors d'atteinte ; compteur
-  « x/100 bees » au-dessus du joueur à partir de 10. Sans Queen Bee : elle apparaît apprivoisée. Pendant un combat où
+  « x/100 bees » au-dessus du joueur, **[validé 31/10]** à chaque palier de 5 (5, 10, 15...). Sans Queen Bee : elle apparaît apprivoisée, **[validé 31/10]** sur le joueur
+  (au milieu de la ruche et des abeilles : son butin y tombe, et non plus à l'écart). **[validé 31/10]** Ensuite, pas de
+  nouvelle Queen Bee avant une demi-journée (12 minutes ; les abeilles restantes la refaisaient apparaître en boucle) ; le
+  palier affiche alors « The Queen Bee is resting (x min) ». Pendant un combat où
   elle n'a pas été blessée (ses abeilles comptent) : apprivoisée aussitôt. (`Common/Taming/TamingBees.cs`)
 - **[validé 31/10]** **Récompenses** : la page en nomme 17. Les 15 sans page : même objet dans les deux modes, sans effet
   en Full Fandom (infobulle « souvenir »), vrai effet en Calamity++. Pas encore créées : le boss apprivoisé laisse pour

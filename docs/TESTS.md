@@ -612,6 +612,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] (31/10 soir) **Queen Bee** : dans une ruche, tirer au Bee Gun (ou Beenade, Bee's Knees) : les abeilles rebondissent
       sur les murs sans disparaître et vivent ~15 s ; compteur « x/100 bees » au-dessus du joueur ; à 100, la Queen Bee
       apparaît et est apprivoisée aussitôt. Hors ruche, les abeilles meurent comme avant (2,5 s, 3e rebond)
+- [ ] (31/10 soir) **Queen Bee (suite)** : le compte s'affiche à 5, 10, 15... abeilles ; à 100, la Queen Bee apparaît sur
+      le joueur et son butin tombe là ; elle ne revient pas pendant 12 minutes (« The Queen Bee is resting (x min) »),
+      même en gardant les abeilles ; après, elle peut revenir
 - [ ] (31/10 soir) **Queen Bee** en combat (sans la toucher) : ses petites abeilles comptent ; à 100 autour du joueur, apprivoisée
 - [ ] (31/10 soir) **The Insacred Texts** (Zombie / Demon Eye, 5 %) : clic gauche sur un groupe : portails rouges sous 3
       ennemis, bras qui monte et les tire vers le bas (450 dégâts) ; 25 s de recharge (affichée dans l'infobulle) ;

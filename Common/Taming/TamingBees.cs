@@ -79,16 +79,28 @@ namespace CalamityFandom.Common.Taming
         }
     }
 
-    /// <summary>Affiche le compte d'abeilles au-dessus du joueur dans une ruche (à partir de 10, chaque seconde).</summary>
+    /// <summary>
+    /// Compte d'abeilles au-dessus du joueur dans une ruche : [validé 31/10] à chaque palier de 5 atteint (5, 10, 15...),
+    /// au lieu de chaque seconde. Pendant le repos de la Queen Bee, le palier affiche le temps restant.
+    /// </summary>
     public class TamingBeesPlayer : ModPlayer
     {
+        private int shownStep;
+
         public override void PostUpdate()
         {
-            if (Player.whoAmI != Main.myPlayer || Main.GameUpdateCount % 60 != 0 || TamingSystem.Untamable.Contains(TamingBees.Key))
+            if (Player.whoAmI != Main.myPlayer || Main.GameUpdateCount % 10 != 0 || TamingSystem.Untamable.Contains(TamingBees.Key))
                 return;
             int count = TamingBees.CountAround(Player);
-            if (count >= 10)
-                CombatText.NewText(Player.Hitbox, Color.Gold, Language.GetTextValue("Mods.CalamityFandom.Taming.Bees", count, TamingBees.Goal));
+            int step = System.Math.Min(count, TamingBees.Goal) / 5;
+            if (step > shownStep)
+            {
+                string text = TamingSystem.QueenBeeRest > 0
+                    ? Language.GetTextValue("Mods.CalamityFandom.Taming.BeesResting", (TamingSystem.QueenBeeRest + 3599) / 3600)
+                    : Language.GetTextValue("Mods.CalamityFandom.Taming.Bees", step * 5, TamingBees.Goal);
+                CombatText.NewText(Player.Hitbox, Color.Gold, text);
+            }
+            shownStep = step;
         }
     }
 }
