@@ -306,6 +306,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   boss et ses morceaux jouent leur animation d'abandon (celle du jeu ou de Calamity : le Eye of Cthulhu s'envole, les vers
   s'enfouissent...) : pendant leur mise à jour, ils croient tous les joueurs morts. Ils ne blessent plus et ne prennent
   plus de dégâts ; le butin est déjà tombé. **[choix]** Effacés en 1,5 s s'ils sont encore là au bout de 6 s.
+  **[validé 31/10]** Plus de « ... has been defeated! » (annoncé par le jeu quand le butin tombe) : seulement « ... has
+  been tamed! ».
   **[technique]** Le message « ... is no longer after you » vient du mod **Boss Checklist** (activé chez l'utilisateur),
   pour tout boss qui disparaît avec des PV : les PV du boss qui part sont mis à 0 au moment où il disparaît, le message
   ne sort plus.

@@ -72,6 +72,11 @@ namespace CalamityFandom.Common.Taming
         private float drawnScale;
         public const float MaxGrowth = 0.5f;
 
+        // [validé 31/10] Apprivoisé, pas vaincu : pas de « ... has been defeated! » quand son butin tombe (le jeu l'annonce
+        // au moment du butin), seulement « ... has been tamed! »
+        public override bool ModifyDeathMessage(NPC npc, ref Terraria.Localization.NetworkText customText, ref Color color) =>
+            !TamingSystem.TamingNow;
+
         // « Killing a boss will make it untamable »
         public override void OnKill(NPC npc)
         {

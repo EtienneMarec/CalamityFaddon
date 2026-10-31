@@ -612,7 +612,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] (31/10 soir, validé) **Queen Bee** : dans une ruche, tirer au Bee Gun (ou Beenade, Bee's Knees) : les abeilles rebondissent
       sur les murs sans disparaître et vivent ~15 s ; compteur « x/100 bees » au-dessus du joueur ; à 100, la Queen Bee
       apparaît et est apprivoisée aussitôt. Hors ruche, les abeilles meurent comme avant (2,5 s, 3e rebond)
-- [ ] (31/10 soir) **Brain of Cthulhu, échecs (fin)** : le plateau ne s'ouvre pas avant la fin de l'apparition du boss
+- [ ] (31/10 soir) **Message du Taming** : seulement « X has been tamed! », plus de « X has been defeated! » avant
+- [x] (31/10 soir, validé) **Brain of Cthulhu, échecs (fin)** : le plateau ne s'ouvre pas avant la fin de l'apparition du boss
       (tremblement, sortie, cri) ; pendant une longue partie, aucun ennemi n'apparaît, et pas de vague à la fermeture
 - [x] (31/10 soir, validé une fois) **Départ des boss apprivoisés** : après « has been tamed! », le butin tombe et le boss repart comme
       quand il abandonne (Eye of Cthulhu vers le haut, Desert Scourge sous terre, Queen Bee...), sans blesser ni prendre de
