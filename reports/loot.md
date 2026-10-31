@@ -4,7 +4,7 @@ _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports
 
 - 365 PNJ, 1680 entrées de butin
 - 246 entrées avec condition en note (appliquées quand `parse_condition` la comprend, voir `reports/loot_applied.md`)
-- Pages d'objets (infobox « item drops ») : 316 drops ajoutés aux PNJ, 27 sources génériques ignorées (« any Jungle enemy »...)
+- Pages d'objets (infobox « item drops ») : 316 drops ajoutés aux PNJ, 15 sources génériques appliquées (« any Jungle enemy »...), 12 laissées de côté
 - 160 infobox avec des paramètres non compris
 
 ## Entrées conditionnelles
@@ -257,6 +257,36 @@ _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports
 | Dolphin | Porpoise Pistol | (Hardmode) |
 | Harpy | Sky Glaze | (After the Eye of Cthulhu has been defeated) |
 | Dune Splicer | Terra-cotta | (After Plantera has been defeated) |
+
+## Sources génériques (15 appliquées, 12 laissées de côté)
+
+- Accidated Reactive Essence : any Jungle enemy (10.00%)
+- Accidated Reactive Essence : any Mushroom enemy (10.00%)
+- Bloodred Reactive Essence : any Desert enemy (10.00%)
+- Bloodred Reactive Essence : any Crimson enemy (10.00%)
+- Bloodred Reactive Essence : any Brimstone Crag enemy (10.00%)
+- Cent Striker : Any Surface enemy (0.50%)
+- Conquest Fragment : Any Boss (100.00%)
+- Noctic Reactive Essence : Any Corruption enemy (10.00%)
+- Noctic Reactive Essence : Any Underworld enemy (10.00%)
+- Noctic Reactive Essence : Any Astral Infection enemy (10.00%)
+- Noctic Reactive Essence : Any Dungeon enemy (10.00%)
+- Waterfreeze Reactive Essence : Any Snow biome enemy (10.00%)
+- Waterfreeze Reactive Essence : Any Ocean enemy (10.00%)
+- Waterfreeze Reactive Essence : Any Space enemy (10.00%)
+- Waterfreeze Reactive Essence : Any Abyss enemy (10.00%)
+- ~~Accidated Reactive Essence : any Exosphere enemy~~ — lieu inconnu « exosphere »
+- ~~Bloodred Reactive Essence : any Pot of Pain enemy~~ — lieu inconnu « pot of pain »
+- ~~Catarachedrae : Any Blood Moon enemy (after defeating The Hive Mind or The Perforators)~~ — condition non comprise « (after defeating the hive mind or the perforators) »
+- ~~Enchanted Tumor : Any Boss in Revengeance Mode~~ — quantité ou chance non comprise « 1 | {{revengeance|2%}} »
+- ~~Flashing Light Essence : Any Hallowed enemy post-Wave 7~~ — condition non comprise « post-wave 7 »
+- ~~Heart of Darkness : Any Boss in Revengeance Mode~~ — quantité ou chance non comprise « 1 | {{revengeance|1.67%}} »
+- ~~Laceline : any Sky Abyss enemy~~ — lieu inconnu « sky abyss »
+- ~~Laudanum : Any Boss in Revengeance Mode~~ — quantité ou chance non comprise « 1 | {{revengeance|1.67%}} »
+- ~~Lethal Disease Canister : any Astral Infection enemy after defeating Hydrabots Invasion~~ — condition non comprise « after defeating hydrabots invasion »
+- ~~Pulsing Night Essence : Any Underworld enemy Post-Hydrabots Invasion~~ — condition non comprise « post-hydrabots invasion »
+- ~~Stress Pills : Any Boss in Revengeance Mode~~ — quantité ou chance non comprise « 1 | {{revengeance|1.67%}} »
+- ~~Weaver Lac : Any Sky Abyss enemy~~ — lieu inconnu « sky abyss »
 
 ## Paramètres non compris
 

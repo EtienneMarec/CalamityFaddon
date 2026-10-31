@@ -7,7 +7,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - 552 drops du wiki déjà présents dans le jeu (inchangés)
 - 120 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 25 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 174 PNJ du wiki absents du jeu, 55 objets introuvables
+- 174 PNJ du wiki absents du jeu, 56 objets introuvables
 
 ## Ajouts
 
@@ -156,6 +156,23 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (The Slime God)** : Crimslime Staff 1-1 à 33.3% (page Treasure Bag) ; Slime Puppet Staff 1-1 à 33.3% (page Treasure Bag) ; Gel 180-250 à 100.0% ; Purified Jam 6-8 à 100.0% [Once per player and world] ; Healing Potion 5-15 à 100.0% ; Slime God Trophy 1-1 à 10.0%
 - **Treasure Bag (Wall of Flesh)** : Twisted Tendril 5-8 à 100.0%
 
+## Sources génériques (14 règles globales, pages d'objets)
+
+- Accidated Reactive Essence : any Jungle enemy (10.0%)
+- Accidated Reactive Essence : any Mushroom enemy (10.0%)
+- Bloodred Reactive Essence : any Desert enemy (10.0%)
+- Bloodred Reactive Essence : any Crimson enemy (10.0%)
+- Bloodred Reactive Essence : any Brimstone Crag enemy (10.0%)
+- Conquest Fragment : Any Boss (100.0%)
+- Noctic Reactive Essence : Any Corruption enemy (10.0%)
+- Noctic Reactive Essence : Any Underworld enemy (10.0%)
+- Noctic Reactive Essence : Any Astral Infection enemy (10.0%)
+- Noctic Reactive Essence : Any Dungeon enemy (10.0%)
+- Waterfreeze Reactive Essence : Any Snow biome enemy (10.0%)
+- Waterfreeze Reactive Essence : Any Ocean enemy (10.0%)
+- Waterfreeze Reactive Essence : Any Space enemy (10.0%)
+- Waterfreeze Reactive Essence : Any Abyss enemy (10.0%)
+
 ## Objets introuvables (contenu à créer)
 
 - Antlion Ore — 3
@@ -165,6 +182,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - The Insacred Texts — 2
 - Ash's Cloak — 1
 - Calamity Spawner — 1
+- Cent Striker — 1
 - Cirrhotipede — 1
 - Contaminated Dish — 1
 - Cursed Spear — 1

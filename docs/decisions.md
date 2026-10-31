@@ -511,6 +511,16 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (« After defeating Golem ») : sinon le Taming (mener le Desert Scourge à l'océan, malgré sa vie immense) donnait des
   Abyss Bars (Scoria Bars, post-Golem) dès le début. Full Fandom inchangé. Écrit avec `{{mode}}` sur notre page.
 
+- **[choix]** (31/10) **Sources génériques des pages d'objets** (« any Jungle enemy », « Any Boss ») : règles de butin
+  globales, dans les deux modes (comme le reste du butin, additif). « Enemy » = PNJ hostile, ni boss, ni de statue, ni
+  bestiole ; « Boss » = boss ; le lieu est le biome du joueur au moment du kill (Blood Moon : l'événement). 15
+  appliquées (14 en jeu : le Cent Striker n'existe pas encore) : essences réactives (10 %), Cent Striker (surface,
+  0,5 %), Conquest Fragment (un par boss : les anciens
+  Victory Shards, qui servent aux objets de lore). Laissées de côté (`reports/loot.md`) : lieux et événements inventés
+  (Exosphere, Pot of Pain, Sky Abyss, vagues, Hydrabots), « Any Boss in Revengeance Mode » pour Laudanum, Stress Pills
+  et Heart of Darkness (déjà dans les sacs de Calamity, comme l'explique leur page), Catarachedrae (« Hive Mind ou
+  Perforators », et objet absent). **[technique]** Pas affichées dans le bestiaire (chaque fiche les listerait).
+
 ## 8. Contenu créé ou porté
 
 ### Zweihandromeda (`Content/Items/Weapons/Melee/`)

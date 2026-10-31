@@ -17677,5 +17677,184 @@
   "Wulfrum Metal Scrap": "Wulfrum Bar",
   "Yharon Mask": "Boss Masks",
   "Yharon Trophy": "Trophies"
- }
+ },
+ "generic": [
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "jungle"
+   },
+   "item": "Accidated Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "any Jungle enemy",
+   "itemPage": "Accidated Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "mushroom"
+   },
+   "item": "Accidated Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "any Mushroom enemy",
+   "itemPage": "Accidated Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "desert"
+   },
+   "item": "Bloodred Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "any Desert enemy",
+   "itemPage": "Bloodred Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "crimson"
+   },
+   "item": "Bloodred Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "any Crimson enemy",
+   "itemPage": "Bloodred Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "crag"
+   },
+   "item": "Bloodred Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "any Brimstone Crag enemy",
+   "itemPage": "Bloodred Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "surface"
+   },
+   "item": "Cent Striker",
+   "min": 1,
+   "max": 1,
+   "chance": 0.005,
+   "source": "Any Surface enemy",
+   "itemPage": "Cent Striker.txt"
+  },
+  {
+   "target": "boss",
+   "item": "Conquest Fragment",
+   "min": 1,
+   "max": 1,
+   "chance": 1.0,
+   "source": "Any Boss",
+   "itemPage": "Conquest Fragment.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "corruption"
+   },
+   "item": "Noctic Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "Any Corruption enemy",
+   "itemPage": "Noctic Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "underworld"
+   },
+   "item": "Noctic Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "Any Underworld enemy",
+   "itemPage": "Noctic Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "astral"
+   },
+   "item": "Noctic Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "Any Astral Infection enemy",
+   "itemPage": "Noctic Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "dungeon"
+   },
+   "item": "Noctic Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "Any Dungeon enemy",
+   "itemPage": "Noctic Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "snow"
+   },
+   "item": "Waterfreeze Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "Any Snow biome enemy",
+   "itemPage": "Waterfreeze Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "ocean"
+   },
+   "item": "Waterfreeze Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "Any Ocean enemy",
+   "itemPage": "Waterfreeze Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "space"
+   },
+   "item": "Waterfreeze Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "Any Space enemy",
+   "itemPage": "Waterfreeze Reactive Essence.txt"
+  },
+  {
+   "target": "enemy",
+   "condition": {
+    "biome": "abyss"
+   },
+   "item": "Waterfreeze Reactive Essence",
+   "min": 1,
+   "max": 1,
+   "chance": 0.1,
+   "source": "Any Abyss enemy",
+   "itemPage": "Waterfreeze Reactive Essence.txt"
+  }
+ ]
 }

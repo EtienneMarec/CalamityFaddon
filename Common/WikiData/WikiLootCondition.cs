@@ -54,6 +54,19 @@ namespace CalamityFandom.Common.WikiData
             ["jungle"] = p => p.ZoneJungle,
             ["underworld"] = p => p.ZoneUnderworldHeight,
             ["snow"] = p => p.ZoneSnow,
+            // Sources génériques des pages d'objets (« any Jungle enemy ») : biome du joueur, ou événement
+            ["mushroom"] = p => p.ZoneGlowshroom,
+            ["desert"] = p => p.ZoneDesert,
+            ["crimson"] = p => p.ZoneCrimson,
+            ["corruption"] = p => p.ZoneCorrupt,
+            ["dungeon"] = p => p.ZoneDungeon,
+            ["ocean"] = p => p.ZoneBeach,
+            ["surface"] = p => p.ZoneOverworldHeight,
+            ["hallow"] = p => p.ZoneHallow,
+            ["abyss"] = p => p.GetModPlayer<CalamityPlayer>().ZoneAbyss,
+            ["astral"] = p => p.GetModPlayer<CalamityPlayer>().ZoneAstral,
+            ["crag"] = p => p.GetModPlayer<CalamityPlayer>().ZoneCalamity,
+            ["bloodmoon"] = p => Main.bloodMoon,
         };
 
         private readonly Func<bool>[] downed;

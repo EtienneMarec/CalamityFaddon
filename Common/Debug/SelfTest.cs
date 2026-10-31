@@ -268,6 +268,9 @@ namespace CalamityFandom.Common.Debug
             Expect(solarRates.Any(r => r.itemId == ModContent.ItemType<CalamityMod.Items.Materials.YharonSoulFragment>()),
                 "Taming : Yharon Soul Fragment lâché par les Selenians");
             Expect(ModContent.NPCType<Content.NPCs.Perforators.EstrangedSonHead>() > 0, "Taming : Estranged Son");
+            // Sources génériques des pages d'objets (« any Jungle enemy », « Any Boss ») : règles globales (Cent Striker absent)
+            Expect(WikiLoot.GenericAdded.Count >= 14 && WikiLoot.GenericAdded.Any(g => g.Contains("Any Boss")),
+                $"butin : {WikiLoot.GenericAdded.Count} sources génériques (« Any Boss », « any Jungle enemy »...)");
             // Draedon's Remote (Astrum Aureus) : lâché par l'Armored Digger porté ; butin du mode Mayhem gardé en Full Fandom
             int remote = WikiRecipes.ResolveItem("Draedon's Remote");
             Expect(remote == ModContent.ItemType<Content.Legacy.Items.SummonItems.DraedonsRemote>(), "Draedon's Remote porté");

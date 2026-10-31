@@ -248,7 +248,42 @@ def drops_by_mode(positional):
 ITEM_DROPS_RE = re.compile(r"\{\{\s*item drops infobox", re.I)
 
 
-def add_item_page_drops(index, npcs, problems):
+# Sources génériques des infobox « item drops » (« any Jungle enemy », « Any Boss in Revengeance Mode ») : lieu (biome du
+# joueur ou événement) -> clé connue du C# (WikiLootCondition). Les lieux inventés (Exosphere, Pot of Pain, Sky Abyss)
+# et les événements inventés (vagues, Hydrabots) ne sont pas reconnus : drop laissé de côté (rapport).
+GENERIC_PLACES = {"jungle": "jungle", "mushroom": "mushroom", "desert": "desert", "crimson": "crimson",
+                  "corruption": "corruption", "underworld": "underworld", "dungeon": "dungeon", "snow biome": "snow",
+                  "ocean": "ocean", "space": "space", "abyss": "abyss", "surface": "surface", "hallowed": "hallow",
+                  "astral infection": "astral", "brimstone crag": "crag", "blood moon": "bloodmoon"}
+
+
+def parse_generic(source):
+    """« Any Jungle enemy » -> ({"target": "enemy", "condition": {"biome": "jungle"}}, None) ; (None, raison) sinon."""
+    t = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", source)
+    t = re.sub(r"\s+", " ", t).strip().lower()
+    m = re.match(r"^any (.*?)\b(enemy|boss)\b(.*)$", t)
+    if not m:
+        return None, f"source non comprise « {source} »"
+    place, target, rest = m.group(1).strip(), m.group(2), m.group(3).strip()
+    entry, cond = {"target": target}, {}
+    if place:
+        if place not in GENERIC_PLACES:
+            return None, f"lieu inconnu « {place} »"
+        cond["biome"] = GENERIC_PLACES[place]
+    if "revengeance" in rest:
+        entry["revengeance"] = True
+        rest = re.sub(r"in revengeance mode", "", rest).strip()
+    if rest:
+        more = parse_condition(f"({rest})")
+        if not more or "biome" in more:
+            return None, f"condition non comprise « {rest} »"
+        cond.update(more)
+    if cond:
+        entry["condition"] = cond
+    return entry, None
+
+
+def add_item_page_drops(index, npcs, problems, generic_drops, generic_skipped):
     """Infobox « item drops » des pages d'objets (« | [[Devil Fish]] (After Golem has been defeated) | 3-9 | 100% ») :
     ajoute au butin des PNJ ce que leur propre page ne cite pas. Un PNJ connu seulement par ces infobox (Wall of Flesh,
     Plantera...) est marqué « itemPagesOnly » : le Full Fandom ne lui retire rien (sa page ne liste pas tout son butin).
@@ -287,6 +322,19 @@ def add_item_page_drops(index, npcs, problems):
             name = clean_name(name)
             if not name or name.lower().startswith("any "):
                 generic += 1
+                entry, why = parse_generic(source)
+                qty, chance = parse_qty(qty_raw), parse_chance(chance_raw)
+                if entry and (qty is None or chance is None):
+                    entry, why = None, f"quantité ou chance non comprise « {qty_raw} | {chance_raw} »"
+                # « Any Boss in Revengeance Mode » sur un objet de Calamity : déjà dans ses sacs (Laudanum, Stress Pills...)
+                if entry and entry.get("revengeance") and page.get("status") in ("official", "renamed"):
+                    entry, why = None, "déjà donné par les sacs de Calamity (page de l'objet)"
+                if not entry:
+                    generic_skipped.append((item, source, why))
+                    continue
+                entry.update({"item": item, "min": qty[0], "max": qty[1], "chance": round(chance, 4),
+                              "source": source, "itemPage": page["file"]})
+                generic_drops.append(entry)
                 continue
             # Le PNJ sous son titre du wiki (redirections suivies : « Plaguebringer Goliath » -> « The Plaguebringer Goliath »)
             title = by_norm.get(norm(name)) or by_norm.get(norm(redirects.get(norm(name), ""))) or name
@@ -343,7 +391,8 @@ def main():
             npcs[page["title"]] = {"page": fname, "boss": "boss" in (page.get("type") or "").lower(), "drops": drops}
             conditional += [(page["title"], d["item"], d["note"]) for d in drops if d.get("note")]
 
-    item_page_stats = add_item_page_drops(index, npcs, problems)
+    generic_drops, generic_skipped = [], []
+    item_page_stats = add_item_page_drops(index, npcs, problems, generic_drops, generic_skipped)
     conditional += [(t, d["item"], d["note"]) for t, v in npcs.items() for d in v["drops"] if d.get("note") and d.get("itemPage")]
 
     # Alias de noms de PNJ (comme pour les éléments) : redirections, glossaire, nom de l'infobox
@@ -362,7 +411,7 @@ def main():
 
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump({"_generated_by": "tools/gen_loot.py", "npcs": npcs, "bags": bags, "aliases": aliases,
-                   "itemAliases": item_aliases},
+                   "itemAliases": item_aliases, "generic": generic_drops},
                   f, ensure_ascii=False, indent=1)
     total = sum(len(v["drops"]) for v in npcs.values())
     with open(REPORT, "w", encoding="utf-8") as f:
@@ -370,17 +419,22 @@ def main():
         f.write(f"- {len(npcs)} PNJ, {total} entrées de butin\n- {len(conditional)} entrées avec condition en note "
                 "(appliquées quand `parse_condition` la comprend, voir `reports/loot_applied.md`)\n")
         f.write(f"- Pages d'objets (infobox « item drops ») : {item_page_stats['added']} drops ajoutés aux PNJ, "
-                f"{item_page_stats['generic']} sources génériques ignorées (« any Jungle enemy »...)\n")
+                f"{len(generic_drops)} sources génériques appliquées (« any Jungle enemy »...), {len(generic_skipped)} laissées de côté\n")
         f.write(f"- {len(problems)} infobox avec des paramètres non compris\n\n## Entrées conditionnelles\n\n")
         f.write("| PNJ | Objet | Condition |\n|---|---|---|\n")
         for npc, item, note in conditional:
             f.write(f"| {npc} | {item} | {note} |\n")
+        f.write(f"\n## Sources génériques ({len(generic_drops)} appliquées, {len(generic_skipped)} laissées de côté)\n\n")
+        for d in generic_drops:
+            f.write(f"- {d['item']} : {d['source']} ({d['chance']:.2%})\n")
+        for item, source, why in generic_skipped:
+            f.write(f"- ~~{item} : {source}~~ — {why}\n")
         f.write("\n## Paramètres non compris\n\n")
         for npc, bad in sorted(problems.items()):
             f.write(f"- {npc} : {', '.join(bad)}\n")
     print(f"{len(npcs)} PNJ, {total} entrées ({len(conditional)} conditionnelles), {len(problems)} infobox avec restes ; "
           f"{len(bags)} sacs ({sum(len(b['drops']) for b in bags.values())} objets) ; pages d'objets : "
-          f"{item_page_stats['added']} drops ajoutés, {item_page_stats['generic']} sources génériques ignorées")
+          f"{item_page_stats['added']} drops ajoutés, {len(generic_drops)} sources génériques appliquées, {len(generic_skipped)} laissées de côté")
 
 
 if __name__ == "__main__":

@@ -40,7 +40,8 @@ Chiffres : `reports/README.md`, `reports/recipes.md`, `reports/loot_applied.md` 
       attente (boss inventés, « While supercharged »...) — nuit du 22/10
 - [x] **Sacs de trésor** (Expert) : page « Treasure Bag » + drops des boss selon le mode (22/10)
 - [x] Infobox « item drops » des pages d'objets : 322 drops ajoutés (nuit du 22/10)
-- [ ] Sources génériques de ces infobox (« Any Boss », « any Jungle enemy » : 27) et variantes d'un même nom (Zombie)
+- [x] Sources génériques de ces infobox (31/10 : 15 sur 27, les autres citent des lieux ou événements inventés)
+- [ ] Variantes d'un même nom (Zombie) dans ces infobox
 - [ ] **Barres posables** : tuiles pour les matériaux « Block » (Alloy Bar...), puis blocs/murs/meubles du wiki
 - [ ] Recettes vanilla modifiées par le wiki (exclues pour l'instant)
 - [ ] Infobulles du wiki sur les objets officiels (quand le comportement correspond)

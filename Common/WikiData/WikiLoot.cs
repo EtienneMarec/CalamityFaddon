@@ -62,6 +62,78 @@ namespace CalamityFandom.Common.WikiData
             public List<DropData> Drops { get; set; } = new();
         }
 
+        /// <summary>Source générique d'une page d'objet (« any Jungle enemy », « Any Boss ») : règle globale filtrée.</summary>
+        private class GenericData
+        {
+            public string Item { get; set; }
+            public int Min { get; set; } = 1;
+            public int Max { get; set; } = 1;
+            public double Chance { get; set; }
+            /// <summary>« enemy » ou « boss ».</summary>
+            public string Target { get; set; }
+            public bool Revengeance { get; set; }
+            public WikiLootCondition.Data Condition { get; set; }
+            public string Source { get; set; }
+        }
+
+        /// <summary>
+        /// « Any X enemy » : PNJ hostile qui n'est ni un boss, ni un PNJ de statue, ni une bestiole ; « Any Boss » : boss.
+        /// Puis la condition de la page (biome du joueur, boss vaincus) et le mode Revengeance.
+        /// </summary>
+        private class GenericCondition : IItemDropRuleCondition
+        {
+            private readonly bool boss, revengeance;
+            private readonly WikiLootCondition inner;
+            private readonly string description;
+
+            public GenericCondition(bool boss, bool revengeance, WikiLootCondition inner, string description)
+            {
+                this.boss = boss;
+                this.revengeance = revengeance;
+                this.inner = inner;
+                this.description = description;
+            }
+
+            public bool CanDrop(DropAttemptInfo info)
+            {
+                NPC npc = info.npc;
+                if (npc == null || revengeance && !CalamityMod.World.CalamityWorld.revenge)
+                    return false;
+                bool target = boss ? npc.boss
+                    : !npc.boss && !npc.friendly && !npc.townNPC && npc.lifeMax > 5 && !npc.SpawnedFromStatue && !npc.CountsAsACritter;
+                return target && (inner == null || inner.CanDrop(info));
+            }
+
+            // Pas dans le bestiaire : la règle vaut pour tous les PNJ, chaque fiche l'afficherait
+            public bool CanShowItemDropInUI() => false;
+
+            public string GetConditionDescription() => description;
+        }
+
+        public static List<string> GenericAdded { get; } = new();
+
+        private static void ApplyGeneric()
+        {
+            foreach (var g in data.Generic)
+            {
+                int item = WikiRecipes.ResolveItem(data.ItemAliases.GetValueOrDefault(g.Item, g.Item));
+                if (item <= 0)
+                    item = WikiRecipes.ResolveItem(g.Item);
+                if (item <= 0)
+                {
+                    MissingItems[g.Item] = MissingItems.GetValueOrDefault(g.Item) + 1;
+                    continue;
+                }
+                WikiLootCondition inner = null;
+                if (g.Condition != null && (inner = WikiLootCondition.TryCreate(g.Condition, g.Source)) == null)
+                    continue;
+                int denominator = 10000, numerator = Math.Max(1, (int)Math.Round(g.Chance * denominator));
+                var condition = new GenericCondition(g.Target == "boss", g.Revengeance, inner, g.Source);
+                Main.ItemDropsDB.RegisterToGlobal(ItemDropRule.ByCondition(condition, item, g.Min, g.Max, numerator, denominator));
+                GenericAdded.Add($"{Lang.GetItemNameValue(item)} : {g.Source} ({g.Chance:P1})");
+            }
+        }
+
         private class LootFile
         {
             public Dictionary<string, NPCData> Npcs { get; set; } = new();
@@ -70,6 +142,8 @@ namespace CalamityFandom.Common.WikiData
             public Dictionary<string, List<string>> Aliases { get; set; } = new();
             /// <summary>Anciens noms d'objets (redirections du wiki, renommages) : « Victory Shard » -> Conquest Fragment.</summary>
             public Dictionary<string, string> ItemAliases { get; set; } = new();
+            /// <summary>Sources génériques des pages d'objets (« any Jungle enemy »).</summary>
+            public List<GenericData> Generic { get; set; } = new();
         }
 
         private static LootFile data;
@@ -99,6 +173,7 @@ namespace CalamityFandom.Common.WikiData
             BestiaryLines.Clear();
             MissingItems.Clear();
             MissingNPCs.Clear();
+            GenericAdded.Clear();
             AlreadyDropped = Conditional = Conditioned = RemovedNotOnWiki = RemovedFromBags = ReplacedByCondition = 0;
         }
 
@@ -125,6 +200,7 @@ namespace CalamityFandom.Common.WikiData
                     .ThenBy(t => t).First();
                 ApplyToNPC(target, npcData);
             }
+            ApplyGeneric();
             RefreshBestiary();
         }
 
@@ -480,6 +556,9 @@ namespace CalamityFandom.Common.WikiData
             sb.AppendLine().AppendLine("## Ajouts dans les sacs").AppendLine();
             foreach (var group in AddedToBags.GroupBy(a => a.bag).OrderBy(g => Lang.GetItemNameValue(g.Key)))
                 sb.AppendLine($"- **{Lang.GetItemNameValue(group.Key)}** : {string.Join(" ; ", group.Select(a => a.what))}");
+            sb.AppendLine().AppendLine($"## Sources génériques ({GenericAdded.Count} règles globales, pages d'objets)").AppendLine();
+            foreach (string line in GenericAdded)
+                sb.AppendLine($"- {line}");
             sb.AppendLine().AppendLine("## Objets introuvables (contenu à créer)").AppendLine();
             foreach (var (item, count) in MissingItems.OrderByDescending(kv => kv.Value))
                 sb.AppendLine($"- {item} — {count}");
