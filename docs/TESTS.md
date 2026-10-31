@@ -503,7 +503,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       est Slimed par le Slime Gun (debuff au-dessus de lui), même entre deux jets ; apprivoisé après 3 min Slimed en
       Calamity++, 5 min en Full Fandom
 - [ ] (31/10, phase 2) **Taming** (en cours : validés King Slime, Desert Scourge, Eye of Cthulhu, Crabulon, Eater of Worlds,
-      Brain of Cthulhu, The Hive Mind ; liste dans `docs/decisions.md`) (nouveau monde, les deux modes) : King Slime arrosé au Slime Gun grossit, cœurs et
+      Brain of Cthulhu, The Hive Mind, The Perforators ; liste dans `docs/decisions.md`) (nouveau monde, les deux modes) : King Slime arrosé au Slime Gun grossit, cœurs et
       « ♥ 25 % » ; sans le blesser 5 min → « King Slime has been tamed! », il disparaît et laisse son butin. Plus simples
       à tester : Desert Scourge mené à la plage, Eye of Cthulhu (30 tours), Ravager dans le Shimmer, Duke Fishron près
       d'un Truffle Worm. Blesser le boss : plus aucun progrès. Tuer un boss puis aller voir le Zoologist : « Soothe:
@@ -599,10 +599,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] (31/10) **Supreme Calamitas** (monde où tous les autres boss apprivoisables le sont) : sa vie baisse seule si on ne
       la touche pas ; à 5 %, message « press Alt+F4 » ; quitter le jeu puis recharger le monde : elle apparaît et est
       apprivoisée aussitôt (butin, Brimstone Witch). La toucher avant : plus rien ne se passe au rechargement
-- [ ] (31/10 soir) **Perforators** : les vers relâchés ne meurent plus pendant le combat ; les Estranged Sons font la
+- [x] (31/10 soir, validé) **Perforators** : les vers relâchés ne meurent plus pendant le combat ; les Estranged Sons font la
       moitié de leur taille d'avant ; 50 vers peuvent être relâchés (chaque Estranged Son n'occupe plus qu'une place de
       PNJ) ; les segments blessent toujours au contact
-- [ ] (31/10) **Perforators** : pendant le combat, relâcher des Worms (ou une Worm Statue) : chacun devient un Estranged
+- [x] (31/10, validé) **Perforators** : pendant le combat, relâcher des Worms (ou une Worm Statue) : chacun devient un Estranged
       Son (ver violet qui creuse vers le joueur) au bout de 5 s, « ♥ 25 % » à 13 ; en tuer un fait échouer la tentative ;
       à 50, les Perforators et les Estranged Sons disparaissent
 - [ ] (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
