@@ -588,16 +588,25 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
+- [ ] (31/10 soir) **Queen Bee** : dans une ruche, tirer au Bee Gun (ou Beenade, Bee's Knees) : les abeilles rebondissent
+      sur les murs sans disparaître et vivent ~15 s ; compteur « x/100 bees » au-dessus du joueur ; à 100, la Queen Bee
+      apparaît et est apprivoisée aussitôt. Hors ruche, les abeilles meurent comme avant (2,5 s, 3e rebond)
+- [ ] (31/10 soir) **Queen Bee** en combat (sans la toucher) : ses petites abeilles comptent ; à 100 autour du joueur, apprivoisée
+- [ ] (31/10 soir) **The Insacred Texts** (Zombie / Demon Eye, 5 %) : clic gauche sur un groupe : portails rouges sous 3
+      ennemis, bras qui monte et les tire vers le bas (450 dégâts) ; 25 s de recharge (affichée dans l'infobulle) ;
+      clic droit : une phrase rose au hasard dans le chat (« ...then they kissed »), sans mana
+- [ ] (31/10 soir) **Alpha Virus** (Ancient Manipulator : Epidemic Shredder, 5 Luminite Bar, 25 Plague Cell Canister) :
+      cellule lente avec une aura verte qui touche à travers les blocs, 6 seekers à l'impact ; frappe furtive : seekers
+      qui tournent autour. La recette de Celestus du wiki le demande
+- [ ] (31/10 soir) Infobulles de la Catastrophe Claycore et du Warglaive (vides avant)
 
 ---
 
 ## Décisions en attente (pas des tests)
 
-- **The Insacred Texts** (31/10, non créé) : tome lâché à 5 % par les Zombies et les Demon Eyes, 450 dégâts avant le
-  Hardmode (portail qui engloutit 3 ennemis, 25 s de recharge). Son clic droit ouvre dans le navigateur une fanfiction
-  au hasard classée « E » (explicite) : pas repris. Créer le clic gauche seulement, et dans quel mode ?
-- **Recettes vanilla du wiki** (31/10) : 162 différences listées dans `reports/recipes.md` ; appliquer lesquelles, dans
-  quel mode ?
+- **Recettes vanilla du wiki** (31/10) : 163 différences listées dans `reports/recipes.md` ; appliquer lesquelles, dans
+  quel mode ? (explications données le 31/10 au soir)
+- **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
 
 - [ ] (29/10, en partie tranché le 30/10 : Exo Gladius porté avec sa page, Microcell Cut créée d'après la Disease ;
       restent Elemental Shiv et Lucrecia) Shortstrike, dernières armes du tableau : **Exo Gladius** (ancien objet retiré en 2022 ; sa page invente

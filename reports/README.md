@@ -14,8 +14,8 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | contenu inconnu de Calamity avec infobox | 1496 |
 | dont avec sprite trouvé | 1399 |
 | pages marquées addon / fantag | 778 |
-| pages de wiki/ modifiées ou créées par rapport au Fandom | 555 |
-| **pages implémentées dans le mod** | **440** |
+| pages de wiki/ modifiées ou créées par rapport au Fandom | 556 |
+| **pages implémentées dans le mod** | **442** |
 
 ## Types d'infobox (contenu nouveau)
 

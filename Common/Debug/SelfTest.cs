@@ -252,7 +252,7 @@ namespace CalamityFandom.Common.Debug
             }
             // Taming (31/10) : 41 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
             var tames = Common.Taming.TamingSystem.Entries;
-            Expect(tames.Count == 41 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
+            Expect(tames.Count == 42 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
                 + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));
@@ -273,7 +273,8 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.LightningHawk>(), ModContent.ItemType<Content.Legacy.Items.Accessories.PlagueHive>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.Devastation>(), ModContent.ItemType<Content.Items.Tools.AstralHammer>(),
                 ModContent.ItemType<Content.Items.Weapons.Melee.FrostBlade>(), ModContent.ItemType<Content.Items.Weapons.Melee.ElementalClaymore>(),
-                ModContent.ItemType<Content.Items.Weapons.Rogue.CatastropheClaycore>(), ModContent.ItemType<Content.Items.Weapons.Magic.ThePrincess>() })
+                ModContent.ItemType<Content.Items.Weapons.Rogue.CatastropheClaycore>(), ModContent.ItemType<Content.Items.Weapons.Magic.ThePrincess>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.AlphaVirus>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -282,6 +283,19 @@ namespace CalamityFandom.Common.Debug
                 r.ReportDroprates(archerRates, new DropRateInfoChainFeed(1f));
             Expect(archerRates.Any(r => r.itemId == ModContent.ItemType<Content.Items.Weapons.Ranged.Warbow>())
                 && archerRates.Any(r => r.itemId == ModContent.ItemType<Content.Items.Ammo.WarArrow>()), "le Goblin Archer lâche le Warbow et des War Arrows");
+            int alphaVirus = ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.AlphaVirus>();
+            Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ModContent.ItemType<CalamityMod.Items.Weapons.Rogue.Celestus>()
+                && r.HasIngredient(alphaVirus)), "recette du wiki de Celestus (avec l'Alpha Virus)");
+            // The Insacred Texts (31/10) : lâché par les Zombies (5 %) ; les infobulles des armes Rogue sont dans Items.Weapons.Rogue
+            var zombieRates = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(NPCID.Zombie, false))
+                r.ReportDroprates(zombieRates, new DropRateInfoChainFeed(1f));
+            Expect(zombieRates.Any(r => r.itemId == ModContent.ItemType<Content.Items.Weapons.Magic.TheInsacredTexts>()), "le Zombie lâche The Insacred Texts");
+            var emptyRogue = ModContent.GetContent<ModItem>().Where(i => i.Mod == Mod && i is CalamityMod.Items.Weapons.Rogue.RogueWeapon
+                && string.IsNullOrWhiteSpace(i.Tooltip.Value)).Select(i => i.Name).ToList();
+            Expect(emptyRogue.Count == 0, $"infobulles des armes Rogue ({string.Join(", ", emptyRogue)})");
+            Expect(Language.Exists("Mods.CalamityFandom.InsacredTexts.Fic" + (Content.Items.Weapons.Magic.TheInsacredTexts.FicCount - 1)),
+                "The Insacred Texts : phrases du clic droit");
             // Slime Puppet Staff de la page (31/10) : en Full Fandom, il pose des boules de slime
             int puppetStaff = ModContent.ItemType<CalamityMod.Items.Weapons.Summon.SlimePuppetStaff>();
             Expect((ContentSamples.ItemsByType[puppetStaff].shoot == ModContent.ProjectileType<Content.Projectiles.Summon.SlimePuppetBall>()) == FandomMode.IsFull,

@@ -18,7 +18,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Aflaming Crystalliser
 - [x] Aftershock
 - [ ] Alpha Ray
-- [ ] Alpha Virus
+- [x] Alpha Virus
 - [ ] Ancient Crusher
 - [x] Ancient Shiv
 - [ ] Angel's Thesis — addon: Calamity: Community Remix
@@ -400,7 +400,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] The Food Chain
 - [ ] The Generator
 - [ ] The Inflator's Controller — addon: Calamity: Community Remix
-- [ ] The Insacred Texts
+- [x] The Insacred Texts
 - [ ] The King's Gambit — addon: Calamity: Community Remix
 - [ ] The Last Lightice — addon: Calamity: Community Remix
 - [x] The Needler

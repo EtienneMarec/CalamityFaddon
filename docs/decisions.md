@@ -288,35 +288,80 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 31/10]** Actif **dans les deux modes**. Chaque nouveau boss du mod reçoit sa méthode (pas les superboss, en
   Full Fandom en tout cas). **Le jeu doit pouvoir se finir sans tuer un seul boss** : aucune méthode ne doit demander
   un objet qui ne tombe que d'un boss qu'il faut tuer avant (voir « Route sans tuer » plus bas).
-- 41 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
-  Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze, XP-00 Hypnos) ou du contenu absent (Blight Slimes absorbées par le Slime God, Draedon's Remote pour Astrum Aureus) ou un sens plus clair (« 100 bees » de la Queen Bee, poissons rouges de
-  Leviathan, PNJ qui emménagent dans la Brimstone Crag). Liste en TODO dans
-  `TamingSystem.PostSetupContent`.
+- 42 boss sur 50 ont leur méthode ; les 8 autres attendent leur boss, inventé par le wiki (The Inventors, Wulfrum
+  Excavator, Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze ; XP-00 Hypnos a déjà
+  sa méthode, les échecs, prête pour son boss). Liste en TODO dans `TamingSystem.PostSetupContent`.
+- **[validé 31/10]** **Queen Bee** (« Bring 100 bees into a hive biome ») : comptent les petites abeilles ennemies et
+  celles du joueur (Bee Gun, Beenade, Bee's Knees, Hive Pack...). Dans une ruche (mur de ruche derrière l'abeille, ou
+  joueur dans le biome), les abeilles du joueur rebondissent sur les blocs sans s'user (au lieu de mourir au 3e
+  rebond). **[choix]** 100 abeilles **en même temps** à moins de 100 blocs d'un joueur dans une ruche (vérifié toutes
+  les 30 ticks) ; elles vivent 15 s au lieu de 2,5 s dans une ruche, sinon 100 est hors d'atteinte ; compteur
+  « x/100 bees » au-dessus du joueur à partir de 10. Sans Queen Bee : elle apparaît apprivoisée. Pendant un combat où
+  elle n'a pas été blessée (ses abeilles comptent) : apprivoisée aussitôt. (`Common/Taming/TamingBees.cs`)
 - **[validé 31/10]** **Récompenses** : la page en nomme 17. Les 15 sans page : même objet dans les deux modes, sans effet
   en Full Fandom (infobulle « souvenir »), vrai effet en Calamity++. Pas encore créées : le boss apprivoisé laisse pour
   l'instant seulement son butin. Sprites : aucun sur le wiki (liste dans `docs/SPRITES.md`). Wulfrum Hardhat et Wulfrum
   Lenses ont une page (effets décrits, dans les deux modes) et viendront avec leurs boss (The Inventors, Wulfrum
-  Excavator). **Propositions d'effets en Calamity++ (à trancher)** :
+  Excavator). **Propositions en Calamity++ (à trancher : 2 par récompense, A ou B ou autre)** :
 
-  | Récompense | Boss | Type | Effet proposé en Calamity++ |
+  **Les 15 récompenses nommées par la page** (A = proposition du 31/10, B = nouvelle) :
+
+  | Récompense | Boss | A | B |
   |---|---|---|---|
-  | Bloated Gel | King Slime | accessoire | pas de dégâts de chute ; une chute de haut fait rebondir (comme une gelée) |
-  | Hydrated Pendant | Desert Scourge | accessoire | souffle ×2 ; immunité à On Fire! et aux tempêtes de sable ; +10 % de vitesse dans le désert |
-  | Dizzy Lens | Eye of Cthulhu | accessoire | les ennemis qui vous touchent sont Confused 3 s ; +3 % de critique |
-  | Blessed Fungus | Crabulon | accessoire | +1 PV/s (+2 dans le biome champignon) |
-  | Worm Platter | Eater of Worlds | nourriture (unique) | Exquisitely Stuffed 30 min, se garde (ne se consomme pas, recharge 30 min) |
-  | En Passant | Brain of Cthulhu | accessoire | esquive un coup toutes les 20 s, en faisant un pas de côté (clin d'œil à la prise en passant) |
-  | Blighted Tome | The Hive Mind | arme magique | lance des nuages de Shade (dégâts de zone, Brain Rot) ; ~18 dégâts |
-  | Ball of Worms | The Perforators | familier | un petit Estranged Son (sprite de l'utilisateur, réduit) suit le joueur |
-  | Motherbrain | Queen Bee | accessoire | les abeilles du joueur deviennent des Giant Bees ; +1 abeille par essaim |
-  | Skeletron's Fist | Skeletron | arme de mêlée | gant de vrai corps-à-corps : le coup lance une main osseuse qui revient |
-  | Fate | Wall of Flesh | accessoire | une fois toutes les 3 min, survit à un coup mortel avec 1 PV |
-  | Melting Ice Cube | Cryogen | accessoire | immunité à Chilled, Frozen et Frostburn ; les attaques infligent Frostburn |
-  | Frozen Heater | Pyrogen (inventé) | accessoire | immunité à On Fire!, Burning et 2 s de lave ; les attaques infligent Brimstone Flames |
-  | Shiny Lipstick | The Destroyer | accessoire | aura : les ennemis à moins de 15 blocs font 10 % de dégâts en moins (cœurs) |
-  | Worship 101 | Lunatic Cultist | accessoire | +1 sbire et +10 % de dégâts d'invocation |
+  | Bloated Gel | King Slime | accessoire : pas de dégâts de chute ; une chute de haut fait rebondir | accessoire : bouclier de gelée qui absorbe un coup toutes les 30 s et rend l'agresseur Slimed |
+  | Hydrated Pendant | Desert Scourge | accessoire : souffle ×2 ; immunité à On Fire! et aux tempêtes de sable ; +10 % de vitesse dans le désert | accessoire : toujours Wet (immunité au feu) ; +1 PV/s dans l'eau ; les attaques mouillent (Wet) |
+  | Dizzy Lens | Eye of Cthulhu | accessoire : les ennemis qui vous touchent sont Confused 3 s ; +3 % de critique | accessoire : tourner autour d'un ennemi (rester près de lui en bougeant) monte le critique jusqu'à +10 % |
+  | Blessed Fungus | Crabulon | accessoire : +1 PV/s (+2 dans le biome champignon) | accessoire : les potions de soin rendent 15 % de plus et font pousser un champignon qui soigne 10 PV |
+  | Worm Platter | Eater of Worlds | nourriture qui ne se consomme pas : Exquisitely Stuffed 30 min, recharge 30 min | nourriture : chaque aliment mangé ensuite allonge le buff au lieu de le remplacer (3 fois au plus) |
+  | En Passant | Brain of Cthulhu | accessoire : esquive un coup toutes les 20 s par un pas de côté | accessoire : riposte, +10 % de dégâts contre un ennemi qui vous a touché dans les 5 dernières secondes |
+  | Blighted Tome | The Hive Mind | arme magique : nuages de Shade (zone, Brain Rot), ~18 dégâts | accessoire : +5 % de dégâts magiques, les sorts ont 10 % de chances d'infliger Brain Rot |
+  | Ball of Worms | The Perforators | familier : un petit Estranged Son suit le joueur | arme d'invocation : un Estranged Son sbire qui creuse vers les ennemis |
+  | Motherbrain | Queen Bee | accessoire : les abeilles du joueur deviennent des Giant Bees ; +1 abeille par essaim | accessoire : les abeilles du joueur vivent 2 fois plus longtemps et infligent Confused |
+  | Skeletron's Fist | Skeletron | arme de mêlée : gant qui lance une main osseuse qui revient | accessoire : +12 % de vitesse de mêlée et de recul ; vrai corps-à-corps +10 % de dégâts |
+  | Fate | Wall of Flesh | accessoire : toutes les 3 min, survit à un coup mortel avec 1 PV | accessoire : sous 25 % de vie, +10 % de dégâts et 10 % d'esquive |
+  | Melting Ice Cube | Cryogen | accessoire : immunité à Chilled, Frozen et Frostburn ; les attaques infligent Frostburn | accessoire : aura de froid qui ralentit de 15 % les ennemis proches ; +10 % de vitesse dans la chaleur (enfer, Crag) |
+  | Frozen Heater | Pyrogen | accessoire : immunité à On Fire!, Burning et 2 s de lave ; les attaques infligent Brimstone Flames | accessoire : +2 PV/s dans la neige et immunité à Chilled ; dégâts de lave divisés par 2 |
+  | Shiny Lipstick | The Destroyer | accessoire : aura, les ennemis à moins de 15 blocs font 10 % de dégâts en moins | accessoire : les dashs rendent invincible 0,5 s de plus ; les ennemis traversés sont Lovestruck |
+  | Worship 101 | Lunatic Cultist | accessoire : +1 sbire et +10 % de dégâts d'invocation | accessoire : +1 tourelle et les sbires attaquent 15 % plus vite |
 
-  Les autres boss n'ont pas de récompense sur la page (case vide) : rien de prévu, à voir.
+  **Les 34 boss dont la case est vide** (objet à inventer : nom, type, effet ; le nom rappelle la méthode) :
+
+  | Boss | A | B |
+  |---|---|---|
+  | The Slime God | **Paladin's Truce** (accessoire) : les slimes ne vous attaquent plus (Royal Gel) ; tuer un slime soigne 5 PV | **Blight Slime Jar** (familier) : une petite Blight Slime suit le joueur |
+  | Queen Slime | **Balloon Bouquet** (accessoire) : +1 saut, chute ralentie | **Sparkle Crown** (accessoire) : sauts 15 % plus hauts, les chutes font rebondir |
+  | Cumulomenace | **Cloud Pillow** (accessoire) : pas de dégâts de chute ; +1 PV/s à l'arrêt | **Thundercloud in a Bottle** (accessoire) : double saut qui laisse un nuage électrique (Electrified) |
+  | The Twins | **Staring Contest Trophy** (accessoire) : +10 % de critique contre l'ennemi le plus proche du curseur | **Twin Monocle** (accessoire) : vision nocturne et ennemis invisibles révélés |
+  | Skeletron Prime | **Skull Polish** (accessoire) : +6 défense, immunité à Bleeding | **Brass Jaw** (casque d'apparence + accessoire) : +10 % de dégâts des sbires et tourelles |
+  | Aquatic Scourge | **Seashell Necklace** (accessoire) : souffle ×2 et immunité à Irradiated dans la Sulphurous Sea | **Scourge Scale Scarf** (accessoire) : 5 % de réduction de dégâts dans l'eau |
+  | Brimstone Elemental | **Housewarming Gift** (accessoire) : +1 PV/s et +5 % de dégâts près de 3 PNJ de la ville | **Brimstone Welcome Mat** (meuble) : posé, la Brimstone Crag compte comme un bon voisinage pour les PNJ |
+  | Plantera | **Sunflower Crown** (accessoire) : à la surface le jour, +2 PV/s et +5 % de dégâts | **Potted Bulb** (familier) : un petit bulbe de Plantera suit le joueur |
+  | Calamitas | **Warm Hug** (accessoire) : Brimstone Flames dure 2 fois moins ; +5 défense | **Calamitas' Scarf** (apparence + accessoire) : immunité à Brimstone Flames |
+  | The Derellect | **Rusty Wrench** (arme de mêlée) : clé à molette de vrai corps-à-corps | **Salvaged Gear** (accessoire) : +15 % de vitesse de minage et de pose |
+  | Polyphemalus | **Lap Counter** (accessoire) : la vitesse de course monte quand on tourne autour d'un ennemi | **Eye Patch** (accessoire) : +5 % de critique, -5 % de dégâts subis |
+  | Leviathan and Anahita | **Goldfish Bowl** (familier) : un poisson rouge flotte autour du joueur | **Siren's Lullaby** (accessoire) : les ennemis aquatiques ne vous attaquent pas tant que vous ne les frappez pas |
+  | Astrum Aureus | **Spare Remote** (outil) : Draedon's Remote réutilisable (une fois par nuit) | **Astral Shock Absorber** (accessoire) : pas de dégâts de chute, sauts plus hauts dans l'Astral |
+  | Golem | **Beach Ball** (arme de lancer) : ballon qui rebondit sur les ennemis | **Sunbathing Towel** (accessoire) : le jour, +4 défense et +1 PV/s |
+  | The Plaguebringer Goliath | **Clean Stinger** (accessoire) : immunité à Plague, +5 % de dégâts | **Green Solution Flask** (accessoire) : les ennemis atteints de Plague prennent 10 % de dégâts en plus |
+  | Duke Fishron | **Truffle Worm Plush** (familier) | **Duke's Fishing Hat** (accessoire) : +15 de puissance de pêche |
+  | Empress of Light | **Dawn-to-Dusk Charm** (accessoire) : le jour +8 % de dégâts, la nuit +4 défense | **Prismatic Parasol** (accessoire) : chute lente qui laisse un arc-en-ciel |
+  | Ravager | **Shimmered Heart** (accessoire) : +20 PV max | **Flesh Golem Plush** (familier) |
+  | The Dragonfolly | **Feather of Friendship** (accessoire) : chute lente, vol 10 % plus rapide | **Folly Nest** (familier) : un oisillon suit le joueur |
+  | Astrum Deus | **Wishing Star** (accessoire) : plus d'étoiles filantes près du joueur ; +20 mana | **Starstruck Collar** (accessoire) : la nuit, régénération de mana +50 % |
+  | Moon Lord | **Squid Ink Lens** (accessoire) : lumière et vision dans l'Abyss | **Eldritch Eye Patch** (accessoire) : Hunter et Spelunker |
+  | Yharim Worm | **Ultisword Sheath** (accessoire) : +10 % de dégâts et de vitesse de mêlée | **Tyrant's Gift Ribbon** (accessoire) : +5 % à tous les dégâts |
+  | Profaned Guardians | **Guardian's Escort Badge** (accessoire) : +6 défense quand un boss est en vie | **Profaned Bell** (familier lumineux) |
+  | Providence, the Profaned Goddess | **Travel Mug of Holy Flames** (accessoire) : +15 % de vitesse, immunité à Holy Flames | **World Corner Compass** (outil) : téléporte au coin du monde le plus proche |
+  | Ceaseless Void | **Void Vacuum** (accessoire) : ramasse les objets de très loin | **Boulder Collection** (accessoire) : les rochers ne vous blessent plus |
+  | Storm Weaver | **Wyvern Treat Bag** (accessoire) : les Wyverns ne vous attaquent plus | **Weaver's Kite** (accessoire) : chute lente, +20 % de vitesse par vent fort |
+  | Signus, Envoy of the Devourer | **Untouchable Cloak** (accessoire) : après 30 s sans dégâts, +10 % de dégâts | **Envoy's Mask** (accessoire) : esquive un coup toutes les 45 s |
+  | Polterghast | **Gravestone Bouquet** (accessoire) : les fantômes du donjon ne vous attaquent plus | **Ectoplasm Lantern** (familier lumineux) |
+  | The Devourer of Gods | **Fan Mail** (accessoire) : +6 % de dégâts et de vitesse | **Devourer's Pillow** (familier) : un petit Devourer of Gods |
+  | Jungle Dragon, Yharon | **Fireproof Feather** (accessoire) : immunité à Dragonfire et Burning, +1 saut | **Dragon Egg Nightlight** (familier lumineux) |
+  | The Wall of Bronze | **Bronze Odometer** (accessoire) : +15 % de vitesse de course | **World Map Scroll** (outil) : révèle la carte autour du joueur |
+  | The Fabricational Quartet | **Tax Refund** (consommable) : rend 1 platine, 10 % de remise chez les marchands pendant 1 jour | **Draedon's Receipt** (accessoire) : 15 % de remise chez les marchands |
+  | XP-00 Hypnos | **Grandmaster's Pin** (accessoire) : +5 % de critique et de vitesse d'attaque | **Hypnotic Pendulum** (accessoire) : 10 % de chances d'infliger Confused |
+  | Supreme Calamitas | **Alt+F4 Key** (accessoire) : une fois par jour, survit à un coup mortel et revient au point d'apparition | **Brimstone Teacup** (nourriture) : 20 min, +2 PV/s et immunité à Vulnerability Hex |
 - **[technique]** « Cannot harm the boss » : toute perte de PV d'un PNJ du combat (coups, debuffs) fait échouer la
   tentative jusqu'à ce que le boss disparaisse. Les projectiles des méthodes (Slime Gun, Sparkle Slime Balloon, Green
   Solution, étoile filante, rochers) ne touchent pas le boss. Apprivoisé : cœurs, émoticône, message ; le boss disparaît
@@ -812,8 +857,25 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[choix]** **Catastrophe Claymore → Devastation** (`LegacyBatch1031c.cs`) : éclairs d'énergie (Claymore) et décharges
   galactiques (Devastation : une depuis la lame, 4 salves de trois depuis le ciel à moitié des dégâts), invisibles
   (poussière), debuffs et durées des infobox ; usages 22 et 23 du wiki (23 et 24 dans le code).
-- Laissés de côté : Holiday Halberd (page « historique »), Alpha Virus (demande le Bloodstone Core, fusion de Calamity
-  laissée à part par l'utilisateur).
+- Laissé de côté : Holiday Halberd (page « historique »).
+- **[choix]** **Alpha Virus** (`Content/Legacy/Items/Weapons/Rogue/AlphaVirus.cs`, porté le 31/10 au soir) : code de
+  2022 (cellule à aura de 100 px qui touche à travers les blocs à 1/5 des dégâts sans recul, 6 seekers à la mort, frappe
+  furtive qui ralentit et sème des seekers accrochés ; dégâts / 5 contre Storm Weaver, comme le vieux code), valeurs de
+  l'infobox (242 dégâts, use 30, rareté 11, 24 or). Recette du wiki (Epidemic Shredder, 5 Luminite Bar, 25 Plague Cell
+  Canister) : le Bloodstone Core n'était que dans la recette du vieux code, et l'avoir noté comme bloquant (31/10)
+  était une erreur. Débloque la recette du wiki de Celestus.
+- **[validé 31/10]** **The Insacred Texts** (`Content/Items/Weapons/Magic/TheInsacredTexts.cs`) : le clic droit n'ouvre
+  pas de fanfiction AO3 classée « E » (AO3 n'est plus là pour Calamity, et l'explicite n'est pas le but) : il affiche en
+  rose (HotPink) dans le chat, pour le joueur seul, une des 12 phrases écrites par Claude qui finissent par « ...then they
+  kissed » (couples de boss et de PNJ de Calamity, `InsacredTexts.Fic0..11` dans la localisation) ; sans mana ni
+  recharge. Page du wiki et infobulle modifiées en conséquence. Dans les deux modes (contenu nouveau).
+  **[choix]** Clic gauche : vise les 3 ennemis les plus proches du curseur (à moins de 50 blocs du joueur) ; inutilisable
+  sans cible (pas de mana perdue) ; le portail suit la cible 0,5 s, le bras la touche une fois (450 dégâts) puis la tire
+  vers le portail 40 ticks (ni les boss, ni les ennemis sans recul) ; recharge de 25 s par joueur, affichée dans
+  l'infobulle. Portail et bras : textures de Calamity teintées (`docs/SPRITES.md`).
+- **[technique]** Les armes Rogue (`RogueWeapon` de Calamity) ont leurs textes sous `Items.Weapons.Rogue` : ceux de la
+  Catastrophe Claycore et du Warglaive avaient été écrits sous `Items` et n'apparaissaient pas (infobulle vide). Corrigé,
+  et l'auto-test vérifie qu'aucune arme Rogue du mod n'a d'infobulle vide.
 
 ### Armored Digger et Draedon's Remote (`Content/Legacy/`, 31/10, pour le Taming d'Astrum Aureus)
 

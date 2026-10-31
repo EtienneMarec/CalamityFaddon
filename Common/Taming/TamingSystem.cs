@@ -112,7 +112,7 @@ namespace CalamityFandom.Common.Taming
 
         public override void PostSetupContent()
         {
-            // Pré-Hardmode. TODO : The Inventors, Wulfrum Excavator (boss inventés) ; Queen Bee (« 100 bees », sens flou)
+            // Pré-Hardmode. TODO : The Inventors, Wulfrum Excavator (boss inventés)
             Add("King Slime", 300 * 60, 0, NPCID.KingSlime);
             Add("Desert Scourge", 180, 0, ModContent.NPCType<DesertScourgeHead>(), ModContent.NPCType<DesertScourgeBody>(), ModContent.NPCType<DesertScourgeTail>());
             Add("Eye of Cthulhu", 30, 0, NPCID.EyeofCthulhu);
@@ -125,6 +125,8 @@ namespace CalamityFandom.Common.Taming
                 ModContent.NPCType<PerforatorHeadSmall>(), ModContent.NPCType<PerforatorBodySmall>(), ModContent.NPCType<PerforatorTailSmall>(),
                 ModContent.NPCType<PerforatorHeadMedium>(), ModContent.NPCType<PerforatorBodyMedium>(), ModContent.NPCType<PerforatorTailMedium>(),
                 ModContent.NPCType<PerforatorHeadLarge>(), ModContent.NPCType<PerforatorBodyLarge>(), ModContent.NPCType<PerforatorTailLarge>());
+            // « Bring 100 bees into a hive biome » : elle apparaît apprivoisée (TamingBees)
+            Add(TamingBees.Key, 1, 0, NPCID.QueenBee);
             // « Arm Wrestle the Old Man » : bras de fer (OldManWrestle), Skeletron apparaît apprivoisé
             Add(OldManWrestle.Key, 1, 0, NPCID.SkeletronHead, NPCID.SkeletronHand);
             // « Have both slime gods absorb 20 of their respective Blight Slime » ; le butin est sur le noyau
@@ -476,6 +478,7 @@ namespace CalamityFandom.Common.Taming
             if (Terraria.Main.netMode == NetmodeID.MultiplayerClient)
                 return;
             CultistRitual();
+            HiveBees();
             foreach (var e in Entries)
             {
                 NPC npc = FindMain(e);
@@ -502,6 +505,33 @@ namespace CalamityFandom.Common.Taming
                 ShowProgress(e, f, npc);
                 if (f.Progress >= e.Goal)
                     Tame(e, npc);
+            }
+        }
+
+        /// <summary>
+        /// Queen Bee : 100 abeilles autour d'un joueur dans une ruche. Sans combat, elle apparaît apprivoisée ; pendant un
+        /// combat où elle n'a pas été blessée (ses abeilles comptent), elle est apprivoisée aussitôt.
+        /// </summary>
+        private static void HiveBees()
+        {
+            var e = Get(TamingBees.Key);
+            if (e == null || Terraria.Main.GameUpdateCount % 30 != 0 || Untamable.Contains(e.Key) || InstantTame.Contains(e.Key))
+                return;
+            NPC queen = FindMain(e);
+            if (queen != null && Active(e.Key) == null)
+                return;
+            foreach (var p in Terraria.Main.ActivePlayers)
+            {
+                if (TamingBees.CountAround(p) < TamingBees.Goal)
+                    continue;
+                if (queen != null)
+                    Fights[e.Key].Progress = e.Goal;
+                else
+                {
+                    InstantTame.Add(e.Key);
+                    NPC.SpawnOnPlayer(p.whoAmI, e.Main);
+                }
+                return;
             }
         }
 
