@@ -310,6 +310,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   chat à moins de 10 blocs du Traveling Merchant, qui répond « Hi Hungary, I'm the Traveling Merchant... » et en donne
   **un seul par passage en ville** (tous joueurs confondus). **[choix]** Apostrophe typographique acceptée, espaces
   autour ignorés, majuscules exigées ; réponse du marchand écrite par Claude.
+  **[choix]** Un Yharic Delight qui ne compte pas l'explique au joueur, en rose dans le chat : boss tué dans ce monde
+  (« The Zoologist can soothe it »), blessé pendant ce combat, absent, ou trop tard (secondes écoulées). L'auto-test
+  joue la scène (joueur factice, Crabulon, Yharic Delight mangé par le chemin du jeu, dans les 5 s puis après).
 - **[validé 31/10]** **Queen Bee** (« Bring 100 bees into a hive biome ») : comptent les petites abeilles ennemies et
   celles du joueur (Bee Gun, Beenade, Bee's Knees, Hive Pack...). Dans une ruche (mur de ruche derrière l'abeille, ou
   joueur dans le biome), les abeilles du joueur rebondissent sur les blocs sans s'user (au lieu de mourir au 3e

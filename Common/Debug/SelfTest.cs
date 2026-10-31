@@ -75,6 +75,7 @@ namespace CalamityFandom.Common.Debug
             CheckDebugItems();
             CheckRecipeConditions();
             CheckShortstrike();
+            CheckCrabulonTame();
             foreach (var check in ExtraChecks)
                 check(this);
 
@@ -83,6 +84,52 @@ namespace CalamityFandom.Common.Debug
                 Report("ÉCHEC " + f);
             Report(failures.Count == 0 ? "RESULT PASS" : "RESULT FAIL");
             Environment.Exit(failures.Count == 0 ? 0 : 1);
+        }
+
+        /// <summary>
+        /// Taming de Crabulon joué pour de vrai (31/10) : joueur factice, Crabulon apparu, Yharic Delight mangé par le
+        /// chemin du jeu (ItemLoader.OnConsumeItem). Compte dans les 5 s, plus après. Tout est remis en place ensuite.
+        /// </summary>
+        private void CheckCrabulonTame()
+        {
+            const string key = "Crabulon";
+            int delight = WikiRecipes.ResolveItem("Yharic Delight");
+            Expect(delight > 0 && ContentSamples.ItemsByType[delight].consumable, $"Yharic Delight existe et se mange ({delight})");
+            if (delight <= 0)
+                return;
+            Player player = Main.player[0];
+            bool wasActive = player.active;
+            int oldMyPlayer = Main.myPlayer;
+            player.active = true;
+            player.dead = false;
+            player.position = new Microsoft.Xna.Framework.Vector2(1600f, 1600f);
+            int crab = NPC.NewNPC(NPC.GetBossSpawnSource(0), 1800, 1600, ModContent.NPCType<CalamityMod.NPCs.Crabulon.Crabulon>());
+            var taming = ModContent.GetInstance<Common.Taming.TamingSystem>();
+            bool wasUntamable = Common.Taming.TamingSystem.Untamable.Remove(key);
+            try
+            {
+                taming.PostUpdateNPCs();
+                var fight = Common.Taming.TamingSystem.Fights.GetValueOrDefault(key);
+                Expect(fight != null && !fight.Harmed, "Taming de Crabulon : combat suivi, pas blessé");
+                if (fight == null)
+                    return;
+                Main.myPlayer = 0;
+                ItemLoader.OnConsumeItem(new Item(delight), player);
+                Expect(fight.Progress >= 1f, $"Taming de Crabulon : Yharic Delight compté dans les 5 s (progrès {fight.Progress})");
+                fight.Progress = 0f;
+                fight.Started -= Common.Taming.TamingSystem.CrabulonWindow + 60;
+                ItemLoader.OnConsumeItem(new Item(delight), player);
+                Expect(fight.Progress == 0f, "Taming de Crabulon : Yharic Delight pas compté après 5 s");
+            }
+            finally
+            {
+                Main.myPlayer = oldMyPlayer;
+                Main.npc[crab].active = false;
+                Common.Taming.TamingSystem.Fights.Remove(key);
+                if (wasUntamable)
+                    Common.Taming.TamingSystem.Untamable.Add(key);
+                player.active = wasActive;
+            }
         }
 
         /// <summary>Vérifications ajoutées par d'autres systèmes (recettes, éléments...).</summary>

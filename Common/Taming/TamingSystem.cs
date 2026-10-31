@@ -318,7 +318,7 @@ namespace CalamityFandom.Common.Taming
                 p.Send();
             }
             else
-                AddProgress(key, amount);
+                AddProgress(key, amount, Terraria.Main.myPlayer);
         }
 
         /// <summary>
@@ -330,13 +330,34 @@ namespace CalamityFandom.Common.Taming
         /// <summary>Calamity++ (Balance/taming.json) : le Traveling Merchant donne un Yharic Delight à « Yo, I'm Hungary !! ».</summary>
         public static bool HungaryDelight;
 
-        public static void AddProgress(string key, float amount)
+        /// <param name="player">Joueur à prévenir quand le geste ne compte pas (Crabulon), -1 sinon.</param>
+        public static void AddProgress(string key, float amount, int player = -1)
         {
             if (Active(key) is not Fight f)
+            {
+                if (key == "Crabulon")
+                    Tell(player, Untamable.Contains(key) ? "Untamable" : Fights.TryGetValue(key, out var hurt) && hurt.Harmed ? "Harmed" : "NoFight", key);
                 return;
-            if (key == "Crabulon" && Terraria.Main.GameUpdateCount - f.Started > CrabulonWindow)
+            }
+            uint age = Terraria.Main.GameUpdateCount - f.Started;
+            if (key == "Crabulon" && age > CrabulonWindow)
+            {
+                Tell(player, "TooLate", key, age / 60f, CrabulonWindow / 60);
                 return;
+            }
             f.Progress += amount;
+        }
+
+        /// <summary>Explique à un joueur pourquoi son geste n'a pas compté (Mods.CalamityFandom.Taming.Why.*).</summary>
+        private static void Tell(int player, string why, params object[] args)
+        {
+            if (player < 0 || player >= Terraria.Main.maxPlayers)
+                return;
+            string key = "Mods.CalamityFandom.Taming.Why." + why;
+            if (Terraria.Main.netMode == NetmodeID.Server)
+                ChatHelper.SendChatMessageToClient(NetworkText.FromKey(key, args), Color.LightPink, player);
+            else
+                Terraria.Main.NewText(Language.GetTextValue(key, args), Color.LightPink);
         }
 
         /// <summary>Le joueur a été touché : remet à zéro les méthodes « sans prendre de dégâts » (Signus, Yharon).</summary>
@@ -450,7 +471,7 @@ namespace CalamityFandom.Common.Taming
                     string key = reader.ReadString();
                     float amount = reader.ReadSingle();
                     if (Terraria.Main.netMode == NetmodeID.Server)
-                        AddProgress(key, amount);
+                        AddProgress(key, amount, whoAmI);
                     break;
                 case Packet.Hurt:
                     if (Terraria.Main.netMode == NetmodeID.Server)
