@@ -210,7 +210,6 @@ namespace CalamityFandom.Common.Taming.Chess
             if (!ChessScene.Frozen)
                 return;
             Player.velocity = Vector2.Zero;
-            Player.SetImmuneTimeForAllTypes(2);
             if (!Open || Player.whoAmI != Main.myPlayer)
                 return;
             // Le joueur va à sa chaise, tourné vers l'adversaire
@@ -218,6 +217,11 @@ namespace CalamityFandom.Common.Taming.Chess
             Player.Bottom = Vector2.Lerp(From, ChessScene.PlayerSeat(this), t * t * (3f - 2f * t));
             Player.direction = 1;
         }
+
+        // Pas de coups pendant la partie, sans l'invulnérabilité du jeu (qui fait clignoter le joueur)
+        public override bool CanBeHitByNPC(NPC npc, ref int cooldownSlot) => !ChessScene.Frozen;
+
+        public override bool CanBeHitByProjectile(Projectile proj) => !ChessScene.Frozen;
 
         public override void PostUpdate()
         {

@@ -457,7 +457,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
     fous sur la même couleur), pas plus de pièces qu'au départ, pas de pion sur les rangées 1 et 8, rois non adjacents,
     camp qui ne joue pas hors d'échec. Les 90 problèmes ont été régénérés.
   - **Tout s'arrête** pendant une partie contre un boss : mise à jour des PNJ (boss, Creepers, autres ennemis,
-    animations comprises) et des projectiles sautée, joueurs sans contrôles, immobiles et invulnérables.
+    animations comprises) et des projectiles sautée, joueurs sans contrôles, immobiles, et que rien ne touche (pas
+    l'invulnérabilité du jeu, qui fait clignoter le joueur).
     **[choix]** Tout le monde est figé, aussi en multijoueur (l'état de chaque joueur est envoyé à tous) ; rien n'est
     figé à l'entraînement (sans boss).
   - **Table et chaises** (sens des chaises validé le 31/10) : une table et deux chaises en bois (textures des meubles de
