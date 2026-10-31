@@ -10,6 +10,7 @@ par leur nom comme n'importe quel objet.
 Usage : python tools/gen_items.py   (après wiki_index.py)
 """
 import json
+import shutil
 import os
 import re
 import sys
@@ -110,6 +111,35 @@ def convert(src, dest):
     return w, h, len(unique), ticks
 
 
+TILES = os.path.join(ROOT, "Assets", "WikiTiles")
+
+
+def placed_sprite(title):
+    """Image « <titre> (placed) » du wiki : 3 × 3 blocs posés (48 × 48), ou None."""
+    path = os.path.join(SPRITES, title.replace(" ", "_") + "_(placed).png")
+    return path if os.path.exists(path) else None
+
+
+def build_tile(src, dest, bar):
+    """Texture de tuile tirée du bloc du milieu de l'image « (placed) » (sans bordures : décision du 31/10, à affiner).
+    Barre : une image 16 × 16 (tuile 1 × 1 comme les barres de métal). Bloc : planche standard 288 × 270 (cases de 18 px)
+    dont chaque case reprend ce bloc. Renvoie la couleur moyenne (carte)."""
+    img = Image.open(src)
+    img = next(ImageSequence.Iterator(img)).convert("RGBA")
+    tw, th = img.width // 3, img.height // 3
+    center = img.crop((tw, th, 2 * tw, 2 * th)).resize((16, 16), Image.NEAREST)
+    if bar:
+        center.save(dest, "PNG")
+    else:
+        sheet = Image.new("RGBA", (288, 270), (0, 0, 0, 0))
+        for x in range(16):
+            for y in range(15):
+                sheet.paste(center, (x * 18, y * 18))
+        sheet.save(dest, "PNG")
+    pixels = [p for p in center.getdata() if p[3] > 128] or [(128, 128, 128, 255)]
+    return [sum(p[i] for p in pixels) // len(pixels) for i in range(3)]
+
+
 def convert_world(src, dest, size):
     """Version géante dessinée au sol (wiki_sprites_custom/<titre> (world).png, détourée par l'utilisateur) : recadrée
     sur sa partie visible et mise à la taille de la hitbox au sol."""
@@ -121,7 +151,9 @@ def convert_world(src, dest, size):
 def main():
     index = json.load(open(os.path.join(ROOT, "data", "wiki_index.json"), encoding="utf-8"))
     os.makedirs(ASSETS, exist_ok=True)
-    used = {"zweihandromeda", "stratusstar", "zweihandromedaswing", "wikimaterial"}
+    shutil.rmtree(TILES, ignore_errors=True)
+    os.makedirs(TILES)
+    used ={"zweihandromeda", "stratusstar", "zweihandromedaswing", "wikimaterial"}
     # Les barres sont des « Block » sur le wiki (elles se posent) : prises comme matériaux si une recette les utilise
     recipes = json.load(open(os.path.join(ROOT, "WikiData", "recipes.json"), encoding="utf-8"))["recipes"]
     ingredients = {n.lower() for r in recipes for i in r["ingredients"] for n in i["items"]}
@@ -155,6 +187,13 @@ def main():
             "maxStack": int(min(max(stack or 9999, 1), 9999)),
             "value": copper * 5 if copper is not None else 0,
         })
+        # Bloc ou barre qui se pose (« Block » sur le wiki) : tuile générée si le wiki montre le bloc posé
+        types = f"{kind} {(f.get('type2') or '').lower()}"
+        placed = placed_sprite(title) if "block" in types else None
+        if placed:
+            bar = "bar" in types or title.lower().endswith(" bar")
+            items[-1]["tile"] = "bar" if bar else "block"
+            items[-1]["mapColor"] = build_tile(placed, os.path.join(TILES, name + ".png"), bar)
         if food:
             use = number(f.get("use"))
             items[-1].update({"foodBuff": food, "foodSeconds": seconds, "useTime": int(use) if use else 17})
@@ -186,7 +225,7 @@ def main():
     names |= {w["name"] + ".png" for w in wings} | {w["name"] + "_Wings.png" for w in wings}
     for stale in set(os.listdir(ASSETS)) - names:
         os.remove(os.path.join(ASSETS, stale))
-    print(f"{len(items)} matériaux générés ({sum(i['frames'] > 1 for i in items)} animés), {len(wings)} ailes "
+    print(f"{len(items)} matériaux générés ({sum(i['frames'] > 1 for i in items)} animés, {sum(1 for i in items if i.get('tile'))} posables), {len(wings)} ailes "
           f"({sum(1 for w in wings if not w['equipSprite'])} sans image portée)")
 
 

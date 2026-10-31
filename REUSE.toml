@@ -48,7 +48,8 @@ SPDX-License-Identifier = "LicenseRef-Calamity"
 
 # Sprites dessinés par nous
 [[annotations]]
-path = ["Assets/UI/ShortstrikeMeter.png", "wiki_sprites_custom/Shortstrike Meter (x6).png"]
+path = ["Assets/UI/ShortstrikeMeter.png", "wiki_sprites_custom/Shortstrike Meter (x6).png",
+        "Content/Items/Taming/HolographicChessboard.png", "Content/NPCs/Perforators/*.png"]
 precedence = "closest"
 SPDX-FileCopyrightText = "2026 Etienne Marec"
 SPDX-License-Identifier = "GPL-3.0-or-later"

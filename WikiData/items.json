@@ -11,7 +11,13 @@
    "ticksPerFrame": 5,
    "rare": 15,
    "maxStack": 9999,
-   "value": 0
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    100,
+    85,
+    56
+   ]
   },
   {
    "name": "AbsoluteGel",
@@ -95,7 +101,13 @@
    "ticksPerFrame": 5,
    "rare": 3,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    112,
+    149,
+    132
+   ]
   },
   {
    "name": "AlloyBar",
@@ -155,7 +167,13 @@
    "ticksPerFrame": 5,
    "rare": 7,
    "maxStack": 9999,
-   "value": 100000
+   "value": 100000,
+   "tile": "block",
+   "mapColor": [
+    40,
+    114,
+    33
+   ]
   },
   {
    "name": "ArchitectWhirlhammer",
@@ -179,7 +197,13 @@
    "ticksPerFrame": 5,
    "rare": 13,
    "maxStack": 9999,
-   "value": 0
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    134,
+    91,
+    128
+   ]
   },
   {
    "name": "ArsenicOre",
@@ -191,7 +215,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 1000
+   "value": 1000,
+   "tile": "block",
+   "mapColor": [
+    98,
+    83,
+    81
+   ]
   },
   {
    "name": "AshenKey",
@@ -215,7 +245,13 @@
    "ticksPerFrame": 5,
    "rare": 7,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    205,
+    139,
+    109
+   ]
   },
   {
    "name": "AstralArcanoidBase",
@@ -374,7 +410,13 @@
    "ticksPerFrame": 5,
    "rare": 3,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    116,
+    29,
+    30
+   ]
   },
   {
    "name": "BloodredReactiveCore",
@@ -422,7 +464,13 @@
    "ticksPerFrame": 5,
    "rare": 10,
    "maxStack": 9999,
-   "value": 25000
+   "value": 25000,
+   "tile": "block",
+   "mapColor": [
+    129,
+    81,
+    79
+   ]
   },
   {
    "name": "BloomingBulb",
@@ -512,7 +560,13 @@
    "ticksPerFrame": 5,
    "rare": 5,
    "maxStack": 9999,
-   "value": 2500
+   "value": 2500,
+   "tile": "block",
+   "mapColor": [
+    143,
+    98,
+    82
+   ]
   },
   {
    "name": "ChaosSerpentShard",
@@ -536,7 +590,13 @@
    "ticksPerFrame": 5,
    "rare": 1,
    "maxStack": 9999,
-   "value": 0
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    56,
+    25,
+    44
+   ]
   },
   {
    "name": "CharMatter",
@@ -638,7 +698,13 @@
    "ticksPerFrame": 5,
    "rare": 2,
    "maxStack": 9999,
-   "value": 0
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    158,
+    79,
+    245
+   ]
   },
   {
    "name": "CondensedEnergy",
@@ -734,7 +800,13 @@
    "ticksPerFrame": 5,
    "rare": 14,
    "maxStack": 9999,
-   "value": 45000
+   "value": 45000,
+   "tile": "block",
+   "mapColor": [
+    125,
+    121,
+    167
+   ]
   },
   {
    "name": "CoyoteVenom",
@@ -833,7 +905,13 @@
    "ticksPerFrame": 5,
    "rare": 3,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    122,
+    170,
+    97
+   ]
   },
   {
    "name": "Curseplate",
@@ -845,7 +923,13 @@
    "ticksPerFrame": 5,
    "rare": 5,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    130,
+    137,
+    86
+   ]
   },
   {
    "name": "DebrisOre",
@@ -857,7 +941,13 @@
    "ticksPerFrame": 5,
    "rare": 12,
    "maxStack": 9999,
-   "value": 25000
+   "value": 25000,
+   "tile": "block",
+   "mapColor": [
+    52,
+    43,
+    44
+   ]
   },
   {
    "name": "DemonicBoneAsh",
@@ -905,7 +995,13 @@
    "ticksPerFrame": 5,
    "rare": 5,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    138,
+    141,
+    124
+   ]
   },
   {
    "name": "Ectoblood",
@@ -965,7 +1061,13 @@
    "ticksPerFrame": 5,
    "rare": 10,
    "maxStack": 9999,
-   "value": 25010
+   "value": 25010,
+   "tile": "block",
+   "mapColor": [
+    105,
+    103,
+    111
+   ]
   },
   {
    "name": "EnchantedMetal",
@@ -989,7 +1091,13 @@
    "ticksPerFrame": 5,
    "rare": 7,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    106,
+    144,
+    154
+   ]
   },
   {
    "name": "EnergyOrb",
@@ -1193,7 +1301,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 100000
+   "value": 100000,
+   "tile": "block",
+   "mapColor": [
+    22,
+    36,
+    46
+   ]
   },
   {
    "name": "EssericScale",
@@ -1301,7 +1415,13 @@
    "ticksPerFrame": 5,
    "rare": 16,
    "maxStack": 9999,
-   "value": 12500000
+   "value": 12500000,
+   "tile": "bar",
+   "mapColor": [
+    136,
+    44,
+    52
+   ]
   },
   {
    "name": "FlahiumComponent",
@@ -1325,7 +1445,13 @@
    "ticksPerFrame": 5,
    "rare": 16,
    "maxStack": 9999,
-   "value": 1500000
+   "value": 1500000,
+   "tile": "block",
+   "mapColor": [
+    102,
+    87,
+    91
+   ]
   },
   {
    "name": "FlashingLightEssence",
@@ -1361,7 +1487,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 0
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    128,
+    151,
+    165
+   ]
   },
   {
    "name": "Fuelplate",
@@ -1373,7 +1505,13 @@
    "ticksPerFrame": 5,
    "rare": 7,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    180,
+    153,
+    106
+   ]
   },
   {
    "name": "FungalChunk",
@@ -1517,7 +1655,13 @@
    "ticksPerFrame": 5,
    "rare": 13,
    "maxStack": 9999,
-   "value": 25000
+   "value": 25000,
+   "tile": "block",
+   "mapColor": [
+    139,
+    68,
+    68
+   ]
   },
   {
    "name": "HerbalMixture",
@@ -1565,7 +1709,13 @@
    "ticksPerFrame": 5,
    "rare": 5,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    137,
+    134,
+    100
+   ]
   },
   {
    "name": "IllucenicEye",
@@ -1613,7 +1763,13 @@
    "ticksPerFrame": 5,
    "rare": 3,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    147,
+    76,
+    172
+   ]
   },
   {
    "name": "LethalDiseaseCanister",
@@ -1637,7 +1793,13 @@
    "ticksPerFrame": 5,
    "rare": 8,
    "maxStack": 9999,
-   "value": 11000
+   "value": 11000,
+   "tile": "block",
+   "mapColor": [
+    60,
+    44,
+    48
+   ]
   },
   {
    "name": "LivingDewDroplet",
@@ -1748,7 +1910,13 @@
    "ticksPerFrame": 5,
    "rare": 9,
    "maxStack": 9999,
-   "value": 12500
+   "value": 12500,
+   "tile": "block",
+   "mapColor": [
+    57,
+    72,
+    56
+   ]
   },
   {
    "name": "MetalFeather",
@@ -1832,7 +2000,13 @@
    "ticksPerFrame": 5,
    "rare": 3,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    118,
+    126,
+    156
+   ]
   },
   {
    "name": "NatrisodicAlloy",
@@ -1856,7 +2030,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 3750000
+   "value": 3750000,
+   "tile": "block",
+   "mapColor": [
+    102,
+    118,
+    123
+   ]
   },
   {
    "name": "Nether",
@@ -1904,7 +2084,13 @@
    "ticksPerFrame": 5,
    "rare": 14,
    "maxStack": 9999,
-   "value": 0
+   "value": 0,
+   "tile": "bar",
+   "mapColor": [
+    12,
+    29,
+    138
+   ]
   },
   {
    "name": "OrbOfBoon",
@@ -2048,7 +2234,13 @@
    "ticksPerFrame": 5,
    "rare": 11,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    138,
+    145,
+    144
+   ]
   },
   {
    "name": "PulsingNightEssence",
@@ -2228,7 +2420,13 @@
    "ticksPerFrame": 5,
    "rare": 15,
    "maxStack": 9999,
-   "value": 50000
+   "value": 50000,
+   "tile": "block",
+   "mapColor": [
+    54,
+    37,
+    69
+   ]
   },
   {
    "name": "ShatteredMessageBlock",
@@ -2288,7 +2486,13 @@
    "ticksPerFrame": 5,
    "rare": 7,
    "maxStack": 9999,
-   "value": 10000
+   "value": 10000,
+   "tile": "block",
+   "mapColor": [
+    37,
+    67,
+    112
+   ]
   },
   {
    "name": "SiliconOre",
@@ -2300,7 +2504,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 1000
+   "value": 1000,
+   "tile": "block",
+   "mapColor": [
+    74,
+    70,
+    65
+   ]
   },
   {
    "name": "SkylacSand",
@@ -2312,7 +2522,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 0
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    38,
+    74,
+    143
+   ]
   },
   {
    "name": "SkylacStone",
@@ -2324,7 +2540,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 0
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    38,
+    43,
+    60
+   ]
   },
   {
    "name": "SkylineTooth",
@@ -2363,7 +2585,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 0
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    41,
+    41,
+    52
+   ]
   },
   {
    "name": "Something",
@@ -2435,7 +2663,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 500000
+   "value": 500000,
+   "tile": "block",
+   "mapColor": [
+    109,
+    68,
+    52
+   ]
   },
   {
    "name": "StrangeMatter",
@@ -2459,7 +2693,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 0
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    35,
+    37,
+    69
+   ]
   },
   {
    "name": "StratusStarBrick",
@@ -2471,7 +2711,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 0
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    42,
+    55,
+    96
+   ]
   },
   {
    "name": "SubnauticalPlate",
@@ -2495,7 +2741,13 @@
    "ticksPerFrame": 5,
    "rare": 7,
    "maxStack": 9999,
-   "value": 4000
+   "value": 4000,
+   "tile": "block",
+   "mapColor": [
+    22,
+    52,
+    58
+   ]
   },
   {
    "name": "TheSwordIsInsideTheCore",
@@ -2519,7 +2771,13 @@
    "ticksPerFrame": 5,
    "rare": 0,
    "maxStack": 9999,
-   "value": 25000000
+   "value": 25000000,
+   "tile": "block",
+   "mapColor": [
+    94,
+    69,
+    141
+   ]
   },
   {
    "name": "TitanFinger",
@@ -2618,7 +2876,13 @@
    "ticksPerFrame": 5,
    "rare": 7,
    "maxStack": 9999,
-   "value": 60000
+   "value": 60000,
+   "tile": "bar",
+   "mapColor": [
+    77,
+    154,
+    70
+   ]
   },
   {
    "name": "VerdantiumOre",
@@ -2630,7 +2894,13 @@
    "ticksPerFrame": 5,
    "rare": 7,
    "maxStack": 9999,
-   "value": 9000
+   "value": 9000,
+   "tile": "block",
+   "mapColor": [
+    104,
+    179,
+    64
+   ]
   },
   {
    "name": "VictideOre",
@@ -2642,7 +2912,13 @@
    "ticksPerFrame": 5,
    "rare": 2,
    "maxStack": 9999,
-   "value": 2500
+   "value": 2500,
+   "tile": "block",
+   "mapColor": [
+    123,
+    39,
+    53
+   ]
   },
   {
    "name": "VioliumOre",
@@ -2755,7 +3031,13 @@
    "ticksPerFrame": 5,
    "rare": 3,
    "maxStack": 9999,
-   "value": 1500
+   "value": 1500,
+   "tile": "block",
+   "mapColor": [
+    153,
+    136,
+    129
+   ]
   },
   {
    "name": "ZumboSauce",

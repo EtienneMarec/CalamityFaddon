@@ -40,6 +40,9 @@ namespace CalamityFandom.Content.Items
             public string FoodBuff { get; set; }
             public int FoodSeconds { get; set; }
             public int UseTime { get; set; } = 17;
+            /// <summary>Se pose (31/10) : « block » ou « bar » (Content/Tiles/WikiTile.cs), couleur sur la carte.</summary>
+            public string Tile { get; set; }
+            public int[] MapColor { get; set; }
         }
 
         private class ItemsFile
@@ -69,6 +72,8 @@ namespace CalamityFandom.Content.Items
                 if (vanillaNames.Contains(WikiRecipes.Normalize(entry.DisplayName)))
                     continue;
                 mod.AddContent(new WikiMaterial(entry));
+                if (entry.Tile != null)
+                    mod.AddContent(new Tiles.WikiTile(entry));
             }
         }
 
@@ -95,6 +100,16 @@ namespace CalamityFandom.Content.Items
                 // DefaultToFood remet taille, pile et prix : on les reprend du wiki
                 Item.DefaultToFood(Item.width, Item.height, buff, data.FoodSeconds * 60);
                 Item.useTime = Item.useAnimation = data.UseTime;
+                Item.maxStack = data.MaxStack;
+                Item.value = data.Value;
+                Item.rare = WikiStats.ResolveRarity(data.Rare);
+            }
+            if (data.Tile != null && Mod.TryFind<ModTile>(data.Name + "Tile", out var tile))
+            {
+                // DefaultToPlaceableTile remet aussi la taille : on la reprend du wiki
+                Item.DefaultToPlaceableTile(tile.Type);
+                Item.width = (int)(data.Width * data.WorldScale);
+                Item.height = (int)(data.Height * data.WorldScale);
                 Item.maxStack = data.MaxStack;
                 Item.value = data.Value;
                 Item.rare = WikiStats.ResolveRarity(data.Rare);

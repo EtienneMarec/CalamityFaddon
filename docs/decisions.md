@@ -452,6 +452,14 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 21/10]** Sprite absent ou inutilisable → demandé à l'utilisateur (`docs/SPRITES.md`). Provisoire en attendant :
   « Mars Bars » (photo réduite à 90×70).
 
+- **[choix]** (31/10) **Matériaux qui se posent** (`Content/Tiles/WikiTile.cs`, `Assets/WikiTiles/`) : les matériaux
+  « Block » dont le wiki montre le bloc posé (image « (placed) », 3 × 3 blocs) se posent : 47 (44 blocs, 3 barres :
+  Flahium, Omnicidal Sludge, Verdantium). Texture = bloc du milieu de cette image ; les blocs sont pleins et
+  n'ont pas encore de bordures (toutes les cases de la planche sont ce bloc) ; les barres sont des tuiles 1 × 1
+  posées comme les barres de métal du jeu (brillantes). Minerais (« Ore », « Slag », « Cluster ») visibles au
+  Spelunker et au détecteur de métaux ; pas de pioche minimale (rien n'est généré dans le monde). Les 22 autres
+  « Block » (Alloy Bar, Yharim Bar...) n'ont pas d'image posée sur le wiki : ils restent des matériaux.
+
 ## 7. Butin (`tools/gen_loot.py`, `Common/WikiData/WikiLoot.cs`)
 
 - **[choix]** Additif : seuls les objets que le PNJ ne lâche pas déjà sont ajoutés ; chances existantes inchangées.

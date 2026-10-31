@@ -528,6 +528,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       boutique ouverte ; elles reviennent à l'aube suivante
 - [x] (31/10, validé) **Eye of Cthulhu (correctif)** : tourner autour de l'œil affiche « 1/30 », « 2/30 »... ; faire un tour
       entier dans l'autre sens affiche « ↺ 0/30 » et repart de zéro ; ses charges seules ne font pas avancer
+- [ ] (31/10) **Matériaux posables** (Cheat Sheet) : Aeroplate, Tenebris, Thorium Ore... se posent comme des blocs pleins
+      (texture du wiki, sans bordures), se cassent et redonnent l'objet ; les minerais brillent au Spelunker ; Flahium
+      Bar, Verdantium Bar, Omnicidal Sludge Bar se posent comme des barres de métal (empilables)
 - [ ] (31/10) **Butin générique** : les ennemis de la jungle lâchent parfois (10 %) une Accidated Reactive Essence, ceux
       de la neige une Waterfreeze, de la Corruption une Noctic... ; chaque boss lâche un Conquest Fragment ; les bestioles
       et PNJ de statue ne lâchent rien

@@ -268,6 +268,12 @@ namespace CalamityFandom.Common.Debug
             Expect(solarRates.Any(r => r.itemId == ModContent.ItemType<CalamityMod.Items.Materials.YharonSoulFragment>()),
                 "Taming : Yharon Soul Fragment lâché par les Selenians");
             Expect(ModContent.NPCType<Content.NPCs.Perforators.EstrangedSonHead>() > 0, "Taming : Estranged Son");
+            // Matériaux qui se posent (31/10) : bloc plein et barre 1 x 1
+            int aeroplate = WikiRecipes.ResolveItem("Aeroplate"), flahium = WikiRecipes.ResolveItem("Flahium Bar");
+            Expect(aeroplate > 0 && ContentSamples.ItemsByType[aeroplate].createTile > 0 && Main.tileSolid[ContentSamples.ItemsByType[aeroplate].createTile],
+                "Aeroplate se pose (bloc plein)");
+            Expect(flahium > 0 && ContentSamples.ItemsByType[flahium].createTile > 0 && Main.tileFrameImportant[ContentSamples.ItemsByType[flahium].createTile],
+                "Flahium Bar se pose (barre)");
             // Sources génériques des pages d'objets (« any Jungle enemy », « Any Boss ») : règles globales (Cent Striker absent)
             Expect(WikiLoot.GenericAdded.Count >= 14 && WikiLoot.GenericAdded.Any(g => g.Contains("Any Boss")),
                 $"butin : {WikiLoot.GenericAdded.Count} sources génériques (« Any Boss », « any Jungle enemy »...)");
