@@ -32,6 +32,9 @@ namespace CalamityFandom.Common.Taming
             };
         }
 
+        /// <summary>Golem : délai minimal entre deux coups comptés pour un même ballon (une demi-seconde).</summary>
+        public const int BeachBallCooldown = 30;
+
         /// <summary>[choix] Durée minimale du Slimed posé par un jet de Slime Gun sur King Slime (3 s).</summary>
         public const int SlimedTicks = 3 * 60;
 
@@ -196,6 +199,28 @@ namespace CalamityFandom.Common.Taming
                     if (corner >= 0)
                         f.Ints[0] |= 1 << corner;
                     f.Progress = System.Numerics.BitOperations.PopCount((uint)f.Ints[0]);
+                    break;
+                // « Hit a beach ball 50 times while Golem is alive. Beachball hits by Golem will count towards this
+                // total » : [validé 31/10] un coup = le ballon entre en contact avec un joueur ou avec Golem (tête,
+                // poings, corps) ; au plus un coup par ballon toutes les demi-secondes. Le ballon ne blesse pas Golem.
+                case "Golem":
+                    foreach (var ball in Main.ActiveProjectiles)
+                    {
+                        if (ball.type != ProjectileID.BeachBall)
+                            continue;
+                        var g = ball.GetGlobalProjectile<TamingGlobalProjectile>();
+                        bool player = Main.player.Any(pl => pl.active && !pl.dead && pl.Hitbox.Intersects(ball.Hitbox));
+                        bool golem = Main.npc.Any(n => n.active && e.Types.Contains(n.type) && n.Hitbox.Intersects(ball.Hitbox));
+                        if (g.HitCooldown > 0)
+                            g.HitCooldown--;
+                        else if (player && !g.TouchedPlayer || golem && !g.TouchedGolem)
+                        {
+                            f.Progress++;
+                            g.HitCooldown = BeachBallCooldown;
+                        }
+                        g.TouchedPlayer = player;
+                        g.TouchedGolem = golem;
+                    }
                     break;
                 // « Allow Ceaseless Void to absorb 50 rolling Boulders »
                 case "Ceaseless Void":

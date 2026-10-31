@@ -524,6 +524,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       échiquier holographique, « practice », mat en un (en deux après le Moon Lord) ; cliquer une pièce montre ses coups ;
       mauvais coup → « Wrong move! » et un autre problème ; Échap ferme. Contre le Brain of Cthulhu (sans le toucher) : il
       et ses Creepers s'arrêtent pendant la partie ; 3 problèmes résolus → apprivoisé
+- [ ] (31/10) **Golem (ballon de plage)** : pendant le combat, lancer un Beach Ball : chaque contact du ballon avec un
+      joueur ou avec Golem fait avancer (« ♥ 25 % » vers 13) ; posé immobile 3 s, il saute en l'air ; il ne disparaît
+      pas ; à 50, Golem est apprivoisé (temple ouvert pour la suite : le Lunatic Cultist peut apparaître)
 - [ ] (31/10) **Skeletron (bras de fer)** : parler 3 fois à l'Old Man → texte qui propose un bras de fer, bouton « Arm
       Wrestle » (ensuite toujours là) ; le mini-jeu : la barre verte recule seule, cliquer quand le cran est dans la zone
       jaune (+5) ou orange (+10) ; spammer le clic ne marche pas. Gagné : Skeletron apparaît et est apprivoisé (donjon

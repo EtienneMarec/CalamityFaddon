@@ -21,6 +21,35 @@ namespace CalamityFandom.Common.Taming
     {
         public override bool InstancePerEntity => true;
         public bool Counted;
+        /// <summary>Ballon de plage (Golem) : contacts du tick précédent, délai avant le prochain coup compté, immobilité.</summary>
+        public bool TouchedPlayer, TouchedGolem;
+        public int HitCooldown, StillTicks;
+
+        /// <summary>Golem vivant et apprivoisable (vu aussi des clients : la liste des boss tués est synchronisée).</summary>
+        public static bool GolemTamable()
+        {
+            var e = TamingSystem.Get("Golem");
+            return e != null && !TamingSystem.Untamable.Contains(e.Key) && TamingSystem.FindMain(e) != null;
+        }
+
+        // [validé 31/10] Le ballon ne doit pas rester bloqué : pendant une tentative, il ne disparaît pas et, immobile 3 s,
+        // il est relancé en l'air (côté propriétaire du projectile, qui le simule)
+        public override void PostAI(Projectile projectile)
+        {
+            if (projectile.type != ProjectileID.BeachBall || projectile.owner != Main.myPlayer || !GolemTamable())
+                return;
+            projectile.timeLeft = System.Math.Max(projectile.timeLeft, 600);
+            if (projectile.velocity.Length() > 0.5f)
+            {
+                StillTicks = 0;
+                return;
+            }
+            if (++StillTicks < 3 * 60)
+                return;
+            StillTicks = 0;
+            projectile.velocity = new Vector2(Main.rand.NextFloat(-4f, 4f), -10f);
+            projectile.netUpdate = true;
+        }
 
         // Les combats ne sont suivis que par le serveur : ici, seulement « le boss est apprivoisable » (liste synchronisée)
         public override bool? CanHitNPC(Projectile projectile, NPC target) =>

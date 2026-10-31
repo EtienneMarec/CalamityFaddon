@@ -283,9 +283,9 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 31/10]** Actif **dans les deux modes**. Chaque nouveau boss du mod reçoit sa méthode (pas les superboss, en
   Full Fandom en tout cas). **Le jeu doit pouvoir se finir sans tuer un seul boss** : aucune méthode ne doit demander
   un objet qui ne tombe que d'un boss qu'il faut tuer avant (voir « Route sans tuer » plus bas).
-- 36 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
-  Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze, XP-00 Hypnos) ou du contenu absent (Blight Slimes absorbées par le Slime God, Draedon's Remote pour Astrum Aureus) ou un sens plus clair (« 100 bees » de la Queen Bee, ballon de
-  plage du Golem, poissons rouges de Leviathan, PNJ qui emménagent dans la Brimstone Crag). Liste en TODO dans
+- 37 boss sur 50 ont leur méthode ; les autres attendent leur boss (The Inventors, Wulfrum Excavator,
+  Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze, XP-00 Hypnos) ou du contenu absent (Blight Slimes absorbées par le Slime God, Draedon's Remote pour Astrum Aureus) ou un sens plus clair (« 100 bees » de la Queen Bee, poissons rouges de
+  Leviathan, PNJ qui emménagent dans la Brimstone Crag). Liste en TODO dans
   `TamingSystem.PostSetupContent`.
 - **[validé 31/10]** **Récompenses** : la page en nomme 17. Les 15 sans page : même objet dans les deux modes, sans effet
   en Full Fandom (infobulle « souvenir »), vrai effet en Calamity++. Pas encore créées : le boss apprivoisé laisse pour
@@ -371,6 +371,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   compter) ; promotion toujours en dame ; dans un mat en deux, l'adversaire répond au hasard. Le Brain of Cthulhu et
   ses Creepers attendent pendant la partie (ils jouent). Sans boss proche : entraînement (mats en deux après le Moon
   Lord). Fabriqué à l'établi : 10 Glass, 10 bois, 1 Fallen Star. Sprite et pièces provisoires (`docs/SPRITES.md`).
+- **Golem** (« Hit a beach ball 50 times while Golem is alive. Beachball hits by Golem will count ») : **[validé 31/10]**
+  un coup = un Beach Ball qui entre en contact avec un joueur ou avec Golem (corps, tête, poings ; le ballon ignore
+  les ennemis dans le jeu de base, le contact est donc détecté par notre code) ; pas de rebond ajouté. **[choix]** Au
+  plus un coup par ballon toutes les demi-secondes (sinon un ballon posé contre Golem compterait en continu). Le
+  ballon ne doit pas rester bloqué : pendant une tentative il ne disparaît pas, et immobile 3 s il est relancé en
+  l'air. Il ne fait pas de dégâts dans le jeu de base.
 - **Skeletron** (« Arm Wrestle the Old Man ») : **[validé 31/10]** mini-jeu de l'utilisateur : un cran fait des
   allers-retours sur une barre ; cliquer (ou Espace) quand il est dans la zone fait avancer le bras de fer de 5, de 10
   dans la zone ×2 (deux fois plus étroite, au milieu) ; l'Old Man tire de 1 toutes les demi-secondes. **[choix]** Gagné

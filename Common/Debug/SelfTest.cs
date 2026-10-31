@@ -250,9 +250,9 @@ namespace CalamityFandom.Common.Debug
                     r.ReportDroprates(crabRates, new DropRateInfoChainFeed(1f));
                 Expect(crabRates.Any(r => r.itemId == converter), "le sac de Crabulon contient le Metabolic Converter");
             }
-            // Taming (31/10) : 36 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
+            // Taming (31/10) : 37 boss avec leur méthode, PNJ résolus, projectiles des méthodes trouvés
             var tames = Common.Taming.TamingSystem.Entries;
-            Expect(tames.Count == 36 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
+            Expect(tames.Count == 37 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
                 + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));

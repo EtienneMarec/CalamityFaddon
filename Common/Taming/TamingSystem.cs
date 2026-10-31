@@ -128,8 +128,7 @@ namespace CalamityFandom.Common.Taming
             Add(OldManWrestle.Key, 1, 0, NPCID.SkeletronHead, NPCID.SkeletronHand);
             Add("Wall of Flesh", 1, 0, NPCID.WallofFlesh, NPCID.WallofFleshEye);
             // Hardmode. TODO : Cumulomenace, Pyrogen, The Derellect, Polyphemalus (inventés) ; Brimstone Elemental (PNJ qui
-            // emménagent), Leviathan and Anahita (poissons rouges), Astrum Aureus (Draedon's Remote absent), Golem (ballon
-            // de plage)
+            // emménagent), Leviathan and Anahita (poissons rouges), Astrum Aureus (Draedon's Remote absent)
             Add("Queen Slime", 100, 1, NPCID.QueenSlimeBoss);
             Add("Cryogen", 180, 1, ModContent.NPCType<Cryogen>());
             Add("The Twins", 60 * 60, 1, NPCID.Retinazer, NPCID.Spazmatism);
@@ -138,6 +137,8 @@ namespace CalamityFandom.Common.Taming
             Add("Aquatic Scourge", 180, 1, ModContent.NPCType<AquaticScourgeHead>(), ModContent.NPCType<AquaticScourgeBody>(),
                 ModContent.NPCType<AquaticScourgeBodyAlt>(), ModContent.NPCType<AquaticScourgeTail>());
             Add("Plantera", 180 * 60, 1, NPCID.Plantera);
+            // « Hit a beach ball 50 times while Golem is alive. Beachball hits by Golem will count towards this total »
+            Add("Golem", 50, 1, NPCID.Golem, NPCID.GolemHead, NPCID.GolemHeadFree, NPCID.GolemFistLeft, NPCID.GolemFistRight);
             Add("Calamitas", 60, 1, ModContent.NPCType<CalamitasClone>());
             Add("The Plaguebringer Goliath", 200, 1, ModContent.NPCType<PlaguebringerGoliath>());
             Add("Duke Fishron", 1, 1, NPCID.DukeFishron);
