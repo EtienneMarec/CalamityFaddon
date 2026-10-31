@@ -2,10 +2,10 @@
 
 _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports/loot_applied.md`.
 
-- 365 PNJ, 1680 entrées de butin
+- 368 PNJ, 1688 entrées de butin
 - 246 entrées avec condition en note (appliquées quand `parse_condition` la comprend, voir `reports/loot_applied.md`)
-- Pages d'objets (infobox « item drops ») : 316 drops ajoutés aux PNJ, 15 sources génériques appliquées (« any Jungle enemy »...), 12 laissées de côté
-- 160 infobox avec des paramètres non compris
+- Pages d'objets (infobox « item drops ») : 324 drops ajoutés aux PNJ, 15 sources génériques appliquées (« any Jungle enemy »...), 12 laissées de côté
+- 152 infobox avec des paramètres non compris
 
 ## Entrées conditionnelles
 
@@ -319,7 +319,6 @@ _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports
 - Barolegs (page d'objet) : Abyss enemies | 1 | varies
 - Blood Bath (page d'objet) : 1= The Perforators | 2=1 | 3={{dv|25%|33.33%}}
 - Blood Element (page d'objet) : Dreadnautilus | 1 | {{revengeance|100%}}
-- Bloodletting Essence (page d'objet) : Face Monster<br/>Herpling | 1 | 20% /{{expert| 25%}}
 - Brimstone Elemental : {{expert|100%}}
 - Brimstone Jewel (page d'objet) : Supreme Calamitas | 1 | {{expert|100%}}
 - Burden Breaker (page d'objet) : Skeletron Prime | 1 | {{malice|100%}}
@@ -340,7 +339,6 @@ _Généré par `tools/gen_loot.py`._ Le bilan appliqué en jeu est dans `reports
 - Cyrogen : -
 - Dark Statis : Plague Keeper
 - Dead Star's Laser Rifle (page d'objet) : Astrum Deus | 1 | {{dv||||100%}}
-- Desert Feather (page d'objet) : The Dragonfolly | 11-17 / {{expert|15-21}} | 100%
 - Devil Fish : -, -
 - Dread Bone (page d'objet) : Blood Zombie | 1 | {{Expert|1%}}
 - Dung Defender : Hunter's Journal
@@ -366,7 +364,7 @@ Dung Defender Stagger.png, Staggered
 - Fearless Goldfish Warrior : Magic Dagger
 - Flak Crab : -, Corroded Fossil
 - Fleshy Geode (page d'objet) : Ravager | 1 | 100% (Before defeating [[Providence]])
-- Floating Biomass : 50%/{{expert|100%}}, Babil Destruction Core
+- Floating Biomass : Babil Destruction Core
 - Fox Drive (page d'objet) : Jungle Dragon, Yharon | 1 | {{revengeance|100%}}
 - Gael's Greatsword (page d'objet) : Supreme Calamitas | 1 | {{malice|100%}}
 - Garon : Yharim Bar, {{expert|100%}}
@@ -374,7 +372,6 @@ Dung Defender Stagger.png, Staggered
 - Goozma : -, -, {{dv|||100%||100%}}, {{expert|100%}}
 - Goozmageldon : Stardust, 12=100%, 13=Goozmageldon Mask, 14=1, 15=14.29%, 16=Goozmageldon Trophy, 17=1, 18=10%, 19=custom, 20={{item|Goozmageldon (Lore)|@@note:(Always on first kill)|, 21=100%, 22=custom, 24={{expert|100%}}
 - Grand Dad (page d'objet) : Moon Lord | 1 | {{malice|100%}}
-- Gypsy Powder (page d'objet) : Moth | 1 | 50% / {{expert|100%}}
 - Hardened Honeycomb (page d'objet) : Queen Bee | 30-50 /<br/>{{expert|50-75}} | {{dv|25%|33.33%}}
 - Hermit's Box of One Hundred Medicines (page d'objet) : Wall of Flesh | 1 | 100% (first time)<br/>10% (subsequent kills)
 - Hyperfish : -, Fries
@@ -383,10 +380,8 @@ Dung Defender Stagger.png, Staggered
 - Lead Wizard (page d'objet) : Golem | 1 | {{malice|100%}}
 - Levi (page d'objet) : Supreme Calamitas | 1 | {{death|100%}}
 - Leviathan and Anahita : Crocodile Scale, 71=20-40, 72=100%, 73=custom, 74={{item|The Ocean (Lore)|@@note:(Always on first kill)|wra, 75=100%, 76=custom, 77={{item|Leviathan and Anahita (Lore)|@@note:(Always on fir, 78=100%
-- Living Shard (page d'objet) : Plantera | 6-9 / {{expert|8-11}} | 100%
 - Lumenyl (page d'objet) : Devil Fish<br/>Eidolist<br/>Adult Eidolon Wyrm<br/>Eidolon Wyrm<br/>Giant Squid<
 - Magma Booster (page d'objet) : Calamitas | 1 | {{revengeance|100%}}
-- Maneater Bulb (page d'objet) : Man Eater | 1 | 33% / {{expert|50%}}
 - Mantis Leg Plate (page d'objet) : Reactive Guardian, Sodis | 1 | {{Revengeance|100%}}
 - Mechawyrm : -
 - Metabolic Converter (page d'objet) : The Inventors | 1 | {{revengeance|100%}}
@@ -416,7 +411,6 @@ Dung Defender Stagger.png, Staggered
 - Red Lightning Container (page d'objet) : The Dragonfolly | 1 | {{revengeance|100%}}
 - Regeterrence (page d'objet) : Hemogoblin Shark, Blood Eel | 1 | {{Revengeance|20%}}, Wandering Eye Fish, Zombie Merman | 1 | {{Revengeance|5%}}
 - Rot Ball (page d'objet) : 1= The Hive Mind | 2=30-50 / {{expert|50-75}} | 3={{dv|25%|33.33%}}
-- Rotten Matter (page d'objet) : The Hive Mind | 25-30 / {{expert|30-40}} | 100%
 - Scryllar : custom
 - Seeker : 10-30, 100%
 - Serial Designation N : A, 1
@@ -449,9 +443,7 @@ Dung Defender Stagger.png, Staggered
 - The Wall of Bronze : -, {{expert|100%}}
 - Trilobite : Corroded Fossil
 - Violet Heart of Calamity (page d'objet) : Supreme Calamitas | 1 | {{revengeance|100%}}
-- War Arrow (page d'objet) : Goblin Archer | 25-68/{{expert|37-120}} | {{dv|2.5%|5%}}
 - Waraxe (page d'objet) : Skeleton<br/>Hoplite<br/>Armored Skeleton<br/>Skeleton Archer | 1 | 5% / {{exper
-- Warglaive (page d'objet) : Goblin Thief | 25-68/{{expert|37-120}} | {{dv|2.5%|5%}}
 - Water Leech : Parasitic Scepter
 - Wulfrum Drone : -
 - Wulfrum Excavator : -

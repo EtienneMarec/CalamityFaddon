@@ -35,6 +35,10 @@ CELL_RE = r"\|\||\n\|"
 def first_dv(raw, expert=False):
     """Valeur du mode normal d'un {{dv|normal|expert|...}} ; avec expert=True, celle de l'Expert (vide = la même)."""
     raw = re.sub(r"<!--.*?-->", "", raw or "", flags=re.S).strip()
+    # « 25-68/{{expert|37-120}} » : valeur normale, puis valeur Expert (War Arrow, Warglaive)
+    m = re.match(r"^([^{}/]+?)\s*/\s*\{\{\s*expert\s*\|([^{}]*)\}\}$", raw, re.I)
+    if m:
+        return (m.group(2) if expert else m.group(1)).strip()
     m = re.match(r"^\{\{\s*dv\s*\|([^{}]*)\}\}", raw, re.I)
     if not m:
         return raw

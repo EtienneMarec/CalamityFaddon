@@ -303,7 +303,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Plumage Pow
 - [x] Poison I-Bee
 - [ ] Poison Pack
-- [ ] Porpoise Pistol
+- [x] Porpoise Pistol
 - [ ] Prism Destroyer — addon: Calamity: Community Remix
 - [ ] Profaned Nucleus — addon: Calamity: Community Remix
 - [ ] Profaned Whiplash — addon: Tranquility Mod
@@ -397,7 +397,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Dreaming Ghost — addon: Calamity: Community Remix
 - [ ] The Enforcer
 - [ ] The First Fracturer — addon: Calamity: Community Remix
-- [ ] The Food Chain
+- [x] The Food Chain
 - [ ] The Generator
 - [ ] The Inflator's Controller — addon: Calamity: Community Remix
 - [ ] The Insacred Texts
@@ -443,11 +443,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Virid Vangar
 - [ ] Vitreomance
 - [ ] Wakasagihime — addon: Wakasagihime
-- [ ] War Staff
-- [ ] Warbell
+- [x] War Staff
+- [x] Warbell
 - [x] Warblade
-- [ ] Warbow
-- [ ] Warglaive
+- [x] Warbow
+- [x] Warglaive
 - [ ] Waterfrosia — addon: Calamity: Tales of the Aquatic
 - [ ] Whipped Bouquet Blade — addon: Calamity: Community Remix
 - [ ] Wind Turbine Blade — addon: Calamity: Community Remix
@@ -1331,7 +1331,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Superball Bullet
 - [ ] Terrestrial Dart — addon: Calamity: Tales of the Aquatic
 - [ ] Vortex Dart — addon: Calamity: Tales of the Aquatic
-- [ ] War Arrow
+- [x] War Arrow
 - [ ] Waterfrost Dart — addon: Calamity: Tales of the Aquatic
 
 ## Armor (22)

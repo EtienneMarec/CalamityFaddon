@@ -4698,7 +4698,10 @@
     },
     {
      "item": "Essence of Babil",
-     "listed": true
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "chanceExpert": 1.0
     },
     {
      "item": "Babil Destruction Core",
@@ -10550,6 +10553,15 @@
      "listed": true
     },
     {
+     "item": "Desert Feather",
+     "min": 11,
+     "max": 17,
+     "chance": 1.0,
+     "itemPage": "Desert Feather.txt",
+     "minExpert": 15,
+     "maxExpert": 21
+    },
+    {
      "item": "Disgusting Meat",
      "min": 236,
      "max": 650,
@@ -12790,6 +12802,14 @@
      "conditionText": "After Providence, the Profaned Goddess has been defeated"
     },
     {
+     "item": "Bloodletting Essence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Bloodletting Essence.txt",
+     "chanceExpert": 0.25
+    },
+    {
      "item": "Bloodstone",
      "min": 1,
      "max": 1,
@@ -13468,6 +13488,15 @@
      "itemPage": "Rotten Brain.txt"
     },
     {
+     "item": "Rotten Matter",
+     "min": 25,
+     "max": 30,
+     "chance": 1.0,
+     "itemPage": "Rotten Matter.txt",
+     "minExpert": 30,
+     "maxExpert": 40
+    },
+    {
      "item": "Rotting Eyeball",
      "min": 1,
      "max": 1,
@@ -14058,6 +14087,15 @@
      "itemPage": "Essence of Babil.txt",
      "minExpert": 5,
      "maxExpert": 9
+    },
+    {
+     "item": "Living Shard",
+     "min": 6,
+     "max": 9,
+     "chance": 1.0,
+     "itemPage": "Living Shard.txt",
+     "minExpert": 8,
+     "maxExpert": 11
     }
    ],
    "itemPagesOnly": true
@@ -14790,6 +14828,21 @@
    ],
    "itemPagesOnly": true
   },
+  "Moth": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Gypsy Powder",
+     "min": 1,
+     "max": 1,
+     "chance": 0.5,
+     "itemPage": "Gypsy Powder.txt",
+     "chanceExpert": 1.0
+    }
+   ],
+   "itemPagesOnly": true
+  },
   "Hive": {
    "page": null,
    "boss": false,
@@ -14905,6 +14958,21 @@
      "chance": 0.075,
      "itemPage": "Life Jelly.txt",
      "chanceExpert": 0.125
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Man Eater": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Maneater Bulb",
+     "min": 1,
+     "max": 1,
+     "chance": 0.33,
+     "itemPage": "Maneater Bulb.txt",
+     "chanceExpert": 0.5
     }
    ],
    "itemPagesOnly": true
@@ -15218,6 +15286,31 @@
    ],
    "itemPagesOnly": true
   },
+  "Goblin Archer": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "War Arrow",
+     "min": 25,
+     "max": 68,
+     "chance": 0.025,
+     "itemPage": "War Arrow.txt",
+     "minExpert": 37,
+     "maxExpert": 120,
+     "chanceExpert": 0.05
+    },
+    {
+     "item": "Warbow",
+     "min": 1,
+     "max": 1,
+     "chance": 0.025,
+     "itemPage": "Warbow.txt",
+     "chanceExpert": 0.05
+    }
+   ],
+   "itemPagesOnly": true
+  },
   "Goblin Peon": {
    "page": null,
    "boss": false,
@@ -15248,16 +15341,18 @@
    ],
    "itemPagesOnly": true
   },
-  "Goblin Archer": {
+  "Goblin Thief": {
    "page": null,
    "boss": false,
    "drops": [
     {
-     "item": "Warbow",
-     "min": 1,
-     "max": 1,
+     "item": "Warglaive",
+     "min": 25,
+     "max": 68,
      "chance": 0.025,
-     "itemPage": "Warbow.txt",
+     "itemPage": "Warglaive.txt",
+     "minExpert": 37,
+     "maxExpert": 120,
      "chanceExpert": 0.05
     }
    ],

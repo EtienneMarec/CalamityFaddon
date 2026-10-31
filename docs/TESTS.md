@@ -528,6 +528,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       boutique ouverte ; elles reviennent à l'aube suivante
 - [x] (31/10, validé) **Eye of Cthulhu (correctif)** : tourner autour de l'œil affiche « 1/30 », « 2/30 »... ; faire un tour
       entier dans l'autre sens affiche « ↺ 0/30 » et repart de zéro ; ses charges seules ne font pas avancer
+- [ ] (31/10) **Porpoise Pistol** (Dolphins en Hardmode, ou Cheat Sheet) : trait bleu qui rebondit 3 fois et traverse
+      2 ennemis, sans munition ; **The Food Chain** (Colossal Squid) : fouet ; chaque coup donne Well Fed 10 s
+- [ ] (31/10) **Ensemble War** (armée gobeline, ou Cheat Sheet) : Warbow (les Wooden Arrows deviennent des War Arrows,
+      War Cleave), War Staff (boule grise), Warbell (épée d'invocation : cloche, sbires +10 % 5 s), Warglaive (glaive
+      soumise à la gravité ; en frappe furtive elle se plante dans le sol), War Arrows ; tous infligent War Cleave
 - [ ] (31/10) **Slime Puppet Staff (Full Fandom)** : maintenir le clic : une boule de slime suit le curseur ; relâcher : elle se
       fige ; au-delà de 10, la plus ancienne disparaît ; deux boules proches sont reliées par une bande rose ; un zombie
       ne traverse ni les boules ni les liens ; aucune n'inflige de dégâts ; en Calamity++, l'arme de Calamity
@@ -571,6 +576,12 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 ---
 
 ## Décisions en attente (pas des tests)
+
+- **The Insacred Texts** (31/10, non créé) : tome lâché à 5 % par les Zombies et les Demon Eyes, 450 dégâts avant le
+  Hardmode (portail qui engloutit 3 ennemis, 25 s de recharge). Son clic droit ouvre dans le navigateur une fanfiction
+  au hasard classée « E » (explicite) : pas repris. Créer le clic gauche seulement, et dans quel mode ?
+- **Recettes vanilla du wiki** (31/10) : 162 différences listées dans `reports/recipes.md` ; appliquer lesquelles, dans
+  quel mode ?
 
 - [ ] (29/10, en partie tranché le 30/10 : Exo Gladius porté avec sa page, Microcell Cut créée d'après la Disease ;
       restent Elemental Shiv et Lucrecia) Shortstrike, dernières armes du tableau : **Exo Gladius** (ancien objet retiré en 2022 ; sa page invente

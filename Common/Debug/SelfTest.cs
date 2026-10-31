@@ -268,6 +268,12 @@ namespace CalamityFandom.Common.Debug
             Expect(solarRates.Any(r => r.itemId == ModContent.ItemType<CalamityMod.Items.Materials.YharonSoulFragment>()),
                 "Taming : Yharon Soul Fragment lâché par les Selenians");
             Expect(ModContent.NPCType<Content.NPCs.Perforators.EstrangedSonHead>() > 0, "Taming : Estranged Son");
+            // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
+            var archerRates = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(NPCID.GoblinArcher, false))
+                r.ReportDroprates(archerRates, new DropRateInfoChainFeed(1f));
+            Expect(archerRates.Any(r => r.itemId == ModContent.ItemType<Content.Items.Weapons.Ranged.Warbow>())
+                && archerRates.Any(r => r.itemId == ModContent.ItemType<Content.Items.Ammo.WarArrow>()), "le Goblin Archer lâche le Warbow et des War Arrows");
             // Slime Puppet Staff de la page (31/10) : en Full Fandom, il pose des boules de slime
             int puppetStaff = ModContent.ItemType<CalamityMod.Items.Weapons.Summon.SlimePuppetStaff>();
             Expect((ContentSamples.ItemsByType[puppetStaff].shoot == ModContent.ProjectileType<Content.Projectiles.Summon.SlimePuppetBall>()) == FandomMode.IsFull,

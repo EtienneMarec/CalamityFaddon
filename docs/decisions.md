@@ -814,6 +814,28 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   nettoyage du Full Fandom (`WikiLoot.Keep`). Rareté et usage du wiki (Orange, 45). TODO : de jour, la Mechanical
   Horde (événement inventé). Rien ne se passe si un boss mécanique est déjà là.
 
+### Ensemble « War » (`Content/Items/Weapons/WarWeapons.cs`, 31/10)
+
+- Créés d'après leurs pages (modèle {{War}}, armée gobeline ; Waraxe, Warblade et War Cleave étaient déjà portés) :
+  **Warbow** (Goblin Archer : convertit les Wooden Arrows en War Arrows, War Cleave 10 s), **War Staff** (Goblin
+  Sorcerer : boule d'énergie grise, War Cleave 10 s), **Warbell** (Goblin Peon : se manie comme une épée, dégâts
+  d'invocation ; un coup fait sonner une cloche, +10 % de dégâts d'invocation 5 s et War Cleave 5 s), **Warglaive**
+  (Goblin Thief : glaive lancée soumise à la gravité, 4 coups, War Cleave 5 s ; frappe furtive plantée dans les blocs
+  10 s ou 4 coups), **War Arrow** (Goblin Archer : War Cleave 4 s). Stats des infobox, sprites du wiki.
+- **[choix]** War Arrow : l'infobox dit « spy », mais une flèche tirée par un arc fait des dégâts à distance ; la
+  vitesse 1,5 du Warbow est celle de l'arc (elle s'ajoute à celle de la flèche) ; le bonus de la Warbell n'a pas
+  d'icône (la page ne nomme pas de buff) ; la boule du War Staff n'a pas de sprite sur le wiki (poussière grise).
+
+### Autres objets du butin du wiki (31/10)
+
+- **Porpoise Pistol** (Dolphins en Hardmode) : trait d'énergie bleu (« Proporse Bolt », sprite du wiki) qui rebondit
+  et traverse 2 ennemis en ignorant une partie de leur invulnérabilité. **[choix]** Pas de munition (l'infobox n'en
+  donne pas), 3 rebonds, 3 ennemis touchés, invulnérabilité locale de 10 ticks.
+- **The Food Chain** (Colossal Squids) : fouet ; un coup donne Well Fed 10 s au joueur. **[choix]** Planche des
+  segments provisoire (anneaux de calamar dessinés par Claude, `docs/SPRITES.md`) ; dessin et réglages de l'ExampleWhip
+  de tModLoader (18 segments, portée x1,1, dégâts -20 % par ennemi traversé).
+- **[technique]** `gen_loot.py` lit les quantités « 25-68/{{expert|37-120}} » (War Arrow, Warglaive et 6 autres).
+
 ### Slime Puppet Staff (`Content/Projectiles/Summon/SlimePuppetBall.cs`, rework de la page, 31/10)
 
 - **[choix]** **Full Fandom seulement** (Calamity++ garde les marionnettes de Calamity) : bouton maintenu, une boule de

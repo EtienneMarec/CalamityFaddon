@@ -13,6 +13,41 @@ Items: {
 			'''
 	}
 
+	PorpoisePistol: {
+		DisplayName: Porpoise Pistol
+		Tooltip: Fires a blue energy blast that bounces
+	}
+
+	TheFoodChain: {
+		DisplayName: The Food Chain
+		Tooltip: Give your enemies the taste of death!
+	}
+
+	Warbow: {
+		DisplayName: Warbow
+		Tooltip: Converts wooden arrows into war arrows which crumble enemy defenses
+	}
+
+	WarStaff: {
+		DisplayName: War Staff
+		Tooltip: Casts a ball of gray energy that breaks enemy defense on hit
+	}
+
+	Warbell: {
+		DisplayName: Warbell
+		Tooltip: Boosts minion damage by 10% on enemy hits
+	}
+
+	Warglaive: {
+		DisplayName: Warglaive
+		Tooltip: Stealth strikes stick to tiles
+	}
+
+	WarArrow: {
+		DisplayName: War Arrow
+		Tooltip: Inflicts War Cleave
+	}
+
 	FandomTestVial: {
 		DisplayName: Fandom Test Vial
 		Tooltip:
@@ -1062,6 +1097,11 @@ Items: {
 
 Projectiles: {
 	SlimePuppetBall.DisplayName: Slime Ball
+	WarArrowProj.DisplayName: War Arrow
+	ProporseBolt.DisplayName: Proporse Bolt
+	TheFoodChainProj.DisplayName: The Food Chain
+	WarStaffBall.DisplayName: Gray Energy
+	WarglaiveProj.DisplayName: Warglaive
 	StratusStar.DisplayName: Stratus Star
 	BloodClotMinion.DisplayName: Blood Clot
 	TerracottaProj.DisplayName: Terra

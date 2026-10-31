@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 316 drops ajoutés sur 135 PNJ
+- 325 drops ajoutés sur 142 PNJ
 - 111 ajouts dans 24 sacs
-- 554 drops du wiki déjà présents dans le jeu (inchangés)
-- 120 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
+- 555 drops du wiki déjà présents dans le jeu (inchangés)
+- 121 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 25 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 174 PNJ du wiki absents du jeu, 55 objets introuvables
+- 174 PNJ du wiki absents du jeu, 50 objets introuvables
 
 ## Ajouts
 
@@ -42,7 +42,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Charred Slime** : Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Clam** : Mollusk Husk 1-1 à 50.0% [Hardmode-only] ; Clam Chowder 1-1 à 10.0% [Hardmode-only]
 - **Cnidrion** : Desert Medallion 1-1 à 50.0% ; Profaned Shard 2-5 à 10.0%
-- **Colossal Squid** : Depth Cells 26-38 à 50.0% [After defeating Calamitas] ; Calamari's Lament 1-1 à 33.3% [After defeating Polterghast]
+- **Colossal Squid** : The Food Chain 1-1 à 15.0% ; Depth Cells 26-38 à 50.0% [After defeating Calamitas] ; Calamari's Lament 1-1 à 33.3% [After defeating Polterghast]
 - **Crabulon** : Glowing Mushroom 20-30 à 100.0% (mode normal) ; Mushroom Grass Seeds 3-6 à 100.0% (mode normal) ; Fungal Clump 1-1 à 100.0% (mode normal) ; Delicious Meat 4-7 à 100.0% (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Shroomerang 1-1 à 25.0% (mode normal)
 - **Cragmaw Mire** : Septic Skewer 1-1 à 25.0%
 - **Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
@@ -55,6 +55,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Desert Scourge** : Sandy Angling Kit 1-1 à 100.0% (mode normal) ; Parched Scale 7-14 à 100.0% (mode normal) ; Profaned Shard 1-1 à 100.0% (mode normal) ; Abyss Bar 3-8 à 100.0% [After defeating Golem] (mode normal) ; Sand Block 261-820 à 100.0% (mode normal) ; Ocean Crest 1-1 à 100.0% (mode normal) ; Delicious Meat 4-4 à 20.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Aero Stone 1-1 à 20.0% (mode normal) ; Aquatic Discharge 1-1 à 25.0% (mode normal)
 - **Despair Stone** : Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Slagspitter Pauldron 1-1 à 5.0% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Devil Fish** : Depth Cells 1-2 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 50.0% [After defeating Calamitas] ; Abyss Ore 3-9 à 100.0% [After defeating Golem]
+- **Dolphin** : Porpoise Pistol 1-1 à 4.0% [Hardmode]
 - **Dreadnautilus** : Grandiose Gland 5-5 à 100.0%
 - **Drippler** : Bouncing Eyeball 1-1 à 2.5%
 - **Duke Fishron** : Delicious Meat 45-92 à 50.0% (mode normal)
@@ -72,6 +73,10 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Giant Squid** : Depth Cells 2-4 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 50.0% [After defeating Calamitas]
 - **Giant Tortoise** : Giant Tortoise Shell 1-1 à 15.0%
 - **Gnasher** : Turtle Shell 1-1 à 10.0% [In Hardmode]
+- **Goblin Archer** : War Arrow 25-68 à 2.5% ; Warbow 1-1 à 2.5%
+- **Goblin Peon** : Warbell 1-1 à 2.5%
+- **Goblin Sorcerer** : War Staff 1-1 à 5.0%
+- **Goblin Thief** : Warglaive 25-68 à 2.5%
 - **Goblin Warrior** : Warblade 1-1 à 4.0%
 - **Great Sand Shark** : Sand Shark Tooth Necklace 1-1 à 25.0% (mode normal) ; Sand Shark Tooth Necklace 1-1 à 33.3% (Expert, direct) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Shifting Sands, Tumbleweed (mode normal) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Shifting Sands, Tumbleweed (Expert, direct)
 - **Gulper Eel** : Depth Cells 6-8 à 50.0% [After defeating Calamitas] ; Lumenyl 2-3 à 50.0% [After defeating Calamitas]
@@ -84,6 +89,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Irradiated Slime** : Lead Core 1-1 à 3.3%
 - **Jungle Dragon Yharon** : Yharim's Gift 1-1 à 100.0% (mode normal) ; Omega Healing Potion 5-15 à 100.0% (mode normal) ; Chicken Nugget 5000-5000 à 100.0% (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Laserfish** : Lumenyl 1-1 à 50.0% [After defeating Calamitas]
+- **Man Eater** : Maneater Bulb 1-1 à 33.0%
 - **Mantis** : Titan Finger 1-1 à 2.0% ; Astral Scythe 1-1 à 14.3% [After defeating Astrum Aureus]
 - **Mantis Shrimp** : Mantis Claws 1-1 à 20.0% [After defeating Plantera]
 - **Martian Saucer** : Nullification Pistol 1-1 à 14.3% (mode normal) ; Nullification Pistol 1-1 à 25.0% (Expert, direct)
@@ -92,6 +98,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Mirage Jelly** : Depth Cells 5-7 à 50.0% [After defeating Calamitas] ; Abyss Shocker 1-1 à 10.0% [After defeating Skeletron] ; Mirage Jelly 1-1 à 14.3%
 - **Moon Lord** : Celestial Onion 1-1 à 100.0% (mode normal) ; Celestial Onion 1-1 à 100.0% (Expert, direct) ; Cheese 4-6 à 5.0% (mode normal) ; Cheese 4-6 à 5.0% (Expert, direct) ; Utensil Poker 1-1 à 25.0% (mode normal) ; Utensil Poker 1-1 à 33.3% (Expert, direct)
 - **Moray Eel** : Depth Crusher 1-1 à 6.7%
+- **Moth** : Gypsy Powder 1-1 à 50.0%
 - **Mouse** : Cheese 1-2 à 0.0% [in Godseeker Mode]
 - **Necromancer** : Wrath of the Ancients 1-1 à 4.0%
 - **Necromancer** : Wrath of the Ancients 1-1 à 4.0%
@@ -232,7 +239,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Oil Bottle — 1
 - Plague Station — 1
 - Plaguecom Tablet — 1
-- Porpoise Pistol — 1
 - Prehistoric Tablet — 1
 - Profaned Core Fragment — 1
 - Profaned Nucleus — 1
@@ -241,7 +247,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Reloadable Rapid-Fire Shooter — 1
 - Sandstorm (weapon) — 1
 - Tapehook — 1
-- The Food Chain — 1
 - The Inflator's Controller — 1
 - The King's Gambit — 1
 - The Last Lightice — 1
@@ -249,6 +254,3 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Treasure Bag (The Inventors) — 1
 - Varroa Hack — 1
 - Wakasagihime — 1
-- War Staff — 1
-- Warbell — 1
-- Warbow — 1

@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (404)
+## Objets (398)
 
 - A M S
 - AAMG "Disperse"
@@ -416,7 +416,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Plasmaflash Bolt
 - Plumage Pow
 - Poison Pack
-- Porpoise Pistol
 - Prehistoric Tablet
 - Prism Destroyer
 - Profaned Crystal Dart
@@ -498,7 +497,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The Dreaming Ghost
 - The Enforcer
 - The First Fracturer
-- The Food Chain
 - The Generator
 - The Godfather
 - The Inflator's Controller
@@ -538,10 +536,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Void Artifact
 - Vortex Dart
 - Wakasagihime
-- War Staff
-- Warbell
-- Warbow
-- Warglaive
 - Waterfrosia
 - Waterfrost Dart
 - Whipped Bouquet Blade

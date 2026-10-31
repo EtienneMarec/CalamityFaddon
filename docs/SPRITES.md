@@ -39,6 +39,11 @@ Fichiers : `wiki_sprites_custom/<Nom>.png`.
 - [ ] **Worship 101** (Lunatic Cultist, livre)
 - [ ] **Wulfrum Hardhat** et **Wulfrum Lenses** (casques, avec leurs boss inventés ; pas d'image sur le wiki non plus)
 
+- [ ] **The Food Chain (fouet en action)** — planche provisoire dessinée par Claude
+      (`Content/Projectiles/Summon/TheFoodChainProj.png`, 10 × 92 : manche 26 px, 3 maillons de 16 px, pointe 18 px,
+      format de l'ExampleWhip). Attendu : même format, chaîne d'anneaux de calamar comme l'icône du wiki.
+      Fichier : `wiki_sprites_custom/The Food Chain (whip).png` (le code est à brancher)
+
 ## Optionnel : améliorations
 
 - [x] **Yharim Bar au sol** (fait le 22/10 : détourage de l'image du wiki, réduit en 480×384 par `gen_items.py`) — dessiné aujourd'hui en agrandissant x16 le sprite de 30×24 ; l'image « The item in-game »
