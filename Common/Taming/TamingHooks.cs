@@ -315,6 +315,12 @@ namespace CalamityFandom.Common.Taming
             item.TurnToAir();
             if (Main.mouseItem.ModItem is SoothingService)
                 Main.mouseItem.TurnToAir();
+            // [validé 31/10] « Only one boss can be soothed per day » : toutes les offres disparaissent de la boutique
+            // ouverte jusqu'au prochain jour (le serveur confirme ensuite par la synchronisation du monde)
+            TamingSystem.SoothedToday = true;
+            for (int i = 0; i < shopInventory.Length; i++)
+                if (shopInventory[i]?.ModItem is SoothingService)
+                    shopInventory[i].TurnToAir();
         }
     }
 

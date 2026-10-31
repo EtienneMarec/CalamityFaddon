@@ -33,7 +33,7 @@ Items: {
 			Left click: switches between dawn (4:30) and dusk (7:30 PM)
 			Right click: one hour later
 			'''
-		Now: "It is now {0}"
+		Now: It is now {0}
 	}
 
 	FandomDummySpawner: {

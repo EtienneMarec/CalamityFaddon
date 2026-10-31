@@ -524,7 +524,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       échiquier holographique, « practice », mat en un (en deux après le Moon Lord) ; cliquer une pièce montre ses coups ;
       mauvais coup → « Wrong move! » et un autre problème ; Échap ferme. Contre le Brain of Cthulhu (sans le toucher) : il
       et ses Creepers s'arrêtent pendant la partie ; 3 problèmes résolus → apprivoisé
-- [ ] (31/10) **Eye of Cthulhu (correctif)** : tourner autour de l'œil affiche « 1/30 », « 2/30 »... ; faire un tour
+- [ ] (31/10) **Zoologist (correctif)** : acheter un « Soothe: <boss> » fait disparaître aussitôt toutes les offres de la
+      boutique ouverte ; elles reviennent à l'aube suivante
+- [x] (31/10, validé) **Eye of Cthulhu (correctif)** : tourner autour de l'œil affiche « 1/30 », « 2/30 »... ; faire un tour
       entier dans l'autre sens affiche « ↺ 0/30 » et repart de zéro ; ses charges seules ne font pas avancer
 - [ ] (31/10) **Golem (ballon de plage)** : pendant le combat, lancer un Beach Ball : chaque contact du ballon avec un
       joueur ou avec Golem fait avancer (« ♥ 25 % » vers 13) ; posé immobile 3 s, il saute en l'air ; il ne disparaît

@@ -400,6 +400,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   5 %, effacé si le combat finit autrement (coup, mort, départ du boss). À tester : ses phases (frères, Sepulcher)
   quand sa vie baisse sans dégâts.
 - **Soothing** : le Zoologist vend « Soothe: <boss> » pour chaque boss inapprivoisable, un par jour (remis à l'aube).
+  **[validé 31/10]** Après un achat, toutes les offres disparaissent aussitôt de la boutique ouverte, jusqu'à l'aube.
   **[validé 31/10, à revoir en test]** Prix (la page n'en donne pas) : 2 or avant le Hardmode, 10 or en Hardmode,
   50 or après le Moon Lord.
 
