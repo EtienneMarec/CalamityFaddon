@@ -87,20 +87,30 @@ namespace CalamityFandom.Common.Taming
                     break;
                 // « Make 30 circles around the Eye of Cthulhu. All circles must be in the same direction »
                 case "Eye of Cthulhu":
+                    // [validé 31/10] Seul le mouvement du joueur compte : angle de son ancienne et de sa nouvelle position,
+                    // vues depuis la même position de l'œil (ses charges ne font ni tourner ni annuler le compteur).
+                    // f.B : angle cumulé (signé), f.C : plus grand |f.B| atteint dans ce sens.
                     if (p == null)
                         break;
-                    float angle = (p.Center - npc.Center).ToRotation();
-                    if (f.Flag)
+                    Vector2 oldCenter = p.oldPosition + p.Size / 2f;
+                    float turned = MathHelper.WrapAngle((p.Center - npc.Center).ToRotation() - (oldCenter - npc.Center).ToRotation());
+                    f.B += turned;
+                    f.C = Math.Max(f.C, Math.Abs(f.B));
+                    // Changement de sens : dès qu'on revient d'un quart de tour en arrière, le compteur repart de zéro
+                    if (Math.Abs(f.B) < f.C - MathHelper.PiOver2)
                     {
-                        f.B += MathHelper.WrapAngle(angle - f.A);
-                        f.C = Math.Max(f.C, Math.Abs(f.B));
-                        // Demi-tour (un quart de tour en arrière) : le compteur repart de zéro
-                        if (Math.Abs(f.B) < f.C - MathHelper.PiOver2)
-                            f.B = f.C = 0f;
-                        f.Progress = (float)Math.Floor(Math.Abs(f.B) / MathHelper.TwoPi);
+                        bool hadProgress = f.Progress > 0f || f.C > MathHelper.Pi;
+                        f.B = f.C = 0f;
+                        f.Progress = 0f;
+                        f.ShownQuarter = 0;
+                        if (hadProgress)
+                            CombatText.NewText(npc.Hitbox, Color.OrangeRed, $"↺ 0/{(int)e.Goal}", true);
+                        break;
                     }
-                    f.A = angle;
-                    f.Flag = true;
+                    float circles = (float)Math.Floor(Math.Abs(f.B) / MathHelper.TwoPi);
+                    if (circles > f.Progress)
+                        CombatText.NewText(npc.Hitbox, Color.HotPink, $"{(int)circles}/{(int)e.Goal}");
+                    f.Progress = circles;
                     break;
                 // « Lead the Wall of Flesh to the Guide ... at most 50 blocks from each other ... the eyes and/or the mouth »
                 case "Wall of Flesh":

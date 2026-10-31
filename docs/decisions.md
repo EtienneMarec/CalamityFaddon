@@ -319,7 +319,8 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Tué, il devient inapprivoisable (liste sauvegardée avec le monde). Progrès affiché par quart (♥ 25 %...).
 - **[choix]** Méthodes interprétées : « lead to » un biome = 3 s cumulées avec le joueur le plus proche dans le biome
   (Desert Scourge et Aquatic Scourge : océan ; Cryogen : Brimstone Crag) ; Eye of Cthulhu : tours comptés autour de
-  l'œil, un quart de tour en arrière remet à zéro ; Twins : regarder un jumeau = être tourné vers lui avec la ligne de
+  l'œil (**[validé 31/10]** seul le mouvement du joueur compte, pas celui de l'œil ; « 3/30 » à chaque tour, « ↺ 0/30 »
+  à la remise à zéro), un quart de tour en arrière remet à zéro ; Twins : regarder un jumeau = être tourné vers lui avec la ligne de
   vue ; Skeletron Prime : Skull équipé une minute d'affilée ; Plantera : 3 min d'affilée en surface ; Calamitas
   (le clone) : « hug » = 1 s au contact ; Wall of Flesh : le Guide à 50 blocs ou moins de la bouche ou d'un œil ;
   Duke Fishron : à 10 blocs d'un Truffle Worm non relâché par un joueur ; Empress of Light : en vie au lever du jour
