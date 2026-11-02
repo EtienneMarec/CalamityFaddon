@@ -177,8 +177,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Gamma Ray Burst — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [ ] Garth
 - [ ] Gatling Laser
-- [ ] Gauss Dagger
-- [ ] Gauss Pistol
+- [x] Gauss Dagger
+- [x] Gauss Pistol
 - [ ] Gearwork Shield — addon: Calamity: Community Remix
 - [ ] Gel Sword
 - [ ] Gel Wand
@@ -239,7 +239,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Lightning Hawk
 - [x] Luminous Striker
 - [ ] Lunatic Beats — addon: Calamity: Community Remix
-- [ ] Magna Striker
+- [x] Magna Striker
 - [ ] Magnic Circularity — addon: Calamity: Tales of the Aquatic
 - [x] Magnum
 - [ ] Majestic Gar

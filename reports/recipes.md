@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1356 objets dont les recettes ont changé : 1021 recettes modifiées, 416 créées
+- 1359 objets dont les recettes ont changé : 1021 recettes modifiées, 419 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -566,6 +566,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Galeforce | 10 Aerialite Bar @ Anvils → 1 | 8 Aerialite Bar, 3 Sunplate Block @ SkyMill → 1 |
 | Galileo Gladius | 1 Gladius, 8 Lumenyl, 4 Ruinous Soul, 20 Exodium Cluster @ MythrilAnvil → 1 | 1 Gladius, 8 Lumenyl, 5 Ruinous Soul, 15 Exodium Cluster @ LunarCraftingStation → 1 |
 | Galvanizing Glaive | 12 Mysterious Circuitry, 18 Dubious Plating, 5 Life Alloy, 10 Infected Armor Plating @ MythrilAnvil → 1 | 1 Reassembled Electronics, 5 Life Alloy @ MythrilAnvil → 1 |
+| Gauss Dagger | (nouvelle) | 7 Dubious Plating @ Anvils → 1 |
+| Gauss Pistol | (nouvelle) | 12 Mysterious Circuitry, 8 Dubious Plating, 10 Any Mythril Bar, 20 Soul of Might @ MythrilAnvil → 1 |
 | Gauss Rifle | 18 Mysterious Circuitry, 12 Dubious Plating, 5 Life Alloy, 10 Infected Armor Plating @ MythrilAnvil → 1 | 1 Reassembled Electronics, 5 Life Alloy @ MythrilAnvil → 1 |
 | Gaze of Crysthamyr | 1 Dragon Egg, 10 Soul of Night, 10 Darksun Fragment, 25 Exodium Cluster @ CosmicAnvil → 1 | 1 Dragon Egg, 100 Soul of Night, 10 Darksun Fragment, 25 Exodium Cluster, 50 Yharim Bar @ CosmicAnvil → 1 |
 | Gel Dye | (nouvelle) | 1 Bottled Water, 1 Blighted Gel @ DyeVat → 1 |
@@ -725,6 +727,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Magic Power Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Magic Quiver | (nouvelle) | 1 Endless Quiver, 10 Pixie Dust, 5 Blighted Lens, 8 Soul of Light @ CrystalBall → 1 |
 | Magna Cannon | 25 Granite Block, 12 Meteorite Bar, 3 Diamond, 5 Sapphire @ Anvils → 1 | 25 Granite Block, 15 Obsidian, 5 Amber, 1 Space Gun @ Anvils → 1 |
+| Magna Striker | (nouvelle) | 1 Opal Striker, 1 Magna Cannon, 6 Any Adamantite Bar, 5 Ectoplasm @ MythrilAnvil → 1 |
 | Magnetic Meltdown | 1 Magnet Sphere, 3 Twisting Nether @ MythrilAnvil → 1 | 3 Dark Plasma, 1 Spectre Staff, 1 Magnet Sphere @ LunarCraftingStation → 1 |
 | Magnomaly Cannon | 1 The Pack, 1 Scorched Earth, 1 Electrosphere Launcher, 1 Miracle Matter @ DraedonsForge → 1 | 1 The Pack, 1 Scorched Earth, 1 Aether's Whisper, 1 Electrosphere Launcher, 1 Miracle Matter @ DraedonsForge → 1 |
 | Magnum | (nouvelle) | 1 Flintlock Pistol, 10 Any Iron Bar, 5 Diamond, 2 Alloy Bar @ Anvils → 1 |

@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (365)
+## Objets (362)
 
 - A M S
 - AAMG "Disperse"
@@ -291,8 +291,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Gamma Ray Burst
 - Garth
 - Gatling Laser
-- Gauss Dagger
-- Gauss Pistol
 - Gearwork Shield
 - Gel Sword
 - Gel Wand
@@ -341,7 +339,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Large Father
 - Li'l Mine
 - Lunatic Beats
-- Magna Striker
 - Magnic Circularity
 - Majestic Gar
 - Mambel-Jambo

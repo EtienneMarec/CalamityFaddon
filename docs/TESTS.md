@@ -686,6 +686,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       (4 boules flottantes au plus, clic droit les supprime, plumes en frappe furtive), Sticky Spiky Ball (colle aux ennemis
       et aux blocs, Slimed), Bouncy Spiky Ball (ricoche d'ennemi en ennemi), Verdant (yoyo qui lance des feuilles de
       cristal), Golden Gun (trait d'ichor, Ichor 8 s)
+- [ ] Gauss Dagger (charge ; deux coups rapprochés sur un ennemi font apparaître un flux magnétique), Gauss Pistol (charge ;
+      le tir reste en place une demi-seconde en se chargeant puis part très vite, gros recul), Magna Striker (rafales au
+      hasard d'éclats d'opale et de frappes magna qui grossissent) : recettes du wiki
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

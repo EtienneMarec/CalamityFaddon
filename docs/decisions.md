@@ -1229,6 +1229,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **[technique]** Le comportement collant de Calamity (CommonProjectileAI) est interne : la Sticky Spiky Ball se fixe à
   l'ennemi touché ou s'arrête contre un bloc avec un code simple. Le Sky Stabber supprime ses boules au clic droit
   directement (le drapeau killSpikyBalls de Calamity n'existe plus).
+- **[choix]** **Gauss Dagger**, **Gauss Pistol**, **Magna Striker** (`LegacyWeapons1102b.cs`) : code de 2.0.1.005, valeurs des
+  infobox (Gauss Dagger use 23, Gauss Pistol 110 dégâts au lieu de 150), recettes du wiki. Les deux armes Gauss utilisent la
+  charge de Calamity (50 et 85). **[technique]** Le compteur de flux de Calamity (GaussFluxTimer) n'existe plus : un compteur
+  par ennemi le remplace (+50 par coup, -1 par tick, flux à 60 : deux coups en moins d'environ une seconde) ; le son Gauss
+  n'existe plus non plus : Gauss Pistol avec le son de tir plasma de Calamity, Magna Striker avec celui de l'Opal Striker.
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

@@ -362,7 +362,9 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Legacy.Items.Potions.TriumphPotion>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.SkyStabber>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.StickySpikyBall>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.BouncySpikyBall>(),
-                ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.Verdant>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.GoldenGun>() })
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.Verdant>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.GoldenGun>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.DraedonsArsenal.GaussDagger>(), ModContent.ItemType<Content.Legacy.Items.Weapons.DraedonsArsenal.GaussPistol>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Ranged.MagnaStriker>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

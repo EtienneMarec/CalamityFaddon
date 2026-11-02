@@ -1,4 +1,27 @@
 Items: {
+	GaussDagger: {
+		DisplayName: Gauss Dagger
+		Tooltip:
+			'''
+			Slicing foes, it causes a flux of energy to form on the area tearing at them with turbulent forces
+			Repeat strikes envelop foes in magnetic flux
+			'''
+	}
+
+	GaussPistol: {
+		DisplayName: Gauss Pistol
+		Tooltip:
+			'''
+			A simple pistol that utilizes magic power; a weapon for the more magically adept
+			Fires a devastating high velocity blast with extreme knockback
+			'''
+	}
+
+	MagnaStriker: {
+		DisplayName: Magna Striker
+		Tooltip: Fires a string of opal and magna strikes
+	}
+
 	Verdant: {
 		DisplayName: Verdant
 		Tooltip:
@@ -1435,6 +1458,8 @@ Items: {
 }
 
 Projectiles: {
+	GaussPistolShot.DisplayName: Gauss Blast
+	MagnaStrike.DisplayName: Magna Strike
 	MonkeyDart.DisplayName: Monkey Dart
 	SkyStabberProj.DisplayName: Sky Stabber
 	StickyBol.DisplayName: Sticky Spiky Ball
