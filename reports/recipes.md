@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1346 objets dont les recettes ont changé : 1021 recettes modifiées, 401 créées
+- 1351 objets dont les recettes ont changé : 1021 recettes modifiées, 411 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -638,6 +638,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Heron Rod | 8 Aerialite Bar @ Anvils → 1 | 7 Aerialite Bar, 5 Sunplate Block @ SkyMill → 1 |
 | Holy Fire Bullet | 333 Exploding Bullet, 1 Unholy Essence @ MythrilAnvil → 333 | 100 Exploding Bullet, 1 Unholy Essence @ LunarCraftingStation → 100 |
 | Holy Mantle | (nouvelle) | 20 Soul of Flight, 5 Ashes of Annihilation, 1 Yharim Bar, 1 Shadowspec Bar @ CosmicAnvil → 1 |
+| Holy Wrath Potion | (nouvelle) | 1 Wrath Potion, 1 Unholy Essence, 1 Fallen Star, 1 Flah @ AlchemyTable → 1 |
+| Holy Wrath Potion | (nouvelle) | 1 Bottled Water, 4 Unholy Core, 1 Unholy Essence @ AlchemyTable → 1 |
 | Honey Dew | 10 Bottled Honey, 3 Bee Wax, 6 Jungle Spores @ Anvils → 1 | 1 Living Dew, 10 Bottled Honey, 3 Beetle Juice, 2 Trapper Bulb, 1 Butterfly Dust @ MythrilAnvil → 1 |
 | Hook of Dissonance | (nouvelle) | 1 Diamond Hook, 10 Soul of Light, 5 Cryonic Bar, 10 Crystal Shard @ MythrilAnvil → 1 |
 | Hunter Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
@@ -858,6 +860,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Palladium Javelin | 10 Palladium Bar @ Anvils → 1 | 1 Palladium Bar @ Anvils → 20 |
 | Pearl God | 1 Arietes 41, 5 Life Alloy, 2 Ruinous Soul, 1 White Pearl @ MythrilAnvil → 1 | 1 Cursed Capper, 5 Spectre Bar, 5 Shroomite Bar @ MythrilAnvil → 1 |
 | Penumbra | 8 Cosmilite Bar, 20 Nightmare Fuel, 6 Ruinous Soul @ CosmicAnvil → 1 | 6 Ruinous Soul, 8 Twisted Netherite Bar, 20 Nightmare Fuel, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
+| Penumbra Potion | (nouvelle) | 1 Bottled Water, 3 Solar Veil, 1 Fallen Star @ AlchemyTable → 1 |
+| Penumbra Potion | (nouvelle) | 1 Bottled Water, 3 Unholy Core, 1 Solar Veil @ AlchemyTable → 1 |
 | Perennial Bar | 4 Perennial Ore @ AdamantiteForge → 1 | 5 Perennial Ore, 1 Essence of Sunlight @ AdamantiteForge → 1 |
 | Perennial Brick | 50 Any Stone Block, 1 Perennial Ore @ Furnaces → 50 | 1 Perennial Ore, 1 Any Stone Block @ Furnaces → 10 |
 | Perfect Dark | (nouvelle) | 5 Rotten Chunk, 5 Demonite Bar, 15 Rotten Matter @ DemonAltar → 1 |
@@ -934,6 +938,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Profaned Flame Dye | 3 Bottled Water, 5 Unholy Essence @ DyeVat → 3 | 2 Bottled Water, 3 Unholy Essence @ DyeVat → 2 |
 | Profaned Partisan | 1 Spear of Paleolith, 25 Unholy Essence @ MythrilAnvil → 1 | 500 Crystal Piercer, 6 Tarragon Bar, 4 Profaned Core, 25 Unholy Essence @ LunarCraftingStation → 1 |
 | Profaned Platform | 1 Profaned Rock @ main → 2 | 1 Profaned Rock @ LunarCraftingStation → 2 |
+| Profaned Rage Potion | (nouvelle) | 1 Rage Potion, 1 Unholy Essence, 1 Fallen Star, 1 Flah @ AlchemyTable → 1 |
+| Profaned Rage Potion | (nouvelle) | 1 Bottled Water, 4 Unholy Core, 1 Unholy Essence @ AlchemyTable → 1 |
 | Profaned Rock | 50 Any Stone Block, 1 Unholy Essence @ AdamantiteForge → 50 | 1 Unholy Essence, 20 Any Stone Block @ LunarCraftingStation → 20 |
 | Profaned Rock | 2 Profaned Platform @ main → 1 | 2 Profaned Platform @ LunarCraftingStation → 1 |
 | Profaned Slab | 5 Profaned Rock @ AdamantiteForge → 5 | 5 Profaned Rock @ LunarCraftingStation → 5 |
@@ -1307,6 +1313,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Throwing Knife | (nouvelle) | 1 Any Iron Bar @ Anvils → 50 |
 | Time Bolt | 1 Lunar Kunai, 1 Stellar Knife, 1 Gold Watch, 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 | 1 Cosmic Kunai, 1 Fast Clock, 5 Ruinous Soul, 20 Phantoplasm @ LunarCraftingStation → 1 |
 | Titan Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Titan Scale Potion | (nouvelle) | 4 Titan Potion, 1 Vine, 1 Neon Tetra @ AlchemyTable → 4 |
+| Titan Scale Potion | (nouvelle) | 4 Bottled Water, 4 Unholy Core, 1 Vine @ AlchemyTable → 4 |
 | Titanium Forge | 30 Titanium Ore, 1 Hellforge @ MythrilAnvil → 1 | 30 Titanium Ore, 1 Hellforge, 15 Alloy Bar @ Anvils → 1 |
 | Titanium Shuriken | 10 Titanium Bar @ MythrilAnvil → 1 | 1 Titanium Bar @ MythrilAnvil → 100 |
 | Tomatus | (nouvelle) | 7 Char Matter, 7 Hellstone Bar @ Anvils → 1 |
@@ -1321,6 +1329,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Triboluminescent Etomer | 8 Any Gold Bar, 5 Prism Shard, 5 Scorched Bone @ Anvils → 1 | 5 Prism Shard, 8 Any Gold Bar, 1 Demonic Bone Ash @ Anvils → 1 |
 | Trinity | (nouvelle) | 1 Ice Blade, 8 Cryonic Bar, 4 Coyote Venom @ MythrilAnvil → 1 |
 | Triploon | (nouvelle) | 1 Dualpoon, 1 Harpoon, 15 Depth Cells, 5 Lumenyl, 5 Tenebris @ MythrilAnvil → 1 |
+| Triumph Potion | (nouvelle) | 1 Bottled Water, 3 Unholy Core @ AlchemyTable → 1 |
+| Triumph Potion | (nouvelle) | 1 Bottled Water, 3 Parched Scale @ Bottles → 1 |
 | True Biome Blade | 1 Biome Blade, 18 Astral Bar, 6 Life Alloy, 3 Core of Calamity @ LunarCraftingStation → 1 | 1 Biome Blade, 1 Broken Hero Sword, 3 Astral Bar, 3 Life Alloy, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | True Bloody Edge | (nouvelle) | 1 Bloody Edge, 1 Broken Hero Sword @ MythrilAnvil → 1 |
 | True Caliburn | (nouvelle) | 1 Caliburn, 1 Broken Hero Sword @ MythrilAnvil → 1 |

@@ -679,6 +679,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       mort de l'ennemi), Superball Bullet (lente, accélère à chaque rebond ou ennemi traversé)
 - [ ] Flah Round (Draedon's Forge, 4999 par Flahium Bar) : rebondit 9 fois en petites explosions roses, puis une grande qui
       inflige Flahmes (perte de vie rapide) ; Flarrow : flèche qui tourne lentement vers un ennemi puis fonce à travers les murs
+- [ ] Potions portées (recettes du wiki) : Holy Wrath (+12 % dégâts, Holy Flames, enlève Wrath), Penumbra (discrétion plus
+      rapide, plus la nuit et pendant une éclipse), Profaned Rage (+12 % critique, enlève Rage), Titan Scale (+5 défense, et
+      +25 pendant 10 s après un coup d'épée), Triumph (moins de dégâts de contact des ennemis blessés)
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

@@ -356,7 +356,10 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Melee.GravitonomyPike>(), ModContent.ItemType<Content.Items.Accessories.DisorderfulSoulArtifact>(),
                 ModContent.ItemType<Content.Items.Accessories.WormMeal>(), ModContent.ItemType<Content.Legacy.Items.Ammo.ArcticArrow>(),
                 ModContent.ItemType<Content.Legacy.Items.Ammo.EnhancedNanoRound>(), ModContent.ItemType<Content.Legacy.Items.Ammo.SuperballBullet>(),
-                ModContent.ItemType<Content.Items.Ammo.FlahRound>(), ModContent.ItemType<Content.Items.Ammo.Flarrow>() })
+                ModContent.ItemType<Content.Items.Ammo.FlahRound>(), ModContent.ItemType<Content.Items.Ammo.Flarrow>(),
+                ModContent.ItemType<Content.Legacy.Items.Potions.HolyWrathPotion>(), ModContent.ItemType<Content.Legacy.Items.Potions.PenumbraPotion>(),
+                ModContent.ItemType<Content.Legacy.Items.Potions.ProfanedRagePotion>(), ModContent.ItemType<Content.Legacy.Items.Potions.TitanScalePotion>(),
+                ModContent.ItemType<Content.Legacy.Items.Potions.TriumphPotion>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

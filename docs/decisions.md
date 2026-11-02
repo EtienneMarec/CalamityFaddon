@@ -1210,6 +1210,15 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **Flarrow** : cherche lentement 2 s puis fonce à 30 vers sa cible à travers les blocs ; sans cible, continue tout droit.
   Valeurs des infobox (rareté 16), recettes du wiki (4999 par Flahium Bar, Draedon's Forge).
 
+### Potions portées (`Content/Legacy/Items/LegacyPotions1102.cs`, 02/11)
+
+- **[choix]** **Holy Wrath**, **Penumbra**, **Profaned Rage**, **Titan Scale**, **Triumph** : effets du vieux CalamityPlayer
+  (les buffs n'y mettaient qu'un drapeau), corrigés par la page quand elle diffère : Penumbra +15 % de discrétion en
+  bougeant, +15 % à l'arrêt la nuit, 20 % pendant une éclipse (le vieux code : +10 % / +15 %) ; Profaned Rage +5 % de
+  vitesse pendant le vol (absent du vieux code) ; Titan Scale : 10 s de bonus après un coup de vrai corps-à-corps (vieux
+  code) ; Triumph : -15 % × la vie manquante de l'ennemi. Valeurs des infobox, recettes du wiki. Tesla Potion pas encore
+  portée (aura et debuff Galvanic Corrosion).
+
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
   debuffs de Calamity au-dessus des boss.

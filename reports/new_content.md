@@ -898,7 +898,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Eradication — addon: Calamity: Tales of the Aquatic
 - [ ] Evercold — addon: Calamity: Tales of the Aquatic
 - [x] Exo Freeze
-- [ ] Flahmes
+- [x] Flahmes
 - [ ] Flesh Totem Cooldown
 - [ ] Flight Curse — addon: Tranquility Mod
 - [ ] Freezing Weather
@@ -1033,7 +1033,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Expired Medication
 - [x] Flask of Plague
 - [ ] Ham Pie
-- [ ] Holy Wrath Potion
+- [x] Holy Wrath Potion
 - [ ] JOOZ — addon: Calamity: Community Remix
 - [ ] Juzie
 - [ ] KEX
@@ -1042,10 +1042,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Meld Chip Ice Cream
 - [ ] Meld Skin Potion — addon: Calamity: Tales of the Aquatic
 - [x] Metabolic Converter — addon: Catalyst
-- [ ] Penumbra Potion
+- [x] Penumbra Potion
 - [ ] Potato Cat — addon: Calamity: Community Remix
 - [ ] Potion of Triboluminescence
-- [ ] Profaned Rage Potion
+- [x] Profaned Rage Potion
 - [x] Purified Jam
 - [ ] Rage of the Cosmos — addon: Catalyst
 - [x] Revivify Potion
@@ -1059,8 +1059,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Sunwitch — addon: Catalyst
 - [ ] Supreme Strange Brew — addon: Deimos, the Starborn Princess
 - [x] Titan Finger
-- [ ] Titan Scale Potion
-- [ ] Triumph Potion
+- [x] Titan Scale Potion
+- [x] Triumph Potion
 - [ ] YashBrowns — addon: Calamity: Community Remix
 - [x] Yharic Delight
 - [ ] Yharim's Stimulants
@@ -1316,8 +1316,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Enhanced Nano Round
 - [ ] Explosive Shotgun Shell
 - [ ] Exterminative Dart — addon: Calamity: Tales of the Aquatic
-- [ ] Flah Round
-- [ ] Flarrow
+- [x] Flah Round
+- [x] Flarrow
 - [ ] Frostspark Bullet
 - [ ] Grenade Shells
 - [ ] Jellyfish Cannonball
