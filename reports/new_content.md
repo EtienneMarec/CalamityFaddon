@@ -50,7 +50,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Blow Pipe
 - [ ] Bolide Launcher — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Bouncing Betty
-- [ ] Bouncy Spiky Ball
+- [x] Bouncy Spiky Ball
 - [ ] Breakthrough
 - [x] Brimlash Buster
 - [x] Brimstone Flameblaster
@@ -187,7 +187,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Gloomy Trident — addon: Calamity: Community Remix
 - [ ] Gluehunter — addon: Calamity: Tales of the Aquatic
 - [ ] Gluelic Blade — addon: Calamity: Tales of the Aquatic
-- [ ] Golden Gun
+- [x] Golden Gun
 - [ ] Gourdler — addon: Calamity: Community Remix
 - [ ] Grand Gar
 - [ ] Grand Purification — addon: Calamity: Community Remix
@@ -259,7 +259,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Miracle Smacker — addon: Calamitous Journeys
 - [ ] Molecular Manipulator
 - [ ] Molten Piercer
-- [ ] Monkey Darts
+- [x] Monkey Darts
 - [ ] Moonstone Knives
 - [ ] Morpho Doomblade
 - [ ] Neural Whipper-Snapper — addon: Calamity: Community Remix
@@ -352,7 +352,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Skull Fracture — addon: Calamity: Community Remix
 - [ ] Skullmasher
 - [ ] Sky Clearer — addon: Calamity: Tales of the Aquatic
-- [ ] Sky Stabber
+- [x] Sky Stabber
 - [ ] Slime Gun EX
 - [ ] Smoldering Seahorses
 - [ ] Snowgrave — addon: Apotheosis and Friends
@@ -371,7 +371,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Steel Blade
 - [ ] Steel Kunai
 - [ ] Stellar Kunai
-- [ ] Sticky Spiky Ball
+- [x] Sticky Spiky Ball
 - [x] Storm Dragoon
 - [ ] Stratoctrine Spear — addon: Calamity: Tales of the Aquatic
 - [ ] Stringstreaker — addon: Calamity: Tales of the Aquatic
@@ -437,7 +437,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Vehement Gemstone
 - [ ] Vehicle-Borne Improvised Explosive Device — pas de sprite; stub; addon: Calamity: Community Remix
 - [ ] Venus Flytrap
-- [ ] Verdant
+- [x] Verdant
 - [ ] Vermillion Angel
 - [ ] Virid Vangar
 - [ ] Vitreomance

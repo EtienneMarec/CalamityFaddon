@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1351 objets dont les recettes ont changé : 1021 recettes modifiées, 411 créées
+- 1356 objets dont les recettes ont changé : 1021 recettes modifiées, 416 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -235,6 +235,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Botanic Sink | 6 Uelibloom Brick, 1 Honey Bucket @ LivingLoom → 1 | 6 Uelibloom Brick, 1 Honey Bucket @ BotanicPlanter → 1 |
 | Botanic Table | 8 Uelibloom Brick @ LivingLoom → 1 | 8 Uelibloom Brick @ BotanicPlanter → 1 |
 | Botanic Work Bench | 10 Uelibloom Brick @ LivingLoom → 1 | 10 Uelibloom Brick @ BotanicPlanter → 1 |
+| Bouncy Spiky Ball | (nouvelle) | 20 Spiky Ball, 1 Pink Gel @ WorkBenches → 20 |
 | Bounding Potion | 1 Bottled Water, 10 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 2 Unholy Core @ AlchemyTable → 1 |
 | Bounding Potion | 1 Bottled Water, 1 Pink Gel, 1 Moonglow @ Bottles → 1 | 1 Bottled Water, 1 Bunny, 1 Daybloom @ Bottles → 3 |
 | Brimblade | 8 Unholy Core @ MythrilAnvil → 1 | 10 Mollusk Husk, 4 Unholy Core @ MythrilAnvil → 1 |
@@ -592,6 +593,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | God's Bellows | 18 Meld Blob @ LunarCraftingStation → 1 | 12 Meld Bar @ LunarCraftingStation → 1 |
 | Godly Soul Artifact | 5 Yharon Soul Fragment, 25 Plagueplate, 25 Exodium Cluster @ CosmicAnvil → 1 | 10 Soul Flux, 25 Plagueplate, 5 Yharon Soul Fragment, 25 Exodium Cluster @ DemonAltar → 1 |
 | Golden Eagle | (nouvelle) | 1 Golden Eagle @ WorkBenches → 2 |
+| Golden Gun | (nouvelle) | 15 Ichor, 10 Gold Bar @ Anvils → 1 |
 | Goldplume Spear | 10 Aerialite Bar @ Anvils → 1 | 10 Aerialite Bar, 4 Sunplate Block @ SkyMill → 1 |
 | Golem | 1 Golem Trophy @ Bookcases → 1 | 1 Golem Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Goobow | 14 Purified Gel, 14 Blighted Gel @ Solidifier → 1 | 18 Purified Gel, 30 Gel, 5 Aerialite Bar, 3 Alloy Bar @ StaticRefiner → 1 |
@@ -1096,6 +1098,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Skeletron Prime | 1 Skeletron Prime Trophy @ Bookcases → 1 | 1 Skeletron Prime Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Skiphs' Blood | (nouvelle) | 1 Bottled Water, 1 Exodium Cluster @ DyeVat → 1 |
 | Sky Mill | (nouvelle) | 10 Sunplate Block, 5 Cloud, 3 Rain Cloud @ Anvils → 1 |
+| Sky Stabber | (nouvelle) | 100 Spiky Ball, 10 Cloud, 4 Aerialite Bar @ SkyMill → 1 |
 | Skyfringe Pickaxe | 15 Aerialite Bar @ Anvils → 1 | 7 Aerialite Bar, 3 Sunplate Block @ SkyMill → 1 |
 | Skyline Wings | 10 Aerialite Bar, 5 Feather @ Anvils → 1 | 1 Fledgling Wings, 5 Feather, 3 Fallen Star, 5 Sunplate Block @ Anvils → 1 |
 | Slime God Dye | 1 Pink Statigel Dye, 1 Blue Statigel Dye @ DyeVat → 2 | 1 Pink Statigel Dye, 1 Blue Statigel Dye, 1 Purified Gel @ DyeVat → 2 |
@@ -1182,6 +1185,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Statis' Ninja Belt | 1 Master Ninja Gear, 1 Frog Flipper, 25 Purified Gel, 5 Phantoplasm @ MythrilAnvil → 1 | 1 Master Ninja Gear, 1 Evasion Scarf, 1 Frog Gear, 50 Purified Gel, 5 Phantoplasm @ LunarCraftingStation → 1 |
 | Statis' Void Sash | 1 Statis' Ninja Belt, 10 Twisting Nether, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Statis' Ninja Belt, 10 Twisting Nether, 20 Nightmare Fuel, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
 | Stellar Contempt | 1 Fallen Paladin's Hammer, 5 Luminite Bar, 5 Solar Fragment, 2 Core of Calamity @ LunarCraftingStation → 1 | 1 Fallen Paladin's Hammer, 5 Luminite Bar, 10 Solar Fragment, 10 Nebula Fragment @ LunarCraftingStation → 1 |
+| Sticky Spiky Ball | (nouvelle) | 20 Celestial Onion, 1 Gel @ WorkBenches → 20 |
 | Stink Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Stiriatic Bar | (nouvelle) | 8 Stiriatic Ore, 1 Esseric Bar, 1 Shadowspec Bar @ DraedonsForge → 1 |
 | Storm Ruler | 1 Storm Saber, 1 Wind Blade, 6 Vortex Fragment @ LunarCraftingStation → 1 | 3 Core of Sunlight, 1 Wind Blade, 1 Storm Saber, 10 Solar Fragment @ LunarCraftingStation → 1 |
@@ -1374,6 +1378,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Veering Wind | 30 Any Ice Block, 3 Feather, 5 Fallen Star, 10 Cloud @ Bookcases → 1 | 1 Frost Bolt, 3 Feather, 5 Fallen Star, 20 Cloud @ Bookcases → 1 |
 | Vein Burster | (nouvelle) | 5 Vertebra, 5 Crimtane Bar, 15 Blood Sample @ DemonAltar → 1 |
 | Venusian Trident | 1 Inferno Fork, 2 Ruinous Soul, 1 Twisting Nether @ MythrilAnvil → 1 | 1 Inferno Fork, 2 Haunted Bar, 1 Twisting Nether @ LunarCraftingStation → 1 |
+| Verdant | (nouvelle) | 1 Quagmire, 6 Tarragon Bar @ LunarCraftingStation → 1 |
 | Verdantium Bar | (nouvelle) | 4 Verdantium Ore, 2 Refined Violium @ AdamantiteForge → 1 |
 | Verium Bullet | 100 Wooden Arrow, 1 Cryonic Bar @ MythrilAnvil → 100 | 100 Musket Ball, 1 Cryonic Bar @ MythrilAnvil → 100 |
 | Victide Bar | 2 Conquest Fragment, 2 Coral, 2 Starfish, 2 Seashell @ Furnaces → 1 | 1 Parched Scale, 1 Coral, 1 Starfish, 1 Seashell @ Furnaces → 1 |

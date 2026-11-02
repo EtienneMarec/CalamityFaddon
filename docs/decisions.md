@@ -1219,6 +1219,17 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   code) ; Triumph : -15 % × la vie manquante de l'ennemi. Valeurs des infobox, recettes du wiki. Tesla Potion pas encore
   portée (aura et debuff Galvanic Corrosion).
 
+### Armes portées (`Content/Legacy/Items/LegacyWeapons1102.cs`, 02/11)
+
+- **[choix]** **Monkey Darts**, **Sky Stabber**, **Sticky Spiky Ball**, **Bouncy Spiky Ball**, **Verdant**, **Golden Gun** :
+  code de 2.0.1.005, valeurs des infobox, recettes du wiki. D'après la page : Sticky Spiky Ball Slimed 5 s et sept balles en
+  frappe furtive (vieux code : 2 s, quatre) ; Bouncy Spiky Ball : en frappe furtive un seul ballon au bonus plus fort à
+  chaque ricochet (+25 % au lieu de +10 %, chiffre choisi) ; Golden Gun : Ichor 8 s (absent du vieux code) ; Monkey Darts
+  vendues 4 argent par le Bandit après Plantera, une chance sur deux de casser (vieux code : trois sur quatre).
+  **[technique]** Le comportement collant de Calamity (CommonProjectileAI) est interne : la Sticky Spiky Ball se fixe à
+  l'ennemi touché ou s'arrête contre un bloc avec un code simple. Le Sky Stabber supprime ses boules au clic droit
+  directement (le drapeau killSpikyBalls de Calamity n'existe plus).
+
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
   debuffs de Calamity au-dessus des boss.

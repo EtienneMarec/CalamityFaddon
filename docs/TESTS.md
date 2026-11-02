@@ -682,6 +682,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Potions portées (recettes du wiki) : Holy Wrath (+12 % dégâts, Holy Flames, enlève Wrath), Penumbra (discrétion plus
       rapide, plus la nuit et pendant une éclipse), Profaned Rage (+12 % critique, enlève Rage), Titan Scale (+5 défense, et
       +25 pendant 10 s après un coup d'épée), Triumph (moins de dégâts de contact des ennemis blessés)
+- [ ] Armes portées (recettes du wiki) : Monkey Darts (Venom ; frappe furtive : 3 fléchettes qui rebondissent), Sky Stabber
+      (4 boules flottantes au plus, clic droit les supprime, plumes en frappe furtive), Sticky Spiky Ball (colle aux ennemis
+      et aux blocs, Slimed), Bouncy Spiky Ball (ricoche d'ennemi en ennemi), Verdant (yoyo qui lance des feuilles de
+      cristal), Golden Gun (trait d'ichor, Ichor 8 s)
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

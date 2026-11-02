@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (371)
+## Objets (365)
 
 - A M S
 - AAMG "Disperse"
@@ -191,7 +191,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Blood Element
 - Bloodinator 1
 - Bolide Launcher
-- Bouncy Spiky Ball
 - Braxaxe
 - Breakthrough
 - Bucket of Coal
@@ -305,7 +304,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Gluehunter
 - Gluelic Blade
 - God's Paranoia
-- Golden Gun
 - Gourdler
 - Grand Gar
 - Grand Purification
@@ -353,7 +351,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Miracle Smacker
 - Molecular Manipulator
 - Molten Piercer
-- Monkey Darts
 - Moonstone Knives
 - Morpho Doomblade
 - Neural Whipper-Snapper
@@ -438,7 +435,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Sillyshark
 - Skull Fracture
 - Sky Clearer
-- Sky Stabber
 - Slimelgamation
 - Smoldering Seahorses
 - Snowgrave
@@ -454,7 +450,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Steel Blade
 - Steel Kunai
 - Stellar Kunai
-- Sticky Spiky Ball
 - Stratoctrine Spear
 - Stringstreaker
 - Summit Breaker
@@ -502,7 +497,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Varroa Hack
 - Vehement Gemstone
 - Venus Flytrap
-- Verdant
 - Vermillion Angel
 - Virid Vangar
 - Vitreomance

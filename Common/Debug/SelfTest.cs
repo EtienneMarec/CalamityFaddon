@@ -359,7 +359,10 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Ammo.FlahRound>(), ModContent.ItemType<Content.Items.Ammo.Flarrow>(),
                 ModContent.ItemType<Content.Legacy.Items.Potions.HolyWrathPotion>(), ModContent.ItemType<Content.Legacy.Items.Potions.PenumbraPotion>(),
                 ModContent.ItemType<Content.Legacy.Items.Potions.ProfanedRagePotion>(), ModContent.ItemType<Content.Legacy.Items.Potions.TitanScalePotion>(),
-                ModContent.ItemType<Content.Legacy.Items.Potions.TriumphPotion>() })
+                ModContent.ItemType<Content.Legacy.Items.Potions.TriumphPotion>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.SkyStabber>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.StickySpikyBall>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.BouncySpikyBall>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.Verdant>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.GoldenGun>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
