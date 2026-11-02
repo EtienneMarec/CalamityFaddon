@@ -112,6 +112,8 @@ _Généré par `tools/wiki_index.py`._ Comparaison des champs d'infobox avec les
 | Atlantis | Atlantis | velocity | 32 | 40 |
 | Atlantis | Atlantis | mana | 12 | 15 |
 | Atlas Munitions Beacon | AtlasMunitionsBeacon | damage | 150 | 200 |
+| Augar of the Elements | AuguroftheVoid | damage | 147 | 131 |
+| Augar of the Elements | AuguroftheVoid | mana | 11 | 14 |
 | Aureus Spawn | AureusSpawn | life | 3000 | 5000 |
 | Aureus Spawn | AureusSpawn | damage | 0 | 60 |
 | Aurora Blazer | AuroraBlazer | damage | 49 | 69 |

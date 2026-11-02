@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (377)
+## Objets (371)
 
 - A M S
 - AAMG "Disperse"
@@ -170,7 +170,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aero Dynamite
 - Aflaming Crystalliser
 - Alpha Ray
-- Alpha Virus
 - Angel's Thesis
 - Aquarel Pistol
 - Aquatic Shardstone
@@ -181,7 +180,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aspid Blaster
 - Astral Blade
 - Astralence
-- Augar of the Elements
 - Auric Sword
 - Axisdriver
 - Bad Apple
@@ -282,10 +280,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Eye of Light
 - Fakenado Staff
 - First Crescent
-- Flah Round
 - Flame Boy Popsicle
 - Flaming Ice Bow
-- Flarrow
 - Fleshly Megaphone
 - Flint
 - Flounder Mortar
@@ -316,7 +312,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Grand Reef
 - Grarble Bayonet
 - Grarble Spear
-- Gravitonomy Pike
 - Guardians Wrath
 - H.S Trident
 - Hailberd
@@ -481,7 +476,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The Generator
 - The Godfather
 - The Inflator's Controller
-- The Insacred Texts
 - The King's Gambit
 - The Last Lightice
 - The Ones Striker

@@ -112,6 +112,7 @@ def convert(src, dest):
 
 
 TILES = os.path.join(ROOT, "Assets", "WikiTiles")
+WALLS = os.path.join(ROOT, "Assets", "WikiWalls")
 
 
 def placed_sprite(title):
@@ -140,6 +141,21 @@ def build_tile(src, dest, bar):
     return [sum(p[i] for p in pixels) // len(pixels) for i in range(3)]
 
 
+def build_wall(src, dest):
+    """Planche de mur (468 × 180, cases de 32 px espacées de 36) dont chaque case reprend le carré de 32 px du milieu de
+    l'image « (placed) » du wiki (2 × 2 murs posés, 64 px). Renvoie la couleur moyenne (carte)."""
+    img = next(ImageSequence.Iterator(Image.open(src))).convert("RGBA")
+    left, top = (img.width - 32) // 2, (img.height - 32) // 2
+    center = img.crop((left, top, left + 32, top + 32))
+    sheet = Image.new("RGBA", (468, 180), (0, 0, 0, 0))
+    for x in range(13):
+        for y in range(5):
+            sheet.paste(center, (x * 36, y * 36))
+    sheet.save(dest, "PNG")
+    pixels = [p for p in center.getdata() if p[3] > 128] or [(128, 128, 128, 255)]
+    return [sum(p[i] for p in pixels) // len(pixels) for i in range(3)]
+
+
 def convert_world(src, dest, size):
     """Version géante dessinée au sol (wiki_sprites_custom/<titre> (world).png, détourée par l'utilisateur) : recadrée
     sur sa partie visible et mise à la taille de la hitbox au sol."""
@@ -153,6 +169,8 @@ def main():
     os.makedirs(ASSETS, exist_ok=True)
     shutil.rmtree(TILES, ignore_errors=True)
     os.makedirs(TILES)
+    shutil.rmtree(WALLS, ignore_errors=True)
+    os.makedirs(WALLS)
     used ={"zweihandromeda", "stratusstar", "zweihandromedaswing", "wikimaterial"}
     # Les barres sont des « Block » sur le wiki (elles se posent) : prises comme matériaux si une recette les utilise
     recipes = json.load(open(os.path.join(ROOT, "WikiData", "recipes.json"), encoding="utf-8"))["recipes"]
@@ -175,18 +193,28 @@ def main():
             food = None
         title_lower = page["title"].lower()
         from_loot = kind == "block" and title_lower not in ingredients and title_lower in dropped
-        if kind not in MATERIAL_TYPES and not food and not (kind == "block" and title_lower in ingredients) and not from_loot:
+        # Murs du wiki (02/11) : tous ceux dont le wiki montre le mur posé
+        wall = kind == "wall" and placed_sprite(re.sub(r"\s*\([^)]*\)$", "", page["title"])) is not None
+        if kind not in MATERIAL_TYPES and not food and not (kind == "block" and title_lower in ingredients) and not from_loot and not wall:
             continue
         if from_loot and "{{historical" in open(os.path.join(ROOT, "wiki", "Main", page["file"]), encoding="utf-8",
                                                 errors="replace").read().lower():
             continue  # bloc d'une ancienne version (Frigid Bar), seulement cité par le butin : pas recréé
         sprite = sprite_file(page)
-        if not sprite:
+        if not sprite and not wall:
             continue
         f = page["fields"]
         title = re.sub(r"\s*\([^)]*\)$", "", page["title"])  # « Stardust (material) » -> « Stardust »
         name = internal_name(title, used)
-        w, h, frames, ticks = convert(sprite, os.path.join(ASSETS, name + ".png"))
+        if sprite:
+            w, h, frames, ticks = convert(sprite, os.path.join(ASSETS, name + ".png"))
+        else:
+            # Mur sans icône sur le wiki (Mossy Gravel Wall) : carré de 24 px pris au milieu du mur posé, comme les icônes
+            # de murs du jeu
+            img = next(ImageSequence.Iterator(Image.open(placed_sprite(title)))).convert("RGBA")
+            left, top = (img.width - 24) // 2, (img.height - 24) // 2
+            img.crop((left, top, left + 24, top + 24)).save(os.path.join(ASSETS, name + ".png"), "PNG")
+            w, h, frames, ticks = 24, 24, 1, 5
         rare = number(f.get("rare"))
         stack = number(f.get("stack"))
         copper = sell_copper(f.get("sell"))
@@ -206,6 +234,9 @@ def main():
             bar = "bar" in types or title.lower().endswith(" bar")
             items[-1]["tile"] = "bar" if bar else "block"
             items[-1]["mapColor"] = build_tile(placed, os.path.join(TILES, name + ".png"), bar)
+        if wall:
+            items[-1]["wall"] = True
+            items[-1]["mapColor"] = build_wall(placed_sprite(title), os.path.join(WALLS, name + ".png"))
         if food:
             use = number(f.get("use"))
             items[-1].update({"foodBuff": food, "foodSeconds": seconds, "useTime": int(use) if use else 17})
@@ -237,7 +268,7 @@ def main():
     names |= {w["name"] + ".png" for w in wings} | {w["name"] + "_Wings.png" for w in wings}
     for stale in set(os.listdir(ASSETS)) - names:
         os.remove(os.path.join(ASSETS, stale))
-    print(f"{len(items)} matériaux générés ({sum(i['frames'] > 1 for i in items)} animés, {sum(1 for i in items if i.get('tile'))} posables), {len(wings)} ailes "
+    print(f"{len(items)} matériaux générés ({sum(i['frames'] > 1 for i in items)} animés, {sum(1 for i in items if i.get('tile'))} posables, {sum(1 for i in items if i.get('wall'))} murs), {len(wings)} ailes "
           f"({sum(1 for w in wings if not w['equipSprite'])} sans image portée)")
 
 

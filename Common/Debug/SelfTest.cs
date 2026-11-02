@@ -103,7 +103,13 @@ namespace CalamityFandom.Common.Debug
             player.active = true;
             player.dead = false;
             player.position = new Microsoft.Xna.Framework.Vector2(1600f, 1600f);
-            int crab = NPC.NewNPC(NPC.GetBossSpawnSource(0), 1800, 1600, ModContent.NPCType<CalamityMod.NPCs.Crabulon.Crabulon>());
+            // PNJ placé à la main : NPC.NewNPC appelle les OnSpawn des autres mods, qui plantent sans monde (Boss Checklist)
+            int crab = Main.maxNPCs - 1;
+            Main.npc[crab] = new NPC();
+            Main.npc[crab].SetDefaults(ModContent.NPCType<CalamityMod.NPCs.Crabulon.Crabulon>());
+            Main.npc[crab].whoAmI = crab;
+            Main.npc[crab].active = true;
+            Main.npc[crab].Center = new Microsoft.Xna.Framework.Vector2(1800f, 1600f);
             var taming = ModContent.GetInstance<Common.Taming.TamingSystem>();
             bool wasUntamable = Common.Taming.TamingSystem.Untamable.Remove(key);
             try
@@ -345,7 +351,12 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.Devastation>(), ModContent.ItemType<Content.Items.Tools.AstralHammer>(),
                 ModContent.ItemType<Content.Items.Weapons.Melee.FrostBlade>(), ModContent.ItemType<Content.Items.Weapons.Melee.ElementalClaymore>(),
                 ModContent.ItemType<Content.Items.Weapons.Rogue.CatastropheClaycore>(), ModContent.ItemType<Content.Items.Weapons.Magic.ThePrincess>(),
-                ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.AlphaVirus>() })
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.AlphaVirus>(),
+                // 02/11 : Gravitonomy Pike, accessoires, munitions
+                ModContent.ItemType<Content.Items.Weapons.Melee.GravitonomyPike>(), ModContent.ItemType<Content.Items.Accessories.DisorderfulSoulArtifact>(),
+                ModContent.ItemType<Content.Items.Accessories.WormMeal>(), ModContent.ItemType<Content.Legacy.Items.Ammo.ArcticArrow>(),
+                ModContent.ItemType<Content.Legacy.Items.Ammo.EnhancedNanoRound>(), ModContent.ItemType<Content.Legacy.Items.Ammo.SuperballBullet>(),
+                ModContent.ItemType<Content.Items.Ammo.FlahRound>(), ModContent.ItemType<Content.Items.Ammo.Flarrow>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -357,13 +368,19 @@ namespace CalamityFandom.Common.Debug
             int alphaVirus = ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.AlphaVirus>();
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ModContent.ItemType<CalamityMod.Items.Weapons.Rogue.Celestus>()
                 && r.HasIngredient(alphaVirus)), "recette du wiki de Celestus (avec l'Alpha Virus)");
+            // 02/11 : Augur of the Void de Calamity sous le nom du wiki, murs du wiki qui se posent
+            if (ModContent.TryFind<ModItem>("CalamityMod", "AuguroftheVoid", out var augur))
+                Expect(WikiRecipes.ResolveItem("Augar of the Elements") == augur.Type, "Augur of the Void renommé Augar of the Elements");
+            int chaoticWall = WikiRecipes.ResolveItem("Chaotic Brick Wall");
+            Expect(chaoticWall > 0 && ContentSamples.ItemsByType[chaoticWall].createWall > 0, "Chaotic Brick Wall se pose (mur du wiki)");
             // The Insacred Texts (31/10) : lâché par les Zombies (5 %) ; les infobulles des armes Rogue sont dans Items.Weapons.Rogue
             var zombieRates = new List<DropRateInfo>();
             foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(NPCID.Zombie, false))
                 r.ReportDroprates(zombieRates, new DropRateInfoChainFeed(1f));
             Expect(zombieRates.Any(r => r.itemId == ModContent.ItemType<Content.Items.Weapons.Magic.TheInsacredTexts>()), "le Zombie lâche The Insacred Texts");
+            // Phlegm : sa page n'a pas d'infobulle
             var emptyRogue = ModContent.GetContent<ModItem>().Where(i => i.Mod == Mod && i is CalamityMod.Items.Weapons.Rogue.RogueWeapon
-                && string.IsNullOrWhiteSpace(i.Tooltip.Value)).Select(i => i.Name).ToList();
+                && i.Name != "Phlegm" && string.IsNullOrWhiteSpace(i.Tooltip.Value)).Select(i => i.Name).ToList();
             Expect(emptyRogue.Count == 0, $"infobulles des armes Rogue ({string.Join(", ", emptyRogue)})");
             Expect(Language.Exists("Mods.CalamityFandom.InsacredTexts.Fic" + (Content.Items.Weapons.Magic.TheInsacredTexts.FicCount - 1)),
                 "The Insacred Texts : phrases du clic droit");

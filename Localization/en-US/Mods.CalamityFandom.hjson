@@ -1,4 +1,76 @@
 Items: {
+	FlahRound: {
+		DisplayName: Flah Round
+		Tooltip: Heavy ammunition that bounces when striking an enemy or an obstacle, when it bounces it makes a small explosion before finally releasing a large flahium blast.
+	}
+
+	Flarrow: {
+		DisplayName: Flarrow
+		Tooltip: Slowly homes in on enemies before charging at high speeds.
+	}
+
+	ArcticArrow: {
+		DisplayName: Arctic Arrow
+		Tooltip: Freezes enemies for a short time
+	}
+
+	EnhancedNanoRound: {
+		DisplayName: Enhanced Nano Round
+		Tooltip: Confuses enemies and releases a cloud of nanites when enemies die
+	}
+
+	SuperballBullet: {
+		DisplayName: Superball Bullet
+		Tooltip: Bounces at extreme speeds
+	}
+
+	WormMeal: {
+		DisplayName: Worm Meal
+		Tooltip:
+			'''
+			Minions drop parasitic worms whenever they strike an enemy
+			Parasitic worms latch onto enemies, slowing down and confusing them
+			'A lovely dish for all of your pets!'
+			'''
+	}
+
+	GulletWorm: {
+		DisplayName: Gullet Worm
+		Tooltip: ""
+	}
+
+	FerroClaws: {
+		DisplayName: Ferro Claws
+		Tooltip:
+			'''
+			Increases melee damage by 17%
+			Decreases melee speed by 10%
+			Enables auto swing for melee weapons
+			True melee attacks launch a damaging shrapnel of ferro-fluid when enemies are close by
+			'Not to be confused with the Feral Claws'
+			'''
+	}
+
+	IcicleRing: {
+		DisplayName: Icicle Ring
+		Tooltip: Wearer takes damage from pain. Reduces the mana cost of spells.
+	}
+
+	DisorderfulSoulArtifact: {
+		DisplayName: Disorderful Soul Artifact
+		Tooltip: Completely disables your damage reduction, but gives you 2 times more speed and 3 times more attack speed
+	}
+
+	GravitonomyPike: {
+		DisplayName: Gravitonomy Pike
+		Tooltip:
+			'''
+			Fires exo pike beams that split into more beams
+			Hitting enemies with the pike sucks in all nearby enemies
+			Ignores immunity frames
+			'''
+	}
+
 	Zweihandromeda: {
 		DisplayName: Zweihandromeda
 		Tooltip: ""
@@ -1269,6 +1341,17 @@ Items: {
 }
 
 Projectiles: {
+	FlahRoundProj.DisplayName: Flah Round
+	FlahBlast.DisplayName: Flahium Blast
+	FlarrowProj.DisplayName: Flarrow
+	ArcticArrowProj.DisplayName: Arctic Arrow
+	EnhancedNanoRoundProj.DisplayName: Enhanced Nano Bullet
+	Nanomachine.DisplayName: Nanomachine
+	SuperballBulletProj.DisplayName: Superball Bullet
+	ParasiticWorm.DisplayName: Parasitic Worm
+	FerroShrapnel.DisplayName: Ferro-fluid Shrapnel
+	GravitonomyBeam.DisplayName: Gravitonomy Beam
+	Melee.GravitonomyPikeProj.DisplayName: Gravitonomy Pike
 	SlimePuppetBall.DisplayName: Slime Ball
 	WarArrowProj.DisplayName: War Arrow
 	ProporseBolt.DisplayName: Proporse Bolt
@@ -1454,6 +1537,16 @@ Elements: {
 }
 
 Buffs: {
+	Flahmes: {
+		DisplayName: Flahmes
+		Description: Vaporizing from total flahium annihilation
+	}
+
+	ExoFreeze: {
+		DisplayName: Exo Freeze
+		Description: Cannot move
+	}
+
 	Cadance: {
 		DisplayName: Cadance
 		Description: Your heart is pure
@@ -1702,6 +1795,7 @@ Configs: {
 }
 
 NPCs: {
+	GulletWormNPC.DisplayName: Gullet Worm
 	FandomTestDummy.DisplayName: Fandom Test Dummy
 	ArmoredDiggerHead.DisplayName: Armored Digger
 	ArmoredDiggerBody.DisplayName: Armored Digger

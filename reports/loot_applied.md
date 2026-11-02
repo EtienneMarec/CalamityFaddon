@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 325 drops ajoutés sur 142 PNJ
+- 347 drops ajoutés sur 150 PNJ
 - 111 ajouts dans 24 sacs
 - 555 drops du wiki déjà présents dans le jeu (inchangés)
 - 121 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 25 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 174 PNJ du wiki absents du jeu, 50 objets introuvables
+- 174 PNJ du wiki absents du jeu, 49 objets introuvables
 
 ## Ajouts
 
@@ -51,6 +51,14 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Crystal Crawler** : Crystal Blade 1-1 à 20.0%
 - **Cultist Assassin** : Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Dark Caster** : Ancient Shiv 1-1 à 4.0%
+- **Demon Eye** : The Insacred Texts 1-1 à 5.0%
+- **Demon Eye** : The Insacred Texts 1-1 à 5.0%
+- **Demon Eye** : The Insacred Texts 1-1 à 5.0%
+- **Demon Eye** : The Insacred Texts 1-1 à 5.0%
+- **Demon Eye** : The Insacred Texts 1-1 à 5.0%
+- **Demon Eye** : The Insacred Texts 1-1 à 5.0%
+- **Demon Eye** : The Insacred Texts 1-1 à 5.0%
+- **Demon Eye** : The Insacred Texts 1-1 à 5.0%
 - **Derpling** : Beetle Juice 1-1 à 25.0%
 - **Desert Scourge** : Sandy Angling Kit 1-1 à 100.0% (mode normal) ; Parched Scale 7-14 à 100.0% (mode normal) ; Profaned Shard 1-1 à 100.0% (mode normal) ; Abyss Bar 3-8 à 100.0% [After defeating Golem] (mode normal) ; Sand Block 261-820 à 100.0% (mode normal) ; Ocean Crest 1-1 à 100.0% (mode normal) ; Delicious Meat 4-4 à 20.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (mode normal) ; The Desert Scourge 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Aero Stone 1-1 à 20.0% (mode normal) ; Aquatic Discharge 1-1 à 25.0% (mode normal)
 - **Despair Stone** : Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Slagspitter Pauldron 1-1 à 5.0% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
@@ -139,20 +147,20 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Viperfish** : Depth Cells 1-2 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 25.0% [After defeating Calamitas]
 - **Wall of Flesh** : Twisted Tendril 3-5 à 100.0% (mode normal)
 - **Wolf** : Coyote Venom 1-1 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
-- **Zombie** : Disgusting Meat 1-2 à 25.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
+- **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
 
 ## Ajouts dans les sacs
 
@@ -204,7 +212,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 
 ## Objets introuvables (contenu à créer)
 
-- The Insacred Texts — 22
 - Bad Apple — 2
 - Honey Cooling Cell — 2
 - Romulus — 2

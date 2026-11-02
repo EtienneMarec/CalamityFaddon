@@ -73551,6 +73551,7 @@
   "Any Quivers": "Any Quiver",
   "Any Mana Flowers": "Any Mana Flower",
   "Dirt": "Dirt Block",
+  "Fiery Greatsword": "Volcano",
   "Rogue Emblem": "Spy Emblem"
  },
  "groups": {
@@ -73640,6 +73641,10 @@
   "Any Evil Water": [
    "Unholy Water",
    "Blood Water"
+  ],
+  "Any Zapinator": [
+   "Gray Zapinator",
+   "Orange Zapinator"
   ],
   "Any Hardmode Evil Component": [
    "Cursed Flame",

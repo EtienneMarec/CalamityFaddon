@@ -657,6 +657,33 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 ---
 
+## Passe du 02/11
+
+- [ ] Murs du wiki : Abandoned Bronze Wall, Aeroplate Wall, Chaotic Brick Wall, Reinforced Acidplate/Freezeplate/Noctiplate/
+      Redplate Wall se posent comme des murs (texture du wiki, répétée) et reviennent quand on les casse ; leurs recettes
+      (4 murs pour 1 bloc) existent
+- [ ] Augar of the Elements : l'Augur of the Void de Calamity porte ce nom, avec la recette du wiki (Eldritch Tome, Tome of
+      Fates, Shadowflame Hex Doll, 5 Galactica Singularity, 8 Elemental Bar, 5 Luminite Bar)
+- [ ] Gravitonomy Pike (recette du wiki) : la lance tire un rayon arc-en-ciel qui traverse les murs, se divise en 3 près d'un
+      ennemi ; un ennemi touché par la lance attire les autres vers lui ; les ennemis touchés sont figés 0,5 s (Exo Freeze)
+      et brûlent (Holy Flames, Frostburn, On Fire!)
+- [ ] Recettes : Lazhar avec n'importe quel Zapinator ; Night's Edge du wiki avec le Volcano
+- [ ] Ferro Claws : un Mechanical Glove jeté dans le Shimmer donne les Ferro Claws après le Moon Lord (avant : il se
+      défait) ; +17 % dégâts de mêlée, -10 % vitesse, attaque auto ; une épée près d'un ennemi lance 2 éclats sombres
+- [ ] Icicle Ring (pas encore de source, à donner) : la vie descend au tiers puis s'y arrête ; sorts gratuits, +50 % magie
+- [ ] Gullet Worm : pendant une Blood Moon, casser des tas de cailloux fait parfois sortir un petit ver rouge, qui s'attrape
+      au filet ; comme appât (puissance 120), il remonte plus souvent des ennemis de la Blood Moon
+- [ ] Worm Meal (Gullet Worm + 3 Stinkfish) : avec un sbire, chaque coup lâche 1-2 vers rouges (5 au plus) qui courent vers
+      les ennemis, s'accrochent, les rendent Confused et Slow, puis éclatent
+- [ ] Munitions portées (recettes du wiki) : Arctic Arrow (gèle 0,5 s), Enhanced Nano Round (Confused, 2 nanomachines à la
+      mort de l'ennemi), Superball Bullet (lente, accélère à chaque rebond ou ennemi traversé)
+- [ ] Flah Round (Draedon's Forge, 4999 par Flahium Bar) : rebondit 9 fois en petites explosions roses, puis une grande qui
+      inflige Flahmes (perte de vie rapide) ; Flarrow : flèche qui tourne lentement vers un ennemi puis fonce à travers les murs
+- [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
+      fois plus rapides
+
+---
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

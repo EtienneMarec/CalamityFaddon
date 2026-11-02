@@ -20,6 +20,24 @@
    ]
   },
   {
+   "name": "AbandonedBronzeWall",
+   "displayName": "Abandoned Bronze Wall",
+   "page": "Abandoned Bronze Wall.txt",
+   "width": 24,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 15,
+   "maxStack": 9999,
+   "value": 0,
+   "wall": true,
+   "mapColor": [
+    75,
+    36,
+    41
+   ]
+  },
+  {
    "name": "AbsoluteGel",
    "displayName": "Absolute Gel",
    "page": "Absolute Gel.txt",
@@ -107,6 +125,24 @@
     112,
     149,
     132
+   ]
+  },
+  {
+   "name": "AeroplateWall",
+   "displayName": "Aeroplate Wall",
+   "page": "Aeroplate Wall.txt",
+   "width": 24,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 3,
+   "maxStack": 9999,
+   "value": 0,
+   "wall": true,
+   "mapColor": [
+    79,
+    108,
+    94
    ]
   },
   {
@@ -626,6 +662,24 @@
     56,
     25,
     44
+   ]
+  },
+  {
+   "name": "ChaoticBrickWall",
+   "displayName": "Chaotic Brick Wall",
+   "page": "Chaotic Brick Wall.txt",
+   "width": 18,
+   "height": 18,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "wall": true,
+   "mapColor": [
+    49,
+    47,
+    49
    ]
   },
   {
@@ -1985,6 +2039,24 @@
    "value": 4000000
   },
   {
+   "name": "MossyGravelWall",
+   "displayName": "Mossy Gravel Wall",
+   "page": "Mossy Gravel Wall.txt",
+   "width": 24,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "wall": true,
+   "mapColor": [
+    38,
+    68,
+    57
+   ]
+  },
+  {
    "name": "Mulch",
    "displayName": "Mulch",
    "page": "Mulch.txt",
@@ -2391,6 +2463,78 @@
    "rare": 8,
    "maxStack": 9999,
    "value": 125000
+  },
+  {
+   "name": "ReinforcedAcidplateWall",
+   "displayName": "Reinforced Acidplate Wall",
+   "page": "Reinforced Acidplate Wall.txt",
+   "width": 24,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "wall": true,
+   "mapColor": [
+    15,
+    96,
+    42
+   ]
+  },
+  {
+   "name": "ReinforcedFreezeplateWall",
+   "displayName": "Reinforced Freezeplate Wall",
+   "page": "Reinforced Freezeplate Wall.txt",
+   "width": 24,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "wall": true,
+   "mapColor": [
+    15,
+    81,
+    116
+   ]
+  },
+  {
+   "name": "ReinforcedNoctiplateWall",
+   "displayName": "Reinforced Noctiplate Wall",
+   "page": "Reinforced Noctiplate Wall.txt",
+   "width": 24,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "wall": true,
+   "mapColor": [
+    47,
+    17,
+    84
+   ]
+  },
+  {
+   "name": "ReinforcedRedplateWall",
+   "displayName": "Reinforced Redplate Wall",
+   "page": "Reinforced Redplate Wall.txt",
+   "width": 24,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "wall": true,
+   "mapColor": [
+    80,
+    16,
+    25
+   ]
   },
   {
    "name": "RottenMatter",

@@ -202,6 +202,11 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
 - **[technique]** Avant le 31/10 au soir, les 163 recettes du wiki pour des objets de Terraria étaient seulement comparées
   au jeu (63 recettes que le jeu n'a pas, 42 potions, 58 recettes changées).
 
+- **[choix]** (02/11) Alias de recettes : « Fiery Greatsword » = le Volcano de Terraria (ancien nom ; Night's Edge et
+  Hellkite du wiki), « Elemental Bars » = Elemental Bar (Augar of the Elements). Groupe « Any Zapinator » (Gray ou
+  Orange Zapinator, recette de la Lazhar) ajouté à notre page « Alternative crafting ingredients ». Laissé : « Crab »
+  (Baroclaw, Delicious Meat), un ennemi et non un objet.
+
 ## 5. Système d'éléments (`Common/Elements/`, `Balance/elements.json`)
 
 Source : `Elemental System.txt` (17 éléments, une phrase d'effet chacun ; résistant = 50 % des dégâts et immunité à
@@ -680,6 +685,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Spelunker et au détecteur de métaux ; pas de pioche minimale (rien n'est généré dans le monde). Les 22 autres
   « Block » (Alloy Bar, Yharim Bar...) n'ont pas d'image posée sur le wiki : ils restent des matériaux.
 
+- **[choix]** (02/11) **Murs du wiki** (`Content/Tiles/WikiWall.cs`, `Assets/WikiWalls/`) : tout mur dont le wiki montre
+  l'image « (placed) » devient un objet qui pose un mur (8 : Abandoned Bronze Wall, Aeroplate Wall, Chaotic Brick Wall, Mossy Gravel Wall,
+  Reinforced Acidplate, Freezeplate, Noctiplate et Redplate Wall). La planche reprend le carré de 32 px du milieu de
+  l'image dans toutes ses cases (pas de variantes de bord, comme les blocs). Mossy Gravel Wall n'a pas d'icône d'objet sur
+  le wiki : carré de 24 px pris au milieu du mur posé.
+
 ## 7. Butin (`tools/gen_loot.py`, `Common/WikiData/WikiLoot.cs`)
 
 - **[choix]** Additif : seuls les objets que le PNJ ne lâche pas déjà sont ajoutés ; chances existantes inchangées.
@@ -1141,6 +1152,63 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   slime. Boules et liens : 0 dégât ; un ennemi qui marche (soumis aux blocs, pas un boss) qui y entre est arrêté
   (position horizontale d'avant). Elles disparaissent si le joueur meurt ou s'éloigne de plus de 190 blocs. Sprite du
   wiki (« Slime Puppet » : boule avec yeux quand elle suit, sans une fois figée). Dégâts 0 et mana 5 : infobox.
+
+### Augar of the Elements (renommage, 02/11)
+
+- **[technique]** « Augar of the Elements » (orthographe du wiki) est l'Augur of the Elements de Calamity, renommé
+  Augur of the Void par le commit « Elemental weapon renames, EXCEPT Lance and Disk » : l'index ne le reliait pas à cause
+  de l'orthographe. Ajouté aux renommages (`tools/glossary.json`) : il reprend le nom, les stats, le sprite et la recette du
+  wiki comme les autres objets renommés.
+
+### Exo Freeze et Gravitonomy Pike (02/11)
+
+- **[choix]** **Exo Freeze** (`Content/Buffs/ExoFreeze.cs`) : debuff retiré de Calamity (son texte est resté). La cible
+  ne peut plus bouger (sa vitesse est annulée après son IA) ; rien pendant la Boss Rush (page) ; les boss n'y sont pas
+  sensibles (la page dit « some bosses » sans les nommer).
+- **[choix]** **Gravitonomy Pike** (`Content/Items/Weapons/Melee/GravitonomyPike.cs`) : lance des valeurs de l'infobox
+  (257 dégâts, use 18, rareté 15). Chaque coup tire un rayon qui traverse les murs et cherche faiblement ; à moins de 8 blocs
+  d'un ennemi ou en le touchant, il se divise une fois en 3 rayons à 50 % qui cherchent les ennemis ; la lance attire les
+  ennemis à moins de 25 blocs vers celui qu'elle touche (pas les boss). Les quatre debuffs de la page ; invulnérabilité
+  propre à chaque projectile (« ignores immunity frames »). Recette du wiki (WikiRecipes).
+
+### Accessoires du 02/11 (`Content/Items/Accessories/`)
+
+- **[choix]** **Ferro Claws** : valeurs de l'infobulle ; les éclats (2, à tête chercheuse, 30 blocs, 25 % des dégâts) partent
+  au début de chaque coup d'une arme de mêlée qui frappe elle-même (ni fouets, ni armes qui ne font que lancer un
+  projectile), s'il y a un ennemi à moins de 30 blocs ; éclats sans sprite (fumée sombre). Obtenues dans le Shimmer avec
+  un Mechanical Glove après le Moon Lord (code : la table de la page Shimmer n'est pas lue par le générateur).
+- **[choix]** **Icicle Ring** : -15 PV/s tant que la vie dépasse le tiers de la vie maximale (arrondi au-dessus), mana à
+  0, +50 % de dégâts magiques (page). Sans source tant que le Frost Imp n'existe pas (TODO).
+- **[choix]** **Disorderful Soul Artifact** : réduction des dégâts mise à 0 après tous les autres effets ; vitesse
+  (course, accélération, bottes) ×2 ; vitesse d'attaque +200 % pour toutes les classes. Recette du wiki.
+
+### Gullet Worm (`Content/NPCs/Critters/GulletWorm.cs`, 02/11)
+
+- **[choix]** Bestiole de la Blood Moon (page) : 10 % de chances en cassant un tas de cailloux ou de débris naturel (petit
+  ou grand) pendant une Blood Moon (« Objects that have a chance to spawn critters » : interprété ainsi) ; IA du ver ; un
+  seul dessin (celui de l'objet). Objet : appât de puissance 120, pile de 999 (page). « Higher chance to catch enemies
+  during a Blood Moon » : 1 chance sur 6 de plus de remonter un ennemi de la Blood Moon du jeu (Zombie Merman, Wandering
+  Eye Fish ; en Hardmode aussi Goblin Shark et Blood Eel). Cage (Gullet Worm Cage) pas encore faite.
+- **[choix]** **Worm Meal** (`Content/Items/Accessories/WormMeal.cs`) : valeurs de la page ; les vers parasites (sprite du
+  Gullet Worm, l'image de la page) sortent des coups des sbires et de leurs projectiles, courent et sautent, s'accrochent
+  et mordent toutes les 40 ticks pendant 2 s puis « explosent » sans dégâts (la page n'en donne pas) ; 5 s sans cible :
+  même fin. 5 vers au plus.
+
+### Munitions portées (`Content/Legacy/Items/LegacyAmmo1102.cs`, 02/11)
+
+- **[choix]** **Arctic Arrow**, **Enhanced Nano Round** (et ses Nanomachines), **Superball Bullet** : code de 2.0.1.005,
+  valeurs des infobox (dégâts, pile de 9999, prix, rareté), recettes du wiki. **[technique]** Le bonus « point blank » du
+  vieux code n'existe plus dans Calamity 2.2.2 : retiré. Laissées : Explosive Shotgun Shell (seulement pour l'ancienne
+  Hydra, qui n'en utilise plus), Frostspark Bullet (page « historique »), Grenade Shells (pas dans les candidats).
+
+### Flahmes, Flah Round, Flarrow (02/11)
+
+- **[choix]** **Flahmes** (`Content/Buffs/Flahmes.cs`) : -500 PV/s (page) ; « damage reduction reduced by 35% » lu comme 35
+  points de réduction en moins (jamais sous 0), appliqué par-dessus le calcul de Calamity.
+- **[choix]** **Flah Round** (`Content/Items/Ammo/FlahAmmo.cs`) : explose et rebondit sur un ennemi ou un bloc, 9 fois ;
+  petites explosions de 3 blocs à 33 % des dégâts, grande explosion finale de 8 blocs à 150 % avec Flahmes 3 s (page).
+  **Flarrow** : cherche lentement 2 s puis fonce à 30 vers sa cible à travers les blocs ; sans cible, continue tout droit.
+  Valeurs des infobox (rareté 16), recettes du wiki (4999 par Flahium Bar, Draedon's Forge).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

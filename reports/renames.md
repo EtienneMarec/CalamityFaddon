@@ -18,6 +18,7 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Amidias' Spark | Ilmeris' Spark | IlmerisSpark |
 | Astral Arcanum | Radiance | Radiance |
 | Astral Deus | Astrum Deus | LoreAstrumDeus |
+| Augar of the Elements | Augur of the Void | AuguroftheVoid |
 | Azathoth | Ozzathoth | Ozzathoth |
 | Baby Ghost Bell | Blue Baby Ghost Bell | BabyGhostBellItem |
 | Banners | {$Items.Placeables.FormattedBannerName} | BurrowerBanner |

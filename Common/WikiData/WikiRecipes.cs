@@ -464,8 +464,8 @@ namespace CalamityFandom.Common.WikiData
                     DisabledNotOnWiki++;
                 }
             }
-            else
-                Kept += unmatched.Count;
+            else if (!vanilla)
+                Kept += unmatched.Count; // les recettes de base de Terraria, toujours gardées, ne comptent pas ici
         }
 
         private static int SharedIngredients(Recipe recipe, Resolved target)

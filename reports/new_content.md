@@ -2,7 +2,7 @@
 
 _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne correspond à aucun DisplayName de Calamity. Attention : des objets vanilla ou des pages renommées peuvent s'y glisser.
 
-## Weapon (470)
+## Weapon (469)
 
 - [ ] A M S
 - [ ] AAMG "Disperse" — pas de sprite; addon: Calamity: Tales of the Aquatic
@@ -34,7 +34,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Astral Blade
 - [x] Astral Bow
 - [ ] Astralence — addon: Calamity: Tales of the Aquatic
-- [ ] Augar of the Elements
 - [ ] Auric Sword
 - [ ] Axisdriver
 - [ ] Bad Apple
@@ -195,7 +194,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Grand Reef
 - [ ] Grarble Bayonet — addon: Calamity: Community Remix
 - [ ] Grarble Spear — addon: Calamity: Community Remix
-- [ ] Gravitonomy Pike
+- [x] Gravitonomy Pike
 - [ ] Guardians Wrath
 - [ ] H.S Trident
 - [ ] HPST "Malign" — pas de sprite; addon: Calamity: Tales of the Aquatic
@@ -655,7 +654,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Cosmic Stone
 - [ ] Deteriorating Lens — pas de sprite
 - [ ] Determination Breaker
-- [ ] Disorderful Soul Artifact
+- [x] Disorderful Soul Artifact
 - [ ] Drained Catarachedrae — addon: Calamity: Tales of the Aquatic
 - [ ] Dread Bone — addon: Calamity: Tales of the Aquatic
 - [ ] Dreamy Belt — addon: Calamity: Community Remix
@@ -670,14 +669,14 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Exotic Beacon
 - [ ] Fancy Flesh Skull — addon: Calamity: Tales of the Aquatic
 - [ ] Fathomless Soul Artifact
-- [ ] Ferro Claws
+- [x] Ferro Claws
 - [x] Frigid Bulwark
 - [x] Fungal Carapace
 - [x] Gehenna
 - [ ] Ghast Relic — addon: Calamity: Tales of the Aquatic
 - [ ] Gift of the Red — addon: Calamity: Tales of the Aquatic
 - [x] Holy Mantle — addon: Calamity: Community Remix
-- [ ] Icicle Ring
+- [x] Icicle Ring
 - [x] Inverted Gar
 - [ ] Jewel Core — addon: Calamity: Tales of the Aquatic
 - [ ] Landscapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
@@ -749,7 +748,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Void Artifact — addon: Calamity: Tales of the Aquatic
 - [x] Warbanner of the Sun
 - [ ] Wings — pas de sprite
-- [ ] Worm Meal
+- [x] Worm Meal
 - [ ] Wrath of the Machines
 - [ ] Yggdrasil Core — addon: Calamity: Tales of the Aquatic
 - [ ] Yharim's Curse — addon: Calamity: Community Remix
@@ -898,7 +897,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Envoidment — addon: Tranquility Mod
 - [ ] Eradication — addon: Calamity: Tales of the Aquatic
 - [ ] Evercold — addon: Calamity: Tales of the Aquatic
-- [ ] Exo Freeze
+- [x] Exo Freeze
 - [ ] Flahmes
 - [ ] Flesh Totem Cooldown
 - [ ] Flight Curse — addon: Tranquility Mod
@@ -1312,9 +1311,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 - [ ] 22 Hornet Round — addon: Calamity: Community Remix, Polyphemalus
 - [x] Acceleration Round
-- [ ] Arctic Arrow
+- [x] Arctic Arrow
 - [ ] Cosmilite Coin — addon: Calamity: Community Remix
-- [ ] Enhanced Nano Round
+- [x] Enhanced Nano Round
 - [ ] Explosive Shotgun Shell
 - [ ] Exterminative Dart — addon: Calamity: Tales of the Aquatic
 - [ ] Flah Round
@@ -1328,7 +1327,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Nighterrial Dart — addon: Calamity: Tales of the Aquatic
 - [ ] Profaned Crystal Dart — addon: Calamity: Tales of the Aquatic
 - [ ] Profaned Fire Dart — addon: Calamity: Tales of the Aquatic
-- [ ] Superball Bullet
+- [x] Superball Bullet
 - [ ] Terrestrial Dart — addon: Calamity: Tales of the Aquatic
 - [ ] Vortex Dart — addon: Calamity: Tales of the Aquatic
 - [x] War Arrow
@@ -1480,7 +1479,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Arctic Lacewing
 - [ ] Bloodworm
 - [ ] Crocodile Herring — addon: Calamity: Community Remix
-- [ ] Gullet Worm
+- [x] Gullet Worm
 - [ ] Minnows Prime — addon: Calamity: Community Remix
 - [ ] Scaly Foot Snail
 - [ ] Sea Minnow
@@ -1503,15 +1502,15 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Wall (9)
 
-- [ ] Abandoned Bronze Wall
-- [ ] Aeroplate Wall — addon: Calamity: Community Remix
-- [ ] Chaotic Brick Wall
+- [x] Abandoned Bronze Wall
+- [x] Aeroplate Wall — addon: Calamity: Community Remix
+- [x] Chaotic Brick Wall
 - [ ] Dungeon Wall Unsafe — pas de sprite
-- [ ] Mossy Gravel Wall — pas de sprite
-- [ ] Reinforced Acidplate Wall — addon: Calamity: Tales of the Aquatic
-- [ ] Reinforced Freezeplate Wall — addon: Calamity: Tales of the Aquatic
-- [ ] Reinforced Noctiplate Wall — addon: Calamity: Tales of the Aquatic
-- [ ] Reinforced Redplate Wall — addon: Calamity: Tales of the Aquatic
+- [x] Mossy Gravel Wall — pas de sprite
+- [x] Reinforced Acidplate Wall — addon: Calamity: Tales of the Aquatic
+- [x] Reinforced Freezeplate Wall — addon: Calamity: Tales of the Aquatic
+- [x] Reinforced Noctiplate Wall — addon: Calamity: Tales of the Aquatic
+- [x] Reinforced Redplate Wall — addon: Calamity: Tales of the Aquatic
 
 ## Critter (7)
 

@@ -2,7 +2,7 @@
 
 _Généré par `tools/gen_localization.py`._
 
-352 textes modifiés, dont 236 noms.
+353 textes modifiés, dont 237 noms.
 
 Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, Realm Ravager, going rogue, goes rogue, gone rogue, went rogue, go rogue.
 
@@ -26,6 +26,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `Items.Armor.Vanity.AstrumDeusMask.DisplayName` | Astrum Deus Mask | Astral Deus Mask |
 | `Items.Placeables.AstrumDeusRelic.DisplayName` | Astrum Deus Relic | Astral Deus Relic |
 | `Items.Placeables.AstrumDeusTrophy.DisplayName` | Astrum Deus Trophy | Astral Deus Trophy |
+| `Items.Weapons.Magic.AuguroftheVoid.DisplayName` | Augur of the Void | Augar of the Elements |
 | `Items.Lore.LoreAzafure.DisplayName` | Azafure | Brimstone Crag |
 | `Items.Weapons.DraedonsArsenal.Nidhogg.DisplayName` | B-GSS: Nidhogg | Gauss Rifle |
 | `Items.SummonItems.YharonEgg.DisplayName` | Blessed Phoenix Egg | Jungle Dragon Egg |
