@@ -1,36 +1,36 @@
 # Calamity Fandom
 
-Addon pour [Calamity Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072) qui fait correspondre le
-jeu au wiki Fandom de Calamity, celui qui a continué sa vie (et ses inventions) après le passage de la communauté sur
-wiki.gg : objets renommés, stats modifiées, armes, bosses et biomes qui n'ont jamais existé.
+Addon for [Calamity Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072) that makes the game match
+the Calamity Fandom wiki, the one that kept living (and inventing) after the community moved to wiki.gg: renamed
+items, changed stats, weapons, bosses and biomes that never existed.
 
-## Installation pour développer
+## Development setup
 
-Prérequis : tModLoader (Steam), Calamity Mod abonné sur le Workshop, .NET 8 SDK, Python 3.11 + Pillow
+Requirements: tModLoader (Steam), Calamity Mod subscribed on the Workshop, .NET 8 SDK, Python 3.11 + Pillow
 (`python -m pip install --user pillow`).
 
 ```bash
-python tools/extract_calamity_dll.py      # copie CalamityMod.dll depuis le Workshop vers lib/
-python tools/wiki_index.py                # analyse le wiki et génère reports/
-dotnet build CalamityFandom.csproj        # produit Mods/CalamityFandom.tmod
+python tools/extract_calamity_dll.py      # copies CalamityMod.dll from the Workshop to lib/
+python tools/wiki_index.py                # analyzes the wiki and generates reports/
+dotnet build CalamityFandom.csproj        # produces Mods/CalamityFandom.tmod
 ```
 
-Puis activer **Calamity Mod** et **Calamity Fandom** en jeu.
+Then enable **Calamity Mod** and **Calamity Fandom** in game.
 
-## Organisation
+## Layout
 
 ```
-CalamityFandom.cs, build.txt   mod tModLoader
-Content/                       nouveau contenu tiré du wiki
-Common/                        systèmes et modifications de Calamity
-Localization/                  noms et descriptions
-tools/                         scripts Python (indexation du wiki, import de sprites, DLL)
-reports/                       état des lieux généré : à faire, écarts, renommages
-data/wiki_index.json           index complet du wiki (généré)
-wiki_edits/                    pages du wiki corrigées ou créées par nous
-docs/                          feuille de route et décisions
-fandom_dump_txt/, fandom_dump_extra/, fandom_sprites/, OtherMods/   matériel de référence, jamais empaqueté
-                                                                     (OtherMods/ : sources d'autres mods, dont CalamityModPublic/)
+CalamityFandom.cs, build.txt   tModLoader mod
+Content/                       new content taken from the wiki
+Common/                        systems and changes to Calamity
+Localization/                  names and descriptions
+tools/                         Python scripts (wiki indexing, sprite import, DLL)
+reports/                       generated status: to do, gaps, renames
+data/wiki_index.json           full index of the wiki (generated)
+wiki/                          our wiki: copy of the Fandom, corrected and extended for the mod
+docs/                          roadmap and decisions
+fandom_dump_txt/, fandom_dump_extra/, fandom_sprites/, OtherMods/   reference material, never packaged
+                                                                     (OtherMods/: sources of other mods, including CalamityModPublic/)
 ```
 
-Voir [`reports/README.md`](reports/README.md) pour l'avancement et [`docs/ROADMAP.md`](docs/ROADMAP.md) pour le plan.
+See [`reports/README.md`](reports/README.md) for progress and [`docs/ROADMAP.md`](docs/ROADMAP.md) for the plan.

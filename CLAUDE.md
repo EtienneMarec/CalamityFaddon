@@ -159,7 +159,7 @@ concerné, avec son marqueur : **[validé]** (tranché avec l'utilisateur, avec 
 
 Le wiki se contredit souvent (Godseeker Yharim à « 3 PV », Desert Scourge boss Hardmode à 350 000 PV, etc.).
 On a le droit de **corriger ou créer des pages** : directement dans `wiki/` (le diff Git par rapport au commit
-`c27190c` montre tout ce qui a changé), en notant le pourquoi dans `docs/decisions.md`. Quand Full Fandom et
+`f7063a5` montre tout ce qui a changé), en notant le pourquoi dans `docs/decisions.md`. Quand Full Fandom et
 Calamity++ diffèrent : `{{mode|valeur Full Fandom|valeur Calamity++}}` (`docs/WIKI.md`). Ne jamais toucher à
 `fandom_dump_txt/`.
 

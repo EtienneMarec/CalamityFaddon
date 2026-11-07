@@ -10,8 +10,8 @@ le mod tel qu'il est (les deux modes) : le jour où le mod est publié, son wiki
 | `fandom_dump_txt/` (+ `fandom_dump_extra/`) | Le wiki Fandom d'origine : référence du **mode Full Fandom** | **jamais** |
 | `wiki/` | Notre wiki : décrit le mod (Full Fandom **et** Calamity++) ; c'est lui que lisent les outils | oui |
 
-- `wiki/` a été commité **identique** au Fandom (commit `c27190c`, sauf les 18 pages que Windows avait écrasées) :
-  `git diff c27190c -- wiki/` montre donc tout ce qu'on a changé. Git ne stocke pas deux fois un fichier identique.
+- `wiki/` a été commité **identique** au Fandom (commit `f7063a5`, sauf les 18 pages que Windows avait écrasées) :
+  `git diff f7063a5 -- wiki/` montre donc tout ce qu'on a changé. Git ne stocke pas deux fois un fichier identique.
 - `wiki/Main/` : pages (mêmes noms de fichiers que le dump) ; `wiki/Template/`, `Guide/`, `Category/`, `Project/`,
   `Module/`, `MediaWiki/`, `Help/` : les autres espaces. `wiki/index.json` : fichier → titre exact.
 - Les pages de discussion et d'utilisateurs ne sont pas copiées (restent dans `fandom_dump_extra/`).
@@ -59,7 +59,7 @@ Full Fandom (« le wiki à la lettre ») s'écrit `{{mode|valeur d'origine|nouve
 
 ## Étapes
 
-- [x] 1. Copie exacte du Fandom dans `wiki/`, commitée seule (`c27190c`)
+- [x] 1. Copie exacte du Fandom dans `wiki/`, commitée seule (`f7063a5`)
 - [x] 2. Les outils lisent `wiki/` ; `{{mode}}` pris en charge pour les stats ; `wiki_edits/` supprimé
 - [x] 3. Décisions reportées sur les pages :
   - 830 stats « Full Fandom seulement » en `{{mode}}` (`tools/apply_modes.py`, données identiques avant/après) ; 30
