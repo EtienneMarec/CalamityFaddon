@@ -1291,6 +1291,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   elle s'arrête (page) ; rappel par clic droit comme le vieux code (la page décrit un rappel lent en maintenant le clic,
   rapide en le relâchant : pas fait). Sea Urchin : Venom 2 s au contact (vieux code, absent de la page), insensible à
   Kami Flu (page). **[technique]** Pas de bannière pour le Sea Urchin (la tuile de bannières de Calamity a changé).
+- **[choix]** **Cosmic Elemental** (`CosmicElemental.cs`, 13/11) : code de 2.0.1.005 (IA du Granite Elemental, une chance
+  sur cent du taux des cavernes), butin de la page (Bone Sword 4 %, Starfury 2 %, Enchanted Sword 1 %, Arkhalis 0,5 % ; le
+  vieux code donnait 5 %, 2 %, 2 % et un Terragrim), immunités de la page (Confused, Poisoned, Kami Flu). Cosmic Stone et
+  Arcanoid Orb pas encore dans le mod (TODO). Pas de bannière, comme le Sea Urchin. Écartés : **Astral Ice** (existe
+  encore dans Calamity, déplacé : faux positif de legacy_extract) et **Drunk Princess** (PNJ toujours là sous un autre nom).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

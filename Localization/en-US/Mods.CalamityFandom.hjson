@@ -2135,6 +2135,11 @@ Configs: {
 }
 
 NPCs: {
+	CosmicElemental: {
+		DisplayName: Cosmic Elemental
+		Bestiary: A curious construct, and though its origins are unknown, it has been decidedly proven that the core of its body leads to somewhere not of our world.
+	}
+
 	SeaUrchin: {
 		DisplayName: Sea Urchin
 		Bestiary: A spiny animal that flings itself about in defense of its territory. If they fling themselves onto land—though relatively helpless—they can make their way back to the ocean.

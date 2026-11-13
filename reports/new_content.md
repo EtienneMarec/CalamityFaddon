@@ -1198,7 +1198,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Charm Gar — addon: Deimos, the Starborn Princess
 - [ ] Cinderlamitas — addon: Deimos, the Starborn Princess
 - [ ] Clockwork Bat
-- [ ] Cosmic Elemental
+- [x] Cosmic Elemental
 - [ ] Crown Jewel (enemy)
 - [ ] Cryocore
 - [ ] Dark Statis — addon: Catalyst

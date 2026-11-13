@@ -15,7 +15,7 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | dont avec sprite trouvé | 1398 |
 | pages marquées addon / fantag | 778 |
 | pages de wiki/ modifiées ou créées par rapport au Fandom | 557 |
-| **pages implémentées dans le mod** | **494** |
+| **pages implémentées dans le mod** | **495** |
 
 ## Types d'infobox (contenu nouveau)
 

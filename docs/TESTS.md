@@ -735,6 +735,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       frappe furtive : toutes les boules d'un coup
 - [ ] Sea Urchin : ennemi de l'océan (pas dans la Sulphurous Sea) qui bondit vers le joueur, Venom au contact, lâche
       15 à 25 Urchin Stingers
+- [ ] Cosmic Elemental : ennemi rare des cavernes (comme un Granite Elemental, se roule en boule), Confused au contact ;
+      épées rares (Bone Sword, Starfury, Enchanted Sword, Arkhalis)
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

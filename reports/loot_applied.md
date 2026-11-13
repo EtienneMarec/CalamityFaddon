@@ -4,10 +4,10 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
 - 347 drops ajoutés sur 150 PNJ
 - 111 ajouts dans 24 sacs
-- 556 drops du wiki déjà présents dans le jeu (inchangés)
+- 560 drops du wiki déjà présents dans le jeu (inchangés)
 - 121 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 25 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 173 PNJ du wiki absents du jeu, 49 objets introuvables
+- 172 PNJ du wiki absents du jeu, 50 objets introuvables
 
 ## Ajouts
 
@@ -220,6 +220,7 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Cent Striker — 1
 - Cirrhotipede — 1
 - Contaminated Dish — 1
+- Cosmic Stone — 1
 - Cursed Spear — 1
 - Death-Needle Stinger — 1
 - Devious Aestheticus — 1

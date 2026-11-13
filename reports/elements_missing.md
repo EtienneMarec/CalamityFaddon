@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 
-## PNJ (149)
+## PNJ (148)
 
 - Acidsighter
 - Aether Valkyrie
@@ -35,7 +35,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Cinderlamitas
 - Clamitas
 - Clockwork Bat
-- Cosmic Elemental
 - Cosmilite Slime
 - Crimson Kaiju
 - Crown Jewel (enemy)
