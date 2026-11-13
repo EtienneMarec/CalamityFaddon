@@ -369,7 +369,8 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.PlagueKeeper>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.TheEnforcer>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.PoisonPack>(),
                 ModContent.ItemType<Content.Legacy.Items.Potions.TeslaPotion>(), ModContent.ItemType<Content.Legacy.Items.Potions.YharimsStimulants>(),
-                ModContent.ItemType<Content.Legacy.Items.Weapons.Magic.DivineRetribution>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.HellsSun>() })
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Magic.DivineRetribution>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.HellsSun>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Ranged.MolecularManipulator>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

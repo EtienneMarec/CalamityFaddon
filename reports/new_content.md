@@ -257,7 +257,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Microhavoc — addon: Calamity: Tales of the Aquatic
 - [ ] Midas' Handshake
 - [ ] Miracle Smacker — addon: Calamitous Journeys
-- [ ] Molecular Manipulator
+- [x] Molecular Manipulator
 - [ ] Molten Piercer
 - [x] Monkey Darts
 - [ ] Moonstone Knives
@@ -1408,8 +1408,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Bleached Angling Kit
 - [ ] Contusion Fish — addon: Deimos, the Starborn Princess
 - [ ] Crates — pas de sprite; addon: Calamity: Community Remix
-- [ ] Fish of Light
-- [ ] Fish of Night
+- [x] Fish of Light
+- [x] Fish of Night
 - [ ] Flahr
 - [ ] Front Gar
 - [ ] Rear Gar

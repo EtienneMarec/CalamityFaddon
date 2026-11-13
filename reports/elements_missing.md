@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (354)
+## Objets (353)
 
 - A M S
 - AAMG "Disperse"
@@ -341,7 +341,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Meridian
 - Midas' Handshake
 - Miracle Smacker
-- Molecular Manipulator
 - Molten Piercer
 - Moonstone Knives
 - Morpho Doomblade

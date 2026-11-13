@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1368 objets dont les recettes ont changé : 1021 recettes modifiées, 430 créées
+- 1369 objets dont les recettes ont changé : 1021 recettes modifiées, 431 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -763,6 +763,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Mirage Mirror | 1 Magic Mirror, 1 Black Lens, 50 Bone @ TinkerersWorkbench → 1 | 1 Magic Mirror / Ice Mirror, 1 Black Lens, 50 Bone @ TinkerersWorkbench → 1 |
 | Mistlestorm | 1 Razorpine, 1 Leaf Blower, 10 Tarragon Bar, 3 Dark Plasma @ MythrilAnvil → 1 | 1 Razorpine, 1 Leaf Blower, 1 Catastrophe Clayspore, 7 Tarragon Bar, 1 Dark Plasma, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | MOAB | 1 Frog Leg, 1 Bundle of Horseshoe Balloons, 1 Jetpack, 1 Soul of Fright, 1 Soul of Might, 1 Soul of Sight @ MythrilAnvil → 1 | 5 Soul of Flight, 1 Bundle of Balloons, 1 Lucky Horseshoe, 1 Jetpack, 1 Soul of Sight, 1 Soul of Might, 1 Soul of Fright @ MythrilAnvil → 1 |
+| Molecular Manipulator | (nouvelle) | 1 Nullification Pistol, 2 Dark Plasma, 3 Core of Calamity @ LunarCraftingStation → 1 |
 | Money Trough | (nouvelle) | 100 Delicious Meat, 1 Alloy Bar, 1 Pink Dye @ Anvils → 1 |
 | Monolith Amalgam | 20 Astral Monolith @ Sawmill → 1 | 20 Astral Monolith @ WorkBenches → 1 |
 | Monolith Bathtub | 14 Astral Monolith @ Sawmill → 1 | 14 Astral Monolith @ MonolithAmalgam → 1 |

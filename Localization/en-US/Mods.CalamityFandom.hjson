@@ -1,4 +1,23 @@
 Items: {
+	FishofLight: {
+		DisplayName: Fish of Light
+		Tooltip: Right click to extract souls
+	}
+
+	FishofNight: {
+		DisplayName: Fish of Night
+		Tooltip: Right click to extract souls
+	}
+
+	MolecularManipulator: {
+		DisplayName: Molecular Manipulator
+		Tooltip:
+			'''
+			Is it nullable or not? Let's find out!
+			Fires a fast null bullet that distorts NPC stats
+			'''
+	}
+
 	TeslaPotion: {
 		DisplayName: Tesla Potion
 		Tooltip:
@@ -1529,6 +1548,7 @@ Items: {
 }
 
 Projectiles: {
+	NullShot2.DisplayName: Null Shot
 	DivineRetributionSpear.DisplayName: Divine Spear
 	HellsSunProj.DisplayName: Hell's Sun
 	ExplosiveSun.DisplayName: Explosive Sun

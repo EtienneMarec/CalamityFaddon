@@ -1259,6 +1259,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Amulet de Calamity existe toujours et donne l'aura (12 dégâts de la meilleure classe, pas 15 sans classe comme la
   page) ; quand le joueur a le buff de la potion, ses coups donnent en plus Static Discharge 3 s (l'« Electrified » du
   wiki) et Galvanic Corrosion 0,5 s (l'amulette seule : 1,5 s et 0,1 s, inchangé).
+- **[choix]** **Fish of Light**, **Fish of Night**, **Molecular Manipulator** (`LegacyItems1113d.cs`, 13/11) : pêche des
+  poissons selon 2.0.1.005 (Hardmode, couche des cavernes, prise peu commune, une chance sur sept ; jamais à la place
+  d'une caisse, d'un poisson de quête ou d'une créature), pile de 9999 (page). Molecular Manipulator : les dix effets de
+  la page à chances égales ; poussée de 1,875 bloc par seconde ajoutée à la vitesse, vers le haut ou sur le côté (Notes
+  de la page ; le vieux code fixait la vitesse à 30 px par image, vers le haut ou le bas) ; dégâts de contact ±20 sans
+  la mise à l'échelle par difficulté que décrit la page (jamais sous 0). **[technique]** Les changements de taille, de
+  dégâts et de défense ne sont faits que chez le tireur (comme le vieux code) : pas synchronisés en multijoueur.
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

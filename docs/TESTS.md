@@ -713,6 +713,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       cherchent les ennemis et explosent (Holy Flames, Crush Depth)
 - [ ] Hell's Sun (recette du wiki, pile de 10) : boules qui traversent les blocs, s'arrêtent puis lâchent de petits
       soleils explosifs ; frappe furtive : deux fois plus de soleils, boule plus durable ; clic droit : supprime les boules
+- [ ] Fish of Light / Fish of Night : pêchés en Hardmode dans le Hallow souterrain / la Corruption ou le Crimson
+      souterrains (prise peu commune) ; clic droit : 2 à 5 âmes de lumière / de nuit
+- [ ] Molecular Manipulator (recette du wiki, avec le Nullification Pistol) : chaque balle change l'ennemi touché (taille,
+      dégâts de contact, recul, défense, petite poussée) ; jamais les boss
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 
