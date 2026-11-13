@@ -699,6 +699,12 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       immobilise brièvement un ennemi normal (pas pendant un boss)
 - [ ] Clamor Noctus (recette du wiki : 10 exemplaires) : trois projectiles tombent du ciel vers le curseur ; les étoiles
       se collent 2 s à l'ennemi ou au sol puis explosent (Moon Burnt) ; parfois un Night Wyvern, très puissant
+- [ ] Plague Keeper (recette du wiki) : chaque coup lance un nuage vert qui traverse les blocs, sème des abeilles et
+      s'efface au bout d'une seconde ; trois abeilles au contact ; Plague
+- [ ] Poison Pack (recette du wiki, pile de 3) : autant de boules que la pile, qui roulent au sol (Poisoned) ; frappe
+      furtive : la boule relâche des nuages de spores ; clic droit : toutes les boules disparaissent
+- [ ] The Enforcer (recette du wiki) : chaque coup fait apparaître cinq flammes au-dessus de l'ennemi, qui foncent sur
+      les ennemis proches (God Slayer Inferno) ; lame lumineuse posée au sol
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

@@ -1,4 +1,14 @@
 Items: {
+	PlagueKeeper: {
+		DisplayName: Plague Keeper
+		Tooltip: Fires a plague and bee cloud
+	}
+
+	TheEnforcer: {
+		DisplayName: The Enforcer
+		Tooltip: Spawns essence flames on hit
+	}
+
 	AstralBlade: {
 		DisplayName: Astral Blade
 		Tooltip: Deals more damage the more life an enemy has left
@@ -1358,6 +1368,16 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			PoisonPack: {
+				DisplayName: Poison Pack
+				Tooltip:
+					'''
+					Throws a poisonous spiky ball. Stacks up to 3.
+					Stealth strikes cause the balls to release spore clouds
+					Right click to delete all existing spiky balls
+					'''
+			}
+
 			MonkeyDarts: {
 				DisplayName: Monkey Darts
 				Tooltip:
@@ -1477,6 +1497,9 @@ Items: {
 }
 
 Projectiles: {
+	VirulentBeeWave.DisplayName: Plague Keeper Wave
+	EssenceFlame2.DisplayName: Essence Flame
+	PoisonBol.DisplayName: Poison Ball
 	SmallCoralShot.DisplayName: Small Coral
 	BigCoral.DisplayName: Big Coral
 	ClamorNoctusStar.DisplayName: Stratus Star

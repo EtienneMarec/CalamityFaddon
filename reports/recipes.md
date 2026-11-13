@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1361 objets dont les recettes ont changé : 1021 recettes modifiées, 421 créées
+- 1364 objets dont les recettes ont changé : 1021 recettes modifiées, 424 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -890,6 +890,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Plague Cell Canister | (nouvelle) | 1 Any Iron Bar, 1 Coyote Venom @ MythrilAnvil → 1 |
 | Plague Hive | (nouvelle) | 1 Alchemical Flask, 1 Toxic Heart, 1 Hive Pack @ LunarCraftingStation → 1 |
 | Plague Infuser | 20 Plague Cell Canister, 6 Mysterious Circuitry @ Anvils → 1 | 10 Any Iron Bar, 20 Plague Cell Canister @ Anvils → 1 |
+| Plague Keeper | (nouvelle) | 1 Virulence, 1 Bee Keeper, 10 Solar Fragment, 5 Luminite Bar, 5 Infected Armor Plating, 5 Crystal of the Dryad, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Plague Reaper Mask | 1 Necro Helmet, 15 Plague Cell Canister, 11 Nanites @ MythrilAnvil → 1 | 15 Plague Cell Canister, 1 Necro Helmet, 1 Ancient Necro Helmet, 11 Essence of Myst @ MythrilAnvil → 1 |
 | Plague Reaper Striders | 1 Necro Greaves, 21 Plague Cell Canister, 17 Nanites @ MythrilAnvil → 1 | 21 Plague Cell Canister, 1 Necro Greaves, 17 Essence of Myst @ MythrilAnvil → 1 |
 | Plague Reaper Vest | 1 Necro Breastplate, 29 Plague Cell Canister, 19 Nanites @ MythrilAnvil → 1 | 29 Plague Cell Canister, 1 Necro Breastplate, 19 Essence of Myst @ MythrilAnvil → 1 |
@@ -926,6 +927,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Plasma Caster | 18 Mysterious Circuitry, 12 Dubious Plating, 8 Tarragon Bar, 4 Luminite Bar @ MythrilAnvil → 1 | 1 Reassembled Electronics, 8 Tarragon Bar, 4 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Plasma Grenade | 15 Mysterious Circuitry, 25 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 1 Cosmilite Bar, 1 Ascendant Spirit Essence, 1 Yharim Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Plasma Grenade | (nouvelle) | 3 Unholy Essence, 1 Divine Bar, 1 Cosmilite Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
+| Poison Pack | (nouvelle) | 50 Spiky Ball, 10 Jungle Spores @ Anvils → 1 |
 | Pole Warper | 25 Mysterious Circuitry, 15 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Polterghast | 1 Polterghast Trophy @ Bookcases → 1 | 1 Polterghast Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Portabulb | 20 Vernal Soil, 3 Living Shard, 5 Essence of Sunlight @ Anvils → 1 | 15 Jungle Spores, 10 Soul of Night, 10 Soul of Light, 3 Murky Paste, 1 Vine, 1 Trapper Bulb @ MythrilAnvil → 1 |
@@ -1289,6 +1291,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | The Devourer of Gods | 1 Devourer of Gods Trophy @ Bookcases → 1 | 1 Devourer of Gods Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Dragonfolly | 1 Dragonfolly Trophy @ Bookcases → 1 | 1 Dragonfolly Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Eater of Worlds | 1 Eater of Worlds Trophy @ Bookcases → 1 | 1 Eater of Worlds Trophy, 10 Conquest Fragment @ Bookcases → 1 |
+| The Enforcer | (nouvelle) | 12 Cosmilite Bar @ CosmicAnvil → 1 |
 | The Eye of Cthulhu | 1 Eye of Cthulhu Trophy @ Bookcases → 1 | 1 Eye of Cthulhu Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Hive Mind | 1 Hive Mind Trophy @ Bookcases → 1 | 1 Hive Mind Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Last Mourning | 1 The Horseman's Blade, 30 Soul of Night, 5 Reaper Tooth, 3 Ruinous Soul @ MythrilAnvil → 1 | 1 Baleful Harvester, 30 Soul of Night, 5 Reaper Tooth, 3 Ruinous Soul @ LunarCraftingStation → 1 |

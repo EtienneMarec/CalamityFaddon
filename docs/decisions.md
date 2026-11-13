@@ -1245,6 +1245,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   les débris du Night Wyvern (gores de 2.0.1.005) n'existent plus, remplacés par de la poussière.
   Laissés de côté : **Bazooka** (le système d'armes à usage limité et les Grenade Shells n'existent plus, recette avec
   Essential Essence Bar introuvable) et **Alpha Ray** (demande Genisis et Galactica Singularity, retirés aussi).
+- **[choix]** **Plague Keeper**, **Poison Pack**, **The Enforcer** (`LegacyWeapons1113b.cs`, 13/11) : code de 2.0.1.005,
+  valeurs des infobox (Plague Keeper use 19 au lieu de 20 ; Poison Pack use 18 au lieu de 19 ; The Enforcer use 16 au
+  lieu de 17, rareté 14 au lieu de Dark Blue). Ajouts d'après les pages : nuage de la Plague Keeper à -40 % une seule
+  fois en s'effaçant (le vieux code retirait 40 % à chaque mise à jour) ; God Slayer Inferno 5 s par les flammes de The
+  Enforcer (absent du vieux code). Chiffres choisis : cinq flammes (vieux code), apparues au-dessus de l'ennemi touché
+  (jusqu'à 200 px de côté, 60 px plus haut chacune) au lieu de près du curseur, pour suivre « near the enemy ».
+  **[technique]** Nuage et flammes avec les textures actuelles de Calamity (VirulentWave, EssenceFlame).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

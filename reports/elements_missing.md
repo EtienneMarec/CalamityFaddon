@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (359)
+## Objets (356)
 
 - A M S
 - AAMG "Disperse"
@@ -376,14 +376,12 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Pine's Penetrator
 - Pizza Wheel
 - Plague Caller MK III
-- Plague Keeper
 - Plaguecom Tablet
 - Plagued Minecart
 - Planetarium
 - Planterror Staff
 - Plasmaflash Bolt
 - Plumage Pow
-- Poison Pack
 - Prehistoric Tablet
 - Prism Destroyer
 - Profaned Crystal Dart
@@ -460,7 +458,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Tetrachromancy
 - The Archalis
 - The Dreaming Ghost
-- The Enforcer
 - The First Fracturer
 - The Generator
 - The Godfather

@@ -294,14 +294,14 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Pine's Penetrator — addon: Apotheosis and Friends
 - [ ] Pizza Wheel
 - [ ] Plague Caller MK III — addon: Calamity: Community Remix
-- [ ] Plague Keeper — addon: Catalyst
+- [x] Plague Keeper — addon: Catalyst
 - [ ] Plaguecom Tablet — addon: Calamity: Community Remix
 - [ ] Planetarium — addon: Calamity: Community Remix, Hypnos in Calamity
 - [ ] Planterror Staff
 - [ ] Plasmaflash Bolt — addon: Cataclysm
 - [ ] Plumage Pow
 - [x] Poison I-Bee
-- [ ] Poison Pack
+- [x] Poison Pack
 - [x] Porpoise Pistol
 - [ ] Prism Destroyer — addon: Calamity: Community Remix
 - [ ] Profaned Nucleus — addon: Calamity: Community Remix
@@ -394,7 +394,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Tetrachromancy — addon: Polyphemalus
 - [ ] The Archalis — addon: Calamity: Community Remix
 - [ ] The Dreaming Ghost — addon: Calamity: Community Remix
-- [ ] The Enforcer
+- [x] The Enforcer
 - [ ] The First Fracturer — addon: Calamity: Community Remix
 - [x] The Food Chain
 - [ ] The Generator
