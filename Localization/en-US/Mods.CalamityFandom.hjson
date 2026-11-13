@@ -1446,6 +1446,27 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			AcidicRainBarrel: {
+				DisplayName: Acidic Rain Barrel
+				Tooltip:
+					'''
+					Throws a rolling barrel that explodes on wall collision
+					Stealth strikes make it rain on collision
+					'''
+			}
+
+			Nychthemeron: {
+				DisplayName: Nychthemeron
+				Tooltip:
+					'''
+					Throws a spiky ball that ignores gravity and summons a pair of light and dark orbs that orbit the player
+					Once the spiky ball disappears the orbs will home in on the nearest target
+					Stacks up to 10
+					Stealth strikes cause all spiky balls and orbs to be thrown at once
+					Right click to recall all existing spiky balls
+					'''
+			}
+
 			HellsSun: {
 				DisplayName: Hell's Sun
 				Tooltip:
@@ -1587,6 +1608,11 @@ Items: {
 }
 
 Projectiles: {
+	GreenDonkeyKongReference.DisplayName: Barrel
+	AcidBarrelDrop.DisplayName: Acid Droplet
+	AcidShrapnel.DisplayName: Barrel Shrapnel
+	NychthemeronProjectile.DisplayName: Nychthemeron
+	NychthemeronOrb.DisplayName: Nychthemeron Orb
 	GatlingLaserProj.DisplayName: Gatling Laser
 	GatlingLaserShot.DisplayName: Gatling Laser
 	HighExplosivePeanutShell.DisplayName: High Explosive Peanut Shell
@@ -2109,6 +2135,11 @@ Configs: {
 }
 
 NPCs: {
+	SeaUrchin: {
+		DisplayName: Sea Urchin
+		Bestiary: A spiny animal that flings itself about in defense of its territory. If they fling themselves onto land—though relatively helpless—they can make their way back to the ocean.
+	}
+
 	GulletWormNPC.DisplayName: Gullet Worm
 	FandomTestDummy.DisplayName: Fandom Test Dummy
 	ArmoredDiggerHead.DisplayName: Armored Digger

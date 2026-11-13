@@ -4,10 +4,10 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
 - 347 drops ajoutés sur 150 PNJ
 - 111 ajouts dans 24 sacs
-- 555 drops du wiki déjà présents dans le jeu (inchangés)
+- 556 drops du wiki déjà présents dans le jeu (inchangés)
 - 121 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 25 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 174 PNJ du wiki absents du jeu, 49 objets introuvables
+- 173 PNJ du wiki absents du jeu, 49 objets introuvables
 
 ## Ajouts
 

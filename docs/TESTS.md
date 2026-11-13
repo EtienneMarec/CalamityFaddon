@@ -728,6 +728,13 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       pas consommée ; refusée hors du temple
 - [ ] Shroomite Visage (recettes du wiki) : 11 défense, lance-flammes plus forts ; avec le plastron et les jambières en
       shroomite : furtivité à l'arrêt
+- [ ] Acidic Rain Barrel (recette du wiki) : tonneau qui roule à travers les ennemis et éclate contre un mur en éclats
+      et gouttes acides ; frappe furtive : rebondit trois fois, plus de gouttes
+- [ ] Nychthemeron (recette du wiki, pile de 10) : boules qui flottent et ralentissent, deux orbes (lumière et ténèbres)
+      tournent autour du joueur par boule puis foncent sur les ennemis quand la boule casse ; clic droit : rappel ;
+      frappe furtive : toutes les boules d'un coup
+- [ ] Sea Urchin : ennemi de l'océan (pas dans la Sulphurous Sea) qui bondit vers le joueur, Venom au contact, lâche
+      15 à 25 Urchin Stingers
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

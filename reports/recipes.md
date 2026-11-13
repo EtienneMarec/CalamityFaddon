@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1373 objets dont les recettes ont changé : 1021 recettes modifiées, 436 créées
+- 1375 objets dont les recettes ont changé : 1021 recettes modifiées, 438 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -31,6 +31,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Acceleration Round | (nouvelle) | 150 Musket Ball, 1 Essence of Law @ Anvils → 150 |
 | Acid Dye | (nouvelle) | 2 Bottled Water, 1 Murky Paste @ DyeVat → 2 |
 | Acid Gun | 15 Acidwood, 12 Sulphuric Scale @ Anvils → 1 | 10 Sulphuric Scale, 35 Acidwood @ Anvils → 1 |
+| Acidic Rain Barrel | (nouvelle) | 1 Blast Barrel, 1 Contaminated Bile, 15 Corroded Fossil @ Anvils → 1 |
 | Adamantite Forge | 30 Adamantite Ore, 1 Hellforge @ MythrilAnvil → 1 | 30 Adamantite Ore, 1 Hellforge, 15 Alloy Bar @ Anvils → 1 |
 | Adamantite Throwing Axe | 10 Adamantite Bar @ MythrilAnvil → 1 | 1 Adamantite Bar @ MythrilAnvil → 100 |
 | Advanced Display | 10 Mysterious Circuitry, 10 Dubious Plating, 3 Life Alloy, 20 Glass @ MythrilAnvil → 1 | 10 Dubious Plating, 10 Mysterious Circuitry, 3 Core of Calamity, 20 Glass, 3 Essential Essence Bar @ MythrilAnvil → 1 |
@@ -823,6 +824,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Night's Stabber | (nouvelle) | 1 Tomatus, 1 Leeching Dagger / Bloody Rupture, 1 Ancient Shiv, 1 Spore Knife, 15 Rotten Matter, 10 Purified Gel @ DemonAltar → 1 |
 | Nightmare Dye | 3 Bottled Water, 5 Nightmare Fuel @ DyeVat → 3 | 2 Bottled Water, 5 Nightmare Fuel @ DyeVat → 2 |
 | Nucleogenesis | 1 Star-Tainted Generator, 1 Statis' Curse, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Star-Tainted Generator, 1 Statis' Curse, 8 Luminite Bar, 4 Galactica Singularity, 4 Ascendant Spirit Essence, 4 Yharim Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
+| Nychthemeron | (nouvelle) | 30 Spiky Ball, 1 Light Shard, 1 Dark Shard, 2 Any Mythril Bar @ MythrilAnvil → 1 |
 | Obsidian Rose | (nouvelle) | 20 Lava Bucket, 10 Obsidian, 10 Hellstone @ Anvils → 1 |
 | Obsidian Skin Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Occult Skull Crown | 1 Heart of Darkness, 1 Laudanum, 1 Stress Pills, 3 Twisting Nether @ MythrilAnvil → 1 | 1 Heart of Darkness, 1 Laudanum, 1 Stress Pills, 20 Nightmare Fuel, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |

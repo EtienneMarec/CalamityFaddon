@@ -373,7 +373,8 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Ranged.MolecularManipulator>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.YanmeisKnife>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.DraedonsArsenal.GatlingLaser>(),
-                ModContent.ItemType<Content.Legacy.Items.SummonItems.OldPowerCell>(), ModContent.ItemType<Content.Legacy.Items.Armor.ShroomiteVisage>() })
+                ModContent.ItemType<Content.Legacy.Items.SummonItems.OldPowerCell>(), ModContent.ItemType<Content.Legacy.Items.Armor.ShroomiteVisage>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.AcidicRainBarrel>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.Nychthemeron>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

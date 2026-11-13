@@ -1284,6 +1284,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   infobox (Old Power Cell use 45 au lieu de 10 ; Shroomite Visage vendu 6 or). Lance-flammes = armes à distance qui
   utilisent du gel (Calamity n'a plus sa liste de lance-flammes) ; texte du bonus d'ensemble : celui de la shroomite
   vanilla.
+- **[choix]** **Acidic Rain Barrel**, **Nychthemeron** (`LegacyWeapons1113h.cs`), **Sea Urchin** (`SeaUrchin.cs`) (13/11) :
+  code de 2.0.1.005, valeurs des infobox et des pages. Acidic Rain Barrel : use 21 au lieu de 22 ; gouttes avec les trois
+  debuffs de la page (Irradiated 3 à 5 s ; Poisoned 1 à 3 s une fois sur deux ; Sulphuric Poisoning 1 à 2 s une fois sur
+  huit ; le vieux code ne donnait qu'Irradiated 3 s). Nychthemeron : use 19 au lieu de 20 ; la boule casse aussi quand
+  elle s'arrête (page) ; rappel par clic droit comme le vieux code (la page décrit un rappel lent en maintenant le clic,
+  rapide en le relâchant : pas fait). Sea Urchin : Venom 2 s au contact (vieux code, absent de la page), insensible à
+  Kami Flu (page). **[technique]** Pas de bannière pour le Sea Urchin (la tuile de bannières de Calamity a changé).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

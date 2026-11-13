@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 
-## PNJ (150)
+## PNJ (149)
 
 - Acidsighter
 - Aether Valkyrie
@@ -126,7 +126,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Pyrogen
 - R.OST
 - Sand Tortoise
-- Sea Urchin
 - Serial Designation N
 - Side Mollusk
 - Sigmund
@@ -155,7 +154,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (350)
+## Objets (348)
 
 - A M S
 - AAMG "Disperse"
@@ -163,7 +162,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Abysscent Pistol
 - Ace's Low
 - Acid Bow
-- Acidic Rain Barrel
 - Aegis Core
 - Aergian Technistaff
 - Aero Bolt
@@ -350,7 +348,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Noctic Weaver
 - Nocturnal Odyssey
 - Noxcalibur
-- Nychthemeron
 - Nystagmus
 - Obsidigun
 - Ogscule

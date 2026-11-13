@@ -10,7 +10,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Abysscent Pistol — addon: Calamity: Tales of the Aquatic
 - [ ] Ace's Low — addon: Calamity: Community Remix
 - [ ] Acid Bow
-- [ ] Acidic Rain Barrel
+- [x] Acidic Rain Barrel
 - [ ] Aergian Technistaff — addon: Hypnos in Calamity
 - [ ] Aeries
 - [ ] Aero Bolt — addon: Calamity: Community Remix
@@ -270,7 +270,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Noctic Weaver — addon: Calamity: Tales of the Aquatic
 - [ ] Nocturnal Odyssey — addon: Calamity: Tales of the Aquatic
 - [ ] Noxcalibur
-- [ ] Nychthemeron
+- [x] Nychthemeron
 - [ ] Nystagmus — addon: Polyphemalus
 - [ ] OPFT "Sublimate" — pas de sprite
 - [ ] Obsidigun
@@ -1120,7 +1120,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] R.OST
 - [ ] Rodent.tmod
 - [ ] Sand Tortoise
-- [ ] Sea Urchin
+- [x] Sea Urchin
 - [ ] Stiriatic Walkie — addon: Calamity: Tales of the Aquatic
 - [ ] Tall Man
 - [ ] Wulfrum Mine
