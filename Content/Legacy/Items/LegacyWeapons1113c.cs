@@ -38,7 +38,7 @@ namespace CalamityFandom.Content.Legacy.Items.Potions
     }
 
     /// <summary>
-    /// Wiki : Yharim's Stimulants.txt — +6 % de dégâts, +2 % de critique, +5 % de vitesse de minage, +100 % de recul des
+    /// Wiki : Yharim_s Stimulants.txt — +6 % de dégâts, +2 % de critique, +5 % de vitesse de minage, +100 % de recul des
     /// sbires, +15 % de vitesse de déplacement, +6 % de réduction des dégâts, +8 défense ; 30 minutes.
     /// </summary>
     public class YharimsStimulants : LegacyBuffPotion
@@ -146,7 +146,7 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Magic
 namespace CalamityFandom.Content.Legacy.Items.Weapons.Rogue
 {
     /// <summary>
-    /// Wiki : Hell's Sun.txt — boule qui défie la gravité et traverse les blocs (autant que la pile, 10 au plus), s'arrête,
+    /// Wiki : Hell_s Sun.txt — boule qui défie la gravité et traverse les blocs (autant que la pile, 10 au plus), s'arrête,
     /// puis lâche de petits soleils qui explosent (Holy Flames : 3 s par la boule, 2 s par les soleils) ; 20 coups au
     /// plus ; frappe furtive : soleils deux fois plus fréquents, boule qui dure et perce davantage ; clic droit : supprime
     /// toutes les boules.

@@ -30,7 +30,7 @@ using Terraria.ModLoader;
 namespace CalamityFandom.Content.Legacy.Items.Weapons.Ranged
 {
     /// <summary>
-    /// Wiki : Dodu's Handcannon.txt — tire des coques de cacahuète explosives très rapides, quelle que soit la balle
+    /// Wiki : Dodu_s Handcannon.txt — tire des coques de cacahuète explosives très rapides, quelle que soit la balle
     /// (explosion à la moitié des dégâts).
     /// </summary>
     public class DodusHandcannon : ModItem
@@ -67,7 +67,7 @@ namespace CalamityFandom.Content.Legacy.Items.Weapons.Ranged
 namespace CalamityFandom.Content.Legacy.Items.Weapons.Typeless
 {
     /// <summary>
-    /// Wiki : Yanmei's Knife.txt — entaille verte devant le joueur, puis 3 s sans pouvoir s'en servir ; toucher un boss, un
+    /// Wiki : Yanmei_s Knife.txt — entaille verte devant le joueur, puis 3 s sans pouvoir s'en servir ; toucher un boss, un
     /// mini-boss ou leurs serviteurs donne Kami Injection au joueur (+15 % de vitesse et de dégâts, 10 s) et Kami Flu à
     /// la cible (réduction des dégâts -20 %, 125 PV/s, 10 s).
     /// </summary>

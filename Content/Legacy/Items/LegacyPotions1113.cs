@@ -14,7 +14,7 @@ using Terraria.ModLoader;
 namespace CalamityFandom.Content.Legacy.Items.Potions
 {
     /// <summary>
-    /// Wiki : Calamitas' Brew.txt — buff Abyssal Weapon 15 min : +5 % de vitesse de déplacement, les coups de mêlée et de spy
+    /// Wiki : Calamitas_ Brew.txt — buff Abyssal Weapon 15 min : +5 % de vitesse de déplacement, les coups de mêlée et de spy
     /// infligent Abyssal Flames (6 s une fois sur quatre, sinon 4 s ou 2 s à chances égales).
     /// </summary>
     public class CalamitasBrew : LegacyBuffPotion

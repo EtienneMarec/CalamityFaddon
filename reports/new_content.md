@@ -129,7 +129,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Dissfusion Disk — addon: Calamity: Tales of the Aquatic
 - [x] Divine Retribution
 - [ ] Doctrine Spear — addon: Calamity: Tales of the Aquatic
-- [ ] Dodu's Handcannon
+- [x] Dodu's Handcannon
 - [ ] Draftogen — addon: Calamity: Community Remix
 - [ ] Dragon Flame Barrage — addon: Calamity: Community Remix
 - [ ] Driftorcher — addon: Calamity: Community Remix
@@ -208,7 +208,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Helios Partisan — addon: Calamity: Tales of the Aquatic
 - [x] Hell Burst
 - [ ] Hell's Bells
-- [ ] Hell's Sun
+- [x] Hell's Sun
 - [ ] Hemorr-Rang — addon: Calamity: Community Remix
 - [ ] Heterochromia — addon: Polyphemalus
 - [ ] Hi-Scan Camera
@@ -470,7 +470,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] XB-∞ Hekate — addon: Calamity: Community Remix
 - [ ] Xemilumeniscent Staff — addon: Tranquility Mod
 - [ ] Xenon Cutlass — addon: Calamity: Community Remix
-- [ ] Yanmei's Knife
+- [x] Yanmei's Knife
 - [x] Zweihandromeda
 
 ## Crafting material (149)
@@ -1010,7 +1010,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Bagel Nuts
 - [x] Barolegs
 - [x] Cadance Potion
-- [ ] Calamitas' Brew
+- [x] Calamitas' Brew
 - [x] Calamitea
 - [x] Carnal Corn
 - [ ] Chaotic Grapes — addon: Calamity: Tales of the Aquatic
@@ -1062,7 +1062,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Triumph Potion
 - [ ] YashBrowns — addon: Calamity: Community Remix
 - [x] Yharic Delight
-- [ ] Yharim's Stimulants
+- [x] Yharim's Stimulants
 - [x] Zumbo Sauce
 
 ## Enemy (58)
