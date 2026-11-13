@@ -1252,6 +1252,13 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Enforcer (absent du vieux code). Chiffres choisis : cinq flammes (vieux code), apparues au-dessus de l'ennemi touché
   (jusqu'à 200 px de côté, 60 px plus haut chacune) au lieu de près du curseur, pour suivre « near the enemy ».
   **[technique]** Nuage et flammes avec les textures actuelles de Calamity (VirulentWave, EssenceFlame).
+- **[choix]** **Tesla Potion**, **Yharim's Stimulants**, **Divine Retribution**, **Hell's Sun** (`LegacyWeapons1113c.cs`,
+  13/11) : code de 2.0.1.005, valeurs des infobox (Hell's Sun 85 dégâts au lieu de 240, use 14 au lieu de 15, multiplicateur
+  de frappe furtive x0,12 gardé). Yharim's Stimulants : les sept effets de la page (le vieux code en avait d'autres :
+  +10 défense, +25 % recul, +7,5 % vitesse de mêlée...). **[technique]** Tesla Potion : le drapeau `tesla` du Tesla's
+  Amulet de Calamity existe toujours et donne l'aura (12 dégâts de la meilleure classe, pas 15 sans classe comme la
+  page) ; quand le joueur a le buff de la potion, ses coups donnent en plus Static Discharge 3 s (l'« Electrified » du
+  wiki) et Galvanic Corrosion 0,5 s (l'amulette seule : 1,5 s et 0,1 s, inchangé).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

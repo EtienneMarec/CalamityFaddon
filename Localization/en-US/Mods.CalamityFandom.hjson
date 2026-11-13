@@ -1,4 +1,24 @@
 Items: {
+	TeslaPotion: {
+		DisplayName: Tesla Potion
+		Tooltip:
+			'''
+			Summons an aura of electricity that electrifies and slows enemies
+			Aura damage is reduced on bosses
+			Reduces the duration of the Electrified debuff
+			'''
+	}
+
+	YharimsStimulants: {
+		DisplayName: Yharim's Stimulants
+		Tooltip: Gives decent buffs to ALL offensive and defensive stats
+	}
+
+	DivineRetribution: {
+		DisplayName: Divine Retribution
+		Tooltip: Mage is superior to rogue; look, we got a donor weapon to prove it!
+	}
+
 	PlagueKeeper: {
 		DisplayName: Plague Keeper
 		Tooltip: Fires a plague and bee cloud
@@ -1368,6 +1388,18 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			HellsSun: {
+				DisplayName: Hell's Sun
+				Tooltip:
+					'''
+					The Subterranean Sun in the palm of your hand.
+					Shoots a gravity-defying spiky ball. Stacks up to 10.
+					Once stationary, periodically emits small suns that explode on hit
+					Stealth strikes emit suns at a faster rate and last for a longer amount of time
+					Right click to delete all existing spiky balls
+					'''
+			}
+
 			PoisonPack: {
 				DisplayName: Poison Pack
 				Tooltip:
@@ -1497,6 +1529,9 @@ Items: {
 }
 
 Projectiles: {
+	DivineRetributionSpear.DisplayName: Divine Spear
+	HellsSunProj.DisplayName: Hell's Sun
+	ExplosiveSun.DisplayName: Explosive Sun
 	VirulentBeeWave.DisplayName: Plague Keeper Wave
 	EssenceFlame2.DisplayName: Essence Flame
 	PoisonBol.DisplayName: Poison Ball
@@ -1708,6 +1743,16 @@ Elements: {
 }
 
 Buffs: {
+	TeslaBuff: {
+		DisplayName: Tesla's Electricity
+		Description: Summons an aura of electricity
+	}
+
+	YharimPower: {
+		DisplayName: Yharim's Power
+		Description: You feel like you can break the world in two...with your bare hands!
+	}
+
 	HolyWrathBuff: {
 		DisplayName: Holy Wrath
 		Description: Increased damage, increased movement and flight speed, and all attacks inflict holy fire

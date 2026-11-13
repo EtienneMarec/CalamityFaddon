@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1364 objets dont les recettes ont changé : 1021 recettes modifiées, 424 créées
+- 1368 objets dont les recettes ont changé : 1021 recettes modifiées, 430 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -397,6 +397,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Disgusting Meat | (nouvelle) | 1 Bloody Vein, 5000 Delicious Meat @ Bottles → 5000 |
 | Disorderful Soul Artifact | (nouvelle) | 25 Chaosplate, 5 Bloodstone Bar, 25 Exodium Cluster @ DemonAltar → 1 |
 | Disseminator | (nouvelle) | 1 Conference Call, 5 Luminite Bar @ LunarCraftingStation → 1 |
+| Divine Retribution | (nouvelle) | 8 Divine Bar, 1 Undine's Retribution, 6 Tarragon Bar, 10 Unholy Essence @ LunarCraftingStation → 1 |
 | Draconic Destruction | 5 Shadowspec Bar, 10 Solar Fragment, 3 Essence of Sunlight, 3 Essence of Eleum @ DraedonsForge → 1 | 5 Shadowspec Bar, 3 Core of Sunlight, 3 Core of Eleum, 10 Solar Fragment @ DraedonsForge → 1 |
 | Dragon Pow | 1 Mourningstar, 1 Dao of Pow, 1 Flower Pow, 1 Flairon, 1 Ball O' Fugu, 1 Tumbleweed, 5 Auric Bar, 4 Yharon Soul Fragment @ CosmicAnvil → 1 | 1 Mourningstar, 1 Dao of Pow, 1 Flower Pow, 1 Flairon, 1 Ball O' Fugu, 1 Tumbleweed, 1 Urchin Flail, 5 Auric Bar, 4 Yharon Soul Fragment @ CosmicAnvil → 1 |
 | Dragon Soul Dye | 3 Bottled Water, 1 Yharon Soul Fragment @ DyeVat → 3 | 2 Bottled Water, 1 Yharon Soul Fragment @ DyeVat → 2 |
@@ -634,6 +635,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Heartreach Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Heavy Laser Rifle | 15 Mysterious Circuitry, 15 Dubious Plating, 8 Tarragon Bar, 4 Luminite Bar @ MythrilAnvil → 1 | 1 Reassembled Electronics, 8 Tarragon Bar, 4 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Helium Flash | 1 Venusian Trident, 1 Forbidden Sun, 5 Auric Bar, 10 Solar Fragment, 5 Nebula Fragment @ CosmicAnvil → 1 | 1 Venusian Trident, 1 Lashes of Chaos, 1 Forbidden Sun, 20 Solar Fragment, 5 Nebula Fragment, 1 Auric Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
+| Hell's Sun | (nouvelle) | 100 Spiky Ball, 10 Unholy Essence, 1 Profaned Core @ LunarCraftingStation → 1 |
 | Hellfire Flamberge | 10 Abyss Bar @ MythrilAnvil → 1 | 15 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Hellion Flower Spear | 10 Perennial Bar @ MythrilAnvil → 1 | 12 Perennial Bar, 1 Chlorophyte Partisan @ MythrilAnvil → 1 |
 | Hellkite | (nouvelle) | 8 Perennial Bar, 1 Volcano, 1 Seedler @ MythrilAnvil → 1 |
@@ -1276,6 +1278,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Terror Blade | (nouvelle) | 5 Haunted Bar @ LunarCraftingStation → 1 |
 | Terror Talons | 5 Chlorophyte Bar, 10 Leather @ MythrilAnvil → 1 | 1 Feral Claws, 5 Chlorophyte Bar, 10 Soul of Fright @ MythrilAnvil → 1 |
 | Tesla Cannon | 25 Mysterious Circuitry, 15 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| Tesla Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Tesla Potion | (nouvelle) | 1 Bottled Water, 2 Fallen Star, 5 Cactus, 1 Lava Bucket @ Bottles → 5 |
 | Thaumatic Chair | 1 Abyss Chair, 1 Acidwood Chair, 1 Ancient Chair, 1 Ashen Chair, 1 Botanic Chair, 1 Cosmilite Chair, 1 Eutrophic Chair, 1 Exo Chair, 1 Marnite Chair, 1 Monolith Chair, 1 Sacrilegious Chair, 1 Otherworldly Chair, 1 Plagued Chair, 1 Profaned Chair, 1 Silva Chair, 1 Statigel Chair, 1 Stratus Chair, 1 Void Chair, 1 Wulfrum Chair, 1 Auric Bar @ CosmicAnvil → 1 | 1 Abyss Chair, 1 Ashen Chair, 1 Botanic Chair, 1 Cosmilite Chair, 1 Eutrophic Chair, 1 Monolith Chair, 1 Otherworldly Chair, 1 Plagued Chair, 1 Profaned Chair, 1 Silva Chair, 1 Statigel Chair, 1 Stratus Chair, 1 Void Chair, 1 Auric Bar @ CosmicAnvil → 1 |
 | The Absorber | 1 Grand Gelatin, 1 Baroclaw, 1 Giant Tortoise Shell, 5 Mollusk Husk, 14 Meld Blob @ LunarCraftingStation → 1 | 1 Grand Gelatin, 1 Craw Carapace / Giant Shell, 1 Fungal Carapace, 1 Giant Tortoise Shell, 1 Regenator, 1 Rover Drive, 15 Depth Cells, 15 Lumenyl, 5 Tenebris, 5 Mollusk Husk, 10 Essential Essence Bar, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | The Amalgam | 1 Amalgamated Brain, 4 Ascendant Spirit Essence, 12 Ashes of Calamity, 15 Essence of Eleum, 15 Plague Cell Canister, 20 Depth Cells, 4 Armored Shell @ CosmicAnvil → 1 | 1 Amalgamated Brain, 1 Void of Extinction, 1 The Camper, 1 Plague Hive, 1 Corrosive Spine, 1 Leviathan Ambergris, 1 Spore Sac, 1 Blazing Core, 1 The Evolution, 1 Affliction, 1 Giant Pearl, 1 Frost Flare, 1 Astral Arcanum, 1 Sulfuric Scale, 15 Corroded Fossil, 5 Unholy Core, 10 Mollusk Husk, 15 Plague Cell Canister, 4 Ascendant Spirit Essence, 5 Cosmilite Bar, 99 Yharim Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
@@ -1450,6 +1454,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Yellow Seeking Mechanism | 1 Lab Seeking Mechanism, 20 Cloud @ Anvils → 1 | 1 Lab Seeking Mechanism, 50 Ice Block @ Anvils → 1 |
 | Yharic Delight | (nouvelle) | 1 Yharim Bar, 1 Yharon Soul Fragment @ CookingPots → 20 |
 | Yharim's Insignia | 1 Soaring Insignia, 5 Effulgent Feather, 5 Divine Bar, 10 Soul of Flight @ MythrilAnvil → 1 | 10 Luminite Bar, 3 Astral Bar, 1 Surgical Glove, 1 Delicious Meat @ LunarCraftingStation → 1 |
+| Yharim's Stimulants | (nouvelle) | 25 Bottled Water, 1 Endurance Potion, 1 Ironskin Potion, 1 Coyote Venom @ AlchemyTable → 1 |
+| Yharim's Stimulants | (nouvelle) | 1 Bottled Water, 1 Coyote Venom, 5 Unholy Core @ AlchemyTable → 1 |
 | Yin-Yo | 1 Valor, 1 Dark Shard, 1 Light Shard, 7 Soul of Light, 7 Soul of Night @ Anvils → 1 | 1 Dark Shard, 1 Light Shard @ Anvils → 1 |
 | Zen Potion | 1 Bottled Water, 2 Purified Gel, 3 Daybloom @ AlchemyTable → 1 | 256 Delicious Meat, 1 Pink Gel, 1 Daybloom, 1 Bottled Water @ AlchemyTable → 1 |
 | Zen Potion | 1 Bottled Water, 5 Blood Orb, 2 Purified Gel @ AlchemyTable → 1 | 1 Bottled Water, 2 Unholy Core, 256 Delicious Meat @ AlchemyTable → 1 |

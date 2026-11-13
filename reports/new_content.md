@@ -128,7 +128,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Diseased Pike
 - [x] Disseminator
 - [ ] Dissfusion Disk — addon: Calamity: Tales of the Aquatic
-- [ ] Divine Retribution
+- [x] Divine Retribution
 - [ ] Doctrine Spear — addon: Calamity: Tales of the Aquatic
 - [ ] Dodu's Handcannon
 - [ ] Draftogen — addon: Calamity: Community Remix

@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (356)
+## Objets (354)
 
 - A M S
 - AAMG "Disperse"
@@ -245,7 +245,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Dissfusion Disk
 - Divine Hunters Staff
 - Divine Intervention
-- Divine Retribution
 - Doctrine Spear
 - Dodu's Handcannon
 - Draftogen
@@ -315,7 +314,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Heavenwing Staff
 - Helios Partisan
 - Hell's Bells
-- Hell's Sun
 - Hemorr-Rang
 - Heterochromia
 - Hi-Scan Camera

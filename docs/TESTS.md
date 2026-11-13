@@ -705,6 +705,14 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       furtive : la boule relâche des nuages de spores ; clic droit : toutes les boules disparaissent
 - [ ] The Enforcer (recette du wiki) : chaque coup fait apparaître cinq flammes au-dessus de l'ennemi, qui foncent sur
       les ennemis proches (God Slayer Inferno) ; lame lumineuse posée au sol
+- [ ] Tesla Potion (recettes du wiki, 8 min) : aura électrique du Tesla's Amulet autour du joueur ; les ennemis touchés
+      ralentissent (Galvanic Corrosion) et prennent Static Discharge 3 s
+- [ ] Yharim's Stimulants (recettes du wiki, 30 min) : +6 % dégâts, +2 % critique, +8 défense, +6 % réduction des
+      dégâts, +15 % vitesse, minage plus rapide
+- [ ] Divine Retribution (recette du wiki) : cinq lances jaillissent d'en dessous vers le curseur, traversent les blocs,
+      cherchent les ennemis et explosent (Holy Flames, Crush Depth)
+- [ ] Hell's Sun (recette du wiki, pile de 10) : boules qui traversent les blocs, s'arrêtent puis lâchent de petits
+      soleils explosifs ; frappe furtive : deux fois plus de soleils, boule plus durable ; clic droit : supprime les boules
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 
