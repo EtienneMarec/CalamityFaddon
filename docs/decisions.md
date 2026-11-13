@@ -1296,6 +1296,14 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   vieux code donnait 5 %, 2 %, 2 % et un Terragrim), immunités de la page (Confused, Poisoned, Kami Flu). Cosmic Stone et
   Arcanoid Orb pas encore dans le mod (TODO). Pas de bannière, comme le Sea Urchin. Écartés : **Astral Ice** (existe
   encore dans Calamity, déplacé : faux positif de legacy_extract) et **Drunk Princess** (PNJ toujours là sous un autre nom).
+- **[choix]** **Calamitas' Brew** (`LegacyPotions1113.cs`, 13/11) : potion de 2022-10, valeurs de la page (Lime, 15 min).
+  Le buff Abyssal Weapon inflige **Abyssal Flames** (`Content/Buffs/AbyssalFlames.cs`), debuff créé d'après sa page (en
+  2022, la potion donnait déjà les Brimstone Flames de Calamity, et Abyssal Flames n'existe plus) : pas de régénération,
+  -6 défense, joueur -8 PV/s, ennemi -62,5 PV/s (78,5 avec Oiled), ennemi teinté de noir avec des particules rouge
+  sang. Durées de la page : 6 s une fois sur quatre, 4 s ou 2 s sinon. Icônes des deux buffs : images du wiki. TODO :
+  Supreme Calamitas, ses frères, Sepulcher et les Soul Seekers devraient l'infliger au joueur (page).
+- **[choix]** **Aero Dynamite** = la Skynamite actuelle (même projectile AeroExplosive,
+  renommée par Calamity) : renommage ajouté au glossaire, pas de portage.
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

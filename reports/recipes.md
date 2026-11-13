@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1375 objets dont les recettes ont changé : 1021 recettes modifiées, 438 créées
+- 1377 objets dont les recettes ont changé : 1022 recettes modifiées, 440 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -38,6 +38,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Aerial Hamaxe | 10 Aerialite Bar @ Anvils → 1 | 1 Gusthammer, 1 Windslasher, 2 Aerialite Bar, 10 Cinderplate @ SkyMill → 1 |
 | Aerialite Bar | 3 Aerialite Ore @ Furnaces → 1 | 4 Aerialite Ore @ Furnaces → 1 |
 | Aerialite Brick | 25 Any Stone Block, 1 Aerialite Ore @ Furnaces → 25 | 1 Aerialite Ore, 1 Stone Block @ Furnaces → 1 |
+| Aero Dynamite | 1 Dynamite @ SkyMill → 1 | 1 Aerialite Bar, 10 Dynamite @ SkyMill → 10 |
 | Aeroplate | (nouvelle) | 1 Essence of Babil, 3 Obsidian @ Hellforge → 3 |
 | Aeroplate | (nouvelle) | 4 Aeroplate Wall @ WorkBenches → 1 |
 | Aeroplate Wall | (nouvelle) | 1 Aeroplate @ WorkBenches → 4 |
@@ -265,6 +266,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Cadance Potion | (nouvelle) | 1 Bottled Water, 4 Unholy Core @ AlchemyTable → 1 |
 | Calamitas | 1 Supreme Calamitas Trophy @ Bookcases → 1 | 1 Supreme Calamitas Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Calamitas Clone | 1 Calamitas Trophy @ Bookcases → 1 | 1 Calamitas Trophy, 10 Conquest Fragment @ Bookcases → 1 |
+| Calamitas' Brew | (nouvelle) | 3 Ashes of Calamity, 3 Bottled Water, 1 Brimstone Fish @ ImbuingStation → 3 |
+| Calamitas' Brew | (nouvelle) | 20 Blood Orb, 1 Bottled Water, 1 Ashes of Calamity @ ImbuingStation → 1 |
 | Calcium Potion | 1 Bottled Water, 5 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Calcium Potion | 1 Bottled Water, 1 Ancient Bone Dust @ Bottles → 1 | 1 Bottled Water, 1 Bone @ Bottles → 1 |
 | Caliburn | (nouvelle) | 8 Hallowed Bar @ MythrilAnvil → 1 |

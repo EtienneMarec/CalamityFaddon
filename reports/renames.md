@@ -14,6 +14,7 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Acid Round | Bubonic Round | BubonicRound |
 | Adrenaline Meter | Adrenaline Mode | AdrenalineMode |
 | Adult Eidolon Wyrm | Primordial Wyrm | PrimordialWyrmHead |
+| Aero Dynamite | Skynamite | Skynamite |
 | Alchemical Flask | Alchemical Decanter | AlchemicalDecanter |
 | Amidias' Spark | Ilmeris' Spark | IlmerisSpark |
 | Astral Arcanum | Radiance | Radiance |

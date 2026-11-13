@@ -2,7 +2,7 @@
 
 _Généré par `tools/gen_localization.py`._
 
-353 textes modifiés, dont 237 noms.
+354 textes modifiés, dont 238 noms.
 
 Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom Brick Wall, Hide of Astrum Deus, Uelibloom Brick, Realm Ravager, going rogue, goes rogue, gone rogue, went rogue, go rogue.
 
@@ -190,6 +190,7 @@ Noms officiels conservés car ils ont encore leur page sur le wiki : Uelibloom B
 | `NPCs.SightseerSpitter.DisplayName` | Sightseer Spitter | Big Sightseer |
 | `NPCs.Signus.DisplayName` | Signus | Signus, Envoy of the Devourer |
 | `Items.Placeables.SilvaBasin.DisplayName` | Silva Basin | Effulgent Manipulator |
+| `Items.Weapons.Typeless.Skynamite.DisplayName` | Skynamite | Aero Dynamite |
 | `Items.Ammo.SproutingArrow.DisplayName` | Sprouting Arrow | Terra Arrow |
 | `Items.Weapons.Magic.StarShower.DisplayName` | Star Shower | Starfall |
 | `Items.Materials.StarblightSoot.DisplayName` | Starblight Soot | Stardust |

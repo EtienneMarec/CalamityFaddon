@@ -737,6 +737,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       15 à 25 Urchin Stingers
 - [ ] Cosmic Elemental : ennemi rare des cavernes (comme un Granite Elemental, se roule en boule), Confused au contact ;
       épées rares (Bone Sword, Starfury, Enchanted Sword, Arkhalis)
+- [ ] Calamitas' Brew (recettes du wiki, 15 min) : +5 % de vitesse, flammes autour de la lame ; les coups de mêlée et
+      de spy infligent Abyssal Flames (ennemi assombri, particules rouge sang, perd de la vie, -6 défense)
+- [ ] Aero Dynamite : la Skynamite de Calamity porte le nom du wiki (recette du wiki : 10 Dynamites + 1 Aerialite Bar)
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

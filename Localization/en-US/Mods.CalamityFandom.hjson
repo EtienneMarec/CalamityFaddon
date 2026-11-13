@@ -1,4 +1,13 @@
 Items: {
+	CalamitasBrew: {
+		DisplayName: Calamitas' Brew
+		Tooltip:
+			'''
+			Adds abyssal flames to your melee and rogue projectiles and melee attacks
+			Increases your movement speed by 5%
+			'''
+	}
+
 	OldPowerCell: {
 		DisplayName: Old Power Cell
 		Tooltip:
@@ -1832,6 +1841,16 @@ Elements: {
 }
 
 Buffs: {
+	AbyssalWeapon: {
+		DisplayName: Abyssal Weapon
+		Description: Melee and rogue weapons inflict abyssal flames, 5% increased movement speed
+	}
+
+	AbyssalFlames: {
+		DisplayName: Abyssal Flames
+		Description: Your soul is being consumed
+	}
+
 	KamiBuff: {
 		DisplayName: Kami Injection
 		Description: Increased movement speed and damage

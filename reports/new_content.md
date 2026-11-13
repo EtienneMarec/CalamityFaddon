@@ -2,7 +2,7 @@
 
 _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne correspond à aucun DisplayName de Calamity. Attention : des objets vanilla ou des pages renommées peuvent s'y glisser.
 
-## Weapon (469)
+## Weapon (468)
 
 - [ ] A M S
 - [ ] AAMG "Disperse" — pas de sprite; addon: Calamity: Tales of the Aquatic
@@ -14,7 +14,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Aergian Technistaff — addon: Hypnos in Calamity
 - [ ] Aeries
 - [ ] Aero Bolt — addon: Calamity: Community Remix
-- [ ] Aero Dynamite
 - [ ] Aflaming Crystalliser
 - [x] Aftershock
 - [ ] Alpha Ray
@@ -873,7 +872,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 ## Debuff (65)
 
 - [x] Ablaze — pas de sprite
-- [ ] Abyssal Flames
+- [x] Abyssal Flames
 - [ ] Accelerated Photosynthesis
 - [x] Ancient Astral Blight
 - [ ] Astral Infection (debuff)

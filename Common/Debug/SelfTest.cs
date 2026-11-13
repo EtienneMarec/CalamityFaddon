@@ -374,7 +374,8 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.YanmeisKnife>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.DraedonsArsenal.GatlingLaser>(),
                 ModContent.ItemType<Content.Legacy.Items.SummonItems.OldPowerCell>(), ModContent.ItemType<Content.Legacy.Items.Armor.ShroomiteVisage>(),
-                ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.AcidicRainBarrel>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.Nychthemeron>() })
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.AcidicRainBarrel>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.Nychthemeron>(),
+                ModContent.ItemType<Content.Legacy.Items.Potions.CalamitasBrew>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -389,6 +390,9 @@ namespace CalamityFandom.Common.Debug
             // 02/11 : Augur of the Void de Calamity sous le nom du wiki, murs du wiki qui se posent
             if (ModContent.TryFind<ModItem>("CalamityMod", "AuguroftheVoid", out var augur))
                 Expect(WikiRecipes.ResolveItem("Augar of the Elements") == augur.Type, "Augur of the Void renommé Augar of the Elements");
+            // 13/11 : Skynamite de Calamity sous le nom du wiki
+            if (ModContent.TryFind<ModItem>("CalamityMod", "Skynamite", out var skynamite))
+                Expect(WikiRecipes.ResolveItem("Aero Dynamite") == skynamite.Type, "Skynamite renommée Aero Dynamite");
             int chaoticWall = WikiRecipes.ResolveItem("Chaotic Brick Wall");
             Expect(chaoticWall > 0 && ContentSamples.ItemsByType[chaoticWall].createWall > 0, "Chaotic Brick Wall se pose (mur du wiki)");
             // The Insacred Texts (31/10) : lâché par les Zombies (5 %) ; les infobulles des armes Rogue sont dans Items.Weapons.Rogue
