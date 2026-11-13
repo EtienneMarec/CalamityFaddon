@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1371 objets dont les recettes ont changé : 1021 recettes modifiées, 433 créées
+- 1373 objets dont les recettes ont changé : 1021 recettes modifiées, 436 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -830,6 +830,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Old Hunter Hat | 1 Desert Prowler Hat, 1 Black Ink @ DyeVat → 1 | 1 Black Ink, 1 Desert Prowler Hat @ Loom → 1 |
 | Old Hunter Pants | 1 Desert Prowler Pants, 1 Black Ink @ DyeVat → 1 | 1 Black Ink, 1 Desert Prowler Pants @ Loom → 1 |
 | Old Hunter Shirt | 1 Desert Prowler Shirt, 1 Black Ink @ DyeVat → 1 | 1 Black Ink, 1 Desert Prowler Shirt @ Loom → 1 |
+| Old Power Cell | (nouvelle) | 20 Solar Tablet Fragment, 10 Essence of Sunlight @ MythrilAnvil → 1 |
 | Omega Blue Chestplate | 5 Reaper Tooth, 25 Depth Cells, 3 Ruinous Soul @ MythrilAnvil → 1 | 12 Reaper Tooth, 8 Lumenyl, 8 Tenebris, 4 Ruinous Soul, 5 Crystal of the Dryad, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Omega Blue Helmet | 3 Reaper Tooth, 15 Depth Cells, 1 Ruinous Soul @ MythrilAnvil → 1 | 8 Reaper Tooth, 5 Lumenyl, 5 Tenebris, 2 Ruinous Soul, 5 Crystal of the Dryad, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Omega Blue Tentacles | 4 Reaper Tooth, 20 Depth Cells, 2 Ruinous Soul @ MythrilAnvil → 1 | 10 Reaper Tooth, 6 Lumenyl, 6 Tenebris, 3 Ruinous Soul, 5 Crystal of the Dryad, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
@@ -1073,6 +1074,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Shroomite Helmet | (nouvelle) | 1 Chlorophyte Helmet, 60 Glowing Mushroom @ MythrilAnvil → 1 |
 | Shroomite Leggings | (nouvelle) | 1 Chlorophyte Greaves, 80 Glowing Mushroom @ MythrilAnvil → 1 |
 | Shroomite Mask | (nouvelle) | 1 Chlorophyte Helmet, 60 Glowing Mushroom @ MythrilAnvil → 1 |
+| Shroomite Visage | (nouvelle) | 12 Shroomite Bar @ MythrilAnvil → 1 |
+| Shroomite Visage | (nouvelle) | 1 Chlorophyte Helmet, 60 Glowing Mushroom @ MythrilAnvil → 1 |
 | Shuriken | (nouvelle) | 1 Any Iron Bar @ Anvils → 50 |
 | Sigil of Calamitas | 1 Celestial Emblem, 8 Abyss Bar, 15 Ashes of Calamity @ MythrilAnvil → 1 | 1 Celestial Emblem, 5 Ashes of Calamity, 5 Core of Chaos, 2 Abyss Bar, 10 Any Evil Water @ MythrilAnvil → 1 |
 | Silva Armor | 90 Planty Mush, 12 Effulgent Feather, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 12 Ornate Cloth, 1 Lead Core, 10 Any Gold Bar, 12 Tenebris, 3 Ascendant Spirit Essence @ CosmicAnvil → 1 |

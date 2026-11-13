@@ -1,4 +1,18 @@
 Items: {
+	OldPowerCell: {
+		DisplayName: Old Power Cell
+		Tooltip:
+			'''
+			Summons the Golem when used in the Temple
+			Not consumable
+			'''
+	}
+
+	ShroomiteVisage: {
+		DisplayName: Shroomite Visage
+		Tooltip: 25% increased ranged damage for flamethrowers
+	}
+
 	GatlingLaser: {
 		DisplayName: Gatling Laser
 		Tooltip: Large laser cannon used primarily by Yharim's fleet and base defense force

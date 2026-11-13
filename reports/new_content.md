@@ -1350,7 +1350,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Reaver Helmet
 - [ ] Reaver Mask
 - [ ] Seashatter Armor — addon: Calamity: Tales of the Aquatic
-- [ ] Shroomite Visage
+- [x] Shroomite Visage
 - [ ] Twisted Netherite armor
 - [ ] Winter Soldier armor — addon: Apotheosis and Friends
 - [ ] Wulfrum Hardhat
@@ -1377,7 +1377,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Lantern Shard — addon: Calamity: Tales of the Aquatic
 - [ ] Nameless Fish of Light
 - [ ] Oddest Mushroom
-- [ ] Old Power Cell
+- [x] Old Power Cell
 - [ ] Poisoned Sclera
 - [ ] Puffy Abomination
 - [ ] Tar Gar

@@ -724,6 +724,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Flu sur la cible (lueur verte, perd de la vie, encaisse plus)
 - [ ] Gatling Laser (recette du wiki) : maintenir le clic ; après un court chargement, rafale de lasers rouges imprécis
       (On Fire!) ; s'arrête sans mana ou sans charge (la charge baisse en tirant)
+- [ ] Old Power Cell (recette du wiki) : invoque Golem dans le temple (devant un mur du temple), même avant Plantera ;
+      pas consommée ; refusée hors du temple
+- [ ] Shroomite Visage (recettes du wiki) : 11 défense, lance-flammes plus forts ; avec le plastron et les jambières en
+      shroomite : furtivité à l'arrêt
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

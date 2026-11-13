@@ -1280,6 +1280,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   lieu de 50 ; rareté « a » de la page illisible : Dark Orange comme le vieux code). **[technique]** Les trois sons du
   Gatling Laser (début, boucle, fin) n'existent plus dans Calamity : sons de laser vanilla (Item157 au début, Item91
   toutes les 6 images, Item158 à la fin).
+- **[choix]** **Old Power Cell**, **Shroomite Visage** (`LegacyItems1113g.cs`, 13/11) : code de 2.0.1.005, valeurs des
+  infobox (Old Power Cell use 45 au lieu de 10 ; Shroomite Visage vendu 6 or). Lance-flammes = armes à distance qui
+  utilisent du gel (Calamity n'a plus sa liste de lance-flammes) ; texte du bonus d'ensemble : celui de la shroomite
+  vanilla.
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
