@@ -1304,6 +1304,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Supreme Calamitas, ses frères, Sepulcher et les Soul Seekers devraient l'infliger au joueur (page).
 - **[choix]** **Aero Dynamite** = la Skynamite actuelle (même projectile AeroExplosive,
   renommée par Calamity) : renommage ajouté au glossaire, pas de portage.
+- **[choix]** **Revengeance**, **Death** (`DifficultyItems.cs`, 13/11) : objets de 2022 portés dans les deux modes ; ils
+  passent par le sélecteur de difficulté de Calamity (qui les a remplacés), donc l'icône et les messages restent
+  cohérents. Désactiver Revengeance revient en Expert, désactiver Death revient en Revengeance. Recette « à un autel,
+  sans ingrédient » codée à la main (WikiRecipes ne lit pas une recette vide) ; dans le Starter Bag en Expert (pages).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

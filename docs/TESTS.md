@@ -740,6 +740,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Calamitas' Brew (recettes du wiki, 15 min) : +5 % de vitesse, flammes autour de la lame ; les coups de mêlée et
       de spy infligent Abyssal Flames (ennemi assombri, particules rouge sang, perd de la vie, -6 défense)
 - [ ] Aero Dynamite : la Skynamite de Calamity porte le nom du wiki (recette du wiki : 10 Dynamites + 1 Aerialite Bar)
+- [ ] Revengeance et Death (à un autel, sans ingrédient ; dans le Starter Bag en Expert) : Revengeance active ou
+      désactive le mode (seulement en Expert), Death de même (seulement en Revengeance) ; refusé pendant un boss ; l'icône
+      de difficulté de Calamity suit
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

@@ -1,4 +1,25 @@
 Items: {
+	Revenge: {
+		DisplayName: Revengeance
+		Tooltip:
+			'''
+			Enables/disables Revengeance Mode, can only be used in Expert Mode.
+			Enables the Rage mechanic. When Rage is maxed press the Rage Mode key to activate Rage Mode.
+			You gain Rage when in proximity of enemies or by using special items.
+			'''
+	}
+
+	Death: {
+		DisplayName: Death
+		Tooltip:
+			'''
+			Enables/disables Death Mode, can only be used in Revengeance Mode.
+			All effects from Revengeance Mode are enabled, including the following:
+			Allows certain bosses to spawn naturally depending on what biome you're in.
+			Lethal Lava
+			'''
+	}
+
 	CalamitasBrew: {
 		DisplayName: Calamitas' Brew
 		Tooltip:

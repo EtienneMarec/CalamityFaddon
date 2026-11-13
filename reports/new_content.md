@@ -1141,7 +1141,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Charger Test Item
 - [x] Crayfish Pickaxe
 - [ ] Daylight
-- [ ] Death
+- [x] Death
 - [ ] Deathwish — addon: Tranquility Mod
 - [ ] Defiled Feather
 - [ ] Destinary — addon: Calamity: Community Remix
@@ -1162,7 +1162,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Psy Rod — addon: Calamity: Community Remix
 - [ ] Q.C.S.T.T. — stub; addon: Deimos, the Starborn Princess, Calamity: Distorted Memories
 - [ ] Reactive Pickaxe — addon: Calamity: Tales of the Aquatic
-- [ ] Revengeance
+- [x] Revengeance
 - [ ] Ripper Shark
 - [ ] Rod of Harmony
 - [ ] Rod of Misery
