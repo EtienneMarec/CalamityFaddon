@@ -170,6 +170,15 @@
    "rare": 1,
    "value": 3000
   },
+  "Skynamite": {
+   "page": "Aero Dynamite.txt",
+   "damage": 250,
+   "useAnimation": 39,
+   "knockBack": 0.0,
+   "crit": 0,
+   "rare": 3,
+   "value": 4000
+  },
   "AeroStone": {
    "page": "Aero Stone.txt",
    "rare": 2,

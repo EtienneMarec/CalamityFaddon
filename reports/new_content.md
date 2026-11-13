@@ -16,7 +16,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Aero Bolt — addon: Calamity: Community Remix
 - [ ] Aflaming Crystalliser
 - [x] Aftershock
-- [ ] Alpha Ray
+- [x] Alpha Ray
 - [x] Alpha Virus
 - [ ] Ancient Crusher
 - [x] Ancient Shiv

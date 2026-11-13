@@ -1,4 +1,13 @@
 Items: {
+	AlphaRay: {
+		DisplayName: Alpha Ray
+		Tooltip:
+			'''
+			Disintegrates everything with a tri-beam of energy and lasers
+			Right click to fire a Y-shaped beam of destructive energy and a spread of lasers
+			'''
+	}
+
 	Revenge: {
 		DisplayName: Revengeance
 		Tooltip:
@@ -1638,6 +1647,9 @@ Items: {
 }
 
 Projectiles: {
+	ParticleBeamofDoom.DisplayName: Doom
+	BigBeamofDeath.DisplayName: Big Beam of Death
+	BigBeamofDeath2.DisplayName: Big Beam of Death
 	GreenDonkeyKongReference.DisplayName: Barrel
 	AcidBarrelDrop.DisplayName: Acid Droplet
 	AcidShrapnel.DisplayName: Barrel Shrapnel

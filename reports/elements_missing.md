@@ -153,7 +153,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (347)
+## Objets (346)
 
 - A M S
 - AAMG "Disperse"
@@ -165,7 +165,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aergian Technistaff
 - Aero Bolt
 - Aflaming Crystalliser
-- Alpha Ray
 - Angel's Thesis
 - Aquarel Pistol
 - Aquatic Shardstone

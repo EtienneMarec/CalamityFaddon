@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1377 objets dont les recettes ont changé : 1022 recettes modifiées, 440 créées
+- 1379 objets dont les recettes ont changé : 1023 recettes modifiées, 441 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -58,6 +58,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Alchemical Flask | 1 Bottled Water, 1 Honey Comb, 8 Bee Wax, 15 Plague Cell Canister @ MythrilAnvil → 1 | 1 Bottled Water, 5 Bee Wax, 10 Plague Cell Canister @ MythrilAnvil → 1 |
 | Alloy Bar | (nouvelle) | 1 Any Copper Bar, 1 Any Iron Bar, 1 Any Silver Bar, 1 Any Gold Bar, 1 Any Evil Bar, 1 Meteorite Bar, 1 Hellstone Bar, 1 Wulfrum Bar, 1 Victide Bar, 1 Aerialite Bar @ Furnaces → 1 |
 | Alluvion | 1 Monsoon, 8 Cosmilite Bar, 20 Endothermic Energy, 20 Lumenyl @ CosmicAnvil → 1 | 1 Monsoon, 20 Sea Prism, 10 Depth Cells, 20 Lumenyl, 5 Tenebris, 8 Cosmilite Bar, 20 Endothermic Energy, 5 Crystal of the Dryad @ CosmicAnvil → 1 |
+| Alpha Ray | (nouvelle) | 1 Genesis, 2 Wingman, 5 Galactica Singularity, 10 Cosmilite Bar, 5 Crystal of the Wicked, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Alpha Virus | (nouvelle) | 1 Epidemic Shredder, 5 Luminite Bar, 25 Plague Cell Canister @ LunarCraftingStation → 1 |
 | Altar of the Accursed | 30 Brimstone Slag, 5 Auric Bar, 1 Core of Calamity @ MythrilAnvil → 1 | 30 Brimstone Slag, 5 Auric Bar, 1 Core of Calamity @ CosmicAnvil → 1 |
 | Amalgamated Brain | 1 Rotten Brain, 1 Brain of Confusion, 3 Soul of Night @ Anvils → 1 | 1 Rotten Brain, 1 Brain of Confusion @ Anvils → 1 |
@@ -585,6 +586,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Gem Tech Headgear | 10 Exo Prism, 5 Solar Fragment, 5 Vortex Fragment, 5 Nebula Fragment, 5 Stardust Fragment, 5 Meld Blob, 2 Core of Calamity @ DraedonsForge → 1 | 12 Exo Prism, 4 Galactica Singularity, 3 Profaned Core, 1 Exo Core @ DraedonsForge → 1 |
 | Gem Tech Schynbaulds | 12 Exo Prism, 4 Solar Fragment, 4 Vortex Fragment, 4 Nebula Fragment, 4 Stardust Fragment, 4 Meld Blob, 2 Core of Calamity @ DraedonsForge → 1 | 16 Exo Prism, 5 Galactica Singularity, 3 Profaned Core, 1 Exo Core @ DraedonsForge → 1 |
 | Gender Change Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Genesis | 1 Laser Rifle, 5 Luminite Bar, 5 Life Alloy @ MythrilAnvil → 1 | 1 Laser Machinegun, 5 Luminite Bar, 5 Life Alloy, 5 Crystal of the Wicked, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Genesis Pickaxe | 12 Meld Blob, 10 Luminite Bar @ LunarCraftingStation → 1 | 2 Meld Bar, 10 Luminite Bar @ LunarCraftingStation → 1 |
 | Ghastly Visage | (nouvelle) | 5 Haunted Bar @ LunarCraftingStation → 1 |
 | Ghoulish Gouger | (nouvelle) | 5 Haunted Bar @ LunarCraftingStation → 1 |

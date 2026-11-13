@@ -56,7 +56,8 @@
     "Dirt": "Dirt Block",
     "Ancient Cultist Trophy": "Lunatic Cultist Trophy",
     "Fiery Greatsword": "Volcano",
-    "Elemental Bars": "Elemental Bar"
+    "Elemental Bars": "Elemental Bar",
+    "Genisis": "Genesis"
   },
   "replacements": {
     "_doc": "Objets que Calamity a remplacés par un autre que le wiki ne connaît pas (décision du 30/10) : nom de la page du wiki -> classe actuelle de Calamity. Le portage (Content/Legacy, classe au nom de la page) remplace l'objet actuel en Full Fandom ; en Calamity++, l'objet actuel prend le nom du wiki et le portage est masqué (gen_baseline.py, gen_localization.py).",

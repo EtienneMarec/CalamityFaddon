@@ -1308,6 +1308,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   passent par le sélecteur de difficulté de Calamity (qui les a remplacés), donc l'icône et les messages restent
   cohérents. Désactiver Revengeance revient en Expert, désactiver Death revient en Revengeance. Recette « à un autel,
   sans ingrédient » codée à la main (WikiRecipes ne lit pas une recette vide) ; dans le Starter Bag en Expert (pages).
+- **[choix]** **Alpha Ray** (`LegacyWeapons1113i.cs`, 13/11) : code de 2.0.1.005, valeurs de l'infobox et de la page (rareté
+  14 au lieu de Dark Blue). Finalement portable : la « Genisis » du wiki est la Genesis renommée de Calamity et la
+  Galactica Singularity est déjà un matériau généré (correction de la note du lot précédent).
+  **[technique]** Alias de recette « Genisis » -> Genesis (glossaire) : l'arme de Calamity n'est pas renommée, car le wiki
+  a aussi une page Genesis (objet de l'addon Catalyst).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

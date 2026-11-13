@@ -743,6 +743,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Revengeance et Death (à un autel, sans ingrédient ; dans le Starter Bag en Expert) : Revengeance active ou
       désactive le mode (seulement en Expert), Death de même (seulement en Revengeance) ; refusé pendant un boss ; l'icône
       de difficulté de Calamity suit
+- [ ] Alpha Ray (recette du wiki, avec la Genesis de Calamity) : clic gauche, trois rayons parallèles et des lasers ;
+      clic droit, un rayon qui se sépare en deux au bout de sa course ; tout traverse les blocs
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 
