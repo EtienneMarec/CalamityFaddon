@@ -722,6 +722,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Yanmei's Knife (recette du wiki) : entaille verte devant soi, puis 3 s d'attente ; sur un boss, un mini-boss ou un
       ennemi pendant un boss : son de l'Adrenaline, Kami Injection (plus rapide, plus de dégâts, traînée verte) et Kami
       Flu sur la cible (lueur verte, perd de la vie, encaisse plus)
+- [ ] Gatling Laser (recette du wiki) : maintenir le clic ; après un court chargement, rafale de lasers rouges imprécis
+      (On Fire!) ; s'arrête sans mana ou sans charge (la charge baisse en tirant)
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

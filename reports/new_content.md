@@ -176,7 +176,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Fulguration Halberd
 - [ ] Gamma Ray Burst — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [ ] Garth
-- [ ] Gatling Laser
+- [x] Gatling Laser
 - [x] Gauss Dagger
 - [x] Gauss Pistol
 - [ ] Gearwork Shield — addon: Calamity: Community Remix

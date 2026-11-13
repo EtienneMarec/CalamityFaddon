@@ -371,7 +371,8 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Legacy.Items.Potions.TeslaPotion>(), ModContent.ItemType<Content.Legacy.Items.Potions.YharimsStimulants>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Magic.DivineRetribution>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.HellsSun>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Ranged.MolecularManipulator>(),
-                ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.YanmeisKnife>() })
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.YanmeisKnife>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.DraedonsArsenal.GatlingLaser>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

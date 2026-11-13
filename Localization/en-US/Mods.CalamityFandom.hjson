@@ -1,4 +1,9 @@
 Items: {
+	GatlingLaser: {
+		DisplayName: Gatling Laser
+		Tooltip: Large laser cannon used primarily by Yharim's fleet and base defense force
+	}
+
 	DodusHandcannon: {
 		DisplayName: Dodu's Handcannon
 		Tooltip:
@@ -1568,6 +1573,8 @@ Items: {
 }
 
 Projectiles: {
+	GatlingLaserProj.DisplayName: Gatling Laser
+	GatlingLaserShot.DisplayName: Gatling Laser
 	HighExplosivePeanutShell.DisplayName: High Explosive Peanut Shell
 	YanmeisKnifeSlash.DisplayName: Yanmei's Knife Slash
 	NullShot2.DisplayName: Null Shot

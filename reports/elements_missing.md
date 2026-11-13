@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (351)
+## Objets (350)
 
 - A M S
 - AAMG "Disperse"
@@ -285,7 +285,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Frostflow Edge
 - Gamma Ray Burst
 - Garth
-- Gatling Laser
 - Gearwork Shield
 - Gel Sword
 - Gel Wand

@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1370 objets dont les recettes ont changé : 1021 recettes modifiées, 432 créées
+- 1371 objets dont les recettes ont changé : 1021 recettes modifiées, 433 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -569,6 +569,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Galeforce | 10 Aerialite Bar @ Anvils → 1 | 8 Aerialite Bar, 3 Sunplate Block @ SkyMill → 1 |
 | Galileo Gladius | 1 Gladius, 8 Lumenyl, 4 Ruinous Soul, 20 Exodium Cluster @ MythrilAnvil → 1 | 1 Gladius, 8 Lumenyl, 5 Ruinous Soul, 15 Exodium Cluster @ LunarCraftingStation → 1 |
 | Galvanizing Glaive | 12 Mysterious Circuitry, 18 Dubious Plating, 5 Life Alloy, 10 Infected Armor Plating @ MythrilAnvil → 1 | 1 Reassembled Electronics, 5 Life Alloy @ MythrilAnvil → 1 |
+| Gatling Laser | (nouvelle) | 1 Reassembled Electronics, 5 Life Alloy @ MythrilAnvil → 1 |
 | Gauss Dagger | (nouvelle) | 7 Dubious Plating @ Anvils → 1 |
 | Gauss Pistol | (nouvelle) | 12 Mysterious Circuitry, 8 Dubious Plating, 10 Any Mythril Bar, 20 Soul of Might @ MythrilAnvil → 1 |
 | Gauss Rifle | 18 Mysterious Circuitry, 12 Dubious Plating, 5 Life Alloy, 10 Infected Armor Plating @ MythrilAnvil → 1 | 1 Reassembled Electronics, 5 Life Alloy @ MythrilAnvil → 1 |

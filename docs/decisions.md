@@ -1276,6 +1276,10 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Mode (page). Chiffres choisis : traînée et lueur vertes faites de poussière et de teinte (la page parle d'images
   rémanentes) ; cibles = boss sauf segments de vers, mini-boss de la barre de vie de Calamity et de l'Acid Rain, et tout
   ennemi pendant qu'un boss est vivant (« serviteurs » : Calamity n'a plus sa liste).
+- **[choix]** **Gatling Laser** (`LegacyWeapons1113f.cs`, 13/11) : code de 2.0.1.005, valeurs de l'infobox (43 dégâts au
+  lieu de 50 ; rareté « a » de la page illisible : Dark Orange comme le vieux code). **[technique]** Les trois sons du
+  Gatling Laser (début, boucle, fin) n'existent plus dans Calamity : sons de laser vanilla (Item157 au début, Item91
+  toutes les 6 images, Item158 à la fin).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
