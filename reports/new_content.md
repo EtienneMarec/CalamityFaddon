@@ -143,7 +143,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Electrical Discharge
 - [ ] Elemental Bow
 - [x] Elemental Claymore
-- [ ] Elemental Excalibur
+- [x] Elemental Excalibur
 - [ ] Elemental Saw Launcher
 - [ ] Elusive Feather
 - [ ] Endentant Bow — addon: Calamity: Tales of the Aquatic

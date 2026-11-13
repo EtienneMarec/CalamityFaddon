@@ -745,6 +745,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       de difficulté de Calamity suit
 - [ ] Alpha Ray (recette du wiki, avec la Genesis de Calamity) : clic gauche, trois rayons parallèles et des lasers ;
       clic droit, un rayon qui se sépare en deux au bout de sa course ; tout traverse les blocs
+- [ ] Elemental Excalibur (recette du wiki, Draedon's Forge) : un rayon de couleur différente à chaque coup (13 couleurs
+      dans l'ordre : rouge, orange qui revient, jaune qui se sépare, vert clair qui suit le joueur, vert qui cherche les
+      ennemis, turquoise qui accélère à travers les blocs, cyan qui appelle trois rayons, bleu clair qui ralentit, bleu qui
+      rebondit, violet qui accélère et ralentit, fuchsia, rose qui sème des rayons, gris qui traverse tout) ; soigne au
+      contact ; clic droit : coup direct à dégâts doublés ; nom en arc-en-ciel
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

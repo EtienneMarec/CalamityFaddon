@@ -1,4 +1,14 @@
 Items: {
+	ElementalExcalibur: {
+		DisplayName: Elemental Excalibur
+		Tooltip:
+			'''
+			Freezes enemies and heals the player on hit
+			Fires rainbow beams that change their behavior based on their color
+			Right click for true melee
+			'''
+	}
+
 	AlphaRay: {
 		DisplayName: Alpha Ray
 		Tooltip:
@@ -1647,6 +1657,7 @@ Items: {
 }
 
 Projectiles: {
+	ElementalExcaliburBeam.DisplayName: Elemental Excalibur Beam
 	ParticleBeamofDoom.DisplayName: Doom
 	BigBeamofDeath.DisplayName: Big Beam of Death
 	BigBeamofDeath2.DisplayName: Big Beam of Death

@@ -377,7 +377,8 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.AcidicRainBarrel>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.Nychthemeron>(),
                 ModContent.ItemType<Content.Legacy.Items.Potions.CalamitasBrew>(),
                 ModContent.ItemType<Content.Legacy.Items.DifficultyItems.Revenge>(), ModContent.ItemType<Content.Legacy.Items.DifficultyItems.Death>(),
-                ModContent.ItemType<Content.Legacy.Items.Weapons.Magic.AlphaRay>() })
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Magic.AlphaRay>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.ElementalExcalibur>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

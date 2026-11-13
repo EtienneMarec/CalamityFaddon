@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1379 objets dont les recettes ont changé : 1023 recettes modifiées, 441 créées
+- 1380 objets dont les recettes ont changé : 1023 recettes modifiées, 442 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -429,6 +429,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Elemental Disk | 1 Terra Disk, 5 Luminite Bar, 5 Life Alloy, 5 Meld Blob @ MythrilAnvil → 1 | 1 Mangrove Chakram, 1 Subduction Slicer, 1 Terra Disk, 8 Elemental Bar, 5 Galactica Singularity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Elemental Dye | 1 Solar Dye, 1 Vortex Dye, 1 Nebula Dye, 1 Stardust Dye, 1 Meld Dye @ DyeVat → 5 | 1 Solar Dye, 1 Vortex Dye, 1 Nebula Dye, 1 Stardust Dye, 1 Galactica Singularity @ DyeVat → 5 |
 | Elemental Eruption | 1 Terra Flameburster, 5 Luminite Bar, 5 Life Alloy, 5 Vortex Fragment @ MythrilAnvil → 1 | 10 Elemental Bar, 5 Galactica Singularity, 1 Terra Flameburster, 1 Meowthrower, 1 Blight Spewer, 1 Havoc's Breath, 5 Luminite Bar @ LunarCraftingStation → 1 |
+| Elemental Excalibur | (nouvelle) | 1 Greatsword of Blah, 1 True Excalibur, 1 Large Diamond, 3 Light Shard, 3 Dark Shard, 10 Living Shard, 10 Galactica Singularity, 20 Soul of Light, 20 Soul of Night, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Elemental Gauntlet | 1 Fire Gauntlet, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Warloks' Moon Fist, 1 Yharim's Insignia, 1 Necklace of Vexation, 8 Luminite Bar, 4 Galactica Singularity, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Elemental Lance | 1 Terra Lance, 5 Luminite Bar, 5 Life Alloy, 5 Solar Fragment @ MythrilAnvil → 1 | 9 Elemental Bar, 1 Terra Lance, 1 North Pole, 5 Galactica Singularity, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Elemental Quiver | 1 Any Quiver, 1 Deadshot Brooch, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Any Quiver, 1 Deadshot Brooch, 8 Luminite Bar, 4 Galactica Singularity, 4 Ascendant Spirit Essence, 4 Yharim Bar @ CosmicAnvil → 1 |

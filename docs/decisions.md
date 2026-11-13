@@ -1313,6 +1313,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Galactica Singularity est déjà un matériau généré (correction de la note du lot précédent).
   **[technique]** Alias de recette « Genisis » -> Genesis (glossaire) : l'arme de Calamity n'est pas renommée, car le wiki
   a aussi une page Genesis (objet de l'addon Catalyst).
+- **[choix]** **Elemental Excalibur** (`LegacyWeapons1113j.cs`, 13/11) : code de 2.0.1.005, valeurs de l'infobox et de la
+  page (use 13 au lieu de 14 ; soin de 10 à 19 PV au lieu de 10 à 12 ; rareté arc-en-ciel = celle des objets Expert sans
+  être un objet Expert, comme le dit la page). Ajout d'après la page : 13e couleur, le **gris**, absent du vieux code
+  (12 couleurs) : traverse blocs et ennemis ; chiffre choisi : une chance sur cent de lâcher une pièce de platine à
+  l'impact. Greatsword of Blah : l'arme renommée de Calamity sert à la recette.
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

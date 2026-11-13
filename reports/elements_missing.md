@@ -153,7 +153,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (346)
+## Objets (345)
 
 - A M S
 - AAMG "Disperse"
@@ -252,7 +252,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Edgeterrence
 - Electrical Discharge
 - Elemental Bow
-- Elemental Excalibur
 - Elemental Saw Launcher
 - Elusive Feather
 - Endentant Bow
