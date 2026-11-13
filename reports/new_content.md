@@ -31,7 +31,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Aspect of the End — addon: Calamity: Community Remix
 - [ ] Aspid Blaster
 - [x] Asteroid Staff
-- [ ] Astral Blade
+- [x] Astral Blade
 - [x] Astral Bow
 - [ ] Astralence — addon: Calamity: Tales of the Aquatic
 - [ ] Auric Sword
@@ -80,7 +80,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Chrononimbus — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [ ] Cirnogenic Staff — addon: Calamity: Community Remix
 - [ ] Cirrhotipede — addon: Calamity: Community Remix
-- [ ] Clamor Noctus
+- [x] Clamor Noctus
 - [ ] Clamor Noxus — addon: Calamity: Community Remix
 - [ ] Cobadium Rifle — addon: Calamity: Tales of the Aquatic
 - [ ] Coldant Firestarter
@@ -89,7 +89,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Confection — addon: Calamity: Community Remix
 - [ ] Consequences of Power
 - [ ] Contaminated Dish — addon: Calamity: Community Remix
-- [ ] Coral Cannon
+- [x] Coral Cannon
 - [ ] Cored Line — addon: Calamity: Tales of the Aquatic
 - [ ] Corrosive Eye Staff
 - [ ] Corrupt Hypno Flute — addon: Calamity: Community Remix

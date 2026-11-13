@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1359 objets dont les recettes ont changé : 1021 recettes modifiées, 419 créées
+- 1361 objets dont les recettes ont changé : 1021 recettes modifiées, 421 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -125,6 +125,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Astral Arcanum | 1 Ambrosial Ampoule, 1 Celestial Jewel, 5 Auric Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Celestial Jewel, 3 Dark Plasma, 999 Green Solution, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Astral Axe | (nouvelle) | 7 Astral Bar @ LunarCraftingStation → 1 |
 | Astral Beacon | 30 Astral Stone, 5 Aureus Cell, 20 Stardust @ HeavyWorkBench → 1 | 5 Aureus Cell, 20 Stardust, 30 Astral Stone, 10 Essential Essence Bar @ LunarCraftingStation → 1 |
+| Astral Blade | (nouvelle) | 8 Astral Bar @ LunarCraftingStation → 1 |
 | Astral Blaster | 12 Astral Bar @ LunarCraftingStation → 1 | 6 Astral Bar @ LunarCraftingStation → 1 |
 | Astral Blue Dye | 2 Bottled Water, 1 Astral Ore @ DyeVat → 2 | 1 Bottled Water, 1 Astral Ore @ DyeVat → 1 |
 | Astral Bow | (nouvelle) | 7 Astral Bar @ LunarCraftingStation → 1 |
@@ -298,6 +299,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Cinderplate | 25 Obsidian, 1 Essence of Sunlight @ Hellforge → 25 | 1 Essence of Sunlight, 3 Obsidian @ Hellforge → 3 |
 | Cinnamon Roll | (nouvelle) | 5 Everclear, 5 Blood Orb, 1 Beetle Husk @ AlchemyTable → 5 |
 | Cinnamon Roll | 10 Bottle, 1 Turtle Shell @ Kegs → 10 | 5 Everclear, 1 Whiskey, 1 Beetle Husk, 1 Flah @ Kegs → 5 |
+| Clamor Noctus | (nouvelle) | 1 Shellfish Staff, 1 Clam Crusher, 1 Clamor Rifle, 10 Mollusk Husk @ LunarCraftingStation → 10 |
 | Claret Cannon | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 25 Unholy Blood Cells, 4 Bloodstone Bar @ LunarCraftingStation → 1 |
 | Clay Pot | 5 Astral Clay @ Furnaces → 1 | 2 Astral Clay @ Furnaces → 1 |
 | Cleansing Blaze | 10 Cosmilite Bar @ CosmicAnvil → 1 | 12 Cosmilite Bar @ CosmicAnvil → 1 |

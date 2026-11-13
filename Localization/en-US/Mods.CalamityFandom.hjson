@@ -1,4 +1,23 @@
 Items: {
+	AstralBlade: {
+		DisplayName: Astral Blade
+		Tooltip: Deals more damage the more life an enemy has left
+	}
+
+	CoralCannon: {
+		DisplayName: Coral Cannon
+		Tooltip: Has a chance to shoot a big coral that stuns enemies
+	}
+
+	ClamorNoctus: {
+		DisplayName: Clamor Noctus
+		Tooltip:
+			'''
+			Let the sky fall
+			Fires night wyverns and stars from the sky that stick to enemies and tiles and explode
+			'''
+	}
+
 	GaussDagger: {
 		DisplayName: Gauss Dagger
 		Tooltip:
@@ -1458,6 +1477,10 @@ Items: {
 }
 
 Projectiles: {
+	SmallCoralShot.DisplayName: Small Coral
+	BigCoral.DisplayName: Big Coral
+	ClamorNoctusStar.DisplayName: Stratus Star
+	ClamorNoctusWyvern.DisplayName: Night Wyvern
 	GaussPistolShot.DisplayName: Gauss Blast
 	MagnaStrike.DisplayName: Magna Strike
 	MonkeyDart.DisplayName: Monkey Dart
@@ -1476,7 +1499,31 @@ Projectiles: {
 	ParasiticWorm.DisplayName: Parasitic Worm
 	FerroShrapnel.DisplayName: Ferro-fluid Shrapnel
 	GravitonomyBeam.DisplayName: Gravitonomy Beam
-	Melee.GravitonomyPikeProj.DisplayName: Gravitonomy Pike
+
+	Melee: {
+		GravitonomyPikeProj.DisplayName: Gravitonomy Pike
+		AquaticDischargeProj.DisplayName: Aquatic Discharge Proj
+		LeechingDaggerProj.DisplayName: Leeching Dagger
+		TomatusProj.DisplayName: Tomatus
+		WulfrumLeechDaggerProj.DisplayName: Wulfrum Leech Dagger
+		MarniteSpearProjectile.DisplayName: Marnite Spear
+		FulgurationHalberdProj.DisplayName: Fulguration Halberd
+		ExoGladiusProj.DisplayName: Exo Gladius
+		UrchinSpearProjectile.DisplayName: Urchin Spear
+		CaliburnProj.DisplayName: Caliburn
+		TrueCaliburnProj.DisplayName: True Caliburn
+		TrueNightsStabberProj.DisplayName: True Night's Stabber
+		TerraShivProj.DisplayName: Terra Shiv
+		NightsStabberProj.DisplayName: Night's Stabber
+		BloodyRuptureProj.DisplayName: Bloody Rupture
+		AncientShivProj.DisplayName: Ancient Shiv
+		EutrophicShankProj.DisplayName: Eutrophic Shank
+		DiseasedPikeSpear.DisplayName: Diseased Pike Spear
+		CosmicShivProj.DisplayName: Cosmic Shiv
+		GalileoGladiusProj.DisplayName: Galileo Gladius
+		SporeKnifeShortsword.DisplayName: Spore Knife
+	}
+
 	SlimePuppetBall.DisplayName: Slime Ball
 	WarArrowProj.DisplayName: War Arrow
 	ProporseBolt.DisplayName: Proporse Bolt
@@ -1599,30 +1646,6 @@ Projectiles: {
 	TemporalFloeNumberTwo.DisplayName: Temporal Floe Beam
 	SylvanSlashAttack.DisplayName: Sylvan Slash
 	SylvanSlash.DisplayName: Sylvan Backslash
-
-	Melee: {
-		AquaticDischargeProj.DisplayName: Aquatic Discharge Proj
-		LeechingDaggerProj.DisplayName: Leeching Dagger
-		TomatusProj.DisplayName: Tomatus
-		WulfrumLeechDaggerProj.DisplayName: Wulfrum Leech Dagger
-		MarniteSpearProjectile.DisplayName: Marnite Spear
-		FulgurationHalberdProj.DisplayName: Fulguration Halberd
-		ExoGladiusProj.DisplayName: Exo Gladius
-		UrchinSpearProjectile.DisplayName: Urchin Spear
-		CaliburnProj.DisplayName: Caliburn
-		TrueCaliburnProj.DisplayName: True Caliburn
-		TrueNightsStabberProj.DisplayName: True Night's Stabber
-		TerraShivProj.DisplayName: Terra Shiv
-		NightsStabberProj.DisplayName: Night's Stabber
-		BloodyRuptureProj.DisplayName: Bloody Rupture
-		AncientShivProj.DisplayName: Ancient Shiv
-		EutrophicShankProj.DisplayName: Eutrophic Shank
-		DiseasedPikeSpear.DisplayName: Diseased Pike Spear
-		CosmicShivProj.DisplayName: Cosmic Shiv
-		GalileoGladiusProj.DisplayName: Galileo Gladius
-		SporeKnifeShortsword.DisplayName: Spore Knife
-	}
-
 	GalaxyStar.DisplayName: Galaxian Star
 	CosmicShivBlade.DisplayName: Cosmic Shiv Blade
 	CosmicShivBall.DisplayName: Cosmic Energy
@@ -2017,7 +2040,7 @@ Taming: {
 		Chat: Draedon hasn't filed his taxes in centuries! Pay me 1 platinum and I'll file them for him... his machines will calm down.
 		Paid: Pleasure doing business. Draedon's paperwork is in order.
 		Poor: You can't even afford 1 platinum? Pathetic.
-		Wait: "Not so fast! Draedon's next tax is due in {0} s."
+		Wait: Not so fast! Draedon's next tax is due in {0} s.
 	}
 
 	Chess: {

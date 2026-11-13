@@ -689,6 +689,16 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Gauss Dagger (charge ; deux coups rapprochés sur un ennemi font apparaître un flux magnétique), Gauss Pistol (charge ;
       le tir reste en place une demi-seconde en se chargeant puis part très vite, gros recul), Magna Striker (rafales au
       hasard d'éclats d'opale et de frappes magna qui grossissent) : recettes du wiki
+
+## Passe du 13/11
+
+- [ ] Astral Blade (recette du wiki) : frappe plus fort, recule plus et critique plus souvent sur un ennemi en pleine vie
+      (x2 à 100 %, x1 à 0 %) ; explosion de poussière bleue et orange au-dessus de 50 % de vie ; Astral Infection ;
+      presque insensible aux bonus de vitesse de mêlée (25 %)
+- [ ] Coral Cannon (Sea King, 2 or) : petits coraux sans munitions, un sur cinq gros (deux fois plus de dégâts) qui
+      immobilise brièvement un ennemi normal (pas pendant un boss)
+- [ ] Clamor Noctus (recette du wiki : 10 exemplaires) : trois projectiles tombent du ciel vers le curseur ; les étoiles
+      se collent 2 s à l'ennemi ou au sol puis explosent (Moon Burnt) ; parfois un Night Wyvern, très puissant
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

@@ -364,7 +364,8 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.StickySpikyBall>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.BouncySpikyBall>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.Verdant>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Typeless.GoldenGun>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.DraedonsArsenal.GaussDagger>(), ModContent.ItemType<Content.Legacy.Items.Weapons.DraedonsArsenal.GaussPistol>(),
-                ModContent.ItemType<Content.Legacy.Items.Weapons.Ranged.MagnaStriker>() })
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Ranged.MagnaStriker>(),
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.AstralBlade>(), ModContent.ItemType<Content.Legacy.Items.Weapons.Magic.ClamorNoctus>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -621,6 +622,10 @@ namespace CalamityFandom.Common.Debug
             int flameblaster = WikiRecipes.ResolveItem("Brimstone Flameblaster");
             Expect(flameblaster > 0 && ItemLoader.GetItem(flameblaster)?.Mod == Mod, "Brimstone Flameblaster porté");
             Expect(WikiLoot.Added.Any(a => a.what.StartsWith("Brimstone Flameblaster")), "Cataclysm lâche le Brimstone Flameblaster");
+            if (NPCShopDatabase.TryGetNPCShop(NPCShopDatabase.GetShopName(ModContent.NPCType<CalamityMod.NPCs.TownNPCs.SeaKing>()), out var seaKingShop))
+                Expect(seaKingShop.ActiveEntries.Any(e => e.Item.type == ModContent.ItemType<Content.Legacy.Items.Weapons.Ranged.CoralCannon>()), "le Sea King vend le Coral Cannon");
+            else
+                Expect(false, "boutique du Sea King introuvable");
             if (ModContent.TryFind<ModNPC>("CalamityMod", "Bandit", out var bandit) && NPCShopDatabase.TryGetNPCShop(NPCShopDatabase.GetShopName(bandit.Type), out var banditShop))
             {
                 int sylvan = ModContent.ItemType<Content.Legacy.Items.Weapons.Rogue.SylvanSlasher>();

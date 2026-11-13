@@ -1234,6 +1234,17 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   charge de Calamity (50 et 85). **[technique]** Le compteur de flux de Calamity (GaussFluxTimer) n'existe plus : un compteur
   par ennemi le remplace (+50 par coup, -1 par tick, flux à 60 : deux coups en moins d'environ une seconde) ; le son Gauss
   n'existe plus non plus : Gauss Pistol avec le son de tir plasma de Calamity, Magna Striker avec celui de l'Opal Striker.
+- **[choix]** **Astral Blade**, **Coral Cannon**, **Clamor Noctus** (`LegacyWeapons1113.cs`, 13/11) : code de 2.0.1.005,
+  valeurs des infobox et du texte (Astral Blade use 8 au lieu de 12 ; Coral Cannon use 30 au lieu de 20, Eutrophication
+  0,25 s au lieu de 0,5 s ; Clamor Noctus : étoiles à 15 %, explosion à 135 %, Night Wyvern à 375 % au lieu de 100 % /
+  100 % / 2500 % dans le vieux code). Chiffres choisis : chance de critique de l'Astral Blade = second tirage avec
+  chance × (multiplicateur - 1) ; gros corail à 90 % de la vitesse (« slightly slower velocity ») ; une chance sur dix
+  d'un Night Wyvern par projectile (vieux code) ; rayon d'explosion de l'étoile 40 px. Coral Cannon vendu par le Sea
+  King sans condition (page). **[technique]** Le petit corail de Calamity est devenu un projectile de spy : copie à
+  distance (SmallCoralShot) avec sa texture ; les étoiles se collent avec un code simple (comme la Sticky Spiky Ball) ;
+  les débris du Night Wyvern (gores de 2.0.1.005) n'existent plus, remplacés par de la poussière.
+  Laissés de côté : **Bazooka** (le système d'armes à usage limité et les Grenade Shells n'existent plus, recette avec
+  Essential Essence Bar introuvable) et **Alpha Ray** (demande Genisis et Galactica Singularity, retirés aussi).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

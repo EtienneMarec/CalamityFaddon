@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (362)
+## Objets (359)
 
 - A M S
 - AAMG "Disperse"
@@ -178,7 +178,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Arngren
 - Aspect of the End
 - Aspid Blaster
-- Astral Blade
 - Astralence
 - Auric Sword
 - Axisdriver
@@ -214,7 +213,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Chrononimbus
 - Cirnogenic Staff
 - Cirrhotipede
-- Clamor Noctus
 - Clamor Noxus
 - Cobadium Rifle
 - Coldant Firestarter
@@ -222,7 +220,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Confection
 - Consequences of Power
 - Contaminated Dish
-- Coral Cannon
 - Cored Line
 - Corrupt Hypno Flute
 - Creature Capsule
