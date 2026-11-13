@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1369 objets dont les recettes ont changé : 1021 recettes modifiées, 431 créées
+- 1370 objets dont les recettes ont changé : 1021 recettes modifiées, 432 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 80 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 101 recettes
+- 81 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 102 recettes
 
 ## Recettes changées
 
@@ -1452,6 +1452,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wulfrum Screwdriver | 10 Wulfrum Bar @ Anvils → 1 | 5 Screwdriver, 30 Wulfrum Bar, 5 Vortex Fragment @ Kegs → 5 |
 | Wulfrum Staff | (nouvelle) | 12 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Treasure Pinger | 10 Wulfrum Bar @ main → 1 | 50 Wulfrum Bar, 3 Energy Core, 1 Energy Orb @ Anvils → 1 |
+| Yanmei's Knife | (nouvelle) | 1 Psycho Knife, 10 Obsidian, 20 Any Iron Bar, 50 Plague Cell Canister @ MythrilAnvil → 1 |
 | Yellow Seeking Mechanism | 1 Lab Seeking Mechanism, 20 Cloud @ Anvils → 1 | 1 Lab Seeking Mechanism, 50 Ice Block @ Anvils → 1 |
 | Yharic Delight | (nouvelle) | 1 Yharim Bar, 1 Yharon Soul Fragment @ CookingPots → 20 |
 | Yharim's Insignia | 1 Soaring Insignia, 5 Effulgent Feather, 5 Divine Bar, 10 Soul of Flight @ MythrilAnvil → 1 | 10 Luminite Bar, 3 Astral Bar, 1 Surgical Glove, 1 Delicious Meat @ LunarCraftingStation → 1 |
@@ -1535,6 +1536,7 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Prehistoric Tablet — 1
 - objet : Profaned Nucleus — 1
 - objet : Psy Rod — 1
+- objet : Pumplerfaust — 1
 - objet : Quintessence Cannon — 1
 - objet : Ram's Revenge — 1
 - objet : Rose Bow — 1

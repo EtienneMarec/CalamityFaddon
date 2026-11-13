@@ -1266,6 +1266,16 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   de la page ; le vieux code fixait la vitesse à 30 px par image, vers le haut ou le bas) ; dégâts de contact ±20 sans
   la mise à l'échelle par difficulté que décrit la page (jamais sous 0). **[technique]** Les changements de taille, de
   dégâts et de défense ne sont faits que chez le tireur (comme le vieux code) : pas synchronisés en multijoueur.
+- **[choix]** **Dodu's Handcannon**, **Yanmei's Knife** (`LegacyWeapons1113e.cs`, 13/11) : code de 2.0.1.005, valeurs des
+  infobox (Handcannon : vitesse 24 au lieu de 13). **À trancher** : la recette du wiki de Dodu's Handcannon demande le
+  Pumplerfaust, objet de l'addon Community Remix qui n'existe pas dans le mod : l'arme n'est pas fabricable pour
+  l'instant (proposition : recette de 2022 en Calamity++ avec la Pearl God, ou créer le Pumplerfaust).
+  Yanmei's Knife : tous les effets Kami ont disparu de Calamity et sont réécrits d'après la page : Kami Injection = +15 %
+  de vitesse de déplacement (et de vitesse max) et +15 % de dégâts, Kami Flu = réduction des dégâts x0,8 (sauf
+  Dragonfolly, Polterghast, Providence) et 125 PV/s, 10 s chacun ; 3 s d'attente après chaque coup ; son de l'Adrenaline
+  Mode (page). Chiffres choisis : traînée et lueur vertes faites de poussière et de teinte (la page parle d'images
+  rémanentes) ; cibles = boss sauf segments de vers, mini-boss de la barre de vie de Calamity et de l'Acid Rain, et tout
+  ennemi pendant qu'un boss est vivant (« serviteurs » : Calamity n'a plus sa liste).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

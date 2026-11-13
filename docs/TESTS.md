@@ -717,6 +717,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       souterrains (prise peu commune) ; clic droit : 2 à 5 âmes de lumière / de nuit
 - [ ] Molecular Manipulator (recette du wiki, avec le Nullification Pistol) : chaque balle change l'ennemi touché (taille,
       dégâts de contact, recul, défense, petite poussée) ; jamais les boss
+- [ ] Dodu's Handcannon (pas de recette utilisable : voir décisions) : coques de cacahuète très rapides qui explosent,
+      quelle que soit la balle
+- [ ] Yanmei's Knife (recette du wiki) : entaille verte devant soi, puis 3 s d'attente ; sur un boss, un mini-boss ou un
+      ennemi pendant un boss : son de l'Adrenaline, Kami Injection (plus rapide, plus de dégâts, traînée verte) et Kami
+      Flu sur la cible (lueur verte, perd de la vie, encaisse plus)
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 

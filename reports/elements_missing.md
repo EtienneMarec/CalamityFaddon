@@ -155,7 +155,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (353)
+## Objets (351)
 
 - A M S
 - AAMG "Disperse"
@@ -246,7 +246,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Divine Hunters Staff
 - Divine Intervention
 - Doctrine Spear
-- Dodu's Handcannon
 - Draftogen
 - Dragon Flame Barrage
 - Drained Catarachedrae
@@ -508,5 +507,4 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Wulfrum Shock Cutter
 - XB-∞ Hekate
 - Xenon Cutlass
-- Yanmei's Knife
 - Zenith Arcanum

@@ -1,4 +1,24 @@
 Items: {
+	DodusHandcannon: {
+		DisplayName: Dodu's Handcannon
+		Tooltip:
+			'''
+			The power of the nut rests in your hands
+			Fires high explosive peanut shells, literally
+			'''
+	}
+
+	YanmeisKnife: {
+		DisplayName: Yanmei's Knife
+		Tooltip:
+			'''
+			When hitting a boss, miniboss, or their minions, you gain various boosts and cripple the enemy hit
+			A knife from an unknown world
+			An owner whose heart is pure and free of taint
+			A heart of iron and valor
+			'''
+	}
+
 	FishofLight: {
 		DisplayName: Fish of Light
 		Tooltip: Right click to extract souls
@@ -1548,6 +1568,8 @@ Items: {
 }
 
 Projectiles: {
+	HighExplosivePeanutShell.DisplayName: High Explosive Peanut Shell
+	YanmeisKnifeSlash.DisplayName: Yanmei's Knife Slash
 	NullShot2.DisplayName: Null Shot
 	DivineRetributionSpear.DisplayName: Divine Spear
 	HellsSunProj.DisplayName: Hell's Sun
@@ -1763,6 +1785,16 @@ Elements: {
 }
 
 Buffs: {
+	KamiBuff: {
+		DisplayName: Kami Injection
+		Description: Increased movement speed and damage
+	}
+
+	KamiFlu: {
+		DisplayName: Kami Flu
+		Description: Defenseless and dying
+	}
+
 	TeslaBuff: {
 		DisplayName: Tesla's Electricity
 		Description: Summons an aura of electricity
