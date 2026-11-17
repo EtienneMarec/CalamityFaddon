@@ -8,11 +8,11 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 | content | 3619 |
 | changelog | 222 |
 | contenu correspondant à Calamity | 1360 |
-| contenu officiel renommé (via redirection) | 154 |
+| contenu officiel renommé (via redirection) | 155 |
 | pages regroupant plusieurs objets officiels | 76 |
 | officiel ou renommé avec stats divergentes | 813 |
-| contenu inconnu de Calamity avec infobox | 1494 |
-| dont avec sprite trouvé | 1397 |
+| contenu inconnu de Calamity avec infobox | 1493 |
+| dont avec sprite trouvé | 1396 |
 | pages marquées addon / fantag | 778 |
 | pages de wiki/ modifiées ou créées par rapport au Fandom | 557 |
 | **pages implémentées dans le mod** | **513** |
@@ -23,7 +23,7 @@ _Généré par `tools/wiki_index.py`, ne pas éditer à la main._
 |---|---|
 | Weapon | 468 |
 | Crafting material | 149 |
-| Covering | 125 |
+| Covering | 124 |
 | Block | 113 |
 | Debuff | 65 |
 | Boss | 62 |

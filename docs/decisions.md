@@ -1344,6 +1344,12 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   curseur à 600 px au plus. **[technique]** Projectiles avec les textures vanilla (couteau, pieu, boule de feu, bulle,
   Inferno) et le Prism Shard de Calamity.
 
+### Spy Emblem (renommage, 18/11)
+
+- **[choix]** La **Spy Emblem** du wiki est la Rogue Emblem de Calamity (même effet, même butin du Wall of Flesh ; le
+  vocabulaire « rogue → spy » l'affichait déjà ainsi) : renommage ajouté au glossaire pour que l'index la relie et que
+  les valeurs de l'infobox s'appliquent (rareté 4, vente 2 or 40).
+
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
   debuffs de Calamity au-dessus des boss.

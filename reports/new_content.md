@@ -625,7 +625,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Waterfreeze Reactive Essence — addon: Calamity: Tales of the Aquatic
 - [x] Weaver Lac — addon: Calamity: Tales of the Aquatic
 
-## Covering (125)
+## Covering (124)
 
 - [ ] Aegis Core — addon: Calamity: Tales of the Aquatic
 - [x] Ancient Essence of Merge — addon: Calamity: Tales of the Aquatic
@@ -730,7 +730,6 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Soul of Pathogen
 - [ ] Soul of Phytogen
 - [ ] Soul of Pyrogen
-- [ ] Spy Emblem
 - [ ] Spy's Lootbox — addon: Calamity: Community Remix
 - [x] Static Wings
 - [x] Sulfuric Scale

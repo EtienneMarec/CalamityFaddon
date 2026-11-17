@@ -121,6 +121,7 @@ _Généré par `tools/wiki_index.py`._ Détecté via les redirections nom offici
 | Slick Cane | Walking Cane | WalkingCane |
 | Small Sightseer | Sightseer Collider | SightseerCollider |
 | Solar Flare | Burning Revelation | BurningRevelation |
+| Spy Emblem | Rogue Emblem | RogueEmblem |
 | Staff of the Mechworm | Void Eater Marionette | VoidEaterMarionette |
 | Star Swallower Containment Unit | Star Swallower | StarSwallowerPetBuff |
 | Stardust | Starblight Soot | StarblightSoot |

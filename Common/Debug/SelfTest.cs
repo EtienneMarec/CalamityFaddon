@@ -404,6 +404,9 @@ namespace CalamityFandom.Common.Debug
             // 18/11 : la Statigel s'améliore depuis la Gel armor (recette du wiki)
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ModContent.ItemType<CalamityMod.Items.Armor.Statigel.StatigelArmor>()
                 && r.HasIngredient(ModContent.ItemType<Content.Items.Armor.GelArmor>())), "recette du wiki de la Statigel Armor (avec la Gel Armor)");
+            // 18/11 : la Rogue Emblem de Calamity est la Spy Emblem du wiki
+            if (ModContent.TryFind<ModItem>("CalamityMod", "RogueEmblem", out var rogueEmblem))
+                Expect(WikiRecipes.ResolveItem("Spy Emblem") == rogueEmblem.Type, "Rogue Emblem renommée Spy Emblem");
             // 13/11 : Skynamite de Calamity sous le nom du wiki
             if (ModContent.TryFind<ModItem>("CalamityMod", "Skynamite", out var skynamite))
                 Expect(WikiRecipes.ResolveItem("Aero Dynamite") == skynamite.Type, "Skynamite renommée Aero Dynamite");
