@@ -1,4 +1,42 @@
 Items: {
+	Terriblade: {
+		DisplayName: Terriblade
+		Tooltip: At the mercy of the obsidian's stability
+	}
+
+	SeaStoneSickle: {
+		DisplayName: Sea Stone Sickle
+		Tooltip: ""
+	}
+
+	AuricSword: {
+		DisplayName: Auric Sword
+		Tooltip: ""
+	}
+
+	Raito: {
+		DisplayName: Raito
+		Tooltip: Legendary sword of the heavens
+	}
+
+	MajesticGar: {
+		DisplayName: Majestic Gar
+		Tooltip:
+			'''
+			Lowers enemy defense by 1 with every strike
+			If enemy defense is 0 or below your attacks will heal you
+			'''
+	}
+
+	Sillyshark: {
+		DisplayName: Sillyshark
+		Tooltip:
+			'''
+			33% chance to not consume ammo
+			Has a change to cough
+			'''
+	}
+
 	SquirrelKnightStaff: {
 		DisplayName: Squirrel Knight Staff
 		Tooltip: Summons a squirrel knight to fight for you
@@ -1581,6 +1619,20 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			SeaStoneShuriken: {
+				DisplayName: Sea Stone Shuriken
+				Tooltip: ""
+			}
+
+			DirtClump: {
+				DisplayName: Dirt Clump
+				Tooltip:
+					'''
+					Throws a ball of dirt
+					Stealth strikes break into smaller dirt clumps that hit nearby enemies
+					'''
+			}
+
 			AcidicRainBarrel: {
 				DisplayName: Acidic Rain Barrel
 				Tooltip:
@@ -1743,6 +1795,14 @@ Items: {
 }
 
 Projectiles: {
+	SillysharkBooger.DisplayName: Booger
+	SeaStoneShurikenProj.DisplayName: Sea Stone Shuriken
+	DirtClumpProj.DisplayName: Dirt Clump
+	DirtFragment.DisplayName: Dirt Fragment
+	TerribladeIcicle.DisplayName: Icicle
+	TerribladeLightning.DisplayName: Lightning
+	TerribladeShrapnel.DisplayName: Shrapnel
+	TerribladeThrown.DisplayName: Terriblade
 	SquirrelKnightSentry.DisplayName: Squirrel Knight
 	SquirrelBaronSentry.DisplayName: Squirrel Baron
 	SquirrelViscountSentry.DisplayName: Squirrel Viscount

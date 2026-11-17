@@ -33,7 +33,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Astral Blade
 - [x] Astral Bow
 - [ ] Astralence — addon: Calamity: Tales of the Aquatic
-- [ ] Auric Sword
+- [x] Auric Sword
 - [ ] Axisdriver
 - [ ] Bad Apple
 - [ ] Baow — addon: Calamity: Community Remix
@@ -122,7 +122,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Devious Aestheticus — addon: Fargo's Soul Mod
 - [ ] Digital Cheese Spear — addon: Calamity: Community Remix
 - [ ] Diminishing Victory
-- [ ] Dirt Clump
+- [x] Dirt Clump
 - [x] Disease
 - [x] Diseased Pike
 - [x] Disseminator
@@ -241,7 +241,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Magna Striker
 - [ ] Magnic Circularity — addon: Calamity: Tales of the Aquatic
 - [x] Magnum
-- [ ] Majestic Gar
+- [x] Majestic Gar
 - [ ] Mambel-Jambo
 - [x] Mandible Bow
 - [x] Mandible Claws
@@ -314,7 +314,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Quintessence Cannon — addon: Deimos, the Starborn Princess, Catalyst
 - [ ] RGB Graydron
 - [x] Raider's Glory
-- [ ] Raito
+- [x] Raito
 - [ ] Ram's Revenge — addon: Calamity: Community Remix
 - [ ] Razor Teeth
 - [ ] Reactor Accelerator — addon: Calamity: Tales of the Aquatic
@@ -333,8 +333,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Salt Water Bolt — addon: Cataclysm
 - [x] Sandslasher
 - [ ] Sandstorm (weapon)
-- [ ] Sea Stone Shuriken
-- [ ] Sea Stone Sickle
+- [x] Sea Stone Shuriken
+- [x] Sea Stone Sickle
 - [x] Seabow
 - [ ] Seared Shredder
 - [x] Seashell Boomerang
@@ -346,7 +346,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Shattered Pistol — addon: Calamity: Tales of the Aquatic
 - [ ] Shroomerang — pas de sprite
 - [ ] Sign of the Operator
-- [ ] Sillyshark
+- [x] Sillyshark
 - [ ] Sister's Toy Rifle — addon: Calamity: Community Remix
 - [ ] Skull Fracture — addon: Calamity: Community Remix
 - [ ] Skullmasher
@@ -389,7 +389,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Terra Shiv
 - [x] Terra-cotta
 - [ ] Terreye Staff — addon: Calamity: Community Remix
-- [ ] Terriblade
+- [x] Terriblade
 - [ ] Tetrachromancy — addon: Polyphemalus
 - [ ] The Archalis — addon: Calamity: Community Remix
 - [ ] The Dreaming Ghost — addon: Calamity: Community Remix

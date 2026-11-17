@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1401 objets dont les recettes ont changé : 1030 recettes modifiées, 456 créées
+- 1409 objets dont les recettes ont changé : 1030 recettes modifiées, 464 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -159,6 +159,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Auric Bar | (nouvelle) | 60 Auric Ore, 1 Quark-Gluon Sludge, 1 Yharim Bar @ CosmicAnvil → 5 |
 | Auric Dye | 3 Bottled Water, 5 Auric Ore @ DyeVat → 3 | 1 Bottled Water, 5 Auric Ore @ DyeVat → 1 |
 | Auric Quantum Cooling Cell | 5 Auric Bar, 8 Mysterious Circuitry, 8 Dubious Plating, 40 Endothermic Energy, 6 Essence of Eleum @ CosmicAnvil → 1 | 2 Auric Bar, 8 Mysterious Circuitry, 8 Dubious Plating, 40 Endothermic Energy, 6 Core of Eleum @ CosmicAnvil → 1 |
+| Auric Sword | (nouvelle) | 5 Alloy Bar, 20 Conquest Fragment @ Anvils → 1 |
 | Auric Tesla Body Armor | 1 God Slayer Chestplate, 1 Bloodflare Body Armor, 1 Tarragon Breastplate, 20 Auric Bar @ CosmicAnvil → 1 | 1 Silva Armor / God Slayer Chestplate, 1 Bloodflare Body Armor, 1 Tarragon Breastplate, 18 Auric Bar, 1 Frost Barrier, 20 Soul of Plight, 35 Yharim Bar @ CosmicAnvil → 1 |
 | Auric Tesla Cuisses | 1 God Slayer Leggings, 1 Bloodflare Cuisses, 1 Tarragon Leggings, 1 Flying Carpet, 15 Auric Bar @ CosmicAnvil → 1 | 1 Silva Leggings / God Slayer Leggings, 1 Bloodflare Cuisses, 1 Tarragon Leggings, 15 Auric Bar, 1 Flying Carpet, 15 Soul of Plight, 35 Yharim Bar @ CosmicAnvil → 1 |
 | Auric Tesla Hooded Facemask | 1 God Slayer Helmet, 1 Bloodflare Horned Helm, 1 Tarragon Visage, 10 Auric Bar @ CosmicAnvil → 1 | 1 God Slayer Helmet, 1 Bloodflare Horned Helm, 1 Tarragon Visage, 1 Psychotic Amulet, 12 Auric Bar, 10 Soul of Plight, 35 Yharim Bar @ CosmicAnvil → 1 |
@@ -399,6 +400,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Devil's Devastation | 1 True Forbidden Oathblade, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Devastation, 1 True Forbidden Oathblade, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 |
 | Devil's Sunrise | 1 Terragrim, 50 Bloodstone, 10 Scorched Bone @ MythrilAnvil → 1 | 1 Terragrim, 10 Demonic Bone Ash, 25 Bloodstone Bar @ LunarCraftingStation → 1 |
 | Dimensional Soul Artifact | 10 Cosmilite Bar, 25 Elumplate, 25 Exodium Cluster @ CosmicAnvil → 1 | 10 Soul Flux, 25 Elumplate, 5 Cosmilite Slag, 25 Exodium Cluster @ DemonAltar → 1 |
+| Dirt Clump | (nouvelle) | 1 Dirt Block @ main → 5 |
 | Disgusting Meat | (nouvelle) | 1 Bloody Vein, 5000 Delicious Meat @ Bottles → 5000 |
 | Disorderful Soul Artifact | (nouvelle) | 25 Chaosplate, 5 Bloodstone Bar, 25 Exodium Cluster @ DemonAltar → 1 |
 | Disseminator | (nouvelle) | 1 Conference Call, 5 Luminite Bar @ LunarCraftingStation → 1 |
@@ -750,6 +752,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Magnetic Meltdown | 1 Magnet Sphere, 3 Twisting Nether @ MythrilAnvil → 1 | 3 Dark Plasma, 1 Spectre Staff, 1 Magnet Sphere @ LunarCraftingStation → 1 |
 | Magnomaly Cannon | 1 The Pack, 1 Scorched Earth, 1 Electrosphere Launcher, 1 Miracle Matter @ DraedonsForge → 1 | 1 The Pack, 1 Scorched Earth, 1 Aether's Whisper, 1 Electrosphere Launcher, 1 Miracle Matter @ DraedonsForge → 1 |
 | Magnum | (nouvelle) | 1 Flintlock Pistol, 10 Any Iron Bar, 5 Diamond, 2 Alloy Bar @ Anvils → 1 |
+| Majestic Gar | (nouvelle) | 1 Adamantite Sword / Titanium Sword, 15 Soul of Might @ MythrilAnvil → 1 |
 | Mana Regeneration Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Mana Rose | 1 Nature's Gift, 1 Mana Crystal, 5 Moonglow @ Anvils → 1 | 1 Nature's Gift, 1 Jungle Rose, 5 Moonglow @ Anvils → 1 |
 | Mangrove Chakram | 10 Perennial Bar @ MythrilAnvil → 1 | 7 Perennial Bar, 12 Chlorophyte Bar, 1 Flower Pow @ MythrilAnvil → 1 |
@@ -991,6 +994,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Rage Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Raider's Talisman | 5 Leather, 5 Flinx Fur, 20 Obsidian @ Anvils → 1 | 5 Silk, 1 Topaz @ Anvils → 1 |
 | Rainbow Party Cannon | 1 Cosmic Rainbow, 1 Celebration Mk2, 1 Confetti Cannon, 5 Shadowspec Bar, 25 Soul of Light, 50 Confetti @ DraedonsForge → 1 | 1 Confetti Cannon, 1 Cosmic Rainbow, 1 Celebration, 5 Flask of Party, 25 Soul of Light, 50 Confetti, 5 Shadowspec Bar @ DraedonsForge → 1 |
+| Raito | (nouvelle) | 1 Excalibur, 20 Astral Bar, 22 Disgusting Meat, 10 Topaz @ MythrilAnvil → 1 |
 | Rampart of Deities | 1 Frozen Shield, 1 Deific Amulet, 5 Auric Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Frozen Shield, 1 Deific Amulet, 1 Rusty Medallion, 1 Amidias' Pendant, 5 Galactica Singularity, 10 Divine Bar, 10 Cosmilite Bar, 4 Ascendant Spirit Essence, 4 Yharim Bar @ CosmicAnvil → 1 |
 | Reaper Tooth Necklace | 1 Sand Shark Tooth Necklace, 6 Reaper Tooth, 20 Depth Cells @ TinkerersWorkbench → 1 | 1 Sand Shark Tooth Necklace, 6 Reaper Tooth, 15 Depth Cells, 15 Lumenyl, 5 Tenebris @ TinkerersWorkbench → 1 |
 | Reassembled Electronics | (nouvelle) | 5 Charged Wulfrum Battery, 1 Enhanced Plasma Drive Core, 25 Infected Armor Plating, 25 Dubious Plating, 25 Mysterious Circuitry @ MythrilAnvil → 1 |
@@ -1050,6 +1054,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Screwdriver | 10 Bottle, 1 Diamond @ Kegs → 10 | 5 Fluorescent Vodka, 1 Hemagrape, 5 Hallowed Ore @ Kegs → 5 |
 | SDFMG | 1 S.D.M.G., 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 | 1 S.D.M.G., 1 Fetid Emesis, 10 Sea Prism, 10 Depth Cells, 10 Lumenyl, 5 Tenebris, 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 |
 | Sea Minnow Jar | 1 Sea Minnow, 1 Bottled Water @ main → 1 | 1 Bottle, 1 Sea Minnow @ main → 1 |
+| Sea Stone Shuriken | (nouvelle) | 2 Sea Stone Bar @ Anvils → 100 |
+| Sea Stone Sickle | (nouvelle) | 8 Sea Stone Bar @ Anvils → 1 |
 | Seabow | (nouvelle) | 2 Victide Bar @ Anvils → 1 |
 | Seafoam Bomb | 25 Bomb, 10 Sea Prism, 1 Conquest Fragment @ Anvils → 1 | 25 Bomb, 10 Sea Prism @ Anvils → 1 |
 | Seafood | 20 Sulphurous Sand, 10 Starfish, 5 Shark Fin @ Anvils → 1 | 20 Sand Block, 10 Starfish, 5 Water Bucket @ Anvils → 1 |
@@ -1093,6 +1099,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Shroomite Visage | (nouvelle) | 1 Chlorophyte Helmet, 60 Glowing Mushroom @ MythrilAnvil → 1 |
 | Shuriken | (nouvelle) | 1 Any Iron Bar @ Anvils → 50 |
 | Sigil of Calamitas | 1 Celestial Emblem, 8 Abyss Bar, 15 Ashes of Calamity @ MythrilAnvil → 1 | 1 Celestial Emblem, 5 Ashes of Calamity, 5 Core of Chaos, 2 Abyss Bar, 10 Any Evil Water @ MythrilAnvil → 1 |
+| Sillyshark | (nouvelle) | 1 Bass, 1 Mediocre Matter @ Hellforge → 1 |
 | Silva Armor | 90 Planty Mush, 12 Effulgent Feather, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 12 Ornate Cloth, 1 Lead Core, 10 Any Gold Bar, 12 Tenebris, 3 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Silva Bathtub | 14 Silva Crystal @ GlassKiln → 1 | 14 Silva Crystal @ SilvaBasin → 1 |
 | Silva Bed | 15 Silva Crystal, 5 Silk @ GlassKiln → 1 | 15 Silva Crystal, 5 Silk @ SilvaBasin → 1 |
@@ -1309,6 +1316,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Terra Ray | 1 Night's Ray, 1 Valkyrie Ray, 12 Living Shard @ MythrilAnvil → 1 | 7 Living Shard, 1 Night's Ray / Carnage Ray, 1 Valkyrie Ray @ MythrilAnvil → 1 |
 | Terra Shiv | (nouvelle) | 1 True Night's Stabber, 1 True Caliburn, 6 Living Shard @ MythrilAnvil → 1 |
 | Terratomere | 1 Terra Blade, 18 Tarragon Bar @ MythrilAnvil → 1 | 1 Floodtide, 1 Hellkite, 1 Terra Blade / Terra Edge, 7 Tarragon Bar, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
+| Terriblade | (nouvelle) | 1 Wooden Sword, 1 Mediocre Matter @ Hellforge → 1 |
 | Terror Blade | (nouvelle) | 5 Haunted Bar @ LunarCraftingStation → 1 |
 | Terror Talons | 5 Chlorophyte Bar, 10 Leather @ MythrilAnvil → 1 | 1 Feral Claws, 5 Chlorophyte Bar, 10 Soul of Fright @ MythrilAnvil → 1 |
 | Tesla Cannon | 25 Mysterious Circuitry, 15 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |

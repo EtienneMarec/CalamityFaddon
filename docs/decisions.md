@@ -1350,6 +1350,19 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   vocabulaire « rogue → spy » l'affichait déjà ainsi) : renommage ajouté au glossaire pour que l'index la relie et que
   les valeurs de l'infobox s'appliquent (rareté 4, vente 2 or 40).
 
+### Armes du wiki du 18/11 (`Content/Items/Weapons/WikiWeapons1118.cs`)
+
+- **[choix]** **Terriblade**, **Sea Stone Sickle**, **Auric Sword**, **Raito**, **Majestic Gar**, **Sea Stone Shuriken**,
+  **Dirt Clump**, **Sillyshark** : objets inventés par le wiki, dans les deux modes, sprites et valeurs des infobox.
+  Chiffres choisis : Terriblade — l'effet est tiré à chaque coup (9 à chances égales) ; glaçon à moitié des dégâts ;
+  éclair = colonne de 600 px à un endroit au hasard de la moitié basse de l'écran ; « Electrified » = Static Discharge de
+  Calamity ; Bleeding vanilla (sans effet sur les ennemis) ; 8 éclats à 20 % ; la lame lancée revient au joueur
+  (boomerang : se plante jusqu'à 5 s ; ricochet : 4 rebonds, rebondit sur l'eau) ; saut vers le haut à 14 px par
+  image. Majestic Gar : « très grande portée » = taille x1,5, la baisse de défense est permanente pour l'ennemi.
+  Raito : vraie mêlée, taille x1,4. Sea Stone Shuriken : une chance sur quatre de le récupérer. Dirt Clump : 5 fragments
+  qui cherchent les ennemis à 200 px. Sillyshark : 3 à 5 crottes de nez (poussière verte, sans dégâts), Vaporfied 1,5 s
+  par les balles, taille d'affichage x0,75 (sprite du wiki très grand).
+
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
   debuffs de Calamity au-dessus des boss.

@@ -386,7 +386,8 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelKnightStaff>(), ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelBaronStaff>(),
                 ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelViscountStaff>(), ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelCountStaff>(),
                 ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelDukeStaff>(), ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelPrinceStaff>(),
-                ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelKingStaff>() })
+                ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelKingStaff>(),
+                ModContent.ItemType<Content.Items.Weapons.Melee.Terriblade>(), ModContent.ItemType<Content.Items.Weapons.Melee.SeaStoneSickle>(), ModContent.ItemType<Content.Items.Weapons.Melee.AuricSword>(), ModContent.ItemType<Content.Items.Weapons.Melee.Raito>(), ModContent.ItemType<Content.Items.Weapons.Melee.MajesticGar>(), ModContent.ItemType<Content.Items.Weapons.Rogue.SeaStoneShuriken>(), ModContent.ItemType<Content.Items.Weapons.Rogue.DirtClump>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Sillyshark>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -417,9 +418,9 @@ namespace CalamityFandom.Common.Debug
             foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(NPCID.Zombie, false))
                 r.ReportDroprates(zombieRates, new DropRateInfoChainFeed(1f));
             Expect(zombieRates.Any(r => r.itemId == ModContent.ItemType<Content.Items.Weapons.Magic.TheInsacredTexts>()), "le Zombie lâche The Insacred Texts");
-            // Phlegm : sa page n'a pas d'infobulle
+            // Phlegm, Sea Stone Shuriken : leur page n'a pas d'infobulle
             var emptyRogue = ModContent.GetContent<ModItem>().Where(i => i.Mod == Mod && i is CalamityMod.Items.Weapons.Rogue.RogueWeapon
-                && i.Name != "Phlegm" && string.IsNullOrWhiteSpace(i.Tooltip.Value)).Select(i => i.Name).ToList();
+                && i.Name != "Phlegm" && i.Name != "SeaStoneShuriken" && string.IsNullOrWhiteSpace(i.Tooltip.Value)).Select(i => i.Name).ToList();
             Expect(emptyRogue.Count == 0, $"infobulles des armes Rogue ({string.Join(", ", emptyRogue)})");
             Expect(Language.Exists("Mods.CalamityFandom.InsacredTexts.Fic" + (Content.Items.Weapons.Magic.TheInsacredTexts.FicCount - 1)),
                 "The Insacred Texts : phrases du clic droit");

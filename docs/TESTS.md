@@ -764,6 +764,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       tombent doucement ; Knight lance des couteaux, Baron des Prism Shards qui éclatent, Viscount des pieux qui
       traversent tout, Count des boules de feu chercheuses, Duke un flot de bulles, Prince des boules de feu qui explosent
       en trois plus petites, King des colonnes de lumière sur les ennemis
+- [ ] Armes du wiki (recettes du wiki) : Terriblade (un effet au hasard par coup : feu, glaçon, éclair à l'écran,
+      saignement, lancer qui se plante 5 s, éclats, lancer qui ricoche, saut vers le haut), Sea Stone Sickle, Auric Sword,
+      Raito (vraie mêlée), Majestic Gar (baisse la défense de 1 par coup, soigne quand elle est à 0), Sea Stone Shuriken
+      (100 par recette, traverse 2 ennemis), Dirt Clump (5 par bloc de terre ; frappe furtive : fragments), Sillyshark
+      (une fois sur dix, une toux au lieu d'une balle)
 
 ---
 

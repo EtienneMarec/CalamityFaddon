@@ -153,7 +153,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (338)
+## Objets (333)
 
 - A M S
 - AAMG "Disperse"
@@ -174,7 +174,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aspect of the End
 - Aspid Blaster
 - Astralence
-- Auric Sword
 - Axisdriver
 - Bad Apple
 - Baow
@@ -327,7 +326,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Li'l Mine
 - Lunatic Beats
 - Magnic Circularity
-- Majestic Gar
 - Mambel-Jambo
 - Megaskeet
 - Meridian
@@ -384,7 +382,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Quantum Flahium Militia Device
 - Quantum Flahium Shock Device
 - Quintessence Cannon
-- Raito
 - Ram's Revenge
 - Rampart of Deicide
 - Razor Teeth
@@ -412,7 +409,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Shattered Module
 - Shattered Pistol
 - Sign of the Operator
-- Sillyshark
 - Skull Fracture
 - Sky Clearer
 - Slimelgamation
@@ -435,7 +431,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Terra Bow
 - Terrestrial Dart
 - Terreye Staff
-- Terriblade
 - Tetrachromancy
 - The Archalis
 - The Dreaming Ghost
