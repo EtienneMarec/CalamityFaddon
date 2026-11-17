@@ -153,7 +153,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (333)
+## Objets (324)
 
 - A M S
 - AAMG "Disperse"
@@ -164,7 +164,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aegis Core
 - Aergian Technistaff
 - Aero Bolt
-- Aflaming Crystalliser
 - Angel's Thesis
 - Aquarel Pistol
 - Aquatic Shardstone
@@ -218,7 +217,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Corrupt Hypno Flute
 - Creature Capsule
 - Crius Prime
-- Crustalline
 - Crystallic Coin Gun
 - Cursed Spear
 - Cyberlight Striker
@@ -254,7 +252,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Elemental Saw Launcher
 - Elusive Feather
 - Endentant Bow
-- Ethereal Knives
 - Evercoldance
 - Exactory Dartshooter
 - Exif Fist
@@ -264,7 +261,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Exotic Beacon
 - Exterminative Dart
 - Exterminator
-- Eye of Light
 - Fakenado Staff
 - First Crescent
 - Flame Boy Popsicle
@@ -302,7 +298,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Halberd of the Holidays
 - Hand Hook
 - Hand of God
-- Heavenwing Staff
 - Helios Partisan
 - Hell's Bells
 - Hemorr-Rang
@@ -332,7 +327,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Midas' Handshake
 - Miracle Smacker
 - Molten Piercer
-- Moonstone Knives
 - Morpho Doomblade
 - Neural Whipper-Snapper
 - Neuraze
@@ -412,7 +406,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Skull Fracture
 - Sky Clearer
 - Slimelgamation
-- Smoldering Seahorses
 - Snowgrave
 - Spear of Liberty
 - Star Flare
@@ -475,7 +468,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Whipped Bouquet Blade
 - Wind Turbine Blade
 - Winter Breeze
-- Wooden Butterfly Staff
 - Worst Prism
 - Wrath of the Cosmos
 - Wrath of the Dragons
@@ -484,7 +476,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Wreath of Belial
 - Wrecking Ball
 - Wulfrum Fusion Array
-- Wulfrum Shock Cutter
 - XB-∞ Hekate
 - Xenon Cutlass
 - Zenith Arcanum

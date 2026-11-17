@@ -14,7 +14,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Aergian Technistaff — addon: Hypnos in Calamity
 - [ ] Aeries
 - [ ] Aero Bolt — addon: Calamity: Community Remix
-- [ ] Aflaming Crystalliser
+- [x] Aflaming Crystalliser
 - [x] Aftershock
 - [x] Alpha Ray
 - [x] Alpha Virus
@@ -98,7 +98,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Crimslime Staff
 - [x] Crimson Crusher Blade
 - [ ] Crius Prime — addon: Deimos, the Starborn Princess
-- [ ] Crustalline
+- [x] Crustalline
 - [x] Crystal Blade
 - [x] Crystal Flare Staff
 - [ ] Crystallic Coin Gun — addon: Calamity: Tales of the Aquatic
@@ -147,7 +147,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Elemental Saw Launcher
 - [ ] Elusive Feather
 - [ ] Endentant Bow — addon: Calamity: Tales of the Aquatic
-- [ ] Ethereal Knives
+- [x] Ethereal Knives
 - [x] Eutrophic Scimitar
 - [x] Eutrophic Shank
 - [ ] Evercoldance — addon: Calamity: Tales of the Aquatic
@@ -157,7 +157,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Exo Gladius
 - [ ] Exodimus — addon: Calamity: Community Remix
 - [ ] Exterminator — addon: Calamity: Tales of the Aquatic
-- [ ] Eye of Light
+- [x] Eye of Light
 - [ ] Fakenado Staff
 - [ ] Fina's Gun — addon: Calamity: Community Remix
 - [ ] First Crescent — addon: Calamity: Tales of the Aquatic
@@ -204,7 +204,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Hand Hook
 - [ ] Hand of God
 - [ ] Heart Rapier
-- [ ] Heavenwing Staff
+- [x] Heavenwing Staff
 - [ ] Helios Partisan — addon: Calamity: Tales of the Aquatic
 - [x] Hell Burst
 - [ ] Hell's Bells
@@ -259,7 +259,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Molecular Manipulator
 - [ ] Molten Piercer
 - [x] Monkey Darts
-- [ ] Moonstone Knives
+- [x] Moonstone Knives
 - [ ] Morpho Doomblade
 - [ ] Neural Whipper-Snapper — addon: Calamity: Community Remix
 - [ ] Neuraze — addon: Hypnos in Calamity
@@ -353,7 +353,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Sky Clearer — addon: Calamity: Tales of the Aquatic
 - [x] Sky Stabber
 - [ ] Slime Gun EX
-- [ ] Smoldering Seahorses
+- [x] Smoldering Seahorses
 - [ ] Snowgrave — addon: Apotheosis and Friends
 - [x] Soul Edge
 - [ ] Spear of Liberty — addon: Calamity: Community Remix, Calamity: Community Remix
@@ -451,7 +451,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Wind Turbine Blade — addon: Calamity: Community Remix
 - [ ] Winter Breeze — addon: Apotheosis and Friends
 - [ ] Wisdom of Survival — addon: Calamity: Tales of the Aquatic
-- [ ] Wooden Butterfly Staff
+- [x] Wooden Butterfly Staff
 - [ ] Worst Prism
 - [x] Wrath of the Ancients
 - [ ] Wrath of the Cosmos — addon: Calamity: Community Remix
@@ -465,7 +465,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Wulfrum Bow — addon: Calamity: Community Remix
 - [ ] Wulfrum Fusion Array — addon: Calamity: Community Remix
 - [x] Wulfrum Leech Dagger
-- [ ] Wulfrum Shock Cutter — addon: Calamity: Community Remix
+- [x] Wulfrum Shock Cutter — addon: Calamity: Community Remix
 - [x] Wulfrum Staff — addon: Calamity: Community Remix
 - [ ] XB-∞ Hekate — addon: Calamity: Community Remix
 - [ ] Xemilumeniscent Staff — addon: Tranquility Mod

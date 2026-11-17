@@ -769,6 +769,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Raito (vraie mêlée), Majestic Gar (baisse la défense de 1 par coup, soigne quand elle est à 0), Sea Stone Shuriken
       (100 par recette, traverse 2 ennemis), Dirt Clump (5 par bloc de terre ; frappe furtive : fragments), Sillyshark
       (une fois sur dix, une toux au lieu d'une balle)
+- [ ] Armes du wiki (2) : Smoldering Seahorses (hippocampes chercheurs qui tombent sans cible), Aflaming Crystalliser
+      (orbe qui ondule et tire des cristaux qui éclatent), Moonstone Knives et Ethereal Knives (rendent du mana ; les
+      seconds explosent), Heavenwing Staff (5 chauves-souris dorées qui tombent près du curseur), Eye of Light (sbire
+      qui s'accroche à l'ennemi et fait tomber des étoiles), Wooden Butterfly Staff (3 papillons sans place de sbire,
+      3 charges chacun), Crustalline (dague qui tourne autour du joueur puis se plante ; éclate en frappe furtive)
 
 ---
 

@@ -1363,6 +1363,19 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   qui cherchent les ennemis à 200 px. Sillyshark : 3 à 5 crottes de nez (poussière verte, sans dégâts), Vaporfied 1,5 s
   par les balles, taille d'affichage x0,75 (sprite du wiki très grand).
 
+- **[choix]** (suite, `WikiWeapons1118b.cs`) **Smoldering Seahorses**, **Aflaming Crystalliser**, **Moonstone Knives**,
+  **Ethereal Knives**, **Heavenwing Staff**, **Eye of Light**, **Wooden Butterfly Staff**, **Crustalline** : sprites et
+  valeurs des pages. Chiffres choisis : hippocampe chercheur à 500 px (On Fire! 2 s, élément Fire de la page) ; orbe
+  d'améthyste qui tire un cristal toutes les 20 images (projectiles en poussière et cristaux vanilla teintés : pas de
+  sprite sur le wiki) ; 3 éclats ricochants par cristal ; Ethereal Knives : 8 couteaux par utilisation (use 3, 24 images),
+  explosion de 80 px à moitié des dégâts ; chauves-souris (texture de la Hellwing, teinte dorée) apparues 60 à 160 px
+  au-dessus du curseur ; Eye of Light : une étoile toutes les 12 images, portée 800 px ; papillons : suivent le joueur,
+  portée 600 px, s'éloignent après chaque charge ; Crustalline : un tour de 40 images à 70 px, se plante 2 s,
+  5 fragments à moitié des dégâts en frappe furtive, bruit de verre brisé (le son de Providence n'est pas repris).
+  **Wulfrum Shock Cutter** (ingrédient du Crustalline) : rafale de 3 (use 4, 12 images), clic droit maintenu = retour
+  des cutters ; frappe furtive : 1,6 fois plus rapides, deux coups chacun ; pas encore obtenable : son butin vient de
+  **The Inventors**, boss inventé pas encore dans le mod (le Crustalline ne se fabrique donc pas encore).
+
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
   debuffs de Calamity au-dessus des boss.

@@ -1,4 +1,45 @@
 Items: {
+	SmolderingSeahorses: {
+		DisplayName: Smoldering Seahorses
+		Tooltip: Casts flaming seahorses after your enemies
+	}
+
+	AflamingCrystalliser: {
+		DisplayName: Aflaming Crystalliser
+		Tooltip: Casts burning amethyst orbs that shoot crystals
+	}
+
+	MoonstoneKnives: {
+		DisplayName: Moonstone Knives
+		Tooltip: Throws several knives that restore the users mana
+	}
+
+	EtherealKnives: {
+		DisplayName: Ethereal Knives
+		Tooltip: Throws a stream of knives that restore the users mana
+	}
+
+	HeavenwingStaff: {
+		DisplayName: Heavenwing Staff
+		Tooltip: Casts holy flaming bats
+	}
+
+	EyeofLight: {
+		DisplayName: Eye of Light
+		Tooltip: Summons a holy eyeball that attaches to enemies and summons stars from above
+	}
+
+	WoodenButterflyStaff: {
+		DisplayName: Wooden Butterfly Staff
+		Tooltip:
+			'''
+			Summons a butterfly to attack enemies
+			Does not consume minion slots
+			Only 3 can be summoned at a time
+			'The oldest in butterfly technology'
+			'''
+	}
+
 	Terriblade: {
 		DisplayName: Terriblade
 		Tooltip: At the mercy of the obsidian's stability
@@ -1619,6 +1660,25 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			WulfrumShockCutter: {
+				DisplayName: Wulfrum Shock Cutter
+				Tooltip:
+					'''
+					Fires wulfrum shock cutters in bursts of 3
+					Stealth strikes make the cutters fly further and hit several times at once
+					Hold right click to magnetize all nearby cutters back to you
+					'''
+			}
+
+			Crustalline: {
+				DisplayName: Crustalline
+				Tooltip:
+					'''
+					Throws daggers that orbit you and stick to tiles
+					Stealth strikes cause the blade to shatter into harmfull pieces
+					'''
+			}
+
 			SeaStoneShuriken: {
 				DisplayName: Sea Stone Shuriken
 				Tooltip: ""
@@ -1795,6 +1855,17 @@ Items: {
 }
 
 Projectiles: {
+	ShockCutter.DisplayName: Wulfrum Shock Cutter
+	CinderSeahorse.DisplayName: Cinder Seahorse
+	AmethystOrb.DisplayName: Burning Amethyst Orb
+	OrbCrystal.DisplayName: Orb Crystal
+	MoonstoneKnife.DisplayName: Moonstone Knife
+	EtherealKnife.DisplayName: Ethereal Knife
+	HeavenwingBat.DisplayName: Holy Flaming Bat
+	EyeofLightMinion.DisplayName: Eye of Light
+	LightStar.DisplayName: Star
+	ButterflyStaffMinion.DisplayName: Butterfly
+	CrustallineDagger.DisplayName: Crustalline
 	SillysharkBooger.DisplayName: Booger
 	SeaStoneShurikenProj.DisplayName: Sea Stone Shuriken
 	DirtClumpProj.DisplayName: Dirt Clump
@@ -2045,6 +2116,11 @@ Elements: {
 }
 
 Buffs: {
+	EyeofLightBuff: {
+		DisplayName: Eye of Light
+		Description: I watch over you my friend
+	}
+
 	AbyssalWeapon: {
 		DisplayName: Abyssal Weapon
 		Description: Melee and rogue weapons inflict abyssal flames, 5% increased movement speed
