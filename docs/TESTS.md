@@ -760,6 +760,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       un coup de plus de 100 ; Helm : les ennemis visent le joueur ; Hood : un Baby Slime et +1 sbire ; Mask : furtivité
       jusqu'à 50 ; Cap : +30 mana
 - [ ] Les recettes de la Statigel demandent maintenant la pièce Gel correspondante (recettes du wiki)
+- [ ] Bâtons écureuils (recettes du wiki en chaîne depuis le Squirrel Squire Staff) : tourelles posées au curseur qui
+      tombent doucement ; Knight lance des couteaux, Baron des Prism Shards qui éclatent, Viscount des pieux qui
+      traversent tout, Count des boules de feu chercheuses, Duke un flot de bulles, Prince des boules de feu qui explosent
+      en trois plus petites, King des colonnes de lumière sur les ennemis
 
 ---
 

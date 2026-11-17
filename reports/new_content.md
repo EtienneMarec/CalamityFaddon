@@ -358,13 +358,13 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Soul Edge
 - [ ] Spear of Liberty — addon: Calamity: Community Remix, Calamity: Community Remix
 - [x] Spectre Rifle
-- [ ] Squirrel Baron Staff
-- [ ] Squirrel Count Staff
-- [ ] Squirrel Duke Staff
-- [ ] Squirrel King Staff
-- [ ] Squirrel Knight Staff
-- [ ] Squirrel Prince Staff
-- [ ] Squirrel Viscount Staff
+- [x] Squirrel Baron Staff
+- [x] Squirrel Count Staff
+- [x] Squirrel Duke Staff
+- [x] Squirrel King Staff
+- [x] Squirrel Knight Staff
+- [x] Squirrel Prince Staff
+- [x] Squirrel Viscount Staff
 - [x] Star Cannon EX
 - [ ] Star Flare — addon: Deimos, the Starborn Princess, Sloome
 - [ ] Steel Blade

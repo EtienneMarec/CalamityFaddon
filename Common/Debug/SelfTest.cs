@@ -382,7 +382,11 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Armor.GelArmor>(), ModContent.ItemType<Content.Items.Armor.GelGreaves>(),
                 ModContent.ItemType<Content.Items.Armor.GelHelm>(), ModContent.ItemType<Content.Items.Armor.GelHeadgear>(),
                 ModContent.ItemType<Content.Items.Armor.GelCap>(), ModContent.ItemType<Content.Items.Armor.GelHood>(),
-                ModContent.ItemType<Content.Items.Armor.GelMask>() })
+                ModContent.ItemType<Content.Items.Armor.GelMask>(),
+                ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelKnightStaff>(), ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelBaronStaff>(),
+                ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelViscountStaff>(), ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelCountStaff>(),
+                ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelDukeStaff>(), ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelPrinceStaff>(),
+                ModContent.ItemType<Content.Items.Weapons.Summon.SquirrelKingStaff>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

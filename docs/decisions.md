@@ -1331,6 +1331,19 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[technique]** Pas de planches portées sur le wiki : rendu des pièces Statigel de Calamity en attendant des sprites
   (`docs/SPRITES.md`, section 2).
 
+### Bâtons écureuils (`Content/Items/Weapons/Summon/SquirrelStaves.cs`, 18/11)
+
+- **[choix]** Sept tourelles inventées par le wiki (Knight, Baron, Viscount, Count, Duke, Prince, King), dans les deux
+  modes, sprites du wiki (tourelles et bâtons, une image chacune, sans animation). Valeurs des infobox (dégâts, recul,
+  mana 12, use 34, rareté ; la pile de 4 du Baron est ignorée). Attaques d'après les pages, avec des chiffres choisis :
+  tir toutes les 40 images (Duke toutes les 8, King toutes les 50), portée 960 px comme le Squirrel Squire ; Knight :
+  couteau qui perce une fois ; Baron : Prism Shard qui perce une fois puis 2 ou 3 éclats à moitié des dégâts ; Viscount :
+  pieu qui perce sans fin ; Count : boule de feu chercheuse, explosion de 64 px, On Fire! 3 s ; Duke : bulles chercheuses
+  à moitié des dégâts ; Prince : explosion de 160 px puis trois boules de feu du Count à moitié des dégâts, Holy Flames ;
+  King : colonne de lumière de 480 px sur la cible, Holy Flames. Chute lente (2,5 px par image au plus) ; posées au
+  curseur à 600 px au plus. **[technique]** Projectiles avec les textures vanilla (couteau, pieu, boule de feu, bulle,
+  Inferno) et le Prism Shard de Calamity.
+
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
   debuffs de Calamity au-dessus des boss.

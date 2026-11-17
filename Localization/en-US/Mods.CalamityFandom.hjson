@@ -1,4 +1,39 @@
 Items: {
+	SquirrelKnightStaff: {
+		DisplayName: Squirrel Knight Staff
+		Tooltip: Summons a squirrel knight to fight for you
+	}
+
+	SquirrelBaronStaff: {
+		DisplayName: Squirrel Baron Staff
+		Tooltip: Summons a squirrel baron to fight for you
+	}
+
+	SquirrelViscountStaff: {
+		DisplayName: Squirrel Viscount Staff
+		Tooltip: Summons a squirrel viscount to fight for you
+	}
+
+	SquirrelCountStaff: {
+		DisplayName: Squirrel Count Staff
+		Tooltip: Summons a squirrel count to fight for you
+	}
+
+	SquirrelDukeStaff: {
+		DisplayName: Squirrel Duke Staff
+		Tooltip: Summons a squirrel duke to fight for you
+	}
+
+	SquirrelPrinceStaff: {
+		DisplayName: Squirrel Prince Staff
+		Tooltip: Summons a squirrel prince to fight for you
+	}
+
+	SquirrelKingStaff: {
+		DisplayName: Squirrel King Staff
+		Tooltip: Summons a squirrel king to fight for you
+	}
+
 	GelArmor: {
 		DisplayName: Gel Armor
 		Tooltip: 3% increased critical strike chance
@@ -1708,6 +1743,20 @@ Items: {
 }
 
 Projectiles: {
+	SquirrelKnightSentry.DisplayName: Squirrel Knight
+	SquirrelBaronSentry.DisplayName: Squirrel Baron
+	SquirrelViscountSentry.DisplayName: Squirrel Viscount
+	SquirrelCountSentry.DisplayName: Squirrel Count
+	SquirrelDukeSentry.DisplayName: Squirrel Duke
+	SquirrelPrinceSentry.DisplayName: Squirrel Prince
+	SquirrelKingSentry.DisplayName: Squirrel King
+	SquirrelKnife.DisplayName: Knife
+	SquirrelPrismShard.DisplayName: Prism Shard
+	SquirrelStake.DisplayName: Stake
+	SquirrelFireball.DisplayName: Fireball
+	SquirrelBubble.DisplayName: Bubble
+	SquirrelPrinceFireball.DisplayName: Fireball
+	SquirrelHolyBeam.DisplayName: Holy Light
 	ElementalExcaliburBeam.DisplayName: Elemental Excalibur Beam
 	ParticleBeamofDoom.DisplayName: Doom
 	BigBeamofDeath.DisplayName: Big Beam of Death

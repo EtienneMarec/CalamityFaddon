@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1394 objets dont les recettes ont changé : 1030 recettes modifiées, 449 créées
+- 1401 objets dont les recettes ont changé : 1030 recettes modifiées, 456 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -1170,7 +1170,14 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Spiteful Candle | (nouvelle) | 1 Peace Candle, 987 Essence of Chaos, 1098 Essence of Sunlight @ CrystalBall → 1 |
 | Spore Knife | 12 Jungle Spores, 8 Stinger @ Anvils → 1 | 10 Jungle Spores, 5 Stinger @ Anvils → 1 |
 | Spyker | 1 Needler, 1 Stynger, 10 Tarragon Bar @ MythrilAnvil → 1 | 1 Needler, 1 Stynger, 1 Blow Pipe, 5 Tarragon Bar, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
+| Squirrel Baron Staff | (nouvelle) | 1 Squirrel Knight Staff, 5 Mollusk Husk, 50 Prism Shard, 1 Surf Clam @ Anvils → 1 |
+| Squirrel Count Staff | (nouvelle) | 1 Squirrel Viscount Staff, 14 Solar Fragment, 5 Unholy Core @ LunarCraftingStation → 1 |
+| Squirrel Duke Staff | (nouvelle) | 1 Squirrel Count Staff, 2 Ruinous Soul, 15 Corroded Fossil, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
+| Squirrel King Staff | (nouvelle) | 1 Squirrel Prince Staff, 7 Primordial Light Shard, 1 Minigun @ DraedonsForge → 1 |
+| Squirrel Knight Staff | (nouvelle) | 1 Squirrel Squire Staff, 10 Any Evil Flesh, 20 Any Iron Bar @ Anvils → 1 |
+| Squirrel Prince Staff | (nouvelle) | 1 Squirrel Duke Staff, 14 Auric Bar, 12 Divine Bar @ CosmicAnvil → 1 |
 | Squirrel Squire Staff | 10 Any Wood, 1 Acorn @ WorkBenches → 1 | 10 Dirt Block, 1 Squirrel @ WorkBenches → 1 |
+| Squirrel Viscount Staff | (nouvelle) | 1 Squirrel Baron Staff, 10 Solar Veil, 30 Pumpkin @ MythrilAnvil → 1 |
 | Staff of the Mechworm | (nouvelle) | 200 Cosmilite Bar, 5 Stardust Dragon Staff, 1 Cosmolight, 2 Gummy Worm, 1 Lime Dye @ CosmicAnvil → 1 |
 | Star Beam Rye | (nouvelle) | 5 Margarita, 10 Blood Orb, 1 Aureus Cell @ AlchemyTable → 5 |
 | Star Beam Rye | 10 Bottle, 1 Star Fruit @ Kegs → 10 | 5 Margarita, 20 Hay, 2 Aureus Cell @ Kegs → 5 |

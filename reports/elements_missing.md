@@ -153,7 +153,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (345)
+## Objets (338)
 
 - A M S
 - AAMG "Disperse"
@@ -419,13 +419,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Smoldering Seahorses
 - Snowgrave
 - Spear of Liberty
-- Squirrel Baron Staff
-- Squirrel Count Staff
-- Squirrel Duke Staff
-- Squirrel King Staff
-- Squirrel Knight Staff
-- Squirrel Prince Staff
-- Squirrel Viscount Staff
 - Star Flare
 - Steel Blade
 - Steel Kunai
