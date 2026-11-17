@@ -1319,6 +1319,18 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   (12 couleurs) : traverse blocs et ennemis ; chiffre choisi : une chance sur cent de lâcher une pièce de platine à
   l'impact. Greatsword of Blah : l'arme renommée de Calamity sert à la recette.
 
+### Gel armor (`Content/Items/Armor/GelArmor.cs`, 18/11)
+
+- **[choix]** Ensemble inventé par le wiki (page Gel Armor), dans les deux modes : valeurs des infobox de chaque pièce
+  (le texte de la page dit 4 % de critique sur les casques, les infobulles 3 % : infobulles retenues), rareté 4, prix de
+  vente des infobox. Bonus d'ensemble de la page : saut plus haut (+1/3 comme la Statigel, « 3 blocs »), +6 % de vitesse
+  de saut, saut supplémentaire de la Statigel (particules de gel), 30 images d'invulnérabilité de plus après un coup de
+  plus de 100 dégâts ; Helm +200 d'aggro ; Hood +6 % de dégâts des sbires, +1 sbire et un Baby Slime vanilla à 13
+  dégâts ; Mask : furtivité de spy jusqu'à 50. Chiffre choisi : recul des sbires +50 % pour le Hood (« increased »).
+  Mask : 15 % de chance de ne pas consommer une arme de spy consommable.
+- **[technique]** Pas de planches portées sur le wiki : rendu des pièces Statigel de Calamity en attendant des sprites
+  (`docs/SPRITES.md`, section 2).
+
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
   debuffs de Calamity au-dessus des boss.

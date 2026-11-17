@@ -378,7 +378,11 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Legacy.Items.Potions.CalamitasBrew>(),
                 ModContent.ItemType<Content.Legacy.Items.DifficultyItems.Revenge>(), ModContent.ItemType<Content.Legacy.Items.DifficultyItems.Death>(),
                 ModContent.ItemType<Content.Legacy.Items.Weapons.Magic.AlphaRay>(),
-                ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.ElementalExcalibur>() })
+                ModContent.ItemType<Content.Legacy.Items.Weapons.Melee.ElementalExcalibur>(),
+                ModContent.ItemType<Content.Items.Armor.GelArmor>(), ModContent.ItemType<Content.Items.Armor.GelGreaves>(),
+                ModContent.ItemType<Content.Items.Armor.GelHelm>(), ModContent.ItemType<Content.Items.Armor.GelHeadgear>(),
+                ModContent.ItemType<Content.Items.Armor.GelCap>(), ModContent.ItemType<Content.Items.Armor.GelHood>(),
+                ModContent.ItemType<Content.Items.Armor.GelMask>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -393,6 +397,9 @@ namespace CalamityFandom.Common.Debug
             // 02/11 : Augur of the Void de Calamity sous le nom du wiki, murs du wiki qui se posent
             if (ModContent.TryFind<ModItem>("CalamityMod", "AuguroftheVoid", out var augur))
                 Expect(WikiRecipes.ResolveItem("Augar of the Elements") == augur.Type, "Augur of the Void renommé Augar of the Elements");
+            // 18/11 : la Statigel s'améliore depuis la Gel armor (recette du wiki)
+            Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ModContent.ItemType<CalamityMod.Items.Armor.Statigel.StatigelArmor>()
+                && r.HasIngredient(ModContent.ItemType<Content.Items.Armor.GelArmor>())), "recette du wiki de la Statigel Armor (avec la Gel Armor)");
             // 13/11 : Skynamite de Calamity sous le nom du wiki
             if (ModContent.TryFind<ModItem>("CalamityMod", "Skynamite", out var skynamite))
                 Expect(WikiRecipes.ResolveItem("Aero Dynamite") == skynamite.Type, "Skynamite renommée Aero Dynamite");

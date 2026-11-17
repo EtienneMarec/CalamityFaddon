@@ -53,8 +53,7 @@ section Taming. Fichiers : `wiki_sprites_custom/<Nom>.png`.
 
 ### Contenu bloqué par un sprite
 
-- [ ] **Gel Armor** (3 pièces) — icônes sur le wiki, mais pas d'image portée : il faut les planches Head / Body / Legs
-      (format des armures Terraria). Fichiers : `wiki_sprites_custom/Gel Armor (head|body|legs).png`
+- (Gel Armor implémentée le 18/11 avec les planches Statigel : voir section 2.)
 
 ## 2. Repris ailleurs (texture d'autre chose)
 
@@ -68,6 +67,7 @@ section Taming. Fichiers : `wiki_sprites_custom/<Nom>.png`.
 | Elemental Claymore : orbes | Eon Bolts de Calamity | à garder (même effet sur la page) |
 | The Princess : flammes | flammes du Prince de Calamity (`PrinceFlameLarge/Small`) | à garder ou à refaire en version « sainte » |
 | Microxodonta : nuées | ennemi Microbial Cluster de Calamity | à garder (la page parle de Microbial Clusters) |
+| Gel armor : rendu porté (7 pièces) | planches Statigel de Calamity (Helm = mêlée, Headgear = distance, Cap = magie, Hood = invocation, Mask = spy) | planches Head / Body / Legs plus pâles (gel non purifié) : `wiki_sprites_custom/Gel <pièce> (head\|body\|legs).png` |
 | Plague Balloon : abeilles | abeille vanilla | abeille de la peste (verte) ~10×10 |
 | Blow Pipe : dards | dard vanilla | dard de peste |
 | Microcell Cut : étoiles | Hallow Star vanilla | à garder (c'est l'image de la page) |

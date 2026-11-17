@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1380 objets dont les recettes ont changé : 1023 recettes modifiées, 442 créées
+- 1394 objets dont les recettes ont changé : 1030 recettes modifiées, 449 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
-- 81 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 102 recettes
+- 74 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 95 recettes
 
 ## Recettes changées
 
@@ -580,7 +580,14 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Gauss Pistol | (nouvelle) | 12 Mysterious Circuitry, 8 Dubious Plating, 10 Any Mythril Bar, 20 Soul of Might @ MythrilAnvil → 1 |
 | Gauss Rifle | 18 Mysterious Circuitry, 12 Dubious Plating, 5 Life Alloy, 10 Infected Armor Plating @ MythrilAnvil → 1 | 1 Reassembled Electronics, 5 Life Alloy @ MythrilAnvil → 1 |
 | Gaze of Crysthamyr | 1 Dragon Egg, 10 Soul of Night, 10 Darksun Fragment, 25 Exodium Cluster @ CosmicAnvil → 1 | 1 Dragon Egg, 100 Soul of Night, 10 Darksun Fragment, 25 Exodium Cluster, 50 Yharim Bar @ CosmicAnvil → 1 |
+| Gel Armor | (nouvelle) | 8 Unpurified Gel, 13 Wulfrum Bar @ Solidifier → 1 |
+| Gel Cap | (nouvelle) | 5 Unpurified Gel, 9 Wulfrum Bar @ Solidifier → 1 |
 | Gel Dye | (nouvelle) | 1 Bottled Water, 1 Blighted Gel @ DyeVat → 1 |
+| Gel Greaves | (nouvelle) | 6 Unpurified Gel, 11 Wulfrum Bar @ Solidifier → 1 |
+| Gel Headgear | (nouvelle) | 5 Unpurified Gel, 9 Wulfrum Bar @ Solidifier → 1 |
+| Gel Helm | (nouvelle) | 5 Unpurified Gel, 9 Wulfrum Bar @ Solidifier → 1 |
+| Gel Hood | (nouvelle) | 5 Unpurified Gel, 9 Wulfrum Bar @ Solidifier → 1 |
+| Gel Mask | (nouvelle) | 5 Unpurified Gel, 9 Wulfrum Bar @ Solidifier → 1 |
 | Gelitic Blade | 14 Purified Gel, 14 Blighted Gel @ Solidifier → 1 | 30 Purified Gel, 35 Gel, 10 Aerialite Bar, 3 Alloy Bar @ StaticRefiner → 1 |
 | Gelpick | 18 Purified Gel, 18 Blighted Gel @ Solidifier → 1 | 15 Purified Gel, 30 Gel, 5 Aerialite Bar, 3 Alloy Bar @ StaticRefiner → 1 |
 | Gem Tech Body Armor | 16 Exo Prism, 5 Solar Fragment, 5 Vortex Fragment, 5 Nebula Fragment, 5 Stardust Fragment, 5 Meld Blob, 2 Core of Calamity @ DraedonsForge → 1 | 16 Exo Prism, 5 Galactica Singularity, 3 Profaned Core, 2 Exo Core @ DraedonsForge → 1 |
@@ -1179,6 +1186,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Starmada | 1 Starfleet, 5 Auric Bar, 25 Exodium Cluster @ CosmicAnvil → 1 | 1 Aquashard Shotgun, 1 Starfleet, 1 Star Sputter, 15 Exodium Cluster, 8 Cosmilite Bar, 8 Darksun Fragment, 5 Crystal of the Wicked, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Static Refiner | 10 Statigel Block @ Solidifier → 1 | 100 Gel, 5 Dynamite @ Anvils → 1 |
 | Static Wings | (nouvelle) | 9 Purified Gel, 15 Aerialite Bar, 4 Alloy Bar @ StaticRefiner → 1 |
+| Statigel Armor | 12 Purified Gel, 12 Blighted Gel @ Solidifier → 1 | 1 Gel Armor, 8 Purified Gel, 13 Aerialite Bar, 4 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Bathtub | 14 Statigel Block @ Solidifier → 1 | 14 Statigel Block, 3 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Bed | 15 Statigel Block, 5 Silk @ Solidifier → 1 | 15 Statigel Block, 5 Silk, 2 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Block | 1 Purified Gel @ Solidifier → 25 | 1 Purified Gel, 1 Alloy Bar @ StaticRefiner → 10 |
@@ -1187,14 +1195,20 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Statigel Bookcase | 20 Statigel Block, 10 Book @ Solidifier → 1 | 20 Statigel Block, 10 Book, 2 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Candelabra | 5 Statigel Block, 3 Torch @ Solidifier → 1 | 5 Statigel Block, 3 Torch, 3 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Candle | 4 Statigel Block, 1 Torch @ Solidifier → 1 | 4 Statigel Block, 1 Torch, 1 Alloy Bar @ StaticRefiner → 1 |
+| Statigel Cap | 8 Purified Gel, 8 Blighted Gel @ Solidifier → 1 | 1 Gel Cap, 5 Purified Gel, 9 Aerialite Bar, 2 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Chair | 4 Statigel Block @ Solidifier → 1 | 4 Statigel Block, 1 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Chandelier | 4 Statigel Block, 4 Torch, 1 Chain @ Solidifier → 1 | 4 Statigel Block, 4 Torch, 1 Chain, 3 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Chest | 8 Statigel Block, 2 Any Iron Bar @ Solidifier → 1 | 8 Statigel Block, 2 Any Iron Bar, 3 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Clock | 10 Statigel Block, 3 Any Iron Bar, 6 Glass @ Solidifier → 1 | 10 Statigel Block, 6 Glass, 3 Any Iron Bar, 4 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Door | 6 Statigel Block @ Solidifier → 1 | 6 Statigel Block, 2 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Dresser | 16 Statigel Block @ Solidifier → 1 | 16 Statigel Block, 3 Alloy Bar @ StaticRefiner → 1 |
+| Statigel Greaves | 10 Purified Gel, 10 Blighted Gel @ Solidifier → 1 | 1 Gel Greaves, 6 Purified Gel, 11 Aerialite Bar, 3 Alloy Bar @ StaticRefiner → 1 |
+| Statigel Headgear | 8 Purified Gel, 8 Blighted Gel @ Solidifier → 1 | 1 Gel Headgear, 5 Purified Gel, 9 Aerialite Bar, 2 Alloy Bar @ StaticRefiner → 1 |
+| Statigel Helm | 8 Purified Gel, 8 Blighted Gel @ Solidifier → 1 | 1 Gel Helm, 5 Purified Gel, 9 Aerialite Bar, 2 Alloy Bar @ StaticRefiner → 1 |
+| Statigel Hood | 8 Purified Gel, 8 Blighted Gel @ Solidifier → 1 | 1 Gel Hood, 5 Purified Gel, 9 Aerialite Bar, 2 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Lamp | 3 Statigel Block, 1 Torch @ Solidifier → 1 | 3 Statigel Block, 1 Torch, 1 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Lantern | 6 Statigel Block, 1 Torch @ Solidifier → 1 | 6 Statigel Block, 1 Torch, 1 Alloy Bar @ StaticRefiner → 1 |
+| Statigel Mask | 8 Purified Gel, 8 Blighted Gel @ Solidifier → 1 | 1 Gel Mask, 5 Purified Gel, 9 Aerialite Bar, 2 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Piano | 15 Statigel Block, 4 Bone, 1 Book @ Solidifier → 1 | 15 Statigel Block, 4 Bone, 1 Book, 5 Alloy Bar @ StaticRefiner → 1 |
 | Statigel Platform | 1 Statigel Block @ main → 2 | 1 Statigel Block @ StaticRefiner → 2 |
 | Statigel Sink | 6 Statigel Block, 1 Water Bucket @ Solidifier → 1 | 6 Statigel Block, 1 Water Bucket, 3 Alloy Bar @ StaticRefiner → 1 |
@@ -1518,13 +1532,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Exodimus — 1
 - objet : Flah Seeds — 1
 - objet : Flounder Mortar — 1
-- objet : Gel Armor — 1
-- objet : Gel Cap — 1
-- objet : Gel Greaves — 1
-- objet : Gel Headgear — 1
-- objet : Gel Helm — 1
-- objet : Gel Hood — 1
-- objet : Gel Mask — 1
 - objet : Green Demon Head — 1
 - objet : Heaven Piercer — 1
 - objet : Ichor Dagger — 1

@@ -753,6 +753,14 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 
+## Passe du 18/11
+
+- [ ] Gel armor (recettes du wiki au Solidifier : Unpurified Gel + Wulfrum Bar) : 7 pièces, rendu Statigel en attendant
+      les sprites ; ensemble : saut plus haut et plus rapide, saut supplémentaire en gel, invulnérable plus longtemps après
+      un coup de plus de 100 ; Helm : les ennemis visent le joueur ; Hood : un Baby Slime et +1 sbire ; Mask : furtivité
+      jusqu'à 50 ; Cap : +30 mana
+- [ ] Les recettes de la Statigel demandent maintenant la pièce Gel correspondante (recettes du wiki)
+
 ---
 
 ## Décisions en attente (pas des tests)
