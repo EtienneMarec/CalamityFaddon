@@ -224,6 +224,10 @@ namespace CalamityFandom.Content.NPCs.Inventors
             last.OnSuccess(normal);
             last.OnSuccess(ItemDropRule.Common(ItemID.LesserHealingPotion, 1, 8, 14));
             npcLoot.Add(last);
+            // Récompense du Taming (page Taming : Wulfrum Hardhat, « Pacifist Drop »)
+            var tamed = new LeadingConditionRule(new TamedCondition());
+            tamed.OnSuccess(ItemDropRule.Common(ModContent.ItemType<Items.Armor.WulfrumHardhat>()));
+            npcLoot.Add(tamed);
         }
 
         public override void BossLoot(ref string name, ref int potionType) => potionType = ItemID.None;
@@ -520,6 +524,13 @@ namespace CalamityFandom.Content.NPCs.Inventors
             rule.OnSuccess(ItemDropRule.OneFromOptions(1, ModContent.ItemType<CalamityMod.Items.Weapons.Ranged.WulfrumBlunderbuss>(),
                 ModContent.ItemType<CalamityMod.Items.Weapons.Magic.WulfrumProsthesis>(), ModContent.ItemType<Items.Weapons.Rogue.WulfrumShockCutter>()));
         }
+    }
+
+    public class TamedCondition : IItemDropRuleCondition
+    {
+        public bool CanDrop(DropAttemptInfo info) => TamingSystem.TamingNow;
+        public bool CanShowItemDropInUI() => true;
+        public string GetConditionDescription() => Language.GetTextValue("Mods.CalamityFandom.Inventors.TamedCondition");
     }
 
     public class AlwaysCondition : IItemDropRuleCondition

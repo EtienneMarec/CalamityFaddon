@@ -780,7 +780,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       à la fin de ses ruées, à 25 % se charge, saute par-dessus le joueur et retombe. Jane tire à l'arc derrière John
       (flèches Wulfrum qui éclatent en Expert), puis couteaux en éventail, Blunderbuss, épée de près, Shock Cutters.
       Celui qui passe un seuil avant l'autre est protégé par un bouclier vert. Butin (sac en Expert) au second vaincu.
-- [ ] Taming des Inventors : sans les frapper, utiliser une Diamond Ring près de l'un d'eux → apprivoisés
+- [ ] Taming des Inventors : sans les frapper, utiliser une Diamond Ring près de l'un d'eux → apprivoisés, Wulfrum
+      Hardhat dans le butin (2 défense, les pièges ne font plus de dégâts)
 
 ---
 

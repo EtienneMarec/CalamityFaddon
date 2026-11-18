@@ -1,4 +1,9 @@
 Items: {
+	WulfrumHardhat: {
+		DisplayName: Wulfrum Hardhat
+		Tooltip: Gain an immunity to traps.
+	}
+
 	WulfrumSignalTransmitter: {
 		DisplayName: Wulfrum Signal Transmitter
 		Tooltip:
@@ -2633,4 +2638,5 @@ Inventors: {
 	Defeated: "Okay okay! We get it, we won't fight anymore!"
 	LootCondition: When the second Inventor is defeated
 	RevCondition: In Revengeance Mode
+	TamedCondition: When tamed
 }

@@ -1351,7 +1351,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Shroomite Visage
 - [ ] Twisted Netherite armor
 - [ ] Winter Soldier armor — addon: Apotheosis and Friends
-- [ ] Wulfrum Hardhat
+- [x] Wulfrum Hardhat
 - [ ] Wulfrum Lenses
 - [ ] Wulfrum Mining Helmet
 - [ ] Wulfrum armor

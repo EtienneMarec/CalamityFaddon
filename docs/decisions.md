@@ -1392,9 +1392,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   Butin : le sac (Expert) ou le butin normal tombe avec le second vaincu ; les noms « Egbert » de la page sont du
   vandalisme des objets Wulfrum : Wulfrum Metal Scrap 16 à 26, Energy Core 1 à 2, Energy Orb, Conquest Fragment, une
   arme parmi Wulfrum Blunderbuss, Wulfrum Prosthesis, Wulfrum Shock Cutter ; Lesser Healing Potion 8 à 14 ; Metabolic
-  Converter dans le sac en Revengeance. Pas encore faits : masques, trophées, relique, lore, Wulfrum Hardhat (récompense
-  du Taming), et l'« Aftermath » de la page (Energy Orbs des robots Wulfrum, minerais qui poussent, Desert Medallions des
+  Converter dans le sac en Revengeance. Pas encore faits : masques, trophées, relique, lore, et l'« Aftermath » de la page (Energy Orbs des robots Wulfrum, minerais qui poussent, Desert Medallions des
   Cnidrions, Hive Mind invocable seulement après).
+- **[choix]** **Wulfrum Hardhat** (`Content/Items/Armor/WulfrumHardhat.cs`) : récompense du Taming des Inventors (tombe
+  quand ils sont apprivoisés), 2 défense, immunité aux pièges = projectiles « trap » du jeu et rochers ; planche portée
+  fabriquée depuis l'image « Equipped » du wiki (à refaire : `docs/SPRITES.md`).
 - **[choix]** Taming (page Taming : « Give the Inventors a Diamond Ring ») : la Diamond Ring s'utilise (tenue en l'air)
   à moins de 15 blocs de John ou de Jane, elle est consommée et ils sont apprivoisés ; mêmes règles que les autres
   (ne pas les blesser). Mêmes conditions dans les deux modes (à trancher : difficulté de Calamity++).
