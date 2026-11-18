@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1418 objets dont les recettes ont changé : 1031 recettes modifiées, 472 créées
+- 1419 objets dont les recettes ont changé : 1031 recettes modifiées, 473 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 64 transmutations Shimmer ajoutées
@@ -1500,6 +1500,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wulfrum Scaffold Kit | (nouvelle) | 40 Wulfrum Bar, 1 Graydron, 1 Energy Orb @ Anvils → 99 |
 | Wulfrum Screwdriver | (nouvelle) | 5 Screwdriver, 30 Blood Orb, 5 Vortex Fragment @ AlchemyTable → 5 |
 | Wulfrum Screwdriver | 10 Wulfrum Bar @ Anvils → 1 | 5 Screwdriver, 30 Wulfrum Bar, 5 Vortex Fragment @ Kegs → 5 |
+| Wulfrum Signal Transmitter | (nouvelle) | 5 Wulfrum Bar, 1 Wulfrum Battery @ Anvils → 1 |
 | Wulfrum Staff | (nouvelle) | 12 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Treasure Pinger | 10 Wulfrum Bar @ main → 1 | 50 Wulfrum Bar, 3 Energy Core, 1 Energy Orb @ Anvils → 1 |
 | Yanmei's Knife | (nouvelle) | 1 Psycho Knife, 10 Obsidian, 20 Any Iron Bar, 50 Plague Cell Canister @ MythrilAnvil → 1 |

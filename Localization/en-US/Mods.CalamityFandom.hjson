@@ -1,4 +1,19 @@
 Items: {
+	WulfrumSignalTransmitter: {
+		DisplayName: Wulfrum Signal Transmitter
+		Tooltip:
+			'''
+			Consumes Energy Cores to emit a wulfrum signal that lures Wulfrum automatons out
+			The signal lasts for 30 seconds
+			May also contact something else with the correct power source
+			'''
+	}
+
+	InventorsBag: {
+		DisplayName: Treasure Bag (The Inventors)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
 	SmolderingSeahorses: {
 		DisplayName: Smoldering Seahorses
 		Tooltip: Casts flaming seahorses after your enemies
@@ -1855,6 +1870,13 @@ Items: {
 }
 
 Projectiles: {
+	InventorBolt.DisplayName: Wulfrum Bolt
+	WulfrumArrowHostile.DisplayName: Wulfrum Arrow
+	WulfrumShardHostile.DisplayName: Wulfrum Shard
+	BlunderPellet.DisplayName: Wulfrum Pellet
+	InventorKnife.DisplayName: Wulfrum Knife
+	InventorCutter.DisplayName: Wulfrum Shock Cutter
+	JaneSwordSwipe.DisplayName: Wulfrum Sword
 	ShockCutter.DisplayName: Wulfrum Shock Cutter
 	CinderSeahorse.DisplayName: Cinder Seahorse
 	AmethystOrb.DisplayName: Burning Amethyst Orb
@@ -2434,6 +2456,16 @@ Configs: {
 }
 
 NPCs: {
+	JohnWulfrum: {
+		DisplayName: John Wulfrum
+		Bestiary: The one who made the Wulfrum robots, or so he claims. He walks, jumps, dashes and slams with his wife's inventions.
+	}
+
+	JaneWulfrum: {
+		DisplayName: Jane Wulfrum
+		Bestiary: She shoots from behind her husband with whatever Wulfrum weapon she just built.
+	}
+
 	CosmicElemental: {
 		DisplayName: Cosmic Elemental
 		Bestiary: A curious construct, and though its origins are unknown, it has been decidedly proven that the core of its body leads to somewhere not of our world.
@@ -2592,4 +2624,13 @@ GelArmor: {
 		Spy stealth only reduces when you attack, it does not reduce while moving
 		The higher your Spy stealth the higher your Spy damage, crit, and movement speed
 		'''
+}
+
+Inventors: {
+	Summoned: "Your gear is no match for our innovations!"
+	JohnHalf: "I'll chase you until the ends of the earth!"
+	JaneHalf: "Call me whatever you want, but I'll call you whenever I need you!"
+	Defeated: "Okay okay! We get it, we won't fight anymore!"
+	LootCondition: When the second Inventor is defeated
+	RevCondition: In Revengeance Mode
 }

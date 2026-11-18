@@ -774,6 +774,13 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       seconds explosent), Heavenwing Staff (5 chauves-souris dorées qui tombent près du curseur), Eye of Light (sbire
       qui s'accroche à l'ennemi et fait tomber des étoiles), Wooden Butterfly Staff (3 papillons sans place de sbire,
       3 charges chacun), Crustalline (dague qui tourne autour du joueur puis se plante ; éclate en frappe furtive)
+- [ ] **The Inventors** (nouveau boss) : poser un Wulfrum Signal Transmitter (recette du wiki), clic droit avec une
+      Draedon Power Cell → John et Jane Wulfrum apparaissent (« Your gear is no match... ») ; avec un Energy Core à la
+      place : des robots Wulfrum pendant 30 s. John marche et saute ; à 75 % il fonce, à 50 % tire des éclairs au début et
+      à la fin de ses ruées, à 25 % se charge, saute par-dessus le joueur et retombe. Jane tire à l'arc derrière John
+      (flèches Wulfrum qui éclatent en Expert), puis couteaux en éventail, Blunderbuss, épée de près, Shock Cutters.
+      Celui qui passe un seuil avant l'autre est protégé par un bouclier vert. Butin (sac en Expert) au second vaincu.
+- [ ] Taming des Inventors : sans les frapper, utiliser une Diamond Ring près de l'un d'eux → apprivoisés
 
 ---
 

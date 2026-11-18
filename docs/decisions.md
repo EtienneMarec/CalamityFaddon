@@ -304,7 +304,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 31/10]** Actif **dans les deux modes**. Chaque nouveau boss du mod reçoit sa méthode (pas les superboss, en
   Full Fandom en tout cas). **Le jeu doit pouvoir se finir sans tuer un seul boss** : aucune méthode ne doit demander
   un objet qui ne tombe que d'un boss qu'il faut tuer avant (voir « Route sans tuer » plus bas).
-- 42 boss sur 50 ont leur méthode ; les 8 autres attendent leur boss, inventé par le wiki (The Inventors, Wulfrum
+- 43 boss sur 50 ont leur méthode (The Inventors le 18/11) ; les 7 autres attendent leur boss, inventé par le wiki (Wulfrum
   Excavator, Cumulomenace, Pyrogen, The Derellect, Polyphemalus, Yharim Worm, The Wall of Bronze ; XP-00 Hypnos a déjà
   sa méthode, les échecs, prête pour son boss). Liste en TODO dans `TamingSystem.PostSetupContent`.
 - **[validé 31/10]** **Départ du boss apprivoisé** (`Common/Taming/TamingLeave.cs`) : au lieu de disparaître d'un coup, le
@@ -1375,6 +1375,29 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   **Wulfrum Shock Cutter** (ingrédient du Crustalline) : rafale de 3 (use 4, 12 images), clic droit maintenu = retour
   des cutters ; frappe furtive : 1,6 fois plus rapides, deux coups chacun ; pas encore obtenable : son butin vient de
   **The Inventors**, boss inventé pas encore dans le mod (le Crustalline ne se fabrique donc pas encore).
+
+### The Inventors (`Content/NPCs/Inventors/`, `Content/Tiles/WulfrumSignalTransmitter.cs`, 18/11)
+
+- **[choix]** Boss inventé par le wiki (page The Inventors), dans les deux modes : John et Jane Wulfrum, vie et dégâts
+  par difficulté de la page (450/520/564/640 chacun, 10/16/20/25), défense 10 et 4, réduction des dégâts 5 %, sprites
+  du wiki (une image chacun, pas d'animation). Invoqués par une Draedon Power Cell (consommée) sur le Wulfrum Signal
+  Transmitter ; l'Energy Core (consommé) passe avant et lance un signal de 30 s (1 à 4 robots Wulfrum toutes les 4 s).
+  Attaques de la page avec des chiffres choisis : marche 2,4 (3,6 à 75 %), ruée de 30 images à 12 px/image toutes les
+  200/160/120 images (normal/Expert/Revengeance), 3 Wulfrum Bolts en éventail au début et à la fin des ruées (50 %),
+  saut chargé 1 s puis retombée à 18 px/image toutes les 7 s (25 %) ; Jane : flèche toutes les 75/60/45 images (Death
+  ÷1,3), éventail de 5 couteaux ou Blunderbuss (5 plombs) toutes les 210 images (150 en Revengeance), épée à moins de
+  90 px. Death : une série d'attaques d'avance et vitesse x1,4. Bouclier : celui qui a passé plus de seuils que l'autre
+  est invincible. Celui qui est le plus loin du joueur saute vers l'autre au bout de 3 s à plus de 900 px. Dégâts des
+  projectiles ramenés à ceux de la page malgré le multiplicateur Expert du jeu.
+  Butin : le sac (Expert) ou le butin normal tombe avec le second vaincu ; les noms « Egbert » de la page sont du
+  vandalisme des objets Wulfrum : Wulfrum Metal Scrap 16 à 26, Energy Core 1 à 2, Energy Orb, Conquest Fragment, une
+  arme parmi Wulfrum Blunderbuss, Wulfrum Prosthesis, Wulfrum Shock Cutter ; Lesser Healing Potion 8 à 14 ; Metabolic
+  Converter dans le sac en Revengeance. Pas encore faits : masques, trophées, relique, lore, Wulfrum Hardhat (récompense
+  du Taming), et l'« Aftermath » de la page (Energy Orbs des robots Wulfrum, minerais qui poussent, Desert Medallions des
+  Cnidrions, Hive Mind invocable seulement après).
+- **[choix]** Taming (page Taming : « Give the Inventors a Diamond Ring ») : la Diamond Ring s'utilise (tenue en l'air)
+  à moins de 15 blocs de John ou de Jane, elle est consommée et ils sont apprivoisés ; mêmes règles que les autres
+  (ne pas les blesser). Mêmes conditions dans les deux modes (à trancher : difficulté de Calamity++).
 
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de

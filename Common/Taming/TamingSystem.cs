@@ -127,7 +127,10 @@ namespace CalamityFandom.Common.Taming
 
         public override void PostSetupContent()
         {
-            // Pré-Hardmode. TODO : The Inventors, Wulfrum Excavator (boss inventés)
+            // Pré-Hardmode. TODO : Wulfrum Excavator (boss inventé)
+            // « Give the Inventors a Diamond Ring » (Content/NPCs/Inventors : InventorsDiamondRing)
+            Add(Content.NPCs.Inventors.InventorsDiamondRing.Key, 1, 0, ModContent.NPCType<Content.NPCs.Inventors.JohnWulfrum>(),
+                ModContent.NPCType<Content.NPCs.Inventors.JaneWulfrum>());
             Add("King Slime", 300 * 60, 0, NPCID.KingSlime);
             Add("Desert Scourge", 180, 0, ModContent.NPCType<DesertScourgeHead>(), ModContent.NPCType<DesertScourgeBody>(), ModContent.NPCType<DesertScourgeTail>());
             Add("Eye of Cthulhu", 30, 0, NPCID.EyeofCthulhu);

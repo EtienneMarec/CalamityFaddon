@@ -329,7 +329,7 @@ namespace CalamityFandom.Common.Debug
                 && Common.Taming.TamingSystem.Get("Crabulon").Calm == (plus ? 3600 : 0) && Common.Taming.TamingSystem.TaxGap == (plus ? 60 : 0)
                 && Common.Taming.TamingBees.Goal == (plus ? 40 : 100) && Common.Taming.TamingBees.HiveOnly == plus,
                 "Taming : difficulté de Calamity++ (Destroyer 8, Skeletron 3 mini-jeux, calme de Crabulon, taxes espacées)");
-            Expect(tames.Count == 42 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
+            Expect(tames.Count == 43 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
                 + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));
@@ -409,6 +409,11 @@ namespace CalamityFandom.Common.Debug
             // 18/11 : la Rogue Emblem de Calamity est la Spy Emblem du wiki
             if (ModContent.TryFind<ModItem>("CalamityMod", "RogueEmblem", out var rogueEmblem))
                 Expect(WikiRecipes.ResolveItem("Spy Emblem") == rogueEmblem.Type, "Rogue Emblem renommée Spy Emblem");
+            // 18/11 : The Inventors (boss inventé) : émetteur fabricable, apprivoisement, butin
+            Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ModContent.ItemType<Content.Items.Placeables.WulfrumSignalTransmitter>() && !r.Disabled),
+                "recette du wiki du Wulfrum Signal Transmitter");
+            Expect(Common.Taming.TamingSystem.Get(Content.NPCs.Inventors.InventorsDiamondRing.Key) != null, "The Inventors apprivoisables (Diamond Ring)");
+            Expect(Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<Content.NPCs.Inventors.JohnWulfrum>()).Count > 0, "butin des Inventors");
             // 13/11 : Skynamite de Calamity sous le nom du wiki
             if (ModContent.TryFind<ModItem>("CalamityMod", "Skynamite", out var skynamite))
                 Expect(WikiRecipes.ResolveItem("Aero Dynamite") == skynamite.Type, "Skynamite renommée Aero Dynamite");

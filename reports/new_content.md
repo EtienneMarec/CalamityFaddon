@@ -982,7 +982,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Cauldron
 - [ ] The Derellect — addon: Calamity: Community Remix
 - [ ] The Forbidden Lantern — addon: Calamity: Tales of the Aquatic
-- [ ] The Inventors — addon: Community Content Remix
+- [x] The Inventors — addon: Community Content Remix
 - [ ] The Magnificent Lightning Avian
 - [ ] The Rot — addon: Fargo’s Souls DLC (Fargo Souls Mod x Calamity), Catalyst
 - [ ] The Scrapyard Ensemble — pas de sprite; stub
@@ -1276,7 +1276,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Strange Meteorite
 - [ ] Tables (CTotA) — pas de sprite; addon: Calamity: Tales of the Aquatic
 - [ ] Work Benches (CTotA) — pas de sprite; addon: Calamity: Tales of the Aquatic
-- [ ] Wulfrum Signal Transmitter
+- [x] Wulfrum Signal Transmitter
 
 ## ? (24)
 

@@ -17,7 +17,19 @@ namespace CalamityFandom
             TestSword.LoadAll(this);
         }
 
-        // Un seul système envoie des paquets pour l'instant : le Taming
-        public override void HandlePacket(BinaryReader reader, int whoAmI) => TamingSystem.HandlePacket(reader, whoAmI);
+        /// <summary>Paquets hors Taming (numéros hauts pour ne pas croiser ceux du Taming).</summary>
+        public enum ExtraPacket : byte { WulfrumSignal = 200 }
+
+        public override void HandlePacket(BinaryReader reader, int whoAmI)
+        {
+            long start = reader.BaseStream.Position;
+            if (reader.ReadByte() == (byte)ExtraPacket.WulfrumSignal)
+            {
+                Content.Tiles.WulfrumSignal.Receive(reader);
+                return;
+            }
+            reader.BaseStream.Position = start;
+            TamingSystem.HandlePacket(reader, whoAmI);
+        }
     }
 }
