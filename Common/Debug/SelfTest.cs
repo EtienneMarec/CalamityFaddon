@@ -448,7 +448,10 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.SummonItems.Astralination>() ,
                 ModContent.ItemType<Content.Items.Weapons.Melee.HSTrident>(), ModContent.ItemType<Content.Items.Weapons.Melee.XBHekate>(), ModContent.ItemType<Content.Items.Weapons.Melee.GloomyTrident>(),
                 ModContent.ItemType<Content.Items.Weapons.Ranged.Stringstreaker>(), ModContent.ItemType<Content.Items.Weapons.Magic.WrathoftheGods>(), ModContent.ItemType<Content.Items.Weapons.Magic.GrandPurification>(),
-                ModContent.ItemType<Content.Items.Weapons.Summon.ConsequencesofPower>() })
+                ModContent.ItemType<Content.Items.Weapons.Summon.ConsequencesofPower>() ,
+                ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumHeadMelee>(), ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumHeadRanged>(), ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumHeadMagic>(),
+                ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumHeadRogue>(), ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumHeadSummon>(), ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumArmor>(),
+                ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumLeggings>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

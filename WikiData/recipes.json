@@ -61233,6 +61233,28 @@
    "page": "Recipes_Iron Anvil_register.txt"
   },
   {
+   "result": "Wulfrum Mask",
+   "amount": 1,
+   "stations": [
+    "Iron Anvil"
+   ],
+   "ingredients": [
+    {
+     "items": [
+      "Wulfrum Bar"
+     ],
+     "stack": 5
+    },
+    {
+     "items": [
+      "Energy Core"
+     ],
+     "stack": 1
+    }
+   ],
+   "page": "Recipes_Iron Anvil_register.txt"
+  },
+  {
    "result": "Wulfrum Pickaxe",
    "amount": 1,
    "stations": [
@@ -73542,6 +73564,7 @@
   "Wulfrum Helm": "Wulfrum armor",
   "Wulfrum Helmet": "Wulfrum armor",
   "Wulfrum Leggings": "Wulfrum armor",
+  "Wulfrum Mask": "Wulfrum armor",
   "Wulfrum Metal Scrap": "Wulfrum Bar",
   "Wulfrum Pickaxe": "Wulfrum Drill",
   "Wulfrum Visage": "Wulfrum armor",

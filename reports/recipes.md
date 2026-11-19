@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1695 objets dont les recettes ont changé : 1050 recettes modifiées, 745 créées
+- 1702 objets dont les recettes ont changé : 1050 recettes modifiées, 752 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -1771,6 +1771,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wrath of the Gods | (nouvelle) | 1 Wrath of the Dragons, 1 Event Horizon, 5 Ashes of Annihilation, 10 Ascendant Spirit Essence, 1 Rock, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Wrath Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Wulfrum Acrobatics Pack | 10 Wulfrum Bar, 1 Energy Core, 3 Chain @ Anvils → 1 | 30 Wulfrum Bar, 6 Feather, 1 Energy Orb @ Anvils → 1 |
+| Wulfrum Armor | (nouvelle) | 12 Wulfrum Bar, 1 Energy Core @ Anvils → 1 |
 | Wulfrum Axe | (nouvelle) | 14 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Blade | (nouvelle) | 12 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Bow | (nouvelle) | 10 Wulfrum Bar @ Anvils → 1 |
@@ -1779,9 +1780,14 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wulfrum Drill | 15 Wulfrum Bar @ Anvils → 1 | 12 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Fishing Pole | 8 Wulfrum Bar @ Anvils → 1 | 9 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Hammer | (nouvelle) | 16 Wulfrum Bar @ Anvils → 1 |
+| Wulfrum Headgear | (nouvelle) | 5 Wulfrum Bar, 1 Energy Core @ Anvils → 1 |
+| Wulfrum Helm | (nouvelle) | 5 Wulfrum Bar, 1 Energy Core @ Anvils → 1 |
+| Wulfrum Helmet | (nouvelle) | 5 Wulfrum Bar, 1 Energy Core @ Anvils → 1 |
 | Wulfrum Knife | 10 Wulfrum Bar @ Anvils → 1 | 1 Wulfrum Bar @ Anvils → 100 |
 | Wulfrum Leech Dagger | (nouvelle) | 4 Wulfrum Bar @ Anvils → 1 |
+| Wulfrum Leggings | (nouvelle) | 8 Wulfrum Bar, 1 Energy Core @ Anvils → 1 |
 | Wulfrum Lure | 5 Wulfrum Bar, 1 Energy Core @ Anvils → 1 | 1 Navy Fishing Rod, 1 Wulfrum Fishing Pole, 20 Bone, 1 Energy Core @ Anvils → 1 |
+| Wulfrum Mask | (nouvelle) | 5 Wulfrum Bar, 1 Energy Core @ Anvils → 1 |
 | Wulfrum Mining Helmet | (nouvelle) | 1 Wulfrum Hardhat, 1 Wulfrum Lenses @ Anvils → 1 |
 | Wulfrum Scaffold Kit | 10 Wulfrum Bar, 1 Energy Core @ Anvils → 1 | 40 Wulfrum Bar, 10 Desert Feather, 1 Energy Orb @ Anvils → 1 |
 | Wulfrum Scaffold Kit | (nouvelle) | 40 Wulfrum Bar, 1 Graydron, 1 Energy Orb @ Anvils → 99 |
@@ -1790,6 +1796,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wulfrum Signal Transmitter | (nouvelle) | 5 Wulfrum Bar, 1 Wulfrum Battery @ Anvils → 1 |
 | Wulfrum Staff | (nouvelle) | 12 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Treasure Pinger | 10 Wulfrum Bar @ main → 1 | 50 Wulfrum Bar, 3 Energy Core, 1 Energy Orb @ Anvils → 1 |
+| Wulfrum Visage | (nouvelle) | 5 Wulfrum Bar, 1 Energy Core @ Anvils → 1 |
 | XB-∞ Hekate | (nouvelle) | 1 Hellkite, 20 Soul of Plight, 18 Exo Prism @ DraedonsForge → 1 |
 | Xenon Cutlass | (nouvelle) | 1 Pearlwood Sword, 1 Devastation, 10 Essence of Myst, 5 Ruinous Soul @ LunarCraftingStation → 1 |
 | Yanmei's Knife | (nouvelle) | 1 Psycho Knife, 10 Obsidian, 20 Any Iron Bar, 50 Plague Cell Canister @ MythrilAnvil → 1 |

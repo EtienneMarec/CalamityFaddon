@@ -994,6 +994,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Rage en la tenant), Stringstreaker (lignes), Wrath of the Gods (pulsation), Grand Purification (clic droit :
       Supernova puis piliers), Consequences of Power (3 modes).
 
+- [ ] Lot AM : ancienne Wulfrum armor (5 casques, plastron, jambières) : rendu porté, bonus d'ensemble (+5 défense sous
+      50 % de vie).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

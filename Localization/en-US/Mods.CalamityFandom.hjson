@@ -3994,6 +3994,40 @@ Items: {
 			"Blaze. May Xeroc have mercy"
 			'''
 	}
+	WulfrumHeadMelee: {
+		DisplayName: Wulfrum Helm
+		Tooltip: 10% increased melee damage
+	}
+
+	WulfrumHeadRanged: {
+		DisplayName: Wulfrum Headgear
+		Tooltip: 10% increased ranged damage
+	}
+
+	WulfrumHeadMagic: {
+		DisplayName: Wulfrum Visage
+		Tooltip: 10% increased magic damage
+	}
+
+	WulfrumHeadRogue: {
+		DisplayName: Wulfrum Mask
+		Tooltip: 10% increased rogue damage
+	}
+
+	WulfrumHeadSummon: {
+		DisplayName: Wulfrum Helmet
+		Tooltip: 10% increased minion damage
+	}
+
+	WulfrumArmor: {
+		DisplayName: Wulfrum Armor
+		Tooltip: 3% increased critical strike chance
+	}
+
+	WulfrumLeggings: {
+		DisplayName: Wulfrum Leggings
+		Tooltip: Movement speed increased by 5%
+	}
 }
 
 Projectiles: {
@@ -6276,6 +6310,23 @@ Inventors: {
 	LootCondition: When the second Inventor is defeated
 	RevCondition: In Revengeance Mode
 	TamedCondition: When tamed
+}
+
+WulfrumLegacy: {
+	SetBonus:
+		'''
+		+3 defense
+		+5 defense when below 50% life
+		'''
+	MeleeSetBonus: Enemies are more likely to target you
+	RogueSetBonus:
+		'''
+		Rogue stealth builds while not attacking and slower while moving, up to a max of 50
+		Once you have built max stealth, you will be able to perform a Stealth Strike
+		Rogue stealth only reduces when you attack, it does not reduce while moving
+		The higher your rogue stealth the higher your rogue damage, crit, and movement speed
+		'''
+	SummonSetBonus: +1 max minion
 }
 
 Keybinds: {

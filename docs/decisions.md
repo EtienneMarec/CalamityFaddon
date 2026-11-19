@@ -2289,7 +2289,21 @@ Armes fabricables (recettes du wiki). Rareté « C3 » → 0.
 - **[choix]** Consequences of Power : PW-MK1 (1 emplacement), 4 s par mode : 4 missiles chercheurs à 50 % toutes les 20
   images ; 3 tirs de railgun à 150 % (percent) toutes les 40 images ; ruée vers l'ennemi en posant une mine (aura de
   120 px à 30 %, 3 s) toutes les 30 images.
+- **[technique]** Grand Purification : « {and purify} » de l'infobulle écrit « (and purify) » (les accolades sont des
+  emplacements de format pour tModLoader).
 - Pas faits : Wisdom of Survival (page sans description), Palladium Dartshooter (redirige vers la Cobadium Rifle).
+
+### Lot AM du 19/11 : ancienne Wulfrum armor (`Content/Legacy/Items/Armor/Wulfrum/`)
+
+Les pages Wulfrum Helm, Headgear, Visage, Mask, Helmet et Leggings redirigent vers « Wulfrum armor » (qui décrit l'armure
+actuelle de Calamity, Hat & Goggles / Jacket / Overalls) mais ont toujours leurs recettes dans le registre de l'Iron
+Anvil, comme la « Wulfrum Armor » (plastron). Portées depuis la version de 2022-07 de Calamity (avec leurs sprites portés) :
+valeurs de cette version, recettes du wiki (Wulfrum Bar = Wulfrum Metal Scrap, Energy Core). Ensemble : +3 défense, +5
+sous 50 % de vie ; Helm (mêlée) +100 d'aggro, Mask (spy) furtivité de 50, Helmet (invocation) +1 sbire. Les deux
+Wulfrum armors existent côte à côte (la page « Wulfrum Hood » n'a pas de recette : non portée).
+
+- Wiki corrigé : la recette du Wulfrum Mask avait une ligne « Alloy Bar | -1 » (vandalisme) qui la rendait illisible ;
+  retirée. (Restent illisibles : Desert Medallion « Wulfrum Bar | 0 », Victide Breastplate « Alloy Bar | sqrt(-1) ».)
 
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
