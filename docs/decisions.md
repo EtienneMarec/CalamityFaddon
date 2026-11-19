@@ -2221,6 +2221,17 @@ Outils et potions fabricables (recettes du wiki). Puissance de hache de Terraria
 - **[choix]** Supreme Strange Brew : 200 PV puis 0 à 125 de plus au hasard ; Potion Sickness tirée entre 40 et 70 s.
   La durée de Potion Sickness des potions du wiki (Active Healing Potion comprise) est maintenant fixée exactement.
 
+### Lot AI du 19/11 (`Content/Items/Placeables/WikiStations1119.cs`)
+
+Stations d'artisanat du wiki (recettes du wiki), posables ; les recettes qui les demandent les trouvent par le nom de
+l'objet. Planches de tuiles faites par `tools/import_sprite.py --tile LxH` depuis l'image « (placed) » du wiki (complétée
+jusqu'à L × H cases, centrée en largeur et posée en bas, puis découpée en cases de 16 px espacées de 2 px).
+
+- Bronze Smelter (3 × 3) et Advanced Void Condenser (3 × 3) : sources de lumière (couleur de leur infobox) ; ce qu'ils
+  fabriquent (mobilier Bronze et Skylac) n'existe pas encore. Rareté « C1 » → 0 ; « No value » → 0.
+- Scroll Press (3 × 2) : sert aussi de Loom, Sawmill, Dye Vat et de source d'eau ; les parchemins n'existent pas encore.
+- Pas fait : Plague Torch (pas d'image posée sur le wiki).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

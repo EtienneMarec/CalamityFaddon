@@ -1252,13 +1252,13 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Furniture (25)
 
-- [ ] Advanced Void Condenser — addon: Calamity: Tales of the Aquatic
+- [x] Advanced Void Condenser — addon: Calamity: Tales of the Aquatic
 - [ ] Ancient Console
 - [ ] Anomaly 109
 - [ ] Apocalyptic Slime Statue — addon: Deimos, the Starborn Princess
 - [x] Aquatic Hypercomputer — stub; addon: Calamity: Tales of the Aquatic
 - [ ] Astral Effigy
-- [ ] Bronze Smelter
+- [x] Bronze Smelter
 - [ ] Cave Entrance
 - [ ] Condenser
 - [ ] Deimos Plushie — addon: Deimos, the Starborn Princess
@@ -1272,7 +1272,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Plague Torch
 - [ ] Portative Forging Station — pas de sprite; addon: Tranquility Mod
 - [ ] Pots — pas de sprite
-- [ ] Scroll Press — addon: Deimos, the Starborn Princess
+- [x] Scroll Press — addon: Deimos, the Starborn Princess
 - [ ] Strange Meteorite
 - [ ] Tables (CTotA) — pas de sprite; addon: Calamity: Tales of the Aquatic
 - [ ] Work Benches (CTotA) — pas de sprite; addon: Calamity: Tales of the Aquatic

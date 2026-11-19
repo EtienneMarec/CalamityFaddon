@@ -980,6 +980,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Lot AH : Braxaxe (clic droit : murs), Destinary (disques qui coupent les arbres), Grarble Obliterator, outils en
       Twisted Netherite (pelle : carré de 10 x 10), Meld Skin Potion (+22 défense), Supreme Strange Brew.
 
+- [ ] Lot AI : poser Bronze Smelter, Scroll Press (fabriquer un objet du Loom à côté) et Advanced Void Condenser ; vérifier
+      le rendu des planches (cases bien alignées).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

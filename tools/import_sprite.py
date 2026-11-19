@@ -8,6 +8,8 @@ Le premier argument est le nom du fichier dans fandom_sprites/ (espaces ou under
 --strip : pour une image animée, empile toutes les frames verticalement (format attendu par
           Main.projFrames / DrawAnimationVertical). Sans --strip, seule la première frame est gardée.
 --scale N : réduit l'image d'un facteur entier (certains sprites du wiki sont agrandis x2).
+--tile LxH : image « (placed) » d'un meuble de L × H cases : complétée (centrée en largeur, posée en bas) jusqu'à
+          L*16 × H*16 puis découpée en cases de 16 px espacées de 2 px (planche de tuile de tModLoader).
 """
 import argparse
 import os
@@ -43,6 +45,7 @@ def main():
     ap.add_argument("dest")
     ap.add_argument("--strip", action="store_true")
     ap.add_argument("--scale", type=int, default=1)
+    ap.add_argument("--tile", default=None)
     args = ap.parse_args()
 
     src = Image.open(find_sprite(args.sprite))
@@ -53,6 +56,17 @@ def main():
         out.paste(f, (0, i * h))
     if args.scale > 1:
         out = out.resize((out.width // args.scale, out.height // args.scale), Image.NEAREST)
+
+    if args.tile:
+        tw, th = (int(v) for v in args.tile.lower().split("x"))
+        if out.width > tw * 16 or out.height > th * 16:
+            sys.exit(f"Image {out.width}x{out.height} plus grande que {tw * 16}x{th * 16} : utiliser --scale ?")
+        full = Image.new("RGBA", (tw * 16, th * 16), (0, 0, 0, 0))
+        full.paste(out, ((tw * 16 - out.width) // 2, th * 16 - out.height))
+        out = Image.new("RGBA", (tw * 18 - 2, th * 18 - 2), (0, 0, 0, 0))
+        for x in range(tw):
+            for y in range(th):
+                out.paste(full.crop((x * 16, y * 16, x * 16 + 16, y * 16 + 16)), (x * 18, y * 18))
 
     dest = os.path.join(ROOT, args.dest)
     os.makedirs(os.path.dirname(dest), exist_ok=True)

@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1669 objets dont les recettes ont changé : 1050 recettes modifiées, 719 créées
+- 1674 objets dont les recettes ont changé : 1050 recettes modifiées, 724 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
-- 37 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 42 recettes
+- 36 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 39 recettes
 
 ## Recettes changées
 
@@ -14,6 +14,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 |---|---|---|
 | 22 Hornet Round | (nouvelle) | 1 Auric Bar, 1 Bee Wax @ CosmicAnvil → 222 |
 | Abaddon | (nouvelle) | 1 Any Gold Crown, 5 Unholy Core, 100 Delicious Meat @ MythrilAnvil → 1 |
+| Abandoned Bronze Plating | (nouvelle) | 4 Abandoned Bronze Wall @ BronzeSmelterTile → 1 |
+| Abandoned Bronze Wall | (nouvelle) | 1 Abandoned Bronze Plating @ BronzeSmelterTile → 4 |
 | Abombination | 20 Plague Cell Canister, 12 Mysterious Circuitry @ MythrilAnvil → 1 | 20 Plague Cell Canister, 8 Any Iron Bar, 5 Stinger, 50 Bomb, 2 Essential Essence Bar @ MythrilAnvil → 1 |
 | Absolute Spirit Essence | (nouvelle) | 20 Ascendant Spirit Essence, 20 Essence Core, 20 Condensed Energy @ SilvaBasin → 1 |
 | Abyss Bar | 4 Abyss Ore @ AdamantiteForge → 1 | 4 Abyss Ore, 1 Chaos Serpent Shard, 1 Core of Chaos @ AdamantiteForge → 1 |
@@ -43,6 +45,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Adamantite Throwing Axe | 10 Adamantite Bar @ MythrilAnvil → 1 | 1 Adamantite Bar @ MythrilAnvil → 100 |
 | Adrenaline of the Gods | (nouvelle) | 1 Electrolyte Gel Pack, 1 Starlight Fuel Cell, 1 Ectoheart, 10 Auric Bar @ CosmicAnvil → 1 |
 | Advanced Display | 10 Mysterious Circuitry, 10 Dubious Plating, 3 Life Alloy, 20 Glass @ MythrilAnvil → 1 | 10 Dubious Plating, 10 Mysterious Circuitry, 3 Core of Calamity, 20 Glass, 3 Essential Essence Bar @ MythrilAnvil → 1 |
+| Advanced Void Condenser | (nouvelle) | 1 Void Condenser, 5 Esseric Bar, 100 Smooth Skylac Stone @ AquaticHypercomputerERM → 1 |
 | Aerial Hamaxe | 10 Aerialite Bar @ Anvils → 1 | 1 Gusthammer, 1 Windslasher, 2 Aerialite Bar, 10 Cinderplate @ SkyMill → 1 |
 | Aerialite Bar | 3 Aerialite Ore @ Furnaces → 1 | 4 Aerialite Ore @ Furnaces → 1 |
 | Aerialite Brick | 25 Any Stone Block, 1 Aerialite Ore @ Furnaces → 25 | 1 Aerialite Ore, 1 Stone Block @ Furnaces → 1 |
@@ -293,6 +296,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Broken Biome Blade | 1 Any Wooden Sword, 10 Aerialite Bar, 10 Hellstone Bar, 50 Dirt Block, 50 Any Stone Block @ Anvils → 1 | 1 Wooden Sword, 5 Aerialite Bar, 5 Hellstone Bar, 50 Dirt Block, 50 Stone Block @ Anvils → 1 |
 | Broken Plagued 'Bed' | 10 Plagued Containment Brick @ PlagueInfuser → 1 | 10 Plagued Containment Brick, 5 Wire, 2 Plague Cell Canister @ PlagueInfuser → 1 |
 | Broken Water Filter | (nouvelle) | 20 Sulphurous Sand, 10 Any Iron Bar @ Anvils → 1 |
+| Bronze Smelter | (nouvelle) | 1 Abandoned Bronze Plating, 1 Lava Bucket, 100 Wire @ AquaticHypercomputerERM → 1 |
 | Bucket of Coal | (nouvelle) | 1 Coal, 6 Obsidian, 1 Empty Bucket, 2 Dark Shard @ Anvils → 1 |
 | Bug Net | (nouvelle) | 3 Any Iron Bar, 5 Silk @ Anvils → 1 |
 | Builder Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
@@ -1253,6 +1257,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Scorpio | 1 Snowman Cannon, 6 Nebula Fragment, 100 Nanites @ LunarCraftingStation → 1 | 1 Snowman Cannon, 1 Grenade Launcher, 1 Rocket Launcher, 20 Vortex Fragment @ MythrilAnvil → 1 |
 | Screwdriver | (nouvelle) | 5 Fluorescent Vodka, 30 Blood Orb, 5 Hallowed Ore @ AlchemyTable → 5 |
 | Screwdriver | 10 Bottle, 1 Diamond @ Kegs → 10 | 5 Fluorescent Vodka, 1 Hemagrape, 5 Hallowed Ore @ Kegs → 5 |
+| Scroll Press | (nouvelle) | 1 Loom, 1 Sawmill, 1 Dye Vat, 1 Bacon, 1 Mediocre Matter, 10 Wulfrum Bar, 7 Energy Core, 5 Compressed Mana @ Hellforge → 1 |
 | SDFMG | 1 S.D.M.G., 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 | 1 S.D.M.G., 1 Fetid Emesis, 10 Sea Prism, 10 Depth Cells, 10 Lumenyl, 5 Tenebris, 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 |
 | SDOMG | (nouvelle) | 1 SDFMG, 1 S.D.M.G., 1 Starmada, 15 Cosmilite Bar @ CosmicAnvil → 1 |
 | Sea Minnow Jar | 1 Sea Minnow, 1 Bottled Water @ main → 1 | 1 Bottle, 1 Sea Minnow @ main → 1 |
@@ -1788,7 +1793,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 
 ## Noms introuvables (par nombre de recettes bloquées)
 
-- station : Bronze Smelter — 3
 - objet : Crab — 2
 - objet : Onyx Gun Parts — 2
 - station : Entropic Refiner — 2

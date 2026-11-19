@@ -438,7 +438,8 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Accessories.DreamyBelt>() ,
                 ModContent.ItemType<Content.Items.Tools.Braxaxe>(), ModContent.ItemType<Content.Items.Tools.Destinary>(), ModContent.ItemType<Content.Items.Tools.GrarbleObliterator>(),
                 ModContent.ItemType<Content.Items.Tools.TwistedNetheriteAxe>(), ModContent.ItemType<Content.Items.Tools.TwistedNetheritePickaxe>(), ModContent.ItemType<Content.Items.Tools.TwistedNetheriteShovel>(),
-                ModContent.ItemType<Content.Items.Potions.MeldSkinPotion>(), ModContent.ItemType<Content.Items.Potions.SupremeStrangeBrew>() })
+                ModContent.ItemType<Content.Items.Potions.MeldSkinPotion>(), ModContent.ItemType<Content.Items.Potions.SupremeStrangeBrew>() ,
+                ModContent.ItemType<Content.Items.Placeables.BronzeSmelter>(), ModContent.ItemType<Content.Items.Placeables.ScrollPress>(), ModContent.ItemType<Content.Items.Placeables.AdvancedVoidCondenser>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -525,6 +526,8 @@ namespace CalamityFandom.Common.Debug
                 Expect(pbgLot.Any(r => r.itemId == looted), $"le Plaguebringer Goliath lâche {Lang.GetItemNameValue(looted)}");
             foreach (string looted in new[] { "Cursed Spear", "Earthen Clicker", "Nightform", "Ghast Relic", "Purgatory Blaster", "Dragon Flame Barrage", "Yggdrasil Core", "Spear of Liberty", "Babil Destruction Core", "Sandstorm (weapon)", "Divine Intervention" })
                 Expect(!WikiLoot.MissingItems.ContainsKey(looted) && WikiRecipes.ResolveItem(looted) > 0, $"{looted} trouvé par le butin");
+            // 19/11 : lot AI, la Scroll Press sert de Loom, Sawmill et Dye Vat
+            Expect(TileLoader.GetTile(ModContent.TileType<Content.Tiles.ScrollPressTile>()).AdjTiles.Contains(TileID.Loom), "la Scroll Press sert de Loom");
             // 19/11 : lot AG, ruées du wiki ajoutées au système de ruées de Calamity
             Expect(CalamityMod.CalPlayer.Dashes.PlayerDashManager.FindByID(Content.Items.Accessories.MobiliteDash.ID, out _)
                 && CalamityMod.CalPlayer.Dashes.PlayerDashManager.FindByID(Content.Items.Accessories.RavenousDash.ID, out _), "ruées du Mobilite Core et du Ravenous Soul Artifact enregistrées");

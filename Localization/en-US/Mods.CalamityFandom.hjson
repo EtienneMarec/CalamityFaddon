@@ -3827,6 +3827,20 @@ Items: {
 	SupremeStrangeBrew: {
 		DisplayName: Supreme Strange Brew
 	}
+	BronzeSmelter: {
+		DisplayName: Bronze Smelter
+		Tooltip: Used for special crafting
+	}
+
+	ScrollPress: {
+		DisplayName: Scroll Press
+		Tooltip: Used for crafting scrolls
+	}
+
+	AdvancedVoidCondenser: {
+		DisplayName: Advanced Void Condenser
+		Tooltip: Used for special crafting
+	}
 }
 
 Projectiles: {
