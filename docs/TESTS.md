@@ -251,7 +251,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       notre Seabound Staff. En Calamity++ : les armes actuelles de Calamity sous ces noms, nos portages introuvables.
       (Retour du 30/10 : Starfall et Seabound Staff bons ; aucune différence visible pour l'Effluvium Bow → corrigé, voir
       la ligne suivante.)
-- [ ] (30/10) **Effluvium Bow** en Full Fandom : ses Mist Arrows sont celles de 2.0.1.005, qui **ne se divisent plus**
+- [x] (30/10, validé 19/11) **Effluvium Bow** en Full Fandom : ses Mist Arrows sont celles de 2.0.1.005, qui **ne se divisent plus**
       en brumes (Frostburn et Glacial State au contact) ; en Calamity++ (Hoarfrost Bow), elles se divisent toujours
 - [x] Crimulan Paladin / Ebonian Paladin s'appellent Crimulan / Ebonian Slime God
 - [x] Calamitas Clone s'appelle **Calamitas**, Cataclysmic Construct **Cataclysm**, Signus **Signus, Envoy of the Devourer**
@@ -378,7 +378,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
         libère 3 orbes qui soignent de 9 PV quand on les touche (attirées avec Heartreach)
   - [x] **Blood Clot Staff** : caillot de sang qui fonce sur les ennemis ; buff « Blood Clot »
         (30/10 : bon ; en Full Fandom il a maintenant le sprite du wiki, violet, comme 17 autres portages → voir la ligne des sprites)
-- [ ] (30/10) **Sprites du wiki** : nos portages ont le sprite du wiki **dans les deux modes** quand il diffère de celui de
+- [x] (30/10, validé 19/11) **Sprites du wiki** : nos portages ont le sprite du wiki **dans les deux modes** quand il diffère de celui de
       2022 (Blood Clot Staff violet, Seabound Staff, Starfall, Carnage Ray, Storm Spray, Storm Dragoon, Effluvium Bow,
       Gehenna, Glacial Crusher, Caliburn, Crimslime / Corroslime Staff... : liste dans `reports/sprites.md`) ; environ
       120 objets de Calamity en plus reçoivent aussi leur sprite du wiki en Full Fandom (recolorations que l'outil

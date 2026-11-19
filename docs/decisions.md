@@ -105,7 +105,7 @@ Une page corrigée ou créée l'est directement dans `wiki/` (notre wiki, `docs/
   Staff, Effluvium Bow, Solar Flare, Storm Spray, Shock Grenade, Energy Staff, Regenator, Mana Jelly, Amidias' Spark,
   Corroslime Staff.
 - **[validé 30/10]** Seabound Staff : même sbire que le Brittle Star Staff actuel (seul le mode d'attaque a changé
-  depuis), gardé tel quel. **[choix]** (30/10) L'Effluvium Bow tirait la Mist Arrow de Calamity 2.2.2, qui porte la
+  depuis), gardé tel quel. **[validé 19/11]** (30/10) L'Effluvium Bow tirait la Mist Arrow de Calamity 2.2.2, qui porte la
   refonte (division en brumes) : il tire maintenant la Mist Arrow de 2.0.1.005 (`LegacyMistArrow`, Frostburn 3 s et
   Glacial State 0,5 s de l'infobox). Le Hoarfrost Bow de Calamity++ garde la sienne.
 - **[technique]** Les stats d'une page renommée s'appliquent à l'objet actuel ; 9 écarts extrêmes viennent d'objets
