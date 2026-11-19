@@ -124,6 +124,7 @@ namespace CalamityFandom.Common.WikiData
         public override void Unload()
         {
             data = null;
+            ourTiles = null;
             itemsByName = null;
             groupsByText = null;
             Applied.Clear();
@@ -344,6 +345,13 @@ namespace CalamityFandom.Common.WikiData
                     resolved.Tiles.Add(tile);
                     continue;
                 }
+                // Stations à étapes de ce mod (Aquatic Hypercomputer Static...) : la tuile qui porte le nom, sans espaces.
+                // Avant les redirections du wiki, qui ramènent toutes les étapes à la première.
+                if (OurStationTile(station) is int ourTile)
+                {
+                    resolved.Tiles.Add(ourTile);
+                    continue;
+                }
                 int stationItem = ResolveItem(n);
                 if (stationItem > 0 && ContentSamples.ItemsByType[stationItem].createTile >= 0)
                 {
@@ -355,6 +363,21 @@ namespace CalamityFandom.Common.WikiData
             }
             quiet = false;
             return ok ? resolved : null;
+        }
+
+        private static Dictionary<string, int> ourTiles;
+
+        /// <summary>Tuile de ce mod dont le nom de classe est le nom de la station (lettres seulement, sans la casse).</summary>
+        private static int? OurStationTile(string station)
+        {
+            static string Key(string s) => new string(s.Where(char.IsLetterOrDigit).ToArray()).ToLowerInvariant();
+            if (ourTiles == null)
+            {
+                ourTiles = new();
+                foreach (ModTile t in ModContent.GetInstance<CalamityFandom>().GetContent<ModTile>())
+                    ourTiles.TryAdd(Key(t.Name), t.Type);
+            }
+            return ourTiles.TryGetValue(Key(station), out int type) ? type : null;
         }
 
         /// <summary>Signature comparable d'une recette : (objets acceptés, quantité) + tuiles + eau.</summary>

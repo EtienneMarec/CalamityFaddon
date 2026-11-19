@@ -19,7 +19,7 @@ namespace CalamityFandom
         }
 
         /// <summary>Paquets hors Taming (numéros hauts pour ne pas croiser ceux du Taming).</summary>
-        public enum ExtraPacket : byte { WulfrumSignal = 200, SlimeRain = 201, WikiBoosters = 202 }
+        public enum ExtraPacket : byte { WulfrumSignal = 200, SlimeRain = 201, WikiBoosters = 202, ExcavatorSummon = 203 }
 
         public override void HandlePacket(BinaryReader reader, int whoAmI)
         {
@@ -28,6 +28,11 @@ namespace CalamityFandom
             if (kind == (byte)ExtraPacket.WulfrumSignal)
             {
                 Content.Tiles.WulfrumSignal.Receive(reader);
+                return;
+            }
+            if (kind == (byte)ExtraPacket.ExcavatorSummon)
+            {
+                Content.NPCs.WulfrumExcavator.ExcavatorSummon.Receive(reader);
                 return;
             }
             if (kind == (byte)ExtraPacket.WikiBoosters)

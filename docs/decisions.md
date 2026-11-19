@@ -1447,7 +1447,7 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 ### Ennemis générés (`tools/gen_enemies.py`, `Content/NPCs/WikiEnemy.cs`, 19/11)
 
 - **[choix]** Les ennemis inventés par le wiki (pages « new » à infobox de PNJ de type Enemy, Flying Enemy ou Slime, avec
-  un sprite, hors addons, vers, boss et pages historiques : 70) sont créés depuis leur infobox, dans les deux modes, sans
+  un sprite, hors vers, boss et pages historiques ; les pages d'addon comptent comme les autres, section 11 : 91) sont créés depuis leur infobox, dans les deux modes, sans
   classe dédiée : vie, dégâts de contact (premier nombre), défense, résistance au recul, argent, debuff au contact
   (trouvé par son nom affiché, ignoré s'il n'existe pas), sprite du wiki. IA vanilla la plus proche de la page :
   slime (« Slime AI » ou type Slime), chauve-souris (« Bat AI »), Demon Eye (yeux et volants), zombie sinon. Le butin
@@ -1576,7 +1576,7 @@ Bronze** : ces boss n'existent pas encore, les objets ne s'obtiennent donc pas p
 - **[choix]** **Elemental Saw Launcher** : charge jusqu'à 2 s (vitesse de lancer 18 à 30), lancée 45 images puis retour ;
   souffles à la moitié des dégâts ; explosion du rappel x3 ; Light Disc vanilla en guise de scie (pas de sprite).
 - **[choix]** **Obsidigun** : vitesse 28 avec 2 mises à jour (le `velocity = 56` du wiki) ; 4 éclats à un tiers des dégâts.
-- **[choix]** **Onyx Minigun** : tir d'onyx = Black Bolt vanilla (comme l'Onyxia de Calamity) à 170 %, 4 paires de balles. Sa seule recette est à l'Aquatic Hypercomputer ERM (station d'addon) : pas fabricable pour l'instant.
+- **[choix]** **Onyx Minigun** : tir d'onyx = Black Bolt vanilla (comme l'Onyxia de Calamity) à 170 %, 4 paires de balles. Sa seule recette est à l'Aquatic Hypercomputer ERM (page d'addon, station pas encore faite) : pas fabricable pour l'instant.
 - **[choix]** **SDOMG** : 2 balles par tir ; dispersion de 0,3 à 0,02 rad en 600 images de tir (remise à zéro après 0,5 s
   sans tirer) ; « immobile » = vitesse < 0,1 ; rayon de 2000 px, x3 dégâts, une Plasma Grenade (Draedon's Arsenal de
   Calamity) au départ puis toutes les 5 s.
@@ -1596,12 +1596,12 @@ Bronze** : ces boss n'existent pas encore, les objets ne s'obtiennent donc pas p
 - **[choix]** **Prehistoric Tablet** : comme le Metamorphic Stone (sbire d'accessoire sans place) ; nuages 2 s après le
   repérage, gouttes toutes les 10 images au tiers des dégâts ; 5 ruées à 30 images d'intervalle ; Sulphuric Poisoning
   12 s (gouttes et ruées).
-- **[technique]** Recettes du wiki qui ne peuvent pas se faire, faute d'ingrédient : Onyx Purge (Onyx Gun Parts, sans page),
-  Interfacer Staff (Bucket of Coal), Exif Fist (Fracturing Fist), Celesticus (Ogscule), Twenty-Twloon (22 Hornet Round),
-  Elemental Bow (Flaming Ice Bow, Baow), Pastranion (Contaminated Dish) : ingrédients d'addons, non portés (section 11) ;
-  Wulfrum Mining Helmet (Wulfrum Lenses, récompense du Taming du Wulfrum Excavator, boss pas encore fait : TODO). Les
-  objets existent (butin, pages) mais ne se fabriquent pas, comme sur le Fandom sans l'addon. Retirés du contrôle
-  « recette du wiki » de l'auto-test.
+- **[technique]** Recettes du wiki qui ne peuvent pas encore se faire, faute d'ingrédient : Onyx Purge (Onyx Gun Parts,
+  sans page), Celesticus (Ogscule : son unique recette demande la bannière de l'Ogsculian Burrower, ennemi pas encore
+  fait), Flaming Ice Bow (Ice Bow et Sharanga : ni page, ni objet de
+  Terraria ou de Calamity) ; Pastranion à vérifier (Spaghetti). Le Wulfrum Mining Helmet se fait depuis le Wulfrum
+  Excavator (Wulfrum Lenses). Retirées du contrôle « recette du wiki » de l'auto-test. Les autres ingrédients manquants (Bucket of
+  Coal, Fracturing Fist, 22 Hornet Round, Flaming Ice Bow, Baow, Contaminated Dish) sont faits au lot I.
 - **[choix]** **Pizza Wheel** (lot G) : infobulle inventée « Summons pizzas that roll across the screen » (pas sur le wiki).
 
 ### Pyrogen (`Content/NPCs/Pyrogen/`, 19/11)
@@ -1636,6 +1636,117 @@ l'infobox : vie {{dv|44 000|52 000|66 600}}, contact {{dv|70|130|145|172}}, Magm
 - **[choix]** Soul of Pyrogen : lances = épines Sharp Tears vanilla en orange, 5 sous la cible, au plus une salve toutes
   les 20 images. Seared Shredder : faux = texture de la Death Sickle en orange, ralentit après 20 images. Hell's Bells :
   1 place de sbire, carillon de 160 px toutes les 50 images, icône du buff = sprite de l'arme.
+
+### Lot I du 19/11 (`Content/Items/Weapons/WikiWeapons1119f.cs`)
+
+Pages d'addon (Community Remix selon le Fandom), traitées comme les autres (section 11) : ingrédients des recettes de
+l'Interfacer Staff, de l'Exif Fist, du Twenty-Twloon, de l'Elemental Bow et du Pastranion. Valeurs des infobox.
+
+- **[choix]** **Bucket of Coal** : charbon = Coal vanilla réduit, lancé dans le sens de rotation du seau ; explosion
+  noire de 60 px à la moitié des dégâts ; en frappe furtive, taille plafonnée à x4.
+- **[choix]** **Fracturing Fist** : vitesse 5 avec 1 mise à jour de plus (valeurs de la page) ; explosion de 80 px aux
+  dégâts du poing, immunité locale (« ignores immunity frames ») ; moitiés lancées en arrière à 40 % ; frappe furtive :
+  3 Crystal Shards vanilla à 10 % par rebond, ennemi suivant cherché à 600 px.
+- **[choix]** **22 Hornet Round** : ricochet vers l'ennemi le plus proche à 62 blocs pas encore touché ; tracé jaune.
+- **[choix]** **Flaming Ice Bow** : -1 PV par image tenu (60 PV/s, rien ne l'empêche, mort « burned their hands »), sauf
+  pendant l'invincibilité sans clignotement ; Frostburn 3 s sur les flèches tirées avec lui.
+- **[choix]** **Baow** : la seconde flèche part du symétrique du joueur par rapport au curseur, vers le curseur.
+- **[choix]** **Contaminated Dish** : 3 nuages de 50 px (1 s) à 65 % ; 5 éclats de verre (sans dégâts ; en frappe
+  furtive 10 % et Bleeding 5 s) ; frappe furtive lancée x1,6.
+
+### Aquatic Hypercomputer (`Content/Tiles/Hypercomputer/`, 19/11)
+
+Page d'addon (« Tales of the Aquatic », inventé) traitée comme les autres (section 11) : 154 recettes du wiki se font à
+ses 6 étapes. La station (recette : Iron Anvil) se pose, puis chaque module (recettes du wiki) s'utilise sur elle pour
+passer à l'étape suivante : Static Hypermodule, Capsule Vault Module, Elemental Capsule Box, Enchanted Reconstruction
+Module, Abyssblast Laser Module.
+
+- **[technique]** Une tuile par étape (`AquaticHypercomputer`, `...Static`, `...Vault`, `...Capsules`, `...ERM`,
+  `...Finished`) ; chaque étape compte aussi comme les précédentes, la dernière comme Draedon's Forge (et ce qu'elle
+  remplace). Les pages des étapes redirigent toutes vers *Aquatic Hypercomputer* : WikiRecipes cherche d'abord une tuile
+  de ce mod au nom de la station (lettres seulement), avant les redirections.
+- **[technique]** Tuile de 4 x 3 (infobox) ; l'image de chaque étape (82 x 74, l'étape 1 animée en 6 images) est
+  dessinée entière, posée sur le sol et centrée.
+- **[choix]** Un module s'utilise en visant la station à portée de pose, à l'étape juste avant ; il est consommé. Casser
+  la station rend la station et tous ses modules.
+- **[choix]** Capsule Vault Module et après : laser de 20 dégâts (Slow 2 s) toutes les 40 images vers l'ennemi visible le
+  plus proche à 25 blocs. Abyssblast Laser Module : Evercold 2 s chaque seconde aux ennemis dans le carré de 20 x 20 blocs
+  centré sur la station.
+- **[choix]** Prix de vente de la station : {{value|27|50}} de l'infobox (27 platine 50 or), gardé tel quel ; modules sans
+  prix (le tableau n'en donne pas). Raretés du tableau.
+- **[choix]** Evercold (page du debuff) : sur un ennemi, -200 PV/s, +20 % de dégâts reçus (« -20 % de réduction des
+  dégâts ») et -20 % de vitesse (pas sur les boss).
+
+### Wulfrum Excavator (`Content/NPCs/WulfrumExcavator/`, 19/11)
+
+Boss pré-Hardmode inventé (ver). Valeurs de l'infobox : vie {{dv|2 000|3 500|5 000}}, dégâts tête {{dv|20|28|34|40}},
+corps {{dv|10|16|20|25}}, queue {{dv|5|8|16|20}}, défense 0 / 4 / 6, DR 5 % (queue), 10 or, immunités ; butin WikiLoot.
+
+- **[choix]** Invocation : frapper une **Wulfrum Pylon** (ennemi généré) avec une pioche ; il surgit 600 px sous elle et la
+  mange. La page du boss demande en plus « an Ogscule in the player's inventory », celle de l'Ogscule dit l'inverse (« no
+  Ogscule ») : condition ignorée (l'Ogscule n'existe pas encore). À trancher si l'Ogscule est fait.
+- **[choix]** 8 segments de corps (d'après l'image du ver entier) ; écarts 38 px (corps) et 44 px (queue).
+- **[choix]** « Cran de difficulté » : normal 0, Expert 1, Revengeance 2, Death 3 ; supercharged = +1 (« boosting its AI to
+  the next difficulty stage »), 12 s (comme les ennemis de Calamity), à 495 px d'une Wulfrum Pylon ou d'un Wulfrum
+  Amplifier ; reflet cyan sur les segments. Seuils de vie, lasers d'anneau ({{dv|6|8|10|12}}) et ennemis appelés aux
+  changements de mouvement ({{dv|0|2|3|4}}) lus à ce cran.
+- **[choix]** Mouvements : ver (fonce dans le sol, retombe hors des blocs) ; cercle de 160 px de rayon, hexagone de lasers
+  toutes les 120 images ; rectangle de 1640 x 840 px autour du joueur (le serveur ne connaît pas l'écran), salve de 5 lasers
+  à chaque coin ; lemniscate de 360 px, 300 px au-dessus du joueur. Rev. à 5 % : change de mouvement toutes les 5 s.
+  Death : x1,4 de vitesse, lasers x1,2.
+- **[choix]** Lasers du corps : chaque segment tous les 300 images (x 1 / 0,8 / 0,65 / 0,55 selon le cran), une chance sur
+  3, s'il est à moins de 900 px ; dégâts {{dv|20|30|40|56}} (la page ne donne que Rev. et Death).
+- **[choix]** Résistances de la page : grenades -80 % ; en Expert, projectiles qui percent : dégâts / nombre de percées
+  (50 % pour l'infini), sauf sbires.
+- **[choix]** Taming : la tête creuse tout filon de minerai qu'elle touche (cases du même minerai qui se touchent, 200 au
+  plus ; les minerais tombent) ; 10 filons. Tout minerai compte (le jeu ne distingue pas un minerai naturel). Récompense :
+  Wulfrum Lenses (« Pacifist Drop »).
+- **[choix]** Aftermath : Energy Orb à 1 % sur les ennemis Wulfrum (Calamity et générés), Desert Medallion à 10 % sur les
+  Cnidrions (chance non donnée). La pousse des minerais pré-Hardmode est en attente (TESTS.md). Wulfrum Lure seulement
+  s'il meurt « supercharged ».
+- **[choix]** Wulfrum Lenses : lumière bleue devant le joueur et effet Spelunker. **[technique]** Rendu porté provisoire
+  (icône réduite), sprite demandé. Wulfrum Fusion Array : rafale de 3 tirs (use 10), portée ~25 blocs, 3 ennemis
+  traversés, tag de 4 dégâts pendant 4 s pour sbires et sentinelles, 6 de pénétration d'armure.
+
+### Lot J du 19/11 (`Content/Items/Weapons/WikiWeapons1119g.cs`)
+
+Valeurs des infobox. Sources pas encore dans le jeu : Acidsighter (Acid Bow, Caustic Claw), Ceasing Void (Steel Blade),
+Sigmund (Steel Kunai), Grand Thunder Cnidrion (Talon Burst), XB-10 Nortazzo (Titanslayer), le Collector (Swift Sword,
+avec son Blueprint) : ces armes ne s'obtiennent pas encore (TODO avec eux). Butcher : recette du wiki.
+
+- **[choix]** Acid Bow : 2 flèches à ±0,04 rad ; flèche sulfurique = Venom Arrow vanilla teintée en vert.
+- **[choix]** Butcher : cadence x1 → x6 et dispersion 0,25 → 0 rad en 4 s de tir continu ; remise à zéro dès qu'on lâche.
+- **[choix]** Talon Burst : vitesse 10 (la page n'en donne pas), Storm Bolts à vitesse x2, 2 coups (4 images d'écart).
+- **[choix]** Titanslayer : 8 traits par utilisation (use 40 = 8 x 5 images), vitesse 14 ; une utilisation sur 3 :
+  dégâts x6 (« +500 % »), taille x2, +20 % de critique, 4 âmes (Spectre Wrath vanilla) à 25 %.
+- **[choix]** Aspid Blaster : 3 orbes à ±0,18 rad (Ball of Fire vanilla en orange), gravité 0,15.
+- **[technique]** Caustic Claw : vrilles de la Shadowflame Hex Doll vanilla (comme dit la page), Irradiated 3 s en plus.
+- **[choix]** Steel Blade : éclats = Throwing Knife vanilla, 2 ennemis, 1 s, déplacés avec le joueur ; bonus = dégâts de
+  contact du dernier ennemi touché par la lame (gardé jusqu'au prochain coup).
+- **[choix]** Swift Sword : bonus proportionnel à la vitesse, maximum à 20 px/image ; Swiftness vanilla 10 s par ennemi tué.
+- **[technique]** Calamity Sword : « direct upgrade to the Swordsplosion », mais aucune recette sur le wiki : pas
+  obtenable (décision en attente).
+- **[choix]** Calamity Sword : x3 partout dans le Brimstone Crag (« up to ») ; 5 fragments, chercheurs après 40 images.
+- **[choix]** Steel Kunai : 15 images de vol, légère attirance à 200 px ; frappe furtive : 2 s, chercheur, explosion de 70 px.
+
+### Acidsighter (`Content/NPCs/Acidsighter/`, 19/11)
+
+Boss pré-Hardmode inventé. Valeurs de l'infobox : vie {{dv|4 000|6 200|8 760}}, contact {{dv|25|30|35|40}} (+25 % en
+phase 3), Acid Bomb {{dv|15|20|22|25}}, Acid Shot {{dv|20|23|30}}, Teeth Bomb et dents {{dv|30|33|36|40}}, défense 10,
+20 or, immunités, Irradiated 3 s au contact ; Mutated Eye : vie {{dv|30|45|55}}, dégâts {{dv|14|28|36|44}}, défense 3.
+Butin par WikiLoot ; sac en Expert (Treasure Bag (Acidsighter), sprite du wiki).
+
+- **[choix]** Invocation : Poisoned Sclera (pas consommé) dans la Sulphurous Sea, la nuit.
+- **[choix]** Attaques jouées à tour de rôle, dans l'ordre de la page, avec les seuils de phase du {{dv}} ; phase 1 sous
+  {{dv|65|70|75}} % : un tour + charge toutes les 3 attaques. Charges : 0,5 s de visée, ruée à 16 (x1,3 en Death),
+  freinage. Expert : charge avec un souffle d'Acid Venom (Venom vanilla {{dv||3|4}} s, 1 dégât) ajoutée à chaque phase.
+- **[choix]** Fureur : x1,5 hors de la Sulphurous Sea et de l'Océan, x1,5 le jour (cumulés), x1,1 en Revengeance.
+- **[choix]** Death : le nuage d'acide des Mutated Eyes n'est pas fait (seulement la vitesse des charges).
+- **[choix]** Taming : **absent de la page Taming** ; proposition : le garder 20 s (cumulées) dans l'Océan propre (pas la
+  Sulphurous Sea), dans les deux modes. À valider.
+- **[choix]** Armes : Pungent Bomber (bombe posée sur l'ennemi frappé, inactive 20 images, 4 gouttes à 50 %), Corrosive
+  Eye Staff (yeux en cercle de 70 px, une goutte toutes les 50 images à 500 px), Razor Teeth (rareté verte, 2 gouttes à
+  50 % par coup ; furtif : 3 dents chercheuses plantées 2 s, Venom 2 s pour « Acid Venom »).
 
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 

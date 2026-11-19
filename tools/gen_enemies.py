@@ -118,7 +118,7 @@ def main():
     for page in sorted(pages.values(), key=lambda p: p["title"]):
         if page.get("status") != "new" or page.get("kind") != "content" or not page.get("infobox", "").lower().startswith("npc"):
             continue
-        if (page.get("implemented") and page.get("implemented") != "WikiData/enemies.json") or page.get("addons"):
+        if page.get("implemented") and page.get("implemented") != "WikiData/enemies.json":
             continue
         kind = (page.get("type") or "").strip().lower()
         if kind not in TYPES:

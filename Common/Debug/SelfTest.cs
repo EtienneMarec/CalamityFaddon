@@ -329,7 +329,7 @@ namespace CalamityFandom.Common.Debug
                 && Common.Taming.TamingSystem.Get("Crabulon").Calm == (plus ? 3600 : 0) && Common.Taming.TamingSystem.TaxGap == (plus ? 60 : 0)
                 && Common.Taming.TamingBees.Goal == (plus ? 40 : 100) && Common.Taming.TamingBees.HiveOnly == plus,
                 "Taming : difficulté de Calamity++ (Destroyer 8, Skeletron 3 mini-jeux, calme de Crabulon, taxes espacées)");
-            Expect(tames.Count == 44 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
+            Expect(tames.Count == 46 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
                 + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));
@@ -394,7 +394,10 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Summon.FakenadoStaff>(), ModContent.ItemType<Content.Items.Weapons.Rogue.HandofGod>(), ModContent.ItemType<Content.Items.Weapons.Ranged.SuperchargedDartBlaster>(),
                 ModContent.ItemType<Content.Items.Weapons.Ranged.Twentloon>(), ModContent.ItemType<Content.Items.Weapons.Ranged.TerraBow>(), ModContent.ItemType<Content.Items.Weapons.Ranged.RodsfromGod>(), ModContent.ItemType<Content.Items.Weapons.Melee.GrandGar>(), ModContent.ItemType<Content.Items.Weapons.Typeless.DeeepscaleBomb>(), ModContent.ItemType<Content.Items.Weapons.Rogue.StellarKunai>(),
                 ModContent.ItemType<Content.Items.Weapons.Summon.CatastropheClaysiphonophore>(), ModContent.ItemType<Content.Items.Weapons.Summon.ViridVangar>(), ModContent.ItemType<Content.Items.Weapons.Rogue.VermillionAngel>(), ModContent.ItemType<Content.Items.Weapons.Melee.Breakthrough>(), ModContent.ItemType<Content.Items.Weapons.Melee.SummitBreaker>(),
-                ModContent.ItemType<Content.Items.Weapons.Melee.Garth>(), ModContent.ItemType<Content.Items.Weapons.Magic.WorstPrism>(), ModContent.ItemType<Content.Items.Weapons.Ranged.SDOMG>(), ModContent.ItemType<Content.Items.Weapons.Ranged.ElementalSawLauncher>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Axisdriver>(), ModContent.ItemType<Content.Items.Weapons.Magic.UnendingVoid>() })
+                ModContent.ItemType<Content.Items.Weapons.Melee.Garth>(), ModContent.ItemType<Content.Items.Weapons.Magic.WorstPrism>(), ModContent.ItemType<Content.Items.Weapons.Ranged.SDOMG>(), ModContent.ItemType<Content.Items.Weapons.Ranged.ElementalSawLauncher>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Axisdriver>(), ModContent.ItemType<Content.Items.Weapons.Magic.UnendingVoid>(),
+                ModContent.ItemType<Content.Items.Weapons.Rogue.BucketofCoal>(), ModContent.ItemType<Content.Items.Weapons.Rogue.FracturingFist>(), ModContent.ItemType<Content.Items.Ammo.TwentyTwoHornetRound>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Baow>(),
+                ModContent.ItemType<Content.Items.Weapons.Magic.InterfacerStaff>(), ModContent.ItemType<Content.Items.Weapons.Rogue.ExifFist>(), ModContent.ItemType<Content.Items.Weapons.Ranged.TwentyTwloon>(), ModContent.ItemType<Content.Items.Weapons.Ranged.ElementalBow>(),
+                ModContent.ItemType<Content.Items.Weapons.Ranged.Butcher>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -437,6 +440,43 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Summon.HellsBells>(), ModContent.ItemType<Content.Items.Accessories.SoulofPyrogen>() })
                 Expect(pyroRates.Any(r => r.itemId == looted), $"Pyrogen lâche {Lang.GetItemNameValue(looted)}");
             Expect(Common.Taming.TamingSystem.Get("Pyrogen") != null, "Pyrogen apprivoisable (neige en surface)");
+            var pbgRates = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<CalamityMod.NPCs.PlaguebringerGoliath.PlaguebringerGoliath>(), false))
+                r.ReportDroprates(pbgRates, new DropRateInfoChainFeed(1f));
+            int dishBag = ModContent.ItemType<CalamityMod.Items.TreasureBags.PlaguebringerGoliathBag>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForItemID(dishBag))
+                r.ReportDroprates(pbgRates, new DropRateInfoChainFeed(1f));
+            Expect(pbgRates.Any(r => r.itemId == ModContent.ItemType<Content.Items.Weapons.Rogue.ContaminatedDish>()), "le Plaguebringer Goliath lâche la Contaminated Dish");
+            // 19/11 : Wulfrum Excavator (boss inventé) : butin de la page, apprivoisement, Wulfrum Lenses et Fusion Array
+            var excavatorRates = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<Content.NPCs.WulfrumExcavator.WulfrumExcavatorHead>(), false))
+                r.ReportDroprates(excavatorRates, new DropRateInfoChainFeed(1f));
+            foreach (int looted in new[] { ModContent.ItemType<Content.Items.Armor.WulfrumLenses>(), ModContent.ItemType<Content.Items.Weapons.Summon.WulfrumFusionArray>(),
+                ModContent.ItemType<CalamityMod.Items.Tools.WulfrumTreasurePinger>() })
+                Expect(excavatorRates.Any(r => r.itemId == looted), $"le Wulfrum Excavator lâche {Lang.GetItemNameValue(looted)}");
+            Expect(Common.Taming.TamingSystem.Get(Content.NPCs.WulfrumExcavator.WulfrumExcavatorHead.TamingKey) != null, "Wulfrum Excavator apprivoisable (filons)");
+            Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == ModContent.ItemType<Content.Items.Armor.WulfrumMiningHelmet>()),
+                "recette du wiki du Wulfrum Mining Helmet (avec les Wulfrum Lenses)");
+            // 19/11 : Acidsighter (boss inventé) : butin de la page, sac, invocation
+            var acidRates = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<Content.NPCs.Acidsighter.Acidsighter>(), false))
+                r.ReportDroprates(acidRates, new DropRateInfoChainFeed(1f));
+            foreach (var r in Main.ItemDropsDB.GetRulesForItemID(ModContent.ItemType<Content.Items.TreasureBags.AcidsighterBag>()))
+                r.ReportDroprates(acidRates, new DropRateInfoChainFeed(1f));
+            foreach (int looted in new[] { ModContent.ItemType<Content.Items.Weapons.Ranged.AcidBow>(), ModContent.ItemType<Content.Items.Weapons.Magic.CausticClaw>(),
+                ModContent.ItemType<Content.Items.Weapons.Melee.PungentBomber>(), ModContent.ItemType<Content.Items.Weapons.Summon.CorrosiveEyeStaff>(),
+                ModContent.ItemType<Content.Items.Weapons.Rogue.RazorTeeth>() })
+                Expect(acidRates.Any(r => r.itemId == looted), $"l'Acidsighter lâche {Lang.GetItemNameValue(looted)}");
+            Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == ModContent.ItemType<Content.Items.SummonItems.PoisonedSclera>()),
+                "recette du wiki du Poisoned Sclera");
+            // 19/11 : Aquatic Hypercomputer, une tuile par étape, recettes à chaque étape
+            foreach (int stageTile in Content.Tiles.Hypercomputer.HypercomputerTile.StageTiles)
+                Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.requiredTile.Contains(stageTile)),
+                    $"recettes du wiki à l'étape {TileLoader.GetTile(stageTile).Name} de l'Aquatic Hypercomputer");
+            foreach (int module in Content.Tiles.Hypercomputer.HypercomputerTile.StageItems)
+                Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == module), $"recette du wiki de {Lang.GetItemNameValue(module)}");
+            Expect(TileLoader.GetTile(ModContent.TileType<Content.Tiles.Hypercomputer.AquaticHypercomputerFinished>()).AdjTiles.Contains(ModContent.TileType<CalamityMod.Tiles.Furniture.CraftingStations.DraedonsForge>()),
+                "l'Aquatic Hypercomputer complet fait Draedon's Forge");
             Expect(WikiNames.FindNPCs("Pyrogen").Contains(ModContent.NPCType<Content.NPCs.Pyrogen.Pyrogen>()), "Pyrogen trouvé par son nom");
             // 13/11 : Skynamite de Calamity sous le nom du wiki
             if (ModContent.TryFind<ModItem>("CalamityMod", "Skynamite", out var skynamite))

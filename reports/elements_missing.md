@@ -2,43 +2,33 @@
 
 _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 
-## PNJ (88)
+## PNJ (70)
 
-- Acidsighter
 - Aetherial Guardian, Olistene
 - Amazon
 - Aquatic Parasite
 - Arc
 - Artificial Sentience System, AX-P03
 - Barocrab
-- Barocraw
 - Birdest Up, Kulu-Yharon-Ku
 - Bronze Serpent
 - Carcinogen
 - Catfish (enemy)
 - Ceasing Void
-- Charm Gar
 - Cinder
-- Cosmilite Slime
 - Cumulomenace
-- Cyber Draedon
 - Cyrogen
-- Dark Statis
 - Destroyer of Sanity
 - Devil of Vehemence
 - Dihidrogen Monoxide
 - Dihydrogen Monoxide
 - Disgusting Creature: Dron
-- Distortion Essence Sphere
 - Dragon
 - Dust Mite
 - DWN-∞, Zero
 - Empyreon
-- Everquartz
 - Exodygen
-- Fat Blighted Eye
 - Fatal Circuit
-- Floating Biomass
 - Garon
 - Giant Skeleton
 - Godseeker, Yharim
@@ -47,17 +37,12 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Green Phantom
 - Hydrogen
 - Ionogen
-- King of Constellations, Tenryu
 - Lav'e Rugamarius
 - Lava Squid
-- Life Slime
-- Lizard
-- Mastaba
 - Mechanical Leech
 - Mechawyrm
 - Mega Flocko
 - Monstro
-- Mysterious Manager
 - Nihil, the Fathomless Seeker
 - Oxygen
 - Pandora, the Hypnotized Witch
@@ -65,8 +50,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Phytogen
 - Polyphemalus
 - Poobis Prime
-- Primal Aspid
-- Primordial Rainbow Slime
 - Profusion, the Viral God
 - Provig
 - Purgatory Arbiter, Umbrus
@@ -86,21 +69,19 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Twisted Tyrant, Bizhaarim
 - Vision of the Tyrant
 - Void Hydra
-- Volcanic Reaper Shark
 - XB-10 HuY
 - XC-39 "Oizys"
 - XP-00 Hypnos
 - Yharim Worm
 - Youkai Miko
 
-## Objets (284)
+## Objets (268)
 
 - A M S
 - AAMG "Disperse"
 - Abysscent Derailer
 - Abysscent Pistol
 - Ace's Low
-- Acid Bow
 - Aegis Core
 - Aergian Technistaff
 - Aero Bolt
@@ -111,10 +92,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Arkflammator
 - Arngren
 - Aspect of the End
-- Aspid Blaster
 - Astralence
 - Bad Apple
-- Baow
 - Bazooka
 - Blazing Powder
 - Bleeding Influx
@@ -123,14 +102,10 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Bloodinator 1
 - Bolide Launcher
 - Braxaxe
-- Bucket of Coal
 - Bundle o' Bones
-- Butcher (weapon)
 - Butcher's Glove
 - Calamitous Vortex
-- Calamity Sword
 - Catarachedrae
-- Caustic Claw
 - Celestial Nuke
 - Cent Striker
 - Chain Spear
@@ -148,7 +123,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Coldetecht
 - Confection
 - Consequences of Power
-- Contaminated Dish
 - Cored Line
 - Corrupt Hypno Flute
 - Crius Prime
@@ -194,12 +168,10 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Exterminator
 - First Crescent
 - Flame Boy Popsicle
-- Flaming Ice Bow
 - Fleshly Megaphone
 - Flint
 - Flounder Mortar
 - Fracture Staff
-- Fracturing Fist
 - Frightshooter
 - Frostflow Edge
 - Gamma Ray Burst
@@ -284,7 +256,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Profaned Nucleus
 - Prominence
 - Pumplerfaust
-- Pungent Bomber
 - Purgatory Blaster
 - Quadlens Staff
 - Quantum Flahium Ejection Device
@@ -293,7 +264,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Quintessence Cannon
 - Ram's Revenge
 - Rampart of Deicide
-- Razor Teeth
 - Reactive Pickaxe
 - Reactor Accelerator
 - Redtide Spear
@@ -320,11 +290,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Snowgrave
 - Spear of Liberty
 - Star Flare
-- Steel Blade
-- Steel Kunai
 - Stratoctrine Spear
 - Stringstreaker
-- Swift Sword
 - Technicate
 - Technomagica
 - Tendon Tides
@@ -375,7 +342,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Wrath of the Gods
 - Wreath of Belial
 - Wrecking Ball
-- Wulfrum Fusion Array
 - XB-∞ Hekate
 - Xenon Cutlass
 - Zenith Arcanum

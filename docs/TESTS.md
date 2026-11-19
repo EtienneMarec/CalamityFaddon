@@ -852,11 +852,49 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Hell's Bells : la cloche suit le curseur et sonne un anneau de feu toutes les 50 images. Seared Shredder : faux de
       feu qui ralentissent et tournent sur place.
 
+- [ ] Lot I (`WikiWeapons1119f.cs`) : Bucket of Coal (seau qui tourne et lance du charbon ; furtif : charbon qui
+      grossit), Fracturing Fist (traînée rose, explose en 2 moitiés chercheuses ; furtif : 4 rebonds), 22 Hornet Round
+      (une balle traverse un groupe en ricochant), Flaming Ice Bow (on perd 60 PV/s en le tenant !), Baow (2 flèches qui
+      se croisent au curseur), Contaminated Dish (Plaguebringer Goliath : nuages verts, Plague). Recettes de l'Interfacer
+      Staff, de l'Exif Fist, du Twenty-Twloon et de l'Elemental Bow maintenant fabricables.
+
+- [ ] **Aquatic Hypercomputer** : poser la station (image animée sur 4 x 3 cases) ; utiliser le Static Hypermodule en la
+      visant → image de l'étape 2, nouvelles recettes ; Capsule Vault Module → laser bleu qui ralentit les ennemis
+      proches ; ... Abyssblast Laser Module → ennemis proches sous Evercold, la station fait Draedon's Forge. Casser la
+      station rend la station et les modules. Un module ne s'utilise que sur l'étape juste avant.
+
+- [ ] **Wulfrum Excavator** : frapper une Wulfrum Pylon avec une pioche → le ver sort du sol et la mange. Lasers du
+      corps ; sous 60 % : cercle autour du joueur + hexagones ; sous 40 % : rectangle au bord de l'écran, salves aux coins ;
+      sous 15 % : huit couché au-dessus du joueur, anneaux de lasers. En Expert, ennemis Wulfrum à chaque changement ; près
+      d'une Wulfrum Pylon il brille en cyan (plus dur) et lâche une Wulfrum Lure s'il meurt ainsi. Taming : le guider dans
+      10 filons de minerai (il les creuse) → Wulfrum Lenses ; puis le Wulfrum Mining Helmet se fabrique. Après lui : Energy
+      Orbs sur les ennemis Wulfrum, Desert Medallions sur les Cnidrions. Wulfrum Fusion Array (Inventors, Excavator) :
+      rafales vertes, les sbires visent l'ennemi touché.
+
+- [ ] Lot J (`WikiWeapons1119g.cs`, avec Cheat Sheet : leurs sources n'existent pas encore) : Acid Bow (2 flèches,
+      vertes avec des Wooden Arrows), Butcher (tire de plus en plus vite et droit), Talon Burst, Titanslayer (1 tir sur 3
+      gros, éclate en âmes), Aspid Blaster, Caustic Claw (vrilles vertes), Steel Blade (plus fort après avoir frappé un
+      ennemi qui fait mal), Swift Sword (plus fort en courant, Swiftness au kill), Calamity Sword (fragments ; x3 dans le
+      Brimstone Crag), Steel Kunai.
+
+- [ ] **Acidsighter** : Poisoned Sclera (recette du wiki) dans la Sulphurous Sea la nuit → boss. Mutated Eyes, 3 charges,
+      Acid Bombs (6 gouttes), Teeth Bombs (dents chercheuses) ; sous ~50 % : rugissement, lueur verte, nouvelles attaques ;
+      sous ~30 % : lueur forte, chaîne de ruées, Mutated Clusters. Le jour ou hors de la mer : beaucoup plus rapide. Butin :
+      Acid Bow, Caustic Claw, Pungent Bomber, Corrosive Eye Staff, Razor Teeth. Taming (proposition) : 20 s dans l'Océan.
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
 - **Difficulté du Taming** (31/10) : propositions boss par boss pour Calamity++ dans `docs/decisions.md` (section Taming).
 
+- [ ] (19/11) **Calamity Sword** : la page en fait l'amélioration du Swordsplosion sans recette. Proposition : en Calamity++,
+      Swordsplosion + 10 Ashes of Calamity + 5 Ashes of Annihilation à la Cosmic Anvil ; en Full Fandom, sans recette. À trancher.
+- [ ] (19/11) **Acidsighter** : la page Taming ne le cite pas ; proposition faite (20 s dans l'Océan propre). Et « Defeating
+      it will unlock the Acid Rain » : dans Calamity, l'Acid Rain vient après l'Eye of Cthulhu. Proposition : en Full Fandom
+      seulement, l'Acid Rain naturelle attend la défaite de l'Acidsighter. À trancher.
+- [ ] (19/11) **Wulfrum Excavator, après sa défaite** : « All Vanilla Pre-Hardmode ores start to grow over time,
+      expanding into nearby Stone Blocks or Ice Blocks ». Proposition : en Full Fandom seulement, une case de minerai
+      pré-Hardmode s'étend de temps en temps dans la pierre ou la glace voisine (comme la Corruption). À trancher.
 - [ ] (19/11) **Pyrogen, après sa défaite** (page, « Aftermath ») : « Defeating Pyrogen will free the Guide » (le Guide
       n'arriverait qu'après Pyrogen, fin du Hardmode !) et « Scoria Ore spawns in the Abyss » (Calamity la fait apparaître
       après Golem ? à vérifier). Proposition : ni l'un ni l'autre en Calamity++ ; en Full Fandom, le Guide ne vient

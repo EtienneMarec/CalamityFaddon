@@ -32,12 +32,29 @@ def stale_tmod():
     return False
 
 
+def broken_localization():
+    """Premier fichier hjson qui ne se lit pas (message d'erreur), ou None. tModLoader refuse alors de charger le mod."""
+    import hjson
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    folder = os.path.join(root, "Localization", "en-US")
+    for name in sorted(os.listdir(folder)):
+        if name.endswith(".hjson"):
+            try:
+                hjson.load(open(os.path.join(folder, name), encoding="utf-8"))
+            except Exception as e:  # noqa: BLE001 — toute erreur de syntaxe
+                return f"{name} : {e}"
+    return None
+
+
 def main():
     enabled = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), "Mods", "enabled.json")
     if os.path.exists(enabled) and "CalamityFandom" not in open(enabled, encoding="utf-8").read():
         sys.exit("CalamityFandom n'est pas activé (Mods/enabled.json) : tModLoader le désactive après un plantage au chargement.")
     if stale_tmod():
         sys.exit("Le .tmod est plus ancien que les sources : relancer dotnet build avec le jeu fermé (erreur TML003 sinon).")
+    bad = broken_localization()
+    if bad:
+        sys.exit("Fichier de localisation invalide (le mod ne se chargerait pas, le serveur attendrait 10 min) : " + bad)
     mode = sys.argv[sys.argv.index("--mode") + 1] if "--mode" in sys.argv else "CalamityPlus"
     results = [run(m) for m in (MODES if mode == "all" else [mode])]
     sys.exit(0 if all(results) else 1)

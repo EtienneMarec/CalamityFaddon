@@ -127,11 +127,15 @@ namespace CalamityFandom.Common.Taming
 
         public override void PostSetupContent()
         {
-            // Pré-Hardmode. TODO : Wulfrum Excavator (boss inventé)
+            // Pré-Hardmode. « Lead the Wulfrum Excavator to 10 veins of naturally spawning ore » (Content/NPCs/WulfrumExcavator)
+            Add(Content.NPCs.WulfrumExcavator.WulfrumExcavatorHead.TamingKey, 10, 0, ModContent.NPCType<Content.NPCs.WulfrumExcavator.WulfrumExcavatorHead>(),
+                ModContent.NPCType<Content.NPCs.WulfrumExcavator.WulfrumExcavatorBody>(), ModContent.NPCType<Content.NPCs.WulfrumExcavator.WulfrumExcavatorTail>());
             // « Give the Inventors a Diamond Ring » (Content/NPCs/Inventors : InventorsDiamondRing)
             Add(Content.NPCs.Inventors.InventorsDiamondRing.Key, 1, 0, ModContent.NPCType<Content.NPCs.Inventors.JohnWulfrum>(),
                 ModContent.NPCType<Content.NPCs.Inventors.JaneWulfrum>());
             Add("King Slime", 300 * 60, 0, NPCID.KingSlime);
+            // [choix] Acidsighter (absent de la page Taming) : le garder dans l'Océan propre (pas la Sulphurous Sea), 20 s cumulées
+            Add(Content.NPCs.Acidsighter.Acidsighter.TamingKey, 20 * 60, 0, ModContent.NPCType<Content.NPCs.Acidsighter.Acidsighter>());
             Add("Desert Scourge", 180, 0, ModContent.NPCType<DesertScourgeHead>(), ModContent.NPCType<DesertScourgeBody>(), ModContent.NPCType<DesertScourgeTail>());
             Add("Eye of Cthulhu", 30, 0, NPCID.EyeofCthulhu);
             Add("Crabulon", 1, 0, ModContent.NPCType<Crabulon>());

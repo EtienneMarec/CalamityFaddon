@@ -68,6 +68,7 @@ section Taming. Fichiers : `wiki_sprites_custom/<Nom>.png`.
 | The Princess : flammes | flammes du Prince de Calamity (`PrinceFlameLarge/Small`) | à garder ou à refaire en version « sainte » |
 | Microxodonta : nuées | ennemi Microbial Cluster de Calamity | à garder (la page parle de Microbial Clusters) |
 | Wulfrum Hardhat : rendu porté | chapeau découpé dans l'image « Equipped » du wiki, recopié sur les 20 images | planche Head à 20 images : `wiki_sprites_custom/Wulfrum Hardhat (head).png` |
+| Wulfrum Lenses : rendu porté | icône réduite posée sur les yeux | planche Head à 20 images (lunettes Wulfrum) |
 | Wulfrum Mining Helmet : rendu porté | casque découpé dans l'image « Equipped » du wiki | planche Head à 20 images |
 | Gel armor : rendu porté (7 pièces) | planches Statigel de Calamity (Helm = mêlée, Headgear = distance, Cap = magie, Hood = invocation, Mask = spy) | planches Head / Body / Legs plus pâles (gel non purifié) : `wiki_sprites_custom/Gel <pièce> (head\|body\|legs).png` |
 | Plague Balloon : abeilles | abeille vanilla | abeille de la peste (verte) ~10×10 |

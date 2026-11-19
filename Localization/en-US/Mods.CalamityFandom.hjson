@@ -1941,6 +1941,52 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			RazorTeeth: {
+				DisplayName: Razor Teeth
+				Tooltip:
+					'''
+					Throws a sharp irradiated tooth that pierces enemies and explodes into acid shots
+					Stealth strikes fire three homing teeth that stick to enemies and injects them with acid venom
+					'''
+			}
+
+			SteelKunai: {
+				DisplayName: Steel Kunai
+				Tooltip:
+					'''
+					Fires a short-range kunai
+					Stealth strikes home and explode.
+					'''
+			}
+
+			BucketofCoal: {
+				DisplayName: Bucket of Coal
+				Tooltip:
+					'''
+					Throws a bucket of coal that flings out smaller bits of coal as it travels
+					Stealth strikes cause the bits to grow in size and damage over time
+					'''
+			}
+
+			FracturingFist: {
+				DisplayName: Fracturing Fist
+				Tooltip:
+					'''
+					Fires a fist that splits into two more fists upon collision
+					Stealth strikes make the fist ricochet between enemies up to 4 times while spawning crystal shards
+					'''
+			}
+
+			ContaminatedDish: {
+				DisplayName: Contaminated Dish
+				Tooltip:
+					'''
+					Tosses out a really old Petri dish that explodes upon hitting enemies or tiles, releasing plague nanobots in the process
+					Stealth strike causes them to be thrown harder, sticking glass shards into them in the process
+					'This thing's really old by now, best not breathe it in too much...'
+					'''
+			}
+
 			MoltenPiercer: {
 				DisplayName: Molten Piercer
 				Tooltip: Throws flaming knives that break into obsidian shards on hit
@@ -2342,6 +2388,165 @@ Items: {
 	HellsBells: {
 		DisplayName: Hell's Bells
 		Tooltip: Summons an obsidian bell that follows the cursor
+	}
+	FlamingIceBow: {
+		DisplayName: Flaming Ice Bow
+		Tooltip:
+			'''
+			Causes all arrows to inflict frostburn
+			Damages the user while held
+			'''
+		Death: "{0} burned their hands on the Flaming Ice Bow."
+	}
+
+	Baow: {
+		DisplayName: Baow
+		Tooltip: Fires a second arrow mirroring the first
+	}
+
+	TwentyTwoHornetRound: {
+		DisplayName: 22 Hornet Round
+		Tooltip:
+			'''
+			Pierces the hearts of gods...
+			Ricochets up to 21 times off of hit enemies
+			'''
+	}
+	AquaticHypercomputer: {
+		DisplayName: Aquatic Hypercomputer
+		Tooltip: A hypercomputer capable of reconstructing reality.
+	}
+
+	StaticHypermodule: {
+		DisplayName: Static Hypermodule
+		Tooltip: Can be placed on the hypercomputer to increase its reconstructing power
+	}
+
+	CapsuleVaultModule: {
+		DisplayName: Capsule Vault Module
+		Tooltip: Can be placed on the hypercomputer if it has a Static Hypermodule.
+	}
+
+	ElementalCapsuleBox: {
+		DisplayName: Elemental Capsule Box
+		Tooltip: Contains capsules that can be placed in the Capsule vault to increase Hypercomputer's powers
+	}
+
+	EnchantedReconstructionModule: {
+		DisplayName: Enchanted Reconstruction Module
+		Tooltip: Can be placed on the Hypercomputer after The capsule vault was filled.
+	}
+
+	AbyssblastLaserModule: {
+		DisplayName: Abyssblast Laser Module
+		Tooltip: Can be placed on the Hypercomputer after the Enchanted Reconstruction Module to increase its power. Creates an aura that Evercolds your enemies
+	}
+	WulfrumLenses: {
+		DisplayName: Wulfrum Lenses
+		Tooltip: Highlights nearby treasure.
+	}
+
+	WulfrumFusionArray: {
+		DisplayName: Wulfrum Fusion Array
+		Tooltip:
+			'''
+			4 summon tag damage
+			Fires quick bursts of medium-range pellets
+			[c/83B87E:Who needs whips when you can simply use a fusion cannon?]
+			'''
+	}
+	AcidBow: {
+		DisplayName: Acid Bow
+		Tooltip:
+			'''
+			Fires two arrows
+			Converts wooden arrows into arrows that inflict irradiated
+			'''
+	}
+
+	Butcher: {
+		DisplayName: Butcher
+		Tooltip: Fires faster and more accurately the longer you hold the trigger
+	}
+
+	TalonBurst: {
+		DisplayName: Talon Burst
+		Tooltip:
+			'''
+			Turns wooden arrows into Storm Bolts, which can hit the same target twice
+			'''
+	}
+
+	Titanslayer: {
+		DisplayName: Titanslayer
+		Tooltip:
+			'''
+			Fires a stream of 8 homing spectral bolts
+			Every 3 uses supercharges the bolts, causing them to explode into souls and grants them additional critical strike chance
+			'''
+	}
+
+	AspidBlaster: {
+		DisplayName: Aspid Blaster
+		Tooltip: Fires an irritating spread of infected orbs
+	}
+
+	CausticClaw: {
+		DisplayName: Caustic Claw
+		Tooltip: Casts caustic tendrils that inflict irradiated
+	}
+
+	SteelBlade: {
+		DisplayName: Steel Blade
+		Tooltip:
+			'''
+			The amount of contact damage an enemy does is added to this weapons' damage
+			You must hit an enemy with the blade to trigger this effect
+			'''
+	}
+
+	SwiftSword: {
+		DisplayName: Swift Sword
+		Tooltip:
+			'''
+			Deals more damage the faster you are moving
+			Increases your movement speed on kill
+			Some demented esoteric enjoyers pretend that pocket dimensions exist. They never explain what it means, though.
+			'''
+	}
+
+	CalamitySword: {
+		DisplayName: Calamity Sword
+		Tooltip:
+			'''
+			Shoots a sword beam when swung, If it hits an enemy, it explodes into Sword Fragments that home in after a few seconds that deal 25% of the weapons current damage.
+			'''
+	}
+	PoisonedSclera: {
+		DisplayName: Poisoned Sclera
+		Tooltip:
+			'''
+			Summons the Acidsighter when used in the sulphurous sea at night
+			Not consumable
+			'''
+	}
+
+	AcidsighterBag: {
+		DisplayName: Treasure Bag (Acidsighter)
+		Tooltip:
+			'''
+			{$CommonItemTooltip.RightClickToOpen}
+			'''
+	}
+
+	PungentBomber: {
+		DisplayName: Pungent Bomber
+		Tooltip: Leaves acid bombs when striking enemies
+	}
+
+	CorrosiveEyeStaff: {
+		DisplayName: Corrosive Eye Staff
+		Tooltip: Summons corroded eyes that orbit you and shoot acid shots
 	}
 }
 
@@ -2787,6 +2992,125 @@ Projectiles: {
 	BellChime: {
 		DisplayName: Chime
 	}
+	CoalBucket: {
+		DisplayName: Bucket of Coal
+	}
+
+	CoalChunk: {
+		DisplayName: Coal
+	}
+
+	CoalBlast: {
+		DisplayName: Coal Explosion
+	}
+
+	FracturingFistProj: {
+		DisplayName: Fracturing Fist
+	}
+
+	FistBlast: {
+		DisplayName: Fist Explosion
+	}
+
+	FistHalf: {
+		DisplayName: Fractured Fist
+	}
+
+	PetriDish: {
+		DisplayName: Petri Dish
+	}
+
+	NanobotCloud: {
+		DisplayName: Plague Nanobots
+	}
+
+	GlassShard: {
+		DisplayName: Glass Shards
+	}
+
+	HornetRoundBullet: {
+		DisplayName: 22 Hornet Round
+	}
+	HypercomputerLaser: {
+		DisplayName: Hypercomputer Laser
+	}
+	ExcavatorLaser: {
+		DisplayName: Wulfrum Laser
+	}
+
+	FusionBolt: {
+		DisplayName: Fusion Bolt
+	}
+	SulphuricArrow: {
+		DisplayName: Sulphuric Arrow
+	}
+
+	StormBolt: {
+		DisplayName: Storm Bolt
+	}
+
+	SpectralBolt: {
+		DisplayName: Spectral Bolt
+	}
+
+	InfectedOrb: {
+		DisplayName: Infected Orb
+	}
+
+	SteelShard: {
+		DisplayName: Steel
+	}
+
+	CalamitySwordBeam: {
+		DisplayName: Calamity Sword
+	}
+
+	CalamitySwordFragment: {
+		DisplayName: Sword Fragment
+	}
+
+	SteelKunaiProj: {
+		DisplayName: Steel Kunai
+	}
+	AcidBomb: {
+		DisplayName: Acid Bomb
+	}
+
+	AcidShot: {
+		DisplayName: Acid Shot
+	}
+
+	TeethBomb: {
+		DisplayName: Teeth Bomb
+	}
+
+	HomingTooth: {
+		DisplayName: Homing Tooth
+	}
+
+	MutatedCluster: {
+		DisplayName: Mutated Cluster
+	}
+
+	AcidVenomBreath: {
+		DisplayName: Acid Venom
+	}
+
+	FriendlyAcidBomb: {
+		DisplayName: Acid Bomb
+	}
+
+	FriendlyAcidShot: {
+		DisplayName: Acid Shot
+	}
+
+	CorrosiveEye: {
+		DisplayName: Corrosive Eye
+	}
+
+	RazorTooth: {
+		DisplayName: Razor Teeth
+	}
 }
 
 Shortstrike.Gauge:
@@ -3073,6 +3397,14 @@ Buffs: {
 		DisplayName: Obsidian bell
 		Description: The hellish bell will protect you
 	}
+	Evercold: {
+		DisplayName: Evercold
+		Description: Your life is freezing
+	}
+	CorrosiveEyeBuff: {
+		DisplayName: Corrosive Eye
+		Description: The corrosive eyes are orbiting you
+	}
 }
 
 Modes: {
@@ -3207,6 +3539,31 @@ NPCs: {
 		DisplayName: Pyrogen
 		Bestiary: A construct of the same nature as Cryogen, sleeping in the searing lakes of the Underworld. Its obsidian shield destroys whatever is thrown at it.
 		Hellstorm: Pyrogen spins into a hellstorm!
+	}
+	WulfrumExcavatorHead: {
+		DisplayName: Wulfrum Excavator
+		Bestiary: The first big project of the legendary weaponsmith, Draedon. It digs through the surface, and the Wulfrum Pylons make it stronger.
+		SuperchargedCondition: While supercharged
+		DownedCondition: After the Wulfrum Excavator has been defeated
+	}
+
+	WulfrumExcavatorBody: {
+		DisplayName: Wulfrum Excavator Body
+	}
+
+	WulfrumExcavatorTail: {
+		DisplayName: Wulfrum Excavator Tail
+	}
+	Acidsighter: {
+		DisplayName: Acidsighter
+		Bestiary:
+			'''
+			A giant Demon Eye poisoned by the sulphuric waters. It only answers the call of a Poisoned Sclera, at night, by the acidic sea.
+			'''
+	}
+
+	MutatedEye: {
+		DisplayName: Mutated Eye
 	}
 }
 
