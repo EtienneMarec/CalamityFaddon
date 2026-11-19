@@ -3121,6 +3121,49 @@ Items: {
 			20% increase damage reduction
 			'''
 	}
+	Astralence: {
+		DisplayName: Astralence
+		Tooltip: fires edges at your enemies
+	}
+
+	MagnicCircularity: {
+		DisplayName: Magnic Circularity
+		Tooltip: magnets your enemies closer
+	}
+
+	Decreator: {
+		DisplayName: Decreator
+		Tooltip: Shot bullets have a 1% chance to deal 10x more damage
+	}
+
+	Technicate: {
+		DisplayName: Technicate
+		Tooltip:
+			'''
+			75% chance to not consume ammo
+			Shot bullets clone themselves into 3 new ones every half a second
+			'''
+	}
+
+	Ifflamator: {
+		DisplayName: Ifflamator
+		Tooltip: Shoots flames that orbit around your cursor
+	}
+
+	Technomagica: {
+		DisplayName: Technomagica
+		Tooltip: Creates electric shockwaves that electrify your enemies
+	}
+
+	ReactivePickaxe: {
+		DisplayName: Reactive Pickaxe
+		Tooltip: Can mine Natrisodic Clusters
+	}
+
+	SupremeOnyxDrill: {
+		DisplayName: Supreme Onyx Drill
+		Tooltip: Can mine almost anything
+	}
 }
 
 Projectiles: {
@@ -4066,6 +4109,25 @@ Projectiles: {
 
 	OdysseyBlast: {
 		DisplayName: Nocturnal Explosion
+	}
+	AstralEdge: {
+		DisplayName: Astral Edge
+	}
+
+	MagnicYoyo: {
+		DisplayName: Magnic Circularity
+	}
+
+	OrbitingFlame: {
+		DisplayName: Yellow Flame
+	}
+
+	ElectricArc: {
+		DisplayName: Electric Arc
+	}
+
+	SupremeDrillProj: {
+		DisplayName: Supreme Onyx Drill
 	}
 }
 

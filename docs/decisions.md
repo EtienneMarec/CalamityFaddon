@@ -1962,6 +1962,22 @@ de la section 3) ; Evercold = debuff de ce mod (5 s).
 - Pas faits : Cored Line (fouet), Evercoldance (sentinelle aux debuffs « abyssaux » non définis), Gluelic Blade (deux modes,
   page incohérente : « Cutter's Gift »).
 
+### Lot W du 19/11 (`Content/Items/Weapons/WikiWeapons1119s.cs`)
+
+Objets fabricables à la dernière étape de l'Aquatic Hypercomputer. Valeurs des infobox ; raretés inventées → 0 ;
+« Ancient Astral Blight » (sans effet défini) = Astral Infection de Calamity.
+
+- **[choix]** Astralence : tranchants à 200 %, 2 ennemis. Magnic Circularity : yoyo (Terrarian teinté), attire les
+  non-boss à 300 px.
+- **[choix]** Decreator : 1 tir sur 100 à x10. Technicate : chaque balle tirée fait 2 copies toutes les 30 images (les
+  copies ne se copient pas) ; sprite réduit à 60 %.
+- **[choix]** Ifflamator : flammes qui tournent autour du curseur en s'en éloignant (3 px par image), disparaissent à 10
+  blocs ; gel toujours consommé ; infobulle inventée (la page n'en a pas).
+- **[choix]** Technomagica : 3 arcs qui zigzaguent. Reactive Pickaxe (pioche 350 %) et Supreme Onyx Drill (foreuse 400 %) :
+  « Reactive Flames » sans page, non fait ; infobulle du Supreme Onyx Drill inventée.
+- Pas faits : Arkflammator et Night Cloak (debuffs « Noctactricity », « Obstructed » et conditions « Elemental » non
+  définis), Dissfusion Disk et Wisdom of Survival (pages sans description), Stringstreaker (lignes de tir).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

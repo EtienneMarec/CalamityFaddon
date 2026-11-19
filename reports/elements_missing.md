@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (206)
+## Objets (199)
 
 - A M S
 - AAMG "Disperse"
@@ -87,7 +87,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aquatic Shardstone
 - Arcanoid Orb
 - Arkflammator
-- Astralence
 - Bad Apple
 - Bazooka
 - Bleeding Influx
@@ -116,7 +115,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Deadflower
 - Death-Needle Stinger
 - Deck of Souls
-- Decreator
 - Deicide
 - Demon Core
 - Destinary
@@ -169,7 +167,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Hi-Scan Camera
 - Holy Napalm Launcher
 - HPST "Malign"
-- Ifflamator
 - Incandescent Nox
 - Justice and Splendor
 - Lacelinous Nocturne
@@ -177,7 +174,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Large Father
 - Li'l Mine
 - Lunatic Beats
-- Magnic Circularity
 - Mambel-Jambo
 - Meridian
 - Midas' Handshake
@@ -215,7 +211,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Quintessence Cannon
 - Ram's Revenge
 - Rampart of Deicide
-- Reactive Pickaxe
 - Reactor Accelerator
 - Redtide Spear
 - Regeterrence
@@ -240,8 +235,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Star Flare
 - Stratoctrine Spear
 - Stringstreaker
-- Technicate
-- Technomagica
 - Tendon Tides
 - Tenebris Tides
 - Terrestrial Dart

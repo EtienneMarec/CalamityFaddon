@@ -32,7 +32,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Asteroid Staff
 - [x] Astral Blade
 - [x] Astral Bow
-- [ ] Astralence — addon: Calamity: Tales of the Aquatic
+- [x] Astralence — addon: Calamity: Tales of the Aquatic
 - [x] Auric Sword
 - [x] Axisdriver
 - [ ] Bad Apple
@@ -112,7 +112,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Death-Needle Stinger — addon: Calamity: Community Remix
 - [ ] Deck of Souls — pas de sprite; addon: Apotheosis and Friends
 - [x] Decomposition
-- [ ] Decreator — addon: Calamity: Tales of the Aquatic
+- [x] Decreator — addon: Calamity: Tales of the Aquatic
 - [x] Deeepscale Bomb
 - [ ] Deicide — addon: Calamity: Community Remix
 - [ ] Demon Core — addon: Calamity: Community Remix
@@ -218,7 +218,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Holy Purge — addon: Tranquility Mod
 - [x] Hyperhavoc — addon: Calamity: Tales of the Aquatic
 - [x] Ichor Dagger — addon: Calamity: Community Remix
-- [ ] Ifflamator — addon: Calamity: Tales of the Aquatic
+- [x] Ifflamator — addon: Calamity: Tales of the Aquatic
 - [x] Impaler
 - [ ] Incandescent Nox — addon: Deimos, the Starborn Princess
 - [x] Infected Dagger Misses No Skeptics — addon: Calamity: Community Remix
@@ -239,7 +239,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Luminous Striker
 - [ ] Lunatic Beats — addon: Calamity: Community Remix
 - [x] Magna Striker
-- [ ] Magnic Circularity — addon: Calamity: Tales of the Aquatic
+- [x] Magnic Circularity — addon: Calamity: Tales of the Aquatic
 - [x] Magnum
 - [x] Majestic Gar
 - [ ] Mambel-Jambo
@@ -379,8 +379,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Swift Sword
 - [x] Sylvan Slasher
 - [x] Talon Burst
-- [ ] Technicate — addon: Calamity: Tales of the Aquatic
-- [ ] Technomagica — addon: Calamity: Tales of the Aquatic
+- [x] Technicate — addon: Calamity: Tales of the Aquatic
+- [x] Technomagica — addon: Calamity: Tales of the Aquatic
 - [x] Temporal Floe Sword
 - [ ] Tendon Tides — addon: Catalyst
 - [ ] Tenebris Tides — addon: Catalyst
@@ -1160,7 +1160,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Protective Shield — pas de sprite; addon: Tranquility Mod
 - [ ] Psy Rod — addon: Calamity: Community Remix
 - [ ] Q.C.S.T.T. — stub; addon: Deimos, the Starborn Princess, Calamity: Distorted Memories
-- [ ] Reactive Pickaxe — addon: Calamity: Tales of the Aquatic
+- [x] Reactive Pickaxe — addon: Calamity: Tales of the Aquatic
 - [x] Revengeance
 - [ ] Ripper Shark
 - [ ] Rod of Harmony
@@ -1169,7 +1169,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Sigil of the Nightmare — pas de sprite; addon: Tranquility Mod
 - [ ] Skyline Attractor
 - [ ] Spawn blockers
-- [ ] Supreme Onyx Drill — addon: Calamity: Tales of the Aquatic
+- [x] Supreme Onyx Drill — addon: Calamity: Tales of the Aquatic
 - [ ] The Codseeker — addon: Calamity: Community Remix
 - [ ] The WOBbler
 - [ ] Tormented Mind of Malice

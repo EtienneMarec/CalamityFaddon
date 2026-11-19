@@ -932,6 +932,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       +20 défense), Abysscent Derailer (roquettes → étoiles), Noctic Weaver (toiles), Waterfrosia (pluie qui remonte),
       Nocturnal Odyssey (orbes autour d'un ennemi), Silva Module.
 
+- [ ] Lot W : Astralence, Magnic Circularity (yoyo qui attire), Decreator, Technicate (balles qui se dédoublent), Ifflamator
+      (flammes autour du curseur), Technomagica, Reactive Pickaxe, Supreme Onyx Drill.
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
