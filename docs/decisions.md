@@ -2124,6 +2124,35 @@ raretés « C2 »/« C3 »/« C4 » → 0.
   le mod, et le serveur suivant attendait alors au menu sans fin) et refuse de tourner si deux classes de même famille ont
   le même nom.
 
+### Lot AE du 19/11 (`Content/Items/Weapons/WikiWeapons1119z.cs`)
+
+Armes fabricables (recettes du wiki). Valeurs des infobox ; rareté « C2 » → 0.
+
+- **[choix]** Calamitous Vortex (« comme l'ancien Subsuming Vortex ») : vortex autour du joueur tant qu'on tient le clic ;
+  78 mana par seconde ; aspire les ennemis à moins de 20 blocs (pas les boss), qui ne font plus de dégâts de contact ;
+  4 tentacules qui frappent à moins de 10 blocs toutes les 15 images. Exo Freeze, Holy Flames, Frostburn, On Fire!.
+- **[choix]** Lacelinous Nocturne : triangle de 4 s qui perce ; une balle (50 %) vers l'arrière toutes les 8 images,
+  explosion de 64 px ; Evercold 50 %. « Lacelic Web » (sans page) non fait.
+- **[choix]** Dead Star's Laser Rifle : couleurs dans l'ordre bleu, orange, jaune, vert ; orange = frappe à chaque image
+  et Hellfire 5 s ; explosions de 160 px à 100 % ; 3 étincelles à 80 % ; vert : +5 de régénération 3 s, 1 chance sur 3
+  de soigner 10 PV (directement, sans orbe). Lâchée à 100 % par Astrum Deus (dernier ver) en Death ; la recette du
+  wiki demande une « Spirit of the Nightmare » sans page ni sprite : elle ne s'applique pas.
+- **[choix]** Grarble Bayonet : zone de contact de 40 px devant le joueur pendant le tir.
+- **[choix]** Holy Napalm Launcher : roquettes (remplacées par le napalm) ; une flamme (25 %, 2 s) toutes les 6 images ;
+  le napalm explose aussi au contact ; explosion de 320 px à 300 %.
+- **[choix]** Diminishing Victory : vitesse 20 (le wiki dit 100) ; normal : perce 3 fois, revient après 0,5 s ou au
+  premier coup ; furtif : vitesse 8, perce tout, revient après 4 s, lentement. Brimstone Flames 5 s.
+- **[choix]** Grand Reef : bloc soumis à la gravité au bout d'une chaîne ; éclats à 5 % (2 s, percent une fois) ; « s'il
+  retombe » = touche en descendant après être monté ; revient au-delà de 900 px.
+- **[choix]** Fouets (Duet Hit, Miracle Smacker) : dessinés en lignes de couleur (pas de planche de fouet sur le wiki) ;
+  marquage de 4 s pour les sbires et tourelles. Duet Hit : un flocon de feu et un de givre au plus (chassent à 500 px).
+  Miracle Smacker : explosions des sbires sur la cible rouge (64 px, 50 % du coup, une toutes les 10 images au plus) ;
+  bonus du bleu (+5 défense, +2 % de réduction des dégâts) pendant 5 s.
+- **[choix]** EXO-LOTL Staff : sbire au sol qui saute vers la cible et tire un laser (Exo Freeze 3 s) toutes les 30
+  images ; 1 dégât et 500 mana comme sur l'infobox.
+- **[choix]** Evercoldance : tourelle ; un rayon (110 %) sur les 2 ennemis les plus proches (800 px) toutes les 30
+  images ; Evercold, Moon Burnt (Nightwither) et Crush Depth à 25 % chacun.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

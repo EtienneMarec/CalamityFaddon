@@ -56,7 +56,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Bucket of Coal — addon: Calamity: Community Remix
 - [ ] Bundle o' Bones — addon: Calamity: Community Remix
 - [ ] Butcher (weapon)
-- [ ] Calamitous Vortex — addon: Calamity: Tales of the Aquatic
+- [x] Calamitous Vortex — addon: Calamity: Tales of the Aquatic
 - [x] Calamity Sword
 - [x] Caliburn
 - [x] Carnage Ray
@@ -121,7 +121,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Devastation
 - [ ] Devious Aestheticus — addon: Fargo's Soul Mod
 - [x] Digital Cheese Spear — addon: Calamity: Community Remix
-- [ ] Diminishing Victory
+- [x] Diminishing Victory
 - [x] Dirt Clump
 - [x] Disease
 - [x] Diseased Pike
@@ -135,8 +135,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Driftorcher — addon: Calamity: Community Remix
 - [x] Dual Cane — addon: Calamity: Community Remix
 - [x] Dualpoon
-- [ ] Duet Hit — addon: Calamity: Tales of the Aquatic
-- [ ] EXO-LOTL Staff — addon: Calamity: Community Remix
+- [x] Duet Hit — addon: Calamity: Tales of the Aquatic
+- [x] EXO-LOTL Staff — addon: Calamity: Community Remix
 - [x] Earthen Clicker
 - [ ] Earthshooter — addon: Calamity: Tales of the Aquatic
 - [x] Ecological Collapse
@@ -150,7 +150,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Ethereal Knives
 - [x] Eutrophic Scimitar
 - [x] Eutrophic Shank
-- [ ] Evercoldance — addon: Calamity: Tales of the Aquatic
+- [x] Evercoldance — addon: Calamity: Tales of the Aquatic
 - [ ] Exactory Dartshooter — addon: Calamity: Tales of the Aquatic
 - [x] Exif Fist
 - [ ] Exo Dragonblade
@@ -190,8 +190,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Gourdler — addon: Calamity: Community Remix
 - [x] Grand Gar
 - [ ] Grand Purification — addon: Calamity: Community Remix
-- [ ] Grand Reef
-- [ ] Grarble Bayonet — addon: Calamity: Community Remix
+- [x] Grand Reef
+- [x] Grarble Bayonet — addon: Calamity: Community Remix
 - [x] Grarble Spear — addon: Calamity: Community Remix
 - [x] Gravitonomy Pike
 - [x] Guardians Wrath
@@ -214,7 +214,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Hi-Scan Camera
 - [ ] Holiday Halberd
 - [x] Holy Mackerel Staff — addon: Calamity: Community Remix
-- [ ] Holy Napalm Launcher — addon: Calamity: Tales of the Aquatic
+- [x] Holy Napalm Launcher — addon: Calamity: Tales of the Aquatic
 - [ ] Holy Purge — addon: Tranquility Mod
 - [x] Hyperhavoc — addon: Calamity: Tales of the Aquatic
 - [x] Ichor Dagger — addon: Calamity: Community Remix
@@ -227,7 +227,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Jake
 - [x] Jet Engine — addon: Calamity: Community Remix
 - [x] Justice and Splendor
-- [ ] Lacelinous Nocturne — addon: Calamity: Tales of the Aquatic
+- [x] Lacelinous Nocturne — addon: Calamity: Tales of the Aquatic
 - [ ] Lacescent Pistol — addon: Calamity: Tales of the Aquatic
 - [x] Latcher Mine
 - [x] Lazhar
@@ -255,7 +255,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Microcell Cut — addon: Calamity: Tales of the Aquatic
 - [x] Microhavoc — addon: Calamity: Tales of the Aquatic
 - [ ] Midas' Handshake
-- [ ] Miracle Smacker — addon: Calamitous Journeys
+- [x] Miracle Smacker — addon: Calamitous Journeys
 - [x] Molecular Manipulator
 - [x] Molten Piercer
 - [x] Monkey Darts

@@ -1941,6 +1941,11 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			DiminishingVictory: {
+				DisplayName: Diminishing Victory
+				Tooltip: Stealth strike to throw the scythe like a slow moving boomerang that infinitely pierces through foes
+			}
+
 			DissfusionDisk: {
 				DisplayName: Dissfusion Disk
 				Tooltip:
@@ -3543,6 +3548,75 @@ Items: {
 			'If you live for yourself you've only got yourself to blame.'
 			'''
 	}
+	CalamitousVortex: {
+		DisplayName: Calamitous Vortex
+		Tooltip:
+			'''
+			Summons a colossal vortex around the player while held
+			Nearby enemies are sucked into the vortex and are attacked by a flurry of calamitous tentacles
+			'''
+	}
+
+	LacelinousNocturne: {
+		DisplayName: Lacelinous Nocturne
+		Tooltip: Casts a slow moving projectile that shoots bullets behind it.
+	}
+
+	DeadStarsLaserRifle: {
+		DisplayName: Dead Star's Laser Rifle
+		Tooltip:
+			'''
+			Shoots a star-killing beam that pierces infinitely and changes its color and properties every shot. Can't have an auto-attack.
+			It once belonged to a certain soul knight.
+			'''
+	}
+
+	GrarbleBayonet: {
+		DisplayName: Grarble Bayonet
+		Tooltip: The gun damages enemies that touch it
+	}
+
+	HolyNapalmLauncher: {
+		DisplayName: Holy Napalm Launcher
+		Tooltip: Shoots a napalm rocket that leaves holy flames behind.
+	}
+
+	GrandReef: {
+		DisplayName: Grand Reef
+		Tooltip:
+			'''
+			Hallucinations of the deep
+			Enemy hits create a large burst of lingering coral shards
+			If the flail falls, significantly more shards are created
+			'''
+	}
+
+	DuetHit: {
+		DisplayName: Duet Hit
+		Tooltip:
+			'''
+			10 summon tag damage
+			Creates 2 whips at a time, the ships create snowflakes once they hit an enemy
+			'''
+	}
+
+	MiracleSmacker: {
+		DisplayName: Miracle Smacker
+		Tooltip: 22 summon tag damage
+	}
+
+	EXOLOTLStaff: {
+		DisplayName: EXO-LOTL Staff
+		Tooltip: Summons a high tech EXO-LOTL to fight for you
+	}
+
+	Evercoldance: {
+		DisplayName: Evercoldance
+		Tooltip:
+			'''
+			Creates a Crystal that shoots beams to its closest enemies, uses all the abyssal powers.
+			'''
+	}
 }
 
 Projectiles: {
@@ -4800,6 +4874,73 @@ Projectiles: {
 	DissfusionGlaive: {
 		DisplayName: Glaive
 	}
+	CalamitousVortexField: {
+		DisplayName: Calamitous Vortex
+	}
+
+	LacelinousTriangle: {
+		DisplayName: Lacelinous Nocturne
+	}
+
+	LacelinousBullet: {
+		DisplayName: Bullet
+	}
+
+	StarkillerBeam: {
+		DisplayName: Star-Killing Beam
+	}
+
+	StellarSpark: {
+		DisplayName: Lingering Stellar Spark
+	}
+
+	BayonetBlade: {
+		DisplayName: Grarble Bayonet
+	}
+
+	HolyNapalm: {
+		DisplayName: Napalm
+	}
+
+	HolyNapalmFlame: {
+		DisplayName: Holy Flame
+	}
+
+	DiminishingScythe: {
+		DisplayName: Diminishing Victory
+	}
+
+	GrandReefChunk: {
+		DisplayName: Voidstone Chunk
+	}
+
+	CoralShard: {
+		DisplayName: Dead Coral
+	}
+
+	WikiWhip: {
+		DisplayName: Whip
+	}
+
+	DuetFlake: {
+		DisplayName: Snowflake
+	}
+
+	EXOLOTL: {
+		DisplayName: EXO-LOTL
+	}
+
+	EXOLOTLLaser: {
+		DisplayName: Laser
+	}
+
+	EvercoldCrystal: {
+		DisplayName: Crystal
+	}
+
+	EvercoldBeam: {
+		DisplayName: Beam
+	}
 }
 
 Shortstrike.Gauge:
@@ -5171,6 +5312,10 @@ Buffs: {
 	Nightclear: {
 		DisplayName: Nightclear
 		Description: Your vision is cleared
+	}
+	EXOLOTLBuff: {
+		DisplayName: EXO-LOTL
+		Description: Great for distracting cats!
 	}
 }
 

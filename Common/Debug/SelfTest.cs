@@ -424,7 +424,11 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Ranged.SkyClearer>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Arkflammator>(), ModContent.ItemType<Content.Items.Weapons.Summon.AngelsThesis>(),
                 ModContent.ItemType<Content.Items.Weapons.Summon.CoredLine>(), ModContent.ItemType<Content.Items.Weapons.Melee.Driftorcher>(), ModContent.ItemType<Content.Items.Weapons.Melee.GrarbleSpear>(),
                 ModContent.ItemType<Content.Items.Weapons.Melee.GluelicBlade>(), ModContent.ItemType<Content.Items.Weapons.Melee.Exterminator>(), ModContent.ItemType<Content.Items.Weapons.Melee.ChainSpear>(),
-                ModContent.ItemType<Content.Items.Weapons.Rogue.DissfusionDisk>() })
+                ModContent.ItemType<Content.Items.Weapons.Rogue.DissfusionDisk>() ,
+                ModContent.ItemType<Content.Items.Weapons.Magic.CalamitousVortex>(), ModContent.ItemType<Content.Items.Weapons.Magic.LacelinousNocturne>(),
+                ModContent.ItemType<Content.Items.Weapons.Ranged.GrarbleBayonet>(), ModContent.ItemType<Content.Items.Weapons.Ranged.HolyNapalmLauncher>(), ModContent.ItemType<Content.Items.Weapons.Rogue.DiminishingVictory>(),
+                ModContent.ItemType<Content.Items.Weapons.Melee.GrandReef>(), ModContent.ItemType<Content.Items.Weapons.Summon.DuetHit>(), ModContent.ItemType<Content.Items.Weapons.Summon.MiracleSmacker>(),
+                ModContent.ItemType<Content.Items.Weapons.Summon.EXOLOTLStaff>(), ModContent.ItemType<Content.Items.Weapons.Summon.Evercoldance>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -511,6 +515,11 @@ namespace CalamityFandom.Common.Debug
                 Expect(pbgLot.Any(r => r.itemId == looted), $"le Plaguebringer Goliath lâche {Lang.GetItemNameValue(looted)}");
             foreach (string looted in new[] { "Cursed Spear", "Earthen Clicker", "Nightform", "Ghast Relic", "Purgatory Blaster", "Dragon Flame Barrage", "Yggdrasil Core", "Spear of Liberty", "Babil Destruction Core", "Sandstorm (weapon)", "Divine Intervention" })
                 Expect(!WikiLoot.MissingItems.ContainsKey(looted) && WikiRecipes.ResolveItem(looted) > 0, $"{looted} trouvé par le butin");
+            // 19/11 : lot AE, Dead Star's Laser Rifle lâchée par Astrum Deus en Death
+            var deusRates = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<CalamityMod.NPCs.AstrumDeus.AstrumDeusHead>(), false))
+                r.ReportDroprates(deusRates, new DropRateInfoChainFeed(1f));
+            Expect(deusRates.Any(r => r.itemId == ModContent.ItemType<Content.Items.Weapons.Ranged.DeadStarsLaserRifle>()), "Astrum Deus lâche la Dead Star's Laser Rifle");
             // 19/11 : Aquatic Hypercomputer, une tuile par étape, recettes à chaque étape
             foreach (int stageTile in Content.Tiles.Hypercomputer.HypercomputerTile.StageTiles)
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.requiredTile.Contains(stageTile)),

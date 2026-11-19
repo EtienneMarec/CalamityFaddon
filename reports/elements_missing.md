@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (159)
+## Objets (151)
 
 - A M S
 - AAMG "Disperse"
@@ -93,7 +93,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Braxaxe
 - Bundle o' Bones
 - Butcher's Glove
-- Calamitous Vortex
 - Catarachedrae
 - Cent Striker
 - Chain-Saw
@@ -119,10 +118,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Edgeterrence
 - Electrical Discharge
 - Elusive Feather
-- Evercoldance
 - Exactory Dartshooter
 - Exo Dragonblade
-- EXO-LOTL Staff
 - Exotic Beacon
 - Flame Boy Popsicle
 - Fleshly Megaphone
@@ -137,8 +134,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Gloomy Trident
 - God's Paranoia
 - Grand Purification
-- Grand Reef
-- Grarble Bayonet
 - H.S Trident
 - Hailstorm
 - Halberd of the Holidays
@@ -147,17 +142,14 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Hemorr-Rang
 - Heterochromia
 - Hi-Scan Camera
-- Holy Napalm Launcher
 - HPST "Malign"
 - Incandescent Nox
-- Lacelinous Nocturne
 - Lacescent Pistol
 - Large Father
 - Li'l Mine
 - Mambel-Jambo
 - Meridian
 - Midas' Handshake
-- Miracle Smacker
 - Neural Whipper-Snapper
 - Neuraze
 - Neutron Star

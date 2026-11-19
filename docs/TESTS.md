@@ -963,6 +963,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       droit : estoc + onde), Exterminator (yoyo sans limite, anneaux), Chain Spear (clic droit : ramener ; clic gauche :
       parade), Dissfusion Disk (glaives puis explosion). Hyperhavoc : Abyssal Flames ; Phototerminator : ennemis confus.
 
+- [ ] Lot AE : Calamitous Vortex (aspiration, tentacules), Lacelinous Nocturne, Dead Star's Laser Rifle (4 couleurs à la
+      suite), Grarble Bayonet (contact), Holy Napalm Launcher (roquettes), Diminishing Victory (frappe furtive lente),
+      Grand Reef (lancer en l'air : plus d'éclats), Duet Hit et Miracle Smacker (marquage avec des sbires), EXO-LOTL
+      Staff, Evercoldance (tourelle).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
