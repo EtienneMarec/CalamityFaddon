@@ -1978,6 +1978,28 @@ Objets fabricables à la dernière étape de l'Aquatic Hypercomputer. Valeurs de
 - Pas faits : Arkflammator et Night Cloak (debuffs « Noctactricity », « Obstructed » et conditions « Elemental » non
   définis), Dissfusion Disk et Wisdom of Survival (pages sans description), Stringstreaker (lignes de tir).
 
+### Lot X du 19/11 (`Content/Items/Weapons/WikiWeapons1119t.cs`)
+
+Armes fabricables à Draedon's Forge (recettes du wiki). Valeurs des infobox.
+
+- **[choix]** Digital Cheese Spear : 12 mini-lances depuis 600 px (65 %) ; frappe furtive : 12 lances chercheuses en plus,
+  6 mini-lances (56 %) par coup de celles-ci.
+- **[choix]** Exodimus : 5 dagues en éventail ; après 0,5 s, foncent vers l'ennemi le plus proche (ou le curseur), se
+  plantent 10 s (coup toutes les 20 images, 20 par ennemi au plus), puis 4 lasers (Last Prism vanilla, 50 %), 8 en
+  furtif. Vulnerability Hex non fait. Infobulle inventée (la page n'en a pas).
+- **[choix]** Endentant Bow : 3 flèches depuis 300 px derrière l'ennemi à chaque coup, 4 générations au plus ; les copies
+  disparaissent au tir suivant (page).
+- **[choix]** Dethermination : vitesse 30 avec 3 mises à jour (« INSANELY fast ») ; entaille de 40 px toutes les 8 images
+  de vol, 200 %, 5 s.
+- **[choix]** Clamor Noxus : 3 tirs du ciel, une chance sur deux étoile (25 %, se plante 2 s puis explose à 135 % de
+  l'arme) ou Noxling (100 %, puis 4 traits Exo à 50 % et un trou noir de 2 s de l'Unsealed Singularity).
+- **[choix]** Lunatic Beats : demi-tour après 40 images ou 10 ennemis ; un pouvoir céleste au hasard toutes les 12 images
+  (40 %) : explosion solaire, roquette Vortex, sous-tir de Nebula Arcanum, étoile Star Wrath sur l'ennemi le plus proche ;
+  x1,5 au retour.
+- Pas faits (pages trop longues ou systèmes à part) : Consequences of Power, Destinary, Diminishing Victory (sans
+  description), EXO-LOTL Staff, Exotic Beacon, Grand Purification, Helios Partisan, Meridian, Quintessence Cannon, RGB
+  Graydron.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

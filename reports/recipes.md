@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1581 objets dont les recettes ont changé : 1046 recettes modifiées, 634 créées
+- 1587 objets dont les recettes ont changé : 1046 recettes modifiées, 640 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
-- 43 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 48 recettes
+- 42 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 47 recettes
 
 ## Recettes changées
 
@@ -341,6 +341,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Cinnamon Roll | (nouvelle) | 5 Everclear, 5 Blood Orb, 1 Beetle Husk @ AlchemyTable → 5 |
 | Cinnamon Roll | 10 Bottle, 1 Turtle Shell @ Kegs → 10 | 5 Everclear, 1 Whiskey, 1 Beetle Husk, 1 Flah @ Kegs → 5 |
 | Clamor Noctus | (nouvelle) | 1 Shellfish Staff, 1 Clam Crusher, 1 Clamor Rifle, 10 Mollusk Husk @ LunarCraftingStation → 10 |
+| Clamor Noxus | (nouvelle) | 1 Clamor Noctus, 1 Starmada, 1 Unsealed Singularity, 10 Exo Prism, 5 Soul of Plight @ DraedonsForge → 1 |
 | Claret Cannon | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 25 Unholy Blood Cells, 4 Bloodstone Bar @ LunarCraftingStation → 1 |
 | Clay Pot | 5 Astral Clay @ Furnaces → 1 | 2 Astral Clay @ Furnaces → 1 |
 | Cleansing Blaze | 10 Cosmilite Bar @ CosmicAnvil → 1 | 12 Cosmilite Bar @ CosmicAnvil → 1 |
@@ -445,9 +446,11 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Desert Prowler Hat | 2 Stormlion Mandible, 8 Silk @ Loom → 1 | 2 Desert Feather, 8 Silk @ Loom → 1 |
 | Desert Prowler Pants | 1 Stormlion Mandible, 5 Silk @ Loom → 1 | 1 Desert Feather, 5 Silk @ Loom → 1 |
 | Desert Prowler Shirt | 3 Stormlion Mandible, 10 Silk @ Loom → 1 | 3 Desert Feather, 10 Silk @ Loom → 1 |
+| Dethermination | (nouvelle) | 20 Waterfreeze Reactive Essence @ DraedonsForge → 1 |
 | Devastation | (nouvelle) | 1 Catastrophe Claymore, 5 Luminite Bar, 10 Astral Bar, 10 Meteorite Bar @ LunarCraftingStation → 1 |
 | Devil's Devastation | 1 True Forbidden Oathblade, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Devastation, 1 True Forbidden Oathblade, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 |
 | Devil's Sunrise | 1 Terragrim, 50 Bloodstone, 10 Scorched Bone @ MythrilAnvil → 1 | 1 Terragrim, 10 Demonic Bone Ash, 25 Bloodstone Bar @ LunarCraftingStation → 1 |
+| Digital Cheese Spear | (nouvelle) | 1 Profaned Partisan, 1 Spear of Destiny / Spear of Liberty, 15 Cheese, 6 Shadowspec Bar @ DraedonsForge → 1 |
 | Dimensional Soul Artifact | 10 Cosmilite Bar, 25 Elumplate, 25 Exodium Cluster @ CosmicAnvil → 1 | 10 Soul Flux, 25 Elumplate, 5 Cosmilite Slag, 25 Exodium Cluster @ DemonAltar → 1 |
 | Dirt Clump | (nouvelle) | 1 Dirt Block @ main → 5 |
 | Disgusting Meat | (nouvelle) | 1 Bloody Vein, 5000 Delicious Meat @ Bottles → 5000 |
@@ -515,6 +518,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Encrypted Schematic (Ice) | 10 Mysterious Circuitry, 10 Dubious Plating, 50 Glass @ Anvils → 1 | 10 Dubious Plating, 10 Mysterious Circuitry, 10 Any Iron Bar @ Anvils → 1 |
 | Encrypted Schematic (Jungle) | 10 Mysterious Circuitry, 10 Dubious Plating, 50 Glass @ Anvils → 1 | 10 Dubious Plating, 10 Mysterious Circuitry, 10 Any Iron Bar @ Anvils → 245 |
 | Encrypted Schematic (Planetoid) | 10 Mysterious Circuitry, 10 Dubious Plating, 50 Glass @ Anvils → 1 | 10 Dubious Plating, 10 Mysterious Circuitry, 10 Any Iron Bar @ Anvils → 1 |
+| Endentant Bow | (nouvelle) | 20 Waterfreeze Reactive Essence @ DraedonsForge → 1 |
 | Endo Hydra Staff | 1 Staff of the Frost Hydra, 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 | 1 Staff of the Frost Hydra, 8 Twisted Netherite Bar, 20 Nightmare Fuel, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
 | Endoplate | (nouvelle) | 1 Endothermic Energy, 25 Obsidian @ CosmicAnvil → 50 |
 | Endothermic Dye | 3 Bottled Water, 5 Endothermic Energy @ DyeVat → 3 | 2 Bottled Water, 5 Endothermic Energy @ DyeVat → 2 |
@@ -577,6 +581,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Exo Prism Panel | 400 Glass, 1 Exo Prism @ DraedonsForge → 400 | 200 Glass, 1 Exo Prism @ DraedonsForge → 200 |
 | Exo Work Bench | 10 Exo Plating @ DraedonsForge → 1 | 10 Exo Plating @ main → 1 |
 | Exoblade | 1 Terratomere, 1 Elemental Shiv, 1 Entropic Claymore, 1 Flarefrost Blade, 1 Miracle Matter @ DraedonsForge → 1 | 1 Terratomere, 1 Terra-cotta, 1 Elemental Claymore, 1 Anarchy Blade, 1 Baleful Harvester, 1 Flarefrost Blade, 1 Phoenix Blade, 1 Entropic Claymore, 1 Stellar Striker, 20 Exoplasm, 1 Miracle Matter, 4 Auric Bar @ DraedonsForge → 1 |
+| Exodimus | (nouvelle) | 1 Seraphim, 1 Jaws of Oblivion, 1 Stellar Knife, 1 Shinobi Blade, 1 Miracle Matter @ DraedonsForge → 1 |
 | Exodium Cluster | (nouvelle) | 1 Solar Fragment, 1 Vortex Fragment, 1 Stardust Fragment, 1 Nebula Fragment, 3 Luminite @ LunarCraftingStation → 1 |
 | Exodus Wings | 20 Soul of Flight, 14 Meld Blob, 10 Luminite Bar @ LunarCraftingStation → 1 | 5 Meld Bar, 10 Luminite Bar @ LunarCraftingStation → 1 |
 | Exorcism | 20 Hallowed Bar, 3 Soul of Fright, 3 Soul of Might, 3 Soul of Sight @ MythrilAnvil → 1 | 12 Hallowed Bar, 6 Soul of Might, 6 Soul of Sight, 6 Soul of Fright, 10 Holy Water @ MythrilAnvil → 1 |
@@ -840,6 +845,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Lumenous Amulet | 1 Abyssal Amulet, 5 Abyss Bar, 20 Abyss Gravel, 20 Pyre Mantle, 20 Voidstone, 20 Depth Cells, 15 Lumenyl @ MythrilAnvil → 1 | 1 Abyssal Amulet, 15 Lumenyl, 5 Crocodile Scale, 10 Sea Prism @ MythrilAnvil → 1 |
 | Luminous Striker | 1 Spear of Destiny, 1 Armored Shell, 1 Twisting Nether, 1 Dark Plasma @ MythrilAnvil → 1 | 1 Spear of Paleolith, 1 Scourge of the Seas, 1 Turbulance, 10 Meld Bar, 10 Stardust Fragment @ LunarCraftingStation → 1 |
 | Lunarian Bow | 1 Demon Bow, 1 The Bee's Knees, 1 Molten Fury, 10 Purified Gel @ DemonAltar → 1 | 1 Demon Bow / Tendon Bow, 1 Molten Fury, 1 The Bee's Knees, 1 Wulfrum Bow @ DemonAltar → 1 |
+| Lunatic Beats | (nouvelle) | 15 Galactica Singularity, 4 Elemental Bar, 1 Lunatic Cultist Trophy, 50 Catastrophe Clay Ore, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Lunatic Cultist | 1 Lunatic Cultist Trophy @ Bookcases → 1 | 1 Lunatic Cultist Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Lunic Eye | 10 Any Cobalt Bar, 20 Stardust @ Anvils → 1 | 20 Stardust, 15 Essence of Crystal, 15 Aerialite Bar, 15 Sunplate Block @ Anvils → 1 |
 | Lush Fruit Mix | (nouvelle) | 20 Pink Prickly Pear, 20 Blue Berries, 20 Orange Bloodroot, 20 Apple, 20 Apricot, 20 Grapefruit, 20 Lemon, 20 Peach, 20 Cherry, 20 Plum, 20 Blackcurrant, 20 Elderberry, 20 Blood Orange, 20 Rambutan, 20 Grapes, 20 Mango, 20 Pineapple, 20 Banana, 20 Coconut, 20 Dragon Fruit, 20 Star Fruit, 20 Pomegranate, 20 Spicy Pepper, 20 Pumpkin, 20 Cactus @ BotanicPlanter → 1 |
@@ -1718,7 +1724,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Divine Core — 1
 - objet : Divine Intervention — 1
 - objet : Exactory Dartshooter — 1
-- objet : Exodimus — 1
 - objet : Exotic Bundle of Balloons — 1
 - objet : Flah Seeds — 1
 - objet : Green Demon Head — 1

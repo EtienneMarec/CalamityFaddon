@@ -935,6 +935,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Lot W : Astralence, Magnic Circularity (yoyo qui attire), Decreator, Technicate (balles qui se dédoublent), Ifflamator
       (flammes autour du curseur), Technomagica, Reactive Pickaxe, Supreme Onyx Drill.
 
+- [ ] Lot X : Digital Cheese Spear (barrage de mini-lances), Exodimus (dagues plantées qui explosent en lasers), Endentant
+      Bow (flèches en chaîne), Dethermination (entailles), Clamor Noxus (étoiles et Noxlings du ciel), Lunatic Beats
+      (boomerang aux pouvoirs lunaires).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

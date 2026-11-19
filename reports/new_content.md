@@ -80,7 +80,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Cirnogenic Staff — addon: Calamity: Community Remix
 - [ ] Cirrhotipede — addon: Calamity: Community Remix
 - [x] Clamor Noctus
-- [ ] Clamor Noxus — addon: Calamity: Community Remix
+- [x] Clamor Noxus — addon: Calamity: Community Remix
 - [ ] Cobadium Rifle — addon: Calamity: Tales of the Aquatic
 - [x] Coldant Firestarter
 - [x] Coldetecht — addon: Calamity: Tales of the Aquatic
@@ -117,10 +117,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Deicide — addon: Calamity: Community Remix
 - [ ] Demon Core — addon: Calamity: Community Remix
 - [ ] Demonic Pitchfork
-- [ ] Dethermination — addon: Calamity: Tales of the Aquatic
+- [x] Dethermination — addon: Calamity: Tales of the Aquatic
 - [x] Devastation
 - [ ] Devious Aestheticus — addon: Fargo's Soul Mod
-- [ ] Digital Cheese Spear — addon: Calamity: Community Remix
+- [x] Digital Cheese Spear — addon: Calamity: Community Remix
 - [ ] Diminishing Victory
 - [x] Dirt Clump
 - [x] Disease
@@ -146,7 +146,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Elemental Excalibur
 - [x] Elemental Saw Launcher
 - [ ] Elusive Feather
-- [ ] Endentant Bow — addon: Calamity: Tales of the Aquatic
+- [x] Endentant Bow — addon: Calamity: Tales of the Aquatic
 - [x] Ethereal Knives
 - [x] Eutrophic Scimitar
 - [x] Eutrophic Shank
@@ -155,7 +155,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Exif Fist
 - [ ] Exo Dragonblade
 - [x] Exo Gladius
-- [ ] Exodimus — addon: Calamity: Community Remix
+- [x] Exodimus — addon: Calamity: Community Remix
 - [ ] Exterminator — addon: Calamity: Tales of the Aquatic
 - [x] Eye of Light
 - [x] Fakenado Staff
@@ -237,7 +237,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Li'l Mine — addon: Calamity: Community Remix
 - [x] Lightning Hawk
 - [x] Luminous Striker
-- [ ] Lunatic Beats — addon: Calamity: Community Remix
+- [x] Lunatic Beats — addon: Calamity: Community Remix
 - [x] Magna Striker
 - [x] Magnic Circularity — addon: Calamity: Tales of the Aquatic
 - [x] Magnum

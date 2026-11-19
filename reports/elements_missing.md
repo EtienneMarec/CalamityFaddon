@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (199)
+## Objets (193)
 
 - A M S
 - AAMG "Disperse"
@@ -106,7 +106,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Christmas Carol
 - Cirnogenic Staff
 - Cirrhotipede
-- Clamor Noxus
 - Cobadium Rifle
 - Consequences of Power
 - Cored Line
@@ -118,9 +117,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Deicide
 - Demon Core
 - Destinary
-- Dethermination
 - Devious Aestheticus
-- Digital Cheese Spear
 - Dissfusion Disk
 - Divine Hunters Staff
 - Divine Intervention
@@ -131,12 +128,10 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Edgeterrence
 - Electrical Discharge
 - Elusive Feather
-- Endentant Bow
 - Evercoldance
 - Exactory Dartshooter
 - Exo Dragonblade
 - EXO-LOTL Staff
-- Exodimus
 - Exotic Beacon
 - Exterminative Dart
 - Exterminator
@@ -173,7 +168,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Lacescent Pistol
 - Large Father
 - Li'l Mine
-- Lunatic Beats
 - Mambel-Jambo
 - Meridian
 - Midas' Handshake

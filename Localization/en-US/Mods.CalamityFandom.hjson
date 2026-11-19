@@ -1941,6 +1941,20 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			DigitalCheeseSpear: {
+				DisplayName: Digital Cheese Spear
+				Tooltip:
+					'''
+					Cast Divine Radiance upon your enemies
+					Stealth Strikes summon more spears
+					'''
+			}
+
+			Exodimus: {
+				DisplayName: Exodimus
+				Tooltip: Throws daggers that latch onto enemies and explode into laser beams
+			}
+
 			EcologicalCollapse: {
 				DisplayName: Ecological Collapse
 				Tooltip:
@@ -3164,6 +3178,39 @@ Items: {
 		DisplayName: Supreme Onyx Drill
 		Tooltip: Can mine almost anything
 	}
+	EndentantBow: {
+		DisplayName: Endentant Bow
+		Tooltip:
+			'''
+			Once the arrow hits a target, it summons 3 more arrows behind it, that also summon 3 arrows from behind when hit the target, then again, and again...
+			'''
+	}
+
+	Dethermination: {
+		DisplayName: Dethermination
+		Tooltip:
+			'''
+			shoots out an INSANELY fast waterfreezing dart, that creates slashes along the way
+			'''
+	}
+
+	ClamorNoxus: {
+		DisplayName: Clamor Noxus
+		Tooltip:
+			'''
+			And the sun extinguished in an instant...
+			Fires noxlings and stars from the sky that swarm enemies
+			'''
+	}
+
+	LunaticBeats: {
+		DisplayName: Lunatic Beats
+		Tooltip:
+			'''
+			Conjures a flurry of celestial powers on its travels
+			Deals extra damage as it returns
+			'''
+	}
 }
 
 Projectiles: {
@@ -4128,6 +4175,45 @@ Projectiles: {
 
 	SupremeDrillProj: {
 		DisplayName: Supreme Onyx Drill
+	}
+	CheeseSpear: {
+		DisplayName: Digital Cheese Spear
+	}
+
+	MiniCheeseSpear: {
+		DisplayName: Mini Spear
+	}
+
+	ExoDagger: {
+		DisplayName: Exo Dagger
+	}
+
+	EndentantArrow: {
+		DisplayName: Endentant Arrow
+	}
+
+	WaterfreezeDart: {
+		DisplayName: Waterfreeze Dart
+	}
+
+	WaterfreezeSlash: {
+		DisplayName: Slash
+	}
+
+	NoxStar: {
+		DisplayName: Star
+	}
+
+	NoxBlast: {
+		DisplayName: Explosion
+	}
+
+	Noxling: {
+		DisplayName: Noxling
+	}
+
+	LunaticDisc: {
+		DisplayName: Lunatic Beats
 	}
 }
 
