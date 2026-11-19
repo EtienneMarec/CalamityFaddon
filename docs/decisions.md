@@ -1914,6 +1914,21 @@ Armes fabricables à la Cosmic Anvil (recettes du wiki). Valeurs des infobox ; �
 - **[choix]** Ecological Collapse : mines (sprite de l'arme) ; aura de 320 px : 10 % des dégâts toutes les 10 images
   (immunité locale), Electrified 1 s ; éclats à 50 % ; frappe furtive : au-delà de 10 mines, 8 s, 20 à 30 éclats.
 
+### Lot T du 19/11 (`Content/Items/Weapons/WikiWeapons1119p.cs`)
+
+Objets fabricables aux premières étapes de l'Aquatic Hypercomputer (recettes du wiki). Valeurs des infobox.
+
+- **[choix]** Microhavoc : utilise du gel (comme les lance-flammes), une consommation par utilisation ; cadence fixe (page) ;
+  rayon qui perce les ennemis et s'arrête au 3e bloc traversé, Brimstone Flames 4 s.
+- **[choix]** Frightshooter : salve de 3 tirs (4 images) puis 12 d'attente ; fléchettes à 2 mises à jour par image.
+- **[choix]** Crystallic Coin Gun : dégâts des pièces, des explosions (50 px) et nombre d'éclats de la table de la page, avec
+  les bonus à distance ; éclats à 20 dégâts fixes.
+- **[choix]** Landscapist / Seascapist Mobilite Fragment : double appui gauche ou droite, ruée de 20 images à 20 px/image
+  (~25 blocs), 80 images d'attente ; Landscapist au sol et hors des liquides, Seascapist sous l'eau ; traînée de 30 dégâts
+  (Plague 1 s / Suffocation 2 s).
+- **[choix]** Shatterspectre Tracers : vitesse de course max 6,75 (comme les Lightning Boots) ; Crush Depth 2 s sur tous les
+  coups ; fée (25 dégâts, pétale toutes les 40 images). Debuffs d'eau et de glace renforcés : pas fait.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

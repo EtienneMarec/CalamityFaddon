@@ -921,6 +921,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       vie retiré ; clic droit : coûte de la vie et le mana, lames de givre), The Otherside (déchirures qui fusionnent),
       Ecological Collapse (mines à aura électrique).
 
+- [ ] Lot T : Microhavoc (gel), Frightshooter, Crystallic Coin Gun (pièces qui explosent), Landscapist (double appui au sol)
+      et Seascapist (sous l'eau) Mobilite Fragments, Shatterspectre Tracers (course rapide, fée).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

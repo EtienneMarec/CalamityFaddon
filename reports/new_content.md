@@ -101,7 +101,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Crustalline
 - [x] Crystal Blade
 - [x] Crystal Flare Staff
-- [ ] Crystallic Coin Gun — addon: Calamity: Tales of the Aquatic
+- [x] Crystallic Coin Gun — addon: Calamity: Tales of the Aquatic
 - [x] Cursed Capper
 - [x] Cursed Spear — addon: Calamity: Community Remix
 - [ ] Cyberlight Striker — addon: Calamity: Tales of the Aquatic
@@ -169,7 +169,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Flounder Mortar — addon: Calamity: Community Remix
 - [x] Fracture Staff — addon: Calamity: Community Remix
 - [x] Fracturing Fist — addon: Calamity: Community Remix
-- [ ] Frightshooter — addon: Calamity: Tales of the Aquatic
+- [x] Frightshooter — addon: Calamity: Tales of the Aquatic
 - [x] Frost Blade
 - [ ] Frostflow Edge — addon: Calamity: Tales of the Aquatic
 - [x] Fulguration Halberd
@@ -253,7 +253,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Meridian — addon: Calamity: Community Remix
 - [x] Metal Ball
 - [x] Microcell Cut — addon: Calamity: Tales of the Aquatic
-- [ ] Microhavoc — addon: Calamity: Tales of the Aquatic
+- [x] Microhavoc — addon: Calamity: Tales of the Aquatic
 - [ ] Midas' Handshake
 - [ ] Miracle Smacker — addon: Calamitous Journeys
 - [x] Molecular Manipulator
@@ -678,7 +678,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Icicle Ring
 - [x] Inverted Gar
 - [ ] Jewel Core — addon: Calamity: Tales of the Aquatic
-- [ ] Landscapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
+- [x] Landscapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
 - [x] Lead Core
 - [x] Level Meters — pas de sprite
 - [ ] Lul
@@ -714,10 +714,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Rusty Medallion
 - [ ] Sanguined Catarachedrae — addon: Calamity: Tales of the Aquatic
 - [x] Sea Shell
-- [ ] Seascapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
+- [x] Seascapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
 - [ ] Shadowspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [ ] Shattered Module — addon: Calamity: Tales of the Aquatic
-- [ ] Shatterspectre Tracers — addon: Calamity: Tales of the Aquatic
+- [x] Shatterspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [ ] Silva Module — addon: Calamity: Tales of the Aquatic
 - [ ] Silver Heart
 - [ ] Slimelgamation — addon: Calamity: Community Remix

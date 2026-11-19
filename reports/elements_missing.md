@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (221)
+## Objets (219)
 
 - A M S
 - AAMG "Disperse"
@@ -116,7 +116,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Consequences of Power
 - Cored Line
 - Corrupt Hypno Flute
-- Crystallic Coin Gun
 - Cyberlight Striker
 - Dart Sun
 - Deadflower
@@ -152,7 +151,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Flame Boy Popsicle
 - Fleshly Megaphone
 - Flint
-- Frightshooter
 - Frostflow Edge
 - Gearwork Shield
 - Gel Sword

@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1553 objets dont les recettes ont changé : 1046 recettes modifiées, 606 créées
+- 1559 objets dont les recettes ont changé : 1046 recettes modifiées, 612 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -400,6 +400,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Crystal of the Dryad | (nouvelle) | 10 Parched Scale, 15 Bee Wax, 5 Delicious Meat, 20 Crocodile Scale, 59 Astral Bar, 1 Bloom Stone, 7 Essence of Babil @ LunarCraftingStation → 1 |
 | Crystal of the Wicked | (nouvelle) | 50 Shadow Scale or Tissue Sample, 25 Rotten Matter / Blood Sample, 50 Sparkle Slime Balloon, 255 Ashes of Calamity, 59 Astral Bar, 1 Terraprisma, 7 Essence of Rend @ LunarCraftingStation → 1 |
 | Crystal Piercer | 12 Cryonic Bar @ MythrilAnvil → 1 | 1 Cryonic Bar @ MythrilAnvil → 100 |
+| Crystallic Coin Gun | (nouvelle) | 3 Core of Eleum, 5 Essence of Crystal, 5 Soul of Bright @ AquaticHypercomputerVault → 1 |
 | Crystalline | 1 Wulfrum Knife, 3 Diamond, 3 Fallen Star @ Anvils → 1 | 5 Essence of Crystal, 3 Diamond, 3 Topaz @ Anvils → 1 |
 | Crystalplate | (nouvelle) | 1 Essence of Crystal, 3 Obsidian @ Hellforge → 3 |
 | Cursed Capper | 1 Phoenix Blaster, 5 Essence of Chaos, 5 Essence of Eleum @ Anvils → 1 | 1 Phoenix Blaster, 10 Cursed Flame @ Anvils → 1 |
@@ -625,6 +626,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Fracture Staff | (nouvelle) | 1 Stormjaw Staff, 16 Amber, 18 Soul of Light, 2 Light Shard @ MythrilAnvil → 1 |
 | Fractured Ark | 1 Enchanted Sword, 10 Purified Gel, 10 Any Copper Bar @ Anvils → 1 | 10 Char Matter, 1 Starfury, 1 Enchanted Sword / Arkhalis, 5 Gel, 10 Diamond, 12 Alloy Bar @ Anvils → 1 |
 | Fracturing Fist | (nouvelle) | 1 Meteor Fist, 16 Soul of Light, 1 Light Shard, 20 Crystal Shard @ MythrilAnvil → 1 |
+| Frightshooter | (nouvelle) | 5 Core of Chaos, 5 Unholy Core, 10 Soul of Fright @ AquaticHypercomputerStatic → 1 |
 | Frigid Bulwark | (nouvelle) | 1 Paladin's Shield, 1 Frozen Turtle Shell, 5 Mollusk Husk, 5 Core of Eleum @ MythrilAnvil → 1 |
 | Frigidflash Bolt | 1 Frost Bolt, 1 Flare Bolt, 5 Essence of Chaos, 5 Essence of Eleum @ Bookcases → 1 | 1 Frost Bolt, 1 Flare Bolt, 2 Essence of Eleum, 2 Essence of Chaos @ Bookcases → 1 |
 | Frog Leg | (nouvelle) | 1 Sailfish Boots @ Anvils → 1 |
@@ -795,6 +797,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Laboratory Panels | 25 Any Stone Block, 1 Any Iron Bar @ HeavyWorkBench → 25 | 1 Any Iron Bar, 3 Any Stone Block @ HeavyWorkBench → 3 |
 | Laboratory Plating | 25 Any Stone Block, 1 Any Iron Bar @ HeavyWorkBench → 25 | 1 Any Iron Bar, 3 Any Stone Block @ HeavyWorkBench → 3 |
 | Lacerator | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 4 Bloodstone Bar, 5 Unholy Blood Cells @ LunarCraftingStation → 1 |
+| Landscapist Mobilite Fragment | (nouvelle) | 10 Chlorophyte Bar, 10 Core of Babil @ AquaticHypercomputerVault → 1 |
 | Lava Charm | 3 Lava Bucket, 5 Obsidian, 5 Any Gold Bar @ Anvils → 1 | 5 Char Matter, 5 Hellstone Bar, 25 Obsidian, 5 Any Iron Bar @ Anvils → 1 |
 | Lawplate | (nouvelle) | 1 Essence of Law, 3 Obsidian @ Hellforge → 3 |
 | Lazhar | (nouvelle) | 1 Any Zapinator, 1 Heat Ray, 10 Solar Fragment, 6 Chlorophyte Bar @ LunarCraftingStation → 1 |
@@ -866,6 +869,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Metal Detector | (nouvelle) | 10 Wire, 5 Gold Dust, 5 Spelunker Glowstick, 5 Any Gold Bar @ MythrilAnvil → 1 |
 | Miasma | 1 Nimbus Rod, 1 Aquamarine Staff, 10 Corroded Fossil @ Anvils → 1 | 1 Nimbus Rod, 10 Corroded Fossil, 4 Coyote Venom @ Anvils → 1 |
 | Microcell Cut | (nouvelle) | 10 Lethal Disease Canister, 1 Disease @ AquaticHypercomputerFinished → 1 |
+| Microhavoc | (nouvelle) | 1 Spark Spreader, 20 Brimstone Slag @ AquaticHypercomputer → 1 |
 | Midnight Rainbow Dye | (nouvelle) | 1 Living Rainbow Dye, 3 Martian Conduit Plating @ DyeVat → 1 |
 | Midnight Sun Beacon | 1 Xeno Staff, 5 Auric Bar, 15 Darksun Fragment @ CosmicAnvil → 1 | 1 Xeno Staff, 1 Lunar Portal Staff, 5 Auric Bar, 150 Arean Conduit Plating, 5 Strange Matter, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Minigun | 1 Chain Gun, 1 P90, 5 Auric Bar, 3 Life Alloy @ CosmicAnvil → 1 | 1 Arngren, 1 Chain Gun, 1 P90, 1 Clockwork Bar, 5 Auric Bar, 5 Cosmilite Bar, 1 Ascendant Spirit Essence, 5 Phantoplasm @ CosmicAnvil → 1 |
@@ -1177,6 +1181,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Seafoam Bomb | 25 Bomb, 10 Sea Prism, 1 Conquest Fragment @ Anvils → 1 | 25 Bomb, 10 Sea Prism @ Anvils → 1 |
 | Seafood | 20 Sulphurous Sand, 10 Starfish, 5 Shark Fin @ Anvils → 1 | 20 Sand Block, 10 Starfish, 5 Water Bucket @ Anvils → 1 |
 | Sealed Singularity | 1 Duststorm in a Bottle, 3 Dark Plasma @ MythrilAnvil → 1 | 1 Duststorm in a Bottle, 3 Dark Plasma @ LunarCraftingStation → 1 |
+| Seascapist Mobilite Fragment | (nouvelle) | 10 Shatterite Bar, 10 Core of Eleum @ AquaticHypercomputerVault → 1 |
 | Seashell Boomerang | (nouvelle) | 2 Victide Bar @ Anvils → 1 |
 | Seashine Sword | 3 Conquest Fragment, 7 Sea Prism, 10 Navystone @ Anvils → 1 | 7 Sea Prism, 10 Navystone @ Anvils → 1 |
 | Security Chest | 8 Laboratory Plating, 2 Any Iron Bar @ Anvils → 1 | 4 Mysterious Circuitry, 4 Dubious Plating, 10 Laboratory Plating, 2 Any Iron Bar @ Anvils → 1 |
@@ -1199,6 +1204,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Shattering Potion | (nouvelle) | 2 Crumbling Potion, 1 Vine @ AlchemyTable → 1 |
 | Shattering Potion | (nouvelle) | 1 Bottled Water, 3 Unholy Core, 1 Vine @ AlchemyTable → 1 |
 | Shatterite Bar | (nouvelle) | 3 Shatterite Ore, 1 Shattered Prism, 1 Hallowed Bar, 1 Victide Bar @ MythrilAnvil → 1 |
+| Shatterspectre Tracers | (nouvelle) | 1 Fairy Boots, 1 Hellfire Treads, 10 Shatterite Bar @ AquaticHypercomputerVault → 1 |
 | Shifting Sands Dye | (nouvelle) | 1 Bottled Water, 1 Desert Feather @ DyeVat → 1 |
 | Shimmerspark | 12 Cryonic Bar @ MythrilAnvil → 1 | 6 Cryonic Bar @ MythrilAnvil → 1 |
 | Shine Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
