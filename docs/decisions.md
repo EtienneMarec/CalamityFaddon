@@ -2184,6 +2184,29 @@ Armes fabricables (recettes du wiki) et debuffs Wither et Shred. Valeurs des inf
 - **[choix]** Shadow's Descent : 5 boules au plus, 20 s ; arrêtées au bout d'1 s ; esprit (50 %) toutes les 30 images ;
   zone de 160 px de 10 % à 100 % des dégâts en 10 s ; frappe furtive : pulsation (100 %, 240 px) toutes les secondes.
 
+### Lot AG du 19/11 (`Content/Items/Accessories/WikiCoverings1119b.cs`)
+
+« Coverings » fabricables (recettes du wiki). Valeurs des infobox ; rareté « C4 » → 0.
+
+- **[choix]** Fathomless Soul Artifact : +15 % de dégâts et -20 PV max par seconde portée (jusqu'à 1 PV max), sans
+  limite de dégâts ; tout repart de zéro si on l'enlève ou qu'on meurt.
+- **[technique]** Ruées : ajoutées au système de ruées de Calamity (`PlayerDashEffect`). Mobilite Core : coup de
+  bouclier, vitesse 26 puis 20, 100 dégâts de mêlée. Ravenous Soul Artifact : rebond (ShieldBonk) vers l'ennemi le plus
+  proche à l'horizontale (40 blocs), 500 dégâts ; projectiles à -90 % pendant 20 images ; +500 d'aggro (« +500 % »).
+- **[choix]** Night Cloak : PV et mana x3, dégâts +100 % ; « un Élémentaire en vie » = un boss dont le nom contient
+  « Elemental » : Obstructed, dégâts +300 %, Holy Flames 5 s sur toutes les attaques. Immunité aux Holy Flames ;
+  « Umbrus Fumes » n'existe pas encore. Prix : 0 (l'infobox a un modèle de prix à 5 valeurs).
+- **[choix]** Exotic Beacon : un Élémentaire Exo (sans emplacement de sbire, comme les élémentaires des accessoires de
+  Calamity) qui alterne toutes les 3 s : 3 cristaux chercheurs (50 %, toutes les 40 images) qui se divisent en 3 éclats
+  à 33 %, puis une charge (= les lianes) ; Elemental Mix 2 s.
+- **[choix]** Lunarspectre Tracers : vitesse de course max 10,3 (≈ 22 blocs/s) ; +32 % de vitesse de saut = +1,6 dans
+  l'échelle de Terraria ; fée toutes les 2 s de course au sol, 120 dégâts de la meilleure classe, sans critique ;
+  Nightwither 3 s sur toutes les attaques. « Debuffs +33 % et +50 % de durée » non fait (aucun crochet pour les debuffs
+  des autres objets).
+- **[choix]** Dreamy Belt : un papillon toutes les 3 s, 5 au plus, qui tirent une balle (150 dégâts magiques) toutes les
+  40 images ; touche « Butterfly Release » (G par défaut) : ils foncent vers le curseur (1,5 s) puis disparaissent ;
+  avec les 5 papillons, un coup de vraie mêlée lance l'onde (dégâts de l'arme, 1,5 s), recharge 5 s.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

@@ -432,7 +432,10 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Melee.Meridian>(), ModContent.ItemType<Content.Items.Weapons.Melee.StratoctrineSpear>(), ModContent.ItemType<Content.Items.Weapons.Melee.TendonTides>(),
                 ModContent.ItemType<Content.Items.Weapons.Melee.TwistedNetheriteSword>(), ModContent.ItemType<Content.Items.Weapons.Melee.WindTurbineBlade>(), ModContent.ItemType<Content.Items.Weapons.Melee.XenonCutlass>(),
                 ModContent.ItemType<Content.Items.Weapons.Ranged.OverloadedCombatantBlaster>(), ModContent.ItemType<Content.Items.Weapons.Ranged.RevolvinMcCoy>(), ModContent.ItemType<Content.Items.Weapons.Ranged.SistersToyRifle>(),
-                ModContent.ItemType<Content.Items.Weapons.Magic.RamsRevenge>(), ModContent.ItemType<Content.Items.Weapons.Magic.ShadingManual>(), ModContent.ItemType<Content.Items.Weapons.Rogue.ShadowsDescent>() })
+                ModContent.ItemType<Content.Items.Weapons.Magic.RamsRevenge>(), ModContent.ItemType<Content.Items.Weapons.Magic.ShadingManual>(), ModContent.ItemType<Content.Items.Weapons.Rogue.ShadowsDescent>() ,
+                ModContent.ItemType<Content.Items.Accessories.FathomlessSoulArtifact>(), ModContent.ItemType<Content.Items.Accessories.MobiliteCore>(), ModContent.ItemType<Content.Items.Accessories.RavenousSoulArtifact>(),
+                ModContent.ItemType<Content.Items.Accessories.NightCloak>(), ModContent.ItemType<Content.Items.Accessories.ExoticBeacon>(), ModContent.ItemType<Content.Items.Accessories.LunarspectreTracers>(),
+                ModContent.ItemType<Content.Items.Accessories.DreamyBelt>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -519,6 +522,9 @@ namespace CalamityFandom.Common.Debug
                 Expect(pbgLot.Any(r => r.itemId == looted), $"le Plaguebringer Goliath lâche {Lang.GetItemNameValue(looted)}");
             foreach (string looted in new[] { "Cursed Spear", "Earthen Clicker", "Nightform", "Ghast Relic", "Purgatory Blaster", "Dragon Flame Barrage", "Yggdrasil Core", "Spear of Liberty", "Babil Destruction Core", "Sandstorm (weapon)", "Divine Intervention" })
                 Expect(!WikiLoot.MissingItems.ContainsKey(looted) && WikiRecipes.ResolveItem(looted) > 0, $"{looted} trouvé par le butin");
+            // 19/11 : lot AG, ruées du wiki ajoutées au système de ruées de Calamity
+            Expect(CalamityMod.CalPlayer.Dashes.PlayerDashManager.FindByID(Content.Items.Accessories.MobiliteDash.ID, out _)
+                && CalamityMod.CalPlayer.Dashes.PlayerDashManager.FindByID(Content.Items.Accessories.RavenousDash.ID, out _), "ruées du Mobilite Core et du Ravenous Soul Artifact enregistrées");
             // 19/11 : lot AE, Dead Star's Laser Rifle lâchée par Astrum Deus en Death
             var deusRates = new List<DropRateInfo>();
             foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<CalamityMod.NPCs.AstrumDeus.AstrumDeusHead>(), false))

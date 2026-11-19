@@ -656,7 +656,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Disorderful Soul Artifact
 - [ ] Drained Catarachedrae — addon: Calamity: Tales of the Aquatic
 - [ ] Dread Bone — addon: Calamity: Tales of the Aquatic
-- [ ] Dreamy Belt — addon: Calamity: Community Remix
+- [x] Dreamy Belt — addon: Calamity: Community Remix
 - [x] Drew's Fins
 - [x] Earth Destruction Core — addon: Calamity: Tales of the Aquatic
 - [ ] Edgeterrence — addon: Calamity: Tales of the Aquatic
@@ -665,9 +665,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Essence of Merge — addon: Calamity: Tales of the Aquatic
 - [ ] Eternal Pillow — addon: Calamity: Community Remix
 - [ ] Exo Gel
-- [ ] Exotic Beacon
+- [x] Exotic Beacon
 - [ ] Fancy Flesh Skull — addon: Calamity: Tales of the Aquatic
-- [ ] Fathomless Soul Artifact
+- [x] Fathomless Soul Artifact
 - [x] Ferro Claws
 - [x] Frigid Bulwark
 - [x] Fungal Carapace
@@ -682,15 +682,15 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Lead Core
 - [x] Level Meters — pas de sprite
 - [ ] Lul
-- [ ] Lunarspectre Tracers — addon: Calamity: Tales of the Aquatic
+- [x] Lunarspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [x] Magna Core — addon: Calamity: Community Remix
 - [x] Metamorphic Stone
 - [x] Microxodonta
 - [x] Mirage Jelly (item)
-- [ ] Mobilite Core — addon: Calamity: Tales of the Aquatic
+- [x] Mobilite Core — addon: Calamity: Tales of the Aquatic
 - [ ] Music Boxes — pas de sprite
 - [ ] Nameless Rat — addon: Calamity: Community Remix
-- [ ] Night Cloak — addon: Calamity: Tales of the Aquatic
+- [x] Night Cloak — addon: Calamity: Tales of the Aquatic
 - [x] Nightform — addon: Calamity: Tales of the Aquatic
 - [ ] Nucleate Gello
 - [ ] Oil Bottle
@@ -707,7 +707,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Quantum Flahium Transcendental Device
 - [x] Quiver of Madness — addon: Calamity: Community Remix
 - [ ] Rampart of Deicide — addon: Calamity: Tales of the Aquatic
-- [ ] Ravenous Soul Artifact
+- [x] Ravenous Soul Artifact
 - [x] Red Bow
 - [x] Red Wings
 - [ ] Regeterrence — addon: Calamity: Tales of the Aquatic

@@ -3720,6 +3720,70 @@ Items: {
 		DisplayName: Shading Manual
 		Tooltip: creates an orb that circles around you and shoots beams at your enemies
 	}
+	FathomlessSoulArtifact: {
+		DisplayName: Fathomless Soul Artifact
+		Tooltip:
+			'''
+			Know no bounds
+			Rapidly increases damage.
+			Bleeds you dry.
+			'''
+	}
+
+	MobiliteCore: {
+		DisplayName: Mobilite Core
+		Tooltip: Grants a dash that deals massive damage to your enemies.
+	}
+
+	RavenousSoulArtifact: {
+		DisplayName: Ravenous Soul Artifact
+		Tooltip:
+			'''
+			Bloodlust
+			Boosts all aggro by 500%
+			Dashing into enemies deals 500 damage and cooldown is shortened.
+			'''
+	}
+
+	NightCloak: {
+		DisplayName: Night Cloak
+		Tooltip:
+			'''
+			triple max hp and mana, immunity to umbrus fumes and holy flames, all attacks deal double the damage. If any Elemental is alive, The player gets the Obstructed Debuff, but all the attacks inflict Holy flames and deal quadruple the damage
+			'''
+	}
+
+	ExoticBeacon: {
+		DisplayName: Exotic Beacon
+		Tooltip:
+			'''
+			Seems to be emitting a distress signal
+			Summons an Exo elemental to fight for you
+			'''
+	}
+
+	LunarspectreTracers: {
+		DisplayName: Lunarspectre Tracers
+		Tooltip:
+			'''
+			Increased defense, life regeneration, movement speed, jump speed and flight time
+			The wearer can run super fast and auto-jump
+			Debuffs are stronger and longer
+			All attacks inflict Moon Burnt
+			Fairies are spawned while running, exploding upon contacting enemies
+			'''
+	}
+
+	DreamyBelt: {
+		DisplayName: Dreamy Belt
+		Tooltip:
+			'''
+			Grants various benefits, offensively and defensively
+			Nightmare butterflies spawns periodically
+			Butterfly Release to release said butterflies
+			[c/3c1d59:'Until the world is shrouded in sweet dreams... The festival must go on.']
+			'''
+	}
 }
 
 Projectiles: {
@@ -5123,6 +5187,29 @@ Projectiles: {
 	ShadowPulse: {
 		DisplayName: Dark Pulse
 	}
+	ExoElemental: {
+		DisplayName: Exo Elemental
+	}
+
+	ExoCrystal: {
+		DisplayName: Exo Crystal
+	}
+
+	LunarFairy: {
+		DisplayName: Fairy
+	}
+
+	NightmareButterfly: {
+		DisplayName: Nightmare Butterfly
+	}
+
+	NightmareBullet: {
+		DisplayName: Nightmare Bullet
+	}
+
+	DreamyCrescent: {
+		DisplayName: Crescent Wave
+	}
 }
 
 Shortstrike.Gauge:
@@ -5508,6 +5595,10 @@ Buffs: {
 		DisplayName: Shred
 		Description: Blood
 	}
+	ExoElementalBuff: {
+		DisplayName: Exo Elemental
+		Description: An Exo Elemental protects you
+	}
 }
 
 Modes: {
@@ -5831,5 +5922,6 @@ Inventors: {
 }
 
 Keybinds: {
+	ButterflyRelease.DisplayName: Butterfly Release
 	ElderBerryDash.DisplayName: Elder Berry Dash
 }

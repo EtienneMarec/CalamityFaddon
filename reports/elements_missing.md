@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (140)
+## Objets (139)
 
 - A M S
 - AAMG "Disperse"
@@ -120,7 +120,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Elusive Feather
 - Exactory Dartshooter
 - Exo Dragonblade
-- Exotic Beacon
 - Flame Boy Popsicle
 - Fleshly Megaphone
 - Flint

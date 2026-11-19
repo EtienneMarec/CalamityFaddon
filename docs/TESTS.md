@@ -973,6 +973,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       droit), Xenon Cutlass, Overloaded Combatant Blaster, Revolvin' Mc'Coy (6 coups, clic droit : recharger), Sister's
       Toy Rifle, Ram's Revenge (Wither), Shading Manual (orbe), Shadow's Descent (clic droit : effacer).
 
+- [ ] Lot AG : Fathomless Soul Artifact (dégâts qui montent, PV max qui baissent), Mobilite Core et Ravenous Soul
+      Artifact (ruées : double appui), Night Cloak (PV x3 ; avec un boss Elemental : Obstructed), Exotic Beacon
+      (élémentaire), Lunarspectre Tracers (fées en courant), Dreamy Belt (papillons, touche G, onde en croissant).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

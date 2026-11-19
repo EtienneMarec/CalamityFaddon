@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1654 objets dont les recettes ont changé : 1050 recettes modifiées, 704 créées
+- 1661 objets dont les recettes ont changé : 1050 recettes modifiées, 711 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -481,6 +481,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Dragonblood Disgorger | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 12 Bloodstone Bar, 5 Unholy Blood Cells @ LunarCraftingStation → 1 |
 | Drataliornus | (nouvelle) | 1 Blossom Flux, 12 Effulgent Feather, 4 Quark-Gluon Sludge, 5 Auric Bar @ CosmicAnvil → 1 |
 | Dreadmine Staff | 30 Voidstone, 30 Depth Cells @ MythrilAnvil → 1 | 10 Depth Cells, 30 Lumenyl, 10 Crocodile Scale @ MythrilAnvil → 1 |
+| Dreamy Belt | (nouvelle) | 15 Bloodstone Bar, 5 Unholy Blood Cells, 5 Hell Butterfly, 12 Gold Bar, 15 Ruby, 10 Essence of Law, 5 Ornate Cloth @ LunarCraftingStation → 1 |
 | Driftorcher | (nouvelle) | 30 Torch, 5 Essence of Babil, 5 Any Mythril Bar @ MythrilAnvil → 1 |
 | Dual Cane | (nouvelle) | 1 Classy Cane, 1 Dark Shard, 1 Light Shard @ Anvils → 1 |
 | Dualpoon | (nouvelle) | 2 Harpoon, 15 Sea Prism, 10 Soul of Might @ MythrilAnvil → 1 |
@@ -604,6 +605,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Exodium Cluster | (nouvelle) | 1 Solar Fragment, 1 Vortex Fragment, 1 Stardust Fragment, 1 Nebula Fragment, 3 Luminite @ LunarCraftingStation → 1 |
 | Exodus Wings | 20 Soul of Flight, 14 Meld Blob, 10 Luminite Bar @ LunarCraftingStation → 1 | 5 Meld Bar, 10 Luminite Bar @ LunarCraftingStation → 1 |
 | Exorcism | 20 Hallowed Bar, 3 Soul of Fright, 3 Soul of Might, 3 Soul of Sight @ MythrilAnvil → 1 | 12 Hallowed Bar, 6 Soul of Might, 6 Soul of Sight, 6 Soul of Fright, 10 Holy Water @ MythrilAnvil → 1 |
+| Exotic Beacon | (nouvelle) | 1 Miracle Matter, 2 Exo Core, 1 Trapper Bulb @ DraedonsForge → 1 |
 | Exotic Pheromones | (nouvelle) | 15 Crimtane Bar, 10 Gold Bar, 7 Feather @ MythrilAnvil → 1 |
 | Exotic Pheromones | (nouvelle) | 15 Crimtane Bar, 10 Platinum Bar, 7 Feather @ MythrilAnvil → 1 |
 | Exotic Pheromones | (nouvelle) | 15 Demonite Bar, 10 Gold Bar, 7 Feather @ MythrilAnvil → 1 |
@@ -621,6 +623,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Fathom Swarmer Breastplate | 12 Victide Bar, 75 Planty Mush, 20 Depth Cells @ MythrilAnvil → 1 | 1 Spider Breastplate, 12 Victide Bar, 10 Planty Mush, 18 Abyss Gravel, 5 Depth Cells @ MythrilAnvil → 1 |
 | Fathom Swarmer Greaves | 9 Victide Bar, 50 Planty Mush, 15 Depth Cells @ MythrilAnvil → 1 | 1 Spider Greaves, 9 Victide Bar, 8 Planty Mush, 15 Abyss Gravel, 4 Depth Cells @ MythrilAnvil → 1 |
 | Fathom Swarmer Visage | 6 Victide Bar, 25 Planty Mush, 10 Depth Cells @ MythrilAnvil → 1 | 1 Spider Mask, 5 Victide Bar, 6 Planty Mush, 11 Abyss Gravel, 3 Depth Cells @ MythrilAnvil → 1 |
+| Fathomless Soul Artifact | (nouvelle) | 25 Endoplate, 5 Yharim Bar, 25 Exodium Cluster @ DemonAltar → 1 |
 | Fault Line | 10 Abyss Bar @ MythrilAnvil → 1 | 6 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Feather Crown | 1 Any Gold Crown, 8 Aerialite Bar, 8 Feather @ Anvils → 1 | 1 Any Gold Crown, 6 Aerialite Bar, 8 Feather @ SkyMill → 1 |
 | Feather Knife | 10 Aerialite Bar @ Anvils → 1 | 1 Aerialite Bar @ SkyMill → 100 |
@@ -874,6 +877,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Lumenous Amulet | 1 Abyssal Amulet, 5 Abyss Bar, 20 Abyss Gravel, 20 Pyre Mantle, 20 Voidstone, 20 Depth Cells, 15 Lumenyl @ MythrilAnvil → 1 | 1 Abyssal Amulet, 15 Lumenyl, 5 Crocodile Scale, 10 Sea Prism @ MythrilAnvil → 1 |
 | Luminous Striker | 1 Spear of Destiny, 1 Armored Shell, 1 Twisting Nether, 1 Dark Plasma @ MythrilAnvil → 1 | 1 Spear of Paleolith, 1 Scourge of the Seas, 1 Turbulance, 10 Meld Bar, 10 Stardust Fragment @ LunarCraftingStation → 1 |
 | Lunarian Bow | 1 Demon Bow, 1 The Bee's Knees, 1 Molten Fury, 10 Purified Gel @ DemonAltar → 1 | 1 Demon Bow / Tendon Bow, 1 Molten Fury, 1 The Bee's Knees, 1 Wulfrum Bow @ DemonAltar → 1 |
+| Lunarspectre Tracers | (nouvelle) | 1 Amphibian Boots, 1 Shatterspectre Tracers, 5 Meld Bar, 5 Elemental Bar @ AquaticHypercomputerCapsules → 1 |
 | Lunatic Beats | (nouvelle) | 15 Galactica Singularity, 4 Elemental Bar, 1 Lunatic Cultist Trophy, 50 Catastrophe Clay Ore, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Lunatic Cultist | 1 Lunatic Cultist Trophy @ Bookcases → 1 | 1 Lunatic Cultist Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Lunic Eye | 10 Any Cobalt Bar, 20 Stardust @ Anvils → 1 | 20 Stardust, 15 Essence of Crystal, 15 Aerialite Bar, 15 Sunplate Block @ Anvils → 1 |
@@ -928,6 +932,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Mirage Mirror | 1 Magic Mirror, 1 Black Lens, 50 Bone @ TinkerersWorkbench → 1 | 1 Magic Mirror / Ice Mirror, 1 Black Lens, 50 Bone @ TinkerersWorkbench → 1 |
 | Mistlestorm | 1 Razorpine, 1 Leaf Blower, 10 Tarragon Bar, 3 Dark Plasma @ MythrilAnvil → 1 | 1 Razorpine, 1 Leaf Blower, 1 Catastrophe Clayspore, 7 Tarragon Bar, 1 Dark Plasma, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | MOAB | 1 Frog Leg, 1 Bundle of Horseshoe Balloons, 1 Jetpack, 1 Soul of Fright, 1 Soul of Might, 1 Soul of Sight @ MythrilAnvil → 1 | 5 Soul of Flight, 1 Bundle of Balloons, 1 Lucky Horseshoe, 1 Jetpack, 1 Soul of Sight, 1 Soul of Might, 1 Soul of Fright @ MythrilAnvil → 1 |
+| Mobilite Core | (nouvelle) | 1 Landscapist Mobilite Fragment, 1 Seascapist Mobilite Fragment, 10 Luminite Bar @ AquaticHypercomputerCapsules → 1 |
 | Molecular Manipulator | (nouvelle) | 1 Nullification Pistol, 2 Dark Plasma, 3 Core of Calamity @ LunarCraftingStation → 1 |
 | Molten Flah | (nouvelle) | 1 Derelah, 3 Crocodile Scale, 3 Aureus Cell, 1 Perennial Bar @ Autohammer + eau → 2 |
 | Money Trough | (nouvelle) | 100 Delicious Meat, 1 Alloy Bar, 1 Pink Dye @ Anvils → 1 |
@@ -985,6 +990,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Negative Dye | (nouvelle) | 2 Bottled Water, 1 Purified Gel @ DyeVat → 2 |
 | Neptune's Bounty | 1 Abyss Blade, 6 Reaper Tooth, 5 Ruinous Soul @ MythrilAnvil → 1 | 1 Abyss Blade, 5 Ruinous Soul, 5 Phantoplasm, 15 Depth Cells, 15 Lumenyl, 5 Tenebris @ LunarCraftingStation → 1 |
 | Nettlevine Greatbow | 12 Tarragon Bar @ MythrilAnvil → 1 | 12 Tarragon Bar @ LunarCraftingStation → 1 |
+| Night Cloak | (nouvelle) | 10 Noctic Reactive Core, 10 Pulsing Night Essence, 10 Thorium Ore @ AquaticHypercomputerFinished → 1 |
 | Night Owl Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Night's Edge | 1 Light's Bane, 1 Muramasa, 1 Blade of Grass, 1 Volcano, 10 Purified Gel @ DemonAltar → 1 | 1 Light's Bane / Blood Butcherer, 1 Muramasa, 1 Blade of Grass, 1 Volcano, 1 Caustic Edge, 10 Alloy Bar @ DemonAltar → 1 |
 | Night's Gaze | 1 Profaned Partisan, 8 Lumenyl, 4 Ruinous Soul, 20 Exodium Cluster @ MythrilAnvil → 1 | 7 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster, 1 Daybreak @ LunarCraftingStation → 1 |
@@ -1177,6 +1183,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Raito | (nouvelle) | 1 Excalibur, 20 Astral Bar, 22 Disgusting Meat, 10 Topaz @ MythrilAnvil → 1 |
 | Ram's Revenge | (nouvelle) | 1 Plasma Rod, 5 Luminite Bar, 10 Crystal Shard @ LunarCraftingStation → 1 |
 | Rampart of Deities | 1 Frozen Shield, 1 Deific Amulet, 5 Auric Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Frozen Shield, 1 Deific Amulet, 1 Rusty Medallion, 1 Amidias' Pendant, 5 Galactica Singularity, 10 Divine Bar, 10 Cosmilite Bar, 4 Ascendant Spirit Essence, 4 Yharim Bar @ CosmicAnvil → 1 |
+| Ravenous Soul Artifact | (nouvelle) | 25 Bloodplate, 5 Sulfuric Scale, 25 Exodium Cluster @ DemonAltar → 1 |
 | Reactive Pickaxe | (nouvelle) | 5 Waterfreeze Reactive Core, 5 Accidated Reactive Core, 5 Bloodred Reactive Core, 5 Noctic Reactive Core @ AquaticHypercomputerFinished → 1 |
 | Reaper Tooth Necklace | 1 Sand Shark Tooth Necklace, 6 Reaper Tooth, 20 Depth Cells @ TinkerersWorkbench → 1 | 1 Sand Shark Tooth Necklace, 6 Reaper Tooth, 15 Depth Cells, 15 Lumenyl, 5 Tenebris @ TinkerersWorkbench → 1 |
 | Reassembled Electronics | (nouvelle) | 5 Charged Wulfrum Battery, 1 Enhanced Plasma Drive Core, 25 Infected Armor Plating, 25 Dubious Plating, 25 Mysterious Circuitry @ MythrilAnvil → 1 |
