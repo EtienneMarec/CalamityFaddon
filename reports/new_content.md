@@ -1153,7 +1153,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Honey Cooling Cell
 - [x] Impact Adjuster
 - [ ] Iron Heart
-- [x] Large Father
+- [ ] Large Father
 - [x] Lithos Pickaxe
 - [ ] Moonlight
 - [ ] Onyx Overlord's Gunsaw — addon: Calamity: Community Remix

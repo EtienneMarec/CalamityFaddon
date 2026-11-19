@@ -75,7 +75,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (246)
+## Objets (247)
 
 - A M S
 - AAMG "Disperse"
@@ -202,6 +202,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Justice and Splendor
 - Lacelinous Nocturne
 - Lacescent Pistol
+- Large Father
 - Li'l Mine
 - Lunatic Beats
 - Magnic Circularity

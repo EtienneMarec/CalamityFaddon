@@ -14,8 +14,8 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 // Armes et objets inventés par le wiki (19/11, lot H) : sprites et valeurs des pages, recettes du wiki (WikiRecipes),
-// butin par WikiLoot. Molten Piercer, Obsidigun, The Generator (Pyrogen) et Large Father (The Wall of Bronze) tombent de
-// boss que le mod n'a pas encore : TODO quand ils existeront.
+// butin par WikiLoot. Molten Piercer, Obsidigun, The Generator : Pyrogen. Large Father (The Wall of Bronze) attend son
+// boss : sa recette du wiki remplacerait celle de la Crystyl Crusher de Calamity, qui ne serait plus fabricable.
 
 namespace CalamityFandom.Content.Items.Weapons.Ranged
 {
@@ -510,81 +510,6 @@ namespace CalamityFandom.Content.Items.Weapons.Rogue
             if (stealth && Main.projectile.IndexInRange(p))
                 Main.projectile[p].Calamity().stealthStrike = true;
             return false;
-        }
-    }
-}
-
-namespace CalamityFandom.Content.Items.Tools
-{
-    /// <summary>
-    /// Wiki : Large Father.txt — foreuse de 280 % ; clic droit : grand coup en arc (dégâts et recul énormes) qui mine une
-    /// large zone devant le joueur. Butin de The Wall of Bronze. [choix] Zone de 7 x 7 blocs devant le joueur, un coup par
-    /// seconde.
-    /// </summary>
-    public class LargeFather : ModItem
-    {
-        public override void SetStaticDefaults()
-        {
-            Item.ResearchUnlockCount = 1;
-            ItemID.Sets.IsDrill[Type] = true;
-        }
-
-        public override void SetDefaults()
-        {
-            Item.damage = 465;
-            Item.DamageType = DamageClass.Melee;
-            Item.width = 62;
-            Item.height = 36;
-            Item.useTime = 2;
-            Item.useAnimation = 15;
-            Item.channel = true;
-            Item.noUseGraphic = Item.noMelee = true;
-            Item.pick = 280;
-            Item.tileBoost = 1;
-            Item.knockBack = 18f;
-            Item.useStyle = ItemUseStyleID.Shoot;
-            Item.UseSound = SoundID.Item23;
-            Item.autoReuse = true;
-            Item.rare = ModContent.RarityType<BurnishedAuric>();
-            Item.value = Item.sellPrice(gold: 30, silver: 24);
-            Item.shoot = ModContent.ProjectileType<LargeFatherDrill>();
-            Item.shootSpeed = 40f;
-        }
-
-        public override bool AltFunctionUse(Player player) => true;
-
-        public override bool CanUseItem(Player player)
-        {
-            bool alt = player.altFunctionUse == 2;
-            Item.useStyle = alt ? ItemUseStyleID.Swing : ItemUseStyleID.Shoot;
-            Item.useTime = alt ? 60 : 2;
-            Item.useAnimation = alt ? 60 : 15;
-            Item.channel = !alt;
-            Item.noUseGraphic = Item.noMelee = !alt;
-            Item.shoot = alt ? ProjectileID.None : ModContent.ProjectileType<LargeFatherDrill>();
-            Item.UseSound = alt ? SoundID.Item71 : SoundID.Item23;
-            return true;
-        }
-
-        public override bool? UseItem(Player player)
-        {
-            if (player.altFunctionUse != 2 || player.whoAmI != Main.myPlayer || player.itemAnimation != player.itemAnimationMax / 2)
-                return null;
-            Point center = (player.Center + new Vector2(player.direction * 72f, 0f)).ToTileCoordinates();
-            for (int x = -3; x <= 3; x++)
-                for (int y = -3; y <= 3; y++)
-                {
-                    int tx = center.X + x, ty = center.Y + y;
-                    if (WorldGen.InWorld(tx, ty, 5) && Main.tile[tx, ty].HasTile && !Main.tileContainer[Main.tile[tx, ty].TileType])
-                        player.PickTile(tx, ty, Item.pick);
-                }
-            return true;
-        }
-
-        public override void UseItemHitbox(Player player, ref Rectangle hitbox, ref bool noHitbox)
-        {
-            if (player.altFunctionUse == 2)
-                hitbox.Inflate(30, 30);
         }
     }
 }
@@ -1521,26 +1446,6 @@ namespace CalamityFandom.Content.Projectiles.Weapons1119e
             if (Projectile.owner == Main.myPlayer && !owner.moonLeech)
                 owner.Heal((int)Projectile.ai[0]);
             Projectile.Kill();
-        }
-    }
-
-    /// <summary>Foreuse tenue du Large Father.</summary>
-    public class LargeFatherDrill : ModProjectile
-    {
-        public override string Texture => "CalamityFandom/Content/Items/Tools/LargeFather";
-
-        public override void SetStaticDefaults() => ProjectileID.Sets.HeldProjDoesNotUsePlayerGfxOffY[Type] = true;
-
-        public override void SetDefaults()
-        {
-            Projectile.width = Projectile.height = 22;
-            Projectile.friendly = true;
-            Projectile.penetrate = -1;
-            Projectile.tileCollide = false;
-            Projectile.hide = true;
-            Projectile.ownerHitCheck = true;
-            Projectile.aiStyle = ProjAIStyleID.Drill;
-            Projectile.DamageType = DamageClass.Melee;
         }
     }
 

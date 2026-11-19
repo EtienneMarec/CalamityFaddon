@@ -1567,8 +1567,7 @@ Valeurs des infobox ; les objets tombent par WikiLoot (pages des ennemis).
 
 ### Lot H du 19/11 (`Content/Items/Weapons/WikiWeapons1119e.cs`)
 
-Valeurs des infobox. Molten Piercer, Obsidigun et The Generator tombent de **Pyrogen**, Large Father de **The Wall of
-Bronze** : ces boss n'existent pas encore, les objets ne s'obtiennent donc pas pour l'instant (TODO avec les boss).
+Valeurs des infobox. Molten Piercer, Obsidigun et The Generator tombent de **Pyrogen** (boss fait plus tard le 19/11).
 
 - **[choix]** **Axisdriver** : rafale = 3 tirs à 4 images puis 27 d'attente (39 en tout, la valeur `use`) ; balles
   exo à 4 mises à jour par image, 10 ennemis ; clic droit 39 images ; explosion de 130 px (moitié des dégâts de la balle
@@ -1591,8 +1590,9 @@ Bronze** : ces boss n'existent pas encore, les objets ne s'obtiennent donc pas p
   l'écran autour du curseur, éclatement après 1 s ; météores colorés au quart ; explosion rouge 100 px.
 - **[choix]** **Molten Piercer** : vitesse 16 (au lieu de 28) ; 3 éclats au tiers ; frappe furtive : 3 s, un éclat
   toutes les 5 images dans la direction de la rotation.
-- **[choix]** **Large Father** : clic droit = coup d'1 s qui mine 7 x 7 blocs à 4,5 blocs devant le joueur (pas les coffres).
-  Infobulle inventée (le wiki n'en donne pas) : « Right click to swing the drill, mining a large area ahead ».
+- **[technique]** **Large Father** retiré (19/11, comme le 30/10) : sa recette du wiki remplace celle de la Crystyl
+  Crusher de Calamity, qui ne serait plus fabricable tant que The Wall of Bronze (seule source) n'existe pas. Sprite gardé
+  dans `Content/Items/Tools/LargeFather.png`. À refaire avec le boss (clic droit : coup qui mine 7 x 7 blocs).
 - **[choix]** **Prehistoric Tablet** : comme le Metamorphic Stone (sbire d'accessoire sans place) ; nuages 2 s après le
   repérage, gouttes toutes les 10 images au tiers des dégâts ; 5 ruées à 30 images d'intervalle ; Sulphuric Poisoning
   12 s (gouttes et ruées).

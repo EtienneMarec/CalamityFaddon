@@ -836,7 +836,7 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       The Generator (sceau qui attire les ennemis), Worst Prism (5 s de charge puis 7 rayons de couleur qui pulsent),
       Unending Void (anneau d'orbes, trous noirs ; à 150 coups « Void charged! », clic droit : trou noir supermassif),
       Garth (défense -1 par coup, soin, météores RGB qui éclatent en rouge/vert/bleu), Molten Piercer (couteaux qui
-      éclatent ; frappe furtive : toupie de feu), Large Father (foreuse 280 % ; clic droit : coup qui mine 7 x 7 blocs),
+      éclatent ; frappe furtive : toupie de feu),
       Prehistoric Tablet (Mauler ; Sulphur Elemental : 3 nuages acides puis 5 ruées).
 
 - [ ] **Pyrogen** (`Content/NPCs/Pyrogen/`) : en Hardmode, jeter une Cryo Key dans la lave → Pyrogen apparaît (rugissement).

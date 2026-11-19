@@ -2386,11 +2386,6 @@ Items: {
 			'''
 	}
 
-	LargeFather: {
-		DisplayName: Large Father
-		Tooltip: Right click to swing the drill, mining a large area ahead
-	}
-
 	PrehistoricTablet: {
 		DisplayName: Prehistoric Tablet
 		Tooltip:
@@ -3094,10 +3089,6 @@ Projectiles: {
 
 	GarthHealOrb: {
 		DisplayName: Healing Orb
-	}
-
-	LargeFatherDrill: {
-		DisplayName: Large Father
 	}
 
 	SulphurElementalMinion: {

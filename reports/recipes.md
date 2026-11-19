@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1525 objets dont les recettes ont changé : 1047 recettes modifiées, 577 créées
+- 1524 objets dont les recettes ont changé : 1046 recettes modifiées, 577 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
-- 43 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 48 recettes
+- 44 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 49 recettes
 
 ## Recettes changées
 
@@ -394,7 +394,6 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Crystal Piercer | 12 Cryonic Bar @ MythrilAnvil → 1 | 1 Cryonic Bar @ MythrilAnvil → 100 |
 | Crystalline | 1 Wulfrum Knife, 3 Diamond, 3 Fallen Star @ Anvils → 1 | 5 Essence of Crystal, 3 Diamond, 3 Topaz @ Anvils → 1 |
 | Crystalplate | (nouvelle) | 1 Essence of Crystal, 3 Obsidian @ Hellforge → 3 |
-| Crystyl Crusher | 1 Any Lunar Pickaxe, 1 Blossom Pickaxe, 5 Shadowspec Bar @ DraedonsForge → 1 | 1 Any Lunar Pickaxe, 1 Blossom Pickaxe, 1 Large Father, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Cursed Capper | 1 Phoenix Blaster, 5 Essence of Chaos, 5 Essence of Eleum @ Anvils → 1 | 1 Phoenix Blaster, 10 Cursed Flame @ Anvils → 1 |
 | Curseplate | (nouvelle) | 1 Cursed Flame, 3 Obsidian @ Hellforge → 3 |
 | Daawnlight Spirit Origin | 1 Deadshot Brooch, 15 Mysterious Circuitry, 15 Dubious Plating, 10 Luminite Bar, 5 Vortex Fragment @ MythrilAnvil → 1 | 1 Deadshot Brooch, 10 Luminite Bar, 1 Reassembled Electronics, 4 Essence of Zot, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
@@ -1668,6 +1667,7 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Green Demon Head — 1
 - objet : Infernum Kris — 1
 - objet : Insect Biomass — 1
+- objet : Large Father — 1
 - objet : Minnows Prime — 1
 - objet : Miracle Smacker — 1
 - objet : Musket Undertaker — 1
