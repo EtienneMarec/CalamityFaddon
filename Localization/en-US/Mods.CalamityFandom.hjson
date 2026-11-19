@@ -2790,6 +2790,82 @@ Items: {
 			100% increased mining speed, 20% increased movement speed and 20% decreased damage reduction every time you take damage
 			'''
 	}
+	BlazingPowder: {
+		DisplayName: Blazing Powder
+		Tooltip: Every other ranged attack creates an astral fireball that deals damage and sets your enemies on fire.
+	}
+
+	BFB: {
+		DisplayName: BFB
+		Tooltip:
+			'''
+			The Brutal Floating Behemoth
+			Counts as wings
+			Similar functionality to the MOAB
+			'''
+	}
+
+	MagnaCore: {
+		DisplayName: Magna Core
+		Tooltip:
+			'''
+			30% increased magic damage, 25% increased magic critical strike chance, and 100% decreased mana usage
+			+250 max mana
+			Increases pickup range for mana stars
+			Using a Mana Potion causes a burst of granite energy to assault enemies
+			'''
+	}
+
+	QuiverofMadness: {
+		DisplayName: Quiver of Madness
+		Tooltip:
+			'''
+			30% increased ranged damage and 25% increased ranged critical strike chance
+			100% reduced ammo usage, 15 defense, +2 life regen and 35% increased pick speed
+			Summons four brimstone portals; ranged projectiles that pass through them deal triple damage and home in
+			'''
+	}
+
+	SocraticSapphire: {
+		DisplayName: Socratic Sapphire
+		Tooltip:
+			'''
+			An anomalous gem belonging to a philosopher of a higher dimension
+			Grants a chance to replace critical hits with a Savage blow, and reduces debuff durations... but at what cost?..
+			[c/1a1d6e:"...Perhaps it knows nothing of it, nor does it think it knows of that."]
+			'''
+	}
+
+	CobaltNightCircuit: {
+		DisplayName: Cobalt Night Circuit
+		Tooltip:
+			'''
+			Turns you into a night mech
+			+40 max life, +10 defence, lets you hover 5 blocks in the air, +50% movement speed, creates a 5 block damaging aura
+			'''
+	}
+
+	PalladiumLightCircuit: {
+		DisplayName: Palladium Light Circuit
+		Tooltip:
+			'''
+			Turns you into a light mech
+			+100 max life, +30 defence, +25% jump height, -50% movement speed
+			'''
+	}
+
+	Terraformance: {
+		DisplayName: Terraformance
+		Tooltip: increases the players max mana by 25%.
+	}
+
+	EarthDestructionCore: {
+		DisplayName: Earth Destruction Core
+		Tooltip:
+			'''
+			150% increased mining speed, 50% increased movement speed and 25% decreased damage reduction every time you take damage
+			'''
+	}
 }
 
 Projectiles: {
@@ -3534,6 +3610,21 @@ Projectiles: {
 	}
 	LibertySpear: {
 		DisplayName: Spear of Liberty
+	}
+	AstralFireball: {
+		DisplayName: Astral Fireball
+	}
+
+	GraniteSphere: {
+		DisplayName: Granite Energy
+	}
+
+	MadnessPortal: {
+		DisplayName: Brimstone Portal
+	}
+
+	CircuitAura: {
+		DisplayName: Mech Aura
 	}
 }
 

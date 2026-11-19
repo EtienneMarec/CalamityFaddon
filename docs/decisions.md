@@ -1849,6 +1849,28 @@ Cirrhotipede : fouet ; Hi-Scan Camera : modes non décrits) attendent : système
 - Pas faits : Devious Aestheticus (Moon Lord ; page trop vague : tirs, « split », mêlée non décrits), The Last Lightice
   (Snow Balla absent), Wakasagihime (Harpy ; système de « Karma » qui appelle des boss).
 
+### Lot P du 19/11 (`Content/Items/Accessories/WikiCoverings1119.cs`)
+
+« Coverings » fabricables (recettes du wiki, dont l'Aquatic Hypercomputer). Valeurs et effets des pages.
+
+- **[choix]** Blazing Powder : une attaque à distance sur deux (compteur par joueur) lance une boule de feu astrale vers le
+  curseur, 25 dégâts x bonus à distance, Hellfire 5 s.
+- **[technique]** BFB : 3 sauts en plus (Cloud, Blizzard, Sandstorm in a Bottle) = quadruple saut ; ensuite 5 s de poussée
+  vers le haut en tenant Saut (rendues au sol) au lieu d'ailes (pas d'image d'ailes) ; pas de dégâts de chute, sauts
+  boostés, saut automatique.
+- **[choix]** Magna Core : sphères de granite chercheuses (20 000 x bonus magiques), lancées par toute potion qui rend du
+  mana ; 20 s d'attente.
+- **[choix]** Quiver of Madness : munitions jamais consommées ; 4 portails à 90 px ; projectile à distance passé par un
+  portail : dégâts x3 une fois, chercheur à 900 px. Les cibles-crânes (+500 %) ne sont pas faites.
+- **[choix]** Socratic Sapphire : critique total et réduction des dégâts divisés par deux ; « coup sauvage » = dégâts
+  critiques x5 (au lieu de x2), chance 10 % + (critique + réduction x 100) / 2, au plus 75 % ; debuffs 3,33 fois plus
+  courts (sauf ceux que l'infirmière ne peut pas retirer).
+- **[choix]** Cobalt Night Circuit : « flotter » = tenir Saut en tombant à moins de 5 blocs du sol ; aura de 5 blocs, 60
+  dégâts toutes les 30 images (120/s). Palladium Light Circuit : stats de la page. Pas d'apparence de mech (pas d'image).
+- **[technique]** Terraformance : la page recopie le texte de la Nightform ; +25 % de mana tout le temps (son infobulle ne
+  parle pas de la nuit).
+- **[choix]** Earth Destruction Core : comme la Babil Destruction Core (même compteur de 5 s), valeurs plus fortes.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

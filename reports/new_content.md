@@ -636,10 +636,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Armageddon Wings — addon: Deimos, the Starborn Princess
 - [ ] Assortegelatin
 - [ ] Astral Bulwark
-- [ ] BFB
+- [x] BFB
 - [x] Babil Destruction Core — addon: Calamity: Tales of the Aquatic
 - [x] Bellwings — addon: Calamity: Community Remix
-- [ ] Blazing Powder — addon: Calamity: Community Remix
+- [x] Blazing Powder — addon: Calamity: Community Remix
 - [ ] Blood Element — addon: Calamity: Tales of the Aquatic
 - [x] Bloodflare Wings
 - [ ] Bloodred Alliance — addon: Calamity: Tales of the Aquatic
@@ -649,7 +649,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Calamitous Orbit — addon: Calamity: Tales of the Aquatic
 - [ ] Calamitous Soul Artifact — addon: Calamity: Community Remix
 - [ ] Catarachedrae — addon: Calamity: Tales of the Aquatic
-- [ ] Cobalt Night Circuit — addon: Calamity: Tales of the Aquatic
+- [x] Cobalt Night Circuit — addon: Calamity: Tales of the Aquatic
 - [ ] Cosmic Stone
 - [ ] Deteriorating Lens — pas de sprite
 - [ ] Determination Breaker
@@ -658,7 +658,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Dread Bone — addon: Calamity: Tales of the Aquatic
 - [ ] Dreamy Belt — addon: Calamity: Community Remix
 - [x] Drew's Fins
-- [ ] Earth Destruction Core — addon: Calamity: Tales of the Aquatic
+- [x] Earth Destruction Core — addon: Calamity: Tales of the Aquatic
 - [ ] Edgeterrence — addon: Calamity: Tales of the Aquatic
 - [ ] Elementary Orbit — addon: Calamity: Tales of the Aquatic
 - [ ] Enchanted Tumor — addon: Deimos, the Starborn Princess
@@ -683,7 +683,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Level Meters — pas de sprite
 - [ ] Lul
 - [ ] Lunarspectre Tracers — addon: Calamity: Tales of the Aquatic
-- [ ] Magna Core — addon: Calamity: Community Remix
+- [x] Magna Core — addon: Calamity: Community Remix
 - [x] Metamorphic Stone
 - [x] Microxodonta
 - [x] Mirage Jelly (item)
@@ -694,7 +694,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Nightform — addon: Calamity: Tales of the Aquatic
 - [ ] Nucleate Gello
 - [ ] Oil Bottle
-- [ ] Palladium Light Circuit — addon: Calamity: Tales of the Aquatic
+- [x] Palladium Light Circuit — addon: Calamity: Tales of the Aquatic
 - [ ] Phantasmal Rune — addon: Calamity: Tales of the Aquatic
 - [x] Plague Balloon
 - [x] Plague Hive
@@ -705,7 +705,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Quantum Flahium Militia Device
 - [ ] Quantum Flahium Shock Device
 - [ ] Quantum Flahium Transcendental Device
-- [ ] Quiver of Madness — addon: Calamity: Community Remix
+- [x] Quiver of Madness — addon: Calamity: Community Remix
 - [ ] Rampart of Deicide — addon: Calamity: Tales of the Aquatic
 - [ ] Ravenous Soul Artifact
 - [x] Red Bow
@@ -722,7 +722,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Silver Heart
 - [ ] Slimelgamation — addon: Calamity: Community Remix
 - [ ] Slimy Wisdom Tooth — addon: Calamity: Community Remix
-- [ ] Socratic Sapphire — addon: Calamity: Community Remix
+- [x] Socratic Sapphire — addon: Calamity: Community Remix
 - [ ] Soul of Carcinogen
 - [ ] Soul of Hydrogen
 - [ ] Soul of Ionogen
@@ -734,7 +734,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Static Wings
 - [x] Sulfuric Scale
 - [x] Surgical Glove
-- [ ] Terraformance — addon: Calamity: Tales of the Aquatic
+- [x] Terraformance — addon: Calamity: Tales of the Aquatic
 - [ ] The Everquartz — stub; addon: Catalyst
 - [ ] The Godfather — addon: Calamity: Community Remix
 - [ ] The Progression — addon: Calamity: Tales of the Aquatic

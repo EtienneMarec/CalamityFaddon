@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1525 objets dont les recettes ont changé : 1046 recettes modifiées, 578 créées
+- 1535 objets dont les recettes ont changé : 1046 recettes modifiées, 588 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -196,12 +196,14 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Beastial Pickaxe | 15 Perennial Bar @ MythrilAnvil → 1 | 7 Perennial Bar, 1 Chlorophyte Pickaxe @ MythrilAnvil → 1 |
 | Berserker Waraxe | 10 Perennial Bar @ MythrilAnvil → 1 | 9 Perennial Bar, 1 Chlorophyte Greataxe @ MythrilAnvil → 1 |
 | Bezoar | (nouvelle) | 3 Murky Paste, 7 Stinger @ Anvils → 1 |
+| BFB | (nouvelle) | 5 Any Iron Bar, 4 MOAB, 2 Red Paint @ LunarCraftingStation → 1 |
 | Biofusillade | 1 Spell Tome, 12 Tarragon Bar @ Bookcases → 1 | 8 Tarragon Bar, 1 Spell Tome @ Bookcases → 1 |
 | Biome Blade | 1 Broken Biome Blade, 1 Soul of Fright, 1 Soul of Might, 1 Soul of Sight, 2 Pixie Dust, 10 Stardust @ MythrilAnvil → 1 | 1 Broken Biome Blade, 1 Soul of Fright, 1 Soul of Might, 1 Soul of Sight, 2 Fallen Star, 10 Stardust, 5 Essential Essence Bar @ MythrilAnvil → 1 |
 | Black Lens | (nouvelle) | 1 Lens, 1 Black Dye @ DyeVat → 1 |
 | Blade of Enmity | (nouvelle) | 5 Life Alloy, 3 Core of Calamity @ MythrilAnvil → 1 |
 | Bladedge Railbow | 10 Perennial Bar @ MythrilAnvil → 1 | 12 Perennial Bar, 3 Essential Essence Bar, 1 Chlorophyte Shotbow @ MythrilAnvil → 1 |
 | Blank Scroll | (nouvelle) | 45 Bamboo, 5 Fallen Star, 3 Demonic Bone Ash, 3 Blighted Gel @ Loom → 1 |
+| Blazing Powder | (nouvelle) | 10 Ashes of Calamity, 5 Stardust @ LunarCraftingStation → 1 |
 | Blazing Star | 1 Glaive, 5 Hellstone Bar, 10 Essence of Chaos @ MythrilAnvil → 1 | 20 Fallen Star, 3 Hellstone Bar, 4 Essence of Chaos @ Anvils → 1 |
 | Blizzard in a Bottle | 1 Cloud in a Bottle, 1 Frost Core @ CrystalBall → 1 | 4 Cloud in a Bottle, 50 Ice Block @ Anvils → 1 |
 | Blood Bath | (nouvelle) | 8 Blood Sample, 3 Vertebra, 2 Crimtane Bar @ DemonAltar → 1 |
@@ -339,6 +341,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Clockwork Bow | 5 Luminite Bar, 50 Cog @ MythrilAnvil → 1 | 50 Zenith, 5 Blood Orb, 30 Essential Essence Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Cloud in a Bottle | (nouvelle) | 25 Feather, 12 Bottle, 50 Fallen Star @ Anvils → 1 |
 | Cobalt Kunai | 10 Cobalt Bar @ Anvils → 1 | 1 Cobalt Bar @ Anvils → 100 |
+| Cobalt Night Circuit | (nouvelle) | 50 Cobalt Bar, 20 Essence of Eleum, 50 Soul of Night @ AquaticHypercomputerStatic → 1 |
 | Cobalt Shield | (nouvelle) | 10 Any Iron Bar @ Anvils → 1 |
 | Codebreaker Base | 1 Charging Station, 20 Mysterious Circuitry, 35 Dubious Plating @ Anvils → 1 | 15 Any Iron Bar, 5 Dubious Plating @ Anvils → 1 |
 | Coin of Deceit | 12 Any Copper Bar, 8 Any Evil Bar @ Anvils → 1 | 10 Gold Coin, 5 Silver Bar, 5 Acidwood @ Anvils → 1 |
@@ -453,6 +456,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Dustplate | (nouvelle) | 1 Stardust, 3 Obsidian @ Hellforge → 3 |
 | Dusty Axe | (nouvelle) | 50 Bone, 5 Iron Bar @ Anvils → 1 |
 | Early Bloom Rod | 8 Tarragon Bar @ MythrilAnvil → 1 | 1 Wood Fishing Pole, 10 Tarragon Bar @ LunarCraftingStation → 1 |
+| Earth Destruction Core | (nouvelle) | 1 Babil Destruction Core, 5 Living Shard @ AquaticHypercomputerStatic → 1 |
 | Eclipse Mirror | 1 Abyssal Mirror, 1 Dark God's Sheath, 20 Darksun Fragment @ CosmicAnvil → 1 | 1 Abyssal Mirror, 1 Dark God's Sheath, 20 Darksun Fragment, 4 Yharim Bar @ CosmicAnvil → 1 |
 | Eclipse's Fall | 1 Night's Gaze, 5 Auric Bar, 15 Darksun Fragment @ CosmicAnvil → 1 | 1 Night's Gaze, 12 Core of Sunlight, 8 Cosmilite Bar, 8 Darksun Fragment @ CosmicAnvil → 1 |
 | Effervescence | 1 Bubble Gun, 5 Luminite Bar, 10 Aetherium Block @ MythrilAnvil → 1 | 1 Bubble Gun, 1 Xenopopper, 5 Luminite Bar, 15 Sea Prism, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
@@ -657,6 +661,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Gills Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Glass | (nouvelle) | 2 Astral Clay @ Furnaces → 1 |
 | Gleaming Dagger | 12 Platinum Bar @ Anvils → 1 | 12 Platinum Bar, 250 Throwing Knife @ Anvils → 1 |
+| Glittering Astral Eye | (nouvelle) | 1 Blazing Powder, 1 Astral Pearl @ LunarCraftingStation → 1 |
 | Glowing Mushroom Dye | (nouvelle) | 2 Bottled Water, 1 Mushroom Grass Seeds @ DyeVat → 2 |
 | Glowing Mushroom Dye | (nouvelle) | 25 Bottled Water, 1 Delicious Meat @ DyeVat → 25 |
 | God Slayer Chestplate | 20 Cosmilite Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 23 Cosmilite Bar, 3 Ascendant Spirit Essence, 3 Soul of Plight @ CosmicAnvil → 1 |
@@ -818,6 +823,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Magic Power Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Magic Quiver | (nouvelle) | 1 Endless Quiver, 10 Pixie Dust, 5 Blighted Lens, 8 Soul of Light @ CrystalBall → 1 |
 | Magna Cannon | 25 Granite Block, 12 Meteorite Bar, 3 Diamond, 5 Sapphire @ Anvils → 1 | 25 Granite Block, 15 Obsidian, 5 Amber, 1 Space Gun @ Anvils → 1 |
+| Magna Core | (nouvelle) | 1 Ethereal Talisman, 1 Unstable Granite Core, 1 Inverted Gar, 1 Mana Polarizer, 20 Supreme Mana Potion, 100 Granite Block, 100 Marble Block, 5 Ashes of Annihilation, 49 Yharim Bar @ CosmicAnvil → 1 |
 | Magna Striker | (nouvelle) | 1 Opal Striker, 1 Magna Cannon, 6 Any Adamantite Bar, 5 Ectoplasm @ MythrilAnvil → 1 |
 | Magnetic Meltdown | 1 Magnet Sphere, 3 Twisting Nether @ MythrilAnvil → 1 | 3 Dark Plasma, 1 Spectre Staff, 1 Magnet Sphere @ LunarCraftingStation → 1 |
 | Magnomaly Cannon | 1 The Pack, 1 Scorched Earth, 1 Electrosphere Launcher, 1 Miracle Matter @ DraedonsForge → 1 | 1 The Pack, 1 Scorched Earth, 1 Aether's Whisper, 1 Electrosphere Launcher, 1 Miracle Matter @ DraedonsForge → 1 |
@@ -972,6 +978,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Otherworldly Work Bench | 10 Otherworldly Stone @ main → 1 | 10 Otherworldly Stone @ LunarCraftingStation → 1 |
 | Overloaded Sludge | 40 Blighted Gel, 40 Any Evil Block @ DemonAltar → 1 | 40 Blighted Gel, 40 Any Evil Block, 1 Alloy Bar @ DemonAltar → 1 |
 | Palladium Javelin | 10 Palladium Bar @ Anvils → 1 | 1 Palladium Bar @ Anvils → 20 |
+| Palladium Light Circuit | (nouvelle) | 50 Palladium Bar, 20 Essence of Sunlight, 50 Soul of Light @ AquaticHypercomputerStatic → 1 |
 | Pastranion | (nouvelle) | 1 Contaminated Dish, 1 Spaghetti, 10 Exo Prism, 5 Soul of Plight @ DraedonsForge → 1 |
 | Pearl God | 1 Arietes 41, 5 Life Alloy, 2 Ruinous Soul, 1 White Pearl @ MythrilAnvil → 1 | 1 Cursed Capper, 5 Spectre Bar, 5 Shroomite Bar @ MythrilAnvil → 1 |
 | Penumbra | 8 Cosmilite Bar, 20 Nightmare Fuel, 6 Ruinous Soul @ CosmicAnvil → 1 | 6 Ruinous Soul, 8 Twisted Netherite Bar, 20 Nightmare Fuel, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
@@ -1078,6 +1085,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Purple Seeking Mechanism | 1 Lab Seeking Mechanism, 50 Any Ice Block @ Anvils → 1 | 1 Lab Seeking Mechanism, 20 Cloud @ Anvils → 1 |
 | Quagmire | 10 Perennial Bar @ MythrilAnvil → 1 | 6 Perennial Bar, 6 Chlorophyte Bar, 1 Yelets @ MythrilAnvil → 1 |
 | Queen Bee | 1 Queen Bee Trophy @ Bookcases → 1 | 1 Queen Bee Trophy, 10 Conquest Fragment @ Bookcases → 1 |
+| Quiver of Madness | (nouvelle) | 1 Elemental Quiver, 1 Quiver of Nihility, 1 Daawnlight Spirit Origin, 5 Red Wine, 5 Ashes of Annihilation, 4 Yharim Bar, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
 | Radar | 5 Any Iron Bar @ Anvils → 1 | 5 Iron Bar @ Anvils → 1 |
 | Radiant Ooze | 45 Blighted Gel, 15 Purified Gel @ Anvils → 1 | 30 Blighted Gel, 2 Soul of Bright @ MythrilAnvil → 1 |
 | Radiant Star | 1 Prismalline, 12 Astral Bar, 10 Fallen Star, 15 Stardust @ LunarCraftingStation → 1 | 1 Prismalline, 10 Astral Bar, 15 Stardust, 10 Fallen Star @ LunarCraftingStation → 1 |
@@ -1254,6 +1262,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Snow Ruffian Mask | 10 Boreal Wood, 4 Silk, 1 Flinx Fur @ Anvils → 1 | 10 Any Snow Block, 5 Any Ice Block, 15 Boreal Wood @ Anvils → 1 |
 | Soaring Potion | 1 Bottled Water, 1 Sunken Sailfish, 1 Soul of Flight @ AlchemyTable → 1 | 1 Bottled Water, 1 Soul of Flight, 1 Tuna @ AlchemyTable → 1 |
 | Soaring Potion | 1 Bottled Water, 15 Blood Orb, 1 Soul of Flight @ AlchemyTable → 1 | 1 Bottled Water, 3 Unholy Core, 1 Soul of Flight @ AlchemyTable → 1 |
+| Socratic Sapphire | (nouvelle) | 1 Philosopher's Stone, 1 Large Sapphire, 5 Phantoplasm, 470 Marble Block, 1 Pillar Statue, 1 Energy Core, 55 Galactica Singularity @ LunarCraftingStation → 1 |
 | Solstice Claymore | 1 Beam Sword, 18 Astral Bar, 5 Luminite Bar, 5 Solar Fragment, 5 Stardust Fragment @ LunarCraftingStation → 1 | 1 Beam Sword, 20 Astral Bar, 5 Galactica Singularity, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Soma Prime | 1 Minigun, 1 Venus Magnum, 5 Shadowspec Bar @ DraedonsForge → 1 | 1 P90, 1 Minigun, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Something | (nouvelle) | 5 Absolute Gel, 5 Absolute Spirit Essence, 5 Hardened Chitin, 5 Ornate Cloth, 5 Reassembled Electronics @ DraedonsForge → 1 |
@@ -1427,6 +1436,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Terra Lance | 1 Chlorophyte Partisan, 1 Dark Lance, 1 Gungnir, 12 Living Shard @ MythrilAnvil → 1 | 1 Chlorophyte Partisan, 1 Dark Lance, 1 Gungnir, 7 Living Shard @ MythrilAnvil → 1 |
 | Terra Ray | 1 Night's Ray, 1 Valkyrie Ray, 12 Living Shard @ MythrilAnvil → 1 | 7 Living Shard, 1 Night's Ray / Carnage Ray, 1 Valkyrie Ray @ MythrilAnvil → 1 |
 | Terra Shiv | (nouvelle) | 1 True Night's Stabber, 1 True Caliburn, 6 Living Shard @ MythrilAnvil → 1 |
+| Terraformance | (nouvelle) | 5 Living Shard, 1 Nightform @ AquaticHypercomputerStatic → 1 |
 | Terratomere | 1 Terra Blade, 18 Tarragon Bar @ MythrilAnvil → 1 | 1 Floodtide, 1 Hellkite, 1 Terra Blade / Terra Edge, 7 Tarragon Bar, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Terriblade | (nouvelle) | 1 Wooden Sword, 1 Mediocre Matter @ Hellforge → 1 |
 | Terror Blade | (nouvelle) | 5 Haunted Bar @ LunarCraftingStation → 1 |
@@ -1653,7 +1663,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Aquatic Biomass — 1
 - objet : Arcanoid Orb — 1
 - objet : Auric Sludge Remnant — 1
-- objet : Blazing Powder — 1
 - objet : Braxaxe — 1
 - objet : Catarachedrae — 1
 - objet : Cirnogenic Staff — 1
@@ -1664,6 +1673,7 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Divine Intervention — 1
 - objet : Exactory Dartshooter — 1
 - objet : Exodimus — 1
+- objet : Exotic Bundle of Balloons — 1
 - objet : Flah Seeds — 1
 - objet : Green Demon Head — 1
 - objet : Infernum Kris — 1

@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (239)
+## Objets (238)
 
 - A M S
 - AAMG "Disperse"
@@ -92,7 +92,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Astralence
 - Bad Apple
 - Bazooka
-- Blazing Powder
 - Bleeding Influx
 - Blobfish Plushie
 - Blood Element

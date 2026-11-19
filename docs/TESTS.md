@@ -906,6 +906,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Lot O : Yggdrasil Core (aura dorée qui brûle), Babil Destruction Core (5 s plus rapide après un coup reçu), Spear
       of Liberty (3 lances, deux chercheuses).
 
+- [ ] Lot P (accessoires) : Blazing Powder (boule de feu tous les 2 tirs), BFB (4 sauts puis vol 5 s, pas de dégâts de
+      chute), Magna Core (potion de mana → 8 sphères), Quiver of Madness (portails rouges qui renforcent les tirs),
+      Socratic Sapphire (coups x5 de temps en temps, debuffs courts), Cobalt Night / Palladium Light Circuit,
+      Terraformance, Earth Destruction Core.
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
