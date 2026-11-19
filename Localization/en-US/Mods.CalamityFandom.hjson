@@ -2893,6 +2893,53 @@ Items: {
 		DisplayName: The First Fracturer
 		Tooltip: Shoots out beams that summon a barrage of extra beams on enemy hits
 	}
+	Unloxcalibur: {
+		DisplayName: Unloxcalibur
+		Tooltip: An average broadsword
+	}
+
+	AspectoftheEnd: {
+		DisplayName: Aspect of the End
+		Tooltip: hi pixel
+	}
+
+	GammaRayBurst: {
+		DisplayName: Gamma Ray Burst
+		Tooltip: Ignores enemy immunity frames
+	}
+
+	DarkHarvestStaff: {
+		DisplayName: Dark Harvest Staff
+		Tooltip: Casts dark pumpkins which split into damaging chunks
+	}
+
+	Prominence: {
+		DisplayName: Prominence
+		Tooltip: Casts a celestial storm to destroy your enemies
+	}
+
+	Chrononimbus: {
+		DisplayName: Chrononimbus
+		Tooltip: Fires celestial blades that spawn fireballs on enemy hits
+	}
+
+	CriusPrime: {
+		DisplayName: Crius Prime
+		Tooltip:
+			'''
+			Fires a small laser
+			Right click to charge up a stronger laser that bounces off of tiles.
+			'''
+	}
+
+	BolideLauncher: {
+		DisplayName: Bolide Launcher
+		Tooltip:
+			'''
+			Converts wooden arrows into bolides
+			Fires a barrage of arrows and comets
+			'''
+	}
 }
 
 Projectiles: {
@@ -3675,6 +3722,45 @@ Projectiles: {
 
 	FractureBeam: {
 		DisplayName: Fracture Beam
+	}
+	GammaRayYoyo: {
+		DisplayName: Gamma Ray Burst
+	}
+
+	DarkPumpkin: {
+		DisplayName: Dark Pumpkin
+	}
+
+	PumpkinChunk: {
+		DisplayName: Pumpkin Chunk
+	}
+
+	CelestialStormShot: {
+		DisplayName: Celestial Storm
+	}
+
+	CelestialBlade: {
+		DisplayName: Celestial Blade
+	}
+
+	CriusLaser: {
+		DisplayName: Laser
+	}
+
+	CriusCharge: {
+		DisplayName: Charge
+	}
+
+	CriusBigLaser: {
+		DisplayName: Red Laser
+	}
+
+	Bolide: {
+		DisplayName: Bolide
+	}
+
+	GalacticaComet: {
+		DisplayName: Galactica Comet
 	}
 }
 

@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1540 objets dont les recettes ont changé : 1046 recettes modifiées, 593 créées
+- 1548 objets dont les recettes ont changé : 1046 recettes modifiées, 601 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -137,6 +137,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Ashen Platform | 1 Smooth Brimstone Slag @ main → 2 | 1 Smooth Brimstone Slag @ AshenAltar → 2 |
 | Ashen Slab | 1 Smooth Brimstone Slag @ AshenAltar → 1 | 4 Smooth Brimstone Slag, 1 Unholy Core @ AshenAltar → 5 |
 | Ashplate | (nouvelle) | 1 Ashes of Calamity, 3 Obsidian @ Hellforge → 3 |
+| Aspect of the End | (nouvelle) | 2 Glittering Astral Eye, 1 Diamond @ LunarCraftingStation → 1 |
 | Asteroid Staff | (nouvelle) | 1 Meteor Staff, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Astral Arcanum | 1 Ambrosial Ampoule, 1 Celestial Jewel, 5 Auric Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Celestial Jewel, 3 Dark Plasma, 999 Green Solution, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Astral Axe | (nouvelle) | 7 Astral Bar @ LunarCraftingStation → 1 |
@@ -241,6 +242,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Blue Acid Dye | (nouvelle) | 2 Bottled Water, 1 Stormlion Mandible @ DyeVat → 2 |
 | Blue Cosmic Flame Dye | 3 Bottled Water, 1 Cosmilite Bar @ DyeVat → 3 | 2 Bottled Water, 1 Cosmilite Bar @ DyeVat → 2 |
 | Blunder Booster | 1 Plagued Fuel Pack, 8 Effulgent Feather @ MythrilAnvil → 1 | 1 Plagued Fuel Pack, 8 Effulgent Feather, 5 Unholy Blood Cells @ LunarCraftingStation → 1 |
+| Bolide Launcher | (nouvelle) | 7 Fae Dust, 5 Galactica Singularity, 10 Unholy Essence, 10 Cosmilite Slag, 5 Diamond @ LunarCraftingStation → 1 |
 | Botanic Bathtub | 14 Uelibloom Brick @ LivingLoom → 1 | 14 Uelibloom Brick @ BotanicPlanter → 1 |
 | Botanic Bed | 15 Uelibloom Brick, 5 Silk @ LivingLoom → 1 | 15 Uelibloom Brick, 5 Vine @ BotanicPlanter → 1 |
 | Botanic Bench | 8 Uelibloom Brick @ LivingLoom → 1 | 5 Uelibloom Brick, 2 Vine @ BotanicPlanter → 1 |
@@ -330,6 +332,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Charred Idol | 5 Unholy Core, 7 Essence of Chaos, 5 Soul of Night @ Hellforge → 1 | 5 Soul of Night, 7 Essence of Chaos, 2 Unholy Core @ AdamantiteForge → 1 |
 | Chez | (nouvelle) | 4 Shattered Start Block, 3 Nachos, 10 Mouse @ CookingPots → 1 |
 | Chlorophyte Dye | (nouvelle) | 1 Bottled Water, 1 Chlorophyte Ore @ DyeVat → 1 |
+| Chrononimbus | (nouvelle) | 7 Fae Dust, 5 Galactica Singularity, 10 Unholy Essence, 10 Cosmilite Slag, 5 Diamond @ LunarCraftingStation → 1 |
 | Cinder Blossom Staff | 10 Hellstone Bar, 10 Ash Wood, 5 Fireblossom @ Anvils → 1 | 50 Obsidian, 20 Living Fire Block, 10 Hellstone Bar @ Anvils → 1 |
 | Cinderplate | 25 Obsidian, 1 Essence of Sunlight @ Hellforge → 25 | 1 Essence of Sunlight, 3 Obsidian @ Hellforge → 3 |
 | Cinnamon Roll | (nouvelle) | 5 Everclear, 5 Blood Orb, 1 Beetle Husk @ AlchemyTable → 5 |
@@ -382,6 +385,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Crayfish Pickaxe | (nouvelle) | 2 Victide Bar @ Anvils → 1 |
 | Crescent Moon | 1 Blue Moon, 8 Lumenyl, 4 Ruinous Soul, 20 Exodium Cluster @ MythrilAnvil → 1 | 8 Lumenyl, 3 Ruinous Soul, 16 Exodium Cluster @ LunarCraftingStation → 1 |
 | Crimson Crusher Blade | (nouvelle) | 6 Crimtane Bar, 6 Soul of Night, 6 Ichor @ MythrilAnvil → 1 |
+| Crius Prime | (nouvelle) | 1 Abyss Shocker, 1 Plasma Rifle, 150 Arean Conduit Plating, 5 Strange Matter @ LunarCraftingStation → 1 |
 | Cruel Jewel | 1 Last Prism, 10 Dark Plasma, 20 Ruinous Soul, 30 Divine Bar @ MythrilAnvil → 1 | 1 Last Prism, 10 Dark Plasma, 20 Ruinous Soul, 30 Divine Bar, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Crumbling Potion | (nouvelle) | 5 Bottled Water, 1 Ancient Bone Dust, 1 Soul of Night @ AlchemyTable → 5 |
 | Crumbling Potion | (nouvelle) | 1 Bottled Water, 2 Unholy Core, 1 Soul of Night @ AlchemyTable → 1 |
@@ -413,6 +417,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Dank Staff | (nouvelle) | 3 Rotten Chunk, 8 Demonite Bar, 7 Rotten Matter @ DemonAltar → 1 |
 | Dark Energy Staff | (nouvelle) | 1 Energy Staff, 2 Dark Plasma, 5 Galactica Singularity, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Dark God's Sheath | 1 Silencing Sheath, 1 Ruin Medallion, 14 Meld Blob @ LunarCraftingStation → 1 | 1 Silencing Sheath, 1 Ruin Medallion, 5 Meld Bar @ LunarCraftingStation → 1 |
+| Dark Harvest Staff | (nouvelle) | 1 Harvest Staff, 1 Dark Harvest, 5 Meld Bar, 10 Spectre Bar, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Darkecho Greatbow | 12 Cryonic Bar @ MythrilAnvil → 1 | 8 Cryonic Bar @ MythrilAnvil → 1 |
 | Darklight Greatsword | 12 Cryonic Bar, 1 Soul of Light, 1 Soul of Night @ MythrilAnvil → 1 | 12 Cryonic Bar, 5 Fallen Star, 1 Soul of Night, 1 Soul of Light, 4 Essential Essence Bar @ MythrilAnvil → 1 |
 | Deadshot Brooch | 1 Ranger Emblem, 2 Core of Calamity @ MythrilAnvil → 1 | 1 Ranger Emblem, 3 Core of Calamity @ MythrilAnvil → 1 |
@@ -634,6 +639,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Galeforce | 10 Aerialite Bar @ Anvils → 1 | 8 Aerialite Bar, 3 Sunplate Block @ SkyMill → 1 |
 | Galileo Gladius | 1 Gladius, 8 Lumenyl, 4 Ruinous Soul, 20 Exodium Cluster @ MythrilAnvil → 1 | 1 Gladius, 8 Lumenyl, 5 Ruinous Soul, 15 Exodium Cluster @ LunarCraftingStation → 1 |
 | Galvanizing Glaive | 12 Mysterious Circuitry, 18 Dubious Plating, 5 Life Alloy, 10 Infected Armor Plating @ MythrilAnvil → 1 | 1 Reassembled Electronics, 5 Life Alloy @ MythrilAnvil → 1 |
+| Gamma Ray Burst | (nouvelle) | 7 Fae Dust, 5 Galactica Singularity, 10 Unholy Essence, 10 Cosmilite Slag, 5 Diamond @ LunarCraftingStation → 1 |
 | Garnet | (nouvelle) | 20 Infected Armor Plating, 12 Plague Cell Canister, 15 Ruby, 10 Life Alloy, 15 Chlorophyte Bar, 1 Cursed Dagger / Ichor Dagger @ PlagueInfuser → 1 |
 | Garth | (nouvelle) | 1 Grand Gar, 1 Galactus Blade, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Gatling Laser | (nouvelle) | 1 Reassembled Electronics, 5 Life Alloy @ MythrilAnvil → 1 |
@@ -1076,6 +1082,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Profaned Rock | 2 Profaned Platform @ main → 1 | 2 Profaned Platform @ LunarCraftingStation → 1 |
 | Profaned Slab | 5 Profaned Rock @ AdamantiteForge → 5 | 5 Profaned Rock @ LunarCraftingStation → 5 |
 | Profaned Soul Artifact | 5 Divine Bar, 25 Chaosplate, 25 Exodium Cluster @ MythrilAnvil → 1 | 10 Soul Flux, 25 Cinderplate, 250 Living Holy Fire Block, 15 Divine Bar, 25 Luminite Bar @ DemonAltar → 1 |
+| Prominence | (nouvelle) | 7 Fae Dust, 5 Galactica Singularity, 10 Unholy Essence, 10 Cosmilite Slag, 5 Diamond @ LunarCraftingStation → 1 |
 | Providence, the Profaned Goddess | 1 Providence Trophy @ Bookcases → 1 | 1 Providence Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Proviplate | (nouvelle) | 1 Unholy Essence, 3 Obsidian @ Hellforge → 3 |
 | Pulse Dragon | 12 Mysterious Circuitry, 18 Dubious Plating, 8 Tarragon Bar, 4 Luminite Bar @ MythrilAnvil → 1 | 1 Reassembled Electronics, 8 Tarragon Bar, 4 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
@@ -1558,6 +1565,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Unicorn Wisp Dye | (nouvelle) | 1 Bottled Water, 1 Core of Sunlight @ DyeVat → 1 |
 | Universal Genesis | 1 Conference Call, 3 Star Cloak, 5 Cosmilite Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Disseminator, 3 Star Cloak, 2 Armored Shell, 8 Cosmilite Bar, 5 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Universal Genesis | (nouvelle) | 1 Disseminator, 3 Star Cloak, 2 Armored Shell, 1 Nebulous Core, 5 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| Unloxcalibur | (nouvelle) | 1 Roxcalibur, 1 Extractinator, 1 Solar Fragment, 1 Golden Key @ LunarCraftingStation → 1 |
 | Unsafe Eutrophic Sand Wall | (nouvelle) | 1 Eutrophic Sand @ WorkBenches → 4 |
 | Unsafe Navystone Wall | (nouvelle) | 1 Navystone @ WorkBenches → 4 |
 | Unsealed Singularity | (nouvelle) | 1 Sealed Singularity, 8 Cosmilite Bar, 2 Ascendant Spirit Essence, 5 Crystal of the Wicked @ CosmicAnvil → 1 |

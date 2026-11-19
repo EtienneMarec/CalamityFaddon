@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (234)
+## Objets (226)
 
 - A M S
 - AAMG "Disperse"
@@ -88,7 +88,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aquatic Shardstone
 - Arcanoid Orb
 - Arkflammator
-- Aspect of the End
 - Astralence
 - Bad Apple
 - Bazooka
@@ -96,7 +95,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Blobfish Plushie
 - Blood Element
 - Bloodinator 1
-- Bolide Launcher
 - Braxaxe
 - Bundle o' Bones
 - Butcher's Glove
@@ -109,7 +107,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Chemicircle
 - Chilled Soda Blade
 - Christmas Carol
-- Chrononimbus
 - Cirnogenic Staff
 - Cirrhotipede
 - Clamor Noxus
@@ -119,10 +116,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Consequences of Power
 - Cored Line
 - Corrupt Hypno Flute
-- Crius Prime
 - Crystallic Coin Gun
 - Cyberlight Striker
-- Dark Harvest Staff
 - Dart Sun
 - Deadflower
 - Death-Needle Stinger
@@ -161,7 +156,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Flint
 - Frightshooter
 - Frostflow Edge
-- Gamma Ray Burst
 - Gearwork Shield
 - Gel Sword
 - Gel Wand
@@ -230,7 +224,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Prism Destroyer
 - Profaned Crystal Dart
 - Profaned Fire Dart
-- Prominence
 - Quadlens Staff
 - Quantum Flahium Ejection Device
 - Quantum Flahium Militia Device
@@ -290,7 +283,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Twisted Netherite Shovel
 - Twisted Netherite Sword
 - Tyrant Shield
-- Unloxcalibur
 - UserGrahkon/Sandbox
 - Vehement Gemstone
 - Venus Flytrap

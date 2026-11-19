@@ -914,6 +914,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Lot Q : Fracture Staff (crawler qui bondit, cristaux), Holy Mackerel Staff (poissons, demi-place), Infernum Kris
       (humain qui lance des couteaux, se téléporte), The First Fracturer (rayons qui en appellent d'autres).
 
+- [ ] Lot R : Unloxcalibur, Aspect of the End, Gamma Ray Burst (yoyo qui frappe très vite), Dark Harvest Staff, Prominence
+      (tempête au curseur), Chrononimbus, Crius Prime (clic droit : charge), Bolide Launcher (comètes).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

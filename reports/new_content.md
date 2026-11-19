@@ -27,7 +27,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Aquatic Dissolution
 - [ ] Arkflammator — addon: Calamity: Tales of the Aquatic
 - [x] Arngren — addon: Calamity: Community Remix
-- [ ] Aspect of the End — addon: Calamity: Community Remix
+- [x] Aspect of the End — addon: Calamity: Community Remix
 - [x] Aspid Blaster
 - [x] Asteroid Staff
 - [x] Astral Blade
@@ -47,7 +47,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Bloody Edge
 - [x] Bloody Rupture
 - [x] Blow Pipe
-- [ ] Bolide Launcher — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [x] Bolide Launcher — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Bouncing Betty
 - [x] Bouncy Spiky Ball
 - [x] Breakthrough
@@ -76,7 +76,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Chemicircle — addon: Calamity: Tales of the Aquatic
 - [ ] Chilled Soda Blade — addon: Calamity: Community Remix
 - [ ] Christmas Carol — addon: Apotheosis and Friends
-- [ ] Chrononimbus — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [x] Chrononimbus — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [ ] Cirnogenic Staff — addon: Calamity: Community Remix
 - [ ] Cirrhotipede — addon: Calamity: Community Remix
 - [x] Clamor Noctus
@@ -97,7 +97,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Crimsaber
 - [x] Crimslime Staff
 - [x] Crimson Crusher Blade
-- [ ] Crius Prime — addon: Deimos, the Starborn Princess
+- [x] Crius Prime — addon: Deimos, the Starborn Princess
 - [x] Crustalline
 - [x] Crystal Blade
 - [x] Crystal Flare Staff
@@ -106,7 +106,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Cursed Spear — addon: Calamity: Community Remix
 - [ ] Cyberlight Striker — addon: Calamity: Tales of the Aquatic
 - [x] Dark Energy Staff — addon: Calamity: Community Remix
-- [ ] Dark Harvest Staff — addon: Calamity: Community Remix
+- [x] Dark Harvest Staff — addon: Calamity: Community Remix
 - [ ] Dart Sun — addon: Calamity: Tales of the Aquatic
 - [ ] Dead Star's Laser Rifle — addon: Tranquility Mod
 - [ ] Death-Needle Stinger — addon: Calamity: Community Remix
@@ -173,7 +173,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Frost Blade
 - [ ] Frostflow Edge — addon: Calamity: Tales of the Aquatic
 - [x] Fulguration Halberd
-- [ ] Gamma Ray Burst — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [x] Gamma Ray Burst — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Garth
 - [x] Gatling Laser
 - [x] Gauss Dagger
@@ -305,7 +305,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Prism Destroyer — addon: Calamity: Community Remix
 - [x] Profaned Nucleus — addon: Calamity: Community Remix
 - [ ] Profaned Whiplash — addon: Tranquility Mod
-- [ ] Prominence — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
+- [x] Prominence — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Pumplerfaust — addon: Calamity: Community Remix
 - [x] Pungent Bomber
 - [x] Purgatory Blaster — addon: Calamity: Tales of the Aquatic
@@ -427,7 +427,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Twisted Netherite Sword — addon: Calamity: Community Remix
 - [ ] Tyrant Shield — addon: Calamity: Community Remix
 - [x] Unending Void
-- [ ] Unloxcalibur — addon: Calamity: Community Remix
+- [x] Unloxcalibur — addon: Calamity: Community Remix
 - [x] Unsealed Singularity — addon: Calamity: Community Remix
 - [x] Urchin Flail
 - [x] Urchin Spear

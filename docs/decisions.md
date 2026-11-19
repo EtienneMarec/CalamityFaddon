@@ -1884,6 +1884,20 @@ Armes fabricables à l'enclume (recettes du wiki). Valeurs des infobox, sprites 
 - **[technique]** The First Fracturer : estoc à l'ancienne (Thrust) ; rayon bleu ; au contact, 3 à 5 rayons à 50 %
   arrivent de 900 px autour de l'ennemi (eux ne se multiplient pas).
 
+### Lot R du 19/11 (`Content/Items/Weapons/WikiWeapons1119n.cs`)
+
+Armes fabricables à l'Ancient Manipulator (recettes du wiki). Valeurs des infobox ; « Embers of Duality » = God Slayer
+Inferno de Calamity.
+
+- Unloxcalibur, Aspect of the End : épées sans effet (pages).
+- **[choix]** Gamma Ray Burst : yoyo (texture du Kraken teintée), immunité locale de 4 images, portée 320 ; infobulle inventée
+  (« Ignores enemy immunity frames », la page n'en a pas).
+- **[choix]** Dark Harvest Staff : citrouille vanilla assombrie, rebonds (x0,8), 2 à 4 morceaux à 20 %.
+- **[choix]** Prominence : 4 lasers droits et 2 lances chercheuses depuis 500 px autour du curseur.
+- **[choix]** Chrononimbus : 5 lames en éventail ; 2 flammes chercheuses à 30 % par coup.
+- **[choix]** Crius Prime : clic droit = charge jusqu'à 2 s (2 mana / 10 images), dégâts x1 à x5, 5 rebonds.
+- **[choix]** Bolide Launcher : 2 Galactica Comets (sprite du wiki) à 250 % par tir.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par
