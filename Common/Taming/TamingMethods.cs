@@ -108,6 +108,11 @@ namespace CalamityFandom.Common.Taming
                     if (p != null && p.Calamity().ZoneCalamity)
                         f.Progress++;
                     break;
+                // « Lead Pyrogen into the Surface Snow biome » : la neige en surface seulement (pas la toundra souterraine)
+                case "Pyrogen":
+                    if (p != null && p.ZoneSnow && p.ZoneOverworldHeight)
+                        f.Progress++;
+                    break;
                 // « Make 30 circles around the Eye of Cthulhu. All circles must be in the same direction »
                 case "Eye of Cthulhu":
                     // [validé 31/10] Seul le mouvement du joueur compte : angle de son ancienne et de sa nouvelle position,

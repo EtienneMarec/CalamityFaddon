@@ -839,11 +839,30 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       éclatent ; frappe furtive : toupie de feu), Large Father (foreuse 280 % ; clic droit : coup qui mine 7 x 7 blocs),
       Prehistoric Tablet (Mauler ; Sulphur Elemental : 3 nuages acides puis 5 ruées).
 
+- [ ] **Pyrogen** (`Content/NPCs/Pyrogen/`) : en Hardmode, jeter une Cryo Key dans la lave → Pyrogen apparaît (rugissement).
+      Bouclier : les projectiles qui l'approchent disparaissent (pas les sbires ni la mêlée). Phase 1 : tourne autour du
+      joueur, rafales de 13 éclats, après 4 tours ruée vers le bord puis ruée visée (bouclier absent 4 s). Phase 2 : au-dessus,
+      2 salves d'éclats qui retombent, se plantent et explosent ; ruées depuis le dessous ; arrêt avec anneaux de Magma Blasts.
+      Phase 3 : sans bouclier, rangées de morceaux qui montent sous le joueur. Phase 4 : bouclier écarté qui tourne et blesse,
+      Magma Blasts visés, téléportations annoncées par de la poussière orange. Sous 44 % (55 % en Rev.) : message « Pyrogen
+      spins into a hellstorm! », il tourne, attire le joueur, anneaux d'éclats, dégâts reçus divisés par 2, puis amas qui
+      éclate. Hors de l'Underworld : tout va deux fois plus vite. Butin : armes de la page (Obsidigun, Seared Shredder,
+      Molten Piercer, The Generator, Hell's Bells), Soul of Pyrogen (20 %, +20 % mêlée, lances du sol en vraie mêlée).
+      Taming : l'amener dans la neige en surface (3 s cumulées en Full, 20 s en Calamity++).
+- [ ] Hell's Bells : la cloche suit le curseur et sonne un anneau de feu toutes les 50 images. Seared Shredder : faux de
+      feu qui ralentissent et tournent sur place.
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
 - **Difficulté du Taming** (31/10) : propositions boss par boss pour Calamity++ dans `docs/decisions.md` (section Taming).
 
+- [ ] (19/11) **Pyrogen, après sa défaite** (page, « Aftermath ») : « Defeating Pyrogen will free the Guide » (le Guide
+      n'arriverait qu'après Pyrogen, fin du Hardmode !) et « Scoria Ore spawns in the Abyss » (Calamity la fait apparaître
+      après Golem ? à vérifier). Proposition : ni l'un ni l'autre en Calamity++ ; en Full Fandom, le Guide ne vient
+      qu'après Pyrogen et la Scoria apparaît à sa première défaite (en plus de la règle de Calamity). À trancher.
+- [ ] (19/11) **Pyrogen, Hellstorm** : la page donne au contact pendant le Hellstorm {{dv||300|500|6666}} et Dragon Fire
+      **30 minutes**. Appliqué tel quel dans les deux modes ; en Calamity++ proposer 1 min de Dragon Fire et 6666 → 700 ?
 - [ ] (29/10, en partie tranché le 30/10 : Exo Gladius porté avec sa page, Microcell Cut créée d'après la Disease ;
       restent Elemental Shiv et Lucrecia) Shortstrike, dernières armes du tableau : **Exo Gladius** (ancien objet retiré en 2022 ; sa page invente
       une explosion et une **parade au clic droit**, en conflit avec le Shortflurry comme le lancer du Galileo),

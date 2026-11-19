@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 457 drops ajoutés sur 208 PNJ
+- 471 drops ajoutés sur 209 PNJ
 - 113 ajouts dans 26 sacs
 - 567 drops du wiki déjà présents dans le jeu (inchangés)
 - 131 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 28 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 114 PNJ du wiki absents du jeu, 62 objets introuvables
+- 113 PNJ du wiki absents du jeu, 68 objets introuvables
 
 ## Ajouts
 
@@ -171,6 +171,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Prism-Back** : Prism Shard 1-3 à 100.0% [After defeating Desert Scourge] ; Clam Chowder 1-1 à 2.0%
 - **Providence, the Profaned Goddess** : Rune of Kos 1-1 à 100.0% [Always on first kill] (mode normal) ; Rune of Kos 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Blazing Core 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Providence, the Profaned Goddess 1-1 à 100.0% [Always on first kill] (mode normal) ; Providence, the Profaned Goddess 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **Province Pilferer** : Bone 9-13 à 100.0% ; Fleshy Geode 1-1 à 10.0%
+- **Pyrogen** : Essence of Chaos 4-8 à 100.0% (mode normal) ; Essence of Chaos 5-9 à 100.0% (Expert, direct) ; Core of Sunlight 4-8 à 100.0% (mode normal) ; Core of Sunlight 5-9 à 100.0% (Expert, direct) ; Core of Chaos 4-8 à 100.0% (mode normal) ; Core of Chaos 5-9 à 100.0% (Expert, direct) ; Core of Eleum 4-8 à 100.0% (mode normal) ; Core of Eleum 5-9 à 100.0% (Expert, direct) ; Soul of Pyrogen 1-1 à 100.0% (mode normal) ; Soul of Pyrogen 1-1 à 100.0% (Expert, direct) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (Expert, direct) ; un parmi : Obsidigun, Seared Shredder, Molten Piercer, The Generator, Hell's Bells (mode normal) ; un parmi : Obsidigun, Seared Shredder, Molten Piercer, The Generator, Hell's Bells (Expert, direct)
 - **Rat** : Cheese 1-2 à 0.1% [in Godseeker Mode]
 - **Reaper Shark** : Depth Cells 10-17 à 50.0% [After defeating Calamitas] ; The Reaper 1-1 à 10.0% [After defeating Polterghast] ; Cloaking Gland 2-3 à 100.0%
 - **Rodent.tmod** : Darksun Fragment 2-3 à 75.0%
@@ -299,7 +300,9 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Frigid Bar — 1
 - Ghast Relic — 1
 - Green Demon Head — 1
+- Heated Profanity — 1
 - Heaven's Crown — 1
+- Hell Flare — 1
 - Hi-Scan Camera — 1
 - Holiday Halberd — 1
 - Holy Purge — 1
@@ -320,6 +323,10 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Profaned Nucleus — 1
 - Profaned Whiplash — 1
 - Purgatory Blaster — 1
+- Pyro Stone — 1
+- Pyrogen (Lore) — 1
+- Pyrogen Mask — 1
+- Pyrogen Trophy — 1
 - Reloadable Rapid-Fire Shooter — 1
 - Sandstorm (weapon) — 1
 - Spear of Liberty — 1

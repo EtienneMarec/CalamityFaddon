@@ -152,9 +152,11 @@ namespace CalamityFandom.Common.Taming
                 ModContent.NPCType<CalamityMod.NPCs.SlimeGod.EbonianPaladin>(), ModContent.NPCType<CalamityMod.NPCs.SlimeGod.CrimulanPaladin>(),
                 ModContent.NPCType<CalamityMod.NPCs.SlimeGod.SplitEbonianPaladin>(), ModContent.NPCType<CalamityMod.NPCs.SlimeGod.SplitCrimulanPaladin>());
             Add("Wall of Flesh", 1, 0, NPCID.WallofFlesh, NPCID.WallofFleshEye);
-            // Hardmode. TODO : Cumulomenace, Pyrogen, The Derellect, Polyphemalus (inventés)
+            // Hardmode. TODO : Cumulomenace, The Derellect, Polyphemalus (inventés)
             Add("Queen Slime", 100, 1, NPCID.QueenSlimeBoss);
             Add("Cryogen", 180, 1, ModContent.NPCType<Cryogen>());
+            // « Lead Pyrogen into the Surface Snow biome » (Content/NPCs/Pyrogen, boss inventé)
+            Add("Pyrogen", 180, 1, ModContent.NPCType<Content.NPCs.Pyrogen.Pyrogen>());
             // « Have five new Town NPCs move into the brimstone crag while the Brimstone Elemental is alive »
             Add("Brimstone Elemental", 5, 1, ModContent.NPCType<CalamityMod.NPCs.BrimstoneElemental.BrimstoneElemental>());
             Add("The Twins", 60 * 60, 1, NPCID.Retinazer, NPCID.Spazmatism);

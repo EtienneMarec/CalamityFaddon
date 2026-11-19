@@ -5,7 +5,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - 1462 objets dont les recettes ont changé : 1036 recettes modifiées, 514 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
-- 64 transmutations Shimmer ajoutées
+- 65 transmutations Shimmer ajoutées
 - 74 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 97 recettes
 
 ## Recettes changées

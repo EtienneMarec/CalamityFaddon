@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 
-## PNJ (89)
+## PNJ (88)
 
 - Acidsighter
 - Aetherial Guardian, Olistene
@@ -70,7 +70,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Profusion, the Viral God
 - Provig
 - Purgatory Arbiter, Umbrus
-- Pyrogen
 - Serial Designation N
 - Sigmund
 - Soul of the Eternal Intellect of Infinite Verboten Knowledge
@@ -94,7 +93,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (286)
+## Objets (284)
 
 - A M S
 - AAMG "Disperse"
@@ -225,7 +224,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Halberd of the Holidays
 - Hand Hook
 - Helios Partisan
-- Hell's Bells
 - Hemorr-Rang
 - Heterochromia
 - Hi-Scan Camera
@@ -311,7 +309,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Salt Water Bolt
 - Sandstorm (weapon)
 - Sanguined Catarachedrae
-- Seared Shredder
 - Severed Eye.exe
 - Shading Manual
 - Shadow's Descent

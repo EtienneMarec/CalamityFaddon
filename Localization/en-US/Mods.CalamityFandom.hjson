@@ -2325,6 +2325,24 @@ Items: {
 			Pressing right click while the saw is out will call it back to you faster, causing an explosion
 			'''
 	}
+	SoulofPyrogen: {
+		DisplayName: Soul of Pyrogen
+		Tooltip:
+			'''
+			20% increased Melee damage
+			True Melee strikes create spears from the ground
+			'''
+	}
+
+	SearedShredder: {
+		DisplayName: Seared Shredder
+		Tooltip: Shoots a flame scythe
+	}
+
+	HellsBells: {
+		DisplayName: Hell's Bells
+		Tooltip: Summons an obsidian bell that follows the cursor
+	}
 }
 
 Projectiles: {
@@ -2730,6 +2748,45 @@ Projectiles: {
 	ElementalSawBlast: {
 		DisplayName: Rainbow Blast
 	}
+	PyrogenShard: {
+		DisplayName: Obsidian Shard
+	}
+
+	PyrogenFallingShard: {
+		DisplayName: Obsidian Shard
+	}
+
+	MagmaBlast: {
+		DisplayName: Magma Blast
+	}
+
+	PyrogenShieldPiece: {
+		DisplayName: Obsidian Shield
+	}
+
+	PyrogenOrbitPiece: {
+		DisplayName: Obsidian Shield
+	}
+
+	ObsidianCluster: {
+		DisplayName: Obsidian Cluster
+	}
+
+	Pyrospear: {
+		DisplayName: Pyrospear
+	}
+
+	FlameScythe: {
+		DisplayName: Flame Scythe
+	}
+
+	ObsidianBell: {
+		DisplayName: Obsidian Bell
+	}
+
+	BellChime: {
+		DisplayName: Chime
+	}
 }
 
 Shortstrike.Gauge:
@@ -3012,6 +3069,10 @@ Buffs: {
 		DisplayName: Sulphur Elemental
 		Description: A sulphur elemental will protect you
 	}
+	ObsidianBellBuff: {
+		DisplayName: Obsidian bell
+		Description: The hellish bell will protect you
+	}
 }
 
 Modes: {
@@ -3142,6 +3203,11 @@ NPCs: {
 	ArmoredDiggerBody.DisplayName: Armored Digger
 	ArmoredDiggerTail.DisplayName: Armored Digger
 	EstrangedSonHead.DisplayName: Estranged Son
+	Pyrogen: {
+		DisplayName: Pyrogen
+		Bestiary: A construct of the same nature as Cryogen, sleeping in the searing lakes of the Underworld. Its obsidian shield destroys whatever is thrown at it.
+		Hellstorm: Pyrogen spins into a hellstorm!
+	}
 }
 
 Proficiency: {

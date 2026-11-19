@@ -329,7 +329,7 @@ namespace CalamityFandom.Common.Debug
                 && Common.Taming.TamingSystem.Get("Crabulon").Calm == (plus ? 3600 : 0) && Common.Taming.TamingSystem.TaxGap == (plus ? 60 : 0)
                 && Common.Taming.TamingBees.Goal == (plus ? 40 : 100) && Common.Taming.TamingBees.HiveOnly == plus,
                 "Taming : difficulté de Calamity++ (Destroyer 8, Skeletron 3 mini-jeux, calme de Crabulon, taxes espacées)");
-            Expect(tames.Count == 43 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
+            Expect(tames.Count == 44 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
                 + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));
@@ -428,6 +428,16 @@ namespace CalamityFandom.Common.Debug
             foreach (string looted in new[] { "Creature Capsule", "Guardians Wrath", "Hailberd", "Pizza Wheel", "Sign of the Operator", "Elder Berry", "Metamorphic Stone" })
                 Expect(!WikiLoot.MissingItems.ContainsKey(looted) && WikiRecipes.ResolveItem(looted) > 0, $"{looted} trouvé par le butin");
             Expect(Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<Content.NPCs.Inventors.JohnWulfrum>()).Count > 0, "butin des Inventors");
+            // 19/11 : Pyrogen (boss inventé) : butin de la page, apprivoisement, invocation par la Cryo Key
+            var pyroRates = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<Content.NPCs.Pyrogen.Pyrogen>(), false))
+                r.ReportDroprates(pyroRates, new DropRateInfoChainFeed(1f));
+            foreach (int looted in new[] { ModContent.ItemType<Content.Items.Weapons.Ranged.Obsidigun>(), ModContent.ItemType<Content.Items.Weapons.Rogue.MoltenPiercer>(),
+                ModContent.ItemType<Content.Items.Weapons.Magic.TheGenerator>(), ModContent.ItemType<Content.Items.Weapons.Melee.SearedShredder>(),
+                ModContent.ItemType<Content.Items.Weapons.Summon.HellsBells>(), ModContent.ItemType<Content.Items.Accessories.SoulofPyrogen>() })
+                Expect(pyroRates.Any(r => r.itemId == looted), $"Pyrogen lâche {Lang.GetItemNameValue(looted)}");
+            Expect(Common.Taming.TamingSystem.Get("Pyrogen") != null, "Pyrogen apprivoisable (neige en surface)");
+            Expect(WikiNames.FindNPCs("Pyrogen").Contains(ModContent.NPCType<Content.NPCs.Pyrogen.Pyrogen>()), "Pyrogen trouvé par son nom");
             // 13/11 : Skynamite de Calamity sous le nom du wiki
             if (ModContent.TryFind<ModItem>("CalamityMod", "Skynamite", out var skynamite))
                 Expect(WikiRecipes.ResolveItem("Aero Dynamite") == skynamite.Type, "Skynamite renommée Aero Dynamite");

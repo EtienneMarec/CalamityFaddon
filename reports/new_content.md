@@ -34,7 +34,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Astral Bow
 - [ ] Astralence — addon: Calamity: Tales of the Aquatic
 - [x] Auric Sword
-- [ ] Axisdriver
+- [x] Axisdriver
 - [ ] Bad Apple
 - [ ] Baow — addon: Calamity: Community Remix
 - [ ] Bazooka
@@ -144,7 +144,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Elemental Bow
 - [x] Elemental Claymore
 - [x] Elemental Excalibur
-- [ ] Elemental Saw Launcher
+- [x] Elemental Saw Launcher
 - [ ] Elusive Feather
 - [ ] Endentant Bow — addon: Calamity: Tales of the Aquatic
 - [x] Ethereal Knives
@@ -174,7 +174,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Frostflow Edge — addon: Calamity: Tales of the Aquatic
 - [x] Fulguration Halberd
 - [ ] Gamma Ray Burst — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
-- [ ] Garth
+- [x] Garth
 - [x] Gatling Laser
 - [x] Gauss Dagger
 - [x] Gauss Pistol
@@ -257,7 +257,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Midas' Handshake
 - [ ] Miracle Smacker — addon: Calamitous Journeys
 - [x] Molecular Manipulator
-- [ ] Molten Piercer
+- [x] Molten Piercer
 - [x] Monkey Darts
 - [x] Moonstone Knives
 - [ ] Morpho Doomblade
@@ -272,11 +272,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Nychthemeron
 - [ ] Nystagmus — addon: Polyphemalus
 - [ ] OPFT "Sublimate" — pas de sprite
-- [ ] Obsidigun
+- [x] Obsidigun
 - [ ] Ogscule — addon: Calamity's Vanities
 - [ ] Omega Ray — addon: Calamity: Community Remix
 - [ ] Onyx Gunblade — addon: Calamity: Community Remix
-- [ ] Onyx Minigun
+- [x] Onyx Minigun
 - [x] Onyx Purge
 - [ ] Onyx Staff — addon: Calamity: Community Remix
 - [ ] Ore Spawner Staff
@@ -328,7 +328,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Rods from God
 - [ ] Rose Bow — addon: Calamity: Community Remix
 - [ ] Rox — addon: Calamity: Community Remix
-- [ ] SDOMG
+- [x] SDOMG
 - [ ] Salt Booklet — addon: Cataclysm
 - [ ] Salt Water Bolt — addon: Cataclysm
 - [x] Sandslasher
@@ -336,7 +336,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Sea Stone Shuriken
 - [x] Sea Stone Sickle
 - [x] Seabow
-- [ ] Seared Shredder
+- [x] Seared Shredder
 - [x] Seashell Boomerang
 - [ ] Severed Eye.exe — addon: Calamity: Community Remix
 - [x] Sewer Brewer
@@ -396,7 +396,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] The Enforcer
 - [ ] The First Fracturer — addon: Calamity: Community Remix
 - [x] The Food Chain
-- [ ] The Generator
+- [x] The Generator
 - [ ] The Inflator's Controller — addon: Calamity: Community Remix
 - [x] The Insacred Texts
 - [ ] The King's Gambit — addon: Calamity: Community Remix
@@ -426,7 +426,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Twisted Netherite Scythe — addon: Calamity: Community Remix
 - [ ] Twisted Netherite Sword — addon: Calamity: Community Remix
 - [ ] Tyrant Shield — addon: Calamity: Community Remix
-- [ ] Unending Void
+- [x] Unending Void
 - [ ] Unloxcalibur — addon: Calamity: Community Remix
 - [ ] Unsealed Singularity — addon: Calamity: Community Remix
 - [x] Urchin Flail
@@ -452,7 +452,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Winter Breeze — addon: Apotheosis and Friends
 - [ ] Wisdom of Survival — addon: Calamity: Tales of the Aquatic
 - [x] Wooden Butterfly Staff
-- [ ] Worst Prism
+- [x] Worst Prism
 - [x] Wrath of the Ancients
 - [ ] Wrath of the Cosmos — addon: Calamity: Community Remix
 - [ ] Wrath of the Dragons — addon: Calamity: Community Remix
@@ -699,7 +699,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Plague Balloon
 - [x] Plague Hive
 - [ ] Polypebral Shield
-- [ ] Prehistoric Tablet
+- [x] Prehistoric Tablet
 - [x] Psychotic Amulet
 - [ ] Quantum Flahium Ejection Device
 - [ ] Quantum Flahium Militia Device
@@ -729,7 +729,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Soul of Oxygen
 - [ ] Soul of Pathogen
 - [ ] Soul of Phytogen
-- [ ] Soul of Pyrogen
+- [x] Soul of Pyrogen
 - [ ] Spy's Lootbox — addon: Calamity: Community Remix
 - [x] Static Wings
 - [x] Sulfuric Scale
@@ -975,7 +975,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Profaned Guardians
 - [ ] Profusion, the Viral God — stub
 - [ ] Provig — stub; addon: Wrath of the Gods
-- [ ] Pyrogen
+- [x] Pyrogen
 - [ ] Seeker — pas de sprite
 - [ ] Serial Designation N — addon: Sloome
 - [ ] Sigmund — addon: Catalyst
@@ -1153,7 +1153,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Honey Cooling Cell
 - [x] Impact Adjuster
 - [ ] Iron Heart
-- [ ] Large Father
+- [x] Large Father
 - [x] Lithos Pickaxe
 - [ ] Moonlight
 - [ ] Onyx Overlord's Gunsaw — addon: Calamity: Community Remix

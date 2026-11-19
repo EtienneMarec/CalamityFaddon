@@ -1604,6 +1604,39 @@ Bronze** : ces boss n'existent pas encore, les objets ne s'obtiennent donc pas p
   « recette du wiki » de l'auto-test.
 - **[choix]** **Pizza Wheel** (lot G) : infobulle inventée « Summons pizzas that roll across the screen » (pas sur le wiki).
 
+### Pyrogen (`Content/NPCs/Pyrogen/`, 19/11)
+
+Boss inventé par la page Pyrogen (dans Calamity, « Pyrogen » n'est que le nom de Cryogen sur la graine Zenith). Valeurs de
+l'infobox : vie {{dv|44 000|52 000|66 600}}, contact {{dv|70|130|145|172}}, Magma Blast {{dv|46|80|96|108}}, éclats
+{{dv|42|54|78|112}}, défense 24, DR 20 %, 20 or, immunités et debuffs de l'infobox ; butin par WikiLoot.
+
+- **[choix]** Invocation : une Cryo Key **qui touche la lave** en Hardmode (n'importe où), consumée ; Pyrogen apparaît
+  près du joueur le plus proche (`NPC.SpawnOnPlayer`). Pas de condition de zone.
+- **[choix]** Bouclier : détruit les projectiles des joueurs à 110 px du centre (pas les sbires, sentinelles, lances et
+  projectiles tenus : la mêlée le traverse, comme le dit la page) ; dessiné avec l'image du bouclier de Cryogen en
+  obsidienne. Absent quand il est « séparé » (4 s après la ruée de la phase 1, 3 s à la fin de la phase 2), en phase 3
+  (les morceaux montent du sol) et pendant le Hellstorm ; écarté en phase 4 (8 morceaux à 180 px qui blessent et
+  arrêtent les projectiles qui les touchent, le centre est touchable).
+- **[choix]** Rythme : vitesse x(1 + 0,5 x vie perdue), x1,1 en Expert, x1,15 en Revengeance, **x2 hors de l'Underworld
+  et du Brimstone Crag** (« enrage »). Phase 1 : un tour en 3 s à 450 px, 13 éclats tous les 4 s, 4 tours ; phase 2 :
+  2 salves de 10 éclats (plantés 1,5 s puis 6 éclats), 3 ruées (4 en Rev.), 12 Magma Blasts tous les 45 images pendant
+  3 s ; phase 3 : 8 s, rangées de 9 morceaux tous les 170 px ; phase 4 : 10 s, Magma Blast toutes les 30 images,
+  téléportation toutes les 5 s (endroit annoncé 2 s avant, devant la trajectoire du joueur). Death Mode : téléportations
+  dans toutes les phases.
+- **[choix]** Hellstorm : une fois, sous 44 % (55 % en Revengeance) ; 8 s ; attire le joueur (0,3 par image à moins de
+  100 blocs) ; anneau de 16 éclats à 750 px toutes les 40 images ; amas final de 30 éclats. Le bouclier revient ensuite.
+  Contact : {{dv||300|500|6666}} et Dragon Fire 30 min (valeurs de la page, voir « décisions en attente » de TESTS.md).
+- **[choix]** Musique : celle de la Pumpkin Moon (la page : « If the Calamity Music add-on mod is disabled »). Icône de
+  carte : `Pyrogen-IconT2.png` du wiki.
+- **[choix]** Taming : « Lead Pyrogen into the Surface Snow biome » = neige **et** hauteur de surface ; 3 s cumulées en
+  Full Fandom (comme Cryogen), 20 s en Calamity++ (`Balance/taming.json`, comme Cryogen). Récompense (Frozen Heater) : pas
+  d'objet, comme les autres récompenses en attente.
+- **[technique]** Pas de sac au trésor (pas de page) : en Expert, le butin tombe directement (règle de WikiLoot pour un
+  boss sans sac). Pyrogen Mask, Trophy, Lore, Pyro Stone, Hell Flare, Heated Profanity : pas de page, pas d'objet.
+- **[choix]** Soul of Pyrogen : lances = épines Sharp Tears vanilla en orange, 5 sous la cible, au plus une salve toutes
+  les 20 images. Seared Shredder : faux = texture de la Death Sickle en orange, ralentit après 20 images. Hell's Bells :
+  1 place de sbire, carillon de 160 px toutes les 50 images, icône du buff = sprite de l'arme.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par
