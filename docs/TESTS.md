@@ -928,6 +928,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       les blocs), Cyberlight Striker (clic droit : cible → fléchettes chercheuses), Phantasmal Rune (fantômes ou feu qui se
       propage sur les coups de sbires).
 
+- [ ] Lot V : Coldetecht, Gluehunter (balles chercheuses), Hyperhavoc, Coldant Firestarter (clic droit : flammes autour,
+      +20 défense), Abysscent Derailer (roquettes → étoiles), Noctic Weaver (toiles), Waterfrosia (pluie qui remonte),
+      Nocturnal Odyssey (orbes autour d'un ennemi), Silva Module.
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

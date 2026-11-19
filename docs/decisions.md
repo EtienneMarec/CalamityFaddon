@@ -1944,6 +1944,24 @@ Objets fabricables à l'étape « Capsules » de l'Aquatic Hypercomputer. Valeur
   « Phantasmal Fire » (debuff de ce mod, 15 PV/s, 10 s, se propage par un orbe toutes les 2 s à 25 blocs).
 - Pas faits : Duet Hit (deux fouets à la fois), The Ones Striker (pièces de Calamity et de ce mod en munitions).
 
+### Lot V du 19/11 (`Content/Items/Weapons/WikiWeapons1119r.cs`)
+
+Objets fabricables à l'étape « ERM » de l'Aquatic Hypercomputer. Valeurs des infobox ; raretés « C1 »/« C2 » → 0 (règle
+de la section 3) ; Evercold = debuff de ce mod (5 s).
+
+- **[choix]** Coldetecht : dispersion de ±5° (« 10 degree spread »). Gluehunter : balles chercheuses à 900 px.
+- **[choix]** Hyperhavoc : comme le Microhavoc (gel, cadence fixe), 3 blocs traversés ; « Abyssal Flames » n'existe pas :
+  Holy Flames 4 s seul.
+- **[choix]** Coldant Firestarter : clic droit = flammes qui tournent à 80 px ; +20 défense tant qu'il y en a une.
+- **[choix]** Abysscent Derailer : utilise des roquettes, toujours la même bombe ; 5 étoiles (Hallow Star vanilla bleuie)
+  qui cherchent lentement.
+- **[choix]** Noctic Weaver : toile collée 5 s (50 %, un coup par seconde), ralentit les non-boss (x0,9 par image).
+- **[choix]** Waterfrosia : 2 gouttes par utilisation au-dessus du curseur ; demi-tour à 1,5 bloc d'un sol solide.
+- **[choix]** Nocturnal Odyssey : il faut un ennemi à 25 blocs du curseur ; cercle de 160 px qui rétrécit de 28 px/s ;
+  explosions de 60 px.
+- Pas faits : Cored Line (fouet), Evercoldance (sentinelle aux debuffs « abyssaux » non définis), Gluelic Blade (deux modes,
+  page incohérente : « Cutter's Gift »).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

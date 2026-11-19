@@ -6,7 +6,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 - [ ] A M S
 - [ ] AAMG "Disperse" — pas de sprite; addon: Calamity: Tales of the Aquatic
-- [ ] Abysscent Derailer — addon: Calamity: Tales of the Aquatic
+- [x] Abysscent Derailer — addon: Calamity: Tales of the Aquatic
 - [ ] Abysscent Pistol — addon: Calamity: Tales of the Aquatic
 - [ ] Ace's Low — addon: Calamity: Community Remix
 - [x] Acid Bow
@@ -82,8 +82,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Clamor Noctus
 - [ ] Clamor Noxus — addon: Calamity: Community Remix
 - [ ] Cobadium Rifle — addon: Calamity: Tales of the Aquatic
-- [ ] Coldant Firestarter
-- [ ] Coldetecht — addon: Calamity: Tales of the Aquatic
+- [x] Coldant Firestarter
+- [x] Coldetecht — addon: Calamity: Tales of the Aquatic
 - [ ] Conclave Crossfire
 - [x] Confection — addon: Calamity: Community Remix
 - [ ] Consequences of Power
@@ -184,7 +184,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Ghoststreaker — addon: Calamity: Tales of the Aquatic
 - [x] Glacial Crusher
 - [ ] Gloomy Trident — addon: Calamity: Community Remix
-- [ ] Gluehunter — addon: Calamity: Tales of the Aquatic
+- [x] Gluehunter — addon: Calamity: Tales of the Aquatic
 - [ ] Gluelic Blade — addon: Calamity: Tales of the Aquatic
 - [x] Golden Gun
 - [x] Gourdler — addon: Calamity: Community Remix
@@ -216,7 +216,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Holy Mackerel Staff — addon: Calamity: Community Remix
 - [ ] Holy Napalm Launcher — addon: Calamity: Tales of the Aquatic
 - [ ] Holy Purge — addon: Tranquility Mod
-- [ ] Hyperhavoc — addon: Calamity: Tales of the Aquatic
+- [x] Hyperhavoc — addon: Calamity: Tales of the Aquatic
 - [x] Ichor Dagger — addon: Calamity: Community Remix
 - [ ] Ifflamator — addon: Calamity: Tales of the Aquatic
 - [x] Impaler
@@ -266,8 +266,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Neutron Star
 - [x] Night's Stabber
 - [x] Nightic Blaster — addon: Calamity: Tales of the Aquatic
-- [ ] Noctic Weaver — addon: Calamity: Tales of the Aquatic
-- [ ] Nocturnal Odyssey — addon: Calamity: Tales of the Aquatic
+- [x] Noctic Weaver — addon: Calamity: Tales of the Aquatic
+- [x] Nocturnal Odyssey — addon: Calamity: Tales of the Aquatic
 - [ ] Noxcalibur
 - [x] Nychthemeron
 - [ ] Nystagmus — addon: Polyphemalus
@@ -446,7 +446,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Warblade
 - [x] Warbow
 - [x] Warglaive
-- [ ] Waterfrosia — addon: Calamity: Tales of the Aquatic
+- [x] Waterfrosia — addon: Calamity: Tales of the Aquatic
 - [ ] Whipped Bouquet Blade — addon: Calamity: Community Remix
 - [ ] Wind Turbine Blade — addon: Calamity: Community Remix
 - [ ] Winter Breeze — addon: Apotheosis and Friends
@@ -718,7 +718,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Shadowspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [ ] Shattered Module — addon: Calamity: Tales of the Aquatic
 - [x] Shatterspectre Tracers — addon: Calamity: Tales of the Aquatic
-- [ ] Silva Module — addon: Calamity: Tales of the Aquatic
+- [x] Silva Module — addon: Calamity: Tales of the Aquatic
 - [ ] Silver Heart
 - [ ] Slimelgamation — addon: Calamity: Community Remix
 - [ ] Slimy Wisdom Tooth — addon: Calamity: Community Remix

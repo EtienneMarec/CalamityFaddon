@@ -3063,6 +3063,64 @@ Items: {
 		DisplayName: Phantasmal Rune
 		Tooltip: Whenever your minions hit an enemy they have a chance to spawn a ghost that damages your enemies or create a fire that launches orbs that spread the fire
 	}
+	Coldetecht: {
+		DisplayName: Coldetecht
+		Tooltip:
+			'''
+			Enemies are fast, but the firerate is faster.
+			'''
+	}
+
+	Gluehunter: {
+		DisplayName: Gluehunter
+		Tooltip: Hunts your enemies with no possibility to escape.
+	}
+
+	Hyperhavoc: {
+		DisplayName: Hyperhavoc
+		Tooltip: Fires a beam of Abyssal and Holy Flames
+	}
+
+	ColdantFirestarter: {
+		DisplayName: Coldant Firestarter
+		Tooltip:
+			'''
+			very cold and very hot, 90% chance to not use gel. Right click to cause the flames to circle around you and give you defense
+			'''
+	}
+
+	AbysscentDerailer: {
+		DisplayName: Abysscent Derailer
+		Tooltip: Derails your enemies
+	}
+
+	NocticWeaver: {
+		DisplayName: Noctic Weaver
+		Tooltip: Shoots lacelic webs into your enemies
+	}
+
+	Waterfrosia: {
+		DisplayName: Waterfrosia
+		Tooltip:
+			'''
+			Causes rain to fall from the sky, the rain switches gravity and goes up right before hitting the ground
+			'''
+	}
+
+	NocturnalOdyssey: {
+		DisplayName: Nocturnal Odyssey
+		Tooltip: creates a circle of orbs that circle around your enemies and explode
+	}
+
+	SilvaModule: {
+		DisplayName: Silva Module
+		Tooltip:
+			'''
+			15 defense
+			20% increased damage
+			20% increase damage reduction
+			'''
+	}
 }
 
 Projectiles: {
@@ -3977,6 +4035,37 @@ Projectiles: {
 
 	PhantasmalFireOrb: {
 		DisplayName: Phantasmal Fire
+	}
+	HavocBeam: {
+		DisplayName: Abyssal and Holy Flames
+	}
+
+	ColdantFlame: {
+		DisplayName: Cold Flame
+	}
+
+	DerailerBomb: {
+		DisplayName: Abysscent Bomb
+	}
+
+	AbyssStar: {
+		DisplayName: Abyss Star
+	}
+
+	LacelicWeb: {
+		DisplayName: Lacelic Web
+	}
+
+	FrosiaRain: {
+		DisplayName: Frosia Rain
+	}
+
+	OdysseyOrb: {
+		DisplayName: Nocturnal Orb
+	}
+
+	OdysseyBlast: {
+		DisplayName: Nocturnal Explosion
 	}
 }
 

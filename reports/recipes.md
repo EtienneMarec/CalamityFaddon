@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1564 objets dont les recettes ont changé : 1046 recettes modifiées, 617 créées
+- 1573 objets dont les recettes ont changé : 1046 recettes modifiées, 626 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -31,6 +31,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Abyssal Mirror | 1 Mirage Mirror, 1 Ink Bomb, 20 Depth Cells, 15 Lumenyl @ MythrilAnvil → 1 | 1 Mirage Mirror, 1 Ink Bomb, 8 Shroomite Bar, 10 Dark Plasma, 5 Depth Cells, 5 Lumenyl, 20 Essential Essence Bar, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Abyssal Warhammer | 12 Cryonic Bar @ MythrilAnvil → 1 | 8 Cryonic Bar, 4 Lumenyl @ MythrilAnvil → 1 |
 | Abyssblast Laser Module | (nouvelle) | 1 Draedon's Forge, 20 Stiriatic Bar, 10000 Draedon Power Cell @ AquaticHypercomputerERM → 1 |
+| Abysscent Derailer | (nouvelle) | 20 Esseric Bar @ AquaticHypercomputerERM → 1 |
 | Acceleration Round | (nouvelle) | 150 Musket Ball, 1 Essence of Law @ Anvils → 150 |
 | Accidated Reactive Core | (nouvelle) | 2 Accidated Reactive Essence, 1 Stiriatic Bar, 5 Stardust Fragment, 5 Core of Babil @ AquaticHypercomputerFinished → 1 |
 | Acid Dye | (nouvelle) | 2 Bottled Water, 1 Murky Paste @ DyeVat → 2 |
@@ -350,6 +351,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Cobalt Shield | (nouvelle) | 10 Any Iron Bar @ Anvils → 1 |
 | Codebreaker Base | 1 Charging Station, 20 Mysterious Circuitry, 35 Dubious Plating @ Anvils → 1 | 15 Any Iron Bar, 5 Dubious Plating @ Anvils → 1 |
 | Coin of Deceit | 12 Any Copper Bar, 8 Any Evil Bar @ Anvils → 1 | 10 Gold Coin, 5 Silver Bar, 5 Acidwood @ Anvils → 1 |
+| Coldant Firestarter | (nouvelle) | 20 Esseric Bar @ AquaticHypercomputerERM → 1 |
+| Coldetecht | (nouvelle) | 20 Esseric Bar @ AquaticHypercomputerERM → 1 |
 | Coldheart Icicle | (nouvelle) | 12 Wulfrum Leech Dagger, 20 Cryonic Bar @ MythrilAnvil → 1 |
 | Comet Quasher | 20 Meteorite Bar, 4 Essence of Sunlight, 5 Fallen Star, 12 Stardust @ Anvils → 1 | 25 Meteorite Bar, 5 Ectoplasm @ MythrilAnvil → 1 |
 | Condensed Energy | (nouvelle) | 20 Dark Plasma, 20 Primordial Light Shard, 20 Ruinous Soul, 20 Twisting Nether @ SilvaBasin → 1 |
@@ -679,6 +682,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Glittering Astral Eye | (nouvelle) | 1 Blazing Powder, 1 Astral Pearl @ LunarCraftingStation → 1 |
 | Glowing Mushroom Dye | (nouvelle) | 2 Bottled Water, 1 Mushroom Grass Seeds @ DyeVat → 2 |
 | Glowing Mushroom Dye | (nouvelle) | 25 Bottled Water, 1 Delicious Meat @ DyeVat → 25 |
+| Gluehunter | (nouvelle) | 20 Esseric Bar @ AquaticHypercomputerERM → 1 |
 | God Slayer Chestplate | 20 Cosmilite Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 23 Cosmilite Bar, 3 Ascendant Spirit Essence, 3 Soul of Plight @ CosmicAnvil → 1 |
 | God Slayer Helmet | 10 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 14 Cosmilite Bar, 2 Ascendant Spirit Essence, 2 Soul of Plight @ CosmicAnvil → 1 |
 | God Slayer Horned Greathelm | 10 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 14 Cosmilite Bar, 2 Ascendant Spirit Essence, 2 Soul of Plight @ CosmicAnvil → 1 |
@@ -761,6 +765,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Hydrothermic Hood | 10 Abyss Bar @ MythrilAnvil → 1 | 7 Abyss Bar, 4 Hellstone Bar, 1 Core of Chaos, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Hydrothermic Mask | 10 Abyss Bar @ MythrilAnvil → 1 | 7 Abyss Bar, 4 Hellstone Bar, 1 Core of Chaos, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Hydrothermic Subligar | 15 Abyss Bar @ MythrilAnvil → 1 | 10 Abyss Bar, 5 Hellstone Bar, 2 Core of Chaos, 5 Grandiose Gland @ MythrilAnvil → 1 |
+| Hyperhavoc | (nouvelle) | 1 Brimstone Flameblaster, 1 Blood Boiler, 1 Pristine Annihilation, 5 Yharim Bar, 5 Core of Chaos, 10 Ashes of Annihilation @ AquaticHypercomputerERM → 1 |
 | Hyperius Bullet | 333 Musket Ball, 1 Life Alloy @ MythrilAnvil → 333 | 150 Musket Ball, 1 Life Alloy @ MythrilAnvil → 150 |
 | Hypothermia | 8 Cosmilite Bar, 20 Endothermic Energy, 6 Ruinous Soul @ CosmicAnvil → 1 | 100 Ice Block, 6 Ruinous Soul, 8 Twisted Netherite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 |
 | Ice Barrage | 1 Blizzard Staff, 1 Ice Rod, 1 Icicle Staff, 8 Cosmilite Bar, 40 Endothermic Energy @ CosmicAnvil → 1 | 1 Blizzard Staff, 1 Ice Rod, 1 Icicle Staff, 8 Cosmilite Bar, 40 Endothermic Energy, 18 Cryonic Bar, 2 The sword is inside the core @ IceMachine → 1 |
@@ -946,6 +951,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Nightic Blaster | (nouvelle) | 15 Exodium Cluster, 5 Lumenyl, 5 Ruinous Soul @ AquaticHypercomputerCapsules → 1 |
 | Nightmare Dye | 3 Bottled Water, 5 Nightmare Fuel @ DyeVat → 3 | 2 Bottled Water, 5 Nightmare Fuel @ DyeVat → 2 |
 | Noctic Reactive Core | (nouvelle) | 2 Noctic Reactive Essence, 1 Stiriatic Bar, 5 Nebula Fragment, 5 Core of Chaos @ AquaticHypercomputerFinished → 1 |
+| Noctic Weaver | (nouvelle) | 20 Esseric Bar @ AquaticHypercomputerERM → 1 |
+| Nocturnal Odyssey | (nouvelle) | 20 Noctic Reactive Essence @ AquaticHypercomputerERM → 1 |
 | Nuclear Fury | 1 Razorblade Typhoon, 1 Poseidon, 5 Luminite Bar @ Bookcases → 1 | 1 Razorblade Typhoon, 1 Poseidon, 1 The Generator, 5 Luminite Bar, 10 Soul of Sight, 5 Unicorn Horn, 15 Sea Prism, 5 Crystal of the Wicked @ Bookcases → 1 |
 | Nucleogenesis | 1 Star-Tainted Generator, 1 Statis' Curse, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Star-Tainted Generator, 1 Statis' Curse, 8 Luminite Bar, 4 Galactica Singularity, 4 Ascendant Spirit Essence, 4 Yharim Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Nychthemeron | (nouvelle) | 30 Spiky Ball, 1 Light Shard, 1 Dark Shard, 2 Any Mythril Bar @ MythrilAnvil → 1 |
@@ -1250,6 +1257,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Silva Lantern | 6 Silva Crystal, 1 Torch @ GlassKiln → 1 | 6 Silva Crystal, 1 Effulgent Feather @ SilvaBasin → 1 |
 | Silva Leggings | 60 Planty Mush, 10 Effulgent Feather, 3 Ascendant Spirit Essence @ CosmicAnvil → 1 | 12 Ornate Cloth, 7 Any Gold Bar, 9 Tenebris, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Silva Masked Cap | 30 Planty Mush, 8 Effulgent Feather, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 12 Ornate Cloth, 5 Any Gold Bar, 6 Tenebris, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| Silva Module | (nouvelle) | 20 Gold Bar, 5 Ascendant Spirit Essence, 3 Ornate Cloth, 10 Tenebris @ AquaticHypercomputerERM → 1 |
 | Silva Piano | 15 Silva Crystal, 4 Bone, 1 Book @ GlassKiln → 1 | 15 Silva Crystal, 4 Bone, 1 Book @ SilvaBasin → 1 |
 | Silva Platform | 1 Silva Crystal @ main → 2 | 1 Silva Crystal @ SilvaBasin → 2 |
 | Silva Sink | 6 Silva Crystal, 1 Water Bucket @ GlassKiln → 1 | 6 Silva Crystal, 1 Water Bucket @ SilvaBasin → 1 |
@@ -1623,6 +1631,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Water Walking Boots | 5 Leather, 5 Water Walking Potion @ Loom → 1 | 2 Water Walking Potion, 5 Silk @ Anvils → 1 |
 | Water Walking Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Waterfreeze Reactive Core | (nouvelle) | 2 Waterfreeze Reactive Essence, 1 Stiriatic Bar, 5 Vortex Fragment, 5 Core of Eleum @ AquaticHypercomputerFinished → 1 |
+| Waterfrosia | (nouvelle) | 20 Esseric Bar @ AquaticHypercomputerERM → 1 |
 | Wave Pounder | 12 Mysterious Circuitry, 18 Dubious Plating, 8 Tarragon Bar, 4 Luminite Bar @ MythrilAnvil → 1 | 1 Reassembled Electronics, 8 Tarragon Bar, 4 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Web Ball | 30 Cobweb @ main → 1 | 2 Silk @ main → 2000 |
 | Weightless Candle | (nouvelle) | 1 Peace Candle, 357 Essence of Eleum, 3422 Soul of Flight @ CrystalBall → 1 |

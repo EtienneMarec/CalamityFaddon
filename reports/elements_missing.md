@@ -74,11 +74,10 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (214)
+## Objets (206)
 
 - A M S
 - AAMG "Disperse"
-- Abysscent Derailer
 - Abysscent Pistol
 - Ace's Low
 - Aegis Core
@@ -110,8 +109,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Cirrhotipede
 - Clamor Noxus
 - Cobadium Rifle
-- Coldant Firestarter
-- Coldetecht
 - Consequences of Power
 - Cored Line
 - Corrupt Hypno Flute
@@ -156,7 +153,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Ghoststreaker
 - Gift of the Red
 - Gloomy Trident
-- Gluehunter
 - Gluelic Blade
 - God's Paranoia
 - Grand Purification
@@ -173,7 +169,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Hi-Scan Camera
 - Holy Napalm Launcher
 - HPST "Malign"
-- Hyperhavoc
 - Ifflamator
 - Incandescent Nox
 - Justice and Splendor
@@ -192,8 +187,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Neuraze
 - Neutron Star
 - Nighterrial Dart
-- Noctic Weaver
-- Nocturnal Odyssey
 - Noxcalibur
 - Nystagmus
 - Ogscule
@@ -279,7 +272,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Void Artifact
 - Vortex Dart
 - Wakasagihime
-- Waterfrosia
 - Waterfrost Dart
 - Whipped Bouquet Blade
 - Wind Turbine Blade
