@@ -990,6 +990,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Lot AK : Batfly Bait, Cool Item, Elemental Delight (familiers qui suivent, sautent, volent quand ils sont loin) ;
       Astralination (Astrum Aureus, Astral Infection la nuit).
 
+- [ ] Lot AL : H.S Trident (rayon derrière), XB-∞ Hekate (geysers), Gloomy Trident (combo ; en Revengeance : activer la
+      Rage en la tenant), Stringstreaker (lignes), Wrath of the Gods (pulsation), Grand Purification (clic droit :
+      Supernova puis piliers), Consequences of Power (3 modes).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

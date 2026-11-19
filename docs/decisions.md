@@ -2267,6 +2267,30 @@ Familiers et un objet d'invocation fabricables (recettes du wiki).
   Fleshly Horn, Fused Eye, Gooz Sayer's Coin, Lantern Shard, Oddest Mushroom, Puffy Abomination, Artificial Reactive
   Matter) : leurs boss n'existent pas encore.
 
+### Lot AL du 19/11 (`Content/Items/Weapons/WikiWeapons1119ac.cs`)
+
+Armes fabricables (recettes du wiki). Rareté « C3 » → 0.
+
+- **[choix]** H.S Trident : un rayon de lumière (100 %, perce tout, 1 s) part derrière le joueur à chaque coup.
+- **[choix]** XB-∞ Hekate : épée agrandie x1,3 ; geyser exo (50 %, colonne de 160 px, 1 s) sur chaque ennemi touché.
+- **[choix]** Gloomy Trident : combo coup / coup inversé / estoc ; 5 perles noires à 50 % par coup ; estoc : maelström de 2 s
+  qui avance et fait tomber un éclair (50 %, Electrified 2 s) toutes les 15 images. Revengeance : +1 % de Rage par seconde
+  en la tenant ; quand la Rage s'active (recharge 60 s), elle est annulée (Rage à 0) et remplacée par le maelström du
+  mirage (5 s, x2 dégâts, 400 px, aspire les ennemis non-boss, 5 éclairs à la fois) ; Terror of the Abyss 5 s aux ennemis
+  à moins de 1400 px. Terror of the Abyss : -50 % de réduction des dégâts, -30 % de dégâts infligés, -60 défense. Le
+  mirage lui-même n'est pas dessiné.
+- **[choix]** Stringstreaker : 2 lignes de 800 px à ±4° vers le curseur tant qu'on tire (une frappe toutes les 6 images à
+  10 % = 1200/s) ; une balle à 150 % par ligne et par tir ; utilise des balles.
+- **[choix]** Wrath of the Gods : une pulsation à la fois (20 s) ; un anneau de 48 boules de feu (25 %) par seconde ;
+  tous les 10 anneaux, hexagramme de 36 orbes (75 %) et rayon rouge (500 %, 1 s) qui suit l'ennemi le plus proche.
+- **[choix]** Grand Purification : « Open » = clic droit ; flammes d'1 s (frappe toutes les 5 images, dégâts x1 → x2,5) ;
+  Supernova de 480 px à 500 % (Betsy's Curse 10 s), recharge 2 min, pendant laquelle le clic droit fait un pilier de
+  lumière (75 %, 1 s).
+- **[choix]** Consequences of Power : PW-MK1 (1 emplacement), 4 s par mode : 4 missiles chercheurs à 50 % toutes les 20
+  images ; 3 tirs de railgun à 150 % (percent) toutes les 40 images ; ruée vers l'ennemi en posant une mine (aura de
+  120 px à 30 %, 3 s) toutes les 30 images.
+- Pas faits : Wisdom of Survival (page sans description), Palladium Dartshooter (redirige vers la Cobadium Rifle).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

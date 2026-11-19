@@ -445,7 +445,10 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Materials.LunarFlah>(), ModContent.ItemType<Content.Items.Materials.MergeFlah>(), ModContent.ItemType<Content.Items.Materials.UnchargedFlahium>(),
                 ModContent.ItemType<Content.Items.Materials.SoulContainer>() ,
                 ModContent.ItemType<Content.Items.Pets.BatflyBait>(), ModContent.ItemType<Content.Items.Pets.CoolItem>(), ModContent.ItemType<Content.Items.Pets.ElementalDelight>(),
-                ModContent.ItemType<Content.Items.SummonItems.Astralination>() })
+                ModContent.ItemType<Content.Items.SummonItems.Astralination>() ,
+                ModContent.ItemType<Content.Items.Weapons.Melee.HSTrident>(), ModContent.ItemType<Content.Items.Weapons.Melee.XBHekate>(), ModContent.ItemType<Content.Items.Weapons.Melee.GloomyTrident>(),
+                ModContent.ItemType<Content.Items.Weapons.Ranged.Stringstreaker>(), ModContent.ItemType<Content.Items.Weapons.Magic.WrathoftheGods>(), ModContent.ItemType<Content.Items.Weapons.Magic.GrandPurification>(),
+                ModContent.ItemType<Content.Items.Weapons.Summon.ConsequencesofPower>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

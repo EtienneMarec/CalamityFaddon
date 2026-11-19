@@ -86,7 +86,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Coldetecht — addon: Calamity: Tales of the Aquatic
 - [ ] Conclave Crossfire
 - [x] Confection — addon: Calamity: Community Remix
-- [ ] Consequences of Power
+- [x] Consequences of Power
 - [x] Contaminated Dish — addon: Calamity: Community Remix
 - [x] Coral Cannon
 - [x] Cored Line — addon: Calamity: Tales of the Aquatic
@@ -183,13 +183,13 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Gel Wand
 - [ ] Ghoststreaker — addon: Calamity: Tales of the Aquatic
 - [x] Glacial Crusher
-- [ ] Gloomy Trident — addon: Calamity: Community Remix
+- [x] Gloomy Trident — addon: Calamity: Community Remix
 - [x] Gluehunter — addon: Calamity: Tales of the Aquatic
 - [x] Gluelic Blade — addon: Calamity: Tales of the Aquatic
 - [x] Golden Gun
 - [x] Gourdler — addon: Calamity: Community Remix
 - [x] Grand Gar
-- [ ] Grand Purification — addon: Calamity: Community Remix
+- [x] Grand Purification — addon: Calamity: Community Remix
 - [x] Grand Reef
 - [x] Grarble Bayonet — addon: Calamity: Community Remix
 - [x] Grarble Spear — addon: Calamity: Community Remix
@@ -373,7 +373,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Sticky Spiky Ball
 - [x] Storm Dragoon
 - [x] Stratoctrine Spear — addon: Calamity: Tales of the Aquatic
-- [ ] Stringstreaker — addon: Calamity: Tales of the Aquatic
+- [x] Stringstreaker — addon: Calamity: Tales of the Aquatic
 - [x] Summit Breaker
 - [x] Supercharged Dart Blaster
 - [x] Swift Sword
@@ -457,7 +457,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Wrath of the Cosmos — addon: Calamity: Community Remix
 - [x] Wrath of the Dragons — addon: Calamity: Community Remix
 - [x] Wrath of the Eldritch — addon: Calamity: Community Remix
-- [ ] Wrath of the Gods — addon: Calamity: Community Remix
+- [x] Wrath of the Gods — addon: Calamity: Community Remix
 - [ ] Wreath of Belial — addon: Calamity: Community Remix
 - [ ] Wrecking Ball
 - [ ] Wrenching whip

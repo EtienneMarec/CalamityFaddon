@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (130)
+## Objets (123)
 
 - A M S
 - AAMG "Disperse"
@@ -100,7 +100,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Christmas Carol
 - Cirrhotipede
 - Cobadium Rifle
-- Consequences of Power
 - Corrupt Hypno Flute
 - Dart Sun
 - Deadflower
@@ -127,10 +126,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Genisis
 - Ghoststreaker
 - Gift of the Red
-- Gloomy Trident
 - God's Paranoia
-- Grand Purification
-- H.S Trident
 - Hailstorm
 - Halberd of the Holidays
 - Hand Hook
@@ -182,7 +178,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Slimelgamation
 - Snowgrave
 - Star Flare
-- Stringstreaker
 - Terreye Staff
 - Tetrachromancy
 - The Dreaming Ghost
@@ -201,8 +196,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Void Artifact
 - Wakasagihime
 - Winter Breeze
-- Wrath of the Gods
 - Wreath of Belial
 - Wrecking Ball
-- XB-∞ Hekate
 - Zenith Arcanum

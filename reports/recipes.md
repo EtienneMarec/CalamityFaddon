@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1688 objets dont les recettes ont changé : 1050 recettes modifiées, 738 créées
+- 1695 objets dont les recettes ont changé : 1050 recettes modifiées, 745 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -378,6 +378,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Condensed Energy | (nouvelle) | 20 Dark Plasma, 20 Primordial Light Shard, 20 Ruinous Soul, 20 Twisting Nether @ SilvaBasin → 1 |
 | Confection | (nouvelle) | 1 Shellshooter, 12 Slice of Cake, 14 Ruinous Soul, 64 Bamboo, 20 Essential Essence Bar @ LunarCraftingStation → 1 |
 | Conference Call | 1 Tactical Shotgun, 12 Vortex Fragment @ LunarCraftingStation → 1 | 1 Handgun, 7 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
+| Consequences of Power | (nouvelle) | 1 Cosmic Viper Engine, 5 Shadowspec Bar, 20 Ashes of Calamity, 15 Abyss Ore, 5 Ascendant Spirit Essence @ DraedonsForge → 1 |
 | Contagion | 1 Phangasm, 5 Shadowspec Bar, 20 Plague Cell Canister @ DraedonsForge → 1 | 1 Phangasm, 1 Confection, 15 Soul of Plight, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Contaminated Bile | (nouvelle) | 1 Bottled Water, 10 Urchin Stinger @ Bottles → 1 |
 | Continental Greatbow | 10 Abyss Bar @ MythrilAnvil → 1 | 10 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
@@ -724,6 +725,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Glass | (nouvelle) | 2 Astral Clay @ Furnaces → 1 |
 | Gleaming Dagger | 12 Platinum Bar @ Anvils → 1 | 12 Platinum Bar, 250 Throwing Knife @ Anvils → 1 |
 | Glittering Astral Eye | (nouvelle) | 1 Blazing Powder, 1 Astral Pearl @ LunarCraftingStation → 1 |
+| Gloomy Trident | (nouvelle) | 50 Luminite Bar, 1 Storm Spear, 1 Tenebreus Tides, 20 Scarred Angelfish, 10 Black Pearl, 120 Core of Rend, 50 Reaper Tooth, 2022 Essence of Zot, 5 Nimbus Rod, 314 Voidstone, 100 Diamond, 50 Ruinous Soul @ LunarCraftingStation → 1 |
 | Glowing Mushroom Dye | (nouvelle) | 2 Bottled Water, 1 Mushroom Grass Seeds @ DyeVat → 2 |
 | Glowing Mushroom Dye | (nouvelle) | 25 Bottled Water, 1 Delicious Meat @ DyeVat → 25 |
 | Gluehunter | (nouvelle) | 20 Esseric Bar @ AquaticHypercomputerERM → 1 |
@@ -744,6 +746,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Gourdler | (nouvelle) | 1 Pumpler, 5 Rolling Cactus, 30 Bone @ Anvils → 1 |
 | Grand Gar | (nouvelle) | 1 Majestic Gar, 10 Life Alloy, 10 Solar Fragment @ LunarCraftingStation → 1 |
 | Grand Gelatin | 1 Mana Jelly, 1 Life Jelly, 1 Vital Jelly, 2 Soul of Light, 2 Soul of Night @ Anvils → 1 | 1 Mana Jelly, 1 Mirage Jelly, 1 Life Jelly, 1 Vital Jelly, 2 Soul of Light, 2 Soul of Night, 3 Alloy Bar @ Anvils → 1 |
+| Grand Purification | (nouvelle) | 1 Helium Flash, 1 Divine Retribution, 100 Solar Fragment, 100 Stardust Fragment, 30 Enchanted Metal, 300 Stardust, 15 Emerald, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Grand Reef | (nouvelle) | 1 Clam Crusher, 20 Reaper Tooth, 20 Lumenyl, 20 Tenebris, 5 Subnautical Plate, 30 Yharim Bar @ CosmicAnvil → 1 |
 | Grape Beer | (nouvelle) | 5 Ale, 40 Blood Orb, 1 Unicorn Horn @ AlchemyTable → 5 |
 | Grape Beer | 10 Bottle, 1 Grapes @ Kegs → 10 | 5 Ale, 1 Grape Juice, 1 Unicorn Horn @ Kegs → 5 |
@@ -762,6 +765,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Guide Voodoo Doll | (nouvelle) | 2 Leather, 10 Any Evil Powder @ Hellforge → 1 |
 | Gunk Shot | 14 Purified Gel, 14 Blighted Gel @ Solidifier → 1 | 18 Purified Gel, 15 Gel, 5 Aerialite Bar, 3 Alloy Bar @ StaticRefiner → 1 |
 | Gusthammer | (nouvelle) | 5 Aerialite Bar, 4 Sunplate Block @ SkyMill → 1 |
+| H.S Trident | (nouvelle) | 1 Astral Pike, 1 Vulcanite Lance, 10 Tarragon Bar, 5 Crystal of the Cyborg, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Hadal Mantle | 20 Soul of Flight, 10 Abyss Bar @ MythrilAnvil → 1 | 5 Abyss Bar, 1 Unholy Core, 5 Grandiose Gland, 20 Soul of Flight @ MythrilAnvil → 1 |
 | Hadal Stew | 3 Abyss Gravel, 2 Coastal Demonfish, 1 Bowl @ CookingPots → 1 | 2 Bowl, 1 Honeyfin, 10 Abyss Gravel / Voidstone, 1 Coastal Demonfish @ CookingPots → 2 |
 | Hadarian Wings | (nouvelle) | 4 Hadarian Membrane, 20 Soul of Flight @ MythrilAnvil → 1 |
@@ -1506,6 +1510,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Stratus Table | 8 Stratus Brick @ VoidCondenser → 1 | 8 Stratus Brick @ LunarCraftingStation → 1 |
 | Stratus Work Bench | 10 Stratus Brick @ VoidCondenser → 1 | 10 Stratus Brick @ LunarCraftingStation → 1 |
 | Stream Gouge | 10 Cosmilite Bar @ CosmicAnvil → 1 | 12 Cosmilite Bar @ CosmicAnvil → 1 |
+| Stringstreaker | (nouvelle) | 1 Auralis, 10 Natrisodic Alloy @ AquaticHypercomputerFinished → 1 |
 | Subduction Slicer | 10 Abyss Bar @ MythrilAnvil → 1 | 9 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Sugars of Calamity | (nouvelle) | 10 Glowing Mushroom, 2 Demonic Bone Ash, 20 Gel @ AlchemyTable → 1 |
 | Sulphur Sea | 1 Aquatic Scourge Trophy @ Bookcases → 1 | 1 Aquatic Scourge Trophy, 10 Conquest Fragment @ Bookcases → 1 |
@@ -1763,6 +1768,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wrath of the Cosmos | (nouvelle) | 1 Wrath of the Eldritch, 1 Starfall, 12 Cosmilite Bar, 4 Ascendant Spirit Essence, 15 Galactica Singularity, 3 Yharim Bar @ CosmicAnvil → 1 |
 | Wrath of the Dragons | (nouvelle) | 1 Wrath of the Cosmos, 1 The Wand, 6 Yharon Soul Fragment, 5 Auric Bar, 3 Effulgent Feather, 10 Core of Sunlight, 3 Yharim Bar @ CosmicAnvil → 1 |
 | Wrath of the Eldritch | (nouvelle) | 1 Lashes of Chaos, 10 Luminite Bar, 2 Haunted Bar, 12 Nebula Fragment, 15 Exodium Cluster, 5 Galactica Singularity @ LunarCraftingStation → 1 |
+| Wrath of the Gods | (nouvelle) | 1 Wrath of the Dragons, 1 Event Horizon, 5 Ashes of Annihilation, 10 Ascendant Spirit Essence, 1 Rock, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Wrath Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Wulfrum Acrobatics Pack | 10 Wulfrum Bar, 1 Energy Core, 3 Chain @ Anvils → 1 | 30 Wulfrum Bar, 6 Feather, 1 Energy Orb @ Anvils → 1 |
 | Wulfrum Axe | (nouvelle) | 14 Wulfrum Bar @ Anvils → 1 |
@@ -1784,6 +1790,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wulfrum Signal Transmitter | (nouvelle) | 5 Wulfrum Bar, 1 Wulfrum Battery @ Anvils → 1 |
 | Wulfrum Staff | (nouvelle) | 12 Wulfrum Bar @ Anvils → 1 |
 | Wulfrum Treasure Pinger | 10 Wulfrum Bar @ main → 1 | 50 Wulfrum Bar, 3 Energy Core, 1 Energy Orb @ Anvils → 1 |
+| XB-∞ Hekate | (nouvelle) | 1 Hellkite, 20 Soul of Plight, 18 Exo Prism @ DraedonsForge → 1 |
 | Xenon Cutlass | (nouvelle) | 1 Pearlwood Sword, 1 Devastation, 10 Essence of Myst, 5 Ruinous Soul @ LunarCraftingStation → 1 |
 | Yanmei's Knife | (nouvelle) | 1 Psycho Knife, 10 Obsidian, 20 Any Iron Bar, 50 Plague Cell Canister @ MythrilAnvil → 1 |
 | YashBrowns | (nouvelle) | 2 Shattered Message Block, 50 Chicken Nugget, 50 Essence of Sunlight @ CookingPots → 1 |

@@ -3934,6 +3934,66 @@ Items: {
 			Not consumable
 			'''
 	}
+	HSTrident: {
+		DisplayName: H.S Trident
+		Tooltip:
+			'''
+			"Split the sea in two with your hand"
+			'''
+	}
+
+	XBHekate: {
+		DisplayName: XB-∞ Hekate
+		Tooltip:
+			'''
+			Witchcraft creeps upon thee
+			Summons exo flame geyser explosions on enemy hits
+			'''
+	}
+
+	GloomyTrident: {
+		DisplayName: Gloomy Trident
+		Tooltip:
+			'''
+			Fires out Black Pearls for the first 2 swings, then creates a strong maelstrom upon thrusting.
+			Slowly generates rage while held
+			Replaces rage mode with the mirage of the Sovereign of the Duskgloom Sea herself, resulting in a far stronger maelstrom
+			This attack has a 60 second cooldown
+			[c/0e1829:'You can hear an sorrowful, yet spiteful cries of a certain siren... Best not to venture too far into the gloomy sea, for those who dare sails the sea will be doomed to never see dry lands again.']
+			'''
+	}
+
+	Stringstreaker: {
+		DisplayName: Stringstreaker
+		Tooltip: creates 2 lines and fires very fast bullets on them
+	}
+
+	WrathoftheGods: {
+		DisplayName: Wrath of the Gods
+		Tooltip:
+			'''
+			Summons a godly pulse at the cursor that periodically summon a ring of godly fireballs and occasionally explodes into a massive star of projectile and fires a deathray to annihilate your foes
+			[c/ff3333:The End..?]
+			'''
+	}
+
+	GrandPurification: {
+		DisplayName: Grand Purification
+		Tooltip:
+			'''
+			Casts a burning magic to scorch (and purify) your enemies with
+			Right click to unleash a holy Supernova
+			[c/260313:'Submit yourself to me, I will make your passing painful but swift.']
+			'''
+	}
+
+	ConsequencesofPower: {
+		DisplayName: Consequences of Power
+		Tooltip:
+			'''
+			"Blaze. May Xeroc have mercy"
+			'''
+	}
 }
 
 Projectiles: {
@@ -5401,6 +5461,81 @@ Projectiles: {
 	CynthianSerpent: {
 		DisplayName: Cynthian Serpent
 	}
+	HSTridentProj: {
+		DisplayName: H.S Trident
+	}
+
+	HSLightBeam: {
+		DisplayName: Light Beam
+	}
+
+	ExoGeyser: {
+		DisplayName: Exo Flame Geyser
+	}
+
+	BlackPearl: {
+		DisplayName: Black Pearl
+	}
+
+	GloomySpear: {
+		DisplayName: Gloomy Trident
+	}
+
+	GloomMaelstrom: {
+		DisplayName: Maelstrom
+	}
+
+	StringLine: {
+		DisplayName: Line
+	}
+
+	StringBullet: {
+		DisplayName: Bullet
+	}
+
+	GodlyPulse: {
+		DisplayName: Godly Pulse
+	}
+
+	TraitorousFireball: {
+		DisplayName: Traitorous Fireball
+	}
+
+	TraitorousOrb: {
+		DisplayName: Traitorous Orb
+	}
+
+	TraitorousDeathray: {
+		DisplayName: Traitorous Deathray
+	}
+
+	PurificationFireball: {
+		DisplayName: Fireball
+	}
+
+	PurificationFlames: {
+		DisplayName: Flames
+	}
+
+	LightPillar: {
+		DisplayName: Light Pillar
+	}
+
+	PWMK1: {
+		DisplayName: PW-MK1
+	}
+
+	MiniMissile: {
+		DisplayName: Mini Missile
+	}
+
+	RailgunShot: {
+		DisplayName: Railgun
+	}
+
+	AerialMine: {
+		DisplayName: EM Aerial Mine
+	}
 }
 
 Shortstrike.Gauge:
@@ -5811,6 +5946,15 @@ Buffs: {
 	CynthianSerpentBuff: {
 		DisplayName: Cynthian Serpent
 		Description: A peculiar lunar being follows you
+	}
+	TerroroftheAbyss: {
+		DisplayName: Terror of the Abyss
+		Description: You feel like you're being silenced by the abyss itself...
+	}
+
+	PWMK1Buff: {
+		DisplayName: PW-MK1
+		Description: Predictable.
 	}
 }
 
