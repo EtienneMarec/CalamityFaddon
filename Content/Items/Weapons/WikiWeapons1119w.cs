@@ -20,8 +20,7 @@ namespace CalamityFandom.Content.Items.Weapons.Ranged
 {
     /// <summary>
     /// Wiki : Phototerminator.txt — lance-flammes (gel, 95 % de ne pas en utiliser) : rayon qui traverse 5 blocs (Nightclear
-    /// 5 s) ; clic droit : étincelles chercheuses tirées en tous sens (90°, 10 %) ; cadence fixe. [choix] « Nightclear » (sans
-    /// page) : Holy Flames à la place.
+    /// 5 s) ; clic droit : étincelles chercheuses tirées en tous sens (90°, 10 %) ; cadence fixe.
     /// </summary>
     public class Phototerminator : ModItem
     {
@@ -293,7 +292,7 @@ namespace CalamityFandom.Content.Projectiles.Weapons1119w
                 Dust.NewDustPerfect(Projectile.Center, DustID.WhiteTorch, Projectile.velocity * 0.1f, 100, new Color(255, 250, 220), 1.6f).noGravity = true;
         }
 
-        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) => target.AddBuff(ModContent.BuffType<HolyFlames>(), 300);
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) => target.AddBuff(ModContent.BuffType<Buffs.Nightclear>(), 300);
     }
 
     /// <summary>Étincelle du Phototerminator : chercheuse.</summary>

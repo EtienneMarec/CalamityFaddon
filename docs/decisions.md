@@ -1950,8 +1950,8 @@ Objets fabricables à l'étape « ERM » de l'Aquatic Hypercomputer. Valeurs des
 de la section 3) ; Evercold = debuff de ce mod (5 s).
 
 - **[choix]** Coldetecht : dispersion de ±5° (« 10 degree spread »). Gluehunter : balles chercheuses à 900 px.
-- **[choix]** Hyperhavoc : comme le Microhavoc (gel, cadence fixe), 3 blocs traversés ; « Abyssal Flames » n'existe pas :
-  Holy Flames 4 s seul.
+- **[choix]** Hyperhavoc : comme le Microhavoc (gel, cadence fixe), 3 blocs traversés ; Holy Flames et Abyssal Flames
+  (`Content/Buffs/AbyssalFlames.cs`) 4 s (corrigé le 19/11 : Abyssal Flames existait déjà dans ce mod).
 - **[choix]** Coldant Firestarter : clic droit = flammes qui tournent à 80 px ; +20 défense tant qu'il y en a une.
 - **[choix]** Abysscent Derailer : utilise des roquettes, toujours la même bombe ; 5 étoiles (Hallow Star vanilla bleuie)
   qui cherchent lentement.
@@ -2030,7 +2030,7 @@ Armes fabricables à l'Ancient Manipulator et à la Cosmic Anvil (recettes du wi
 
 Armes déjà obtenables (recette du wiki, ou Great Sand Shark pour le Sandstorm). Valeurs des infobox.
 
-- **[choix]** Phototerminator : rayon comme le Hyperhavoc (5 blocs) ; « Nightclear » (sans page) = Holy Flames 5 s ;
+- **[choix]** Phototerminator : rayon comme le Hyperhavoc (5 blocs) ; Nightclear 5 s (debuff du lot AD ; d'abord remplacé par Holy Flames) ;
   clic droit : étincelles chercheuses à ±45°, 10 %.
 - **[choix]** Sandstorm : sable en munition (50 % gardé), explosion de 50 px à 50 %, Slow 2 s ; le tir ne pose pas de sable.
 - **[choix]** Morpho Doomblade : épée d'invocation (dégâts d'invocation au corps à corps) ; croissants (3 ennemis) ; clic
@@ -2061,6 +2061,68 @@ ingrédient de Justice and Splendor). Valeurs des infobox.
   lancée et revient comme un boomerang (le wiki ne dit pas comment elle revient). Hell Judgement : debuff de ce mod, 3 PV/s
   et -3 de défense sur les coups reçus.
 - **[technique]** Les lancers furtifs des armes de mêlée consomment la furtivité (`ConsumeStealthByAttacking`).
+
+### Lot AC du 19/11 (`Content/Items/PermanentBoosters/WikiConsumables1119.cs`, `Content/Items/Ammo/WikiDarts1119.cs`)
+
+Bonus permanents, potions et fléchettes du wiki, tous fabricables (recettes du wiki). Valeurs des infobox.
+
+- **[choix]** Bonus de Rage et d'Adrénaline (JOOZ, Potato Cat, YashBrowns, Adrenaline of the Gods, Rage of the Cosmos) :
+  ajoutés à ceux de Calamity. Rage : `RageDamageBoost` +0,45 (Potato Cat), `RageDuration` +2 s / +3 s. Dégâts du mode
+  Adrénaline : +25 % / +45 % ajoutés au bonus de Calamity (x(1 + bonus de Calamity + nôtre) au lieu de x(1 + bonus de
+  Calamity)). Réduction des dégâts de l'Adrénaline pleine : +7 % / +15 %, mêmes conditions que Calamity. JOOZ : chaque
+  gain d'Adrénaline (hors mode Adrénaline) est augmenté de 10 % ; en combat de boss, la moitié de l'Adrénaline perdue
+  sur un coup est rendue. Les pages disent « Revengeance seulement » : l'objet s'utilise partout, mais la Rage et
+  l'Adrénaline n'existent qu'en Revengeance.
+- **[technique]** YashBrowns « +250 d'endurance (stamina) » : Calamity n'a pas d'endurance (c'est un addon), non fait.
+- **[choix]** Potato Cat : rareté « a » → 0. Adrenaline of the Gods, Rage of the Cosmos : « No value » → prix 0.
+- **[choix]** Active Healing Potion : 600 PV, Potion Sickness ramenée à 40 s juste après l'utilisation.
+- **[choix]** Sugars of Calamity : les « -30 % / -20 % / -90 % de chances de critique » sont des points ; « -40 % de vitesse
+  de minage » = +0,4 au temps de minage ; la 3e prise d'affilée (pendant l'Euphoria ou la Dysphoria) donne l'Anxiety à la
+  place de l'Euphoria ; la Dysphoria (45 min) arrive quand l'Euphoria ou l'Anxiety se termine (pas à la mort).
+- **[choix]** Fléchettes : explosions (Exterminative 80 px, Waterfrost 64 px) ; fléchettes planétaires lancées de 10 blocs
+  de chaque côté de la cible ; vortex -2 %/cumul de vitesse = la cible recule de 2 % de sa vitesse par image (pas sur les
+  boss) ; solaire = +1 %/cumul de dégâts reçus ; poussière d'étoile : 50 PV/s par cumul. Crochets spectraux (Nighterrial) :
+  texture du crochet du Polterghast, -30 % de vitesse sauf sur les boss. Vortex Dart : 10 s de vie, cercle de 100 px autour
+  du joueur. Terrestrial Dart : l'énergie de vie est un projectile qui cherche l'ennemi le plus proche (pas un soin).
+  Waterfrost Dart : le bond vise où sera l'ennemi dans 20 images ; les stalactites visent 10 images en avance ; Reactive
+  Flames (sans page) non fait ; rareté « C1 » → 0. Profaned Fire Dart : étincelles à 10 % (le wiki dit 5 % du dégât de la
+  fléchette = 10 % de celui des boules de feu).
+
+### Lot AD du 19/11 (`Content/Items/Weapons/WikiWeapons1119y.cs`)
+
+Armes fabricables (recettes du wiki) et debuffs Noctactricity et Nightclear d'après leurs pages. Valeurs des infobox ;
+raretés « C2 »/« C3 »/« C4 » → 0.
+
+- **[choix]** Noctactricity : pas de régénération ; immobilise les ennemis (les boss gardent la moitié de leur vitesse) ;
+  défense et réduction des dégâts de Calamity divisées par deux sur les coups reçus.
+- **[technique]** Nightclear : sur un ennemi, Obstructed n'a pas d'effet ; seul Confused est appliqué, immunités ignorées.
+  Le Phototerminator (lot AA) l'inflige maintenant à la place des Holy Flames.
+- **[choix]** Ace's Low : rafale de 3 tirs (une munition), les balles de mousquet deviennent des piques (percent 3 ennemis,
+  On Fire! 2 s).
+- **[choix]** Skull Fracture : javelot sans munition (frappe toutes les 4 images, 5 ennemis) ; 3 à 6 lames de lumière à 50 %
+  pour 8 mana. Sky Clearer : balles chercheuses (remplacent la munition), 3 éclats à 33 % qui ne se divisent plus ;
+  Nightclear, Holy Flames, Evercold 5 s.
+- **[choix]** Arkflammator : cadence de 2 images comme l'Ifflamator (le wiki dit 1) ; faux de 1,5 s qui percent tout ;
+  arc (50 %, Noctactricity) vers un ennemi à moins de 240 px toutes les 20 images ; les arcs sautent 3 fois au plus (300 px).
+- **[choix]** Angel's Thesis : tourelle ; 12 fragments noirs et blancs en anneau toutes les 3 s, l'anneau tourne d'un
+  demi-pas à chaque salve. [technique] Le buff « Animated Statue » n'est pas fait (une tourelle n'a pas de buff).
+- **[choix]** Cored Line : noyau d'1 s au bout du fouet tendu ; 4 lignes de 400 px au hasard à 50 %, à 0,25 s ; Evercold.
+- **[choix]** Driftorcher : la torche est prise au premier emplacement de l'inventaire ; debuff (6 s) selon la torche :
+  maudite Cursed Inferno, ichor Ichor, glace Frostburn, démoniaque Shadowflame, os/ultrabrillante Confused, sinon On Fire!.
+- **[choix]** Gluelic Blade : une étoile toutes les 4 images du coup (80 %, 3 s, frappe toutes les 0,5 s) ; clic droit :
+  estoc de 40 images, onde de choc (200 %) et zone d'estoc devant le joueur (130 %). Evercold 5 s partout. (La page parle
+  d'un « Cutter's Gift » : vandalisme du nom, ignoré.)
+- **[choix]** Exterminator : portée « infinie » = 4000 px, durée infinie ; anneaux à 80 % ; arc à 50 % du yoyo.
+- **[choix]** Chain Spear : clic droit = lance au bout d'une chaîne (va 50 images puis revient) ; un ennemi touché est
+  ramené (pas les boss, les vers ni les ennemis sans recul : la lance revient) ; clic gauche avec un ennemi ramené à moins
+  de 10 blocs : explosion de sang (150 %, 120 px) et plus de dégâts de contact pendant 2 s. Abyssal Flames 3 s, Burning
+  Blood 2 s.
+- **[choix]** Dissfusion Disk : noyau qui ralentit (x0,9 par image), 2 glaives à 50 % qui tournent à 80 px pendant 2 s,
+  explosion de 200 px à 300 % ; frappe furtive : 4 glaives, 320 px.
+- Corrigé : Hyperhavoc (lot X) inflige aussi Abyssal Flames, qui existait déjà dans ce mod.
+- **[technique]** `tools/selftest.py` : arrête le serveur après 4 minutes sans sortie (un plantage au chargement désactive
+  le mod, et le serveur suivant attendait alors au menu sans fin) et refuse de tourner si deux classes de même famille ont
+  le même nom.
 
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 

@@ -74,19 +74,16 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (178)
+## Objets (159)
 
 - A M S
 - AAMG "Disperse"
 - Abysscent Pistol
-- Ace's Low
 - Aegis Core
 - Aergian Technistaff
-- Angel's Thesis
 - Aquarel Pistol
 - Aquatic Shardstone
 - Arcanoid Orb
-- Arkflammator
 - Bad Apple
 - Bazooka
 - Bleeding Influx
@@ -99,7 +96,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Calamitous Vortex
 - Catarachedrae
 - Cent Striker
-- Chain Spear
 - Chain-Saw
 - Charity
 - Chilled Soda Blade
@@ -107,7 +103,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Cirrhotipede
 - Cobadium Rifle
 - Consequences of Power
-- Cored Line
 - Corrupt Hypno Flute
 - Dart Sun
 - Deadflower
@@ -117,11 +112,9 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Demon Core
 - Destinary
 - Devious Aestheticus
-- Dissfusion Disk
 - Divine Hunters Staff
 - Draftogen
 - Drained Catarachedrae
-- Driftorcher
 - Earthshooter
 - Edgeterrence
 - Electrical Discharge
@@ -131,8 +124,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Exo Dragonblade
 - EXO-LOTL Staff
 - Exotic Beacon
-- Exterminative Dart
-- Exterminator
 - Flame Boy Popsicle
 - Fleshly Megaphone
 - Flint
@@ -144,12 +135,10 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Ghoststreaker
 - Gift of the Red
 - Gloomy Trident
-- Gluelic Blade
 - God's Paranoia
 - Grand Purification
 - Grand Reef
 - Grarble Bayonet
-- Grarble Spear
 - H.S Trident
 - Hailstorm
 - Halberd of the Holidays
@@ -172,7 +161,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Neural Whipper-Snapper
 - Neuraze
 - Neutron Star
-- Nighterrial Dart
 - Noxcalibur
 - Nystagmus
 - Ogscule
@@ -189,8 +177,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Plagued Minecart
 - Planetarium
 - Plumage Pow
-- Profaned Crystal Dart
-- Profaned Fire Dart
 - Quadlens Staff
 - Quantum Flahium Ejection Device
 - Quantum Flahium Militia Device
@@ -211,15 +197,12 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Shadow's Descent
 - Shattered Module
 - Shattered Pistol
-- Skull Fracture
-- Sky Clearer
 - Slimelgamation
 - Snowgrave
 - Star Flare
 - Stratoctrine Spear
 - Stringstreaker
 - Tendon Tides
-- Terrestrial Dart
 - Terreye Staff
 - Tetrachromancy
 - The Dreaming Ghost
@@ -243,9 +226,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Venus Flytrap
 - Vitreomance
 - Void Artifact
-- Vortex Dart
 - Wakasagihime
-- Waterfrost Dart
 - Wind Turbine Blade
 - Winter Breeze
 - Wrath of the Gods

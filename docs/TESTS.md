@@ -951,6 +951,18 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       puis clic droit : ruée ; furtivité pleine : lancer), Divine Intervention (Meteor Heads ; étincelles, tête de météore,
       Holy Flame, lancer furtif avec une armure de furtivité).
 
+- [ ] Lot AC : bonus permanents (Revengeance : JOOZ, Potato Cat, YashBrowns, Adrenaline of the Gods, Rage of the Cosmos ;
+      SAUS +10 % de dégâts), Active Healing Potion (600 PV, 40 s de Potion Sickness), Cobalt Skin Potion (+14 défense),
+      Sugars of Calamity (Euphoria puis Dysphoria ; 3 prises d'affilée : Anxiety), les 7 fléchettes avec une sarbacane
+      (Exterminative : fléchettes planétaires ; Nighterrial : crochets ; Profaned Crystal : ricochets ; Profaned Fire :
+      division après 7 blocs ; Terrestrial : plantée ; Vortex : tourne autour du joueur ; Waterfrost : bonds, stalactites).
+
+- [ ] Lot AD : Ace's Low (balles de mousquet → piques), Skull Fracture (javelot + lames avec
+      du mana), Sky Clearer (éclats), Arkflammator (faux + arcs, ennemis immobilisés par Noctactricity), Angel's Thesis
+      (tourelle), Cored Line (noyau au bout du fouet), Driftorcher (torches consommées), Grarble Spear, Gluelic Blade (clic
+      droit : estoc + onde), Exterminator (yoyo sans limite, anneaux), Chain Spear (clic droit : ramener ; clic gauche :
+      parade), Dissfusion Disk (glaives puis explosion). Hyperhavoc : Abyssal Flames ; Phototerminator : ennemis confus.
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

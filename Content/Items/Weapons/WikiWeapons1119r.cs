@@ -109,7 +109,7 @@ namespace CalamityFandom.Content.Items.Weapons.Ranged
 
     /// <summary>
     /// Wiki : Hyperhavoc.txt — lance-flammes : rayon de flammes abyssales et sacrées qui perce les ennemis et traverse 3 blocs ;
-    /// Holy Flames 4 s ; cadence fixe. Grande version du Microhavoc. [choix] « Abyssal Flames » n'existe pas : Holy Flames seul.
+    /// Holy Flames et Abyssal Flames 4 s ; cadence fixe. Grande version du Microhavoc.
     /// </summary>
     public class Hyperhavoc : ModItem
     {
@@ -405,7 +405,11 @@ namespace CalamityFandom.Content.Projectiles.Weapons1119r
             }
         }
 
-        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) => target.AddBuff(ModContent.BuffType<HolyFlames>(), 240);
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            target.AddBuff(ModContent.BuffType<HolyFlames>(), 240);
+            target.AddBuff(ModContent.BuffType<Buffs.AbyssalFlames>(), 240);
+        }
     }
 
     /// <summary>Flamme du Coldant Firestarter : ai[0] = 1 : tourne autour du joueur (angle de départ ai[1]) et lui donne de la défense.</summary>

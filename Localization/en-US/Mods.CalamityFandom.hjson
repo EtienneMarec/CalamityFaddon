@@ -1941,6 +1941,14 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			DissfusionDisk: {
+				DisplayName: Dissfusion Disk
+				Tooltip:
+					'''
+					Creates two rotating chakrams around an unstable, explosive core
+					'''
+			}
+
 			DigitalCheeseSpear: {
 				DisplayName: Digital Cheese Spear
 				Tooltip:
@@ -3343,6 +3351,198 @@ Items: {
 			'You're getting rusty, machine!'
 			'''
 	}
+	JOOZ: {
+		DisplayName: JOOZ
+		Tooltip:
+			'''
+			Taste like lemonade... except without the sour citrus-y taste...
+			Permanently increases adrenaline charge by 10%, while also making hits reduce only half the Adrenaline meter
+			'''
+	}
+
+	SAUS: {
+		DisplayName: SAUS
+		Tooltip:
+			'''
+			A yummy tomato sauce, mixed with a small chunk of meat and veggies.
+			Permanently increases damage by 10%
+			'''
+	}
+
+	PotatoCat: {
+		DisplayName: Potato Cat
+		Tooltip:
+			'''
+			Wait, are you sure this is even food? It looks alive...
+			Permanently increases rage mode damage by 45%
+			'''
+	}
+
+	YashBrowns: {
+		DisplayName: YashBrowns
+		Tooltip:
+			'''
+			I hope you don't have trypophobia for this...
+			Permanently increases duration of rage mode by 2 seconds
+			Permanently increases adrenaline mode damage by 25% and damage reduction by 7%
+			Permanently increases stamina by 250
+			'''
+	}
+
+	AdrenalineoftheGods: {
+		DisplayName: Adrenaline of the Gods
+		Tooltip: Permanently increases Adrenaline Mode damage by 45% and damage reduction by 15%
+	}
+
+	RageoftheCosmos: {
+		DisplayName: Rage of the Cosmos
+		Tooltip: Permanently increases the duration of Rage Mode by 3 seconds
+	}
+
+	ActiveHealingPotion: {
+		DisplayName: Active Healing Potion
+	}
+
+	CobaltSkinPotion: {
+		DisplayName: Cobalt Skin Potion
+		Tooltip: Increases player defense by 14
+	}
+
+	SugarsofCalamity: {
+		DisplayName: Sugars of Calamity
+		Tooltip: These sugars feel potent yet cursed
+	}
+
+	ExterminativeDart: {
+		DisplayName: Exterminative Dart
+		Tooltip:
+			'''
+			A dart made out of cosmos itself
+			Pierces through tiles
+			Striking an enemy causes a cosmic explosion and creates planetary darts
+			Planetary darts decrease the enemy's stats
+			'''
+	}
+
+	NighterrialDart: {
+		DisplayName: Nighterrial Dart
+		Tooltip:
+			'''
+			Releases polterhooks, grabbing onto nearby enemies
+			'''
+	}
+
+	ProfanedCrystalDart: {
+		DisplayName: Profaned Crystal Dart
+		Tooltip:
+			'''
+			Bounces between enemies
+			Spawns a profaned rock upon hitting an enemy or a block
+			'''
+	}
+
+	ProfanedFireDart: {
+		DisplayName: Profaned Fire Dart
+		Tooltip:
+			'''
+			Bursts into profaned fireballs
+			Profaned fireballs leave behind dangerous sparks
+			'''
+	}
+
+	TerrestrialDart: {
+		DisplayName: Terrestrial Dart
+		Tooltip:
+			'''
+			Stucks in enemy's skin, dealing damage and periodically releasing life energy
+			'''
+	}
+
+	VortexDart: {
+		DisplayName: Vortex Dart
+		Tooltip:
+			'''
+			Swirls around you, homing onto nearby enemies
+			'''
+	}
+
+	WaterfrostDart: {
+		DisplayName: Waterfrost Dart
+		Tooltip:
+			'''
+			Pierces through tiles
+			Quickly leaps, leaving behind icicles
+			Striking an enemy causes an ice explosion to occur and icicles to be thrown at the hit enemy
+			'''
+	}
+	AcesLow: {
+		DisplayName: Ace's Low
+		Tooltip: Fires a string of piercing spade cards when musket balls are used as ammo.
+	}
+
+
+	SkullFracture: {
+		DisplayName: Skull Fracture
+		Tooltip:
+			'''
+			Launches slow moving javelins which quickly accelerate as they move
+			Consumes mana to fire light blades
+			'''
+	}
+
+	SkyClearer: {
+		DisplayName: Sky Clearer
+		Tooltip:
+			'''
+			Your enemies can only pray, oh, you shot their arms off
+			'''
+	}
+
+	Arkflammator: {
+		DisplayName: Arkflammator
+	}
+
+	AngelsThesis: {
+		DisplayName: Angel's Thesis
+		Tooltip: Summons an animated statue to fight for you
+	}
+
+	CoredLine: {
+		DisplayName: Cored Line
+		Tooltip: The whip creates a core that shoots 4 lines in random direction
+	}
+
+	Driftorcher: {
+		DisplayName: Driftorcher
+		Tooltip: Consumes torches to launch damaging sparks when swung
+	}
+
+	GrarbleSpear: {
+		DisplayName: Grarble Spear
+	}
+
+	GluelicBlade: {
+		DisplayName: Gluelic Blade
+		Tooltip:
+			'''
+			Left Click to swing, Right click to stab
+			'''
+	}
+
+	Exterminator: {
+		DisplayName: Exterminator
+		Tooltip: Creates rings around itself. Rings that contact enemies create electric arcs that spread on other enemies damaging them
+	}
+
+	ChainSpear: {
+		DisplayName: Chain Spear
+		Tooltip:
+			'''
+			Right click to fling the spear outwards and reel in enemies
+			Left clicking when a chained enemy is about to touch you causes you to parry them, creating a blood explosion
+			'If you live for yourself you've only got yourself to blame.'
+			'''
+	}
 }
 
 Projectiles: {
@@ -4454,6 +4654,152 @@ Projectiles: {
 	ThrownDivineIntervention: {
 		DisplayName: Divine Intervention
 	}
+	DartBlast: {
+		DisplayName: Explosion
+	}
+
+	ExterminativeDartProj: {
+		DisplayName: Exterminative Dart
+	}
+
+	PlanetaryDart: {
+		DisplayName: Planetary Dart
+	}
+
+	NighterrialDartProj: {
+		DisplayName: Nighterrial Dart
+	}
+
+	Polterhook: {
+		DisplayName: Polterhook
+	}
+
+	ProfanedCrystalDartProj: {
+		DisplayName: Profaned Crystal Dart
+	}
+
+	ProfanedDartRock: {
+		DisplayName: Profaned Rock
+	}
+
+	ProfanedFireDartProj: {
+		DisplayName: Profaned Fire Dart
+	}
+
+	ProfanedFireball: {
+		DisplayName: Profaned Fireball
+	}
+
+	ProfanedSpark: {
+		DisplayName: Profaned Spark
+	}
+
+	TerrestrialDartProj: {
+		DisplayName: Terrestrial Dart
+	}
+
+	LifeEnergy: {
+		DisplayName: Life Energy
+	}
+
+	VortexDartProj: {
+		DisplayName: Vortex Dart
+	}
+
+	WaterfrostDartProj: {
+		DisplayName: Waterfrost Dart
+	}
+
+	WaterfrostIcicle: {
+		DisplayName: Icicle
+	}
+	Spades: {
+		DisplayName: Spades
+	}
+
+	AnimatedStatue: {
+		DisplayName: Animated Statue
+	}
+
+	StatueFragment: {
+		DisplayName: Stone Fragment
+	}
+
+	SkullJavelin: {
+		DisplayName: Skull Fracture
+	}
+
+	LightBlade: {
+		DisplayName: Light Blade
+	}
+
+	SkyClearerBullet: {
+		DisplayName: Sky Clearer Bullet
+	}
+
+	ArkflammatorScythe: {
+		DisplayName: Scythe
+	}
+
+	NoctArc: {
+		DisplayName: Electric Arc
+	}
+
+	CoredLineWhip: {
+		DisplayName: Cored Line
+	}
+
+	JewelCore: {
+		DisplayName: Jewel Core
+	}
+
+	DriftorcherSpark: {
+		DisplayName: Spark
+	}
+
+	GrarbleSpearProj: {
+		DisplayName: Grarble Spear
+	}
+
+	GluelicStar: {
+		DisplayName: Star
+	}
+
+	GluelicShockwave: {
+		DisplayName: Shockwave
+	}
+
+	GluelicThrust: {
+		DisplayName: Gluelic Blade
+	}
+
+	ExterminatorYoyo: {
+		DisplayName: Exterminator
+	}
+
+	ExterminatorRings: {
+		DisplayName: Rings
+	}
+
+	ChainSpearProj: {
+		DisplayName: Chain Spear
+	}
+
+	ChainSpearChain: {
+		DisplayName: Chain Spear
+	}
+
+	BloodBurst: {
+		DisplayName: Blood Explosion
+	}
+
+	DissfusionCore: {
+		DisplayName: Dissfusion Disk
+	}
+
+	DissfusionGlaive: {
+		DisplayName: Glaive
+	}
 }
 
 Shortstrike.Gauge:
@@ -4794,6 +5140,37 @@ Buffs: {
 	HellJudgement: {
 		DisplayName: Hell Judgement
 		Description: You feel as if the apostate of hate has turned his gaze...
+	}
+	CobaltSkin: {
+		DisplayName: Cobalt Skin
+		Description: Defense is increased by 14
+	}
+
+	CalamitousEuphoria: {
+		DisplayName: Calamitous Euphoria
+		Description: You feel ready to face the entire world!
+	}
+
+	CalamitousDysphoria: {
+		DisplayName: Calamitous Dysphoria
+		Description:
+			'''
+			You feel like something is out of place, but don't know what it is
+			'''
+	}
+
+	CalamitousAnxiety: {
+		DisplayName: Calamitous Anxiety
+		Description: Something is watching your every move
+	}
+	Noctactricity: {
+		DisplayName: Noctactricity
+		Description: Youve been Electrified with supreme powers
+	}
+
+	Nightclear: {
+		DisplayName: Nightclear
+		Description: Your vision is cleared
 	}
 }
 

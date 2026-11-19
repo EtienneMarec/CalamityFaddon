@@ -413,7 +413,18 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Melee.Rox>(), ModContent.ItemType<Content.Items.Weapons.Melee.TheArchalis>(), ModContent.ItemType<Content.Items.Weapons.Melee.TenebrisTides>(), ModContent.ItemType<Content.Items.Weapons.Ranged.RibbonFlintlockRifleCannon>(), ModContent.ItemType<Content.Items.Weapons.Summon.PlanterrorStaff>(),
                 ModContent.ItemType<Content.Items.Weapons.Magic.TwinCranes>(), ModContent.ItemType<Content.Items.Weapons.Melee.WhippedBouquetBlade>(), ModContent.ItemType<Content.Items.Weapons.Summon.CirnogenicStaff>(),
                 ModContent.ItemType<Content.Items.Weapons.Ranged.Phototerminator>(), ModContent.ItemType<Content.Items.Weapons.Summon.MorphoDoomblade>(), ModContent.ItemType<Content.Items.Weapons.Summon.PrismDestroyer>(),
-                ModContent.ItemType<Content.Items.Weapons.Magic.QuintessenceCannon>(), ModContent.ItemType<Content.Items.Weapons.Melee.JusticeandSplendor>() })
+                ModContent.ItemType<Content.Items.Weapons.Magic.QuintessenceCannon>(), ModContent.ItemType<Content.Items.Weapons.Melee.JusticeandSplendor>() ,
+                ModContent.ItemType<Content.Items.PermanentBoosters.JOOZ>(), ModContent.ItemType<Content.Items.PermanentBoosters.SAUS>(), ModContent.ItemType<Content.Items.PermanentBoosters.PotatoCat>(),
+                ModContent.ItemType<Content.Items.PermanentBoosters.YashBrowns>(), ModContent.ItemType<Content.Items.PermanentBoosters.AdrenalineoftheGods>(), ModContent.ItemType<Content.Items.PermanentBoosters.RageoftheCosmos>(),
+                ModContent.ItemType<Content.Items.Potions.ActiveHealingPotion>(), ModContent.ItemType<Content.Items.Potions.CobaltSkinPotion>(), ModContent.ItemType<Content.Items.Potions.SugarsofCalamity>(),
+                ModContent.ItemType<Content.Items.Ammo.ExterminativeDart>(), ModContent.ItemType<Content.Items.Ammo.NighterrialDart>(), ModContent.ItemType<Content.Items.Ammo.ProfanedCrystalDart>(),
+                ModContent.ItemType<Content.Items.Ammo.ProfanedFireDart>(), ModContent.ItemType<Content.Items.Ammo.TerrestrialDart>(), ModContent.ItemType<Content.Items.Ammo.VortexDart>(),
+                ModContent.ItemType<Content.Items.Ammo.WaterfrostDart>() ,
+                ModContent.ItemType<Content.Items.Weapons.Ranged.AcesLow>(), ModContent.ItemType<Content.Items.Weapons.Ranged.SkullFracture>(),
+                ModContent.ItemType<Content.Items.Weapons.Ranged.SkyClearer>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Arkflammator>(), ModContent.ItemType<Content.Items.Weapons.Summon.AngelsThesis>(),
+                ModContent.ItemType<Content.Items.Weapons.Summon.CoredLine>(), ModContent.ItemType<Content.Items.Weapons.Melee.Driftorcher>(), ModContent.ItemType<Content.Items.Weapons.Melee.GrarbleSpear>(),
+                ModContent.ItemType<Content.Items.Weapons.Melee.GluelicBlade>(), ModContent.ItemType<Content.Items.Weapons.Melee.Exterminator>(), ModContent.ItemType<Content.Items.Weapons.Melee.ChainSpear>(),
+                ModContent.ItemType<Content.Items.Weapons.Rogue.DissfusionDisk>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

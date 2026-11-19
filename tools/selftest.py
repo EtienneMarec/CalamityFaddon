@@ -7,7 +7,9 @@ Les rapports de reports/ ne sont écrits qu'en mode CalamityPlus (le mode par d�
 Code de sortie : 0 si tout passe, 1 sinon.
 """
 import os
+import queue
 import subprocess
+import threading
 import time
 import sys
 
@@ -47,6 +49,33 @@ def broken_localization():
     return None
 
 
+def duplicate_classes():
+    """Classes de même nom et de même famille (ModProjectile, ModItem...) : tModLoader refuse de charger le mod
+    (« Cannot add two ... with the same name ») et le désactive."""
+    import re
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    found = []  # (nom, base, fichier)
+    for folder in ("Content", "Common"):
+        for dirpath, _, files in os.walk(os.path.join(root, folder)):
+            for f in files:
+                if f.endswith(".cs"):
+                    text = open(os.path.join(dirpath, f), encoding="utf-8").read()
+                    for m in re.finditer(r"^\s*public (?:sealed )?class (\w+)\s*:\s*([\w.]+)", text, re.M):
+                        found.append((m.group(1), m.group(2).split(".")[-1], f))
+    bases = {n: b for n, b, _ in found}
+
+    def family(base):
+        seen = 0
+        while base in bases and seen < 10:
+            base, seen = bases[base], seen + 1
+        return {"RogueWeapon": "ModItem"}.get(base, base)
+
+    groups = {}
+    for n, b, f in found:
+        groups.setdefault((n, family(b)), []).append(f)
+    return [f"{n} ({fam}) : {', '.join(fs)}" for (n, fam), fs in groups.items() if len(fs) > 1]
+
+
 def main():
     enabled = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), "Mods", "enabled.json")
     if os.path.exists(enabled) and "CalamityFandom" not in open(enabled, encoding="utf-8").read():
@@ -56,6 +85,9 @@ def main():
     bad = broken_localization()
     if bad:
         sys.exit("Fichier de localisation invalide (le mod ne se chargerait pas, le serveur attendrait 10 min) : " + bad)
+    dups = duplicate_classes()
+    if dups:
+        sys.exit("Classes en double (le mod ne se chargerait pas) : " + " ; ".join(dups))
     mode = sys.argv[sys.argv.index("--mode") + 1] if "--mode" in sys.argv else "CalamityPlus"
     results = [run(m) for m in (MODES if mode == "all" else [mode])]
     sys.exit(0 if all(results) else 1)
@@ -71,8 +103,18 @@ def run(mode):
         cwd=TML, env=env, stdin=subprocess.DEVNULL, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
         encoding="utf-8", errors="replace")
     output, failed = [], None
+    # Lecture dans un fil à part : la limite de temps s'applique même si le serveur ne dit plus rien (blocage)
+    lines_q = queue.Queue()
+    threading.Thread(target=lambda: [lines_q.put(l) for l in proc.stdout] + [lines_q.put(None)], daemon=True).start()
     deadline = time.time() + 600
-    for line in proc.stdout:
+    while True:
+        try:
+            line = lines_q.get(timeout=max(1, min(240, deadline - time.time())))
+        except queue.Empty:
+            failed = "serveur bloqué (plus de 4 minutes sans sortie)" if time.time() < deadline else "délai de 10 minutes dépassé"
+            break
+        if line is None:
+            break
         output.append(line.rstrip("\n"))
         if "An error occurred while loading" in line or "Cannot add two" in line:
             failed = line.strip()
