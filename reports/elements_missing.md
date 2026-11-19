@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (247)
+## Objets (240)
 
 - A M S
 - AAMG "Disperse"
@@ -122,7 +122,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Corrupt Hypno Flute
 - Crius Prime
 - Crystallic Coin Gun
-- Cursed Spear
 - Cyberlight Striker
 - Dark Harvest Staff
 - Dart Sun
@@ -141,10 +140,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Divine Intervention
 - Doctrine Spear
 - Draftogen
-- Dragon Flame Barrage
 - Drained Catarachedrae
 - Driftorcher
-- Earthen Clicker
 - Earthshooter
 - Ecological Collapse
 - Edgeterrence
@@ -171,7 +168,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Gel Sword
 - Gel Wand
 - Genisis
-- Ghast Relic
 - Ghoststreaker
 - Gift of the Red
 - Gloomy Trident
@@ -196,7 +192,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Hyperhavoc
 - Ifflamator
 - Incandescent Nox
-- Infected Dagger Misses No Skeptics
 - Infernum Kris
 - Justice and Splendor
 - Lacelinous Nocturne
@@ -240,7 +235,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Profaned Crystal Dart
 - Profaned Fire Dart
 - Prominence
-- Purgatory Blaster
 - Quadlens Staff
 - Quantum Flahium Ejection Device
 - Quantum Flahium Militia Device
@@ -304,7 +298,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Tyrant Shield
 - Unloxcalibur
 - UserGrahkon/Sandbox
-- Varroa Hack
 - Vehement Gemstone
 - Venus Flytrap
 - Vitreomance

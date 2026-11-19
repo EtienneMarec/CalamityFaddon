@@ -898,6 +898,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       avant). Éclairs du ciel, charge après un tremblement, Storm Cnidrilings ; sous 45 % plus rapide, salves de 3 tirs ;
       caché derrière des blocs : traits qui traversent. Expert : tornades. Butin : Talon Burst, Sea Stone Bars...
 
+- [ ] Lot N (`WikiWeapons1119k.cs`) : butin d'ennemis existants — Infected Dagger Misses No Skeptics et Varroa Hack
+      (Plaguebringer Goliath), Cursed Spear (Clinger), Earthen Clicker (Earth Elemental ; frappe au curseur), Nightform
+      (Wall of Flesh ; +25 % de mana la nuit), Ghast Relic (Clam ; fantômes sur les coups de sbires), Purgatory Blaster
+      (Providence), Dragon Flame Barrage (Yharon).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
@@ -905,7 +910,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 - [ ] (19/11) **Grand Thunder Cnidrion** : Taming absent de la page (proposition : 15 s dans l'Océan) ; le Desert
       Medallion invoque ce boss le jour au lieu du Desert Scourge, dans les deux modes (en Calamity++, garder le Desert
-      Scourge à toute heure ?). À trancher.
+      Scourge à toute heure ?). Son butin cite Thunder Talon, Storm-Cnidriling Staff et Didgeridoo, sans page (sprite du
+      Thunder Talon seulement) : les créer en Calamity++ ? À trancher.
 - [ ] (19/11) **Calamity Sword** : la page en fait l'amélioration du Swordsplosion sans recette. Proposition : en Calamity++,
       Swordsplosion + 10 Ashes of Calamity + 5 Ashes of Annihilation à la Cosmic Anvil ; en Full Fandom, sans recette. À trancher.
 - [ ] (19/11) **Acidsighter** : la page Taming ne le cite pas ; proposition faite (20 s dans l'Océan propre). Et « Defeating

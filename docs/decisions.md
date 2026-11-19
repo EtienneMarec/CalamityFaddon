@@ -1817,6 +1817,29 @@ Boss pré-Hardmode inventé, « alternative au Desert Scourge ». Valeurs de l'i
 - **[choix]** Taming : **absent de la page Taming** ; proposition : 15 s cumulées dans l'Océan (un Cnidrion craint l'eau,
   infobox : vulnérable à l'eau). À valider. Aftermath (Cactus Person) : PNJ pas encore fait.
 
+### Lot N du 19/11 (`Content/Items/Weapons/WikiWeapons1119k.cs`)
+
+Objets lâchés par des ennemis déjà dans le jeu (obtenables tout de suite par WikiLoot) : Infected Dagger Misses No Skeptics
+et Varroa Hack (Plaguebringer Goliath), Cursed Spear (Clinger), Earthen Clicker (Earth Elemental), Nightform (Wall of
+Flesh), Ghast Relic (Clam), Purgatory Blaster (Providence), Dragon Flame Barrage (Yharon). Valeurs des infobox. Les autres
+armes du Plaguebringer Goliath (Plaguecom Tablet : dessin à l'écran ; Death-Needle Stinger : aiguilles enchaînées ;
+Cirrhotipede : fouet ; Hi-Scan Camera : modes non décrits) attendent : systèmes trop longs pour cette passe.
+
+- **[choix]** Infected Dagger : chercheuse à 600 px, perce à l'infini (30 images entre deux coups sur un même ennemi),
+  repart vers l'ennemi le plus proche ; frappe furtive : 4 dagues en éventail, vitesse x1,4.
+- **[choix]** Cursed Spear : vole droit 30 images puis tombe ; frappe furtive : une boule de feu maudite (vanilla) toutes les
+  6 images au tiers.
+- **[choix]** Varroa Hack : consommable, sans classe ; accrochée 3 s (un coup toutes les 15 images), puis explosion de 80 px
+  à 150 %.
+- **[technique]** Earthen Clicker : pas de classe « clicker » (autre mod) ; dégâts sans classe au curseur, à 30 blocs et
+  en ligne de vue, un clic par utilisation. Infobulle inventée (la page n'en a pas) : « Click to damage the enemy under
+  your cursor ».
+- **[choix]** Ghast Relic : 10 % par coup de sbire, fantôme de 5 s (Spectre Wrath vanilla), 3 au plus, 20 dégâts par
+  seconde (un coup de 20 par seconde).
+- **[choix]** Purgatory Blaster : utilise les fléchettes ; 3 boules de feu à 50 % qui tournent de ±0,04 rad par image.
+- **[choix]** Dragon Flame Barrage : 8 flammes depuis le haut de l'écran au curseur, explosion de 90 px 30 images après
+  l'arrivée.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

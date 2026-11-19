@@ -1941,6 +1941,25 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			InfectedDaggerMissesNoSkeptics: {
+				DisplayName: Infected Dagger Misses No Skeptics
+				Tooltip:
+					'''
+					Throws a flying dagger that homes and stabs through an enemy
+					Stealth strike throws out 3 more daggers, all of them becoming faster
+					'How did he die? He had a Dagger that never misses a single doubters. Unfortunately, he himself is a Doubter!'
+					'''
+			}
+
+			CursedSpear: {
+				DisplayName: Cursed Spear
+				Tooltip:
+					'''
+					Throws an cursed flame tipped trident
+					Stealth strikes are showered in cursed fireballs
+					'''
+			}
+
 			ProfanedNucleus: {
 				DisplayName: Profaned Nucleus
 				Tooltip:
@@ -2708,6 +2727,44 @@ Items: {
 		DisplayName: Wrath of the Cosmos
 		Tooltip: Summons a galactic pulse at the cursor that periodically summon two rings of homing god slayer fireballs and occasionally two cosmic guardians
 	}
+	VarroaHack: {
+		DisplayName: Varroa Hack
+		Tooltip:
+			'''
+			It seems like even the parasites are not within the mercy of the plague's wrath...
+			Throws out a Varroa Hack to latch on to enemies and deal constant damage
+			Explodes after a while
+			'''
+	}
+
+	EarthenClicker: {
+		DisplayName: Earthen Clicker
+		Tooltip: Click to damage the enemy under your cursor
+	}
+
+	PurgatoryBlaster: {
+		DisplayName: Purgatory Blaster
+		Tooltip: Fires a holy dart and 3 curve-flying fireballs to destroy your enemies
+	}
+
+	DragonFlameBarrage: {
+		DisplayName: Dragon Flame Barrage
+		Tooltip:
+			'''
+			Baptism by holy fire
+			Casts a barrage of fire from the sky
+			'''
+	}
+
+	Nightform: {
+		DisplayName: Nightform
+		Tooltip: increases the players max mana by 25% at night.
+	}
+
+	GhastRelic: {
+		DisplayName: Ghast Relic
+		Tooltip: Whenever your minions hit an enemy they have a chance to spawn a ghost that damages your enemies
+	}
 }
 
 Projectiles: {
@@ -3422,6 +3479,33 @@ Projectiles: {
 
 	SandTornado: {
 		DisplayName: Tornado
+	}
+	InfectedDagger: {
+		DisplayName: Infected Dagger
+	}
+
+	CursedSpearProj: {
+		DisplayName: Cursed Spear
+	}
+
+	VarroaHackProj: {
+		DisplayName: Varroa Hack
+	}
+
+	ClickHit: {
+		DisplayName: Click
+	}
+
+	CurvingFireball: {
+		DisplayName: Holy Fireball
+	}
+
+	HolyBarrageFlame: {
+		DisplayName: Holy Flame
+	}
+
+	RelicGhast: {
+		DisplayName: Ghast
 	}
 }
 

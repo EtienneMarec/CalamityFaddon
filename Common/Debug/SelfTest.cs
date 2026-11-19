@@ -477,6 +477,16 @@ namespace CalamityFandom.Common.Debug
             foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<Content.NPCs.GrandThunderCnidrion.GrandThunderCnidrion>(), false))
                 r.ReportDroprates(gtcRates, new DropRateInfoChainFeed(1f));
             Expect(gtcRates.Any(r => r.itemId == ModContent.ItemType<Content.Items.Weapons.Ranged.TalonBurst>()), "le Grand Thunder Cnidrion lâche le Talon Burst");
+            // 19/11 : lot N, objets lâchés par des ennemis déjà dans le jeu
+            var pbgLot = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<CalamityMod.NPCs.PlaguebringerGoliath.PlaguebringerGoliath>(), false))
+                r.ReportDroprates(pbgLot, new DropRateInfoChainFeed(1f));
+            foreach (var r in Main.ItemDropsDB.GetRulesForItemID(ModContent.ItemType<CalamityMod.Items.TreasureBags.PlaguebringerGoliathBag>()))
+                r.ReportDroprates(pbgLot, new DropRateInfoChainFeed(1f));
+            foreach (int looted in new[] { ModContent.ItemType<Content.Items.Weapons.Rogue.InfectedDaggerMissesNoSkeptics>(), ModContent.ItemType<Content.Items.Weapons.Typeless.VarroaHack>() })
+                Expect(pbgLot.Any(r => r.itemId == looted), $"le Plaguebringer Goliath lâche {Lang.GetItemNameValue(looted)}");
+            foreach (string looted in new[] { "Cursed Spear", "Earthen Clicker", "Nightform", "Ghast Relic", "Purgatory Blaster", "Dragon Flame Barrage" })
+                Expect(!WikiLoot.MissingItems.ContainsKey(looted) && WikiRecipes.ResolveItem(looted) > 0, $"{looted} trouvé par le butin");
             // 19/11 : Aquatic Hypercomputer, une tuile par étape, recettes à chaque étape
             foreach (int stageTile in Content.Tiles.Hypercomputer.HypercomputerTile.StageTiles)
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.requiredTile.Contains(stageTile)),

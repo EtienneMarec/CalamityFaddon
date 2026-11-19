@@ -103,7 +103,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Crystal Flare Staff
 - [ ] Crystallic Coin Gun — addon: Calamity: Tales of the Aquatic
 - [x] Cursed Capper
-- [ ] Cursed Spear — addon: Calamity: Community Remix
+- [x] Cursed Spear — addon: Calamity: Community Remix
 - [ ] Cyberlight Striker — addon: Calamity: Tales of the Aquatic
 - [x] Dark Energy Staff — addon: Calamity: Community Remix
 - [ ] Dark Harvest Staff — addon: Calamity: Community Remix
@@ -131,13 +131,13 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Doctrine Spear — addon: Calamity: Tales of the Aquatic
 - [x] Dodu's Handcannon
 - [ ] Draftogen — addon: Calamity: Community Remix
-- [ ] Dragon Flame Barrage — addon: Calamity: Community Remix
+- [x] Dragon Flame Barrage — addon: Calamity: Community Remix
 - [ ] Driftorcher — addon: Calamity: Community Remix
 - [x] Dual Cane — addon: Calamity: Community Remix
 - [x] Dualpoon
 - [ ] Duet Hit — addon: Calamity: Tales of the Aquatic
 - [ ] EXO-LOTL Staff — addon: Calamity: Community Remix
-- [ ] Earthen Clicker
+- [x] Earthen Clicker
 - [ ] Earthshooter — addon: Calamity: Tales of the Aquatic
 - [ ] Ecological Collapse
 - [ ] Electrical Discharge
@@ -221,7 +221,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Ifflamator — addon: Calamity: Tales of the Aquatic
 - [x] Impaler
 - [ ] Incandescent Nox — addon: Deimos, the Starborn Princess
-- [ ] Infected Dagger Misses No Skeptics — addon: Calamity: Community Remix
+- [x] Infected Dagger Misses No Skeptics — addon: Calamity: Community Remix
 - [ ] Infernum Kris — addon: Calamity: Community Remix
 - [x] Interfacer Staff
 - [ ] Jake
@@ -308,7 +308,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Prominence — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Pumplerfaust — addon: Calamity: Community Remix
 - [x] Pungent Bomber
-- [ ] Purgatory Blaster — addon: Calamity: Tales of the Aquatic
+- [x] Purgatory Blaster — addon: Calamity: Tales of the Aquatic
 - [ ] Quadlens Staff — addon: Calamity: Community Remix
 - [x] Quasar
 - [ ] Quintessence Cannon — addon: Deimos, the Starborn Princess, Catalyst
@@ -432,7 +432,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Urchin Flail
 - [x] Urchin Spear
 - [ ] UserGrahkon/Sandbox — pas de sprite
-- [ ] Varroa Hack
+- [x] Varroa Hack
 - [ ] Vehement Gemstone
 - [ ] Vehicle-Borne Improvised Explosive Device — pas de sprite; stub; addon: Calamity: Community Remix
 - [ ] Venus Flytrap
@@ -672,7 +672,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Frigid Bulwark
 - [x] Fungal Carapace
 - [x] Gehenna
-- [ ] Ghast Relic — addon: Calamity: Tales of the Aquatic
+- [x] Ghast Relic — addon: Calamity: Tales of the Aquatic
 - [ ] Gift of the Red — addon: Calamity: Tales of the Aquatic
 - [x] Holy Mantle — addon: Calamity: Community Remix
 - [x] Icicle Ring
@@ -691,7 +691,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Music Boxes — pas de sprite
 - [ ] Nameless Rat — addon: Calamity: Community Remix
 - [ ] Night Cloak — addon: Calamity: Tales of the Aquatic
-- [ ] Nightform — addon: Calamity: Tales of the Aquatic
+- [x] Nightform — addon: Calamity: Tales of the Aquatic
 - [ ] Nucleate Gello
 - [ ] Oil Bottle
 - [ ] Palladium Light Circuit — addon: Calamity: Tales of the Aquatic
