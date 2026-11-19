@@ -722,7 +722,8 @@ namespace CalamityFandom.Content.Projectiles.Weapons1119j
 
     /// <summary>
     /// Pulsation des Wrath : ai[0] = 0 eldritch (2 anneaux de 16 esprits, rayon toutes les 3 salves), 1 cosmos (2 anneaux
-    /// de 24 boules de God Slayer, 2 Cosmic Guardians toutes les 3 salves). 6 s, une salve toutes les 90 images.
+    /// de 24 boules de God Slayer, 2 Cosmic Guardians toutes les 3 salves), 2 dragons (2 anneaux de 32 poussières de feu,
+    /// 2 Flare Tornadoes toutes les 3 salves). 6 s, une salve toutes les 90 images.
     /// </summary>
     public class WrathPulse : ModProjectile
     {
@@ -730,7 +731,7 @@ namespace CalamityFandom.Content.Projectiles.Weapons1119j
 
         public override void SetStaticDefaults() => Main.projFrames[Type] = 6;
 
-        private bool Cosmos => Projectile.ai[0] == 1f;
+        private int Kind => (int)Projectile.ai[0];
 
         public override void SetDefaults()
         {
@@ -744,6 +745,8 @@ namespace CalamityFandom.Content.Projectiles.Weapons1119j
 
         public override bool? CanDamage() => false;
 
+        public override Color? GetAlpha(Color lightColor) => Kind == 2 ? new Color(255, 160, 80) : Color.White;
+
         public override void AI()
         {
             if (++Projectile.frameCounter >= 6)
@@ -751,34 +754,41 @@ namespace CalamityFandom.Content.Projectiles.Weapons1119j
                 Projectile.frameCounter = 0;
                 Projectile.frame = (Projectile.frame + 1) % Main.projFrames[Type];
             }
-            Lighting.AddLight(Projectile.Center, Cosmos ? 0.6f : 0.3f, 0.2f, 0.6f);
+            Lighting.AddLight(Projectile.Center, Kind >= 1 ? 0.6f : 0.3f, 0.2f, 0.6f);
             if (Projectile.owner != Main.myPlayer || ++Projectile.ai[1] % 90 != 0)
                 return;
-            int count = Cosmos ? 24 : 16;
+            int count = Kind switch { 1 => 24, 2 => 32, _ => 16 };
+            float ringKind = Kind switch { 1 => 1f, 2 => 3f, _ => 0f };
             for (int ring = 0; ring < 2; ring++)
                 for (int i = 0; i < count; i++)
                 {
                     Vector2 dir = (MathHelper.TwoPi * (i + ring * 0.5f) / count).ToRotationVector2();
                     Projectile.NewProjectile(Projectile.GetSource_FromThis(), Projectile.Center, dir * (5f + ring * 2f), ModContent.ProjectileType<WrathSpirit>(),
-                        Projectile.damage / 3, 0f, Projectile.owner, Projectile.ai[0]);
+                        Projectile.damage / 3, 0f, Projectile.owner, ringKind);
                 }
             if (Projectile.ai[1] % 270 != 0)
                 return;
             NPC target = Projectile.Center.ClosestNPCAt(1200f);
-            if (Cosmos)
+            if (Kind >= 1)
                 for (int i = -1; i <= 1; i += 2)
                     Projectile.NewProjectile(Projectile.GetSource_FromThis(), Projectile.Center, new Vector2(i * 6f, -4f), ModContent.ProjectileType<WrathSpirit>(),
-                        Projectile.damage * 2, 0f, Projectile.owner, 2f);
+                        Projectile.damage * 2, 0f, Projectile.owner, Kind == 2 ? 4f : 2f);
             else if (target != null)
                 Projectile.NewProjectile(Projectile.GetSource_FromThis(), Projectile.Center, Projectile.SafeDirectionTo(target.Center) * 30f, ProjectileID.LastPrismLaser,
                     Projectile.damage, 0f, Projectile.owner);
         }
     }
 
-    /// <summary>Esprit (ai[0] = 0), boule de God Slayer (1 : God Slayer Inferno 2 s) ou Cosmic Guardian (2 : grosse, 3 s) : cherche les ennemis.</summary>
+    /// <summary>
+    /// Projectile des Wrath, cherche les ennemis. ai[0] : 0 esprit ; 1 boule de God Slayer (God Slayer Inferno 2 s) ; 2 Cosmic
+    /// Guardian (grosse, 3 s) ; 3 poussière de feu (Dragonfire 3 s) ; 4 Flare Tornado (grosse, Dragonfire 4 s, laisse une
+    /// Flarenado au contact).
+    /// </summary>
     public class WrathSpirit : ModProjectile
     {
         public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
+
+        private bool Big => Projectile.ai[0] == 2f || Projectile.ai[0] == 4f;
 
         public override void SetDefaults()
         {
@@ -793,17 +803,60 @@ namespace CalamityFandom.Content.Projectiles.Weapons1119j
         public override void AI()
         {
             if (++Projectile.localAI[0] > 20f)
-                CalamityUtils.HomeInOnNPC(Projectile, true, 900f, Projectile.ai[0] == 2f ? 10f : 13f, 18f);
+                CalamityUtils.HomeInOnNPC(Projectile, true, 900f, Big ? 10f : 13f, 18f);
             if (Main.dedServ)
                 return;
-            int dust = Projectile.ai[0] == 0f ? DustID.DungeonSpirit : DustID.PurpleTorch;
-            Dust.NewDustPerfect(Projectile.Center, dust, Vector2.Zero, 100, default, Projectile.ai[0] == 2f ? 2.5f : 1.2f).noGravity = true;
+            int dust = Projectile.ai[0] switch { 0f => DustID.DungeonSpirit, 3f or 4f => DustID.Torch, _ => DustID.PurpleTorch };
+            Dust.NewDustPerfect(Projectile.Center, dust, Vector2.Zero, 100, default, Big ? 2.5f : 1.2f).noGravity = true;
         }
 
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            if (Projectile.ai[0] >= 1f)
-                target.AddBuff(ModContent.BuffType<GodSlayerInferno>(), Projectile.ai[0] == 2f ? 180 : 120);
+            switch ((int)Projectile.ai[0])
+            {
+                case 1:
+                    target.AddBuff(ModContent.BuffType<GodSlayerInferno>(), 120);
+                    break;
+                case 2:
+                    target.AddBuff(ModContent.BuffType<GodSlayerInferno>(), 180);
+                    break;
+                case 3:
+                    target.AddBuff(ModContent.BuffType<Dragonfire>(), 180);
+                    break;
+                case 4:
+                    target.AddBuff(ModContent.BuffType<Dragonfire>(), 240);
+                    if (Projectile.owner == Main.myPlayer)
+                        Projectile.NewProjectile(Projectile.GetSource_FromThis(), target.Center, Vector2.Zero, ModContent.ProjectileType<Flarenado>(), (int)(Projectile.damage * 0.75f), 0f, Projectile.owner);
+                    break;
+            }
         }
+    }
+
+    /// <summary>Flarenado : tornade de feu immobile de 3 s (150 % des dégâts de l'arme), Dragonfire 4 s.</summary>
+    public class Flarenado : ModProjectile
+    {
+        public override string Texture => "CalamityMod/Projectiles/InvisibleProj";
+
+        public override void SetDefaults()
+        {
+            Projectile.width = 60;
+            Projectile.height = 140;
+            Projectile.friendly = true;
+            Projectile.DamageType = DamageClass.Magic;
+            Projectile.penetrate = -1;
+            Projectile.tileCollide = false;
+            Projectile.timeLeft = 180;
+            Projectile.usesLocalNPCImmunity = true;
+            Projectile.localNPCHitCooldown = 15;
+        }
+
+        public override void AI()
+        {
+            if (!Main.dedServ)
+                for (int i = 0; i < 4; i++)
+                    Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.Torch, Main.rand.NextFloat(-3f, 3f), -3f, 100, default, 1.6f).noGravity = true;
+        }
+
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) => target.AddBuff(ModContent.BuffType<Dragonfire>(), 240);
     }
 }

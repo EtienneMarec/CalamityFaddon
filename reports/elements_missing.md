@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (226)
+## Objets (221)
 
 - A M S
 - AAMG "Disperse"
@@ -137,7 +137,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Drained Catarachedrae
 - Driftorcher
 - Earthshooter
-- Ecological Collapse
 - Edgeterrence
 - Electrical Discharge
 - Elusive Feather
@@ -150,7 +149,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Exotic Beacon
 - Exterminative Dart
 - Exterminator
-- First Crescent
 - Flame Boy Popsicle
 - Fleshly Megaphone
 - Flint
@@ -238,7 +236,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Revolvin' Mc'Coy
 - RGB Graydron
 - Ribbon Flintlock Rifle Cannon
-- Rivers of Frost
 - Rox
 - Rusty Flamethrower
 - Salt Booklet
@@ -271,7 +268,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The King's Gambit
 - The Last Lightice
 - The Ones Striker
-- The Otherside
 - The Verboten One
 - The Watered Pew Pew
 - The WOBbler
@@ -295,7 +291,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Whipped Bouquet Blade
 - Wind Turbine Blade
 - Winter Breeze
-- Wrath of the Dragons
 - Wrath of the Gods
 - Wreath of Belial
 - Wrecking Ball

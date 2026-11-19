@@ -917,6 +917,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Lot R : Unloxcalibur, Aspect of the End, Gamma Ray Burst (yoyo qui frappe très vite), Dark Harvest Staff, Prominence
       (tempête au curseur), Chrononimbus, Crius Prime (clic droit : charge), Bolide Launcher (comètes).
 
+- [ ] Lot S : First Crescent, Wrath of the Dragons (pulsation orange, tornades de feu), Rivers of Frost (1 dégât + 1 % de
+      vie retiré ; clic droit : coûte de la vie et le mana, lames de givre), The Otherside (déchirures qui fusionnent),
+      Ecological Collapse (mines à aura électrique).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

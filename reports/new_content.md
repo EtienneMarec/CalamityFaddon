@@ -139,7 +139,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] EXO-LOTL Staff — addon: Calamity: Community Remix
 - [x] Earthen Clicker
 - [ ] Earthshooter — addon: Calamity: Tales of the Aquatic
-- [ ] Ecological Collapse
+- [x] Ecological Collapse
 - [ ] Electrical Discharge
 - [x] Elemental Bow
 - [x] Elemental Claymore
@@ -160,7 +160,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Eye of Light
 - [x] Fakenado Staff
 - [ ] Fina's Gun — addon: Calamity: Community Remix
-- [ ] First Crescent — addon: Calamity: Tales of the Aquatic
+- [x] First Crescent — addon: Calamity: Tales of the Aquatic
 - [ ] Flame Boy Popsicle — addon: Calamity: Community Remix
 - [x] Flaming Ice Bow — addon: Calamity: Community Remix
 - [x] Flare Blade
@@ -324,7 +324,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Reemergence
 - [ ] Revolvin' Mc'Coy — addon: Calamity: Community Remix
 - [ ] Ribbon Flintlock Rifle Cannon
-- [ ] Rivers of Frost — addon: Calamity: Community Remix
+- [x] Rivers of Frost — addon: Calamity: Community Remix
 - [x] Rods from God
 - [x] Rose Bow — addon: Calamity: Community Remix
 - [ ] Rox — addon: Calamity: Community Remix
@@ -403,7 +403,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Last Lightice — addon: Calamity: Community Remix
 - [x] The Needler
 - [ ] The Ones Striker — addon: Calamity: Tales of the Aquatic
-- [ ] The Otherside
+- [x] The Otherside
 - [x] The Princess
 - [x] The Reaper
 - [ ] The Watered Pew Pew — addon: Calamity: Tales of the Aquatic
@@ -455,7 +455,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Worst Prism
 - [x] Wrath of the Ancients
 - [x] Wrath of the Cosmos — addon: Calamity: Community Remix
-- [ ] Wrath of the Dragons — addon: Calamity: Community Remix
+- [x] Wrath of the Dragons — addon: Calamity: Community Remix
 - [x] Wrath of the Eldritch — addon: Calamity: Community Remix
 - [ ] Wrath of the Gods — addon: Calamity: Community Remix
 - [ ] Wreath of Belial — addon: Calamity: Community Remix

@@ -1898,6 +1898,22 @@ Inferno de Calamity.
 - **[choix]** Crius Prime : clic droit = charge jusqu'à 2 s (2 mana / 10 images), dégâts x1 à x5, 5 rebonds.
 - **[choix]** Bolide Launcher : 2 Galactica Comets (sprite du wiki) à 250 % par tir.
 
+### Lot S du 19/11 (`Content/Items/Weapons/WikiWeapons1119o.cs`)
+
+Armes fabricables à la Cosmic Anvil (recettes du wiki). Valeurs des infobox ; « Moon Burnt » = Nightwither.
+
+- **[choix]** First Crescent : croissant de 2 s (3 ennemis), un fragment à 50 % toutes les 8 images dans un sens au hasard.
+- **[choix]** Wrath of the Dragons : même pulsation que les Wrath du lot M (teintée orange) ; 2 anneaux de 32 poussières
+  de feu (tiers des dégâts, Dragonfire 3 s) ; deux Flare Tornadoes (x2) toutes les 3 salves (« seven rounds » sur la page,
+  mais la pulsation n'en fait que 4) ; Flarenado de 3 s au contact (frappe toutes les 15 images).
+- **[choix]** Rivers of Frost : coup = 1 dégât + 1 % de la vie max retiré directement (2 % imprégnée, 0,5 % sur
+  Providence) ; le retrait ne tue jamais seul (le coup d'1 dégât s'en charge) ; clic droit : 6,5 % de la vie max (coup non
+  esquivable), tout le mana, 1 min d'imprégnation ; lame de givre : 3 ennemis, 0,5 %, n'atteint pas Providence.
+- **[choix]** The Otherside : déchirure de 60 px au bout de la lame à chaque coup, 10 s, 5 au plus ; fusion des déchirures
+  qui se touchent (+30 px, +15 % par fusion, 100 % au plus).
+- **[choix]** Ecological Collapse : mines (sprite de l'arme) ; aura de 320 px : 10 % des dégâts toutes les 10 images
+  (immunité locale), Electrified 1 s ; éclats à 50 % ; frappe furtive : au-delà de 10 mines, 8 s, 20 à 30 éclats.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

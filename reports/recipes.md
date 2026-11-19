@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1548 objets dont les recettes ont changé : 1046 recettes modifiées, 601 créées
+- 1553 objets dont les recettes ont changé : 1046 recettes modifiées, 606 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -465,6 +465,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Earth Destruction Core | (nouvelle) | 1 Babil Destruction Core, 5 Living Shard @ AquaticHypercomputerStatic → 1 |
 | Eclipse Mirror | 1 Abyssal Mirror, 1 Dark God's Sheath, 20 Darksun Fragment @ CosmicAnvil → 1 | 1 Abyssal Mirror, 1 Dark God's Sheath, 20 Darksun Fragment, 4 Yharim Bar @ CosmicAnvil → 1 |
 | Eclipse's Fall | 1 Night's Gaze, 5 Auric Bar, 15 Darksun Fragment @ CosmicAnvil → 1 | 1 Night's Gaze, 12 Core of Sunlight, 8 Cosmilite Bar, 8 Darksun Fragment @ CosmicAnvil → 1 |
+| Ecological Collapse | (nouvelle) | 1 Metal Monstrosity, 20 Reaper Tooth, 20 Lumenyl, 20 Tenebris, 5 Subnautical Plate, 5 Yharim Bar @ CosmicAnvil → 1 |
 | Effervescence | 1 Bubble Gun, 5 Luminite Bar, 10 Aetherium Block @ MythrilAnvil → 1 | 1 Bubble Gun, 1 Xenopopper, 5 Luminite Bar, 15 Sea Prism, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Effigy of Decay | (nouvelle) | 20 Sulphuric Scale, 10 Acidwood @ Anvils → 1 |
 | Effulgent Feather | (nouvelle) | 3 Desert Feather, 1 Life Alloy @ LunarCraftingStation → 3 |
@@ -598,6 +599,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Fireball | (nouvelle) | 5 Ale, 40 Blood Orb, 1 Unicorn Horn @ AlchemyTable → 5 |
 | Fireball | 10 Bottle, 50 Living Fire Block, 10 Stardust @ Kegs → 10 | 5 Ale, 1 Hemagrape, 1 Unicorn Horn @ Kegs → 5 |
 | Firestorm Cannon | 1 Flare Gun, 10 Hellstone Bar, 1 Illegal Gun Parts @ Anvils → 1 | 5 Char Matter, 1 Flare Gun, 1 Boomstick, 10 Any Gold Bar, 10 Parched Scale @ Anvils → 1 |
+| First Crescent | (nouvelle) | 20 Ruinous Soul, 40 Lumenyl, 15 Core of Eleum, 20 Endothermic Energy @ CosmicAnvil → 1 |
 | Fishing Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Flah Round | (nouvelle) | 1 Flahium Bar @ DraedonsForge → 4999 |
 | Flahium Component | (nouvelle) | 3 Alloy Bar, 16 Aerialite Ore, 16 Arsenic Ore, 16 Charred Ore, 16 Cryonic Ore, 16 Perennial Ore, 16 Apocalyptic Ore, 16 Abyss Ore, 16 Life Ore, 16 Astral Ore, 15 Meld Blob, 100 Stardust, 75 Blood Orb, 15 Parched Scale, 15 Rotten Matter, 15 Blood Sample, 15 Purified Gel, 15 Ashes of Calamity, 15 Living Shard, 15 Plague Cell Canister, 10 Core of Calamity, 10 Orb of Boon, 15 Life Alloy, 22 Delicious Meat, 22 Disgusting Meat, 8 Soul of Plight, 8 Soul of Bright, 8 Soul of Night, 8 Soul of Light, 8 Soul of Flight, 8 Soul of Sight, 8 Soul of Might, 8 Soul of Fright, 5 Herb Bag, 1 Bloody Vein @ Autohammer → 2 |
@@ -1138,6 +1140,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Revivify Potion | (nouvelle) | 5 Holy Water, 10 Unholy Core @ AlchemyTable → 5 |
 | Rift Reeler | 1 Hotline Fishing Hook, 8 Abyss Bar @ MythrilAnvil → 1 | 1 Hotline Fishing Hook, 1 Chum Caster, 8 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Riptide | 3 Conquest Fragment, 7 Sea Prism, 10 Navystone @ Anvils → 1 | 7 Sea Prism, 10 Navystone @ Anvils → 1 |
+| Rivers of Frost | (nouvelle) | 1 Coldheart Icicle, 1 Glacial Crusher, 1 Katana, 20 Endothermic Energy @ CosmicAnvil → 1 |
 | Rocket I | 1 Any Iron Bar, 100 Empty Bullet, 4 Explosive Powder @ Anvils → 100 | 20 Empty Bullet, 1 Explosive Powder @ MythrilAnvil → 20 |
 | Rod of Misery | (nouvelle) | 1 Amethyst Hook, 1 Mediocre Matter @ Anvils → 1 |
 | Rods from God | (nouvelle) | 1 Supercharged Dart Blaster, 15 Auric Bar, 20 Core of Sunlight, 100 Soul of Light @ CosmicAnvil → 1 |
@@ -1481,6 +1484,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | The Mechanical Trio | 1 Retinazer Trophy @ Bookcases → 1 | 1 Spazmatism Trophy / Retinazer Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Mutilator | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 5 Bloodstone Bar, 5 Unholy Blood Cells @ LunarCraftingStation → 1 |
 | The Ocean | 1 Leviathan Trophy @ Bookcases → 1 | 1 Leviathan Trophy, 10 Conquest Fragment @ Bookcases → 1 |
+| The Otherside | (nouvelle) | 15 Soul of Bright, 9 Core of Babil, 1 Cutlass @ CosmicAnvil → 1 |
 | The Pack | 1 Scorpio, 50 Smooth Marble Block, 8 Cosmilite Bar, 20 Endothermic Energy, 4 Armored Shell @ CosmicAnvil → 1 | 1 Scorpio, 50 Smooth Marble Block, 4 Armored Shell, 8 Cosmilite Bar, 20 Endothermic Energy, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | The Perforators and their Hive | 1 Perforator Trophy @ Bookcases → 1 | 1 Perforator Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Plaguebringer Goliath | 1 Plaguebringer Goliath Trophy @ Bookcases → 1 | 1 Plaguebringer Goliath Trophy, 10 Conquest Fragment @ Bookcases → 1 |
@@ -1624,6 +1628,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wormhole Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Worst Prism | (nouvelle) | 30 Glass, 1 Mediocre Matter @ Hellforge → 1 |
 | Wrath of the Cosmos | (nouvelle) | 1 Wrath of the Eldritch, 1 Starfall, 12 Cosmilite Bar, 4 Ascendant Spirit Essence, 15 Galactica Singularity, 3 Yharim Bar @ CosmicAnvil → 1 |
+| Wrath of the Dragons | (nouvelle) | 1 Wrath of the Cosmos, 1 The Wand, 6 Yharon Soul Fragment, 5 Auric Bar, 3 Effulgent Feather, 10 Core of Sunlight, 3 Yharim Bar @ CosmicAnvil → 1 |
 | Wrath of the Eldritch | (nouvelle) | 1 Lashes of Chaos, 10 Luminite Bar, 2 Haunted Bar, 12 Nebula Fragment, 15 Exodium Cluster, 5 Galactica Singularity @ LunarCraftingStation → 1 |
 | Wrath Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Wulfrum Acrobatics Pack | 10 Wulfrum Bar, 1 Energy Core, 3 Chain @ Anvils → 1 | 30 Wulfrum Bar, 6 Feather, 1 Energy Orb @ Anvils → 1 |

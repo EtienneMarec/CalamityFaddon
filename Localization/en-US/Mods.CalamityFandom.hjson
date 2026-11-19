@@ -1941,6 +1941,16 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			EcologicalCollapse: {
+				DisplayName: Ecological Collapse
+				Tooltip:
+					'''
+					And there was no more ground to be seen...
+					Throws out up to 10 lumenous mines with lightning auras
+					Stealth strikes ignore the 10 mine cap, but dissipate quicker
+					'''
+			}
+
 			SpearofLiberty: {
 				DisplayName: Spear of Liberty
 				Tooltip:
@@ -2940,6 +2950,38 @@ Items: {
 			Fires a barrage of arrows and comets
 			'''
 	}
+	FirstCrescent: {
+		DisplayName: First Crescent
+		Tooltip: Casts a small crescent that shoots little moon fragments.
+	}
+
+	WrathoftheDragons: {
+		DisplayName: Wrath of the Dragons
+		Tooltip: Summons a draconic pulse at the cursor that periodically summon two rings of homing flare dust and occasionally two flare tornadoes that turn into lingering flarenadoes upon contact with an enemy
+	}
+
+	RiversofFrost: {
+		DisplayName: Rivers of Frost
+		Tooltip:
+			'''
+			Drains a percentage of enemy health on hit
+			Right click to drain all current mana and a percentage of your own health to empower the sword
+			Cannot inflict critical hits
+			Oh boy another INT katana!
+			'''
+		Death:
+			'''
+			{0} was frozen by their own river.
+			'''
+	}
+
+	TheOtherside: {
+		DisplayName: The Otherside
+		Tooltip:
+			'''
+			Slashes leave behind lingering portals. The larger the portal, the higher the damage.
+			'''
+	}
 }
 
 Projectiles: {
@@ -3761,6 +3803,37 @@ Projectiles: {
 
 	GalacticaComet: {
 		DisplayName: Galactica Comet
+	}
+	LittleCrescent: {
+		DisplayName: Crescent
+	}
+
+	MoonFragment: {
+		DisplayName: Moon Fragment
+	}
+
+	RiversFrostBlade: {
+		DisplayName: Frost Blade
+	}
+
+	RealityTear: {
+		DisplayName: Tear in Reality
+	}
+
+	LumenousMine: {
+		DisplayName: Lumenous Mine
+	}
+
+	LumenousAura: {
+		DisplayName: Lightning Aura
+	}
+
+	LumenylShard: {
+		DisplayName: Lumenyl Shard
+	}
+
+	Flarenado: {
+		DisplayName: Flarenado
 	}
 }
 
