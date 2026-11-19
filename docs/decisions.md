@@ -2153,6 +2153,37 @@ Armes fabricables (recettes du wiki). Valeurs des infobox ; rareté « C2 » →
 - **[choix]** Evercoldance : tourelle ; un rayon (110 %) sur les 2 ennemis les plus proches (800 px) toutes les 30
   images ; Evercold, Moon Burnt (Nightwither) et Crush Depth à 25 % chacun.
 
+### Lot AF du 19/11 (`Content/Items/Weapons/WikiWeapons1119aa.cs`)
+
+Armes fabricables (recettes du wiki) et debuffs Wither et Shred. Valeurs des infobox ; rareté « C2 » → 0.
+
+- **[choix]** Wither : la page « Wither » redirige vers une autre page ; d'après les infobulles (« Defense reduced by 20 »,
+  « Losing life... ») : -20 défense sur les coups reçus et 4 PV/s.
+- **[choix]** Shred (Tendon Tides, `TendonShred`) : ce n'est pas le Shred de Calamity (Soma Prime, 600 PV/s par cumul ; la
+  page « Shred » redirige vers Soma Prime mais l'infobox dit « debufflink = no ») : 5 PV/s par cumul, 64 au plus, ajouté
+  à 10 % des coups et à chaque coup critique ; les cumuls tombent avec le debuff (6 s).
+- **[choix]** Meridian : lance tenue (clic maintenu) qui va vers le curseur ; une étoile (20 %) toutes les 10 images ;
+  à chaque coup 4 essences du vide (30 %) ; une rangée de 5 épées (50 %) tombe du ciel, une fois toutes les 20 images.
+- **[choix]** Stratoctrine Spear : 2 lames volantes à 50 % par coup (3 s, Nightwither). Xenon Cutlass : entailles à
+  100 % (~40 blocs).
+- **[choix]** Twisted Netherite Sword : « use 1.6 » = 1,6 coup par seconde (38 images, comme l'épée de Minecraft) ; tue
+  sur le coup un ennemi qui n'est pas un boss ni un segment de ver quand aucun boss n'est en vie (avec son butin).
+- **[choix]** Wind Turbine Blade : estoc de 10 images ; après 3 estocs, 1 s d'attente ; clic droit pendant l'attente :
+  coup x3 de taille et tornade (100 %, 3 s, frappe toutes les 5 images, cherche les ennemis).
+- **[choix]** Overloaded Combatant Blaster : cadence de 2 images (le wiki dit 1), ±7,5° ; un tir d'onyx (300 %, explosion
+  de 96 px) toutes les 10 balles ; Nightclear, Holy Flames, Evercold.
+- **[choix]** Revolvin' Mc'Coy : 6 coups ; rechargement au clic droit (1 s) ou tout seul 1,5 s après le 6e ; série x1,2
+  → x3,5 si moins d'1 s entre deux tirs ; balles-cactus : 4 épines à 45 % ; 2 dernières en pierre : Armor Crunch 5 s, 3
+  rochers à 150 % (calculés sur le tir, multiplicateur compris).
+- **[technique]** Sister's Toy Rifle : la balle tirée est la vraie munition (pour garder son effet), dessinée en mousse.
+  **[choix]** Recharge de 1,5 s après 6 tirs ; les 3 premiers tirs suivants rebondissent vers un autre ennemi (500 px).
+- **[choix]** Ram's Revenge : 12 mana (l'infobox n'en donne pas) ; Wither 4 s ; explosion de sang de 80 px à 50 %
+  (Burning Blood 1 s) sur un ennemi ou un bloc.
+- **[choix]** Shading Manual : un orbe à la fois, qui fait le tour du joueur (90 px) en 2 s et tire un rayon toutes les
+  12 images.
+- **[choix]** Shadow's Descent : 5 boules au plus, 20 s ; arrêtées au bout d'1 s ; esprit (50 %) toutes les 30 images ;
+  zone de 160 px de 10 % à 100 % des dégâts en 10 s ; frappe furtive : pulsation (100 %, 240 px) toutes les secondes.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

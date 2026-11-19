@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (151)
+## Objets (140)
 
 - A M S
 - AAMG "Disperse"
@@ -148,7 +148,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Large Father
 - Li'l Mine
 - Mambel-Jambo
-- Meridian
 - Midas' Handshake
 - Neural Whipper-Snapper
 - Neuraze
@@ -160,7 +159,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Onyx Overlord's Gunsaw
 - OPFT "Sublimate"
 - Outplanetary Dartshooter
-- Overloaded Combatant Blaster
 - P.G.D.R.
 - Pandora's Chest
 - Pine's Penetrator
@@ -173,28 +171,22 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Quantum Flahium Ejection Device
 - Quantum Flahium Militia Device
 - Quantum Flahium Shock Device
-- Ram's Revenge
 - Rampart of Deicide
 - Reactor Accelerator
 - Redtide Spear
 - Regeterrence
-- Revolvin' Mc'Coy
 - RGB Graydron
 - Rusty Flamethrower
 - Salt Booklet
 - Salt Water Bolt
 - Sanguined Catarachedrae
 - Severed Eye.exe
-- Shading Manual
-- Shadow's Descent
 - Shattered Module
 - Shattered Pistol
 - Slimelgamation
 - Snowgrave
 - Star Flare
-- Stratoctrine Spear
 - Stringstreaker
-- Tendon Tides
 - Terreye Staff
 - Tetrachromancy
 - The Dreaming Ghost
@@ -211,7 +203,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Twisted Netherite Axe
 - Twisted Netherite Pickaxe
 - Twisted Netherite Shovel
-- Twisted Netherite Sword
 - Tyrant Shield
 - UserGrahkon/Sandbox
 - Vehement Gemstone
@@ -219,11 +210,9 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Vitreomance
 - Void Artifact
 - Wakasagihime
-- Wind Turbine Blade
 - Winter Breeze
 - Wrath of the Gods
 - Wreath of Belial
 - Wrecking Ball
 - XB-∞ Hekate
-- Xenon Cutlass
 - Zenith Arcanum

@@ -968,6 +968,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Grand Reef (lancer en l'air : plus d'éclats), Duet Hit et Miracle Smacker (marquage avec des sbires), EXO-LOTL
       Staff, Evercoldance (tourelle).
 
+- [ ] Lot AF : Meridian (lance tenue, épées qui tombent), Stratoctrine Spear, Tendon Tides (Shred qui cumule sur les
+      critiques), Twisted Netherite Sword (tue d'un coup hors combat de boss), Wind Turbine Blade (3 estocs puis clic
+      droit), Xenon Cutlass, Overloaded Combatant Blaster, Revolvin' Mc'Coy (6 coups, clic droit : recharger), Sister's
+      Toy Rifle, Ram's Revenge (Wither), Shading Manual (orbe), Shadow's Descent (clic droit : effacer).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

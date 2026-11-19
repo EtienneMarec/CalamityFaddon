@@ -1941,6 +1941,18 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			ShadowsDescent: {
+				DisplayName: Shadow's Descent
+				Tooltip:
+					'''
+					Shoots a shadow ball that ignores gravity and slows down after a short time.
+					While stationary, it shoots spirits and covers an area in a large shadow
+					Stealth strikes also emit dark pulses while stationary
+					Right click to delete all existing shadow balls
+					'They didn't understand its nature, so it was sealed away...'
+					'''
+			}
+
 			DiminishingVictory: {
 				DisplayName: Diminishing Victory
 				Tooltip: Stealth strike to throw the scythe like a slow moving boomerang that infinitely pierces through foes
@@ -3617,6 +3629,97 @@ Items: {
 			Creates a Crystal that shoots beams to its closest enemies, uses all the abyssal powers.
 			'''
 	}
+	Meridian: {
+		DisplayName: Meridian
+		Tooltip:
+			'''
+			Throws itself at the cursor and passively spawns stars
+			On hits, void essences and falling sword clones are summoned
+			'Balance.'
+			'''
+	}
+
+	StratoctrineSpear: {
+		DisplayName: Stratoctrine Spear
+		Tooltip: Generates small blades that fly towards your enemies
+	}
+
+	TendonTides: {
+		DisplayName: Tendon Tides
+		Tooltip:
+			'''
+			Inundatio ex Sanguis
+			Throws tendon slicing disks that shred hit enemies
+			If an enemy is critically hit, the shred effect stacks and deals more damage over time
+			'''
+	}
+
+	TwistedNetheriteSword: {
+		DisplayName: Twisted Netherite Sword
+		Tooltip: Vaporizes any normal enemies it touches.
+	}
+
+	WindTurbineBlade: {
+		DisplayName: Wind Turbine Blade
+		Tooltip:
+			'''
+			Thrusts towards the cursor when used
+			Right clicking after stabbing 3 times will result in a much larger swing, accompanied by a gust of wind
+			'''
+	}
+
+	XenonCutlass: {
+		DisplayName: Xenon Cutlass
+		Tooltip:
+			'''
+			Fires a stream of slashes
+			'I was stupid... so stupid...'
+			'''
+	}
+
+	OverloadedCombatantBlaster: {
+		DisplayName: Overloaded Combatant Blaster
+		Tooltip:
+			'''
+			What, they think they can escape?.
+			'''
+	}
+
+	RevolvinMcCoy: {
+		DisplayName: Revolvin' Mc'Coy
+		Tooltip:
+			'''
+			Converts any bullets into an exploding, high-velocity cactus bullets
+			Its curse causes the cactus bullets to harden into stone on its last 2 rounds
+			Right click to reload its rounds
+			'''
+	}
+
+	SistersToyRifle: {
+		DisplayName: Sister's Toy Rifle
+		Tooltip:
+			'''
+			Fires off a foam bullet that inherits the used bullet's effect
+			Requires reloading after firing the 6th ammo
+			After successfully reloading, the first three shot can bounce off up to 5 enemies
+			30% chance to not consume ammo
+			[c/f27a18:"A certain dutchaboo had one of these"]
+			'''
+	}
+
+	RamsRevenge: {
+		DisplayName: Ram's Revenge
+		Tooltip:
+			'''
+			Wielded by the second most powerful fighter.
+			Casts a magic bolt that summons blood explosions and lowers enemy defense on hit
+			'''
+	}
+
+	ShadingManual: {
+		DisplayName: Shading Manual
+		Tooltip: creates an orb that circles around you and shoots beams at your enemies
+	}
 }
 
 Projectiles: {
@@ -4941,6 +5044,85 @@ Projectiles: {
 	EvercoldBeam: {
 		DisplayName: Beam
 	}
+	MeridianSpear: {
+		DisplayName: Meridian
+	}
+
+	GalaxianStar: {
+		DisplayName: Star
+	}
+
+	VoidEssence: {
+		DisplayName: Void Essence
+	}
+
+	MeridianSword: {
+		DisplayName: Meridian
+	}
+
+	StratoctrineSpearProj: {
+		DisplayName: Stratoctrine Spear
+	}
+
+	StctrineBlade: {
+		DisplayName: Flying Blade
+	}
+
+	TendonDisk: {
+		DisplayName: Tendon Tides
+	}
+
+	WindTurbineThrust: {
+		DisplayName: Wind Turbine Blade
+	}
+
+	TurbineTornado: {
+		DisplayName: Gust of Wind
+	}
+
+	XenonSlash: {
+		DisplayName: Slash
+	}
+
+	OverloadedBullet: {
+		DisplayName: Bullet
+	}
+
+	OnyxBlast: {
+		DisplayName: Onyx Blast
+	}
+
+	CactusBullet: {
+		DisplayName: Cactus Bullet
+	}
+
+	CactusSpine: {
+		DisplayName: Spine
+	}
+
+	RamBolt: {
+		DisplayName: Magic Bolt
+	}
+
+	ShadingOrb: {
+		DisplayName: Orb
+	}
+
+	ShadingBeam: {
+		DisplayName: Beam
+	}
+
+	ShadowBall: {
+		DisplayName: Shadow Ball
+	}
+
+	ShadowSpirit: {
+		DisplayName: Shadow Spirit
+	}
+
+	ShadowPulse: {
+		DisplayName: Dark Pulse
+	}
 }
 
 Shortstrike.Gauge:
@@ -5316,6 +5498,15 @@ Buffs: {
 	EXOLOTLBuff: {
 		DisplayName: EXO-LOTL
 		Description: Great for distracting cats!
+	}
+	Wither: {
+		DisplayName: Wither
+		Description: Withered... Defense reduced by 20
+	}
+
+	TendonShred: {
+		DisplayName: Shred
+		Description: Blood
 	}
 }
 

@@ -250,7 +250,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Marnite Bayonet
 - [x] Marnite Spear
 - [x] Megaskeet — addon: Apotheosis and Friends
-- [ ] Meridian — addon: Calamity: Community Remix
+- [x] Meridian — addon: Calamity: Community Remix
 - [x] Metal Ball
 - [x] Microcell Cut — addon: Calamity: Tales of the Aquatic
 - [x] Microhavoc — addon: Calamity: Tales of the Aquatic
@@ -281,7 +281,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Onyx Staff — addon: Calamity: Community Remix
 - [ ] Ore Spawner Staff
 - [ ] Outplanetary Dartshooter — addon: Calamity: Tales of the Aquatic
-- [ ] Overloaded Combatant Blaster — addon: Calamity: Tales of the Aquatic
+- [x] Overloaded Combatant Blaster — addon: Calamity: Tales of the Aquatic
 - [ ] P.G.D.R.
 - [ ] Pandora's Chest — addon: Calamity: Community Remix
 - [x] Pastranion
@@ -340,7 +340,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Seashell Boomerang
 - [ ] Severed Eye.exe — addon: Calamity: Community Remix
 - [x] Sewer Brewer
-- [ ] Shading Manual — addon: Calamity: Tales of the Aquatic
+- [x] Shading Manual — addon: Calamity: Tales of the Aquatic
 - [ ] Shadow's Descent
 - [x] Shadowdrop Staff
 - [ ] Shattered Pistol — addon: Calamity: Tales of the Aquatic
@@ -372,7 +372,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Stellar Kunai
 - [x] Sticky Spiky Ball
 - [x] Storm Dragoon
-- [ ] Stratoctrine Spear — addon: Calamity: Tales of the Aquatic
+- [x] Stratoctrine Spear — addon: Calamity: Tales of the Aquatic
 - [ ] Stringstreaker — addon: Calamity: Tales of the Aquatic
 - [x] Summit Breaker
 - [x] Supercharged Dart Blaster
@@ -382,7 +382,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Technicate — addon: Calamity: Tales of the Aquatic
 - [x] Technomagica — addon: Calamity: Tales of the Aquatic
 - [x] Temporal Floe Sword
-- [ ] Tendon Tides — addon: Catalyst
+- [x] Tendon Tides — addon: Catalyst
 - [x] Tenebris Tides — addon: Catalyst
 - [x] Terra Bow
 - [x] Terra Edge
@@ -424,7 +424,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Twenty-Twloon
 - [x] Twin Cranes — addon: Calamity: Community Remix
 - [x] Twisted Netherite Scythe — addon: Calamity: Community Remix
-- [ ] Twisted Netherite Sword — addon: Calamity: Community Remix
+- [x] Twisted Netherite Sword — addon: Calamity: Community Remix
 - [ ] Tyrant Shield — addon: Calamity: Community Remix
 - [x] Unending Void
 - [x] Unloxcalibur — addon: Calamity: Community Remix
@@ -448,7 +448,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Warglaive
 - [x] Waterfrosia — addon: Calamity: Tales of the Aquatic
 - [x] Whipped Bouquet Blade — addon: Calamity: Community Remix
-- [ ] Wind Turbine Blade — addon: Calamity: Community Remix
+- [x] Wind Turbine Blade — addon: Calamity: Community Remix
 - [ ] Winter Breeze — addon: Apotheosis and Friends
 - [ ] Wisdom of Survival — addon: Calamity: Tales of the Aquatic
 - [x] Wooden Butterfly Staff
@@ -469,7 +469,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Wulfrum Staff — addon: Calamity: Community Remix
 - [ ] XB-∞ Hekate — addon: Calamity: Community Remix
 - [ ] Xemilumeniscent Staff — addon: Tranquility Mod
-- [ ] Xenon Cutlass — addon: Calamity: Community Remix
+- [x] Xenon Cutlass — addon: Calamity: Community Remix
 - [x] Yanmei's Knife
 - [x] Zweihandromeda
 

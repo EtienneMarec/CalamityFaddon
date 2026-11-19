@@ -428,7 +428,11 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Magic.CalamitousVortex>(), ModContent.ItemType<Content.Items.Weapons.Magic.LacelinousNocturne>(),
                 ModContent.ItemType<Content.Items.Weapons.Ranged.GrarbleBayonet>(), ModContent.ItemType<Content.Items.Weapons.Ranged.HolyNapalmLauncher>(), ModContent.ItemType<Content.Items.Weapons.Rogue.DiminishingVictory>(),
                 ModContent.ItemType<Content.Items.Weapons.Melee.GrandReef>(), ModContent.ItemType<Content.Items.Weapons.Summon.DuetHit>(), ModContent.ItemType<Content.Items.Weapons.Summon.MiracleSmacker>(),
-                ModContent.ItemType<Content.Items.Weapons.Summon.EXOLOTLStaff>(), ModContent.ItemType<Content.Items.Weapons.Summon.Evercoldance>() })
+                ModContent.ItemType<Content.Items.Weapons.Summon.EXOLOTLStaff>(), ModContent.ItemType<Content.Items.Weapons.Summon.Evercoldance>() ,
+                ModContent.ItemType<Content.Items.Weapons.Melee.Meridian>(), ModContent.ItemType<Content.Items.Weapons.Melee.StratoctrineSpear>(), ModContent.ItemType<Content.Items.Weapons.Melee.TendonTides>(),
+                ModContent.ItemType<Content.Items.Weapons.Melee.TwistedNetheriteSword>(), ModContent.ItemType<Content.Items.Weapons.Melee.WindTurbineBlade>(), ModContent.ItemType<Content.Items.Weapons.Melee.XenonCutlass>(),
+                ModContent.ItemType<Content.Items.Weapons.Ranged.OverloadedCombatantBlaster>(), ModContent.ItemType<Content.Items.Weapons.Ranged.RevolvinMcCoy>(), ModContent.ItemType<Content.Items.Weapons.Ranged.SistersToyRifle>(),
+                ModContent.ItemType<Content.Items.Weapons.Magic.RamsRevenge>(), ModContent.ItemType<Content.Items.Weapons.Magic.ShadingManual>(), ModContent.ItemType<Content.Items.Weapons.Rogue.ShadowsDescent>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
