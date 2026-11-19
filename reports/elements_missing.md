@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (188)
+## Objets (185)
 
 - A M S
 - AAMG "Disperse"
@@ -104,7 +104,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Charity
 - Chilled Soda Blade
 - Christmas Carol
-- Cirnogenic Staff
 - Cirrhotipede
 - Cobadium Rifle
 - Consequences of Power
@@ -241,7 +240,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The WOBbler
 - Titan Tides
 - Totality Tides
-- Twin Cranes
 - Twisted Netherite Axe
 - Twisted Netherite Pickaxe
 - Twisted Netherite Shovel
@@ -255,7 +253,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Vortex Dart
 - Wakasagihime
 - Waterfrost Dart
-- Whipped Bouquet Blade
 - Wind Turbine Blade
 - Winter Breeze
 - Wrath of the Gods

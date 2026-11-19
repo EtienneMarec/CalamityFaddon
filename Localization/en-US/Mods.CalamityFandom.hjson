@@ -3257,6 +3257,25 @@ Items: {
 			Occupies 4 minion slots and there can only be one
 			'''
 	}
+	TwinCranes: {
+		DisplayName: Twin Cranes
+		Tooltip: Fires monochrome rays while two squares shoot round and diamond bullets
+	}
+
+	WhippedBouquetBlade: {
+		DisplayName: Whipped Bouquet Blade
+		Tooltip: Fires cream pearls that explode into falling petals
+	}
+
+	CirnogenicStaff: {
+		DisplayName: Cirnogenic Staff
+		Tooltip:
+			'''
+			Summons an encharted ice star to fight for you
+			Right click to switch between minion and sentry mode
+			⑨
+			'''
+	}
 }
 
 Projectiles: {
@@ -4292,6 +4311,33 @@ Projectiles: {
 	MiniGuntera: {
 		DisplayName: Mini Guntera
 	}
+	CraneRay: {
+		DisplayName: Monochrome Ray
+	}
+
+	CraneBullet: {
+		DisplayName: Bullet
+	}
+
+	CreamPearl: {
+		DisplayName: Cream Pearl
+	}
+
+	CreamPetal: {
+		DisplayName: Cream Petal
+	}
+
+	IceStar: {
+		DisplayName: Ice Star
+	}
+
+	CirnoIceSpike: {
+		DisplayName: Ice Spike
+	}
+
+	EndoBeam: {
+		DisplayName: Endo Beam
+	}
 }
 
 Shortstrike.Gauge:
@@ -4611,6 +4657,10 @@ Buffs: {
 	GunteraBuff: {
 		DisplayName: Guntera
 		Description: The mini Guntera will protect you
+	}
+	IceStarBuff: {
+		DisplayName: Ice Star
+		Description: The encharted ice star will fight for you
 	}
 }
 

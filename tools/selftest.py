@@ -8,6 +8,7 @@ Code de sortie : 0 si tout passe, 1 sinon.
 """
 import os
 import subprocess
+import time
 import sys
 
 TML = r"C:\Program Files (x86)\Steam\steamapps\common\tModLoader"
@@ -64,14 +65,32 @@ def run(mode):
     print(f"===== mode {mode}")
     reports = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "reports")
     env = dict(os.environ, CALFANDOM_SELFTEST="1", CALFANDOM_REPORTS=reports, CALFANDOM_MODE=mode)
-    proc = subprocess.run(
+    # Lecture ligne à ligne : on arrête le serveur dès que le chargement du mod échoue (sinon il attendrait 10 minutes)
+    proc = subprocess.Popen(
         ["dotnet", "tModLoader.dll", "-server", "-steamworkshopfolder", WORKSHOP],
-        cwd=TML, env=env, stdin=subprocess.DEVNULL, capture_output=True, text=True,
-        encoding="utf-8", errors="replace", timeout=600)
-    lines = [l for l in proc.stdout.splitlines() if "[SELFTEST]" in l]
-    if not lines:
-        print(proc.stdout[-3000:])
-        print("Aucune sortie d'auto-test : le mod n'a pas fini de charger (voir tModLoader-Logs/server.log)")
+        cwd=TML, env=env, stdin=subprocess.DEVNULL, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
+        encoding="utf-8", errors="replace")
+    output, failed = [], None
+    deadline = time.time() + 600
+    for line in proc.stdout:
+        output.append(line.rstrip("\n"))
+        if "An error occurred while loading" in line or "Cannot add two" in line:
+            failed = line.strip()
+        if failed and len(output) > 400:
+            break
+        if failed and "error was caused by" in line:
+            failed += " / " + line.strip()
+            break
+        if time.time() > deadline:
+            failed = "délai de 10 minutes dépassé"
+            break
+    if proc.poll() is None:
+        proc.kill()
+    proc.wait()
+    lines = [l for l in output if "[SELFTEST]" in l]
+    if failed or not lines:
+        print("\n".join(output[-40:]))
+        print("Le mod n'a pas chargé : " + (failed or "aucune sortie d'auto-test") + " (voir tModLoader-Logs/server.log)")
         return False
     for l in lines:
         print(l)

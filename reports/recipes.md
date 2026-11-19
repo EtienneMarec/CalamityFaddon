@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1592 objets dont les recettes ont changé : 1046 recettes modifiées, 645 créées
+- 1596 objets dont les recettes ont changé : 1047 recettes modifiées, 648 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
-- 42 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 47 recettes
+- 41 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 46 recettes
 
 ## Recettes changées
 
@@ -340,6 +340,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Cinderplate | 25 Obsidian, 1 Essence of Sunlight @ Hellforge → 25 | 1 Essence of Sunlight, 3 Obsidian @ Hellforge → 3 |
 | Cinnamon Roll | (nouvelle) | 5 Everclear, 5 Blood Orb, 1 Beetle Husk @ AlchemyTable → 5 |
 | Cinnamon Roll | 10 Bottle, 1 Turtle Shell @ Kegs → 10 | 5 Everclear, 1 Whiskey, 1 Beetle Husk, 1 Flah @ Kegs → 5 |
+| Cirnogenic Staff | (nouvelle) | 1 Cryogenic Staff, 1 Cold Divinity, 9 Cosmilite Bar, 9 Endothermic Energy, 9 Coyote Venom @ CosmicAnvil → 1 |
 | Clamor Noctus | (nouvelle) | 1 Shellfish Staff, 1 Clam Crusher, 1 Clamor Rifle, 10 Mollusk Husk @ LunarCraftingStation → 10 |
 | Clamor Noxus | (nouvelle) | 1 Clamor Noctus, 1 Starmada, 1 Unsealed Singularity, 10 Exo Prism, 5 Soul of Plight @ DraedonsForge → 1 |
 | Claret Cannon | 25 Bloodstone, 10 Blood Orb @ MythrilAnvil → 1 | 25 Unholy Blood Cells, 4 Bloodstone Bar @ LunarCraftingStation → 1 |
@@ -520,6 +521,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Encrypted Schematic (Planetoid) | 10 Mysterious Circuitry, 10 Dubious Plating, 50 Glass @ Anvils → 1 | 10 Dubious Plating, 10 Mysterious Circuitry, 10 Any Iron Bar @ Anvils → 1 |
 | Endentant Bow | (nouvelle) | 20 Waterfreeze Reactive Essence @ DraedonsForge → 1 |
 | Endo Hydra Staff | 1 Staff of the Frost Hydra, 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 | 1 Staff of the Frost Hydra, 8 Twisted Netherite Bar, 20 Nightmare Fuel, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
+| Endogenesis | 1 Cryogenic Staff, 1 Blizzard Staff, 5 Shadowspec Bar, 100 Endothermic Energy, 15 Essence of Eleum @ DraedonsForge → 1 | 1 Cirnogenic Staff, 1 Blizzard Staff, 100 Endothermic Energy, 15 Core of Eleum, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Endoplate | (nouvelle) | 1 Endothermic Energy, 25 Obsidian @ CosmicAnvil → 50 |
 | Endothermic Dye | 3 Bottled Water, 5 Endothermic Energy @ DyeVat → 3 | 2 Bottled Water, 5 Endothermic Energy @ DyeVat → 2 |
 | Endurance Potion | (nouvelle) | 1 Bottled Water, 10 Unholy Core @ AlchemyTable → 1 |
@@ -1583,6 +1585,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Twentloon | (nouvelle) | 1 Triploon, 10 Tarragon Bar, 20 Musket Ball @ LunarCraftingStation → 1 |
 | Twenty-Twloon | (nouvelle) | 1 Twentloon, 1 Dualpoon, 1 22 Hornet Round, 10 Exo Prism, 5 Soul of Plight @ DraedonsForge → 1 |
 | Twilight Dye | (nouvelle) | 1 Bottled Water, 1 Stardust @ DyeVat → 1 |
+| Twin Cranes | (nouvelle) | 1 Rover Drive, 2 Duck, 50 Tarragon Bar, 5 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Twisted Netherite Bar | (nouvelle) | 1 Cosmilite Bar, 5 Debris Ore @ AquaticHypercomputerCapsules → 1 |
 | Twisted Netherite Bar | (nouvelle) | 1 Twisting Nether, 3 Cosmilite Slag @ HeavyWorkBench → 3 |
 | Twisted Netherite Scythe | (nouvelle) | 2 Twisted Netherite Bar, 2 Any Wood @ HeavyWorkBench → 1 |
@@ -1654,6 +1657,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Wave Pounder | 12 Mysterious Circuitry, 18 Dubious Plating, 8 Tarragon Bar, 4 Luminite Bar @ MythrilAnvil → 1 | 1 Reassembled Electronics, 8 Tarragon Bar, 4 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Web Ball | 30 Cobweb @ main → 1 | 2 Silk @ main → 2000 |
 | Weightless Candle | (nouvelle) | 1 Peace Candle, 357 Essence of Eleum, 3422 Soul of Flight @ CrystalBall → 1 |
+| Whipped Bouquet Blade | (nouvelle) | 1 Flower of Fire, 1 Flower of Frost, 1 Jungle Rose, 1 Obsidian Rose, 1 Sky Blue Flower, 5 Daybloom, 5 Fireblossom, 10 Duck, 5 Pink Pearl, 10 Pink Dye, 5 Bright Pink Dye, 10 Lumenyl, 50 Auric Bar, 60 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Whiskey | (nouvelle) | 5 Ale, 40 Blood Orb, 1 Unicorn Horn @ AlchemyTable → 5 |
 | Whiskey | 10 Bottle, 1 Spicy Pepper @ Kegs → 10 | 5 Ale, 1 Bottled Water, 1 Unicorn Horn @ Kegs → 5 |
 | White Wine | (nouvelle) | 5 Fluorescent Vodka, 30 Blood Orb, 5 Hallowed Ore @ AlchemyTable → 5 |
@@ -1722,7 +1726,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Auric Sludge Remnant — 1
 - objet : Braxaxe — 1
 - objet : Catarachedrae — 1
-- objet : Cirnogenic Staff — 1
 - objet : Clotted Gel — 1
 - objet : Deck of Souls — 1
 - objet : Demon Core — 1

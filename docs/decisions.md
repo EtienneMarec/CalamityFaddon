@@ -2016,6 +2016,16 @@ Armes fabricables à l'Ancient Manipulator et à la Cosmic Anvil (recettes du wi
   d'invocation ; gerbe de 8 (100 %), flot (25 %, 6 images), sniper (x3, 2 s).
 - Pas faits : Gearwork Shield (retour dans le temps des ennemis), Grand Reef (fléau).
 
+### Lot Z du 19/11 (`Content/Items/Weapons/WikiWeapons1119v.cs`)
+
+- **[choix]** Twin Cranes : 4 rayons blancs/noirs en éventail + une balle ronde (75 %) et un losange en vagues (45 %) par
+  carré et par utilisation ; la barrière (touche non nommée) n'est pas faite ; infobulle inventée (la page n'en a pas).
+- **[choix]** Whipped Bouquet Blade : 4 perles (White Pearl vanilla, 80 %), 6 à 8 pétales (30 %) ; « Cream points » et
+  charges de dessert pas faits ; infobulle inventée.
+- **[choix]** Cirnogenic Staff : étoile de glace (sprite du wiki), 1 place ; clic droit : bascule sbire / sentinelle pour
+  toutes les étoiles ; pics toutes les 40 / 10 images (50 %), rayon endo toutes les 3 s en sentinelle.
+- Pas faits : Tyrant Shield (cadavre de Yharim qui renvoie ennemis et projectiles), Gloomy Trident (page sans description).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

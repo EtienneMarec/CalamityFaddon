@@ -77,7 +77,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Chilled Soda Blade — addon: Calamity: Community Remix
 - [ ] Christmas Carol — addon: Apotheosis and Friends
 - [x] Chrononimbus — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
-- [ ] Cirnogenic Staff — addon: Calamity: Community Remix
+- [x] Cirnogenic Staff — addon: Calamity: Community Remix
 - [ ] Cirrhotipede — addon: Calamity: Community Remix
 - [x] Clamor Noctus
 - [x] Clamor Noxus — addon: Calamity: Community Remix
@@ -422,7 +422,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] True Night's Stabber
 - [x] Twentloon
 - [x] Twenty-Twloon
-- [ ] Twin Cranes — addon: Calamity: Community Remix
+- [x] Twin Cranes — addon: Calamity: Community Remix
 - [x] Twisted Netherite Scythe — addon: Calamity: Community Remix
 - [ ] Twisted Netherite Sword — addon: Calamity: Community Remix
 - [ ] Tyrant Shield — addon: Calamity: Community Remix
@@ -447,7 +447,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Warbow
 - [x] Warglaive
 - [x] Waterfrosia — addon: Calamity: Tales of the Aquatic
-- [ ] Whipped Bouquet Blade — addon: Calamity: Community Remix
+- [x] Whipped Bouquet Blade — addon: Calamity: Community Remix
 - [ ] Wind Turbine Blade — addon: Calamity: Community Remix
 - [ ] Winter Breeze — addon: Apotheosis and Friends
 - [ ] Wisdom of Survival — addon: Calamity: Tales of the Aquatic
