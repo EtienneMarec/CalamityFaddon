@@ -4028,6 +4028,126 @@ Items: {
 		DisplayName: Wulfrum Leggings
 		Tooltip: Movement speed increased by 5%
 	}
+	TwistedNetheriteHelmet: {
+		DisplayName: Twisted Netherite Helmet
+		Tooltip:
+			'''
+			50% increased damage, 12.5% increased damage reduction
+			'''
+	}
+
+	TwistedNetheriteChestplate: {
+		DisplayName: Twisted Netherite Chestplate
+		Tooltip:
+			'''
+			50% increased damage, 12.5% increased damage reduction
+			'''
+	}
+
+	TwistedNetheriteLeggings: {
+		DisplayName: Twisted Netherite Leggings
+		Tooltip:
+			'''
+			50% increased damage, 12.5% increased damage reduction
+			'''
+	}
+
+	TwistedNetheriteBoots: {
+		DisplayName: Twisted Netherite Boots
+		Tooltip:
+			'''
+			50% increased damage, 12.5% increased damage reduction, 2% increased movement speed
+			'''
+	}
+
+	ElderstoneHeadplate: {
+		DisplayName: Elderstone Headplate
+		Tooltip:
+			'''
+			60% increased damage, 40% decreased movement speed.
+			'''
+	}
+
+	ElderstoneChestplate: {
+		DisplayName: Elderstone Chestplate
+		Tooltip:
+			'''
+			20% increased damage, 40% decreased movement speed, Knockback immunity.
+			'''
+	}
+
+	ElderstoneLegplate: {
+		DisplayName: Elderstone Legplate
+		Tooltip:
+			'''
+			20% increased damage, 30% increased movement speed.
+			'''
+	}
+
+	FrozenVisor: {
+		DisplayName: Frozen Visor
+		Tooltip:
+			'''
+			60% increased melee speed
+			+25 max life
+			'''
+	}
+
+	FrozenChestplate: {
+		DisplayName: Frozen Chestplate
+		Tooltip:
+			'''
+			20% increased true melee size
+			inflict Frostburn on hit
+			Enemies are more likely to target you
+			+25 max life
+			'''
+	}
+
+	FrozenGreaves: {
+		DisplayName: Frozen Greaves
+		Tooltip:
+			'''
+			immunity to all cold-based debuffs
+			+25 max life
+			'''
+	}
+
+	ArchangelHelm: {
+		DisplayName: Archangel Helm
+	}
+
+	ArchangelChestplate: {
+		DisplayName: Archangel Chestplate
+	}
+
+	ArchangelGreaves: {
+		DisplayName: Archangel Greaves
+	}
+
+	CatarachedraeHeadset: {
+		DisplayName: Catarachedrae Headset
+		Tooltip:
+			'''
+			they say all teenagers scare the living [_] out of me
+			'''
+	}
+
+	CatarachedraeDress: {
+		DisplayName: Catarachedrae Dress
+		Tooltip:
+			'''
+			they say all teenagers scare the living [_] out of me
+			'''
+	}
+
+	CatarachedraeBoots: {
+		DisplayName: Catarachedrae Boots
+		Tooltip:
+			'''
+			they say all teenagers scare the living [_] out of me
+			'''
+	}
 }
 
 Projectiles: {
@@ -5570,6 +5690,13 @@ Projectiles: {
 	AerialMine: {
 		DisplayName: EM Aerial Mine
 	}
+	XerocEyeClone: {
+		DisplayName: Xeroc's Eye
+	}
+
+	XerocEyeBeam: {
+		DisplayName: Xeroc's Eye Beam
+	}
 }
 
 Shortstrike.Gauge:
@@ -6327,6 +6454,16 @@ WulfrumLegacy: {
 		The higher your rogue stealth the higher your rogue damage, crit, and movement speed
 		'''
 	SummonSetBonus: +1 max minion
+}
+
+WikiArmor: {
+	TwistedNetherite:
+		'''
+		Dropped items no longer despawn over time or when exiting worlds
+		All attacks inflict Wither
+		'''
+	Elderstone: Creates a Xeroc Eye's Clone that fights for you
+	Frozen: Press Armor Set Bonus to create an ice shield that parries attacks. Failing to parry will cause you to overcool.
 }
 
 Keybinds: {

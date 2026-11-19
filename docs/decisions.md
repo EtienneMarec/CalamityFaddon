@@ -2305,6 +2305,23 @@ Wulfrum armors existent côte à côte (la page « Wulfrum Hood » n'a pas de re
 - Wiki corrigé : la recette du Wulfrum Mask avait une ligne « Alloy Bar | -1 » (vandalisme) qui la rendait illisible ;
   retirée. (Restent illisibles : Desert Medallion « Wulfrum Bar | 0 », Victide Breastplate « Alloy Bar | sqrt(-1) ».)
 
+### Lot AN du 19/11 (`Content/Items/Armor/WikiArmorSets1119.cs`)
+
+Ensembles d'armure fabricables (recettes du wiki). **[technique]** Le wiki n'a que les icônes : rendu porté provisoire repris
+d'armures de Calamity (listé dans `docs/SPRITES.md`) : Twisted Netherite = Fearmonger, Elderstone = Marnite Architect,
+Frozen = Daedalus (mêlée), Archangel = Aerospec (mêlée), Catarachedrae = Bloodflare (mêlée).
+
+- **[choix]** Twisted Netherite : les bottes sont un accessoire (pas d'emplacement de bottes dans Terraria) ; le bonus
+  d'ensemble (Wither 10 s sur toutes les attaques) demande les 3 pièces et les bottes. « Les objets lâchés ne disparaissent
+  plus » : la page dit que ça ne marche pas (bug), donc non fait.
+- **[choix]** Elderstone : clone de l'œil de Xeroc sans emplacement de sbire, rayon de 1000 dégâts d'invocation toutes les
+  40 images ; texture provisoire d'un Demon Eye teinté (le wiki n'a qu'une illustration).
+- **[choix]** Frozen : touche de bonus d'armure de Calamity ; fenêtre de parade de 20 images ; parer un ennemi annule le
+  coup, lui fait 100 dégâts de mêlée et donne 1 s d'invulnérabilité ; parer un projectile divise ses dégâts par deux ;
+  recharge 5 s ; ne rien parer : Frozen 1 s et recharge 10 s. « Froid » = Frostburn, Frostbite, Chilled, Frozen, Glacial
+  State ; « vous visent plus » = +400 d'aggro ; « +20 % de taille en vraie mêlée » = +20 % de taille des armes de mêlée.
+- **[technique]** Catarachedrae « fabricable seulement en Revengeance » : pas de condition sur les recettes du wiki.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

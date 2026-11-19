@@ -61,6 +61,8 @@ section Taming. Fichiers : `wiki_sprites_custom/<Nom>.png`.
 
 | Contenu | Texture utilisée | Attendu |
 |---|---|---|
+| Armures du wiki : rendu porté (lot AN) | Twisted Netherite = Fearmonger, Elderstone = Marnite Architect, Frozen = Daedalus, Archangel = Aerospec, Catarachedrae = Bloodflare | planches portées (tête, corps, jambes) de chaque ensemble : `wiki_sprites_custom/<Pièce> (equipped).png` |
+| Elderstone : œil de Xeroc (sbire) | Demon Eye de Terraria teinté violet (le wiki n'a qu'une illustration de 658×879) | œil ~30×30, 2 images : `wiki_sprites_custom/Xeroc Eye's Clone.png` |
 | The Insacred Texts : portail | portail démoniaque de Calamity (`DemonPortal`), teinté rouge et aplati | grand portail rouge vu de côté, ~96×32 |
 | The Insacred Texts : bras | main du Sepulcher de Supreme Calamitas, teintée et étirée | bras qui sort du portail, ~26×80 (étiré en jeu) |
 | Elemental Claymore : Eon Beams | rayon de la Terra Blade vanilla, teinté en 4 couleurs | rayon d'épée en 4 couleurs (rose, vert, bleu, orange) |

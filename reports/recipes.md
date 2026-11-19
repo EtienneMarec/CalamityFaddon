@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1702 objets dont les recettes ont changé : 1050 recettes modifiées, 752 créées
+- 1718 objets dont les recettes ont changé : 1050 recettes modifiées, 768 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -122,6 +122,9 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Aquatic Scourge | 1 Aquatic Scourge Trophy @ Bookcases → 1 | 1 Aquatic Scourge Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Arch Amaryllis | 1 Gleaming Magnolia, 12 Nebula Fragment @ LunarCraftingStation → 1 | 1 Gleaming Magnolia, 10 Nebula Fragment, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Archaic Powder | 1 Ancient Fossil, 1 Ancient Chisel, 3 Ancient Bone Dust, 10 Scorched Bone, 15 Bone @ Anvils → 1 | 1 Ancient Fossil, 1 Demonic Bone Ash, 3 Ancient Bone Dust, 15 Bone @ Anvils → 1 |
+| Archangel Chestplate | (nouvelle) | 3 Divine Bar, 2 Profaned Core @ LunarCraftingStation → 1 |
+| Archangel Greaves | (nouvelle) | 3 Divine Bar @ LunarCraftingStation → 1 |
+| Archangel Helm | (nouvelle) | 3 Divine Bar, 1 Profaned Core @ LunarCraftingStation → 1 |
 | Archangel Wings | (nouvelle) | 4 Divine Bar, 2 Profaned Core, 1 Angel Wings @ LunarCraftingStation → 1 |
 | Archery Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Archery Potion | (nouvelle) | 1 Bottled Water, 2 Lens, 1 Blighted Lens @ Bottles → 1 |
@@ -322,6 +325,9 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Caribbean Rum | (nouvelle) | 5 Vodka, 20 Blood Orb, 1 Living Shard @ AlchemyTable → 5 |
 | Caribbean Rum | 20 Bottle, 1 Ice Feather @ Kegs → 20 | 5 Vodka, 20 Bamboo, 1 Living Shard @ Kegs → 5 |
 | Carnage Ray | (nouvelle) | 1 Crimson Rod, 1 Wand of Sparking, 1 Amber Staff, 1 Magic Missile, 15 Blood Sample, 10 Purified Gel @ DemonAltar → 1 |
+| Catarachedrae Boots | (nouvelle) | 20 Silk, 20 Blood Orb @ AquaticHypercomputer → 1 |
+| Catarachedrae Dress | (nouvelle) | 20 Silk, 20 Blood Orb @ AquaticHypercomputer → 1 |
+| Catarachedrae Headset | (nouvelle) | 20 Silk, 20 Blood Orb @ AquaticHypercomputer → 1 |
 | Catastrophe Claybore | (nouvelle) | 8 Catastrophe Clay Ore, 3 Soul Flux, 2 Essential Essence Bar @ MythrilAnvil → 1 |
 | Catastrophe Claycore | (nouvelle) | 10 Catastrophe Clay Ore, 3 Soul Flux, 6 Essential Essence Bar @ MythrilAnvil → 1 |
 | Catastrophe Claymore | (nouvelle) | 12 Catastrophe Clay Ore, 3 Soul Flux, 6 Essential Essence Bar @ MythrilAnvil → 1 |
@@ -511,6 +517,9 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Effulgent Feather | (nouvelle) | 3 Desert Feather, 1 Life Alloy @ LunarCraftingStation → 3 |
 | Effulgent Manipulator | 10 Silva Crystal, 5 Any Gold Bar @ GlassKiln → 1 | 10 Silva Crystal, 5 Any Gold Bar @ LunarCraftingStation → 1 |
 | Eidolon Staff | (nouvelle) | 1 Stardust Dragon Staff, 20 Reaper Tooth, 20 Lumenyl, 20 Tenebris, 5 Subnautical Plate, 17 Yharim Bar @ CosmicAnvil → 1 |
+| Elderstone Chestplate | (nouvelle) | 1 Rock @ AquaticHypercomputerERM → 1 |
+| Elderstone Headplate | (nouvelle) | 1 Rock @ AquaticHypercomputerERM → 1 |
+| Elderstone Legplate | (nouvelle) | 1 Rock @ AquaticHypercomputerERM → 1 |
 | Eldritch Soul Artifact | 5 Phantoplasm, 25 Navyplate, 25 Exodium Cluster @ MythrilAnvil → 1 | 10 Soul Flux, 25 Navyplate, 5 Phantoplasm, 25 Exodium Cluster @ DemonAltar → 1 |
 | Electrician's Glove | 1 Filthy Glove, 100 Wire, 5 Any Mythril Bar @ MythrilAnvil → 1 | 1 Bloodstained Glove / Filthy Glove, 100 Wire, 5 Any Mythril Bar @ MythrilAnvil → 1 |
 | Elemental Axe | 1 Plantation Staff, 1 Blade Staff, 5 Luminite Bar, 5 Life Alloy, 5 Stardust Fragment @ MythrilAnvil → 1 | 1 Blade Staff, 1 Plantation Staff, 1 Haunted Scroll, 5 Galactica Singularity, 8 Elemental Bar, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
@@ -684,7 +693,10 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Frost Blossom Staff | 50 Any Ice Block, 10 Boreal Wood, 5 Shiverthorn @ Anvils → 1 | 5 Shiverthorn, 5 Any Snow Block, 5 Any Ice Block @ Anvils → 1 |
 | Frost Bolt | 20 Any Ice Block, 10 Any Snow Block, 2 Shiverthorn, 1 Sapphire @ Bookcases → 1 | 20 Any Ice Block, 2 Shiverthorn, 10 Any Snow Block, 1 Water Bucket @ Bookcases → 1 |
 | Frostcrush Valari | 1 Kylie, 6 Cryonic Bar, 5 Ectoplasm @ MythrilAnvil → 1 | 1 Kylie, 6 Cryonic Bar, 40 Voidstone, 5 Core of Eleum, 2 The sword is inside the core @ IceMachine → 1 |
+| Frozen Chestplate | (nouvelle) | 20 Enchanted Metal, 1 Molten Breastplate @ Hellforge → 1 |
+| Frozen Greaves | (nouvelle) | 15 Enchanted Metal, 1 Molten Greaves @ Hellforge → 1 |
 | Frozen Turtle Shell | (nouvelle) | 3 Turtle Shell, 9 Essence of Eleum @ IceMachine → 1 |
+| Frozen Visor | (nouvelle) | 10 Enchanted Metal, 1 Molten Helmet @ Hellforge → 1 |
 | Fuelplate | (nouvelle) | 1 Nightmare Fuel, 25 Obsidian @ CosmicAnvil → 50 |
 | Fulguration Halberd | (nouvelle) | 10 Any Adamantite Bar, 10 Crystal Shard @ MythrilAnvil → 1 |
 | Fungal Chunk | (nouvelle) | 20 Mushroom, 20 Glowing Mushroom, 20 Vicious Mushroom, 20 Vile Mushroom, 20 Teal Mushroom, 20 Green Mushroom @ BotanicPlanter → 1 |
@@ -1675,6 +1687,10 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Twisted Netherite Axe | (nouvelle) | 3 Twisted Netherite Bar, 2 Any Wood @ HeavyWorkBench → 1 |
 | Twisted Netherite Bar | (nouvelle) | 1 Cosmilite Bar, 5 Debris Ore @ AquaticHypercomputerCapsules → 1 |
 | Twisted Netherite Bar | (nouvelle) | 1 Twisting Nether, 3 Cosmilite Slag @ HeavyWorkBench → 3 |
+| Twisted Netherite Boots | (nouvelle) | 4 Twisted Netherite Bar @ HeavyWorkBench → 1 |
+| Twisted Netherite Chestplate | (nouvelle) | 8 Twisted Netherite Bar @ HeavyWorkBench → 1 |
+| Twisted Netherite Helmet | (nouvelle) | 5 Twisted Netherite Bar @ HeavyWorkBench → 1 |
+| Twisted Netherite Leggings | (nouvelle) | 7 Twisted Netherite Bar @ HeavyWorkBench → 1 |
 | Twisted Netherite Pickaxe | (nouvelle) | 3 Twisted Netherite Bar, 2 Any Wood @ HeavyWorkBench → 1 |
 | Twisted Netherite Scythe | (nouvelle) | 2 Twisted Netherite Bar, 2 Any Wood @ HeavyWorkBench → 1 |
 | Twisted Netherite Shovel | (nouvelle) | 1 Twisted Netherite Bar, 2 Any Wood @ HeavyWorkBench → 1 |

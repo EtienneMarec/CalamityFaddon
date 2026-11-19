@@ -997,6 +997,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Lot AM : ancienne Wulfrum armor (5 casques, plastron, jambières) : rendu porté, bonus d'ensemble (+5 défense sous
       50 % de vie).
 
+- [ ] Lot AN : armures Twisted Netherite (avec les bottes en accessoire : Wither), Elderstone (œil de Xeroc), Frozen
+      (touche de bonus d'armure : parer un ennemi, un projectile, rien), vanités Archangel et Catarachedrae (rendu porté
+      provisoire).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

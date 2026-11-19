@@ -451,7 +451,13 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Summon.ConsequencesofPower>() ,
                 ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumHeadMelee>(), ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumHeadRanged>(), ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumHeadMagic>(),
                 ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumHeadRogue>(), ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumHeadSummon>(), ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumArmor>(),
-                ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumLeggings>() })
+                ModContent.ItemType<Content.Legacy.Items.Armor.Wulfrum.WulfrumLeggings>() ,
+                ModContent.ItemType<Content.Items.Armor.TwistedNetheriteHelmet>(), ModContent.ItemType<Content.Items.Armor.TwistedNetheriteChestplate>(), ModContent.ItemType<Content.Items.Armor.TwistedNetheriteLeggings>(),
+                ModContent.ItemType<Content.Items.Armor.TwistedNetheriteBoots>(), ModContent.ItemType<Content.Items.Armor.ElderstoneHeadplate>(), ModContent.ItemType<Content.Items.Armor.ElderstoneChestplate>(),
+                ModContent.ItemType<Content.Items.Armor.ElderstoneLegplate>(), ModContent.ItemType<Content.Items.Armor.FrozenVisor>(), ModContent.ItemType<Content.Items.Armor.FrozenChestplate>(),
+                ModContent.ItemType<Content.Items.Armor.FrozenGreaves>(), ModContent.ItemType<Content.Items.Armor.ArchangelHelm>(), ModContent.ItemType<Content.Items.Armor.ArchangelChestplate>(),
+                ModContent.ItemType<Content.Items.Armor.ArchangelGreaves>(), ModContent.ItemType<Content.Items.Armor.CatarachedraeHeadset>(), ModContent.ItemType<Content.Items.Armor.CatarachedraeDress>(),
+                ModContent.ItemType<Content.Items.Armor.CatarachedraeBoots>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

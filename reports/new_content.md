@@ -1337,9 +1337,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Animatronic Armor
 - [ ] Corpulent coverings
 - [ ] Cyber Armor
-- [ ] Elderstone Armor — addon: Calamity: Tales of the Aquatic
+- [x] Elderstone Armor — addon: Calamity: Tales of the Aquatic
 - [ ] Entropic Armor — addon: Calamity: Tales of the Aquatic
-- [ ] Frozen Armor
+- [x] Frozen Armor
 - [x] Gel Armor
 - [ ] Hadopelagic armor
 - [ ] Hornet Round Armor — addon: Calamity: Tales of the Aquatic
@@ -1349,7 +1349,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Reaver Mask
 - [ ] Seashatter Armor — addon: Calamity: Tales of the Aquatic
 - [x] Shroomite Visage
-- [ ] Twisted Netherite armor
+- [x] Twisted Netherite armor
 - [ ] Winter Soldier armor — addon: Apotheosis and Friends
 - [x] Wulfrum Hardhat
 - [x] Wulfrum Lenses
@@ -1540,10 +1540,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Vanity (5)
 
-- [ ] Archangel set
+- [x] Archangel set
 - [ ] Ash's Cloak
 - [ ] Blank Stare
-- [ ] Catarachedrae Vanity Outfit — addon: Calamity: Tales of the Aquatic
+- [x] Catarachedrae Vanity Outfit — addon: Calamity: Tales of the Aquatic
 - [ ] Sloome Totem
 
 ## Mount Summon (5)
