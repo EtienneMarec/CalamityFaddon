@@ -1871,6 +1871,19 @@ Cirrhotipede : fouet ; Hi-Scan Camera : modes non décrits) attendent : système
   parle pas de la nuit).
 - **[choix]** Earth Destruction Core : comme la Babil Destruction Core (même compteur de 5 s), valeurs plus fortes.
 
+### Lot Q du 19/11 (`Content/Items/Weapons/WikiWeapons1119m.cs`)
+
+Armes fabricables à l'enclume (recettes du wiki). Valeurs des infobox, sprites des sbires du wiki.
+
+- **[choix]** Fracture Staff : le Fractal Crawler bondit vers la cible toutes les 35 images (gravité entre deux) ; 3
+  cristaux (Crystal Shard vanilla) à 20 % par coup.
+- **[choix]** Holy Mackerel Staff : demi-place ; fonce à 16, frappe toutes les 10 images, Holy Flames 2 s ; en solo, ignore
+  les cibles hors de l'écran (page) — en multijoueur l'écran du serveur n'existe pas, la règle est ignorée.
+- **[choix]** Infernum Kris : 2 places, un seul ; couteau rouge (Throwing Knife vanilla) toutes les 12 images ; au-delà de
+  600 px, téléportation 160 px au-dessus de la cible, 8 couteaux en cercle et un coup vers le bas x2.
+- **[technique]** The First Fracturer : estoc à l'ancienne (Thrust) ; rayon bleu ; au contact, 3 à 5 rayons à 50 %
+  arrivent de 900 px autour de l'ennemi (eux ne se multiplient pas).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

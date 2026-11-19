@@ -2866,6 +2866,33 @@ Items: {
 			150% increased mining speed, 50% increased movement speed and 25% decreased damage reduction every time you take damage
 			'''
 	}
+	FractureStaff: {
+		DisplayName: Fracture Staff
+		Tooltip: Summons a fractal crawler to fight for you
+	}
+
+	HolyMackerelStaff: {
+		DisplayName: Holy Mackerel Staff
+		Tooltip:
+			'''
+			Summons a Holy Mackerel to fight for you
+			Each mackerel takes only half of a minion slot
+			'''
+	}
+
+	InfernumKris: {
+		DisplayName: Infernum Kris
+		Tooltip:
+			'''
+			Summons a fallen human equipped with knives to fight for you
+			Takes up 2 minion slots and only one can exist
+			'''
+	}
+
+	TheFirstFracturer: {
+		DisplayName: The First Fracturer
+		Tooltip: Shoots out beams that summon a barrage of extra beams on enemy hits
+	}
 }
 
 Projectiles: {
@@ -3626,6 +3653,29 @@ Projectiles: {
 	CircuitAura: {
 		DisplayName: Mech Aura
 	}
+	FractalCrawler: {
+		DisplayName: Fractal Crawler
+	}
+
+	FractalCrystal: {
+		DisplayName: Fractal Crystal
+	}
+
+	HolyMackerel: {
+		DisplayName: Holy Mackerel
+	}
+
+	FallenHuman: {
+		DisplayName: Fallen Human
+	}
+
+	KrisKnife: {
+		DisplayName: Knife
+	}
+
+	FractureBeam: {
+		DisplayName: Fracture Beam
+	}
 }
 
 Shortstrike.Gauge:
@@ -3923,6 +3973,20 @@ Buffs: {
 	OnyxFistBuff: {
 		DisplayName: Onyx Fist
 		Description: The onyx fist will punch enemies for you
+	}
+	FractalCrawlerBuff: {
+		DisplayName: Fractal Crawler
+		Description: The fractal crawler will fight for you
+	}
+
+	HolyMackerelBuff: {
+		DisplayName: Holy Mackerel
+		Description: The holy mackerels will fight for you
+	}
+
+	InfernumKrisBuff: {
+		DisplayName: Fallen Human
+		Description: The fallen human will fight for you
 	}
 }
 

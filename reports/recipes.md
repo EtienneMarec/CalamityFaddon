@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1535 objets dont les recettes ont changé : 1046 recettes modifiées, 588 créées
+- 1540 objets dont les recettes ont changé : 1046 recettes modifiées, 593 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
-- 44 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 49 recettes
+- 43 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 48 recettes
 
 ## Recettes changées
 
@@ -165,6 +165,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Astreal Defeat | 1 Spirit Flame, 1 Shadowflame Bow, 5 Luminite Bar, 5 Ashes of Calamity @ MythrilAnvil → 1 | 1 Spirit Flame, 1 Shadowflame Bow, 1 Continental Greatbow, 1 Bladedge Railbow, 1 Darkecho Greatbow, 5 Essence of Zot, 5 Luminite Bar, 25 Essential Essence Bar, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Astrum Aureus | 1 Astrum Aureus Trophy @ Bookcases → 1 | 1 Astrum Aureus Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Ataraxia | 1 Broken Hero Sword, 5 Auric Bar, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Broken Hero Sword, 5 Auric Bar, 8 Cosmilite Bar, 2 Ascendant Spirit Essence, 20 Nightmare Fuel, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
+| Atlas Munitions Beacon | (nouvelle) | 1 Infernum Kris, 8 Astral Bar, 1 Titan Heart @ LunarCraftingStation → 1 |
 | Augar of the Elements | 1 Shadowflame Hex Doll, 1 Eldritch Tome, 5 Luminite Bar, 5 Life Alloy, 5 Nebula Fragment @ Bookcases → 1 | 1 Eldritch Tome, 1 Tome of Fates, 1 Shadowflame Hex Doll, 5 Galactica Singularity, 8 Elemental Bar, 5 Luminite Bar @ Bookcases → 1 |
 | Auralis | 1 Sniper Rifle, 10 Tarragon Bar, 5 Aureus Cell, 50 Stardust @ MythrilAnvil → 1 | 5 Tarragon Bar, 5 Aureus Cell, 50 Stardust, 1 Sniper Rifle @ LunarCraftingStation → 1 |
 | Aureate Booster | 20 Soul of Flight, 10 Perennial Bar @ MythrilAnvil → 1 | 5 Perennial Bar, 1 Soul of Bright, 20 Soul of Flight @ MythrilAnvil → 1 |
@@ -614,6 +615,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Forbidden Oathblade | 1 Bladecrest Oathsword, 1 Old Lord Oathsword, 8 Unholy Core, 8 Essence of Chaos @ MythrilAnvil → 1 | 1 Bladecrest Oathsword, 1 Old Lord Oathsword, 5 Soul of Fright @ MythrilAnvil → 1 |
 | Forbidden Sun | 1 Spell Tome, 10 Abyss Bar @ Bookcases → 1 | 1 Spell Tome, 6 Abyss Bar @ Bookcases → 1 |
 | Forsaken Saber | 5 Any Adamantite Bar, 2 Forbidden Fragment @ MythrilAnvil → 1 | 1 Onyx Gunblade, 2 Forbidden Fragment, 5 Any Adamantite Bar @ MythrilAnvil → 1 |
+| Fracture Staff | (nouvelle) | 1 Stormjaw Staff, 16 Amber, 18 Soul of Light, 2 Light Shard @ MythrilAnvil → 1 |
 | Fractured Ark | 1 Enchanted Sword, 10 Purified Gel, 10 Any Copper Bar @ Anvils → 1 | 10 Char Matter, 1 Starfury, 1 Enchanted Sword / Arkhalis, 5 Gel, 10 Diamond, 12 Alloy Bar @ Anvils → 1 |
 | Fracturing Fist | (nouvelle) | 1 Meteor Fist, 16 Soul of Light, 1 Light Shard, 20 Crystal Shard @ MythrilAnvil → 1 |
 | Frigid Bulwark | (nouvelle) | 1 Paladin's Shield, 1 Frozen Turtle Shell, 5 Mollusk Husk, 5 Core of Eleum @ MythrilAnvil → 1 |
@@ -731,6 +733,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Hermes Boots | 10 Silk, 5 Swiftness Potion @ Loom → 1 | 10 Silk, 2 Swiftness Potion @ Loom → 1 |
 | Heron Rod | 8 Aerialite Bar @ Anvils → 1 | 7 Aerialite Bar, 5 Sunplate Block @ SkyMill → 1 |
 | Holy Fire Bullet | 333 Exploding Bullet, 1 Unholy Essence @ MythrilAnvil → 333 | 100 Exploding Bullet, 1 Unholy Essence @ LunarCraftingStation → 100 |
+| Holy Mackerel Staff | (nouvelle) | 1 Herring Staff, 1 Crystal Serpent, 10 Hallowed Bar, 20 Soul of Light @ MythrilAnvil → 1 |
 | Holy Mantle | (nouvelle) | 20 Soul of Flight, 5 Ashes of Annihilation, 1 Yharim Bar, 1 Shadowspec Bar @ CosmicAnvil → 1 |
 | Holy Wrath Potion | (nouvelle) | 1 Wrath Potion, 1 Unholy Essence, 1 Fallen Star, 1 Flah @ AlchemyTable → 1 |
 | Holy Wrath Potion | (nouvelle) | 1 Bottled Water, 4 Unholy Core, 1 Unholy Essence @ AlchemyTable → 1 |
@@ -761,6 +764,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Infernal Rift | 1 Sky Fracture, 10 Abyss Bar @ MythrilAnvil → 1 | 1 Sky Fracture, 3 Essence of Chaos, 10 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Infernal Wisp Dye | (nouvelle) | 1 Bottled Water, 1 Core of Chaos @ DyeVat → 1 |
 | Inferno Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
+| Infernum Kris | (nouvelle) | 1 Infernal Kris, 3 Soul of Light, 4 Essence of Chaos @ MythrilAnvil → 1 |
 | Infinity | 1 Shredder, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Shredder, 10 Cosmilite Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Interfacer Staff | (nouvelle) | 1 Bucket of Coal, 1000 Martian Conduit Plating, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Invisibility Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
@@ -1461,6 +1465,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | The Eater of Worlds | 1 Eater of Worlds Trophy @ Bookcases → 1 | 1 Eater of Worlds Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Enforcer | (nouvelle) | 12 Cosmilite Bar @ CosmicAnvil → 1 |
 | The Eye of Cthulhu | 1 Eye of Cthulhu Trophy @ Bookcases → 1 | 1 Eye of Cthulhu Trophy, 10 Conquest Fragment @ Bookcases → 1 |
+| The First Fracturer | (nouvelle) | 1 Night's Edge / Bloody Edge, 22 Soul of Light, 2 Light Shard @ MythrilAnvil → 1 |
 | The Hive Mind | 1 Hive Mind Trophy @ Bookcases → 1 | 1 Hive Mind Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Last Mourning | 1 The Horseman's Blade, 30 Soul of Night, 5 Reaper Tooth, 3 Ruinous Soul @ MythrilAnvil → 1 | 1 Baleful Harvester, 30 Soul of Night, 5 Reaper Tooth, 3 Ruinous Soul @ LunarCraftingStation → 1 |
 | The Maelstrom | 1 The Storm, 3 Reaper Tooth, 20 Divine Bar, 50 Voidstone @ MythrilAnvil → 1 | 1 The Storm, 3 Reaper Tooth, 20 Divine Bar, 50 Voidstone @ LunarCraftingStation → 1 |
@@ -1676,7 +1681,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Exotic Bundle of Balloons — 1
 - objet : Flah Seeds — 1
 - objet : Green Demon Head — 1
-- objet : Infernum Kris — 1
 - objet : Insect Biomass — 1
 - objet : Large Father — 1
 - objet : Minnows Prime — 1

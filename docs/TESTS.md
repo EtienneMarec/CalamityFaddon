@@ -911,6 +911,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Socratic Sapphire (coups x5 de temps en temps, debuffs courts), Cobalt Night / Palladium Light Circuit,
       Terraformance, Earth Destruction Core.
 
+- [ ] Lot Q : Fracture Staff (crawler qui bondit, cristaux), Holy Mackerel Staff (poissons, demi-place), Infernum Kris
+      (humain qui lance des couteaux, se téléporte), The First Fracturer (rayons qui en appellent d'autres).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

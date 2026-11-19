@@ -167,7 +167,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Fleshly Megaphone — addon: Calamity: Community Remix
 - [ ] Flint
 - [x] Flounder Mortar — addon: Calamity: Community Remix
-- [ ] Fracture Staff — addon: Calamity: Community Remix
+- [x] Fracture Staff — addon: Calamity: Community Remix
 - [x] Fracturing Fist — addon: Calamity: Community Remix
 - [ ] Frightshooter — addon: Calamity: Tales of the Aquatic
 - [x] Frost Blade
@@ -213,7 +213,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Heterochromia — addon: Polyphemalus
 - [ ] Hi-Scan Camera
 - [ ] Holiday Halberd
-- [ ] Holy Mackerel Staff — addon: Calamity: Community Remix
+- [x] Holy Mackerel Staff — addon: Calamity: Community Remix
 - [ ] Holy Napalm Launcher — addon: Calamity: Tales of the Aquatic
 - [ ] Holy Purge — addon: Tranquility Mod
 - [ ] Hyperhavoc — addon: Calamity: Tales of the Aquatic
@@ -222,7 +222,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Impaler
 - [ ] Incandescent Nox — addon: Deimos, the Starborn Princess
 - [x] Infected Dagger Misses No Skeptics — addon: Calamity: Community Remix
-- [ ] Infernum Kris — addon: Calamity: Community Remix
+- [x] Infernum Kris — addon: Calamity: Community Remix
 - [x] Interfacer Staff
 - [ ] Jake
 - [x] Jet Engine — addon: Calamity: Community Remix
@@ -394,7 +394,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Archalis — addon: Calamity: Community Remix
 - [ ] The Dreaming Ghost — addon: Calamity: Community Remix
 - [x] The Enforcer
-- [ ] The First Fracturer — addon: Calamity: Community Remix
+- [x] The First Fracturer — addon: Calamity: Community Remix
 - [x] The Food Chain
 - [x] The Generator
 - [ ] The Inflator's Controller — addon: Calamity: Community Remix

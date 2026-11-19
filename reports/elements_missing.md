@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (238)
+## Objets (234)
 
 - A M S
 - AAMG "Disperse"
@@ -159,7 +159,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Flame Boy Popsicle
 - Fleshly Megaphone
 - Flint
-- Fracture Staff
 - Frightshooter
 - Frostflow Edge
 - Gamma Ray Burst
@@ -185,13 +184,11 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Hemorr-Rang
 - Heterochromia
 - Hi-Scan Camera
-- Holy Mackerel Staff
 - Holy Napalm Launcher
 - HPST "Malign"
 - Hyperhavoc
 - Ifflamator
 - Incandescent Nox
-- Infernum Kris
 - Justice and Splendor
 - Lacelinous Nocturne
 - Lacescent Pistol
@@ -276,7 +273,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Tetrachromancy
 - The Archalis
 - The Dreaming Ghost
-- The First Fracturer
 - The Godfather
 - The Inflator's Controller
 - The King's Gambit
