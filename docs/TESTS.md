@@ -11,6 +11,280 @@ Astuces : Cheat Sheet / Hero's Mod pour faire apparaître objets et PNJ ; `/calf
 
 ---
 
+## Portages de l'ancien Calamity (réorganisé le 19/11)
+
+Le code porté a déjà marché dans sa version d'origine : ce qui peut casser, c'est l'adaptation (API de tModLoader
+modernisée, valeurs et recettes du wiki) et les classes de Calamity 2.2.2 qu'il réutilise telles quelles (cas de
+l'Effluvium Bow et de la Mist Arrow refaite). L'auto-test vérifie déjà le chargement, les noms, les recettes, le butin,
+les stats et les textures. Il reste deux choses à faire en jeu.
+
+### Test rapide (un par lot)
+
+Faire apparaître le lot (Cheat Sheet) et utiliser chaque objet une fois : nom et sprite corrects, l'attaque ou l'effet
+se déclenche, projectiles visibles, rien d'anormal dans le chat, pas de plantage. Si quelque chose cloche : `KO :` sous
+la ligne, et la description attendue est dans « Référence » plus bas.
+
+- [ ] Lot du 29/10 : Leeching Dagger, Bloody Rupture, Ancient Shiv, Eutrophic Shank, Tomatus, Night's Stabber, Spore Knife, Caliburn, True Caliburn, True Night's Stabber, Terra Shiv, Blood Relic, Wulfrum Axe, Wulfrum Hammer, Waraxe, Warblade, Corrupted Crusher Blade, Crimson Crusher Blade, Mandible Claws, Mandible Bow, Raider's Glory, Bittercold Staff, Shadowdrop Staff, Hell Burst, Crystal Blade, Marnite Spear, Temporal Floe Sword, Sylvan Slasher, Animus, Blade of Enmity, Brimlash Buster, Phoenix Blade, Trinity, Fulguration Halberd, Mariana, Aquatic Dissolution, Impaler, Spectre Rifle, Star Cannon EX, Brimstone Flameblaster, Hadopelagic Echo, Crystal Flare Staff, Bouncing Betty, Latcher Mine, Quasar, Marked Magnum, Revivify Potion, Purified Jam, Dualpoon, Triploon.
+- [ ] Lot du 30/10 : Arcanum of the Void, Exo Gladius, Seabow, Redtide Sword, Seashell Boomerang, Urchin Spear, Urchin Flail. Armes de l'océan : **dans les deux modes**, à côté des armes actuelles de Calamity.
+- [ ] Lot du 31/10 : Cursed Capper, The Reaper, Warbanner of the Sun, Alchemical Flask, Red Bow, Luminous Striker, Wulfrum Blade, Lazinator, Charged Dart Blaster, Acceleration Round, Cadance Potion, Shattering Potion, Frigid Bulwark, Marnite Bayonet, Bloody Edge, True Bloody Edge, Terra Edge, Magnum, Lightning Hawk, Magnum Rounds, Plague Hive, Catastrophe Claymore, Devastation, Armored Digger, Draedon's Remote, Alpha Virus. **Full Fandom** : nos portages des objets remplacés (Cursed Capper, Luminous Striker, The Reaper, Warbanner of the Sun, Rusty Medallion, Alchemical Flask, Red Bow, Marnite Spear, Marnite Bayonet) ; **Calamity++** : les objets actuels de Calamity sous ces noms.
+- [ ] Lot du 02/11 : Arctic Arrow, Enhanced Nano Round, Superball Bullet, Holy Wrath, Penumbra, Profaned Rage, Titan Scale, Triumph, Monkey Darts, Sky Stabber, Sticky Spiky Ball, Bouncy Spiky Ball, Verdant, Golden Gun, Gauss Dagger, Gauss Pistol, Magna Striker.
+- [ ] Lot du 13/11 : Astral Blade, Coral Cannon, Clamor Noctus, Plague Keeper, Poison Pack, The Enforcer, Tesla Potion, Yharim's Stimulants, Divine Retribution, Hell's Sun, Fish of Light, Fish of Night, Molecular Manipulator, Dodu's Handcannon, Yanmei's Knife, Gatling Laser, Old Power Cell, Shroomite Visage, Acidic Rain Barrel, Nychthemeron, Sea Urchin, Cosmic Elemental, Calamitas' Brew, Revengeance et Death (objets de difficulté), Alpha Ray, Elemental Excalibur.
+- [ ] Lot du 19/11 : ancienne Wulfrum armor (5 casques, plastron, jambières ; rendu porté, bonus d'ensemble).
+
+### À tester en détail
+
+**Classes de Calamity refaites depuis** (`python tools/legacy_risks.py`, liste complète dans `reports/legacy_risks.md`) :
+le portage réutilise un projectile ou une classe de base de Calamity qui a changé depuis la version d'où il vient.
+Vérifier que l'effet décrit dans « Référence » est bien celui qu'on voit. Déjà validés en jeu, donc retirés : Aquatic Discharge, Cosmic Shiv, Diseased Pike, Energy Staff, Galileo Gladius, Lazhar, Sandslasher, Seabound Staff, Shock Grenade, Solar Flare, Soul Edge, Spore Knife, Starfall.
+
+- [ ] **Ancient Shiv** : `BaseShortswordProjectile`
+- [ ] **Bloody Rupture** : `BaseShortswordProjectile`
+- [ ] **Bouncing Betty** : `TotalityFire`
+- [ ] **Brimlash Buster** : `Brimlash2`, `BrimlashProj`
+- [ ] **Caliburn** : `BaseShortswordProjectile`
+- [ ] **Charged Dart Blaster** : `ChargedBlast`
+- [ ] **Divine Retribution** : `TeslaAura`
+- [ ] **Eutrophic Shank** : `BaseShortswordProjectile`
+- [ ] **Fulguration Halberd** : `BaseSpearProjectile`
+- [ ] **Gauss Dagger** : `GaussFlux`
+- [ ] **Impaler** : `FuckYou`
+- [ ] **Latcher Mine** : `BarrelShrapnel`, `TotalityFire`
+- [ ] **Leeching Dagger** : `BaseShortswordProjectile`
+- [ ] **Magna Striker** : `OpalStrike`
+- [ ] **Marnite Spear** : `BaseSpearProjectile`
+- [ ] **Night's Stabber** : `BaseShortswordProjectile`
+- [ ] **Phoenix Blade** : `FuckYou`
+- [ ] **Quasar** : `RadiantExplosion`
+- [ ] **Sky Stabber** : `StickyFeatherAero`
+- [ ] **Star Cannon EX** : `AstralStar`
+- [ ] **Tomatus** : `BaseShortswordProjectile`
+- [ ] **Urchin Spear** : `BaseSpearProjectile`, `UrchinSpikeFugu`
+- [ ] **Wulfrum Staff** : `WulfrumBolt`
+
+**Comportement changé d'après la page** (pas celui du vieux code, voir `docs/decisions.md`) :
+
+- [ ] Mariana (bulles)
+- [ ] Hadopelagic Echo (ondes)
+- [ ] Animus (dégâts au hasard)
+- [ ] Temporal Floe Sword (horloge)
+- [ ] Impaler (Vampires tués d'un coup)
+- [ ] Purified Jam (une fois par personnage et par monde, Invincible)
+- [ ] Cursed Capper, Luminous Striker (ne traverse pas), The Reaper
+- [ ] Draedon's Remote (Taming d'Astrum Aureus)
+- [ ] Sticky Spiky Ball (Slimed, 7 balles)
+- [ ] Yanmei's Knife (effets Kami réécrits)
+- [ ] Elemental Excalibur (13e couleur : gris)
+
+### Référence : comportement attendu des portages
+
+Descriptions des passes précédentes, gardées pour comparer (ce ne sont plus des cases à cocher ; « (validé) » = déjà vu
+en jeu).
+
+
+**Lot du 29/10**
+
+- Portages du 29/10 (nuit, Cheat Sheet) : épées courtes retirées avant 2.0.1.005, en estoc, avec jauge Shortstrike et
+      Shortflurry du tableau (clones = l'estoc lui-même) :
+  - **Leeching Dagger** (Hive Mind) : un ennemi touché lâche une sangsue violette qui cherche un ennemi et soigne de
+        2 PV ; Shortflurry : +5 PV par coup
+  - **Bloody Rupture** (Perforators) : un ennemi **tué** lâche un orbe de sang qui soigne de 2 PV ; Shortflurry :
+        explosions de sang
+  - **Ancient Shiv** (Dark Caster) : un ennemi **tué** laisse un nuage bleu 5 s qui blesse ; Shortflurry : +5 %
+        vitesse de mêlée
+  - **Eutrophic Shank** (Eutrophic Ray, après Desert Scourge) : chaque estoc projette une étincelle qui reste au sol ;
+        Shortflurry : Eutrophication
+  - **Tomatus** (l'ancienne Flameburst Shortsword, recette du wiki) : un ennemi touché explose (On Fire! 3 s) ;
+        Shortflurry : Hellfire
+  - **Night's Stabber** (recette : Leeching Dagger ou Bloody Rupture, Ancient Shiv, Spore Knife, Tomatus) : un ennemi
+        touché libère une énergie sombre qui cherche un autre ennemi ; Shortflurry : +3 PV par coup, épines de 5 blocs,
+        Cursed Inferno, +5 % vitesse de mêlée
+  - **Caliburn** (ancienne Excalibur Shortsword) : estoc qui scintille ; **True Caliburn** (Caliburn + Broken Hero
+        Sword) : chaque estoc tire un rayon violet à l'horizontale ; **True Night's Stabber** (Night's Stabber + Broken
+        Hero Sword) : rayon vert ; **Terra Shiv** (les deux « True » + Living Shards) : lame verte qui perce trois fois.
+        Les rayons partent aussi des clones du Shortflurry. Shortflurry (29/10) : Caliburn, un coup fait jaillir un rayon
+        vers le haut et un vers le bas ; True Caliburn, un rayon de 20 blocs qui lâche des colonnes de lumière tous les 4
+        blocs ; True Night's Stabber, un rayon de 15 blocs qui perce tout, soigne de 5 PV par coup et lance des boules de
+        feu maudites tous les 5 blocs ; Terra Shiv, un rayon de 30 blocs qui se divise en 3 (20 % des dégâts), Ichor 20 s
+        et +5 PV par coup
+  - **Wulfrum Leech Dagger** (inventée, recette à l'enclume en fer) : se consomme à chaque coup (pile de 999),
+        toujours 1 dégât sans critique, plus 0,5 % de la vie max de l'ennemi (tête des vers seulement) ; Shortflurry : plus
+        consommée pendant 3 s
+- Portages du 29/10 (2) (Cheat Sheet) : **Blood Relic** (la nuit, Blood Moon immédiate ; reste dans l'inventaire) ;
+      **Wulfrum Axe** / **Wulfrum Hammer** (outils) ; **Waraxe** (hache) et **Warblade** : un coup critique inflige War
+      Cleave (icône du debuff, l'ennemi prend nettement plus de dégâts) ; **Corrupted Crusher Blade** (Cursed Inferno,
+      critique : -10 défense) ; **Crimson Crusher Blade** (Ichor, critique : contact de l'ennemi -5) ; **Mandible Claws**
+      (très rapides) ; **Mandible Bow** (arc)
+- **Raider's Glory** (arc : flèches d'Ichor plus rapides, les ennemis touchés ont Midas et lâchent plus d'argent) ;
+      **Bittercold Staff** (bâton : 2 à 5 pics de glace à tête chercheuse, Frostburn)
+- **Shadowdrop Staff** (Hive Mind : pluie de gouttes sombres vers le curseur, un ennemi par goutte) ; **Hell Burst**
+      (chaîne de pointes de feu comme la Crystal Vile Shard, On Fire!, la dernière plus grosse)
+- **Crystal Blade** (épée : lent nuage de poussière de cristal qui traverse 3 ennemis ; lâchée par le Crystal
+      Crawler) ; **Marnite Spear** (lance de vrai corps à corps, pré-Hardmode)
+- **Temporal Floe Sword** : rayon de glace qui se divise en deux sur un ennemi ou un bloc ; à midi les deux rayons
+      partent vers le haut, à 12 h 30 l'un vers le bas, à 18 h 00 l'autre vers la droite ; Glacial State et Frostburn
+- **Sylvan Slasher** : vendue 5 platine par le Bandit après Providence ; entailles au curseur tant qu'on maintient
+      le clic, la discrétion monte (armure rogue), des vagues partent parfois du joueur à l'opposé du curseur
+- **Animus** : les dégâts affichés changent après chaque coup (800 à 10 000) ; Brimstone Flames. **Blade of Enmity** :
+      très rapide, Brimstone Flames, un bonus de vitesse de mêlée ne compte qu'au quart
+- **Brimlash Buster** : un coup sur deux environ fait le triple de dégâts ; à chaque coup, soit le grand trait vers le
+      curseur (il se divise), soit quatre traits autour du joueur (gauche, droite, diagonales hautes)
+- **Phoenix Blade** : tuer un ennemi le fait exploser (On Fire! autour) et laisse deux flammes qui rendent 10 PV au
+      contact et disparaissent après ~3 s ou sur un bloc
+- **Trinity** : 4 traits de gemme de la même couleur (rouge, bleu ou violet) qui s'arrêtent au premier ennemi ou bloc ;
+      **Fulguration Halberd** : épée au clic gauche, lance au clic droit, Burning Blood
+- **Mariana** : chaque coup fait éclater 4 ou 5 bulles qui rebondissent partout, touchent 3 ennemis, vivent ~2 s ;
+      **Aquatic Dissolution** : 3 lances tombent au-dessus du curseur, traversent le sol 1 s puis rebondissent deux fois
+- **Impaler** (pieux enflammés, un sur trois explose ; un Vampire meurt en un coup) ; **Spectre Rifle** (balles de
+      mousquet → âmes à tête chercheuse, clic droit maintenu = zoom)
+- **Star Cannon EX** (étoiles astrales roses avec Astral Infection, étoiles de Starfury, étoiles tombées) ;
+      **Brimstone Flameblaster** (lâché par Cataclysm, consomme du gel, boules qui rebondissent 5 fois)
+- **Hadopelagic Echo** : rafale de 4 ondes qui grossissent pendant 1 s (dégâts aussi), rebondissent ; deux échos
+      arrivent de côté au plus toutes les 2 s ; Crush Depth. **Crystal Flare Staff** : flammes de givre qui explosent
+- **Bouncing Betty** : vendue 4 argent par le Bandit après un boss mécanique ; la grenade rebondit sur les ennemis en
+      explosant et explose au sol ; en attaque furtive, éclats et étincelles (On Fire!)
+- **Latcher Mine** : vendue 3 argent par le Bandit après un boss mécanique ; la mine colle à l'ennemi et explose 3 s
+      plus tard (6 flammes) ; en attaque furtive, elle reste au sol 14 s et lâche aussi des éclats
+- **Quasar** (Astrum Deus, 10 %) : le couteau attire les ennemis (pas pendant un boss), éclate en 3 couteaux et une
+      explosion astrale avec pluie d'étoiles ; en attaque furtive, chaque couteau éclaté explose aussi
+- **Marked Magnum** (pré-Hardmode, sans munitions, jamais de critique, Marked 8 s) ; **Revivify Potion** (3 min :
+      chaque coup reçu rend 1/15 des dégâts)
+- **Purified Jam** : The Slime God en lâche 6 à 8 **une seule fois** par personnage et par monde (un second kill
+      avec le même personnage n'en donne plus ; un autre personnage en reçoit) ; 10 s sans dégâts ni la plupart des
+      debuffs (5 s en Death Mode), Potion Sickness 30 s
+- **Dualpoon** / **Triploon** : 2 ou 3 harpons en éventail, sans chaîne, qui reviennent au joueur après ~350 px
+
+**Lot du 30/10**
+
+- (30/10) **Arcanum of the Void** (sac du Ceaseless Void, Expert) : poussière violette autour du joueur quand la
+      barrière est prête ; un coup est annulé, explosion et 4 énergies sombres qui cherchent les ennemis 4 s ; recharge
+      90 s affichée comme l'esquive de Calamity (partagée avec les autres esquives)
+- (30/10) **Exo Gladius** (Draedon's Forge) : estoc rapide qui fait exploser l'ennemi (image du wiki), sprite du wiki à sa
+      taille (64×68, plus de sprite rapetissé) ;
+      plus de clic droit ; pendant le Shortflurry, les projectiles ennemis proches sont renvoyés vers le curseur (solo),
+      et tous les 5 estocs une salve de 8 comètes exo qui soignent de 2 PV chacune
+- (30/10) Armes de l'océan d'avant la refonte de mai 2022, **dans les deux modes**, à côté de Reed Blowgun, Urchin
+      Mace et Fishbone Boomerang (le wiki a une page pour chacun) : **Seabow** (flèche + gerbe d'eau lente), **Redtide Sword**
+      (tourbillon qui grossit puis éclate), **Seashell Boomerang** (boomerangs sans limite ; furtif : coquillages),
+      **Urchin Spear** (lance + dard, Poisoned 10 s), **Urchin Flail**
+      (vendu 2 or par le Sea King, boule qui revient et lance une épine)
+
+**Lot du 31/10**
+
+- (31/10) Objets remplacés par Calamity que le wiki ne connaît pas — **Full Fandom** : nos portages ; **Calamity++** :
+      l'objet actuel sous le nom du wiki (Thermocline Blaster s'appelle « Cursed Capper », Reality Rupture « Luminous
+      Striker », The Old Reaper « The Reaper », Warbanner of the Righteous « Warbanner of the Sun », Scion's Curio « Rusty
+      Medallion », Alchemical Decanter « Alchemical Flask », Ghost Bracelet « Red Bow », Marnite Deconstructor « Marnite
+      Spear »). Portages : **Cursed Capper** (balles maudites), **Luminous Striker** (javelot qui ne traverse pas, éclats
+      qui montent), **The Reaper** (Reaper Shark 10 % ; faux qui frappe 12 fois, Crush Depth ; furtif : 4 faux),
+      **Warbanner of the Sun** (Profaned Guardians ; +20 % mêlée au contact des ennemis, animé, ballon porté), **Rusty
+      Medallion** (tirs à distance : parfois 3 gouttes d'acide du ciel), **Alchemical Flask** (Plague sur soi, +2 % de
+      dégâts), **Red Bow** (pêché dans le Dungeon avant Skeletron : +10 discrétion, +3 défense, moins d'aggro)
+- (31/10) Dans les deux modes : **Wulfrum Blade / Bow / Staff** (à côté du Wulfrum Screwdriver, Blunderbuss,
+      Prosthesis), **Lazinator** (lasers violets ou verts qui traversent 2 ennemis), **Charged Dart Blaster** (gerbe de
+      fléchettes + trait qui se divise ; clic droit : trait rebondissant qui explose, Plague), **Acceleration Round**
+      (balle qui accélère), **Cadance Potion** (+25 % vie max, +5 régénération, moins d'ennemis, Regeneration et Lifeforce
+      bloqués), **Crumbling / Shattering Potion** (Armor Crunch en mêlée et spy, +5 / +8 %), **Frigid Bulwark** (+13
+      défense, pas de recul, protège l'équipe au-dessus de 25 % de vie, Ice Barrier sous 50 %). **Marnite Bayonet** :
+      Full Fandom (le canon blesse au contact) ; Calamity++ : le Marnite Repulsion Shield s'appelle « Marnite Bayonet »
+- (31/10) **Portages** : Bloody Edge (soin 50 %), True Bloody Edge (lame jaune), Terra Edge (rayon vert, soin) se
+      fabriquent d'après le wiki ; Magnum / Lightning Hawk : avec un boss, 3 tirs puis plus rien jusqu'à sa défaite ;
+      Magnum Rounds chez l'Arms Dealer avec un des pistolets ; Plague Hive : abeilles quand on est touché, ennemis
+      proches infectés de Plague
+      ; Catastrophe Claymore (éclairs rouges, bleus ou jaunes qui explosent) et Devastation (décharges qui tombent du
+      ciel vers le curseur)
+- (31/10) **Armored Digger** (après Plantera, cavernes ; Cheat Sheet pour le faire venir) : grand ver mécanique, lance
+      des débris ; butin : Demonic Bone Ash, Mysterious Circuitry, Dubious Plating, parfois le Draedon's Remote
+- (31/10) **Draedon's Remote** : la nuit avant Plantera, appelle les trois boss mécaniques ensemble, plus résistants
+      (Destroyer plus gros), dégâts subis +20 % ; chacun lâche des Mysterious Circuitry et Dubious Plating (en Full
+      Fandom aussi) ; utilisé pendant Astrum Aureus (sans l'avoir touché) : Astrum Aureus est apprivoisé
+- (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
+      Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
+- (31/10 soir) **Alpha Virus** (Ancient Manipulator : Epidemic Shredder, 5 Luminite Bar, 25 Plague Cell Canister) :
+      cellule lente avec une aura verte qui touche à travers les blocs, 6 seekers à l'impact ; frappe furtive : seekers
+      qui tournent autour. La recette de Celestus du wiki le demande
+
+**Lot du 02/11**
+
+- Munitions portées (recettes du wiki) : Arctic Arrow (gèle 0,5 s), Enhanced Nano Round (Confused, 2 nanomachines à la
+      mort de l'ennemi), Superball Bullet (lente, accélère à chaque rebond ou ennemi traversé)
+- Potions portées (recettes du wiki) : Holy Wrath (+12 % dégâts, Holy Flames, enlève Wrath), Penumbra (discrétion plus
+      rapide, plus la nuit et pendant une éclipse), Profaned Rage (+12 % critique, enlève Rage), Titan Scale (+5 défense, et
+      +25 pendant 10 s après un coup d'épée), Triumph (moins de dégâts de contact des ennemis blessés)
+- Armes portées (recettes du wiki) : Monkey Darts (Venom ; frappe furtive : 3 fléchettes qui rebondissent), Sky Stabber
+      (4 boules flottantes au plus, clic droit les supprime, plumes en frappe furtive), Sticky Spiky Ball (colle aux ennemis
+      et aux blocs, Slimed), Bouncy Spiky Ball (ricoche d'ennemi en ennemi), Verdant (yoyo qui lance des feuilles de
+      cristal), Golden Gun (trait d'ichor, Ichor 8 s)
+- Gauss Dagger (charge ; deux coups rapprochés sur un ennemi font apparaître un flux magnétique), Gauss Pistol (charge ;
+      le tir reste en place une demi-seconde en se chargeant puis part très vite, gros recul), Magna Striker (rafales au
+      hasard d'éclats d'opale et de frappes magna qui grossissent) : recettes du wiki
+
+**Lot du 13/11**
+
+- Astral Blade (recette du wiki) : frappe plus fort, recule plus et critique plus souvent sur un ennemi en pleine vie
+      (x2 à 100 %, x1 à 0 %) ; explosion de poussière bleue et orange au-dessus de 50 % de vie ; Astral Infection ;
+      presque insensible aux bonus de vitesse de mêlée (25 %)
+- Coral Cannon (Sea King, 2 or) : petits coraux sans munitions, un sur cinq gros (deux fois plus de dégâts) qui
+      immobilise brièvement un ennemi normal (pas pendant un boss)
+- Clamor Noctus (recette du wiki : 10 exemplaires) : trois projectiles tombent du ciel vers le curseur ; les étoiles
+      se collent 2 s à l'ennemi ou au sol puis explosent (Moon Burnt) ; parfois un Night Wyvern, très puissant
+- Plague Keeper (recette du wiki) : chaque coup lance un nuage vert qui traverse les blocs, sème des abeilles et
+      s'efface au bout d'une seconde ; trois abeilles au contact ; Plague
+- Poison Pack (recette du wiki, pile de 3) : autant de boules que la pile, qui roulent au sol (Poisoned) ; frappe
+      furtive : la boule relâche des nuages de spores ; clic droit : toutes les boules disparaissent
+- The Enforcer (recette du wiki) : chaque coup fait apparaître cinq flammes au-dessus de l'ennemi, qui foncent sur
+      les ennemis proches (God Slayer Inferno) ; lame lumineuse posée au sol
+- Tesla Potion (recettes du wiki, 8 min) : aura électrique du Tesla's Amulet autour du joueur ; les ennemis touchés
+      ralentissent (Galvanic Corrosion) et prennent Static Discharge 3 s
+- Yharim's Stimulants (recettes du wiki, 30 min) : +6 % dégâts, +2 % critique, +8 défense, +6 % réduction des
+      dégâts, +15 % vitesse, minage plus rapide
+- Divine Retribution (recette du wiki) : cinq lances jaillissent d'en dessous vers le curseur, traversent les blocs,
+      cherchent les ennemis et explosent (Holy Flames, Crush Depth)
+- Hell's Sun (recette du wiki, pile de 10) : boules qui traversent les blocs, s'arrêtent puis lâchent de petits
+      soleils explosifs ; frappe furtive : deux fois plus de soleils, boule plus durable ; clic droit : supprime les boules
+- Fish of Light / Fish of Night : pêchés en Hardmode dans le Hallow souterrain / la Corruption ou le Crimson
+      souterrains (prise peu commune) ; clic droit : 2 à 5 âmes de lumière / de nuit
+- Molecular Manipulator (recette du wiki, avec le Nullification Pistol) : chaque balle change l'ennemi touché (taille,
+      dégâts de contact, recul, défense, petite poussée) ; jamais les boss
+- Dodu's Handcannon (pas de recette utilisable : voir décisions) : coques de cacahuète très rapides qui explosent,
+      quelle que soit la balle
+- Yanmei's Knife (recette du wiki) : entaille verte devant soi, puis 3 s d'attente ; sur un boss, un mini-boss ou un
+      ennemi pendant un boss : son de l'Adrenaline, Kami Injection (plus rapide, plus de dégâts, traînée verte) et Kami
+      Flu sur la cible (lueur verte, perd de la vie, encaisse plus)
+- Gatling Laser (recette du wiki) : maintenir le clic ; après un court chargement, rafale de lasers rouges imprécis
+      (On Fire!) ; s'arrête sans mana ou sans charge (la charge baisse en tirant)
+- Old Power Cell (recette du wiki) : invoque Golem dans le temple (devant un mur du temple), même avant Plantera ;
+      pas consommée ; refusée hors du temple
+- Shroomite Visage (recettes du wiki) : 11 défense, lance-flammes plus forts ; avec le plastron et les jambières en
+      shroomite : furtivité à l'arrêt
+- Acidic Rain Barrel (recette du wiki) : tonneau qui roule à travers les ennemis et éclate contre un mur en éclats
+      et gouttes acides ; frappe furtive : rebondit trois fois, plus de gouttes
+- Nychthemeron (recette du wiki, pile de 10) : boules qui flottent et ralentissent, deux orbes (lumière et ténèbres)
+      tournent autour du joueur par boule puis foncent sur les ennemis quand la boule casse ; clic droit : rappel ;
+      frappe furtive : toutes les boules d'un coup
+- Sea Urchin : ennemi de l'océan (pas dans la Sulphurous Sea) qui bondit vers le joueur, Venom au contact, lâche
+      15 à 25 Urchin Stingers
+- Cosmic Elemental : ennemi rare des cavernes (comme un Granite Elemental, se roule en boule), Confused au contact ;
+      épées rares (Bone Sword, Starfury, Enchanted Sword, Arkhalis)
+- Calamitas' Brew (recettes du wiki, 15 min) : +5 % de vitesse, flammes autour de la lame ; les coups de mêlée et
+      de spy infligent Abyssal Flames (ennemi assombri, particules rouge sang, perd de la vie, -6 défense)
+- Revengeance et Death (à un autel, sans ingrédient ; dans le Starter Bag en Expert) : Revengeance active ou
+      désactive le mode (seulement en Expert), Death de même (seulement en Revengeance) ; refusé pendant un boss ; l'icône
+      de difficulté de Calamity suit
+- Alpha Ray (recette du wiki, avec la Genesis de Calamity) : clic gauche, trois rayons parallèles et des lasers ;
+      clic droit, un rayon qui se sépare en deux au bout de sa course ; tout traverse les blocs
+- Elemental Excalibur (recette du wiki, Draedon's Forge) : un rayon de couleur différente à chaque coup (13 couleurs
+      dans l'ordre : rouge, orange qui revient, jaune qui se sépare, vert clair qui suit le joueur, vert qui cherche les
+      ennemis, turquoise qui accélère à travers les blocs, cyan qui appelle trois rayons, bleu clair qui ralentit, bleu qui
+      rebondit, violet qui accélère et ralentit, fuchsia, rose qui sème des rayons, gris qui traverse tout) ; soigne au
+      contact ; clic droit : coup direct à dégâts doublés ; nom en arc-en-ciel
+
+**Lot du 19/11**
+
+- Lot AM : ancienne Wulfrum armor (5 casques, plastron, jambières) : rendu porté, bonus d'ensemble (+5 défense sous
+      50 % de vie).
+
+---
+
 ## Passe 0 — Démo : Zweihandromeda
 
 - [x] L'objet apparaît, nom « Zweihandromeda », sprite correct dans l'inventaire
@@ -383,107 +657,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Gehenna, Glacial Crusher, Caliburn, Crimslime / Corroslime Staff... : liste dans `reports/sprites.md`) ; environ
       120 objets de Calamity en plus reçoivent aussi leur sprite du wiki en Full Fandom (recolorations que l'outil
       ratait) ; en Calamity++ ces objets de Calamity gardent leur sprite.
-- [ ] Portages du 29/10 (nuit, Cheat Sheet) : épées courtes retirées avant 2.0.1.005, en estoc, avec jauge Shortstrike et
-      Shortflurry du tableau (clones = l'estoc lui-même) :
-  - [ ] **Leeching Dagger** (Hive Mind) : un ennemi touché lâche une sangsue violette qui cherche un ennemi et soigne de
-        2 PV ; Shortflurry : +5 PV par coup
-  - [ ] **Bloody Rupture** (Perforators) : un ennemi **tué** lâche un orbe de sang qui soigne de 2 PV ; Shortflurry :
-        explosions de sang
-  - [ ] **Ancient Shiv** (Dark Caster) : un ennemi **tué** laisse un nuage bleu 5 s qui blesse ; Shortflurry : +5 %
-        vitesse de mêlée
-  - [ ] **Eutrophic Shank** (Eutrophic Ray, après Desert Scourge) : chaque estoc projette une étincelle qui reste au sol ;
-        Shortflurry : Eutrophication
-  - [ ] **Tomatus** (l'ancienne Flameburst Shortsword, recette du wiki) : un ennemi touché explose (On Fire! 3 s) ;
-        Shortflurry : Hellfire
-  - [ ] **Night's Stabber** (recette : Leeching Dagger ou Bloody Rupture, Ancient Shiv, Spore Knife, Tomatus) : un ennemi
-        touché libère une énergie sombre qui cherche un autre ennemi ; Shortflurry : +3 PV par coup, épines de 5 blocs,
-        Cursed Inferno, +5 % vitesse de mêlée
-  - [ ] **Caliburn** (ancienne Excalibur Shortsword) : estoc qui scintille ; **True Caliburn** (Caliburn + Broken Hero
-        Sword) : chaque estoc tire un rayon violet à l'horizontale ; **True Night's Stabber** (Night's Stabber + Broken
-        Hero Sword) : rayon vert ; **Terra Shiv** (les deux « True » + Living Shards) : lame verte qui perce trois fois.
-        Les rayons partent aussi des clones du Shortflurry. Shortflurry (29/10) : Caliburn, un coup fait jaillir un rayon
-        vers le haut et un vers le bas ; True Caliburn, un rayon de 20 blocs qui lâche des colonnes de lumière tous les 4
-        blocs ; True Night's Stabber, un rayon de 15 blocs qui perce tout, soigne de 5 PV par coup et lance des boules de
-        feu maudites tous les 5 blocs ; Terra Shiv, un rayon de 30 blocs qui se divise en 3 (20 % des dégâts), Ichor 20 s
-        et +5 PV par coup
-  - [ ] **Wulfrum Leech Dagger** (inventée, recette à l'enclume en fer) : se consomme à chaque coup (pile de 999),
-        toujours 1 dégât sans critique, plus 0,5 % de la vie max de l'ennemi (tête des vers seulement) ; Shortflurry : plus
-        consommée pendant 3 s
-- [ ] Portages du 29/10 (2) (Cheat Sheet) : **Blood Relic** (la nuit, Blood Moon immédiate ; reste dans l'inventaire) ;
-      **Wulfrum Axe** / **Wulfrum Hammer** (outils) ; **Waraxe** (hache) et **Warblade** : un coup critique inflige War
-      Cleave (icône du debuff, l'ennemi prend nettement plus de dégâts) ; **Corrupted Crusher Blade** (Cursed Inferno,
-      critique : -10 défense) ; **Crimson Crusher Blade** (Ichor, critique : contact de l'ennemi -5) ; **Mandible Claws**
-      (très rapides) ; **Mandible Bow** (arc)
-- [ ] **Raider's Glory** (arc : flèches d'Ichor plus rapides, les ennemis touchés ont Midas et lâchent plus d'argent) ;
-      **Bittercold Staff** (bâton : 2 à 5 pics de glace à tête chercheuse, Frostburn)
-- [ ] **Shadowdrop Staff** (Hive Mind : pluie de gouttes sombres vers le curseur, un ennemi par goutte) ; **Hell Burst**
-      (chaîne de pointes de feu comme la Crystal Vile Shard, On Fire!, la dernière plus grosse)
-- [ ] **Crystal Blade** (épée : lent nuage de poussière de cristal qui traverse 3 ennemis ; lâchée par le Crystal
-      Crawler) ; **Marnite Spear** (lance de vrai corps à corps, pré-Hardmode)
-- [ ] **Temporal Floe Sword** : rayon de glace qui se divise en deux sur un ennemi ou un bloc ; à midi les deux rayons
-      partent vers le haut, à 12 h 30 l'un vers le bas, à 18 h 00 l'autre vers la droite ; Glacial State et Frostburn
-- [ ] **Sylvan Slasher** : vendue 5 platine par le Bandit après Providence ; entailles au curseur tant qu'on maintient
-      le clic, la discrétion monte (armure rogue), des vagues partent parfois du joueur à l'opposé du curseur
-- [ ] **Animus** : les dégâts affichés changent après chaque coup (800 à 10 000) ; Brimstone Flames. **Blade of Enmity** :
-      très rapide, Brimstone Flames, un bonus de vitesse de mêlée ne compte qu'au quart
-- [ ] **Brimlash Buster** : un coup sur deux environ fait le triple de dégâts ; à chaque coup, soit le grand trait vers le
-      curseur (il se divise), soit quatre traits autour du joueur (gauche, droite, diagonales hautes)
-- [ ] **Phoenix Blade** : tuer un ennemi le fait exploser (On Fire! autour) et laisse deux flammes qui rendent 10 PV au
-      contact et disparaissent après ~3 s ou sur un bloc
-- [ ] **Trinity** : 4 traits de gemme de la même couleur (rouge, bleu ou violet) qui s'arrêtent au premier ennemi ou bloc ;
-      **Fulguration Halberd** : épée au clic gauche, lance au clic droit, Burning Blood
-- [ ] **Mariana** : chaque coup fait éclater 4 ou 5 bulles qui rebondissent partout, touchent 3 ennemis, vivent ~2 s ;
-      **Aquatic Dissolution** : 3 lances tombent au-dessus du curseur, traversent le sol 1 s puis rebondissent deux fois
-- [ ] **Impaler** (pieux enflammés, un sur trois explose ; un Vampire meurt en un coup) ; **Spectre Rifle** (balles de
-      mousquet → âmes à tête chercheuse, clic droit maintenu = zoom)
-- [ ] **Star Cannon EX** (étoiles astrales roses avec Astral Infection, étoiles de Starfury, étoiles tombées) ;
-      **Brimstone Flameblaster** (lâché par Cataclysm, consomme du gel, boules qui rebondissent 5 fois)
-- [ ] **Hadopelagic Echo** : rafale de 4 ondes qui grossissent pendant 1 s (dégâts aussi), rebondissent ; deux échos
-      arrivent de côté au plus toutes les 2 s ; Crush Depth. **Crystal Flare Staff** : flammes de givre qui explosent
-- [ ] **Bouncing Betty** : vendue 4 argent par le Bandit après un boss mécanique ; la grenade rebondit sur les ennemis en
-      explosant et explose au sol ; en attaque furtive, éclats et étincelles (On Fire!)
-- [ ] **Latcher Mine** : vendue 3 argent par le Bandit après un boss mécanique ; la mine colle à l'ennemi et explose 3 s
-      plus tard (6 flammes) ; en attaque furtive, elle reste au sol 14 s et lâche aussi des éclats
-- [ ] **Quasar** (Astrum Deus, 10 %) : le couteau attire les ennemis (pas pendant un boss), éclate en 3 couteaux et une
-      explosion astrale avec pluie d'étoiles ; en attaque furtive, chaque couteau éclaté explose aussi
-- [ ] **Marked Magnum** (pré-Hardmode, sans munitions, jamais de critique, Marked 8 s) ; **Revivify Potion** (3 min :
-      chaque coup reçu rend 1/15 des dégâts)
-- [ ] **Purified Jam** : The Slime God en lâche 6 à 8 **une seule fois** par personnage et par monde (un second kill
-      avec le même personnage n'en donne plus ; un autre personnage en reçoit) ; 10 s sans dégâts ni la plupart des
-      debuffs (5 s en Death Mode), Potion Sickness 30 s
-- [ ] **Dualpoon** / **Triploon** : 2 ou 3 harpons en éventail, sans chaîne, qui reviennent au joueur après ~350 px
-- [ ] (30/10) **Arcanum of the Void** (sac du Ceaseless Void, Expert) : poussière violette autour du joueur quand la
-      barrière est prête ; un coup est annulé, explosion et 4 énergies sombres qui cherchent les ennemis 4 s ; recharge
-      90 s affichée comme l'esquive de Calamity (partagée avec les autres esquives)
-- [ ] (30/10) **Exo Gladius** (Draedon's Forge) : estoc rapide qui fait exploser l'ennemi (image du wiki), sprite du wiki à sa
-      taille (64×68, plus de sprite rapetissé) ;
-      plus de clic droit ; pendant le Shortflurry, les projectiles ennemis proches sont renvoyés vers le curseur (solo),
-      et tous les 5 estocs une salve de 8 comètes exo qui soignent de 2 PV chacune
 - [ ] (30/10) **Microcell Cut** (créée, sans recette : station Aquatic Hypercomputer pas encore faite) : un ennemi tué
       libère 3 étoiles à tête chercheuse (Ancient Astral Blight : particules jaunes et violettes, -52 PV/s) ; rareté C4
       violette ; Shortflurry : une étoile astrale par coup. Retour du 30/10 : sprite trop petit → image du wiki à sa
       taille d'origine (30×40, comme la Disease)
-- [ ] (30/10) Armes de l'océan d'avant la refonte de mai 2022, **dans les deux modes**, à côté de Reed Blowgun, Urchin
-      Mace et Fishbone Boomerang (le wiki a une page pour chacun) : **Seabow** (flèche + gerbe d'eau lente), **Redtide Sword**
-      (tourbillon qui grossit puis éclate), **Seashell Boomerang** (boomerangs sans limite ; furtif : coquillages),
-      **Urchin Spear** (lance + dard, Poisoned 10 s), **Urchin Flail**
-      (vendu 2 or par le Sea King, boule qui revient et lance une épine)
-- [ ] (31/10) Objets remplacés par Calamity que le wiki ne connaît pas — **Full Fandom** : nos portages ; **Calamity++** :
-      l'objet actuel sous le nom du wiki (Thermocline Blaster s'appelle « Cursed Capper », Reality Rupture « Luminous
-      Striker », The Old Reaper « The Reaper », Warbanner of the Righteous « Warbanner of the Sun », Scion's Curio « Rusty
-      Medallion », Alchemical Decanter « Alchemical Flask », Ghost Bracelet « Red Bow », Marnite Deconstructor « Marnite
-      Spear »). Portages : **Cursed Capper** (balles maudites), **Luminous Striker** (javelot qui ne traverse pas, éclats
-      qui montent), **The Reaper** (Reaper Shark 10 % ; faux qui frappe 12 fois, Crush Depth ; furtif : 4 faux),
-      **Warbanner of the Sun** (Profaned Guardians ; +20 % mêlée au contact des ennemis, animé, ballon porté), **Rusty
-      Medallion** (tirs à distance : parfois 3 gouttes d'acide du ciel), **Alchemical Flask** (Plague sur soi, +2 % de
-      dégâts), **Red Bow** (pêché dans le Dungeon avant Skeletron : +10 discrétion, +3 défense, moins d'aggro)
-- [ ] (31/10) Dans les deux modes : **Wulfrum Blade / Bow / Staff** (à côté du Wulfrum Screwdriver, Blunderbuss,
-      Prosthesis), **Lazinator** (lasers violets ou verts qui traversent 2 ennemis), **Charged Dart Blaster** (gerbe de
-      fléchettes + trait qui se divise ; clic droit : trait rebondissant qui explose, Plague), **Acceleration Round**
-      (balle qui accélère), **Cadance Potion** (+25 % vie max, +5 régénération, moins d'ennemis, Regeneration et Lifeforce
-      bloqués), **Crumbling / Shattering Potion** (Armor Crunch en mêlée et spy, +5 / +8 %), **Frigid Bulwark** (+13
-      défense, pas de recul, protège l'équipe au-dessus de 25 % de vie, Ice Barrier sous 50 %). **Marnite Bayonet** :
-      Full Fandom (le canon blesse au contact) ; Calamity++ : le Marnite Repulsion Shield s'appelle « Marnite Bayonet »
 - [ ] (31/10, phase 2) **Éléments des armures** : avec l'ensemble Victide complet (résiste à Water, Fire, Slash ;
       vulnérable à Unholy, Cold, Poison), un ennemi qui résiste au feu (Impious Immolator...) fait moitié moins de dégâts,
       un ennemi de glace le double ; une pièce seule ne change rien. Idem Aerospec, Desert Prowler, Statigel, Wulfrum...
@@ -546,12 +723,6 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       boutique ouverte ; elles reviennent à l'aube suivante
 - [x] (31/10, validé) **Eye of Cthulhu (correctif)** : tourner autour de l'œil affiche « 1/30 », « 2/30 »... ; faire un tour
       entier dans l'autre sens affiche « ↺ 0/30 » et repart de zéro ; ses charges seules ne font pas avancer
-- [ ] (31/10) **Portages** : Bloody Edge (soin 50 %), True Bloody Edge (lame jaune), Terra Edge (rayon vert, soin) se
-      fabriquent d'après le wiki ; Magnum / Lightning Hawk : avec un boss, 3 tirs puis plus rien jusqu'à sa défaite ;
-      Magnum Rounds chez l'Arms Dealer avec un des pistolets ; Plague Hive : abeilles quand on est touché, ennemis
-      proches infectés de Plague
-      ; Catastrophe Claymore (éclairs rouges, bleus ou jaunes qui explosent) et Devastation (décharges qui tombent du
-      ciel vers le curseur)
 - [ ] (31/10) **The Princess** (Arch Amaryllis + Profaned Core...) : comme The Prince, boule de feu qui éclate en 6
       flammes ; Moon Burnt en plus des Holy Flames
 - [ ] (31/10) **Catastrophe Clayscore / Clayspore / Claycore** : éclairs rouges, bleus ou jaunes (On Fire!, Frostburn,
@@ -580,11 +751,6 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       une Blight Slime qui touche le Paladin de sa couleur disparaît ; 20 de chaque couleur → apprivoisé (butin du noyau)
 - [ ] (31/10) **Brimstone Elemental** : préparer des maisons libres dans la Brimstone Crag ; pendant le combat, chaque PNJ qui
       y emménage (ou y revient après sa mort) fait avancer ; 5 → apprivoisé
-- [ ] (31/10) **Armored Digger** (après Plantera, cavernes ; Cheat Sheet pour le faire venir) : grand ver mécanique, lance
-      des débris ; butin : Demonic Bone Ash, Mysterious Circuitry, Dubious Plating, parfois le Draedon's Remote
-- [ ] (31/10) **Draedon's Remote** : la nuit avant Plantera, appelle les trois boss mécaniques ensemble, plus résistants
-      (Destroyer plus gros), dégâts subis +20 % ; chacun lâche des Mysterious Circuitry et Dubious Plating (en Full
-      Fandom aussi) ; utilisé pendant Astrum Aureus (sans l'avoir touché) : Astrum Aureus est apprivoisé
 - [ ] (31/10) **Leviathan and Anahita** : relâcher un Goldfish pendant le combat fait venir Leviathan tout de suite ; chaque
       Goldfish qu'il touche meurt et compte ; à 100, le duo est apprivoisé
 - [ ] (31/10) **Golem (ballon de plage)** : pendant le combat, lancer un Beach Ball : chaque contact du ballon avec un
@@ -605,8 +771,6 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [x] (31/10, validé) **Perforators** : pendant le combat, relâcher des Worms (ou une Worm Statue) : chacun devient un Estranged
       Son (ver violet qui creuse vers le joueur) au bout de 5 s, « ♥ 25 % » à 13 ; en tuer un fait échouer la tentative ;
       à 50, les Perforators et les Estranged Sons disparaissent
-- [ ] (30/10) L'estoc des épées courtes portées qui ont un sprite du wiki (Caliburn, Leeching Dagger, Night's Stabber,
-      Bloody Rupture, Aquatic Discharge...) dessine maintenant ce sprite, comme leur icône
 - [ ] Recettes : l'Elemental Quiver accepte n'importe quel carquois (« Any Quivers »), l'Ethereal Talisman n'importe quelle
       Mana Flower ; les recettes « Silver/Tungsten Bar » acceptent les deux barres
 - [x] (31/10 soir, validé) **Queen Bee** : dans une ruche, tirer au Bee Gun (ou Beenade, Bee's Knees) : les abeilles rebondissent
@@ -639,9 +803,6 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] (31/10 soir) **The Insacred Texts** (Zombie / Demon Eye, 5 %) : clic gauche sur un groupe : portails rouges sous 3
       ennemis, bras qui monte et les tire vers le bas (450 dégâts) ; 25 s de recharge (affichée dans l'infobulle) ;
       clic droit : une phrase rose au hasard dans le chat (« ...then they kissed »), sans mana
-- [ ] (31/10 soir) **Alpha Virus** (Ancient Manipulator : Epidemic Shredder, 5 Luminite Bar, 25 Plague Cell Canister) :
-      cellule lente avec une aura verte qui touche à travers les blocs, 6 seekers à l'impact ; frappe furtive : seekers
-      qui tournent autour. La recette de Celestus du wiki le demande
 - [ ] (31/10 soir) Infobulles de la Catastrophe Claycore et du Warglaive (vides avant)
 - [x] (31/10 soir, validé) **Eater of Worlds** : manger un aliment pendant le combat : rien tout de suite, « X digested! » à la
       fin de son Well Fed ; retirer le Well Fed d'un clic droit : message, ne compte pas. Calamity++ : le même aliment
@@ -675,81 +836,12 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       au filet ; comme appât (puissance 120), il remonte plus souvent des ennemis de la Blood Moon
 - [ ] Worm Meal (Gullet Worm + 3 Stinkfish) : avec un sbire, chaque coup lâche 1-2 vers rouges (5 au plus) qui courent vers
       les ennemis, s'accrochent, les rendent Confused et Slow, puis éclatent
-- [ ] Munitions portées (recettes du wiki) : Arctic Arrow (gèle 0,5 s), Enhanced Nano Round (Confused, 2 nanomachines à la
-      mort de l'ennemi), Superball Bullet (lente, accélère à chaque rebond ou ennemi traversé)
 - [ ] Flah Round (Draedon's Forge, 4999 par Flahium Bar) : rebondit 9 fois en petites explosions roses, puis une grande qui
       inflige Flahmes (perte de vie rapide) ; Flarrow : flèche qui tourne lentement vers un ennemi puis fonce à travers les murs
-- [ ] Potions portées (recettes du wiki) : Holy Wrath (+12 % dégâts, Holy Flames, enlève Wrath), Penumbra (discrétion plus
-      rapide, plus la nuit et pendant une éclipse), Profaned Rage (+12 % critique, enlève Rage), Titan Scale (+5 défense, et
-      +25 pendant 10 s après un coup d'épée), Triumph (moins de dégâts de contact des ennemis blessés)
-- [ ] Armes portées (recettes du wiki) : Monkey Darts (Venom ; frappe furtive : 3 fléchettes qui rebondissent), Sky Stabber
-      (4 boules flottantes au plus, clic droit les supprime, plumes en frappe furtive), Sticky Spiky Ball (colle aux ennemis
-      et aux blocs, Slimed), Bouncy Spiky Ball (ricoche d'ennemi en ennemi), Verdant (yoyo qui lance des feuilles de
-      cristal), Golden Gun (trait d'ichor, Ichor 8 s)
-- [ ] Gauss Dagger (charge ; deux coups rapprochés sur un ennemi font apparaître un flux magnétique), Gauss Pistol (charge ;
-      le tir reste en place une demi-seconde en se chargeant puis part très vite, gros recul), Magna Striker (rafales au
-      hasard d'éclats d'opale et de frappes magna qui grossissent) : recettes du wiki
 
 ## Passe du 13/11
 
-- [ ] Astral Blade (recette du wiki) : frappe plus fort, recule plus et critique plus souvent sur un ennemi en pleine vie
-      (x2 à 100 %, x1 à 0 %) ; explosion de poussière bleue et orange au-dessus de 50 % de vie ; Astral Infection ;
-      presque insensible aux bonus de vitesse de mêlée (25 %)
-- [ ] Coral Cannon (Sea King, 2 or) : petits coraux sans munitions, un sur cinq gros (deux fois plus de dégâts) qui
-      immobilise brièvement un ennemi normal (pas pendant un boss)
-- [ ] Clamor Noctus (recette du wiki : 10 exemplaires) : trois projectiles tombent du ciel vers le curseur ; les étoiles
-      se collent 2 s à l'ennemi ou au sol puis explosent (Moon Burnt) ; parfois un Night Wyvern, très puissant
-- [ ] Plague Keeper (recette du wiki) : chaque coup lance un nuage vert qui traverse les blocs, sème des abeilles et
-      s'efface au bout d'une seconde ; trois abeilles au contact ; Plague
-- [ ] Poison Pack (recette du wiki, pile de 3) : autant de boules que la pile, qui roulent au sol (Poisoned) ; frappe
-      furtive : la boule relâche des nuages de spores ; clic droit : toutes les boules disparaissent
-- [ ] The Enforcer (recette du wiki) : chaque coup fait apparaître cinq flammes au-dessus de l'ennemi, qui foncent sur
-      les ennemis proches (God Slayer Inferno) ; lame lumineuse posée au sol
-- [ ] Tesla Potion (recettes du wiki, 8 min) : aura électrique du Tesla's Amulet autour du joueur ; les ennemis touchés
-      ralentissent (Galvanic Corrosion) et prennent Static Discharge 3 s
-- [ ] Yharim's Stimulants (recettes du wiki, 30 min) : +6 % dégâts, +2 % critique, +8 défense, +6 % réduction des
-      dégâts, +15 % vitesse, minage plus rapide
-- [ ] Divine Retribution (recette du wiki) : cinq lances jaillissent d'en dessous vers le curseur, traversent les blocs,
-      cherchent les ennemis et explosent (Holy Flames, Crush Depth)
-- [ ] Hell's Sun (recette du wiki, pile de 10) : boules qui traversent les blocs, s'arrêtent puis lâchent de petits
-      soleils explosifs ; frappe furtive : deux fois plus de soleils, boule plus durable ; clic droit : supprime les boules
-- [ ] Fish of Light / Fish of Night : pêchés en Hardmode dans le Hallow souterrain / la Corruption ou le Crimson
-      souterrains (prise peu commune) ; clic droit : 2 à 5 âmes de lumière / de nuit
-- [ ] Molecular Manipulator (recette du wiki, avec le Nullification Pistol) : chaque balle change l'ennemi touché (taille,
-      dégâts de contact, recul, défense, petite poussée) ; jamais les boss
-- [ ] Dodu's Handcannon (pas de recette utilisable : voir décisions) : coques de cacahuète très rapides qui explosent,
-      quelle que soit la balle
-- [ ] Yanmei's Knife (recette du wiki) : entaille verte devant soi, puis 3 s d'attente ; sur un boss, un mini-boss ou un
-      ennemi pendant un boss : son de l'Adrenaline, Kami Injection (plus rapide, plus de dégâts, traînée verte) et Kami
-      Flu sur la cible (lueur verte, perd de la vie, encaisse plus)
-- [ ] Gatling Laser (recette du wiki) : maintenir le clic ; après un court chargement, rafale de lasers rouges imprécis
-      (On Fire!) ; s'arrête sans mana ou sans charge (la charge baisse en tirant)
-- [ ] Old Power Cell (recette du wiki) : invoque Golem dans le temple (devant un mur du temple), même avant Plantera ;
-      pas consommée ; refusée hors du temple
-- [ ] Shroomite Visage (recettes du wiki) : 11 défense, lance-flammes plus forts ; avec le plastron et les jambières en
-      shroomite : furtivité à l'arrêt
-- [ ] Acidic Rain Barrel (recette du wiki) : tonneau qui roule à travers les ennemis et éclate contre un mur en éclats
-      et gouttes acides ; frappe furtive : rebondit trois fois, plus de gouttes
-- [ ] Nychthemeron (recette du wiki, pile de 10) : boules qui flottent et ralentissent, deux orbes (lumière et ténèbres)
-      tournent autour du joueur par boule puis foncent sur les ennemis quand la boule casse ; clic droit : rappel ;
-      frappe furtive : toutes les boules d'un coup
-- [ ] Sea Urchin : ennemi de l'océan (pas dans la Sulphurous Sea) qui bondit vers le joueur, Venom au contact, lâche
-      15 à 25 Urchin Stingers
-- [ ] Cosmic Elemental : ennemi rare des cavernes (comme un Granite Elemental, se roule en boule), Confused au contact ;
-      épées rares (Bone Sword, Starfury, Enchanted Sword, Arkhalis)
-- [ ] Calamitas' Brew (recettes du wiki, 15 min) : +5 % de vitesse, flammes autour de la lame ; les coups de mêlée et
-      de spy infligent Abyssal Flames (ennemi assombri, particules rouge sang, perd de la vie, -6 défense)
 - [ ] Aero Dynamite : la Skynamite de Calamity porte le nom du wiki (recette du wiki : 10 Dynamites + 1 Aerialite Bar)
-- [ ] Revengeance et Death (à un autel, sans ingrédient ; dans le Starter Bag en Expert) : Revengeance active ou
-      désactive le mode (seulement en Expert), Death de même (seulement en Revengeance) ; refusé pendant un boss ; l'icône
-      de difficulté de Calamity suit
-- [ ] Alpha Ray (recette du wiki, avec la Genesis de Calamity) : clic gauche, trois rayons parallèles et des lasers ;
-      clic droit, un rayon qui se sépare en deux au bout de sa course ; tout traverse les blocs
-- [ ] Elemental Excalibur (recette du wiki, Draedon's Forge) : un rayon de couleur différente à chaque coup (13 couleurs
-      dans l'ordre : rouge, orange qui revient, jaune qui se sépare, vert clair qui suit le joueur, vert qui cherche les
-      ennemis, turquoise qui accélère à travers les blocs, cyan qui appelle trois rayons, bleu clair qui ralentit, bleu qui
-      rebondit, violet qui accélère et ralentit, fuchsia, rose qui sème des rayons, gris qui traverse tout) ; soigne au
-      contact ; clic droit : coup direct à dégâts doublés ; nom en arc-en-ciel
 - [ ] Disorderful Soul Artifact (recette du wiki) : réduction des dégâts à 0, course deux fois plus rapide, attaques trois
       fois plus rapides
 
@@ -994,8 +1086,6 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Rage en la tenant), Stringstreaker (lignes), Wrath of the Gods (pulsation), Grand Purification (clic droit :
       Supernova puis piliers), Consequences of Power (3 modes).
 
-- [ ] Lot AM : ancienne Wulfrum armor (5 casques, plastron, jambières) : rendu porté, bonus d'ensemble (+5 défense sous
-      50 % de vie).
 
 - [ ] Lot AN : armures Twisted Netherite (avec les bottes en accessoire : Wither), Elderstone (œil de Xeroc), Frozen
       (touche de bonus d'armure : parer un ennemi, un projectile, rien), vanités Archangel et Catarachedrae (rendu porté

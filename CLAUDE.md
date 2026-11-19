@@ -41,6 +41,7 @@ python tools/fetch_wikigg.py                    # wiki officiel (calamitymod.wik
 python tools/old_tooltips.py                    # infobulles de Calamity par mois depuis 2018 -> data/old_tooltips.json
 python tools/old_strings.py                     # toutes les phrases du code par date -> data/old_strings.json
 python tools/compare_wikigg.py                  # Fandom / officiel / historique -> reports/wikigg_diff.md (revue : tools/diff_review.json, docs/DIFF_FANDOM.md)
+python tools/legacy_risks.py                    # portages qui réutilisent une classe de Calamity refaite depuis -> reports/legacy_risks.md (~4 min)
 python tools/selftest.py                        # serveur sans interface + Common/Debug/SelfTest.cs (jeu fermé :
                                                 # sinon TML003, le .tmod n'est pas réécrit et selftest.py refuse de tourner)
 ```
@@ -82,6 +83,9 @@ Tester les trois couches : `python tools/selftest.py --mode all`. Référence «
 5. Valeurs du wiki là où elles diffèrent du vieux code ; **pas d'`AddRecipes`** si le wiki a une recette (WikiRecipes
    s'en charge), pas d'éléments en dur (système d'éléments). `/// Wiki : Page.txt` sur la classe principale.
 6. Ajouter un contrôle à l'auto-test si le contenu sert ailleurs (recette, butin). Exemple complet : Night's Gaze.
+7. Tests en jeu : le nom du portage va dans la ligne « test rapide » de son lot (section « Portages » en tête de
+   `docs/TESTS.md`), sa description dans « Référence » ; relancer `legacy_risks.py` et ajouter à « À tester en détail »
+   s'il est à risque, ou si son comportement suit la page plutôt que le vieux code.
 
 ## Données appliquées en jeu
 

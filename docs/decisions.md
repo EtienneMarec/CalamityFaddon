@@ -780,6 +780,18 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 
 ## 8. Contenu créé ou porté
 
+### Tests en jeu des portages (`docs/TESTS.md`, `tools/legacy_risks.py`)
+- **[validé 19/11]** Le contenu porté du vieux Calamity n'est plus testé objet par objet : un test rapide par lot (l'objet
+  apparaît, s'utilise, son effet se déclenche, rien ne plante). Test détaillé seulement pour deux cas : le portage
+  réutilise un projectile ou une classe de base de Calamity 2.2.2 qui a changé depuis sa version d'origine (liste
+  générée), ou son comportement a été changé d'après la page (liste tenue à la main dans TESTS.md).
+- **[technique]** `legacy_risks.py` : pour chaque classe « /// Wiki : » d'un fichier « Adapté de Calamity », classes de
+  Calamity atteintes (projectiles et classes de base seulement, sur deux niveaux de nos classes), lignes changées dans
+  leur fichier entre le commit d'origine (en-tête, sinon 2.0.1.005) et 2.2.2, sans les textes, `using` et commentaires ;
+  à risque au-delà de 8 lignes. Les debuffs et PNJ de Calamity ne comptent pas : on veut leur version actuelle (même
+  debuff partout dans le jeu, un PNJ cité n'est qu'une condition). Les portages déjà validés en jeu sont retirés de la
+  liste à la main.
+
 ### Zweihandromeda (`Content/Items/Weapons/Melee/`)
 - **[validé 21/10]** « Back and forth pattern » : un coup vers le bas, le même vers le haut, en alternance.
 - **[choix]** Coup orienté vers le curseur, arc de ~220° (±1,9 rad), accélération puis ralentissement ; épée tenue par le
