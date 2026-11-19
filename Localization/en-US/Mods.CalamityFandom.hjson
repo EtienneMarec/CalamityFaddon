@@ -1941,6 +1941,17 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			GearworkShield: {
+				DisplayName: Gearwork Shield
+				Tooltip:
+					'''
+					Resets enemies back to certain points in time
+					Right click to set a snap shot, and left click to go back
+					Setting enemies back in time has a 1 minute cooldown, during which, the shield can be thrown
+					'If we die and no one remembers us, I guess that's just the way it is.'
+					'''
+			}
+
 			ShadowsDescent: {
 				DisplayName: Shadow's Descent
 				Tooltip:
@@ -3841,6 +3852,61 @@ Items: {
 		DisplayName: Advanced Void Condenser
 		Tooltip: Used for special crafting
 	}
+	TitanTides: {
+		DisplayName: Titan Tides
+		Tooltip:
+			'''
+			Inundatio ex Deos
+			Channels a spinning cosmic aura that grows in size and spin speed over time
+			Enemies hit by the aura are barraged with dozens of god slayer blades which shred enemies
+			'''
+	}
+
+	TyrantShield: {
+		DisplayName: Tyrant Shield
+		Tooltip:
+			'''
+			'auric man is always useful dead or alive' - John C.A. Lamity
+			Holds out a corpse shield that can deflect enemies or projectiles moving towards you
+			Hit enemies are dealt a significant amount of damage
+			Hit projectiles are deflected and empowered
+			If either deflection occurs, the corpse won't be able to be held out for 1 minute
+			'''
+	}
+
+	TheOnesStriker: {
+		DisplayName: The Ones Striker
+		Tooltip:
+			'''
+			Shoots chains of coins, able to shoot coins that normal coin guns can't
+			'''
+	}
+
+	CosmiliteCoin: {
+		DisplayName: Cosmilite Coin
+	}
+
+	EssericSkinPotion: {
+		DisplayName: Esseric Skin Potion
+		Tooltip: Increases player defense by 30
+	}
+
+	LunarFlah: {
+		DisplayName: Lunar Flah
+	}
+
+	MergeFlah: {
+		DisplayName: Merge Flah
+	}
+
+	UnchargedFlahium: {
+		DisplayName: Uncharged Flahium
+	}
+
+	SoulContainer: {
+		DisplayName: Soul Container
+		Tooltip: Used to store an elemental's soul. Can also be used to transfer the souls to other worlds.
+	}
 }
 
 Projectiles: {
@@ -5278,6 +5344,25 @@ Projectiles: {
 	ExoDisk: {
 		DisplayName: Exo Disk
 	}
+	TitanAura: {
+		DisplayName: Cosmic Aura
+	}
+
+	GodSlayerBlade: {
+		DisplayName: God Slayer Blade
+	}
+
+	GearworkShieldProj: {
+		DisplayName: Gearwork Shield
+	}
+
+	TyrantCorpse: {
+		DisplayName: Corpse Shield
+	}
+
+	StrikerCoin: {
+		DisplayName: Coin
+	}
 }
 
 Shortstrike.Gauge:
@@ -5670,6 +5755,10 @@ Buffs: {
 	MeldSkin: {
 		DisplayName: Meld Skin
 		Description: Defense is increased by 22
+	}
+	EssericSkin: {
+		DisplayName: Esseric Skin
+		Description: Defense is increased by 30
 	}
 }
 

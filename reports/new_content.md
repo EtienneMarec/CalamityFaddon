@@ -178,7 +178,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Gatling Laser
 - [x] Gauss Dagger
 - [x] Gauss Pistol
-- [ ] Gearwork Shield — addon: Calamity: Community Remix
+- [x] Gearwork Shield — addon: Calamity: Community Remix
 - [ ] Gel Sword
 - [ ] Gel Wand
 - [ ] Ghoststreaker — addon: Calamity: Tales of the Aquatic
@@ -402,14 +402,14 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The King's Gambit — addon: Calamity: Community Remix
 - [ ] The Last Lightice — addon: Calamity: Community Remix
 - [x] The Needler
-- [ ] The Ones Striker — addon: Calamity: Tales of the Aquatic
+- [x] The Ones Striker — addon: Calamity: Tales of the Aquatic
 - [x] The Otherside
 - [x] The Princess
 - [x] The Reaper
 - [ ] The Watered Pew Pew — addon: Calamity: Tales of the Aquatic
 - [x] Thunder Bolt — addon: Cataclysm
 - [ ] Tiny Planet
-- [ ] Titan Tides — addon: Catalyst
+- [x] Titan Tides — addon: Catalyst
 - [x] Titanslayer
 - [x] Tomatus
 - [ ] Totality Tides — addon: Calamity: Community Remix
@@ -425,7 +425,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Twin Cranes — addon: Calamity: Community Remix
 - [x] Twisted Netherite Scythe — addon: Calamity: Community Remix
 - [x] Twisted Netherite Sword — addon: Calamity: Community Remix
-- [ ] Tyrant Shield — addon: Calamity: Community Remix
+- [x] Tyrant Shield — addon: Calamity: Community Remix
 - [x] Unending Void
 - [x] Unloxcalibur — addon: Calamity: Community Remix
 - [x] Unsealed Singularity — addon: Calamity: Community Remix
@@ -1026,7 +1026,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Draconic Elixir
 - [ ] Dust Bunny — addon: Catalyst, Deimos, the Starborn Princess
 - [x] Elder Berry
-- [ ] Esseric Skin Potion — addon: Calamity: Tales of the Aquatic
+- [x] Esseric Skin Potion — addon: Calamity: Tales of the Aquatic
 - [ ] Ever Ink — addon: Catalyst, Deimos, the Starborn Princess
 - [ ] Expired Medication
 - [x] Flask of Plague
@@ -1310,7 +1310,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] 22 Hornet Round — addon: Calamity: Community Remix, Polyphemalus
 - [x] Acceleration Round
 - [x] Arctic Arrow
-- [ ] Cosmilite Coin — addon: Calamity: Community Remix
+- [x] Cosmilite Coin — addon: Calamity: Community Remix
 - [x] Enhanced Nano Round
 - [ ] Explosive Shotgun Shell
 - [x] Exterminative Dart — addon: Calamity: Tales of the Aquatic
@@ -1452,11 +1452,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Empress Flah
 - [ ] Greedy Chest
 - [x] Hemorraize
-- [ ] Lunar Flah
+- [x] Lunar Flah
 - [x] Meld Flah
-- [ ] Merge Flah
+- [x] Merge Flah
 - [x] Molten Flah
-- [ ] Uncharged Flahium
+- [x] Uncharged Flahium
 - [x] Washed Flah
 
 ## Aquatic (10)
@@ -1563,7 +1563,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 ## Miscellanous (2)
 
 - [ ] Brimstone Elemental Soul Container — addon: Tranquility Mod
-- [ ] Soul Container — addon: Tranquility Mod
+- [x] Soul Container — addon: Tranquility Mod
 
 ## Misc (2)
 

@@ -439,7 +439,11 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Tools.Braxaxe>(), ModContent.ItemType<Content.Items.Tools.Destinary>(), ModContent.ItemType<Content.Items.Tools.GrarbleObliterator>(),
                 ModContent.ItemType<Content.Items.Tools.TwistedNetheriteAxe>(), ModContent.ItemType<Content.Items.Tools.TwistedNetheritePickaxe>(), ModContent.ItemType<Content.Items.Tools.TwistedNetheriteShovel>(),
                 ModContent.ItemType<Content.Items.Potions.MeldSkinPotion>(), ModContent.ItemType<Content.Items.Potions.SupremeStrangeBrew>() ,
-                ModContent.ItemType<Content.Items.Placeables.BronzeSmelter>(), ModContent.ItemType<Content.Items.Placeables.ScrollPress>(), ModContent.ItemType<Content.Items.Placeables.AdvancedVoidCondenser>() })
+                ModContent.ItemType<Content.Items.Placeables.BronzeSmelter>(), ModContent.ItemType<Content.Items.Placeables.ScrollPress>(), ModContent.ItemType<Content.Items.Placeables.AdvancedVoidCondenser>() ,
+                ModContent.ItemType<Content.Items.Weapons.Melee.TitanTides>(), ModContent.ItemType<Content.Items.Weapons.Rogue.GearworkShield>(), ModContent.ItemType<Content.Items.Weapons.Typeless.TyrantShield>(),
+                ModContent.ItemType<Content.Items.Weapons.Ranged.TheOnesStriker>(), ModContent.ItemType<Content.Items.Ammo.CosmiliteCoin>(), ModContent.ItemType<Content.Items.Potions.EssericSkinPotion>(),
+                ModContent.ItemType<Content.Items.Materials.LunarFlah>(), ModContent.ItemType<Content.Items.Materials.MergeFlah>(), ModContent.ItemType<Content.Items.Materials.UnchargedFlahium>(),
+                ModContent.ItemType<Content.Items.Materials.SoulContainer>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

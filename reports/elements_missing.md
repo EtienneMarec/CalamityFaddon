@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (134)
+## Objets (130)
 
 - A M S
 - AAMG "Disperse"
@@ -122,7 +122,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Fleshly Megaphone
 - Flint
 - Frostflow Edge
-- Gearwork Shield
 - Gel Sword
 - Gel Wand
 - Genisis
@@ -191,13 +190,10 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The Inflator's Controller
 - The King's Gambit
 - The Last Lightice
-- The Ones Striker
 - The Verboten One
 - The Watered Pew Pew
 - The WOBbler
-- Titan Tides
 - Totality Tides
-- Tyrant Shield
 - UserGrahkon/Sandbox
 - Vehement Gemstone
 - Venus Flytrap

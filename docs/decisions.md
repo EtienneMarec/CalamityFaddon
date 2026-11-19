@@ -2232,6 +2232,28 @@ jusqu'à L × H cases, centrée en largeur et posée en bas, puis découpée en 
 - Scroll Press (3 × 2) : sert aussi de Loom, Sawmill, Dye Vat et de source d'eau ; les parchemins n'existent pas encore.
 - Pas fait : Plague Torch (pas d'image posée sur le wiki).
 
+### Lot AJ du 19/11 (`Content/Items/Weapons/WikiWeapons1119ab.cs`)
+
+Armes, munition, potion et matériaux fabricables (recettes du wiki). Rareté « C1 » → 0.
+
+- **[choix]** Titan Tides : aura tenue, pleine puissance en 6 s (taille x3, rotation x5, dégâts x1 → x3) ; 3 lames de God
+  Slayer à 20 % par coup (God Slayer Inferno 1 s) ; Shred (celui de Tendon Tides) à 10 % après 4,5 s.
+- **[choix]** Gearwork Shield : la photo garde position, vitesse, PV et ai[] des ennemis qu'on peut viser ; le retour en
+  arrière est une frappe furtive si la furtivité est pleine (20 fois les dégâts, la furtivité est consommée) ; pendant la
+  recharge (1 min), le bouclier se lance (boomerang) et chaque coup retire 1 s. **[technique]** En multijoueur, le retour
+  en arrière ne se fait pas (il faudrait passer par le serveur).
+- **[choix]** Tyrant Shield : cadavre tenu devant le joueur, tourné vers le curseur ; un ennemi ou un projectile ennemi qui
+  le touche en venant vers lui à l'horizontale (> 0,5 de vitesse) : 5980 dégâts sans classe (avec les bonus) ou renvoi
+  (le projectile devient ami, 5980 dégâts, vitesse x1,5) ; les projectiles de plus de 64 px (rayons) ne sont pas renvoyés ;
+  ensuite 1 min sans pouvoir le tenir.
+- **[choix]** The Ones Striker : pièces en chaîne (écart de 0,15 tir) ; dégâts du tableau de la page, avec les bonus à
+  distance ; Midas : argent 1 s, or 10 s, platine 100 s, Cosmilite 1000 s (le cuivre n'en donne pas). Klepticoin et
+  Miracle Coin n'existent pas encore.
+- **[choix]** Cosmilite Coin : munition de The Ones Striker seulement (la note de la page, avec Tales of the Aquatic) ; pas
+  d'échange automatique avec les pièces de platine.
+- **[choix]** Uncharged Flahium : 60 minutes de jeu = 60 s dans l'inventaire, puis tout le paquet devient des Flahium
+  Bars. Merge Flah : la transformation dans la lave n'est pas faite. Soul Container : sans effet (pas encore d'âmes).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par
