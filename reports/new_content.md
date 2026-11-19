@@ -959,7 +959,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Godseeker, Yharim — stub; addon: Calamity: Community Remix, Calamity: Community Remix
 - [ ] Goozma — addon: Fargo’s Souls DLC (Fargo Souls Mod x Calamity)
 - [ ] Goozmageldon — pas de sprite
-- [ ] Grand Thunder Cnidrion
+- [x] Grand Thunder Cnidrion
 - [ ] Horseslimes of the Goopocalypse — pas de sprite; addon: Deimos, the Starborn Princess, Calamity Loot Swap
 - [ ] Hydrogen
 - [ ] Ionogen

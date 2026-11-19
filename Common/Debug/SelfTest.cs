@@ -329,7 +329,7 @@ namespace CalamityFandom.Common.Debug
                 && Common.Taming.TamingSystem.Get("Crabulon").Calm == (plus ? 3600 : 0) && Common.Taming.TamingSystem.TaxGap == (plus ? 60 : 0)
                 && Common.Taming.TamingBees.Goal == (plus ? 40 : 100) && Common.Taming.TamingBees.HiveOnly == plus,
                 "Taming : difficulté de Calamity++ (Destroyer 8, Skeletron 3 mini-jeux, calme de Crabulon, taxes espacées)");
-            Expect(tames.Count == 46 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
+            Expect(tames.Count == 47 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
                 + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));
@@ -472,6 +472,11 @@ namespace CalamityFandom.Common.Debug
                 Expect(acidRates.Any(r => r.itemId == looted), $"l'Acidsighter lâche {Lang.GetItemNameValue(looted)}");
             Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.createItem.type == ModContent.ItemType<Content.Items.SummonItems.PoisonedSclera>()),
                 "recette du wiki du Poisoned Sclera");
+            // 19/11 : Grand Thunder Cnidrion (boss inventé) : butin de la page
+            var gtcRates = new List<DropRateInfo>();
+            foreach (var r in Main.ItemDropsDB.GetRulesForNPCID(ModContent.NPCType<Content.NPCs.GrandThunderCnidrion.GrandThunderCnidrion>(), false))
+                r.ReportDroprates(gtcRates, new DropRateInfoChainFeed(1f));
+            Expect(gtcRates.Any(r => r.itemId == ModContent.ItemType<Content.Items.Weapons.Ranged.TalonBurst>()), "le Grand Thunder Cnidrion lâche le Talon Burst");
             // 19/11 : Aquatic Hypercomputer, une tuile par étape, recettes à chaque étape
             foreach (int stageTile in Content.Tiles.Hypercomputer.HypercomputerTile.StageTiles)
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => !r.Disabled && r.requiredTile.Contains(stageTile)),

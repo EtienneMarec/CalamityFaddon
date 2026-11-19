@@ -894,11 +894,18 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Unsealed Singularity (trous noirs qui attirent), Twisted Netherite Scythe (invincibilité au coup), Wrath of the
       Eldritch / of the Cosmos (pulsation au curseur, anneaux).
 
+- [ ] **Grand Thunder Cnidrion** : Desert Medallion dans le désert **le jour** → ce boss (la nuit : Desert Scourge comme
+      avant). Éclairs du ciel, charge après un tremblement, Storm Cnidrilings ; sous 45 % plus rapide, salves de 3 tirs ;
+      caché derrière des blocs : traits qui traversent. Expert : tornades. Butin : Talon Burst, Sea Stone Bars...
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
 - **Difficulté du Taming** (31/10) : propositions boss par boss pour Calamity++ dans `docs/decisions.md` (section Taming).
 
+- [ ] (19/11) **Grand Thunder Cnidrion** : Taming absent de la page (proposition : 15 s dans l'Océan) ; le Desert
+      Medallion invoque ce boss le jour au lieu du Desert Scourge, dans les deux modes (en Calamity++, garder le Desert
+      Scourge à toute heure ?). À trancher.
 - [ ] (19/11) **Calamity Sword** : la page en fait l'amélioration du Swordsplosion sans recette. Proposition : en Calamity++,
       Swordsplosion + 10 Ashes of Calamity + 5 Ashes of Annihilation à la Cosmic Anvil ; en Full Fandom, sans recette. À trancher.
 - [ ] (19/11) **Acidsighter** : la page Taming ne le cite pas ; proposition faite (20 s dans l'Océan propre). Et « Defeating

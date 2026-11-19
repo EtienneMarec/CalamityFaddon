@@ -1799,6 +1799,24 @@ Ingrédients de recettes du wiki. Valeurs des infobox.
   90 images (esprits au tiers / boules de God Slayer au tiers, God Slayer Inferno 2 s) ; toutes les 3 salves, rayon (Last
   Prism vanilla) vers l'ennemi le plus proche / deux Cosmic Guardians (grosses boules x2, 3 s).
 
+### Grand Thunder Cnidrion (`Content/NPCs/GrandThunderCnidrion/`, 19/11)
+
+Boss pré-Hardmode inventé, « alternative au Desert Scourge ». Valeurs de l'infobox : vie {{dv|1750|2300|2800}}, contact
+{{dv|50|70|90}}, éclairs du ciel {{dv|24|48|72}}, tirs {{dv|30|60|90}}, défense 6, DR 5 %, 50 argent ; butin WikiLoot.
+
+- **[technique]** Le champ `name` de l'infobox et une note des « Tips » sont du vandalisme offensant visant une personne
+  réelle : ignorés (nom affiché = titre de la page, rien d'autre de fait). Notre page wiki/ est nettoyée (nom, nom
+  de l'IA, « bags of fent » → « lightning bolts », note retirée).
+- **[choix]** Invocation : le Desert Medallion de Calamity, **le jour**, dans le désert, invoque le Grand Thunder Cnidrion
+  au lieu du Desert Scourge (page du médaillon : « Grand Thunder Cnidrion during the day and the Desert Scourge at
+  night ») ; dans les deux modes. La nuit, rien ne change.
+- **[choix]** Attaques en boucle : éclairs du ciel (12 en 2 s autour du joueur), charge horizontale (tremble 0,5 s), 3 Storm
+  Cnidrilings, et sous 45 % des salves de 3 tirs ; vitesse x1,4 sous 45 %. Sans ligne de vue : un trait électrique qui
+  traverse les blocs toutes les secondes (x2 dégâts de tir). Expert : chaque éclair du ciel fait naître deux tornades au sol.
+- **[choix]** Storm Cnidriling (pas de page) : vie 60, dégâts 20, défense 2, fonce sur le joueur ; sprite du wiki.
+- **[choix]** Taming : **absent de la page Taming** ; proposition : 15 s cumulées dans l'Océan (un Cnidrion craint l'eau,
+  infobox : vulnérable à l'eau). À valider. Aftermath (Cactus Person) : PNJ pas encore fait.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

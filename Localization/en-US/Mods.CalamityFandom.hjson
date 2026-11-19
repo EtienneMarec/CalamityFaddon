@@ -3408,6 +3408,21 @@ Projectiles: {
 	WrathSpirit: {
 		DisplayName: Spirit
 	}
+	LightningBolt: {
+		DisplayName: Lightning Barrage
+	}
+
+	LightningShot: {
+		DisplayName: Lightning Shot
+	}
+
+	ElectricStreak: {
+		DisplayName: Electric Streak
+	}
+
+	SandTornado: {
+		DisplayName: Tornado
+	}
 }
 
 Shortstrike.Gauge:
@@ -3865,6 +3880,14 @@ NPCs: {
 
 	MutatedEye: {
 		DisplayName: Mutated Eye
+	}
+	GrandThunderCnidrion: {
+		DisplayName: Grand Thunder Cnidrion
+		Bestiary: A giant storm-touched Cnidrion that answers the Desert Medallion by day, raining bolts of energy from the sky.
+	}
+
+	StormCnidriling: {
+		DisplayName: Storm Cnidriling
 	}
 }
 

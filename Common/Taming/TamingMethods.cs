@@ -110,6 +110,7 @@ namespace CalamityFandom.Common.Taming
                     break;
                 // « Lead Pyrogen into the Surface Snow biome » : la neige en surface seulement (pas la toundra souterraine)
                 // [choix] Acidsighter : l'Océan propre « soigne » l'œil (pas sur la page Taming : proposition à valider)
+                case "Grand Thunder Cnidrion":
                 case "Acidsighter":
                     if (p != null && p.ZoneBeach && !p.Calamity().ZoneSulphur)
                         f.Progress++;

@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 
-## PNJ (70)
+## PNJ (69)
 
 - Aetherial Guardian, Olistene
 - Amazon
@@ -33,7 +33,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Giant Skeleton
 - Godseeker, Yharim
 - Goozma
-- Grand Thunder Cnidrion
 - Green Phantom
 - Hydrogen
 - Ionogen

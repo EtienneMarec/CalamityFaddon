@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 545 drops ajoutés sur 230 PNJ
+- 549 drops ajoutés sur 231 PNJ
 - 121 ajouts dans 27 sacs
 - 568 drops du wiki déjà présents dans le jeu (inchangés)
 - 138 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 31 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 94 PNJ du wiki absents du jeu, 73 objets introuvables
+- 93 PNJ du wiki absents du jeu, 78 objets introuvables
 
 ## Ajouts
 
@@ -132,6 +132,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Goblin Sorcerer** : War Staff 1-1 à 5.0%
 - **Goblin Thief** : Warglaive 25-68 à 2.5%
 - **Goblin Warrior** : Warblade 1-1 à 4.0%
+- **Grand Thunder Cnidrion** : Talon Burst 1-1 à 25.0% (mode normal) ; Talon Burst 1-1 à 25.0% (Expert, direct) ; Sea Stone Bar 15-20 à 100.0% (mode normal) ; Sea Stone Bar 15-20 à 100.0% (Expert, direct)
 - **Great Sand Shark** : Sand Shark Tooth Necklace 1-1 à 25.0% (mode normal) ; Sand Shark Tooth Necklace 1-1 à 33.3% (Expert, direct) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Shifting Sands, Tumbleweed (mode normal) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Shifting Sands, Tumbleweed (Expert, direct)
 - **Green Demon** : Zumbo Sauce 1-1 à 10.0%
 - **Gulper Eel** : Depth Cells 6-8 à 50.0% [After defeating Calamitas] ; Lumenyl 2-3 à 50.0% [After defeating Calamitas]
@@ -314,6 +315,7 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Death-Needle Stinger — 1
 - Deteriorating Lens — 1
 - Devious Aestheticus — 1
+- Didgeridoo — 1
 - Divine Intervention — 1
 - Dragon Flame Barrage — 1
 - Earthen Clicker — 1
@@ -324,6 +326,8 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Eye of Excavator — 1
 - Frigid Bar — 1
 - Ghast Relic — 1
+- Grand Thunder Cnidrion Mask — 1
+- Grand Thunder Cnidrion Trophy — 1
 - Green Demon Head — 1
 - Heated Profanity — 1
 - Heaven's Crown — 1
@@ -355,12 +359,14 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Schematic — 1
 - Spear of Liberty — 1
 - Squidbeak Shotgun — 1
+- Storm-Cnidriling Staff — 1
 - Tapehook — 1
 - The Everquartz — 1
 - The Inflator's Controller — 1
 - The King's Gambit — 1
 - The Last Lightice — 1
 - The Wulfrum Excavator (Lore) — 1
+- Thunder Talon — 1
 - Treasure Bag (The Fabricational Quartet) — 1
 - Varroa Hack — 1
 - Wakasagihime — 1
