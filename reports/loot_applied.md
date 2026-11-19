@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 560 drops ajoutés sur 232 PNJ
+- 561 drops ajoutés sur 233 PNJ
 - 126 ajouts dans 27 sacs
 - 568 drops du wiki déjà présents dans le jeu (inchangés)
 - 138 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 31 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 93 PNJ du wiki absents du jeu, 66 objets introuvables
+- 93 PNJ du wiki absents du jeu, 65 objets introuvables
 
 ## Ajouts
 
@@ -158,6 +158,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Martian Saucer** : Nullification Pistol 1-1 à 14.3% (mode normal) ; Nullification Pistol 1-1 à 25.0% (Expert, direct)
 - **Martian Walker** : Wingman 1-1 à 14.3%
 - **Mauler** : Fetid Emesis 1-1 à 25.0% ; Prehistoric Tablet 1-1 à 8.0%
+- **Meteor Head** : Divine Intervention 1-1 à 5.0%
 - **Mirage Jelly** : Depth Cells 5-7 à 50.0% [After defeating Calamitas] ; Abyss Shocker 1-1 à 10.0% [After defeating Skeletron] ; Mirage Jelly 1-1 à 14.3%
 - **Moon Lord** : Celestial Onion 1-1 à 100.0% (mode normal) ; Celestial Onion 1-1 à 100.0% (Expert, direct) ; Cheese 4-6 à 5.0% (mode normal) ; Cheese 4-6 à 5.0% (Expert, direct) ; Utensil Poker 1-1 à 25.0% (mode normal) ; Utensil Poker 1-1 à 33.3% (Expert, direct)
 - **Moray Eel** : Depth Crusher 1-1 à 6.7%
@@ -315,7 +316,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Deteriorating Lens — 1
 - Devious Aestheticus — 1
 - Didgeridoo — 1
-- Divine Intervention — 1
 - Encrypted Schematic (Hell) — 1
 - Energized Scrap Spikes — 1
 - Everflute — 1

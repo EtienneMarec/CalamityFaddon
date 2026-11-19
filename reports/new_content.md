@@ -226,7 +226,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Interfacer Staff
 - [ ] Jake
 - [x] Jet Engine — addon: Calamity: Community Remix
-- [ ] Justice and Splendor
+- [x] Justice and Splendor
 - [ ] Lacelinous Nocturne — addon: Calamity: Tales of the Aquatic
 - [ ] Lacescent Pistol — addon: Calamity: Tales of the Aquatic
 - [x] Latcher Mine
@@ -311,7 +311,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Purgatory Blaster — addon: Calamity: Tales of the Aquatic
 - [ ] Quadlens Staff — addon: Calamity: Community Remix
 - [x] Quasar
-- [ ] Quintessence Cannon — addon: Deimos, the Starborn Princess, Catalyst
+- [x] Quintessence Cannon — addon: Deimos, the Starborn Princess, Catalyst
 - [ ] RGB Graydron
 - [x] Raider's Glory
 - [x] Raito

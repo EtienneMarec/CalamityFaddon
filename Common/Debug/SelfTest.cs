@@ -412,7 +412,8 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Rogue.DigitalCheeseSpear>(), ModContent.ItemType<Content.Items.Weapons.Rogue.Exodimus>(), ModContent.ItemType<Content.Items.Weapons.Ranged.EndentantBow>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Dethermination>(), ModContent.ItemType<Content.Items.Weapons.Magic.ClamorNoxus>(), ModContent.ItemType<Content.Items.Weapons.Melee.LunaticBeats>(),
                 ModContent.ItemType<Content.Items.Weapons.Melee.Rox>(), ModContent.ItemType<Content.Items.Weapons.Melee.TheArchalis>(), ModContent.ItemType<Content.Items.Weapons.Melee.TenebrisTides>(), ModContent.ItemType<Content.Items.Weapons.Ranged.RibbonFlintlockRifleCannon>(), ModContent.ItemType<Content.Items.Weapons.Summon.PlanterrorStaff>(),
                 ModContent.ItemType<Content.Items.Weapons.Magic.TwinCranes>(), ModContent.ItemType<Content.Items.Weapons.Melee.WhippedBouquetBlade>(), ModContent.ItemType<Content.Items.Weapons.Summon.CirnogenicStaff>(),
-                ModContent.ItemType<Content.Items.Weapons.Ranged.Phototerminator>(), ModContent.ItemType<Content.Items.Weapons.Summon.MorphoDoomblade>(), ModContent.ItemType<Content.Items.Weapons.Summon.PrismDestroyer>() })
+                ModContent.ItemType<Content.Items.Weapons.Ranged.Phototerminator>(), ModContent.ItemType<Content.Items.Weapons.Summon.MorphoDoomblade>(), ModContent.ItemType<Content.Items.Weapons.Summon.PrismDestroyer>(),
+                ModContent.ItemType<Content.Items.Weapons.Magic.QuintessenceCannon>(), ModContent.ItemType<Content.Items.Weapons.Melee.JusticeandSplendor>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -497,7 +498,7 @@ namespace CalamityFandom.Common.Debug
                 r.ReportDroprates(pbgLot, new DropRateInfoChainFeed(1f));
             foreach (int looted in new[] { ModContent.ItemType<Content.Items.Weapons.Rogue.InfectedDaggerMissesNoSkeptics>(), ModContent.ItemType<Content.Items.Weapons.Typeless.VarroaHack>() })
                 Expect(pbgLot.Any(r => r.itemId == looted), $"le Plaguebringer Goliath lâche {Lang.GetItemNameValue(looted)}");
-            foreach (string looted in new[] { "Cursed Spear", "Earthen Clicker", "Nightform", "Ghast Relic", "Purgatory Blaster", "Dragon Flame Barrage", "Yggdrasil Core", "Spear of Liberty", "Babil Destruction Core", "Sandstorm (weapon)" })
+            foreach (string looted in new[] { "Cursed Spear", "Earthen Clicker", "Nightform", "Ghast Relic", "Purgatory Blaster", "Dragon Flame Barrage", "Yggdrasil Core", "Spear of Liberty", "Babil Destruction Core", "Sandstorm (weapon)", "Divine Intervention" })
                 Expect(!WikiLoot.MissingItems.ContainsKey(looted) && WikiRecipes.ResolveItem(looted) > 0, $"{looted} trouvé par le butin");
             // 19/11 : Aquatic Hypercomputer, une tuile par étape, recettes à chaque étape
             foreach (int stageTile in Content.Tiles.Hypercomputer.HypercomputerTile.StageTiles)

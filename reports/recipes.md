@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1599 objets dont les recettes ont changé : 1047 recettes modifiées, 652 créées
+- 1602 objets dont les recettes ont changé : 1048 recettes modifiées, 654 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
-- 41 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 46 recettes
+- 39 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 44 recettes
 
 ## Recettes changées
 
@@ -191,6 +191,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Badge of Bravery | 1 Warrior Emblem, 12 Tarragon Bar @ MythrilAnvil → 1 | 2 Tarragon Bar, 1 Feral Claws @ LunarCraftingStation → 1 |
 | Bagel Nuts | (nouvelle) | 4 Shattered Start Block, 5 Potato Chips, 5 Hallowed Bar @ CookingPots → 1 |
 | Baguette | 20 Hay @ Furnaces → 1 | 1 Artisan Loaf @ Furnaces → 25 |
+| Baleful Harvester | 1 The Horseman's Blade, 12 Stardust Fragment @ LunarCraftingStation → 1 | 1 Book of Skulls, 1 The Horseman's Blade, 1 Divine Intervention, 20 Solar Fragment, 5 Crystal of the Dryad, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Ballistic Poison Bomb | 1 Seafoam Bomb, 10 Sulphurous Sand, 10 Voidstone, 20 Depth Cells @ MythrilAnvil → 1 | 1 Seafoam Bomb, 10 Depth Cells, 20 Sulphurous Sand, 10 Crocodile Scale @ MythrilAnvil → 1 |
 | Banshee Hook | (nouvelle) | 5 Haunted Bar @ LunarCraftingStation → 1 |
 | Baow | (nouvelle) | 1 Dark Shard, 1 Light Shard @ Anvils → 1 |
@@ -805,6 +806,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Jet Engine | (nouvelle) | 10 Any Cobalt Bar, 5 Char Matter, 5 Essence of Chaos, 26 Obsidian @ Anvils → 1 |
 | Jungle Dragon Egg | 10 Life Alloy, 15 Effulgent Feather @ MythrilAnvil → 1 | 1 Yharim's Insignia, 15 Effulgent Feather @ LunarCraftingStation → 1 |
 | Jungle Dragon, Yharon | 1 Yharon Trophy @ Bookcases → 1 | 1 Yharon Trophy, 10 Conquest Fragment @ Bookcases → 1 |
+| Justice and Splendor | (nouvelle) | 1 Divine Intervention, 6 Divine Bar, 2 Bloodstone Bar @ LunarCraftingStation → 1 |
 | Juzie | (nouvelle) | 4 Shattered Start Block, 3 Cherry, 10 Fruit Juice, 50 Glass @ CookingPots → 1 |
 | Karasawa | 1 Large Ruby, 15 Mysterious Circuitry, 25 Dubious Plating, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Large Ruby, 1 Reassembled Electronics, 5 Galactica Singularity, 8 Cosmilite Bar, 20 Nightmare Fuel, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Kelvin Catalyst | 1 Ice Star, 1 Avalanche, 1 Effluvium Bow, 1 Icebreaker, 1 Snowstorm Staff, 10 Essence of Eleum @ Anvils → 1 | 100 Ice Star, 1 Avalanche, 1 Effluvium Bow, 1 Glacial Crusher, 1 Icebreaker, 1 Snowstorm Staff, 10 Essence of Eleum, 2 The sword is inside the core @ IceMachine → 1 |
@@ -1131,6 +1133,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Purple Seeking Mechanism | 1 Lab Seeking Mechanism, 50 Any Ice Block @ Anvils → 1 | 1 Lab Seeking Mechanism, 20 Cloud @ Anvils → 1 |
 | Quagmire | 10 Perennial Bar @ MythrilAnvil → 1 | 6 Perennial Bar, 6 Chlorophyte Bar, 1 Yelets @ MythrilAnvil → 1 |
 | Queen Bee | 1 Queen Bee Trophy @ Bookcases → 1 | 1 Queen Bee Trophy, 10 Conquest Fragment @ Bookcases → 1 |
+| Quintessence Cannon | (nouvelle) | 1 Charged Blaster Cannon, 1 Cruel Jewel, 1 Sparkling Empress, 1 Yharim's Crystal, 1 Miracle Matter @ DraedonsForge → 1 |
 | Quiver of Madness | (nouvelle) | 1 Elemental Quiver, 1 Quiver of Nihility, 1 Daawnlight Spirit Origin, 5 Red Wine, 5 Ashes of Annihilation, 4 Yharim Bar, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
 | Radar | 5 Any Iron Bar @ Anvils → 1 | 5 Iron Bar @ Anvils → 1 |
 | Radiant Ooze | 45 Blighted Gel, 15 Purified Gel @ Anvils → 1 | 30 Blighted Gel, 2 Soul of Bright @ MythrilAnvil → 1 |
@@ -1734,7 +1737,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Deck of Souls — 1
 - objet : Demon Core — 1
 - objet : Divine Core — 1
-- objet : Divine Intervention — 1
 - objet : Exactory Dartshooter — 1
 - objet : Exotic Bundle of Balloons — 1
 - objet : Flah Seeds — 1
@@ -1749,7 +1751,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Plague Station — 1
 - objet : Planetarium — 1
 - objet : Psy Rod — 1
-- objet : Quintessence Cannon — 1
 - objet : Ram's Revenge — 1
 - objet : Salt Water Bolt — 1
 - objet : Sanctified Spark — 1

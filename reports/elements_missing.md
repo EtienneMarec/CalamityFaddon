@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (181)
+## Objets (178)
 
 - A M S
 - AAMG "Disperse"
@@ -119,7 +119,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Devious Aestheticus
 - Dissfusion Disk
 - Divine Hunters Staff
-- Divine Intervention
 - Draftogen
 - Drained Catarachedrae
 - Driftorcher
@@ -162,7 +161,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Holy Napalm Launcher
 - HPST "Malign"
 - Incandescent Nox
-- Justice and Splendor
 - Lacelinous Nocturne
 - Lacescent Pistol
 - Large Father
@@ -197,7 +195,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Quantum Flahium Ejection Device
 - Quantum Flahium Militia Device
 - Quantum Flahium Shock Device
-- Quintessence Cannon
 - Ram's Revenge
 - Rampart of Deicide
 - Reactor Accelerator

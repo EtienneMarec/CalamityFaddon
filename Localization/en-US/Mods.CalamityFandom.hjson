@@ -3315,6 +3315,34 @@ Items: {
 			Stealth strikes cause a spray of your arrows to accelerate towards hit enemies
 			'''
 	}
+	QuintessenceCannon: {
+		DisplayName: Quintessence Cannon
+		Tooltip:
+			'''
+			Fires two sets of miracle beams that converge and diverge, creating explosions when fully converged
+			'''
+	}
+
+	JusticeandSplendor: {
+		DisplayName: Justice and Splendor
+		Tooltip:
+			'''
+			Uses a powerful swinging combo that grants the holy flame buff, this combo can be followed up with a right click to dash forward
+			Hitting enemies with the dash will empower the swords for 10 seconds, allowing you to swing both at once
+			Can be thrown if stealth is full, homing in on enemies and exploding, if thrown while the sword is empowered spectral copies can be wielded instead, allowing you to swing while the sword is thrown out
+			"IS THAT THE BEST YOU'VE GOT?"
+			'''
+	}
+	DivineIntervention: {
+		DisplayName: Divine Intervention
+		Tooltip:
+			'''
+			Striking enemies spawns sparks and homing meteor heads and grants the holy flame buff
+			The holy flame buff increases melee speed and stealth regen
+			Can be thrown if your stealth is full
+			'You're getting rusty, machine!'
+			'''
+	}
 }
 
 Projectiles: {
@@ -4408,6 +4436,24 @@ Projectiles: {
 	ThrownPrismSword: {
 		DisplayName: Prism Destroyer
 	}
+	QuintessenceHoldout: {
+		DisplayName: Quintessence Cannon
+	}
+
+	ThrownJustice: {
+		DisplayName: Justice
+	}
+	FlamingShard: {
+		DisplayName: Flaming Shard
+	}
+
+	DivineMeteorHead: {
+		DisplayName: Meteor Head
+	}
+
+	ThrownDivineIntervention: {
+		DisplayName: Divine Intervention
+	}
 }
 
 Shortstrike.Gauge:
@@ -4740,6 +4786,14 @@ Buffs: {
 	ValfreyBurn: {
 		DisplayName: Valfrey Burn
 		Description: Burning with valfrey flames
+	}
+	HolyFlameBuff: {
+		DisplayName: Holy Flame
+		Description: The Holy Light Guides You...
+	}
+	HellJudgement: {
+		DisplayName: Hell Judgement
+		Description: You feel as if the apostate of hate has turned his gaze...
 	}
 }
 

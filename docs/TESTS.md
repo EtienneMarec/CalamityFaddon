@@ -947,6 +947,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Lot AA : Phototerminator (clic droit : étincelles), Sandstorm (Great Sand Shark ; sable en munition), Morpho
       Doomblade (clic droit : arbitre), Prism Destroyer (épée sbire ; clic droit : lancer).
 
+- [ ] Lot AB : Quintessence Cannon (faisceaux qui se croisent, explosions au resserrement), Justice and Splendor (3 coups
+      puis clic droit : ruée ; furtivité pleine : lancer), Divine Intervention (Meteor Heads ; étincelles, tête de météore,
+      Holy Flame, lancer furtif avec une armure de furtivité).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

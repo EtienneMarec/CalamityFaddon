@@ -2039,7 +2039,28 @@ Armes déjà obtenables (recette du wiki, ou Great Sand Shark pour le Sandstorm)
 - **[choix]** Prism Destroyer : sbire à 260 px de la cible, 3 étoiles (50 %) toutes les 40 images pour 4 mana ; clic
   droit : le sbire disparaît, épée lancée (dégâts de voleur) qui revient ; frappe furtive : 20 Wooden Arrows (non prises
   dans l'inventaire) à 200 % sur l'ennemi touché.
-- Pas fait : Justice and Splendor (combo de coups, ruée, lancer furtif, copies spectrales).
+- Justice and Splendor : fait au lot AB.
+
+### Lot AB du 19/11 (`Content/Items/Weapons/WikiWeapons1119x.cs`)
+
+Quintessence Cannon et Justice and Splendor (recettes du wiki), Divine Intervention (Meteor Head, 5 %, butin de la page ;
+ingrédient de Justice and Splendor). Valeurs des infobox.
+
+- **[choix]** Quintessence Cannon : arme tenue comme le Last Prism, deux faisceaux de 6 rayons de 1200 px qui s'inversent en
+  3 s (l'un se resserre quand l'autre s'écarte) ; dégâts x0,5 (écarté) à x1,5 (serré) ; à chaque resserrement complet :
+  explosions exo à 350 % au bout du rayon, sur l'arme (sans blesser le joueur) et sur chaque ennemi touché ; 20 mana toutes
+  les 10 images ; aucun recul.
+- **[choix]** Justice and Splendor : combo de 3 coups ordinaires (l'animation propre n'est pas faite) ; clic droit moins
+  d'une seconde après le 3e coup : ruée de 15 images (300 %, invulnérable) ; si elle touche : +25 % de dégâts et lame
+  agrandie 10 s ; furtivité pleine : l'épée est lancée (500 %, cherche les ennemis, explosion de 160 px) ; renforcée, on
+  peut frapper pendant le lancer (= les copies spectrales).
+- **[choix]** Holy Flame (buff de ce mod, pas le debuff Holy Flames de Calamity) : +15 % de vitesse de mêlée, furtivité 5 %
+  plus rapide (immobile et en mouvement), 5 s aux coups de vraie mêlée.
+- **[choix]** Divine Intervention : 3 à 5 étincelles soumises à la gravité (10 %) à chaque coup ; une seule tête de météore
+  à la fois (200 %, arrive de 1100 px sur le côté et 500 px au-dessus, cherche les ennemis) ; furtivité pleine : l'épée est
+  lancée et revient comme un boomerang (le wiki ne dit pas comment elle revient). Hell Judgement : debuff de ce mod, 3 PV/s
+  et -3 de défense sur les coups reçus.
+- **[technique]** Les lancers furtifs des armes de mêlée consomment la furtivité (`ConsumeStealthByAttacking`).
 
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
