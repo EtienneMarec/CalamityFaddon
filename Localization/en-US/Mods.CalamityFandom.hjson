@@ -3028,6 +3028,41 @@ Items: {
 			Spawns a fairy that shoots homing petals at enemies
 			'''
 	}
+	DoctrineSpear: {
+		DisplayName: Doctrine Spear
+		Tooltip: Creates 4 homing orbs that debuff your enemies
+	}
+
+	Chemicircle: {
+		DisplayName: Chemicircle
+		Tooltip:
+			'''
+			"K2Cr2O7 + 6H2SO4 + 4NaCl --(heat)-> 2KHSO4 + 4NaHSO4 + 2CrO2Cl2 + 3H2O"
+			Releases carcinogenic gasses at your enemies
+			'''
+	}
+
+	NighticBlaster: {
+		DisplayName: Nightic Blaster
+		Tooltip:
+			'''
+			Makes stars fall from the sky, The stars pierce blocks at night
+			'''
+	}
+
+	CyberlightStriker: {
+		DisplayName: Cyberlight Striker
+		Tooltip:
+			'''
+			Fires a very fast dart that generates bullets that strike your enemies
+			Right click to create a bullseye, if a bullet strikes the bullseye it creates 5 homing darts that fly into the nearest enemies
+			'''
+	}
+
+	PhantasmalRune: {
+		DisplayName: Phantasmal Rune
+		Tooltip: Whenever your minions hit an enemy they have a chance to spawn a ghost that damages your enemies or create a fire that launches orbs that spread the fire
+	}
 }
 
 Projectiles: {
@@ -3904,6 +3939,45 @@ Projectiles: {
 	FairyPetal: {
 		DisplayName: Petal
 	}
+	DoctrineSpearProj: {
+		DisplayName: Doctrine Spear
+	}
+
+	DoctrineOrb: {
+		DisplayName: Doctrine Orb
+	}
+
+	ChemicircleYoyo: {
+		DisplayName: Chemicircle
+	}
+
+	CarcinogenicGas: {
+		DisplayName: Carcinogenic Gas
+	}
+
+	NighticStar: {
+		DisplayName: Nightic Star
+	}
+
+	CyberlightDart: {
+		DisplayName: Cyberlight Dart
+	}
+
+	CyberBullet: {
+		DisplayName: Cyber Bullet
+	}
+
+	Bullseye: {
+		DisplayName: Bullseye
+	}
+
+	HomingCyberDart: {
+		DisplayName: Homing Dart
+	}
+
+	PhantasmalFireOrb: {
+		DisplayName: Phantasmal Fire
+	}
 }
 
 Shortstrike.Gauge:
@@ -4215,6 +4289,10 @@ Buffs: {
 	InfernumKrisBuff: {
 		DisplayName: Fallen Human
 		Description: The fallen human will fight for you
+	}
+	PhantasmalSpreadFire: {
+		DisplayName: Phantasmal Fire
+		Description: Burning with spreading phantasmal fire
 	}
 }
 

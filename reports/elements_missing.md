@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (219)
+## Objets (214)
 
 - A M S
 - AAMG "Disperse"
@@ -104,7 +104,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Chain Spear
 - Chain-Saw
 - Charity
-- Chemicircle
 - Chilled Soda Blade
 - Christmas Carol
 - Cirnogenic Staff
@@ -116,7 +115,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Consequences of Power
 - Cored Line
 - Corrupt Hypno Flute
-- Cyberlight Striker
 - Dart Sun
 - Deadflower
 - Death-Needle Stinger
@@ -131,7 +129,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Dissfusion Disk
 - Divine Hunters Staff
 - Divine Intervention
-- Doctrine Spear
 - Draftogen
 - Drained Catarachedrae
 - Driftorcher
@@ -195,7 +192,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Neuraze
 - Neutron Star
 - Nighterrial Dart
-- Nightic Blaster
 - Noctic Weaver
 - Nocturnal Odyssey
 - Noxcalibur
@@ -208,7 +204,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Overloaded Combatant Blaster
 - P.G.D.R.
 - Pandora's Chest
-- Phantasmal Rune
 - Phototerminator
 - Pine's Penetrator
 - Plague Caller MK III

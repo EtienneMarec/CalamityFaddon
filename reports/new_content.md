@@ -73,7 +73,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Chain-Saw — addon: Polyphemalus
 - [x] Charged Dart Blaster
 - [ ] Charity — addon: Calamity: Tales of the Aquatic
-- [ ] Chemicircle — addon: Calamity: Tales of the Aquatic
+- [x] Chemicircle — addon: Calamity: Tales of the Aquatic
 - [ ] Chilled Soda Blade — addon: Calamity: Community Remix
 - [ ] Christmas Carol — addon: Apotheosis and Friends
 - [x] Chrononimbus — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
@@ -104,7 +104,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Crystallic Coin Gun — addon: Calamity: Tales of the Aquatic
 - [x] Cursed Capper
 - [x] Cursed Spear — addon: Calamity: Community Remix
-- [ ] Cyberlight Striker — addon: Calamity: Tales of the Aquatic
+- [x] Cyberlight Striker — addon: Calamity: Tales of the Aquatic
 - [x] Dark Energy Staff — addon: Calamity: Community Remix
 - [x] Dark Harvest Staff — addon: Calamity: Community Remix
 - [ ] Dart Sun — addon: Calamity: Tales of the Aquatic
@@ -128,7 +128,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Disseminator
 - [ ] Dissfusion Disk — addon: Calamity: Tales of the Aquatic
 - [x] Divine Retribution
-- [ ] Doctrine Spear — addon: Calamity: Tales of the Aquatic
+- [x] Doctrine Spear — addon: Calamity: Tales of the Aquatic
 - [x] Dodu's Handcannon
 - [ ] Draftogen — addon: Calamity: Community Remix
 - [x] Dragon Flame Barrage — addon: Calamity: Community Remix
@@ -265,7 +265,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Neuraze — addon: Hypnos in Calamity
 - [ ] Neutron Star
 - [x] Night's Stabber
-- [ ] Nightic Blaster — addon: Calamity: Tales of the Aquatic
+- [x] Nightic Blaster — addon: Calamity: Tales of the Aquatic
 - [ ] Noctic Weaver — addon: Calamity: Tales of the Aquatic
 - [ ] Nocturnal Odyssey — addon: Calamity: Tales of the Aquatic
 - [ ] Noxcalibur
@@ -695,7 +695,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Nucleate Gello
 - [ ] Oil Bottle
 - [x] Palladium Light Circuit — addon: Calamity: Tales of the Aquatic
-- [ ] Phantasmal Rune — addon: Calamity: Tales of the Aquatic
+- [x] Phantasmal Rune — addon: Calamity: Tales of the Aquatic
 - [x] Plague Balloon
 - [x] Plague Hive
 - [ ] Polypebral Shield

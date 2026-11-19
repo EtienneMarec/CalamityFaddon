@@ -1929,6 +1929,21 @@ Objets fabricables aux premières étapes de l'Aquatic Hypercomputer (recettes d
 - **[choix]** Shatterspectre Tracers : vitesse de course max 6,75 (comme les Lightning Boots) ; Crush Depth 2 s sur tous les
   coups ; fée (25 dégâts, pétale toutes les 40 images). Debuffs d'eau et de glace renforcés : pas fait.
 
+### Lot U du 19/11 (`Content/Items/Weapons/WikiWeapons1119q.cs`)
+
+Objets fabricables à l'étape « Capsules » de l'Aquatic Hypercomputer. Valeurs des infobox.
+
+- **[choix]** Doctrine Spear : 4 orbes chercheurs (50 %, 3 s) à chaque estoc ; le 4e debuff est coupé sur la page : Ichor.
+- **[choix]** Chemicircle : yoyo (texture du Yelets teintée), un nuage de gaz (120 %, 1,5 s) toutes les 20 images ;
+  « Cancer » n'existe pas : Poisoned 5 s ; les règles de chance et de critique de l'infobulle ne sont pas faites (infobulle
+  raccourcie aux deux premières lignes).
+- **[choix]** Nightic Blaster : 2 étoiles (Starfury vanilla) à 200 % sur le curseur par tir ; la nuit, à travers les blocs.
+- **[choix]** Cyberlight Striker : une balle à 30 % toutes les 6 images dans un sens au hasard ; clic droit : cible de 5 s au
+  curseur (une seule) ; balle sur la cible → 5 fléchettes chercheuses à 80 %.
+- **[choix]** Phantasmal Rune : 5 % par coup de sbire, moitié fantôme (100 dégâts, comme la Ghast Relic), moitié feu
+  « Phantasmal Fire » (debuff de ce mod, 15 PV/s, 10 s, se propage par un orbe toutes les 2 s à 25 blocs).
+- Pas faits : Duet Hit (deux fouets à la fois), The Ones Striker (pièces de Calamity et de ce mod en munitions).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

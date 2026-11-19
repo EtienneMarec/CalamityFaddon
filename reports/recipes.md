@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1559 objets dont les recettes ont changé : 1046 recettes modifiées, 612 créées
+- 1564 objets dont les recettes ont changé : 1046 recettes modifiées, 617 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -330,6 +330,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Charged Dart Blaster | (nouvelle) | 1 Dart Rifle / Dart Pistol, 25 Martian Conduit Plating, 3 Core of Babil, 5 Vortex Fragment, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Charged Wulfrum Battery | (nouvelle) | 25 Wulfrum Bar, 3 Energy Core, 1 Energy Orb @ Anvils → 1 |
 | Charred Idol | 5 Unholy Core, 7 Essence of Chaos, 5 Soul of Night @ Hellforge → 1 | 5 Soul of Night, 7 Essence of Chaos, 2 Unholy Core @ AdamantiteForge → 1 |
+| Chemicircle | (nouvelle) | 1 Kraken, 1 Toxic Flask, 15 Plague Cell Canister, 10 Infected Armor Plating, 20 Bottle @ AquaticHypercomputerCapsules → 1 |
 | Chez | (nouvelle) | 4 Shattered Start Block, 3 Nachos, 10 Mouse @ CookingPots → 1 |
 | Chlorophyte Dye | (nouvelle) | 1 Bottled Water, 1 Chlorophyte Ore @ DyeVat → 1 |
 | Chrononimbus | (nouvelle) | 7 Fae Dust, 5 Galactica Singularity, 10 Unholy Essence, 10 Cosmilite Slag, 5 Diamond @ LunarCraftingStation → 1 |
@@ -405,6 +406,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Crystalplate | (nouvelle) | 1 Essence of Crystal, 3 Obsidian @ Hellforge → 3 |
 | Cursed Capper | 1 Phoenix Blaster, 5 Essence of Chaos, 5 Essence of Eleum @ Anvils → 1 | 1 Phoenix Blaster, 10 Cursed Flame @ Anvils → 1 |
 | Curseplate | (nouvelle) | 1 Cursed Flame, 3 Obsidian @ Hellforge → 3 |
+| Cyberlight Striker | (nouvelle) | 1 Daawnlight Spirit Origin, 15 Elemental Bar @ AquaticHypercomputerCapsules → 1 |
 | Daawnlight Spirit Origin | 1 Deadshot Brooch, 15 Mysterious Circuitry, 15 Dubious Plating, 10 Luminite Bar, 5 Vortex Fragment @ MythrilAnvil → 1 | 1 Deadshot Brooch, 10 Luminite Bar, 1 Reassembled Electronics, 4 Essence of Zot, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Daedalus Breastplate | 24 Cryonic Bar @ MythrilAnvil → 1 | 15 Cryonic Bar, 6 Crystal Shard, 3 Essence of Eleum @ MythrilAnvil → 1 |
 | Daedalus Facemask | 12 Cryonic Bar @ MythrilAnvil → 1 | 8 Cryonic Bar, 3 Crystal Shard, 1 Essence of Eleum @ MythrilAnvil → 1 |
@@ -447,6 +449,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Disorderful Soul Artifact | (nouvelle) | 25 Chaosplate, 5 Bloodstone Bar, 25 Exodium Cluster @ DemonAltar → 1 |
 | Disseminator | (nouvelle) | 1 Conference Call, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Divine Retribution | (nouvelle) | 8 Divine Bar, 1 Undine's Retribution, 6 Tarragon Bar, 10 Unholy Essence @ LunarCraftingStation → 1 |
+| Doctrine Spear | (nouvelle) | 20 Exodium Cluster, 5 Core of Calamity, 10 Elemental Bar @ AquaticHypercomputerCapsules → 1 |
 | Dodu's Handcannon | (nouvelle) | 1 Pumplerfaust, 5 Ruinous Soul, 15 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Draconic Destruction | 5 Shadowspec Bar, 10 Solar Fragment, 3 Essence of Sunlight, 3 Essence of Eleum @ DraedonsForge → 1 | 5 Shadowspec Bar, 3 Core of Sunlight, 3 Core of Eleum, 10 Solar Fragment @ DraedonsForge → 1 |
 | Draconic Elixir | (nouvelle) | 1 Bottled Water, 1 Yharon Soul Fragment, 1 Moonglow, 1 Deathweed, 1 Blinkroot, 2 Flah @ AlchemyTable → 1 |
@@ -940,6 +943,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Night's Gaze | 1 Profaned Partisan, 8 Lumenyl, 4 Ruinous Soul, 20 Exodium Cluster @ MythrilAnvil → 1 | 7 Lumenyl, 4 Ruinous Soul, 12 Exodium Cluster, 1 Daybreak @ LunarCraftingStation → 1 |
 | Night's Ray | 1 Vilethorn, 1 Magic Missile, 1 Wand of Frosting, 1 Amber Staff, 10 Purified Gel @ DemonAltar → 1 | 1 Wand of Sparking, 1 Vilethorn, 1 Amber Staff, 1 Magic Missile, 15 Rotten Matter, 10 Purified Gel @ DemonAltar → 1 |
 | Night's Stabber | (nouvelle) | 1 Tomatus, 1 Leeching Dagger / Bloody Rupture, 1 Ancient Shiv, 1 Spore Knife, 15 Rotten Matter, 10 Purified Gel @ DemonAltar → 1 |
+| Nightic Blaster | (nouvelle) | 15 Exodium Cluster, 5 Lumenyl, 5 Ruinous Soul @ AquaticHypercomputerCapsules → 1 |
 | Nightmare Dye | 3 Bottled Water, 5 Nightmare Fuel @ DyeVat → 3 | 2 Bottled Water, 5 Nightmare Fuel @ DyeVat → 2 |
 | Noctic Reactive Core | (nouvelle) | 2 Noctic Reactive Essence, 1 Stiriatic Bar, 5 Nebula Fragment, 5 Core of Chaos @ AquaticHypercomputerFinished → 1 |
 | Nuclear Fury | 1 Razorblade Typhoon, 1 Poseidon, 5 Luminite Bar @ Bookcases → 1 | 1 Razorblade Typhoon, 1 Poseidon, 1 The Generator, 5 Luminite Bar, 10 Soul of Sight, 5 Unicorn Horn, 15 Sea Prism, 5 Crystal of the Wicked @ Bookcases → 1 |
@@ -1005,6 +1009,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Perfect Dark | (nouvelle) | 5 Rotten Chunk, 5 Demonite Bar, 15 Rotten Matter @ DemonAltar → 1 |
 | Phantasmal Fury | 1 Spectre Staff, 2 Ruinous Soul, 1 Dark Plasma @ MythrilAnvil → 1 | 1 Spectre Staff, 2 Haunted Bar, 1 Dark Plasma @ LunarCraftingStation → 1 |
 | Phantasmal Ruin | 15 Spectre Bar, 35 Bone @ MythrilAnvil → 1 | 1 Luminous Striker, 4 Haunted Bar, 500 Phantom Lance @ LunarCraftingStation → 1 |
+| Phantasmal Rune | (nouvelle) | 1 Ghast Relic, 10 Ectoplasm, 10 Stardust Fragment @ AquaticHypercomputerCapsules → 1 |
 | Phantom Lance | (nouvelle) | 2 Spectre Bar, 1 Abyss Bar, 2 Ashes of Calamity @ MythrilAnvil → 100 |
 | Pharaoh's Mask | (nouvelle) | 3 Ancient Cloth, 5 Gold Bar @ Loom → 1 |
 | Pharaoh's Robe | (nouvelle) | 4 Ancient Cloth, 12 Gold Coin @ Loom → 1 |
