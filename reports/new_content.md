@@ -260,7 +260,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Molten Piercer
 - [x] Monkey Darts
 - [x] Moonstone Knives
-- [ ] Morpho Doomblade
+- [x] Morpho Doomblade
 - [ ] Neural Whipper-Snapper — addon: Calamity: Community Remix
 - [ ] Neuraze — addon: Hypnos in Calamity
 - [ ] Neutron Star
@@ -289,7 +289,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Phantom Lance
 - [x] Phlegm
 - [x] Phoenix Blade
-- [ ] Phototerminator
+- [x] Phototerminator
 - [ ] Pine's Penetrator — addon: Apotheosis and Friends
 - [x] Pizza Wheel
 - [ ] Plague Caller MK III — addon: Calamity: Community Remix
@@ -302,7 +302,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Poison I-Bee
 - [x] Poison Pack
 - [x] Porpoise Pistol
-- [ ] Prism Destroyer — addon: Calamity: Community Remix
+- [x] Prism Destroyer — addon: Calamity: Community Remix
 - [x] Profaned Nucleus — addon: Calamity: Community Remix
 - [ ] Profaned Whiplash — addon: Tranquility Mod
 - [x] Prominence — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess

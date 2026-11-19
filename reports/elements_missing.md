@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (185)
+## Objets (181)
 
 - A M S
 - AAMG "Disperse"
@@ -171,7 +171,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Meridian
 - Midas' Handshake
 - Miracle Smacker
-- Morpho Doomblade
 - Neural Whipper-Snapper
 - Neuraze
 - Neutron Star
@@ -186,14 +185,12 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Overloaded Combatant Blaster
 - P.G.D.R.
 - Pandora's Chest
-- Phototerminator
 - Pine's Penetrator
 - Plague Caller MK III
 - Plaguecom Tablet
 - Plagued Minecart
 - Planetarium
 - Plumage Pow
-- Prism Destroyer
 - Profaned Crystal Dart
 - Profaned Fire Dart
 - Quadlens Staff
@@ -211,7 +208,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Rusty Flamethrower
 - Salt Booklet
 - Salt Water Bolt
-- Sandstorm (weapon)
 - Sanguined Catarachedrae
 - Severed Eye.exe
 - Shading Manual

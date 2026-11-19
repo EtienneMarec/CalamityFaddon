@@ -7,7 +7,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - 568 drops du wiki déjà présents dans le jeu (inchangés)
 - 138 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 31 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 93 PNJ du wiki absents du jeu, 67 objets introuvables
+- 93 PNJ du wiki absents du jeu, 66 objets introuvables
 
 ## Ajouts
 
@@ -134,7 +134,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Goblin Thief** : Warglaive 25-68 à 2.5%
 - **Goblin Warrior** : Warblade 1-1 à 4.0%
 - **Grand Thunder Cnidrion** : Talon Burst 1-1 à 25.0% (mode normal) ; Talon Burst 1-1 à 25.0% (Expert, direct) ; Sea Stone Bar 15-20 à 100.0% (mode normal) ; Sea Stone Bar 15-20 à 100.0% (Expert, direct)
-- **Great Sand Shark** : Sand Shark Tooth Necklace 1-1 à 25.0% (mode normal) ; Sand Shark Tooth Necklace 1-1 à 33.3% (Expert, direct) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Shifting Sands, Tumbleweed (mode normal) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Shifting Sands, Tumbleweed (Expert, direct)
+- **Great Sand Shark** : Sand Shark Tooth Necklace 1-1 à 25.0% (mode normal) ; Sand Shark Tooth Necklace 1-1 à 33.3% (Expert, direct) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Sandstorm, Shifting Sands, Tumbleweed (mode normal) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Sandstorm, Shifting Sands, Tumbleweed (Expert, direct)
 - **Green Demon** : Zumbo Sauce 1-1 à 10.0%
 - **Gulper Eel** : Depth Cells 6-8 à 50.0% [After defeating Calamitas] ; Lumenyl 2-3 à 50.0% [After defeating Calamitas]
 - **Hadarian** : Titan Finger 1-1 à 2.0% ; Hadarian Membrane 2-3 à 50.0% [After defeating Astrum Aureus]
@@ -348,7 +348,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Pyrogen Mask — 1
 - Pyrogen Trophy — 1
 - Reloadable Rapid-Fire Shooter — 1
-- Sandstorm (weapon) — 1
 - Schematic — 1
 - Squidbeak Shotgun — 1
 - Storm-Cnidriling Staff — 1

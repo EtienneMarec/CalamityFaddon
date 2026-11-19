@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1596 objets dont les recettes ont changé : 1047 recettes modifiées, 648 créées
+- 1599 objets dont les recettes ont changé : 1047 recettes modifiées, 652 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -928,6 +928,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Moonshine | 10 Bottle, 1 Life Fruit, 5 Ancient Bone Dust @ Kegs → 10 | 5 Everclear, 1 Ale, 1 Beetle Husk @ Kegs → 5 |
 | Moonstone Crown | 1 Feather Crown, 5 Luminite Bar, 5 Nebula Fragment, 2 Core of Calamity @ LunarCraftingStation → 1 | 1 Feather Crown, 5 Luminite Bar, 5 Galactica Singularity @ LunarCraftingStation → 1 |
 | Moonstone Knives | (nouvelle) | 200 Throwing Knife, 2 Mana Crystal, 3 Lesser Mana Potion, 8 Lens @ Anvils → 1 |
+| Morpho Doomblade | (nouvelle) | 1 Wooden Butterfly Staff, 1 Resurrection Butterfly, 10 Nightmare Fuel, 10 Hell Butterfly, 5 Auric Bar @ CosmicAnvil → 1 |
 | Mortar Round | 100 Empty Bullet, 4 Explosive Powder, 1 Abyss Bar @ WorkBenches → 100 | 100 Rocket IV, 1 Tarragon Bar @ LunarCraftingStation → 100 |
 | Moscow Mule | (nouvelle) | 5 Everclear, 5 Blood Orb, 1 Beetle Husk @ AlchemyTable → 5 |
 | Moscow Mule | 10 Bottle, 1 Titan Heart @ Kegs → 10 | 5 Everclear, 1 Vodka, 1 Beetle Husk @ Kegs → 5 |
@@ -1037,6 +1038,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Phoenix Blade | (nouvelle) | 1 Breaker Blade, 10 Hellstone Bar, 1 Essence of Sunlight, 3 Soul of Might, 3 Soul of Sight, 3 Soul of Fright @ MythrilAnvil → 1 |
 | Photosynthesis Potion | 1 Bottled Water, 3 Daybloom, 1 Essence of Sunlight @ AlchemyTable → 1 | 1 Bottled Water, 1 Beetle Juice, 1 Vine, 1 Essence of Sunlight @ AlchemyTable → 1 |
 | Photosynthesis Potion | 1 Bottled Water, 5 Blood Orb, 1 Essence of Sunlight @ AlchemyTable → 1 | 1 Bottled Water, 4 Unholy Core, 1 Essence of Sunlight @ AlchemyTable → 1 |
+| Phototerminator | (nouvelle) | 1 Photoviscerator, 1 Hyperhavoc, 1 Coldant Firestarter, 20 Stiriatic Bar @ AquaticHypercomputerFinished → 1 |
 | Photoviscerator | 1 Elemental Eruption, 1 Halley's Inferno, 1 God's Bellows, 1 Miracle Matter @ DraedonsForge → 1 | 1 Elemental Eruption, 1 Cleansing Blaze, 1 Halley's Inferno, 1 God's Bellows, 1 Miracle Matter @ DraedonsForge → 1 |
 | Piggy Cage | 1 Terrarium, 1 Piggy @ main → 1 | 1 Terrarium, 1 Piggy Bank @ main → 1 |
 | Pink Cosmic Flame Dye | 3 Bottled Water, 1 Cosmilite Bar @ DyeVat → 3 | 2 Bottled Water, 1 Cosmilite Bar @ DyeVat → 2 |
@@ -1096,6 +1098,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Prideful Hunter's Planar Ripper | 1 P90, 1 Uzi, 5 Luminite Bar, 10 Vortex Fragment @ MythrilAnvil → 1 | 5 Luminite Bar, 10 Vortex Fragment, 6 Galactica Singularity, 3 Core of Calamity, 25 Stardust, 1 P90, 1 Uzi, 1 Pearl God, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Primordial Ancient | 1 Primordial Earth, 8 Cosmilite Bar, 20 Endothermic Energy @ Bookcases → 1 | 1 Primordial Earth, 5 Forbidden Fragment, 8 Cosmilite Bar, 20 Endothermic Energy, 5 Crystal of the Wicked @ Bookcases → 1 |
 | Primordial Earth | 1 Death Valley Duster, 5 Amber, 5 Ectoplasm @ Bookcases → 1 | 1 Death Valley Duster, 3 Forbidden Fragment, 5 Meteorite Bar, 5 Ectoplasm @ Bookcases → 1 |
+| Prism Destroyer | (nouvelle) | 1 Prismatic Breaker, 1 Terraprisma, 1 The Last Mourning, 200 Rainbow Brick, 8 Yharon Soul Fragment @ CosmicAnvil → 1 |
+| Prism Destroyer | (nouvelle) | 1 Prismatic Breaker, 1 Terraprisma, 1 The Last Mourning, 200 Rainbow Brick, 8 Quark-Gluon Sludge @ CosmicAnvil → 1 |
 | Prismatic Breaker | 1 Cosmic Rainbow, 1 Solstice Claymore, 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 | 1 Cosmic Rainbow, 1 Solstice Claymore, 3 Life Alloy, 8 Cosmilite Bar, 20 Endothermic Energy @ CosmicAnvil → 1 |
 | Prismatic Greaves | 3 Armored Shell, 5 Exodium Cluster, 6 Divine Bar, 300 Nanites @ MythrilAnvil → 1 | 3 Armored Shell, 5 Exodium Cluster, 8 Ornate Cloth, 6 Divine Bar, 300 Nanites, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Prismatic Helmet | 3 Armored Shell, 5 Exodium Cluster, 4 Divine Bar, 300 Nanites @ MythrilAnvil → 1 | 3 Armored Shell, 5 Exodium Cluster, 4 Divine Bar, 8 Ornate Cloth, 300 Nanites, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |

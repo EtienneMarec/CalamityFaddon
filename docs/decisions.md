@@ -2026,6 +2026,21 @@ Armes fabricables à l'Ancient Manipulator et à la Cosmic Anvil (recettes du wi
   toutes les étoiles ; pics toutes les 40 / 10 images (50 %), rayon endo toutes les 3 s en sentinelle.
 - Pas faits : Tyrant Shield (cadavre de Yharim qui renvoie ennemis et projectiles), Gloomy Trident (page sans description).
 
+### Lot AA du 19/11 (`Content/Items/Weapons/WikiWeapons1119w.cs`)
+
+Armes déjà obtenables (recette du wiki, ou Great Sand Shark pour le Sandstorm). Valeurs des infobox.
+
+- **[choix]** Phototerminator : rayon comme le Hyperhavoc (5 blocs) ; « Nightclear » (sans page) = Holy Flames 5 s ;
+  clic droit : étincelles chercheuses à ±45°, 10 %.
+- **[choix]** Sandstorm : sable en munition (50 % gardé), explosion de 50 px à 50 %, Slow 2 s ; le tir ne pose pas de sable.
+- **[choix]** Morpho Doomblade : épée d'invocation (dégâts d'invocation au corps à corps) ; croissants (3 ennemis) ; clic
+  droit (100 mana) : un arbitre de 20 s qui fonce et tire un croissant à 50 % toutes les 30 images. Valfrey Burn : debuff de
+  ce mod, 200 PV/s et +5 % de dégâts reçus.
+- **[choix]** Prism Destroyer : sbire à 260 px de la cible, 3 étoiles (50 %) toutes les 40 images pour 4 mana ; clic
+  droit : le sbire disparaît, épée lancée (dégâts de voleur) qui revient ; frappe furtive : 20 Wooden Arrows (non prises
+  dans l'inventaire) à 200 % sur l'ennemi touché.
+- Pas fait : Justice and Splendor (combo de coups, ruée, lancer furtif, copies spectrales).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

@@ -944,6 +944,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 - [ ] Lot Z : Twin Cranes, Whipped Bouquet Blade (pétales), Cirnogenic Staff (clic droit : sbire ↔ sentinelle).
 
+- [ ] Lot AA : Phototerminator (clic droit : étincelles), Sandstorm (Great Sand Shark ; sable en munition), Morpho
+      Doomblade (clic droit : arbitre), Prism Destroyer (épée sbire ; clic droit : lancer).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

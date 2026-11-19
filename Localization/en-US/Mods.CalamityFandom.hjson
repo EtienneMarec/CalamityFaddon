@@ -3276,6 +3276,45 @@ Items: {
 			⑨
 			'''
 	}
+	Phototerminator: {
+		DisplayName: Phototerminator
+		Tooltip:
+			'''
+			95% chance to not consume gel
+			Fires a beam of flames that can piercle through 5 solid tiles
+			Right click to chaotically fire sparks that home at your enemies
+			'''
+	}
+
+	Sandstorm: {
+		DisplayName: Sandstorm
+		Tooltip:
+			'''
+			Fires sand bullets that explode and slow enemies on hit
+			50% chance to not consume sand
+			'''
+	}
+
+	MorphoDoomblade: {
+		DisplayName: Morpho Doomblade
+		Tooltip:
+			'''
+			Swings a doomblade that shoots crescent slashes
+			Using RMB summons an Arbiter of Judgement that does not consume minion slots
+			Attacks from the blade and arbiter inflict Whispering Death and Valfrey Burn
+			'Now all will witness its true power!'
+			'''
+	}
+
+	PrismDestroyer: {
+		DisplayName: Prism Destroyer
+		Tooltip:
+			'''
+			Summons a destructive prism sword that uses mana to fire stars at enemies
+			Right click to pull in the sword and throw it
+			Stealth strikes cause a spray of your arrows to accelerate towards hit enemies
+			'''
+	}
 }
 
 Projectiles: {
@@ -4338,6 +4377,37 @@ Projectiles: {
 	EndoBeam: {
 		DisplayName: Endo Beam
 	}
+	PhotoBeam: {
+		DisplayName: Photon Beam
+	}
+
+	PhotoSpark: {
+		DisplayName: Spark
+	}
+
+	SandBlast: {
+		DisplayName: Sand Blast
+	}
+
+	MorphoCrescent: {
+		DisplayName: Crescent Slash
+	}
+
+	ArbiterofJudgement: {
+		DisplayName: Arbiter of Judgement
+	}
+
+	PrismSword: {
+		DisplayName: Prism Sword
+	}
+
+	PrismStar: {
+		DisplayName: Prism Star
+	}
+
+	ThrownPrismSword: {
+		DisplayName: Prism Destroyer
+	}
 }
 
 Shortstrike.Gauge:
@@ -4661,6 +4731,15 @@ Buffs: {
 	IceStarBuff: {
 		DisplayName: Ice Star
 		Description: The encharted ice star will fight for you
+	}
+	PrismSwordBuff: {
+		DisplayName: Prism Sword
+		Description: The prism sword fights for you
+	}
+
+	ValfreyBurn: {
+		DisplayName: Valfrey Burn
+		Description: Burning with valfrey flames
 	}
 }
 
