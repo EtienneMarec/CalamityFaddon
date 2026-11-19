@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 557 drops ajoutés sur 232 PNJ
+- 560 drops ajoutés sur 232 PNJ
 - 126 ajouts dans 27 sacs
 - 568 drops du wiki déjà présents dans le jeu (inchangés)
 - 138 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 31 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 93 PNJ du wiki absents du jeu, 70 objets introuvables
+- 93 PNJ du wiki absents du jeu, 67 objets introuvables
 
 ## Ajouts
 
@@ -90,7 +90,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Despair Stone** : Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Slagspitter Pauldron 1-1 à 5.0% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Devil Fish** : Depth Cells 1-2 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 50.0% [After defeating Calamitas] ; Abyss Ore 3-9 à 100.0% [After defeating Golem]
 - **Distortion Essence Sphere** : Arean Conduit Plating 25-50 à 100.0% ; Martian Conduit Plating 40-100 à 100.0% ; Cosmilite Slag 3-5 à 100.0% ; Phantoplasm 10-13 à 100.0% ; Cosmilite Bar 3-5 à 100.0%
-- **Diviner Valkyrie** : Sky Fracture 1-1 à 20.0%
+- **Diviner Valkyrie** : Spear of Liberty 1-1 à 100.0% ; Sky Fracture 1-1 à 20.0%
 - **Dolphin** : Porpoise Pistol 1-1 à 4.0% [Hardmode]
 - **Dreadnautilus** : Grandiose Gland 5-5 à 100.0%
 - **Drippler** : Bouncing Eyeball 1-1 à 2.5%
@@ -114,7 +114,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Famine Slime** : Sulphuric Scale 1-2 à 100.0% ; Apocalyptic Ore 10-26 à 100.0% ; Urchin Stinger 15-25 à 100.0%
 - **Fat Blighted Eye** : Lens 1-1 à 50.0% ; Pungent Bomber 1-1 à 25.0% ; Acid Bow 1-1 à 25.0% ; Caustic Claw 1-1 à 25.0% ; Corrosive Eye Staff 1-1 à 25.0% ; Razor Teeth 1-1 à 25.0%
 - **Flak Crab** : Cadaverous Carrion 1-1 à 5.0%
-- **Floating Biomass** : Lens 1-1 à 50.0% ; Essence of Babil 1-1 à 50.0%
+- **Floating Biomass** : Lens 1-1 à 50.0% ; Essence of Babil 1-1 à 50.0% ; Babil Destruction Core 1-1 à 5.0%
 - **Flounder** : Flounder Mortar 1-1 à 6.7%
 - **Frigidemon** : Frozen Hellstone 5-7 à 100.0% ; Hailberd 1-1 à 3.3%
 - **Frost Hog** : Essence of Eleum 1-1 à 10.0% ; Delicious Meat 1-1 à 100.0%
@@ -228,7 +228,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Wulfrum Mine** : Energy Core 5-5 à 100.0% ; Wulfrum Bar 10-15 à 100.0% ; Wulfrum Battery 1-1 à 7.0%
 - **Wulfrum Pylon** : Wulfrum Bar 2-3 à 100.0% ; Energy Core 1-1 à 100.0% ; Wulfrum Battery 1-1 à 7.0%
 - **Wulfrum Slime** : Wulfrum Bar 1-2 à 100.0% ; Gel 1-3 à 100.0%
-- **Yggdrasil Ent** : Profaned Shard 1-1 à 100.0% ; Unholy Essence 6-8 à 100.0% ; Pearlwood 56-230 à 100.0%
+- **Yggdrasil Ent** : Profaned Shard 1-1 à 100.0% ; Unholy Essence 6-8 à 100.0% ; Pearlwood 56-230 à 100.0% ; Yggdrasil Core 1-1 à 20.0%
 - **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
 - **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
 - **Zombie** : Disgusting Meat 1-2 à 25.0% ; The Insacred Texts 1-1 à 5.0%
@@ -303,7 +303,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Animatronic Head — 1
 - Anomaly 109 — 1
 - Ash's Cloak — 1
-- Babil Destruction Core — 1
 - Blank Stare — 1
 - Bloodflare Rod — 1
 - Blue Demon Head — 1
@@ -351,7 +350,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Reloadable Rapid-Fire Shooter — 1
 - Sandstorm (weapon) — 1
 - Schematic — 1
-- Spear of Liberty — 1
 - Squidbeak Shotgun — 1
 - Storm-Cnidriling Staff — 1
 - Tapehook — 1
@@ -366,4 +364,3 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Wing Ding Gaster — 1
 - Wulfrum Excavator Trophy — 1
 - Wulfrum Grappling Gun — 1
-- Yggdrasil Core — 1

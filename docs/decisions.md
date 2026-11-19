@@ -1840,6 +1840,15 @@ Cirrhotipede : fouet ; Hi-Scan Camera : modes non décrits) attendent : système
 - **[choix]** Dragon Flame Barrage : 8 flammes depuis le haut de l'écran au curseur, explosion de 90 px 30 images après
   l'arrivée.
 
+### Lot O du 19/11 (`Content/Items/Weapons/WikiWeapons1119l.cs`)
+
+- **[choix]** Yggdrasil Core (Yggdrasil Ent) : 10 défense, aura de 12 blocs, Holy Flames 2 s toutes les 30 images.
+- **[choix]** Babil Destruction Core (Floating Biomass) : 5 s après chaque coup reçu (« every time you take damage »).
+- **[choix]** Spear of Liberty (recette du wiki, Diviner Valkyrie, Corruption) : lance du milieu = Cursed Spear ; les deux
+  autres à vitesse x1,3, chercheuses à 700 px ; frappe furtive : toutes chercheuses, à travers les blocs, 4 ennemis.
+- Pas faits : Devious Aestheticus (Moon Lord ; page trop vague : tirs, « split », mêlée non décrits), The Last Lightice
+  (Snow Balla absent), Wakasagihime (Harpy ; système de « Karma » qui appelle des boss).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

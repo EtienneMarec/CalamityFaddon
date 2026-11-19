@@ -1941,6 +1941,15 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			SpearofLiberty: {
+				DisplayName: Spear of Liberty
+				Tooltip:
+					'''
+					Throws three spears with the outer two having homing capabilities
+					Stealth strikes cause all three spears to home in, ignore tiles, and pierce more
+					'''
+			}
+
 			InfectedDaggerMissesNoSkeptics: {
 				DisplayName: Infected Dagger Misses No Skeptics
 				Tooltip:
@@ -2765,6 +2774,22 @@ Items: {
 		DisplayName: Ghast Relic
 		Tooltip: Whenever your minions hit an enemy they have a chance to spawn a ghost that damages your enemies
 	}
+	YggdrasilCore: {
+		DisplayName: Yggdrasil Core
+		Tooltip:
+			'''
+			10 defense
+			Creates a Holy flames aura around the player
+			'''
+	}
+
+	BabilDestructionCore: {
+		DisplayName: Babil Destruction Core
+		Tooltip:
+			'''
+			100% increased mining speed, 20% increased movement speed and 20% decreased damage reduction every time you take damage
+			'''
+	}
 }
 
 Projectiles: {
@@ -3506,6 +3531,9 @@ Projectiles: {
 
 	RelicGhast: {
 		DisplayName: Ghast
+	}
+	LibertySpear: {
+		DisplayName: Spear of Liberty
 	}
 }
 

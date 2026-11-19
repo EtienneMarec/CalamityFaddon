@@ -356,7 +356,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Smoldering Seahorses
 - [ ] Snowgrave — addon: Apotheosis and Friends
 - [x] Soul Edge
-- [ ] Spear of Liberty — addon: Calamity: Community Remix, Calamity: Community Remix
+- [x] Spear of Liberty — addon: Calamity: Community Remix, Calamity: Community Remix
 - [x] Spectre Rifle
 - [x] Squirrel Baron Staff
 - [x] Squirrel Count Staff
@@ -637,7 +637,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Assortegelatin
 - [ ] Astral Bulwark
 - [ ] BFB
-- [ ] Babil Destruction Core — addon: Calamity: Tales of the Aquatic
+- [x] Babil Destruction Core — addon: Calamity: Tales of the Aquatic
 - [x] Bellwings — addon: Calamity: Community Remix
 - [ ] Blazing Powder — addon: Calamity: Community Remix
 - [ ] Blood Element — addon: Calamity: Tales of the Aquatic
@@ -748,7 +748,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Wings — pas de sprite
 - [x] Worm Meal
 - [ ] Wrath of the Machines
-- [ ] Yggdrasil Core — addon: Calamity: Tales of the Aquatic
+- [x] Yggdrasil Core — addon: Calamity: Tales of the Aquatic
 - [ ] Yharim's Curse — addon: Calamity: Community Remix
 - [ ] Zenith Arcanum — addon: Calamity: Community Remix
 

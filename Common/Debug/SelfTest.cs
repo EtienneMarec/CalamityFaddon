@@ -400,7 +400,7 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Ranged.Butcher>(),
                 ModContent.ItemType<Content.Items.Weapons.Ranged.Arngren>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Megaskeet>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Confection>(), ModContent.ItemType<Content.Items.Weapons.Magic.DualCane>(), ModContent.ItemType<Content.Items.Tools.HeavenPiercer>(),
                 ModContent.ItemType<Content.Items.Weapons.Melee.OnyxGunblade>(), ModContent.ItemType<Content.Items.Weapons.Magic.OnyxStaff>(), ModContent.ItemType<Content.Items.Weapons.Magic.ThunderBolt>(), ModContent.ItemType<Content.Items.Weapons.Magic.AeroBolt>(), ModContent.ItemType<Content.Items.Weapons.Magic.PlasmaflashBolt>(), ModContent.ItemType<Content.Items.Weapons.Ranged.RoseBow>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Pumplerfaust>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Gourdler>(), ModContent.ItemType<Content.Items.Weapons.Rogue.CelestialNuke>(),
-                ModContent.ItemType<Content.Items.Weapons.Summon.DarkEnergyStaff>(), ModContent.ItemType<Content.Items.Weapons.Summon.JetEngine>(), ModContent.ItemType<Content.Items.Weapons.Rogue.UnsealedSingularity>(), ModContent.ItemType<Content.Items.Weapons.Typeless.TwistedNetheriteScythe>(), ModContent.ItemType<Content.Items.Weapons.Magic.WrathoftheEldritch>(), ModContent.ItemType<Content.Items.Weapons.Magic.WrathoftheCosmos>() })
+                ModContent.ItemType<Content.Items.Weapons.Summon.DarkEnergyStaff>(), ModContent.ItemType<Content.Items.Weapons.Summon.JetEngine>(), ModContent.ItemType<Content.Items.Weapons.Rogue.UnsealedSingularity>(), ModContent.ItemType<Content.Items.Weapons.Typeless.TwistedNetheriteScythe>(), ModContent.ItemType<Content.Items.Weapons.Magic.WrathoftheEldritch>(), ModContent.ItemType<Content.Items.Weapons.Magic.WrathoftheCosmos>(), ModContent.ItemType<Content.Items.Weapons.Rogue.SpearofLiberty>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets
@@ -485,7 +485,7 @@ namespace CalamityFandom.Common.Debug
                 r.ReportDroprates(pbgLot, new DropRateInfoChainFeed(1f));
             foreach (int looted in new[] { ModContent.ItemType<Content.Items.Weapons.Rogue.InfectedDaggerMissesNoSkeptics>(), ModContent.ItemType<Content.Items.Weapons.Typeless.VarroaHack>() })
                 Expect(pbgLot.Any(r => r.itemId == looted), $"le Plaguebringer Goliath lâche {Lang.GetItemNameValue(looted)}");
-            foreach (string looted in new[] { "Cursed Spear", "Earthen Clicker", "Nightform", "Ghast Relic", "Purgatory Blaster", "Dragon Flame Barrage" })
+            foreach (string looted in new[] { "Cursed Spear", "Earthen Clicker", "Nightform", "Ghast Relic", "Purgatory Blaster", "Dragon Flame Barrage", "Yggdrasil Core", "Spear of Liberty", "Babil Destruction Core" })
                 Expect(!WikiLoot.MissingItems.ContainsKey(looted) && WikiRecipes.ResolveItem(looted) > 0, $"{looted} trouvé par le butin");
             // 19/11 : Aquatic Hypercomputer, une tuile par étape, recettes à chaque étape
             foreach (int stageTile in Content.Tiles.Hypercomputer.HypercomputerTile.StageTiles)

@@ -903,6 +903,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       (Wall of Flesh ; +25 % de mana la nuit), Ghast Relic (Clam ; fantômes sur les coups de sbires), Purgatory Blaster
       (Providence), Dragon Flame Barrage (Yharon).
 
+- [ ] Lot O : Yggdrasil Core (aura dorée qui brûle), Babil Destruction Core (5 s plus rapide après un coup reçu), Spear
+      of Liberty (3 lances, deux chercheuses).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

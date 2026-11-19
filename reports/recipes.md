@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1524 objets dont les recettes ont changé : 1046 recettes modifiées, 577 créées
+- 1525 objets dont les recettes ont changé : 1046 recettes modifiées, 578 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -1262,6 +1262,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Soul Piercer | 10 Cosmilite Bar @ CosmicAnvil → 1 | 12 Cosmilite Bar @ CosmicAnvil → 1 |
 | Spark Spreader | 10 Any Gold Bar, 1 Ruby, 12 Gel @ Anvils → 1 | 1 Char Matter, 1 Flare Gun, 1 Ruby, 12 Gel @ Anvils → 1 |
 | Spear of Destiny | 1 Cursed Dagger, 7 Hallowed Bar, 5 Soul of Fright, 5 Soul of Might, 5 Soul of Sight @ MythrilAnvil → 1 | 7 Hallowed Bar, 5 Soul of Light, 5 Soul of Fright @ MythrilAnvil → 1 |
+| Spear of Liberty | (nouvelle) | 7 Hallowed Bar, 5 Soul of Night, 5 Soul of Fright @ MythrilAnvil → 1 |
 | Spectralstorm Cannon | 1 Firestorm Cannon, 6 Solar Fragment, 10 Ectoplasm @ LunarCraftingStation → 1 | 1 Firestorm Cannon, 20 Vortex Fragment, 10 Ectoplasm @ LunarCraftingStation → 1 |
 | Spectre Hood | (nouvelle) | 1 Chlorophyte Headgear, 6 Ectoplasm @ MythrilAnvil → 1 |
 | Spectre Mask | (nouvelle) | 1 Chlorophyte Headgear, 6 Ectoplasm @ MythrilAnvil → 1 |
