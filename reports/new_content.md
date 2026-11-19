@@ -105,7 +105,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Cursed Capper
 - [ ] Cursed Spear — addon: Calamity: Community Remix
 - [ ] Cyberlight Striker — addon: Calamity: Tales of the Aquatic
-- [ ] Dark Energy Staff — addon: Calamity: Community Remix
+- [x] Dark Energy Staff — addon: Calamity: Community Remix
 - [ ] Dark Harvest Staff — addon: Calamity: Community Remix
 - [ ] Dart Sun — addon: Calamity: Tales of the Aquatic
 - [ ] Dead Star's Laser Rifle — addon: Tranquility Mod
@@ -225,7 +225,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Infernum Kris — addon: Calamity: Community Remix
 - [x] Interfacer Staff
 - [ ] Jake
-- [ ] Jet Engine — addon: Calamity: Community Remix
+- [x] Jet Engine — addon: Calamity: Community Remix
 - [ ] Justice and Splendor
 - [ ] Lacelinous Nocturne — addon: Calamity: Tales of the Aquatic
 - [ ] Lacescent Pistol — addon: Calamity: Tales of the Aquatic
@@ -303,7 +303,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Poison Pack
 - [x] Porpoise Pistol
 - [ ] Prism Destroyer — addon: Calamity: Community Remix
-- [ ] Profaned Nucleus — addon: Calamity: Community Remix
+- [x] Profaned Nucleus — addon: Calamity: Community Remix
 - [ ] Profaned Whiplash — addon: Tranquility Mod
 - [ ] Prominence — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Pumplerfaust — addon: Calamity: Community Remix
@@ -423,12 +423,12 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Twentloon
 - [x] Twenty-Twloon
 - [ ] Twin Cranes — addon: Calamity: Community Remix
-- [ ] Twisted Netherite Scythe — addon: Calamity: Community Remix
+- [x] Twisted Netherite Scythe — addon: Calamity: Community Remix
 - [ ] Twisted Netherite Sword — addon: Calamity: Community Remix
 - [ ] Tyrant Shield — addon: Calamity: Community Remix
 - [x] Unending Void
 - [ ] Unloxcalibur — addon: Calamity: Community Remix
-- [ ] Unsealed Singularity — addon: Calamity: Community Remix
+- [x] Unsealed Singularity — addon: Calamity: Community Remix
 - [x] Urchin Flail
 - [x] Urchin Spear
 - [ ] UserGrahkon/Sandbox — pas de sprite
@@ -454,9 +454,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Wooden Butterfly Staff
 - [x] Worst Prism
 - [x] Wrath of the Ancients
-- [ ] Wrath of the Cosmos — addon: Calamity: Community Remix
+- [x] Wrath of the Cosmos — addon: Calamity: Community Remix
 - [ ] Wrath of the Dragons — addon: Calamity: Community Remix
-- [ ] Wrath of the Eldritch — addon: Calamity: Community Remix
+- [x] Wrath of the Eldritch — addon: Calamity: Community Remix
 - [ ] Wrath of the Gods — addon: Calamity: Community Remix
 - [ ] Wreath of Belial — addon: Calamity: Community Remix
 - [ ] Wrecking Ball

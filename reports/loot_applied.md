@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 544 drops ajoutés sur 230 PNJ
-- 120 ajouts dans 27 sacs
+- 545 drops ajoutés sur 230 PNJ
+- 121 ajouts dans 27 sacs
 - 568 drops du wiki déjà présents dans le jeu (inchangés)
 - 138 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 31 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 94 PNJ du wiki absents du jeu, 74 objets introuvables
+- 94 PNJ du wiki absents du jeu, 73 objets introuvables
 
 ## Ajouts
 
@@ -186,7 +186,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Primal Aspid** : Essence of Chaos 2-3 à 100.0% ; Cryo Key 1-1 à 20.0% ; Aspid Blaster 1-1 à 10.0%
 - **Primordial Rainbow Slime** : un parmi : Copper Ore, Tin Ore, Iron Ore, Lead Ore, Silver Ore, Tungsten Ore, Gold Ore, Platinum Ore, Demonite Ore, Crimtane Ore, Sea Prism, Meteorite, Obsidian, Hellstone, Aerialite Ore, Arsenic Ore, Silicon Ore, Cobalt Ore, Palladium Ore, Mythril Ore, Orichalcum Ore, Charred Ore, Adamantite Ore, Titanium Ore, Cryonic Ore, Hallowed Ore, Chlorophyte Ore, Perennial Ore, Abyss Ore, Apocalyptic Ore, Life Ore, Astral Ore, Luminite, Exodium Cluster, Cosmilite Slag, Tarragon Ore, Auric Ore
 - **Prism-Back** : Prism Shard 1-3 à 100.0% [After defeating Desert Scourge] ; Clam Chowder 1-1 à 2.0%
-- **Providence, the Profaned Goddess** : Rune of Kos 1-1 à 100.0% [Always on first kill] (mode normal) ; Rune of Kos 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Blazing Core 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Providence, the Profaned Goddess 1-1 à 100.0% [Always on first kill] (mode normal) ; Providence, the Profaned Goddess 1-1 à 100.0% [Always on first kill] (Expert, direct)
+- **Providence, the Profaned Goddess** : Rune of Kos 1-1 à 100.0% [Always on first kill] (mode normal) ; Rune of Kos 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Blazing Core 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Providence, the Profaned Goddess 1-1 à 100.0% [Always on first kill] (mode normal) ; Providence, the Profaned Goddess 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Profaned Nucleus 1-1 à 25.0% (mode normal)
 - **Province Pilferer** : Bone 9-13 à 100.0% ; Fleshy Geode 1-1 à 10.0%
 - **Pyrogen** : Essence of Chaos 4-8 à 100.0% (mode normal) ; Essence of Chaos 5-9 à 100.0% (Expert, direct) ; Core of Sunlight 4-8 à 100.0% (mode normal) ; Core of Sunlight 5-9 à 100.0% (Expert, direct) ; Core of Chaos 4-8 à 100.0% (mode normal) ; Core of Chaos 5-9 à 100.0% (Expert, direct) ; Core of Eleum 4-8 à 100.0% (mode normal) ; Core of Eleum 5-9 à 100.0% (Expert, direct) ; Soul of Pyrogen 1-1 à 100.0% (mode normal) ; Soul of Pyrogen 1-1 à 100.0% (Expert, direct) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (Expert, direct) ; un parmi : Obsidigun, Seared Shredder, Molten Piercer, The Generator, Hell's Bells (mode normal) ; un parmi : Obsidigun, Seared Shredder, Molten Piercer, The Generator, Hell's Bells (Expert, direct)
 - **Rat** : Cheese 1-2 à 0.1% [in Godseeker Mode]
@@ -259,7 +259,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (Jungle Dragon, Yharon)** : Omega Healing Potion 5-15 à 100.0% ; Yharon Trophy 1-1 à 10.0% ; Chicken Nugget 5000-5000 à 100.0%
 - **Treasure Bag (Leviathan and Anahita)** : Hotline Fishing Hook 1-1 à 10.0% (page Treasure Bag) ; Super Absorbant Sponge 1-1 à 10.0% (page Treasure Bag) ; Bottomless Water Bucket 1-1 à 10.0% (page Treasure Bag) ; Crate Potion 5-8 à 20.0% (page Treasure Bag) ; Fishing Potion 5-8 à 20.0% (page Treasure Bag) ; Sonar Potion 5-8 à 20.0% (page Treasure Bag)
 - **Treasure Bag (Plantera)** : Essence of Babil 5-9 à 100.0%
-- **Treasure Bag (Providence, the Profaned Goddess)** : Supreme Healing Potion 5-15 à 100.0% ; Providence Trophy 1-1 à 10.0%
+- **Treasure Bag (Providence, the Profaned Goddess)** : Supreme Healing Potion 5-15 à 100.0% ; Providence Trophy 1-1 à 10.0% ; Profaned Nucleus 1-1 à 33.3%
 - **Treasure Bag (Signus)** : Supreme Healing Potion 5-15 à 100.0% ; Signus Trophy 1-1 à 10.0%
 - **Treasure Bag (Storm Weaver)** : Storm Dragoon 1-1 à 33.3% (page Treasure Bag)
 - **Treasure Bag (The Devourer of Gods)** : Norfleet 1-1 à 10.0% (page Treasure Bag) ; Cosmic Worm 30-39 à 100.0% (page Treasure Bag)
@@ -344,7 +344,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Plague Station — 1
 - Plaguecom Tablet — 1
 - Profaned Core Fragment — 1
-- Profaned Nucleus — 1
 - Profaned Whiplash — 1
 - Purgatory Blaster — 1
 - Pyro Stone — 1

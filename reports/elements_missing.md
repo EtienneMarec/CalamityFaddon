@@ -75,7 +75,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (253)
+## Objets (246)
 
 - A M S
 - AAMG "Disperse"
@@ -125,7 +125,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Crystallic Coin Gun
 - Cursed Spear
 - Cyberlight Striker
-- Dark Energy Staff
 - Dark Harvest Staff
 - Dart Sun
 - Deadflower
@@ -200,7 +199,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Incandescent Nox
 - Infected Dagger Misses No Skeptics
 - Infernum Kris
-- Jet Engine
 - Justice and Splendor
 - Lacelinous Nocturne
 - Lacescent Pistol
@@ -241,7 +239,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Prism Destroyer
 - Profaned Crystal Dart
 - Profaned Fire Dart
-- Profaned Nucleus
 - Prominence
 - Purgatory Blaster
 - Quadlens Staff
@@ -302,12 +299,10 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Twin Cranes
 - Twisted Netherite Axe
 - Twisted Netherite Pickaxe
-- Twisted Netherite Scythe
 - Twisted Netherite Shovel
 - Twisted Netherite Sword
 - Tyrant Shield
 - Unloxcalibur
-- Unsealed Singularity
 - UserGrahkon/Sandbox
 - Varroa Hack
 - Vehement Gemstone
@@ -321,9 +316,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Whipped Bouquet Blade
 - Wind Turbine Blade
 - Winter Breeze
-- Wrath of the Cosmos
 - Wrath of the Dragons
-- Wrath of the Eldritch
 - Wrath of the Gods
 - Wreath of Belial
 - Wrecking Ball

@@ -890,6 +890,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Thunder/Aero/Plasmaflash Bolt (rebonds), Rose Bow (entailles roses), Pumplerfaust (maintenir 5 s : grosse explosion +
       brume), Gourdler (maintenir : jusqu'à 8 courges), Celestial Nuke (aura violette, braises, étoiles).
 
+- [ ] Lot M (`WikiWeapons1119j.cs`) : Dark Energy Staff (2 tourelles), Jet Engine (poing), Profaned Nucleus (Providence),
+      Unsealed Singularity (trous noirs qui attirent), Twisted Netherite Scythe (invincibilité au coup), Wrath of the
+      Eldritch / of the Cosmos (pulsation au curseur, anneaux).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

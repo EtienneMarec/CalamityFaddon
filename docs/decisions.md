@@ -1781,6 +1781,24 @@ Ingrédients de recettes du wiki (pages d'addon comprises). Valeurs des infobox.
 - **[choix]** Celestial Nuke : aura de 300 px pendant 3 s (55 %), 8 braises (40 %, God Slayer Inferno de Calamity 5 s pour
   « Embers of Duality »), 4 traits chercheurs (80 %) ; frappe furtive : dégâts x1,5, deux fois plus de braises et de traits.
 
+### Lot M du 19/11 (`Content/Items/Weapons/WikiWeapons1119j.cs`)
+
+Ingrédients de recettes du wiki. Valeurs des infobox.
+
+- **[choix]** Dark Energy Staff : tourelle (image d'énergie noire de la Void Concentration de Calamity), 3 boules chercheuses
+  toutes les 20 images à 700 px ; deux au plus (la plus ancienne disparaît).
+- **[choix]** Jet Engine : poing (sprite du wiki) qui fonce à 18, rebondit au contact ; téléporté près de la cible au-delà
+  de 1200 px (75 blocs).
+- **[choix]** Profaned Nucleus : explosion de 80 px à 50 % par ennemi touché, Holy Flames 3 s ; 6 cristaux à 30 % ;
+  frappe furtive : une flaque de magma (25 %, 3 s) toutes les 20 images.
+- **[choix]** Unsealed Singularity : fioles qui éclatent après 40 images ; trou noir (moitié des dégâts, texture de l'Event
+  Horizon) qui attire les non-boss à 300 px (+25 % par autre trou noir), matière violette toutes les 30 images ; frappe
+  furtive : une fiole x2, trou noir x2,5 (600 px), matière x2.
+- **[choix]** Twisted Netherite Scythe : dégâts sans classe ; 10 images d'invincibilité au coup.
+- **[choix]** Wrath of the Eldritch / of the Cosmos : pulsation de 6 s (image du wiki), salves de 2 anneaux toutes les
+  90 images (esprits au tiers / boules de God Slayer au tiers, God Slayer Inferno 2 s) ; toutes les 3 salves, rayon (Last
+  Prism vanilla) vers l'ennemi le plus proche / deux Cosmic Guardians (grosses boules x2, 3 s).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

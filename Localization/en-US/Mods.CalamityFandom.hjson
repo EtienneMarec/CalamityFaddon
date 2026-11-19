@@ -1941,6 +1941,26 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			ProfanedNucleus: {
+				DisplayName: Profaned Nucleus
+				Tooltip:
+					'''
+					Throws out a molten chunk of profaned rock that explodes and splits into crystals
+					Stealth strikes leave behind lingering patches of magma
+					'''
+			}
+
+			UnsealedSingularity: {
+				DisplayName: Unsealed Singularity
+				Tooltip:
+					'''
+					Cold and alone in the void...
+					Throws a volley of five void flasks which shatter on impact
+					Shattered flasks summon blackholes which pull in enemies and purple void matter
+					Stealth strikes throw one flask that creates a gigantic blackhole with significantly larger purple void matter
+					'''
+			}
+
 			CelestialNuke: {
 				DisplayName: Celestial Nuke
 				Tooltip:
@@ -2665,6 +2685,34 @@ Items: {
 			Gourd grenades explode into a burst of spikes
 			'''
 	}
+	DarkEnergyStaff: {
+		DisplayName: Dark Energy Staff
+		Tooltip:
+			'''
+			Summons a dark energy turret to fight for you
+			Two can exist at once
+			'''
+	}
+
+	JetEngine: {
+		DisplayName: Jet Engine
+		Tooltip: Summons an onyx fist to punch enemies for you
+	}
+
+	TwistedNetheriteScythe: {
+		DisplayName: Twisted Netherite Scythe
+		Tooltip: Provides 10 frames of immunity on enemy hits.
+	}
+
+	WrathoftheEldritch: {
+		DisplayName: Wrath of the Eldritch
+		Tooltip: Summons an eldritch pulse at the cursor that periodically summon two rings of homing spirits and occasionally a deathray
+	}
+
+	WrathoftheCosmos: {
+		DisplayName: Wrath of the Cosmos
+		Tooltip: Summons a galactic pulse at the cursor that periodically summon two rings of homing god slayer fireballs and occasionally two cosmic guardians
+	}
 }
 
 Projectiles: {
@@ -3318,6 +3366,57 @@ Projectiles: {
 	CelestialBolt: {
 		DisplayName: Celestial Bolt
 	}
+	DarkEnergyTurret: {
+		DisplayName: Dark Energy Turret
+	}
+
+	DarkMatterBolt: {
+		DisplayName: Dark Matter
+	}
+
+	OnyxFist: {
+		DisplayName: Onyx Fist
+	}
+
+	ProfanedRock: {
+		DisplayName: Profaned Rock
+	}
+
+	ProfanedBlast: {
+		DisplayName: Profaned Explosion
+	}
+
+	ProfanedCrystal: {
+		DisplayName: Profaned Crystal
+	}
+
+	MagmaPatch: {
+		DisplayName: Magma
+	}
+
+	VoidFlask: {
+		DisplayName: Void Flask
+	}
+
+	SingularityHole: {
+		DisplayName: Black Hole
+	}
+
+	VoidShard: {
+		DisplayName: Void Shard
+	}
+
+	VoidMatter: {
+		DisplayName: Void Matter
+	}
+
+	WrathPulse: {
+		DisplayName: Galactic Pulse
+	}
+
+	WrathSpirit: {
+		DisplayName: Spirit
+	}
 }
 
 Shortstrike.Gauge:
@@ -3611,6 +3710,10 @@ Buffs: {
 	CorrosiveEyeBuff: {
 		DisplayName: Corrosive Eye
 		Description: The corrosive eyes are orbiting you
+	}
+	OnyxFistBuff: {
+		DisplayName: Onyx Fist
+		Description: The onyx fist will punch enemies for you
 	}
 }
 

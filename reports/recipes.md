@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1515 objets dont les recettes ont changé : 1043 recettes modifiées, 571 créées
+- 1525 objets dont les recettes ont changé : 1047 recettes modifiées, 577 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
-- 49 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 54 recettes
+- 43 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 48 recettes
 
 ## Recettes changées
 
@@ -105,6 +105,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Apocalyptic Bar | (nouvelle) | 3 Apocalyptic Ore, 1 Beetle Husk @ AdamantiteForge → 1 |
 | Apoctolith | 100 Throwing Brick, 50 Voidstone, 20 Lumenyl @ MythrilAnvil → 1 | 100 Throwing Brick, 20 Voidstone, 15 Sea Prism, 8 Lumenyl @ MythrilAnvil → 1 |
 | Apoctosis Array | 1 Ion Blaster, 12 Solar Fragment @ LunarCraftingStation → 1 | 1 Ion Blaster, 5 Luminite Bar @ LunarCraftingStation → 1 |
+| Apotheosis | 1 Spell Tome, 1 Cosmic Discharge, 2 Staff of the Mechworm, 2 Excelsus, 5 Shadowspec Bar, 33 Cosmilite Bar, 11 Ascendant Spirit Essence @ DraedonsForge → 1 | 1 Wrath of the Cosmos, 1 Cosmic Discharge, 2 Staff of the Mechworm, 2 Excelsus, 15 Soul of Plight, 33 Cosmilite Bar, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Aquamarine Staff | 1 Amethyst Staff, 3 Conquest Fragment, 5 Sea Prism, 25 Navystone @ Anvils → 1 | 1 Amber Staff, 5 Sea Prism, 25 Sand Block @ Anvils → 1 |
 | Aquashard Shotgun | 1 Boomstick, 2 Aerialite Bar, 10 Sea Prism @ Anvils → 1 | 1 Boomstick, 10 Sea Prism, 15 Prism Shard, 2 Aerialite Bar, 5 Victide Bar @ Anvils → 1 |
 | Aquatic Dissolution | (nouvelle) | 1 Mariana, 1 Greentide, 1 Tarragon Bar, 5 Life Alloy, 5 Tenebris, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
@@ -407,6 +408,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Daemon's Flame | (nouvelle) | 5 Haunted Bar @ LunarCraftingStation → 1 |
 | Dangersense Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Dank Staff | (nouvelle) | 3 Rotten Chunk, 8 Demonite Bar, 7 Rotten Matter @ DemonAltar → 1 |
+| Dark Energy Staff | (nouvelle) | 1 Energy Staff, 2 Dark Plasma, 5 Galactica Singularity, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Dark God's Sheath | 1 Silencing Sheath, 1 Ruin Medallion, 14 Meld Blob @ LunarCraftingStation → 1 | 1 Silencing Sheath, 1 Ruin Medallion, 5 Meld Bar @ LunarCraftingStation → 1 |
 | Darkecho Greatbow | 12 Cryonic Bar @ MythrilAnvil → 1 | 8 Cryonic Bar @ MythrilAnvil → 1 |
 | Darklight Greatsword | 12 Cryonic Bar, 1 Soul of Light, 1 Soul of Night @ MythrilAnvil → 1 | 12 Cryonic Bar, 5 Fallen Star, 1 Soul of Night, 1 Soul of Light, 4 Essential Essence Bar @ MythrilAnvil → 1 |
@@ -764,6 +766,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Jaws of Oblivion | 1 Leviathan Teeth, 6 Reaper Tooth, 15 Lumenyl, 2 Ruinous Soul @ MythrilAnvil → 1 | 1 Leviathan Teeth, 6 Reaper Tooth, 15 Lumenyl, 2 Ruinous Soul @ LunarCraftingStation → 1 |
 | Jelly-Charged Battery | 1 Wulfrum Battery, 1 Voltaic Jelly, 10 Purified Gel, 2 Stormlion Mandible @ Anvils → 1 | 1 Wulfrum Battery, 1 Voltaic Jelly, 10 Purified Gel, 2 Stormlion Mandible, 3 Alloy Bar @ Anvils → 1 |
 | Jellyfish Cannonball | (nouvelle) | 1 Pink Jellyfish, 10 Explosive Powder @ TinkerersWorkbench → 1 |
+| Jet Engine | (nouvelle) | 10 Any Cobalt Bar, 5 Char Matter, 5 Essence of Chaos, 26 Obsidian @ Anvils → 1 |
 | Jungle Dragon Egg | 10 Life Alloy, 15 Effulgent Feather @ MythrilAnvil → 1 | 1 Yharim's Insignia, 15 Effulgent Feather @ LunarCraftingStation → 1 |
 | Jungle Dragon, Yharon | 1 Yharon Trophy @ Bookcases → 1 | 1 Yharon Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Juzie | (nouvelle) | 4 Shattered Start Block, 3 Cherry, 10 Fruit Juice, 50 Glass @ CookingPots → 1 |
@@ -894,6 +897,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Mysterious Circuitry | (nouvelle) | 8 Silicon Ore, 1 Wire, 1 Any Gold Bar @ Furnaces → 4 |
 | Mystplate | (nouvelle) | 1 Essence of Myst, 3 Obsidian @ Hellforge → 3 |
 | Mythril Knife | 10 Mythril Bar @ MythrilAnvil → 1 | 1 Mythril Bar @ MythrilAnvil → 100 |
+| Nadir | 1 Elemental Lance, 5 Auric Bar, 8 Darksun Fragment, 5 Twisting Nether @ CosmicAnvil → 1 | 1 Elemental Lance, 1 Twisted Netherite Scythe, 8 Cosmilite Bar, 8 Darksun Fragment, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
 | Nano Purge | 1 Laser Machinegun, 10 Tarragon Bar, 100 Nanites @ MythrilAnvil → 1 | 20 Vortex Fragment, 1 Laser Machinegun, 100 Nanites @ LunarCraftingStation → 1 |
 | Nanoblack Reaper | 1 Molten Amputator, 1 Ghoulish Gouger, 5 Shadowspec Bar, 40 Endothermic Energy, 20 Plague Cell Canister, 400 Nanites @ DraedonsForge → 1 | 1 Ghoulish Gouger, 1 Molten Amputator, 40 Endothermic Energy, 1 Exoblade, 400 Nanites, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Nanotech | 1 Spy Emblem, 1 Vampiric Talisman, 1 Electrician's Glove, 8 Luminite Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Spy Emblem, 1 Raider's Talisman, 1 Moonstone Crown, 1 Electrician's Glove, 8 Luminite Bar, 4 Galactica Singularity, 4 Ascendant Spirit Essence, 4 Yharim Bar @ CosmicAnvil → 1 |
@@ -1383,6 +1387,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Super Dummy | 1 Target Dummy @ main → 1 | 1 Target Dummy @ Anvils → 1 |
 | Superball Bullet | (nouvelle) | 150 Meteor Shot, 1 Parched Scale @ Anvils → 150 |
 | Supercharged Dart Blaster | (nouvelle) | 1 Charged Dart Blaster, 1 Cryophobia, 1 Monkey Darts, 10 Ruinous Soul, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
+| Supernova | 1 Sealed Singularity, 1 Star of Destruction, 1 Totality Breakers, 1 Ballistic Poison Bomb, 1 Miracle Matter @ DraedonsForge → 1 | 1 Totality Breakers, 1 Ballistic Poison Bomb, 1 Celestial Nuke, 1 Profaned Nucleus, 1 Star of Destruction, 1 Unsealed Singularity, 1 Sealed Singularity, 1 Duststorm in a Bottle, 200 Shock Grenade, 1 Penumbra, 1 Miracle Matter @ DraedonsForge → 1 |
 | Supreme Bait Tackle Box Fishing Station | 1 Lavaproof Tackle Bag, 5 Master Bait, 5 Mollusk Husk @ Anvils → 1 | 1 Angler Hat, 1 Angler Vest, 1 Angler Pants, 1 Angler Tackle Bag, 5 Fishing Potion, 5 Crate Potion, 5 Sonar Potion, 5 Master Bait, 5 Soul of Light, 5 Soul of Night, 10 Sea Prism @ Anvils → 65 |
 | Supreme Healing Potion | 4 Super Healing Potion, 3 Bloodstone @ Bottles → 4 | 1 Super Healing Potion, 8192 Delicious Meat @ LunarCraftingStation → 1 |
 | Supreme Mana Potion | 15 Super Mana Potion, 1 Phantoplasm @ Bottles → 15 | 1 Super Mana Potion, 1 Phantoplasm @ LunarCraftingStation → 1 |
@@ -1390,6 +1395,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Swiftness Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Swirling Cosmic Flame Dye | 1 Blue Cosmic Flame Dye, 1 Pink Cosmic Flame Dye @ DyeVat → 2 | 1 Blue Cosmic Flame Dye, 1 Pink Cosmic Flame Dye @ DyeVat → 1 |
 | System Bane | 20 Mysterious Circuitry, 10 Dubious Plating, 5 Life Alloy, 10 Infected Armor Plating @ MythrilAnvil → 1 | 1 Reassembled Electronics, 5 Life Alloy @ MythrilAnvil → 1 |
+| Tactical Plague Engine | 1 Black Hawk Remote, 1 Fuel Cell Bundle, 5 Luminite Bar @ MythrilAnvil → 1 | 1 Black Hawk Remote, 1 Jet Engine, 1 Fuel Cell Bundle, 15 Plague Cell Canister, 5 Luminite Bar, 5 Crystal of the Dryad, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Tactician's Trump Card | 1 Copper Shortsword, 1 Tome of Fates, 1 Flare Bolt, 1 Tradewinds, 1 Nuclear Fury, 10 Tarragon Bar, 3 Dark Plasma @ MythrilAnvil → 1 | 1 Copper Shortsword / Tin Shortsword, 1 Tome of Fates, 1 Flare Bolt, 1 Tradewinds, 1 Nuclear Fury, 5 Tarragon Bar, 1 Dark Plasma @ LunarCraftingStation → 1 |
 | Target Dummy | 1 Super Dummy @ main → 1 | 1 Super Dummy @ Anvils → 1 |
 | Tarragon Bar | 4 Tarragon Ore @ AdamantiteForge → 1 | 1 Clockwork Bar, 5 Tarragon Ore @ Furnaces → 1 |
@@ -1515,6 +1521,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Twilight Dye | (nouvelle) | 1 Bottled Water, 1 Stardust @ DyeVat → 1 |
 | Twisted Netherite Bar | (nouvelle) | 1 Cosmilite Bar, 5 Debris Ore @ AquaticHypercomputerCapsules → 1 |
 | Twisted Netherite Bar | (nouvelle) | 1 Twisting Nether, 3 Cosmilite Slag @ HeavyWorkBench → 3 |
+| Twisted Netherite Scythe | (nouvelle) | 2 Twisted Netherite Bar, 2 Any Wood @ HeavyWorkBench → 1 |
 | Typhon's Greed | 30 Voidstone, 30 Depth Cells @ MythrilAnvil → 1 | 30 Depth Cells, 10 Lumenyl, 10 Crocodile Scale @ MythrilAnvil → 1 |
 | Tyranny's End | 1 Rubico Prime, 1 Anti-materiel Rifle, 5 Auric Bar, 3 Life Alloy @ CosmicAnvil → 1 | 1 Golden Eagle, 1 Anti-materiel Rifle, 5 Auric Bar @ CosmicAnvil → 1 |
 | Tyrant Yharim's Ultisword | 1 True Caustic Edge, 1 Broken Hero Sword, 10 Chlorophyte Bar, 10 Vial of Venom @ MythrilAnvil → 1 | 1 True Caustic Edge, 1 Broken Hero Sword, 5 Flask of Venom, 15 Chlorophyte Bar, 5 Alloy Bar @ DemonAltar → 1 |
@@ -1538,6 +1545,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Universal Genesis | (nouvelle) | 1 Disseminator, 3 Star Cloak, 2 Armored Shell, 1 Nebulous Core, 5 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Unsafe Eutrophic Sand Wall | (nouvelle) | 1 Eutrophic Sand @ WorkBenches → 4 |
 | Unsafe Navystone Wall | (nouvelle) | 1 Navystone @ WorkBenches → 4 |
+| Unsealed Singularity | (nouvelle) | 1 Sealed Singularity, 8 Cosmilite Bar, 2 Ascendant Spirit Essence, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
 | Urchin Spear | (nouvelle) | 4 Victide Bar @ Anvils → 1 |
 | Vampiric Talisman | 1 Raider's Talisman, 1 Rotten Dogtooth, 10 Solar Veil, 1 Broken Bat Wing @ MythrilAnvil → 1 | 10 Solar Veil, 1 Spy Emblem @ MythrilAnvil → 1 |
 | Veering Wind | 30 Any Ice Block, 3 Feather, 5 Fallen Star, 10 Cloud @ Bookcases → 1 | 1 Frost Bolt, 3 Feather, 5 Fallen Star, 20 Cloud @ Bookcases → 1 |
@@ -1592,6 +1600,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Worm Meal | (nouvelle) | 1 Gullet Worm, 3 Stinkfish @ WorkBenches → 1 |
 | Wormhole Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Worst Prism | (nouvelle) | 30 Glass, 1 Mediocre Matter @ Hellforge → 1 |
+| Wrath of the Cosmos | (nouvelle) | 1 Wrath of the Eldritch, 1 Starfall, 12 Cosmilite Bar, 4 Ascendant Spirit Essence, 15 Galactica Singularity, 3 Yharim Bar @ CosmicAnvil → 1 |
+| Wrath of the Eldritch | (nouvelle) | 1 Lashes of Chaos, 10 Luminite Bar, 2 Haunted Bar, 12 Nebula Fragment, 15 Exodium Cluster, 5 Galactica Singularity @ LunarCraftingStation → 1 |
 | Wrath Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Wulfrum Acrobatics Pack | 10 Wulfrum Bar, 1 Energy Core, 3 Chain @ Anvils → 1 | 30 Wulfrum Bar, 6 Feather, 1 Energy Orb @ Anvils → 1 |
 | Wulfrum Axe | (nouvelle) | 14 Wulfrum Bar @ Anvils → 1 |
@@ -1648,7 +1658,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Catarachedrae — 1
 - objet : Cirnogenic Staff — 1
 - objet : Clotted Gel — 1
-- objet : Dark Energy Staff — 1
 - objet : Deck of Souls — 1
 - objet : Demon Core — 1
 - objet : Divine Core — 1
@@ -1659,7 +1668,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Green Demon Head — 1
 - objet : Infernum Kris — 1
 - objet : Insect Biomass — 1
-- objet : Jet Engine — 1
 - objet : Minnows Prime — 1
 - objet : Miracle Smacker — 1
 - objet : Musket Undertaker — 1
@@ -1667,7 +1675,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Particle Accelerator — 1
 - objet : Plague Station — 1
 - objet : Planetarium — 1
-- objet : Profaned Nucleus — 1
 - objet : Psy Rod — 1
 - objet : Quintessence Cannon — 1
 - objet : Ram's Revenge — 1
@@ -1677,8 +1684,5 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Skyalcon Spallation — 1
 - objet : The Godfather — 1
 - objet : The King's Gambit — 1
-- objet : Twisted Netherite Scythe — 1
-- objet : Unsealed Singularity — 1
 - objet : Violet Heart of Calamity — 1
 - objet : Visceral Biomass — 1
-- objet : Wrath of the Cosmos — 1
