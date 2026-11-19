@@ -1,4 +1,265 @@
 Items: {
+	FrontGar: {
+		DisplayName: Front Gar
+		Tooltip: Right click to extract reaper teeth
+	}
+
+	RearGar: {
+		DisplayName: Rear Gar
+		Tooltip: Right click to extract tarragon
+	}
+
+	SideGar: {
+		DisplayName: Side Gar
+		Tooltip: Right click to extract galactica singularities
+	}
+
+	Flahr: {
+		DisplayName: Flahr
+		Tooltip: Right click to extract flah and flah seeds
+	}
+
+	TarGar: {
+		DisplayName: Tar Gar
+		Tooltip: Right click to extract slime rain
+	}
+
+	CatastropheClaysiphonophore: {
+		DisplayName: Catastrophe Claysiphonophore
+		Tooltip: Summons explosive energy bolts
+	}
+
+	ViridVangar: {
+		DisplayName: Virid Vangar
+		Tooltip:
+			'''
+			Summons a gar to float behind you
+			The gar will slash at enemies in front of you, inflicting Poisoned
+			'''
+	}
+
+	Breakthrough: {
+		DisplayName: Breakthrough
+		Tooltip:
+			'''
+			Right click to launch a frigid blast of air that freezes enemies
+			Attacking frozen enemies causes them to shatter
+			'''
+	}
+
+	SummitBreaker: {
+		DisplayName: Summit Breaker
+		Tooltip: Right click to throw your weapon. Right click it again while close to rend it from your target
+	}
+
+	Twentloon: {
+		DisplayName: Twentloon
+		Tooltip: Why?
+	}
+
+	TwentyTwloon: {
+		DisplayName: Twenty-Twloon
+		Tooltip: WHY?????
+	}
+
+	TerraBow: {
+		DisplayName: Terra Bow
+		Tooltip:
+			'''
+			Fires three arrows at once
+			Converts wooden arrows into sliding energy bolts
+			'''
+	}
+
+	ElementalBow: {
+		DisplayName: Elemental Bow
+		Tooltip:
+			'''
+			Fires a storm of 7 arrows from the sky
+			Wooden arrows are converted into homing energy bolts
+			'''
+	}
+
+	RodsfromGod: {
+		DisplayName: Rods from God
+		Tooltip:
+			'''
+			Rains down a storm of sun darts from the sky towards your cursor
+			Right click to charge up a colossal explosive sun
+			'''
+	}
+
+	GrandGar: {
+		DisplayName: Grand Gar
+		Tooltip:
+			'''
+			Lowers enemy defense by 1 with every strike
+			If enemy defense is 0 or below your attacks will heal you
+			Striking enemies causes a large explosion
+			Striking enemies that have under half life will cause them to release rainbow bolts
+			Enemies spawn healing orbs on death
+			'''
+	}
+
+	DeeepscaleBomb: {
+		DisplayName: Deeepscale Bomb
+		Tooltip:
+			'''
+			No air? No problem!
+			Throws a surprisingly buoyant explosive
+			Can only destroy naturally occurring Abyss tiles
+			'''
+	}
+
+	FakenadoStaff: {
+		DisplayName: Fakenado Staff
+		Tooltip: Summons a fakenado to fight for you
+	}
+
+	OnyxPurge: {
+		DisplayName: Onyx Purge
+		Tooltip:
+			'''
+			Fires a storm of lasers and onyx shards
+			"Our Lord and Savior, Spencer Bishop, also uses this weapon during phase 14 of the boss fight"
+			'''
+	}
+
+	InterfacerStaff: {
+		DisplayName: Interfacer Staff
+		Tooltip: Casts a bouncing beam that splits when enemies are near it
+	}
+
+	Celesticus: {
+		DisplayName: Celesticus
+		Tooltip:
+			'''
+			Fires A blade that travels through walls, hitting an enemy with it fires 8 homing crystals that deal 25% of the weapons base damage
+			This weapin scales with all your damage stats at once
+			'''
+	}
+
+	SuperchargedDartBlaster: {
+		DisplayName: Supercharged Dart Blaster
+		Tooltip:
+			'''
+			Fires a rapid stream of plasma darts
+			Right click to fire an electric wave that grows over time
+			'''
+	}
+
+	AntiMothOintment: {
+		DisplayName: Anti-Moth Ointment
+		Tooltip: Favorite this item to prevent prismatic lacewings from spawning near you
+	}
+
+	AntiStarspawnOintment: {
+		DisplayName: Anti-Starspawn Ointment
+		Tooltip: Favorite this item to prevent astral enemies from dropping weapons and accessories
+	}
+
+	CatastropheClaybore: {
+		DisplayName: Catastrophe Claybore
+		Tooltip: ""
+	}
+
+	DustyAxe: {
+		DisplayName: Dusty Axe
+		Tooltip: It once belonged to some dusty skeleton.
+	}
+
+	RodofMisery: {
+		DisplayName: Rod of Misery
+		Tooltip:
+			'''
+			Teleports you to opposite your mouse's cursor... kinda.
+			Teleportation is disabled while Chaos State is active
+			'''
+	}
+
+	JellyfishCannonball: {
+		DisplayName: Jellyfish Cannonball
+		Tooltip: A jellyfish that hits with explosive impact.
+	}
+
+	WulfrumMiningHelmet: {
+		DisplayName: Wulfrum Mining Helmet
+		Tooltip: Become the ultimate spelunker.
+	}
+
+	BagelNuts: {
+		DisplayName: Bagel Nuts
+		Tooltip:
+			'''
+			Looks like bagels, but is actually a chip
+			Permanently increases Armor Penetration by 25
+			'''
+	}
+
+	Chez: {
+		DisplayName: Chez
+		Tooltip:
+			'''
+			Sort of like cheetos, except its made from 200% genuine Cheddar
+			Permanently increases critical strike chance and damage by 7%
+			'''
+	}
+
+	HamPie: {
+		DisplayName: Ham Pie
+		Tooltip:
+			'''
+			A tasty pie in a bag. Might have a trace of Meld in it
+			Permanently increases defense by 8 and DR by 8%, and halves Defense damage.
+			'''
+	}
+
+	Juzie: {
+		DisplayName: Juzie
+		Tooltip:
+			'''
+			A great cherry juice, on a "best" container.
+			Permanently increases life regen noticeably
+			'''
+	}
+
+	KEX: {
+		DisplayName: KEX
+		Tooltip:
+			'''
+			A cereal that packs alot of energy, perfect for starting your day!
+			Permanently increases attack and movement speed by 15%
+			'''
+	}
+
+	DraconicElixir: {
+		DisplayName: Draconic Elixir
+		Tooltip:
+			'''
+			Greatly increases wing flight time and speed and increases defense by 16
+			Silva invincibility heals you to half HP when triggered
+			If you trigger the above heal you cannot drink this potion again for 60 seconds and you gain 30 seconds of potion sickness
+			'''
+	}
+
+	PotionofTriboluminescence: {
+		DisplayName: Potion of Triboluminescence
+		Tooltip:
+			'''
+			Highlights nearby creatures, projectiles,
+			danger sources, and treasure
+			'''
+	}
+
+	StratusBeverage: {
+		DisplayName: Stratus Beverage
+		Tooltip:
+			'''
+			Causes all projectile shooting weapons to fire two extra homing stars
+			Decreases weapon damage by 33%
+			'''
+	}
+
 	WulfrumHardhat: {
 		DisplayName: Wulfrum Hardhat
 		Tooltip: Gain an immunity to traps.
@@ -1680,6 +1941,68 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			MoltenPiercer: {
+				DisplayName: Molten Piercer
+				Tooltip: Throws flaming knives that break into obsidian shards on hit
+			}
+
+			CreatureCapsule: {
+				DisplayName: Creature Capsule
+				Tooltip:
+					'''
+					Throws a capsule that explodes, releasing a ghost that shoots projectiles
+					Stealth strikes cause multiple ghosts to exit the capsule, and increases crit chance by 25%. Critical hits will instantly capture any non boss enemy.
+					'''
+			}
+
+			Pastranion: {
+				DisplayName: Pastranion
+				Tooltip:
+					'''
+					Throws out bowls with strands which lash out at nearby enemies
+					Stealth strikes have much longer, aggressive strands
+					'''
+			}
+
+			VermillionAngel: {
+				DisplayName: Vermillion Angel
+				Tooltip:
+					'''
+					Throws an ultra high velocity spear, which creates more projectiles that home in
+					The spear creates a Vermillion Blast upon hitting an enemy
+					Stealth strikes grant summon a star of projectiles upon hitting an enemy
+					"It all comes tumbling down tumbling down tumbling down."
+					'''
+			}
+
+			StellarKunai: {
+				DisplayName: Stellar Kunai
+				Tooltip:
+					'''
+					Throws out a set of three kunai that ignore gravity and slightly home in on enemies
+					After traveling enough distance, the kunai supercharge with Stellar energy, homing in far more aggressively and exploding on impact
+					Stealth Strikes instantly throw eight supercharged Kunai
+					'''
+			}
+
+			ExifFist: {
+				DisplayName: Exif Fist
+				Tooltip:
+					'''
+					Fires a fist that explodes into stars
+					Stealth strikes make the fist ricochet between enemies up to 5 times while raining stars
+					'''
+			}
+
+			HandofGod: {
+				DisplayName: Hand of God
+				Tooltip:
+					'''
+					Fires a fist that explodes into planets
+					Stealth strikes make the fist ricochet between enemies up to 7 times before unleashing a colossal explosion
+					'''
+			}
+
 			WulfrumShockCutter: {
 				DisplayName: Wulfrum Shock Cutter
 				Tooltip:
@@ -1872,9 +2195,170 @@ Items: {
 			}
 		}
 	}
+
+	GuardiansWrath: {
+		DisplayName: Guardians Wrath
+		Tooltip: Right click to throw your trident. Right click again to strike it with lightning.
+	}
+
+	Hailberd: {
+		DisplayName: Hailberd
+		Tooltip: Summons a group of halberds near your cursor.
+	}
+
+	PizzaWheel: {
+		DisplayName: Pizza Wheel
+		Tooltip: Summons pizzas that roll across the screen
+	}
+
+	SignoftheOperator: {
+		DisplayName: Sign of the Operator
+		Tooltip: Summon forth tendrils from the abyss to attack your foes.
+	}
+
+	ElderBerry: {
+		DisplayName: Elder Berry
+		Tooltip:
+			'''
+			Permanently gives the player a dash
+			Press the Elder Berry Dash key to dash
+			'''
+	}
+
+	MetamorphicStone: {
+		DisplayName: Metamorphic Stone
+		Tooltip: Summons an earth elemental to fight for you
+	}
+	Axisdriver: {
+		DisplayName: Axisdriver
+		Tooltip:
+			'''
+			Shoots a burst of 3 exo bullets that tear through enemies
+			Critical hits rain elemental bolts from above
+			Right click to fire an explosive homing exo bullet
+			50% chance to not consume bullets
+			'''
+	}
+
+	Obsidigun: {
+		DisplayName: Obsidigun
+		Tooltip: Converts musket balls into fast-moving obsidian bullets that break into shards on hit
+	}
+
+	OnyxMinigun: {
+		DisplayName: Onyx Minigun
+		Tooltip:
+			'''
+			70% chance to not consume ammo
+			Fires a storm of bullets and onyx shards
+			'''
+	}
+
+	SDOMG: {
+		DisplayName: SDOMG
+		Tooltip:
+			'''
+			75% chance to not consume ammo
+			Rapidly fires a spread of bullets that close in over time
+			Right clicking while standing still consumes a Plasma Grenade to fire a large deathray
+			While the deathray is active, you are afflicted with slow, on fire, and oiled
+			'''
+	}
+
+	TheGenerator: {
+		DisplayName: The Generator
+		Tooltip:
+			'''
+			Ugh! I hate having to rely on you, and your vacant stare when I revealed my grand plan was truly insulting. Well, let's see if you can break this thing on my head. If you can, then someday... hee hee hee...I may get to toy with you again!
+			Launches a master crown sigil that draws in nearby enemies
+			'''
+	}
+
+	WorstPrism: {
+		DisplayName: Worst Prism
+		Tooltip: Will probably give enemies epilepsy
+	}
+
+	UnendingVoid: {
+		DisplayName: Unending Void
+		Tooltip:
+			'''
+			[c/2d0f33:Its eerie persistence gnawed at my mind. It did not just threaten me. It threatened everyone. Everything.]
+			Fires a ring of dark energy orbs to home in on nearby enemies
+			Orbs tear the fabrics of spacetime on enemy hits
+			'''
+	}
+
+	Garth: {
+		DisplayName: Garth
+		Tooltip:
+			'''
+			Lowers enemy defense by 1 with every strike
+			Your attacks will heal you a lot
+			Rains RGB meteors that explode into more meteors after a short time on enemy hits
+			Ice meteors freeze enemies
+			Flame meteors explode
+			Green meteors spawn healing orbs
+			'''
+	}
+
+	LargeFather: {
+		DisplayName: Large Father
+		Tooltip: Right click to swing the drill, mining a large area ahead
+	}
+
+	PrehistoricTablet: {
+		DisplayName: Prehistoric Tablet
+		Tooltip:
+			'''
+			One of the ancient relics
+			Summons a sulphur elemental to fight for you
+			'''
+	}
+	ElementalSawLauncher: {
+		DisplayName: Elemental Saw Launcher
+		Tooltip:
+			'''
+			Does not consume ammo
+			Hold left click to charge a saw
+			Letting go of left click releases the saw
+			Pressing right click while the saw is out will call it back to you faster, causing an explosion
+			'''
+	}
 }
 
 Projectiles: {
+	VangarBlades.DisplayName: Vangar Blades
+	PastranionBowl.DisplayName: Pastranion
+	PastranionStrand.DisplayName: Strand
+	VermillionSpear.DisplayName: Vermillion Angel
+	VermillionShard.DisplayName: Vermillion Shard
+	VermillionBlast.DisplayName: Vermillion Blast
+	BreakthroughSpear.DisplayName: Breakthrough
+	FrigidGust.DisplayName: Frigid Blast
+	IceShatter.DisplayName: Ice Shatter
+	SummitBreakerThrown.DisplayName: Summit Breaker
+	WikiHarpoon.DisplayName: Harpoon
+	RainbowBolt.DisplayName: Rainbow Bolt
+	SunDart.DisplayName: Sun Dart
+	ChargingSun.DisplayName: Sun
+	GarExplosion.DisplayName: Explosion
+	GarHealOrb.DisplayName: Healing Orb
+	DeeepscaleBombProj.DisplayName: Deeepscale Bomb
+	StellarKunaiProj.DisplayName: Stellar Kunai
+	FakenadoMinion.DisplayName: Fakenado
+	SharkPlush.DisplayName: Shark Plush
+	OnyxShard.DisplayName: Onyx Shard
+	InterfacerBeam.DisplayName: Interfacer Beam
+	ExifFistProj.DisplayName: Exif Fist
+	HandofGodProj.DisplayName: Hand of God
+	FistStar.DisplayName: Star
+	CelesticusBlade.DisplayName: Celesticus
+	AestheticusCrystal.DisplayName: Vaporfied Crystal
+	PlasmaDart.DisplayName: Plasma Dart
+	ElectricWave.DisplayName: Electric Wave
+	CatastropheClayboreProj.DisplayName: Catastrophe Claybore
+	StratusDrinkStar.DisplayName: Stratus Star
 	InventorBolt.DisplayName: Wulfrum Bolt
 	WulfrumArrowHostile.DisplayName: Wulfrum Arrow
 	WulfrumShardHostile.DisplayName: Wulfrum Shard
@@ -2113,6 +2597,139 @@ Projectiles: {
 	GalileoGladiusHeldProj.DisplayName: Galileo Gladius
 	ShortflurryBeam.DisplayName: Shortflurry Beam
 	ChessTable.DisplayName: Chess Table
+	CapsuleProj: {
+		DisplayName: Creature Capsule
+	}
+
+	CapsuleGhost: {
+		DisplayName: Capsule Ghost
+	}
+
+	GuardiansWrathSpear: {
+		DisplayName: Guardians Wrath
+	}
+
+	GuardiansTrident: {
+		DisplayName: Guardians Wrath
+	}
+
+	GuardiansLightning: {
+		DisplayName: Lightning
+	}
+
+	HailberdProjectile: {
+		DisplayName: Hailberd
+	}
+
+	RollingPizza: {
+		DisplayName: Pizza
+	}
+
+	OperatorPage: {
+		DisplayName: Sign of the Operator
+	}
+
+	OperatorTendril: {
+		DisplayName: Operator Tendril
+	}
+
+	EarthElementalMinion: {
+		DisplayName: Earth Elemental
+	}
+
+	ElementalArmSwing: {
+		DisplayName: Earth Elemental
+	}
+	ExoBullet: {
+		DisplayName: Exo Bullet
+	}
+
+	ExoBlast: {
+		DisplayName: Exo Bullet Explosion
+	}
+
+	ExoElementalBolt: {
+		DisplayName: Elemental Bolt
+	}
+
+	ObsidianBullet: {
+		DisplayName: Obsidian Bullet
+	}
+
+	ObsidianShardProj: {
+		DisplayName: Obsidian Shard
+	}
+
+	MoltenPiercerThrown: {
+		DisplayName: Molten Piercer
+	}
+
+	CrownedSigil: {
+		DisplayName: Crowned Sigil
+	}
+
+	WorstPrismHoldout: {
+		DisplayName: Worst Prism
+	}
+
+	WorstPrismBeam: {
+		DisplayName: Worst Prism
+	}
+
+	SDOMGRay: {
+		DisplayName: SDOMG Deathray
+	}
+
+	DarkEnergyOrb: {
+		DisplayName: Dark Energy Orb
+	}
+
+	VoidHole: {
+		DisplayName: Spacetime Rip
+	}
+
+	SupermassiveBlackHole: {
+		DisplayName: Supermassive Black Hole
+	}
+
+	RGBMeteor: {
+		DisplayName: RGB Meteor
+	}
+
+	ColorMeteor: {
+		DisplayName: Meteor
+	}
+
+	GarthBlast: {
+		DisplayName: Meteor Explosion
+	}
+
+	GarthHealOrb: {
+		DisplayName: Healing Orb
+	}
+
+	LargeFatherDrill: {
+		DisplayName: Large Father
+	}
+
+	SulphurElementalMinion: {
+		DisplayName: Sulphur Elemental
+	}
+
+	SulphuricRaincloud: {
+		DisplayName: Sulphuric Raincloud
+	}
+
+	SulphuricDrop: {
+		DisplayName: Sulphuric Rain
+	}
+	ElementalSaw: {
+		DisplayName: Elemental Saw
+	}
+
+	ElementalSawBlast: {
+		DisplayName: Rainbow Blast
+	}
 }
 
 Shortstrike.Gauge:
@@ -2143,6 +2760,36 @@ Elements: {
 }
 
 Buffs: {
+	ViridVangarBuff: {
+		DisplayName: Virid Vangar
+		Description: The gar will slash at your foes
+	}
+
+	FakenadoBuff: {
+		DisplayName: Fakenado
+		Description: The fakenado will protect you
+	}
+
+	DraconicSurge: {
+		DisplayName: Draconic Surge
+		Description: The power of a dragon courses through your veins
+	}
+
+	DraconicSurgeCooldown: {
+		DisplayName: Draconic Surge Cooldown
+		Description: A mysterious force prevents the absorption of draconic energy
+	}
+
+	Triboluminescence: {
+		DisplayName: Triboluminescence
+		Description: You can truly see everything
+	}
+
+	StratusBeverageDebuff: {
+		DisplayName: Stratus Beverage
+		Description: Starstruck eyes
+	}
+
 	EyeofLightBuff: {
 		DisplayName: Eye of Light
 		Description: I watch over you my friend
@@ -2356,6 +3003,14 @@ Buffs: {
 	Malfunctioning: {
 		DisplayName: Malfunctioning
 		Description: Attacks are weakened
+	}
+	EarthElementalBuff: {
+		DisplayName: Earth Elemental
+		Description: The earth elemental will fight for you
+	}
+	SulphurElementalBuff: {
+		DisplayName: Sulphur Elemental
+		Description: A sulphur elemental will protect you
 	}
 }
 
@@ -2639,4 +3294,8 @@ Inventors: {
 	LootCondition: When the second Inventor is defeated
 	RevCondition: In Revengeance Mode
 	TamedCondition: When tamed
+}
+
+Keybinds: {
+	ElderBerryDash.DisplayName: Elder Berry Dash
 }

@@ -1401,6 +1401,65 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   à moins de 15 blocs de John ou de Jane, elle est consommée et ils sont apprivoisés ; mêmes règles que les autres
   (ne pas les blesser). Mêmes conditions dans les deux modes (à trancher : difficulté de Calamity++).
 
+### Objets du wiki du 19/11 (`Content/Items/PermanentBoosters/WikiBoosters.cs`, `Content/Items/Tools/WikiTools1119.cs`)
+
+- **[choix]** Bonus permanents **Bagel Nuts**, **Chez**, **Ham Pie**, **Juzie**, **KEX** : une fois par personnage (comme
+  le Life Fruit), valeurs des pages. Chiffres choisis : Juzie « 40 % faster life regen ramping » = +0,4 au compteur de
+  régénération par image ; Ham Pie : dégâts de défense de Calamity x0,5 (une Meld Blob une fois sur mille, page).
+- **[choix]** **Draconic Elixir** : +20 % de temps de vol, +15 % de vitesse et d'accélération en vol, +16 défense ; la
+  résurrection de Calamity (Silva, Auric) détectée au démarrage de son compte à rebours soigne à la moitié des PV, retire
+  le buff, 1 min de Draconic Surge Cooldown et +30 s de Potion Sickness. **Potion of Triboluminescence** : Hunter,
+  Spelunker, Dangersense et l'Omniscience de Calamity (la mise en valeur des projectiles amis n'est pas faite).
+  **Stratus Beverage** : -33 % de dégâts ; chaque tir d'une arme à projectiles ajoute deux étoiles Stratus chercheuses
+  (aux dégâts de l'arme, classe la plus forte du joueur) ; ne compte pas encore comme deux alcools.
+- **[choix]** **Anti-Starspawn Ointment** : armes et accessoires lâchés par un ennemi supprimés si le joueur le plus proche
+  est dans l'Astral Infection avec l'ointment en favori. **Rod of Misery** : symétrie en X, en Y ou les deux (un tiers
+  chacun), pas de téléportation dans les blocs. **Wulfrum Mining Helmet** : trésors (Spelunker), immunité aux pièges du
+  Hardhat, lumière bleue devant le joueur ; planche portée découpée dans l'image « Equipped » du wiki. **Jellyfish
+  Cannonball** : la fabriquer donne un Cannonball Jellyfish au lieu de l'objet (page) ; TODO : munition du Cannon.
+- **[choix]** Armes du 19/11 (`WikiWeapons1119.cs`, `1119b`, `1119c`), sprites et valeurs des infobox ; chiffres choisis :
+  Fakenado : un requin toutes les 30 images, portée 700 px. Onyx Purge : 3 lasers + 1 éclat par tir (explosion 80 px).
+  Interfacer Staff : 5 rebonds, un petit rayon (1/3 des dégâts) toutes les 12 images vers un ennemi à 300 px. Exif Fist
+  / Hand of God : explosion en 4 à 6 étoiles à moitié des dégâts ; explosion finale du Hand of God réduite à 100 blocs
+  (la page dit 300) à x3 dégâts. Celesticus : classe « moyenne » de Calamity (tous les bonus), pas de reforge, cristaux
+  à 25 % des dégâts de base. Supercharged Dart Blaster : sans munition ; onde qui grandit 1,5 s puis 9 ondes à moitié.
+  Twentloon / Twenty-Twloon : harpons d'affilée (un par image) avec le harpon du Triploon porté. Terra Bow : Lunar Bolts
+  du Lunarian Bow de Calamity. Elemental Bow : 7 couleurs dans un ordre au hasard. Rods from God : soleil à x5 dégâts,
+  perdu s'il est relâché avant 10 s ; explosion de 100 blocs. Grand Gar : explosion de 120 px, traits à 1/3 des dégâts,
+  orbe de soin de 5 PV. Deeepscale Bomb : explosion de 200 px qui blesse aussi le joueur ; casse dans un rayon de 3
+  blocs l'Abyss Gravel, la Voidstone, le Pyre Mantle et la Planty Mush. Stellar Kunai : chargés au bout de 60 images,
+  explosion de 64 px. Catastrophe Claysiphonophore : éclairs de couleur de la Catastrophe Clay en dégâts d'invocation.
+  Virid Vangar : un coup toutes les 20 images, Poisoned 4 s. Pastranion : filament toutes les 20 images (8 en frappe
+  furtive), 320 px (640). Vermillion Angel : éclat tous les 12 pas, Vermillion Blast de 160 px (6 coups), hexagramme de
+  12 éclats en frappe furtive. Breakthrough : « Frozen » = Glacial State 2 s ; ennemi gelé frappé = x3 et éclats de
+  glace. Summit Breaker : arracher = x4 dégâts ; la traînée de plasma de son animation n'est pas faite.
+  Pas encore faites : Garth, Justice and Splendor, Worst Prism (plus complexes).
+- **[technique]** `gen_items.py` génère aussi les objets de type « Item » qui servent à une recette ou se disent matériau
+  (chaîne de la Flah : Derelah, Molten Flah, Hemorraize, Meld Flah, Empress Flah, Washed Flah).
+
+### Poissons-sacs du wiki (`Content/Items/Fishing/WikiFishBags.cs`, 19/11)
+
+- **[choix]** **Front Gar**, **Rear Gar**, **Side Gar**, **Flahr** : 10 % des prises peu communes dans leur zone, après le
+  boss de la page (pas à la place d'une caisse, d'un poisson de quête ou d'une créature) ; contenu des pages (Flah Seeds
+  du Flahr : TODO, pas encore dans le mod). **Tar Gar** : « commonly » = une prise commune sur quatre dans la Corruption
+  ou le Crimson la nuit ; clic droit : Slime Rain (refusé si elle est déjà en cours).
+
+### Ennemis générés (`tools/gen_enemies.py`, `Content/NPCs/WikiEnemy.cs`, 19/11)
+
+- **[choix]** Les ennemis inventés par le wiki (pages « new » à infobox de PNJ de type Enemy, Flying Enemy ou Slime, avec
+  un sprite, hors addons, vers, boss et pages historiques : 70) sont créés depuis leur infobox, dans les deux modes, sans
+  classe dédiée : vie, dégâts de contact (premier nombre), défense, résistance au recul, argent, debuff au contact
+  (trouvé par son nom affiché, ignoré s'il n'existe pas), sprite du wiki. IA vanilla la plus proche de la page :
+  slime (« Slime AI » ou type Slime), chauve-souris (« Bat AI »), Demon Eye (yeux et volants), zombie sinon. Le butin
+  vient de WikiLoot et les éléments d'ElementData, par le nom ; les comportements décrits seulement dans le texte
+  (tirs, phases, Death Mode) ne sont pas faits : à donner à ceux qui le méritent une classe dédiée.
+- **[choix]** Apparition : zones tirées de « environment » (Surface, Underground, Cavern, Snow, Desert, Jungle, Ocean,
+  Underworld, Dungeon, Space, Hallow, Corruption, Crimson, Mushroom, Temple, Brimstone Crag, Sulphurous Sea, Abyss,
+  Sunken Sea, Astral Infection), Hardmode / après le Moon Lord d'après l'infobox, la nuit si le texte le dit ; 5 % du
+  taux normal (1 % au-delà de 5 000 PV), jamais en zone sûre ni pendant une invasion. Pas d'apparition naturelle pour
+  les ennemis sans zone (41 : ennemis d'événements ou de boss inventés) ni pour ceux manifestement mal classés (plus de
+  2 000 PV sans « hardmode », plus de 30 000 PV sans « postml », comme les ennemis Exo).
+
 ### Textures du wiki sur Calamity (`Assets/Overrides/`)
 - **[validé 21/10]** Icône du wiki pour Moon Burnt (au lieu de celle de Nightwither), y compris dans l'affichage de
   debuffs de Calamity au-dessus des boss.
@@ -1482,6 +1541,68 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
 - **[validé 28/10]** **Spore Knife** : la page décrit l'épée courte de mêlée que Calamity a retirée en juin 2022 (avant
   2.0.1.005) puis refaite en couteau de lancer rogue. Full Fandom : épée courte (estoc, true melee, nuage de spores vanilla
   au coup, moitié des dégâts de base) ; Calamity++ : l'arme rogue de Calamity, qui garde le Shortstrike (clin d'œil).
+
+### Butin des ennemis du wiki (`Content/Items/Weapons/WikiWeapons1119d.cs`, 19/11)
+
+Valeurs des infobox ; les objets tombent par WikiLoot (pages des ennemis).
+
+- **[choix]** **Creature Capsule** : explosion (son et poussière) ; fantôme de 6 s, tire une Lost Soul alliée (un quart des
+  dégâts) toutes les 30 images sur l'ennemi le plus proche à 600 px. « Capture » = mort instantanée d'un non-boss sur un
+  critique de la capsule (les fantômes ne capturent pas) ; la capsule elle-même ne fait plus de critique normal.
+- **[choix]** **Guardians Wrath** : clic gauche = estoc (IA du Trident) ; clic droit = trident lancé (gravité légère) qui
+  se plante dans un bloc ou un ennemi ; clic droit à nouveau = éclair de 5 x les dégâts sur 160 px (Electrified 2 s) et le
+  trident disparaît (« revient » : l'arme ne quitte jamais l'inventaire, on ne peut juste plus l'utiliser tant qu'il est lancé).
+- **[choix]** **Hailberd** : cercle de 220 px autour du curseur, accélération x1,06 jusqu'à 26 px/image, 3 ennemis
+  traversés, Frostburn 3 s.
+- **[choix]** **Pizza Wheel** : une pizza (texture de la Pizza vanilla) part de chaque bord de l'écran à la hauteur du
+  curseur, 14 px/image, frappe chaque ennemi une fois.
+- **[choix]** **Sign of the Operator** : arme maintenue (canalisée) ; la page flotte à 50 px vers le curseur et lâche une
+  tentacule toutes les 6 images (portée courte, 2 ennemis) qui désigne la cible des sbires comme un fouet.
+  « Operator Sickness » n'existe pas : **Ichor 3 s** à la place (TODO si la page du debuff est faite).
+- **[choix]** **Elder Berry** : bonus permanent (WikiBooster) ; touche « Elder Berry Dash » (F par défaut) : vitesse
+  horizontale 14 dans la direction tenue, 1 s d'attente.
+- **[choix]** **Metamorphic Stone** : sbire sans place (accessoire), sprite de l'Earth Elemental réduit à 35 % ; toutes les
+  2 s une attaque à tour de rôle : ruée (contact pendant la ruée), 4 rochers du Staff of Earth (un tiers des dégâts),
+  coup de bras à x6 sur 90 px (War Cleave et Armor Crunch 3 s).
+
+### Lot H du 19/11 (`Content/Items/Weapons/WikiWeapons1119e.cs`)
+
+Valeurs des infobox. Molten Piercer, Obsidigun et The Generator tombent de **Pyrogen**, Large Father de **The Wall of
+Bronze** : ces boss n'existent pas encore, les objets ne s'obtiennent donc pas pour l'instant (TODO avec les boss).
+
+- **[choix]** **Axisdriver** : rafale = 3 tirs à 4 images puis 27 d'attente (39 en tout, la valeur `use`) ; balles
+  exo à 4 mises à jour par image, 10 ennemis ; clic droit 39 images ; explosion de 130 px (moitié des dégâts de la balle
+  chercheuse) avec l'image de l'explosion de prisme de Calamity ; éclairs élémentaires à un tiers des dégâts.
+- **[choix]** **Elemental Saw Launcher** : charge jusqu'à 2 s (vitesse de lancer 18 à 30), lancée 45 images puis retour ;
+  souffles à la moitié des dégâts ; explosion du rappel x3 ; Light Disc vanilla en guise de scie (pas de sprite).
+- **[choix]** **Obsidigun** : vitesse 28 avec 2 mises à jour (le `velocity = 56` du wiki) ; 4 éclats à un tiers des dégâts.
+- **[choix]** **Onyx Minigun** : tir d'onyx = Black Bolt vanilla (comme l'Onyxia de Calamity) à 170 %, 4 paires de balles. Sa seule recette est à l'Aquatic Hypercomputer ERM (station d'addon) : pas fabricable pour l'instant.
+- **[choix]** **SDOMG** : 2 balles par tir ; dispersion de 0,3 à 0,02 rad en 600 images de tir (remise à zéro après 0,5 s
+  sans tirer) ; « immobile » = vitesse < 0,1 ; rayon de 2000 px, x3 dégâts, une Plasma Grenade (Draedon's Arsenal de
+  Calamity) au départ puis toutes les 5 s.
+- **[choix]** **The Generator** : sceau à 8 px/image (le `velocity = 25` ferait traverser l'écran en une seconde), 2,5 s,
+  attire les non-boss à 240 px.
+- **[choix]** **Worst Prism** : 7 rayons (rouge On Fire!, orange Hellfire, jaune Ichor, vert Poisoned, cyan Frostburn,
+  bleu Confused, violet Shadowflame ; Vaporfied 1,5 s pour tous), longueur 1600 px qui varie de ±240 px par image entre 0
+  et 3200 ; mana prise toutes les 12 images.
+- **[choix]** **Unending Void** : 8 orbes ; trou noir sur un coup = texture de l'Event Horizon de Calamity ; trou noir
+  supermassif au curseur, 3 s, un orbe attiré toutes les 8 images depuis 600 px ; explosion sur 400 px, 12 orbes.
+- **[choix]** **Garth** : soin = 5 % des dégâts, entre 1 et 68 ; 3 météores RGB à la moitié des dégâts depuis le haut de
+  l'écran autour du curseur, éclatement après 1 s ; météores colorés au quart ; explosion rouge 100 px.
+- **[choix]** **Molten Piercer** : vitesse 16 (au lieu de 28) ; 3 éclats au tiers ; frappe furtive : 3 s, un éclat
+  toutes les 5 images dans la direction de la rotation.
+- **[choix]** **Large Father** : clic droit = coup d'1 s qui mine 7 x 7 blocs à 4,5 blocs devant le joueur (pas les coffres).
+  Infobulle inventée (le wiki n'en donne pas) : « Right click to swing the drill, mining a large area ahead ».
+- **[choix]** **Prehistoric Tablet** : comme le Metamorphic Stone (sbire d'accessoire sans place) ; nuages 2 s après le
+  repérage, gouttes toutes les 10 images au tiers des dégâts ; 5 ruées à 30 images d'intervalle ; Sulphuric Poisoning
+  12 s (gouttes et ruées).
+- **[technique]** Recettes du wiki qui ne peuvent pas se faire, faute d'ingrédient : Onyx Purge (Onyx Gun Parts, sans page),
+  Interfacer Staff (Bucket of Coal), Exif Fist (Fracturing Fist), Celesticus (Ogscule), Twenty-Twloon (22 Hornet Round),
+  Elemental Bow (Flaming Ice Bow, Baow), Pastranion (Contaminated Dish) : ingrédients d'addons, non portés (section 11) ;
+  Wulfrum Mining Helmet (Wulfrum Lenses, récompense du Taming du Wulfrum Excavator, boss pas encore fait : TODO). Les
+  objets existent (butin, pages) mais ne se fabriquent pas, comme sur le Fandom sans l'addon. Retirés du contrôle
+  « recette du wiki » de l'auto-test.
+- **[choix]** **Pizza Wheel** (lot G) : infobulle inventée « Summons pizzas that roll across the screen » (pas sur le wiki).
 
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 

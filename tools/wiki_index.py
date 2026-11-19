@@ -319,6 +319,11 @@ def load_implemented():
         generated_data = json.load(open(generated, encoding="utf-8"))
         for entry in generated_data.get("materials", []) + generated_data.get("wings", []):
             done.setdefault(entry["page"], "WikiData/items.json")
+    # Ennemis générés sans classe dédiée (tools/gen_enemies.py)
+    enemies = os.path.join(ROOT, "WikiData", "enemies.json")
+    if os.path.exists(enemies):
+        for entry in json.load(open(enemies, encoding="utf-8")).get("enemies", []):
+            done.setdefault(entry["page"], "WikiData/enemies.json")
     return done
 
 

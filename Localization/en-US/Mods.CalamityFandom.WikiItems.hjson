@@ -395,6 +395,11 @@
 		DisplayName: Demonic Bone Ash
 		Tooltip: ""
 	}
+	Derelah:
+	{
+		DisplayName: Derelah
+		Tooltip: ""
+	}
 	DesertFeather:
 	{
 		DisplayName: Desert Feather
@@ -433,6 +438,11 @@
 	ElementalOre:
 	{
 		DisplayName: Elemental Ore
+		Tooltip: ""
+	}
+	EmpressFlah:
+	{
+		DisplayName: Empress Flah
 		Tooltip: ""
 	}
 	EnchantedMetal:
@@ -669,6 +679,11 @@
 		DisplayName: Haunted Ore
 		Tooltip: ""
 	}
+	Hemorraize:
+	{
+		DisplayName: Hemorraize
+		Tooltip: ""
+	}
 	HerbalMixture:
 	{
 		DisplayName: Herbal Mixture
@@ -776,6 +791,11 @@
 			Major improvements to all stats
 			'''
 	}
+	MeldFlah:
+	{
+		DisplayName: Meld Flah
+		Tooltip: ""
+	}
 	MeldOre:
 	{
 		DisplayName: Meld Ore
@@ -790,6 +810,11 @@
 	{
 		DisplayName: Miracle Plating
 		Tooltip: Plating made out of an alloy used in the creating of powerful equipment
+	}
+	MoltenFlah:
+	{
+		DisplayName: Molten Flah
+		Tooltip: ""
 	}
 	MossyGravelWall:
 	{
@@ -1199,6 +1224,11 @@
 	{
 		DisplayName: Voidwave Ink
 		Tooltip: '''"Dark organic substance used to disable glue"'''
+	}
+	WashedFlah:
+	{
+		DisplayName: Washed Flah
+		Tooltip: ""
 	}
 	WaterfreezeReactiveCore:
 	{

@@ -783,7 +783,61 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Taming des Inventors : sans les frapper, utiliser une Diamond Ring près de l'un d'eux → apprivoisés, Wulfrum
       Hardhat dans le butin (2 défense, les pièges ne font plus de dégâts)
 
+## Passe du 19/11
+
+- [ ] Bonus permanents (recettes du wiki, une seule fois chacun, gardés par le personnage) : Bagel Nuts (+25 pénétration
+      d'armure), Chez (+7 % de chance et de dégâts critiques), Ham Pie (+8 défense, +8 % de réduction des dégâts, dégâts
+      de défense divisés par deux), Juzie (régénération), KEX (+15 % vitesse d'attaque et de déplacement)
+- [ ] Draconic Elixir (+16 défense, vol plus long et plus rapide 8 min ; avec Silva/Auric, la résurrection soigne à la
+      moitié des PV puis 1 min sans élixir) ; Potion of Triboluminescence (Hunter + Spelunker + Dangersense + Omniscience) ;
+      Stratus Beverage (-33 % de dégâts, deux étoiles chercheuses en plus à chaque tir)
+- [ ] Outils : Anti-Moth Ointment et Anti-Starspawn Ointment (à mettre en favori), Catastrophe Claybore (foreuse 190 %),
+      Dusty Axe, Rod of Misery (téléporte à l'opposé du curseur ; Chaos State 15 s), Wulfrum Mining Helmet (trésors,
+      pièges sans effet, lumière devant soi), Jellyfish Cannonball (la fabriquer fait apparaître un Cannonball Jellyfish)
+- [ ] Matériaux de la Flah générés (Derelah, Molten Flah, Hemorraize, Meld Flah, Empress Flah, Washed Flah) : leurs
+      recettes du wiki s'appliquent
+- [ ] Armes du wiki (19/11, recettes du wiki) :
+      - Fakenado Staff (tornade qui tire des requins en peluche), Virid Vangar (gar au dos qui taillade devant soi),
+        Catastrophe Claysiphonophore (éclairs de couleur)
+      - Onyx Purge (lasers + éclats qui explosent), Interfacer Staff (rayon qui rebondit et tire sur les ennemis proches)
+      - Exif Fist / Hand of God (poing qui explose en étoiles / planètes ; frappe furtive : ricochets, explosion géante
+        pour le Hand of God), Stellar Kunai (se chargent au bout d'une seconde), Pastranion (bol à filaments),
+        Vermillion Angel (lance très rapide, éclats chercheurs, explosion vermillon)
+      - Celesticus (sans classe : lame à travers les murs, 8 cristaux), Deeepscale Bomb (flotte, explose au bout de
+        5 s, ne casse que les blocs de l'Abyss)
+      - Supercharged Dart Blaster (fléchettes qui explosent ; clic droit : onde électrique), Rods from God (pluie de
+        fléchettes solaires ; clic droit maintenu 10 s : soleil qui explose sur tout l'écran)
+      - Twentloon / Twenty-Twloon (20 / 22 harpons d'affilée), Terra Bow (3 flèches ; Wooden Arrows → traits qui
+        glissent), Elemental Bow (7 flèches du ciel ; Wooden Arrows → traits arc-en-ciel chercheurs)
+      - Grand Gar (explosions, traits arc-en-ciel sur les ennemis blessés, orbes de soin), Breakthrough (clic droit :
+        souffle qui gèle ; frapper un ennemi gelé le brise), Summit Breaker (clic droit : la lancer, puis l'arracher)
+- [ ] Ennemis du wiki générés (70, `WikiData/enemies.json`) : en voir quelques-uns apparaître dans leur zone (Wulfrum Slime
+      en surface, Sun Bat sous terre en Hardmode, War Slime dans le Brimstone Crag, Famine Slime dans la Sulphurous Sea,
+      Blighted Eye la nuit en Hardmode...) ; sprite, vie, debuff au contact, butin du wiki ; les autres s'invoquent avec
+      Cheat Sheet
+
 ---
+
+- [ ] Butin des ennemis du wiki (lot G, `WikiWeapons1119d.cs`) : Creature Capsule (Glitch ; la capsule explose et
+      libère un fantôme qui tire des Lost Souls ; frappe furtive : 5 fantômes ; un critique tue net un non-boss),
+      Guardians Wrath (Cuboid Curse ; lance, clic droit : lancer, le trident se plante ; clic droit encore : éclair x5 autour,
+      il disparaît), Hailberd (Frigidemon ; 4-5 hallebardes en cercle autour du curseur, qui accélèrent, Frostburn),
+      Pizza Wheel (Evil Animatronic ; une pizza de chaque bord de l'écran à la hauteur du curseur), Sign of the Operator
+      (Tall Man ; maintenir : page devant le joueur qui lâche des tentacules, Ichor, cible des sbires), Elder Berry
+      (Yggdrasil Ent, Scorn Eater... ; après l'avoir mangée, la touche « Elder Berry Dash » (F par défaut) lance un dash,
+      1 s d'attente), Metamorphic Stone (Earth Elemental, Onyx Kinsman ; accessoire, Earth Elemental qui fonce, lance des
+      rochers et frappe à x6 avec War Cleave et Armor Crunch).
+
+- [ ] Lot H (`WikiWeapons1119e.cs`) : Axisdriver (rafale de 3 balles exo qui traversent tout ; clic droit : balle
+      chercheuse x5 qui explose ; critique : 5 éclairs du ciel ; recette avec l'Elemental Saw Launcher), Elemental Saw
+      Launcher (maintenir : scie qui tourne et tire des souffles ; relâcher : elle part et revient ; clic droit : rappel +
+      explosion, 10 s), Obsidigun (Musket Balls → balles d'obsidienne qui éclatent), Onyx Minigun (8 balles + tir d'onyx),
+      SDOMG (dispersion qui se resserre en 10 s ; clic droit immobile avec des Plasma Grenades : rayon, Slow/On Fire!/Oiled),
+      The Generator (sceau qui attire les ennemis), Worst Prism (5 s de charge puis 7 rayons de couleur qui pulsent),
+      Unending Void (anneau d'orbes, trous noirs ; à 150 coups « Void charged! », clic droit : trou noir supermassif),
+      Garth (défense -1 par coup, soin, météores RGB qui éclatent en rouge/vert/bleu), Molten Piercer (couteaux qui
+      éclatent ; frappe furtive : toupie de feu), Large Father (foreuse 280 % ; clic droit : coup qui mine 7 x 7 blocs),
+      Prehistoric Tablet (Mauler ; Sulphur Elemental : 3 nuages acides puis 5 ruées).
 
 ## Décisions en attente (pas des tests)
 

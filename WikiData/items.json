@@ -1046,6 +1046,18 @@
    "value": 3000
   },
   {
+   "name": "Derelah",
+   "displayName": "Derelah",
+   "page": "Derelah.txt",
+   "width": 12,
+   "height": 18,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 7,
+   "maxStack": 9999,
+   "value": 0
+  },
+  {
    "name": "DesertFeather",
    "displayName": "Desert Feather",
    "page": "Desert Feather.txt",
@@ -1152,6 +1164,18 @@
     103,
     111
    ]
+  },
+  {
+   "name": "EmpressFlah",
+   "displayName": "Empress Flah",
+   "page": "Empress Flah.txt",
+   "width": 16,
+   "height": 18,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 8,
+   "maxStack": 9999,
+   "value": 0
   },
   {
    "name": "EnchantedMetal",
@@ -1748,6 +1772,18 @@
    ]
   },
   {
+   "name": "Hemorraize",
+   "displayName": "Hemorraize",
+   "page": "Hemorraize.txt",
+   "width": 14,
+   "height": 18,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 8,
+   "maxStack": 9999,
+   "value": 0
+  },
+  {
    "name": "HerbalMixture",
    "displayName": "Herbal Mixture",
    "page": "Herbal Mixture.txt",
@@ -1997,6 +2033,18 @@
    "useTime": 17
   },
   {
+   "name": "MeldFlah",
+   "displayName": "Meld Flah",
+   "page": "Meld Flah.txt",
+   "width": 16,
+   "height": 18,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 9,
+   "maxStack": 9999,
+   "value": 0
+  },
+  {
    "name": "MeldOre",
    "displayName": "Meld Ore",
    "page": "Meld Ore.txt",
@@ -2037,6 +2085,18 @@
    "rare": 15,
    "maxStack": 9999,
    "value": 4000000
+  },
+  {
+   "name": "MoltenFlah",
+   "displayName": "Molten Flah",
+   "page": "Molten Flah.txt",
+   "width": 14,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 8,
+   "maxStack": 9999,
+   "value": 0
   },
   {
    "name": "MossyGravelWall",
@@ -3159,6 +3219,18 @@
    "rare": 15,
    "maxStack": 9999,
    "value": 100000
+  },
+  {
+   "name": "WashedFlah",
+   "displayName": "Washed Flah",
+   "page": "Washed Flah.txt",
+   "width": 16,
+   "height": 18,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 11,
+   "maxStack": 9999,
+   "value": 0
   },
   {
    "name": "WaterfreezeReactiveCore",

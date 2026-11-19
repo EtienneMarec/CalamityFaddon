@@ -195,7 +195,9 @@ def main():
         from_loot = kind == "block" and title_lower not in ingredients and title_lower in dropped
         # Murs du wiki (02/11) : tous ceux dont le wiki montre le mur posé
         wall = kind == "wall" and placed_sprite(re.sub(r"\s*\([^)]*\)$", "", page["title"])) is not None
-        if kind not in MATERIAL_TYPES and not food and not (kind == "block" and title_lower in ingredients) and not from_loot and not wall:
+        # Objets « Item » de la chaîne de la Flah (19/11) : matériaux s'ils servent à une recette ou se disent matériau
+        plain_item = kind == "item" and ("crafting material" in (page["fields"].get("type2") or "").lower() or title_lower in ingredients)
+        if kind not in MATERIAL_TYPES and not food and not (kind == "block" and title_lower in ingredients) and not from_loot and not wall and not plain_item:
             continue
         if from_loot and "{{historical" in open(os.path.join(ROOT, "wiki", "Main", page["file"]), encoding="utf-8",
                                                 errors="replace").read().lower():
