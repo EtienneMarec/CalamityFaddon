@@ -75,7 +75,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (268)
+## Objets (262)
 
 - A M S
 - AAMG "Disperse"
@@ -90,7 +90,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aquatic Shardstone
 - Arcanoid Orb
 - Arkflammator
-- Arngren
 - Aspect of the End
 - Astralence
 - Bad Apple
@@ -121,7 +120,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Cobadium Rifle
 - Coldant Firestarter
 - Coldetecht
-- Confection
 - Consequences of Power
 - Cored Line
 - Corrupt Hypno Flute
@@ -150,7 +148,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Dragon Flame Barrage
 - Drained Catarachedrae
 - Driftorcher
-- Dual Cane
 - Earthen Clicker
 - Earthshooter
 - Ecological Collapse
@@ -170,7 +167,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Flame Boy Popsicle
 - Fleshly Megaphone
 - Flint
-- Flounder Mortar
 - Fracture Staff
 - Frightshooter
 - Frostflow Edge
@@ -203,7 +199,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Holy Napalm Launcher
 - HPST "Malign"
 - Hyperhavoc
-- Ichor Dagger
 - Ifflamator
 - Incandescent Nox
 - Infected Dagger Misses No Skeptics
@@ -216,7 +211,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Lunatic Beats
 - Magnic Circularity
 - Mambel-Jambo
-- Megaskeet
 - Meridian
 - Midas' Handshake
 - Miracle Smacker

@@ -26,7 +26,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Aquatic Discharge
 - [x] Aquatic Dissolution
 - [ ] Arkflammator — addon: Calamity: Tales of the Aquatic
-- [ ] Arngren — addon: Calamity: Community Remix
+- [x] Arngren — addon: Calamity: Community Remix
 - [ ] Aspect of the End — addon: Calamity: Community Remix
 - [x] Aspid Blaster
 - [x] Asteroid Staff
@@ -85,7 +85,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Coldant Firestarter
 - [ ] Coldetecht — addon: Calamity: Tales of the Aquatic
 - [ ] Conclave Crossfire
-- [ ] Confection — addon: Calamity: Community Remix
+- [x] Confection — addon: Calamity: Community Remix
 - [ ] Consequences of Power
 - [x] Contaminated Dish — addon: Calamity: Community Remix
 - [x] Coral Cannon
@@ -133,7 +133,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Draftogen — addon: Calamity: Community Remix
 - [ ] Dragon Flame Barrage — addon: Calamity: Community Remix
 - [ ] Driftorcher — addon: Calamity: Community Remix
-- [ ] Dual Cane — addon: Calamity: Community Remix
+- [x] Dual Cane — addon: Calamity: Community Remix
 - [x] Dualpoon
 - [ ] Duet Hit — addon: Calamity: Tales of the Aquatic
 - [ ] EXO-LOTL Staff — addon: Calamity: Community Remix
@@ -166,7 +166,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Flare Blade
 - [ ] Fleshly Megaphone — addon: Calamity: Community Remix
 - [ ] Flint
-- [ ] Flounder Mortar — addon: Calamity: Community Remix
+- [x] Flounder Mortar — addon: Calamity: Community Remix
 - [ ] Fracture Staff — addon: Calamity: Community Remix
 - [x] Fracturing Fist — addon: Calamity: Community Remix
 - [ ] Frightshooter — addon: Calamity: Tales of the Aquatic
@@ -217,7 +217,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Holy Napalm Launcher — addon: Calamity: Tales of the Aquatic
 - [ ] Holy Purge — addon: Tranquility Mod
 - [ ] Hyperhavoc — addon: Calamity: Tales of the Aquatic
-- [ ] Ichor Dagger — addon: Calamity: Community Remix
+- [x] Ichor Dagger — addon: Calamity: Community Remix
 - [ ] Ifflamator — addon: Calamity: Tales of the Aquatic
 - [x] Impaler
 - [ ] Incandescent Nox — addon: Deimos, the Starborn Princess
@@ -249,7 +249,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Marked Magnum
 - [x] Marnite Bayonet
 - [x] Marnite Spear
-- [ ] Megaskeet — addon: Apotheosis and Friends
+- [x] Megaskeet — addon: Apotheosis and Friends
 - [ ] Meridian — addon: Calamity: Community Remix
 - [x] Metal Ball
 - [x] Microcell Cut — addon: Calamity: Tales of the Aquatic
@@ -1149,7 +1149,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Gem of Exodygen — addon: Sloome
 - [ ] Grarble Obliterator — addon: Calamity: Community Remix
 - [x] Gusthammer
-- [ ] Heaven Piercer — addon: Calamity: Community Remix
+- [x] Heaven Piercer — addon: Calamity: Community Remix
 - [ ] Honey Cooling Cell
 - [x] Impact Adjuster
 - [ ] Iron Heart

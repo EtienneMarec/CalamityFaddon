@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 542 drops ajoutés sur 228 PNJ
+- 544 drops ajoutés sur 230 PNJ
 - 120 ajouts dans 27 sacs
 - 568 drops du wiki déjà présents dans le jeu (inchangés)
 - 138 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 31 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 94 PNJ du wiki absents du jeu, 76 objets introuvables
+- 94 PNJ du wiki absents du jeu, 74 objets introuvables
 
 ## Ajouts
 
@@ -114,6 +114,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Fat Blighted Eye** : Lens 1-1 à 50.0% ; Pungent Bomber 1-1 à 25.0% ; Acid Bow 1-1 à 25.0% ; Caustic Claw 1-1 à 25.0% ; Corrosive Eye Staff 1-1 à 25.0% ; Razor Teeth 1-1 à 25.0%
 - **Flak Crab** : Cadaverous Carrion 1-1 à 5.0%
 - **Floating Biomass** : Lens 1-1 à 50.0% ; Essence of Babil 1-1 à 50.0%
+- **Flounder** : Flounder Mortar 1-1 à 6.7%
 - **Frigidemon** : Frozen Hellstone 5-7 à 100.0% ; Hailberd 1-1 à 3.3%
 - **Frost Hog** : Essence of Eleum 1-1 à 10.0% ; Delicious Meat 1-1 à 100.0%
 - **Frost Imp** : Frozen Hellstone 6-8 à 100.0% ; Icicle Ring 1-1 à 1.0%
@@ -140,6 +141,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Hive** : Hive Pod 1-1 à 14.3% [After Astrum Aureus has been defeated]
 - **Hive (Enemy)** : Stardust 2-3 à 100.0% ; Titan Finger 1-1 à 2.0% ; Hive Pod 1-1 à 14.3% [After defeating Astrum Aureus]
 - **Hive Cyst** : Demonite Ore 10-26 à 100.0%
+- **Ichor Sticker** : Ichor Dagger 1-1 à 4.0%
 - **Irradiated Slime** : Lead Core 1-1 à 3.3%
 - **Jungle Dragon Yharon** : Yharim's Gift 1-1 à 100.0% (mode normal) ; Omega Healing Potion 5-15 à 100.0% (mode normal) ; Chicken Nugget 5000-5000 à 100.0% (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **King of Constellations, Tenryu** : Ruinous Soul 1-1 à 10.0% ; Exodium Cluster 5-17 à 100.0% ; Lumenyl 1-1 à 33.3%
@@ -320,7 +322,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Everflute — 1
 - Exo Dogtooth — 1
 - Eye of Excavator — 1
-- Flounder Mortar — 1
 - Frigid Bar — 1
 - Ghast Relic — 1
 - Green Demon Head — 1
@@ -330,7 +331,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Hi-Scan Camera — 1
 - Holiday Halberd — 1
 - Holy Purge — 1
-- Ichor Dagger — 1
 - Infected Dagger Misses No Skeptics — 1
 - Jane Wulfrum Mask — 1
 - John Wulfrum Mask — 1

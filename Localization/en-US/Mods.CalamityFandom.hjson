@@ -1941,6 +1941,15 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			IchorDagger: {
+				DisplayName: Ichor Dagger
+				Tooltip:
+					'''
+					Throws bouncing daggers
+					Stealth strikes are showered in streams of ichor
+					'''
+			}
+
 			RazorTeeth: {
 				DisplayName: Razor Teeth
 				Tooltip:
@@ -2548,6 +2557,48 @@ Items: {
 		DisplayName: Corrosive Eye Staff
 		Tooltip: Summons corroded eyes that orbit you and shoot acid shots
 	}
+	Arngren: {
+		DisplayName: Arngren
+		Tooltip: 80% chance to not consume ammo
+	}
+
+	FlounderMortar: {
+		DisplayName: Flounder Mortar
+		Tooltip: Converts musket balls into streams of acid
+	}
+
+	Megaskeet: {
+		DisplayName: Megaskeet
+		Tooltip:
+			'''
+			50% chance to not consume ammo
+			Fires streams of hard sunlight every other shot
+			Fires a homing sunskater every 17 shots, which explodes into cinder shards on death
+			'''
+	}
+
+	Confection: {
+		DisplayName: Confection
+		Tooltip:
+			'''
+			'Memories of the deep sea'
+			Fires out strong cake arrows that explode into puddles of damaging frosting
+			'''
+	}
+
+	DualCane: {
+		DisplayName: Dual Cane
+		Tooltip: Fires black and white orbs that travel in a helix pattern
+	}
+
+	HeavenPiercer: {
+		DisplayName: Heaven Piercer
+		Tooltip:
+			'''
+			Collapses almost any blocks it touches
+			Right click to fire a helix laser that instantly breaks tiles it touches
+			'''
+	}
 }
 
 Projectiles: {
@@ -3110,6 +3161,45 @@ Projectiles: {
 
 	RazorTooth: {
 		DisplayName: Razor Teeth
+	}
+	AcidStream: {
+		DisplayName: Acid Stream
+	}
+
+	HardSunlight: {
+		DisplayName: Hard Sunlight
+	}
+
+	SunskaterProj: {
+		DisplayName: Sunskater
+	}
+
+	CinderShard: {
+		DisplayName: Cinder Shard
+	}
+
+	CakeArrow: {
+		DisplayName: Cake
+	}
+
+	FrostingGlob: {
+		DisplayName: Frosting
+	}
+
+	HelixOrb: {
+		DisplayName: Helix Orb
+	}
+
+	IchorDaggerProj: {
+		DisplayName: Ichor Dagger
+	}
+
+	HeavenPiercerDrill: {
+		DisplayName: Heaven Piercer
+	}
+
+	HelixLaser: {
+		DisplayName: Helix Laser
 	}
 }
 

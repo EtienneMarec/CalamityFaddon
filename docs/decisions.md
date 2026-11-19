@@ -1748,6 +1748,22 @@ Butin par WikiLoot ; sac en Expert (Treasure Bag (Acidsighter), sprite du wiki).
   Eye Staff (yeux en cercle de 70 px, une goutte toutes les 50 images à 500 px), Razor Teeth (rareté verte, 2 gouttes à
   50 % par coup ; furtif : 3 dents chercheuses plantées 2 s, Venom 2 s pour « Acid Venom »).
 
+### Lot K du 19/11 (`Content/Items/Weapons/WikiWeapons1119h.cs`)
+
+Armes qui sont des ingrédients de recettes du wiki (pages d'addon comprises). Valeurs des infobox.
+
+- **[choix]** Arngren : dispersion de ±22,5° (« 45 degree random spread »).
+- **[choix]** Flounder Mortar : jet d'acide en poussière verte, 2 ennemis, 3 mises à jour par image.
+- **[choix]** Megaskeet : 1 tir sur 2 = jet de lumière (x1,3 de vitesse, perce tout), 1 sur 17 = Sunskater (sprite du
+  wiki, x2 dégâts) qui vise la position future de l'ennemi le plus proche ; 2-3 éclats au tiers, Holy Flames 3 à 6 s ;
+  ces tirs ne consomment rien, les autres 50 %.
+- **[choix]** Confection : utilise des flèches mais tire toujours le gâteau (Slice of Cake vanilla) ; 5 globes au tiers
+  (texture du Slime Gun), 10 s, 40 par joueur au plus.
+- **[choix]** Dual Cane : hélice de 36 px d'amplitude, 2 ennemis par orbe ; orbes dessinés en poussière.
+- **[choix]** Ichor Dagger : gravité 0,35 ; frappe furtive : un jet d'ichor (Golden Shower vanilla) toutes les 8 images à un tiers.
+- **[choix]** Heaven Piercer : hache 180 % ; laser du clic droit : 40 images à 4 mises à jour (~ 40 blocs), casse ce qu'une
+  pioche de 275 % casse, pas les coffres.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

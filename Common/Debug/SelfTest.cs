@@ -397,7 +397,8 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Melee.Garth>(), ModContent.ItemType<Content.Items.Weapons.Magic.WorstPrism>(), ModContent.ItemType<Content.Items.Weapons.Ranged.SDOMG>(), ModContent.ItemType<Content.Items.Weapons.Ranged.ElementalSawLauncher>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Axisdriver>(), ModContent.ItemType<Content.Items.Weapons.Magic.UnendingVoid>(),
                 ModContent.ItemType<Content.Items.Weapons.Rogue.BucketofCoal>(), ModContent.ItemType<Content.Items.Weapons.Rogue.FracturingFist>(), ModContent.ItemType<Content.Items.Ammo.TwentyTwoHornetRound>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Baow>(),
                 ModContent.ItemType<Content.Items.Weapons.Magic.InterfacerStaff>(), ModContent.ItemType<Content.Items.Weapons.Rogue.ExifFist>(), ModContent.ItemType<Content.Items.Weapons.Ranged.TwentyTwloon>(), ModContent.ItemType<Content.Items.Weapons.Ranged.ElementalBow>(),
-                ModContent.ItemType<Content.Items.Weapons.Ranged.Butcher>() })
+                ModContent.ItemType<Content.Items.Weapons.Ranged.Butcher>(),
+                ModContent.ItemType<Content.Items.Weapons.Ranged.Arngren>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Megaskeet>(), ModContent.ItemType<Content.Items.Weapons.Ranged.Confection>(), ModContent.ItemType<Content.Items.Weapons.Magic.DualCane>(), ModContent.ItemType<Content.Items.Tools.HeavenPiercer>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

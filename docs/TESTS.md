@@ -882,6 +882,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       sous ~30 % : lueur forte, chaîne de ruées, Mutated Clusters. Le jour ou hors de la mer : beaucoup plus rapide. Butin :
       Acid Bow, Caustic Claw, Pungent Bomber, Corrosive Eye Staff, Razor Teeth. Taming (proposition) : 20 s dans l'Océan.
 
+- [ ] Lot K (`WikiWeapons1119h.cs`) : Arngren (arrosage), Flounder Mortar (jet d'acide), Megaskeet (lumière + Sunskater
+      tous les 17 tirs), Confection (gâteau → flaques de glaçage), Dual Cane (hélice noire et blanche), Ichor Dagger (rebonds),
+      Heaven Piercer (foreuse ; clic droit : laser qui creuse un tunnel).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
