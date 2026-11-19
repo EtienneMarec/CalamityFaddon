@@ -76,6 +76,7 @@ namespace CalamityFandom.Common.Debug
             CheckRecipeConditions();
             CheckShortstrike();
             CheckCrabulonTame();
+            CheckTextures();
             foreach (var check in ExtraChecks)
                 check(this);
 
@@ -190,6 +191,47 @@ namespace CalamityFandom.Common.Debug
             }
             else
                 Expect(WikiRecipes.DisabledNotOnWiki == 0 && WikiLoot.RemovedNotOnWiki == 0, "rien n'est retiré hors du mode Full");
+        }
+
+        /// <summary>
+        /// Textures de tout le contenu du mod (19/11) : le serveur ne charge pas les images, une texture mal placée ne
+        /// plante qu'en jeu (« Expected resource not found », ex. InventorsBag). On vérifie les fichiers dans les .tmod.
+        /// </summary>
+        private void CheckTextures()
+        {
+            var missing = new List<string>();
+            void Check(string owner, string path)
+            {
+                if (string.IsNullOrEmpty(path) || path.StartsWith("Terraria/"))
+                    return;
+                int slash = path.IndexOf('/');
+                bool found = slash > 0 && ModLoader.TryGetMod(path[..slash], out Mod mod)
+                    && (mod.FileExists(path[(slash + 1)..] + ".rawimg") || mod.FileExists(path[(slash + 1)..] + ".png"));
+                if (!found)
+                    missing.Add($"{owner} -> {path}");
+            }
+            foreach (var item in ModContent.GetContent<ModItem>().Where(c => c.Mod == Mod))
+            {
+                Check(item.FullName, item.Texture);
+                foreach (var attr in item.GetType().GetCustomAttributes(typeof(AutoloadEquip), true).Cast<AutoloadEquip>())
+                    foreach (EquipType equip in attr.equipTypes)
+                        Check(item.FullName, item.Texture + "_" + equip);
+            }
+            foreach (var c in ModContent.GetContent<ModProjectile>().Where(c => c.Mod == Mod))
+                Check(c.FullName, c.Texture);
+            foreach (var c in ModContent.GetContent<ModNPC>().Where(c => c.Mod == Mod))
+            {
+                Check(c.FullName, c.Texture);
+                if (c.GetType().GetCustomAttributes(typeof(AutoloadBossHead), true).Length > 0)
+                    Check(c.FullName, c.BossHeadTexture);
+            }
+            foreach (var c in ModContent.GetContent<ModBuff>().Where(c => c.Mod == Mod))
+                Check(c.FullName, c.Texture);
+            foreach (var c in ModContent.GetContent<ModTile>().Where(c => c.Mod == Mod))
+                Check(c.FullName, c.Texture);
+            foreach (var c in ModContent.GetContent<ModWall>().Where(c => c.Mod == Mod))
+                Check(c.FullName, c.Texture);
+            Expect(missing.Count == 0, $"textures introuvables ({missing.Count}) : {string.Join(" ; ", missing.Take(40))}");
         }
 
         public void Expect(bool condition, string description)

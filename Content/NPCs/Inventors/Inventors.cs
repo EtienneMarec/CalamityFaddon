@@ -478,6 +478,8 @@ namespace CalamityFandom.Content.NPCs.Inventors
     /// <summary>Sac des Inventors (page Treasure Bag / butin de la page) : Metabolic Converter en Revengeance.</summary>
     public class InventorsBag : ModItem
     {
+        public override string Texture => "CalamityFandom/Content/Items/TreasureBags/InventorsBag";
+
         public override void SetStaticDefaults()
         {
             Item.ResearchUnlockCount = 3;
