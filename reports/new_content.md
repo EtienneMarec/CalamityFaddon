@@ -1360,7 +1360,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 - [ ] Artificial Reactive Matter — addon: Calamity: Tales of the Aquatic
 - [ ] Astral Communicator — addon: Deimos, the Starborn Princess
-- [ ] Astralination — addon: Deimos, the Starborn Princess
+- [x] Astralination — addon: Deimos, the Starborn Princess
 - [x] Blood Relic
 - [ ] Calamitous Certificate EX — addon: Calamity: Community Remix
 - [ ] Celestial Geode — addon: Deimos, the Starborn Princess
@@ -1433,13 +1433,13 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 ## Pet Summon (11)
 
-- [ ] Batfly Bait
+- [x] Batfly Bait
 - [ ] Celestial Clump — addon: Deimos, the Starborn Princess
-- [ ] Cool Item — addon: Calamity: Tales of the Aquatic
+- [x] Cool Item — addon: Calamity: Tales of the Aquatic
 - [ ] Crystallised Stiriatic Chunk — addon: Calamity: Tales of the Aquatic
 - [ ] Cute Scales — addon: Calamity: Tales of the Aquatic
 - [ ] Disgusting Seawater
-- [ ] Elemental Delight — addon: Deimos, the Starborn Princess
+- [x] Elemental Delight — addon: Deimos, the Starborn Princess
 - [ ] Everflute
 - [ ] Heavy Metal Trash Can
 - [ ] Suspicious Looking Chicken Nugget

@@ -987,6 +987,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       lancer), Tyrant Shield (renvoyer un projectile), The Ones Striker (chaque sorte de pièce, Cosmilite Coin), Esseric
       Skin Potion, Uncharged Flahium (devient une Flahium Bar en 60 s).
 
+- [ ] Lot AK : Batfly Bait, Cool Item, Elemental Delight (familiers qui suivent, sautent, volent quand ils sont loin) ;
+      Astralination (Astrum Aureus, Astral Infection la nuit).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

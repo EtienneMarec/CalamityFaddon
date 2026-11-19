@@ -2254,6 +2254,19 @@ Armes, munition, potion et matériaux fabricables (recettes du wiki). Rareté «
 - **[choix]** Uncharged Flahium : 60 minutes de jeu = 60 s dans l'inventaire, puis tout le paquet devient des Flahium
   Bars. Merge Flah : la transformation dans la lave n'est pas faite. Soul Container : sans effet (pas encore d'âmes).
 
+### Lot AK du 19/11 (`Content/Items/Pets/WikiPets1119.cs`)
+
+Familiers et un objet d'invocation fabricables (recettes du wiki).
+
+- **[choix]** Familiers (Green Lizard, InxieRatZey, Cynthian Serpent) : image fixe du wiki retournée selon le sens (pas
+  d'animation sur le wiki) ; au sol, ils sautent devant un obstacle et volent quand ils sont à plus de 500 px du joueur
+  (comme ceux de Terraria) ; InxieRatZey fonce quand il est à plus de 250 px (« peut sauter et foncer »). **[technique]**
+  InxieRatZey n'a pas d'icône de buff sur le wiki : celle du lézard de compagnie de Terraria.
+- Astralination : comme l'Astral Chunk de Calamity, la nuit seulement ; non consommée.
+- Pas faits : les autres objets d'invocation du wiki (Astral Communicator, Celestial Geode, Draedon Power Pie, Eschaton,
+  Fleshly Horn, Fused Eye, Gooz Sayer's Coin, Lantern Shard, Oddest Mushroom, Puffy Abomination, Artificial Reactive
+  Matter) : leurs boss n'existent pas encore.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

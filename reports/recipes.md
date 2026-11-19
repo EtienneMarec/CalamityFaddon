@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1684 objets dont les recettes ont changé : 1050 recettes modifiées, 734 créées
+- 1688 objets dont les recettes ont changé : 1050 recettes modifiées, 738 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -174,6 +174,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Astral Staff | 12 Astral Bar @ LunarCraftingStation → 1 | 6 Astral Bar @ LunarCraftingStation → 1 |
 | Astral Swirl Dye | 1 Astral Blue Dye, 1 Astral Orange Dye @ DyeVat → 2 | 1 Astral Blue Dye, 1 Astral Orange Dye, 5 Astral Ore @ DyeVat → 2 |
 | Astralence | (nouvelle) | 10 Lethal Disease Canister, 1 Virulence @ AquaticHypercomputerFinished → 1 |
+| Astralination | (nouvelle) | 20 Stardust, 8 Any Iron Bar @ MythrilAnvil → 1 |
 | Astreal Defeat | 1 Spirit Flame, 1 Shadowflame Bow, 5 Luminite Bar, 5 Ashes of Calamity @ MythrilAnvil → 1 | 1 Spirit Flame, 1 Shadowflame Bow, 1 Continental Greatbow, 1 Bladedge Railbow, 1 Darkecho Greatbow, 5 Essence of Zot, 5 Luminite Bar, 25 Essential Essence Bar, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Astrum Aureus | 1 Astrum Aureus Trophy @ Bookcases → 1 | 1 Astrum Aureus Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Ataraxia | 1 Broken Hero Sword, 5 Auric Bar, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Broken Hero Sword, 5 Auric Bar, 8 Cosmilite Bar, 2 Ascendant Spirit Essence, 20 Nightmare Fuel, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
@@ -206,6 +207,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Baow | (nouvelle) | 1 Dark Shard, 1 Light Shard @ Anvils → 1 |
 | Barracuda Gun | 1 Piranha Gun, 5 Luminite Bar, 2 Shark Fin @ MythrilAnvil → 1 | 2 Piranha Gun, 2 Core of Calamity, 1 Life Alloy, 2 Shark Fin, 5 Crocodile Scale, 5 Essential Essence Bar @ MythrilAnvil → 1 |
 | Basher | 15 Acidwood, 12 Sulphuric Scale @ Anvils → 1 | 12 Sulphuric Scale, 30 Acidwood @ Anvils → 1 |
+| Batfly Bait | (nouvelle) | 1 Living Shard, 7 Depth Cells, 13 Purified Gel, 9 Alloy Bar @ MythrilAnvil → 1 |
 | Battle Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Beastial Pickaxe | 15 Perennial Bar @ MythrilAnvil → 1 | 7 Perennial Bar, 1 Chlorophyte Pickaxe @ MythrilAnvil → 1 |
 | Berserker Waraxe | 10 Perennial Bar @ MythrilAnvil → 1 | 9 Perennial Bar, 1 Chlorophyte Greataxe @ MythrilAnvil → 1 |
@@ -380,6 +382,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Contaminated Bile | (nouvelle) | 1 Bottled Water, 10 Urchin Stinger @ Bottles → 1 |
 | Continental Greatbow | 10 Abyss Bar @ MythrilAnvil → 1 | 10 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Cooked Fish | (nouvelle) | 1 Crag Bullhead @ CookingPots → 1 |
+| Cool Item | (nouvelle) | 22 Soul of Night, 22 Core of Chaos, 22 Shatterite Bar @ AquaticHypercomputerVault → 1 |
 | Core of Babil | (nouvelle) | 1 Essence of Babil, 1 Hallowed Bar @ MythrilAnvil → 3 |
 | Core of Calamity | 1 Essence of Sunlight, 1 Essence of Chaos, 1 Essence of Eleum, 1 Ashes of Calamity, 1 Ectoplasm @ MythrilAnvil → 1 | 3 Core of Sunlight, 3 Core of Eleum, 3 Core of Chaos, 3 Core of Babil, 3 Core of Rend, 3 Unholy Core, 3 Ashes of Calamity, 1 Essential Essence Bar @ MythrilAnvil → 1 |
 | Core of Chaos | (nouvelle) | 1 Essence of Chaos, 1 Hallowed Bar @ MythrilAnvil → 3 |
@@ -515,6 +518,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Elemental Bow | (nouvelle) | 5 Galactica Singularity, 7 Elemental Bar, 5 Luminite Bar, 1 Terra Bow, 1 Flaming Ice Bow, 1 Baow @ LunarCraftingStation → 1 |
 | Elemental Capsule Box | (nouvelle) | 10 Galactica Singularity, 5 Life Alloy, 15 Astral Bar, 20 Depth Cells, 15 Lumenyl @ MythrilAnvil → 1 |
 | Elemental Claymore | (nouvelle) | 34 Catastrophe Clay Ore, 4 Galactica Singularity, 8 Elemental Bar, 4 Core of Calamity, 4 Life Alloy, 4 Luminite Bar @ LunarCraftingStation → 1 |
+| Elemental Delight | (nouvelle) | 1 Desert Medallion, 1 Seafood, 5 Elemental Bar, 5 Galactica Singularity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Elemental Disk | 1 Terra Disk, 5 Luminite Bar, 5 Life Alloy, 5 Meld Blob @ MythrilAnvil → 1 | 1 Mangrove Chakram, 1 Subduction Slicer, 1 Terra Disk, 8 Elemental Bar, 5 Galactica Singularity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Elemental Dye | 1 Solar Dye, 1 Vortex Dye, 1 Nebula Dye, 1 Stardust Dye, 1 Meld Dye @ DyeVat → 5 | 1 Solar Dye, 1 Vortex Dye, 1 Nebula Dye, 1 Stardust Dye, 1 Galactica Singularity @ DyeVat → 5 |
 | Elemental Eruption | 1 Terra Flameburster, 5 Luminite Bar, 5 Life Alloy, 5 Vortex Fragment @ MythrilAnvil → 1 | 10 Elemental Bar, 5 Galactica Singularity, 1 Terra Flameburster, 1 Meowthrower, 1 Blight Spewer, 1 Havoc's Breath, 5 Luminite Bar @ LunarCraftingStation → 1 |
