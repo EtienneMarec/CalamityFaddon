@@ -1764,6 +1764,23 @@ Armes qui sont des ingrédients de recettes du wiki (pages d'addon comprises). V
 - **[choix]** Heaven Piercer : hache 180 % ; laser du clic droit : 40 images à 4 mises à jour (~ 40 blocs), casse ce qu'une
   pioche de 275 % casse, pas les coffres.
 
+### Lot L du 19/11 (`Content/Items/Weapons/WikiWeapons1119i.cs`)
+
+Ingrédients de recettes du wiki (pages d'addon comprises). Valeurs des infobox.
+
+- **[choix]** Onyx Gunblade : avec des balles (cherchées comme une arme à feu, non consommées), chaque coup tire un Black
+  Bolt (145 %, comme l'Onyx Blaster de Calamity) et 2 à 7 balles en éventail vers le curseur, en dégâts à distance.
+- **[choix]** Onyx Staff : 3 traits à ±0,12 rad, explosion de 60 px à la moitié des dégâts.
+- **[choix]** Thunder Bolt / Aero Bolt / Plasmaflash Bolt : même projectile ; 4 / 3 / 10 ennemis, 4 / 3 / 0 rebonds ;
+  Plasmaflash à vitesse x2 (« fast-moving ») avec l'image du wiki ; Electrified 3 s / rien / 10 s.
+- **[choix]** Rose Bow : éventail de ±0,06 rad ; flèche d'énergie = Chlorophyte Arrow rose ; 3 entailles à 8 images.
+- **[choix]** Pumplerfaust : citrouille vanilla blanchie, pleine en 5 s ; explosion de 60 à 160 px, dégâts x1 à x2 ;
+  pleine : brume de 200 px pendant 5 s à 30 %.
+- **[choix]** Gourdler : une grenade de plus toutes les 36 images (8 au plus) ; grenades = citrouille verte ; 6 épines
+  (Sharp Tears vanilla) à 30 % au contact d'un ennemi.
+- **[choix]** Celestial Nuke : aura de 300 px pendant 3 s (55 %), 8 braises (40 %, God Slayer Inferno de Calamity 5 s pour
+  « Embers of Duality »), 4 traits chercheurs (80 %) ; frappe furtive : dégâts x1,5, deux fois plus de braises et de traits.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

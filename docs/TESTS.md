@@ -886,6 +886,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       tous les 17 tirs), Confection (gâteau → flaques de glaçage), Dual Cane (hélice noire et blanche), Ichor Dagger (rebonds),
       Heaven Piercer (foreuse ; clic droit : laser qui creuse un tunnel).
 
+- [ ] Lot L (`WikiWeapons1119i.cs`) : Onyx Gunblade (avec des balles dans l'inventaire : tirs à chaque coup), Onyx Staff,
+      Thunder/Aero/Plasmaflash Bolt (rebonds), Rose Bow (entailles roses), Pumplerfaust (maintenir 5 s : grosse explosion +
+      brume), Gourdler (maintenir : jusqu'à 8 courges), Celestial Nuke (aura violette, braises, étoiles).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

@@ -1941,6 +1941,15 @@ Items: {
 
 	Weapons: {
 		Rogue: {
+			CelestialNuke: {
+				DisplayName: Celestial Nuke
+				Tooltip:
+					'''
+					Throws what is essentially a pocket nuke to make your enemies feel the fallout
+					Stealth strikes empowers its lethality
+					'''
+			}
+
 			IchorDagger: {
 				DisplayName: Ichor Dagger
 				Tooltip:
@@ -2599,6 +2608,63 @@ Items: {
 			Right click to fire a helix laser that instantly breaks tiles it touches
 			'''
 	}
+	OnyxGunblade: {
+		DisplayName: Onyx Gunblade
+		Tooltip:
+			'''
+			Sword of the clan
+			Uses bullets to fires onyx blasts
+			'''
+	}
+
+	OnyxStaff: {
+		DisplayName: Onyx Staff
+		Tooltip: Shoots three black bolts
+	}
+
+	ThunderBolt: {
+		DisplayName: Thunder Bolt
+		Tooltip: Casts a slow-moving ball of lightning
+	}
+
+	AeroBolt: {
+		DisplayName: Aero Bolt
+		Tooltip: Casts a slow-moving mini hurricanes
+	}
+
+	PlasmaflashBolt: {
+		DisplayName: Plasmaflash Bolt
+		Tooltip: Casts a quick-moving ball of plasma
+	}
+
+	RoseBow: {
+		DisplayName: Rose Bow
+		Tooltip:
+			'''
+			'Even if you can't see me, even if you can't hear me, I'll be by your side'
+			Fires a fast stream of arrows
+			Wooden arrows are converted into energy arrows that slash hit enemies
+			'''
+	}
+
+	Pumplerfaust: {
+		DisplayName: Pumplerfaust
+		Tooltip:
+			'''
+			Hold left click to inflate a white pumpkin at the tip of the weapon's barrel
+			Release to shoot the pumpkin, which will explode on impact
+			If the pumpkin is fully charged, it will create a massive explosion with lingering mist
+			'''
+	}
+
+	Gourdler: {
+		DisplayName: Gourdler
+		Tooltip:
+			'''
+			Hold left click to load up to eight gourd grenades into the gun
+			Gourd grenades explode into a burst of spikes
+			'''
+	}
 }
 
 Projectiles: {
@@ -3200,6 +3266,57 @@ Projectiles: {
 
 	HelixLaser: {
 		DisplayName: Helix Laser
+	}
+	OnyxBolt: {
+		DisplayName: Onyx Bolt
+	}
+
+	BoltBall: {
+		DisplayName: Bolt
+	}
+
+	RoseArrow: {
+		DisplayName: Energy Arrow
+	}
+
+	RoseSlash: {
+		DisplayName: Slash
+	}
+
+	WhitePumpkin: {
+		DisplayName: White Pumpkin
+	}
+
+	PumpkinBlast: {
+		DisplayName: Pumpkin Explosion
+	}
+
+	PumpkinMist: {
+		DisplayName: White Mist
+	}
+
+	GourdlerHoldout: {
+		DisplayName: Gourdler
+	}
+
+	GourdGrenade: {
+		DisplayName: Gourd Grenade
+	}
+
+	CelestialNukeProj: {
+		DisplayName: Celestial Nuke
+	}
+
+	StarlitAura: {
+		DisplayName: Starlit Aura
+	}
+
+	GodSlayerEmber: {
+		DisplayName: God Slayer Ember
+	}
+
+	CelestialBolt: {
+		DisplayName: Celestial Bolt
 	}
 }
 

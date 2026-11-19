@@ -13,7 +13,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Acidic Rain Barrel
 - [ ] Aergian Technistaff — addon: Hypnos in Calamity
 - [ ] Aeries
-- [ ] Aero Bolt — addon: Calamity: Community Remix
+- [x] Aero Bolt — addon: Calamity: Community Remix
 - [x] Aflaming Crystalliser
 - [x] Aftershock
 - [x] Alpha Ray
@@ -66,7 +66,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Catastrophe Claysiphonophore
 - [x] Catastrophe Clayspore
 - [x] Caustic Claw
-- [ ] Celestial Nuke — addon: Deimos, the Starborn Princess
+- [x] Celestial Nuke — addon: Deimos, the Starborn Princess
 - [x] Celesticus
 - [ ] Cent Striker — addon: Calamity: Tales of the Aquatic
 - [ ] Chain Spear — addon: Calamity: Community Remix
@@ -187,7 +187,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Gluehunter — addon: Calamity: Tales of the Aquatic
 - [ ] Gluelic Blade — addon: Calamity: Tales of the Aquatic
 - [x] Golden Gun
-- [ ] Gourdler — addon: Calamity: Community Remix
+- [x] Gourdler — addon: Calamity: Community Remix
 - [x] Grand Gar
 - [ ] Grand Purification — addon: Calamity: Community Remix
 - [ ] Grand Reef
@@ -275,10 +275,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Obsidigun
 - [ ] Ogscule — addon: Calamity's Vanities
 - [ ] Omega Ray — addon: Calamity: Community Remix
-- [ ] Onyx Gunblade — addon: Calamity: Community Remix
+- [x] Onyx Gunblade — addon: Calamity: Community Remix
 - [x] Onyx Minigun
 - [x] Onyx Purge
-- [ ] Onyx Staff — addon: Calamity: Community Remix
+- [x] Onyx Staff — addon: Calamity: Community Remix
 - [ ] Ore Spawner Staff
 - [ ] Outplanetary Dartshooter — addon: Calamity: Tales of the Aquatic
 - [ ] Overloaded Combatant Blaster — addon: Calamity: Tales of the Aquatic
@@ -297,7 +297,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Plaguecom Tablet — addon: Calamity: Community Remix
 - [ ] Planetarium — addon: Calamity: Community Remix, Hypnos in Calamity
 - [ ] Planterror Staff
-- [ ] Plasmaflash Bolt — addon: Cataclysm
+- [x] Plasmaflash Bolt — addon: Cataclysm
 - [ ] Plumage Pow
 - [x] Poison I-Bee
 - [x] Poison Pack
@@ -306,7 +306,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Profaned Nucleus — addon: Calamity: Community Remix
 - [ ] Profaned Whiplash — addon: Tranquility Mod
 - [ ] Prominence — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
-- [ ] Pumplerfaust — addon: Calamity: Community Remix
+- [x] Pumplerfaust — addon: Calamity: Community Remix
 - [x] Pungent Bomber
 - [ ] Purgatory Blaster — addon: Calamity: Tales of the Aquatic
 - [ ] Quadlens Staff — addon: Calamity: Community Remix
@@ -326,7 +326,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Ribbon Flintlock Rifle Cannon
 - [ ] Rivers of Frost — addon: Calamity: Community Remix
 - [x] Rods from God
-- [ ] Rose Bow — addon: Calamity: Community Remix
+- [x] Rose Bow — addon: Calamity: Community Remix
 - [ ] Rox — addon: Calamity: Community Remix
 - [x] SDOMG
 - [ ] Salt Booklet — addon: Cataclysm
@@ -407,7 +407,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] The Princess
 - [x] The Reaper
 - [ ] The Watered Pew Pew — addon: Calamity: Tales of the Aquatic
-- [ ] Thunder Bolt — addon: Cataclysm
+- [x] Thunder Bolt — addon: Cataclysm
 - [ ] Tiny Planet
 - [ ] Titan Tides — addon: Catalyst
 - [x] Titanslayer

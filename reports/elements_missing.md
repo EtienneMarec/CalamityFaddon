@@ -75,7 +75,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (262)
+## Objets (253)
 
 - A M S
 - AAMG "Disperse"
@@ -84,7 +84,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Ace's Low
 - Aegis Core
 - Aergian Technistaff
-- Aero Bolt
 - Angel's Thesis
 - Aquarel Pistol
 - Aquatic Shardstone
@@ -105,7 +104,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Butcher's Glove
 - Calamitous Vortex
 - Catarachedrae
-- Celestial Nuke
 - Cent Striker
 - Chain Spear
 - Chain-Saw
@@ -182,7 +180,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Gluehunter
 - Gluelic Blade
 - God's Paranoia
-- Gourdler
 - Grand Purification
 - Grand Reef
 - Grarble Bayonet
@@ -226,9 +223,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Nystagmus
 - Ogscule
 - Omega Ray
-- Onyx Gunblade
 - Onyx Overlord's Gunsaw
-- Onyx Staff
 - OPFT "Sublimate"
 - Outplanetary Dartshooter
 - Overloaded Combatant Blaster
@@ -242,14 +237,12 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Plagued Minecart
 - Planetarium
 - Planterror Staff
-- Plasmaflash Bolt
 - Plumage Pow
 - Prism Destroyer
 - Profaned Crystal Dart
 - Profaned Fire Dart
 - Profaned Nucleus
 - Prominence
-- Pumplerfaust
 - Purgatory Blaster
 - Quadlens Staff
 - Quantum Flahium Ejection Device
@@ -266,7 +259,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - RGB Graydron
 - Ribbon Flintlock Rifle Cannon
 - Rivers of Frost
-- Rose Bow
 - Rox
 - Rusty Flamethrower
 - Salt Booklet
@@ -305,7 +297,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The Verboten One
 - The Watered Pew Pew
 - The WOBbler
-- Thunder Bolt
 - Titan Tides
 - Totality Tides
 - Twin Cranes
