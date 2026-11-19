@@ -3784,6 +3784,49 @@ Items: {
 			[c/3c1d59:'Until the world is shrouded in sweet dreams... The festival must go on.']
 			'''
 	}
+	Braxaxe: {
+		DisplayName: Braxaxe
+		Tooltip:
+			'''
+			Left click to rip apart blocks and trees
+			Right click to tear down trees and walls
+			'''
+	}
+
+	Destinary: {
+		DisplayName: Destinary
+		Tooltip:
+			'''
+			Flings out razor exo disks towards the cursor that return back to the player
+			This weapon and its projectiles function as a chainsaw
+			'''
+	}
+
+	GrarbleObliterator: {
+		DisplayName: Grarble Obliterator
+	}
+
+	TwistedNetheriteAxe: {
+		DisplayName: Twisted Netherite Axe
+	}
+
+	TwistedNetheritePickaxe: {
+		DisplayName: Twisted Netherite Pickaxe
+	}
+
+	TwistedNetheriteShovel: {
+		DisplayName: Twisted Netherite Shovel
+		Tooltip: Digs out a 10 by 10 square of tiles
+	}
+
+	MeldSkinPotion: {
+		DisplayName: Meld Skin Potion
+		Tooltip: Increases player defense by 22
+	}
+
+	SupremeStrangeBrew: {
+		DisplayName: Supreme Strange Brew
+	}
 }
 
 Projectiles: {
@@ -5210,6 +5253,17 @@ Projectiles: {
 	DreamyCrescent: {
 		DisplayName: Crescent Wave
 	}
+	GrarbleObliteratorProj: {
+		DisplayName: Grarble Obliterator
+	}
+
+	DestinaryHoldout: {
+		DisplayName: Destinary
+	}
+
+	ExoDisk: {
+		DisplayName: Exo Disk
+	}
 }
 
 Shortstrike.Gauge:
@@ -5598,6 +5652,10 @@ Buffs: {
 	ExoElementalBuff: {
 		DisplayName: Exo Elemental
 		Description: An Exo Elemental protects you
+	}
+	MeldSkin: {
+		DisplayName: Meld Skin
+		Description: Defense is increased by 22
 	}
 }
 

@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1661 objets dont les recettes ont changé : 1050 recettes modifiées, 711 créées
+- 1669 objets dont les recettes ont changé : 1050 recettes modifiées, 719 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -275,6 +275,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Bouncy Spiky Ball | (nouvelle) | 20 Spiky Ball, 1 Pink Gel @ WorkBenches → 20 |
 | Bounding Potion | 1 Bottled Water, 10 Blood Orb @ AlchemyTable → 1 | 1 Bottled Water, 2 Unholy Core @ AlchemyTable → 1 |
 | Bounding Potion | 1 Bottled Water, 1 Pink Gel, 1 Moonglow @ Bottles → 1 | 1 Bottled Water, 1 Bunny, 1 Daybloom @ Bottles → 3 |
+| Braxaxe | (nouvelle) | 1 Astral Pickaxe, 1 Grax, 1 Any Lunar Pickaxe, 1 Marnite Obliterator, 1 Heaven Piercer, 1 Miracle Matter @ DraedonsForge → 1 |
 | Breakthrough | (nouvelle) | 20 Enchanted Metal, 15 Boreal Wood, 1 Spectre Paint Scraper @ Hellforge → 1 |
 | Brimblade | 8 Unholy Core @ MythrilAnvil → 1 | 10 Mollusk Husk, 4 Unholy Core @ MythrilAnvil → 1 |
 | Brimflame Boots | 10 Unholy Core, 6 Ashes of Calamity @ MythrilAnvil → 1 | 10 Mollusk Husk, 5 Ashes of Calamity, 3 Unholy Core @ MythrilAnvil → 1 |
@@ -458,6 +459,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Desert Prowler Hat | 2 Stormlion Mandible, 8 Silk @ Loom → 1 | 2 Desert Feather, 8 Silk @ Loom → 1 |
 | Desert Prowler Pants | 1 Stormlion Mandible, 5 Silk @ Loom → 1 | 1 Desert Feather, 5 Silk @ Loom → 1 |
 | Desert Prowler Shirt | 3 Stormlion Mandible, 10 Silk @ Loom → 1 | 3 Desert Feather, 10 Silk @ Loom → 1 |
+| Destinary | (nouvelle) | 1 Photon Ripper, 1 Zenith, 5 Shadowspec Bar, 20 Soul of Plight @ DraedonsForge → 1 |
 | Dethermination | (nouvelle) | 20 Waterfreeze Reactive Essence @ DraedonsForge → 1 |
 | Devastation | (nouvelle) | 1 Catastrophe Claymore, 5 Luminite Bar, 10 Astral Bar, 10 Meteorite Bar @ LunarCraftingStation → 1 |
 | Devil's Devastation | 1 True Forbidden Oathblade, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Devastation, 1 True Forbidden Oathblade, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 |
@@ -735,6 +737,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Grape Beer | (nouvelle) | 5 Ale, 40 Blood Orb, 1 Unicorn Horn @ AlchemyTable → 5 |
 | Grape Beer | 10 Bottle, 1 Grapes @ Kegs → 10 | 5 Ale, 1 Grape Juice, 1 Unicorn Horn @ Kegs → 5 |
 | Grarble Bayonet | (nouvelle) | 7 Any Gold Bar, 5 Marble Block, 5 Granite Block @ Anvils → 1 |
+| Grarble Obliterator | (nouvelle) | 5 Granite Block, 5 Marble Block, 3 Any Gold Bar @ Anvils → 1 |
 | Grarble Spear | (nouvelle) | 5 Any Gold Bar, 9 Marble Block, 9 Granite Block @ Anvils → 1 |
 | Gravitation Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Gravitonomy Pike | (nouvelle) | 1 Elemental Lance, 1 Stream Gouge, 1 Nadir, 1 Banshee Hook, 1 Insidious Impaler, 1 Miracle Matter @ DraedonsForge → 1 |
@@ -917,6 +920,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Meld Bar | (nouvelle) | 3 Stardust, 6 Meld Blob @ LunarCraftingStation → 3 |
 | Meld Bar | (nouvelle) | 1 Astral Bar, 5 Meld Ore @ AquaticHypercomputerCapsules → 1 |
 | Meld Flah | (nouvelle) | 1 Hemorraize, 2 Meld Blob, 2 Astral Ore @ LunarCraftingStation → 1 |
+| Meld Skin Potion | (nouvelle) | 1 Core of Babil, 5 Meld Blob, 1 Cobalt Skin Potion @ AquaticHypercomputerCapsules → 1 |
 | Meridian | (nouvelle) | 5 Shadowspec Bar, 1 Zenith, 1 Nadir, 1 Ark of the Cosmos @ DraedonsForge → 1 |
 | Metal Detector | (nouvelle) | 10 Wire, 5 Gold Dust, 5 Spelunker Glowstick, 5 Any Gold Bar @ MythrilAnvil → 1 |
 | Miasma | 1 Nimbus Rod, 1 Aquamarine Staff, 10 Corroded Fossil @ Anvils → 1 | 1 Nimbus Rod, 10 Corroded Fossil, 4 Coyote Venom @ Anvils → 1 |
@@ -1507,6 +1511,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Supreme Healing Potion | 4 Super Healing Potion, 3 Bloodstone @ Bottles → 4 | 1 Super Healing Potion, 8192 Delicious Meat @ LunarCraftingStation → 1 |
 | Supreme Mana Potion | 15 Super Mana Potion, 1 Phantoplasm @ Bottles → 15 | 1 Super Mana Potion, 1 Phantoplasm @ LunarCraftingStation → 1 |
 | Supreme Onyx Drill | (nouvelle) | 1 Heaven Piercer, 1 Crystyl Crusher, 20 Pulsing Night Essence @ AquaticHypercomputerFinished → 1 |
+| Supreme Strange Brew | (nouvelle) | 10 Strange Brew, 1 Fae Dust @ LunarCraftingStation → 10 |
 | Svantechnical | 1 Infinity, 5 Shadowspec Bar @ DraedonsForge → 1 | 1 SDFMG, 1 Clockwork Bar, 10 Soul of Might, 10 Soul of Sight, 10 Soul of Fright, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Swiftness Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Swirling Cosmic Flame Dye | 1 Blue Cosmic Flame Dye, 1 Pink Cosmic Flame Dye @ DyeVat → 2 | 1 Blue Cosmic Flame Dye, 1 Pink Cosmic Flame Dye @ DyeVat → 1 |
@@ -1645,9 +1650,12 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Twenty-Twloon | (nouvelle) | 1 Twentloon, 1 Dualpoon, 1 22 Hornet Round, 10 Exo Prism, 5 Soul of Plight @ DraedonsForge → 1 |
 | Twilight Dye | (nouvelle) | 1 Bottled Water, 1 Stardust @ DyeVat → 1 |
 | Twin Cranes | (nouvelle) | 1 Rover Drive, 2 Duck, 50 Tarragon Bar, 5 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| Twisted Netherite Axe | (nouvelle) | 3 Twisted Netherite Bar, 2 Any Wood @ HeavyWorkBench → 1 |
 | Twisted Netherite Bar | (nouvelle) | 1 Cosmilite Bar, 5 Debris Ore @ AquaticHypercomputerCapsules → 1 |
 | Twisted Netherite Bar | (nouvelle) | 1 Twisting Nether, 3 Cosmilite Slag @ HeavyWorkBench → 3 |
+| Twisted Netherite Pickaxe | (nouvelle) | 3 Twisted Netherite Bar, 2 Any Wood @ HeavyWorkBench → 1 |
 | Twisted Netherite Scythe | (nouvelle) | 2 Twisted Netherite Bar, 2 Any Wood @ HeavyWorkBench → 1 |
+| Twisted Netherite Shovel | (nouvelle) | 1 Twisted Netherite Bar, 2 Any Wood @ HeavyWorkBench → 1 |
 | Twisted Netherite Sword | (nouvelle) | 2 Twisted Netherite Bar, 1 Any Wood @ HeavyWorkBench → 1 |
 | Typhon's Greed | 30 Voidstone, 30 Depth Cells @ MythrilAnvil → 1 | 30 Depth Cells, 10 Lumenyl, 10 Crocodile Scale @ MythrilAnvil → 1 |
 | Tyranny's End | 1 Rubico Prime, 1 Anti-materiel Rifle, 5 Auric Bar, 3 Life Alloy @ CosmicAnvil → 1 | 1 Golden Eagle, 1 Anti-materiel Rifle, 5 Auric Bar @ CosmicAnvil → 1 |
@@ -1789,7 +1797,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Aquatic Biomass — 1
 - objet : Arcanoid Orb — 1
 - objet : Auric Sludge Remnant — 1
-- objet : Braxaxe — 1
 - objet : Catarachedrae — 1
 - objet : Clotted Gel — 1
 - objet : Deck of Souls — 1
@@ -1817,3 +1824,4 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : The King's Gambit — 1
 - objet : Violet Heart of Calamity — 1
 - objet : Visceral Biomass — 1
+- objet : World Breaker — 1

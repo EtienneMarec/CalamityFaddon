@@ -435,7 +435,10 @@ namespace CalamityFandom.Common.Debug
                 ModContent.ItemType<Content.Items.Weapons.Magic.RamsRevenge>(), ModContent.ItemType<Content.Items.Weapons.Magic.ShadingManual>(), ModContent.ItemType<Content.Items.Weapons.Rogue.ShadowsDescent>() ,
                 ModContent.ItemType<Content.Items.Accessories.FathomlessSoulArtifact>(), ModContent.ItemType<Content.Items.Accessories.MobiliteCore>(), ModContent.ItemType<Content.Items.Accessories.RavenousSoulArtifact>(),
                 ModContent.ItemType<Content.Items.Accessories.NightCloak>(), ModContent.ItemType<Content.Items.Accessories.ExoticBeacon>(), ModContent.ItemType<Content.Items.Accessories.LunarspectreTracers>(),
-                ModContent.ItemType<Content.Items.Accessories.DreamyBelt>() })
+                ModContent.ItemType<Content.Items.Accessories.DreamyBelt>() ,
+                ModContent.ItemType<Content.Items.Tools.Braxaxe>(), ModContent.ItemType<Content.Items.Tools.Destinary>(), ModContent.ItemType<Content.Items.Tools.GrarbleObliterator>(),
+                ModContent.ItemType<Content.Items.Tools.TwistedNetheriteAxe>(), ModContent.ItemType<Content.Items.Tools.TwistedNetheritePickaxe>(), ModContent.ItemType<Content.Items.Tools.TwistedNetheriteShovel>(),
+                ModContent.ItemType<Content.Items.Potions.MeldSkinPotion>(), ModContent.ItemType<Content.Items.Potions.SupremeStrangeBrew>() })
                 Expect(Main.recipe.Take(Recipe.numRecipes).Any(r => r.createItem.type == ported && !r.Disabled),
                     $"recette du wiki de {Lang.GetItemNameValue(ported)}");
             // Ensemble « War » (31/10) : armes de l'armée gobeline, butin des pages d'objets

@@ -2207,6 +2207,20 @@ Armes fabricables (recettes du wiki) et debuffs Wither et Shred. Valeurs des inf
   40 images ; touche « Butterfly Release » (G par défaut) : ils foncent vers le curseur (1,5 s) puis disparaissent ;
   avec les 5 papillons, un coup de vraie mêlée lance l'onde (dégâts de l'arme, 1,5 s), recharge 5 s.
 
+### Lot AH du 19/11 (`Content/Items/Tools/WikiTools1119b.cs`)
+
+Outils et potions fabricables (recettes du wiki). Puissance de hache de Terraria = valeur du wiki / 5.
+
+- **[choix]** Braxaxe : clic gauche pioche 299 % + hache, clic droit hache + marteau ; marteau ramené à 300 % (au-delà
+  rien ne change) ; cadence 1 ; +20 de portée. « Primordial Ore sous sa forme d'objet » non fait (pas de Primordial Ore).
+- **[choix]** Destinary : tronçonneuse (hache 600 = « infinie ») ; un disque (10 %, frappe à chaque image) toutes les 20
+  images, qui revient au curseur ou à 600 px et abat le bloc d'arbre qu'il traverse.
+- Grarble Obliterator : foreuse (pioche 50 %, hache 30 %), cadence de minage 6 (« toolspeed »).
+- **[choix]** Twisted Netherite Shovel : un carré de 10 x 10 blocs au curseur (à portée d'outil) par coup, avec la
+  pioche de 60 % (les blocs plus durs ou protégés restent).
+- **[choix]** Supreme Strange Brew : 200 PV puis 0 à 125 de plus au hasard ; Potion Sickness tirée entre 40 et 70 s.
+  La durée de Potion Sickness des potions du wiki (Active Healing Potion comprise) est maintenant fixée exactement.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

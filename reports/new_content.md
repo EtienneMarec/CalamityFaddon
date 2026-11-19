@@ -1038,7 +1038,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Leaves of Crabulon — addon: Calamity: Community Remix
 - [ ] Magma Booster — addon: Catalyst, Deimos, the Starborn Princess
 - [x] Meld Chip Ice Cream
-- [ ] Meld Skin Potion — addon: Calamity: Tales of the Aquatic
+- [x] Meld Skin Potion — addon: Calamity: Tales of the Aquatic
 - [x] Metabolic Converter — addon: Catalyst
 - [x] Penumbra Potion
 - [x] Potato Cat — addon: Calamity: Community Remix
@@ -1055,7 +1055,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Stratus Beverage
 - [x] Sugars of Calamity — addon: Calamity: Community Remix
 - [ ] Sunwitch — addon: Catalyst
-- [ ] Supreme Strange Brew — addon: Deimos, the Starborn Princess
+- [x] Supreme Strange Brew — addon: Deimos, the Starborn Princess
 - [x] Titan Finger
 - [x] Titan Scale Potion
 - [x] Triumph Potion
@@ -1134,7 +1134,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Astral Axe
 - [x] Astral Hammer
 - [ ] Aurikia-5220 — addon: Calamity: Community Remix
-- [ ] Braxaxe — addon: Deimos, the Starborn Princess
+- [x] Braxaxe — addon: Deimos, the Starborn Princess
 - [x] Carapace Hammer
 - [x] Catastrophe Claybore
 - [ ] Charger Test Item
@@ -1143,11 +1143,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Death
 - [ ] Deathwish — addon: Tranquility Mod
 - [ ] Defiled Feather
-- [ ] Destinary — addon: Calamity: Community Remix
+- [x] Destinary — addon: Calamity: Community Remix
 - [x] Dusty Axe
 - [ ] Fishing Poles — pas de sprite
 - [ ] Gem of Exodygen — addon: Sloome
-- [ ] Grarble Obliterator — addon: Calamity: Community Remix
+- [x] Grarble Obliterator — addon: Calamity: Community Remix
 - [x] Gusthammer
 - [x] Heaven Piercer — addon: Calamity: Community Remix
 - [ ] Honey Cooling Cell
@@ -1173,9 +1173,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Codseeker — addon: Calamity: Community Remix
 - [ ] The WOBbler
 - [ ] Tormented Mind of Malice
-- [ ] Twisted Netherite Axe — addon: Calamity: Community Remix
-- [ ] Twisted Netherite Pickaxe — addon: Calamity: Community Remix
-- [ ] Twisted Netherite Shovel — addon: Calamity: Community Remix
+- [x] Twisted Netherite Axe — addon: Calamity: Community Remix
+- [x] Twisted Netherite Pickaxe — addon: Calamity: Community Remix
+- [x] Twisted Netherite Shovel — addon: Calamity: Community Remix
 - [ ] Umbren Sprayer — addon: Catalyst
 - [x] Waraxe
 - [x] Windslasher

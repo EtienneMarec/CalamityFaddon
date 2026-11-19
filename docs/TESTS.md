@@ -977,6 +977,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Artifact (ruées : double appui), Night Cloak (PV x3 ; avec un boss Elemental : Obstructed), Exotic Beacon
       (élémentaire), Lunarspectre Tracers (fées en courant), Dreamy Belt (papillons, touche G, onde en croissant).
 
+- [ ] Lot AH : Braxaxe (clic droit : murs), Destinary (disques qui coupent les arbres), Grarble Obliterator, outils en
+      Twisted Netherite (pelle : carré de 10 x 10), Meld Skin Potion (+22 défense), Supreme Strange Brew.
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

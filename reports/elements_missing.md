@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (139)
+## Objets (134)
 
 - A M S
 - AAMG "Disperse"
@@ -90,7 +90,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Blobfish Plushie
 - Blood Element
 - Bloodinator 1
-- Braxaxe
 - Bundle o' Bones
 - Butcher's Glove
 - Catarachedrae
@@ -109,7 +108,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Deck of Souls
 - Deicide
 - Demon Core
-- Destinary
 - Devious Aestheticus
 - Divine Hunters Staff
 - Draftogen
@@ -199,9 +197,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The WOBbler
 - Titan Tides
 - Totality Tides
-- Twisted Netherite Axe
-- Twisted Netherite Pickaxe
-- Twisted Netherite Shovel
 - Tyrant Shield
 - UserGrahkon/Sandbox
 - Vehement Gemstone

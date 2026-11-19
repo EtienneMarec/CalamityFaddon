@@ -152,7 +152,7 @@ namespace CalamityFandom.Content.Items.Potions
         }
     }
 
-    /// <summary>Raccourcit la Potion Sickness d'une potion du wiki (appliquée par Terraria après l'utilisation).</summary>
+    /// <summary>Fixe la durée de la Potion Sickness d'une potion du wiki (appliquée par Terraria après l'utilisation).</summary>
     public class ShortSicknessPlayer : ModPlayer
     {
         public int Pending;
@@ -161,13 +161,10 @@ namespace CalamityFandom.Content.Items.Potions
         {
             if (Pending <= 0 || Player.potionDelay <= 0)
                 return;
-            if (Player.potionDelay > Pending)
-            {
-                Player.potionDelay = Pending;
-                int i = Player.FindBuffIndex(BuffID.PotionSickness);
-                if (i >= 0)
-                    Player.buffTime[i] = Pending;
-            }
+            Player.potionDelay = Pending;
+            int i = Player.FindBuffIndex(BuffID.PotionSickness);
+            if (i >= 0)
+                Player.buffTime[i] = Pending;
             Pending = 0;
         }
     }
