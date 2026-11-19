@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (193)
+## Objets (188)
 
 - A M S
 - AAMG "Disperse"
@@ -193,7 +193,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Plaguecom Tablet
 - Plagued Minecart
 - Planetarium
-- Planterror Staff
 - Plumage Pow
 - Prism Destroyer
 - Profaned Crystal Dart
@@ -210,8 +209,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Regeterrence
 - Revolvin' Mc'Coy
 - RGB Graydron
-- Ribbon Flintlock Rifle Cannon
-- Rox
 - Rusty Flamethrower
 - Salt Booklet
 - Salt Water Bolt
@@ -230,11 +227,9 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Stratoctrine Spear
 - Stringstreaker
 - Tendon Tides
-- Tenebris Tides
 - Terrestrial Dart
 - Terreye Staff
 - Tetrachromancy
-- The Archalis
 - The Dreaming Ghost
 - The Godfather
 - The Inflator's Controller

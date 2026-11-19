@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1587 objets dont les recettes ont changé : 1046 recettes modifiées, 640 créées
+- 1592 objets dont les recettes ont changé : 1046 recettes modifiées, 645 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -1077,6 +1077,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Plagueplate | 25 Obsidian, 1 Plague Cell Canister @ Hellforge → 25 | 1 Plague Cell Canister, 3 Obsidian @ Hellforge → 3 |
 | Plantation Staff | 1 Eye of Night, 12 Living Shard @ MythrilAnvil → 1 | 10 Essence of Myst, 1 Optic Staff, 10 Living Shard @ MythrilAnvil → 1 |
 | Plantera | 1 Plantera Trophy @ Bookcases → 1 | 1 Plantera Trophy, 10 Conquest Fragment @ Bookcases → 1 |
+| Planterror Staff | (nouvelle) | 1 Rare Plantera Fruit, 1 Plantation Staff, 25 Living Shard, 15 Luminite, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Plasma Caster | 18 Mysterious Circuitry, 12 Dubious Plating, 8 Tarragon Bar, 4 Luminite Bar @ MythrilAnvil → 1 | 1 Reassembled Electronics, 8 Tarragon Bar, 4 Luminite Bar, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Plasma Grenade | 15 Mysterious Circuitry, 25 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 1 Cosmilite Bar, 1 Ascendant Spirit Essence, 1 Yharim Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Plasma Grenade | (nouvelle) | 3 Unholy Essence, 1 Divine Bar, 1 Cosmilite Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
@@ -1165,6 +1166,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Resurrection Butterfly | 5 Life Alloy, 2 Butterfly Dust, 40 Silk, 5 Ectoplasm @ Loom → 1 | 40 Silk, 20 Ectoplasm, 5 Life Alloy, 2 Butterfly Dust, 2003 Gold Butterfly @ Loom → 1 |
 | Revivify Potion | (nouvelle) | 5 Holy Water, 20 Stardust, 5 Sea Prism, 3 Fallen Star, 1 Scarred Angelfish @ AlchemyTable → 5 |
 | Revivify Potion | (nouvelle) | 5 Holy Water, 10 Unholy Core @ AlchemyTable → 5 |
+| Ribbon Flintlock Rifle Cannon | (nouvelle) | 1 Flintlock Pistol, 1 Pearl God, 10 Essence of Surt, 5 Ruinous Soul @ LunarCraftingStation → 1 |
 | Rift Reeler | 1 Hotline Fishing Hook, 8 Abyss Bar @ MythrilAnvil → 1 | 1 Hotline Fishing Hook, 1 Chum Caster, 8 Abyss Bar, 5 Grandiose Gland @ MythrilAnvil → 1 |
 | Riptide | 3 Conquest Fragment, 7 Sea Prism, 10 Navystone @ Anvils → 1 | 7 Sea Prism, 10 Navystone @ Anvils → 1 |
 | Rivers of Frost | (nouvelle) | 1 Coldheart Icicle, 1 Glacial Crusher, 1 Katana, 20 Endothermic Energy @ CosmicAnvil → 1 |
@@ -1173,6 +1175,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Rods from God | (nouvelle) | 1 Supercharged Dart Blaster, 15 Auric Bar, 20 Core of Sunlight, 100 Soul of Light @ CosmicAnvil → 1 |
 | Rose Bow | (nouvelle) | 1 Pearlwood Bow, 1 Arch Amaryllis, 10 Essence of Crystal, 5 Ruinous Soul, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Rot Ball | (nouvelle) | 1 Rotten Matter, 1 Rotten Chunk, 1 Demonite Bar @ DemonAltar → 100 |
+| Rox | (nouvelle) | 1 Roxcalibur, 1 Extractinator, 10 Solar Fragment, 1 Golden Key @ LunarCraftingStation → 1 |
 | Roxcalibur | 25 Hellstone Bar, 10 Soul of Night, 5 Essence of Chaos, 10 Obsidian, 100 Any Stone Block, 2 Amethyst @ Anvils → 1 | 25 Hellstone Bar, 10 Soul of Night, 5 Essence of Chaos, 10 Obsidian, 100 Stone Block, 2 Amethyst, 12 Alloy Bar @ Anvils → 1 |
 | Rubber Mortar Round | 100 Mortar Round, 5 Pink Gel @ WorkBenches → 100 | 5 Pink Gel, 100 Mortar Round @ LunarCraftingStation → 100 |
 | Rubico Prime | 1 Nitro Express Rifle, 1 Illegal Gun Parts, 8 Abyss Bar @ MythrilAnvil → 1 | 1 Pestilent Defiler, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 |
@@ -1471,6 +1474,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Temporal Floe Sword | (nouvelle) | 15 Cryonic Bar, 15 Sea Prism, 10 Ectoplasm, 5 Spectre Bar, 2 The sword is inside the core @ IceMachine → 1 |
 | Temporal Umbrella | 1 Virid Vanguard, 1 Saros Possession, 1 Umbrella, 1 Top Hat, 5 Shadowspec Bar @ DraedonsForge → 1 | 1 Saros Possession, 15 Soul of Plight, 1 Umbrella, 1 Top Hat, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Tenebreus Tides | 1 Amidias' Trident, 1 Atlantis, 1 Influx Waver, 50 Lumenyl @ LunarCraftingStation → 1 | 1 Amidias' Trident, 1 Atlantis, 1 Influx Waver, 20 Sea Prism, 25 Tenebris, 50 Lumenyl @ LunarCraftingStation → 1 |
+| Tenebris Tides | (nouvelle) | 1 Tenebreus Tides, 1 Typhon's Greed, 10 Luminite Bar, 50 Tenebris, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Tequila | (nouvelle) | 5 Ale, 40 Blood Orb, 1 Unicorn Horn @ AlchemyTable → 5 |
 | Tequila | 10 Bottle, 3 Stormlion Mandible, 10 Stardust @ Kegs → 10 | 5 Ale, 20 Hay, 1 Unicorn Horn @ Kegs → 5 |
 | Tequila Sunrise | (nouvelle) | 5 Everclear, 5 Blood Orb, 1 Beetle Husk @ AlchemyTable → 5 |
@@ -1495,6 +1499,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | The Absorber | 1 Grand Gelatin, 1 Baroclaw, 1 Giant Tortoise Shell, 5 Mollusk Husk, 14 Meld Blob @ LunarCraftingStation → 1 | 1 Grand Gelatin, 1 Craw Carapace / Giant Shell, 1 Fungal Carapace, 1 Giant Tortoise Shell, 1 Regenator, 1 Rover Drive, 15 Depth Cells, 15 Lumenyl, 5 Tenebris, 5 Mollusk Husk, 10 Essential Essence Bar, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | The Amalgam | 1 Amalgamated Brain, 4 Ascendant Spirit Essence, 12 Ashes of Calamity, 15 Essence of Eleum, 15 Plague Cell Canister, 20 Depth Cells, 4 Armored Shell @ CosmicAnvil → 1 | 1 Amalgamated Brain, 1 Void of Extinction, 1 The Camper, 1 Plague Hive, 1 Corrosive Spine, 1 Leviathan Ambergris, 1 Spore Sac, 1 Blazing Core, 1 The Evolution, 1 Affliction, 1 Giant Pearl, 1 Frost Flare, 1 Astral Arcanum, 1 Sulfuric Scale, 15 Corroded Fossil, 5 Unholy Core, 10 Mollusk Husk, 15 Plague Cell Canister, 4 Ascendant Spirit Essence, 5 Cosmilite Bar, 99 Yharim Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | The Anomaly's Nanogun | 20 Mysterious Circuitry, 20 Dubious Plating, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Reassembled Electronics, 8 Cosmilite Bar, 2 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| The Archalis | (nouvelle) | 1 Arkhalis, 1 Meowmere, 10 Ruinous Soul, 20 Essential Essence Bar @ LunarCraftingStation → 1 |
 | The Ballista | 1 Marrow, 1 Forbidden Fragment, 5 Ectoplasm @ MythrilAnvil → 1 | 1 Marrow, 1 Forbidden Fragment, 10 Ectoplasm @ MythrilAnvil → 1 |
 | The Brain of Cthulhu | 1 Brain of Cthulhu Trophy @ Bookcases → 1 | 1 Brain of Cthulhu Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Corruption | 1 Eater of Worlds Trophy @ Bookcases → 1 | 1 Eater of Worlds Trophy, 10 Conquest Fragment @ Bookcases → 1 |

@@ -939,6 +939,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Bow (flèches en chaîne), Dethermination (entailles), Clamor Noxus (étoiles et Noxlings du ciel), Lunatic Beats
       (boomerang aux pouvoirs lunaires).
 
+- [ ] Lot Y : Rox (éclats ; clic droit en l'air : plongée), The Archalis (caracal de temps en temps), Tenebris Tides (bâton
+      qui tourne, lances), Ribbon Flintlock Rifle Cannon (clic droit : rubans), Planterror Staff (mini Guntera, 3 modes).
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

@@ -3211,6 +3211,52 @@ Items: {
 			Deals extra damage as it returns
 			'''
 	}
+	Rox: {
+		DisplayName: Rox
+		Tooltip:
+			'''
+			The sword was holding back its power...
+			Left click to unleash a storm of rock shards
+			Right click to perform a groundpound that unleashes a large explosion of rocks upon impact
+			'''
+	}
+
+	TheArchalis: {
+		DisplayName: The Archalis
+		Tooltip: Figs? Bigs.
+	}
+
+	TenebrisTides: {
+		DisplayName: Tenebris Tides
+		Tooltip:
+			'''
+			Inundatio ex Gladii
+			Spins a speared baton that summons spears from below the cursor
+			Enemies hit with the baton are barraged with moldy blades and spears to assault the struck foe
+			'''
+	}
+
+	RibbonFlintlockRifleCannon: {
+		DisplayName: Ribbon Flintlock Rifle Cannon
+		Tooltip:
+			'''
+			50% chance to not consume ammo
+			Fires a powerful sniper round
+			Right click to cause all active bullets to shoot ribbons at enemies, pulling themselves inwards
+			'You're not just giving us back our hope. But you're becoming hope itself!'
+			'''
+	}
+
+	PlanterrorStaff: {
+		DisplayName: Planterror Staff
+		Tooltip:
+			'''
+			Summons a miniature guntera to protect you
+			Swaps between firing shotgun bursts, bullet streams, and sniper shots.
+			Bullet type depends on the players current ammo type.
+			Occupies 4 minion slots and there can only be one
+			'''
+	}
 }
 
 Projectiles: {
@@ -4215,6 +4261,37 @@ Projectiles: {
 	LunaticDisc: {
 		DisplayName: Lunatic Beats
 	}
+	RoxShard: {
+		DisplayName: Rock Shard
+	}
+
+	ArchalisSlash: {
+		DisplayName: Slash
+	}
+
+	Caracal: {
+		DisplayName: Caracal
+	}
+
+	TenebrisBaton: {
+		DisplayName: Tenebris Tides
+	}
+
+	TenebrisSpear: {
+		DisplayName: Tenebris Spear
+	}
+
+	RibbonBullet: {
+		DisplayName: Golden Bullet
+	}
+
+	Ribbon: {
+		DisplayName: Ribbon
+	}
+
+	MiniGuntera: {
+		DisplayName: Mini Guntera
+	}
 }
 
 Shortstrike.Gauge:
@@ -4530,6 +4607,10 @@ Buffs: {
 	PhantasmalSpreadFire: {
 		DisplayName: Phantasmal Fire
 		Description: Burning with spreading phantasmal fire
+	}
+	GunteraBuff: {
+		DisplayName: Guntera
+		Description: The mini Guntera will protect you
 	}
 }
 

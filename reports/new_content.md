@@ -296,7 +296,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Plague Keeper — addon: Catalyst
 - [ ] Plaguecom Tablet — addon: Calamity: Community Remix
 - [ ] Planetarium — addon: Calamity: Community Remix, Hypnos in Calamity
-- [ ] Planterror Staff
+- [x] Planterror Staff
 - [x] Plasmaflash Bolt — addon: Cataclysm
 - [ ] Plumage Pow
 - [x] Poison I-Bee
@@ -323,11 +323,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Redtide Sword
 - [x] Reemergence
 - [ ] Revolvin' Mc'Coy — addon: Calamity: Community Remix
-- [ ] Ribbon Flintlock Rifle Cannon
+- [x] Ribbon Flintlock Rifle Cannon
 - [x] Rivers of Frost — addon: Calamity: Community Remix
 - [x] Rods from God
 - [x] Rose Bow — addon: Calamity: Community Remix
-- [ ] Rox — addon: Calamity: Community Remix
+- [x] Rox — addon: Calamity: Community Remix
 - [x] SDOMG
 - [ ] Salt Booklet — addon: Cataclysm
 - [ ] Salt Water Bolt — addon: Cataclysm
@@ -383,7 +383,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Technomagica — addon: Calamity: Tales of the Aquatic
 - [x] Temporal Floe Sword
 - [ ] Tendon Tides — addon: Catalyst
-- [ ] Tenebris Tides — addon: Catalyst
+- [x] Tenebris Tides — addon: Catalyst
 - [x] Terra Bow
 - [x] Terra Edge
 - [x] Terra Shiv
@@ -391,7 +391,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Terreye Staff — addon: Calamity: Community Remix
 - [x] Terriblade
 - [ ] Tetrachromancy — addon: Polyphemalus
-- [ ] The Archalis — addon: Calamity: Community Remix
+- [x] The Archalis — addon: Calamity: Community Remix
 - [ ] The Dreaming Ghost — addon: Calamity: Community Remix
 - [x] The Enforcer
 - [x] The First Fracturer — addon: Calamity: Community Remix

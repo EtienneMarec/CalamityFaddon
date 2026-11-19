@@ -2000,6 +2000,22 @@ Armes fabricables à Draedon's Forge (recettes du wiki). Valeurs des infobox.
   description), EXO-LOTL Staff, Exotic Beacon, Grand Purification, Helios Partisan, Meridian, Quintessence Cannon, RGB
   Graydron.
 
+### Lot Y du 19/11 (`Content/Items/Weapons/WikiWeapons1119u.cs`)
+
+Armes fabricables à l'Ancient Manipulator et à la Cosmic Anvil (recettes du wiki). Valeurs des infobox.
+
+- **[choix]** Rox : 3 éclats par coup (sprite du wiki) ; plongée au clic droit (en l'air seulement), invincible, 12 rochers à
+  10 % à l'impact. Prix de vente : 1 cuivre (infobox).
+- **[choix]** The Archalis : une entaille de 70 px vers le curseur par coup ; caracal = lapin vanilla teinté (pas de sprite),
+  4 s, 30 %.
+- **[choix]** Tenebris Tides : lances depuis 600 px sous le curseur (« 100 blocs » : hors de vue, trop loin pour toucher) ;
+  3 lances à 33 % par coup du bâton.
+- **[choix]** Ribbon Flintlock Rifle Cannon : clic droit ne tire pas et ne consomme rien ; chaque balle en vol lance un ruban
+  (200 %, 3 ennemis) et repart vers l'ennemi le plus proche.
+- **[choix]** Planterror Staff : munition choisie à l'invocation (comme une arme à feu), jamais consommée ; dégâts
+  d'invocation ; gerbe de 8 (100 %), flot (25 %, 6 images), sniper (x3, 2 s).
+- Pas faits : Gearwork Shield (retour dans le temps des ennemis), Grand Reef (fléau).
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par
