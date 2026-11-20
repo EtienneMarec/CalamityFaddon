@@ -2428,6 +2428,17 @@ Balla, Cosmic Elemental, ennemis de surface, ennemis mécaniques) : WikiLoot les
 - **[choix]** Oil Bottle (Cyn) : repousse à 16 px par image les ennemis qui ont un recul (pas les boss).
 - **[choix]** Cosmic Stone : sbire sans place (accessoire), sprite de notre Cosmic Elemental.
 
+### Lot AT du 20/11 : suite du butin du wiki (`Content/Items/WikiItems1120b.cs`)
+
+- **[choix]** Kos Fragment (Skeletron) : mêmes règles que la Mark of Providence de Calamity (= Rune of Kos), mais dès le
+  pré-Hardmode : dans l'espace la Storm Weaver, au Donjon le Ceaseless Void, aux Enfers Signus (les « Cloud Pusher »,
+  « Ceasing Void » et « Sigmund » de la page).
+- **[choix]** Devious Aestheticus (Moon Lord) : un cristal + un par place de sbire vide (8 au plus), éventail de 10° ; le
+  cristal principal éclate en 3 cristaux de l'Aestheticus ; l'arme frappe aussi au contact (Vaporfied 4 s).
+- **[choix]** Wakasagihime : -2 défense et +10 % de recul subi par coup ; choc contre un mur dans la seconde = 12 x
+  vitesse. **[technique]** Le « Karma » (boss appelés en tuant dans l'océan) n'est pas fait.
+- **[choix]** Familiers Everflute (Weird Bird) et Crystallised Stiriatic Chunk : au sol, ils volent pour rattraper le joueur.
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

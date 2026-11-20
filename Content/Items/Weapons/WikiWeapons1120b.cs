@@ -68,7 +68,7 @@ namespace CalamityFandom.Content.Items.Weapons.Ranged
             Item.width = 102;
             Item.height = 56;
             Item.scale = 0.5f;
-            Item.rare = ItemRarityID.Cyan;
+            Item.rare = ModContent.RarityType<CalamityMod.Rarities.Turquoise>();
             Item.value = Item.sellPrice(gold: 50);
             Item.shoot = ModContent.ProjectileType<Projectiles.Ranged.HolyPurgeFlame>();
             Item.shootSpeed = 20f;
@@ -324,7 +324,7 @@ namespace CalamityFandom.Content.Items.Weapons.Summon
         public override void SetDefaults()
         {
             Item.DefaultToWhip(ModContent.ProjectileType<Projectiles.Summon.WikiWhip1120>(), 200, 2f, 4f, 12);
-            Item.rare = ItemRarityID.Cyan;
+            Item.rare = ModContent.RarityType<CalamityMod.Rarities.Turquoise>();
             Item.value = Item.sellPrice(gold: 15);
         }
 

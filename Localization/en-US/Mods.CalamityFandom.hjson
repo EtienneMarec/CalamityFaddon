@@ -4325,6 +4325,40 @@ Items: {
 			You might cause another incident
 			'''
 	}
+	KosFragment: {
+		DisplayName: Kos Fragment
+		Tooltip:
+			'''
+			A relic of the Bones
+			Contains a bit of the power some guys kind of want
+			When used in certain areas of the world, it will call them
+			Not consumable
+			'''
+	}
+
+	Everflute: {
+		DisplayName: Everflute
+		Tooltip: Summons a powerful bird type monster
+	}
+
+	CrystallisedStiriaticChunk: {
+		DisplayName: Crystallised Stiriatic Chunk
+		Tooltip: Summons a stiriatic walkie to follow you around
+	}
+
+	DeviousAestheticus: {
+		DisplayName: Devious Aestheticus
+		Tooltip:
+			'''
+			Shot spread scales with up to 8 empty minion slots
+			'If you're seeing this, You've been in a coma for 20 years, I don't know where this message will be, but please wake up'
+			'''
+	}
+
+	Wakasagihime: {
+		DisplayName: Wakasagihime
+		Tooltip: ᗜˬᗜ
+	}
 }
 
 Projectiles: {
@@ -5114,6 +5148,17 @@ Projectiles: {
 	HolyCrystalShard: {
 		DisplayName: Holy Crystal Shard
 	}
+	WeirdBird: {
+		DisplayName: Weird Bird
+	}
+
+	StiriaticWalkie: {
+		DisplayName: Stiriatic Walkie
+	}
+
+	DeviousCrystal: {
+		DisplayName: Vaporified Crystal
+	}
 }
 
 Shortstrike.Gauge:
@@ -5585,6 +5630,18 @@ Buffs: {
 	UtsuhoBuff: {
 		DisplayName: Utsuho Reiuji
 		Description: Empowered by nuclear fusion
+	}
+	WeirdBirdBuff: {
+		DisplayName: Weird Bird
+		Description: Some weird bird has identified you as its mother.
+	}
+
+	StiriaticWalkieBuff: {
+		DisplayName: Stiriatic Walkie
+		Description:
+			'''
+			Stiriatic Walkie (:
+			'''
 	}
 }
 

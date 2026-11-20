@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (107)
+## Objets (105)
 
 - A M S
 - AAMG "Disperse"
@@ -102,7 +102,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Deck of Souls
 - Deicide
 - Demon Core
-- Devious Aestheticus
 - Divine Hunters Staff
 - Draftogen
 - Drained Catarachedrae
@@ -179,7 +178,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Venus Flytrap
 - Vitreomance
 - Void Artifact
-- Wakasagihime
 - Winter Breeze
 - Wreath of Belial
 - Wrecking Ball

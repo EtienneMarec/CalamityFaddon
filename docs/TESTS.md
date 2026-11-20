@@ -1115,6 +1115,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       qui reste 3 s ; furtif : 20 morceaux), Death-Needle Stinger (aiguilles enchaînées ; clic droit : dard), Cent Striker,
       Leaves of Crabulon, Cosmic Stone, Oil Bottle (Cyn repousse les ennemis toutes les 5 s)
 
+- [ ] Lot AT : Kos Fragment (Skeletron ; dans l'espace, le Donjon ou les Enfers : un des trois boss), Devious Aestheticus
+      (plus de cristaux avec des places de sbire libres), Wakasagihime (ennemis projetés contre un mur), familiers
+      Everflute et Crystallised Stiriatic Chunk
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

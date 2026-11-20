@@ -119,7 +119,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Demonic Pitchfork
 - [x] Dethermination — addon: Calamity: Tales of the Aquatic
 - [x] Devastation
-- [ ] Devious Aestheticus — addon: Fargo's Soul Mod
+- [x] Devious Aestheticus — addon: Fargo's Soul Mod
 - [x] Digital Cheese Spear — addon: Calamity: Community Remix
 - [x] Diminishing Victory
 - [x] Dirt Clump
@@ -440,7 +440,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Vermillion Angel
 - [x] Virid Vangar
 - [ ] Vitreomance
-- [ ] Wakasagihime — addon: Wakasagihime
+- [x] Wakasagihime — addon: Wakasagihime
 - [x] War Staff
 - [x] Warbell
 - [x] Warblade
@@ -1371,7 +1371,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Fleshly Horn — addon: Calamity: Community Remix
 - [ ] Fused Eye — addon: Polyphemalus
 - [ ] Gooz Sayer's Coin — addon: Deimos, the Starborn Princess
-- [ ] Kos Fragment
+- [x] Kos Fragment
 - [ ] Lantern Shard — addon: Calamity: Tales of the Aquatic
 - [ ] Nameless Fish of Light
 - [ ] Oddest Mushroom
@@ -1436,11 +1436,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Batfly Bait
 - [ ] Celestial Clump — addon: Deimos, the Starborn Princess
 - [x] Cool Item — addon: Calamity: Tales of the Aquatic
-- [ ] Crystallised Stiriatic Chunk — addon: Calamity: Tales of the Aquatic
+- [x] Crystallised Stiriatic Chunk — addon: Calamity: Tales of the Aquatic
 - [ ] Cute Scales — addon: Calamity: Tales of the Aquatic
 - [ ] Disgusting Seawater
 - [x] Elemental Delight — addon: Deimos, the Starborn Princess
-- [ ] Everflute
+- [x] Everflute
 - [ ] Heavy Metal Trash Can
 - [ ] Suspicious Looking Chicken Nugget
 - [ ] Violet Heart of Calamity — addon: Calamity: Community Remix

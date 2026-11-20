@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 572 drops ajoutés sur 236 PNJ
-- 133 ajouts dans 27 sacs
+- 578 drops ajoutés sur 238 PNJ
+- 134 ajouts dans 28 sacs
 - 568 drops du wiki déjà présents dans le jeu (inchangés)
 - 138 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 31 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 93 PNJ du wiki absents du jeu, 53 objets introuvables
+- 93 PNJ du wiki absents du jeu, 48 objets introuvables
 
 ## Ajouts
 
@@ -127,7 +127,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Giant Squid** : Depth Cells 2-4 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 50.0% [After defeating Calamitas]
 - **Giant Tortoise** : Giant Tortoise Shell 1-1 à 15.0%
 - **Glacial Slime** : Frozen Hellstone 3-6 à 100.0% ; Gel 23-30 à 100.0%
-- **Glitch** : Darksun Fragment 4-6 à 100.0% ; Creature Capsule 1-1 à 10.0%
+- **Glitch** : Darksun Fragment 4-6 à 100.0% ; Creature Capsule 1-1 à 10.0% ; Everflute 1-1 à 5.0%
 - **Gnasher** : Turtle Shell 1-1 à 10.0% [In Hardmode]
 - **Goblin Archer** : War Arrow 25-68 à 2.5% ; Warbow 1-1 à 2.5%
 - **Goblin Peon** : Warbell 1-1 à 2.5%
@@ -139,6 +139,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Green Demon** : Zumbo Sauce 1-1 à 10.0%
 - **Gulper Eel** : Depth Cells 6-8 à 50.0% [After defeating Calamitas] ; Lumenyl 2-3 à 50.0% [After defeating Calamitas]
 - **Hadarian** : Titan Finger 1-1 à 2.0% ; Hadarian Membrane 2-3 à 50.0% [After defeating Astrum Aureus]
+- **Harpy** : Wakasagihime 1-1 à 5.0%
 - **Heat Spirit** : Essence of Chaos 1-1 à 25.0% [In Hardmode]
 - **Hemogoblin Shark** : Grandiose Gland 1-2 à 50.0%
 - **Hive** : Hive Pod 1-1 à 14.3% [After Astrum Aureus has been defeated]
@@ -161,7 +162,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Mauler** : Fetid Emesis 1-1 à 25.0% ; Prehistoric Tablet 1-1 à 8.0%
 - **Meteor Head** : Divine Intervention 1-1 à 5.0%
 - **Mirage Jelly** : Depth Cells 5-7 à 50.0% [After defeating Calamitas] ; Abyss Shocker 1-1 à 10.0% [After defeating Skeletron] ; Mirage Jelly 1-1 à 14.3%
-- **Moon Lord** : Celestial Onion 1-1 à 100.0% (mode normal) ; Celestial Onion 1-1 à 100.0% (Expert, direct) ; Cheese 4-6 à 5.0% (mode normal) ; Cheese 4-6 à 5.0% (Expert, direct) ; Utensil Poker 1-1 à 25.0% (mode normal) ; Utensil Poker 1-1 à 33.3% (Expert, direct)
+- **Moon Lord** : Celestial Onion 1-1 à 100.0% (mode normal) ; Celestial Onion 1-1 à 100.0% (Expert, direct) ; Cheese 4-6 à 5.0% (mode normal) ; Cheese 4-6 à 5.0% (Expert, direct) ; Devious Aestheticus 1-1 à 5.0% (mode normal) ; Devious Aestheticus 1-1 à 5.0% (Expert, direct) ; Utensil Poker 1-1 à 25.0% (mode normal) ; Utensil Poker 1-1 à 33.3% (Expert, direct)
 - **Moray Eel** : Depth Crusher 1-1 à 6.7%
 - **Moth** : Gypsy Powder 1-1 à 50.0%
 - **Mouse** : Cheese 1-2 à 0.0% [in Godseeker Mode]
@@ -207,12 +208,13 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Side Mollusk** : Exodium Cluster 10-26 à 100.0%
 - **Signus, Envoy of the Devourer** : Spectral Veil 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Ceaseless Void are defeated] (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Ceaseless Void are defeated] (Expert, direct)
 - **Silicic Slime** : Silicon Ore 10-26 à 100.0%
+- **Skeletron** : Kos Fragment 1-1 à 100.0% (mode normal)
 - **Small Sightseer** : Titan Finger 1-1 à 2.0% ; Astral Pearl 1-1 à 5.0%
 - **Snow Balla** : The Last Lightice 1-1 à 2.5%
 - **Soul Slurper** : Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Slagspitter Pauldron 1-1 à 5.0% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Spiked Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
 - **Stellar Culex** : Titan Finger 1-1 à 2.0%
-- **Stiriatic Walkie** : Stiriatic Ore 2-5 à 100.0%
+- **Stiriatic Walkie** : Stiriatic Ore 2-5 à 100.0% ; Crystallised Stiriatic Chunk 1-1 à 5.0%
 - **Sun Bat** : Essence of Sunlight 1-1 à 33.0%
 - **Sunskater** : Essence of Sunlight 1-1 à 33.0% [In Hardmode]
 - **Tall Man** : Darksun Fragment 7-7 à 100.0% ; Sign of the Operator 1-1 à 20.0%
@@ -267,6 +269,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (Plantera)** : Essence of Babil 5-9 à 100.0%
 - **Treasure Bag (Providence, the Profaned Goddess)** : Supreme Healing Potion 5-15 à 100.0% ; Providence Trophy 1-1 à 10.0% ; Holy Purge 1-1 à 33.3% ; Profaned Whiplash 1-1 à 33.3% ; Profaned Nucleus 1-1 à 33.3% ; Purgatory Blaster 1-1 à 33.3%
 - **Treasure Bag (Signus)** : Supreme Healing Potion 5-15 à 100.0% ; Signus Trophy 1-1 à 10.0%
+- **Treasure Bag (Skeletron)** : Kos Fragment 1-1 à 100.0%
 - **Treasure Bag (Storm Weaver)** : Storm Dragoon 1-1 à 33.3% (page Treasure Bag)
 - **Treasure Bag (The Devourer of Gods)** : Norfleet 1-1 à 10.0% (page Treasure Bag) ; Cosmic Worm 30-39 à 100.0% (page Treasure Bag)
 - **Treasure Bag (The Dragonfolly)** : Swordsplosion 1-1 à 10.0% (page Treasure Bag)
@@ -311,13 +314,10 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Bloodflare Rod — 1
 - Blue Demon Head — 1
 - Calamity Spawner — 1
-- Crystallised Stiriatic Chunk — 1
 - Deteriorating Lens — 1
-- Devious Aestheticus — 1
 - Didgeridoo — 1
 - Encrypted Schematic (Hell) — 1
 - Energized Scrap Spikes — 1
-- Everflute — 1
 - Exo Dogtooth — 1
 - Eye of Excavator — 1
 - Frigid Bar — 1
@@ -330,7 +330,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Hi-Scan Camera — 1
 - Jane Wulfrum Mask — 1
 - John Wulfrum Mask — 1
-- Kos Fragment — 1
 - Li'l Mine — 1
 - Onyx Shiv — 1
 - Plague Station — 1
@@ -351,7 +350,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - The Wulfrum Excavator (Lore) — 1
 - Thunder Talon — 1
 - Treasure Bag (The Fabricational Quartet) — 1
-- Wakasagihime — 1
 - Wing Ding Gaster — 1
 - Wulfrum Excavator Trophy — 1
 - Wulfrum Grappling Gun — 1
