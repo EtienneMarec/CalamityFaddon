@@ -5,6 +5,14 @@ using Terraria.ID;
 namespace CalamityFandom.Common.Elements
 {
     /// <summary>Wiki : Elemental System.txt — les 17 éléments, dans l'ordre de la page.</summary>
+    /// <remarks>
+    /// Une page par élément (une phrase et la liste des armes qui le portent, données par les infobox, WikiData/elements.json) :
+    /// Wiki : Cold (element).txt, Wiki : Fire (element).txt, Wiki : Wind (element).txt, Wiki : Water (element).txt,
+    /// Wiki : Poison (element).txt, Wiki : Acid (element).txt, Wiki : Radioactive (element).txt,
+    /// Wiki : Electricity (element).txt, Wiki : Stab (element).txt, Wiki : Slash (element).txt, Wiki : Smash (element).txt,
+    /// Wiki : Bomb (element).txt, Wiki : Magic (element).txt, Wiki : Dark (element).txt, Wiki : Holy (element).txt,
+    /// Wiki : Unholy (element).txt, Wiki : Machine (element).txt
+    /// </remarks>
     public enum Element
     {
         Cold, Fire, Wind, Water, Poison, Acid, Radioactive, Electricity,
