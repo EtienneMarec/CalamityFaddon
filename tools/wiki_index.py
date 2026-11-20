@@ -312,7 +312,10 @@ def load_implemented():
         glob.glob(os.path.join(ROOT, "Common", "**", "*.cs"), recursive=True)
     for path in paths:
         for m in re.finditer(r"Wiki\s*:\s*([^\n]+?\.txt)", open(path, encoding="utf-8-sig").read()):
-            done.setdefault(m.group(1).strip(), os.path.relpath(path, ROOT).replace(os.sep, "/"))
+            name, rel = m.group(1).strip(), os.path.relpath(path, ROOT).replace(os.sep, "/")
+            done.setdefault(name, rel)
+            # Titre de la page plutôt que nom du fichier du dump (« Hell's Bells.txt » pour « Hell_s Bells.txt ») : les deux
+            done.setdefault(re.sub(r"['().:/]", "_", name[:-4]) + ".txt", rel)
     # Objets générés sans classe dédiée (tools/gen_items.py)
     generated = os.path.join(ROOT, "WikiData", "items.json")
     if os.path.exists(generated):

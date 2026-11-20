@@ -8,7 +8,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] AAMG "Disperse" — pas de sprite; addon: Calamity: Tales of the Aquatic
 - [x] Abysscent Derailer — addon: Calamity: Tales of the Aquatic
 - [ ] Abysscent Pistol — addon: Calamity: Tales of the Aquatic
-- [ ] Ace's Low — addon: Calamity: Community Remix
+- [x] Ace's Low — addon: Calamity: Community Remix
 - [x] Acid Bow
 - [x] Acidic Rain Barrel
 - [ ] Aergian Technistaff — addon: Hypnos in Calamity
@@ -20,7 +20,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Alpha Virus
 - [ ] Ancient Crusher
 - [x] Ancient Shiv
-- [ ] Angel's Thesis — addon: Calamity: Community Remix
+- [x] Angel's Thesis — addon: Calamity: Community Remix
 - [x] Animus
 - [ ] Aquarel Pistol — addon: Calamity: Tales of the Aquatic
 - [x] Aquatic Discharge
@@ -55,7 +55,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Brimstone Flameblaster
 - [x] Bucket of Coal — addon: Calamity: Community Remix
 - [ ] Bundle o' Bones — addon: Calamity: Community Remix
-- [ ] Butcher (weapon)
+- [x] Butcher (weapon)
 - [x] Calamitous Vortex — addon: Calamity: Tales of the Aquatic
 - [x] Calamity Sword
 - [x] Caliburn
@@ -108,7 +108,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Dark Energy Staff — addon: Calamity: Community Remix
 - [x] Dark Harvest Staff — addon: Calamity: Community Remix
 - [ ] Dart Sun — addon: Calamity: Tales of the Aquatic
-- [ ] Dead Star's Laser Rifle — addon: Tranquility Mod
+- [x] Dead Star's Laser Rifle — addon: Tranquility Mod
 - [x] Death-Needle Stinger — addon: Calamity: Community Remix
 - [ ] Deck of Souls — pas de sprite; addon: Apotheosis and Friends
 - [x] Decomposition
@@ -195,7 +195,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Grarble Spear — addon: Calamity: Community Remix
 - [x] Gravitonomy Pike
 - [x] Guardians Wrath
-- [ ] H.S Trident
+- [x] H.S Trident
 - [ ] HPST "Malign" — pas de sprite; addon: Calamity: Tales of the Aquatic
 - [x] Hadopelagic Echo
 - [x] Hailberd
@@ -207,7 +207,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Heavenwing Staff
 - [ ] Helios Partisan — addon: Calamity: Tales of the Aquatic
 - [x] Hell Burst
-- [ ] Hell's Bells
+- [x] Hell's Bells
 - [x] Hell's Sun
 - [ ] Hemorr-Rang — addon: Calamity: Community Remix
 - [ ] Heterochromia — addon: Polyphemalus
@@ -315,14 +315,14 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] RGB Graydron
 - [x] Raider's Glory
 - [x] Raito
-- [ ] Ram's Revenge — addon: Calamity: Community Remix
+- [x] Ram's Revenge — addon: Calamity: Community Remix
 - [x] Razor Teeth
 - [ ] Reactor Accelerator — addon: Calamity: Tales of the Aquatic
 - [ ] Red Umbrella
 - [ ] Redtide Spear
 - [x] Redtide Sword
 - [x] Reemergence
-- [ ] Revolvin' Mc'Coy — addon: Calamity: Community Remix
+- [x] Revolvin' Mc'Coy — addon: Calamity: Community Remix
 - [x] Ribbon Flintlock Rifle Cannon
 - [x] Rivers of Frost — addon: Calamity: Community Remix
 - [x] Rods from God
@@ -332,7 +332,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Salt Booklet — addon: Cataclysm
 - [x] Salt Water Bolt — addon: Cataclysm
 - [x] Sandslasher
-- [ ] Sandstorm (weapon)
+- [x] Sandstorm (weapon)
 - [x] Sea Stone Shuriken
 - [x] Sea Stone Sickle
 - [x] Seabow
@@ -341,13 +341,13 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Severed Eye.exe — addon: Calamity: Community Remix
 - [x] Sewer Brewer
 - [x] Shading Manual — addon: Calamity: Tales of the Aquatic
-- [ ] Shadow's Descent
+- [x] Shadow's Descent
 - [x] Shadowdrop Staff
 - [ ] Shattered Pistol — addon: Calamity: Tales of the Aquatic
 - [ ] Shroomerang — pas de sprite
 - [x] Sign of the Operator
 - [x] Sillyshark
-- [ ] Sister's Toy Rifle — addon: Calamity: Community Remix
+- [x] Sister's Toy Rifle — addon: Calamity: Community Remix
 - [x] Skull Fracture — addon: Calamity: Community Remix
 - [ ] Skullmasher
 - [x] Sky Clearer — addon: Calamity: Tales of the Aquatic
@@ -730,7 +730,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Soul of Pathogen
 - [ ] Soul of Phytogen
 - [x] Soul of Pyrogen
-- [ ] Spy's Lootbox — addon: Calamity: Community Remix
+- [x] Spy's Lootbox — addon: Calamity: Community Remix
 - [x] Static Wings
 - [x] Sulfuric Scale
 - [x] Surgical Glove
