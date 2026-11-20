@@ -4677,6 +4677,63 @@ Items: {
 			Obtained by throwing Merge Flah, an Energy Core, a Yharon Soul Fragment, an Alloy Bar and a Meld Bar together into lava
 			'''
 	}
+	FusedEye: {
+		DisplayName: Fused Eye
+		Tooltip:
+			'''
+			Summons Polyphemalus when used during nighttime
+			Not consumable
+			Looking at this makes you feel sick, dead, angry, and starved for love all at the same time.
+			'''
+	}
+
+	Heterochromia: {
+		DisplayName: Heterochromia
+		Tooltip:
+			'''
+			90% chance to not consume ammo
+			'I am looking respectfully.'
+			'''
+	}
+
+	ChainSaw: {
+		DisplayName: Chain-Saw
+		Tooltip:
+			'''
+			Hitting enemies stores charge, which progressively blinds you, but increases your crit chance.
+			Right-Click with charge to fire a projectile and consume it all
+			Does not benefit from Critical Strike Chance boosts.
+			'Chain-saw'! Get it?
+			'''
+	}
+
+	Nystagmus: {
+		DisplayName: Nystagmus
+		Tooltip:
+			'''
+			Conjures a spiral of homing eyes
+			'I am in spain without the "A"'
+			'''
+	}
+
+	Tetrachromancy: {
+		DisplayName: Tetrachromancy
+		Tooltip:
+			'''
+			Casts a controllable Polyphe-mini
+			Once the mouse is released, or on contact with a block, it will split into four homing eyes.
+			'Now in HD color!'
+			'''
+	}
+
+	PolypebralShield: {
+		DisplayName: Polypebral Shield
+		Tooltip:
+			'''
+			Press Dash to perform a omnidirectional dash that can be used to bonk enemies.
+			Has a long cooldown.
+			'''
+	}
 }
 
 Projectiles: {
@@ -5547,6 +5604,33 @@ Projectiles: {
 	InkSegment: {
 		DisplayName: Nanite Ink
 	}
+	PolyLaser: {
+		DisplayName: Red Laser
+	}
+
+	PolyIce: {
+		DisplayName: Ice Wave
+	}
+
+	PolyShadowball: {
+		DisplayName: Shadow Ball
+	}
+
+	FrostMine: {
+		DisplayName: Frost Mine
+	}
+
+	MiniEye: {
+		DisplayName: Eye
+	}
+
+	EyeSpiral: {
+		DisplayName: Eye Spiral
+	}
+
+	MiniPolyphemalus: {
+		DisplayName: Polyphe-mini
+	}
 }
 
 Shortstrike.Gauge:
@@ -6254,6 +6338,26 @@ NPCs: {
 	}
 
 	StormCnidriling.DisplayName: Storm Cnidriling
+	Polyphemalus: {
+		DisplayName: Polyphemalus
+		Watching: You feel many evil presences watching you...
+	}
+
+	Astigmageddon: {
+		DisplayName: Astigmageddon
+	}
+
+	Exotrexia: {
+		DisplayName: Exotrexia
+	}
+
+	Conjunctivirus: {
+		DisplayName: Conjunctivirus
+	}
+
+	Cataractacomb: {
+		DisplayName: Cataractacomb
+	}
 }
 
 Proficiency: {

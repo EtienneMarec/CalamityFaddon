@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1819 objets dont les recettes ont changé : 1052 recettes modifiées, 882 créées
+- 1820 objets dont les recettes ont changé : 1052 recettes modifiées, 883 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 66 transmutations Shimmer ajoutées
@@ -722,6 +722,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Fuelplate | (nouvelle) | 1 Nightmare Fuel, 25 Obsidian @ CosmicAnvil → 50 |
 | Fulguration Halberd | (nouvelle) | 10 Any Adamantite Bar, 10 Crystal Shard @ MythrilAnvil → 1 |
 | Fungal Chunk | (nouvelle) | 20 Mushroom, 20 Glowing Mushroom, 20 Vicious Mushroom, 20 Vile Mushroom, 20 Teal Mushroom, 20 Green Mushroom @ BotanicPlanter → 1 |
+| Fused Eye | (nouvelle) | 1 Black Lens, 10 Lens, 10 Chlorophyte Bar, 5 Soul of Night @ DemonAltar → 1 |
 | Galactus Blade | 1 Star Wrath, 5 Life Alloy, 10 Divine Bar @ MythrilAnvil → 1 | 5 Galactica Singularity, 1 Star Wrath, 10 Divine Bar, 20 Soul of Might, 5 Luminite Bar, 1 Dark Shard, 1 Light Shard @ LunarCraftingStation → 1 |
 | Galaxia | 1 True Biome Blade, 1 Armored Shell, 1 Twisting Nether, 1 Dark Plasma @ MythrilAnvil → 1 | 1 True Biome Blade, 8 Cosmilite Bar, 8 Darksun Fragment, 5 Crystal of the Wicked @ CosmicAnvil → 1 |
 | Galeforce | 10 Aerialite Bar @ Anvils → 1 | 8 Aerialite Bar, 3 Sunplate Block @ SkyMill → 1 |

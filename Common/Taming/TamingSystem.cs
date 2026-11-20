@@ -136,6 +136,8 @@ namespace CalamityFandom.Common.Taming
             Add("King Slime", 300 * 60, 0, NPCID.KingSlime);
             // [choix] Acidsighter (absent de la page Taming) : le garder dans l'Océan propre (pas la Sulphurous Sea), 20 s cumulées
             Add(Content.NPCs.Acidsighter.Acidsighter.TamingKey, 20 * 60, 0, ModContent.NPCType<Content.NPCs.Acidsighter.Acidsighter>());
+            // [choix] Polyphemalus (absent de la page Taming) : un concours de regards, 20 s la nuit face à lui à moins de 600 px
+            Add(Content.NPCs.Polyphemalus.Polyphemalus.TamingKey, 20 * 60, 1, ModContent.NPCType<Content.NPCs.Polyphemalus.Polyphemalus>());
             // [choix] Grand Thunder Cnidrion (absent de la page Taming) : un Cnidrion craint l'eau ; le garder 15 s dans l'Océan
             Add(Content.NPCs.GrandThunderCnidrion.GrandThunderCnidrion.TamingKey, 15 * 60, 0, ModContent.NPCType<Content.NPCs.GrandThunderCnidrion.GrandThunderCnidrion>());
             Add("Desert Scourge", 180, 0, ModContent.NPCType<DesertScourgeHead>(), ModContent.NPCType<DesertScourgeBody>(), ModContent.NPCType<DesertScourgeTail>());

@@ -2553,6 +2553,30 @@ Horror, Silva Stun : effets de l'infobox sur le joueur et sur les ennemis (perte
 - **[choix]** Desolate Flah : les cinq objets à moins de 4 blocs les uns des autres, dans la lave ; une Flah, Washed, Blessed
   ou Cosmic Flah à la place de la Merge Flah détruit tout (Notes de la page).
 
+### Lot BE du 20/11 : Polyphemalus (`Content/NPCs/Polyphemalus/`)
+
+Boss Hardmode de la page : phase 1 (les quatre attaques des yeux à tour de rôle, 4 charges, bullet hell), puis les quatre
+yeux séparés, chacun avec son cycle ; le dernier tué donne son objet (Heterochromia, Chain-Saw, Nystagmus, Tetrachromancy)
+et l'Eye Mask de l'infobox. Mode défi (Shield of Cthulhu comme ruée) : coups du bouclier à 1000 critiques, pas de
+séparation, Polypebral Shield. Fused Eye (recette du wiki) la nuit. Les deux modes.
+
+- **[choix]** « ? » de l'infobox en Expert et plus : vie de 50 000 (et 17 000 / 25 000 par œil) mise à l'échelle par le jeu,
+  dégâts des tirs à la moitié des dégâts de contact ({{dv}} des Inventors) ; furieux le jour (défense 80 de l'infobox, 50 %
+  plus rapide) ; pas de contact les 2 premières secondes (Trivia).
+- **[choix]** Attaques : 3 salves de 3 lasers prédictifs, 3 gerbes de glace (3 au centre, 4 sur les côtés), 3 volées de 8
+  flèches en arc, 3 éventails de 5 boules d'ombre ; charges de 40 images, la 4e prédictive et suivie de 12 lasers + 8 vagues ;
+  bullet hell de 4 s (une fois en orbite, une fois sur place). Yeux : 3 s d'orbite commune puis cycles de 10 s.
+- **[choix]** Apparition naturelle « comme l'Eye of Cthulhu » : début de nuit, Hardmode après un boss mécanique, pas encore
+  vaincu, une nuit sur 10, joueurs à 400 PV max ou plus ; message « You feel many evil presences watching you... ».
+- **[choix]** Apprivoisé : un des quatre objets au hasard (pas d'œil tué en dernier) ; ne compte pas comme vaincu pour son
+  drapeau, comme l'Acidsighter.
+- **[choix]** **Taming** (absent de la page Taming) : concours de regards, 20 s cumulées la nuit, tourné vers lui à moins
+  de 600 px (proposition, voir `docs/TESTS.md`). Le compte des boss apprivoisables passe à 48 (Supreme Calamitas
+  demande de tous les apprivoiser).
+- **[choix]** Objets : Heterochromia (arc de 15°, salve toutes les 12 images) ; Chain-Saw (balancée comme une épée, un œil
+  par tranche de 100 d'obscurité au clic droit) ; Nystagmus (15 mana la spirale) ; Tetrachromancy (10 mana).
+  **[technique]** Polypebral Shield : ricochets non faits, recharge des ruées de Calamity.
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

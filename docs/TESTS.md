@@ -1156,8 +1156,15 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Lot BD : Demon Potion (les slimes en lâchent ; boire : beaucoup plus d'ennemis), Expired Medication (après 20 Life Fruits :
       +100 PV), Desolate Flah (jeter Merge Flah + Energy Core + Yharon Soul Fragment + Alloy Bar + Meld Bar dans la lave)
 
+- [ ] Lot BE : **Polyphemalus** : Fused Eye la nuit (recette du wiki) ; phase 1 (lasers, glace, flèches, boules d'ombre,
+      charges, bullet hell), puis quatre yeux ; le dernier tué donne son arme (Heterochromia, Chain-Saw, Nystagmus,
+      Tetrachromancy) ; avec le Shield of Cthulhu équipé et seulement des coups de bouclier : pas de séparation, Polypebral
+      Shield ; Taming : rester face à lui 20 s la nuit sans le frapper
+
 ## Décisions en attente (pas des tests)
 
+- [ ] (20/11) **Polyphemalus** : la page Taming ne le cite pas ; proposition faite (concours de regards : 20 s la nuit, face à
+      lui, à moins de 600 px).
 - [ ] (20/11) **Seraph Tracers** : le Fandom les appelle « Celestial Tracers » (redirection, `reports/renames.md`). Renommer
       l'objet de Calamity comme Graydron / Murasama ? Pour l'instant, alias pour les recettes seulement.
 

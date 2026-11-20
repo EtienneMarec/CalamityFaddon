@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 596 drops ajoutés sur 241 PNJ
+- 598 drops ajoutés sur 242 PNJ
 - 140 ajouts dans 30 sacs
 - 568 drops du wiki déjà présents dans le jeu (inchangés)
 - 140 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
-- 31 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 93 PNJ du wiki absents du jeu, 49 objets introuvables
+- 36 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
+- 92 PNJ du wiki absents du jeu, 49 objets introuvables
 
 ## Ajouts
 
@@ -189,6 +189,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Plague Emperor** : Plague Cell Canister 56-230 à 100.0% ; Luminite Bar 56-230 à 100.0% ; Infected Armor Plating 20-36 à 100.0% ; Plague Caller 1-1 à 20.0% ; Plague Caller MK III 1-1 à 1.0%
 - **Plagueshell** : Apocalyptic Ore 11-13 à 33.0%
 - **Plantera** : Essence of Babil 4-8 à 100.0% (mode normal)
+- **Polyphemalus** : Eye of Cthulhu Mask 1-1 à 100.0% (mode normal) ; Eye of Cthulhu Mask 1-1 à 100.0% (Expert, direct)
 - **Possessed Armor** : Psychotic Amulet 1-1 à 2.5%
 - **Present Mimic** : Holiday Halberd 1-1 à 14.3%
 - **Primal Aspid** : Essence of Chaos 2-3 à 100.0% ; Cryo Key 1-1 à 20.0% ; Aspid Blaster 1-1 à 10.0%

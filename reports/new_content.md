@@ -70,7 +70,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Celesticus
 - [x] Cent Striker — addon: Calamity: Tales of the Aquatic
 - [x] Chain Spear — addon: Calamity: Community Remix
-- [ ] Chain-Saw — addon: Polyphemalus
+- [x] Chain-Saw — addon: Polyphemalus
 - [x] Charged Dart Blaster
 - [x] Charity — addon: Calamity: Tales of the Aquatic
 - [x] Chemicircle — addon: Calamity: Tales of the Aquatic
@@ -210,7 +210,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Hell's Bells
 - [x] Hell's Sun
 - [ ] Hemorr-Rang — addon: Calamity: Community Remix
-- [ ] Heterochromia — addon: Polyphemalus
+- [x] Heterochromia — addon: Polyphemalus
 - [x] Hi-Scan Camera
 - [x] Holiday Halberd
 - [x] Holy Mackerel Staff — addon: Calamity: Community Remix
@@ -270,7 +270,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Nocturnal Odyssey — addon: Calamity: Tales of the Aquatic
 - [ ] Noxcalibur
 - [x] Nychthemeron
-- [ ] Nystagmus — addon: Polyphemalus
+- [x] Nystagmus — addon: Polyphemalus
 - [ ] OPFT "Sublimate" — pas de sprite
 - [x] Obsidigun
 - [x] Ogscule — addon: Calamity's Vanities
@@ -390,7 +390,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Terra-cotta
 - [x] Terreye Staff — addon: Calamity: Community Remix
 - [x] Terriblade
-- [ ] Tetrachromancy — addon: Polyphemalus
+- [x] Tetrachromancy — addon: Polyphemalus
 - [x] The Archalis — addon: Calamity: Community Remix
 - [x] The Dreaming Ghost — addon: Calamity: Community Remix
 - [x] The Enforcer
@@ -698,7 +698,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Phantasmal Rune — addon: Calamity: Tales of the Aquatic
 - [x] Plague Balloon
 - [x] Plague Hive
-- [ ] Polypebral Shield
+- [x] Polypebral Shield
 - [x] Prehistoric Tablet
 - [x] Psychotic Amulet
 - [x] Quantum Flahium Ejection Device
@@ -971,7 +971,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Pandora, the Hypnotized Witch — pas de sprite
 - [ ] Pathogen
 - [ ] Phytogen
-- [ ] Polyphemalus — addon: Polyphemalus
+- [x] Polyphemalus — addon: Polyphemalus
 - [ ] Profaned Guardians
 - [ ] Profusion, the Viral God — stub
 - [ ] Provig — stub; addon: Wrath of the Gods
@@ -1369,7 +1369,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Draedon's Remote — addon: Calamity: Community Remix
 - [ ] Eschaton — addon: Sloome
 - [ ] Fleshly Horn — addon: Calamity: Community Remix
-- [ ] Fused Eye — addon: Polyphemalus
+- [x] Fused Eye — addon: Polyphemalus
 - [ ] Gooz Sayer's Coin — addon: Deimos, the Starborn Princess
 - [x] Kos Fragment
 - [ ] Lantern Shard — addon: Calamity: Tales of the Aquatic

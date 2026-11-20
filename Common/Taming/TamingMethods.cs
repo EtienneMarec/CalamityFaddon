@@ -115,6 +115,11 @@ namespace CalamityFandom.Common.Taming
                     if (p != null && p.ZoneBeach && !p.Calamity().ZoneSulphur)
                         f.Progress++;
                     break;
+                // [choix] Polyphemalus : concours de regards (la nuit, tourné vers lui, à moins de 600 px)
+                case "Polyphemalus":
+                    if (p != null && !Main.dayTime && p.Distance(npc.Center) < 600f && Math.Sign(npc.Center.X - p.Center.X) == p.direction)
+                        f.Progress++;
+                    break;
                 case "Pyrogen":
                     if (p != null && p.ZoneSnow && p.ZoneOverworldHeight)
                         f.Progress++;

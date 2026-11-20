@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 
-## PNJ (69)
+## PNJ (68)
 
 - Aetherial Guardian, Olistene
 - Amazon
@@ -47,7 +47,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Pandora, the Hypnotized Witch
 - Pathogen
 - Phytogen
-- Polyphemalus
 - Poobis Prime
 - Profusion, the Viral God
 - Provig
@@ -74,7 +73,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (90)
+## Objets (86)
 
 - A M S
 - AAMG "Disperse"
@@ -89,7 +88,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Bundle o' Bones
 - Butcher's Glove
 - Catarachedrae
-- Chain-Saw
 - Chilled Soda Blade
 - Christmas Carol
 - Corrupt Hypno Flute
@@ -117,7 +115,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Hand Hook
 - Helios Partisan
 - Hemorr-Rang
-- Heterochromia
 - HPST "Malign"
 - Incandescent Nox
 - Lacescent Pistol
@@ -129,7 +126,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Neuraze
 - Neutron Star
 - Noxcalibur
-- Nystagmus
 - Onyx Overlord's Gunsaw
 - OPFT "Sublimate"
 - Outplanetary Dartshooter
@@ -152,7 +148,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Shattered Pistol
 - Snowgrave
 - Star Flare
-- Tetrachromancy
 - The Inflator's Controller
 - The King's Gambit
 - The Verboten One

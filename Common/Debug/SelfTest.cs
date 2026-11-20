@@ -371,7 +371,7 @@ namespace CalamityFandom.Common.Debug
                 && Common.Taming.TamingSystem.Get("Crabulon").Calm == (plus ? 3600 : 0) && Common.Taming.TamingSystem.TaxGap == (plus ? 60 : 0)
                 && Common.Taming.TamingBees.Goal == (plus ? 40 : 100) && Common.Taming.TamingBees.HiveOnly == plus,
                 "Taming : difficulté de Calamity++ (Destroyer 8, Skeletron 3 mini-jeux, calme de Crabulon, taxes espacées)");
-            Expect(tames.Count == 47 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
+            Expect(tames.Count == 48 && tames.All(t => t.Types.All(type => type > 0)), $"Taming : {tames.Count} boss apprivoisables");
             Expect(new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.All(i => Common.Taming.TamingMethods.Shoot(i) > 0),
                 "Taming : projectiles du Slime Gun, du Sparkle Slime Balloon et de la Green Solution : "
                 + string.Join(", ", new[] { ItemID.SlimeGun, ItemID.GelBalloon, ItemID.GreenSolution }.Select(i => Common.Taming.TamingMethods.Shoot(i))));
