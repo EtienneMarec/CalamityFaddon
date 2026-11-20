@@ -146,6 +146,24 @@
    ]
   },
   {
+   "name": "AetherDirt",
+   "displayName": "Aether Dirt",
+   "page": "Aether Dirt.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    91,
+    109,
+    117
+   ]
+  },
+  {
    "name": "AlloyBar",
    "displayName": "Alloy Bar",
    "page": "Alloy Bar.txt",
@@ -344,6 +362,24 @@
    "value": 577500
   },
   {
+   "name": "AuricDirt",
+   "displayName": "Auric Dirt",
+   "page": "Auric Dirt.txt",
+   "width": 20,
+   "height": 20,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    149,
+    96,
+    65
+   ]
+  },
+  {
    "name": "AuricSoul",
    "displayName": "Auric Soul",
    "page": "Auric Soul.txt",
@@ -383,6 +419,24 @@
    "useTime": 17
   },
   {
+   "name": "BaronBrine",
+   "displayName": "Baron Brine",
+   "page": "Baron Brine.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 7,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    182,
+    247,
+    254
+   ]
+  },
+  {
    "name": "Baronacre",
    "displayName": "Baronacre",
    "page": "Baronacre.txt",
@@ -393,6 +447,42 @@
    "rare": 6,
    "maxStack": 9999,
    "value": 0
+  },
+  {
+   "name": "BaronauticalPlating",
+   "displayName": "Baronautical Plating",
+   "page": "Baronautical Plating.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 7,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    187,
+    134,
+    100
+   ]
+  },
+  {
+   "name": "Baronsand",
+   "displayName": "Baronsand",
+   "page": "Baronsand.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 7,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    171,
+    96,
+    72
+   ]
   },
   {
    "name": "BeetleJuice",
@@ -573,6 +663,24 @@
    "rare": 1,
    "maxStack": 9999,
    "value": 4000
+  },
+  {
+   "name": "Brinerack",
+   "displayName": "Brinerack",
+   "page": "Brinerack.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 7,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    77,
+    165,
+    191
+   ]
   },
   {
    "name": "BrokenModem",
@@ -1490,6 +1598,24 @@
    ]
   },
   {
+   "name": "EssericCake",
+   "displayName": "Esseric Cake",
+   "page": "Esseric Cake.txt",
+   "width": 16,
+   "height": 14,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    37,
+    49,
+    60
+   ]
+  },
+  {
    "name": "EssericOre",
    "displayName": "Esseric Ore",
    "page": "Esseric Ore.txt",
@@ -1542,6 +1668,24 @@
    "rare": 15,
    "maxStack": 9999,
    "value": 20000
+  },
+  {
+   "name": "ExoterrestrialDust",
+   "displayName": "Exoterrestrial Dust",
+   "page": "Exoterrestrial Dust.txt",
+   "width": 14,
+   "height": 14,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 15,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    39,
+    91,
+    92
+   ]
   },
   {
    "name": "EyeOfArchitectory",
@@ -1691,6 +1835,24 @@
     59,
     128,
     159
+   ]
+  },
+  {
+   "name": "FrozenAsh",
+   "displayName": "Frozen Ash",
+   "page": "Frozen Ash.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    63,
+    71,
+    86
    ]
   },
   {
@@ -1853,6 +2015,24 @@
     68,
     56,
     57
+   ]
+  },
+  {
+   "name": "Grimesand",
+   "displayName": "Grimesand",
+   "page": "Grimesand.txt",
+   "width": 14,
+   "height": 14,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    77,
+    63,
+    74
    ]
   },
   {
@@ -2261,6 +2441,24 @@
    "value": 0
   },
   {
+   "name": "MeldGunk",
+   "displayName": "Meld Gunk",
+   "page": "Meld Gunk.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    29,
+    44,
+    69
+   ]
+  },
+  {
    "name": "MeldOre",
    "displayName": "Meld Ore",
    "page": "Meld Ore.txt",
@@ -2585,6 +2783,42 @@
    "value": 2500000
   },
   {
+   "name": "OvergrownGravel",
+   "displayName": "Overgrown Gravel",
+   "page": "Overgrown Gravel.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 15,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    25,
+    40,
+    49
+   ]
+  },
+  {
+   "name": "OvergrownPlaguedStone",
+   "displayName": "Overgrown Plagued Stone",
+   "page": "Overgrown Plagued Stone.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    63,
+    81,
+    53
+   ]
+  },
+  {
    "name": "Piggy",
    "displayName": "Piggy",
    "page": "Piggy.txt",
@@ -2612,6 +2846,114 @@
     145,
     104,
     124
+   ]
+  },
+  {
+   "name": "PlaguedClay",
+   "displayName": "Plagued Clay",
+   "page": "Plagued Clay.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    11,
+    33,
+    29
+   ]
+  },
+  {
+   "name": "PlaguedGrass",
+   "displayName": "Plagued Grass",
+   "page": "Plagued Grass.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    29,
+    50,
+    50
+   ]
+  },
+  {
+   "name": "PlaguedMud",
+   "displayName": "Plagued Mud",
+   "page": "Plagued Mud.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    31,
+    51,
+    51
+   ]
+  },
+  {
+   "name": "PlaguedSand",
+   "displayName": "Plagued Sand",
+   "page": "Plagued Sand.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    113,
+    126,
+    83
+   ]
+  },
+  {
+   "name": "PlaguedSilt",
+   "displayName": "Plagued Silt",
+   "page": "Plagued Silt.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    33,
+    56,
+    40
+   ]
+  },
+  {
+   "name": "PlaguedStone",
+   "displayName": "Plagued Stone",
+   "page": "Plagued Stone.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    53,
+    64,
+    48
    ]
   },
   {
@@ -3302,6 +3644,24 @@
    "value": 3000000
   },
   {
+   "name": "Sporezol",
+   "displayName": "Sporezol",
+   "page": "Sporezol.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    147,
+    172,
+    27
+   ]
+  },
+  {
    "name": "StiriaticBar",
    "displayName": "Stiriatic Bar",
    "page": "Stiriatic Bar.txt",
@@ -3392,6 +3752,42 @@
    "value": 3750000
   },
   {
+   "name": "TanzaniteGlass",
+   "displayName": "Tanzanite Glass",
+   "page": "Tanzanite Glass.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 7,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    250,
+    178,
+    220
+   ]
+  },
+  {
+   "name": "Tarraground",
+   "displayName": "Tarraground",
+   "page": "Tarraground.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    142,
+    86,
+    49
+   ]
+  },
+  {
    "name": "Tenebris",
    "displayName": "Tenebris",
    "page": "Tenebris.txt",
@@ -3453,6 +3849,60 @@
    "foodBuff": "WellFed2",
    "foodSeconds": 240,
    "useTime": 17
+  },
+  {
+   "name": "TitanicShale",
+   "displayName": "Titanic Shale",
+   "page": "Titanic Shale.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    17,
+    49,
+    103
+   ]
+  },
+  {
+   "name": "TitanicSnow",
+   "displayName": "Titanic Snow",
+   "page": "Titanic Snow.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    203,
+    220,
+    245
+   ]
+  },
+  {
+   "name": "TorrefiedTephra",
+   "displayName": "Torrefied Tephra",
+   "page": "Torrefied Tephra.txt",
+   "width": 14,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    166,
+    138,
+    140
+   ]
   },
   {
    "name": "TrapperBulb",

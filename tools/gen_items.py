@@ -222,10 +222,14 @@ def main():
         # Objets « Item » de la chaîne de la Flah (19/11) : matériaux s'ils servent à une recette ou se disent matériau
         plain_item = kind == "item" and ("crafting material" in (page["fields"].get("type2") or "").lower() or title_lower in ingredients)
         crafted_block = kind == "block" and title_lower in crafted and placed_sprite(re.sub(r"\s*\([^)]*\)$", "", page["title"])) is not None
-        if kind not in MATERIAL_TYPES and not food and not (kind == "block" and title_lower in ingredients) and not from_loot and not wall and not plain_item and not crafted_block:
+        # Blocs de biomes que le mod ne génère pas encore (Plagued Jungle, Baron Strait..., 20/11) : posables, sans source
+        # pour l'instant ; pas les blocs d'anciennes versions
+        page_text = open(os.path.join(ROOT, "wiki", "Main", page["file"]), encoding="utf-8", errors="replace").read().lower()
+        historical = "{{historical" in page_text
+        biome_block = kind == "block" and not historical and placed_sprite(re.sub(r"\s*\([^)]*\)$", "", page["title"])) is not None
+        if kind not in MATERIAL_TYPES and not food and not (kind == "block" and title_lower in ingredients) and not from_loot and not wall and not plain_item and not crafted_block and not biome_block:
             continue
-        if from_loot and "{{historical" in open(os.path.join(ROOT, "wiki", "Main", page["file"]), encoding="utf-8",
-                                                errors="replace").read().lower():
+        if from_loot and historical:
             continue  # bloc d'une ancienne version (Frigid Bar), seulement cité par le butin : pas recréé
         sprite = sprite_file(page)
         if not sprite and not wall:

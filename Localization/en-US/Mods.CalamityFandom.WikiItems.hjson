@@ -49,6 +49,11 @@
 		DisplayName: Aeroplate Wall
 		Tooltip: ""
 	}
+	AetherDirt:
+	{
+		DisplayName: Aether Dirt
+		Tooltip: ""
+	}
 	AlloyBar:
 	{
 		DisplayName: Alloy Bar
@@ -119,6 +124,11 @@
 		DisplayName: Astral Pearl
 		Tooltip: Gives all projectiles homing
 	}
+	AuricDirt:
+	{
+		DisplayName: Auric Dirt
+		Tooltip: ""
+	}
 	AuricSoul:
 	{
 		DisplayName: Auric Soul
@@ -138,9 +148,24 @@
 			Varying improvements to all stats
 			'''
 	}
+	BaronBrine:
+	{
+		DisplayName: Baron Brine
+		Tooltip: ""
+	}
 	Baronacre:
 	{
 		DisplayName: Baronacre
+		Tooltip: ""
+	}
+	BaronauticalPlating:
+	{
+		DisplayName: Baronautical Plating
+		Tooltip: ""
+	}
+	Baronsand:
+	{
+		DisplayName: Baronsand
 		Tooltip: ""
 	}
 	BeetleJuice:
@@ -212,6 +237,11 @@
 	{
 		DisplayName: Brimstone Fish
 		Tooltip: Fire is a living being
+	}
+	Brinerack:
+	{
+		DisplayName: Brinerack
+		Tooltip: ""
 	}
 	BrokenModem:
 	{
@@ -560,6 +590,11 @@
 		DisplayName: Esseric Brick
 		Tooltip: ""
 	}
+	EssericCake:
+	{
+		DisplayName: Esseric Cake
+		Tooltip: '''"Real.... or cake?"'''
+	}
 	EssericOre:
 	{
 		DisplayName: Esseric Ore
@@ -579,6 +614,11 @@
 	{
 		DisplayName: Exoplasm
 		Tooltip: Bottled exoplasmic energy
+	}
+	ExoterrestrialDust:
+	{
+		DisplayName: Exoterrestrial Dust
+		Tooltip: ""
 	}
 	EyeOfArchitectory:
 	{
@@ -639,6 +679,11 @@
 		DisplayName: Freezing Mindustrial Plating
 		Tooltip: Contains Freezing Energy.
 	}
+	FrozenAsh:
+	{
+		DisplayName: Frozen Ash
+		Tooltip: ""
+	}
 	FrozenHellstone:
 	{
 		DisplayName: Frozen Hellstone
@@ -692,6 +737,11 @@
 	GreyFlahBrick:
 	{
 		DisplayName: Grey Flah Brick
+		Tooltip: ""
+	}
+	Grimesand:
+	{
+		DisplayName: Grimesand
 		Tooltip: ""
 	}
 	GypsyPowder:
@@ -856,6 +906,11 @@
 		DisplayName: Meld Flah
 		Tooltip: ""
 	}
+	MeldGunk:
+	{
+		DisplayName: Meld Gunk
+		Tooltip: ""
+	}
 	MeldOre:
 	{
 		DisplayName: Meld Ore
@@ -976,6 +1031,16 @@
 		DisplayName: Ornate Cloth
 		Tooltip: A beautiful sheet of silk.
 	}
+	OvergrownGravel:
+	{
+		DisplayName: Overgrown Gravel
+		Tooltip: ""
+	}
+	OvergrownPlaguedStone:
+	{
+		DisplayName: Overgrown Plagued Stone
+		Tooltip: ""
+	}
 	Piggy:
 	{
 		DisplayName: Piggy
@@ -984,6 +1049,36 @@
 	PinkFlahBrick:
 	{
 		DisplayName: Pink Flah Brick
+		Tooltip: ""
+	}
+	PlaguedClay:
+	{
+		DisplayName: Plagued Clay
+		Tooltip: ""
+	}
+	PlaguedGrass:
+	{
+		DisplayName: Plagued Grass
+		Tooltip: ""
+	}
+	PlaguedMud:
+	{
+		DisplayName: Plagued Mud
+		Tooltip: ""
+	}
+	PlaguedSand:
+	{
+		DisplayName: Plagued Sand
+		Tooltip: ""
+	}
+	PlaguedSilt:
+	{
+		DisplayName: Plagued Silt
+		Tooltip: ""
+	}
+	PlaguedStone:
+	{
+		DisplayName: Plagued Stone
 		Tooltip: ""
 	}
 	PrimordialLife:
@@ -1221,6 +1316,11 @@
 		DisplayName: Soul of Plight
 		Tooltip: The artificial essence of powerful machines
 	}
+	Sporezol:
+	{
+		DisplayName: Sporezol
+		Tooltip: ""
+	}
 	StiriaticBar:
 	{
 		DisplayName: Stiriatic Bar
@@ -1251,6 +1351,16 @@
 		DisplayName: Subnautical Plate
 		Tooltip: A bioluminescent remnant, existing long before the Golden Age of Dragons
 	}
+	TanzaniteGlass:
+	{
+		DisplayName: Tanzanite Glass
+		Tooltip: ""
+	}
+	Tarraground:
+	{
+		DisplayName: Tarraground
+		Tooltip: ""
+	}
 	Tenebris:
 	{
 		DisplayName: Tenebris
@@ -1274,6 +1384,21 @@
 			Contact with the nefarious anglerfish
 			Medium improvements to all stats
 			'''
+	}
+	TitanicShale:
+	{
+		DisplayName: Titanic Shale
+		Tooltip: ""
+	}
+	TitanicSnow:
+	{
+		DisplayName: Titanic Snow
+		Tooltip: ""
+	}
+	TorrefiedTephra:
+	{
+		DisplayName: Torrefied Tephra
+		Tooltip: ""
 	}
 	TrapperBulb:
 	{

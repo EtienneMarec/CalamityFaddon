@@ -1148,6 +1148,8 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       mode ; Scan prend les debuffs des ennemis, Snapshot les rend dans le viseur), Plaguecom Tablet (dessiner une ligne ;
       clic droit : défensive, qui bloque les tirs ; double appui sur Bas : recharge l'encre contre du mana)
 
+- [ ] Blocs de biomes (20/11, Cheat Sheet) : Plagued Stone, Baronsand, Torrefied Tephra, Tanzanite Glass... se posent et se cassent
+
 ## Décisions en attente (pas des tests)
 
 - [ ] (20/11) **Seraph Tracers** : le Fandom les appelle « Celestial Tracers » (redirection, `reports/renames.md`). Renommer

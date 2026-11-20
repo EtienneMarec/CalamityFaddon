@@ -757,7 +757,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Abandoned Bronze Plating — addon: Calamity: Tales of the Aquatic
 - [x] Aegisalt Ore
 - [x] Aeroplate — addon: Calamity: Community Remix
-- [ ] Aether Dirt
+- [x] Aether Dirt
 - [x] Alloy Bar
 - [x] Angelinite Ore
 - [ ] Antlion Bar
@@ -768,14 +768,14 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Arena Block — pas de sprite
 - [x] Arsenic Ore
 - [x] Ashplate — addon: Calamity: Community Remix
-- [ ] Auric Dirt
-- [ ] Baron Brine
-- [ ] Baronautical Plating
-- [ ] Baronsand
+- [x] Auric Dirt
+- [x] Baron Brine
+- [x] Baronautical Plating
+- [x] Baronsand
 - [ ] Bars — pas de sprite; addon: Calamity: Community Remix
 - [x] Bloodplate — addon: Apotheosis and Friends
 - [x] Bloodstone Ore — addon: Calamity: Tales of the Aquatic
-- [ ] Brinerack
+- [x] Brinerack
 - [x] Catastrophe Clay Ore
 - [x] Chaotic Brick
 - [x] Compressed Mana — addon: Deimos, the Starborn Princess
@@ -793,9 +793,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Elemental Ore — addon: Calamity: Tales of the Aquatic
 - [x] Endoplate — addon: Calamity: Community Remix
 - [x] Esseric Brick — addon: Calamity: Tales of the Aquatic
-- [ ] Esseric Cake — addon: Calamity: Tales of the Aquatic
+- [x] Esseric Cake — addon: Calamity: Tales of the Aquatic
 - [x] Esseric Ore — addon: Calamity: Tales of the Aquatic
-- [ ] Exoterrestrial Dust — addon: Calamity: Tales of the Aquatic
+- [x] Exoterrestrial Dust — addon: Calamity: Tales of the Aquatic
 - [x] Ferozium Ore
 - [ ] Field Generator
 - [x] Flah Bricks — stub
@@ -803,10 +803,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Flahium Slag
 - [x] Freezing Mindustrial Plating — addon: Calamity: Tales of the Aquatic
 - [ ] Frigid Bar
-- [ ] Frozen Ash
+- [x] Frozen Ash
 - [x] Frozen Hellstone
 - [x] Fuelplate — addon: Calamity: Community Remix
-- [ ] Grimesand
+- [x] Grimesand
 - [x] Haunted Bar — addon: Calamity: Community Remix
 - [x] Haunted Brick — addon: Calamity: Tales of the Aquatic
 - [x] Haunted Ore — addon: Calamity: Tales of the Aquatic
@@ -816,21 +816,21 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Life Ore — addon: Calamity: Community Remix
 - [x] Lightly Weathered Waxed Copper Brick
 - [x] Meld Brick
-- [ ] Meld Gunk
+- [x] Meld Gunk
 - [x] Meld Ore — addon: Calamity: Tales of the Aquatic
 - [x] Mystplate
 - [x] Natrisodic Cluster — addon: Calamity: Tales of the Aquatic
 - [x] Omnicidal Sludge Bar — addon: Deimos, the Starborn Princess
 - [ ] Ores — pas de sprite; addon: Calamity Loot Swap, Calamity Tales of the Aquatic, Catalyst
-- [ ] Overgrown Gravel — addon: Calamity: Tales of the Aquatic
-- [ ] Overgrown Plagued Stone
+- [x] Overgrown Gravel — addon: Calamity: Tales of the Aquatic
+- [x] Overgrown Plagued Stone
 - [ ] Pew — pas de sprite
-- [ ] Plagued Clay
-- [ ] Plagued Grass
-- [ ] Plagued Mud
-- [ ] Plagued Sand
-- [ ] Plagued Silt
-- [ ] Plagued Stone
+- [x] Plagued Clay
+- [x] Plagued Grass
+- [x] Plagued Mud
+- [x] Plagued Sand
+- [x] Plagued Silt
+- [x] Plagued Stone
 - [ ] Primordial Ore — addon: Deimos, the Starborn Princess, Calamity Loot Swap
 - [x] Proviplate — addon: Calamity: Community Remix
 - [x] Refined Aegisalt
@@ -849,18 +849,18 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Skylac Sand — addon: Calamity: Tales of the Aquatic
 - [x] Skylac Stone — addon: Calamity: Tales of the Aquatic
 - [x] Smooth Skylac Stone — addon: Calamity: Tales of the Aquatic
-- [ ] Sporezol
+- [x] Sporezol
 - [ ] Steam Geyser
 - [x] Stiriatic Ore — addon: Calamity: Tales of the Aquatic
 - [x] Stratostone — addon: Calamity: Tales of the Aquatic
 - [x] Stratus Star Brick — addon: Calamity: Tales of the Aquatic
-- [ ] Tanzanite Glass
-- [ ] Tarraground
+- [x] Tanzanite Glass
+- [x] Tarraground
 - [x] Tenebris
 - [x] Thorium Ore — addon: Calamity: Tales of the Aquatic
-- [ ] Titanic Shale — addon: Calamity: Tales of the Aquatic
-- [ ] Titanic Snow — addon: Calamity: Tales of the Aquatic
-- [ ] Torrefied Tephra
+- [x] Titanic Shale — addon: Calamity: Tales of the Aquatic
+- [x] Titanic Snow — addon: Calamity: Tales of the Aquatic
+- [x] Torrefied Tephra
 - [x] Verdantium Bar
 - [x] Verdantium Ore
 - [x] Victide Ore — addon: Calamity: Tales of the Aquatic

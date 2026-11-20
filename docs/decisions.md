@@ -2535,6 +2535,10 @@ Objets que les pages d'objets font tomber en Expert, Revengeance ou Death (lus d
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les
   autres matériaux posables (9 briques). Les pages à plusieurs infobox (Flah Bricks, Compressed Stone Blocks) donnent un
   objet par infobox (15 de plus) ; sans image dans l'infobox, celle du nom.
+- **[choix]** (20/11, plus tard dans la nuit) Blocs des biomes que le mod ne génère pas encore (Plagued Jungle, Baron Strait,
+  Dragon's Aerie, Profaned Desert, Frozen Hell...) : 25 blocs posables, sans source tant que leur biome n'existe pas
+  (Cheat Sheet). Pas les blocs d'anciennes versions (« Historical » : Frigid Bar, Cryoglass Brick) ni les tuiles à effet
+  (Steam Geyser, Field Generator).
 
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
