@@ -2544,6 +2544,15 @@ Horror, Silva Stun : effets de l'infobox sur le joueur et sur les ennemis (perte
 - **[technique]** Pages de debuffs qui décrivent des mécaniques de Calamity sous un autre nom (temps de recharge des
   armures, Elysian Guard...) ou d'anciennes versions (Freezing Weather, Heat Exhaustion) : laissées de côté.
 
+### Lot BD du 20/11 : Demon Potion, Expired Medication, Desolate Flah (`Content/Items/WikiItems1120d.cs`)
+
+- **[choix]** Demon Potion : « lâchée souvent par les slimes » = 1 chance sur 10 pour les slimes qui ne sont pas des boss
+  (gardé en Full Fandom) ; Evil : apparitions et maximum d'ennemis x11 (+1000 %) ; icône du buff Battle.
+- **[choix]** Expired Medication : -3 PV/s de régénération, +25 % sur le temps de recharge des potions. Butin : la page de la
+  Plaguebringer Goliath la cite sans chance ; 100 % en Death, sur le boss, gardé en Full Fandom.
+- **[choix]** Desolate Flah : les cinq objets à moins de 4 blocs les uns des autres, dans la lave ; une Flah, Washed, Blessed
+  ou Cosmic Flah à la place de la Merge Flah détruit tout (Notes de la page).
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

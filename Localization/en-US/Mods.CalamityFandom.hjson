@@ -4654,6 +4654,29 @@ Items: {
 			...at the time, anyway'
 			'''
 	}
+	DemonPotion: {
+		DisplayName: Demon Potion
+		Tooltip: You feel infinite violend rage which causes enemys to come to you rapidly
+	}
+
+	ExpiredMedication: {
+		DisplayName: Expired Medication
+		Tooltip:
+			'''
+			Despite being well past expiration date, it still somehow works...
+			...But not without some side effect, of course
+			Permanently increases maximum life by 100, but comes at a cost
+			Can only be used if the max amount of life fruit has been consumed
+			'''
+	}
+
+	DesolateFlah: {
+		DisplayName: Desolate Flah
+		Tooltip:
+			'''
+			Obtained by throwing Merge Flah, an Energy Core, a Yharon Soul Fragment, an Alloy Bar and a Meld Bar together into lava
+			'''
+	}
 }
 
 Projectiles: {
@@ -6066,6 +6089,10 @@ Buffs: {
 	SilvaStun: {
 		DisplayName: Silva Stun
 		Description: Can't move
+	}
+	Evil: {
+		DisplayName: Evil
+		Description: Spawn rates are boosted
 	}
 }
 

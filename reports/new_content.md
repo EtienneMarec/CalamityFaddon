@@ -1021,14 +1021,14 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Cookie Bunny — addon: Calamity: Community Remix
 - [x] Crimtato — addon: Calamity: Community Remix
 - [x] Crumbling Potion
-- [ ] Demon Potion
+- [x] Demon Potion
 - [ ] Demon Trophy — addon: Calamity: Community Remix
 - [x] Draconic Elixir
 - [ ] Dust Bunny — addon: Catalyst, Deimos, the Starborn Princess
 - [x] Elder Berry
 - [x] Esseric Skin Potion — addon: Calamity: Tales of the Aquatic
 - [ ] Ever Ink — addon: Catalyst, Deimos, the Starborn Princess
-- [ ] Expired Medication
+- [x] Expired Medication
 - [x] Flask of Plague
 - [x] Ham Pie
 - [x] Holy Wrath Potion
@@ -1448,7 +1448,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 ## Item (11)
 
 - [x] Derelah
-- [ ] Desolate Flah
+- [x] Desolate Flah
 - [x] Empress Flah
 - [ ] Greedy Chest
 - [x] Hemorraize

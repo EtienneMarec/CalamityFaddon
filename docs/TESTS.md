@@ -1153,6 +1153,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 - [ ] Lot BC : Demonshade armor complète : les ennemis touchés prennent Demon Flames (perte de vie énorme, poussière violette) ;
       Shadowspectre Tracers : Umbric Fumes ; Zenith Arcanum : Demon Flames parmi les debuffs des sbires
 
+- [ ] Lot BD : Demon Potion (les slimes en lâchent ; boire : beaucoup plus d'ennemis), Expired Medication (après 20 Life Fruits :
+      +100 PV), Desolate Flah (jeter Merge Flah + Energy Core + Yharon Soul Fragment + Alloy Bar + Meld Bar dans la lave)
+
 ## Décisions en attente (pas des tests)
 
 - [ ] (20/11) **Seraph Tracers** : le Fandom les appelle « Celestial Tracers » (redirection, `reports/renames.md`). Renommer

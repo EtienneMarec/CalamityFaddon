@@ -330,8 +330,8 @@ namespace CalamityFandom.Content.Items.Materials
     }
 
     /// <summary>
-    /// Wiki : Merge Flah.txt — obtenue avec la Cosmic Flah. [technique] La transformation en Desolate Flah dans la lave (avec
-    /// Energy Core, Yharon Soul Fragment, Alloy Bar et Meld Bar) n'est pas faite.
+    /// Wiki : Merge Flah.txt — obtenue avec la Cosmic Flah ; jetée dans la lave avec un Energy Core, un Yharon Soul Fragment,
+    /// une Alloy Bar et une Meld Bar, elle donne une Desolate Flah (DesolateFlahLava, lot BD).
     /// </summary>
     public class MergeFlah : WikiPlainItem
     {
