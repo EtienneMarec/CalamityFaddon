@@ -1144,6 +1144,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Breaker (courir très vite, hors boss), Dread Bone (sbires qui explosent et reviennent), Fancy Flesh Skull (Adrénaline
       plus longue), Lead Wizard (deux jets de balles en V)
 
+- [ ] Lots BA et BB : The Everquartz (barre sous le joueur ; pleine : touche V, soin de 500 PV), Hi-Scan Camera (clic droit :
+      mode ; Scan prend les debuffs des ennemis, Snapshot les rend dans le viseur), Plaguecom Tablet (dessiner une ligne ;
+      clic droit : défensive, qui bloque les tirs ; double appui sur Bas : recharge l'encre contre du mana)
+
 ## Décisions en attente (pas des tests)
 
 - [ ] (20/11) **Seraph Tracers** : le Fandom les appelle « Celestial Tracers » (redirection, `reports/renames.md`). Renommer

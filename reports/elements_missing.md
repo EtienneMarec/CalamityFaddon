@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (92)
+## Objets (90)
 
 - A M S
 - AAMG "Disperse"
@@ -118,7 +118,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Helios Partisan
 - Hemorr-Rang
 - Heterochromia
-- Hi-Scan Camera
 - HPST "Malign"
 - Incandescent Nox
 - Lacescent Pistol
@@ -137,7 +136,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - P.G.D.R.
 - Pandora's Chest
 - Pine's Penetrator
-- Plaguecom Tablet
 - Plagued Minecart
 - Planetarium
 - Plumage Pow

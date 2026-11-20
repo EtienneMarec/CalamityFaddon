@@ -6,7 +6,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 66 transmutations Shimmer ajoutées
-- 35 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 37 recettes
+- 33 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 35 recettes
 
 ## Recettes changées
 
@@ -1968,7 +1968,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Exotic Bundle of Balloons — 1
 - objet : Flah Seeds — 1
 - objet : Green Demon Head — 1
-- objet : Hi-Scan Camera — 1
 - objet : Insect Biomass — 1
 - objet : Large Father — 1
 - objet : Li'l Mine — 1
@@ -1977,7 +1976,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Ogsculian Burrower Banner — 1
 - objet : Particle Accelerator — 1
 - objet : Plague Station — 1
-- objet : Plaguecom Tablet — 1
 - objet : Planetarium — 1
 - objet : Psy Rod — 1
 - objet : Sanctified Spark — 1

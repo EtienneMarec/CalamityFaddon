@@ -4623,6 +4623,37 @@ Items: {
 			33% chance to not consume ammo
 			'''
 	}
+	TheEverquartz: {
+		DisplayName: The Everquartz
+		Tooltip:
+			'''
+			Removes defense damage
+			Standing still regenerates your life quickly and boosts your defense by 75%
+			25% reduced contact damage from enemies
+			Adds the Piezoelectricity Bar, press Piezoelectricity Mode to heal 500 health over 2 seconds
+			While healing you take 75% less damage
+			'''
+	}
+	HiScanCamera: {
+		DisplayName: Hi-Scan Camera
+		Tooltip:
+			'''
+			A Hi-Tech camera used by draedon to scan the victim's nano-machine status
+			Right click to switch modes
+			'''
+	}
+
+	PlaguecomTablet: {
+		DisplayName: Plaguecom Tablet
+		Tooltip:
+			'''
+			Allows you to draw, damaging enemies caught in the line's way
+			However, it needs to be reloaded by double-pressing Down every once in a while...
+			Right click to switch forms, affecting how the lines behave
+			'Draedon's most sophisticated drawing pad...
+			...at the time, anyway'
+			'''
+	}
 }
 
 Projectiles: {
@@ -5477,6 +5508,21 @@ Projectiles: {
 
 	FrozenMeat: {
 		DisplayName: Frozen Meat
+	}
+	ScanFlash: {
+		DisplayName: Flash
+	}
+
+	Viewfinder: {
+		DisplayName: Viewfinder
+	}
+
+	TabletPen: {
+		DisplayName: Stylus
+	}
+
+	InkSegment: {
+		DisplayName: Nanite Ink
 	}
 }
 
@@ -6773,4 +6819,5 @@ Keybinds: {
 	ElderBerryDash.DisplayName: Elder Berry Dash
 	ArcanoidOrb.DisplayName: Arcanoid Orb
 	BloodElementConsume.DisplayName: Consume
+	PiezoelectricityMode.DisplayName: Piezoelectricity Mode
 }

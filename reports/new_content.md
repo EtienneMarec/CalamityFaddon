@@ -211,7 +211,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Hell's Sun
 - [ ] Hemorr-Rang — addon: Calamity: Community Remix
 - [ ] Heterochromia — addon: Polyphemalus
-- [ ] Hi-Scan Camera
+- [x] Hi-Scan Camera
 - [x] Holiday Halberd
 - [x] Holy Mackerel Staff — addon: Calamity: Community Remix
 - [x] Holy Napalm Launcher — addon: Calamity: Tales of the Aquatic
@@ -294,7 +294,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Pizza Wheel
 - [x] Plague Caller MK III — addon: Calamity: Community Remix
 - [x] Plague Keeper — addon: Catalyst
-- [ ] Plaguecom Tablet — addon: Calamity: Community Remix
+- [x] Plaguecom Tablet — addon: Calamity: Community Remix
 - [ ] Planetarium — addon: Calamity: Community Remix, Hypnos in Calamity
 - [x] Planterror Staff
 - [x] Plasmaflash Bolt — addon: Cataclysm
@@ -735,7 +735,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Sulfuric Scale
 - [x] Surgical Glove
 - [x] Terraformance — addon: Calamity: Tales of the Aquatic
-- [ ] The Everquartz — stub; addon: Catalyst
+- [x] The Everquartz — stub; addon: Catalyst
 - [x] The Godfather — addon: Calamity: Community Remix
 - [ ] The Progression — addon: Calamity: Tales of the Aquatic
 - [ ] The Verboten One — addon: Calamity: Community Remix

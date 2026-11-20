@@ -2518,6 +2518,18 @@ Objets que les pages d'objets font tomber en Expert, Revengeance ou Death (lus d
 - **[choix]** Dread Bone : sbire absent 3 s après l'explosion.
 - **[technique]** Dust Bunny, Magma Booster, Ever Ink (+100 Stamina) : pas faits, la Stamina (addon Catalyst) n'existe pas.
 
+### Lots BA et BB du 20/11 : The Everquartz, Hi-Scan Camera, Plaguecom Tablet
+
+- **[choix]** The Everquartz : « régénération rapide » à l'arrêt = +10 ; touche « Piezoelectricity Mode » (V) ; barre de la
+  page dessinée sous le joueur ; soin de 500 PV en 2 s = 25 PV toutes les 6 images.
+- **[choix]** Hi-Scan Camera : clic droit change de mode ; flash centré sur le curseur ; « organique » = bruit de chair
+  (NPCHit1), « spectral » = bruit de fantôme (NPCHit36, NPCHit54) ; « les debuffs que l'ennemi inflige » = ceux qu'il
+  porte (3 au plus, retirés) ; debuffs rendus 10 s ; viseur de 20 x 12 blocs ; aucun modificateur.
+- **[choix]** Plaguecom Tablet : clic droit change de forme ; un segment toutes les 3 images, contact toutes les 10 ; chaque
+  ennemi touché par une ligne offensive subit 3 petites explosions (135 % au total) quand on relâche.
+- **[technique]** La recette du Plague Caller MK III demande deux objets sans page (The Inflator's Controller, Li'l
+  Mine) : il ne s'obtient que par le butin de la Plaguebringer Goliath.
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

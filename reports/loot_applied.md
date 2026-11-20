@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 593 drops ajoutés sur 241 PNJ
-- 138 ajouts dans 30 sacs
+- 596 drops ajoutés sur 241 PNJ
+- 140 ajouts dans 30 sacs
 - 568 drops du wiki déjà présents dans le jeu (inchangés)
 - 140 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 31 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 93 PNJ du wiki absents du jeu, 52 objets introuvables
+- 93 PNJ du wiki absents du jeu, 49 objets introuvables
 
 ## Ajouts
 
@@ -104,7 +104,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Eidolon Wyrm** : Soul Edge 1-1 à 33.3% [After defeating Polterghast]
 - **Empress of Light** : Empress Flah 2-4 à 12.5% (mode normal)
 - **Eutrophic Ray** : Eutrophic Shank 1-1 à 33.3% [After defeating Desert Scourge] ; Clam Chowder 1-1 à 2.0% [Hardmode-only]
-- **Everquartz** : Unholy Essence 10-15 à 100.0%
+- **Everquartz** : Unholy Essence 10-15 à 100.0% ; The Everquartz 1-1 à 1.0%
 - **Evil Animatronic** : Darksun Fragment 1-3 à 75.0% ; Pizza Wheel 1-1 à 12.0%
 - **Exo Armada** : Exo Prism 1-2 à 100.0%
 - **Exo Landmaster** : Exo Prism 1-2 à 100.0%
@@ -223,7 +223,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Tall Man** : Darksun Fragment 7-7 à 100.0% ; Sign of the Operator 1-1 à 20.0%
 - **Tempest Toddler** : Desert Feather 2-4 à 100.0%
 - **The Old Duke** : Sulfuric Scale 1-1 à 10.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Old Duke 1-1 à 100.0% [Always on first kill] (mode normal) ; Old Duke 1-1 à 100.0% [Always on first kill] (Expert, direct)
-- **The Plaguebringer Goliath** : Toxic Heart 1-1 à 100.0% (mode normal) ; Flask of Plague 5-15 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Bad Apple 1-1 à 10.0% (mode normal) ; Surgical Glove 1-1 à 10.0% (mode normal) ; Plague Balloon 1-1 à 10.0% (mode normal) ; Jungle Key 1-1 à 100.0% (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Oil Bottle 1-1 à 0.1% (mode normal) ; Disease 1-1 à 25.0% (mode normal) ; Diseased Pike 1-1 à 25.0% (mode normal) ; Metal Ball 1-1 à 25.0% (mode normal) ; Pandemic 1-1 à 25.0% (mode normal) ; Sewer Brewer 1-1 à 25.0% (mode normal) ; Reemergence 1-1 à 25.0% (mode normal) ; Pestilent Defiler 1-1 à 25.0% (mode normal) ; Blight Spewer 1-1 à 25.0% (mode normal) ; The Hive 1-1 à 25.0% (mode normal) ; Blow Pipe 1-1 à 25.0% (mode normal) ; Toxic Wisdom 1-1 à 25.0% (mode normal) ; The Needler 1-1 à 25.0% (mode normal) ; Decomposition 1-1 à 25.0% (mode normal) ; Cirrhotipede 1-1 à 25.0% (mode normal) ; Poison I-Bee 1-1 à 25.0% (mode normal) ; Phlegm 1-1 à 25.0% (mode normal) ; Contaminated Dish 1-1 à 25.0% (mode normal) ; Infected Dagger Misses No Skeptics 1-1 à 25.0% (mode normal) ; Death-Needle Stinger 1-1 à 25.0% (mode normal) ; Trash of Magnus 1-1 à 25.0% (mode normal) ; Varroa Hack 999-3996 à 25.0% (mode normal)
+- **The Plaguebringer Goliath** : Toxic Heart 1-1 à 100.0% (mode normal) ; Flask of Plague 5-15 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Bad Apple 1-1 à 10.0% (mode normal) ; Surgical Glove 1-1 à 10.0% (mode normal) ; Plague Balloon 1-1 à 10.0% (mode normal) ; Jungle Key 1-1 à 100.0% (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Oil Bottle 1-1 à 0.1% (mode normal) ; Disease 1-1 à 25.0% (mode normal) ; Diseased Pike 1-1 à 25.0% (mode normal) ; Metal Ball 1-1 à 25.0% (mode normal) ; Pandemic 1-1 à 25.0% (mode normal) ; Sewer Brewer 1-1 à 25.0% (mode normal) ; Reemergence 1-1 à 25.0% (mode normal) ; Pestilent Defiler 1-1 à 25.0% (mode normal) ; Blight Spewer 1-1 à 25.0% (mode normal) ; The Hive 1-1 à 25.0% (mode normal) ; Blow Pipe 1-1 à 25.0% (mode normal) ; Toxic Wisdom 1-1 à 25.0% (mode normal) ; The Needler 1-1 à 25.0% (mode normal) ; Plaguecom Tablet 1-1 à 25.0% (mode normal) ; Decomposition 1-1 à 25.0% (mode normal) ; Cirrhotipede 1-1 à 25.0% (mode normal) ; Poison I-Bee 1-1 à 25.0% (mode normal) ; Phlegm 1-1 à 25.0% (mode normal) ; Contaminated Dish 1-1 à 25.0% (mode normal) ; Infected Dagger Misses No Skeptics 1-1 à 25.0% (mode normal) ; Death-Needle Stinger 1-1 à 25.0% (mode normal) ; Trash of Magnus 1-1 à 25.0% (mode normal) ; Hi-Scan Camera 1-1 à 25.0% (mode normal) ; Varroa Hack 999-3996 à 25.0% (mode normal)
 - **The Slime God** : Mana Polarizer 1-1 à 100.0% (mode normal) ; Purified Jam 6-8 à 100.0% [Once per player and world] (mode normal) ; Healing Potion 5-15 à 100.0% (mode normal) ; The Slime God 1-1 à 100.0% [Always on first kill] (mode normal) ; The Slime God 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Electrolyte Gel Pack 1-1 à 100.0% (mode normal) ; Crimslime Staff 1-1 à 25.0% (mode normal) ; Slime Puppet Staff 1-1 à 25.0% (mode normal)
 - **Toxic Minnow** : Depth Cells 2-3 à 50.0% [After defeating Calamitas]
 - **Trasher** : Gatligator 1-1 à 10.0% [In Hardmode]
@@ -282,7 +282,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (The Inventors)** : Wulfrum Screwdriver 1-1 à 33.3% (page Treasure Bag) ; Wulfrum Fusion Array 1-1 à 33.3% (page Treasure Bag)
 - **Treasure Bag (The Old Duke)** : Sulfuric Scale 1-1 à 10.0% ; Supreme Healing Potion 5-15 à 100.0% ; Old Duke Trophy 1-1 à 10.0%
 - **Treasure Bag (The Perforators)** : Bloody Rupture 1-1 à 33.3% (page Treasure Bag) ; Blood Clot Staff 1-1 à 33.3% (page Treasure Bag) ; Blood Sample 30-40 à 100.0% (page Treasure Bag)
-- **Treasure Bag (The Plaguebringer Goliath)** : Plague Balloon 1-1 à 10.0% (page Treasure Bag) ; Bad Apple 1-1 à 10.0% (page Treasure Bag) ; Surgical Glove 1-1 à 10.0% (page Treasure Bag) ; Pestilent Defiler 1-1 à 33.3% (page Treasure Bag) ; Pandemic 1-1 à 33.3% (page Treasure Bag) ; The Hive 1-1 à 33.3% (page Treasure Bag) ; Diseased Pike 1-1 à 33.3% (page Treasure Bag) ; Disease 1-1 à 33.3% (page Treasure Bag) ; Metal Ball 1-1 à 33.3% (page Treasure Bag) ; Reemergence 1-1 à 33.3% (page Treasure Bag) ; Blight Spewer 1-1 à 33.3% (page Treasure Bag) ; Trash of Magnus 1-1 à 33.3% (page Treasure Bag) ; Decomposition 1-1 à 33.3% (page Treasure Bag) ; Toxic Wisdom 1-1 à 33.3% (page Treasure Bag) ; Phlegm 1-1 à 33.3% (page Treasure Bag) ; The Needler 1-1 à 33.3% (page Treasure Bag) ; Blow Pipe 1-1 à 33.3% (page Treasure Bag) ; Sewer Brewer 1-1 à 33.3% (page Treasure Bag) ; Poison I-Bee 1-1 à 33.3% (page Treasure Bag) ; Flask of Plague 5-15 à 10.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Jungle Key 1-1 à 100.0% ; Plaguebringer Goliath Trophy 1-1 à 10.0% ; Oil Bottle 1-1 à 0.1% ; Cirrhotipede 1-1 à 33.3% ; Contaminated Dish 1-1 à 33.3% ; Infected Dagger Misses No Skeptics 1-1 à 33.3% ; Death-Needle Stinger 1-1 à 33.3% ; Varroa Hack 999-3996 à 33.3%
+- **Treasure Bag (The Plaguebringer Goliath)** : Plague Balloon 1-1 à 10.0% (page Treasure Bag) ; Bad Apple 1-1 à 10.0% (page Treasure Bag) ; Surgical Glove 1-1 à 10.0% (page Treasure Bag) ; Pestilent Defiler 1-1 à 33.3% (page Treasure Bag) ; Pandemic 1-1 à 33.3% (page Treasure Bag) ; The Hive 1-1 à 33.3% (page Treasure Bag) ; Diseased Pike 1-1 à 33.3% (page Treasure Bag) ; Disease 1-1 à 33.3% (page Treasure Bag) ; Metal Ball 1-1 à 33.3% (page Treasure Bag) ; Reemergence 1-1 à 33.3% (page Treasure Bag) ; Blight Spewer 1-1 à 33.3% (page Treasure Bag) ; Trash of Magnus 1-1 à 33.3% (page Treasure Bag) ; Decomposition 1-1 à 33.3% (page Treasure Bag) ; Toxic Wisdom 1-1 à 33.3% (page Treasure Bag) ; Phlegm 1-1 à 33.3% (page Treasure Bag) ; The Needler 1-1 à 33.3% (page Treasure Bag) ; Blow Pipe 1-1 à 33.3% (page Treasure Bag) ; Sewer Brewer 1-1 à 33.3% (page Treasure Bag) ; Poison I-Bee 1-1 à 33.3% (page Treasure Bag) ; Flask of Plague 5-15 à 10.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Jungle Key 1-1 à 100.0% ; Plaguebringer Goliath Trophy 1-1 à 10.0% ; Oil Bottle 1-1 à 0.1% ; Plaguecom Tablet 1-1 à 33.3% ; Cirrhotipede 1-1 à 33.3% ; Contaminated Dish 1-1 à 33.3% ; Infected Dagger Misses No Skeptics 1-1 à 33.3% ; Death-Needle Stinger 1-1 à 33.3% ; Hi-Scan Camera 1-1 à 33.3% ; Varroa Hack 999-3996 à 33.3%
 - **Treasure Bag (The Slime God)** : Crimslime Staff 1-1 à 33.3% (page Treasure Bag) ; Slime Puppet Staff 1-1 à 33.3% (page Treasure Bag) ; Gel 180-250 à 100.0% ; Purified Jam 6-8 à 100.0% [Once per player and world] ; Healing Potion 5-15 à 100.0% ; Slime God Trophy 1-1 à 10.0%
 - **Treasure Bag (Wall of Flesh)** : Fancy Flesh Skull 1-1 à 10.0% ; Nightform 1-1 à 100.0% ; Twisted Tendril 5-8 à 100.0%
 
@@ -334,14 +334,12 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Heated Profanity — 1
 - Heaven's Crown — 1
 - Hell Flare — 1
-- Hi-Scan Camera — 1
 - Jane Wulfrum Mask — 1
 - John Wulfrum Mask — 1
 - Li'l Mine — 1
 - Magma Booster — 1
 - Onyx Shiv — 1
 - Plague Station — 1
-- Plaguecom Tablet — 1
 - Plagued Minecart — 1
 - Profaned Core Fragment — 1
 - Pyro Stone — 1
@@ -353,7 +351,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Squidbeak Shotgun — 1
 - Storm-Cnidriling Staff — 1
 - Tapehook — 1
-- The Everquartz — 1
 - The Inflator's Controller — 1
 - The King's Gambit — 1
 - The Wulfrum Excavator (Lore) — 1
