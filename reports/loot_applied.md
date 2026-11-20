@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 586 drops ajoutés sur 238 PNJ
-- 134 ajouts dans 28 sacs
+- 593 drops ajoutés sur 241 PNJ
+- 138 ajouts dans 30 sacs
 - 568 drops du wiki déjà présents dans le jeu (inchangés)
-- 138 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
+- 140 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 31 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 93 PNJ du wiki absents du jeu, 59 objets introuvables
+- 93 PNJ du wiki absents du jeu, 52 objets introuvables
 
 ## Ajouts
 
@@ -26,7 +26,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Aries** : Titan Finger 1-1 à 2.0% ; Stellar Knife 1-1 à 14.3% [After defeating Astrum Aureus]
 - **Armored Digger** : Draedon's Remote 1-1 à 33.3% ; Demonic Bone Ash 2-4 à 100.0% ; Mysterious Circuitry 4-8 à 100.0% ; Dubious Plating 4-8 à 100.0%
 - **Arsenous Slime** : Arsenic Ore 10-26 à 100.0%
-- **Astral Deus** : Quasar 1-1 à 10.0% (mode normal) ; Hide of Astrum Deus 1-1 à 100.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal) ; Astral Infection 1-1 à 100.0% [Always on first kill] (mode normal) ; Astral Infection 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Astral Deus 1-1 à 100.0% [Always on first kill] (mode normal) ; Astral Deus 1-1 à 100.0% [Always on first kill] (Expert, direct)
+- **Astral Deus** : Quasar 1-1 à 10.0% (mode normal) ; Hide of Astrum Deus 1-1 à 100.0% (mode normal) ; Greater Healing Potion 8-14 à 100.0% (mode normal) ; Astral Infection 1-1 à 100.0% [Always on first kill] (mode normal) ; Astral Infection 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Astral Deus 1-1 à 100.0% [Always on first kill] (mode normal) ; Astral Deus 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Astral Bulwark 1-1 à 100.0% (mode normal)
 - **Astral Head** : Stardust 1-1 à 50.0%
 - **Astral Probe** : Titan Finger 1-1 à 2.0%
 - **Astral Slime** : Astral Ore 8-12 à 100.0% [After defeating Astrum Deus] ; Titan Finger 1-1 à 2.0% ; Abandoned Slime Staff 1-1 à 5.0% [After defeating Astrum Aureus]
@@ -42,6 +42,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Bloatfish** : Depth Cells 5-7 à 50.0% [After defeating Calamitas]
 - **Blockhound** : Adhesive Bandage 1-1 à 1.0%
 - **Blood Eel** : Grandiose Gland 2-4 à 75.0%
+- **Blood Zombie** : Dread Bone 1-1 à 1.0% [Expert]
 - **Bloody Burrower** : Vertebra 1-1 à 33.3%
 - **Boar Cat** : Essence of Babil 1-1 à 10.0% ; Disgusting Meat 1-1 à 100.0%
 - **Bobbit Worm** : Depth Cells 5-7 à 50.0% [After defeating Calamitas] ; Bobbit Hook 1-1 à 33.3% [After defeating Polterghast]
@@ -63,7 +64,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Clockwork Bat** : Cog 2-5 à 100.0% ; Metal Feather 1-1 à 1.0%
 - **Cnidrion** : Profaned Shard 2-5 à 10.0%
 - **Colossal Squid** : The Food Chain 1-1 à 15.0% ; Depth Cells 26-38 à 50.0% [After defeating Calamitas] ; Calamari's Lament 1-1 à 33.3% [After defeating Polterghast]
-- **Cosmic Elemental** : Cosmic Stone 1-1 à 5.0%
+- **Cosmic Elemental** : Cosmic Stone 1-1 à 5.0% ; Arcanoid Orb 1-1 à 5.0%
 - **Cosmilite Slime** : Cosmilite Slag 10-26 à 100.0%
 - **Crabulon** : Glowing Mushroom 20-30 à 100.0% (mode normal) ; Mushroom Grass Seeds 3-6 à 100.0% (mode normal) ; Fungal Clump 1-1 à 100.0% (mode normal) ; Delicious Meat 4-7 à 100.0% (mode normal) ; Leaves of Crabulon 4-7 à 100.0% (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Mushroom Plasma Root 1-1 à 100.0% (mode normal) ; Shroomerang 1-1 à 25.0% (mode normal)
 - **Cragmaw Mire** : Septic Skewer 1-1 à 25.0%
@@ -93,7 +94,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Distortion Essence Sphere** : Arean Conduit Plating 25-50 à 100.0% ; Martian Conduit Plating 40-100 à 100.0% ; Cosmilite Slag 3-5 à 100.0% ; Phantoplasm 10-13 à 100.0% ; Cosmilite Bar 3-5 à 100.0%
 - **Diviner Valkyrie** : Spear of Liberty 1-1 à 100.0% ; Sky Fracture 1-1 à 20.0%
 - **Dolphin** : Porpoise Pistol 1-1 à 4.0% [Hardmode]
-- **Dreadnautilus** : Grandiose Gland 5-5 à 100.0%
+- **Dreadnautilus** : Blood Element 1-1 à 100.0% [After defeating Calamitas Revengeance] ; Grandiose Gland 5-5 à 100.0%
 - **Drippler** : Bouncing Eyeball 1-1 à 2.5%
 - **Duke Fishron** : Delicious Meat 45-92 à 50.0% (mode normal)
 - **Dune Splicer** : Terra-cotta 1-1 à 4.0% [After Plantera has been defeated]
@@ -134,6 +135,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Goblin Sorcerer** : War Staff 1-1 à 5.0%
 - **Goblin Thief** : Warglaive 25-68 à 2.5%
 - **Goblin Warrior** : Warblade 1-1 à 4.0%
+- **Golem** : Lead Wizard 1-1 à 100.0% (mode normal)
 - **Grand Thunder Cnidrion** : Talon Burst 1-1 à 25.0% (mode normal) ; Talon Burst 1-1 à 25.0% (Expert, direct) ; Sea Stone Bar 15-20 à 100.0% (mode normal) ; Sea Stone Bar 15-20 à 100.0% (Expert, direct)
 - **Great Sand Shark** : Sand Shark Tooth Necklace 1-1 à 25.0% (mode normal) ; Sand Shark Tooth Necklace 1-1 à 33.3% (Expert, direct) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Sandstorm, Shifting Sands, Tumbleweed (mode normal) ; un parmi : Duststorm in a Bottle, Sand Sharknado Staff, Sandslasher, Sandstorm, Shifting Sands, Tumbleweed (Expert, direct)
 - **Green Demon** : Zumbo Sauce 1-1 à 10.0%
@@ -209,6 +211,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Signus, Envoy of the Devourer** : Spectral Veil 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Ceaseless Void are defeated] (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Ceaseless Void are defeated] (Expert, direct)
 - **Silicic Slime** : Silicon Ore 10-26 à 100.0%
 - **Skeletron** : Kos Fragment 1-1 à 100.0% (mode normal)
+- **Skeletron Prime** : Burden Breaker 1-1 à 100.0% (mode normal)
 - **Small Sightseer** : Titan Finger 1-1 à 2.0% ; Astral Pearl 1-1 à 5.0%
 - **Snow Balla** : The Last Lightice 1-1 à 2.5%
 - **Soul Slurper** : Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Slagspitter Pauldron 1-1 à 5.0% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
@@ -227,7 +230,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Trilobite** : Toxicant Twister 1-1 à 5.0%
 - **Viperfish** : Depth Cells 1-2 à 50.0% [After defeating Calamitas] ; Lumenyl 1-1 à 25.0% [After defeating Calamitas]
 - **Volcanic Reaper Shark** : Voidstone 40-50 à 100.0% ; Abyss Ore 22-33 à 22.2% [After defeating Golem] ; Abyss Bar 21-22 à 22.2% [After defeating Polterghast]
-- **Wall of Flesh** : Nightform 1-1 à 100.0% (mode normal) ; Twisted Tendril 3-5 à 100.0% (mode normal)
+- **Wall of Flesh** : Fancy Flesh Skull 1-1 à 10.0% (mode normal) ; Nightform 1-1 à 100.0% (mode normal) ; Twisted Tendril 3-5 à 100.0% (mode normal)
 - **War Slime** : Brimstone Slag 1-2 à 100.0% ; Apocalyptic Ore 10-26 à 100.0% ; Charred Ore 1-1 à 25.0%
 - **Wolf** : Coyote Venom 1-1 à 25.0%
 - **Wulfrum Excavator** : Wulfrum Bar 16-20 à 100.0% (mode normal) ; Wulfrum Bar 20-26 à 100.0% (Expert, direct) ; Energy Core 1-2 à 100.0% (mode normal) ; Energy Core 1-2 à 100.0% (Expert, direct) ; Energy Orb 1-1 à 100.0% (mode normal) ; Energy Orb 1-1 à 100.0% (Expert, direct) ; Conquest Fragment 1-1 à 100.0% (mode normal) ; Conquest Fragment 1-1 à 100.0% (Expert, direct) ; Wulfrum Treasure Pinger 1-1 à 100.0% (mode normal) ; Wulfrum Treasure Pinger 1-1 à 100.0% (Expert, direct) ; Lesser Healing Potion 8-14 à 100.0% (mode normal) ; Lesser Healing Potion 8-14 à 100.0% (Expert, direct) ; Wulfrum Bow 1-1 à 25.0% (mode normal) ; Wulfrum Bow 1-1 à 33.0% (Expert, direct) ; Wulfrum Controller 1-1 à 25.0% (mode normal) ; Wulfrum Controller 1-1 à 33.0% (Expert, direct) ; Wulfrum Knife 100-150 à 25.0% (mode normal) ; Wulfrum Knife 100-150 à 33.0% (Expert, direct) ; Wulfrum Staff 1-1 à 25.0% (mode normal) ; Wulfrum Staff 1-1 à 33.0% (Expert, direct) ; un parmi : Wulfrum Screwdriver, Wulfrum Blunderbuss, Wulfrum Prosthesis, Wulfrum Fusion Array, Wulfrum Shock Cutter (mode normal) ; un parmi : Wulfrum Screwdriver, Wulfrum Blunderbuss, Wulfrum Prosthesis, Wulfrum Fusion Array, Wulfrum Shock Cutter (Expert, direct)
@@ -254,7 +257,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
 - **Treasure Bag (Acidsighter)** : Pungent Bomber 1-1 à 33.0% ; Acid Bow 1-1 à 33.0% ; Caustic Claw 1-1 à 33.0% ; Corrosive Eye Staff 1-1 à 33.0% ; Razor Teeth 1-1 à 33.0%
 - **Treasure Bag (Aquatic Scourge)** : Bleached Angling Kit 1-1 à 100.0% (page Treasure Bag) ; Sulphurous Sand 5-15 à 100.0% ; Deep Diver 1-1 à 10.0% ; Greater Healing Potion 8-14 à 100.0% ; Aquatic Scourge Trophy 1-1 à 10.0%
-- **Treasure Bag (Astral Deus)** : Solar Fragment 20-32 à 100.0% ; Vortex Fragment 20-32 à 100.0% ; Nebula Fragment 20-32 à 100.0% ; Stardust Fragment 20-32 à 100.0% ; Quasar 1-1 à 10.0% ; Greater Healing Potion 8-14 à 100.0% ; Astral Deus Trophy 1-1 à 10.0%
+- **Treasure Bag (Astral Deus)** : Solar Fragment 20-32 à 100.0% ; Vortex Fragment 20-32 à 100.0% ; Nebula Fragment 20-32 à 100.0% ; Stardust Fragment 20-32 à 100.0% ; Quasar 1-1 à 10.0% ; Greater Healing Potion 8-14 à 100.0% ; Astral Deus Trophy 1-1 à 10.0% ; Astral Bulwark 1-1 à 100.0%
 - **Treasure Bag (Astrum Aureus)** : Hallowed Key 1-1 à 20.0% (page Treasure Bag) ; Soul of Bright 35-50 à 100.0% ; Supreme Healing Potion 5-15 à 100.0% ; Astrum Aureus Trophy 1-1 à 10.0%
 - **Treasure Bag (Brimstone Elemental)** : Gehenna 1-1 à 100.0% (page Treasure Bag) ; Abaddon 1-1 à 100.0% (page Treasure Bag) ; Bloodstone 25-35 à 100.0% [Once Providence, the Profaned Goddess] ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] ; Greater Healing Potion 5-15 à 100.0% ; Brimstone Elemental Trophy 1-1 à 10.0%
 - **Treasure Bag (Calamitas)** : Blighted Lens 1-3 à 100.0% (page Treasure Bag) ; Ashes of Annihilation 14-18 à 100.0% ; Broken Hero Sword 1-1 à 100.0% ; Bloodstone 35-45 à 100.0% [Once Providence is defeated] ; Greater Healing Potion 5-15 à 100.0% ; Calamitas Trophy 1-1 à 10.0% ; Brimstone Flameblaster 1-1 à 10.0% ; Catastrophe Clay Ore 10-26 à 100.0% ; Crushsaw Crasher 1-1 à 10.0% ; Havoc's Breath 1-1 à 10.0%
@@ -264,11 +267,13 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (Desert Scourge)** : Aquatic Discharge 1-1 à 33.3% (page Treasure Bag) ; Aero Stone 1-1 à 20.0% (page Treasure Bag) ; Sandy Angling Kit 1-1 à 100.0% (page Treasure Bag) ; Parched Scale 10-16 à 100.0% ; Profaned Shard 1-1 à 100.0% ; Abyss Bar 10-17 à 100.0% [After defeating Golem] ; Sand Block 261-820 à 100.0% ; Delicious Meat 4-4 à 20.0% ; Lesser Healing Potion 8-14 à 100.0% ; Desert Scourge Trophy 1-1 à 10.0%
 - **Treasure Bag (Duke Fishron)** : Delicious Meat 45-92 à 50.0%
 - **Treasure Bag (Empress of Light)** : Empress Flah 2-4 à 14.3%
+- **Treasure Bag (Golem)** : Lead Wizard 1-1 à 100.0%
 - **Treasure Bag (Jungle Dragon, Yharon)** : Dragon Flame Barrage 1-1 à 33.3% ; Omega Healing Potion 5-15 à 100.0% ; Yharon Trophy 1-1 à 10.0% ; Chicken Nugget 5000-5000 à 100.0%
 - **Treasure Bag (Leviathan and Anahita)** : Hotline Fishing Hook 1-1 à 10.0% (page Treasure Bag) ; Super Absorbant Sponge 1-1 à 10.0% (page Treasure Bag) ; Bottomless Water Bucket 1-1 à 10.0% (page Treasure Bag) ; Crate Potion 5-8 à 20.0% (page Treasure Bag) ; Fishing Potion 5-8 à 20.0% (page Treasure Bag) ; Sonar Potion 5-8 à 20.0% (page Treasure Bag)
 - **Treasure Bag (Plantera)** : Essence of Babil 5-9 à 100.0%
 - **Treasure Bag (Providence, the Profaned Goddess)** : Supreme Healing Potion 5-15 à 100.0% ; Providence Trophy 1-1 à 10.0% ; Holy Purge 1-1 à 33.3% ; Profaned Whiplash 1-1 à 33.3% ; Profaned Nucleus 1-1 à 33.3% ; Purgatory Blaster 1-1 à 33.3%
 - **Treasure Bag (Signus)** : Supreme Healing Potion 5-15 à 100.0% ; Signus Trophy 1-1 à 10.0%
+- **Treasure Bag (Skeletron Prime)** : Burden Breaker 1-1 à 100.0%
 - **Treasure Bag (Skeletron)** : Kos Fragment 1-1 à 100.0%
 - **Treasure Bag (Storm Weaver)** : Storm Dragoon 1-1 à 33.3% (page Treasure Bag)
 - **Treasure Bag (The Devourer of Gods)** : Norfleet 1-1 à 10.0% (page Treasure Bag) ; Cosmic Worm 30-39 à 100.0% (page Treasure Bag)
@@ -279,7 +284,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Treasure Bag (The Perforators)** : Bloody Rupture 1-1 à 33.3% (page Treasure Bag) ; Blood Clot Staff 1-1 à 33.3% (page Treasure Bag) ; Blood Sample 30-40 à 100.0% (page Treasure Bag)
 - **Treasure Bag (The Plaguebringer Goliath)** : Plague Balloon 1-1 à 10.0% (page Treasure Bag) ; Bad Apple 1-1 à 10.0% (page Treasure Bag) ; Surgical Glove 1-1 à 10.0% (page Treasure Bag) ; Pestilent Defiler 1-1 à 33.3% (page Treasure Bag) ; Pandemic 1-1 à 33.3% (page Treasure Bag) ; The Hive 1-1 à 33.3% (page Treasure Bag) ; Diseased Pike 1-1 à 33.3% (page Treasure Bag) ; Disease 1-1 à 33.3% (page Treasure Bag) ; Metal Ball 1-1 à 33.3% (page Treasure Bag) ; Reemergence 1-1 à 33.3% (page Treasure Bag) ; Blight Spewer 1-1 à 33.3% (page Treasure Bag) ; Trash of Magnus 1-1 à 33.3% (page Treasure Bag) ; Decomposition 1-1 à 33.3% (page Treasure Bag) ; Toxic Wisdom 1-1 à 33.3% (page Treasure Bag) ; Phlegm 1-1 à 33.3% (page Treasure Bag) ; The Needler 1-1 à 33.3% (page Treasure Bag) ; Blow Pipe 1-1 à 33.3% (page Treasure Bag) ; Sewer Brewer 1-1 à 33.3% (page Treasure Bag) ; Poison I-Bee 1-1 à 33.3% (page Treasure Bag) ; Flask of Plague 5-15 à 10.0% (page Treasure Bag) ; Greater Healing Potion 5-15 à 100.0% ; Jungle Key 1-1 à 100.0% ; Plaguebringer Goliath Trophy 1-1 à 10.0% ; Oil Bottle 1-1 à 0.1% ; Cirrhotipede 1-1 à 33.3% ; Contaminated Dish 1-1 à 33.3% ; Infected Dagger Misses No Skeptics 1-1 à 33.3% ; Death-Needle Stinger 1-1 à 33.3% ; Varroa Hack 999-3996 à 33.3%
 - **Treasure Bag (The Slime God)** : Crimslime Staff 1-1 à 33.3% (page Treasure Bag) ; Slime Puppet Staff 1-1 à 33.3% (page Treasure Bag) ; Gel 180-250 à 100.0% ; Purified Jam 6-8 à 100.0% [Once per player and world] ; Healing Potion 5-15 à 100.0% ; Slime God Trophy 1-1 à 10.0%
-- **Treasure Bag (Wall of Flesh)** : Nightform 1-1 à 100.0% ; Twisted Tendril 5-8 à 100.0%
+- **Treasure Bag (Wall of Flesh)** : Fancy Flesh Skull 1-1 à 10.0% ; Nightform 1-1 à 100.0% ; Twisted Tendril 5-8 à 100.0%
 
 ## Sources génériques (15 règles globales, pages d'objets)
 
@@ -309,25 +314,19 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Romulus — 2
 - Animatronic Head — 1
 - Anomaly 109 — 1
-- Arcanoid Orb — 1
 - Ash's Cloak — 1
-- Astral Bulwark — 1
 - Blank Stare — 1
-- Blood Element — 1
 - Bloodflare Rod — 1
 - Blue Demon Head — 1
-- Burden Breaker — 1
 - Calamity Spawner — 1
 - Deteriorating Lens — 1
 - Didgeridoo — 1
-- Dread Bone — 1
 - Dust Bunny — 1
 - Encrypted Schematic (Hell) — 1
 - Energized Scrap Spikes — 1
 - Ever Ink — 1
 - Exo Dogtooth — 1
 - Eye of Excavator — 1
-- Fancy Flesh Skull — 1
 - Frigid Bar — 1
 - Grand Thunder Cnidrion Mask — 1
 - Grand Thunder Cnidrion Trophy — 1
@@ -338,7 +337,6 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Hi-Scan Camera — 1
 - Jane Wulfrum Mask — 1
 - John Wulfrum Mask — 1
-- Lead Wizard — 1
 - Li'l Mine — 1
 - Magma Booster — 1
 - Onyx Shiv — 1

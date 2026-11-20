@@ -4553,6 +4553,76 @@ Items: {
 			All wild slimes will fight for you
 			'''
 	}
+	ArcanoidOrb: {
+		DisplayName: Arcanoid Orb
+		Tooltip:
+			'''
+			Summons an Arcanoid Orb that hovers in one place
+			Press the Arcanoid Orb key to relocate the orb to your cursor for 5 mana
+			Hold the key to allow the orb to follow your cursor at the cost of draining your mana quickly
+			The Arcanoid Orb deals heavy contact damage and confuses enemies
+			'''
+	}
+
+	AstralBulwark: {
+		DisplayName: Astral Bulwark
+		Tooltip:
+			'''
+			Taking damage drops astral stars from the sky
+			Provides immunity to the astral infection debuff
+			'''
+	}
+
+	BloodElement: {
+		DisplayName: Blood Element
+		Tooltip:
+			'''
+			12% increased magic damage
+			100 increased unchanged mana
+			Striking an enemy with a magic attack will drop a chunk of frozen meat
+			Picking up a chunk will grant meat pieces
+			Press Consume to consume all meat pieces, empowering the next magic attack
+			'Hunger can be contained with a good fridge and some meat'
+			'''
+	}
+
+	BurdenBreaker: {
+		DisplayName: Burden Breaker
+		Tooltip:
+			'''
+			The good time
+			Go fast
+			WARNING: May have disastrous results
+			Increases horizontal movement speed beyond comprehension
+			Does not work while a boss is alive
+			'''
+	}
+
+	DreadBone: {
+		DisplayName: Dread Bone
+		Tooltip:
+			'''
+			10% increased summon damage
+			Minions have a 20% chance to critically hit an enemy for triple the damage
+			After a minion attacks enough times or critically hit an enemy, it will explode
+			A few seconds after, the exploded minion will come back to life
+			'From one life to another in under a second...'
+			'''
+	}
+
+	FancyFleshSkull: {
+		DisplayName: Fancy Flesh Skull
+		Tooltip: the adrenaline fills in 2 times longer but lasts 4 times longer
+	}
+
+	LeadWizard: {
+		DisplayName: Lead Wizard
+		Tooltip:
+			'''
+			Something's not right...
+			33% chance to not consume ammo
+			'''
+	}
 }
 
 Projectiles: {
@@ -5397,6 +5467,17 @@ Projectiles: {
 	LatchSlime: {
 		DisplayName: Slime
 	}
+	ArcanoidOrbMinion: {
+		DisplayName: Arcanoid Orb
+	}
+
+	BulwarkStar: {
+		DisplayName: Astral Star
+	}
+
+	FrozenMeat: {
+		DisplayName: Frozen Meat
+	}
 }
 
 Shortstrike.Gauge:
@@ -5888,6 +5969,10 @@ Buffs: {
 	GelSlimeBuff: {
 		DisplayName: Gelatinous Friend
 		Description: A slime fights for you
+	}
+	ArcanoidOrbBuff: {
+		DisplayName: Arcanoid Orb
+		Description: The orb hovers where you left it
 	}
 }
 
@@ -6686,4 +6771,6 @@ WikiWeapons: {
 Keybinds: {
 	ButterflyRelease.DisplayName: Butterfly Release
 	ElderBerryDash.DisplayName: Elder Berry Dash
+	ArcanoidOrb.DisplayName: Arcanoid Orb
+	BloodElementConsume.DisplayName: Consume
 }

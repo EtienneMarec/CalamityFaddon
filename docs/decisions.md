@@ -2504,6 +2504,20 @@ of Astrum Deus, Deep Diver, The Transformer, Luxor's Gift de Calamity).
 - **[technique]** Pas faits : les slimes sauvages qui se battent pour vous ; la ruée Plague Pack et les mini-projectiles
   de The Godfather.
 
+### Lot AZ du 20/11 : butin selon la difficulté (`Content/Items/Accessories/WikiCoverings1120d.cs`)
+
+Objets que les pages d'objets font tomber en Expert, Revengeance ou Death (lus depuis le 20/11, voir section 7).
+
+- **[choix]** Arcanoid Orb : touche « Arcanoid Orb » (F) ; en la maintenant, 1 mana toutes les 3 images ; dégâts
+  d'invocation, sans place.
+- **[choix]** Astral Bulwark : 5 étoiles à 50 dégâts vers l'ennemi le plus proche ; objet Expert.
+- **[choix]** Blood Element : touche « Consume » (C) ; 10 morceaux au plus, +15 % de dégâts par morceau sur la prochaine
+  attaque magique ; un morceau au plus toutes les 30 images. **[technique]** Contenants de viande à la place du mana : non fait.
+- **[choix]** Burden Breaker : vitesse maximale ramenée à 60 px par image (la page dit 2557 mph) pour que les blocs
+  arrêtent encore le joueur.
+- **[choix]** Dread Bone : sbire absent 3 s après l'explosion.
+- **[technique]** Dust Bunny, Magma Booster, Ever Ink (+100 Stamina) : pas faits, la Stamina (addon Catalyst) n'existe pas.
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

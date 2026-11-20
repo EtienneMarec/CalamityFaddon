@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (94)
+## Objets (92)
 
 - A M S
 - AAMG "Disperse"
@@ -83,10 +83,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aergian Technistaff
 - Aquarel Pistol
 - Aquatic Shardstone
-- Arcanoid Orb
 - Bleeding Influx
 - Blobfish Plushie
-- Blood Element
 - Bloodinator 1
 - Bundle o' Bones
 - Butcher's Glove

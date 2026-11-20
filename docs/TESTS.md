@@ -1139,6 +1139,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       touchent plus), Assortegelatin (slime de la couleur du biome ; aucun slime, même King Slime, ne vous touche),
       Slimelgamation et The Godfather (effets de tous leurs ingrédients)
 
+- [ ] Lot AZ (butin selon la difficulté, ou Cheat Sheet) : Arcanoid Orb (touche F : l'orbe va au curseur ; maintenue :
+      elle le suit), Astral Bulwark (étoiles quand on est touché), Blood Element (morceaux de viande ; touche C), Burden
+      Breaker (courir très vite, hors boss), Dread Bone (sbires qui explosent et reviennent), Fancy Flesh Skull (Adrénaline
+      plus longue), Lead Wizard (deux jets de balles en V)
+
 ## Décisions en attente (pas des tests)
 
 - [ ] (20/11) **Seraph Tracers** : le Fandom les appelle « Celestial Tracers » (redirection, `reports/renames.md`). Renommer

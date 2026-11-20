@@ -232,7 +232,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Latcher Mine
 - [x] Lazhar
 - [x] Lazinator
-- [ ] Lead Wizard
+- [x] Lead Wizard
 - [x] Leeching Dagger
 - [ ] Li'l Mine — addon: Calamity: Community Remix
 - [x] Lightning Hawk
@@ -630,21 +630,21 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Aegis Core — addon: Calamity: Tales of the Aquatic
 - [x] Ancient Essence of Merge — addon: Calamity: Tales of the Aquatic
 - [ ] Aquatic Shardstone — addon: Calamity: Tales of the Aquatic
-- [ ] Arcanoid Orb — addon: Calamity: Tales of the Aquatic
+- [x] Arcanoid Orb — addon: Calamity: Tales of the Aquatic
 - [x] Arcanum of the Void
 - [x] Archangel Wings
 - [x] Armageddon Wings — addon: Deimos, the Starborn Princess
 - [x] Assortegelatin
-- [ ] Astral Bulwark
+- [x] Astral Bulwark
 - [x] BFB
 - [x] Babil Destruction Core — addon: Calamity: Tales of the Aquatic
 - [x] Bellwings — addon: Calamity: Community Remix
 - [x] Blazing Powder — addon: Calamity: Community Remix
-- [ ] Blood Element — addon: Calamity: Tales of the Aquatic
+- [x] Blood Element — addon: Calamity: Tales of the Aquatic
 - [x] Bloodflare Wings
 - [ ] Bloodred Alliance — addon: Calamity: Tales of the Aquatic
 - [ ] Brain of the Legendary — addon: Calamity: Tales of the Aquatic
-- [ ] Burden Breaker
+- [x] Burden Breaker
 - [ ] Butcher's Glove — addon: Calamity: Tales of the Aquatic
 - [ ] Calamitous Orbit — addon: Calamity: Tales of the Aquatic
 - [ ] Calamitous Soul Artifact — addon: Calamity: Community Remix
@@ -655,7 +655,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Determination Breaker
 - [x] Disorderful Soul Artifact
 - [ ] Drained Catarachedrae — addon: Calamity: Tales of the Aquatic
-- [ ] Dread Bone — addon: Calamity: Tales of the Aquatic
+- [x] Dread Bone — addon: Calamity: Tales of the Aquatic
 - [x] Dreamy Belt — addon: Calamity: Community Remix
 - [x] Drew's Fins
 - [x] Earth Destruction Core — addon: Calamity: Tales of the Aquatic
@@ -666,7 +666,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Eternal Pillow — addon: Calamity: Community Remix
 - [ ] Exo Gel
 - [x] Exotic Beacon
-- [ ] Fancy Flesh Skull — addon: Calamity: Tales of the Aquatic
+- [x] Fancy Flesh Skull — addon: Calamity: Tales of the Aquatic
 - [x] Fathomless Soul Artifact
 - [x] Ferro Claws
 - [x] Frigid Bulwark

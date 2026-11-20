@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1818 objets dont les recettes ont changé : 1052 recettes modifiées, 881 créées
+- 1819 objets dont les recettes ont changé : 1052 recettes modifiées, 882 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 66 transmutations Shimmer ajoutées
-- 36 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 38 recettes
+- 35 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 37 recettes
 
 ## Recettes changées
 
@@ -154,6 +154,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Aspect of the End | (nouvelle) | 2 Glittering Astral Eye, 1 Diamond @ LunarCraftingStation → 1 |
 | Assortegelatin | (nouvelle) | 1 Royal Gel, 1 Volatile Gelatin, 1 Nucleate Gello, 5 Meld Bar, 10 Luminite Bar, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Asteroid Staff | (nouvelle) | 1 Meteor Staff, 5 Luminite Bar @ LunarCraftingStation → 1 |
+| Astral Arcanoid Base | (nouvelle) | 30 Stardust, 1 Arcanoid Orb, 10 Fallen Star @ AquaticHypercomputerVault → 1 |
 | Astral Arcanum | 1 Ambrosial Ampoule, 1 Celestial Jewel, 5 Auric Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Celestial Jewel, 3 Dark Plasma, 999 Green Solution, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Astral Axe | (nouvelle) | 7 Astral Bar @ LunarCraftingStation → 1 |
 | Astral Beacon | 30 Astral Stone, 5 Aureus Cell, 20 Stardust @ HeavyWorkBench → 1 | 5 Aureus Cell, 20 Stardust, 30 Astral Stone, 10 Essential Essence Bar @ LunarCraftingStation → 1 |
@@ -1957,7 +1958,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Abandoned Bronze Platform — 1
 - objet : Alien Biomass — 1
 - objet : Aquatic Biomass — 1
-- objet : Arcanoid Orb — 1
 - objet : Auric Sludge Remnant — 1
 - objet : Catarachedrae — 1
 - objet : Clotted Gel — 1
