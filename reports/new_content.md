@@ -634,7 +634,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Arcanum of the Void
 - [x] Archangel Wings
 - [x] Armageddon Wings — addon: Deimos, the Starborn Princess
-- [ ] Assortegelatin
+- [x] Assortegelatin
 - [ ] Astral Bulwark
 - [x] BFB
 - [x] Babil Destruction Core — addon: Calamity: Tales of the Aquatic
@@ -692,7 +692,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Nameless Rat — addon: Calamity: Community Remix
 - [x] Night Cloak — addon: Calamity: Tales of the Aquatic
 - [x] Nightform — addon: Calamity: Tales of the Aquatic
-- [ ] Nucleate Gello
+- [x] Nucleate Gello
 - [x] Oil Bottle
 - [x] Palladium Light Circuit — addon: Calamity: Tales of the Aquatic
 - [x] Phantasmal Rune — addon: Calamity: Tales of the Aquatic
@@ -720,7 +720,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Shatterspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [x] Silva Module — addon: Calamity: Tales of the Aquatic
 - [ ] Silver Heart
-- [ ] Slimelgamation — addon: Calamity: Community Remix
+- [x] Slimelgamation — addon: Calamity: Community Remix
 - [ ] Slimy Wisdom Tooth — addon: Calamity: Community Remix
 - [x] Socratic Sapphire — addon: Calamity: Community Remix
 - [ ] Soul of Carcinogen
@@ -736,7 +736,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Surgical Glove
 - [x] Terraformance — addon: Calamity: Tales of the Aquatic
 - [ ] The Everquartz — stub; addon: Catalyst
-- [ ] The Godfather — addon: Calamity: Community Remix
+- [x] The Godfather — addon: Calamity: Community Remix
 - [ ] The Progression — addon: Calamity: Tales of the Aquatic
 - [ ] The Verboten One — addon: Calamity: Community Remix
 - [ ] Thrower's Gauntlet — addon: Calamity: Community Remix

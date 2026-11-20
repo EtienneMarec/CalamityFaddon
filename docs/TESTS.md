@@ -1135,6 +1135,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       du ciel à chaque tir de spy), Universal Stone (effets des 6 pierres, Cosmic Elemental très fort, bouclier violet),
       Earthshooter (2 fléchettes chercheuses)
 
+- [ ] Lot AY : Nucleate Gello (Cragmaw Mire : un slime vert qui se colle aux ennemis ; les slimes de King Slime ne vous
+      touchent plus), Assortegelatin (slime de la couleur du biome ; aucun slime, même King Slime, ne vous touche),
+      Slimelgamation et The Godfather (effets de tous leurs ingrédients)
+
 ## Décisions en attente (pas des tests)
 
 - [ ] (20/11) **Seraph Tracers** : le Fandom les appelle « Celestial Tracers » (redirection, `reports/renames.md`). Renommer

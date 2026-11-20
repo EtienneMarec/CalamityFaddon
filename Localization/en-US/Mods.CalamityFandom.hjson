@@ -4510,6 +4510,49 @@ Items: {
 		DisplayName: Earthshooter
 		Tooltip: Shoots 2 homing darts into your enemies
 	}
+	NucleateGello: {
+		DisplayName: Nucleate Gello
+		Tooltip:
+			'''
+			Summons a nucleate to fight for you
+			Pacifies all boss servant slimes
+			'''
+	}
+
+	Assortegelatin: {
+		DisplayName: Assortegelatin
+		Tooltip:
+			'''
+			Summons slimes to fight for you based on your current biome
+			All wild slimes will fight for you
+			Pacifies all slimes, even bosses
+			'''
+	}
+
+	Slimelgamation: {
+		DisplayName: Slimelgamation
+		Tooltip:
+			'''
+			Extends the duration of potion buffs by 200% and potion buffs remain active even after you die
+			15% increased damage
+			Summons an evolved slime core to fight for you
+			All wild slimes will fight for you
+			Shade and brimstone flames rain down when you are hit
+			Nearby enemies receive a variety of debuffs when you are hit
+			'''
+	}
+
+	TheGodfather: {
+		DisplayName: The Godfather
+		Tooltip:
+			'''
+			All effects of ingredients
+			Additionally:
+			Extends the duration of potion buffs by 200% and potion buffs remain active even after you die
+			Summons an evolved slime core to fight for you
+			All wild slimes will fight for you
+			'''
+	}
 }
 
 Projectiles: {
@@ -5351,6 +5394,9 @@ Projectiles: {
 	AuricDwarf: {
 		DisplayName: Auric Dwarf
 	}
+	LatchSlime: {
+		DisplayName: Slime
+	}
 }
 
 Shortstrike.Gauge:
@@ -5838,6 +5884,10 @@ Buffs: {
 	AuricDwarfsBuff: {
 		DisplayName: Auric Dwarfs
 		Description: 22 Auric Dwarfs are defending you.
+	}
+	GelSlimeBuff: {
+		DisplayName: Gelatinous Friend
+		Description: A slime fights for you
 	}
 }
 

@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1815 objets dont les recettes ont changé : 1052 recettes modifiées, 877 créées
+- 1818 objets dont les recettes ont changé : 1052 recettes modifiées, 881 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 66 transmutations Shimmer ajoutées
-- 37 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 39 recettes
+- 36 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 38 recettes
 
 ## Recettes changées
 
@@ -152,6 +152,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Ashen Slab | 1 Smooth Brimstone Slag @ AshenAltar → 1 | 4 Smooth Brimstone Slag, 1 Unholy Core @ AshenAltar → 5 |
 | Ashplate | (nouvelle) | 1 Ashes of Calamity, 3 Obsidian @ Hellforge → 3 |
 | Aspect of the End | (nouvelle) | 2 Glittering Astral Eye, 1 Diamond @ LunarCraftingStation → 1 |
+| Assortegelatin | (nouvelle) | 1 Royal Gel, 1 Volatile Gelatin, 1 Nucleate Gello, 5 Meld Bar, 10 Luminite Bar, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Asteroid Staff | (nouvelle) | 1 Meteor Staff, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Astral Arcanum | 1 Ambrosial Ampoule, 1 Celestial Jewel, 5 Auric Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Celestial Jewel, 3 Dark Plasma, 999 Green Solution, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Astral Axe | (nouvelle) | 7 Astral Bar @ LunarCraftingStation → 1 |
@@ -1440,6 +1441,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Skyline Wings | 10 Aerialite Bar, 5 Feather @ Anvils → 1 | 1 Fledgling Wings, 5 Feather, 3 Fallen Star, 5 Sunplate Block @ Anvils → 1 |
 | Slime God Dye | 1 Pink Statigel Dye, 1 Blue Statigel Dye @ DyeVat → 2 | 1 Pink Statigel Dye, 1 Blue Statigel Dye, 1 Purified Gel @ DyeVat → 2 |
 | Slime Staff | 6 Any Wood, 40 Gel @ Anvils → 1 | 6 Any Wood, 40 Gel, 10 Pink Gel @ Anvils → 1 |
+| Slimelgamation | (nouvelle) | 1 The Amalgam, 1 Assortegelatin, 5 Yharon Soul Fragment, 4 Yharim Bar @ CosmicAnvil → 1 |
+| Slimelgamation | (nouvelle) | 1 The Amalgam, 1 Assortegelatin, 5 Quark-Gluon Sludge, 4 Yharim Bar @ CosmicAnvil → 1 |
 | Sludge Splotch | 50 Blighted Gel, 8 Shadow Scale or Tissue Sample @ main → 1 | 15 Blighted Gel, 1 Any Evil Flesh @ main → 100 |
 | Smoldering Seahorses | (nouvelle) | 7 Seahorse, 2 Fireblossom Seeds, 13 Disgusting Meat, 1 Book @ Anvils → 1 |
 | Smooth Abyss Gravel | 2 Smooth Abyss Gravel Platform @ main → 1 | 2 Smooth Abyss Gravel Platform @ VoidCondenser → 1 |
@@ -1716,6 +1719,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | The Enforcer | (nouvelle) | 12 Cosmilite Bar @ CosmicAnvil → 1 |
 | The Eye of Cthulhu | 1 Eye of Cthulhu Trophy @ Bookcases → 1 | 1 Eye of Cthulhu Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The First Fracturer | (nouvelle) | 1 Night's Edge / Bloody Edge, 22 Soul of Light, 2 Light Shard @ MythrilAnvil → 1 |
+| The Godfather | (nouvelle) | 1 Slimelgamation, 1 The Sponge, 1 Abyssal Diving Suit, 1 Nebulous Core, 1 Hide of Astrum Deus, 1 Deep Diver, 1 The Transformer, 1 Luxor's Gift, 1 Miracle Matter @ DraedonsForge → 1 |
 | The Hive Mind | 1 Hive Mind Trophy @ Bookcases → 1 | 1 Hive Mind Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | The Last Mourning | 1 The Horseman's Blade, 30 Soul of Night, 5 Reaper Tooth, 3 Ruinous Soul @ MythrilAnvil → 1 | 1 Baleful Harvester, 30 Soul of Night, 5 Reaper Tooth, 3 Ruinous Soul @ LunarCraftingStation → 1 |
 | The Maelstrom | 1 The Storm, 3 Reaper Tooth, 20 Divine Bar, 50 Voidstone @ MythrilAnvil → 1 | 1 The Storm, 3 Reaper Tooth, 20 Divine Bar, 50 Voidstone @ LunarCraftingStation → 1 |
@@ -1980,7 +1984,6 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Sharanga — 1
 - objet : Skyalcon Spallation — 1
 - objet : Spirit of the Nightmare — 1
-- objet : The Godfather — 1
 - objet : The Inflator's Controller — 1
 - objet : The King's Gambit — 1
 - objet : Violet Heart of Calamity — 1

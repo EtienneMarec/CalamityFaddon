@@ -2485,6 +2485,20 @@ Balla, Cosmic Elemental, ennemis de surface, ennemis mécaniques) : WikiLoot les
 - **[choix]** « Celestial Tracers » (nom du Fandom des Seraph Tracers, `reports/renames.md`) : alias pour les recettes
   seulement (`tools/glossary.json`), sans renommer l'objet de Calamity (à trancher, voir `docs/TESTS.md`).
 
+### Lot AY du 20/11 : chaîne des gelées (`Content/Items/Accessories/WikiCoverings1120c.cs`)
+
+Nucleate Gello (Cragmaw Mire) → Assortegelatin → Slimelgamation → The Godfather : chaque objet reprend les effets de ses
+ingrédients (Royal Gel et Volatile Gelatin de Terraria, The Amalgam, The Sponge, Abyssal Diving Suit, Nebulous Core, Hide
+of Astrum Deus, Deep Diver, The Transformer, Luxor's Gift de Calamity).
+
+- **[choix]** Nucleate Gello : butin de sa page (pas de celle du Cragmaw Mire) : 100 % avant Polterghast (Acid Rain de
+  niveau 2), 10 % après (niveau 3), gardé en Full Fandom.
+- **[choix]** Slime d'accessoire (Nucleate 40, slime du biome de l'Assortegelatin 400) : saute sur l'ennemi, s'y colle 2 s ;
+  texture du slime bleu teinte selon le biome. « Pacifiés » = ils ne vous touchent plus (les servants des quatre boss pour
+  le Nucleate Gello ; tous les slimes, boss compris, pour l'Assortegelatin et ses améliorations).
+- **[technique]** Pas faits : les slimes sauvages qui se battent pour vous ; la ruée Plague Pack et les mini-projectiles
+  de The Godfather.
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

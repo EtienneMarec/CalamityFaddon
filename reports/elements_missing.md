@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (96)
+## Objets (94)
 
 - A M S
 - AAMG "Disperse"
@@ -154,11 +154,9 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Severed Eye.exe
 - Shattered Module
 - Shattered Pistol
-- Slimelgamation
 - Snowgrave
 - Star Flare
 - Tetrachromancy
-- The Godfather
 - The Inflator's Controller
 - The King's Gambit
 - The Verboten One
