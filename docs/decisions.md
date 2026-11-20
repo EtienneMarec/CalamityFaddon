@@ -778,6 +778,11 @@ l'effet, vulnérable = 200 %). Tout le reste est un choix, réglable dans `Commo
   marche), qui feraient tomber le butin deux fois. Sinon, un seul PNJ
   (celui qui a déjà le plus de butin, puis pas un segment). Liste : `reports/loot_applied.md`.
 
+- **[choix]** (20/11) Chances écrites en modèle de difficulté sur les pages d'objets (« {{expert|5%}} »,
+  « {{revengeance|100%}} », « {{death|10%}} », « {{malice|100%}} ») : la chance devient une condition de difficulté
+  (Expert, Revengeance, Death). Malice n'existe plus dans Calamity 2.2.2 : comptée comme Death. Avant, ces lignes étaient
+  laissées de côté (`reports/loot.md`) ; 32 drops lus en plus, la plupart pour des objets pas encore faits.
+
 ## 8. Contenu créé ou porté
 
 ### Tests en jeu des portages (`docs/TESTS.md`, `tools/legacy_risks.py`)

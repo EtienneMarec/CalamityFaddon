@@ -2,12 +2,12 @@
 
 _Généré par l'auto-test à partir de `WikiData/loot.json`._
 
-- 578 drops ajoutés sur 238 PNJ
+- 586 drops ajoutés sur 238 PNJ
 - 134 ajouts dans 28 sacs
 - 568 drops du wiki déjà présents dans le jeu (inchangés)
 - 138 drops avec leur condition (boss vaincu, biome, premier kill), dont 65 qui remplacent la règle du jeu
 - 31 drops à condition écrite en note que le jeu ne sait pas vérifier, non appliqués (voir `reports/loot.md`)
-- 93 PNJ du wiki absents du jeu, 48 objets introuvables
+- 93 PNJ du wiki absents du jeu, 59 objets introuvables
 
 ## Ajouts
 
@@ -31,7 +31,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Astral Probe** : Titan Finger 1-1 à 2.0%
 - **Astral Slime** : Astral Ore 8-12 à 100.0% [After defeating Astrum Deus] ; Titan Finger 1-1 à 2.0% ; Abandoned Slime Staff 1-1 à 5.0% [After defeating Astrum Aureus]
 - **Astralachnea** : Titan Finger 1-1 à 2.0% ; Astralachnea Staff 1-1 à 14.3% [After defeating Astrum Aureus]
-- **Astrum Aureus** : Soul of Bright 20-40 à 100.0% (mode normal) ; Hallowed Key 1-1 à 20.0% (mode normal) ; Stardust 20-30 à 100.0% (mode normal) ; Fallen Star 18-24 à 100.0% (mode normal) ; Gravistar Sabaton 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Astrum Aureus 1-1 à 100.0% [Always on first kill] (mode normal) ; Astrum Aureus 1-1 à 100.0% [Always on first kill] (Expert, direct)
+- **Astrum Aureus** : Soul of Bright 20-40 à 100.0% (mode normal) ; Hallowed Key 1-1 à 20.0% (mode normal) ; Stardust 20-30 à 100.0% (mode normal) ; Fallen Star 18-24 à 100.0% (mode normal) ; Gravistar Sabaton 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Astrum Aureus 1-1 à 100.0% [Always on first kill] (mode normal) ; Astrum Aureus 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Starlight Fuel Cell 1-1 à 100.0% (mode normal)
 - **Asura** : Exodium Cluster 2-2 à 50.0%
 - **Atlas** : Titan Finger 1-1 à 15.0% ; Titan Arm 1-1 à 14.3% [After defeating Astrum Aureus]
 - **Auric Slime** : Auric Ore 10-26 à 100.0%
@@ -47,11 +47,11 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Bobbit Worm** : Depth Cells 5-7 à 50.0% [After defeating Calamitas] ; Bobbit Hook 1-1 à 33.3% [After defeating Polterghast]
 - **Bohldohr** : Lihzahrd Brick 10-30 à 100.0%
 - **Box Jellyfish** : Abyss Shocker 1-1 à 2.0% [After defeating Skeletron]
-- **Brimstone Elemental** : Bloodstone 20-30 à 100.0% [Once Providence, the Profaned Goddess] (mode normal) ; Gehenna 1-1 à 100.0% (mode normal) ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] (mode normal) ; Abaddon 1-1 à 50.0% (mode normal) ; Flame-Licked Shell 1-1 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Brimstone Crag 1-1 à 100.0% [Always on first kill] (mode normal) ; Brimstone Crag 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Brimstone Elemental 1-1 à 100.0% [Always on first kill] (mode normal) ; Brimstone Elemental 1-1 à 100.0% [Always on first kill] (Expert, direct)
+- **Brimstone Elemental** : Bloodstone 20-30 à 100.0% [Once Providence, the Profaned Goddess] (mode normal) ; Gehenna 1-1 à 100.0% (mode normal) ; Brimrose 1-1 à 100.0% [After defeating Providence, the Profaned Goddess] (mode normal) ; Abaddon 1-1 à 50.0% (mode normal) ; Flame-Licked Shell 1-1 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Brimstone Crag 1-1 à 100.0% [Always on first kill] (mode normal) ; Brimstone Crag 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Brimstone Elemental 1-1 à 100.0% [Always on first kill] (mode normal) ; Brimstone Elemental 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Charred Relic 1-1 à 100.0% (mode normal)
 - **Calamitas** : Ashes of Annihilation 9-14 à 100.0% (mode normal) ; Blighted Lens 5-12 à 100.0% (mode normal) ; Broken Hero Sword 1-1 à 100.0% (mode normal) ; Bloodstone 30-40 à 100.0% [Once Providence is defeated] (mode normal) ; Void of Calamity 1-1 à 100.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Calamitas Clone 1-1 à 100.0% [Always on first kill] (mode normal) ; Calamitas Clone 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Brimstone Flameblaster 1-1 à 8.3% (mode normal) ; Catastrophe Clay Ore 10-26 à 100.0% (mode normal) ; Crushsaw Crasher 1-1 à 8.3% (mode normal) ; Havoc's Breath 1-1 à 8.3% (mode normal)
 - **Calamity Eye** : Blighted Lens 1-1 à 50.0% [In Hardmode] ; Essence of Chaos 1-1 à 33.3% [In Hardmode] ; Bloodstone 1-1 à 50.0% [After defeating Providence]
 - **Cannonball Jellyfish** : Jellyfish Cannonball 15-15 à 100.0%
-- **Ceaseless Void** : The Evolution 1-1 à 100.0% (mode normal) ; Tree-Crown Wings 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Signus are defeated] (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Signus are defeated] (Expert, direct)
+- **Ceaseless Void** : The Evolution 1-1 à 100.0% (mode normal) ; Tree-Crown Wings 1-1 à 100.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Signus are defeated] (mode normal) ; The Sentinels of the Devourer 1-1 à 100.0% [Always on first kill if Storm Weaver and Signus are defeated] (Expert, direct) ; Arcanum of the Void 1-1 à 100.0% (mode normal)
 - **Chaos Slime** : Abyss Ore 10-26 à 100.0%
 - **Chaotic Puffer** : Abyss Ore 10-26 à 100.0% [After defeating Golem]
 - **Charm Gar** : Blood Orb 30-75 à 100.0% ; Bloodstone 35-50 à 100.0% ; Bloodstone Bar 8-15 à 100.0%
@@ -65,7 +65,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Colossal Squid** : The Food Chain 1-1 à 15.0% ; Depth Cells 26-38 à 50.0% [After defeating Calamitas] ; Calamari's Lament 1-1 à 33.3% [After defeating Polterghast]
 - **Cosmic Elemental** : Cosmic Stone 1-1 à 5.0%
 - **Cosmilite Slime** : Cosmilite Slag 10-26 à 100.0%
-- **Crabulon** : Glowing Mushroom 20-30 à 100.0% (mode normal) ; Mushroom Grass Seeds 3-6 à 100.0% (mode normal) ; Fungal Clump 1-1 à 100.0% (mode normal) ; Delicious Meat 4-7 à 100.0% (mode normal) ; Leaves of Crabulon 4-7 à 100.0% (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Shroomerang 1-1 à 25.0% (mode normal)
+- **Crabulon** : Glowing Mushroom 20-30 à 100.0% (mode normal) ; Mushroom Grass Seeds 3-6 à 100.0% (mode normal) ; Fungal Clump 1-1 à 100.0% (mode normal) ; Delicious Meat 4-7 à 100.0% (mode normal) ; Leaves of Crabulon 4-7 à 100.0% (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (mode normal) ; Crabulon 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Mushroom Plasma Root 1-1 à 100.0% (mode normal) ; Shroomerang 1-1 à 25.0% (mode normal)
 - **Cragmaw Mire** : Septic Skewer 1-1 à 25.0%
 - **Crimson Kaiju** : Darksun Fragment 35-45 à 100.0% ; Red Wings 1-1 à 5.0%
 - **Crimson Slime Spawn** : Blindfold 1-1 à 1.0%
@@ -147,7 +147,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Hive Cyst** : Demonite Ore 10-26 à 100.0%
 - **Ichor Sticker** : Ichor Dagger 1-1 à 4.0%
 - **Irradiated Slime** : Lead Core 1-1 à 3.3%
-- **Jungle Dragon Yharon** : Dragon Flame Barrage 1-1 à 25.0% (mode normal) ; Yharim's Gift 1-1 à 100.0% (mode normal) ; Omega Healing Potion 5-15 à 100.0% (mode normal) ; Chicken Nugget 5000-5000 à 100.0% (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (Expert, direct)
+- **Jungle Dragon Yharon** : Dragon Flame Barrage 1-1 à 25.0% (mode normal) ; Yharim's Gift 1-1 à 100.0% (mode normal) ; Omega Healing Potion 5-15 à 100.0% (mode normal) ; Chicken Nugget 5000-5000 à 100.0% (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (mode normal) ; Jungle Dragon, Yharon 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Fox Drive 1-1 à 100.0% (mode normal)
 - **King of Constellations, Tenryu** : Ruinous Soul 1-1 à 10.0% ; Exodium Cluster 5-17 à 100.0% ; Lumenyl 1-1 à 33.3%
 - **La Ruga** : 22 Hornet Round 19-22 à 100.0% ; Abyss Ore 20-50 à 100.0% ; Terminus 1-1 à 100.0%
 - **Laserfish** : Lumenyl 1-1 à 50.0% [After defeating Calamitas]
@@ -162,7 +162,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Mauler** : Fetid Emesis 1-1 à 25.0% ; Prehistoric Tablet 1-1 à 8.0%
 - **Meteor Head** : Divine Intervention 1-1 à 5.0%
 - **Mirage Jelly** : Depth Cells 5-7 à 50.0% [After defeating Calamitas] ; Abyss Shocker 1-1 à 10.0% [After defeating Skeletron] ; Mirage Jelly 1-1 à 14.3%
-- **Moon Lord** : Celestial Onion 1-1 à 100.0% (mode normal) ; Celestial Onion 1-1 à 100.0% (Expert, direct) ; Cheese 4-6 à 5.0% (mode normal) ; Cheese 4-6 à 5.0% (Expert, direct) ; Devious Aestheticus 1-1 à 5.0% (mode normal) ; Devious Aestheticus 1-1 à 5.0% (Expert, direct) ; Utensil Poker 1-1 à 25.0% (mode normal) ; Utensil Poker 1-1 à 33.3% (Expert, direct)
+- **Moon Lord** : Celestial Onion 1-1 à 100.0% (mode normal) ; Celestial Onion 1-1 à 100.0% (Expert, direct) ; Cheese 4-6 à 5.0% (mode normal) ; Cheese 4-6 à 5.0% (Expert, direct) ; Devious Aestheticus 1-1 à 5.0% (mode normal) ; Devious Aestheticus 1-1 à 5.0% (Expert, direct) ; Grand Dad 1-1 à 100.0% (mode normal) ; Grand Dad 1-1 à 100.0% (Expert, direct) ; Utensil Poker 1-1 à 25.0% (mode normal) ; Utensil Poker 1-1 à 33.3% (Expert, direct)
 - **Moray Eel** : Depth Crusher 1-1 à 6.7%
 - **Moth** : Gypsy Powder 1-1 à 50.0%
 - **Mouse** : Cheese 1-2 à 0.0% [in Godseeker Mode]
@@ -221,7 +221,7 @@ _Généré par l'auto-test à partir de `WikiData/loot.json`._
 - **Tempest Toddler** : Desert Feather 2-4 à 100.0%
 - **The Old Duke** : Sulfuric Scale 1-1 à 10.0% (mode normal) ; Supreme Healing Potion 5-15 à 100.0% (mode normal) ; Old Duke 1-1 à 100.0% [Always on first kill] (mode normal) ; Old Duke 1-1 à 100.0% [Always on first kill] (Expert, direct)
 - **The Plaguebringer Goliath** : Toxic Heart 1-1 à 100.0% (mode normal) ; Flask of Plague 5-15 à 10.0% (mode normal) ; Greater Healing Potion 5-15 à 100.0% (mode normal) ; Bad Apple 1-1 à 10.0% (mode normal) ; Surgical Glove 1-1 à 10.0% (mode normal) ; Plague Balloon 1-1 à 10.0% (mode normal) ; Jungle Key 1-1 à 100.0% (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (mode normal) ; The Plaguebringer Goliath 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Oil Bottle 1-1 à 0.1% (mode normal) ; Disease 1-1 à 25.0% (mode normal) ; Diseased Pike 1-1 à 25.0% (mode normal) ; Metal Ball 1-1 à 25.0% (mode normal) ; Pandemic 1-1 à 25.0% (mode normal) ; Sewer Brewer 1-1 à 25.0% (mode normal) ; Reemergence 1-1 à 25.0% (mode normal) ; Pestilent Defiler 1-1 à 25.0% (mode normal) ; Blight Spewer 1-1 à 25.0% (mode normal) ; The Hive 1-1 à 25.0% (mode normal) ; Blow Pipe 1-1 à 25.0% (mode normal) ; Toxic Wisdom 1-1 à 25.0% (mode normal) ; The Needler 1-1 à 25.0% (mode normal) ; Decomposition 1-1 à 25.0% (mode normal) ; Cirrhotipede 1-1 à 25.0% (mode normal) ; Poison I-Bee 1-1 à 25.0% (mode normal) ; Phlegm 1-1 à 25.0% (mode normal) ; Contaminated Dish 1-1 à 25.0% (mode normal) ; Infected Dagger Misses No Skeptics 1-1 à 25.0% (mode normal) ; Death-Needle Stinger 1-1 à 25.0% (mode normal) ; Trash of Magnus 1-1 à 25.0% (mode normal) ; Varroa Hack 999-3996 à 25.0% (mode normal)
-- **The Slime God** : Mana Polarizer 1-1 à 100.0% (mode normal) ; Purified Jam 6-8 à 100.0% [Once per player and world] (mode normal) ; Healing Potion 5-15 à 100.0% (mode normal) ; The Slime God 1-1 à 100.0% [Always on first kill] (mode normal) ; The Slime God 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Crimslime Staff 1-1 à 25.0% (mode normal) ; Slime Puppet Staff 1-1 à 25.0% (mode normal)
+- **The Slime God** : Mana Polarizer 1-1 à 100.0% (mode normal) ; Purified Jam 6-8 à 100.0% [Once per player and world] (mode normal) ; Healing Potion 5-15 à 100.0% (mode normal) ; The Slime God 1-1 à 100.0% [Always on first kill] (mode normal) ; The Slime God 1-1 à 100.0% [Always on first kill] (Expert, direct) ; Electrolyte Gel Pack 1-1 à 100.0% (mode normal) ; Crimslime Staff 1-1 à 25.0% (mode normal) ; Slime Puppet Staff 1-1 à 25.0% (mode normal)
 - **Toxic Minnow** : Depth Cells 2-3 à 50.0% [After defeating Calamitas]
 - **Trasher** : Gatligator 1-1 à 10.0% [In Hardmode]
 - **Trilobite** : Toxicant Twister 1-1 à 5.0%
@@ -309,17 +309,25 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Romulus — 2
 - Animatronic Head — 1
 - Anomaly 109 — 1
+- Arcanoid Orb — 1
 - Ash's Cloak — 1
+- Astral Bulwark — 1
 - Blank Stare — 1
+- Blood Element — 1
 - Bloodflare Rod — 1
 - Blue Demon Head — 1
+- Burden Breaker — 1
 - Calamity Spawner — 1
 - Deteriorating Lens — 1
 - Didgeridoo — 1
+- Dread Bone — 1
+- Dust Bunny — 1
 - Encrypted Schematic (Hell) — 1
 - Energized Scrap Spikes — 1
+- Ever Ink — 1
 - Exo Dogtooth — 1
 - Eye of Excavator — 1
+- Fancy Flesh Skull — 1
 - Frigid Bar — 1
 - Grand Thunder Cnidrion Mask — 1
 - Grand Thunder Cnidrion Trophy — 1
@@ -330,10 +338,13 @@ Crimson Slime Spawn (2), Plague Charger (2), Zombie (14), Demon Eye (8), Necroma
 - Hi-Scan Camera — 1
 - Jane Wulfrum Mask — 1
 - John Wulfrum Mask — 1
+- Lead Wizard — 1
 - Li'l Mine — 1
+- Magma Booster — 1
 - Onyx Shiv — 1
 - Plague Station — 1
 - Plaguecom Tablet — 1
+- Plagued Minecart — 1
 - Profaned Core Fragment — 1
 - Pyro Stone — 1
 - Pyrogen (Lore) — 1

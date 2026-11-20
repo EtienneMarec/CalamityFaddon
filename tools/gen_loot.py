@@ -155,6 +155,19 @@ def condition_text(note):
     return re.sub(r"\s+", " ", t).strip()
 
 
+DIFFICULTY_RE = re.compile(r"^\s*\{\{\s*(expert|revengeance|death|malice)\s*\|\s*([^{}|]*?)\s*\}\}\s*(.*)$", re.I | re.S)
+
+
+def split_difficulty(raw):
+    """« {{revengeance|100%}}<br>(Always on first kill) » -> ("revengeance", "100%", "<br>(Always on first kill)").
+    Malice n'existe plus dans Calamity 2.2.2 : compté comme Death (20/11). Sans modèle : (None, raw, "")."""
+    m = DIFFICULTY_RE.match(raw or "")
+    if not m:
+        return None, raw, ""
+    key = m.group(1).lower()
+    return ("death" if key == "malice" else key), m.group(2), m.group(3).strip()
+
+
 def parse_condition(note):
     """« (After defeating<br/>Golem) » -> {"downed": ["golem"]} ; None si la note n'est pas entièrement comprise."""
     t = re.sub(r"<br\s*/?>", " ", note)
@@ -344,10 +357,14 @@ def add_item_page_drops(index, npcs, problems, generic_drops, generic_skipped):
             title = by_norm.get(norm(name)) or by_norm.get(norm(redirects.get(norm(name), ""))) or name
             if (norm(title), canon(item)) in known:
                 continue
+            difficulty, chance_raw, after = split_difficulty(chance_raw)
             qty, chance = parse_qty(qty_raw), parse_chance(chance_raw)
             if qty is None or chance is None:
                 problems.setdefault(item + " (page d'objet)", []).append(f"{name} | {qty_raw} | {chance_raw}"[:80])
                 continue
+            if after and not cond_raw:
+                cm2 = re.search(r"\((.*)\)", re.sub(r"<br\s*/?>", " ", after))
+                cond_raw = cm2.group(1) if cm2 else None
             drop = {"item": item, "min": qty[0], "max": qty[1], "chance": round(chance, 4), "itemPage": page["file"]}
             qty_x, chance_x = parse_qty(qty_raw, True) or qty, parse_chance(chance_raw, True)
             if qty_x != qty:
@@ -361,6 +378,11 @@ def add_item_page_drops(index, npcs, problems, generic_drops, generic_skipped):
                 if condition:
                     drop["condition"] = condition
                     drop["conditionText"] = condition_text(note)
+            # Chance réservée à une difficulté (« {{revengeance|100%}} ») : condition de difficulté, en plus de la note
+            if difficulty:
+                drop["condition"] = dict(drop.get("condition") or {}, difficulty=difficulty)
+                label = {"expert": "Expert", "revengeance": "Revengeance", "death": "Death"}[difficulty]
+                drop["conditionText"] = (drop.get("conditionText", "") + " " + label).strip()
             if title not in npcs:
                 target = index.get(title + ".txt") or {}
                 npcs[title] = {"page": None, "boss": "boss" in (target.get("type") or "").lower(), "drops": [],

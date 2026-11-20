@@ -23,7 +23,16 @@ namespace CalamityFandom.Common.WikiData
             /// <summary>« Once per player and world » (Purified Jam) : une fois par personnage et par monde.</summary>
             public bool OncePerPlayerWorld { get; set; }
             public string Biome { get; set; }
+            /// <summary>Chance réservée à une difficulté (« {{revengeance|100%}} » : expert, revengeance, death ; Malice = death).</summary>
+            public string Difficulty { get; set; }
         }
+
+        private static readonly Dictionary<string, Func<bool>> Difficulties = new()
+        {
+            ["expert"] = () => Main.expertMode,
+            ["revengeance"] = () => CalamityMod.World.CalamityWorld.revenge,
+            ["death"] = () => CalamityMod.World.CalamityWorld.death,
+        };
 
         private static readonly Dictionary<string, Func<bool>> Bosses = new()
         {
@@ -98,6 +107,12 @@ namespace CalamityFandom.Common.WikiData
                 if (!Bosses.TryGetValue(name, out var check))
                     return null;
                 checks.Add(check);
+            }
+            if (data.Difficulty != null)
+            {
+                if (!Difficulties.TryGetValue(data.Difficulty, out var difficulty))
+                    return null;
+                checks.Add(difficulty);
             }
             Func<Player, bool> biome = null;
             if (data.Biome != null && !Biomes.TryGetValue(data.Biome, out biome))

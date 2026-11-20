@@ -968,6 +968,17 @@
       "firstKill": true
      },
      "conditionText": "Always on first kill"
+    },
+    {
+     "item": "Astral Bulwark",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Astral Bulwark.txt",
+     "condition": {
+      "difficulty": "expert"
+     },
+     "conditionText": "Expert"
     }
    ]
   },
@@ -1223,6 +1234,17 @@
     {
      "item": "Treasure Bag (Astrum Aureus)",
      "listed": true
+    },
+    {
+     "item": "Starlight Fuel Cell",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Starlight Fuel Cell.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     }
    ]
   },
@@ -1782,6 +1804,17 @@
     {
      "item": "Treasure Bag (Brimstone Elemental)",
      "listed": true
+    },
+    {
+     "item": "Charred Relic",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Charred Relic.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     }
    ]
   },
@@ -1984,6 +2017,17 @@
      "chance": 0.0833,
      "itemPage": "Havoc_s Breath.txt",
      "chanceExpert": 0.1
+    },
+    {
+     "item": "Magma Booster",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Magma Booster.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     }
    ]
   },
@@ -2187,6 +2231,17 @@
     {
      "item": "Treasure Bag (Ceaseless Void)",
      "listed": true
+    },
+    {
+     "item": "Arcanum of the Void",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Arcanum of the Void.txt",
+     "condition": {
+      "difficulty": "expert"
+     },
+     "conditionText": "Expert"
     }
    ]
   },
@@ -2658,6 +2713,17 @@
      "max": 1,
      "chance": 0.05,
      "chanceExpert": 0.1
+    },
+    {
+     "item": "Arcanoid Orb",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Arcanoid Orb.txt",
+     "condition": {
+      "difficulty": "expert"
+     },
+     "conditionText": "Expert"
     }
    ]
   },
@@ -2809,6 +2875,17 @@
     {
      "item": "Crabulon Relic",
      "listed": true
+    },
+    {
+     "item": "Mushroom Plasma Root",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Mushroom Plasma Root.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     },
     {
      "item": "Shroomerang",
@@ -6256,6 +6333,17 @@
     {
      "item": "Treasure Bag (Jungle Dragon, Yharon)",
      "listed": true
+    },
+    {
+     "item": "Fox Drive",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Fox Drive.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     }
    ]
   },
@@ -8601,6 +8689,19 @@
      "min": 1,
      "max": 1,
      "chance": 0.5
+    },
+    {
+     "item": "Chaotic Grapes",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Chaotic Grapes.txt",
+     "note": "(Always on first kill)",
+     "condition": {
+      "firstKill": true,
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Always on first kill Revengeance"
     }
    ]
   },
@@ -8827,6 +8928,17 @@
      "chance": 0.1,
      "group": 1,
      "groupAlways": true
+    },
+    {
+     "item": "Mantis Leg Plate",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Mantis Leg Plate.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     }
    ]
   },
@@ -9438,6 +9550,17 @@
     {
      "item": "Treasure Bag (Signus)",
      "listed": true
+    },
+    {
+     "item": "Ever Ink",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Ever Ink.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     }
    ]
   },
@@ -10428,6 +10551,17 @@
      "listed": true
     },
     {
+     "item": "Metabolic Converter",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Metabolic Converter.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
+    },
+    {
      "item": "Wulfrum Blunderbuss",
      "min": 1,
      "max": 1,
@@ -10567,6 +10701,17 @@
      "max": 650,
      "chance": 0.55,
      "itemPage": "Disgusting Meat.txt"
+    },
+    {
+     "item": "Red Lightning Container",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Red Lightning Container.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     }
    ]
   },
@@ -11267,6 +11412,17 @@
      "max": 1,
      "chance": 1.0,
      "itemPage": "Plague Station.txt"
+    },
+    {
+     "item": "Plagued Minecart",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Plagued Minecart.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     }
    ]
   },
@@ -11568,6 +11724,17 @@
     {
      "item": "Treasure Bag (The Slime God)",
      "listed": true
+    },
+    {
+     "item": "Electrolyte Gel Pack",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Electrolyte Gel Pack.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     }
    ]
   },
@@ -12825,6 +12992,17 @@
      "chanceExpert": 0.5
     },
     {
+     "item": "Brimstone Jewel",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Brimstone Jewel.txt",
+     "condition": {
+      "difficulty": "expert"
+     },
+     "conditionText": "Expert"
+    },
+    {
      "item": "Calamitea",
      "min": 10,
      "max": 10,
@@ -12917,6 +13095,18 @@
      "max": 1,
      "chance": 0.1,
      "itemPage": "Cosmic Discharge.txt"
+    },
+    {
+     "item": "Cosmic Plushie",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Cosmic Plushie.txt",
+     "note": "(with a Hardcore character or Ancient God Slayer armor in the normal armor slots)",
+     "condition": {
+      "difficulty": "death"
+     },
+     "conditionText": "Death"
     },
     {
      "item": "Cosmilite Brick",
@@ -13051,6 +13241,28 @@
      "itemPage": "Ectoblood.txt",
      "minExpert": 1,
      "maxExpert": 2
+    },
+    {
+     "item": "Ectoheart",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Ectoheart.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
+    },
+    {
+     "item": "Elder Berry",
+     "min": 1,
+     "max": 1,
+     "chance": 0.05,
+     "itemPage": "Elder Berry.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     },
     {
      "item": "Energy Core",
@@ -13191,6 +13403,17 @@
      "chanceExpert": 0.5
     },
     {
+     "item": "Gael's Greatsword",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Gael_s Greatsword.txt",
+     "condition": {
+      "difficulty": "death"
+     },
+     "conditionText": "Death"
+    },
+    {
      "item": "Gamma Ray Burst",
      "min": 1,
      "max": 1,
@@ -13268,6 +13491,17 @@
      "note": "(In Pre-Hardmode)"
     },
     {
+     "item": "Infernal Blood",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Infernal Blood.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
+    },
+    {
      "item": "Ink Bomb",
      "min": 1,
      "max": 1,
@@ -13303,6 +13537,17 @@
      "chance": 0.25,
      "itemPage": "Leeching Dagger.txt",
      "chanceExpert": 0.3333
+    },
+    {
+     "item": "Levi",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Levi.txt",
+     "condition": {
+      "difficulty": "death"
+     },
+     "conditionText": "Death"
     },
     {
      "item": "Little Light",
@@ -13481,6 +13726,17 @@
      "chanceExpert": 0.3333
     },
     {
+     "item": "Regeterrence",
+     "min": 1,
+     "max": 1,
+     "chance": 0.2,
+     "itemPage": "Regeterrence.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
+    },
+    {
      "item": "Rotten Brain",
      "min": 1,
      "max": 1,
@@ -13564,6 +13820,17 @@
      "chance": 0.2,
      "itemPage": "Shock Grenade.txt",
      "chanceExpert": 0.25
+    },
+    {
+     "item": "Skullmasher",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Skullmasher.txt",
+     "condition": {
+      "difficulty": "death"
+     },
+     "conditionText": "Death"
     },
     {
      "item": "Skylac Stone",
@@ -13782,6 +14049,17 @@
      "chanceExpert": 0.3333
     },
     {
+     "item": "Violet Heart of Calamity",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Violet Heart of Calamity.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
+    },
+    {
      "item": "Vital Jelly",
      "min": 1,
      "max": 1,
@@ -13840,6 +14118,17 @@
      "itemPage": "Essence of Sunlight.txt",
      "minExpert": 8,
      "maxExpert": 13
+    },
+    {
+     "item": "Lead Wizard",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Lead Wizard.txt",
+     "condition": {
+      "difficulty": "death"
+     },
+     "conditionText": "Death"
     }
    ],
    "itemPagesOnly": true
@@ -14027,6 +14316,17 @@
      "itemPage": "Carnage.txt"
     },
     {
+     "item": "Fancy Flesh Skull",
+     "min": 1,
+     "max": 1,
+     "chance": 0.1,
+     "itemPage": "Fancy Flesh Skull.txt",
+     "condition": {
+      "difficulty": "death"
+     },
+     "conditionText": "Death"
+    },
+    {
      "item": "Meowthrower",
      "min": 1,
      "max": 1,
@@ -14057,6 +14357,35 @@
      "itemPage": "Twisted Tendril.txt",
      "minExpert": 5,
      "maxExpert": 8
+    }
+   ],
+   "itemPagesOnly": true
+  },
+  "Dreadnautilus": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Blood Element",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Blood Element.txt",
+     "note": "(After defeating Calamitas)",
+     "condition": {
+      "downed": [
+       "calamitas"
+      ],
+      "difficulty": "revengeance"
+     },
+     "conditionText": "After defeating Calamitas Revengeance"
+    },
+    {
+     "item": "Grandiose Gland",
+     "min": 5,
+     "max": 5,
+     "chance": 1.0,
+     "itemPage": "Grandiose Gland.txt"
     }
    ],
    "itemPagesOnly": true
@@ -14144,6 +14473,40 @@
    ],
    "itemPagesOnly": true
   },
+  "Skeletron Prime": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Burden Breaker",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Burden Breaker.txt",
+     "condition": {
+      "difficulty": "death"
+     },
+     "conditionText": "Death"
+    },
+    {
+     "item": "Dubious Plating",
+     "min": 8,
+     "max": 16,
+     "chance": 1.0,
+     "itemPage": "Dubious Plating.txt",
+     "note": "(Draedon's Remote)"
+    },
+    {
+     "item": "Mysterious Circuitry",
+     "min": 8,
+     "max": 16,
+     "chance": 1.0,
+     "itemPage": "Mysterious Circuitry.txt",
+     "note": "(Draedon's Remote)"
+    }
+   ],
+   "itemPagesOnly": true
+  },
   "Goblin Summoner": {
    "page": null,
    "boss": false,
@@ -14220,6 +14583,17 @@
      "max": 1,
      "chance": 0.05,
      "itemPage": "Devious Aestheticus.txt"
+    },
+    {
+     "item": "Grand Dad",
+     "min": 1,
+     "max": 1,
+     "chance": 1.0,
+     "itemPage": "Grand Dad.txt",
+     "condition": {
+      "difficulty": "death"
+     },
+     "conditionText": "Death"
     },
     {
      "item": "Utensil Poker",
@@ -14598,6 +14972,25 @@
    ],
    "itemPagesOnly": true
   },
+  "Blood Zombie": {
+   "page": null,
+   "boss": false,
+   "drops": [
+    {
+     "item": "Dread Bone",
+     "min": 1,
+     "max": 1,
+     "chance": 0.01,
+     "itemPage": "Dread Bone.txt",
+     "note": "(after defeating Eater of Worlds or Brain of Cthulhu)",
+     "condition": {
+      "difficulty": "expert"
+     },
+     "conditionText": "Expert"
+    }
+   ],
+   "itemPagesOnly": true
+  },
   "The Destroyer": {
    "page": null,
    "boss": false,
@@ -14621,25 +15014,20 @@
    ],
    "itemPagesOnly": true
   },
-  "Skeletron Prime": {
+  "Deerclops": {
    "page": null,
    "boss": false,
    "drops": [
     {
-     "item": "Dubious Plating",
-     "min": 8,
-     "max": 16,
+     "item": "Dust Bunny",
+     "min": 1,
+     "max": 1,
      "chance": 1.0,
-     "itemPage": "Dubious Plating.txt",
-     "note": "(Draedon's Remote)"
-    },
-    {
-     "item": "Mysterious Circuitry",
-     "min": 8,
-     "max": 16,
-     "chance": 1.0,
-     "itemPage": "Mysterious Circuitry.txt",
-     "note": "(Draedon's Remote)"
+     "itemPage": "Dust Bunny.txt",
+     "condition": {
+      "difficulty": "revengeance"
+     },
+     "conditionText": "Revengeance"
     }
    ],
    "itemPagesOnly": true
@@ -14809,20 +15197,6 @@
      "min": 2,
      "max": 4,
      "chance": 0.75,
-     "itemPage": "Grandiose Gland.txt"
-    }
-   ],
-   "itemPagesOnly": true
-  },
-  "Dreadnautilus": {
-   "page": null,
-   "boss": false,
-   "drops": [
-    {
-     "item": "Grandiose Gland",
-     "min": 5,
-     "max": 5,
-     "chance": 1.0,
      "itemPage": "Grandiose Gland.txt"
     }
    ],
