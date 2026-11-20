@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (113)
+## Objets (107)
 
 - A M S
 - AAMG "Disperse"
@@ -84,7 +84,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aquarel Pistol
 - Aquatic Shardstone
 - Arcanoid Orb
-- Bad Apple
 - Bleeding Influx
 - Blobfish Plushie
 - Blood Element
@@ -92,17 +91,14 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Bundle o' Bones
 - Butcher's Glove
 - Catarachedrae
-- Cent Striker
 - Chain-Saw
 - Charity
 - Chilled Soda Blade
 - Christmas Carol
-- Cirrhotipede
 - Cobadium Rifle
 - Corrupt Hypno Flute
 - Dart Sun
 - Deadflower
-- Death-Needle Stinger
 - Deck of Souls
 - Deicide
 - Demon Core
@@ -151,7 +147,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - P.G.D.R.
 - Pandora's Chest
 - Pine's Penetrator
-- Plague Caller MK III
 - Plaguecom Tablet
 - Plagued Minecart
 - Planetarium
@@ -176,7 +171,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The Godfather
 - The Inflator's Controller
 - The King's Gambit
-- The Last Lightice
 - The Verboten One
 - The Watered Pew Pew
 - The WOBbler

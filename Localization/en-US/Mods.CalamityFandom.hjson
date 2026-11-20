@@ -4220,6 +4220,111 @@ Items: {
 		DisplayName: Dialup
 		Tooltip: The dialup is a hammer i think
 	}
+	CentStriker: {
+		DisplayName: Cent Striker
+		Tooltip: The weakest coin shooter
+	}
+
+	HolyPurge: {
+		DisplayName: Holy Purge
+		Tooltip:
+			'''
+			Incinerates your foes with the holy fire.
+			90% chance to not consume gel.
+			'''
+	}
+
+	HolidayHalberd: {
+		DisplayName: Holiday Halberd
+		Tooltip:
+			'''
+			idk I'm miserable with names
+			- The General
+			Fires red and green bouncing gift bags that emit clouds as they travel
+			'''
+	}
+
+	TheLastLightice: {
+		DisplayName: The Last Lightice
+		Tooltip:
+			'''
+			It is said that in the past, Daedalus ascended from the void to grant man ice.
+			If that were true, then it is surely the angels of heaven that would have fallen from above to do the same.
+			Rapidly throws out a stream of magic ice that places upon tile or enemy hits
+			Stealth Strikes shoot out a burst of ice
+			'''
+	}
+
+	DeathNeedleStinger: {
+		DisplayName: Death-Needle Stinger
+		Tooltip:
+			'''
+			Throws a chained needle to gouge your enemies
+			Up to 3 can be out at a time
+			Right click to throw out a stinger to inflict a horrible doom
+			Stealth strike throws out all 3 needles at once and grapple struck enemy to you
+			'''
+	}
+
+	LeavesofCrabulon: {
+		DisplayName: Leaves of Crabulon
+		Tooltip: Gives decent buffs to ALL offensive and defensive stats
+	}
+
+	CosmicStone: {
+		DisplayName: Cosmic Stone
+		Tooltip: Summons a cosmic elemental to fight for you
+	}
+
+	OilBottle: {
+		DisplayName: Oil Bottle
+		Tooltip:
+			'''
+			One of the ancient relics
+			Summons a solver elemental to fight for you
+			'''
+	}
+
+	ProfanedWhiplash: {
+		DisplayName: Profaned Whiplash
+		Tooltip:
+			'''
+			Powered by the profaned flame.
+			Generates Holy Flame explosions on enemy hits, struck enemies spawn a few homing crystal shards on death.
+			12 summon tag damage
+			'''
+	}
+
+	Cirrhotipede: {
+		DisplayName: Cirrhotipede
+		Tooltip:
+			'''
+			30 summon tag damage
+			Leaves behind plague nanites
+			Your summons will focus struck enemies
+			[c/7cad1f:'Apparently, the thong of the whip itself is ripped from the spine of the plagued goliath itself, and then its end had a failing liver attached, carved to look like a scythe. Yuck.']
+			'''
+	}
+
+	PlagueCallerMKIII: {
+		DisplayName: Plague Caller MK III
+		Tooltip:
+			'''
+			Consumes all remaining minion slots to summon the Plague Emperor
+			The emperor will swarm enemies with hordes of plague weaponry and bees
+			Yharim shivers in fear at the thought of such a monstrosity...
+			'''
+	}
+
+	BadApple: {
+		DisplayName: Bad Apple
+		Tooltip:
+			'''
+			Summons Utsuho Reiuji to fight for you using nuclear power
+			Utsuho requires 5 minion slots to summon, and can only be summoned once
+			You might cause another incident
+			'''
+	}
 }
 
 Projectiles: {
@@ -4934,6 +5039,81 @@ Projectiles: {
 	KlepticoinProj: {
 		DisplayName: Klepticoin
 	}
+	HolyPurgeFlame: {
+		DisplayName: Holy Flame
+	}
+
+	GiftBag: {
+		DisplayName: Gift Bag
+	}
+
+	GiftCloud: {
+		DisplayName: Spore Cloud
+	}
+
+	LightIce: {
+		DisplayName: Ice
+	}
+
+	DeathNeedle: {
+		DisplayName: Death Needle
+	}
+
+	CosmicElementalMinion: {
+		DisplayName: Cosmic Elemental
+	}
+
+	CosmicStar: {
+		DisplayName: Cosmic Star
+	}
+
+	Cyn: {
+		DisplayName: Cyn
+	}
+
+	PlagueEmperor: {
+		DisplayName: Plague Emperor
+	}
+
+	PlagueMissile: {
+		DisplayName: Plague Missile
+	}
+
+	MiniPlaguebringer: {
+		DisplayName: Mini-Plaguebringer
+	}
+
+	UtsuhoReiuji: {
+		DisplayName: Utsuho Reiuji
+	}
+
+	NuclearOrb: {
+		DisplayName: Nuclear Orb
+	}
+
+	NuclearStar: {
+		DisplayName: Giant Star
+	}
+
+	NuclearFlare: {
+		DisplayName: Flare
+	}
+
+	NuclearRay: {
+		DisplayName: Energy Ray
+	}
+
+	WikiWhip1120: {
+		DisplayName: Whip
+	}
+
+	PlagueNanite: {
+		DisplayName: Plague Nanite
+	}
+
+	HolyCrystalShard: {
+		DisplayName: Holy Crystal Shard
+	}
 }
 
 Shortstrike.Gauge:
@@ -5381,6 +5561,30 @@ Buffs: {
 	ResurrectionButterflyBuff: {
 		DisplayName: Resurrection Butterfly
 		Description: Aren't they beautiful?
+	}
+	LeavesPower: {
+		DisplayName: Leaves Power
+		Description: The leaves are powerful
+	}
+
+	CosmicElementalBuff: {
+		DisplayName: Cosmic Elemental
+		Description: The cosmic elemental will protect you
+	}
+
+	CynBuff: {
+		DisplayName: Cyn
+		Description: Cyn will not discard you
+	}
+
+	PlagueEmperorBuff: {
+		DisplayName: Plague Emperor
+		Description: You are lucky that he's on your side
+	}
+
+	UtsuhoBuff: {
+		DisplayName: Utsuho Reiuji
+		Description: Empowered by nuclear fusion
 	}
 }
 

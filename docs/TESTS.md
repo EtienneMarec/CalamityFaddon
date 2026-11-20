@@ -1109,6 +1109,12 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       trio de Howl invoqués ; membres squelettiques quand les sbires frappent)
 - [ ] Lot AR : Klepticoin dans un Coin Gun (gros dégâts), Exo Avalon (se vend très cher), Dialup (marteau)
 
+- [ ] Lot AS (butin du wiki, ou Cheat Sheet) : Bad Apple (Utsuho : orbes, étoiles, plongeon, rayons), Cirrhotipede et
+      Profaned Whiplash (fouets : nanites ; explosions sacrées et éclats sur un ennemi tué), Plague Caller MK III (toutes les
+      places : Plague Emperor), Holy Purge (lance-flammes), Holiday Halberd (sacs qui rebondissent), The Last Lightice (glace
+      qui reste 3 s ; furtif : 20 morceaux), Death-Needle Stinger (aiguilles enchaînées ; clic droit : dard), Cent Striker,
+      Leaves of Crabulon, Cosmic Stone, Oil Bottle (Cyn repousse les ennemis toutes les 5 s)
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

@@ -2413,6 +2413,21 @@ de buff, une instance par potion ; icône du buff vanilla (celle du tableau). Le
   l'Exo Avalon est « vendu » exactement ce maximum). Klepticoin : munition du Coin Gun à 6000.
 - **[choix]** Dialup (« a hammer i think », sans chiffres) : marteau 250 %, 300 dégâts, 8 images.
 
+### Lot AS du 20/11 : butin du wiki de PNJ existants (`Content/Items/Weapons/WikiWeapons1120b.cs`)
+
+Objets que le butin du wiki donne à des PNJ qui existent (Plaguebringer Goliath, Providence, Crabulon, Present Mimic, Snow
+Balla, Cosmic Elemental, ennemis de surface, ennemis mécaniques) : WikiLoot les ajoute dès que l'objet existe.
+
+- **[choix]** Holiday Halberd : nuage toutes les 10 images, 25 % des dégâts, 1 s, même debuff que le sac.
+- **[choix]** The Last Lightice : pas de vraie tuile posée (pour ne pas abîmer le monde) ; la glace s'arrête et reste 3 s.
+- **[choix]** Death-Needle Stinger : aiguille plantée 2 s, portée 600 px, dard 250 px ; traction de 8 px par image.
+- **[choix]** Cirrhotipede : 3 nanites au bout du fouet au milieu du coup, 25 % des dégâts, 3 s.
+- **[choix]** Plague Caller MK III : dégâts x places prises ; missile / 20 images, abeille / 10, mini-Plaguebringer / 90.
+- **[choix]** Bad Apple : une attaque du cycle toutes les 2 s ; 8 flammèches par étoile ; icône du buff du Plague Emperor
+  (pas d'icône d'Utsuho sur le wiki, listé dans `docs/SPRITES.md`).
+- **[choix]** Oil Bottle (Cyn) : repousse à 16 px par image les ennemis qui ont un recul (pas les boss).
+- **[choix]** Cosmic Stone : sbire sans place (accessoire), sprite de notre Cosmic Elemental.
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

@@ -2,11 +2,11 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1795 objets dont les recettes ont changé : 1050 recettes modifiées, 854 créées
+- 1795 objets dont les recettes ont changé : 1050 recettes modifiées, 855 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
-- 38 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 41 recettes
+- 42 noms introuvables (contenu à créer ou nom à corriger), qui bloquent 45 recettes
 
 ## Recettes changées
 
@@ -754,6 +754,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Gloomy Trident | (nouvelle) | 50 Luminite Bar, 1 Storm Spear, 1 Tenebreus Tides, 20 Scarred Angelfish, 10 Black Pearl, 120 Core of Rend, 50 Reaper Tooth, 2022 Essence of Zot, 5 Nimbus Rod, 314 Voidstone, 100 Diamond, 50 Ruinous Soul @ LunarCraftingStation → 1 |
 | Glowing Mushroom Dye | (nouvelle) | 2 Bottled Water, 1 Mushroom Grass Seeds @ DyeVat → 2 |
 | Glowing Mushroom Dye | (nouvelle) | 25 Bottled Water, 1 Delicious Meat @ DyeVat → 25 |
+| Glowing Mushroom Dye | (nouvelle) | 35 Bottled Water, 1 Leaves of Crabulon @ DyeVat → 35 |
 | Gluehunter | (nouvelle) | 20 Esseric Bar @ AquaticHypercomputerERM → 1 |
 | Gluelic Blade | (nouvelle) | 20 Esseric Bar @ AquaticHypercomputerERM → 1 |
 | God Slayer Chestplate | 20 Cosmilite Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 23 Cosmilite Bar, 3 Ascendant Spirit Essence, 3 Soul of Plight @ CosmicAnvil → 1 |
@@ -1941,14 +1942,17 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Exotic Bundle of Balloons — 1
 - objet : Flah Seeds — 1
 - objet : Green Demon Head — 1
+- objet : Hi-Scan Camera — 1
 - objet : Insect Biomass — 1
 - objet : Large Father — 1
+- objet : Li'l Mine — 1
 - objet : Minnows Prime — 1
 - objet : Miracle Coin — 1
 - objet : Musket Undertaker — 1
 - objet : Ogsculian Burrower Banner — 1
 - objet : Particle Accelerator — 1
 - objet : Plague Station — 1
+- objet : Plaguecom Tablet — 1
 - objet : Planetarium — 1
 - objet : Psy Rod — 1
 - objet : Salt Water Bolt — 1
@@ -1957,6 +1961,7 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Skyalcon Spallation — 1
 - objet : Spirit of the Nightmare — 1
 - objet : The Godfather — 1
+- objet : The Inflator's Controller — 1
 - objet : The King's Gambit — 1
 - objet : Violet Heart of Calamity — 1
 - objet : Visceral Biomass — 1

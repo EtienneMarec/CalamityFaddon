@@ -35,7 +35,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Astralence — addon: Calamity: Tales of the Aquatic
 - [x] Auric Sword
 - [x] Axisdriver
-- [ ] Bad Apple
+- [x] Bad Apple
 - [x] Baow — addon: Calamity: Community Remix
 - [x] Bazooka
 - [x] Bittercold Staff
@@ -68,7 +68,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Caustic Claw
 - [x] Celestial Nuke — addon: Deimos, the Starborn Princess
 - [x] Celesticus
-- [ ] Cent Striker — addon: Calamity: Tales of the Aquatic
+- [x] Cent Striker — addon: Calamity: Tales of the Aquatic
 - [x] Chain Spear — addon: Calamity: Community Remix
 - [ ] Chain-Saw — addon: Polyphemalus
 - [x] Charged Dart Blaster
@@ -78,7 +78,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Christmas Carol — addon: Apotheosis and Friends
 - [x] Chrononimbus — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Cirnogenic Staff — addon: Calamity: Community Remix
-- [ ] Cirrhotipede — addon: Calamity: Community Remix
+- [x] Cirrhotipede — addon: Calamity: Community Remix
 - [x] Clamor Noctus
 - [x] Clamor Noxus — addon: Calamity: Community Remix
 - [ ] Cobadium Rifle — addon: Calamity: Tales of the Aquatic
@@ -109,7 +109,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Dark Harvest Staff — addon: Calamity: Community Remix
 - [ ] Dart Sun — addon: Calamity: Tales of the Aquatic
 - [ ] Dead Star's Laser Rifle — addon: Tranquility Mod
-- [ ] Death-Needle Stinger — addon: Calamity: Community Remix
+- [x] Death-Needle Stinger — addon: Calamity: Community Remix
 - [ ] Deck of Souls — pas de sprite; addon: Apotheosis and Friends
 - [x] Decomposition
 - [x] Decreator — addon: Calamity: Tales of the Aquatic
@@ -212,10 +212,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Hemorr-Rang — addon: Calamity: Community Remix
 - [ ] Heterochromia — addon: Polyphemalus
 - [ ] Hi-Scan Camera
-- [ ] Holiday Halberd
+- [x] Holiday Halberd
 - [x] Holy Mackerel Staff — addon: Calamity: Community Remix
 - [x] Holy Napalm Launcher — addon: Calamity: Tales of the Aquatic
-- [ ] Holy Purge — addon: Tranquility Mod
+- [x] Holy Purge — addon: Tranquility Mod
 - [x] Hyperhavoc — addon: Calamity: Tales of the Aquatic
 - [x] Ichor Dagger — addon: Calamity: Community Remix
 - [x] Ifflamator — addon: Calamity: Tales of the Aquatic
@@ -292,7 +292,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Phototerminator
 - [ ] Pine's Penetrator — addon: Apotheosis and Friends
 - [x] Pizza Wheel
-- [ ] Plague Caller MK III — addon: Calamity: Community Remix
+- [x] Plague Caller MK III — addon: Calamity: Community Remix
 - [x] Plague Keeper — addon: Catalyst
 - [ ] Plaguecom Tablet — addon: Calamity: Community Remix
 - [ ] Planetarium — addon: Calamity: Community Remix, Hypnos in Calamity
@@ -304,7 +304,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Porpoise Pistol
 - [x] Prism Destroyer — addon: Calamity: Community Remix
 - [x] Profaned Nucleus — addon: Calamity: Community Remix
-- [ ] Profaned Whiplash — addon: Tranquility Mod
+- [x] Profaned Whiplash — addon: Tranquility Mod
 - [x] Prominence — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Pumplerfaust — addon: Calamity: Community Remix
 - [x] Pungent Bomber
@@ -400,7 +400,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] The Inflator's Controller — addon: Calamity: Community Remix
 - [x] The Insacred Texts
 - [ ] The King's Gambit — addon: Calamity: Community Remix
-- [ ] The Last Lightice — addon: Calamity: Community Remix
+- [x] The Last Lightice — addon: Calamity: Community Remix
 - [x] The Needler
 - [x] The Ones Striker — addon: Calamity: Tales of the Aquatic
 - [x] The Otherside
@@ -650,7 +650,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Calamitous Soul Artifact — addon: Calamity: Community Remix
 - [ ] Catarachedrae — addon: Calamity: Tales of the Aquatic
 - [x] Cobalt Night Circuit — addon: Calamity: Tales of the Aquatic
-- [ ] Cosmic Stone
+- [x] Cosmic Stone
 - [ ] Deteriorating Lens — pas de sprite
 - [ ] Determination Breaker
 - [x] Disorderful Soul Artifact
@@ -693,7 +693,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Night Cloak — addon: Calamity: Tales of the Aquatic
 - [x] Nightform — addon: Calamity: Tales of the Aquatic
 - [ ] Nucleate Gello
-- [ ] Oil Bottle
+- [x] Oil Bottle
 - [x] Palladium Light Circuit — addon: Calamity: Tales of the Aquatic
 - [x] Phantasmal Rune — addon: Calamity: Tales of the Aquatic
 - [x] Plague Balloon
@@ -1035,7 +1035,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] JOOZ — addon: Calamity: Community Remix
 - [x] Juzie
 - [x] KEX
-- [ ] Leaves of Crabulon — addon: Calamity: Community Remix
+- [x] Leaves of Crabulon — addon: Calamity: Community Remix
 - [ ] Magma Booster — addon: Catalyst, Deimos, the Starborn Princess
 - [x] Meld Chip Ice Cream
 - [x] Meld Skin Potion — addon: Calamity: Tales of the Aquatic
