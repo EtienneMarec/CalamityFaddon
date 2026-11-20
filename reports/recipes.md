@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1789 objets dont les recettes ont changé : 1050 recettes modifiées, 847 créées
+- 1795 objets dont les recettes ont changé : 1050 recettes modifiées, 854 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 65 transmutations Shimmer ajoutées
@@ -415,6 +415,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Cosmilite Brick | 200 Any Stone Block, 1 Cosmilite Bar @ CosmicAnvil → 200 | 1 Cosmilite Bar, 20 Any Stone Block @ CosmicAnvil → 20 |
 | Cosmilite Brick | 2 Cosmilite Platform @ main → 1 | 2 Cosmilite Platform @ CosmicAnvil → 1 |
 | Cosmilite Coin | (nouvelle) | 100 Platinum Coin @ main → 1 |
+| Cosmilite Coin | (nouvelle) | 1 Klepticoin @ main → 100 |
 | Cosmilite Dye | 3 Bottled Water, 1 Cosmilite Bar @ DyeVat → 3 | 2 Bottled Water, 1 Cosmilite Bar @ DyeVat → 2 |
 | Cosmilite Platform | 1 Cosmilite Brick @ main → 2 | 1 Cosmilite Brick @ CosmicAnvil → 2 |
 | Cosmolight | (nouvelle) | 10 Pixie Dust, 7 Soul of Light, 7 Soul of Night, 5 Glass @ Anvils → 1 |
@@ -484,6 +485,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Devastation | (nouvelle) | 1 Catastrophe Claymore, 5 Luminite Bar, 10 Astral Bar, 10 Meteorite Bar @ LunarCraftingStation → 1 |
 | Devil's Devastation | 1 True Forbidden Oathblade, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 | 1 Devastation, 1 True Forbidden Oathblade, 8 Cosmilite Bar, 20 Nightmare Fuel @ CosmicAnvil → 1 |
 | Devil's Sunrise | 1 Terragrim, 50 Bloodstone, 10 Scorched Bone @ MythrilAnvil → 1 | 1 Terragrim, 10 Demonic Bone Ash, 25 Bloodstone Bar @ LunarCraftingStation → 1 |
+| Dialup | (nouvelle) | 1 Broken Modem, 15 Shadowspec Bar, 100 Flesh Block, 15 Sea Stone Bar, 5 Miracle Matter, 15 Bloodstone Bar, 15 Exo Prism @ DraedonsForge → 1 |
 | Digital Cheese Spear | (nouvelle) | 1 Profaned Partisan, 1 Spear of Destiny / Spear of Liberty, 15 Cheese, 6 Shadowspec Bar @ DraedonsForge → 1 |
 | Dimensional Soul Artifact | 10 Cosmilite Bar, 25 Elumplate, 25 Exodium Cluster @ CosmicAnvil → 1 | 10 Soul Flux, 25 Elumplate, 5 Cosmilite Slag, 25 Exodium Cluster @ DemonAltar → 1 |
 | Diminishing Victory | (nouvelle) | 75 Entropic Bar, 10 Shadowspec Bar, 1 Celestus, 1 Nanoblack Reaper @ DraedonsForge → 1 |
@@ -619,6 +621,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Eviscerator | (nouvelle) | 8 Blood Sample, 4 Vertebra, 4 Crimtane Bar @ DemonAltar → 1 |
 | Executioner's Blade | 10 Cosmilite Bar @ CosmicAnvil → 1 | 12 Cosmilite Bar @ CosmicAnvil → 1 |
 | Exif Fist | (nouvelle) | 1 Fracturing Fist, 1 Feral Claws, 20 Fallen Star, 5 Aureus Cell @ MythrilAnvil → 1 |
+| Exo Avalon | (nouvelle) | 25 Phantoplasm, 25 Conquest Fragment, 25 Aureus Cell, 1 Dualpoon, 1 Starfall, 10 Elemental Bar, 5 Galactica Singularity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
 | Exo Candelabra | 5 Exo Plating, 3 Torch @ DraedonsForge → 1 | 5 Exo Plating, 3 Draedon Power Cell @ DraedonsForge → 1 |
 | Exo Candle | 4 Exo Plating, 1 Torch @ DraedonsForge → 1 | 4 Exo Plating, 1 Draedon Power Cell @ DraedonsForge → 1 |
 | Exo Chandelier | 4 Exo Plating, 4 Torch, 1 Chain @ DraedonsForge → 1 | 4 Exo Plating, 4 Draedon Power Cell, 1 Chain @ DraedonsForge → 1 |
@@ -885,6 +888,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Kelvin Catalyst | 1 Ice Star, 1 Avalanche, 1 Effluvium Bow, 1 Icebreaker, 1 Snowstorm Staff, 10 Essence of Eleum @ Anvils → 1 | 100 Ice Star, 1 Avalanche, 1 Effluvium Bow, 1 Glacial Crusher, 1 Icebreaker, 1 Snowstorm Staff, 10 Essence of Eleum, 2 The sword is inside the core @ IceMachine → 1 |
 | KEX | (nouvelle) | 4 Shattered Start Block, 2 Chocolate Chip Cookie, 15 Essence of Sunlight @ CookingPots → 1 |
 | King Slime | 1 King Slime Trophy @ Bookcases → 1 | 1 King Slime Trophy, 10 Conquest Fragment @ Bookcases → 1 |
+| Klepticoin | (nouvelle) | 100 Cosmilite Coin @ main → 1 |
 | Lab Seeking Mechanism | 4 Mysterious Circuitry, 4 Dubious Plating, 10 Any Iron Bar @ Anvils → 1 | 4 Dubious Plating, 4 Mysterious Circuitry, 100 Draedon Power Cell @ Anvils → 1 |
 | Laboratory Door | 6 Laboratory Plating @ Anvils → 1 | 7 Laboratory Plating, 1 Dubious Plating @ Anvils → 1 |
 | Laboratory Panels | 25 Any Stone Block, 1 Any Iron Bar @ HeavyWorkBench → 25 | 1 Any Iron Bar, 3 Any Stone Block @ HeavyWorkBench → 3 |
@@ -1225,6 +1229,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Quadruple Compressed Stone Block | (nouvelle) | 9 Triple Compressed Stone Block @ Anvils → 1 |
 | Quadruple Compressed Stone Block | (nouvelle) | 1 Quintuple Compressed Stone Block @ Anvils → 9 |
 | Quagmire | 10 Perennial Bar @ MythrilAnvil → 1 | 6 Perennial Bar, 6 Chlorophyte Bar, 1 Yelets @ MythrilAnvil → 1 |
+| Quantum Flahium Ejection Device | (nouvelle) | 4 Flahium Bar, 150 Throwing Brick, 1 Blast Barrel, 1 Utensil Poker, 1 Refraction Rotor, 1 Sacrifice, 1 Nanotech, 1 Eclipse Mirror, 1 Blunder Booster, 1 Dragon Scales, 1 Ethereal Extorter, 1 Vampiric Talisman, 1 Spy Emblem, 10 Meld Bar, 3 Alloy Bar, 5 Exodium Cluster @ DraedonsForge → 1 |
+| Quantum Flahium Shock Device | (nouvelle) | 4 Flahium Bar, 1 Copper Broadsword, 1 Breaker Blade, 1 Terrarian, 1 Spine of Thanatos, 1 Violence, 1 Elemental Gauntlet, 1 Badge of Bravery, 1 Warbanner of the Sun, 1 Yoyo Bag, 1 Bloody Worm Scarf, 1 Fungal Symbiote, 1 Warrior Emblem, 18 Solar Fragment, 3 Alloy Bar, 5 Exodium Cluster @ DraedonsForge → 1 |
 | Queen Bee | 1 Queen Bee Trophy @ Bookcases → 1 | 1 Queen Bee Trophy, 10 Conquest Fragment @ Bookcases → 1 |
 | Quintessence Cannon | (nouvelle) | 1 Charged Blaster Cannon, 1 Cruel Jewel, 1 Sparkling Empress, 1 Yharim's Crystal, 1 Miracle Matter @ DraedonsForge → 1 |
 | Quintuple Compressed Stone Block | (nouvelle) | 9 Quadruple Compressed Stone Block @ Anvils → 1 |
@@ -1905,6 +1911,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Zen Potion | 1 Bottled Water, 2 Purified Gel, 3 Daybloom @ AlchemyTable → 1 | 256 Delicious Meat, 1 Pink Gel, 1 Daybloom, 1 Bottled Water @ AlchemyTable → 1 |
 | Zen Potion | 1 Bottled Water, 5 Blood Orb, 2 Purified Gel @ AlchemyTable → 1 | 1 Bottled Water, 2 Unholy Core, 256 Delicious Meat @ AlchemyTable → 1 |
 | Zenith | 1 Terra Blade, 1 Meowmere, 1 Star Wrath, 1 Influx Waver, 1 The Horseman's Blade, 1 Seedler, 1 Starfury, 1 Bee Keeper, 1 Enchanted Sword, 1 Copper Shortsword, 5 Auric Bar @ CosmicAnvil → 1 | 1 Terra Blade, 1 Twisted Netherite Sword, 1 Meowmere, 1 Star Wrath, 1 Influx Waver, 1 The Horseman's Blade, 1 Seedler, 1 Starfury, 1 Bee Keeper, 1 Enchanted Sword, 1 Copper Shortsword, 5 Auric Bar, 193 Yharim Bar @ CosmicAnvil → 1 |
+| Zenith Arcanum | (nouvelle) | 1 Heart of the Elements, 1 Nucleogenesis, 1 Reaper Tooth Necklace, 1 Angelic Alliance, 1 Howl's Heart, 1 Hallowed Rune, 1 Fungal Clump, 1 Mutated Truffle, 1 Gladiator's Locket, 1 Dark Sun Ring, 5 Ashes of Annihilation, 99 Yharim Bar @ CosmicAnvil → 1 |
 | Zerg Potion | 1 Bottled Water, 2 Purified Gel, 2 Fireblossom @ AlchemyTable → 1 | 1 Bottled Water, 256 Delicious Meat, 1 Demonic Bone Ash @ AlchemyTable → 1 |
 | Zerg Potion | 1 Bottled Water, 5 Blood Orb, 2 Purified Gel @ AlchemyTable → 1 | 1 Bottled Water, 2 Unholy Core, 256 Delicious Meat @ AlchemyTable → 1 |
 | Zotplate | (nouvelle) | 1 Essence of Zot, 3 Obsidian @ Hellforge → 3 |
@@ -1935,9 +1942,9 @@ Acid Dye, Adamantite Forge, Aglet, Ammo Reservation Potion (ancienne gardée), A
 - objet : Flah Seeds — 1
 - objet : Green Demon Head — 1
 - objet : Insect Biomass — 1
-- objet : Klepticoin — 1
 - objet : Large Father — 1
 - objet : Minnows Prime — 1
+- objet : Miracle Coin — 1
 - objet : Musket Undertaker — 1
 - objet : Ogsculian Burrower Banner — 1
 - objet : Particle Accelerator — 1

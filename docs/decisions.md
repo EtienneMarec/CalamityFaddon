@@ -2393,6 +2393,26 @@ de buff, une instance par potion ; icône du buff vanilla (celle du tableau). Le
 - **[choix]** The Dreaming Ghost : 2 places par papillon ; violet : charge toutes les 25 images, 3 Crystal Shards au
   contact ; rose : immobile, une balle sakura chercheuse toutes les 8 images.
 
+### Lot AQ du 20/11 : coverings composés (`Content/Items/Accessories/WikiCoverings1120.cs`)
+
+- **[technique]** « Grants the effects of X » : l'UpdateAccessory de l'objet de Calamity est appelé tel quel (Fungal
+  Symbiote, Warbanner of the Righteous, Dragon Scales, Ethereal Extorter, Heart of the Elements, Gladiator's Locket, Howl's
+  Heart).
+- **[choix]** Quantum Flahium Shock Device : Warbanner de Calamity (celui que Calamity++ appelle Warbanner of the Sun) ;
+  Yoyo Bag = gant, ficelle et contrepoids noir vanilla ; 4 éclats de flah (25 % du coup) au plus toutes les 10 images en
+  vraie mêlée.
+- **[choix]** Quantum Flahium Ejection Device : flahblade toutes les 30 images par tir de spy (7 au plus) ; 3 flares
+  (300) au premier instant d'une frappe furtive. **[technique]** Ruée « Booster Dash » (texte coupé sur la page) non faite.
+- **[choix]** Zenith Arcanum : « +20 % de défense » = un cinquième de la défense ajouté ; « Demon Flames » = Brimstone
+  Flames ; un membre squelettique au plus toutes les 30 images. **[technique]** Plague, Sulphur Elemental et Young Duke
+  n'existent pas dans Calamity : absents.
+
+### Lot AR du 20/11 : objets simples (`Content/Items/WikiItems1120.cs`)
+
+- **[technique]** Klepticoin et Exo Avalon : valeur au maximum du jeu (10 000 platine ne tient pas dans un entier ;
+  l'Exo Avalon est « vendu » exactement ce maximum). Klepticoin : munition du Coin Gun à 6000.
+- **[choix]** Dialup (« a hammer i think », sans chiffres) : marteau 250 %, 300 dégâts, 8 images.
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

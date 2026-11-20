@@ -701,9 +701,9 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Polypebral Shield
 - [x] Prehistoric Tablet
 - [x] Psychotic Amulet
-- [ ] Quantum Flahium Ejection Device
+- [x] Quantum Flahium Ejection Device
 - [ ] Quantum Flahium Militia Device
-- [ ] Quantum Flahium Shock Device
+- [x] Quantum Flahium Shock Device
 - [ ] Quantum Flahium Transcendental Device
 - [x] Quiver of Madness — addon: Calamity: Community Remix
 - [ ] Rampart of Deicide — addon: Calamity: Tales of the Aquatic
@@ -750,7 +750,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Wrath of the Machines
 - [x] Yggdrasil Core — addon: Calamity: Tales of the Aquatic
 - [ ] Yharim's Curse — addon: Calamity: Community Remix
-- [ ] Zenith Arcanum — addon: Calamity: Community Remix
+- [x] Zenith Arcanum — addon: Calamity: Community Remix
 
 ## Block (113)
 
@@ -1292,7 +1292,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Dracula's Charm
 - [ ] Dragon
 - [ ] Dung Defender
-- [ ] Exo Avalon
+- [x] Exo Avalon
 - [ ] Giant Skeleton
 - [ ] Green Phantom
 - [ ] Mega Flocko
@@ -1319,7 +1319,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Frostspark Bullet
 - [x] Grenade Shells
 - [x] Jellyfish Cannonball
-- [ ] Klepticoin — addon: Calamity: Community Remix
+- [x] Klepticoin — addon: Calamity: Community Remix
 - [x] Magnum Rounds
 - [ ] Miracle Coin — addon: Calamity: Tales of the Aquatic
 - [x] Nighterrial Dart — addon: Calamity: Tales of the Aquatic

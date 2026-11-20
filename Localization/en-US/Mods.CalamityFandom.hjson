@@ -4156,6 +4156,70 @@ Items: {
 			Each active pink butterfly increases your life regeneration by 2
 			'''
 	}
+	QuantumFlahiumShockDevice: {
+		DisplayName: Quantum Flahium Shock Device
+		Tooltip:
+			'''
+			40% increased melee damage and speed
+			35% increased true melee damage
+			True melee strikes will emit flah in various directions
+			15% increased melee critical strike chance
+			+10 armor penetration
+			Increases melee damage, true melee damage and melee speed the closer you are to enemies
+			'''
+	}
+
+	QuantumFlahiumEjectionDevice: {
+		DisplayName: Quantum Flahium Ejection Device
+		Tooltip:
+			'''
+			Spy projectiles create flahblades as they travel
+			Stealth strikes summon flahbeams and sparks on enemy hits
+			Stealth strikes have +50 armor penetration, and deal 10% more damage
+			50% increased Spy damage and 25% increased Spy velocity
+			15% increased Spy crit chance
+			Stealth strikes have a 100% critical hit chance
+			Stealth generates 15% faster
+			Stealth strikes only expend 50% of your max stealth
+			+50 maximum stealth
+			Spy projectiles explode into homing souls on death
+			'''
+	}
+
+	ZenithArcanum: {
+		DisplayName: Zenith Arcanum
+		Tooltip:
+			'''
+			Top of the food chain
+			Summons various spirits of the world to protect you
+			20% increase to summon damage and defense
+			+4 life regeneration, 15% increased pick speed, and +8 max minions
+			Increased minion knockback
+			Minions inflict a variety of debuffs and spawn skeletal limbs on enemy hits
+			'''
+	}
+	Klepticoin: {
+		DisplayName: Klepticoin
+		Tooltip:
+			'''
+			Worth 100 Cosmilite Coins
+			Can be fired by the Coin Gun
+			'''
+	}
+
+	ExoAvalon: {
+		DisplayName: Exo Avalon
+		Tooltip:
+			'''
+			Crazy? I was crazy once. They locked me in a room. A rubber room! A rubber room with rats, and rats make me crazy!!
+			Crazy? I was crazy once...
+			'''
+	}
+
+	Dialup: {
+		DisplayName: Dialup
+		Tooltip: The dialup is a hammer i think
+	}
 }
 
 Projectiles: {
@@ -4851,6 +4915,24 @@ Projectiles: {
 
 	SakuraBullet: {
 		DisplayName: Sakura Bullet
+	}
+	FlahShard: {
+		DisplayName: Flah
+	}
+
+	Flahblade: {
+		DisplayName: Flahblade
+	}
+
+	FlahiumFlare: {
+		DisplayName: Flahium Flare
+	}
+
+	SkeletalLimb: {
+		DisplayName: Skeletal Limb
+	}
+	KlepticoinProj: {
+		DisplayName: Klepticoin
 	}
 }
 

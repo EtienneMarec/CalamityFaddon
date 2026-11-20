@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (116)
+## Objets (113)
 
 - A M S
 - AAMG "Disperse"
@@ -157,9 +157,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Planetarium
 - Plumage Pow
 - Quadlens Staff
-- Quantum Flahium Ejection Device
 - Quantum Flahium Militia Device
-- Quantum Flahium Shock Device
 - Rampart of Deicide
 - Reactor Accelerator
 - Redtide Spear
@@ -191,4 +189,3 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Winter Breeze
 - Wreath of Belial
 - Wrecking Ball
-- Zenith Arcanum

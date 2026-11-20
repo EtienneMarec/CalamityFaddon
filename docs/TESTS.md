@@ -1104,6 +1104,11 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       Survival, Terreye Staff (trio ; clic droit 5 s sur un ennemi), The Dreaming Ghost (deux papillons, +10 % dégâts, +2
       régénération)
 
+- [ ] Lot AQ : Quantum Flahium Shock Device (yoyos à deux, contrepoids, flah en vraie mêlée, Flahmes), Ejection Device
+      (flahblades derrière les tirs de spy, 3 flares sur une frappe furtive), Zenith Arcanum (élémentaires, gladiateurs et
+      trio de Howl invoqués ; membres squelettiques quand les sbires frappent)
+- [ ] Lot AR : Klepticoin dans un Coin Gun (gros dégâts), Exo Avalon (se vend très cher), Dialup (marteau)
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
