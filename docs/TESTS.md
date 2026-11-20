@@ -1119,6 +1119,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       (plus de cristaux avec des places de sbire libres), Wakasagihime (ennemis projetés contre un mur), familiers
       Everflute et Crystallised Stiriatic Chunk
 
+- [ ] Lot AU : Entropic Refiner (poser la station : 4 × 4 ; World Breaker se fabrique dessus), World Breaker (clic
+      droit : la boule casse les blocs), Demon Core (aura violette ; furtif : nuage), Salt Booklet (Sulphurous Sand à
+      l'Extractinator) puis Salt Water Bolt, Miracle Coin et Klepticoin dans The Ones Striker (chaînes de 14 et 10 pièces)
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

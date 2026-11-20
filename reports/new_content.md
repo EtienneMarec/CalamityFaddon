@@ -115,7 +115,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Decreator — addon: Calamity: Tales of the Aquatic
 - [x] Deeepscale Bomb
 - [ ] Deicide — addon: Calamity: Community Remix
-- [ ] Demon Core — addon: Calamity: Community Remix
+- [x] Demon Core — addon: Calamity: Community Remix
 - [ ] Demonic Pitchfork
 - [x] Dethermination — addon: Calamity: Tales of the Aquatic
 - [x] Devastation
@@ -329,8 +329,8 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Rose Bow — addon: Calamity: Community Remix
 - [x] Rox — addon: Calamity: Community Remix
 - [x] SDOMG
-- [ ] Salt Booklet — addon: Cataclysm
-- [ ] Salt Water Bolt — addon: Cataclysm
+- [x] Salt Booklet — addon: Cataclysm
+- [x] Salt Water Bolt — addon: Cataclysm
 - [x] Sandslasher
 - [ ] Sandstorm (weapon)
 - [x] Sea Stone Shuriken
@@ -1179,7 +1179,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Umbren Sprayer — addon: Catalyst
 - [x] Waraxe
 - [x] Windslasher
-- [ ] World Breaker — addon: Deimos, the Starborn Princess
+- [x] World Breaker — addon: Deimos, the Starborn Princess
 - [x] Wulfrum Axe
 - [x] Wulfrum Hammer
 - [ ] XO-Tell — addon: Calamity: Distorted Memories
@@ -1264,7 +1264,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Deimos Plushie — addon: Deimos, the Starborn Princess
 - [ ] Effigies — pas de sprite
 - [ ] Emergency Door
-- [ ] Entropic Refiner — addon: Deimos, the Starborn Princess
+- [x] Entropic Refiner — addon: Deimos, the Starborn Princess
 - [ ] Forgotten Chest
 - [ ] Hallow Effigy
 - [ ] Luminous Altar — addon: Deimos, the Starborn Princess
@@ -1321,7 +1321,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Jellyfish Cannonball
 - [x] Klepticoin — addon: Calamity: Community Remix
 - [x] Magnum Rounds
-- [ ] Miracle Coin — addon: Calamity: Tales of the Aquatic
+- [x] Miracle Coin — addon: Calamity: Tales of the Aquatic
 - [x] Nighterrial Dart — addon: Calamity: Tales of the Aquatic
 - [x] Profaned Crystal Dart — addon: Calamity: Tales of the Aquatic
 - [x] Profaned Fire Dart — addon: Calamity: Tales of the Aquatic

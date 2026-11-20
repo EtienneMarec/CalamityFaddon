@@ -216,7 +216,7 @@ namespace CalamityFandom.Content.Items.Weapons.Ranged
             Item.useAmmo = AmmoID.Coin;
         }
 
-        public override bool? CanChooseAmmo(Item ammo, Player player) => ammo.type == ModContent.ItemType<Ammo.CosmiliteCoin>() ? true : null;
+        public override bool? CanChooseAmmo(Item ammo, Player player) => ammo.type == ModContent.ItemType<Ammo.CosmiliteCoin>() || ammo.type == ModContent.ItemType<Ammo.MiracleCoin>() ? true : null;
 
         public static (int tier, int damage, int count) Coin(int ammo) => ammo switch
         {
@@ -224,6 +224,8 @@ namespace CalamityFandom.Content.Items.Weapons.Ranged
             ItemID.SilverCoin => (1, 100, 4),
             ItemID.GoldCoin => (2, 180, 5),
             ItemID.PlatinumCoin => (3, 260, 6),
+            _ when ammo == ModContent.ItemType<Ammo.Klepticoin>() => (5, 560, 10),
+            _ when ammo == ModContent.ItemType<Ammo.MiracleCoin>() => (6, 9999, 14),
             _ => (4, 380, 8),
         };
 
@@ -596,7 +598,7 @@ namespace CalamityFandom.Content.Projectiles.Weapons1119ab
         }
     }
 
-    /// <summary>Pièce de The Ones Striker : ai[0] 0 cuivre … 3 platine, 4 Cosmilite ; Midas selon la pièce.</summary>
+    /// <summary>Pièce de The Ones Striker : ai[0] 0 cuivre … 3 platine, 4 Cosmilite, 5 Klepticoin, 6 Miracle Coin ; Midas selon la pièce (sans fin pour 5 et 6).</summary>
     public class StrikerCoin : ModProjectile
     {
         public override string Texture => "Terraria/Images/Projectile_" + ProjectileID.GoldCoin;
@@ -618,15 +620,16 @@ namespace CalamityFandom.Content.Projectiles.Weapons1119ab
 
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            int t = MidasTime[(int)Projectile.ai[0] % 5];
+            int t = Projectile.ai[0] >= 5f ? int.MaxValue / 2 : MidasTime[(int)Projectile.ai[0] % 5];
             if (t > 0)
                 target.AddBuff(BuffID.Midas, t);
         }
 
         public override bool PreDraw(ref Color lightColor)
         {
-            Texture2D tex = Projectile.ai[0] == 4f ? ModContent.Request<Texture2D>("CalamityFandom/Content/Projectiles/Ranged/CsShot").Value : TextureAssets.Projectile[Type].Value;
-            Color c = Projectile.ai[0] == 4f ? Color.White : Tints[(int)Projectile.ai[0] % 5];
+            string shot = Projectile.ai[0] switch { 4f => "CsShot", 5f => "KShot", 6f => "MShot", _ => null };
+            Texture2D tex = shot != null ? ModContent.Request<Texture2D>("CalamityFandom/Content/Projectiles/Ranged/" + shot).Value : TextureAssets.Projectile[Type].Value;
+            Color c = shot != null ? Color.White : Tints[(int)Projectile.ai[0] % 5];
             Main.EntitySpriteDraw(tex, Projectile.Center - Main.screenPosition, null, c, Projectile.rotation, tex.Size() / 2f, 1f, SpriteEffects.None);
             return false;
         }

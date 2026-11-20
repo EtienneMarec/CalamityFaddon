@@ -2439,6 +2439,18 @@ Balla, Cosmic Elemental, ennemis de surface, ennemis mécaniques) : WikiLoot les
   vitesse. **[technique]** Le « Karma » (boss appelés en tuant dans l'océan) n'est pas fait.
 - **[choix]** Familiers Everflute (Weird Bird) et Crystallised Stiriatic Chunk : au sol, ils volent pour rattraper le joueur.
 
+### Lot AU du 20/11 : objets qui débloquent une recette (`Content/Items/WikiItems1120c.cs`)
+
+- **[choix]** Miracle Coin et Klepticoin dans The Ones Striker : valeurs du tableau de sa page (560 x 10, 9999 x 14),
+  Midas sans fin ; la Miracle Coin n'est la munition que de cette arme (Notes).
+- **[choix]** Salt Booklet : 1 chance sur 50 par Sulphurous Sand à l'Extractinator (la page ne donne pas la chance).
+- **[choix]** Demon Core : cœur qui traverse 2 ennemis, 2 s ; aura Shadowflame toutes les 10 images ; nuage de 3 s. Sa
+  recette demande « Bundle o' Bones », sans page : alias vers le Bone de Terraria (`tools/glossary.json`), comme les
+  autres armes « Night's » (une arme par biome : maléfique, jungle, enfers, Donjon).
+- **[choix]** World Breaker : la boule casse ce qu'une pioche peut casser (pas les meubles ni les coffres), 5 s.
+- **[technique]** Entropic Refiner : 4 × 4 cases comme l'image du bloc posé (la page dit 3 × 3) ; Static Refiner, Crystal
+  Ball, sources d'eau, de lave, de miel et de Shimmer.
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

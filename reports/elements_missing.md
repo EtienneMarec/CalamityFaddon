@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (105)
+## Objets (102)
 
 - A M S
 - AAMG "Disperse"
@@ -101,7 +101,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Deadflower
 - Deck of Souls
 - Deicide
-- Demon Core
 - Divine Hunters Staff
 - Draftogen
 - Drained Catarachedrae
@@ -157,8 +156,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Redtide Spear
 - Regeterrence
 - Rusty Flamethrower
-- Salt Booklet
-- Salt Water Bolt
 - Sanguined Catarachedrae
 - Severed Eye.exe
 - Shattered Module

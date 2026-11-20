@@ -4359,6 +4359,50 @@ Items: {
 		DisplayName: Wakasagihime
 		Tooltip: ᗜˬᗜ
 	}
+	MiracleCoin: {
+		DisplayName: Miracle Coin
+		Tooltip:
+			'''
+			Worth 100 Klepticoins
+			Too valuable for any vendor to accept
+			'''
+	}
+
+	SaltBooklet: {
+		DisplayName: Salt Booklet
+		Tooltip:
+			'''
+			A copy of a mass-produced tome phased out in favor of stronger spells
+			Casts a cube of salt
+			'''
+	}
+
+	SaltWaterBolt: {
+		DisplayName: Salt Water Bolt
+		Tooltip:
+			'''
+			A ruined Water Bolt
+			May be part of something greater
+			'''
+	}
+
+	DemonCore: {
+		DisplayName: Demon Core
+		Tooltip:
+			'''
+			Fires cores that emit dark radiation around them, inflicting shadowflame
+			Stealth strikes cause the core to leave behind a damaging shadowflame gas cloud
+			'''
+	}
+
+	WorldBreaker: {
+		DisplayName: World Breaker
+		Tooltip: Right click to fire a slow-moving ball that breaks tiles it touches
+	}
+	EntropicRefiner: {
+		DisplayName: Entropic Refiner
+		Tooltip: Used for special crafting
+	}
 }
 
 Projectiles: {
@@ -5158,6 +5202,25 @@ Projectiles: {
 
 	DeviousCrystal: {
 		DisplayName: Vaporified Crystal
+	}
+	SaltCube: {
+		DisplayName: Salt Cube
+	}
+
+	SaltWaterBoltProj: {
+		DisplayName: Salt Water Bolt
+	}
+
+	DemonCoreProj: {
+		DisplayName: Demon Core
+	}
+
+	DemonGas: {
+		DisplayName: Shadowflame Gas
+	}
+
+	ArmageddonBall: {
+		DisplayName: Armageddon Ball
 	}
 }
 

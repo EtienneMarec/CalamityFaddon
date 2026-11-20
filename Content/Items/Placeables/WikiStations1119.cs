@@ -1,6 +1,7 @@
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
+using Terraria.Enums;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -45,6 +46,17 @@ namespace CalamityFandom.Content.Items.Placeables
         protected override int Rarity => ItemRarityID.Blue;
     }
 
+    /// <summary>
+    /// Wiki : Entropic Refiner.txt — station pour la Quark-Gluon Sludge et les Omnicidal Sludge Bars, qui sert aussi de Static
+    /// Refiner, de Crystal Ball et de source d'eau, de lave, de miel et de Shimmer. [technique] 4 × 4 cases comme l'image du
+    /// bloc posé (la page dit 3 × 3).
+    /// </summary>
+    public class EntropicRefiner : WikiStation
+    {
+        protected override int TileType => ModContent.TileType<Tiles.EntropicRefinerTile>();
+        protected override int Rarity => ItemRarityID.Blue;
+    }
+
     /// <summary>Wiki : Advanced Void Condenser.txt — station 3 × 3 (mobilier Skylac), source de lumière ; rareté « C1 » → 0.</summary>
     public class AdvancedVoidCondenser : WikiStation
     {
@@ -72,6 +84,7 @@ namespace CalamityFandom.Content.Tiles
             TileObjectData.newTile.CopyFrom(Height == 3 ? TileObjectData.Style3x3 : TileObjectData.Style3x2);
             TileObjectData.newTile.Width = Width;
             TileObjectData.newTile.Height = Height;
+            TileObjectData.newTile.AnchorBottom = new AnchorData(AnchorType.SolidTile | AnchorType.SolidWithTop | AnchorType.Table, Width, 0);
             TileObjectData.newTile.CoordinateHeights = new int[Height];
             for (int i = 0; i < Height; i++)
                 TileObjectData.newTile.CoordinateHeights[i] = 16;
@@ -111,6 +124,24 @@ namespace CalamityFandom.Content.Tiles
             AdjTiles = new int[] { TileID.Loom, TileID.Sawmill, TileID.DyeVat };
             TileID.Sets.CountsAsWaterSource[Type] = true;
             DustType = DustID.WoodFurniture;
+        }
+    }
+
+    public class EntropicRefinerTile : WikiStationTile
+    {
+        protected override int Width => 4;
+        protected override int Height => 4;
+        protected override Color MapColor => new(0x00, 0x6E, 0xC0);
+        protected override Vector3 Light => new(0.1f, 0.4f, 0.8f);
+
+        public override void SetStaticDefaults()
+        {
+            base.SetStaticDefaults();
+            AdjTiles = new int[] { ModContent.TileType<CalamityMod.Tiles.FurnitureStatigel.StaticRefiner>(), TileID.CrystalBall };
+            TileID.Sets.CountsAsWaterSource[Type] = true;
+            TileID.Sets.CountsAsLavaSource[Type] = true;
+            TileID.Sets.CountsAsHoneySource[Type] = true;
+            TileID.Sets.CountsAsShimmerSource[Type] = true;
         }
     }
 
