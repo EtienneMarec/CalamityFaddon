@@ -791,6 +791,24 @@
    ]
   },
   {
+   "name": "CompressedStoneBlock",
+   "displayName": "Compressed Stone Block",
+   "page": "Compressed Stone Blocks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 5,
+   "tile": "block",
+   "mapColor": [
+    101,
+    101,
+    101
+   ]
+  },
+  {
    "name": "CondensedEnergy",
    "displayName": "Condensed Energy",
    "page": "Condensed Energy.txt",
@@ -1016,6 +1034,24 @@
    ]
   },
   {
+   "name": "CyberlightBrick",
+   "displayName": "Cyberlight Brick",
+   "page": "Cyberlight Brick.txt",
+   "width": 64,
+   "height": 64,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 3,
+   "maxStack": 9999,
+   "value": 50000,
+   "tile": "block",
+   "mapColor": [
+    96,
+    118,
+    176
+   ]
+  },
+  {
    "name": "DebrisOre",
    "displayName": "Debris Ore",
    "page": "Debris Ore.txt",
@@ -1082,6 +1118,24 @@
    "value": 250
   },
   {
+   "name": "DoubleCompressedStoneBlock",
+   "displayName": "Double Compressed Stone Block",
+   "page": "Compressed Stone Blocks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 1,
+   "maxStack": 9999,
+   "value": 50,
+   "tile": "block",
+   "mapColor": [
+    83,
+    83,
+    83
+   ]
+  },
+  {
    "name": "Dustplate",
    "displayName": "Dustplate",
    "page": "Dustplate.txt",
@@ -1146,6 +1200,24 @@
    "rare": 11,
    "maxStack": 9999,
    "value": 500000
+  },
+  {
+   "name": "ElementalBrick",
+   "displayName": "Elemental Brick",
+   "page": "Elemental Brick.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    74,
+    85,
+    105
+   ]
   },
   {
    "name": "ElementalOre",
@@ -1400,6 +1472,24 @@
    "value": 500000
   },
   {
+   "name": "EssericBrick",
+   "displayName": "Esseric Brick",
+   "page": "Esseric Brick.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 15,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    29,
+    37,
+    45
+   ]
+  },
+  {
    "name": "EssericOre",
    "displayName": "Esseric Ore",
    "page": "Esseric Ore.txt",
@@ -1586,6 +1676,24 @@
    "value": 2500000
   },
   {
+   "name": "FreezingMindustrialPlating",
+   "displayName": "Freezing Mindustrial Plating",
+   "page": "Freezing Mindustrial Plating.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 1000000,
+   "tile": "block",
+   "mapColor": [
+    59,
+    128,
+    159
+   ]
+  },
+  {
    "name": "FrozenHellstone",
    "displayName": "Frozen Hellstone",
    "page": "Frozen Hellstone.txt",
@@ -1682,6 +1790,24 @@
    "value": 2500000
   },
   {
+   "name": "GoldFlahBrick",
+   "displayName": "Gold Flah Brick",
+   "page": "Flah Bricks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 16,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    129,
+    98,
+    72
+   ]
+  },
+  {
    "name": "GrandioseGland",
    "displayName": "Grandiose Gland",
    "page": "Grandiose Gland.txt",
@@ -1692,6 +1818,42 @@
    "rare": 6,
    "maxStack": 9999,
    "value": 40000
+  },
+  {
+   "name": "GreenFlahBrick",
+   "displayName": "Green Flah Brick",
+   "page": "Flah Bricks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 16,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    81,
+    146,
+    116
+   ]
+  },
+  {
+   "name": "GreyFlahBrick",
+   "displayName": "Grey Flah Brick",
+   "page": "Flah Bricks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 16,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    68,
+    56,
+    57
+   ]
   },
   {
    "name": "GypsyPowder",
@@ -1752,6 +1914,24 @@
    "rare": 13,
    "maxStack": 9999,
    "value": 760000
+  },
+  {
+   "name": "HauntedBrick",
+   "displayName": "Haunted Brick",
+   "page": "Haunted Brick.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    132,
+    116,
+    118
+   ]
   },
   {
    "name": "HauntedOre",
@@ -1872,6 +2052,24 @@
    "rare": 15,
    "maxStack": 9999,
    "value": 50000
+  },
+  {
+   "name": "LavenderFlahBrick",
+   "displayName": "Lavender Flah Brick",
+   "page": "Flah Bricks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 16,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    156,
+    130,
+    180
+   ]
   },
   {
    "name": "Lawplate",
@@ -2016,6 +2214,24 @@
    "rare": 9,
    "maxStack": 9999,
    "value": 60000
+  },
+  {
+   "name": "MeldBrick",
+   "displayName": "Meld Brick",
+   "page": "Meld Brick.txt",
+   "width": 24,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    72,
+    56,
+    59
+   ]
   },
   {
    "name": "MeldChipIceCream",
@@ -2249,6 +2465,24 @@
    "value": 250000
   },
   {
+   "name": "OctupleCompressedStoneBlock",
+   "displayName": "Octuple Compressed Stone Block",
+   "page": "Compressed Stone Blocks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 7,
+   "maxStack": 9999,
+   "value": 50000000,
+   "tile": "block",
+   "mapColor": [
+    15,
+    15,
+    15
+   ]
+  },
+  {
    "name": "OmnicidalSludgeBar",
    "displayName": "Omnicidal Sludge Bar",
    "page": "Omnicidal Sludge Bar.txt",
@@ -2363,6 +2597,24 @@
    "value": 500000
   },
   {
+   "name": "PinkFlahBrick",
+   "displayName": "Pink Flah Brick",
+   "page": "Flah Bricks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 16,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    145,
+    104,
+    124
+   ]
+  },
+  {
    "name": "PrimordialLife",
    "displayName": "Primordial Life",
    "page": "Primordial Life.txt",
@@ -2429,6 +2681,24 @@
    "value": 500000
   },
   {
+   "name": "QuadrupleCompressedStoneBlock",
+   "displayName": "Quadruple Compressed Stone Block",
+   "page": "Compressed Stone Blocks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 3,
+   "maxStack": 9999,
+   "value": 5000,
+   "tile": "block",
+   "mapColor": [
+    51,
+    51,
+    51
+   ]
+  },
+  {
    "name": "QuarkGluonSludge",
    "displayName": "Quark-Gluon Sludge",
    "page": "Quark-Gluon Sludge.txt",
@@ -2439,6 +2709,24 @@
    "rare": 14,
    "maxStack": 9999,
    "value": 0
+  },
+  {
+   "name": "QuintupleCompressedStoneBlock",
+   "displayName": "Quintuple Compressed Stone Block",
+   "page": "Compressed Stone Blocks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 4,
+   "maxStack": 9999,
+   "value": 50000,
+   "tile": "block",
+   "mapColor": [
+    39,
+    39,
+    39
+   ]
   },
   {
    "name": "RarePlanteraFruit",
@@ -2487,6 +2775,24 @@
    "rare": 15,
    "maxStack": 9999,
    "value": 1250000
+  },
+  {
+   "name": "RedFlahBrick",
+   "displayName": "Red Flah Brick",
+   "page": "Flah Bricks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 16,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    100,
+    13,
+    25
+   ]
   },
   {
    "name": "RefinedAegisalt",
@@ -2639,6 +2945,24 @@
    "value": 0
   },
   {
+   "name": "ScalarEssericBrick",
+   "displayName": "Scalar Esseric Brick",
+   "page": "Scalar Esseric Brick.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 5000,
+   "tile": "block",
+   "mapColor": [
+    54,
+    104,
+    138
+   ]
+  },
+  {
    "name": "ScarredAngelfish",
    "displayName": "Scarred Angelfish",
    "page": "Scarred Angelfish.txt",
@@ -2649,6 +2973,24 @@
    "rare": 1,
    "maxStack": 9999,
    "value": 3500
+  },
+  {
+   "name": "ScorchingMindustrialPlating",
+   "displayName": "Scorching Mindustrial Plating",
+   "page": "Scorching Mindustrial Plating.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 500000,
+   "tile": "block",
+   "mapColor": [
+    152,
+    56,
+    62
+   ]
   },
   {
    "name": "SeaStoneBar",
@@ -2673,6 +3015,42 @@
    "rare": 1,
    "maxStack": 9999,
    "value": 2500000
+  },
+  {
+   "name": "SeptupleCompressedStoneBlock",
+   "displayName": "Septuple Compressed Stone Block",
+   "page": "Compressed Stone Blocks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 6,
+   "maxStack": 9999,
+   "value": 5000000,
+   "tile": "block",
+   "mapColor": [
+    18,
+    18,
+    18
+   ]
+  },
+  {
+   "name": "SextupleCompressedStoneBlock",
+   "displayName": "Sextuple Compressed Stone Block",
+   "page": "Compressed Stone Blocks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 5,
+   "maxStack": 9999,
+   "value": 500000,
+   "tile": "block",
+   "mapColor": [
+    28,
+    28,
+    28
+   ]
   },
   {
    "name": "ShadowspecOre",
@@ -2739,6 +3117,24 @@
    "rare": 7,
    "maxStack": 9999,
    "value": 125000
+  },
+  {
+   "name": "ShatteriteBrick",
+   "displayName": "Shatterite Brick",
+   "page": "Shatterite Brick.txt",
+   "width": 24,
+   "height": 24,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 0,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    52,
+    139,
+    188
+   ]
   },
   {
    "name": "ShatteriteOre",
@@ -3071,6 +3467,24 @@
    "value": 8000
   },
   {
+   "name": "TripleCompressedStoneBlock",
+   "displayName": "Triple Compressed Stone Block",
+   "page": "Compressed Stone Blocks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 2,
+   "maxStack": 9999,
+   "value": 500,
+   "tile": "block",
+   "mapColor": [
+    65,
+    65,
+    65
+   ]
+  },
+  {
    "name": "TwistedNetheriteBar",
    "displayName": "Twisted Netherite Bar",
    "page": "Twisted Netherite Bar.txt",
@@ -3195,6 +3609,24 @@
    "rare": 8,
    "maxStack": 9999,
    "value": 50000
+  },
+  {
+   "name": "VoidFlahBrick",
+   "displayName": "Void Flah Brick",
+   "page": "Flah Bricks.txt",
+   "width": 16,
+   "height": 16,
+   "frames": 1,
+   "ticksPerFrame": 5,
+   "rare": 16,
+   "maxStack": 9999,
+   "value": 0,
+   "tile": "block",
+   "mapColor": [
+    25,
+    7,
+    52
+   ]
   },
   {
    "name": "VoidantSubstance",

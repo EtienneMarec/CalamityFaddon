@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (123)
+## Objets (116)
 
 - A M S
 - AAMG "Disperse"
@@ -85,7 +85,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Aquatic Shardstone
 - Arcanoid Orb
 - Bad Apple
-- Bazooka
 - Bleeding Influx
 - Blobfish Plushie
 - Blood Element
@@ -124,7 +123,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Gel Sword
 - Gel Wand
 - Genisis
-- Ghoststreaker
 - Gift of the Red
 - God's Paranoia
 - Hailstorm
@@ -146,7 +144,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Neutron Star
 - Noxcalibur
 - Nystagmus
-- Ogscule
 - Omega Ray
 - Onyx Overlord's Gunsaw
 - OPFT "Sublimate"
@@ -167,7 +164,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Reactor Accelerator
 - Redtide Spear
 - Regeterrence
-- RGB Graydron
 - Rusty Flamethrower
 - Salt Booklet
 - Salt Water Bolt
@@ -178,9 +174,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Slimelgamation
 - Snowgrave
 - Star Flare
-- Terreye Staff
 - Tetrachromancy
-- The Dreaming Ghost
 - The Godfather
 - The Inflator's Controller
 - The King's Gambit
@@ -188,7 +182,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - The Verboten One
 - The Watered Pew Pew
 - The WOBbler
-- Totality Tides
 - UserGrahkon/Sandbox
 - Vehement Gemstone
 - Venus Flytrap

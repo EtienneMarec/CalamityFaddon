@@ -2334,6 +2334,71 @@ Frozen = Daedalus (mêlée), Archangel = Aerospec (mêlée), Catarachedrae = Blo
   State ; « vous visent plus » = +400 d'aggro ; « +20 % de taille en vraie mêlée » = +20 % de taille des armes de mêlée.
 - **[technique]** Catarachedrae « fabricable seulement en Revengeance » : pas de condition sur les recettes du wiki.
 
+### Lot AO du 20/11 : Tainted Potions (`Content/Items/Potions/TaintedPotions.cs`)
+
+Les 38 potions de la page qui ont une recette (potion vanilla + Disgusting Meat, Placed Bottle). Une classe d'objet et une
+de buff, une instance par potion ; icône du buff vanilla (celle du tableau). Les 4 lignes « DESCRIPTION » de la page
+(Anechoic Coating, Aureus Cell, Bounding, Cadence) n'ont pas de recette : pas faites. Les deux modes.
+
+- **[choix]** Rareté, prix et animation de la potion vanilla d'origine. Potion normale et Tainted s'excluent (Notes).
+- **[choix]** Chiffres que la page ne donne pas : Archery -10 % dégâts de flèche, -20 % vitesse, +30 % cadence des arcs ;
+  Battle : apparitions divisées par 2, ennemis apparus près du joueur +30 % vie et dégâts, butin résolu deux fois (pas
+  les boss) ; Builder : -25 % vitesse de pose, -2 de portée, 20 % de blocs (1 × 1) non consommés, qui ne lâchent rien une
+  fois cassés (**[technique]** positions non sauvegardées) ; Calming : apparitions x2, « banner weakness » = +50 % de
+  dégâts infligés et -25 % de dégâts reçus de tous les ennemis ; Crate : une caisse sur deux devient une prise normale,
+  caisses en double ; Dangersense : toutes les 2 s, plaques de pression et pièges à 30 blocs déclenchés ; Endurance : la
+  réduction de dégâts (DR de Calamity) des ennemis baisse de 10 points ; Featherfall : ennemis au sol blessés après 25
+  blocs de chute, 10 par bloc (comme le joueur) ; Fishing : -20 de pêche, 1 prise sur 6 hors Blood Moon = ennemi de Blood
+  Moon (ceux du Hardmode après le Wall of Flesh) ; Gills : souffle deux fois plus court, aucun dégât sous l'eau tant qu'il
+  reste du souffle ; Gravitation : toutes les 2 à 6 s, une chance sur deux d'inverser la gravité (on peut aussi l'inverser
+  soi-même, comme avec le Gravity Globe) ; Heartreach : cœurs à 500 px d'un ennemi foncent sur lui (40 dégâts) ; Inferno :
+  On Fire! sur soi et sur tous les ennemis à 2500 px ; Invisibility : ennemis invisibles et inoffensifs (contact) jusqu'au
+  premier coup reçu ; Ironskin : -8 défense, dégâts de défense divisés par 2 ; Lifeforce : -20 % de vie max convertis en
+  mana max ; Love : ennemis qui se touchent se blessent (leurs dégâts de contact, 0,5 s entre deux coups) ; Luck : 2 % de
+  chances d'Astral Pearl par ennemi ; Magic Power : -10 % dégâts magiques, +100 % de recul ; Mana Regeneration : « mana
+  drains twice as quickly » = sorts deux fois plus chers ; 1 coup magique sur 10 fait tomber une étoile (Starfury, demi-
+  dégâts) ; Mining : -25 % vitesse de minage, +50 de puissance de pioche ; Night Owl : écran assombri à 50 % le jour,
+  Confused 2 s à chaque coup ; Obsidian Skin : la lave tue, les ennemis y perdent 5 % de vie toutes les 0,5 s ; Rage : pas
+  de critique, +30 % de dégâts ; Regeneration : plus de régénération, 1 coup sur 20 fait tomber un cœur ; Shine : écran
+  noirci à 85 % (pour rester jouable), tirs à tête chercheuse (500 px ; pas les sbires, lances et armes tenues) ; Sonar :
+  la prise est tirée au hasard parmi 30 poissons, caisses et déchets ; Spelunker : minerais dessinés comme un bloc voisin,
+  ramassés à moins de 4 blocs ; Stink : ennemis (pas les boss) à moins de 320 px s'enfuient ; Summoning : 999 sbires,
+  qui disparaissent au bout de 5 s ; Swiftness : -25 % de vitesse, accélération et freinage immédiats ; Thorns : 25 % des
+  tirs renvoyés par l'ennemi touché (le tir renvoyé peut toucher les autres) ; Titan : plus aucun recul ; Warmth : dégâts
+  de lave -50 %, des ennemis de l'élément Fire -25 %, brûlures deux fois moins fortes ; Water Walking : on marche sur l'air
+  (bas pour descendre), toucher le sol tue (3 s de grâce après avoir bu) ; Wrath : dégâts à 0, chaque seconde un ennemi
+  proche (pas un boss) meurt en lâchant son butin.
+
+### Lot AP du 20/11 : armes (`Content/Items/Weapons/WikiWeapons1120.cs`)
+
+- **[choix]** Jake : épée sans projectile (« no unique animations and shoots no projectiles ») ; messages de la page en
+  texte de combat au-dessus du joueur à chaque ennemi tué.
+- **[choix]** RGB Graydron : entaille de la Murasama de Calamity (classe héritée), recolorée en arc-en-ciel ; 50 % de
+  critique (46 + 4 de base).
+- **[choix]** Totality Tides : boule au curseur, un des cinq tirs exo au hasard toutes les 8 images vers boule - joueur ;
+  « parfaitement centrée » = moins de 24 px ; textures de projectiles de Calamity (Exobeam, Exo Crystal Arrow, Cosmic
+  Energy Spiral, Blazing Phantom Blade) ; éclair = poussière arc-en-ciel.
+- **[choix]** Bazooka : +1 % de la vie actuelle de la cible ; explosion de 80 px ; deux tirs par combat (compteur remis à
+  zéro quand il n'y a plus de boss). Grenade Shells vendues par l'Arms Dealer avec un Bazooka dans l'inventaire.
+- **[choix]** Ghoststreaker : comme la Stringstreaker, 4 lignes à ±2° et ±6°, 90 par frappe toutes les 6 images ; rareté
+  « C3 » de l'addon = CalamityRed.
+- **[choix]** Ogscule : un rayon toutes les 12 images, 40 images de vie, qui tourne vers le curseur de 0,03 rad par image ;
+  ne fait rien en pré-Hardmode (Notes). Source : Demon Eye 10 % avec au moins 3 Ebonwood Chairs dans l'inventaire et les
+  emplacements d'apparence d'armure vides (des chaises ne s'équipent pas) ; sa recette du wiki demande la bannière d'un
+  ennemi qui n'existe pas.
+- **[choix]** Wisdom of Survival (page sans description) : grande orbe d'eau lente qui traverse tout, 6 gouttes
+  chercheuses à sa disparition.
+- **[choix]** Terreye Staff : trio de 4 places (4/3 chacun) ; sigil (texture du Terra Sigil de Calamity) en 300 images de
+  clic droit maintenu ; convergence en 20 images, impact à 500 % ; cœurs terra = Living Shard, 10 PV.
+- **[choix]** The Dreaming Ghost : 2 places par papillon ; violet : charge toutes les 25 images, 3 Crystal Shards au
+  contact ; rose : immobile, une balle sakura chercheuse toutes les 8 images.
+
+### Blocs fabriqués (20/11, `tools/gen_items.py`)
+
+- **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les
+  autres matériaux posables (9 briques). Les pages à plusieurs infobox (Flah Bricks, Compressed Stone Blocks) donnent un
+  objet par infobox (15 de plus) ; sans image dans l'infobox, celle du nom.
+
 ## 8 bis. Shortstrike (`tools/gen_shortstrike.py`, `Common/Shortstrike/`, page Shortstrike)
 
 - **[validé 22/10]** Système créé d'après la page : jauge de 100 points (1 point tous les 10 dégâts d'épée courte et par

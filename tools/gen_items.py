@@ -164,6 +164,28 @@ def convert_world(src, dest, size):
     img.resize(size, Image.LANCZOS).save(dest, "PNG")
 
 
+def group_pages(index):
+    """Pages à plusieurs infobox d'objets (Flah Bricks, Compressed Stone Blocks, 20/11) : une fausse page par infobox,
+    pour les objets qui n'ont pas leur propre page (leurs titres redirigent vers la page de groupe)."""
+    out = []
+    for page in index.values():
+        if page.get("kind") != "content" or page.get("status") != "new":
+            continue
+        text = open(os.path.join(ROOT, "wiki", "Main", page["file"]), encoding="utf-8", errors="replace").read()
+        boxes = re.findall(r"\{\{item infobox\n(.*?)\n\}\}", text, re.S)
+        if len(boxes) < 2:
+            continue
+        for box in boxes:
+            fields = dict((m.group(1).strip(), m.group(2).strip()) for m in re.finditer(r"^\|\s*(\w+)\s*=\s*(.*)$", box, re.M))
+            name = fields.get("name")
+            if not name or (name in index and index[name].get("kind") == "content"):
+                continue
+            fields.setdefault("image", name + ".png")  # sans image dans l'infobox : celle du nom
+            out.append({"title": name, "status": "new", "kind": "content", "infobox": "item infobox",
+                        "type": fields.get("type", ""), "fields": fields, "file": page["file"]})
+    return out
+
+
 def main():
     index = json.load(open(os.path.join(ROOT, "data", "wiki_index.json"), encoding="utf-8"))
     os.makedirs(ASSETS, exist_ok=True)
@@ -175,6 +197,8 @@ def main():
     # Les barres sont des « Block » sur le wiki (elles se posent) : prises comme matériaux si une recette les utilise
     recipes = json.load(open(os.path.join(ROOT, "WikiData", "recipes.json"), encoding="utf-8"))["recipes"]
     ingredients = {n.lower() for r in recipes for i in r["ingredients"] for n in i["items"]}
+    # Blocs qu'une recette du wiki fabrique (briques, 20/11) : posables si le wiki montre le bloc posé
+    crafted = {r["result"].lower() for r in recipes}
     # ... ou si le butin du wiki les donne (Antlion Ore, lâché par les Antlions), sauf contenu historique
     loot_path = os.path.join(ROOT, "WikiData", "loot.json")
     dropped = set()
@@ -183,7 +207,7 @@ def main():
         dropped = {d["item"].lower() for v in loot["npcs"].values() for d in v["drops"]}
         dropped |= {d["item"].lower() for d in loot.get("generic", [])}
     items, loc = [], {}
-    for page in sorted(index.values(), key=lambda p: p["title"]):
+    for page in sorted(list(index.values()) + group_pages(index), key=lambda p: p["title"]):
         if page.get("status") != "new" or page.get("kind") != "content" or not page.get("infobox", "").startswith("item"):
             continue
         kind = (page.get("type") or "").strip().lower().rstrip(".")
@@ -197,7 +221,8 @@ def main():
         wall = kind == "wall" and placed_sprite(re.sub(r"\s*\([^)]*\)$", "", page["title"])) is not None
         # Objets « Item » de la chaîne de la Flah (19/11) : matériaux s'ils servent à une recette ou se disent matériau
         plain_item = kind == "item" and ("crafting material" in (page["fields"].get("type2") or "").lower() or title_lower in ingredients)
-        if kind not in MATERIAL_TYPES and not food and not (kind == "block" and title_lower in ingredients) and not from_loot and not wall and not plain_item:
+        crafted_block = kind == "block" and title_lower in crafted and placed_sprite(re.sub(r"\s*\([^)]*\)$", "", page["title"])) is not None
+        if kind not in MATERIAL_TYPES and not food and not (kind == "block" and title_lower in ingredients) and not from_loot and not wall and not plain_item and not crafted_block:
             continue
         if from_loot and "{{historical" in open(os.path.join(ROOT, "wiki", "Main", page["file"]), encoding="utf-8",
                                                 errors="replace").read().lower():

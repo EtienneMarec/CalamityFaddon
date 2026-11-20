@@ -296,6 +296,11 @@
 		DisplayName: Compressed Mana
 		Tooltip: ""
 	}
+	CompressedStoneBlock:
+	{
+		DisplayName: Compressed Stone Block
+		Tooltip: ""
+	}
 	CondensedEnergy:
 	{
 		DisplayName: Condensed Energy
@@ -385,6 +390,11 @@
 		DisplayName: Curseplate
 		Tooltip: It resonates with otherworldly energy.
 	}
+	CyberlightBrick:
+	{
+		DisplayName: Cyberlight Brick
+		Tooltip: It resonates with cybernetic energy.
+	}
 	DebrisOre:
 	{
 		DisplayName: Debris Ore
@@ -410,6 +420,11 @@
 		DisplayName: Diamond Dust
 		Tooltip: ""
 	}
+	DoubleCompressedStoneBlock:
+	{
+		DisplayName: Double Compressed Stone Block
+		Tooltip: ""
+	}
 	Dustplate:
 	{
 		DisplayName: Dustplate
@@ -433,6 +448,11 @@
 	ElementalBar:
 	{
 		DisplayName: Elemental Bar
+		Tooltip: ""
+	}
+	ElementalBrick:
+	{
+		DisplayName: Elemental Brick
 		Tooltip: ""
 	}
 	ElementalOre:
@@ -535,6 +555,11 @@
 		DisplayName: Esseric Bar
 		Tooltip: ""
 	}
+	EssericBrick:
+	{
+		DisplayName: Esseric Brick
+		Tooltip: ""
+	}
 	EssericOre:
 	{
 		DisplayName: Esseric Ore
@@ -609,6 +634,11 @@
 		DisplayName: Floral Biomass
 		Tooltip: Biomass of Terraria's Flora.
 	}
+	FreezingMindustrialPlating:
+	{
+		DisplayName: Freezing Mindustrial Plating
+		Tooltip: Contains Freezing Energy.
+	}
 	FrozenHellstone:
 	{
 		DisplayName: Frozen Hellstone
@@ -644,10 +674,25 @@
 		DisplayName: Godterminal Arcanoid Base
 		Tooltip: Summons an Arcanoid orb that flies around the player, Left click anywhere to move the orb to that place. The Orb shoots Cluster Bullets and creates an aura that inflicts God Slayer Inferno
 	}
+	GoldFlahBrick:
+	{
+		DisplayName: Gold Flah Brick
+		Tooltip: ""
+	}
 	GrandioseGland:
 	{
 		DisplayName: Grandiose Gland
 		Tooltip: It's disgusting
+	}
+	GreenFlahBrick:
+	{
+		DisplayName: Green Flah Brick
+		Tooltip: ""
+	}
+	GreyFlahBrick:
+	{
+		DisplayName: Grey Flah Brick
+		Tooltip: ""
 	}
 	GypsyPowder:
 	{
@@ -673,6 +718,11 @@
 	{
 		DisplayName: Haunted Bar
 		Tooltip: A chunk of the distant past
+	}
+	HauntedBrick:
+	{
+		DisplayName: Haunted Brick
+		Tooltip: ""
 	}
 	HauntedOre:
 	{
@@ -722,6 +772,11 @@
 	{
 		DisplayName: Lacoplasm
 		Tooltip: '''"Produces cold, Combining with Laceline is not advised"'''
+	}
+	LavenderFlahBrick:
+	{
+		DisplayName: Lavender Flah Brick
+		Tooltip: ""
 	}
 	Lawplate:
 	{
@@ -780,6 +835,11 @@
 	MeldBar:
 	{
 		DisplayName: Meld Bar
+		Tooltip: ""
+	}
+	MeldBrick:
+	{
+		DisplayName: Meld Brick
 		Tooltip: ""
 	}
 	MeldChipIceCream:
@@ -871,6 +931,11 @@
 		DisplayName: Noctic Reactive Essence
 		Tooltip: '''"filled with night"'''
 	}
+	OctupleCompressedStoneBlock:
+	{
+		DisplayName: Octuple Compressed Stone Block
+		Tooltip: ""
+	}
 	OmnicidalSludgeBar:
 	{
 		DisplayName: Omnicidal Sludge Bar
@@ -916,6 +981,11 @@
 		DisplayName: Piggy
 		Tooltip: ""
 	}
+	PinkFlahBrick:
+	{
+		DisplayName: Pink Flah Brick
+		Tooltip: ""
+	}
 	PrimordialLife:
 	{
 		DisplayName: Primordial Life
@@ -941,9 +1011,19 @@
 		DisplayName: Pulsing Night Essence
 		Tooltip: '''"Obscures all light sources"'''
 	}
+	QuadrupleCompressedStoneBlock:
+	{
+		DisplayName: Quadruple Compressed Stone Block
+		Tooltip: ""
+	}
 	QuarkGluonSludge:
 	{
 		DisplayName: Quark-Gluon Sludge
+		Tooltip: ""
+	}
+	QuintupleCompressedStoneBlock:
+	{
+		DisplayName: Quintuple Compressed Stone Block
 		Tooltip: ""
 	}
 	RarePlanteraFruit:
@@ -965,6 +1045,11 @@
 	{
 		DisplayName: Reclaimed Flah
 		Tooltip: Pure Flah that is ready to be processed into Flahium Slag.
+	}
+	RedFlahBrick:
+	{
+		DisplayName: Red Flah Brick
+		Tooltip: ""
 	}
 	RefinedAegisalt:
 	{
@@ -1016,10 +1101,20 @@
 		DisplayName: Sand Elemental's Soul
 		Tooltip: A living soul of the both Sand Elementals. No functions yet.
 	}
+	ScalarEssericBrick:
+	{
+		DisplayName: Scalar Esseric Brick
+		Tooltip: ""
+	}
 	ScarredAngelfish:
 	{
 		DisplayName: Scarred Angelfish
 		Tooltip: The mark of a fallen angel
+	}
+	ScorchingMindustrialPlating:
+	{
+		DisplayName: Scorching Mindustrial Plating
+		Tooltip: Contains Blood Energy.
 	}
 	SeaStoneBar:
 	{
@@ -1030,6 +1125,16 @@
 	{
 		DisplayName: Seed Bag
 		Tooltip: A bag of seeds.
+	}
+	SeptupleCompressedStoneBlock:
+	{
+		DisplayName: Septuple Compressed Stone Block
+		Tooltip: ""
+	}
+	SextupleCompressedStoneBlock:
+	{
+		DisplayName: Sextuple Compressed Stone Block
+		Tooltip: ""
 	}
 	ShadowspecOre:
 	{
@@ -1054,6 +1159,11 @@
 	ShatteriteBar:
 	{
 		DisplayName: Shatterite Bar
+		Tooltip: ""
+	}
+	ShatteriteBrick:
+	{
+		DisplayName: Shatterite Brick
 		Tooltip: ""
 	}
 	ShatteriteOre:
@@ -1170,6 +1280,11 @@
 		DisplayName: Trapper Bulb
 		Tooltip: ""
 	}
+	TripleCompressedStoneBlock:
+	{
+		DisplayName: Triple Compressed Stone Block
+		Tooltip: ""
+	}
 	TwistedNetheriteBar:
 	{
 		DisplayName: Twisted Netherite Bar
@@ -1213,6 +1328,11 @@
 	VioliumOre:
 	{
 		DisplayName: Violium Ore
+		Tooltip: ""
+	}
+	VoidFlahBrick:
+	{
+		DisplayName: Void Flah Brick
 		Tooltip: ""
 	}
 	VoidantSubstance:

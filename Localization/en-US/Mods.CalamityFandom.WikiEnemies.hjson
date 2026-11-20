@@ -1,366 +1,91 @@
-{
-	AccidatedSlime:
-	{
-		DisplayName: Accidated Slime
-	}
-	AetherValkyrie:
-	{
-		DisplayName: Aether Valkyrie
-	}
-	AngryDog:
-	{
-		DisplayName: Angry Dog
-	}
-	AquaticSeeker:
-	{
-		DisplayName: Aquatic Seeker
-	}
-	ArsenousSlime:
-	{
-		DisplayName: Arsenous Slime
-	}
-	AstralHead:
-	{
-		DisplayName: Astral Head
-	}
-	Asura:
-	{
-		DisplayName: Asura
-	}
-	AuricSlime:
-	{
-		DisplayName: Auric Slime
-	}
-	BabySkeletronHeadExe:
-	{
-		DisplayName: Baby Skeletron Head.exe
-	}
-	BananaClown:
-	{
-		DisplayName: Banana Clown
-	}
-	Barocraw:
-	{
-		DisplayName: Barocraw
-	}
-	BlightedEye:
-	{
-		DisplayName: Blighted Eye
-	}
-	Blockhound:
-	{
-		DisplayName: Blockhound
-	}
-	BloodyBurrower:
-	{
-		DisplayName: Bloody Burrower
-	}
-	BlueDemon:
-	{
-		DisplayName: Blue Demon
-	}
-	BoarCat:
-	{
-		DisplayName: Boar Cat
-	}
-	ChaosSlime:
-	{
-		DisplayName: Chaos Slime
-	}
-	CharmGar:
-	{
-		DisplayName: Charm Gar
-	}
-	ChasmBeast:
-	{
-		DisplayName: Chasm Beast
-	}
-	Cinderlamitas:
-	{
-		DisplayName: Cinderlamitas
-	}
-	Clamitas:
-	{
-		DisplayName: Clamitas
-	}
-	ClockworkBat:
-	{
-		DisplayName: Clockwork Bat
-	}
-	CosmiliteSlime:
-	{
-		DisplayName: Cosmilite Slime
-	}
-	Crackling:
-	{
-		DisplayName: Crackling
-	}
-	CrimsonKaiju:
-	{
-		DisplayName: Crimson Kaiju
-	}
-	CrownJewelEnemy:
-	{
-		DisplayName: Crown Jewel (enemy)
-	}
-	CuboidCurse:
-	{
-		DisplayName: Cuboid Curse
-	}
-	CyberDraedon:
-	{
-		DisplayName: Cyber Draedon
-	}
-	DarkStatis:
-	{
-		DisplayName: Dark Statis
-	}
-	Darkscule:
-	{
-		DisplayName: Darkscule
-	}
-	DeathSlime:
-	{
-		DisplayName: Death Slime
-	}
-	DepressedCephalopod:
-	{
-		DisplayName: Depressed Cephalopod
-	}
-	DistortionEssenceSphere:
-	{
-		DisplayName: Distortion Essence Sphere
-	}
-	DivinerValkyrie:
-	{
-		DisplayName: Diviner Valkyrie
-	}
-	Dollarbob:
-	{
-		DisplayName: Dollarbob
-	}
-	Everquartz:
-	{
-		DisplayName: Everquartz
-	}
-	EvilAnimatronic:
-	{
-		DisplayName: Evil Animatronic
-	}
-	ExoArmada:
-	{
-		DisplayName: Exo Armada
-	}
-	ExoCube:
-	{
-		DisplayName: Exo Cube
-	}
-	ExoLandmaster:
-	{
-		DisplayName: Exo Landmaster
-	}
-	ExoMine:
-	{
-		DisplayName: Exo Mine
-	}
-	ExoObelisk:
-	{
-		DisplayName: Exo Obelisk
-	}
-	ExoSentry:
-	{
-		DisplayName: Exo Sentry
-	}
-	ExoSphere:
-	{
-		DisplayName: Exo Sphere
-	}
-	Exoquartz:
-	{
-		DisplayName: Exoquartz
-	}
-	FamineSlime:
-	{
-		DisplayName: Famine Slime
-	}
-	FatBlightedEye:
-	{
-		DisplayName: Fat Blighted Eye
-	}
-	FloatingBiomass:
-	{
-		DisplayName: Floating Biomass
-	}
-	Frigidemon:
-	{
-		DisplayName: Frigidemon
-	}
-	FrostHog:
-	{
-		DisplayName: Frost Hog
-	}
-	FrostImp:
-	{
-		DisplayName: Frost Imp
-	}
-	GlacialSlime:
-	{
-		DisplayName: Glacial Slime
-	}
-	Glitch:
-	{
-		DisplayName: Glitch
-	}
-	Glowflies:
-	{
-		DisplayName: Glowflies
-	}
-	GreenDemon:
-	{
-		DisplayName: Green Demon
-	}
-	HeavenlyOgsculite:
-	{
-		DisplayName: Heavenly Ogsculite
-	}
-	KingOfConstellationsTenryu:
-	{
-		DisplayName: King of Constellations, Tenryu
-	}
-	LaRuga:
-	{
-		DisplayName: La Ruga
-	}
-	LifeSlime:
-	{
-		DisplayName: Life Slime
-	}
-	Lizard:
-	{
-		DisplayName: Lizard
-	}
-	MagnetostormShuttle:
-	{
-		DisplayName: Magnetostorm Shuttle
-	}
-	Mastaba:
-	{
-		DisplayName: Mastaba
-	}
-	MetalMaw:
-	{
-		DisplayName: Metal Maw
-	}
-	Mosquito:
-	{
-		DisplayName: Mosquito
-	}
-	MushroomElemental:
-	{
-		DisplayName: Mushroom Elemental
-	}
-	MysteriousManager:
-	{
-		DisplayName: Mysterious Manager
-	}
-	NightmareBurrower:
-	{
-		DisplayName: Nightmare Burrower
-	}
-	OgsculianBurrower:
-	{
-		DisplayName: Ogsculian Burrower
-	}
-	OnyxKinsman:
-	{
-		DisplayName: Onyx Kinsman
-	}
-	Parasea:
-	{
-		DisplayName: Parasea
-	}
-	PhantomDebris:
-	{
-		DisplayName: Phantom Debris
-	}
-	PlagueEmperor:
-	{
-		DisplayName: Plague Emperor
-	}
-	PrimalAspid:
-	{
-		DisplayName: Primal Aspid
-	}
-	PrimordialRainbowSlime:
-	{
-		DisplayName: Primordial Rainbow Slime
-	}
-	ProvincePilferer:
-	{
-		DisplayName: Province Pilferer
-	}
-	ROST:
-	{
-		DisplayName: R.OST
-	}
-	RodentTmod:
-	{
-		DisplayName: Rodent.tmod
-	}
-	SandTortoise:
-	{
-		DisplayName: Sand Tortoise
-	}
-	ShadowspecSlime:
-	{
-		DisplayName: Shadowspec Slime
-	}
-	SideMollusk:
-	{
-		DisplayName: Side Mollusk
-	}
-	SilicicSlime:
-	{
-		DisplayName: Silicic Slime
-	}
-	SpikedCrimsonSlimeSpawn:
-	{
-		DisplayName: Spiked Crimson Slime Spawn
-	}
-	StiriaticWalkie:
-	{
-		DisplayName: Stiriatic Walkie
-	}
-	SunBat:
-	{
-		DisplayName: Sun Bat
-	}
-	TallMan:
-	{
-		DisplayName: Tall Man
-	}
-	VolcanicReaperShark:
-	{
-		DisplayName: Volcanic Reaper Shark
-	}
-	WarSlime:
-	{
-		DisplayName: War Slime
-	}
-	WulfrumMine:
-	{
-		DisplayName: Wulfrum Mine
-	}
-	WulfrumPylon:
-	{
-		DisplayName: Wulfrum Pylon
-	}
-	WulfrumSlime:
-	{
-		DisplayName: Wulfrum Slime
-	}
-	YggdrasilEnt:
-	{
-		DisplayName: Yggdrasil Ent
-	}
-}
+AccidatedSlime.DisplayName: Accidated Slime
+AetherValkyrie.DisplayName: Aether Valkyrie
+AngryDog.DisplayName: Angry Dog
+AquaticSeeker.DisplayName: Aquatic Seeker
+ArsenousSlime.DisplayName: Arsenous Slime
+AstralHead.DisplayName: Astral Head
+Asura.DisplayName: Asura
+AuricSlime.DisplayName: Auric Slime
+BabySkeletronHeadExe.DisplayName: Baby Skeletron Head.exe
+BananaClown.DisplayName: Banana Clown
+Barocraw.DisplayName: Barocraw
+BlightedEye.DisplayName: Blighted Eye
+Blockhound.DisplayName: Blockhound
+BloodyBurrower.DisplayName: Bloody Burrower
+BlueDemon.DisplayName: Blue Demon
+BoarCat.DisplayName: Boar Cat
+ChaosSlime.DisplayName: Chaos Slime
+CharmGar.DisplayName: Charm Gar
+ChasmBeast.DisplayName: Chasm Beast
+Cinderlamitas.DisplayName: Cinderlamitas
+Clamitas.DisplayName: Clamitas
+ClockworkBat.DisplayName: Clockwork Bat
+CosmiliteSlime.DisplayName: Cosmilite Slime
+Crackling.DisplayName: Crackling
+CrimsonKaiju.DisplayName: Crimson Kaiju
+CrownJewelEnemy.DisplayName: Crown Jewel (enemy)
+CuboidCurse.DisplayName: Cuboid Curse
+CyberDraedon.DisplayName: Cyber Draedon
+DarkStatis.DisplayName: Dark Statis
+Darkscule.DisplayName: Darkscule
+DeathSlime.DisplayName: Death Slime
+DepressedCephalopod.DisplayName: Depressed Cephalopod
+DistortionEssenceSphere.DisplayName: Distortion Essence Sphere
+DivinerValkyrie.DisplayName: Diviner Valkyrie
+Dollarbob.DisplayName: Dollarbob
+Everquartz.DisplayName: Everquartz
+EvilAnimatronic.DisplayName: Evil Animatronic
+ExoArmada.DisplayName: Exo Armada
+ExoCube.DisplayName: Exo Cube
+ExoLandmaster.DisplayName: Exo Landmaster
+ExoMine.DisplayName: Exo Mine
+ExoObelisk.DisplayName: Exo Obelisk
+ExoSentry.DisplayName: Exo Sentry
+ExoSphere.DisplayName: Exo Sphere
+Exoquartz.DisplayName: Exoquartz
+FamineSlime.DisplayName: Famine Slime
+FatBlightedEye.DisplayName: Fat Blighted Eye
+FloatingBiomass.DisplayName: Floating Biomass
+Frigidemon.DisplayName: Frigidemon
+FrostHog.DisplayName: Frost Hog
+FrostImp.DisplayName: Frost Imp
+GlacialSlime.DisplayName: Glacial Slime
+Glitch.DisplayName: Glitch
+Glowflies.DisplayName: Glowflies
+GreenDemon.DisplayName: Green Demon
+HeavenlyOgsculite.DisplayName: Heavenly Ogsculite
+KingOfConstellationsTenryu.DisplayName: King of Constellations, Tenryu
+LaRuga.DisplayName: La Ruga
+LifeSlime.DisplayName: Life Slime
+Lizard.DisplayName: Lizard
+MagnetostormShuttle.DisplayName: Magnetostorm Shuttle
+Mastaba.DisplayName: Mastaba
+MetalMaw.DisplayName: Metal Maw
+Mosquito.DisplayName: Mosquito
+MushroomElemental.DisplayName: Mushroom Elemental
+MysteriousManager.DisplayName: Mysterious Manager
+NightmareBurrower.DisplayName: Nightmare Burrower
+OgsculianBurrower.DisplayName: Ogsculian Burrower
+OnyxKinsman.DisplayName: Onyx Kinsman
+Parasea.DisplayName: Parasea
+PhantomDebris.DisplayName: Phantom Debris
+PlagueEmperor.DisplayName: Plague Emperor
+PrimalAspid.DisplayName: Primal Aspid
+PrimordialRainbowSlime.DisplayName: Primordial Rainbow Slime
+ProvincePilferer.DisplayName: Province Pilferer
+ROST.DisplayName: R.OST
+RodentTmod.DisplayName: Rodent.tmod
+SandTortoise.DisplayName: Sand Tortoise
+ShadowspecSlime.DisplayName: Shadowspec Slime
+SideMollusk.DisplayName: Side Mollusk
+SilicicSlime.DisplayName: Silicic Slime
+SpikedCrimsonSlimeSpawn.DisplayName: Spiked Crimson Slime Spawn
+StiriaticWalkie.DisplayName: Stiriatic Walkie
+SunBat.DisplayName: Sun Bat
+TallMan.DisplayName: Tall Man
+VolcanicReaperShark.DisplayName: Volcanic Reaper Shark
+WarSlime.DisplayName: War Slime
+WulfrumMine.DisplayName: Wulfrum Mine
+WulfrumPylon.DisplayName: Wulfrum Pylon
+WulfrumSlime.DisplayName: Wulfrum Slime
+YggdrasilEnt.DisplayName: Yggdrasil Ent

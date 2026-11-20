@@ -1971,10 +1971,7 @@ Items: {
 
 			DissfusionDisk: {
 				DisplayName: Dissfusion Disk
-				Tooltip:
-					'''
-					Creates two rotating chakrams around an unstable, explosive core
-					'''
+				Tooltip: Creates two rotating chakrams around an unstable, explosive core
 			}
 
 			DigitalCheeseSpear: {
@@ -2401,6 +2398,7 @@ Items: {
 		DisplayName: Metamorphic Stone
 		Tooltip: Summons an earth elemental to fight for you
 	}
+
 	Axisdriver: {
 		DisplayName: Axisdriver
 		Tooltip:
@@ -2482,6 +2480,7 @@ Items: {
 			Summons a sulphur elemental to fight for you
 			'''
 	}
+
 	ElementalSawLauncher: {
 		DisplayName: Elemental Saw Launcher
 		Tooltip:
@@ -2492,6 +2491,7 @@ Items: {
 			Pressing right click while the saw is out will call it back to you faster, causing an explosion
 			'''
 	}
+
 	SoulofPyrogen: {
 		DisplayName: Soul of Pyrogen
 		Tooltip:
@@ -2510,6 +2510,7 @@ Items: {
 		DisplayName: Hell's Bells
 		Tooltip: Summons an obsidian bell that follows the cursor
 	}
+
 	FlamingIceBow: {
 		DisplayName: Flaming Ice Bow
 		Tooltip:
@@ -2533,6 +2534,7 @@ Items: {
 			Ricochets up to 21 times off of hit enemies
 			'''
 	}
+
 	AquaticHypercomputer: {
 		DisplayName: Aquatic Hypercomputer
 		Tooltip: A hypercomputer capable of reconstructing reality.
@@ -2562,6 +2564,7 @@ Items: {
 		DisplayName: Abyssblast Laser Module
 		Tooltip: Can be placed on the Hypercomputer after the Enchanted Reconstruction Module to increase its power. Creates an aura that Evercolds your enemies
 	}
+
 	WulfrumLenses: {
 		DisplayName: Wulfrum Lenses
 		Tooltip: Highlights nearby treasure.
@@ -2576,6 +2579,7 @@ Items: {
 			[c/83B87E:Who needs whips when you can simply use a fusion cannon?]
 			'''
 	}
+
 	AcidBow: {
 		DisplayName: Acid Bow
 		Tooltip:
@@ -2592,10 +2596,7 @@ Items: {
 
 	TalonBurst: {
 		DisplayName: Talon Burst
-		Tooltip:
-			'''
-			Turns wooden arrows into Storm Bolts, which can hit the same target twice
-			'''
+		Tooltip: Turns wooden arrows into Storm Bolts, which can hit the same target twice
 	}
 
 	Titanslayer: {
@@ -2638,11 +2639,9 @@ Items: {
 
 	CalamitySword: {
 		DisplayName: Calamity Sword
-		Tooltip:
-			'''
-			Shoots a sword beam when swung, If it hits an enemy, it explodes into Sword Fragments that home in after a few seconds that deal 25% of the weapons current damage.
-			'''
+		Tooltip: Shoots a sword beam when swung, If it hits an enemy, it explodes into Sword Fragments that home in after a few seconds that deal 25% of the weapons current damage.
 	}
+
 	PoisonedSclera: {
 		DisplayName: Poisoned Sclera
 		Tooltip:
@@ -2654,10 +2653,7 @@ Items: {
 
 	AcidsighterBag: {
 		DisplayName: Treasure Bag (Acidsighter)
-		Tooltip:
-			'''
-			{$CommonItemTooltip.RightClickToOpen}
-			'''
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	PungentBomber: {
@@ -2669,6 +2665,7 @@ Items: {
 		DisplayName: Corrosive Eye Staff
 		Tooltip: Summons corroded eyes that orbit you and shoot acid shots
 	}
+
 	Arngren: {
 		DisplayName: Arngren
 		Tooltip: 80% chance to not consume ammo
@@ -2711,6 +2708,7 @@ Items: {
 			Right click to fire a helix laser that instantly breaks tiles it touches
 			'''
 	}
+
 	OnyxGunblade: {
 		DisplayName: Onyx Gunblade
 		Tooltip:
@@ -2768,6 +2766,7 @@ Items: {
 			Gourd grenades explode into a burst of spikes
 			'''
 	}
+
 	DarkEnergyStaff: {
 		DisplayName: Dark Energy Staff
 		Tooltip:
@@ -2796,6 +2795,7 @@ Items: {
 		DisplayName: Wrath of the Cosmos
 		Tooltip: Summons a galactic pulse at the cursor that periodically summon two rings of homing god slayer fireballs and occasionally two cosmic guardians
 	}
+
 	VarroaHack: {
 		DisplayName: Varroa Hack
 		Tooltip:
@@ -2834,6 +2834,7 @@ Items: {
 		DisplayName: Ghast Relic
 		Tooltip: Whenever your minions hit an enemy they have a chance to spawn a ghost that damages your enemies
 	}
+
 	YggdrasilCore: {
 		DisplayName: Yggdrasil Core
 		Tooltip:
@@ -2845,11 +2846,9 @@ Items: {
 
 	BabilDestructionCore: {
 		DisplayName: Babil Destruction Core
-		Tooltip:
-			'''
-			100% increased mining speed, 20% increased movement speed and 20% decreased damage reduction every time you take damage
-			'''
+		Tooltip: 100% increased mining speed, 20% increased movement speed and 20% decreased damage reduction every time you take damage
 	}
+
 	BlazingPowder: {
 		DisplayName: Blazing Powder
 		Tooltip: Every other ranged attack creates an astral fireball that deals damage and sets your enemies on fire.
@@ -2921,11 +2920,9 @@ Items: {
 
 	EarthDestructionCore: {
 		DisplayName: Earth Destruction Core
-		Tooltip:
-			'''
-			150% increased mining speed, 50% increased movement speed and 25% decreased damage reduction every time you take damage
-			'''
+		Tooltip: 150% increased mining speed, 50% increased movement speed and 25% decreased damage reduction every time you take damage
 	}
+
 	FractureStaff: {
 		DisplayName: Fracture Staff
 		Tooltip: Summons a fractal crawler to fight for you
@@ -2953,6 +2950,7 @@ Items: {
 		DisplayName: The First Fracturer
 		Tooltip: Shoots out beams that summon a barrage of extra beams on enemy hits
 	}
+
 	Unloxcalibur: {
 		DisplayName: Unloxcalibur
 		Tooltip: An average broadsword
@@ -3000,6 +2998,7 @@ Items: {
 			Fires a barrage of arrows and comets
 			'''
 	}
+
 	FirstCrescent: {
 		DisplayName: First Crescent
 		Tooltip: Casts a small crescent that shoots little moon fragments.
@@ -3019,19 +3018,14 @@ Items: {
 			Cannot inflict critical hits
 			Oh boy another INT katana!
 			'''
-		Death:
-			'''
-			{0} was frozen by their own river.
-			'''
+		Death: "{0} was frozen by their own river."
 	}
 
 	TheOtherside: {
 		DisplayName: The Otherside
-		Tooltip:
-			'''
-			Slashes leave behind lingering portals. The larger the portal, the higher the damage.
-			'''
+		Tooltip: Slashes leave behind lingering portals. The larger the portal, the higher the damage.
 	}
+
 	Microhavoc: {
 		DisplayName: Microhavoc
 		Tooltip:
@@ -3053,18 +3047,12 @@ Items: {
 
 	LandscapistMobiliteFragment: {
 		DisplayName: Landscapist Mobilite Fragment
-		Tooltip:
-			'''
-			Grants a dash that plagues the nearby enemies, only works if the player is touching a block and isnt touching any liquids.
-			'''
+		Tooltip: Grants a dash that plagues the nearby enemies, only works if the player is touching a block and isnt touching any liquids.
 	}
 
 	SeascapistMobiliteFragment: {
 		DisplayName: Seascapist Mobilite Fragment
-		Tooltip:
-			'''
-			Grants a dash that suffocates the nearby enemies, only works underwater.
-			'''
+		Tooltip: Grants a dash that suffocates the nearby enemies, only works underwater.
 	}
 
 	ShatterspectreTracers: {
@@ -3078,6 +3066,7 @@ Items: {
 			Spawns a fairy that shoots homing petals at enemies
 			'''
 	}
+
 	DoctrineSpear: {
 		DisplayName: Doctrine Spear
 		Tooltip: Creates 4 homing orbs that debuff your enemies
@@ -3094,10 +3083,7 @@ Items: {
 
 	NighticBlaster: {
 		DisplayName: Nightic Blaster
-		Tooltip:
-			'''
-			Makes stars fall from the sky, The stars pierce blocks at night
-			'''
+		Tooltip: Makes stars fall from the sky, The stars pierce blocks at night
 	}
 
 	CyberlightStriker: {
@@ -3113,12 +3099,10 @@ Items: {
 		DisplayName: Phantasmal Rune
 		Tooltip: Whenever your minions hit an enemy they have a chance to spawn a ghost that damages your enemies or create a fire that launches orbs that spread the fire
 	}
+
 	Coldetecht: {
 		DisplayName: Coldetecht
-		Tooltip:
-			'''
-			Enemies are fast, but the firerate is faster.
-			'''
+		Tooltip: Enemies are fast, but the firerate is faster.
 	}
 
 	Gluehunter: {
@@ -3133,10 +3117,7 @@ Items: {
 
 	ColdantFirestarter: {
 		DisplayName: Coldant Firestarter
-		Tooltip:
-			'''
-			very cold and very hot, 90% chance to not use gel. Right click to cause the flames to circle around you and give you defense
-			'''
+		Tooltip: very cold and very hot, 90% chance to not use gel. Right click to cause the flames to circle around you and give you defense
 	}
 
 	AbysscentDerailer: {
@@ -3151,10 +3132,7 @@ Items: {
 
 	Waterfrosia: {
 		DisplayName: Waterfrosia
-		Tooltip:
-			'''
-			Causes rain to fall from the sky, the rain switches gravity and goes up right before hitting the ground
-			'''
+		Tooltip: Causes rain to fall from the sky, the rain switches gravity and goes up right before hitting the ground
 	}
 
 	NocturnalOdyssey: {
@@ -3171,6 +3149,7 @@ Items: {
 			20% increase damage reduction
 			'''
 	}
+
 	Astralence: {
 		DisplayName: Astralence
 		Tooltip: fires edges at your enemies
@@ -3214,20 +3193,15 @@ Items: {
 		DisplayName: Supreme Onyx Drill
 		Tooltip: Can mine almost anything
 	}
+
 	EndentantBow: {
 		DisplayName: Endentant Bow
-		Tooltip:
-			'''
-			Once the arrow hits a target, it summons 3 more arrows behind it, that also summon 3 arrows from behind when hit the target, then again, and again...
-			'''
+		Tooltip: Once the arrow hits a target, it summons 3 more arrows behind it, that also summon 3 arrows from behind when hit the target, then again, and again...
 	}
 
 	Dethermination: {
 		DisplayName: Dethermination
-		Tooltip:
-			'''
-			shoots out an INSANELY fast waterfreezing dart, that creates slashes along the way
-			'''
+		Tooltip: shoots out an INSANELY fast waterfreezing dart, that creates slashes along the way
 	}
 
 	ClamorNoxus: {
@@ -3247,6 +3221,7 @@ Items: {
 			Deals extra damage as it returns
 			'''
 	}
+
 	Rox: {
 		DisplayName: Rox
 		Tooltip:
@@ -3293,6 +3268,7 @@ Items: {
 			Occupies 4 minion slots and there can only be one
 			'''
 	}
+
 	TwinCranes: {
 		DisplayName: Twin Cranes
 		Tooltip: Fires monochrome rays while two squares shoot round and diamond bullets
@@ -3312,6 +3288,7 @@ Items: {
 			⑨
 			'''
 	}
+
 	Phototerminator: {
 		DisplayName: Phototerminator
 		Tooltip:
@@ -3351,12 +3328,10 @@ Items: {
 			Stealth strikes cause a spray of your arrows to accelerate towards hit enemies
 			'''
 	}
+
 	QuintessenceCannon: {
 		DisplayName: Quintessence Cannon
-		Tooltip:
-			'''
-			Fires two sets of miracle beams that converge and diverge, creating explosions when fully converged
-			'''
+		Tooltip: Fires two sets of miracle beams that converge and diverge, creating explosions when fully converged
 	}
 
 	JusticeandSplendor: {
@@ -3369,6 +3344,7 @@ Items: {
 			"IS THAT THE BEST YOU'VE GOT?"
 			'''
 	}
+
 	DivineIntervention: {
 		DisplayName: Divine Intervention
 		Tooltip:
@@ -3379,6 +3355,7 @@ Items: {
 			'You're getting rusty, machine!'
 			'''
 	}
+
 	JOOZ: {
 		DisplayName: JOOZ
 		Tooltip:
@@ -3429,6 +3406,7 @@ Items: {
 
 	ActiveHealingPotion: {
 		DisplayName: Active Healing Potion
+		Tooltip: ""
 	}
 
 	CobaltSkinPotion: {
@@ -3454,10 +3432,7 @@ Items: {
 
 	NighterrialDart: {
 		DisplayName: Nighterrial Dart
-		Tooltip:
-			'''
-			Releases polterhooks, grabbing onto nearby enemies
-			'''
+		Tooltip: Releases polterhooks, grabbing onto nearby enemies
 	}
 
 	ProfanedCrystalDart: {
@@ -3480,18 +3455,12 @@ Items: {
 
 	TerrestrialDart: {
 		DisplayName: Terrestrial Dart
-		Tooltip:
-			'''
-			Stucks in enemy's skin, dealing damage and periodically releasing life energy
-			'''
+		Tooltip: Stucks in enemy's skin, dealing damage and periodically releasing life energy
 	}
 
 	VortexDart: {
 		DisplayName: Vortex Dart
-		Tooltip:
-			'''
-			Swirls around you, homing onto nearby enemies
-			'''
+		Tooltip: Swirls around you, homing onto nearby enemies
 	}
 
 	WaterfrostDart: {
@@ -3503,11 +3472,11 @@ Items: {
 			Striking an enemy causes an ice explosion to occur and icicles to be thrown at the hit enemy
 			'''
 	}
+
 	AcesLow: {
 		DisplayName: Ace's Low
 		Tooltip: Fires a string of piercing spade cards when musket balls are used as ammo.
 	}
-
 
 	SkullFracture: {
 		DisplayName: Skull Fracture
@@ -3520,14 +3489,12 @@ Items: {
 
 	SkyClearer: {
 		DisplayName: Sky Clearer
-		Tooltip:
-			'''
-			Your enemies can only pray, oh, you shot their arms off
-			'''
+		Tooltip: Your enemies can only pray, oh, you shot their arms off
 	}
 
 	Arkflammator: {
 		DisplayName: Arkflammator
+		Tooltip: ""
 	}
 
 	AngelsThesis: {
@@ -3547,14 +3514,12 @@ Items: {
 
 	GrarbleSpear: {
 		DisplayName: Grarble Spear
+		Tooltip: ""
 	}
 
 	GluelicBlade: {
 		DisplayName: Gluelic Blade
-		Tooltip:
-			'''
-			Left Click to swing, Right click to stab
-			'''
+		Tooltip: Left Click to swing, Right click to stab
 	}
 
 	Exterminator: {
@@ -3571,6 +3536,7 @@ Items: {
 			'If you live for yourself you've only got yourself to blame.'
 			'''
 	}
+
 	CalamitousVortex: {
 		DisplayName: Calamitous Vortex
 		Tooltip:
@@ -3635,11 +3601,9 @@ Items: {
 
 	Evercoldance: {
 		DisplayName: Evercoldance
-		Tooltip:
-			'''
-			Creates a Crystal that shoots beams to its closest enemies, uses all the abyssal powers.
-			'''
+		Tooltip: Creates a Crystal that shoots beams to its closest enemies, uses all the abyssal powers.
 	}
+
 	Meridian: {
 		DisplayName: Meridian
 		Tooltip:
@@ -3690,10 +3654,7 @@ Items: {
 
 	OverloadedCombatantBlaster: {
 		DisplayName: Overloaded Combatant Blaster
-		Tooltip:
-			'''
-			What, they think they can escape?.
-			'''
+		Tooltip: What, they think they can escape?.
 	}
 
 	RevolvinMcCoy: {
@@ -3731,6 +3692,7 @@ Items: {
 		DisplayName: Shading Manual
 		Tooltip: creates an orb that circles around you and shoots beams at your enemies
 	}
+
 	FathomlessSoulArtifact: {
 		DisplayName: Fathomless Soul Artifact
 		Tooltip:
@@ -3758,10 +3720,7 @@ Items: {
 
 	NightCloak: {
 		DisplayName: Night Cloak
-		Tooltip:
-			'''
-			triple max hp and mana, immunity to umbrus fumes and holy flames, all attacks deal double the damage. If any Elemental is alive, The player gets the Obstructed Debuff, but all the attacks inflict Holy flames and deal quadruple the damage
-			'''
+		Tooltip: triple max hp and mana, immunity to umbrus fumes and holy flames, all attacks deal double the damage. If any Elemental is alive, The player gets the Obstructed Debuff, but all the attacks inflict Holy flames and deal quadruple the damage
 	}
 
 	ExoticBeacon: {
@@ -3795,6 +3754,7 @@ Items: {
 			[c/3c1d59:'Until the world is shrouded in sweet dreams... The festival must go on.']
 			'''
 	}
+
 	Braxaxe: {
 		DisplayName: Braxaxe
 		Tooltip:
@@ -3815,14 +3775,17 @@ Items: {
 
 	GrarbleObliterator: {
 		DisplayName: Grarble Obliterator
+		Tooltip: ""
 	}
 
 	TwistedNetheriteAxe: {
 		DisplayName: Twisted Netherite Axe
+		Tooltip: ""
 	}
 
 	TwistedNetheritePickaxe: {
 		DisplayName: Twisted Netherite Pickaxe
+		Tooltip: ""
 	}
 
 	TwistedNetheriteShovel: {
@@ -3837,7 +3800,9 @@ Items: {
 
 	SupremeStrangeBrew: {
 		DisplayName: Supreme Strange Brew
+		Tooltip: ""
 	}
+
 	BronzeSmelter: {
 		DisplayName: Bronze Smelter
 		Tooltip: Used for special crafting
@@ -3852,6 +3817,7 @@ Items: {
 		DisplayName: Advanced Void Condenser
 		Tooltip: Used for special crafting
 	}
+
 	TitanTides: {
 		DisplayName: Titan Tides
 		Tooltip:
@@ -3876,14 +3842,12 @@ Items: {
 
 	TheOnesStriker: {
 		DisplayName: The Ones Striker
-		Tooltip:
-			'''
-			Shoots chains of coins, able to shoot coins that normal coin guns can't
-			'''
+		Tooltip: Shoots chains of coins, able to shoot coins that normal coin guns can't
 	}
 
 	CosmiliteCoin: {
 		DisplayName: Cosmilite Coin
+		Tooltip: ""
 	}
 
 	EssericSkinPotion: {
@@ -3893,20 +3857,24 @@ Items: {
 
 	LunarFlah: {
 		DisplayName: Lunar Flah
+		Tooltip: ""
 	}
 
 	MergeFlah: {
 		DisplayName: Merge Flah
+		Tooltip: ""
 	}
 
 	UnchargedFlahium: {
 		DisplayName: Uncharged Flahium
+		Tooltip: ""
 	}
 
 	SoulContainer: {
 		DisplayName: Soul Container
 		Tooltip: Used to store an elemental's soul. Can also be used to transfer the souls to other worlds.
 	}
+
 	BatflyBait: {
 		DisplayName: Batfly Bait
 		Tooltip:
@@ -3934,12 +3902,10 @@ Items: {
 			Not consumable
 			'''
 	}
+
 	HSTrident: {
 		DisplayName: H.S Trident
-		Tooltip:
-			'''
-			"Split the sea in two with your hand"
-			'''
+		Tooltip: '''"Split the sea in two with your hand"'''
 	}
 
 	XBHekate: {
@@ -3989,11 +3955,9 @@ Items: {
 
 	ConsequencesofPower: {
 		DisplayName: Consequences of Power
-		Tooltip:
-			'''
-			"Blaze. May Xeroc have mercy"
-			'''
+		Tooltip: '''"Blaze. May Xeroc have mercy"'''
 	}
+
 	WulfrumHeadMelee: {
 		DisplayName: Wulfrum Helm
 		Tooltip: 10% increased melee damage
@@ -4028,60 +3992,40 @@ Items: {
 		DisplayName: Wulfrum Leggings
 		Tooltip: Movement speed increased by 5%
 	}
+
 	TwistedNetheriteHelmet: {
 		DisplayName: Twisted Netherite Helmet
-		Tooltip:
-			'''
-			50% increased damage, 12.5% increased damage reduction
-			'''
+		Tooltip: 50% increased damage, 12.5% increased damage reduction
 	}
 
 	TwistedNetheriteChestplate: {
 		DisplayName: Twisted Netherite Chestplate
-		Tooltip:
-			'''
-			50% increased damage, 12.5% increased damage reduction
-			'''
+		Tooltip: 50% increased damage, 12.5% increased damage reduction
 	}
 
 	TwistedNetheriteLeggings: {
 		DisplayName: Twisted Netherite Leggings
-		Tooltip:
-			'''
-			50% increased damage, 12.5% increased damage reduction
-			'''
+		Tooltip: 50% increased damage, 12.5% increased damage reduction
 	}
 
 	TwistedNetheriteBoots: {
 		DisplayName: Twisted Netherite Boots
-		Tooltip:
-			'''
-			50% increased damage, 12.5% increased damage reduction, 2% increased movement speed
-			'''
+		Tooltip: 50% increased damage, 12.5% increased damage reduction, 2% increased movement speed
 	}
 
 	ElderstoneHeadplate: {
 		DisplayName: Elderstone Headplate
-		Tooltip:
-			'''
-			60% increased damage, 40% decreased movement speed.
-			'''
+		Tooltip: 60% increased damage, 40% decreased movement speed.
 	}
 
 	ElderstoneChestplate: {
 		DisplayName: Elderstone Chestplate
-		Tooltip:
-			'''
-			20% increased damage, 40% decreased movement speed, Knockback immunity.
-			'''
+		Tooltip: 20% increased damage, 40% decreased movement speed, Knockback immunity.
 	}
 
 	ElderstoneLegplate: {
 		DisplayName: Elderstone Legplate
-		Tooltip:
-			'''
-			20% increased damage, 30% increased movement speed.
-			'''
+		Tooltip: 20% increased damage, 30% increased movement speed.
 	}
 
 	FrozenVisor: {
@@ -4115,37 +4059,101 @@ Items: {
 
 	ArchangelHelm: {
 		DisplayName: Archangel Helm
+		Tooltip: ""
 	}
 
 	ArchangelChestplate: {
 		DisplayName: Archangel Chestplate
+		Tooltip: ""
 	}
 
 	ArchangelGreaves: {
 		DisplayName: Archangel Greaves
+		Tooltip: ""
 	}
 
 	CatarachedraeHeadset: {
 		DisplayName: Catarachedrae Headset
-		Tooltip:
-			'''
-			they say all teenagers scare the living [_] out of me
-			'''
+		Tooltip: they say all teenagers scare the living [_] out of me
 	}
 
 	CatarachedraeDress: {
 		DisplayName: Catarachedrae Dress
-		Tooltip:
-			'''
-			they say all teenagers scare the living [_] out of me
-			'''
+		Tooltip: they say all teenagers scare the living [_] out of me
 	}
 
 	CatarachedraeBoots: {
 		DisplayName: Catarachedrae Boots
+		Tooltip: they say all teenagers scare the living [_] out of me
+	}
+	Jake: {
+		DisplayName: Jake
+		Tooltip: Your friendly companion
+	}
+
+	RGBGraydron: {
+		DisplayName: RGB Graydron
+		Tooltip: I spent three thousand dollars.
+	}
+
+	TotalityTides: {
+		DisplayName: Totality Tides
 		Tooltip:
 			'''
-			they say all teenagers scare the living [_] out of me
+			Inundatio ex Terminus
+			Summons a ball of exo energy on your cursor that sprays out a large amount of projectiles relative to your position
+			'''
+	}
+
+	Bazooka: {
+		DisplayName: Bazooka
+		Tooltip:
+			'''
+			Uses Grenade Shells
+			Can be used twice per boss battle
+			'''
+	}
+
+	Ogscule: {
+		DisplayName: Ogscule
+		Tooltip: Channels to summon ogsculian rays in random directions
+	}
+
+	GrenadeShells: {
+		DisplayName: Grenade Shells
+		Tooltip: Used by the Bazooka
+	}
+
+	Ghoststreaker: {
+		DisplayName: Ghoststreaker
+		Tooltip: creates 4 lines and fires very fast bullets on them
+	}
+
+	WisdomofSurvival: {
+		DisplayName: Wisdom of Survival
+		Tooltip: Casts a slow orb of water that splits into seeking droplets
+	}
+
+	TerreyeStaff: {
+		DisplayName: Terreye Staff
+		Tooltip:
+			'''
+			Takes up 4 minion slots to summon a trio of floating biomasses to shoot at and ram at enemies
+			Hold right click on an enemy to channel a sigil on them
+			Once the sigil reaches full size, the trio rapidly converge on it, dealing massive damage and spawning healing life hearts
+			Only one set of eyes can exist
+			'''
+	}
+
+	TheDreamingGhost: {
+		DisplayName: The Dreaming Ghost
+		Tooltip:
+			'''
+			Beneath the tree's roots lies the pain of a thousand souls
+			Summons a pair of crystalline butterflies to fight for you
+			Each pair takes up 4 minion slots
+			Each active purple butterfly increases your damage by 10%
+			Each active pink butterfly increases your life regeneration by 2
 			'''
 	}
 }
@@ -4420,1282 +4428,429 @@ Projectiles: {
 	GalileoGladiusHeldProj.DisplayName: Galileo Gladius
 	ShortflurryBeam.DisplayName: Shortflurry Beam
 	ChessTable.DisplayName: Chess Table
-	CapsuleProj: {
-		DisplayName: Creature Capsule
-	}
-
-	CapsuleGhost: {
-		DisplayName: Capsule Ghost
-	}
-
-	GuardiansWrathSpear: {
-		DisplayName: Guardians Wrath
-	}
-
-	GuardiansTrident: {
-		DisplayName: Guardians Wrath
-	}
-
-	GuardiansLightning: {
-		DisplayName: Lightning
-	}
-
-	HailberdProjectile: {
-		DisplayName: Hailberd
-	}
-
-	RollingPizza: {
-		DisplayName: Pizza
-	}
-
-	OperatorPage: {
-		DisplayName: Sign of the Operator
-	}
-
-	OperatorTendril: {
-		DisplayName: Operator Tendril
-	}
-
-	EarthElementalMinion: {
-		DisplayName: Earth Elemental
-	}
-
-	ElementalArmSwing: {
-		DisplayName: Earth Elemental
-	}
-	ExoBullet: {
-		DisplayName: Exo Bullet
-	}
-
-	ExoBlast: {
-		DisplayName: Exo Bullet Explosion
-	}
-
-	ExoElementalBolt: {
-		DisplayName: Elemental Bolt
-	}
-
-	ObsidianBullet: {
-		DisplayName: Obsidian Bullet
-	}
-
-	ObsidianShardProj: {
-		DisplayName: Obsidian Shard
-	}
-
-	MoltenPiercerThrown: {
-		DisplayName: Molten Piercer
-	}
-
-	CrownedSigil: {
-		DisplayName: Crowned Sigil
-	}
-
-	WorstPrismHoldout: {
-		DisplayName: Worst Prism
-	}
-
-	WorstPrismBeam: {
-		DisplayName: Worst Prism
-	}
-
-	SDOMGRay: {
-		DisplayName: SDOMG Deathray
-	}
-
-	DarkEnergyOrb: {
-		DisplayName: Dark Energy Orb
-	}
-
-	VoidHole: {
-		DisplayName: Spacetime Rip
-	}
-
-	SupermassiveBlackHole: {
-		DisplayName: Supermassive Black Hole
-	}
-
-	RGBMeteor: {
-		DisplayName: RGB Meteor
-	}
-
-	ColorMeteor: {
-		DisplayName: Meteor
-	}
-
-	GarthBlast: {
-		DisplayName: Meteor Explosion
-	}
-
-	GarthHealOrb: {
-		DisplayName: Healing Orb
-	}
-
-	SulphurElementalMinion: {
-		DisplayName: Sulphur Elemental
-	}
-
-	SulphuricRaincloud: {
-		DisplayName: Sulphuric Raincloud
-	}
-
-	SulphuricDrop: {
-		DisplayName: Sulphuric Rain
-	}
-	ElementalSaw: {
-		DisplayName: Elemental Saw
-	}
-
-	ElementalSawBlast: {
-		DisplayName: Rainbow Blast
-	}
-	PyrogenShard: {
-		DisplayName: Obsidian Shard
-	}
-
-	PyrogenFallingShard: {
-		DisplayName: Obsidian Shard
-	}
-
-	MagmaBlast: {
-		DisplayName: Magma Blast
-	}
-
-	PyrogenShieldPiece: {
-		DisplayName: Obsidian Shield
-	}
-
-	PyrogenOrbitPiece: {
-		DisplayName: Obsidian Shield
-	}
-
-	ObsidianCluster: {
-		DisplayName: Obsidian Cluster
-	}
-
-	Pyrospear: {
-		DisplayName: Pyrospear
-	}
-
-	FlameScythe: {
-		DisplayName: Flame Scythe
-	}
-
-	ObsidianBell: {
-		DisplayName: Obsidian Bell
-	}
-
-	BellChime: {
-		DisplayName: Chime
-	}
-	CoalBucket: {
-		DisplayName: Bucket of Coal
-	}
-
-	CoalChunk: {
-		DisplayName: Coal
-	}
-
-	CoalBlast: {
-		DisplayName: Coal Explosion
-	}
-
-	FracturingFistProj: {
-		DisplayName: Fracturing Fist
-	}
-
-	FistBlast: {
-		DisplayName: Fist Explosion
-	}
-
-	FistHalf: {
-		DisplayName: Fractured Fist
-	}
-
-	PetriDish: {
-		DisplayName: Petri Dish
-	}
-
-	NanobotCloud: {
-		DisplayName: Plague Nanobots
-	}
-
-	GlassShard: {
-		DisplayName: Glass Shards
-	}
-
-	HornetRoundBullet: {
-		DisplayName: 22 Hornet Round
-	}
-	HypercomputerLaser: {
-		DisplayName: Hypercomputer Laser
-	}
-	ExcavatorLaser: {
-		DisplayName: Wulfrum Laser
-	}
-
-	FusionBolt: {
-		DisplayName: Fusion Bolt
-	}
-	SulphuricArrow: {
-		DisplayName: Sulphuric Arrow
-	}
-
-	StormBolt: {
-		DisplayName: Storm Bolt
-	}
-
-	SpectralBolt: {
-		DisplayName: Spectral Bolt
-	}
-
-	InfectedOrb: {
-		DisplayName: Infected Orb
-	}
-
-	SteelShard: {
-		DisplayName: Steel
-	}
-
-	CalamitySwordBeam: {
-		DisplayName: Calamity Sword
-	}
-
-	CalamitySwordFragment: {
-		DisplayName: Sword Fragment
-	}
-
-	SteelKunaiProj: {
-		DisplayName: Steel Kunai
-	}
-	AcidBomb: {
-		DisplayName: Acid Bomb
-	}
-
-	AcidShot: {
-		DisplayName: Acid Shot
-	}
-
-	TeethBomb: {
-		DisplayName: Teeth Bomb
-	}
-
-	HomingTooth: {
-		DisplayName: Homing Tooth
-	}
-
-	MutatedCluster: {
-		DisplayName: Mutated Cluster
-	}
-
-	AcidVenomBreath: {
-		DisplayName: Acid Venom
-	}
-
-	FriendlyAcidBomb: {
-		DisplayName: Acid Bomb
-	}
-
-	FriendlyAcidShot: {
-		DisplayName: Acid Shot
-	}
-
-	CorrosiveEye: {
-		DisplayName: Corrosive Eye
-	}
-
-	RazorTooth: {
-		DisplayName: Razor Teeth
-	}
-	AcidStream: {
-		DisplayName: Acid Stream
-	}
-
-	HardSunlight: {
-		DisplayName: Hard Sunlight
-	}
-
-	SunskaterProj: {
-		DisplayName: Sunskater
-	}
-
-	CinderShard: {
-		DisplayName: Cinder Shard
-	}
-
-	CakeArrow: {
-		DisplayName: Cake
-	}
-
-	FrostingGlob: {
-		DisplayName: Frosting
-	}
-
-	HelixOrb: {
-		DisplayName: Helix Orb
-	}
-
-	IchorDaggerProj: {
-		DisplayName: Ichor Dagger
-	}
-
-	HeavenPiercerDrill: {
-		DisplayName: Heaven Piercer
-	}
-
-	HelixLaser: {
-		DisplayName: Helix Laser
-	}
-	OnyxBolt: {
-		DisplayName: Onyx Bolt
-	}
-
-	BoltBall: {
-		DisplayName: Bolt
-	}
-
-	RoseArrow: {
-		DisplayName: Energy Arrow
-	}
-
-	RoseSlash: {
-		DisplayName: Slash
-	}
-
-	WhitePumpkin: {
-		DisplayName: White Pumpkin
-	}
-
-	PumpkinBlast: {
-		DisplayName: Pumpkin Explosion
-	}
-
-	PumpkinMist: {
-		DisplayName: White Mist
-	}
-
-	GourdlerHoldout: {
-		DisplayName: Gourdler
-	}
-
-	GourdGrenade: {
-		DisplayName: Gourd Grenade
-	}
-
-	CelestialNukeProj: {
-		DisplayName: Celestial Nuke
-	}
-
-	StarlitAura: {
-		DisplayName: Starlit Aura
-	}
-
-	GodSlayerEmber: {
-		DisplayName: God Slayer Ember
-	}
-
-	CelestialBolt: {
-		DisplayName: Celestial Bolt
-	}
-	DarkEnergyTurret: {
-		DisplayName: Dark Energy Turret
-	}
-
-	DarkMatterBolt: {
-		DisplayName: Dark Matter
-	}
-
-	OnyxFist: {
-		DisplayName: Onyx Fist
-	}
-
-	ProfanedRock: {
-		DisplayName: Profaned Rock
-	}
-
-	ProfanedBlast: {
-		DisplayName: Profaned Explosion
-	}
-
-	ProfanedCrystal: {
-		DisplayName: Profaned Crystal
-	}
-
-	MagmaPatch: {
-		DisplayName: Magma
-	}
-
-	VoidFlask: {
-		DisplayName: Void Flask
-	}
-
-	SingularityHole: {
-		DisplayName: Black Hole
-	}
-
-	VoidShard: {
-		DisplayName: Void Shard
-	}
-
-	VoidMatter: {
-		DisplayName: Void Matter
-	}
-
-	WrathPulse: {
-		DisplayName: Galactic Pulse
-	}
-
-	WrathSpirit: {
-		DisplayName: Spirit
-	}
-	LightningBolt: {
-		DisplayName: Lightning Barrage
-	}
-
-	LightningShot: {
-		DisplayName: Lightning Shot
-	}
-
-	ElectricStreak: {
-		DisplayName: Electric Streak
-	}
-
-	SandTornado: {
-		DisplayName: Tornado
-	}
-	InfectedDagger: {
-		DisplayName: Infected Dagger
-	}
-
-	CursedSpearProj: {
-		DisplayName: Cursed Spear
-	}
-
-	VarroaHackProj: {
-		DisplayName: Varroa Hack
-	}
-
-	ClickHit: {
-		DisplayName: Click
-	}
-
-	CurvingFireball: {
-		DisplayName: Holy Fireball
-	}
-
-	HolyBarrageFlame: {
-		DisplayName: Holy Flame
-	}
-
-	RelicGhast: {
-		DisplayName: Ghast
-	}
-	LibertySpear: {
-		DisplayName: Spear of Liberty
-	}
-	AstralFireball: {
-		DisplayName: Astral Fireball
-	}
-
-	GraniteSphere: {
-		DisplayName: Granite Energy
-	}
-
-	MadnessPortal: {
-		DisplayName: Brimstone Portal
-	}
-
-	CircuitAura: {
-		DisplayName: Mech Aura
-	}
-	FractalCrawler: {
-		DisplayName: Fractal Crawler
-	}
-
-	FractalCrystal: {
-		DisplayName: Fractal Crystal
-	}
-
-	HolyMackerel: {
-		DisplayName: Holy Mackerel
-	}
-
-	FallenHuman: {
-		DisplayName: Fallen Human
-	}
-
-	KrisKnife: {
-		DisplayName: Knife
-	}
-
-	FractureBeam: {
-		DisplayName: Fracture Beam
-	}
-	GammaRayYoyo: {
-		DisplayName: Gamma Ray Burst
-	}
-
-	DarkPumpkin: {
-		DisplayName: Dark Pumpkin
-	}
-
-	PumpkinChunk: {
-		DisplayName: Pumpkin Chunk
-	}
-
-	CelestialStormShot: {
-		DisplayName: Celestial Storm
-	}
-
-	CelestialBlade: {
-		DisplayName: Celestial Blade
-	}
-
-	CriusLaser: {
-		DisplayName: Laser
-	}
-
-	CriusCharge: {
-		DisplayName: Charge
-	}
-
-	CriusBigLaser: {
-		DisplayName: Red Laser
-	}
-
-	Bolide: {
-		DisplayName: Bolide
-	}
-
-	GalacticaComet: {
-		DisplayName: Galactica Comet
-	}
-	LittleCrescent: {
-		DisplayName: Crescent
-	}
-
-	MoonFragment: {
-		DisplayName: Moon Fragment
-	}
-
-	RiversFrostBlade: {
-		DisplayName: Frost Blade
-	}
-
-	RealityTear: {
-		DisplayName: Tear in Reality
-	}
-
-	LumenousMine: {
-		DisplayName: Lumenous Mine
-	}
-
-	LumenousAura: {
-		DisplayName: Lightning Aura
-	}
-
-	LumenylShard: {
-		DisplayName: Lumenyl Shard
-	}
-
-	Flarenado: {
-		DisplayName: Flarenado
-	}
-	BrimstoneBeam: {
-		DisplayName: Brimstone Flames
-	}
-
-	CoinBurst: {
-		DisplayName: Coin Explosion
-	}
-
-	CoinCrystal: {
-		DisplayName: Crystal Shard
-	}
-
-	MobiliteTrail: {
-		DisplayName: Mobilite Trail
-	}
-
-	SpectreFairy: {
-		DisplayName: Fairy
-	}
-
-	FairyPetal: {
-		DisplayName: Petal
-	}
-	DoctrineSpearProj: {
-		DisplayName: Doctrine Spear
-	}
-
-	DoctrineOrb: {
-		DisplayName: Doctrine Orb
-	}
-
-	ChemicircleYoyo: {
-		DisplayName: Chemicircle
-	}
-
-	CarcinogenicGas: {
-		DisplayName: Carcinogenic Gas
-	}
-
-	NighticStar: {
-		DisplayName: Nightic Star
-	}
-
-	CyberlightDart: {
-		DisplayName: Cyberlight Dart
-	}
-
-	CyberBullet: {
-		DisplayName: Cyber Bullet
-	}
-
-	Bullseye: {
-		DisplayName: Bullseye
-	}
-
-	HomingCyberDart: {
-		DisplayName: Homing Dart
-	}
-
-	PhantasmalFireOrb: {
-		DisplayName: Phantasmal Fire
-	}
-	HavocBeam: {
-		DisplayName: Abyssal and Holy Flames
-	}
-
-	ColdantFlame: {
-		DisplayName: Cold Flame
-	}
-
-	DerailerBomb: {
-		DisplayName: Abysscent Bomb
-	}
-
-	AbyssStar: {
-		DisplayName: Abyss Star
-	}
-
-	LacelicWeb: {
-		DisplayName: Lacelic Web
-	}
-
-	FrosiaRain: {
-		DisplayName: Frosia Rain
-	}
-
-	OdysseyOrb: {
-		DisplayName: Nocturnal Orb
-	}
-
-	OdysseyBlast: {
-		DisplayName: Nocturnal Explosion
-	}
-	AstralEdge: {
-		DisplayName: Astral Edge
-	}
-
-	MagnicYoyo: {
-		DisplayName: Magnic Circularity
-	}
-
-	OrbitingFlame: {
-		DisplayName: Yellow Flame
-	}
-
-	ElectricArc: {
-		DisplayName: Electric Arc
-	}
-
-	SupremeDrillProj: {
-		DisplayName: Supreme Onyx Drill
-	}
-	CheeseSpear: {
-		DisplayName: Digital Cheese Spear
-	}
-
-	MiniCheeseSpear: {
-		DisplayName: Mini Spear
-	}
-
-	ExoDagger: {
-		DisplayName: Exo Dagger
-	}
-
-	EndentantArrow: {
-		DisplayName: Endentant Arrow
-	}
-
-	WaterfreezeDart: {
-		DisplayName: Waterfreeze Dart
-	}
-
-	WaterfreezeSlash: {
-		DisplayName: Slash
-	}
-
-	NoxStar: {
-		DisplayName: Star
-	}
-
-	NoxBlast: {
+	CapsuleProj.DisplayName: Creature Capsule
+	CapsuleGhost.DisplayName: Capsule Ghost
+	GuardiansWrathSpear.DisplayName: Guardians Wrath
+	GuardiansTrident.DisplayName: Guardians Wrath
+	GuardiansLightning.DisplayName: Lightning
+	HailberdProjectile.DisplayName: Hailberd
+	RollingPizza.DisplayName: Pizza
+	OperatorPage.DisplayName: Sign of the Operator
+	OperatorTendril.DisplayName: Operator Tendril
+	EarthElementalMinion.DisplayName: Earth Elemental
+	ElementalArmSwing.DisplayName: Earth Elemental
+	ExoBullet.DisplayName: Exo Bullet
+	ExoBlast.DisplayName: Exo Bullet Explosion
+	ExoElementalBolt.DisplayName: Elemental Bolt
+	ObsidianBullet.DisplayName: Obsidian Bullet
+	ObsidianShardProj.DisplayName: Obsidian Shard
+	MoltenPiercerThrown.DisplayName: Molten Piercer
+	CrownedSigil.DisplayName: Crowned Sigil
+	WorstPrismHoldout.DisplayName: Worst Prism
+	WorstPrismBeam.DisplayName: Worst Prism
+	SDOMGRay.DisplayName: SDOMG Deathray
+	DarkEnergyOrb.DisplayName: Dark Energy Orb
+	VoidHole.DisplayName: Spacetime Rip
+	SupermassiveBlackHole.DisplayName: Supermassive Black Hole
+	RGBMeteor.DisplayName: RGB Meteor
+	ColorMeteor.DisplayName: Meteor
+	GarthBlast.DisplayName: Meteor Explosion
+	GarthHealOrb.DisplayName: Healing Orb
+	SulphurElementalMinion.DisplayName: Sulphur Elemental
+	SulphuricRaincloud.DisplayName: Sulphuric Raincloud
+	SulphuricDrop.DisplayName: Sulphuric Rain
+	ElementalSaw.DisplayName: Elemental Saw
+	ElementalSawBlast.DisplayName: Rainbow Blast
+	PyrogenShard.DisplayName: Obsidian Shard
+	PyrogenFallingShard.DisplayName: Obsidian Shard
+	MagmaBlast.DisplayName: Magma Blast
+	PyrogenShieldPiece.DisplayName: Obsidian Shield
+	PyrogenOrbitPiece.DisplayName: Obsidian Shield
+	ObsidianCluster.DisplayName: Obsidian Cluster
+	Pyrospear.DisplayName: Pyrospear
+	FlameScythe.DisplayName: Flame Scythe
+	ObsidianBell.DisplayName: Obsidian Bell
+	BellChime.DisplayName: Chime
+	CoalBucket.DisplayName: Bucket of Coal
+	CoalChunk.DisplayName: Coal
+	CoalBlast.DisplayName: Coal Explosion
+	FracturingFistProj.DisplayName: Fracturing Fist
+	FistBlast.DisplayName: Fist Explosion
+	FistHalf.DisplayName: Fractured Fist
+	PetriDish.DisplayName: Petri Dish
+	NanobotCloud.DisplayName: Plague Nanobots
+	GlassShard.DisplayName: Glass Shards
+	HornetRoundBullet.DisplayName: 22 Hornet Round
+	HypercomputerLaser.DisplayName: Hypercomputer Laser
+	ExcavatorLaser.DisplayName: Wulfrum Laser
+	FusionBolt.DisplayName: Fusion Bolt
+	SulphuricArrow.DisplayName: Sulphuric Arrow
+	StormBolt.DisplayName: Storm Bolt
+	SpectralBolt.DisplayName: Spectral Bolt
+	InfectedOrb.DisplayName: Infected Orb
+	SteelShard.DisplayName: Steel
+	CalamitySwordBeam.DisplayName: Calamity Sword
+	CalamitySwordFragment.DisplayName: Sword Fragment
+	SteelKunaiProj.DisplayName: Steel Kunai
+	AcidBomb.DisplayName: Acid Bomb
+	AcidShot.DisplayName: Acid Shot
+	TeethBomb.DisplayName: Teeth Bomb
+	HomingTooth.DisplayName: Homing Tooth
+	MutatedCluster.DisplayName: Mutated Cluster
+	AcidVenomBreath.DisplayName: Acid Venom
+	FriendlyAcidBomb.DisplayName: Acid Bomb
+	FriendlyAcidShot.DisplayName: Acid Shot
+	CorrosiveEye.DisplayName: Corrosive Eye
+	RazorTooth.DisplayName: Razor Teeth
+	AcidStream.DisplayName: Acid Stream
+	HardSunlight.DisplayName: Hard Sunlight
+	SunskaterProj.DisplayName: Sunskater
+	CinderShard.DisplayName: Cinder Shard
+	CakeArrow.DisplayName: Cake
+	FrostingGlob.DisplayName: Frosting
+	HelixOrb.DisplayName: Helix Orb
+	IchorDaggerProj.DisplayName: Ichor Dagger
+	HeavenPiercerDrill.DisplayName: Heaven Piercer
+	HelixLaser.DisplayName: Helix Laser
+	OnyxBolt.DisplayName: Onyx Bolt
+	BoltBall.DisplayName: Bolt
+	RoseArrow.DisplayName: Energy Arrow
+	RoseSlash.DisplayName: Slash
+	WhitePumpkin.DisplayName: White Pumpkin
+	PumpkinBlast.DisplayName: Pumpkin Explosion
+	PumpkinMist.DisplayName: White Mist
+	GourdlerHoldout.DisplayName: Gourdler
+	GourdGrenade.DisplayName: Gourd Grenade
+	CelestialNukeProj.DisplayName: Celestial Nuke
+	StarlitAura.DisplayName: Starlit Aura
+	GodSlayerEmber.DisplayName: God Slayer Ember
+	CelestialBolt.DisplayName: Celestial Bolt
+	DarkEnergyTurret.DisplayName: Dark Energy Turret
+	DarkMatterBolt.DisplayName: Dark Matter
+	OnyxFist.DisplayName: Onyx Fist
+	ProfanedRock.DisplayName: Profaned Rock
+	ProfanedBlast.DisplayName: Profaned Explosion
+	ProfanedCrystal.DisplayName: Profaned Crystal
+	MagmaPatch.DisplayName: Magma
+	VoidFlask.DisplayName: Void Flask
+	SingularityHole.DisplayName: Black Hole
+	VoidShard.DisplayName: Void Shard
+	VoidMatter.DisplayName: Void Matter
+	WrathPulse.DisplayName: Galactic Pulse
+	WrathSpirit.DisplayName: Spirit
+	LightningBolt.DisplayName: Lightning Barrage
+	LightningShot.DisplayName: Lightning Shot
+	ElectricStreak.DisplayName: Electric Streak
+	SandTornado.DisplayName: Tornado
+	InfectedDagger.DisplayName: Infected Dagger
+	CursedSpearProj.DisplayName: Cursed Spear
+	VarroaHackProj.DisplayName: Varroa Hack
+	ClickHit.DisplayName: Click
+	CurvingFireball.DisplayName: Holy Fireball
+	HolyBarrageFlame.DisplayName: Holy Flame
+	RelicGhast.DisplayName: Ghast
+	LibertySpear.DisplayName: Spear of Liberty
+	AstralFireball.DisplayName: Astral Fireball
+	GraniteSphere.DisplayName: Granite Energy
+	MadnessPortal.DisplayName: Brimstone Portal
+	CircuitAura.DisplayName: Mech Aura
+	FractalCrawler.DisplayName: Fractal Crawler
+	FractalCrystal.DisplayName: Fractal Crystal
+	HolyMackerel.DisplayName: Holy Mackerel
+	FallenHuman.DisplayName: Fallen Human
+	KrisKnife.DisplayName: Knife
+	FractureBeam.DisplayName: Fracture Beam
+	GammaRayYoyo.DisplayName: Gamma Ray Burst
+	DarkPumpkin.DisplayName: Dark Pumpkin
+	PumpkinChunk.DisplayName: Pumpkin Chunk
+	CelestialStormShot.DisplayName: Celestial Storm
+	CelestialBlade.DisplayName: Celestial Blade
+	CriusLaser.DisplayName: Laser
+	CriusCharge.DisplayName: Charge
+	CriusBigLaser.DisplayName: Red Laser
+	Bolide.DisplayName: Bolide
+	GalacticaComet.DisplayName: Galactica Comet
+	LittleCrescent.DisplayName: Crescent
+	MoonFragment.DisplayName: Moon Fragment
+	RiversFrostBlade.DisplayName: Frost Blade
+	RealityTear.DisplayName: Tear in Reality
+	LumenousMine.DisplayName: Lumenous Mine
+	LumenousAura.DisplayName: Lightning Aura
+	LumenylShard.DisplayName: Lumenyl Shard
+	Flarenado.DisplayName: Flarenado
+	BrimstoneBeam.DisplayName: Brimstone Flames
+	CoinBurst.DisplayName: Coin Explosion
+	CoinCrystal.DisplayName: Crystal Shard
+	MobiliteTrail.DisplayName: Mobilite Trail
+	SpectreFairy.DisplayName: Fairy
+	FairyPetal.DisplayName: Petal
+	DoctrineSpearProj.DisplayName: Doctrine Spear
+	DoctrineOrb.DisplayName: Doctrine Orb
+	ChemicircleYoyo.DisplayName: Chemicircle
+	CarcinogenicGas.DisplayName: Carcinogenic Gas
+	NighticStar.DisplayName: Nightic Star
+	CyberlightDart.DisplayName: Cyberlight Dart
+	CyberBullet.DisplayName: Cyber Bullet
+	Bullseye.DisplayName: Bullseye
+	HomingCyberDart.DisplayName: Homing Dart
+	PhantasmalFireOrb.DisplayName: Phantasmal Fire
+	HavocBeam.DisplayName: Abyssal and Holy Flames
+	ColdantFlame.DisplayName: Cold Flame
+	DerailerBomb.DisplayName: Abysscent Bomb
+	AbyssStar.DisplayName: Abyss Star
+	LacelicWeb.DisplayName: Lacelic Web
+	FrosiaRain.DisplayName: Frosia Rain
+	OdysseyOrb.DisplayName: Nocturnal Orb
+	OdysseyBlast.DisplayName: Nocturnal Explosion
+	AstralEdge.DisplayName: Astral Edge
+	MagnicYoyo.DisplayName: Magnic Circularity
+	OrbitingFlame.DisplayName: Yellow Flame
+	ElectricArc.DisplayName: Electric Arc
+	SupremeDrillProj.DisplayName: Supreme Onyx Drill
+	CheeseSpear.DisplayName: Digital Cheese Spear
+	MiniCheeseSpear.DisplayName: Mini Spear
+	ExoDagger.DisplayName: Exo Dagger
+	EndentantArrow.DisplayName: Endentant Arrow
+	WaterfreezeDart.DisplayName: Waterfreeze Dart
+	WaterfreezeSlash.DisplayName: Slash
+	NoxStar.DisplayName: Star
+	NoxBlast.DisplayName: Explosion
+	Noxling.DisplayName: Noxling
+	LunaticDisc.DisplayName: Lunatic Beats
+	RoxShard.DisplayName: Rock Shard
+	ArchalisSlash.DisplayName: Slash
+	Caracal.DisplayName: Caracal
+	TenebrisBaton.DisplayName: Tenebris Tides
+	TenebrisSpear.DisplayName: Tenebris Spear
+	RibbonBullet.DisplayName: Golden Bullet
+	Ribbon.DisplayName: Ribbon
+	MiniGuntera.DisplayName: Mini Guntera
+	CraneRay.DisplayName: Monochrome Ray
+	CraneBullet.DisplayName: Bullet
+	CreamPearl.DisplayName: Cream Pearl
+	CreamPetal.DisplayName: Cream Petal
+	IceStar.DisplayName: Ice Star
+	CirnoIceSpike.DisplayName: Ice Spike
+	EndoBeam.DisplayName: Endo Beam
+	PhotoBeam.DisplayName: Photon Beam
+	PhotoSpark.DisplayName: Spark
+	SandBlast.DisplayName: Sand Blast
+	MorphoCrescent.DisplayName: Crescent Slash
+	ArbiterofJudgement.DisplayName: Arbiter of Judgement
+	PrismSword.DisplayName: Prism Sword
+	PrismStar.DisplayName: Prism Star
+	ThrownPrismSword.DisplayName: Prism Destroyer
+	QuintessenceHoldout.DisplayName: Quintessence Cannon
+	ThrownJustice.DisplayName: Justice
+	FlamingShard.DisplayName: Flaming Shard
+	DivineMeteorHead.DisplayName: Meteor Head
+	ThrownDivineIntervention.DisplayName: Divine Intervention
+	DartBlast.DisplayName: Explosion
+	ExterminativeDartProj.DisplayName: Exterminative Dart
+	PlanetaryDart.DisplayName: Planetary Dart
+	NighterrialDartProj.DisplayName: Nighterrial Dart
+	Polterhook.DisplayName: Polterhook
+	ProfanedCrystalDartProj.DisplayName: Profaned Crystal Dart
+	ProfanedDartRock.DisplayName: Profaned Rock
+	ProfanedFireDartProj.DisplayName: Profaned Fire Dart
+	ProfanedFireball.DisplayName: Profaned Fireball
+	ProfanedSpark.DisplayName: Profaned Spark
+	TerrestrialDartProj.DisplayName: Terrestrial Dart
+	LifeEnergy.DisplayName: Life Energy
+	VortexDartProj.DisplayName: Vortex Dart
+	WaterfrostDartProj.DisplayName: Waterfrost Dart
+	WaterfrostIcicle.DisplayName: Icicle
+	Spades.DisplayName: Spades
+	AnimatedStatue.DisplayName: Animated Statue
+	StatueFragment.DisplayName: Stone Fragment
+	SkullJavelin.DisplayName: Skull Fracture
+	LightBlade.DisplayName: Light Blade
+	SkyClearerBullet.DisplayName: Sky Clearer Bullet
+	ArkflammatorScythe.DisplayName: Scythe
+	NoctArc.DisplayName: Electric Arc
+	CoredLineWhip.DisplayName: Cored Line
+	JewelCore.DisplayName: Jewel Core
+	DriftorcherSpark.DisplayName: Spark
+	GrarbleSpearProj.DisplayName: Grarble Spear
+	GluelicStar.DisplayName: Star
+	GluelicShockwave.DisplayName: Shockwave
+	GluelicThrust.DisplayName: Gluelic Blade
+	ExterminatorYoyo.DisplayName: Exterminator
+	ExterminatorRings.DisplayName: Rings
+	ChainSpearProj.DisplayName: Chain Spear
+	ChainSpearChain.DisplayName: Chain Spear
+	BloodBurst.DisplayName: Blood Explosion
+	DissfusionCore.DisplayName: Dissfusion Disk
+	DissfusionGlaive.DisplayName: Glaive
+	CalamitousVortexField.DisplayName: Calamitous Vortex
+	LacelinousTriangle.DisplayName: Lacelinous Nocturne
+	LacelinousBullet.DisplayName: Bullet
+	StarkillerBeam.DisplayName: Star-Killing Beam
+	StellarSpark.DisplayName: Lingering Stellar Spark
+	BayonetBlade.DisplayName: Grarble Bayonet
+	HolyNapalm.DisplayName: Napalm
+	HolyNapalmFlame.DisplayName: Holy Flame
+	DiminishingScythe.DisplayName: Diminishing Victory
+	GrandReefChunk.DisplayName: Voidstone Chunk
+	CoralShard.DisplayName: Dead Coral
+	WikiWhip.DisplayName: Whip
+	DuetFlake.DisplayName: Snowflake
+	EXOLOTL.DisplayName: EXO-LOTL
+	EXOLOTLLaser.DisplayName: Laser
+	EvercoldCrystal.DisplayName: Crystal
+	EvercoldBeam.DisplayName: Beam
+	MeridianSpear.DisplayName: Meridian
+	GalaxianStar.DisplayName: Star
+	VoidEssence.DisplayName: Void Essence
+	MeridianSword.DisplayName: Meridian
+	StratoctrineSpearProj.DisplayName: Stratoctrine Spear
+	StctrineBlade.DisplayName: Flying Blade
+	TendonDisk.DisplayName: Tendon Tides
+	WindTurbineThrust.DisplayName: Wind Turbine Blade
+	TurbineTornado.DisplayName: Gust of Wind
+	XenonSlash.DisplayName: Slash
+	OverloadedBullet.DisplayName: Bullet
+	OnyxBlast.DisplayName: Onyx Blast
+	CactusBullet.DisplayName: Cactus Bullet
+	CactusSpine.DisplayName: Spine
+	RamBolt.DisplayName: Magic Bolt
+	ShadingOrb.DisplayName: Orb
+	ShadingBeam.DisplayName: Beam
+	ShadowBall.DisplayName: Shadow Ball
+	ShadowSpirit.DisplayName: Shadow Spirit
+	ShadowPulse.DisplayName: Dark Pulse
+	ExoElemental.DisplayName: Exo Elemental
+	ExoCrystal.DisplayName: Exo Crystal
+	LunarFairy.DisplayName: Fairy
+	NightmareButterfly.DisplayName: Nightmare Butterfly
+	NightmareBullet.DisplayName: Nightmare Bullet
+	DreamyCrescent.DisplayName: Crescent Wave
+	GrarbleObliteratorProj.DisplayName: Grarble Obliterator
+	DestinaryHoldout.DisplayName: Destinary
+	ExoDisk.DisplayName: Exo Disk
+	TitanAura.DisplayName: Cosmic Aura
+	GodSlayerBlade.DisplayName: God Slayer Blade
+	GearworkShieldProj.DisplayName: Gearwork Shield
+	TyrantCorpse.DisplayName: Corpse Shield
+	StrikerCoin.DisplayName: Coin
+	GreenLizard.DisplayName: Green Lizard
+	InxieRatZey.DisplayName: InxieRatZey
+	CynthianSerpent.DisplayName: Cynthian Serpent
+	HSTridentProj.DisplayName: H.S Trident
+	HSLightBeam.DisplayName: Light Beam
+	ExoGeyser.DisplayName: Exo Flame Geyser
+	BlackPearl.DisplayName: Black Pearl
+	GloomySpear.DisplayName: Gloomy Trident
+	GloomMaelstrom.DisplayName: Maelstrom
+	StringLine.DisplayName: Line
+	StringBullet.DisplayName: Bullet
+	GodlyPulse.DisplayName: Godly Pulse
+	TraitorousFireball.DisplayName: Traitorous Fireball
+	TraitorousOrb.DisplayName: Traitorous Orb
+	TraitorousDeathray.DisplayName: Traitorous Deathray
+	PurificationFireball.DisplayName: Fireball
+	PurificationFlames.DisplayName: Flames
+	LightPillar.DisplayName: Light Pillar
+	PWMK1.DisplayName: PW-MK1
+	MiniMissile.DisplayName: Mini Missile
+	RailgunShot.DisplayName: Railgun
+	AerialMine.DisplayName: EM Aerial Mine
+	XerocEyeClone.DisplayName: Xeroc's Eye
+	XerocEyeBeam.DisplayName: Xeroc's Eye Beam
+	RGBGraydronSlash: {
+		DisplayName: RGB Graydron
+	}
+
+	TotalityBall: {
+		DisplayName: Exo Energy
+	}
+
+	TotalityExobeam: {
+		DisplayName: Exobeam
+	}
+
+	TotalityExoArrow: {
+		DisplayName: Exo Arrow
+	}
+
+	TotalityLightning: {
+		DisplayName: Exo Lightning
+	}
+
+	TotalityExoVortex: {
+		DisplayName: Exo Vortex
+	}
+
+	TotalityTentacle: {
+		DisplayName: Exo Tentacle
+	}
+
+	TotalityExoRammer: {
+		DisplayName: Exo Rammer
+	}
+
+	TotalityExoScythe: {
+		DisplayName: Exo Scythe
+	}
+
+	DartBlastProxy: {
 		DisplayName: Explosion
 	}
 
-	Noxling: {
-		DisplayName: Noxling
-	}
-
-	LunaticDisc: {
-		DisplayName: Lunatic Beats
-	}
-	RoxShard: {
-		DisplayName: Rock Shard
-	}
-
-	ArchalisSlash: {
-		DisplayName: Slash
-	}
-
-	Caracal: {
-		DisplayName: Caracal
-	}
-
-	TenebrisBaton: {
-		DisplayName: Tenebris Tides
-	}
-
-	TenebrisSpear: {
-		DisplayName: Tenebris Spear
-	}
-
-	RibbonBullet: {
-		DisplayName: Golden Bullet
-	}
-
-	Ribbon: {
-		DisplayName: Ribbon
-	}
-
-	MiniGuntera: {
-		DisplayName: Mini Guntera
-	}
-	CraneRay: {
-		DisplayName: Monochrome Ray
-	}
-
-	CraneBullet: {
-		DisplayName: Bullet
-	}
-
-	CreamPearl: {
-		DisplayName: Cream Pearl
-	}
-
-	CreamPetal: {
-		DisplayName: Cream Petal
-	}
-
-	IceStar: {
-		DisplayName: Ice Star
-	}
-
-	CirnoIceSpike: {
-		DisplayName: Ice Spike
-	}
-
-	EndoBeam: {
-		DisplayName: Endo Beam
-	}
-	PhotoBeam: {
-		DisplayName: Photon Beam
-	}
-
-	PhotoSpark: {
-		DisplayName: Spark
-	}
-
-	SandBlast: {
-		DisplayName: Sand Blast
-	}
-
-	MorphoCrescent: {
-		DisplayName: Crescent Slash
-	}
-
-	ArbiterofJudgement: {
-		DisplayName: Arbiter of Judgement
-	}
-
-	PrismSword: {
-		DisplayName: Prism Sword
-	}
-
-	PrismStar: {
-		DisplayName: Prism Star
-	}
-
-	ThrownPrismSword: {
-		DisplayName: Prism Destroyer
-	}
-	QuintessenceHoldout: {
-		DisplayName: Quintessence Cannon
-	}
-
-	ThrownJustice: {
-		DisplayName: Justice
-	}
-	FlamingShard: {
-		DisplayName: Flaming Shard
-	}
-
-	DivineMeteorHead: {
-		DisplayName: Meteor Head
-	}
-
-	ThrownDivineIntervention: {
-		DisplayName: Divine Intervention
-	}
-	DartBlast: {
-		DisplayName: Explosion
-	}
-
-	ExterminativeDartProj: {
-		DisplayName: Exterminative Dart
-	}
-
-	PlanetaryDart: {
-		DisplayName: Planetary Dart
-	}
-
-	NighterrialDartProj: {
-		DisplayName: Nighterrial Dart
-	}
-
-	Polterhook: {
-		DisplayName: Polterhook
-	}
-
-	ProfanedCrystalDartProj: {
-		DisplayName: Profaned Crystal Dart
-	}
-
-	ProfanedDartRock: {
-		DisplayName: Profaned Rock
-	}
-
-	ProfanedFireDartProj: {
-		DisplayName: Profaned Fire Dart
-	}
-
-	ProfanedFireball: {
-		DisplayName: Profaned Fireball
-	}
-
-	ProfanedSpark: {
-		DisplayName: Profaned Spark
-	}
-
-	TerrestrialDartProj: {
-		DisplayName: Terrestrial Dart
-	}
-
-	LifeEnergy: {
-		DisplayName: Life Energy
-	}
-
-	VortexDartProj: {
-		DisplayName: Vortex Dart
-	}
-
-	WaterfrostDartProj: {
-		DisplayName: Waterfrost Dart
-	}
-
-	WaterfrostIcicle: {
-		DisplayName: Icicle
-	}
-	Spades: {
-		DisplayName: Spades
-	}
-
-	AnimatedStatue: {
-		DisplayName: Animated Statue
-	}
-
-	StatueFragment: {
-		DisplayName: Stone Fragment
-	}
-
-	SkullJavelin: {
-		DisplayName: Skull Fracture
-	}
-
-	LightBlade: {
-		DisplayName: Light Blade
-	}
-
-	SkyClearerBullet: {
-		DisplayName: Sky Clearer Bullet
-	}
-
-	ArkflammatorScythe: {
-		DisplayName: Scythe
-	}
-
-	NoctArc: {
-		DisplayName: Electric Arc
-	}
-
-	CoredLineWhip: {
-		DisplayName: Cored Line
-	}
-
-	JewelCore: {
-		DisplayName: Jewel Core
-	}
-
-	DriftorcherSpark: {
-		DisplayName: Spark
-	}
-
-	GrarbleSpearProj: {
-		DisplayName: Grarble Spear
-	}
-
-	GluelicStar: {
-		DisplayName: Star
-	}
-
-	GluelicShockwave: {
-		DisplayName: Shockwave
-	}
-
-	GluelicThrust: {
-		DisplayName: Gluelic Blade
-	}
-
-	ExterminatorYoyo: {
-		DisplayName: Exterminator
-	}
-
-	ExterminatorRings: {
-		DisplayName: Rings
-	}
-
-	ChainSpearProj: {
-		DisplayName: Chain Spear
-	}
-
-	ChainSpearChain: {
-		DisplayName: Chain Spear
-	}
-
-	BloodBurst: {
-		DisplayName: Blood Explosion
-	}
-
-	DissfusionCore: {
-		DisplayName: Dissfusion Disk
-	}
-
-	DissfusionGlaive: {
-		DisplayName: Glaive
-	}
-	CalamitousVortexField: {
-		DisplayName: Calamitous Vortex
-	}
-
-	LacelinousTriangle: {
-		DisplayName: Lacelinous Nocturne
-	}
-
-	LacelinousBullet: {
-		DisplayName: Bullet
-	}
-
-	StarkillerBeam: {
-		DisplayName: Star-Killing Beam
-	}
-
-	StellarSpark: {
-		DisplayName: Lingering Stellar Spark
-	}
-
-	BayonetBlade: {
-		DisplayName: Grarble Bayonet
-	}
-
-	HolyNapalm: {
-		DisplayName: Napalm
-	}
-
-	HolyNapalmFlame: {
-		DisplayName: Holy Flame
-	}
-
-	DiminishingScythe: {
-		DisplayName: Diminishing Victory
-	}
-
-	GrandReefChunk: {
-		DisplayName: Voidstone Chunk
-	}
-
-	CoralShard: {
-		DisplayName: Dead Coral
-	}
-
-	WikiWhip: {
-		DisplayName: Whip
-	}
-
-	DuetFlake: {
-		DisplayName: Snowflake
-	}
-
-	EXOLOTL: {
-		DisplayName: EXO-LOTL
-	}
-
-	EXOLOTLLaser: {
-		DisplayName: Laser
-	}
-
-	EvercoldCrystal: {
-		DisplayName: Crystal
-	}
-
-	EvercoldBeam: {
-		DisplayName: Beam
-	}
-	MeridianSpear: {
-		DisplayName: Meridian
-	}
-
-	GalaxianStar: {
-		DisplayName: Star
-	}
-
-	VoidEssence: {
-		DisplayName: Void Essence
-	}
-
-	MeridianSword: {
-		DisplayName: Meridian
-	}
-
-	StratoctrineSpearProj: {
-		DisplayName: Stratoctrine Spear
-	}
-
-	StctrineBlade: {
-		DisplayName: Flying Blade
-	}
-
-	TendonDisk: {
-		DisplayName: Tendon Tides
-	}
-
-	WindTurbineThrust: {
-		DisplayName: Wind Turbine Blade
-	}
-
-	TurbineTornado: {
-		DisplayName: Gust of Wind
-	}
-
-	XenonSlash: {
-		DisplayName: Slash
-	}
-
-	OverloadedBullet: {
-		DisplayName: Bullet
-	}
-
-	OnyxBlast: {
-		DisplayName: Onyx Blast
-	}
-
-	CactusBullet: {
-		DisplayName: Cactus Bullet
-	}
-
-	CactusSpine: {
-		DisplayName: Spine
-	}
-
-	RamBolt: {
-		DisplayName: Magic Bolt
-	}
-
-	ShadingOrb: {
-		DisplayName: Orb
-	}
-
-	ShadingBeam: {
-		DisplayName: Beam
-	}
-
-	ShadowBall: {
-		DisplayName: Shadow Ball
-	}
-
-	ShadowSpirit: {
-		DisplayName: Shadow Spirit
-	}
-
-	ShadowPulse: {
-		DisplayName: Dark Pulse
-	}
-	ExoElemental: {
-		DisplayName: Exo Elemental
-	}
-
-	ExoCrystal: {
-		DisplayName: Exo Crystal
-	}
-
-	LunarFairy: {
-		DisplayName: Fairy
-	}
-
-	NightmareButterfly: {
-		DisplayName: Nightmare Butterfly
-	}
-
-	NightmareBullet: {
-		DisplayName: Nightmare Bullet
-	}
-
-	DreamyCrescent: {
-		DisplayName: Crescent Wave
-	}
-	GrarbleObliteratorProj: {
-		DisplayName: Grarble Obliterator
-	}
-
-	DestinaryHoldout: {
-		DisplayName: Destinary
-	}
-
-	ExoDisk: {
-		DisplayName: Exo Disk
-	}
-	TitanAura: {
-		DisplayName: Cosmic Aura
-	}
-
-	GodSlayerBlade: {
-		DisplayName: God Slayer Blade
-	}
-
-	GearworkShieldProj: {
-		DisplayName: Gearwork Shield
-	}
-
-	TyrantCorpse: {
-		DisplayName: Corpse Shield
-	}
-
-	StrikerCoin: {
-		DisplayName: Coin
-	}
-	GreenLizard: {
-		DisplayName: Green Lizard
-	}
-
-	InxieRatZey: {
-		DisplayName: InxieRatZey
-	}
-
-	CynthianSerpent: {
-		DisplayName: Cynthian Serpent
-	}
-	HSTridentProj: {
-		DisplayName: H.S Trident
-	}
-
-	HSLightBeam: {
-		DisplayName: Light Beam
-	}
-
-	ExoGeyser: {
-		DisplayName: Exo Flame Geyser
-	}
-
-	BlackPearl: {
-		DisplayName: Black Pearl
-	}
-
-	GloomySpear: {
-		DisplayName: Gloomy Trident
-	}
-
-	GloomMaelstrom: {
-		DisplayName: Maelstrom
-	}
-
-	StringLine: {
+	GhostLine: {
 		DisplayName: Line
 	}
 
-	StringBullet: {
-		DisplayName: Bullet
+	GrenadeRound: {
+		DisplayName: Grenade Round
 	}
 
-	GodlyPulse: {
-		DisplayName: Godly Pulse
+	OgsculianRay: {
+		DisplayName: Ogsculian Ray
 	}
 
-	TraitorousFireball: {
-		DisplayName: Traitorous Fireball
+	SurvivalOrb: {
+		DisplayName: Water Orb
 	}
 
-	TraitorousOrb: {
-		DisplayName: Traitorous Orb
+	SurvivalDrop: {
+		DisplayName: Water Droplet
 	}
 
-	TraitorousDeathray: {
-		DisplayName: Traitorous Deathray
+	FloatingBiomass: {
+		DisplayName: Floating Biomass
 	}
 
-	PurificationFireball: {
-		DisplayName: Fireball
+	TerreyeSigil: {
+		DisplayName: Sigil
 	}
 
-	PurificationFlames: {
-		DisplayName: Flames
+	TerraSeeker: {
+		DisplayName: Terra Seeker
 	}
 
-	LightPillar: {
-		DisplayName: Light Pillar
+	TerraFlame: {
+		DisplayName: Terra Flame
 	}
 
-	PWMK1: {
-		DisplayName: PW-MK1
+	TerraDisk: {
+		DisplayName: Terra Disk
 	}
 
-	MiniMissile: {
-		DisplayName: Mini Missile
+	TarraHeart: {
+		DisplayName: Tarra Heart
 	}
 
-	RailgunShot: {
-		DisplayName: Railgun
+	PurpleCrystallineButterfly: {
+		DisplayName: Purple Crystalline Butterfly
 	}
 
-	AerialMine: {
-		DisplayName: EM Aerial Mine
-	}
-	XerocEyeClone: {
-		DisplayName: Xeroc's Eye
+	PinkCrystallineButterfly: {
+		DisplayName: Pink Crystalline Butterfly
 	}
 
-	XerocEyeBeam: {
-		DisplayName: Xeroc's Eye Beam
+	SakuraBullet: {
+		DisplayName: Sakura Bullet
 	}
 }
 
@@ -5971,30 +5126,37 @@ Buffs: {
 		DisplayName: Malfunctioning
 		Description: Attacks are weakened
 	}
+
 	EarthElementalBuff: {
 		DisplayName: Earth Elemental
 		Description: The earth elemental will fight for you
 	}
+
 	SulphurElementalBuff: {
 		DisplayName: Sulphur Elemental
 		Description: A sulphur elemental will protect you
 	}
+
 	ObsidianBellBuff: {
 		DisplayName: Obsidian bell
 		Description: The hellish bell will protect you
 	}
+
 	Evercold: {
 		DisplayName: Evercold
 		Description: Your life is freezing
 	}
+
 	CorrosiveEyeBuff: {
 		DisplayName: Corrosive Eye
 		Description: The corrosive eyes are orbiting you
 	}
+
 	OnyxFistBuff: {
 		DisplayName: Onyx Fist
 		Description: The onyx fist will punch enemies for you
 	}
+
 	FractalCrawlerBuff: {
 		DisplayName: Fractal Crawler
 		Description: The fractal crawler will fight for you
@@ -6009,18 +5171,22 @@ Buffs: {
 		DisplayName: Fallen Human
 		Description: The fallen human will fight for you
 	}
+
 	PhantasmalSpreadFire: {
 		DisplayName: Phantasmal Fire
 		Description: Burning with spreading phantasmal fire
 	}
+
 	GunteraBuff: {
 		DisplayName: Guntera
 		Description: The mini Guntera will protect you
 	}
+
 	IceStarBuff: {
 		DisplayName: Ice Star
 		Description: The encharted ice star will fight for you
 	}
+
 	PrismSwordBuff: {
 		DisplayName: Prism Sword
 		Description: The prism sword fights for you
@@ -6030,14 +5196,17 @@ Buffs: {
 		DisplayName: Valfrey Burn
 		Description: Burning with valfrey flames
 	}
+
 	HolyFlameBuff: {
 		DisplayName: Holy Flame
 		Description: The Holy Light Guides You...
 	}
+
 	HellJudgement: {
 		DisplayName: Hell Judgement
 		Description: You feel as if the apostate of hate has turned his gaze...
 	}
+
 	CobaltSkin: {
 		DisplayName: Cobalt Skin
 		Description: Defense is increased by 14
@@ -6050,16 +5219,14 @@ Buffs: {
 
 	CalamitousDysphoria: {
 		DisplayName: Calamitous Dysphoria
-		Description:
-			'''
-			You feel like something is out of place, but don't know what it is
-			'''
+		Description: You feel like something is out of place, but don't know what it is
 	}
 
 	CalamitousAnxiety: {
 		DisplayName: Calamitous Anxiety
 		Description: Something is watching your every move
 	}
+
 	Noctactricity: {
 		DisplayName: Noctactricity
 		Description: Youve been Electrified with supreme powers
@@ -6069,10 +5236,12 @@ Buffs: {
 		DisplayName: Nightclear
 		Description: Your vision is cleared
 	}
+
 	EXOLOTLBuff: {
 		DisplayName: EXO-LOTL
 		Description: Great for distracting cats!
 	}
+
 	Wither: {
 		DisplayName: Wither
 		Description: Withered... Defense reduced by 20
@@ -6082,18 +5251,22 @@ Buffs: {
 		DisplayName: Shred
 		Description: Blood
 	}
+
 	ExoElementalBuff: {
 		DisplayName: Exo Elemental
 		Description: An Exo Elemental protects you
 	}
+
 	MeldSkin: {
 		DisplayName: Meld Skin
 		Description: Defense is increased by 22
 	}
+
 	EssericSkin: {
 		DisplayName: Esseric Skin
 		Description: Defense is increased by 30
 	}
+
 	GreenLizardBuff: {
 		DisplayName: Green Lizard
 		Description: A mostly-tamed green lizard follows you
@@ -6108,6 +5281,7 @@ Buffs: {
 		DisplayName: Cynthian Serpent
 		Description: A peculiar lunar being follows you
 	}
+
 	TerroroftheAbyss: {
 		DisplayName: Terror of the Abyss
 		Description: You feel like you're being silenced by the abyss itself...
@@ -6116,6 +5290,15 @@ Buffs: {
 	PWMK1Buff: {
 		DisplayName: PW-MK1
 		Description: Predictable.
+	}
+	TerreyesBuff: {
+		DisplayName: Terreyes
+		Description: It's not easy being green
+	}
+
+	ResurrectionButterflyBuff: {
+		DisplayName: Resurrection Butterfly
+		Description: Aren't they beautiful?
 	}
 }
 
@@ -6247,11 +5430,13 @@ NPCs: {
 	ArmoredDiggerBody.DisplayName: Armored Digger
 	ArmoredDiggerTail.DisplayName: Armored Digger
 	EstrangedSonHead.DisplayName: Estranged Son
+
 	Pyrogen: {
 		DisplayName: Pyrogen
 		Bestiary: A construct of the same nature as Cryogen, sleeping in the searing lakes of the Underworld. Its obsidian shield destroys whatever is thrown at it.
 		Hellstorm: Pyrogen spins into a hellstorm!
 	}
+
 	WulfrumExcavatorHead: {
 		DisplayName: Wulfrum Excavator
 		Bestiary: The first big project of the legendary weaponsmith, Draedon. It digs through the surface, and the Wulfrum Pylons make it stronger.
@@ -6259,32 +5444,22 @@ NPCs: {
 		DownedCondition: After the Wulfrum Excavator has been defeated
 	}
 
-	WulfrumExcavatorBody: {
-		DisplayName: Wulfrum Excavator Body
-	}
+	WulfrumExcavatorBody.DisplayName: Wulfrum Excavator Body
+	WulfrumExcavatorTail.DisplayName: Wulfrum Excavator Tail
 
-	WulfrumExcavatorTail: {
-		DisplayName: Wulfrum Excavator Tail
-	}
 	Acidsighter: {
 		DisplayName: Acidsighter
-		Bestiary:
-			'''
-			A giant Demon Eye poisoned by the sulphuric waters. It only answers the call of a Poisoned Sclera, at night, by the acidic sea.
-			'''
+		Bestiary: A giant Demon Eye poisoned by the sulphuric waters. It only answers the call of a Poisoned Sclera, at night, by the acidic sea.
 	}
 
-	MutatedEye: {
-		DisplayName: Mutated Eye
-	}
+	MutatedEye.DisplayName: Mutated Eye
+
 	GrandThunderCnidrion: {
 		DisplayName: Grand Thunder Cnidrion
 		Bestiary: A giant storm-touched Cnidrion that answers the Desert Medallion by day, raining bolts of energy from the sky.
 	}
 
-	StormCnidriling: {
-		DisplayName: Storm Cnidriling
-	}
+	StormCnidriling.DisplayName: Storm Cnidriling
 }
 
 Proficiency: {
@@ -6393,6 +5568,7 @@ Taming: {
 Conditions: {
 	DraedonsRemote: Summoned with Draedon's Remote
 	HasMagnum: When you carry a Magnum or a Lightning Hawk
+	HasBazooka: When you have a Bazooka
 }
 
 InsacredTexts: {
@@ -6430,10 +5606,10 @@ GelArmor: {
 }
 
 Inventors: {
-	Summoned: "Your gear is no match for our innovations!"
-	JohnHalf: "I'll chase you until the ends of the earth!"
-	JaneHalf: "Call me whatever you want, but I'll call you whenever I need you!"
-	Defeated: "Okay okay! We get it, we won't fight anymore!"
+	Summoned: Your gear is no match for our innovations!
+	JohnHalf: I'll chase you until the ends of the earth!
+	JaneHalf: Call me whatever you want, but I'll call you whenever I need you!
+	Defeated: Okay okay! We get it, we won't fight anymore!
 	LootCondition: When the second Inventor is defeated
 	RevCondition: In Revengeance Mode
 	TamedCondition: When tamed
@@ -6464,6 +5640,452 @@ WikiArmor: {
 		'''
 	Elderstone: Creates a Xeroc Eye's Clone that fights for you
 	Frozen: Press Armor Set Bonus to create an ice shield that parries attacks. Failing to parry will cause you to overcool.
+}
+
+TaintedPotions: {
+	GroundDeath: "{0} walked on the ground."
+
+	TaintedAmmoReservationPotion: {
+		DisplayName: Tainted Ammo Reservation Potion
+		Tooltip:
+			'''
+			Gives a 20% chance for weapons to use twice as much ammo, doubling the amount of projectiles shot.
+			'''
+	}
+
+	TaintedAmmoReservation: {
+		DisplayName: Tainted Ammo Reservation
+		Description:
+			'''
+			Gives a 20% chance for weapons to use twice as much ammo, doubling the amount of projectiles shot.
+			'''
+	}
+
+	TaintedArcheryPotion: {
+		DisplayName: Tainted Archery Potion
+		Tooltip:
+			'''
+			10% decreased arrow damage, and 20% decreased arrow speed. 30% increased bow fire rate.
+			'''
+	}
+
+	TaintedArchery: {
+		DisplayName: Tainted Archery
+		Description:
+			'''
+			10% decreased arrow damage, and 20% decreased arrow speed. 30% increased bow fire rate.
+			'''
+	}
+
+	TaintedBattlePotion: {
+		DisplayName: Tainted Battle Potion
+		Tooltip: Decreased enemy spawn rates. Enemies now drop twice as much loot and have 30% more health and damage.
+	}
+
+	TaintedBattle: {
+		DisplayName: Tainted Battle
+		Description: Decreased enemy spawn rates. Enemies now drop twice as much loot and have 30% more health and damage.
+	}
+
+	TaintedBuilderPotion: {
+		DisplayName: Tainted Builder Potion
+		Tooltip:
+			'''
+			Decreases placement speed and range. Blocks have a 20% chance to not be consumed when placed.
+			Blocks placed this way won't drop anything when broken.
+			'''
+	}
+
+	TaintedBuilder: {
+		DisplayName: Tainted Builder
+		Description:
+			'''
+			Decreases placement speed and range. Blocks have a 20% chance to not be consumed when placed.
+			Blocks placed this way won't drop anything when broken.
+			'''
+	}
+
+	TaintedCalmingPotion: {
+		DisplayName: Tainted Calming Potion
+		Tooltip: Increased enemy spawn rates. All enemies are inflicted with banner weakness.
+	}
+
+	TaintedCalming: {
+		DisplayName: Tainted Calming
+		Description: Increased enemy spawn rates. All enemies are inflicted with banner weakness.
+	}
+
+	TaintedCratePotion: {
+		DisplayName: Tainted Crate Potion
+		Tooltip: Decreased chance of catching crates. Catching crates now grants two crates.
+	}
+
+	TaintedCrate: {
+		DisplayName: Tainted Crate
+		Description: Decreased chance of catching crates. Catching crates now grants two crates.
+	}
+
+	TaintedDangersensePotion: {
+		DisplayName: Tainted Dangersense Potion
+		Tooltip: All nearby traps constantly activate.
+	}
+
+	TaintedDangersense: {
+		DisplayName: Tainted Dangersense
+		Description: All nearby traps constantly activate.
+	}
+
+	TaintedEndurancePotion: {
+		DisplayName: Tainted Endurance Potion
+		Tooltip: Reduces enemy damage reduction by 10%.
+	}
+
+	TaintedEndurance: {
+		DisplayName: Tainted Endurance
+		Description: Reduces enemy damage reduction by 10%.
+	}
+
+	TaintedFeatherfallPotion: {
+		DisplayName: Tainted Featherfall Potion
+		Tooltip: Enemies now take fall damage.
+	}
+
+	TaintedFeatherfall: {
+		DisplayName: Tainted Featherfall
+		Description: Enemies now take fall damage.
+	}
+
+	TaintedFishingPotion: {
+		DisplayName: Tainted Fishing Potion
+		Tooltip: Reduces fishing power. Blood moon enemies can now be caught at all times.
+	}
+
+	TaintedFishing: {
+		DisplayName: Tainted Fishing
+		Description: Reduces fishing power. Blood moon enemies can now be caught at all times.
+	}
+
+	TaintedGillsPotion: {
+		DisplayName: Tainted Gills Potion
+		Tooltip:
+			'''
+			You now drown quicker.
+			While fully submerged in water, you are fully invincible until your breath meter runs out.
+			'''
+	}
+
+	TaintedGills: {
+		DisplayName: Tainted Gills
+		Description:
+			'''
+			You now drown quicker.
+			While fully submerged in water, you are fully invincible until your breath meter runs out.
+			'''
+	}
+
+	TaintedGravitationPotion: {
+		DisplayName: Tainted Gravitation Potion
+		Tooltip: Randomizes your gravity
+	}
+
+	TaintedGravitation: {
+		DisplayName: Tainted Gravitation
+		Description: Randomizes your gravity
+	}
+
+	TaintedHeartreachPotion: {
+		DisplayName: Tainted Heartreach Potion
+		Tooltip: Hearts can no longer be picked up and instead attack enemies.
+	}
+
+	TaintedHeartreach: {
+		DisplayName: Tainted Heartreach
+		Description: Hearts can no longer be picked up and instead attack enemies.
+	}
+
+	TaintedHunterPotion: {
+		DisplayName: Tainted Hunter Potion
+		Tooltip: Increases enemy aggro by 800.
+	}
+
+	TaintedHunter: {
+		DisplayName: Tainted Hunter
+		Description: Increases enemy aggro by 800.
+	}
+
+	TaintedInfernoPotion: {
+		DisplayName: Tainted Inferno Potion
+		Tooltip: You and all enemies are lit on fire.
+	}
+
+	TaintedInferno: {
+		DisplayName: Tainted Inferno
+		Description: You and all enemies are lit on fire.
+	}
+
+	TaintedInvisibilityPotion: {
+		DisplayName: Tainted Invisibility Potion
+		Tooltip: All enemies are invisible until hit. Invisible enemies can't hurt you.
+	}
+
+	TaintedInvisibility: {
+		DisplayName: Tainted Invisibility
+		Description: All enemies are invisible until hit. Invisible enemies can't hurt you.
+	}
+
+	TaintedIronskinPotion: {
+		DisplayName: Tainted Ironskin Potion
+		Tooltip: Decreases your defense. Decreases defense damage taken.
+	}
+
+	TaintedIronskin: {
+		DisplayName: Tainted Ironskin
+		Description: Decreases your defense. Decreases defense damage taken.
+	}
+
+	TaintedLifeforcePotion: {
+		DisplayName: Tainted Lifeforce Potion
+		Tooltip: Decreases your maximum health. All lost health is converted into additional max mana.
+	}
+
+	TaintedLifeforce: {
+		DisplayName: Tainted Lifeforce
+		Description: Decreases your maximum health. All lost health is converted into additional max mana.
+	}
+
+	TaintedLovePotion: {
+		DisplayName: Tainted Love Potion
+		Tooltip: Enemies can deal damage to each other.
+	}
+
+	TaintedLove: {
+		DisplayName: Tainted Love
+		Description: Enemies can deal damage to each other.
+	}
+
+	TaintedLuckPotion: {
+		DisplayName: Tainted Luck Potion
+		Tooltip: All enemies now have a chance to drop Astral Pearls.
+	}
+
+	TaintedLuck: {
+		DisplayName: Tainted Luck
+		Description: All enemies now have a chance to drop Astral Pearls.
+	}
+
+	TaintedMagicPowerPotion: {
+		DisplayName: Tainted Magic Power Potion
+		Tooltip: Decreases magic damage. Greatly increases magic knockback.
+	}
+
+	TaintedMagicPower: {
+		DisplayName: Tainted Magic Power
+		Description: Decreases magic damage. Greatly increases magic knockback.
+	}
+
+	TaintedManaRegenerationPotion: {
+		DisplayName: Tainted Mana Regeneration Potion
+		Tooltip: Mana now drains twice as quickly. All magic hits now have a chance to spawn stars.
+	}
+
+	TaintedManaRegeneration: {
+		DisplayName: Tainted Mana Regeneration
+		Description: Mana now drains twice as quickly. All magic hits now have a chance to spawn stars.
+	}
+
+	TaintedMiningPotion: {
+		DisplayName: Tainted Mining Potion
+		Tooltip: Decreases mining speed. Increases pickaxe power.
+	}
+
+	TaintedMining: {
+		DisplayName: Tainted Mining
+		Description: Decreases mining speed. Increases pickaxe power.
+	}
+
+	TaintedNightOwlPotion: {
+		DisplayName: Tainted Night Owl Potion
+		Tooltip: Darkens vision during the day. All attacks inflict Confused.
+	}
+
+	TaintedNightOwl: {
+		DisplayName: Tainted Night Owl
+		Description: Darkens vision during the day. All attacks inflict Confused.
+	}
+
+	TaintedObsidianSkinPotion: {
+		DisplayName: Tainted Obsidian Skin Potion
+		Tooltip: Lava now instantly kills you. Enemies now take 5% of their health in damage from lava.
+	}
+
+	TaintedObsidianSkin: {
+		DisplayName: Tainted Obsidian Skin
+		Description: Lava now instantly kills you. Enemies now take 5% of their health in damage from lava.
+	}
+
+	TaintedRagePotion: {
+		DisplayName: Tainted Rage Potion
+		Tooltip: Disables crit. All attacks now deal 30% more damage.
+	}
+
+	TaintedRage: {
+		DisplayName: Tainted Rage
+		Description: Disables crit. All attacks now deal 30% more damage.
+	}
+
+	TaintedRegenerationPotion: {
+		DisplayName: Tainted Regeneration Potion
+		Tooltip: Disables life regen. Hitting enemies now has a chance to spawn hearts.
+	}
+
+	TaintedRegeneration: {
+		DisplayName: Tainted Regeneration
+		Description: Disables life regen. Hitting enemies now has a chance to spawn hearts.
+	}
+
+	TaintedShinePotion: {
+		DisplayName: Tainted Shine Potion
+		Tooltip: Blackens the screen. All of your projectiles now home.
+	}
+
+	TaintedShine: {
+		DisplayName: Tainted Shine
+		Description: Blackens the screen. All of your projectiles now home.
+	}
+
+	TaintedSonarPotion: {
+		DisplayName: Tainted Sonar Potion
+		Tooltip:
+			'''
+			When a fish gets hooked, it rapidly randomizes type until pulled up.
+			'''
+	}
+
+	TaintedSonar: {
+		DisplayName: Tainted Sonar
+		Description:
+			'''
+			When a fish gets hooked, it rapidly randomizes type until pulled up.
+			'''
+	}
+
+	TaintedSpelunkerPotion: {
+		DisplayName: Tainted Spelunker Potion
+		Tooltip:
+			'''
+			All ore blocks now look like nearby blocks.
+			Walking within a 4 block radius of an ore now instantly collects it.
+			'''
+	}
+
+	TaintedSpelunker: {
+		DisplayName: Tainted Spelunker
+		Description:
+			'''
+			All ore blocks now look like nearby blocks.
+			Walking within a 4 block radius of an ore now instantly collects it.
+			'''
+	}
+
+	TaintedStinkPotion: {
+		DisplayName: Tainted Stink Potion
+		Tooltip: Enemies now run away from the player if close enough.
+	}
+
+	TaintedStink: {
+		DisplayName: Tainted Stink
+		Description: Enemies now run away from the player if close enough.
+	}
+
+	TaintedSummoningPotion: {
+		DisplayName: Tainted Summoning Potion
+		Tooltip:
+			'''
+			Allows for infinite minions, but minions despawn after 5 seconds.
+			'''
+	}
+
+	TaintedSummoning: {
+		DisplayName: Tainted Summoning
+		Description:
+			'''
+			Allows for infinite minions, but minions despawn after 5 seconds.
+			'''
+	}
+
+	TaintedSwiftnessPotion: {
+		DisplayName: Tainted Swiftness Potion
+		Tooltip: 25% decreased movement speed. Removes inertia.
+	}
+
+	TaintedSwiftness: {
+		DisplayName: Tainted Swiftness
+		Description: 25% decreased movement speed. Removes inertia.
+	}
+
+	TaintedThornsPotion: {
+		DisplayName: Tainted Thorns Potion
+		Tooltip: All enemies can now deflect projectiles. Deflected projectiles can hurt other enemies.
+	}
+
+	TaintedThorns: {
+		DisplayName: Tainted Thorns
+		Description: All enemies can now deflect projectiles. Deflected projectiles can hurt other enemies.
+	}
+
+	TaintedTitanPotion: {
+		DisplayName: Tainted Titan Potion
+		Tooltip: Removes knockback from weapons
+	}
+
+	TaintedTitan: {
+		DisplayName: Tainted Titan
+		Description: Removes knockback from weapons
+	}
+
+	TaintedWarmthPotion: {
+		DisplayName: Tainted Warmth Potion
+		Tooltip: Reduces damage from hot sources
+	}
+
+	TaintedWarmth: {
+		DisplayName: Tainted Warmth
+		Description: Reduces damage from hot sources
+	}
+
+	TaintedWaterWalkingPotion: {
+		DisplayName: Tainted Water Walking Potion
+		Tooltip: You can now walk on air. Walking on the ground instantly kills you.
+	}
+
+	TaintedWaterWalking: {
+		DisplayName: Tainted Water Walking
+		Description: You can now walk on air. Walking on the ground instantly kills you.
+	}
+
+	TaintedWrathPotion: {
+		DisplayName: Tainted Wrath Potion
+		Tooltip: Reduces damage to 0. All enemies automatically despawn and drop loot over time.
+	}
+
+	TaintedWrath: {
+		DisplayName: Tainted Wrath
+		Description: Reduces damage to 0. All enemies automatically despawn and drop loot over time.
+	}
+}
+
+WikiWeapons: {
+	JakeMessage1: "The name's Calamity Mod... Jake Calamity Mod."
+	JakeMessage2: "Murder!"
+	JakeMessage3: "Death!"
+	JakeMessage4: "You are now manually breathing."
+	JakeMessage5: "Alright, enemies, prepare for total annihilation!"
+	JakeMessage6: "I'm going to eat you and spit you out at other enemies!"
+	JakeMessage7: "Give 'em hell, why don'tcha?!"
+	JakeMessage8: "I shall be the calamity to your foes!"
+	JakeMessage9: "Delicious..."
+	OgsculePreHardmode: seems to do nothing?
+	OgsculeRival: A rival demonic entity is holding back its power
 }
 
 Keybinds: {

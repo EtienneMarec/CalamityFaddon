@@ -1091,6 +1091,19 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       (touche de bonus d'armure : parer un ennemi, un projectile, rien), vanités Archangel et Catarachedrae (rendu porté
       provisoire).
 
+- [ ] Lot AO (Tainted Potions, recettes du wiki : potion + Disgusting Meat) : en boire quelques-unes et vérifier l'effet de
+      la page (Archery : flèches lentes, arc rapide ; Invisibility : ennemis invisibles jusqu'au premier coup ; Water
+      Walking : marcher sur l'air, mourir au sol après 3 s ; Spelunker : minerais déguisés, ramassés en passant ; Wrath :
+      un ennemi meurt chaque seconde ; Shine : écran sombre, tirs chercheurs) ; une potion normale ne se boit pas pendant sa
+      version Tainted (et inversement)
+- [ ] Blocs du wiki (20/11) : poser Cyberlight Brick, Esseric Brick, une Flah Brick et un Compressed Stone Block (aspect
+      du bloc posé, se cassent et se ramassent)
+- [ ] Lot AP : Jake (messages en tuant), RGB Graydron (entailles arc-en-ciel), Totality Tides (boule au curseur ; centrée
+      sur soi : tirs partout), Bazooka (deux tirs par boss ; Grenade Shells chez l'Arms Dealer avec un Bazooka), Ghoststreaker
+      (4 lignes), Ogscule (rien en pré-Hardmode ; rayons en Hardmode ; Demon Eye avec 3 Ebonwood Chairs), Wisdom of
+      Survival, Terreye Staff (trio ; clic droit 5 s sur un ennemi), The Dreaming Ghost (deux papillons, +10 % dégâts, +2
+      régénération)
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

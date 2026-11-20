@@ -37,7 +37,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Axisdriver
 - [ ] Bad Apple
 - [x] Baow — addon: Calamity: Community Remix
-- [ ] Bazooka
+- [x] Bazooka
 - [x] Bittercold Staff
 - [x] Blade of Enmity
 - [ ] Bleeding Influx — addon: Calamity: Community Remix
@@ -181,7 +181,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Gearwork Shield — addon: Calamity: Community Remix
 - [ ] Gel Sword
 - [ ] Gel Wand
-- [ ] Ghoststreaker — addon: Calamity: Tales of the Aquatic
+- [x] Ghoststreaker — addon: Calamity: Tales of the Aquatic
 - [x] Glacial Crusher
 - [x] Gloomy Trident — addon: Calamity: Community Remix
 - [x] Gluehunter — addon: Calamity: Tales of the Aquatic
@@ -224,7 +224,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Infected Dagger Misses No Skeptics — addon: Calamity: Community Remix
 - [x] Infernum Kris — addon: Calamity: Community Remix
 - [x] Interfacer Staff
-- [ ] Jake
+- [x] Jake
 - [x] Jet Engine — addon: Calamity: Community Remix
 - [x] Justice and Splendor
 - [x] Lacelinous Nocturne — addon: Calamity: Tales of the Aquatic
@@ -273,7 +273,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Nystagmus — addon: Polyphemalus
 - [ ] OPFT "Sublimate" — pas de sprite
 - [x] Obsidigun
-- [ ] Ogscule — addon: Calamity's Vanities
+- [x] Ogscule — addon: Calamity's Vanities
 - [ ] Omega Ray — addon: Calamity: Community Remix
 - [x] Onyx Gunblade — addon: Calamity: Community Remix
 - [x] Onyx Minigun
@@ -312,7 +312,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Quadlens Staff — addon: Calamity: Community Remix
 - [x] Quasar
 - [x] Quintessence Cannon — addon: Deimos, the Starborn Princess, Catalyst
-- [ ] RGB Graydron
+- [x] RGB Graydron
 - [x] Raider's Glory
 - [x] Raito
 - [ ] Ram's Revenge — addon: Calamity: Community Remix
@@ -388,11 +388,11 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Terra Edge
 - [x] Terra Shiv
 - [x] Terra-cotta
-- [ ] Terreye Staff — addon: Calamity: Community Remix
+- [x] Terreye Staff — addon: Calamity: Community Remix
 - [x] Terriblade
 - [ ] Tetrachromancy — addon: Polyphemalus
 - [x] The Archalis — addon: Calamity: Community Remix
-- [ ] The Dreaming Ghost — addon: Calamity: Community Remix
+- [x] The Dreaming Ghost — addon: Calamity: Community Remix
 - [x] The Enforcer
 - [x] The First Fracturer — addon: Calamity: Community Remix
 - [x] The Food Chain
@@ -412,7 +412,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Titan Tides — addon: Catalyst
 - [x] Titanslayer
 - [x] Tomatus
-- [ ] Totality Tides — addon: Calamity: Community Remix
+- [x] Totality Tides — addon: Calamity: Community Remix
 - [x] Toxic Wisdom
 - [x] Trash of Magnus
 - [x] Trinity
@@ -450,7 +450,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Whipped Bouquet Blade — addon: Calamity: Community Remix
 - [x] Wind Turbine Blade — addon: Calamity: Community Remix
 - [ ] Winter Breeze — addon: Apotheosis and Friends
-- [ ] Wisdom of Survival — addon: Calamity: Tales of the Aquatic
+- [x] Wisdom of Survival — addon: Calamity: Tales of the Aquatic
 - [x] Wooden Butterfly Staff
 - [x] Worst Prism
 - [x] Wrath of the Ancients
@@ -779,43 +779,43 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Catastrophe Clay Ore
 - [x] Chaotic Brick
 - [x] Compressed Mana — addon: Deimos, the Starborn Princess
-- [ ] Compressed Stone Blocks — pas de sprite
+- [x] Compressed Stone Blocks — pas de sprite
 - [x] Cosmilite Slag — addon: Calamity Loot Swap, Deimos, the Starborn Princess
 - [ ] Cryoglass Brick
 - [x] Crystalplate
 - [x] Curseplate — addon: Calamity: Community Remix
-- [ ] Cyberlight Brick — addon: Calamity: Tales of the Aquatic
+- [x] Cyberlight Brick — addon: Calamity: Tales of the Aquatic
 - [ ] Darksand — addon: Calamity: Tales of the Aquatic
 - [x] Debris Ore — addon: Calamity: Tales of the Aquatic
 - [x] Dustplate — addon: Calamity: Community Remix
 - [x] Elemental Bar
-- [ ] Elemental Brick
+- [x] Elemental Brick
 - [x] Elemental Ore — addon: Calamity: Tales of the Aquatic
 - [x] Endoplate — addon: Calamity: Community Remix
-- [ ] Esseric Brick — addon: Calamity: Tales of the Aquatic
+- [x] Esseric Brick — addon: Calamity: Tales of the Aquatic
 - [ ] Esseric Cake — addon: Calamity: Tales of the Aquatic
 - [x] Esseric Ore — addon: Calamity: Tales of the Aquatic
 - [ ] Exoterrestrial Dust — addon: Calamity: Tales of the Aquatic
 - [x] Ferozium Ore
 - [ ] Field Generator
-- [ ] Flah Bricks — stub
+- [x] Flah Bricks — stub
 - [x] Flahium Bar — stub
 - [x] Flahium Slag
-- [ ] Freezing Mindustrial Plating — addon: Calamity: Tales of the Aquatic
+- [x] Freezing Mindustrial Plating — addon: Calamity: Tales of the Aquatic
 - [ ] Frigid Bar
 - [ ] Frozen Ash
 - [x] Frozen Hellstone
 - [x] Fuelplate — addon: Calamity: Community Remix
 - [ ] Grimesand
 - [x] Haunted Bar — addon: Calamity: Community Remix
-- [ ] Haunted Brick — addon: Calamity: Tales of the Aquatic
+- [x] Haunted Brick — addon: Calamity: Tales of the Aquatic
 - [x] Haunted Ore — addon: Calamity: Tales of the Aquatic
 - [x] Ichorplate — addon: Calamity: Community Remix
 - [ ] Invincible Titanic Snow — pas de sprite
 - [x] Lawplate
 - [x] Life Ore — addon: Calamity: Community Remix
 - [x] Lightly Weathered Waxed Copper Brick
-- [ ] Meld Brick
+- [x] Meld Brick
 - [ ] Meld Gunk
 - [x] Meld Ore — addon: Calamity: Tales of the Aquatic
 - [x] Mystplate
@@ -839,10 +839,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Reinforced Acidplate — addon: Calamity: Tales of the Aquatic
 - [ ] Reinforced Noctiplate — addon: Calamity: Tales of the Aquatic
 - [x] Sallowrack
-- [ ] Scalar Esseric Brick — addon: Calamity: Tales of the Aquatic
-- [ ] Scorching Mindustrial Plating — addon: Calamity: Tales of the Aquatic
+- [x] Scalar Esseric Brick — addon: Calamity: Tales of the Aquatic
+- [x] Scorching Mindustrial Plating — addon: Calamity: Tales of the Aquatic
 - [x] Shadowspec Ore — addon: Calamity Loot Swap, Catalyst
-- [ ] Shatterite Brick
+- [x] Shatterite Brick
 - [x] Shatterite Ore — addon: Calamity: Tales of the Aquatic
 - [x] Silicon Ore
 - [ ] Skylac Crystal — addon: Calamity: Tales of the Aquatic
@@ -1317,7 +1317,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Flah Round
 - [x] Flarrow
 - [ ] Frostspark Bullet
-- [ ] Grenade Shells
+- [x] Grenade Shells
 - [x] Jellyfish Cannonball
 - [ ] Klepticoin — addon: Calamity: Community Remix
 - [x] Magnum Rounds
