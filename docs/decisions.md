@@ -2470,6 +2470,21 @@ Balla, Cosmic Elemental, ennemis de surface, ennemis mécaniques) : WikiLoot les
   des touches, sans gravité ni dégâts de chute ; le joueur est dessiné en frelon (image « Hornet » de la page).
   **[technique]** Forme de frelon non synchronisée en multijoueur.
 
+### Lot AX du 20/11 : coverings composés et Earthshooter (`Content/Items/Accessories/WikiCoverings1120b.cs`)
+
+- **[technique]** Spy's Lootbox (12 ingrédients), Universal Stone (6 pierres) et Shadowspectre Tracers (Seraph Tracers +
+  Lunarspectre Tracers) : les UpdateAccessory des ingrédients sont appelés tels quels.
+- **[choix]** Shadowspectre Tracers : planche d'ailes des Seraph Tracers en attendant un sprite ; vol infini ; fées et Moon
+  Burnt des Lunarspectre Tracers. **[technique]** Pas faits : plongeon, ruée en ombre, Umbrus Fumes (pas de page),
+  debuffs renforcés.
+- **[choix]** Spy's Lootbox : la copie qui tombe = le même tir à 30 %, depuis 800 px au-dessus du curseur. **[technique]**
+  Pas faits : éclats de la copie, tornades, aura de la touche Spectral Veil, explosion quand on est touché.
+- **[choix]** Universal Stone : le Cosmic Conflict Construct = le Cosmic Elemental de la Cosmic Stone à 4002 dégâts (pas
+  d'image du construct) ; bouclier de 120 px, God Slayer Inferno 3 s toutes les 30 images. **[technique]** Cosmichid et
+  Mana Burn non faits.
+- **[choix]** « Celestial Tracers » (nom du Fandom des Seraph Tracers, `reports/renames.md`) : alias pour les recettes
+  seulement (`tools/glossary.json`), sans renommer l'objet de Calamity (à trancher, voir `docs/TESTS.md`).
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

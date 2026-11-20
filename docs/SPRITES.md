@@ -65,6 +65,7 @@ section Taming. Fichiers : `wiki_sprites_custom/<Nom>.png`.
 | Elderstone : œil de Xeroc (sbire) | Demon Eye de Terraria teinté violet (le wiki n'a qu'une illustration de 658×879) | œil ~30×30, 2 images : `wiki_sprites_custom/Xeroc Eye's Clone.png` |
 | Bad Apple : buff d'Utsuho Reiuji | icône du buff du Plague Emperor (pas d'icône d'Utsuho sur le wiki) | icône 32×32 : `wiki_sprites_custom/Utsuho Reiuji (buff).png` |
 | Hornet Round armor : rendu porté | armure Auric Tesla de Calamity (le wiki n'a que les icônes) | `wiki_sprites_custom/Hornet Round Helm (head).png`, `... Mantleplate (body).png`, `... Leggings (legs).png` |
+| Shadowspectre Tracers : ailes | planche d'ailes des Seraph Tracers de Calamity | `wiki_sprites_custom/Shadowspectre Tracers (wings).png` (format des ailes de Terraria) |
 | The Insacred Texts : portail | portail démoniaque de Calamity (`DemonPortal`), teinté rouge et aplati | grand portail rouge vu de côté, ~96×32 |
 | The Insacred Texts : bras | main du Sepulcher de Supreme Calamitas, teintée et étirée | bras qui sort du portail, ~26×80 (étiré en jeu) |
 | Elemental Claymore : Eon Beams | rayon de la Terra Blade vanilla, teinté en 4 couleurs | rayon d'épée en 4 couleurs (rose, vert, bleu, orange) |

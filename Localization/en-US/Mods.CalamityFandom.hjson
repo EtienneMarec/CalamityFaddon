@@ -4465,6 +4465,51 @@ Items: {
 			+60 max health and mana, 50% increased movement speed
 			'''
 	}
+	ShadowspectreTracers: {
+		DisplayName: Shadowspectre Tracers
+		Tooltip:
+			'''
+			Counts as wings
+			Horizontal speed: 15
+			Acceleration Multiplier: 3
+			Excellent vertical speed
+			Flight Time: Infinite
+			Increased defense, life regeneration, jump speed, movement speed, acceleration and deceleration
+			The wearer can run super fast, auto-jump and walk on liquids
+			Greater mobility on ice
+			Entropic fairies are spawned while running, exploding upon contacting enemies
+			'''
+	}
+
+	SpysLootbox: {
+		DisplayName: Spy's Lootbox
+		Tooltip:
+			'''
+			+30 maximum stealth
+			12% increased spy damage, and 12% increased spy crit chance
+			Vastly reduces enemy aggression, even in the abyss
+			Stealth generates 50% faster when standing still
+			Stealth strikes have a 100% critical hit chance
+			Stealth strikes only expend 50% of your max stealth
+			A copy of your weapon falls downward from the sky each use which deals 30% of the weapon's damage
+			'''
+	}
+
+	UniversalStone: {
+		DisplayName: Universal Stone
+		Tooltip:
+			'''
+			The true potential of a lesser elemental
+			Summons an cosmic conflict construct to fight for you
+			Summons a cosmic shield around you that inflicts God Slayer Inferno
+			50% increased flight time
+			'''
+	}
+
+	Earthshooter: {
+		DisplayName: Earthshooter
+		Tooltip: Shoots 2 homing darts into your enemies
+	}
 }
 
 Projectiles: {

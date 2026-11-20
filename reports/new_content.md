@@ -138,7 +138,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Duet Hit — addon: Calamity: Tales of the Aquatic
 - [x] EXO-LOTL Staff — addon: Calamity: Community Remix
 - [x] Earthen Clicker
-- [ ] Earthshooter — addon: Calamity: Tales of the Aquatic
+- [x] Earthshooter — addon: Calamity: Tales of the Aquatic
 - [x] Ecological Collapse
 - [ ] Electrical Discharge
 - [x] Elemental Bow
@@ -715,7 +715,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Sanguined Catarachedrae — addon: Calamity: Tales of the Aquatic
 - [x] Sea Shell
 - [x] Seascapist Mobilite Fragment — addon: Calamity: Tales of the Aquatic
-- [ ] Shadowspectre Tracers — addon: Calamity: Tales of the Aquatic
+- [x] Shadowspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [ ] Shattered Module — addon: Calamity: Tales of the Aquatic
 - [x] Shatterspectre Tracers — addon: Calamity: Tales of the Aquatic
 - [x] Silva Module — addon: Calamity: Tales of the Aquatic
@@ -742,7 +742,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Thrower's Gauntlet — addon: Calamity: Community Remix
 - [ ] Treasured Family Pendant — addon: Calamity: Community Remix
 - [x] Tree-Crown Wings
-- [ ] Universal Stone — addon: Calamity: Community Remix
+- [x] Universal Stone — addon: Calamity: Community Remix
 - [ ] Void Artifact — addon: Calamity: Tales of the Aquatic
 - [x] Warbanner of the Sun
 - [ ] Wings — pas de sprite

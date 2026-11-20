@@ -1131,7 +1131,14 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       deviennent des 22 Hornet Rounds (casque), touche de bonus d'armure : frelon qui vole partout, les nains disparaissent ;
       +2 de régénération à l'arrêt
 
+- [ ] Lot AX : Shadowspectre Tracers (ailes, vol sans fin, fées), Spy's Lootbox (effets des 12 ingrédients, copie qui tombe
+      du ciel à chaque tir de spy), Universal Stone (effets des 6 pierres, Cosmic Elemental très fort, bouclier violet),
+      Earthshooter (2 fléchettes chercheuses)
+
 ## Décisions en attente (pas des tests)
+
+- [ ] (20/11) **Seraph Tracers** : le Fandom les appelle « Celestial Tracers » (redirection, `reports/renames.md`). Renommer
+      l'objet de Calamity comme Graydron / Murasama ? Pour l'instant, alias pour les recettes seulement.
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).
 - **Difficulté du Taming** (31/10) : propositions boss par boss pour Calamity++ dans `docs/decisions.md` (section Taming).

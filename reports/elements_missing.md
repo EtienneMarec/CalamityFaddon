@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (97)
+## Objets (96)
 
 - A M S
 - AAMG "Disperse"
@@ -102,7 +102,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Divine Hunters Staff
 - Draftogen
 - Drained Catarachedrae
-- Earthshooter
 - Edgeterrence
 - Electrical Discharge
 - Elusive Feather

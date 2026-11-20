@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1811 objets dont les recettes ont changé : 1052 recettes modifiées, 872 créées
+- 1815 objets dont les recettes ont changé : 1052 recettes modifiées, 877 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 66 transmutations Shimmer ajoutées
@@ -522,6 +522,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Dusty Axe | (nouvelle) | 50 Bone, 5 Iron Bar @ Anvils → 1 |
 | Early Bloom Rod | 8 Tarragon Bar @ MythrilAnvil → 1 | 1 Wood Fishing Pole, 10 Tarragon Bar @ LunarCraftingStation → 1 |
 | Earth Destruction Core | (nouvelle) | 1 Babil Destruction Core, 5 Living Shard @ AquaticHypercomputerStatic → 1 |
+| Earthshooter | (nouvelle) | 1 Palladium Dartshooter, 5 Living Shard @ AquaticHypercomputerStatic → 1 |
 | Eclipse Mirror | 1 Abyssal Mirror, 1 Dark God's Sheath, 20 Darksun Fragment @ CosmicAnvil → 1 | 1 Abyssal Mirror, 1 Dark God's Sheath, 20 Darksun Fragment, 4 Yharim Bar @ CosmicAnvil → 1 |
 | Eclipse's Fall | 1 Night's Gaze, 5 Auric Bar, 15 Darksun Fragment @ CosmicAnvil → 1 | 1 Night's Gaze, 12 Core of Sunlight, 8 Cosmilite Bar, 8 Darksun Fragment @ CosmicAnvil → 1 |
 | Ecological Collapse | (nouvelle) | 1 Metal Monstrosity, 20 Reaper Tooth, 20 Lumenyl, 20 Tenebris, 5 Subnautical Plate, 5 Yharim Bar @ CosmicAnvil → 1 |
@@ -1353,7 +1354,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Septuple Compressed Stone Block | (nouvelle) | 9 Sextuple Compressed Stone Block @ MythrilAnvil → 1 |
 | Septuple Compressed Stone Block | (nouvelle) | 1 Sextuple Compressed Stone Block @ MythrilAnvil → 9 |
 | Septuple Compressed Stone Block | (nouvelle) | 1 Octuple Compressed Stone Block @ MythrilAnvil → 9 |
-| Seraph Tracers | 1 Elysian Tracers, 5 Auric Bar, 3 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Any Wings, 1 Angel Treads, 3 Core of Calamity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
+| Seraph Tracers | (nouvelle) | 1 Any Wings, 1 Angel Treads, 3 Core of Calamity, 5 Life Alloy, 5 Luminite Bar @ LunarCraftingStation → 1 |
+| Seraph Tracers | 1 Elysian Tracers, 5 Auric Bar, 3 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Elysian Tracers, 1 Drew's Wings, 5 Auric Bar @ CosmicAnvil → 1 |
 | Sextuple Compressed Stone Block | (nouvelle) | 9 Quintuple Compressed Stone Block @ Anvils → 1 |
 | Shadecrystal Barrage | 1 Crystal Storm, 12 Cryonic Bar @ Bookcases → 1 | 1 Crystal Storm, 6 Cryonic Bar @ Bookcases → 1 |
 | Shaderain Staff | (nouvelle) | 2 Rotten Chunk, 3 Demonite Bar, 12 Rotten Matter @ DemonAltar → 1 |
@@ -1367,6 +1369,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Shadowbolt Staff | 1 Shadowbeam Staff, 2 Ruinous Soul, 1 Armored Shell @ MythrilAnvil → 1 | 3 Armored Shell, 2 Haunted Bar, 1 Shadowbeam Staff, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Shadowflame Hades Dye | (nouvelle) | 1 Bottled Water, 2 Living Demon Fire Block @ DyeVat → 1 |
 | Shadowspec Dye | 10 Bottled Water, 1 Shadowspec Bar @ DyeVat → 10 | 2 Bottled Water, 1 Shadowspec Bar @ DyeVat → 2 |
+| Shadowspectre Tracers | (nouvelle) | 1 Seraph Tracers, 1 Lunarspectre Tracers, 5 Shadowspec Bar @ AquaticHypercomputerERM → 1 |
 | Shard of Antumbra | 18 Meld Blob @ LunarCraftingStation → 1 | 1 Meld Bar @ LunarCraftingStation → 100 |
 | Shardlight Pickaxe | 18 Cryonic Bar @ MythrilAnvil → 1 | 7 Cryonic Bar @ MythrilAnvil → 1 |
 | Shattered Sun | 1 Radiant Star, 6 Divine Bar @ MythrilAnvil → 1 | 1 Radiant Star, 1 Molten Piercer, 6 Divine Bar @ LunarCraftingStation → 1 |
@@ -1479,6 +1482,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Spirit Glyph | 5 Diamond, 15 Obsidian @ Anvils → 1 | 15 Any Iron Bar, 5 Essence of Law @ Anvils → 1 |
 | Spiteful Candle | (nouvelle) | 1 Peace Candle, 987 Essence of Chaos, 1098 Essence of Sunlight @ CrystalBall → 1 |
 | Spore Knife | 12 Jungle Spores, 8 Stinger @ Anvils → 1 | 10 Jungle Spores, 5 Stinger @ Anvils → 1 |
+| Spy's Lootbox | (nouvelle) | 1 Nanotech, 1 Vampiric Talisman, 1 Eclipse Mirror, 1 Blunder Booster, 1 Dragon Scales, 1 Ethereal Extorter, 1 Venerated Locket, 1 Glove of Precision, 1 Glove of Recklessness, 1 Old Die, 1 Sand Cloak, 1 Scuttler's Jewel, 1 Spectral Veil, 1 Thief's Dime, 1 Rotten Dogtooth, 5 Ashes of Annihilation, 22 Yharim Bar, 5 Crystal of the Cyborg @ CosmicAnvil → 1 |
 | Spyker | 1 Needler, 1 Stynger, 10 Tarragon Bar @ MythrilAnvil → 1 | 1 Needler, 1 Stynger, 1 Blow Pipe, 5 Tarragon Bar, 5 Crystal of the Dryad @ LunarCraftingStation → 1 |
 | Squirrel Baron Staff | (nouvelle) | 1 Squirrel Knight Staff, 5 Mollusk Husk, 50 Prism Shard, 1 Surf Clam @ Anvils → 1 |
 | Squirrel Count Staff | (nouvelle) | 1 Squirrel Viscount Staff, 14 Solar Fragment, 5 Unholy Core @ LunarCraftingStation → 1 |
@@ -1821,6 +1825,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Unicorn Wisp Dye | (nouvelle) | 1 Bottled Water, 1 Core of Sunlight @ DyeVat → 1 |
 | Universal Genesis | 1 Conference Call, 3 Star Cloak, 5 Cosmilite Bar, 4 Ascendant Spirit Essence @ CosmicAnvil → 1 | 1 Disseminator, 3 Star Cloak, 2 Armored Shell, 8 Cosmilite Bar, 5 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Universal Genesis | (nouvelle) | 1 Disseminator, 3 Star Cloak, 2 Armored Shell, 1 Nebulous Core, 5 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| Universal Stone | (nouvelle) | 1 Aero Stone, 1 Cryo Stone, 1 Metamorphic Stone, 1 Chaos Stone, 1 Bloom Stone, 1 Cosmic Stone, 10 Cosmilite Bar, 5 Ascendant Spirit Essence, 100 Yharim Bar @ CosmicAnvil → 1 |
 | Unloxcalibur | (nouvelle) | 1 Roxcalibur, 1 Extractinator, 1 Solar Fragment, 1 Golden Key @ LunarCraftingStation → 1 |
 | Unsafe Eutrophic Sand Wall | (nouvelle) | 1 Eutrophic Sand @ WorkBenches → 4 |
 | Unsafe Navystone Wall | (nouvelle) | 1 Navystone @ WorkBenches → 4 |
