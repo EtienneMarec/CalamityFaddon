@@ -2451,6 +2451,17 @@ Balla, Cosmic Elemental, ennemis de surface, ennemis mécaniques) : WikiLoot les
 - **[technique]** Entropic Refiner : 4 × 4 cases comme l'image du bloc posé (la page dit 3 × 3) ; Static Refiner, Crystal
   Ball, sources d'eau, de lave, de miel et de Shimmer.
 
+### Lot AV du 20/11 : armes (`Content/Items/Weapons/WikiWeapons1120c.cs`)
+
+- **[choix]** Charity : dégâts du tableau ajoutés à ceux de la pièce (cuivre 15, argent 60 ; or 240 et platine 960 en
+  continuant la progression, la page s'arrête à l'argent) ; Midas 10 s (argent) et 20 s (or).
+- **[choix]** Cobadium Rifle : affiché « Palladium Dartshooter », le nom de l'infobox, du texte et des recettes ; écart de 4°.
+- **[choix]** Frostflow Edge : la perte de vie du clic droit ne tue pas (1 PV au moins) ; une vague glaciale par coup
+  pendant le renfort ; les 4 % / 2 % sont une frappe directe (ni défense ni réduction), tête des vers seulement.
+- **[choix]** Omega Ray : un laser par tir à gauche ; le rayon du clic droit se divise au bout de 20 images en 5 lasers.
+- **[choix]** Flame Boy Popsicle : un esquimau à la fois, perdu (rang remis à zéro) s'il n'est pas ramassé en 5 s ;
+  tourbillon de 200 px (300 en S+) ; 6 éclats au rang U ; dégâts et critique du rang en cours (tableau de la page).
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

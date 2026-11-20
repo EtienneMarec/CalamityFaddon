@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1803 objets dont les recettes ont changé : 1052 recettes modifiées, 863 créées
+- 1808 objets dont les recettes ont changé : 1052 recettes modifiées, 869 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 66 transmutations Shimmer ajoutées
@@ -357,6 +357,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Chaotic Brick Wall | (nouvelle) | 1 Chaotic Brick @ WorkBenches → 4 |
 | Charged Dart Blaster | (nouvelle) | 1 Dart Rifle / Dart Pistol, 25 Martian Conduit Plating, 3 Core of Babil, 5 Vortex Fragment, 5 Crystal of the Cyborg @ LunarCraftingStation → 1 |
 | Charged Wulfrum Battery | (nouvelle) | 25 Wulfrum Bar, 3 Energy Core, 1 Energy Orb @ Anvils → 1 |
+| Charity | (nouvelle) | 1 Cent Striker, 3 Life Alloy, 5 Living Shard @ AquaticHypercomputerVault → 1 |
 | Charred Idol | 5 Unholy Core, 7 Essence of Chaos, 5 Soul of Night @ Hellforge → 1 | 5 Soul of Night, 7 Essence of Chaos, 2 Unholy Core @ AdamantiteForge → 1 |
 | Chemicircle | (nouvelle) | 1 Kraken, 1 Toxic Flask, 15 Plague Cell Canister, 10 Infected Armor Plating, 20 Bottle @ AquaticHypercomputerCapsules → 1 |
 | Chez | (nouvelle) | 4 Shattered Start Block, 3 Nachos, 10 Mouse @ CookingPots → 1 |
@@ -680,6 +681,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Flahium Component | (nouvelle) | 3 Alloy Bar, 16 Aerialite Ore, 16 Arsenic Ore, 16 Charred Ore, 16 Cryonic Ore, 16 Perennial Ore, 16 Apocalyptic Ore, 16 Abyss Ore, 16 Life Ore, 16 Astral Ore, 15 Meld Blob, 100 Stardust, 75 Blood Orb, 15 Parched Scale, 15 Rotten Matter, 15 Blood Sample, 15 Purified Gel, 15 Ashes of Calamity, 15 Living Shard, 15 Plague Cell Canister, 10 Core of Calamity, 10 Orb of Boon, 15 Life Alloy, 22 Delicious Meat, 22 Disgusting Meat, 8 Soul of Plight, 8 Soul of Bright, 8 Soul of Night, 8 Soul of Light, 8 Soul of Flight, 8 Soul of Sight, 8 Soul of Might, 8 Soul of Fright, 5 Herb Bag, 1 Bloody Vein @ Autohammer → 2 |
 | Flahium Slag | (nouvelle) | 1 Reclaimed Flah, 2 Exo Prism, 1 Miracle Matter, 2 Ashes of Annihilation, 120 Any Silt Block, 1 Flahium Component @ DraedonsForge → 12 |
 | Flak Kraken | 1 Flak Toxicannon, 20 Voidstone, 20 Depth Cells @ MythrilAnvil → 1 | 1 Flak Toxicannon, 20 Depth Cells, 10 Lumenyl, 10 Crocodile Scale @ MythrilAnvil → 1 |
+| Flame Boy Popsicle | (nouvelle) | 1 Miracle Matter, 1 The Last Lightice, 1 Brimblade, 10 Wood, 30 Ice Cream, 5 Shadowspec Bar @ DraedonsForge → 1 |
 | Flare Blade | (nouvelle) | 8 Hellstone Bar @ Hellforge → 1 |
 | Flare Bolt | 10 Hellstone Bar, 5 Fireblossom, 1 Ruby @ Bookcases → 1 | 6 Hellstone Bar, 9 Obsidian, 2 Fireblossom, 1 Lava Bucket @ Bookcases → 1 |
 | Flarefrost Blade | 10 Cryonic Bar, 10 Hellstone Bar, 10 Soul of Light @ MythrilAnvil → 1 | 1 Frost Blade, 1 Flare Blade, 3 Soul of Light, 5 Essential Essence Bar @ MythrilAnvil → 1 |
@@ -709,6 +711,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Frost Blossom Staff | 50 Any Ice Block, 10 Boreal Wood, 5 Shiverthorn @ Anvils → 1 | 5 Shiverthorn, 5 Any Snow Block, 5 Any Ice Block @ Anvils → 1 |
 | Frost Bolt | 20 Any Ice Block, 10 Any Snow Block, 2 Shiverthorn, 1 Sapphire @ Bookcases → 1 | 20 Any Ice Block, 2 Shiverthorn, 10 Any Snow Block, 1 Water Bucket @ Bookcases → 1 |
 | Frostcrush Valari | 1 Kylie, 6 Cryonic Bar, 5 Ectoplasm @ MythrilAnvil → 1 | 1 Kylie, 6 Cryonic Bar, 40 Voidstone, 5 Core of Eleum, 2 The sword is inside the core @ IceMachine → 1 |
+| Frostflow Edge | (nouvelle) | 20 Hydrastatic Energy, 20 Skylac Sand, 20 Waterfreeze Reactive Core, 20 Enchanted Metal, 1 RGB Graydron, 20 Rivers of Frost @ AquaticHypercomputerERM → 1 |
 | Frozen Chestplate | (nouvelle) | 20 Enchanted Metal, 1 Molten Breastplate @ Hellforge → 1 |
 | Frozen Greaves | (nouvelle) | 15 Enchanted Metal, 1 Molten Greaves @ Hellforge → 1 |
 | Frozen Turtle Shell | (nouvelle) | 3 Turtle Shell, 9 Essence of Eleum @ IceMachine → 1 |
@@ -1079,6 +1082,8 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Omega Blue Helmet | 3 Reaper Tooth, 15 Depth Cells, 1 Ruinous Soul @ MythrilAnvil → 1 | 8 Reaper Tooth, 5 Lumenyl, 5 Tenebris, 2 Ruinous Soul, 5 Crystal of the Dryad, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Omega Blue Tentacles | 4 Reaper Tooth, 20 Depth Cells, 2 Ruinous Soul @ MythrilAnvil → 1 | 10 Reaper Tooth, 6 Lumenyl, 6 Tenebris, 3 Ruinous Soul, 5 Crystal of the Dryad, 5 Crystal of the Wicked @ LunarCraftingStation → 1 |
 | Omega Healing Potion | 20 Supreme Healing Potion, 1 Ascendant Spirit Essence @ Bottles → 20 | 1 Supreme Healing Potion, 50 Delicious Meat, 5 Bloodstone, 90 Yharim Bar @ CosmicAnvil → 1 |
+| Omega Ray | (nouvelle) | 5 Alpha Ray, 1 Ogscule, 5 Auric Bar, 5 Ascendant Spirit Essence @ CosmicAnvil → 1 |
+| Omega Ray | (nouvelle) | 5 Genesis, 10 Wingman, 1 Ogscule, 5 Auric Bar, 5 Ascendant Spirit Essence @ CosmicAnvil → 1 |
 | Omniblade | 1 Katana, 5 Life Alloy, 2 Core of Calamity @ MythrilAnvil → 1 | 1 Katana, 20 Life Alloy, 10 Core of Calamity @ MythrilAnvil → 1 |
 | Omnicidal Sludge Bar | (nouvelle) | 2 Apocalyptic Bar, 2 Life Alloy, 1 Meld Bar, 1 Purified Gel, 1 Quark-Gluon Sludge @ EntropicRefinerTile → 3 |
 | Onyx Chain Blaster | 1 Onyx Blaster, 1 Chain Gun, 5 Luminite Bar @ MythrilAnvil → 1 | 1 Onyx Blaster, 1 Chain Gun, 5 Luminite Bar @ LunarCraftingStation → 1 |
@@ -1117,6 +1122,7 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Otherworldly Work Bench | 10 Otherworldly Stone @ main → 1 | 10 Otherworldly Stone @ LunarCraftingStation → 1 |
 | Overloaded Combatant Blaster | (nouvelle) | 1 Coldetecht, 1 Onyx Minigun, 1 Soma Prime, 20 Stiriatic Bar @ AquaticHypercomputerFinished → 1 |
 | Overloaded Sludge | 40 Blighted Gel, 40 Any Evil Block @ DemonAltar → 1 | 40 Blighted Gel, 40 Any Evil Block, 1 Alloy Bar @ DemonAltar → 1 |
+| Palladium Dartshooter | (nouvelle) | 10 Palladium Bar, 100 Poison Dart @ AquaticHypercomputerStatic → 1 |
 | Palladium Javelin | 10 Palladium Bar @ Anvils → 1 | 1 Palladium Bar @ Anvils → 20 |
 | Palladium Light Circuit | (nouvelle) | 50 Palladium Bar, 20 Essence of Sunlight, 50 Soul of Light @ AquaticHypercomputerStatic → 1 |
 | Pastranion | (nouvelle) | 1 Contaminated Dish, 1 Spaghetti, 10 Exo Prism, 5 Soul of Plight @ DraedonsForge → 1 |

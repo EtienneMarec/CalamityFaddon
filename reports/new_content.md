@@ -72,7 +72,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Chain Spear — addon: Calamity: Community Remix
 - [ ] Chain-Saw — addon: Polyphemalus
 - [x] Charged Dart Blaster
-- [ ] Charity — addon: Calamity: Tales of the Aquatic
+- [x] Charity — addon: Calamity: Tales of the Aquatic
 - [x] Chemicircle — addon: Calamity: Tales of the Aquatic
 - [ ] Chilled Soda Blade — addon: Calamity: Community Remix
 - [ ] Christmas Carol — addon: Apotheosis and Friends
@@ -81,7 +81,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Cirrhotipede — addon: Calamity: Community Remix
 - [x] Clamor Noctus
 - [x] Clamor Noxus — addon: Calamity: Community Remix
-- [ ] Cobadium Rifle — addon: Calamity: Tales of the Aquatic
+- [x] Cobadium Rifle — addon: Calamity: Tales of the Aquatic
 - [x] Coldant Firestarter
 - [x] Coldetecht — addon: Calamity: Tales of the Aquatic
 - [ ] Conclave Crossfire
@@ -161,7 +161,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Fakenado Staff
 - [ ] Fina's Gun — addon: Calamity: Community Remix
 - [x] First Crescent — addon: Calamity: Tales of the Aquatic
-- [ ] Flame Boy Popsicle — addon: Calamity: Community Remix
+- [x] Flame Boy Popsicle — addon: Calamity: Community Remix
 - [x] Flaming Ice Bow — addon: Calamity: Community Remix
 - [x] Flare Blade
 - [ ] Fleshly Megaphone — addon: Calamity: Community Remix
@@ -171,7 +171,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Fracturing Fist — addon: Calamity: Community Remix
 - [x] Frightshooter — addon: Calamity: Tales of the Aquatic
 - [x] Frost Blade
-- [ ] Frostflow Edge — addon: Calamity: Tales of the Aquatic
+- [x] Frostflow Edge — addon: Calamity: Tales of the Aquatic
 - [x] Fulguration Halberd
 - [x] Gamma Ray Burst — addon: Deimos, the Starborn Princess, Deimos, the Starborn Princess
 - [x] Garth
@@ -274,7 +274,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] OPFT "Sublimate" — pas de sprite
 - [x] Obsidigun
 - [x] Ogscule — addon: Calamity's Vanities
-- [ ] Omega Ray — addon: Calamity: Community Remix
+- [x] Omega Ray — addon: Calamity: Community Remix
 - [x] Onyx Gunblade — addon: Calamity: Community Remix
 - [x] Onyx Minigun
 - [x] Onyx Purge

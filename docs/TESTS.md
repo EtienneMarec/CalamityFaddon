@@ -1123,6 +1123,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       droit : la boule casse les blocs), Demon Core (aura violette ; furtif : nuage), Salt Booklet (Sulphurous Sand à
       l'Extractinator) puis Salt Water Bolt, Miracle Coin et Klepticoin dans The Ones Striker (chaînes de 14 et 10 pièces)
 
+- [ ] Lot AV : Charity, Palladium Dartshooter (2 fléchettes), Frostflow Edge (1 dégât + 4 % de la vie ; clic droit avec le
+      mana plein : moitié de la vie, vagues ; dans l'eau sous 40 défense : perte de vie), Omega Ray (5 rayons ; clic droit),
+      Flame Boy Popsicle (ramasser l'esquimau après un coup : rang D → U affiché, explosions, tourbillon, éclats)
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

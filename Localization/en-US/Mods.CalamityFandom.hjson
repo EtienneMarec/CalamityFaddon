@@ -4403,6 +4403,45 @@ Items: {
 		DisplayName: Entropic Refiner
 		Tooltip: Used for special crafting
 	}
+	Charity: {
+		DisplayName: Charity
+		Tooltip: Mediocre coin shooter
+	}
+
+	PalladiumDartshooter: {
+		DisplayName: Palladium Dartshooter
+		Tooltip: Shoots 2 fast darts at a time
+	}
+
+	FrostflowEdge: {
+		DisplayName: Frostflow Edge
+		Tooltip:
+			'''
+			Drains a percentage of enemy health on hit
+			Right click to drain all current mana and a percentage of your own health to empower the sword
+			Cannot inflict critical hits
+			Player starts taking severe damage when fully submerged in water with less than 40 defense
+			'''
+	}
+
+	OmegaRay: {
+		DisplayName: Omega Ray
+		Tooltip:
+			'''
+			Disintegrates everything with a penta-beam of energy and lasers
+			Right click to fire an ogscule-shaped beam of destructive energy that split into randomly spinning lasers
+			'''
+	}
+
+	FlameBoyPopsicle: {
+		DisplayName: Flame Boy Popsicle
+		Tooltip:
+			'''
+			Freestyle your opponents with this one!
+			Stealth Strike empowers its potential
+			[c/FE581C:'You think you can be cool doing sick popsicle tricks like me? mmmm? mmmmm???']
+			'''
+	}
 }
 
 Projectiles: {
@@ -5221,6 +5260,25 @@ Projectiles: {
 
 	ArmageddonBall: {
 		DisplayName: Armageddon Ball
+	}
+	GlacialWave: {
+		DisplayName: Glacial Piler Wave
+	}
+
+	OmegaBeam: {
+		DisplayName: Omega Beam
+	}
+
+	OmegaLaser: {
+		DisplayName: Laser
+	}
+
+	PopsicleProj: {
+		DisplayName: Flame Boy Popsicle
+	}
+
+	PopsicleShard: {
+		DisplayName: Ice Shard
 	}
 }
 

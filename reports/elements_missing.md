@@ -74,7 +74,7 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Yharim Worm
 - Youkai Miko
 
-## Objets (102)
+## Objets (97)
 
 - A M S
 - AAMG "Disperse"
@@ -92,10 +92,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Butcher's Glove
 - Catarachedrae
 - Chain-Saw
-- Charity
 - Chilled Soda Blade
 - Christmas Carol
-- Cobadium Rifle
 - Corrupt Hypno Flute
 - Dart Sun
 - Deadflower
@@ -110,10 +108,8 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Elusive Feather
 - Exactory Dartshooter
 - Exo Dragonblade
-- Flame Boy Popsicle
 - Fleshly Megaphone
 - Flint
-- Frostflow Edge
 - Gel Sword
 - Gel Wand
 - Genisis
@@ -138,7 +134,6 @@ _Généré par l'auto-test._ Contenu pas encore créé, ou nom différent.
 - Neutron Star
 - Noxcalibur
 - Nystagmus
-- Omega Ray
 - Onyx Overlord's Gunsaw
 - OPFT "Sublimate"
 - Outplanetary Dartshooter
