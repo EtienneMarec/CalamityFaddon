@@ -92,6 +92,12 @@ def redirect_aliases(names):
         renamed = transform(name, rules, protected)
         if renamed != name and (name not in aliases or norm(aliases[name]) in groups):
             aliases[name] = renamed
+    # Objets de lore (20/11) : « Golem (Lore) » redirige vers la page de groupe « Lore items » ; le nom en jeu est celui du
+    # tableau de cette page (tools/lore_items.py, le même que gen_localization.py donne à l'objet de Calamity)
+    from lore_items import wiki_lore_names
+    for title, display in wiki_lore_names().items():
+        if title in names and title not in manual:
+            aliases[title] = transform(display, rules, protected)
     return aliases
 
 
