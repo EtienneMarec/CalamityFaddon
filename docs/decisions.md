@@ -2408,8 +2408,8 @@ de buff, une instance par potion ; icône du buff vanilla (celle du tableau). Le
   vraie mêlée.
 - **[choix]** Quantum Flahium Ejection Device : flahblade toutes les 30 images par tir de spy (7 au plus) ; 3 flares
   (300) au premier instant d'une frappe furtive. **[technique]** Ruée « Booster Dash » (texte coupé sur la page) non faite.
-- **[choix]** Zenith Arcanum : « +20 % de défense » = un cinquième de la défense ajouté ; « Demon Flames » = Brimstone
-  Flames ; un membre squelettique au plus toutes les 30 images. **[technique]** Plague, Sulphur Elemental et Young Duke
+- **[choix]** Zenith Arcanum : « +20 % de défense » = un cinquième de la défense ajouté ; un membre squelettique au plus
+  toutes les 30 images. Demon Flames : le debuff du wiki (lot BC ; Brimstone Flames avant). **[technique]** Plague, Sulphur Elemental et Young Duke
   n'existent pas dans Calamity : absents.
 
 ### Lot AR du 20/11 : objets simples (`Content/Items/WikiItems1120.cs`)
@@ -2529,6 +2529,20 @@ Objets que les pages d'objets font tomber en Expert, Revengeance ou Death (lus d
   ennemi touché par une ligne offensive subit 3 petites explosions (135 % au total) quand on relâche.
 - **[technique]** La recette du Plague Caller MK III demande deux objets sans page (The Inflator's Controller, Li'l
   Mine) : il ne s'obtient que par le butin de la Plaguebringer Goliath.
+
+### Lot BC du 20/11 : debuffs du wiki (`Content/Buffs/WikiDebuffs1120.cs`)
+
+Demon Flames, Embers of Civilization, Hemophilia, Umbric Fumes, Lunar Aura, Accelerated Photosynthesis, Hemorrhaging,
+Horror, Silva Stun : effets de l'infobox sur le joueur et sur les ennemis (perte de vie par seconde, défense, dégâts).
+
+- **[choix]** Demon Flames infligé par toutes les armes avec la Demonshade armor (page du debuff), 5 s ; remplace Brimstone
+  Flames dans le Zenith Arcanum. Umbric Fumes (« Umbrus Fumes » de la page) : toutes les attaques avec les Shadowspectre
+  Tracers, 3 s.
+- **[choix]** Embers of Civilization sur un ennemi : « -15 % de réduction des dégâts » = +15 % de dégâts reçus. Silva
+  Stun et Accelerated Photosynthesis n'arrêtent pas les boss.
+- **[technique]** Pas faits : gain de défense de Hemophilia pour celui qui l'inflige, déformation de la vision d'Umbric Fumes.
+- **[technique]** Pages de debuffs qui décrivent des mécaniques de Calamity sous un autre nom (temps de recharge des
+  armures, Elysian Guard...) ou d'anciennes versions (Freezing Weather, Heat Exhaustion) : laissées de côté.
 
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 

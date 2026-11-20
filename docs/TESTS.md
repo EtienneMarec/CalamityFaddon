@@ -1150,6 +1150,9 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
 
 - [ ] Blocs de biomes (20/11, Cheat Sheet) : Plagued Stone, Baronsand, Torrefied Tephra, Tanzanite Glass... se posent et se cassent
 
+- [ ] Lot BC : Demonshade armor complète : les ennemis touchés prennent Demon Flames (perte de vie énorme, poussière violette) ;
+      Shadowspectre Tracers : Umbric Fumes ; Zenith Arcanum : Demon Flames parmi les debuffs des sbires
+
 ## Décisions en attente (pas des tests)
 
 - [ ] (20/11) **Seraph Tracers** : le Fandom les appelle « Celestial Tracers » (redirection, `reports/renames.md`). Renommer

@@ -872,7 +872,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 
 - [x] Ablaze — pas de sprite
 - [x] Abyssal Flames
-- [ ] Accelerated Photosynthesis
+- [x] Accelerated Photosynthesis
 - [x] Ancient Astral Blight
 - [ ] Astral Infection (debuff)
 - [ ] Bleeding — pas de sprite
@@ -886,10 +886,10 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [ ] Darkness — pas de sprite
 - [ ] Deadlock — pas de sprite; addon: Tranquility Mod
 - [ ] Defiled One
-- [ ] Demon Flames
+- [x] Demon Flames
 - [x] Discombobulated — pas de sprite
 - [ ] Electrified — pas de sprite
-- [ ] Embers of Civilization
+- [x] Embers of Civilization
 - [ ] Embers of Duality — addon: Deimos, the Starborn Princess
 - [x] Envenomed — pas de sprite
 - [ ] Envoidment — addon: Tranquility Mod
@@ -904,14 +904,14 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Glacial State
 - [ ] God Slayer Cooldown
 - [ ] Heat Exhaustion
-- [ ] Hemophilia
-- [ ] Hemorrhaging
+- [x] Hemophilia
+- [x] Hemorrhaging
 - [x] Hexed — pas de sprite
-- [ ] Horror
+- [x] Horror
 - [ ] Ichor (debuff) — pas de sprite
 - [x] Incapacitated — pas de sprite
 - [x] Lacerated — pas de sprite
-- [ ] Lunar Aura
+- [x] Lunar Aura
 - [x] Malfunctioning — pas de sprite
 - [x] Nightclear — addon: Calamity: Tales of the Aquatic
 - [x] Noctactricity — addon: Calamity: Tales of the Aquatic
@@ -925,12 +925,12 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Radiation Sickness — pas de sprite
 - [ ] Reactive Flames — addon: Calamity: Tales of the Aquatic
 - [x] Shocked — pas de sprite
-- [ ] Silva Stun
+- [x] Silva Stun
 - [ ] Slow — pas de sprite
 - [x] Smitten — pas de sprite
 - [ ] Tarragon Cloak Cooldown
 - [ ] Tarragon Immunity Cooldown
-- [ ] Umbric Fumes — addon: Apotheosis and Friends
+- [x] Umbric Fumes — addon: Apotheosis and Friends
 - [ ] Venom — pas de sprite
 - [x] War Cleave
 - [x] Waterlogged — pas de sprite

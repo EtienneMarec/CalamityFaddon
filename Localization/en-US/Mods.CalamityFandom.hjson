@@ -6020,6 +6020,53 @@ Buffs: {
 		DisplayName: Arcanoid Orb
 		Description: The orb hovers where you left it
 	}
+	DemonFlames: {
+		DisplayName: Demon Flames
+		Description: Another flames debuff...
+	}
+
+	EmbersofCivilization: {
+		DisplayName: Embers of Civilization
+		Description:
+			'''
+			Ashes to ashes, bronze to bronze
+			'''
+	}
+
+	Hemophilia: {
+		DisplayName: Hemophilia
+		Description: Your blood is uncontrollably leaking.
+	}
+
+	UmbricFumes: {
+		DisplayName: Umbric Fumes
+		Description: A cosmic affliction spreads throughout your body
+	}
+
+	LunarAura: {
+		DisplayName: Lunar Aura
+		Description: Incinerated by lunar rays
+	}
+
+	AcceleratedPhotosynthesis: {
+		DisplayName: Accelerated Photosynthesis
+		Description: Massively reduced movement speed
+	}
+
+	Hemorrhaging: {
+		DisplayName: Hemorrhaging
+		Description: You're losing way too much blood
+	}
+
+	Horror: {
+		DisplayName: Horror
+		Description: The horror...
+	}
+
+	SilvaStun: {
+		DisplayName: Silva Stun
+		Description: Can't move
+	}
 }
 
 Modes: {

@@ -81,7 +81,7 @@ namespace CalamityFandom.Content.Items.Accessories
     /// the Elements, Gladiator's Locket et Howl's Heart de Calamity), dont la Rare Sand Elemental qui soigne ; les sbires
     /// infligent huit debuffs 3 s et font apparaître des membres squelettiques (660, Vulnerability Hex) au contact.
     /// [technique] Plague Elemental, Sulphur Elemental et Young Duke n'existent pas dans Calamity : absents.
-    /// [choix] « Demon Flames » = Brimstone Flames ; un membre squelettique au plus toutes les 30 images.
+    /// [choix] Un membre squelettique au plus toutes les 30 images (Demon Flames : debuff du wiki, lot BC).
     /// </summary>
     public class ZenithArcanum : WikiCovering
     {
@@ -195,7 +195,7 @@ namespace CalamityFandom.Content.Items.Accessories
 
         private static readonly Func<int>[] ZenithDebuffs =
         {
-            ModContent.BuffType<BrimstoneFlames>, () => BuffID.Electrified, ModContent.BuffType<TemporalSadness>, ModContent.BuffType<AstralInfectionDebuff>,
+            ModContent.BuffType<Buffs.DemonFlames>, () => BuffID.Electrified, ModContent.BuffType<TemporalSadness>, ModContent.BuffType<AstralInfectionDebuff>,
             ModContent.BuffType<Irradiated>, () => BuffID.ShadowFlame, ModContent.BuffType<SulphuricPoisoning>, ModContent.BuffType<HolyFlames>,
         };
 

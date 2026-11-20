@@ -22,8 +22,8 @@ namespace CalamityFandom.Content.Items.Accessories
     /// Tracers : compte comme des ailes (vitesse 15, accélération x3, vol infini), 15 défense, saut automatique, marche sur
     /// les liquides, fées entropiques en courant...
     /// [choix] Effets des deux ingrédients (fées et Moon Burnt des Lunarspectre) ; ailes : planche des Seraph Tracers en
-    /// attendant un sprite (docs/SPRITES.md). [technique] Pas faits : plongeon (bas deux fois), ruée en ombre, Umbrus Fumes
-    /// (pas de page), debuffs renforcés.
+    /// attendant un sprite (docs/SPRITES.md) ; « Umbrus Fumes » = Umbric Fumes, 3 s. [technique] Pas faits : plongeon (bas
+    /// deux fois), ruée en ombre, debuffs renforcés.
     /// </summary>
     public class ShadowspectreTracers : WikiCovering
     {
@@ -62,6 +62,7 @@ namespace CalamityFandom.Content.Items.Accessories
             player.runSlowdown *= 1.12f;
             // Vol infini
             player.wingTime = player.wingTimeMax;
+            player.GetModPlayer<Coverings1120bPlayer>().Shadowspectre = true;
         }
     }
 
@@ -135,9 +136,16 @@ namespace CalamityFandom.Content.Items.Accessories
 
     public class Coverings1120bPlayer : ModPlayer
     {
-        public bool Lootbox, Universal;
+        public bool Lootbox, Universal, Shadowspectre;
 
-        public override void ResetEffects() => Lootbox = Universal = false;
+        public override void ResetEffects() => Lootbox = Universal = Shadowspectre = false;
+
+        // Shadowspectre Tracers : toutes les attaques infligent Umbric Fumes (« Umbrus Fumes » de la page) [choix] 3 s
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            if (Shadowspectre)
+                target.AddBuff(ModContent.BuffType<Buffs.UmbricFumes>(), 180);
+        }
 
         public override void PostUpdateEquips()
         {
