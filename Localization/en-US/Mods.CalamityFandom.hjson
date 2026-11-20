@@ -4442,6 +4442,29 @@ Items: {
 			[c/FE581C:'You think you can be cool doing sick popsicle tricks like me? mmmm? mmmmm???']
 			'''
 	}
+	HornetRoundHelm: {
+		DisplayName: Hornet Round Helm
+		Tooltip:
+			'''
+			100% increased ranged damage, +80 max life and mana, all bullets convert into 22 hornet rounds.
+			'''
+	}
+
+	HornetRoundMantleplate: {
+		DisplayName: Hornet Round Mantleplate
+		Tooltip:
+			'''
+			100% increased summon damage, +80 max health and mana, +6 max minion slots.
+			'''
+	}
+
+	HornetRoundLeggings: {
+		DisplayName: Hornet Round Leggings
+		Tooltip:
+			'''
+			+60 max health and mana, 50% increased movement speed
+			'''
+	}
 }
 
 Projectiles: {
@@ -5280,6 +5303,9 @@ Projectiles: {
 	PopsicleShard: {
 		DisplayName: Ice Shard
 	}
+	AuricDwarf: {
+		DisplayName: Auric Dwarf
+	}
 }
 
 Shortstrike.Gauge:
@@ -5764,6 +5790,10 @@ Buffs: {
 			Stiriatic Walkie (:
 			'''
 	}
+	AuricDwarfsBuff: {
+		DisplayName: Auric Dwarfs
+		Description: 22 Auric Dwarfs are defending you.
+	}
 }
 
 Modes: {
@@ -6104,6 +6134,12 @@ WikiArmor: {
 		'''
 	Elderstone: Creates a Xeroc Eye's Clone that fights for you
 	Frozen: Press Armor Set Bonus to create an ice shield that parries attacks. Failing to parry will cause you to overcool.
+	HornetRound:
+		'''
+		Generates 22 auric dwarfs that defend you
+		Press Armor Set Bonus to become a hornet that stops summoning dwarfs but can fly incredibly fast
+		Standing still grants +2 life regen
+		'''
 }
 
 TaintedPotions: {

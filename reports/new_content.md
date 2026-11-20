@@ -1342,7 +1342,7 @@ _Généré par `tools/wiki_index.py`._ Pages avec infobox dont le titre ne corre
 - [x] Frozen Armor
 - [x] Gel Armor
 - [ ] Hadopelagic armor
-- [ ] Hornet Round Armor — addon: Calamity: Tales of the Aquatic
+- [x] Hornet Round Armor — addon: Calamity: Tales of the Aquatic
 - [ ] Horseslime armor — pas de sprite; addon: Deimos, the Starborn Princess
 - [ ] Prototype Armor — addon: Calamity: Tales of the Aquatic
 - [ ] Reaver Helmet

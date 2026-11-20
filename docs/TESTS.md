@@ -1127,6 +1127,10 @@ géant immobile, 1 million de PV, ne meurt jamais, neutre à tous les éléments
       mana plein : moitié de la vie, vagues ; dans l'eau sous 40 défense : perte de vie), Omega Ray (5 rayons ; clic droit),
       Flame Boy Popsicle (ramasser l'esquimau après un coup : rang D → U affiché, explosions, tourbillon, éclats)
 
+- [ ] Lot AW : Hornet Round armor complète : 22 nains autour du joueur (les petits foncent, les grands tirent), les balles
+      deviennent des 22 Hornet Rounds (casque), touche de bonus d'armure : frelon qui vole partout, les nains disparaissent ;
+      +2 de régénération à l'arrêt
+
 ## Décisions en attente (pas des tests)
 
 - **Récompenses du Taming** (31/10) : 2 propositions par récompense dans `docs/decisions.md` (section Taming).

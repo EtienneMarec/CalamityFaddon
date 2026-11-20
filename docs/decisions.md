@@ -2462,6 +2462,14 @@ Balla, Cosmic Elemental, ennemis de surface, ennemis mécaniques) : WikiLoot les
 - **[choix]** Flame Boy Popsicle : un esquimau à la fois, perdu (rang remis à zéro) s'il n'est pas ramassé en 5 s ;
   tourbillon de 200 px (300 en S+) ; 6 éclats au rang U ; dégâts et critique du rang en cours (tableau de la page).
 
+### Lot AW du 20/11 : Hornet Round armor (`Content/Items/Armor/WikiArmorSets1120.cs`)
+
+- **[technique]** Rendu porté provisoire : armure Auric Tesla de Calamity (le wiki n'a que les icônes, `docs/SPRITES.md`).
+- **[choix]** 22 nains auriques sans place de sbire, 300 dégâts d'invocation de base, en cercle autour du joueur ; les grands
+  tirent un 22 Hornet Round toutes les 45 images. Frelon (touche de bonus d'armure) : 20 px par image dans la direction
+  des touches, sans gravité ni dégâts de chute ; le joueur est dessiné en frelon (image « Hornet » de la page).
+  **[technique]** Forme de frelon non synchronisée en multijoueur.
+
 ### Blocs fabriqués (20/11, `tools/gen_items.py`)
 
 - **[technique]** Les blocs qu'une recette du wiki fabrique et dont le wiki montre le bloc posé sont générés comme les

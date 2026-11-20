@@ -2,7 +2,7 @@
 
 _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.json`._
 
-- 1808 objets dont les recettes ont changé : 1052 recettes modifiées, 869 créées
+- 1811 objets dont les recettes ont changé : 1052 recettes modifiées, 872 créées
 - 29 recettes du jeu absentes du wiki conservées (ex. recettes inverses mur → bloc) ; désactivées en Full Fandom
 - 357 recettes du wiki déjà identiques au jeu
 - 66 transmutations Shimmer ajoutées
@@ -847,6 +847,9 @@ _Généré par l'auto-test (`tools/selftest.py`) à partir de `WikiData/recipes.
 | Holy Wrath Potion | (nouvelle) | 1 Bottled Water, 4 Unholy Core, 1 Unholy Essence @ AlchemyTable → 1 |
 | Honey Dew | 10 Bottled Honey, 3 Bee Wax, 6 Jungle Spores @ Anvils → 1 | 1 Living Dew, 10 Bottled Honey, 3 Beetle Juice, 2 Trapper Bulb, 1 Butterfly Dust @ MythrilAnvil → 1 |
 | Hook of Dissonance | (nouvelle) | 1 Diamond Hook, 10 Soul of Light, 5 Cryonic Bar, 10 Crystal Shard @ MythrilAnvil → 1 |
+| Hornet Round Helm | (nouvelle) | 22 22 Hornet Round, 1 Klepticoin, 22 Abyss Bar, 22 Soul of Plight @ AquaticHypercomputerERM → 1 |
+| Hornet Round Leggings | (nouvelle) | 22 22 Hornet Round, 1 Klepticoin, 22 Abyss Bar, 22 Soul of Plight @ AquaticHypercomputerERM → 1 |
+| Hornet Round Mantleplate | (nouvelle) | 22 22 Hornet Round, 1 Klepticoin, 22 Abyss Bar, 22 Soul of Plight @ AquaticHypercomputerERM → 1 |
 | Hunter Potion | (nouvelle) | 1 Bottled Water, 1 Unholy Core @ AlchemyTable → 1 |
 | Hydra | 1 Quad-Barrel Shotgun, 25 Nanites, 25 Vial of Venom @ MythrilAnvil → 1 | 1 Shotgun, 20 Any Iron Bar, 1 Illegal Gun Parts, 20 Ectoplasm @ MythrilAnvil → 1 |
 | Hydrothermic Armor | 20 Abyss Bar @ MythrilAnvil → 1 | 15 Abyss Bar, 8 Hellstone Bar, 3 Core of Chaos, 5 Grandiose Gland @ MythrilAnvil → 1 |
